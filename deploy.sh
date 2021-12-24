@@ -1,5 +1,3 @@
-
-
 # 确保脚本抛出遇到的错误
 set -e
 
@@ -10,7 +8,7 @@ npm run docs:build
 # deploy to github
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
-  githubUrl=git@github.com:xugaoyi/vuepress-theme-vdoing.git
+  githubUrl=git@github.com:540765/CYR.git
 else
   msg='来自github actions的自动部署'
   githubUrl=https://540765:${GITHUB_TOKEN}@github.com/540765/CYR.git
@@ -19,12 +17,13 @@ else
 fi
 git init
 git add .
-git commit -m 'deploy'
-# git remote add origin https://[用户名]:[密码]@gitee.com/claa/vuepress-theme-vdoing.git
+git commit -m '更新'
+#这里我没有再去关联仓库，需要的请手动补上，
+# git remote add origin https://[用户名]:[密码]@gitee.com/540765/CYR.git
 git push -u origin master -f
 git push -u origin master
 
-#git push -f git@gitee.com:claa/vuepress-theme-vdoing.git master:gh-pages
+#git push -f git@gitee.com:chen_qi/chen_qi.git master:gh-pages
 
 
 cd - # 退回开始所在目录
