@@ -1,1 +1,0 @@
-import{o as e,a as t}from"./app.c4c9233b.js";import{_ as a}from"./plugin-vue_export-helper.21dcd24c.js";const r={name:"MyTemplate",data(){return{message:"\u81EA\u5B9A\u4E49\u7EC4\u4EF6"}}},s={class:"mytemplate"};function p(_,o,c,n,l,m){return e(),t("div",s)}var u=a(r,[["render",p]]);export{u as default};

@@ -1,1 +1,0 @@
-import{r as o,o as c,c as r}from"./app.c4c9233b.js";import{_ as t}from"./plugin-vue_export-helper.21dcd24c.js";const n={};function p(a,s){const e=o("MyTemplate");return c(),r(e)}var l=t(n,[["render",p]]);export{l as default};

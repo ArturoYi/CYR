@@ -1,7 +1,7 @@
 <h1 align="center">IU</h1>
 
-基于vuepress.2x构建，很多朋友会选择更快速的 Gitee Pages 部署项目，但是它不像 GitHub Pages 那样，一提交代码就能自动更新 Pages，这里你可以参考[yanglbme](https://github.com/yanglbme)开发的[Gitee Pages Action](https://github.com/marketplace/actions/gitee-pages-action)，注：首次需要**手动**登录 Gitee ，点击“启动”进行 Gitee Pages 服务的部署。
-## 构键
+基于vuepress.2x构建的静态文档项目，很多朋友会选择更快速的 Gitee Pages 部署项目，但是它不像 GitHub Pages 那样，一提交代码就能自动更新 Pages，这里你可以参考[yanglbme](https://github.com/yanglbme)开发的[Gitee Pages Action](https://github.com/marketplace/actions/gitee-pages-action)，注：首次需要**手动**登录 Gitee ，点击“启动”进行 Gitee Pages 服务的部署。
+## 1.构键
 你可以从一个主题入手：先构键自己的项目。
 这里推荐你两个主题(点击logo查看)：
 <p align="center">
@@ -16,8 +16,8 @@
 
 使用感受：<br/>
 1.[vuepress-theme-reco](https://github.com/vuepress-reco/vuepress-theme-reco)，是一款优秀且活跃的主题，如果你喜欢动手，非常值得尝试，自定义程度高，相信不少人都在此主题上魔改，此主题作者也一直在更新，紧跟vuepress2.x的2.x尝鲜版本也已经可以体验，冲冲冲。<br/>
-2.[vuepress-theme-voding](https://github.com/xugaoyi/vuepress-theme-vdoing)，支持个性化博客配置，可能首次使用比较慢，但你弄懂后会发现它十分完善且功能齐全，适合开箱即用。但如果你想基于此主题增加自定义修改会相对困难。
-## 你想开箱即用
+2.[vuepress-theme-voding](https://github.com/xugaoyi/vuepress-theme-vdoing)，支持个性化博客配置，可能首次使用上手比较慢，但你弄懂后会发现它十分完善且功能齐全，可以开箱即用。但如果你想基于此主题增加自定义修改会相对困难。
+## 2.开箱即用（下面为部署，请先构建好你的项目）
 
 <p align="center">
   <a href="https://github.com/yanglbme/gitee-pages-action">
@@ -62,7 +62,7 @@
           分支：主要
 ```
 
-## 根据需要修改参数
+## 3.根据需要修改参数
 
 | 参数 | 描述 | 是否必传 | 默认值 | 示例 |
 | ---------------- | ----------------------------- | -------- | -------- | ------------------------------- |
@@ -122,7 +122,7 @@ Run yanglbme/gitee-pages-action@main
 
 <img src="https://cdn.jsdelivr.net/gh/yanglbme/gitee-pages-action@main/images/wechat_notification.jpg" alt="add_ssh_key_gitee" style="width: 750px; height: 1334px;" />
 
-## 错误及解决方案
+## 4.错误及解决方案
 | #   | 错误 |              解决方案            |
 | --- | ----------- | ------------|
 | 1   | Error: Wrong username or password, login failed .  | 帐号或密码错误，请检查参数 `gitee-username`、`gitee-password`是否准确配置。  |
@@ -136,7 +136,7 @@ Run yanglbme/gitee-pages-action@main
 | 9   | git@github.com: Permission denied (publickey).<br>fatal: Could not read from remote repository.<br>Please make sure you have the correct access rights and the repository exists..                                                                                                                                                                     | SSH 公私钥配置有问题，或是使用了带密码的私钥，请参照上文提及的密钥配置步骤进行相应配置。[#29](https://github.com/yanglbme/gitee-pages-action/issues/29) |
 | 10  | Hexo Gitee Pages 自动部署站点问题。                                                                                                                                                                                                                                                                                                                    | [@No5972](https://github.com/No5972) 详细给出了一种解决方案。[#34](https://github.com/yanglbme/gitee-pages-action/issues/34)                            |
 | ...... | ......   |......|
-## 自动打包部署
+## 5.自动打包部署
 
 这个文件非必须，完成上面部署你只需要要很简单就可以完成部署，下面是更进一步。
 在你项目根目录下新建文件：`deploy.sh`,

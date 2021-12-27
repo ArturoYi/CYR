@@ -4,26 +4,20 @@ import type { DefaultThemeOptions } from 'vuepress'
 
 export default defineUserConfig<DefaultThemeOptions>({
     // module.exports = {
-    host: 'localhost', // ip
+    // host: 'localhost', // ip
     port: 8099, //端口号
     title: 'IUUI', // 设置网站标题
     description: 'IUUI',
     base: '/', //默认路径
+    debug: true,
     lang: 'zh-CN',
     head: [
         // 设置 favor.ico，docs/.vuepress/public 下
         [
-            'link', { rel: 'icon', href: '/images/dark-logo.png' }
+            'link', { rel: 'icon', href: '/images/favicon.ico' }
         ],
-        /**
-         *  [
-            'script', {type: 'text/javascript', src: '/js/base.js'}
-        ]
-         */
     ],
     themeConfig: {// 主题设置
-        //
-        repo: '540765',
         /**
          * 下面很多都要你自己配置
          */
@@ -32,7 +26,7 @@ export default defineUserConfig<DefaultThemeOptions>({
         search: true,//搜索框
         editLink: false,//全局编辑此页
         // displayAllHeaders: true,//
-        logo: '/images/logo.png',// 注意图片放在 public 文件夹下
+        logo: '/images/favicon.ico',// 注意图片放在 public 文件夹下
         navbar: [
             {// 右上导航航条 docs/.vuepress/README.md
                 text: '首页',
@@ -41,11 +35,36 @@ export default defineUserConfig<DefaultThemeOptions>({
             {
                 text: '前端',
                 children: [
-                    { text: 'vue', link: '/web/vue/text1.md' }, // 可不写后缀 .md
-                    { text: 'html', link: '/web/html/text1.md' },// 外部链接
-                    { text: 'css', link: 'https://www.baidu.com/' },// 外部链接
-                    { text: 'JavaScript', link: 'https://www.baidu.com/' },// 外部链接
-                    { text: 'ES6', link: 'https://www.baidu.com/' },
+                    {
+                        text: 'vue',
+                        children: [
+                            { text: 'vue1', link: '/web/vue/text1.md' },
+                        ],
+                    }, // 可不写后缀 .md
+                    {
+                        text: 'html',
+                        children: [
+                            { text: 'html1', link: '/web/html/text1.md' }
+                        ]
+                    },// 外部链接
+                    {
+                        text: 'css',
+                        children: [
+                            { text: 'CSS1', link: 'https://www.baidu.com/' },
+                        ],
+                    },// 外部链接
+                    {
+                        text: 'JavaScript',
+                        children: [
+                            { text: 'JavaScript', link: 'https://www.baidu.com/' },
+                        ],
+                    },// 外部链接
+                    {
+                        text: 'ES6',
+                        children: [
+                            { text: 'ES6', link: 'https://www.baidu.com/' },
+                        ],
+                    },
                 ]
             },
             {

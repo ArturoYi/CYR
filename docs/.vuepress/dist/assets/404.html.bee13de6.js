@@ -1,1 +1,7 @@
-import{_ as e}from"./plugin-vue_export-helper.21dcd24c.js";const r={};function _(c,t){return null}var o=e(r,[["render",_]]);export{o as default};
+import { _ as _export_sfc } from "./plugin-vue_export-helper.21dcd24c.js";
+const _sfc_main = {};
+function _sfc_render(_ctx, _cache) {
+  return null;
+}
+var _404_html = /* @__PURE__ */ _export_sfc(_sfc_main, [["render", _sfc_render]]);
+export { _404_html as default };
