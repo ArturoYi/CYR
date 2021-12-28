@@ -56,7 +56,7 @@ export default defineUserConfig<DefaultThemeOptions>({
                     {
                         text: 'JavaScript',
                         children: [
-                            { text: 'JavaScript', link: 'https://www.baidu.com/' },
+                            { text: '《JavaScript教程》', link: '/web/JavaScript/入门导论.md' },
                         ],
                     },// 外部链接
                     {
@@ -93,7 +93,7 @@ export default defineUserConfig<DefaultThemeOptions>({
                 {
                     text: '面试',
                     children: [
-                        '/guide/面试/text.md'
+                        'text.md'
                     ],
                 },
             ],
@@ -101,8 +101,8 @@ export default defineUserConfig<DefaultThemeOptions>({
                 {
                     text: '标题',
                     children: [
-                        '/web/vue/text2.md',
-                        '/web/vue/text1.md'
+                        'text2.md',
+                        'text1.md'
                     ],
                 },
             ],
@@ -114,6 +114,15 @@ export default defineUserConfig<DefaultThemeOptions>({
                         '/web/html/text1.md'
                     ],
                 },
+            ],
+            '/web/JavaScript/':[
+                {
+                    text:'《JavaScript教程》',
+                    children:[
+                        '入门导论.md',
+                        '数据类型.md'
+                    ]
+                }
             ],
             // fallback 侧边栏被最后定义
             '/': [''], //不能放在数组第一个，否则会导致右侧栏无法使用 

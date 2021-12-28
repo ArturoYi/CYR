@@ -15,12 +15,12 @@ const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": 1640251957e3,
+    "updatedTime": 1640602916e3,
     "contributors": [
       {
         "name": "\u9648\u67D2",
         "email": "3062995371@qq.com",
-        "commits": 2
+        "commits": 3
       }
     ]
   },
