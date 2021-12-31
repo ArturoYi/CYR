@@ -5,7 +5,7 @@ import type { DefaultThemeOptions } from 'vuepress'
 export default defineUserConfig<DefaultThemeOptions>({
     // module.exports = {
     // host: 'localhost', // ip
-    port: 8099, //端口号
+    port: 9779, //端口号
     title: 'IUUI', // 设置网站标题
     description: 'IUUI',
     base: '/', //默认路径
@@ -38,7 +38,11 @@ export default defineUserConfig<DefaultThemeOptions>({
                     {
                         text: 'vue',
                         children: [
-                            { text: 'vue1', link: '/web/vue/text1.md' },
+                            { text: 'vue2 & vue3', link: '/web/vue/01.md' },
+                            { text: 'vue_cli', link: '/web/vue/01.md' },
+                            { text: 'vuex和vueRouter', link: '/web/vue/01.md' },
+                            { text: 'vuepress', link: '/web/vue/01.md' },
+                            { text: 'vite', link: '/web/vue/01.md' },
                         ],
                     }, // 可不写后缀 .md
                     {
@@ -101,6 +105,7 @@ export default defineUserConfig<DefaultThemeOptions>({
                 {
                     text: '标题',
                     children: [
+                        '01.md',
                         'text2.md',
                         'text1.md'
                     ],
@@ -120,7 +125,9 @@ export default defineUserConfig<DefaultThemeOptions>({
                     text:'《JavaScript教程》',
                     children:[
                         '入门导论.md',
-                        '数据类型.md'
+                        '数据类型与运算符.md',
+                        '语法基础.md',
+                        '内置对象.md',
                     ]
                 }
             ],

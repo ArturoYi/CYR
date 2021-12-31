@@ -1,4 +1,4 @@
-import { o as openBlock, c as createElementBlock } from "./app.ff5e6f05.js";
+import { o as openBlock, c as createElementBlock } from "./app.a6f06224.js";
 import { _ as _export_sfc } from "./plugin-vue_export-helper.21dcd24c.js";
 var MyTemplate_vue_vue_type_style_index_0_lang = "";
 const _sfc_main = {

@@ -37,8 +37,14 @@ const data = {
     }
   ],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1640689264e3,
+    "contributors": [
+      {
+        "name": "\u9648\u67D2",
+        "email": "3062995371@qq.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "web/JavaScript/\u5165\u95E8\u5BFC\u8BBA.md"
 };

@@ -4,10 +4,13 @@ set -e
 # 生成静态文件_
 npm run docs:build
 
+# 进入生成的文件夹
+
+
 #验证你是否关联仓库
 # deploy to github
 if [ -z "$GITHUB_TOKEN" ]; then
-  msg='deploy'
+  msg='关联部署'
   githubUrl=git@github.com:540765/CYR.git
 else
   msg='来自github actions的自动部署'
@@ -17,7 +20,7 @@ else
 fi
 git init
 git add .
-git commit -m '更新'
+git commit -m "${msg}"
 #这里我没有再去关联仓库，需要的请手动补上，
 # git remote add origin https://[用户名]:[密码]@gitee.com/540765/CYR.git
 git push -u origin master -f

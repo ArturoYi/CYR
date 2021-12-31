@@ -6929,52 +6929,64 @@ const __vitePreload = function preload(baseModule, deps) {
 const pagesComponents = {
   "v-8daa1a0e": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-8daa1a0e" */
-    "./index.html.504c7800.js"
-  ), true ? ["assets/index.html.504c7800.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./index.html.2787160d.js"
+  ), true ? ["assets/index.html.2787160d.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-6e6848ee": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-6e6848ee" */
-    "./text1.html.51837d36.js"
-  ), true ? ["assets/text1.html.51837d36.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./text1.html.8c03ad30.js"
+  ), true ? ["assets/text1.html.8c03ad30.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-3803ce0e": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-3803ce0e" */
-    "./text.html.3f7b78b2.js"
-  ), true ? ["assets/text.html.3f7b78b2.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./text.html.15033682.js"
+  ), true ? ["assets/text.html.15033682.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-9b98914c": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-9b98914c" */
-    "./text.html.c9dccc72.js"
-  ), true ? ["assets/text.html.c9dccc72.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
-  "v-6e7820a0": defineAsyncComponent(() => __vitePreload(() => import(
-    /* webpackChunkName: "v-6e7820a0" */
-    "./text.html.ed893f63.js"
-  ), true ? ["assets/text.html.ed893f63.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./text.html.762ae497.js"
+  ), true ? ["assets/text.html.762ae497.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-74ac52d9": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-74ac52d9" */
-    "./text.html.1f208e6c.js"
-  ), true ? ["assets/text.html.1f208e6c.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./text.html.f538b25d.js"
+  ), true ? ["assets/text.html.f538b25d.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+  "v-6e7820a0": defineAsyncComponent(() => __vitePreload(() => import(
+    /* webpackChunkName: "v-6e7820a0" */
+    "./text.html.f58b378d.js"
+  ), true ? ["assets/text.html.f58b378d.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-89e39176": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-89e39176" */
-    "./text1.html.4ba043e1.js"
-  ), true ? ["assets/text1.html.4ba043e1.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./text1.html.1230861d.js"
+  ), true ? ["assets/text1.html.1230861d.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-8679e038": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-8679e038" */
-    "./text2.html.abd6af95.js"
-  ), true ? ["assets/text2.html.abd6af95.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./text2.html.f6aa871e.js"
+  ), true ? ["assets/text2.html.f6aa871e.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-72bd4e03": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-72bd4e03" */
-    "./\u5165\u95E8\u5BFC\u8BBA.html.cee62384.js"
-  ), true ? ["assets/入门导论.html.cee62384.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
-  "v-7e09a6ba": defineAsyncComponent(() => __vitePreload(() => import(
-    /* webpackChunkName: "v-7e09a6ba" */
-    "./\u6570\u636E\u7C7B\u578B.html.51fcf4ad.js"
-  ), true ? ["assets/数据类型.html.51fcf4ad.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./\u5165\u95E8\u5BFC\u8BBA.html.80508a40.js"
+  ), true ? ["assets/入门导论.html.80508a40.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+  "v-783b80d4": defineAsyncComponent(() => __vitePreload(() => import(
+    /* webpackChunkName: "v-783b80d4" */
+    "./\u5185\u7F6E\u5BF9\u8C61.html.0275b134.js"
+  ), true ? ["assets/内置对象.html.0275b134.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+  "v-5debe7e1": defineAsyncComponent(() => __vitePreload(() => import(
+    /* webpackChunkName: "v-5debe7e1" */
+    "./\u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26.html.68f94936.js"
+  ), true ? ["assets/数据类型与运算符.html.68f94936.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+  "v-24f06668": defineAsyncComponent(() => __vitePreload(() => import(
+    /* webpackChunkName: "v-24f06668" */
+    "./\u8BED\u6CD5\u57FA\u7840.html.c803c935.js"
+  ), true ? ["assets/语法基础.html.c803c935.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+  "v-e9674cca": defineAsyncComponent(() => __vitePreload(() => import(
+    /* webpackChunkName: "v-e9674cca" */
+    "./01.html.bd62ef30.js"
+  ), true ? ["assets/01.html.bd62ef30.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-576d49b2": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-576d49b2" */
-    "./text1.html.3e5d011a.js"
-  ), true ? ["assets/text1.html.3e5d011a.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./text1.html.05789672.js"
+  ), true ? ["assets/text1.html.05789672.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-59222251": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-59222251" */
-    "./text2.html.8e26fd3f.js"
-  ), true ? ["assets/text2.html.8e26fd3f.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./text2.html.d520226f.js"
+  ), true ? ["assets/text2.html.d520226f.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-3706649a": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-3706649a" */
     "./404.html.bee13de6.js"
@@ -6983,7 +6995,7 @@ const pagesComponents = {
 const pagesData$1 = {
   "v-8daa1a0e": () => __vitePreload(() => import(
     /* webpackChunkName: "v-8daa1a0e" */
-    "./index.html.f6a0785c.js"
+    "./index.html.0a201f73.js"
   ), true ? [] : void 0).then(({ data }) => data),
   "v-6e6848ee": () => __vitePreload(() => import(
     /* webpackChunkName: "v-6e6848ee" */
@@ -6997,13 +7009,13 @@ const pagesData$1 = {
     /* webpackChunkName: "v-9b98914c" */
     "./text.html.8f4927c7.js"
   ), true ? [] : void 0).then(({ data }) => data),
-  "v-6e7820a0": () => __vitePreload(() => import(
-    /* webpackChunkName: "v-6e7820a0" */
-    "./text.html.b08e7a0a.js"
-  ), true ? [] : void 0).then(({ data }) => data),
   "v-74ac52d9": () => __vitePreload(() => import(
     /* webpackChunkName: "v-74ac52d9" */
     "./text.html.d0a3985a.js"
+  ), true ? [] : void 0).then(({ data }) => data),
+  "v-6e7820a0": () => __vitePreload(() => import(
+    /* webpackChunkName: "v-6e7820a0" */
+    "./text.html.b08e7a0a.js"
   ), true ? [] : void 0).then(({ data }) => data),
   "v-89e39176": () => __vitePreload(() => import(
     /* webpackChunkName: "v-89e39176" */
@@ -7015,11 +7027,23 @@ const pagesData$1 = {
   ), true ? [] : void 0).then(({ data }) => data),
   "v-72bd4e03": () => __vitePreload(() => import(
     /* webpackChunkName: "v-72bd4e03" */
-    "./\u5165\u95E8\u5BFC\u8BBA.html.23e98a5d.js"
+    "./\u5165\u95E8\u5BFC\u8BBA.html.24a93d0a.js"
   ), true ? [] : void 0).then(({ data }) => data),
-  "v-7e09a6ba": () => __vitePreload(() => import(
-    /* webpackChunkName: "v-7e09a6ba" */
-    "./\u6570\u636E\u7C7B\u578B.html.342255c3.js"
+  "v-783b80d4": () => __vitePreload(() => import(
+    /* webpackChunkName: "v-783b80d4" */
+    "./\u5185\u7F6E\u5BF9\u8C61.html.6da3cce2.js"
+  ), true ? [] : void 0).then(({ data }) => data),
+  "v-5debe7e1": () => __vitePreload(() => import(
+    /* webpackChunkName: "v-5debe7e1" */
+    "./\u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26.html.c516bc99.js"
+  ), true ? [] : void 0).then(({ data }) => data),
+  "v-24f06668": () => __vitePreload(() => import(
+    /* webpackChunkName: "v-24f06668" */
+    "./\u8BED\u6CD5\u57FA\u7840.html.c4544176.js"
+  ), true ? [] : void 0).then(({ data }) => data),
+  "v-e9674cca": () => __vitePreload(() => import(
+    /* webpackChunkName: "v-e9674cca" */
+    "./01.html.9e25e566.js"
   ), true ? [] : void 0).then(({ data }) => data),
   "v-576d49b2": () => __vitePreload(() => import(
     /* webpackChunkName: "v-576d49b2" */
@@ -7281,11 +7305,11 @@ Content.props = {
 const layoutComponents = {
   "404": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "layout-404" */
-    "./404.914cd5a3.js"
+    "./404.06409bec.js"
   ), true ? [] : void 0)),
   "Layout": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "layout-Layout" */
-    "./Layout.b79c86e5.js"
+    "./Layout.2ea5d6e9.js"
   ), true ? [] : void 0))
 };
 const Vuepress = defineComponent({
@@ -7838,8 +7862,24 @@ const themeData$1 = {
           "text": "vue",
           "children": [
             {
-              "text": "vue1",
-              "link": "/web/vue/text1.md"
+              "text": "vue2 & vue3",
+              "link": "/web/vue/01.md"
+            },
+            {
+              "text": "vue_cli",
+              "link": "/web/vue/01.md"
+            },
+            {
+              "text": "vuex\u548CvueRouter",
+              "link": "/web/vue/01.md"
+            },
+            {
+              "text": "vuepress",
+              "link": "/web/vue/01.md"
+            },
+            {
+              "text": "vite",
+              "link": "/web/vue/01.md"
             }
           ]
         },
@@ -7917,6 +7957,7 @@ const themeData$1 = {
       {
         "text": "\u6807\u9898",
         "children": [
+          "01.md",
           "text2.md",
           "text1.md"
         ]
@@ -7936,7 +7977,9 @@ const themeData$1 = {
         "text": "\u300AJavaScript\u6559\u7A0B\u300B",
         "children": [
           "\u5165\u95E8\u5BFC\u8BBA.md",
-          "\u6570\u636E\u7C7B\u578B.md"
+          "\u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26.md",
+          "\u8BED\u6CD5\u57FA\u7840.md",
+          "\u5185\u7F6E\u5BF9\u8C61.md"
         ]
       }
     ],
@@ -8574,7 +8617,7 @@ var clientAppEnhance3 = defineClientAppEnhance(({ app, router }) => {
   };
 });
 var clientAppEnhance4 = ({ app }) => {
-  app.component("MyTemplate", defineAsyncComponent(() => __vitePreload(() => import("./MyTemplate.ed7ed2e4.js"), true ? ["assets/MyTemplate.ed7ed2e4.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)));
+  app.component("MyTemplate", defineAsyncComponent(() => __vitePreload(() => import("./MyTemplate.7659d196.js"), true ? ["assets/MyTemplate.7659d196.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)));
 };
 const useHotKeys = ({ input, hotKeys: hotKeys2 }) => {
   const onKeydown = (event) => {
@@ -8595,7 +8638,14 @@ const useHotKeys = ({ input, hotKeys: hotKeys2 }) => {
 const searchIndex$1 = [
   {
     "title": "",
-    "headers": [],
+    "headers": [
+      {
+        "level": 3,
+        "title": "1\u30012\u30013",
+        "slug": "_1\u30012\u30013",
+        "children": []
+      }
+    ],
     "path": "/",
     "pathLocale": "/",
     "extraFields": []
@@ -8676,7 +8726,7 @@ const searchIndex$1 = [
         "children": []
       }
     ],
-    "path": "/guide/%E9%B8%A1%E6%B1%A4/text.html",
+    "path": "/guide/%E9%9D%A2%E8%AF%95/text.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -8696,7 +8746,7 @@ const searchIndex$1 = [
         "children": []
       }
     ],
-    "path": "/guide/%E9%9D%A2%E8%AF%95/text.html",
+    "path": "/guide/%E9%B8%A1%E6%B1%A4/text.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -8773,22 +8823,219 @@ const searchIndex$1 = [
     "extraFields": []
   },
   {
-    "title": "\u6570\u636E\u7C7B\u578B",
+    "title": "\u5185\u7F6E\u5BF9\u8C61",
     "headers": [
       {
         "level": 2,
-        "title": "3",
-        "slug": "_3",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4",
-        "slug": "_4",
+        "title": "Object \u5BF9\u8C61",
+        "slug": "object-\u5BF9\u8C61",
         "children": []
       }
     ],
-    "path": "/web/JavaScript/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.html",
+    "path": "/web/JavaScript/%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "\u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.\u6570\u636E\u7C7B\u578B",
+        "slug": "_1-\u6570\u636E\u7C7B\u578B",
+        "children": [
+          {
+            "level": 3,
+            "title": "null\u548Cundefined",
+            "slug": "null\u548Cundefined",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u5E03\u5C14\u503C\uFF08boolean\uFF09",
+            "slug": "\u5E03\u5C14\u503C-boolean",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u6570\u503C\uFF08Number\uFF09",
+            "slug": "\u6570\u503C-number",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u5B57\u7B26\uFF08String\uFF09",
+            "slug": "\u5B57\u7B26-string",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u5BF9\u8C61",
+            "slug": "\u5BF9\u8C61",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u51FD\u6570",
+            "slug": "\u51FD\u6570",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u6570\u7EC4",
+            "slug": "\u6570\u7EC4",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2.\u8FD0\u7B97\u7B26",
+        "slug": "_2-\u8FD0\u7B97\u7B26",
+        "children": [
+          {
+            "level": 3,
+            "title": "\u7B97\u672F\u8FD0\u7B97\u7B26",
+            "slug": "\u7B97\u672F\u8FD0\u7B97\u7B26",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u6BD4\u8F83\u8FD0\u7B97\u7B26",
+            "slug": "\u6BD4\u8F83\u8FD0\u7B97\u7B26",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u5E03\u5C14\u8FD0\u7B97\u7B26",
+            "slug": "\u5E03\u5C14\u8FD0\u7B97\u7B26",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u4E8C\u8FDB\u5236\u4F4D\u8FD0\u7B97\u7B26",
+            "slug": "\u4E8C\u8FDB\u5236\u4F4D\u8FD0\u7B97\u7B26",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u5176\u4ED6\u8FD0\u7B97\u7B26",
+            "slug": "\u5176\u4ED6\u8FD0\u7B97\u7B26",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/web/JavaScript/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E4%B8%8E%E8%BF%90%E7%AE%97%E7%AC%A6.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "\u8BED\u6CD5\u57FA\u7840",
+    "headers": [
+      {
+        "level": 2,
+        "title": "\u6570\u636E\u7C7B\u578B\u8F6C\u6362",
+        "slug": "\u6570\u636E\u7C7B\u578B\u8F6C\u6362",
+        "children": [
+          {
+            "level": 3,
+            "title": "\u5F3A\u5236\u8F6C\u6362",
+            "slug": "\u5F3A\u5236\u8F6C\u6362",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u81EA\u52A8\u8F6C\u6362",
+            "slug": "\u81EA\u52A8\u8F6C\u6362",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "\u9519\u8BEF\u5904\u7406\u673A\u5236",
+        "slug": "\u9519\u8BEF\u5904\u7406\u673A\u5236",
+        "children": [
+          {
+            "level": 3,
+            "title": "Error \u5B9E\u4F8B\u5BF9\u8C61",
+            "slug": "error-\u5B9E\u4F8B\u5BF9\u8C61",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u539F\u751F\u9519\u8BEF\u7C7B\u578B",
+            "slug": "\u539F\u751F\u9519\u8BEF\u7C7B\u578B",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u81EA\u5B9A\u4E49\u9519\u8BEF",
+            "slug": "\u81EA\u5B9A\u4E49\u9519\u8BEF",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "throw\u8BED\u53E5",
+            "slug": "throw\u8BED\u53E5",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "try...catch \u7ED3\u6784",
+            "slug": "try-catch-\u7ED3\u6784",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "finally \u4EE3\u7801\u5757",
+            "slug": "finally-\u4EE3\u7801\u5757",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "console \u5BF9\u8C61\u4E0E\u63A7\u5236\u53F0",
+        "slug": "console-\u5BF9\u8C61\u4E0E\u63A7\u5236\u53F0",
+        "children": [
+          {
+            "level": 3,
+            "title": "console \u5BF9\u8C61\u7684\u9759\u6001\u65B9\u6CD5",
+            "slug": "console-\u5BF9\u8C61\u7684\u9759\u6001\u65B9\u6CD5",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u63A7\u5236\u53F0\u547D\u4EE4\u884C API",
+            "slug": "\u63A7\u5236\u53F0\u547D\u4EE4\u884C-api",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "debugger \u8BED\u53E5",
+            "slug": "debugger-\u8BED\u53E5",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/web/JavaScript/%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "vue\u4ECB\u7ECD",
+    "headers": [
+      {
+        "level": 2,
+        "title": "\u524D\u7F6E\u5B66\u4E60",
+        "slug": "\u524D\u7F6E\u5B66\u4E60",
+        "children": []
+      }
+    ],
+    "path": "/web/vue/01.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -9512,12 +9759,15 @@ const routeItems = [
   ["v-6e6848ee", "/web/text1.html", { "title": "\u9875\u9762\u7684\u6807\u9898" }, ["/web/text1", "/web/text1.md"]],
   ["v-3803ce0e", "/guide/%E6%95%99%E7%A8%8B/text.html", { "title": "1a" }, ["/guide/\u6559\u7A0B/text.html", "/guide/%E6%95%99%E7%A8%8B/text", "/guide/\u6559\u7A0B/text.md", "/guide/%E6%95%99%E7%A8%8B/text.md"]],
   ["v-9b98914c", "/guide/%E9%9A%8F%E7%AC%94/text.html", { "title": "1a" }, ["/guide/\u968F\u7B14/text.html", "/guide/%E9%9A%8F%E7%AC%94/text", "/guide/\u968F\u7B14/text.md", "/guide/%E9%9A%8F%E7%AC%94/text.md"]],
-  ["v-6e7820a0", "/guide/%E9%B8%A1%E6%B1%A4/text.html", { "title": "1a" }, ["/guide/\u9E21\u6C64/text.html", "/guide/%E9%B8%A1%E6%B1%A4/text", "/guide/\u9E21\u6C64/text.md", "/guide/%E9%B8%A1%E6%B1%A4/text.md"]],
   ["v-74ac52d9", "/guide/%E9%9D%A2%E8%AF%95/text.html", { "title": "1a" }, ["/guide/\u9762\u8BD5/text.html", "/guide/%E9%9D%A2%E8%AF%95/text", "/guide/\u9762\u8BD5/text.md", "/guide/%E9%9D%A2%E8%AF%95/text.md"]],
+  ["v-6e7820a0", "/guide/%E9%B8%A1%E6%B1%A4/text.html", { "title": "1a" }, ["/guide/\u9E21\u6C64/text.html", "/guide/%E9%B8%A1%E6%B1%A4/text", "/guide/\u9E21\u6C64/text.md", "/guide/%E9%B8%A1%E6%B1%A4/text.md"]],
   ["v-89e39176", "/web/html/text1.html", { "title": "html\u6807\u9898" }, ["/web/html/text1", "/web/html/text1.md"]],
   ["v-8679e038", "/web/html/text2.html", { "title": "html2\u6807\u9898" }, ["/web/html/text2", "/web/html/text2.md"]],
   ["v-72bd4e03", "/web/JavaScript/%E5%85%A5%E9%97%A8%E5%AF%BC%E8%AE%BA.html", { "title": "\u5165\u95E8\u5BFC\u8BBA" }, ["/web/JavaScript/\u5165\u95E8\u5BFC\u8BBA.html", "/web/JavaScript/%E5%85%A5%E9%97%A8%E5%AF%BC%E8%AE%BA", "/web/JavaScript/\u5165\u95E8\u5BFC\u8BBA.md", "/web/JavaScript/%E5%85%A5%E9%97%A8%E5%AF%BC%E8%AE%BA.md"]],
-  ["v-7e09a6ba", "/web/JavaScript/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.html", { "title": "\u6570\u636E\u7C7B\u578B" }, ["/web/JavaScript/\u6570\u636E\u7C7B\u578B.html", "/web/JavaScript/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B", "/web/JavaScript/\u6570\u636E\u7C7B\u578B.md", "/web/JavaScript/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.md"]],
+  ["v-783b80d4", "/web/JavaScript/%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1.html", { "title": "\u5185\u7F6E\u5BF9\u8C61" }, ["/web/JavaScript/\u5185\u7F6E\u5BF9\u8C61.html", "/web/JavaScript/%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1", "/web/JavaScript/\u5185\u7F6E\u5BF9\u8C61.md", "/web/JavaScript/%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1.md"]],
+  ["v-5debe7e1", "/web/JavaScript/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E4%B8%8E%E8%BF%90%E7%AE%97%E7%AC%A6.html", { "title": "\u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26" }, ["/web/JavaScript/\u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26.html", "/web/JavaScript/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E4%B8%8E%E8%BF%90%E7%AE%97%E7%AC%A6", "/web/JavaScript/\u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26.md", "/web/JavaScript/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E4%B8%8E%E8%BF%90%E7%AE%97%E7%AC%A6.md"]],
+  ["v-24f06668", "/web/JavaScript/%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80.html", { "title": "\u8BED\u6CD5\u57FA\u7840" }, ["/web/JavaScript/\u8BED\u6CD5\u57FA\u7840.html", "/web/JavaScript/%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80", "/web/JavaScript/\u8BED\u6CD5\u57FA\u7840.md", "/web/JavaScript/%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80.md"]],
+  ["v-e9674cca", "/web/vue/01.html", { "title": "vue\u4ECB\u7ECD" }, ["/web/vue/01", "/web/vue/01.md"]],
   ["v-576d49b2", "/web/vue/text1.html", { "title": "vue\u6807\u9898" }, ["/web/vue/text1", "/web/vue/text1.md"]],
   ["v-59222251", "/web/vue/text2.html", { "title": "vue2\u6807\u9898" }, ["/web/vue/text2", "/web/vue/text2.md"]],
   ["v-3706649a", "/404.html", {}, ["/404"]]
@@ -9622,4 +9872,4 @@ const createVueApp = async () => {
     });
   });
 }
-export { useDarkMode as A, isArray as B, withBase as C, renderList as D, normalizeClass as E, Fragment as F, removeLeadingSlash as G, removeEndingSlash as H, ref as I, watch as J, withDirectives as K, vShow as L, useRouter as M, isString$1 as N, useNavLink as O, onMounted as P, normalizeStyle as Q, usePageData as R, useSidebarItems as S, Transition as T, isPlainObject as U, h as V, onUnmounted as W, useScrollPromise as X, createBaseVNode as a, createTextVNode as b, createElementBlock as c, createVueApp, createVNode as d, createStaticVNode as e, defineComponent as f, useThemeLocaleData as g, unref as h, useRoute as i, toRefs as j, computed as k, createBlock as l, mergeProps as m, renderSlot as n, openBlock as o, createCommentVNode as p, isLinkHttp as q, resolveComponent as r, isLinkMailto as s, toDisplayString as t, useRouteLocale as u, isLinkTel as v, withCtx as w, useSiteData as x, usePageFrontmatter as y, useSiteLocaleData as z };
+export { useDarkMode as A, isArray as B, withBase as C, renderList as D, normalizeClass as E, Fragment as F, removeLeadingSlash as G, removeEndingSlash as H, ref as I, watch as J, withDirectives as K, vShow as L, useRouter as M, isString$1 as N, useNavLink as O, onMounted as P, normalizeStyle as Q, usePageData as R, useSidebarItems as S, Transition as T, isPlainObject as U, h as V, onUnmounted as W, useScrollPromise as X, createVNode as a, createBaseVNode as b, createElementBlock as c, createVueApp, createTextVNode as d, createStaticVNode as e, defineComponent as f, useThemeLocaleData as g, unref as h, useRoute as i, toRefs as j, computed as k, createBlock as l, mergeProps as m, renderSlot as n, openBlock as o, createCommentVNode as p, isLinkHttp as q, resolveComponent as r, isLinkMailto as s, toDisplayString as t, useRouteLocale as u, isLinkTel as v, withCtx as w, useSiteData as x, usePageFrontmatter as y, useSiteLocaleData as z };
