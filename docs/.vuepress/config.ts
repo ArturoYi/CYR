@@ -5,12 +5,12 @@ import type { DefaultThemeOptions } from 'vuepress'
 export default defineUserConfig<DefaultThemeOptions>({
     // module.exports = {
     // host: 'localhost', // ip
+    lang: 'zh-CN',
     port: 9779, //端口号
     title: 'IUUI', // 设置网站标题
     description: 'IUUI',
     base: '/', //默认路径
     debug: true,
-    lang: 'zh-CN',
     head: [
         // 设置 favor.ico，docs/.vuepress/public 下
         [
@@ -75,13 +75,10 @@ export default defineUserConfig<DefaultThemeOptions>({
                 text: '其它',
                 children: [
                     {
-                        text: '唯鸡汤', link: '/guide/鸡汤/text.md'
-                    },
-                    {
                         text: '教程', link: '/guide/教程/text.md'
                     },
                     {
-                        text: '面试', link: '/guide/面试/text.md'
+                        text: '面试', link: '/guide/面试/interview.md'
                     },
                     {
                         text: '随笔', link: '/guide/随笔/text.md'
@@ -93,14 +90,6 @@ export default defineUserConfig<DefaultThemeOptions>({
         // 所有页面会使用相同的侧边栏
         sidebarDepth: 2,
         sidebar: {
-            '/guide/面试/': [
-                {
-                    text: '面试',
-                    children: [
-                        'text.md'
-                    ],
-                },
-            ],
             '/web/vue/': [
                 {
                     text: '标题',
