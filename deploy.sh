@@ -5,7 +5,6 @@ set -e
 # 获取当前时间
 
 # # 生成静态文件_
-npm run docs:build
 
 # # 进入生成的文件夹
 
