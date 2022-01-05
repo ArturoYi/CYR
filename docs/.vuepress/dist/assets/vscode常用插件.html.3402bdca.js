@@ -18,8 +18,14 @@ const data = {
     }
   ],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1641363782e3,
+    "contributors": [
+      {
+        "name": "540765",
+        "email": "3062995371@qq.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "course/vscode\u5E38\u7528\u63D2\u4EF6.md"
 };

@@ -30,8 +30,14 @@ const data = {
     }
   ],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1641363782e3,
+    "contributors": [
+      {
+        "name": "540765",
+        "email": "3062995371@qq.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "course/elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247.md"
 };

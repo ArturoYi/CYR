@@ -1,4 +1,4 @@
-import { o as openBlock, c as createElementBlock, F as Fragment, b as createBaseVNode, d as createTextVNode } from "./app.6506300d.js";
+import { o as openBlock, c as createElementBlock, F as Fragment, b as createBaseVNode, d as createTextVNode } from "./app.3e7a7b7a.js";
 import { _ as _export_sfc } from "./plugin-vue_export-helper.21dcd24c.js";
 const _sfc_main = {};
 const _hoisted_1 = /* @__PURE__ */ createBaseVNode("h2", {
@@ -29,5 +29,5 @@ function _sfc_render(_ctx, _cache) {
     _hoisted_2
   ], 64);
 }
-var text2_html = /* @__PURE__ */ _export_sfc(_sfc_main, [["render", _sfc_render]]);
-export { text2_html as default };
+var text1_html = /* @__PURE__ */ _export_sfc(_sfc_main, [["render", _sfc_render]]);
+export { text1_html as default };

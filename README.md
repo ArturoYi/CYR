@@ -1,5 +1,13 @@
-<h1 align="center">IU</h1>
-
+<br>
+<br>
+<br>
+<p align="center">
+<a href="https://chen_qi.gitee.io" target="_blank" rel="noopener noreferrer"><img width="150" src="https://s6.jpg.cm/2022/01/05/LSv2s2.png" alt="Vue logo">
+</a>
+</p>
+<br>
+<br>
+<br>
 基于vuepress.2x构建的静态文档项目，很多朋友会选择更快速的 Gitee Pages 部署项目，但是它不像 GitHub Pages 那样，一提交代码就能自动更新 Pages，这里你可以参考[yanglbme](https://github.com/yanglbme)开发的[Gitee Pages Action](https://github.com/marketplace/actions/gitee-pages-action)，注：首次需要**手动**登录 Gitee ，点击“启动”进行 Gitee Pages 服务的部署。
 ## 1.构键
 你可以从一个主题入手：先构键自己的项目。

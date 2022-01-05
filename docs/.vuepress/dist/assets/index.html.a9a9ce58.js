@@ -18,8 +18,14 @@ const data = {
     }
   ],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1641363782e3,
+    "contributors": [
+      {
+        "name": "540765",
+        "email": "3062995371@qq.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "course/README.md"
 };
