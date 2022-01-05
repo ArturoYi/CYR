@@ -1,0 +1,9 @@
+SHA256(SSH Key):ykzidIBW6PIQgJYHBQbLLIvdZUKcmUfK7hWdy1H+NQA 3062995371@qq.com
+
+
+
+
+不能直接复制秘钥，在git下运行： clip < ~/.ssh/id_rsa.pub
+
+
+

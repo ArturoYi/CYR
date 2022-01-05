@@ -35,47 +35,25 @@ export default defineUserConfig<DefaultThemeOptions>({
             {
                 text: '前端',
                 children: [
-                    {
-                        text: 'vue',
-                        children: [
-                            { text: 'vue2 & vue3', link: '/web/vue/01.md' },
-                            { text: 'vue_cli', link: '/web/vue/01.md' },
-                            { text: 'vuex和vueRouter', link: '/web/vue/01.md' },
-                            { text: 'vuepress', link: '/web/vue/01.md' },
-                            { text: 'vite', link: '/web/vue/01.md' },
-                        ],
-                    }, // 可不写后缀 .md
-                    {
-                        text: 'html',
-                        children: [
-                            { text: 'html1', link: '/web/html/text1.md' }
-                        ]
-                    },// 外部链接
-                    {
-                        text: 'css',
-                        children: [
-                            { text: 'CSS1', link: 'https://www.baidu.com/' },
-                        ],
-                    },// 外部链接
-                    {
-                        text: 'JavaScript',
-                        children: [
-                            { text: '《JavaScript教程》', link: '/web/JavaScript/入门导论.md' },
-                        ],
-                    },// 外部链接
-                    {
-                        text: 'ES6',
-                        children: [
-                            { text: 'ES6', link: 'https://www.baidu.com/' },
-                        ],
-                    },
+                    { text: '《html》', link: '/web/html/text1.md' },
+                    { text: '《JavaScript教程》', link: '/web/JavaScript/入门导论.md' },
+                    { text: '《CSS》', link: 'https://www.baidu.com/' },
                 ]
+            },
+            {
+                text:'笔记',
+                children:[
+                    {
+                        text:'vue',
+                        link: '/web/vue/01.md',
+                    }
+                ],
             },
             {
                 text: '其它',
                 children: [
                     {
-                        text: '教程', link: '/guide/教程/text.md'
+                        text: '教程', link: '/course/README.md'
                     },
                     {
                         text: '面试', link: '/guide/面试/interview.md'
@@ -95,8 +73,8 @@ export default defineUserConfig<DefaultThemeOptions>({
                     text: '标题',
                     children: [
                         '01.md',
+                        '02vue实例.md',
                         'text2.md',
-                        'text1.md'
                     ],
                 },
             ],
@@ -118,6 +96,16 @@ export default defineUserConfig<DefaultThemeOptions>({
                         '语法基础.md',
                         '内置对象.md',
                     ]
+                }
+            ],
+            '/course/':[
+                {
+                    text:'教程',
+                    children:[
+                        'README.md',
+                        'elementui在表格中插入图片.md',
+                        'vscode常用插件.md',
+                    ],
                 }
             ],
             // fallback 侧边栏被最后定义

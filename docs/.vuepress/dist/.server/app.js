@@ -61,22 +61,31 @@ const ClientOnly = vue.defineComponent({
 });
 const pagesComponents = {
   "v-8daa1a0e": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return index_html$2;
+    return index_html$5;
+  })),
+  "v-6886cbbd": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return elementui_________html$2;
+  })),
+  "v-b9c2d34a": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return index_html$3;
+  })),
+  "v-66ff7ae2": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return vscode_____html$2;
   })),
   "v-6e6848ee": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return text1_html$8;
+    return text1_html$5;
   })),
   "v-3803ce0e": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return text_html$5;
   })),
-  "v-796e15ea": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return interview_html$2;
-  })),
   "v-9b98914c": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return text_html$3;
   })),
+  "v-796e15ea": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return interview_html$2;
+  })),
   "v-89e39176": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return text1_html$6;
+    return text1_html$3;
   })),
   "v-8679e038": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return text2_html$5;
@@ -96,8 +105,8 @@ const pagesComponents = {
   "v-e9674cca": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return _01_html$2;
   })),
-  "v-576d49b2": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return text1_html$4;
+  "v-637b5fd4": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return _02vue___html$2;
   })),
   "v-59222251": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return text2_html$3;
@@ -108,22 +117,31 @@ const pagesComponents = {
 };
 const pagesData$1 = {
   "v-8daa1a0e": () => Promise.resolve().then(function() {
+    return index_html$1;
+  }).then(({ data: data2 }) => data2),
+  "v-6886cbbd": () => Promise.resolve().then(function() {
+    return elementui_________html;
+  }).then(({ data: data2 }) => data2),
+  "v-b9c2d34a": () => Promise.resolve().then(function() {
     return index_html;
   }).then(({ data: data2 }) => data2),
+  "v-66ff7ae2": () => Promise.resolve().then(function() {
+    return vscode_____html;
+  }).then(({ data: data2 }) => data2),
   "v-6e6848ee": () => Promise.resolve().then(function() {
-    return text1_html$2;
+    return text1_html$1;
   }).then(({ data: data2 }) => data2),
   "v-3803ce0e": () => Promise.resolve().then(function() {
     return text_html$1;
   }).then(({ data: data2 }) => data2),
-  "v-796e15ea": () => Promise.resolve().then(function() {
-    return interview_html;
-  }).then(({ data: data2 }) => data2),
   "v-9b98914c": () => Promise.resolve().then(function() {
     return text_html;
   }).then(({ data: data2 }) => data2),
+  "v-796e15ea": () => Promise.resolve().then(function() {
+    return interview_html;
+  }).then(({ data: data2 }) => data2),
   "v-89e39176": () => Promise.resolve().then(function() {
-    return text1_html$1;
+    return text1_html;
   }).then(({ data: data2 }) => data2),
   "v-8679e038": () => Promise.resolve().then(function() {
     return text2_html$1;
@@ -143,8 +161,8 @@ const pagesData$1 = {
   "v-e9674cca": () => Promise.resolve().then(function() {
     return _01_html;
   }).then(({ data: data2 }) => data2),
-  "v-576d49b2": () => Promise.resolve().then(function() {
-    return text1_html;
+  "v-637b5fd4": () => Promise.resolve().then(function() {
+    return _02vue___html;
   }).then(({ data: data2 }) => data2),
   "v-59222251": () => Promise.resolve().then(function() {
     return text2_html;
@@ -381,65 +399,25 @@ const themeData$1 = {
       "text": "\u524D\u7AEF",
       "children": [
         {
+          "text": "\u300Ahtml\u300B",
+          "link": "/web/html/text1.md"
+        },
+        {
+          "text": "\u300AJavaScript\u6559\u7A0B\u300B",
+          "link": "/web/JavaScript/\u5165\u95E8\u5BFC\u8BBA.md"
+        },
+        {
+          "text": "\u300ACSS\u300B",
+          "link": "https://www.baidu.com/"
+        }
+      ]
+    },
+    {
+      "text": "\u7B14\u8BB0",
+      "children": [
+        {
           "text": "vue",
-          "children": [
-            {
-              "text": "vue2 & vue3",
-              "link": "/web/vue/01.md"
-            },
-            {
-              "text": "vue_cli",
-              "link": "/web/vue/01.md"
-            },
-            {
-              "text": "vuex\u548CvueRouter",
-              "link": "/web/vue/01.md"
-            },
-            {
-              "text": "vuepress",
-              "link": "/web/vue/01.md"
-            },
-            {
-              "text": "vite",
-              "link": "/web/vue/01.md"
-            }
-          ]
-        },
-        {
-          "text": "html",
-          "children": [
-            {
-              "text": "html1",
-              "link": "/web/html/text1.md"
-            }
-          ]
-        },
-        {
-          "text": "css",
-          "children": [
-            {
-              "text": "CSS1",
-              "link": "https://www.baidu.com/"
-            }
-          ]
-        },
-        {
-          "text": "JavaScript",
-          "children": [
-            {
-              "text": "\u300AJavaScript\u6559\u7A0B\u300B",
-              "link": "/web/JavaScript/\u5165\u95E8\u5BFC\u8BBA.md"
-            }
-          ]
-        },
-        {
-          "text": "ES6",
-          "children": [
-            {
-              "text": "ES6",
-              "link": "https://www.baidu.com/"
-            }
-          ]
+          "link": "/web/vue/01.md"
         }
       ]
     },
@@ -448,7 +426,7 @@ const themeData$1 = {
       "children": [
         {
           "text": "\u6559\u7A0B",
-          "link": "/guide/\u6559\u7A0B/text.md"
+          "link": "/course/README.md"
         },
         {
           "text": "\u9762\u8BD5",
@@ -468,8 +446,8 @@ const themeData$1 = {
         "text": "\u6807\u9898",
         "children": [
           "01.md",
-          "text2.md",
-          "text1.md"
+          "02vue\u5B9E\u4F8B.md",
+          "text2.md"
         ]
       }
     ],
@@ -490,6 +468,16 @@ const themeData$1 = {
           "\u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26.md",
           "\u8BED\u6CD5\u57FA\u7840.md",
           "\u5185\u7F6E\u5BF9\u8C61.md"
+        ]
+      }
+    ],
+    "/course/": [
+      {
+        "text": "\u6559\u7A0B",
+        "children": [
+          "README.md",
+          "elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247.md",
+          "vscode\u5E38\u7528\u63D2\u4EF6.md"
         ]
       }
     ],
@@ -559,7 +547,7 @@ var clientAppEnhance2 = defineClientAppEnhance(({ app }) => {
     }
   });
 });
-const _sfc_main$w = /* @__PURE__ */ vue.defineComponent({
+const _sfc_main$z = /* @__PURE__ */ vue.defineComponent({
   __ssrInlineRender: true,
   props: {
     type: {
@@ -593,11 +581,11 @@ const _sfc_main$w = /* @__PURE__ */ vue.defineComponent({
     };
   }
 });
-const _sfc_setup$w = _sfc_main$w.setup;
-_sfc_main$w.setup = (props, ctx) => {
+const _sfc_setup$z = _sfc_main$z.setup;
+_sfc_main$z.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../../../../node_modules/@vuepress/theme-default/lib/client/components/global/Badge.vue");
-  return _sfc_setup$w ? _sfc_setup$w(props, ctx) : void 0;
+  return _sfc_setup$z ? _sfc_setup$z(props, ctx) : void 0;
 };
 var CodeGroup = vue.defineComponent({
   name: "CodeGroup",
@@ -680,7 +668,7 @@ var CodeGroup = vue.defineComponent({
 const __default__$1 = vue.defineComponent({
   name: "CodeGroupItem"
 });
-const _sfc_main$v = /* @__PURE__ */ vue.defineComponent(__spreadProps(__spreadValues({}, __default__$1), {
+const _sfc_main$y = /* @__PURE__ */ vue.defineComponent(__spreadProps(__spreadValues({}, __default__$1), {
   __ssrInlineRender: true,
   props: {
     title: {
@@ -704,11 +692,11 @@ const _sfc_main$v = /* @__PURE__ */ vue.defineComponent(__spreadProps(__spreadVa
     };
   }
 }));
-const _sfc_setup$v = _sfc_main$v.setup;
-_sfc_main$v.setup = (props, ctx) => {
+const _sfc_setup$y = _sfc_main$y.setup;
+_sfc_main$y.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../../../../node_modules/@vuepress/theme-default/lib/client/components/global/CodeGroupItem.vue");
-  return _sfc_setup$v ? _sfc_setup$v(props, ctx) : void 0;
+  return _sfc_setup$y ? _sfc_setup$y(props, ctx) : void 0;
 };
 const darkModeSymbol = Symbol("");
 const useDarkMode = () => {
@@ -871,7 +859,7 @@ const resolveMultiSidebarItems = (sidebarConfig, sidebarDepth) => {
   return resolveArraySidebarItems(matchedSidebarConfig, sidebarDepth);
 };
 const useThemeLocaleData = () => useThemeLocaleData$1();
-const _sfc_main$u = /* @__PURE__ */ vue.defineComponent({
+const _sfc_main$x = /* @__PURE__ */ vue.defineComponent({
   __ssrInlineRender: true,
   setup(__props) {
     const themeLocale = useThemeLocaleData();
@@ -891,19 +879,19 @@ const _sfc_main$u = /* @__PURE__ */ vue.defineComponent({
     };
   }
 });
-const _sfc_setup$u = _sfc_main$u.setup;
-_sfc_main$u.setup = (props, ctx) => {
+const _sfc_setup$x = _sfc_main$x.setup;
+_sfc_main$x.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../../../../node_modules/@vuepress/theme-default/lib/client/components/global/ExternalLinkIcon.vue");
-  return _sfc_setup$u ? _sfc_setup$u(props, ctx) : void 0;
+  return _sfc_setup$x ? _sfc_setup$x(props, ctx) : void 0;
 };
 var index = "";
 var clientAppEnhance3 = defineClientAppEnhance(({ app, router }) => {
-  app.component("Badge", _sfc_main$w);
+  app.component("Badge", _sfc_main$z);
   app.component("CodeGroup", CodeGroup);
-  app.component("CodeGroupItem", _sfc_main$v);
+  app.component("CodeGroupItem", _sfc_main$y);
   delete app._context.components.ExternalLinkIcon;
-  app.component("ExternalLinkIcon", _sfc_main$u);
+  app.component("ExternalLinkIcon", _sfc_main$x);
   app.component("NavbarSearch", () => {
     const SearchComponent = app.component("Docsearch") || app.component("SearchBox");
     if (SearchComponent) {
@@ -954,6 +942,60 @@ const searchIndex$1 = [
     "extraFields": []
   },
   {
+    "title": "elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247",
+    "headers": [
+      {
+        "level": 2,
+        "title": "\u63D2\u5165\u5355\u5F20\uFF0C\u60AC\u6D6E\u9884\u89C8",
+        "slug": "\u63D2\u5165\u5355\u5F20-\u60AC\u6D6E\u9884\u89C8",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u63D2\u5165\u5355\u5F20\uFF0C\u5168\u5C4F\u9884\u89C8",
+        "slug": "\u63D2\u5165\u5355\u5F20-\u5168\u5C4F\u9884\u89C8",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u63D2\u5165\u591A\u5F20\u56FE\u7247",
+        "slug": "\u63D2\u5165\u591A\u5F20\u56FE\u7247",
+        "children": []
+      }
+    ],
+    "path": "/course/elementui%E5%9C%A8%E8%A1%A8%E6%A0%BC%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "\u65E5\u5E38\u8BB0\u5F55",
+    "headers": [
+      {
+        "level": 2,
+        "title": "ClientOnly\u4F7F\u7528\u7EC4\u4EF6",
+        "slug": "clientonly\u4F7F\u7528\u7EC4\u4EF6",
+        "children": []
+      }
+    ],
+    "path": "/course/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "vscode\u5E38\u7528\u63D2\u4EF6",
+    "headers": [
+      {
+        "level": 2,
+        "title": "\u51E0\u4E4E\u5FC5\u5907\u7684",
+        "slug": "\u51E0\u4E4E\u5FC5\u5907\u7684",
+        "children": []
+      }
+    ],
+    "path": "/course/vscode%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "\u9875\u9762\u7684\u6807\u9898",
     "headers": [
       {
@@ -990,6 +1032,26 @@ const searchIndex$1 = [
       }
     ],
     "path": "/guide/%E6%95%99%E7%A8%8B/text.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "1a",
+    "headers": [
+      {
+        "level": 2,
+        "title": "3",
+        "slug": "_3",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4",
+        "slug": "_4",
+        "children": []
+      }
+    ],
+    "path": "/guide/%E9%9A%8F%E7%AC%94/text.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1052,26 +1114,6 @@ const searchIndex$1 = [
       }
     ],
     "path": "/guide/%E9%9D%A2%E8%AF%95/interview.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "1a",
-    "headers": [
-      {
-        "level": 2,
-        "title": "3",
-        "slug": "_3",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4",
-        "slug": "_4",
-        "children": []
-      }
-    ],
-    "path": "/guide/%E9%9A%8F%E7%AC%94/text.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1155,6 +1197,56 @@ const searchIndex$1 = [
         "title": "Object \u5BF9\u8C61",
         "slug": "object-\u5BF9\u8C61",
         "children": []
+      },
+      {
+        "level": 2,
+        "title": "Object() \u4F5C\u4E3A\u51FD\u6570\uFF08\u65B9\u6CD5\uFF09",
+        "slug": "object-\u4F5C\u4E3A\u51FD\u6570-\u65B9\u6CD5",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Object \u6784\u9020\u51FD\u6570(new\u521B\u5EFA)",
+        "slug": "object-\u6784\u9020\u51FD\u6570-new\u521B\u5EFA",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Object\u7684\u9759\u6001\u65B9\u6CD5",
+        "slug": "object\u7684\u9759\u6001\u65B9\u6CD5",
+        "children": [
+          {
+            "level": 3,
+            "title": "Object.keys()",
+            "slug": "object-keys",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Object.getOwnPropertyNames()",
+            "slug": "object-getownpropertynames",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Object \u5176\u4ED6\u9759\u6001\u65B9\u6CD5",
+            "slug": "object-\u5176\u4ED6\u9759\u6001\u65B9\u6CD5",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Object \u7684\u5B9E\u4F8B\u65B9\u6CD5",
+        "slug": "object-\u7684\u5B9E\u4F8B\u65B9\u6CD5",
+        "children": [
+          {
+            "level": 3,
+            "title": "Object.prototype.valueOf()",
+            "slug": "object-prototype-valueof",
+            "children": []
+          }
+        ]
       }
     ],
     "path": "/web/JavaScript/%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1.html",
@@ -1351,12 +1443,55 @@ const searchIndex$1 = [
     "extraFields": []
   },
   {
-    "title": "vue\u4ECB\u7ECD",
+    "title": "vue\u524D\u7F6E",
     "headers": [
       {
         "level": 2,
-        "title": "\u524D\u7F6E\u5B66\u4E60",
-        "slug": "\u524D\u7F6E\u5B66\u4E60",
+        "title": "\u524D\u7F6E",
+        "slug": "\u524D\u7F6E",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "MVVM\uFF1F",
+        "slug": "mvvm",
+        "children": [
+          {
+            "level": 3,
+            "title": "MVC",
+            "slug": "mvc",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "MVP",
+            "slug": "mvp",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "MVVM",
+            "slug": "mvvm-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u4F8B\u5B50\u5BF9\u6BD4",
+            "slug": "\u4F8B\u5B50\u5BF9\u6BD4",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "vue\u5B9E\u73B0\u4F8B\u5B50",
+            "slug": "vue\u5B9E\u73B0\u4F8B\u5B50",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "\u5B89\u88C5vue-devtools",
+        "slug": "\u5B89\u88C5vue-devtools",
         "children": []
       }
     ],
@@ -1365,7 +1500,7 @@ const searchIndex$1 = [
     "extraFields": []
   },
   {
-    "title": "vue\u6807\u9898",
+    "title": "vue\u5B9E\u4F8B",
     "headers": [
       {
         "level": 2,
@@ -1380,7 +1515,7 @@ const searchIndex$1 = [
         "children": []
       }
     ],
-    "path": "/web/vue/text1.html",
+    "path": "/web/vue/02vue%E5%AE%9E%E4%BE%8B.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1745,18 +1880,21 @@ const clientAppSetups = [
 ];
 const routeItems = [
   ["v-8daa1a0e", "/", { "title": "" }, ["/index.html", "/README.md"]],
+  ["v-6886cbbd", "/course/elementui%E5%9C%A8%E8%A1%A8%E6%A0%BC%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87.html", { "title": "elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247" }, ["/course/elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247.html", "/course/elementui%E5%9C%A8%E8%A1%A8%E6%A0%BC%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87", "/course/elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247.md", "/course/elementui%E5%9C%A8%E8%A1%A8%E6%A0%BC%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87.md"]],
+  ["v-b9c2d34a", "/course/", { "title": "\u65E5\u5E38\u8BB0\u5F55" }, ["/course/index.html", "/course/README.md"]],
+  ["v-66ff7ae2", "/course/vscode%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.html", { "title": "vscode\u5E38\u7528\u63D2\u4EF6" }, ["/course/vscode\u5E38\u7528\u63D2\u4EF6.html", "/course/vscode%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6", "/course/vscode\u5E38\u7528\u63D2\u4EF6.md", "/course/vscode%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.md"]],
   ["v-6e6848ee", "/web/text1.html", { "title": "\u9875\u9762\u7684\u6807\u9898" }, ["/web/text1", "/web/text1.md"]],
   ["v-3803ce0e", "/guide/%E6%95%99%E7%A8%8B/text.html", { "title": "1a" }, ["/guide/\u6559\u7A0B/text.html", "/guide/%E6%95%99%E7%A8%8B/text", "/guide/\u6559\u7A0B/text.md", "/guide/%E6%95%99%E7%A8%8B/text.md"]],
-  ["v-796e15ea", "/guide/%E9%9D%A2%E8%AF%95/interview.html", { "title": "\u9762\u8BD5\u96C6\u9526" }, ["/guide/\u9762\u8BD5/interview.html", "/guide/%E9%9D%A2%E8%AF%95/interview", "/guide/\u9762\u8BD5/interview.md", "/guide/%E9%9D%A2%E8%AF%95/interview.md"]],
   ["v-9b98914c", "/guide/%E9%9A%8F%E7%AC%94/text.html", { "title": "1a" }, ["/guide/\u968F\u7B14/text.html", "/guide/%E9%9A%8F%E7%AC%94/text", "/guide/\u968F\u7B14/text.md", "/guide/%E9%9A%8F%E7%AC%94/text.md"]],
+  ["v-796e15ea", "/guide/%E9%9D%A2%E8%AF%95/interview.html", { "title": "\u9762\u8BD5\u96C6\u9526" }, ["/guide/\u9762\u8BD5/interview.html", "/guide/%E9%9D%A2%E8%AF%95/interview", "/guide/\u9762\u8BD5/interview.md", "/guide/%E9%9D%A2%E8%AF%95/interview.md"]],
   ["v-89e39176", "/web/html/text1.html", { "title": "html\u6807\u9898" }, ["/web/html/text1", "/web/html/text1.md"]],
   ["v-8679e038", "/web/html/text2.html", { "title": "html2\u6807\u9898" }, ["/web/html/text2", "/web/html/text2.md"]],
   ["v-72bd4e03", "/web/JavaScript/%E5%85%A5%E9%97%A8%E5%AF%BC%E8%AE%BA.html", { "title": "\u5165\u95E8\u5BFC\u8BBA" }, ["/web/JavaScript/\u5165\u95E8\u5BFC\u8BBA.html", "/web/JavaScript/%E5%85%A5%E9%97%A8%E5%AF%BC%E8%AE%BA", "/web/JavaScript/\u5165\u95E8\u5BFC\u8BBA.md", "/web/JavaScript/%E5%85%A5%E9%97%A8%E5%AF%BC%E8%AE%BA.md"]],
   ["v-783b80d4", "/web/JavaScript/%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1.html", { "title": "\u5185\u7F6E\u5BF9\u8C61" }, ["/web/JavaScript/\u5185\u7F6E\u5BF9\u8C61.html", "/web/JavaScript/%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1", "/web/JavaScript/\u5185\u7F6E\u5BF9\u8C61.md", "/web/JavaScript/%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1.md"]],
   ["v-5debe7e1", "/web/JavaScript/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E4%B8%8E%E8%BF%90%E7%AE%97%E7%AC%A6.html", { "title": "\u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26" }, ["/web/JavaScript/\u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26.html", "/web/JavaScript/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E4%B8%8E%E8%BF%90%E7%AE%97%E7%AC%A6", "/web/JavaScript/\u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26.md", "/web/JavaScript/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E4%B8%8E%E8%BF%90%E7%AE%97%E7%AC%A6.md"]],
   ["v-24f06668", "/web/JavaScript/%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80.html", { "title": "\u8BED\u6CD5\u57FA\u7840" }, ["/web/JavaScript/\u8BED\u6CD5\u57FA\u7840.html", "/web/JavaScript/%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80", "/web/JavaScript/\u8BED\u6CD5\u57FA\u7840.md", "/web/JavaScript/%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80.md"]],
-  ["v-e9674cca", "/web/vue/01.html", { "title": "vue\u4ECB\u7ECD" }, ["/web/vue/01", "/web/vue/01.md"]],
-  ["v-576d49b2", "/web/vue/text1.html", { "title": "vue\u6807\u9898" }, ["/web/vue/text1", "/web/vue/text1.md"]],
+  ["v-e9674cca", "/web/vue/01.html", { "title": "vue\u524D\u7F6E" }, ["/web/vue/01", "/web/vue/01.md"]],
+  ["v-637b5fd4", "/web/vue/02vue%E5%AE%9E%E4%BE%8B.html", { "title": "vue\u5B9E\u4F8B" }, ["/web/vue/02vue\u5B9E\u4F8B.html", "/web/vue/02vue%E5%AE%9E%E4%BE%8B", "/web/vue/02vue\u5B9E\u4F8B.md", "/web/vue/02vue%E5%AE%9E%E4%BE%8B.md"]],
   ["v-59222251", "/web/vue/text2.html", { "title": "vue2\u6807\u9898" }, ["/web/vue/text2", "/web/vue/text2.md"]],
   ["v-3706649a", "/404.html", {}, ["/404"]]
 ];
@@ -1860,8 +1998,8 @@ var _export_sfc = (sfc, props) => {
   }
   return target;
 };
-const _sfc_main$t = {};
-function _sfc_ssrRender$f(_ctx, _push, _parent, _attrs) {
+const _sfc_main$w = {};
+function _sfc_ssrRender$i(_ctx, _push, _parent, _attrs) {
   const _component_CodeGroup = vue.resolveComponent("CodeGroup");
   const _component_CodeGroupItem = vue.resolveComponent("CodeGroupItem");
   _push(`<!--[--><h3 id="_1\u30012\u30013" tabindex="-1"><a class="header-anchor" href="#_1\u30012\u30013" aria-hidden="true">#</a> 1\u30012\u30013</h3>`);
@@ -2883,17 +3021,116 @@ int <span class="token function"${_scopeId2}>main</span><span class="token punct
   }, _parent));
   _push(`<!--]-->`);
 }
+const _sfc_setup$w = _sfc_main$w.setup;
+_sfc_main$w.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/index.html.vue");
+  return _sfc_setup$w ? _sfc_setup$w(props, ctx) : void 0;
+};
+var index_html$4 = /* @__PURE__ */ _export_sfc(_sfc_main$w, [["ssrRender", _sfc_ssrRender$i]]);
+var index_html$5 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": index_html$4
+});
+const _sfc_main$v = {};
+function _sfc_ssrRender$h(_ctx, _push, _parent, _attrs) {
+  _push(`<!--[--><h1 id="elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247" tabindex="-1"><a class="header-anchor" href="#elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247" aria-hidden="true">#</a> elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247</h1><h2 id="\u63D2\u5165\u5355\u5F20-\u60AC\u6D6E\u9884\u89C8" tabindex="-1"><a class="header-anchor" href="#\u63D2\u5165\u5355\u5F20-\u60AC\u6D6E\u9884\u89C8" aria-hidden="true">#</a> \u63D2\u5165\u5355\u5F20\uFF0C\u60AC\u6D6E\u9884\u89C8</h2><div class="custom-container warning"><p class="custom-container-title">\u6CE8\u610F</p><p>\u4E0B\u9762<code>scope.row</code>\u8868\u793A\u5F53\u524D\u7684\u884C\u5BF9\u8C61</p></div><div class="language-html ext-html line-numbers-mode"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>el-table-column</span>  <span class="token attr-name">label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>\u56FE\u7247<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span> <span class="token attr-name">slot-scope</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>scope<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>el-popover</span> <span class="token attr-name">placement</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>top-start<span class="token punctuation">&quot;</span></span> <span class="token attr-name">title</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span><span class="token punctuation">&quot;</span></span> <span class="token attr-name">trigger</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>hover<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">:src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>scope.row.imagesUrl<span class="token punctuation">&quot;</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>...<span class="token punctuation">&quot;</span></span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span><span class="token value css language-css"><span class="token property">width</span><span class="token punctuation">:</span> 150px<span class="token punctuation">;</span><span class="token property">height</span><span class="token punctuation">:</span> 150px</span><span class="token punctuation">&quot;</span></span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">slot</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>reference<span class="token punctuation">&quot;</span></span> <span class="token attr-name">:src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>scope.row.imagesUrl<span class="token punctuation">&quot;</span></span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span><span class="token value css language-css"><span class="token property">width</span><span class="token punctuation">:</span> 30px<span class="token punctuation">;</span><span class="token property">height</span><span class="token punctuation">:</span> 30px</span><span class="token punctuation">&quot;</span></span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>el-popover</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span><span class="token punctuation">&gt;</span></span>{{scope.row.title}}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>el-table-column</span><span class="token punctuation">&gt;</span></span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><h2 id="\u63D2\u5165\u5355\u5F20-\u5168\u5C4F\u9884\u89C8" tabindex="-1"><a class="header-anchor" href="#\u63D2\u5165\u5355\u5F20-\u5168\u5C4F\u9884\u89C8" aria-hidden="true">#</a> \u63D2\u5165\u5355\u5F20\uFF0C\u5168\u5C4F\u9884\u89C8</h2><div class="language-html ext-html line-numbers-mode"><pre class="language-html"><code> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>el-table-column</span> <span class="token attr-name">prop</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>imagesUrl<span class="token punctuation">&quot;</span></span> <span class="token attr-name">label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>\u56FE\u7247<span class="token punctuation">&quot;</span></span> <span class="token attr-name">width</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>100<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span> <span class="token attr-name">slot-scope</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>scope<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>el-image</span>
+            <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span><span class="token value css language-css"><span class="token property">width</span><span class="token punctuation">:</span> 30px<span class="token punctuation">;</span> <span class="token property">height</span><span class="token punctuation">:</span> 30px</span><span class="token punctuation">&quot;</span></span></span>
+            <span class="token attr-name">:src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>scope.row.imagesUrl<span class="token punctuation">&quot;</span></span>
+            <span class="token attr-name">:preview-src-list</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>[scope.row.imagesUrl]<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">slot</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>error<span class="token punctuation">&quot;</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>image-slot<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>el-icon-picture-outline<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>el-image</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>el-table-column</span><span class="token punctuation">&gt;</span></span>
+<span class="token comment">&lt;!-- slot=&quot;error&quot;\u63D2\u69FD\u662F\u4E3A\u4E86\u56FE\u7247\u4E0D\u5B58\u5728\u6216\u51FA\u9519\u65F6\u66FF\u6362\u4E3A\u56FE\u6807 --&gt;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div><h2 id="\u63D2\u5165\u591A\u5F20\u56FE\u7247" tabindex="-1"><a class="header-anchor" href="#\u63D2\u5165\u591A\u5F20\u56FE\u7247" aria-hidden="true">#</a> \u63D2\u5165\u591A\u5F20\u56FE\u7247</h2><div class="language-html ext-html line-numbers-mode"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>el-table-column</span>  <span class="token attr-name">label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>\u56FE\u7247<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span> <span class="token attr-name">slot-scope</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>scope<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>el-image</span> <span class="token attr-name">v-for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>(item, index) in scope.row.images<span class="token punctuation">&quot;</span></span> <span class="token attr-name">:key</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&#39;</span>index<span class="token punctuation">&#39;</span></span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span><span class="token value css language-css"><span class="token property">width</span><span class="token punctuation">:</span> 30px<span class="token punctuation">;</span> <span class="token property">height</span><span class="token punctuation">:</span> 30px</span><span class="token punctuation">&quot;</span></span></span> <span class="token attr-name">:src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>item.imagesUrl<span class="token punctuation">&quot;</span></span> <span class="token attr-name">:preview-src-list</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>[item.imagesUrl]<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>el-image</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>el-table-column</span><span class="token punctuation">&gt;</span></span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><!--]-->`);
+}
+const _sfc_setup$v = _sfc_main$v.setup;
+_sfc_main$v.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/course/elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247.html.vue");
+  return _sfc_setup$v ? _sfc_setup$v(props, ctx) : void 0;
+};
+var elementui_________html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$v, [["ssrRender", _sfc_ssrRender$h]]);
+var elementui_________html$2 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": elementui_________html$1
+});
+const _sfc_main$u = {};
+function _sfc_ssrRender$g(_ctx, _push, _parent, _attrs) {
+  const _component_ClientOnly = vue.resolveComponent("ClientOnly");
+  const _component_MyTemplate = vue.resolveComponent("MyTemplate");
+  _push(`<!--[--><h2 id="clientonly\u4F7F\u7528\u7EC4\u4EF6" tabindex="-1"><a class="header-anchor" href="#clientonly\u4F7F\u7528\u7EC4\u4EF6" aria-hidden="true">#</a> ClientOnly\u4F7F\u7528\u7EC4\u4EF6</h2>`);
+  _push(serverRenderer.ssrRenderComponent(_component_ClientOnly, null, {
+    default: vue.withCtx((_, _push2, _parent2, _scopeId) => {
+      if (_push2) {
+        _push2(serverRenderer.ssrRenderComponent(_component_MyTemplate, null, null, _parent2, _scopeId));
+      } else {
+        return [
+          vue.createVNode(_component_MyTemplate)
+        ];
+      }
+    }),
+    _: 1
+  }, _parent));
+  _push(`<!--]-->`);
+}
+const _sfc_setup$u = _sfc_main$u.setup;
+_sfc_main$u.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/course/index.html.vue");
+  return _sfc_setup$u ? _sfc_setup$u(props, ctx) : void 0;
+};
+var index_html$2 = /* @__PURE__ */ _export_sfc(_sfc_main$u, [["ssrRender", _sfc_ssrRender$g]]);
+var index_html$3 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": index_html$2
+});
+const _sfc_main$t = {};
+function _sfc_ssrRender$f(_ctx, _push, _parent, _attrs) {
+  const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
+  _push(`<!--[--><h1 id="vscode\u5E38\u7528\u63D2\u4EF6" tabindex="-1"><a class="header-anchor" href="#vscode\u5E38\u7528\u63D2\u4EF6" aria-hidden="true">#</a> vscode\u5E38\u7528\u63D2\u4EF6</h1><ol><li><a href="https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode" target="_blank" rel="noopener noreferrer">Tabnine`);
+  _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
+  _push(`</a>: AI \u4EE3\u7801\u5B8C\u6210\u63D2\u3002</li><li><a href="https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces" target="_blank" rel="noopener noreferrer">Trailing Spaces`);
+  _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
+  _push(`</a>:\u5C3E\u90E8\u7A7A\u683C\u5220\u9664\u63D2\u4EF6\u3002</li></ol><h2 id="\u51E0\u4E4E\u5FC5\u5907\u7684" tabindex="-1"><a class="header-anchor" href="#\u51E0\u4E4E\u5FC5\u5907\u7684" aria-hidden="true">#</a> \u51E0\u4E4E\u5FC5\u5907\u7684</h2><ol start="3"><li>\u4E24\u6B3E\u90FD\u4E3A\u4EE3\u7801\u6BB5\u63D2\u4EF6\uFF1A<br><a href="https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets" target="_blank" rel="noopener noreferrer">JavaScript (ES6) code snippets`);
+  _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
+  _push(`</a><br><a href="https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets" target="_blank" rel="noopener noreferrer"> ES7 React/Redux/GraphQL/React-Native snippets`);
+  _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
+  _push(`</a></li></ol><!--]-->`);
+}
 const _sfc_setup$t = _sfc_main$t.setup;
 _sfc_main$t.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/index.html.vue");
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/course/vscode\u5E38\u7528\u63D2\u4EF6.html.vue");
   return _sfc_setup$t ? _sfc_setup$t(props, ctx) : void 0;
 };
-var index_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$t, [["ssrRender", _sfc_ssrRender$f]]);
-var index_html$2 = /* @__PURE__ */ Object.freeze({
+var vscode_____html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$t, [["ssrRender", _sfc_ssrRender$f]]);
+var vscode_____html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  "default": index_html$1
+  "default": vscode_____html$1
 });
 const _sfc_main$s = {};
 function _sfc_ssrRender$e(_ctx, _push, _parent, _attrs) {
@@ -2905,11 +3142,11 @@ _sfc_main$s.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/text1.html.vue");
   return _sfc_setup$s ? _sfc_setup$s(props, ctx) : void 0;
 };
-var text1_html$7 = /* @__PURE__ */ _export_sfc(_sfc_main$s, [["ssrRender", _sfc_ssrRender$e]]);
-var text1_html$8 = /* @__PURE__ */ Object.freeze({
+var text1_html$4 = /* @__PURE__ */ _export_sfc(_sfc_main$s, [["ssrRender", _sfc_ssrRender$e]]);
+var text1_html$5 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  "default": text1_html$7
+  "default": text1_html$4
 });
 const _sfc_main$r = {};
 function _sfc_ssrRender$d(_ctx, _push, _parent, _attrs) {
@@ -2929,35 +3166,35 @@ var text_html$5 = /* @__PURE__ */ Object.freeze({
 });
 const _sfc_main$q = {};
 function _sfc_ssrRender$c(_ctx, _push, _parent, _attrs) {
-  _push(`<!--[--><h1 id="\u9762\u8BD5\u96C6\u9526" tabindex="-1"><a class="header-anchor" href="#\u9762\u8BD5\u96C6\u9526" aria-hidden="true">#</a> \u9762\u8BD5\u96C6\u9526</h1><div class="custom-container tip"><p class="custom-container-title">\u9762\u8BD5</p><p>\u5E38\u89C1\u9762\u8BD5\u96C6\u9526</p></div><h2 id="\u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD" tabindex="-1"><a class="header-anchor" href="#\u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD" aria-hidden="true">#</a> \u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD</h2><p><strong>\u63D0\u793A</strong>\uFF1A\u4E00\u822C\u4EBA\u56DE\u7B54\u8FD9\u4E2A\u95EE\u9898\u8FC7\u4E8E\u5E73\u5E38\uFF0C\u59D3\u540D\u3001\u5E74\u9F84\u3001\u7231\u597D\u3001\u5DE5\u4F5C\u7ECF\u9A8C\uFF0C\u8FD9\u4E9B\u7B80\u5386\u4E0A\u90FD\u6709\u3002\u4F01\u4E1A\uFF08\u9762\u8BD5\u5B98\uFF09\u6700\u5E0C\u671B\u77E5\u9053\u7684\u662F\u6C42\u804C\u8005\u80FD\u5426\u80DC\u4EFB\u5DE5\u4F5C\uFF0C\u5305\u62EC\uFF1A\u6700\u5F3A\u7684\u6280\u80FD\u3001\u6700\u6DF1\u5165\u7814\u7A76\u7684\u9886\u57DF\u3001\u4E2A\u6027\u4E2D\u6700\u79EF\u6781\u7684\u90E8\u5206\u3001\u505A\u8FC7\u6700\u6210\u529F\u7684\u4E8B\uFF0C\u4E3B\u8981\u6210\u5C31\u7B49\uFF0C\u8981\u7A81\u51FA\u79EF\u6781\u7684\u4E2A\u6027\u548C\u505A\u4E8B\u7684\u80FD\u529B\uFF0C\u8BF4\u7684\u5408\u60C5\u5408\u7406\u4F01\u4E1A\uFF08\u9762\u8BD5\u5B98\uFF09\u624D\u4F1A\u76F8\u4FE1\u3002</p><h2 id="\u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48" tabindex="-1"><a class="header-anchor" href="#\u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48" aria-hidden="true">#</a> \u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48\uFF1F</h2><p><strong>\u56DE\u7B54\u63D0\u793A</strong>\uFF1A \u6C89\u7740\u51B7\u9759\u3001\u6761\u7406\u6E05\u695A\u3001\u7ACB\u573A\u575A\u5B9A\u3001\u4E50\u4E8E\u52A9\u4EBA\u7B49\uFF0C\u52A0\u4E0A\u4F8B\u5B50\u5982\uFF1A\u6211\u5728XX\u7ECF\u8FC7\u4E00\u5230\u4E24\u5E74\u7684\u57F9\u8BAD\u53CA\u9879\u76EE\u5B9E\u6218\uFF0C\u52A0\u4E0A\u5B9E\u4E60\u5DE5\u4F5C\uFF0C\u6211\u60F3\u6211\u9002\u5408\u8FD9\u4EFD\u5DE5\u4F5C\u3002</p><h2 id="\u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9" tabindex="-1"><a class="header-anchor" href="#\u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9" aria-hidden="true">#</a> \u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u8FD9\u4E2A\u95EE\u9898\u4F01\u4E1A\u95EE\u7684\u6982\u7387\u5F88\u5927\uFF0C\u901A\u5E38\u4E0D\u5E0C\u671B\u542C\u5230\u76F4\u63A5\u56DE\u7B54\u7684\u7F3A\u70B9\u662F\u4EC0\u4E48\u7B49\uFF0C\u5982\u679C\u6C42\u804C\u8005\u8BF4\u81EA\u5DF1\u5C0F\u5FC3\u773C\u3001\u975E\u5E38\u61D2\u3001\u5DE5\u4F5C\u6548\u7387\u4F4E\uFF0C\u4F01\u4E1A\u80AF\u5B9A\u4E0D\u4F1A\u5F55\u7528\u4F60\u3002\u8981\u4ECE\u81EA\u5DF1\u7684\u4F18\u70B9\u8BF4\u8D77\uFF0C\u4E2D\u95F4\u52A0\u4E00\u4E9B\u5C0F\u7F3A\u70B9\uFF0C\u6700\u540E\u518D\u628A\u95EE\u7B54\u8F6C\u56DE\u5230\u4F18\u70B9\u4E0A\uFF0C\u7A81\u51FA\u4F18\u70B9\u7684\u90E8\u5206\u3002</p><h2 id="\u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5" tabindex="-1"><a class="header-anchor" href="#\u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5" aria-hidden="true">#</a> \u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A\u5B9E\u9645\u4E0A\u597D\u591A\u516C\u53F8\u95EE\u8FD9\u4E2A\u95EE\u9898\uFF0C\u5E76\u4E0D\u8BC1\u660E\u4E00\u5B9A\u8981\u52A0\u73ED\uFF0C\u53EA\u662F\u60F3\u6D4B\u8BD5\u4F60\u662F\u5426\u613F\u610F\u4E3A\u516C\u53F8\u5949\u732E\u3002</p><p><strong>\u6837\u672C</strong>\uFF1A\u5982\u679C\u662F\u5DE5\u4F5C\u9700\u8981\u6211\u4F1A\u4E49\u4E0D\u5BB9\u8F9E\u52A0\u73ED\uFF0C\u4F46\u540C\u65F6\uFF0C\u6211\u4E5F\u4F1A\u63D0\u9AD8\u5DE5\u4F5C\u6548\u7387\uFF0C\u51CF\u5C11\u4E0D\u5FC5\u8981\u7684\u52A0\u73ED\u3002</p><h2 id="\u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42" tabindex="-1"><a class="header-anchor" href="#\u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42" aria-hidden="true">#</a> \u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u5982\u679C\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\u592A\u4F4E\uFF0C\u90A3\u663E\u7136\u8D2C\u4F4E\u81EA\u5DF1\u7684\u80FD\u529B\uFF1B\u5982\u679C\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\u592A\u9AD8\uFF0C\u90A3\u53C8\u4F1A\u663E\u5F97\u4F60\u5206\u91CF\u8FC7\u91CD\uFF0C\u516C\u53F8\u53D7\u7528\u4E0D\u8D77\u3002\u4E00\u4E9B\u96C7\u4E3B\u901A\u5E38\u90FD\u4E8B\u5148\u5BF9\u6C42\u8058\u7684\u804C\u4F4D\u5B9A\u4E0B\u5F00\u652F\u9884\u7B97\uFF0C\u56E0\u800C\u4ED6\u4EEC\u7B2C\u4E00\u6B21\u63D0\u51FA\u7684\u4EF7\u94B1\u5F80\u5F80\u662F\u4ED6\u4EEC\u6240\u80FD\u7ED9\u4E88\u7684\u6700\u9AD8\u4EF7\u94B1\uFF0C\u4ED6\u4EEC\u95EE\u4F60\u53EA\u4E0D\u8FC7\u60F3\u8BC1\u5B9E\u4E00\u4E0B\u8FD9\u7B14\u94B1\u662F\u5426\u8DB3\u4EE5\u5F15\u8D77\u4F60\u5BF9\u8BE5\u5DE5\u4F5C\u7684\u5174\u8DA3\u3002</p><p><strong>\u56DE\u7B54</strong>\uFF1A</p><ol><li><p>\u6211\u5BF9\u5DE5\u8D44\u6CA1\u6709\u786C\u6027\u8981\u6C42\uFF0C\u6211\u76F8\u4FE1\u8D35\u516C\u53F8\u4F1A\u53CB\u5584\u5408\u7406\u3002\u6211\u6CE8\u91CD\u7684\u662F\u627E\u5230\u5DE5\u4F5C\u673A\u4F1A\uFF0C\u6240\u4EE5\u53EA\u8981\u6761\u4EF6\u516C\u5E73\uFF0C\u6211\u5219\u4E0D\u4F1A\u8BA1\u8F83\u592A\u591A\u3002</p></li><li><p>\u6211\u53D7\u8FC7\u7CFB\u7EDF\u7684\u8F6F\u4EF6\u7F16\u7A0B\u7684\u8BAD\u7EC3\uFF0C\u4E0D\u9700\u8981\u8FDB\u884C\u5927\u91CF\u7684\u57F9\u8BAD\uFF0C\u800C\u4E14\u6211\u672C\u4EBA\u4E5F\u5BF9\u7F16\u7A0B\u7279\u522B\u611F\u5174\u8DA3\u3002\u56E0\u6B64\uFF0C\u6211\u5E0C\u671B\u516C\u53F8\u80FD\u6839\u636E\u6211\u7684\u60C5\u51B5\u548C\u5E02\u573A\u6807\u51C6\u7684\u6C34\u5E73\uFF0C\u7ED9\u6211\u5408\u7406\u7684\u85AA\u6C34\u3002</p></li><li><p>\u5982\u679C\u4F60\u5FC5\u987B\u81EA\u5DF1\u8BF4\u51FA\u5177\u4F53\u6570\u76EE\uFF0C\u8BF7\u4E0D\u8981\u8BF4\u4E00\u4E2A\u5BBD\u6CDB\u7684\u8303\u56F4\uFF0C\u90A3\u6837\u4F60\u5C06\u53EA\u80FD\u5F97\u5230\u6700\u4F4E\u9650\u5EA6\u7684\u6570\u5B57\u3002\u6700\u597D\u7ED9\u51FA\u4E00\u4E2A\u5177\u4F53\u7684\u6570\u5B57\uFF0C\u8FD9\u6837\u8868\u660E\u4F60\u5DF2\u7ECF\u5BF9\u5F53\u4ECA\u7684\u4EBA\u624D\u5E02\u573A\u505A\u4E86\u8C03\u67E5\uFF0C\u77E5\u9053\u50CF\u81EA\u5DF1\u8FD9\u6837\u5B66\u5386\u7684\u96C7\u5458\u6709\u4EC0\u4E48\u6837\u7684\u4EF7\u503C\u3002</p></li></ol><h2 id="\u5728\u4E94\u5E74\u5185-\u4F60\u7684\u804C\u4E1A\u89C4\u5212" tabindex="-1"><a class="header-anchor" href="#\u5728\u4E94\u5E74\u5185-\u4F60\u7684\u804C\u4E1A\u89C4\u5212" aria-hidden="true">#</a> \u5728\u4E94\u5E74\u5185\uFF0C\u4F60\u7684\u804C\u4E1A\u89C4\u5212\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u8FD9\u662F\u6BCF\u4E00\u4E2A\u5E94\u8058\u8005\u90FD\u4E0D\u5E0C\u671B\u88AB\u95EE\u5230\u7684\u95EE\u9898\uFF0C\u4F46\u662F\uFF08\u5927\u516C\u53F8\uFF09\u51E0\u4E4E\u6BCF\u4E2A\u4EBA\u90FD\u4F1A\u88AB\u95EE\u5230\uFF0C\u6BD4\u8F83\u591A\u7684\u7B54\u6848\u662F\u201C\u7BA1\u7406\u8005\u201D\u3002\u5F53\u7136\uFF0C\u8BF4\u51FA\u5176\u4ED6\u4E00\u4E9B\u4F60\u611F\u5174\u8DA3\u7684\u804C\u4F4D\u4E5F\u662F\u53EF\u4EE5\u7684\u3002\u8981\u77E5\u9053\uFF0C\u8003\u5B98\u603B\u662F\u559C\u6B22\u6709\u8FDB\u53D6\u5FC3\u7684\u5E94\u8058\u8005\uFF0C\u6B64\u65F6\u5982\u679C\u8BF4\u201C\u4E0D\u77E5\u9053\u201D\uFF0C\u6216\u8BB8\u5C31\u4F1A\u4F7F\u4F60\u4E27\u5931\u4E00\u4E2A\u597D\u673A\u4F1A\u3002\u6700\u666E\u901A\u7684\u56DE\u7B54\u5E94\u8BE5\u662F\u201C\u6211\u51C6\u5907\u5728\u6280\u672F\u9886\u57DF\u6709\u6240\u4F5C\u4E3A\u201D\u6216\u201C\u6211\u5E0C\u671B\u80FD\u6309\u7167\u516C\u53F8\u7684\u7BA1\u7406\u601D\u8DEF\u53D1\u5C55\u201D\u3002</p><h2 id="\u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417" tabindex="-1"><a class="header-anchor" href="#\u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417" aria-hidden="true">#</a> \u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417?</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u4F01\u4E1A\u7684\u8FD9\u4E2A\u95EE\u9898\u770B\u4E0A\u53BB\u53EF\u6709\u53EF\u65E0\uFF0C\u5176\u5B9E\u5F88\u5173\u952E\uFF0C\u4F01\u4E1A\u4E0D\u559C\u6B22\u8BF4\u201C\u6CA1\u95EE\u9898\u201D\u7684\u4EBA\uFF0C\u56E0\u4E3A\u5176\u5F88\u6CE8\u91CD\u5458\u5DE5\u7684\u4E2A\u6027\u548C\u521B\u65B0\u80FD\u529B\u3002\u4F01\u4E1A\u4E0D\u559C\u6B22\u6C42\u804C\u8005\u95EE\u4E2A\u4EBA\u798F\u5229\u4E4B\u7C7B\u7684\u95EE\u9898\uFF0C\u5982\u679C\u6709\u4EBA\u8FD9\u6837\u95EE\uFF1A\u8D35\u516C\u53F8\u5BF9\u65B0\u5165\u516C\u53F8\u7684\u5458\u5DE5\u6709\u6CA1\u6709\u4EC0\u4E48\u57F9\u8BAD\u9879\u76EE\uFF0C\u6211\u53EF\u4EE5\u53C2\u52A0\u5417\uFF1F\u6216\u8005\u8BF4\u8D35\u516C\u53F8\u7684\u664B\u5347\u673A\u5236\u662F\u4EC0\u4E48\u6837\u7684\uFF1F\u4F01\u4E1A\u5C06\u5F88\u6B22\u8FCE\uFF0C\u56E0\u4E3A\u4F53\u73B0\u51FA\u4F60\u5BF9\u5B66\u4E60\u7684\u70ED\u60C5\u548C\u5BF9\u516C\u53F8\u7684\u5FE0\u8BDA\u5EA6\u4EE5\u53CA\u4F60\u7684\u4E0A\u8FDB\u5FC3\u3002</p><h2 id="\u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5" tabindex="-1"><a class="header-anchor" href="#\u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5" aria-hidden="true">#</a> \u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5?</h2><p><strong>\u56DE\u7B54</strong>\uFF1A \u2460\u6B63\u5E38\u7684\u201C\u8DF3\u69FD\u201D\u80FD\u591F\u4FC3\u8FDB\u4EBA\u624D\u5408\u7406\u6D41\u52A8\uFF0C\u5E94\u8BE5\u652F\u6301\u3002\u2461\u9891\u7E41\u7684\u8DF3\u69FD\u5BF9\u5355\u4F4D\u548C\u4E2A\u4EBA\u53CC\u65B9\u90FD\u4E0D\u5229\uFF0C\u5E94\u8BE5\u53CD\u5BF9\u3002</p><h2 id="\u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11" tabindex="-1"><a class="header-anchor" href="#\u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11" aria-hidden="true">#</a> \u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11?</h2><p><strong>\u56DE\u7B54</strong>\uFF1A\u5728\u53BB\u516C\u53F8\u9762\u8BD5\u524D\u4E0A\u7F51\u67E5\u4E00\u4E0B\u8BE5\u516C\u53F8\u4E3B\u8425\u4E1A\u52A1\u3002\u53EF\u7C7B\u4F3C\u56DE\u7B54\uFF1A\u8D35\u516C\u53F8\u6709\u610F\u6539\u53D8\u7B56\u7565\uFF0C\u52A0\u5F3A\u4E0E\u56FD\u5916\u5927\u5382\u7684OEM\u5408\u4F5C\uFF0C\u81EA\u6709\u54C1\u724C\u7684\u90E8\u5206\u5219\u900F\u8FC7\u6D77\u5916\u7ECF\u9500\u5546\u3002</p><!--]-->`);
+  _push(`<!--[--><h2 id="_3" tabindex="-1"><a class="header-anchor" href="#_3" aria-hidden="true">#</a> 3</h2><h2 id="_4" tabindex="-1"><a class="header-anchor" href="#_4" aria-hidden="true">#</a> 4</h2><!--]-->`);
 }
 const _sfc_setup$q = _sfc_main$q.setup;
 _sfc_main$q.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/\u9762\u8BD5/interview.html.vue");
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/\u968F\u7B14/text.html.vue");
   return _sfc_setup$q ? _sfc_setup$q(props, ctx) : void 0;
 };
-var interview_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$q, [["ssrRender", _sfc_ssrRender$c]]);
-var interview_html$2 = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  "default": interview_html$1
-});
-const _sfc_main$p = {};
-function _sfc_ssrRender$b(_ctx, _push, _parent, _attrs) {
-  _push(`<!--[--><h2 id="_3" tabindex="-1"><a class="header-anchor" href="#_3" aria-hidden="true">#</a> 3</h2><h2 id="_4" tabindex="-1"><a class="header-anchor" href="#_4" aria-hidden="true">#</a> 4</h2><!--]-->`);
-}
-const _sfc_setup$p = _sfc_main$p.setup;
-_sfc_main$p.setup = (props, ctx) => {
-  const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/\u968F\u7B14/text.html.vue");
-  return _sfc_setup$p ? _sfc_setup$p(props, ctx) : void 0;
-};
-var text_html$2 = /* @__PURE__ */ _export_sfc(_sfc_main$p, [["ssrRender", _sfc_ssrRender$b]]);
+var text_html$2 = /* @__PURE__ */ _export_sfc(_sfc_main$q, [["ssrRender", _sfc_ssrRender$c]]);
 var text_html$3 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": text_html$2
+});
+const _sfc_main$p = {};
+function _sfc_ssrRender$b(_ctx, _push, _parent, _attrs) {
+  _push(`<!--[--><h1 id="\u9762\u8BD5\u96C6\u9526" tabindex="-1"><a class="header-anchor" href="#\u9762\u8BD5\u96C6\u9526" aria-hidden="true">#</a> \u9762\u8BD5\u96C6\u9526</h1><div class="custom-container tip"><p class="custom-container-title">\u9762\u8BD5</p><p>\u5E38\u89C1\u9762\u8BD5\u96C6\u9526</p></div><h2 id="\u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD" tabindex="-1"><a class="header-anchor" href="#\u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD" aria-hidden="true">#</a> \u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD</h2><p><strong>\u63D0\u793A</strong>\uFF1A\u4E00\u822C\u4EBA\u56DE\u7B54\u8FD9\u4E2A\u95EE\u9898\u8FC7\u4E8E\u5E73\u5E38\uFF0C\u59D3\u540D\u3001\u5E74\u9F84\u3001\u7231\u597D\u3001\u5DE5\u4F5C\u7ECF\u9A8C\uFF0C\u8FD9\u4E9B\u7B80\u5386\u4E0A\u90FD\u6709\u3002\u4F01\u4E1A\uFF08\u9762\u8BD5\u5B98\uFF09\u6700\u5E0C\u671B\u77E5\u9053\u7684\u662F\u6C42\u804C\u8005\u80FD\u5426\u80DC\u4EFB\u5DE5\u4F5C\uFF0C\u5305\u62EC\uFF1A\u6700\u5F3A\u7684\u6280\u80FD\u3001\u6700\u6DF1\u5165\u7814\u7A76\u7684\u9886\u57DF\u3001\u4E2A\u6027\u4E2D\u6700\u79EF\u6781\u7684\u90E8\u5206\u3001\u505A\u8FC7\u6700\u6210\u529F\u7684\u4E8B\uFF0C\u4E3B\u8981\u6210\u5C31\u7B49\uFF0C\u8981\u7A81\u51FA\u79EF\u6781\u7684\u4E2A\u6027\u548C\u505A\u4E8B\u7684\u80FD\u529B\uFF0C\u8BF4\u7684\u5408\u60C5\u5408\u7406\u4F01\u4E1A\uFF08\u9762\u8BD5\u5B98\uFF09\u624D\u4F1A\u76F8\u4FE1\u3002</p><h2 id="\u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48" tabindex="-1"><a class="header-anchor" href="#\u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48" aria-hidden="true">#</a> \u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48\uFF1F</h2><p><strong>\u56DE\u7B54\u63D0\u793A</strong>\uFF1A \u6C89\u7740\u51B7\u9759\u3001\u6761\u7406\u6E05\u695A\u3001\u7ACB\u573A\u575A\u5B9A\u3001\u4E50\u4E8E\u52A9\u4EBA\u7B49\uFF0C\u52A0\u4E0A\u4F8B\u5B50\u5982\uFF1A\u6211\u5728XX\u7ECF\u8FC7\u4E00\u5230\u4E24\u5E74\u7684\u57F9\u8BAD\u53CA\u9879\u76EE\u5B9E\u6218\uFF0C\u52A0\u4E0A\u5B9E\u4E60\u5DE5\u4F5C\uFF0C\u6211\u60F3\u6211\u9002\u5408\u8FD9\u4EFD\u5DE5\u4F5C\u3002</p><h2 id="\u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9" tabindex="-1"><a class="header-anchor" href="#\u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9" aria-hidden="true">#</a> \u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u8FD9\u4E2A\u95EE\u9898\u4F01\u4E1A\u95EE\u7684\u6982\u7387\u5F88\u5927\uFF0C\u901A\u5E38\u4E0D\u5E0C\u671B\u542C\u5230\u76F4\u63A5\u56DE\u7B54\u7684\u7F3A\u70B9\u662F\u4EC0\u4E48\u7B49\uFF0C\u5982\u679C\u6C42\u804C\u8005\u8BF4\u81EA\u5DF1\u5C0F\u5FC3\u773C\u3001\u975E\u5E38\u61D2\u3001\u5DE5\u4F5C\u6548\u7387\u4F4E\uFF0C\u4F01\u4E1A\u80AF\u5B9A\u4E0D\u4F1A\u5F55\u7528\u4F60\u3002\u8981\u4ECE\u81EA\u5DF1\u7684\u4F18\u70B9\u8BF4\u8D77\uFF0C\u4E2D\u95F4\u52A0\u4E00\u4E9B\u5C0F\u7F3A\u70B9\uFF0C\u6700\u540E\u518D\u628A\u95EE\u7B54\u8F6C\u56DE\u5230\u4F18\u70B9\u4E0A\uFF0C\u7A81\u51FA\u4F18\u70B9\u7684\u90E8\u5206\u3002</p><h2 id="\u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5" tabindex="-1"><a class="header-anchor" href="#\u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5" aria-hidden="true">#</a> \u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A\u5B9E\u9645\u4E0A\u597D\u591A\u516C\u53F8\u95EE\u8FD9\u4E2A\u95EE\u9898\uFF0C\u5E76\u4E0D\u8BC1\u660E\u4E00\u5B9A\u8981\u52A0\u73ED\uFF0C\u53EA\u662F\u60F3\u6D4B\u8BD5\u4F60\u662F\u5426\u613F\u610F\u4E3A\u516C\u53F8\u5949\u732E\u3002</p><p><strong>\u6837\u672C</strong>\uFF1A\u5982\u679C\u662F\u5DE5\u4F5C\u9700\u8981\u6211\u4F1A\u4E49\u4E0D\u5BB9\u8F9E\u52A0\u73ED\uFF0C\u4F46\u540C\u65F6\uFF0C\u6211\u4E5F\u4F1A\u63D0\u9AD8\u5DE5\u4F5C\u6548\u7387\uFF0C\u51CF\u5C11\u4E0D\u5FC5\u8981\u7684\u52A0\u73ED\u3002</p><h2 id="\u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42" tabindex="-1"><a class="header-anchor" href="#\u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42" aria-hidden="true">#</a> \u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u5982\u679C\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\u592A\u4F4E\uFF0C\u90A3\u663E\u7136\u8D2C\u4F4E\u81EA\u5DF1\u7684\u80FD\u529B\uFF1B\u5982\u679C\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\u592A\u9AD8\uFF0C\u90A3\u53C8\u4F1A\u663E\u5F97\u4F60\u5206\u91CF\u8FC7\u91CD\uFF0C\u516C\u53F8\u53D7\u7528\u4E0D\u8D77\u3002\u4E00\u4E9B\u96C7\u4E3B\u901A\u5E38\u90FD\u4E8B\u5148\u5BF9\u6C42\u8058\u7684\u804C\u4F4D\u5B9A\u4E0B\u5F00\u652F\u9884\u7B97\uFF0C\u56E0\u800C\u4ED6\u4EEC\u7B2C\u4E00\u6B21\u63D0\u51FA\u7684\u4EF7\u94B1\u5F80\u5F80\u662F\u4ED6\u4EEC\u6240\u80FD\u7ED9\u4E88\u7684\u6700\u9AD8\u4EF7\u94B1\uFF0C\u4ED6\u4EEC\u95EE\u4F60\u53EA\u4E0D\u8FC7\u60F3\u8BC1\u5B9E\u4E00\u4E0B\u8FD9\u7B14\u94B1\u662F\u5426\u8DB3\u4EE5\u5F15\u8D77\u4F60\u5BF9\u8BE5\u5DE5\u4F5C\u7684\u5174\u8DA3\u3002</p><p><strong>\u56DE\u7B54</strong>\uFF1A</p><ol><li><p>\u6211\u5BF9\u5DE5\u8D44\u6CA1\u6709\u786C\u6027\u8981\u6C42\uFF0C\u6211\u76F8\u4FE1\u8D35\u516C\u53F8\u4F1A\u53CB\u5584\u5408\u7406\u3002\u6211\u6CE8\u91CD\u7684\u662F\u627E\u5230\u5DE5\u4F5C\u673A\u4F1A\uFF0C\u6240\u4EE5\u53EA\u8981\u6761\u4EF6\u516C\u5E73\uFF0C\u6211\u5219\u4E0D\u4F1A\u8BA1\u8F83\u592A\u591A\u3002</p></li><li><p>\u6211\u53D7\u8FC7\u7CFB\u7EDF\u7684\u8F6F\u4EF6\u7F16\u7A0B\u7684\u8BAD\u7EC3\uFF0C\u4E0D\u9700\u8981\u8FDB\u884C\u5927\u91CF\u7684\u57F9\u8BAD\uFF0C\u800C\u4E14\u6211\u672C\u4EBA\u4E5F\u5BF9\u7F16\u7A0B\u7279\u522B\u611F\u5174\u8DA3\u3002\u56E0\u6B64\uFF0C\u6211\u5E0C\u671B\u516C\u53F8\u80FD\u6839\u636E\u6211\u7684\u60C5\u51B5\u548C\u5E02\u573A\u6807\u51C6\u7684\u6C34\u5E73\uFF0C\u7ED9\u6211\u5408\u7406\u7684\u85AA\u6C34\u3002</p></li><li><p>\u5982\u679C\u4F60\u5FC5\u987B\u81EA\u5DF1\u8BF4\u51FA\u5177\u4F53\u6570\u76EE\uFF0C\u8BF7\u4E0D\u8981\u8BF4\u4E00\u4E2A\u5BBD\u6CDB\u7684\u8303\u56F4\uFF0C\u90A3\u6837\u4F60\u5C06\u53EA\u80FD\u5F97\u5230\u6700\u4F4E\u9650\u5EA6\u7684\u6570\u5B57\u3002\u6700\u597D\u7ED9\u51FA\u4E00\u4E2A\u5177\u4F53\u7684\u6570\u5B57\uFF0C\u8FD9\u6837\u8868\u660E\u4F60\u5DF2\u7ECF\u5BF9\u5F53\u4ECA\u7684\u4EBA\u624D\u5E02\u573A\u505A\u4E86\u8C03\u67E5\uFF0C\u77E5\u9053\u50CF\u81EA\u5DF1\u8FD9\u6837\u5B66\u5386\u7684\u96C7\u5458\u6709\u4EC0\u4E48\u6837\u7684\u4EF7\u503C\u3002</p></li></ol><h2 id="\u5728\u4E94\u5E74\u5185-\u4F60\u7684\u804C\u4E1A\u89C4\u5212" tabindex="-1"><a class="header-anchor" href="#\u5728\u4E94\u5E74\u5185-\u4F60\u7684\u804C\u4E1A\u89C4\u5212" aria-hidden="true">#</a> \u5728\u4E94\u5E74\u5185\uFF0C\u4F60\u7684\u804C\u4E1A\u89C4\u5212\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u8FD9\u662F\u6BCF\u4E00\u4E2A\u5E94\u8058\u8005\u90FD\u4E0D\u5E0C\u671B\u88AB\u95EE\u5230\u7684\u95EE\u9898\uFF0C\u4F46\u662F\uFF08\u5927\u516C\u53F8\uFF09\u51E0\u4E4E\u6BCF\u4E2A\u4EBA\u90FD\u4F1A\u88AB\u95EE\u5230\uFF0C\u6BD4\u8F83\u591A\u7684\u7B54\u6848\u662F\u201C\u7BA1\u7406\u8005\u201D\u3002\u5F53\u7136\uFF0C\u8BF4\u51FA\u5176\u4ED6\u4E00\u4E9B\u4F60\u611F\u5174\u8DA3\u7684\u804C\u4F4D\u4E5F\u662F\u53EF\u4EE5\u7684\u3002\u8981\u77E5\u9053\uFF0C\u8003\u5B98\u603B\u662F\u559C\u6B22\u6709\u8FDB\u53D6\u5FC3\u7684\u5E94\u8058\u8005\uFF0C\u6B64\u65F6\u5982\u679C\u8BF4\u201C\u4E0D\u77E5\u9053\u201D\uFF0C\u6216\u8BB8\u5C31\u4F1A\u4F7F\u4F60\u4E27\u5931\u4E00\u4E2A\u597D\u673A\u4F1A\u3002\u6700\u666E\u901A\u7684\u56DE\u7B54\u5E94\u8BE5\u662F\u201C\u6211\u51C6\u5907\u5728\u6280\u672F\u9886\u57DF\u6709\u6240\u4F5C\u4E3A\u201D\u6216\u201C\u6211\u5E0C\u671B\u80FD\u6309\u7167\u516C\u53F8\u7684\u7BA1\u7406\u601D\u8DEF\u53D1\u5C55\u201D\u3002</p><h2 id="\u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417" tabindex="-1"><a class="header-anchor" href="#\u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417" aria-hidden="true">#</a> \u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417?</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u4F01\u4E1A\u7684\u8FD9\u4E2A\u95EE\u9898\u770B\u4E0A\u53BB\u53EF\u6709\u53EF\u65E0\uFF0C\u5176\u5B9E\u5F88\u5173\u952E\uFF0C\u4F01\u4E1A\u4E0D\u559C\u6B22\u8BF4\u201C\u6CA1\u95EE\u9898\u201D\u7684\u4EBA\uFF0C\u56E0\u4E3A\u5176\u5F88\u6CE8\u91CD\u5458\u5DE5\u7684\u4E2A\u6027\u548C\u521B\u65B0\u80FD\u529B\u3002\u4F01\u4E1A\u4E0D\u559C\u6B22\u6C42\u804C\u8005\u95EE\u4E2A\u4EBA\u798F\u5229\u4E4B\u7C7B\u7684\u95EE\u9898\uFF0C\u5982\u679C\u6709\u4EBA\u8FD9\u6837\u95EE\uFF1A\u8D35\u516C\u53F8\u5BF9\u65B0\u5165\u516C\u53F8\u7684\u5458\u5DE5\u6709\u6CA1\u6709\u4EC0\u4E48\u57F9\u8BAD\u9879\u76EE\uFF0C\u6211\u53EF\u4EE5\u53C2\u52A0\u5417\uFF1F\u6216\u8005\u8BF4\u8D35\u516C\u53F8\u7684\u664B\u5347\u673A\u5236\u662F\u4EC0\u4E48\u6837\u7684\uFF1F\u4F01\u4E1A\u5C06\u5F88\u6B22\u8FCE\uFF0C\u56E0\u4E3A\u4F53\u73B0\u51FA\u4F60\u5BF9\u5B66\u4E60\u7684\u70ED\u60C5\u548C\u5BF9\u516C\u53F8\u7684\u5FE0\u8BDA\u5EA6\u4EE5\u53CA\u4F60\u7684\u4E0A\u8FDB\u5FC3\u3002</p><h2 id="\u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5" tabindex="-1"><a class="header-anchor" href="#\u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5" aria-hidden="true">#</a> \u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5?</h2><p><strong>\u56DE\u7B54</strong>\uFF1A \u2460\u6B63\u5E38\u7684\u201C\u8DF3\u69FD\u201D\u80FD\u591F\u4FC3\u8FDB\u4EBA\u624D\u5408\u7406\u6D41\u52A8\uFF0C\u5E94\u8BE5\u652F\u6301\u3002\u2461\u9891\u7E41\u7684\u8DF3\u69FD\u5BF9\u5355\u4F4D\u548C\u4E2A\u4EBA\u53CC\u65B9\u90FD\u4E0D\u5229\uFF0C\u5E94\u8BE5\u53CD\u5BF9\u3002</p><h2 id="\u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11" tabindex="-1"><a class="header-anchor" href="#\u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11" aria-hidden="true">#</a> \u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11?</h2><p><strong>\u56DE\u7B54</strong>\uFF1A\u5728\u53BB\u516C\u53F8\u9762\u8BD5\u524D\u4E0A\u7F51\u67E5\u4E00\u4E0B\u8BE5\u516C\u53F8\u4E3B\u8425\u4E1A\u52A1\u3002\u53EF\u7C7B\u4F3C\u56DE\u7B54\uFF1A\u8D35\u516C\u53F8\u6709\u610F\u6539\u53D8\u7B56\u7565\uFF0C\u52A0\u5F3A\u4E0E\u56FD\u5916\u5927\u5382\u7684OEM\u5408\u4F5C\uFF0C\u81EA\u6709\u54C1\u724C\u7684\u90E8\u5206\u5219\u900F\u8FC7\u6D77\u5916\u7ECF\u9500\u5546\u3002</p><!--]-->`);
+}
+const _sfc_setup$p = _sfc_main$p.setup;
+_sfc_main$p.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/\u9762\u8BD5/interview.html.vue");
+  return _sfc_setup$p ? _sfc_setup$p(props, ctx) : void 0;
+};
+var interview_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$p, [["ssrRender", _sfc_ssrRender$b]]);
+var interview_html$2 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": interview_html$1
 });
 const _sfc_main$o = {};
 function _sfc_ssrRender$a(_ctx, _push, _parent, _attrs) {
@@ -2969,11 +3206,11 @@ _sfc_main$o.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/html/text1.html.vue");
   return _sfc_setup$o ? _sfc_setup$o(props, ctx) : void 0;
 };
-var text1_html$5 = /* @__PURE__ */ _export_sfc(_sfc_main$o, [["ssrRender", _sfc_ssrRender$a]]);
-var text1_html$6 = /* @__PURE__ */ Object.freeze({
+var text1_html$2 = /* @__PURE__ */ _export_sfc(_sfc_main$o, [["ssrRender", _sfc_ssrRender$a]]);
+var text1_html$3 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  "default": text1_html$5
+  "default": text1_html$2
 });
 const _sfc_main$n = {};
 function _sfc_ssrRender$9(_ctx, _push, _parent, _attrs) {
@@ -3012,6 +3249,7 @@ var _____html$8 = /* @__PURE__ */ Object.freeze({
 });
 const _sfc_main$l = {};
 function _sfc_ssrRender$7(_ctx, _push, _parent, _attrs) {
+  const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
   _push(`<!--[--><h1 id="\u5185\u7F6E\u5BF9\u8C61" tabindex="-1"><a class="header-anchor" href="#\u5185\u7F6E\u5BF9\u8C61" aria-hidden="true">#</a> \u5185\u7F6E\u5BF9\u8C61</h1><h2 id="object-\u5BF9\u8C61" tabindex="-1"><a class="header-anchor" href="#object-\u5BF9\u8C61" aria-hidden="true">#</a> Object \u5BF9\u8C61</h2><p>JavaScript \u539F\u751F\u63D0\u4F9B<code>Object</code>\u5BF9\u8C61\uFF08\u6CE8\u610F\u8D77\u9996\u7684<code>O</code>\u662F\u5927\u5199\uFF09,JavaScript \u7684\u6240\u6709\u5176\u4ED6\u5BF9\u8C61\u90FD\u7EE7\u627F\u81EA<code>Object</code>\u5BF9\u8C61\uFF0C\u5373\u90A3\u4E9B\u5BF9\u8C61\u90FD\u662F<code>Object</code>\u7684\u5B9E\u4F8B\u3002</p><p><code>Object</code>\u5BF9\u8C61\u7684\u539F\u751F\u65B9\u6CD5\u5206\u6210\u4E24\u7C7B\uFF1A<code>Object</code>\u672C\u8EAB\u7684\u65B9\u6CD5\u4E0E<code>Object</code>\u7684\u5B9E\u4F8B\u65B9\u6CD5\u3002</p><ol><li><code>Object</code>\u5BF9\u8C61\u672C\u8EAB\u7684\u65B9\u6CD5</li></ol><p>\u6240\u8C13\u201C\u672C\u8EAB\u7684\u65B9\u6CD5\u201D\u5C31\u662F\u76F4\u63A5\u5B9A\u4E49\u5728<code>Object</code>\u5BF9\u8C61\u7684\u65B9\u6CD5\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code>Object<span class="token punctuation">.</span><span class="token function-variable function">print</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">o</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>o<span class="token punctuation">)</span> <span class="token punctuation">}</span><span class="token punctuation">;</span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><ol start="2"><li><code>Object</code>\u7684\u5B9E\u4F8B\u65B9\u6CD5</li></ol><p>\u6240\u8C13\u5B9E\u4F8B\u65B9\u6CD5\u5C31\u662F\u5B9A\u4E49\u5728<code>Object</code>\u539F\u578B\u5BF9\u8C61<code>Object.prototype</code>\u4E0A\u7684\u65B9\u6CD5\u3002\u5B83\u53EF\u4EE5\u88AB<code>Object</code>\u5B9E\u4F8B\u76F4\u63A5\u4F7F\u7528\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token class-name">Object</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function-variable function">print</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
@@ -3019,7 +3257,80 @@ function _sfc_ssrRender$7(_ctx, _push, _parent, _attrs) {
 
 <span class="token keyword">var</span> obj <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Object</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 obj<span class="token punctuation">.</span><span class="token function">print</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">// Object</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><!--]-->`);
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><p>\u5173\u4E8E\u539F\u578B\u5BF9\u8C61<code>object.prototype</code>\u7684\u8BE6\u7EC6\u89E3\u91CA:\u8FD9\u91CC\u53EA\u8981\u77E5\u9053\uFF0C\u51E1\u662F\u5B9A\u4E49\u5728<code>Object.prototype</code>\u5BF9\u8C61\u4E0A\u9762\u7684\u5C5E\u6027\u548C\u65B9\u6CD5\uFF0C\u5C06\u88AB\u6240\u6709\u5B9E\u4F8B\u5BF9\u8C61\u5171\u4EAB\u5C31\u53EF\u4EE5\u4E86\u3002</p><p>\u4EE5\u4E0B\u5148\u4ECB\u7ECD<code>Object</code>\u4F5C\u4E3A\u51FD\u6570\u7684\u7528\u6CD5\uFF0C\u7136\u540E\u518D\u4ECB\u7ECD<code>Object</code>\u5BF9\u8C61\u7684\u539F\u751F\u65B9\u6CD5\uFF0C\u5206\u6210\u5BF9\u8C61\u81EA\u8EAB\u7684\u65B9\u6CD5\uFF08\u53C8\u79F0\u4E3A\u201C\u9759\u6001\u65B9\u6CD5\u201D\uFF09\u548C\u5B9E\u4F8B\u65B9\u6CD5\u4E24\u90E8\u5206\u3002</p><h2 id="object-\u4F5C\u4E3A\u51FD\u6570-\u65B9\u6CD5" tabindex="-1"><a class="header-anchor" href="#object-\u4F5C\u4E3A\u51FD\u6570-\u65B9\u6CD5" aria-hidden="true">#</a> Object() \u4F5C\u4E3A\u51FD\u6570\uFF08\u65B9\u6CD5\uFF09</h2><p><code>Object</code>\u672C\u8EAB\u662F\u4E00\u4E2A\u51FD\u6570\uFF0C\u53EF\u4EE5\u5F53\u4F5C\u5DE5\u5177\u65B9\u6CD5\u4F7F\u7528\uFF0C\u5C06\u4EFB\u610F\u503C\u8F6C\u4E3A\u5BF9\u8C61\u3002\u8FD9\u4E2A\u65B9\u6CD5\u5E38\u7528\u4E8E\u4FDD\u8BC1\u67D0\u4E2A\u503C\u4E00\u5B9A\u662F\u5BF9\u8C61\u3002</p><p>\u5982\u679C\u53C2\u6570\u4E3A\u7A7A\uFF08\u6216\u8005\u4E3A<code>undefined</code>\u548C<code>null</code>\uFF09\uFF0C<code>Object()</code>\u8FD4\u56DE\u4E00\u4E2A\u7A7A\u5BF9\u8C61\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">var</span> obj <span class="token operator">=</span> <span class="token function">Object</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">//\u7B49\u540C\u4E8E</span>
+<span class="token keyword">var</span> obj <span class="token operator">=</span> <span class="token function">Object</span><span class="token punctuation">(</span><span class="token keyword">undefined</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> obj <span class="token operator">=</span> <span class="token function">Object</span><span class="token punctuation">(</span><span class="token keyword">null</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+obj <span class="token keyword">instanceof</span> <span class="token class-name">Object</span> <span class="token comment">// true</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><p>\u4E0A\u9762\u4EE3\u7801\u7684\u542B\u4E49\uFF0C\u662F\u5C06<code>undefined</code>\u548C<code>null</code>\u8F6C\u4E3A\u5BF9\u8C61\uFF0C\u7ED3\u679C\u5F97\u5230\u4E86\u4E00\u4E2A\u7A7A\u5BF9\u8C61obj\u3002</p><p><code>instanceof</code>\u8FD0\u7B97\u7B26\u7528\u6765\u9A8C\u8BC1\uFF0C\u4E00\u4E2A\u5BF9\u8C61\u662F\u5426\u4E3A\u6307\u5B9A\u7684\u6784\u9020\u51FD\u6570\u7684\u5B9E\u4F8B\u3002<code>obj instanceof Object</code>\u8FD4\u56DE<code>true</code>\uFF0C\u5C31\u8868\u793A<code>obj</code>\u5BF9\u8C61\u662F<code>Object</code>\u7684\u5B9E\u4F8B\u3002</p><p>\u5982\u679C\u53C2\u6570\u662F\u539F\u59CB\u7C7B\u578B\u7684\u503C\uFF0C<code>Object</code>\u65B9\u6CD5\u5C06\u5176\u8F6C\u4E3A\u5BF9\u5E94\u7684\u5305\u88C5\u5BF9\u8C61\u7684\u5B9E\u4F8B(\u53C2\u8003\uFF1A\u300A\u5305\u88C5\u5BF9\u8C61\u300B)\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">var</span> obj <span class="token operator">=</span> <span class="token function">Object</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+obj <span class="token keyword">instanceof</span> <span class="token class-name">Object</span> <span class="token comment">// true</span>
+obj <span class="token keyword">instanceof</span> <span class="token class-name">Number</span> <span class="token comment">// true</span>
+
+<span class="token keyword">var</span> obj <span class="token operator">=</span> <span class="token function">Object</span><span class="token punctuation">(</span><span class="token string">&#39;foo&#39;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+obj <span class="token keyword">instanceof</span> <span class="token class-name">Object</span> <span class="token comment">// true</span>
+obj <span class="token keyword">instanceof</span> <span class="token class-name">String</span> <span class="token comment">// true</span>
+
+<span class="token keyword">var</span> obj <span class="token operator">=</span> <span class="token function">Object</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+obj <span class="token keyword">instanceof</span> <span class="token class-name">Object</span> <span class="token comment">// true</span>
+obj <span class="token keyword">instanceof</span> <span class="token class-name">Boolean</span> <span class="token comment">// true</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><p>\u4E0A\u9762\u4EE3\u7801\u4E2D\uFF0C<code>Object</code>\u51FD\u6570\u7684\u53C2\u6570\u662F\u5404\u79CD\u539F\u59CB\u7C7B\u578B\u7684\u503C\uFF0C\u8F6C\u6362\u6210\u5BF9\u8C61\u5C31\u662F\u539F\u59CB\u7C7B\u578B\u503C\u5BF9\u5E94\u7684\u5305\u88C5\u5BF9\u8C61\u3002</p><p>\u5982\u679C<code>Object</code>\u65B9\u6CD5\u7684\u53C2\u6570\u662F\u4E00\u4E2A\u5BF9\u8C61\uFF0C\u5B83\u603B\u662F\u8FD4\u56DE\u8BE5\u5BF9\u8C61\uFF0C\u5373\u4E0D\u7528\u8F6C\u6362\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">var</span> arr <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> obj <span class="token operator">=</span> <span class="token function">Object</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// \u8FD4\u56DE\u539F\u6570\u7EC4</span>
+obj <span class="token operator">===</span> arr <span class="token comment">// true</span>
+
+<span class="token keyword">var</span> value <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> obj <span class="token operator">=</span> <span class="token function">Object</span><span class="token punctuation">(</span>value<span class="token punctuation">)</span> <span class="token comment">// \u8FD4\u56DE\u539F\u5BF9\u8C61</span>
+obj <span class="token operator">===</span> value <span class="token comment">// true</span>
+
+<span class="token keyword">var</span> <span class="token function-variable function">fn</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> obj <span class="token operator">=</span> <span class="token function">Object</span><span class="token punctuation">(</span>fn<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// \u8FD4\u56DE\u539F\u51FD\u6570</span>
+obj <span class="token operator">===</span> fn <span class="token comment">// true</span>
+
+
+<span class="token comment">//\u5229\u7528\u8FD9\u4E00\u70B9\uFF0C\u53EF\u4EE5\u5199\u4E00\u4E2A\u5224\u65AD\u53D8\u91CF\u662F\u5426\u4E3A\u5BF9\u8C61\u7684\u51FD\u6570\u3002</span>
+<span class="token keyword">function</span> <span class="token function">isObject</span><span class="token punctuation">(</span><span class="token parameter">value</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> value <span class="token operator">===</span> <span class="token function">Object</span><span class="token punctuation">(</span>value<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token function">isObject</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token comment">// true</span>
+<span class="token function">isObject</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span> <span class="token comment">// false</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br></div></div><h2 id="object-\u6784\u9020\u51FD\u6570-new\u521B\u5EFA" tabindex="-1"><a class="header-anchor" href="#object-\u6784\u9020\u51FD\u6570-new\u521B\u5EFA" aria-hidden="true">#</a> Object \u6784\u9020\u51FD\u6570(new\u521B\u5EFA)</h2><p><code>Object</code>\u6784\u9020\u51FD\u6570\u7684\u9996\u8981\u7528\u9014\uFF0C\u662F\u76F4\u63A5\u901A\u8FC7\u5B83\u6765\u751F\u6210\u65B0\u5BF9\u8C61</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">var</span> obj <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Object</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><div class="custom-container warning"><p class="custom-container-title">\u6CE8\u610F</p><p>\u901A\u8FC7<code>var obj = new Object()</code>\u7684\u5199\u6CD5\u751F\u6210\u65B0\u5BF9\u8C61\uFF0C\u4E0E\u5B57\u9762\u91CF\u7684\u5199\u6CD5<code>var obj = {}</code>\u662F\u7B49\u4EF7\u7684\u3002\u6216\u8005\u8BF4\uFF0C\u540E\u8005\u53EA\u662F\u524D\u8005\u7684\u4E00\u79CD\u7B80\u4FBF\u5199\u6CD5\u3002</p></div><p><code>Object</code>\u6784\u9020\u51FD\u6570\u7684\u7528\u6CD5\u4E0E\u5DE5\u5177\u65B9\u6CD5\u5F88\u76F8\u4F3C\uFF0C\u51E0\u4E4E\u4E00\u6A21\u4E00\u6837\u3002\u4F7F\u7528\u65F6\uFF0C\u53EF\u4EE5\u63A5\u53D7\u4E00\u4E2A\u53C2\u6570\uFF0C\u5982\u679C\u8BE5\u53C2\u6570\u662F\u4E00\u4E2A\u5BF9\u8C61\uFF0C\u5219\u76F4\u63A5\u8FD4\u56DE\u8FD9\u4E2A\u5BF9\u8C61\uFF1B\u5982\u679C\u662F\u4E00\u4E2A\u539F\u59CB\u7C7B\u578B\u7684\u503C\uFF0C\u5219\u8FD4\u56DE\u8BE5\u503C\u5BF9\u5E94\u7684\u5305\u88C5\u5BF9\u8C61\uFF08\u8BE6\u89C1\u300A\u5305\u88C5\u5BF9\u8C61\u300B\u4E00\u7AE0\uFF09\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">var</span> o1 <span class="token operator">=</span> <span class="token punctuation">{</span>a<span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> o2 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Object</span><span class="token punctuation">(</span>o1<span class="token punctuation">)</span><span class="token punctuation">;</span>
+o1 <span class="token operator">===</span> o2 <span class="token comment">// true</span>
+
+<span class="token keyword">var</span> obj <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Object</span><span class="token punctuation">(</span><span class="token number">123</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+obj <span class="token keyword">instanceof</span> <span class="token class-name">Number</span> <span class="token comment">// true</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><p>\u867D\u7136\u7528\u6CD5\u76F8\u4F3C\uFF0C\u4F46\u662F<code>Object(value)</code>\u4E0E<code>new Object(value)</code>\u4E24\u8005\u7684\u8BED\u4E49\u662F\u4E0D\u540C\u7684\uFF0C<code>Object(value)</code>\u8868\u793A\u5C06<code>value</code>\u8F6C\u6210\u4E00\u4E2A\u5BF9\u8C61\uFF0C<code>new Object(value)</code>\u5219\u8868\u793A\u65B0\u751F\u6210\u4E00\u4E2A\u5BF9\u8C61\uFF0C\u5B83\u7684\u503C\u662F<code>value</code>\u3002</p><h2 id="object\u7684\u9759\u6001\u65B9\u6CD5" tabindex="-1"><a class="header-anchor" href="#object\u7684\u9759\u6001\u65B9\u6CD5" aria-hidden="true">#</a> Object\u7684\u9759\u6001\u65B9\u6CD5</h2><p>\u6240\u8C13\u201C\u9759\u6001\u65B9\u6CD5\u201D\uFF0C\u662F\u6307\u90E8\u7F72\u5728<code>Object</code>\u5BF9\u8C61\u81EA\u8EAB\u7684\u65B9\u6CD5(\u6BD4\u5982\uFF1A<code>Object.</code>)\u3002,\u53EF\u4EE5\u53C2\u8003<a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object" target="_blank" rel="noopener noreferrer">MDN`);
+  _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
+  _push(`</a></p><h3 id="object-keys" tabindex="-1"><a class="header-anchor" href="#object-keys" aria-hidden="true">#</a> Object.keys()</h3><p><code>Object.keys</code>\u65B9\u6CD5\u548C<code>Object.getOwnPropertyNames</code>\u65B9\u6CD5\u90FD\u7528\u6765\u904D\u5386\u5BF9\u8C61\u7684\u5C5E\u6027\u3002</p><p><code>Object.keys</code>\u65B9\u6CD5\u7684\u53C2\u6570\u662F\u4E00\u4E2A\u5BF9\u8C61\uFF0C\u8FD4\u56DE\u4E00\u4E2A\u6570\u7EC4\u3002\u8BE5\u6570\u7EC4\u7684\u6210\u5458\u90FD\u662F\u8BE5\u5BF9\u8C61\u81EA\u8EAB\u7684\uFF08\u800C\u4E0D\u662F\u7EE7\u627F\u7684\uFF09\u6240\u6709\u5C5E\u6027\u540D\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">var</span> obj <span class="token operator">=</span> <span class="token punctuation">{</span>
+  p1<span class="token operator">:</span> <span class="token number">123</span><span class="token punctuation">,</span>
+  p2<span class="token operator">:</span> <span class="token number">456</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+Object<span class="token punctuation">.</span><span class="token function">keys</span><span class="token punctuation">(</span>obj<span class="token punctuation">)</span> <span class="token comment">// [&quot;p1&quot;, &quot;p2&quot;]</span>
+<span class="token comment">//\u83B7\u53D6\u5230\u5C5E\u6027\u540D\u79F0</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><h3 id="object-getownpropertynames" tabindex="-1"><a class="header-anchor" href="#object-getownpropertynames" aria-hidden="true">#</a> Object.getOwnPropertyNames()</h3><p><code>Object.getOwnPropertyNames</code>\u65B9\u6CD5\u548C<code>Object.keys</code>\u7C7B\u4F3C\uFF0C\u4E5F\u662F\u63A5\u53D7\u4E00\u4E2A\u5BF9\u8C61\u4F5C\u4E3A\u53C2\u6570\uFF0C\u8FD4\u56DE\u4E00\u4E2A\u6570\u7EC4\uFF0C\u5305\u542B\u4E86\u8BE5\u5BF9\u8C61\u81EA\u8EAB\u7684\u6240\u6709\u5C5E\u6027\u540D\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">var</span> obj <span class="token operator">=</span> <span class="token punctuation">{</span>
+  p1<span class="token operator">:</span> <span class="token number">123</span><span class="token punctuation">,</span>
+  p2<span class="token operator">:</span> <span class="token number">456</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token comment">// getOwnPropertyNames \u4E2D\u6587\u542B\u4E49\uFF1A\u83B7\u53D6\u81EA\u5DF1\u7684\u5C5E\u6027\u540D</span>
+Object<span class="token punctuation">.</span><span class="token function">getOwnPropertyNames</span><span class="token punctuation">(</span>obj<span class="token punctuation">)</span> <span class="token comment">// [&quot;p1&quot;, &quot;p2&quot;]</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><p>\u5BF9\u4E8E\u4E00\u822C\u7684\u5BF9\u8C61\u6765\u8BF4\uFF0C<code>Object.keys()</code>\u548C<code>Object.getOwnPropertyNames()</code>\u8FD4\u56DE\u7684\u7ED3\u679C\u662F\u4E00\u6837\u7684\u3002\u53EA\u6709\u6D89\u53CA\u4E0D\u53EF\u679A\u4E3E\u5C5E\u6027\u65F6\uFF0C\u624D\u4F1A\u6709\u4E0D\u4E00\u6837\u7684\u7ED3\u679C\u3002<code>Object.keys</code>\u65B9\u6CD5\u53EA\u8FD4\u56DE\u53EF\u679A\u4E3E\u7684\u5C5E\u6027\uFF08\u8BE6\u89C1\u300A\u5BF9\u8C61\u5C5E\u6027\u7684\u63CF\u8FF0\u5BF9\u8C61\u300B\u4E00\u7AE0\uFF09\uFF0C<code>Object.getOwnPropertyNames</code>\u65B9\u6CD5\u8FD8\u8FD4\u56DE\u4E0D\u53EF\u679A\u4E3E\u7684\u5C5E\u6027\u540D\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">&#39;hello&#39;</span><span class="token punctuation">,</span><span class="token string">&#39;world&#39;</span><span class="token punctuation">]</span>
+
+Object<span class="token punctuation">.</span><span class="token function">keys</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">// [&#39;0&#39;,\u20181\u2019]  \u5982\u679C\u5BF9\u8C61\u662F\u6570\u7EC4\u65F6\u8FD4\u56DE\u7D22\u5F15\u5B57\u7B26\u4E32</span>
+Object<span class="token punctuation">.</span><span class="token function">getOwnPropertyNames</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span> <span class="token comment">// [\u20180\u2019,\u20181\u2019,&#39;length&#39;]</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>\u4E0A\u9762\u4EE3\u7801\u4E2D\uFF0C\u6570\u7EC4\u7684<code>length</code>\u5C5E\u6027\u662F\u4E0D\u53EF\u679A\u4E3E\u7684\u5C5E\u6027\uFF0C\u6240\u4EE5\u53EA\u51FA\u73B0\u5728<code>Object.getOwnPropertyNames</code>\u65B9\u6CD5\u7684\u8FD4\u56DE\u7ED3\u679C\u4E2D\u3002</p><p>\u7531\u4E8E JavaScript \u6CA1\u6709\u63D0\u4F9B\u8BA1\u7B97\u5BF9\u8C61\u5C5E\u6027\u4E2A\u6570\u7684\u65B9\u6CD5\uFF0C\u6240\u4EE5\u53EF\u4EE5\u7528\u8FD9\u4E24\u4E2A\u65B9\u6CD5\u4EE3\u66FF\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">var</span> obj <span class="token operator">=</span> <span class="token punctuation">{</span>
+  p1<span class="token operator">:</span> <span class="token number">123</span><span class="token punctuation">,</span>
+  p2<span class="token operator">:</span> <span class="token number">456</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+Object<span class="token punctuation">.</span><span class="token function">keys</span><span class="token punctuation">(</span>obj<span class="token punctuation">)</span><span class="token punctuation">.</span>length <span class="token comment">// 2</span>
+Object<span class="token punctuation">.</span><span class="token function">getOwnPropertyNames</span><span class="token punctuation">(</span>obj<span class="token punctuation">)</span><span class="token punctuation">.</span>length <span class="token comment">// 2</span>
+<span class="token comment">//\u83B7\u53D6\u5BF9\u8C61\u5C5E\u6027\u4E2A\u6570\u957F\u5EA6</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><p>\u4E00\u822C\u60C5\u51B5\u4E0B\uFF0C\u51E0\u4E4E\u603B\u662F\u4F7F\u7528<code>Object.keys</code>\u65B9\u6CD5\uFF0C\u904D\u5386\u5BF9\u8C61\u7684\u5C5E\u6027\u3002</p><h3 id="object-\u5176\u4ED6\u9759\u6001\u65B9\u6CD5" tabindex="-1"><a class="header-anchor" href="#object-\u5176\u4ED6\u9759\u6001\u65B9\u6CD5" aria-hidden="true">#</a> Object \u5176\u4ED6\u9759\u6001\u65B9\u6CD5</h3><p><code>Object</code>\u8FD8\u6709\u4E0D\u5C11\u5176\u4ED6\u9759\u6001\u65B9\u6CD5\uFF0C\u5C06\u5728\u540E\u6587\u9010\u4E00\u8BE6\u7EC6\u4ECB\u7ECD\u3002</p><p>\uFF081\uFF09\u5BF9\u8C61\u5C5E\u6027\u6A21\u578B\u7684\u76F8\u5173\u65B9\u6CD5</p><ul><li><code>Object.getOwnPropertyDescriptor()</code>\uFF1A\u83B7\u53D6\u67D0\u4E2A\u5C5E\u6027\u7684\u63CF\u8FF0\u5BF9\u8C61\u3002</li><li><code>Object.defineProperty()</code>\uFF1A\u901A\u8FC7\u63CF\u8FF0\u5BF9\u8C61\uFF0C\u5B9A\u4E49\u67D0\u4E2A\u5C5E\u6027\u3002</li><li><code>Object.defineProperties()</code>\uFF1A\u901A\u8FC7\u63CF\u8FF0\u5BF9\u8C61\uFF0C\u5B9A\u4E49\u591A\u4E2A\u5C5E\u6027\u3002</li></ul><p>\uFF082\uFF09\u63A7\u5236\u5BF9\u8C61\u72B6\u6001\u7684\u65B9\u6CD5</p><ul><li><code>Object.preventExtensions()</code>\uFF1A\u9632\u6B62\u5BF9\u8C61\u6269\u5C55\u3002</li><li><code>Object.isExtensible()</code>\uFF1A\u5224\u65AD\u5BF9\u8C61\u662F\u5426\u53EF\u6269\u5C55\u3002</li><li><code>Object.seal()</code>\uFF1A\u7981\u6B62\u5BF9\u8C61\u914D\u7F6E\u3002</li><li><code>Object.isSealed()</code>\uFF1A\u5224\u65AD\u4E00\u4E2A\u5BF9\u8C61\u662F\u5426\u53EF\u914D\u7F6E\u3002</li><li><code>Object.freeze()</code>\uFF1A\u51BB\u7ED3\u4E00\u4E2A\u5BF9\u8C61\u3002</li><li><code>Object.isFrozen()</code>\uFF1A\u5224\u65AD\u4E00\u4E2A\u5BF9\u8C61\u662F\u5426\u88AB\u51BB\u7ED3\u3002</li></ul><p>\uFF083\uFF09\u539F\u578B\u94FE\u76F8\u5173\u65B9\u6CD5</p><ul><li><code>Object.create()</code>\uFF1A\u8BE5\u65B9\u6CD5\u53EF\u4EE5\u6307\u5B9A\u539F\u578B\u5BF9\u8C61\u548C\u5C5E\u6027\uFF0C\u8FD4\u56DE\u4E00\u4E2A\u65B0\u7684\u5BF9\u8C61\u3002</li><li><code>Object.getPrototypeOf()</code>\uFF1A\u83B7\u53D6\u5BF9\u8C61\u7684Prototype\u5BF9\u8C61\u3002</li></ul><h2 id="object-\u7684\u5B9E\u4F8B\u65B9\u6CD5" tabindex="-1"><a class="header-anchor" href="#object-\u7684\u5B9E\u4F8B\u65B9\u6CD5" aria-hidden="true">#</a> Object \u7684\u5B9E\u4F8B\u65B9\u6CD5</h2><p>\u9664\u4E86\u9759\u6001\u65B9\u6CD5\uFF0C\u8FD8\u6709\u4E0D\u5C11\u65B9\u6CD5\u5B9A\u4E49\u5728<code>Object.prototype</code>\u5BF9\u8C61\u3002\u5B83\u4EEC\u79F0\u4E3A\u5B9E\u4F8B\u65B9\u6CD5\uFF0C\u6240\u6709<code>Object</code>\u7684\u5B9E\u4F8B\u5BF9\u8C61\u90FD\u7EE7\u627F\u4E86\u8FD9\u4E9B\u65B9\u6CD5\u3002</p><p><code>Object</code>\u5B9E\u4F8B\u5BF9\u8C61\u7684\u65B9\u6CD5\uFF0C\u4E3B\u8981\u6709\u4EE5\u4E0B\u516D\u4E2A\u3002</p><ul><li>Object.prototype.valueOf()\uFF1A\u8FD4\u56DE\u5F53\u524D\u5BF9\u8C61\u5BF9\u5E94\u7684\u503C\u3002</li><li>Object.prototype.toString()\uFF1A\u8FD4\u56DE\u5F53\u524D\u5BF9\u8C61\u5BF9\u5E94\u7684\u5B57\u7B26\u4E32\u5F62\u5F0F\u3002</li><li>Object.prototype.toLocaleString()\uFF1A\u8FD4\u56DE\u5F53\u524D\u5BF9\u8C61\u5BF9\u5E94\u7684\u672C\u5730\u5B57\u7B26\u4E32\u5F62\u5F0F\u3002</li><li>Object.prototype.hasOwnProperty()\uFF1A\u5224\u65AD\u67D0\u4E2A\u5C5E\u6027\u662F\u5426\u4E3A\u5F53\u524D\u5BF9\u8C61\u81EA\u8EAB\u7684\u5C5E\u6027\uFF0C\u8FD8\u662F\u7EE7\u627F\u81EA\u539F\u578B\u5BF9\u8C61\u7684\u5C5E\u6027\u3002</li><li>Object.prototype.isPrototypeOf()\uFF1A\u5224\u65AD\u5F53\u524D\u5BF9\u8C61\u662F\u5426\u4E3A\u53E6\u4E00\u4E2A\u5BF9\u8C61\u7684\u539F\u578B\u3002</li><li>Object.prototype.propertyIsEnumerable()\uFF1A\u5224\u65AD\u67D0\u4E2A\u5C5E\u6027\u662F\u5426\u53EF\u679A\u4E3E\u3002</li></ul><p>\u672C\u8282\u4ECB\u7ECD\u524D\u56DB\u4E2A\u65B9\u6CD5\uFF0C\u53E6\u5916\u4E24\u4E2A\u65B9\u6CD5\u5C06\u5728\u540E\u6587\u76F8\u5173\u7AE0\u8282\u4ECB\u7ECD\u3002</p><h3 id="object-prototype-valueof" tabindex="-1"><a class="header-anchor" href="#object-prototype-valueof" aria-hidden="true">#</a> Object.prototype.valueOf()</h3><p><code>valueOf</code>\u65B9\u6CD5\u7684\u4F5C\u7528\u662F\u8FD4\u56DE\u4E00\u4E2A\u5BF9\u8C61\u7684\u201C\u503C\u201D\uFF0C\u9ED8\u8BA4\u60C5\u51B5\u4E0B\u8FD4\u56DE\u5BF9\u8C61\u672C\u8EAB\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">var</span> obj <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Object</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+obj<span class="token punctuation">.</span><span class="token function">valueOf</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">===</span> obj <span class="token comment">// true</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><!--]-->`);
 }
 const _sfc_setup$l = _sfc_main$l.setup;
 _sfc_main$l.setup = (props, ctx) => {
@@ -4006,10 +4317,72 @@ var _____html$4 = /* @__PURE__ */ Object.freeze({
 });
 const _sfc_main$i = {};
 function _sfc_ssrRender$4(_ctx, _push, _parent, _attrs) {
-  _push(`<h2${serverRenderer.ssrRenderAttrs(vue.mergeProps({
-    id: "\u524D\u7F6E\u5B66\u4E60",
-    tabindex: "-1"
-  }, _attrs))}><a class="header-anchor" href="#\u524D\u7F6E\u5B66\u4E60" aria-hidden="true">#</a> \u524D\u7F6E\u5B66\u4E60</h2>`);
+  const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
+  _push(`<!--[--><h2 id="\u524D\u7F6E" tabindex="-1"><a class="header-anchor" href="#\u524D\u7F6E" aria-hidden="true">#</a> \u524D\u7F6E</h2><p>\u6700\u597D\u6709\u4E00\u5B9A\u7684HTML\u3001JavaScript\u3001CSS\u57FA\u7840\u3002</p><h2 id="mvvm" tabindex="-1"><a class="header-anchor" href="#mvvm" aria-hidden="true">#</a> MVVM\uFF1F</h2><p><code>MVVM</code>\u662F<code>Model-View-ViewModel</code>\u7684\u7F29\u5199\u3002<br><code>MVVM</code> \u7684\u6838\u5FC3\u662F <code>ViewModel</code> \u5C42\uFF0C\u5B83\u5C31\u50CF\u662F\u4E00\u4E2A\u4E2D\u8F6C\u7AD9<code>\uFF08value converter\uFF09</code>\uFF0C\u8D1F\u8D23\u8F6C\u6362 <code>Model</code> \u4E2D\u7684\u6570\u636E\u5BF9\u8C61\u6765\u8BA9\u6570\u636E\u53D8\u5F97\u66F4\u5BB9\u6613\u7BA1\u7406\u548C\u4F7F\u7528\uFF0C\u8BE5\u5C42\u5411\u4E0A\u4E0E\u89C6\u56FE\u5C42\u8FDB\u884C\u53CC\u5411\u6570\u636E\u7ED1\u5B9A\uFF0C\u5411\u4E0B\u4E0E <code>Model</code> \u5C42\u901A\u8FC7\u63A5\u53E3\u8BF7\u6C42\u8FDB\u884C\u6570\u636E\u4EA4\u4E92\uFF0C\u8D77\u5448\u4E0A\u542F\u4E0B\u4F5C\u7528\u3002</p><div class="custom-container tip"><p class="custom-container-title">\u53C2\u8003</p><p><a href="http://www.ruanyifeng.com/blog/2015/02/mvcmvp_mvvm.html" target="_blank" rel="noopener noreferrer">http://www.ruanyifeng.com`);
+  _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
+  _push(`</a><br><a href="https://www.liaoxuefeng.com/wiki/1022910821149312/1108898947791072" target="_blank" rel="noopener noreferrer">https://www.liaoxuefeng.com`);
+  _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
+  _push(`</a><br><a href="https://www.cnblogs.com/iovec/p/7840228.html" target="_blank" rel="noopener noreferrer">https://www.cnblogs.com`);
+  _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
+  _push(`</a><br></p></div><h3 id="mvc" tabindex="-1"><a class="header-anchor" href="#mvc" aria-hidden="true">#</a> MVC</h3><p>\uFF08\u6709\u5370\u8C61\u5373\u53EF\uFF09</p><p><img src="https://s6.jpg.cm/2022/01/04/LN4yR5.png" alt="LN4yR5.png"></p><p>\u6240\u6709\u901A\u4FE1\u90FD\u662F\u5355\u5411\u7684\u3002\uFF08\u6709\u65F6MVC\u4F1A\u5BFC\u81F4\u4E1A\u52A1\u903B\u8F91\u90FD\u90E8\u7F72\u5728 View\uFF0C\u4F7FView \u975E\u5E38\u539A\uFF0C\u800C Controller \u76F8\u5BF9\u8584\u3002\uFF09</p><h3 id="mvp" tabindex="-1"><a class="header-anchor" href="#mvp" aria-hidden="true">#</a> MVP</h3><p>\uFF08\u6709\u5370\u8C61\u5373\u53EF\uFF09</p><p><img src="https://s6.jpg.cm/2022/01/04/LN4MTG.png" alt="LN4MTG.png"></p><p>MVP \u6A21\u5F0F\u5C06 Controller \u6539\u540D\u4E3A Presenter\uFF0C\u540C\u65F6\u6539\u53D8\u4E86\u901A\u4FE1\u65B9\u5411\u3002</p><ol><li><p>\u5404\u90E8\u5206\u4E4B\u95F4\u7684\u901A\u4FE1\uFF0C\u90FD\u662F\u53CC\u5411\u7684\u3002</p></li><li><p>View \u4E0E Model \u4E0D\u53D1\u751F\u8054\u7CFB\uFF0C\u90FD\u901A\u8FC7 Presenter \u4F20\u9012\u3002</p></li><li><p>View \u975E\u5E38\u8584\uFF0C\u4E0D\u90E8\u7F72\u4EFB\u4F55\u4E1A\u52A1\u903B\u8F91\uFF0C\u79F0\u4E3A&quot;\u88AB\u52A8\u89C6\u56FE&quot;\uFF08Passive View\uFF09\uFF0C\u5373\u6CA1\u6709\u4EFB\u4F55\u4E3B\u52A8\u6027\uFF0C\u800C Presenter\u975E\u5E38\u539A\uFF0C\u6240\u6709\u903B\u8F91\u90FD\u90E8\u7F72\u5728\u90A3\u91CC\u3002</p></li><li><p>\u4E4B\u6240\u4EE5\u5217\u51FAMVP\uFF0C\u662F\u56E0\u4E3AMVVM \u6A21\u5F0F\u5C06 Presenter \u6539\u540D\u4E3A ViewModel\uFF0C\u57FA\u672C\u4E0A\u4E0E MVP \u6A21\u5F0F\u5B8C\u5168\u4E00\u81F4\uFF08\u6CE8\u610F\u5BF9\u6BD4\u7BAD\u5934\u2014\u2014\u901A\u8BAF\u65B9\u5F0F\u7684\u533A\u522B\uFF09\u3002</p></li></ol><h3 id="mvvm-1" tabindex="-1"><a class="header-anchor" href="#mvvm-1" aria-hidden="true">#</a> MVVM</h3><p><img src="https://s6.jpg.cm/2022/01/04/LN4Dmu.png" alt="LN4Dmu.png"></p><p>\u552F\u4E00\u7684\u533A\u522B\u662F\uFF0C\u5B83\u91C7\u7528\u53CC\u5411\u7ED1\u5B9A\uFF08data-binding\uFF09\uFF1AView\u7684\u53D8\u52A8\uFF0C\u81EA\u52A8\u53CD\u6620\u5728 ViewModel\uFF0C\u53CD\u4E4B\u4EA6\u7136\u3002Angular \u548C Ember \u90FD\u91C7\u7528\u8FD9\u79CD\u6A21\u5F0F\u3002</p><h3 id="\u4F8B\u5B50\u5BF9\u6BD4" tabindex="-1"><a class="header-anchor" href="#\u4F8B\u5B50\u5BF9\u6BD4" aria-hidden="true">#</a> \u4F8B\u5B50\u5BF9\u6BD4</h3><ol><li><code>MVC</code>\u6A21\u5F0F\uFF08<code>jQuery</code>\u5B9E\u73B0\u7684\u4FEE\u6539\u4E24\u4E2ADOM\u8282\u70B9\u7684\u4F8B\u5B50\uFF09</li></ol><div class="language-html ext-html line-numbers-mode"><pre class="language-html"><code><span class="token comment">&lt;!-- HTML --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>Hello, <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>name<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>Bart<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>!<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>You are <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>age<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>12<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">var</span> name <span class="token operator">=</span> <span class="token string">&#39;Homer&#39;</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> age <span class="token operator">=</span> <span class="token number">51</span><span class="token punctuation">;</span>
+
+<span class="token function">$</span><span class="token punctuation">(</span><span class="token string">&#39;#name&#39;</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">text</span><span class="token punctuation">(</span>name<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">$</span><span class="token punctuation">(</span><span class="token string">&#39;#age&#39;</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">text</span><span class="token punctuation">(</span>age<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">//\u64CD\u4F5CDOM</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><ol start="2"><li>\u5982\u679C\u6211\u4EEC\u4F7F\u7528<code>MVVM</code>\u6846\u67B6\u6765\u5B9E\u73B0\u540C\u6837\u7684\u529F\u80FD\uFF0C\u6211\u4EEC\u9996\u5148\u5E76\u4E0D\u5173\u5FC3<code>DOM</code>\u7684\u7ED3\u6784\uFF0C\u800C\u662F\u5173\u5FC3\u6570\u636E\u5982\u4F55\u5B58\u50A8\u3002\u6700\u7B80\u5355\u7684\u6570\u636E\u5B58\u50A8\u65B9\u5F0F\u662F\u4F7F\u7528<code>JavaScript</code>\u5BF9\u8C61\uFF1A</li></ol><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">var</span> person <span class="token operator">=</span> <span class="token punctuation">{</span>
+    name<span class="token operator">:</span> <span class="token string">&#39;Bart&#39;</span><span class="token punctuation">,</span>
+    age<span class="token operator">:</span> <span class="token number">12</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+person<span class="token punctuation">.</span>name <span class="token operator">=</span> <span class="token string">&#39;Homer&#39;</span><span class="token punctuation">;</span>
+person<span class="token punctuation">.</span>age <span class="token operator">=</span> <span class="token number">51</span><span class="token punctuation">;</span>
+<span class="token comment">//\u6539\u53D8JavaScript\u5BF9\u8C61\u7684\u72B6\u6001\uFF0C\u4F1A\u5BFC\u81F4DOM\u7ED3\u6784\u4F5C\u51FA\u5BF9\u5E94\u7684\u53D8\u5316</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><h3 id="vue\u5B9E\u73B0\u4F8B\u5B50" tabindex="-1"><a class="header-anchor" href="#vue\u5B9E\u73B0\u4F8B\u5B50" aria-hidden="true">#</a> vue\u5B9E\u73B0\u4F8B\u5B50</h3><p>\u770B\u5B8C\u4E0A\u9762\u61F5\u61F5\u61C2\u61C2\uFF1F\u4E0B\u9762\u770B\u4E00\u4E9B\u5728<code>vue</code>\u4E2D\u7684\u4F53\u73B0\uFF0C\u4E0D\u6DF1\u7A76\uFF0C\u6BD5\u7ADF\u8FD9\u91CC\u8FD8\u6CA1\u5F00\u59CB\u8FDB\u5165\u5B66\u4E60\uFF0C\u5728\u540E\u7EED\u4F7F\u7528\u4E2D\u5C31\u4F1A\u660E\u767D\uFF1A</p><p>Vue \u7684 View \u6A21\u677F\uFF1A</p><div class="language-vue ext-vue line-numbers-mode"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>app<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>{{message}}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name"><span class="token namespace">v-on:</span>click</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>showMessage()<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>Click me<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>Vue \u7684 ViewModel \u5C42\uFF08\u4F2A\u4EE3\u7801\uFF09\uFF1A</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">var</span> app <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Vue</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    el<span class="token operator">:</span> <span class="token string">&#39;#app&#39;</span><span class="token punctuation">,</span>
+    data<span class="token operator">:</span> <span class="token punctuation">{</span>     <span class="token comment">// \u7528\u4E8E\u63CF\u8FF0\u89C6\u56FE\u72B6\u6001\uFF08\u6709\u57FA\u4E8E Model \u5C42\u6570\u636E\u5B9A\u4E49\u7684\uFF0C\u4E5F\u6709\u7EAF\u524D\u7AEF\u5B9A\u4E49\uFF09</span>
+        message<span class="token operator">:</span> <span class="token string">&#39;Hello Vue!&#39;</span><span class="token punctuation">,</span>  <span class="token comment">// \u7EAF\u524D\u7AEF\u5B9A\u4E49</span>
+        server<span class="token operator">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token comment">// \u5B58\u653E\u57FA\u4E8E Model \u5C42\u6570\u636E\u7684\u4E8C\u6B21\u5C01\u88C5\u6570\u636E</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    methods<span class="token operator">:</span> <span class="token punctuation">{</span>  <span class="token comment">// \u7528\u4E8E\u63CF\u8FF0\u89C6\u56FE\u884C\u4E3A\uFF08\u5B8C\u5168\u524D\u7AEF\u5B9A\u4E49\uFF09</span>
+        <span class="token function">showMessage</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token keyword">let</span> vm <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">;</span>
+            <span class="token function">alert</span><span class="token punctuation">(</span>vm<span class="token punctuation">.</span>message<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token function">created</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">let</span> vm <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">;</span>
+
+        <span class="token comment">// Ajax \u83B7\u53D6 Model \u5C42\u7684\u6570\u636E</span>
+        <span class="token function">ajax</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+            url<span class="token operator">:</span> <span class="token string">&#39;/your/server/data/api&#39;</span><span class="token punctuation">,</span>
+            <span class="token function">success</span><span class="token punctuation">(</span><span class="token parameter">res</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+                <span class="token comment">// TODO \u5BF9\u83B7\u53D6\u5230\u7684 Model \u6570\u636E\u8FDB\u884C\u8F6C\u6362\u5904\u7406\uFF0C\u505A\u4E8C\u6B21\u5C01\u88C5</span>
+                vm<span class="token punctuation">.</span>server <span class="token operator">=</span> res<span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br></div></div><p>\u670D\u52A1\u7AEF\u7684 Model \u5C42\uFF08\u7701\u7565\u4E1A\u52A1\u903B\u8F91\u5904\u7406\uFF0C\u53EA\u63CF\u8FF0\u5BF9\u5916\u63A5\u53E3\uFF09\uFF1A</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token punctuation">{</span>
+    <span class="token string">&quot;url&quot;</span><span class="token operator">:</span> <span class="token string">&quot;/your/server/data/api&quot;</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;res&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token string">&quot;success&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;IoveC&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;domain&quot;</span><span class="token operator">:</span> <span class="token string">&quot;www.cnblogs.com&quot;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><p>\u518D\u7ED9\u4E00\u5F20\u56FE\uFF1A</p><p><img src="https://s6.jpg.cm/2022/01/04/LNBNCy.png" alt="LNBNCy.png"></p><p>\u8FD9\u5C31\u5B9E\u73B0\u4E86\u524D\u540E\u7AEF\u5206\u79BB\u4E86\u3002</p><p>\u6846\u67B6\u5E2E\u6211\u4EEC\u5B9E\u73B0\u4E86MVVM\u6A21\u5F0F\uFF0C\u6211\u4EEC\u4EE5\u8FD9\u6837\u7684\u6A21\u5F0F\u8FDB\u884C\u5F00\u53D1\u3002OK\uFF1F</p><h2 id="\u5B89\u88C5vue-devtools" tabindex="-1"><a class="header-anchor" href="#\u5B89\u88C5vue-devtools" aria-hidden="true">#</a> \u5B89\u88C5vue-devtools</h2><p>\u963F\u91CC\u4E91\u76D8\u5206\u4EAB\uFF1A<a href="https://www.aliyundrive.com/s/xcqqvUnWqeV" target="_blank" rel="noopener noreferrer">vue-devtools5.3.4.crx`);
+  _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
+  _push(`</a>\u6D4F\u89C8\u5668\u63D2\u4EF6\u6587\u4EF6</p><p><strong>\u63D2\u4EF6\u65B9\u5F0F\u5B89\u88C5</strong>\uFF1A</p><ol><li>\u4E0B\u8F7D\u5B89\u88C5\u6587\u4EF6\uFF08.crx\u6587\u4EF6\uFF09</li><li>\u6253\u5F00\u6269\u5C55\u7A0B\u5E8F\u5B89\u88C5\u9875\u9762\uFF0Cchrome\u6D4F\u89C8\u5668\u53EF\u8F93\u5165\uFF1A<code>chrome://extensions</code>\uFF0C\u6253\u5F00\u53F3\u4E0A\u89D2\u7684\u3010\u5F00\u53D1\u8005\u6A21\u5F0F\u3011\u3002</li><li>\u5C06\u4E0B\u8F7D\u597D\u7684.crx\u6587\u4EF6\u62D6\u62FD\u5230\u5230\u6269\u5C55\u5B89\u88C5\u9875\u9762\u5185\uFF0C\u7B49\u5F85\u6570\u79D2\uFF0C\u5728\u5B89\u88C5\u5F39\u7A97\u5185\u70B9\u51FB\u6DFB\u52A0\u5373\u53EF\u3002</li></ol><p><strong>\u624B\u52A8\u5B89\u88C5</strong>\uFF1A</p><ol><li>\u5230guthub\u4E0A\u53BB\u4E0B\u8F7D\u5B89\u88C5\u5305\uFF0C<a href="https://github.com/vuejs/vue-devtools/tree/master" target="_blank" rel="noopener noreferrer">vue-devtools`);
+  _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
+  _push(`</a>,\u4E0B\u8F7D\u6210\u529F\u540E\u91CC\u9762\u4F1A\u6709\u4E00\u4E2A<code>shells</code>\u6587\u4EF6\u5939\uFF0C\u8BF4\u660E\u662F\u53EF\u7528\u7248\u672C\uFF0C\u4E0D\u662F<code>master</code>\u5206\u652F\u7684\u4E0D\u4F1A\u4E0D\u4F1A\u6709\u6B64\u6587\u4EF6\u5939</li><li>\u8FDB\u5165<code>vue-devtools-master</code>\u6587\u4EF6\u5939\u4E0B\uFF0C\u5728\u8DEF\u5F84\u680F\u8F93\u5165cmd\uFF0C\u7136\u540E\u56DE\u8F66\u3002</li><li>\u7136\u540E\u8F93\u5165<code>npm install</code>\u547D\u4EE4\u5B89\u88C5\u4F9D\u8D56\u3002\uFF08\u5982\u679C\u9519\u8BEF\u5927\u4E0D\u4E86\u63A8\u5012\u91CD\u6765\uFF0C\u68C0\u67E5\u662F\u5426\u4E3A<code>master</code>\u5206\u652F\uFF0C\u6216\u4F7F\u7528<code>cnpm</code>\u7B49\u65B9\u6CD5\u4E0B\u8F7D\u3002\uFF09</li><li>\u5B89\u88C5\u5B8C\u6210\u4E4B\u540E\u6267\u884C\u547D\u4EE4<code>npm run build</code>\u3002</li><li>\u6253\u5F00\u8C37\u6B4C\u6D4F\u89C8\u5668\uFF0C\u8FDB\u5165\u66F4\u591A\u5DE5\u5177 &gt; \u6269\u5C55\u7A0B\u5E8F &gt; \u70B9\u51FB\u52A0\u8F7D\u5DF2\u89E3\u538B\u7684\u62D3\u5C55\u7A0B\u5E8F &gt; \u9009\u62E9<code>vue-devtools-matser</code>\u6587\u4EF6\u4E2D<code>shells</code>\u6587\u4EF6\u4E2D\u7684<code>chrome</code>\u6587\u4EF6\u3002</li></ol><!--]-->`);
 }
 const _sfc_setup$i = _sfc_main$i.setup;
 _sfc_main$i.setup = (props, ctx) => {
@@ -4030,14 +4403,14 @@ function _sfc_ssrRender$3(_ctx, _push, _parent, _attrs) {
 const _sfc_setup$h = _sfc_main$h.setup;
 _sfc_main$h.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/vue/text1.html.vue");
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/vue/02vue\u5B9E\u4F8B.html.vue");
   return _sfc_setup$h ? _sfc_setup$h(props, ctx) : void 0;
 };
-var text1_html$3 = /* @__PURE__ */ _export_sfc(_sfc_main$h, [["ssrRender", _sfc_ssrRender$3]]);
-var text1_html$4 = /* @__PURE__ */ Object.freeze({
+var _02vue___html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$h, [["ssrRender", _sfc_ssrRender$3]]);
+var _02vue___html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  "default": text1_html$3
+  "default": _02vue___html$1
 });
 const _sfc_main$g = {};
 function _sfc_ssrRender$2(_ctx, _push, _parent, _attrs) {
@@ -4070,7 +4443,7 @@ var _404_html$2 = /* @__PURE__ */ Object.freeze({
   [Symbol.toStringTag]: "Module",
   "default": _404_html$1
 });
-const data$e = {
+const data$h = {
   "key": "v-8daa1a0e",
   "path": "/",
   "title": "",
@@ -4106,18 +4479,120 @@ const data$e = {
     }
   ],
   "git": {
-    "updatedTime": 1640945144e3,
+    "updatedTime": 1641109712e3,
     "contributors": [
       {
         "name": "\u9648\u67D2",
         "email": "3062995371@qq.com",
-        "commits": 4
+        "commits": 5
       }
     ]
   },
   "filePathRelative": "README.md"
 };
+var index_html$1 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  data: data$h
+});
+const data$g = {
+  "key": "v-6886cbbd",
+  "path": "/course/elementui%E5%9C%A8%E8%A1%A8%E6%A0%BC%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87.html",
+  "title": "elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "lang": "zh-CN",
+    "title": "elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247",
+    "description": "12a"
+  },
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 2,
+      "title": "\u63D2\u5165\u5355\u5F20\uFF0C\u60AC\u6D6E\u9884\u89C8",
+      "slug": "\u63D2\u5165\u5355\u5F20-\u60AC\u6D6E\u9884\u89C8",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u63D2\u5165\u5355\u5F20\uFF0C\u5168\u5C4F\u9884\u89C8",
+      "slug": "\u63D2\u5165\u5355\u5F20-\u5168\u5C4F\u9884\u89C8",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u63D2\u5165\u591A\u5F20\u56FE\u7247",
+      "slug": "\u63D2\u5165\u591A\u5F20\u56FE\u7247",
+      "children": []
+    }
+  ],
+  "git": {
+    "updatedTime": null,
+    "contributors": []
+  },
+  "filePathRelative": "course/elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247.md"
+};
+var elementui_________html = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  data: data$g
+});
+const data$f = {
+  "key": "v-b9c2d34a",
+  "path": "/course/",
+  "title": "\u65E5\u5E38\u8BB0\u5F55",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "lang": "zh-CN",
+    "title": "\u65E5\u5E38\u8BB0\u5F55",
+    "description": "12a"
+  },
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 2,
+      "title": "ClientOnly\u4F7F\u7528\u7EC4\u4EF6",
+      "slug": "clientonly\u4F7F\u7528\u7EC4\u4EF6",
+      "children": []
+    }
+  ],
+  "git": {
+    "updatedTime": null,
+    "contributors": []
+  },
+  "filePathRelative": "course/README.md"
+};
 var index_html = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  data: data$f
+});
+const data$e = {
+  "key": "v-66ff7ae2",
+  "path": "/course/vscode%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.html",
+  "title": "vscode\u5E38\u7528\u63D2\u4EF6",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "lang": "zh-CN",
+    "title": "vscode\u5E38\u7528\u63D2\u4EF6",
+    "description": "12a"
+  },
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 2,
+      "title": "\u51E0\u4E4E\u5FC5\u5907\u7684",
+      "slug": "\u51E0\u4E4E\u5FC5\u5907\u7684",
+      "children": []
+    }
+  ],
+  "git": {
+    "updatedTime": null,
+    "contributors": []
+  },
+  "filePathRelative": "course/vscode\u5E38\u7528\u63D2\u4EF6.md"
+};
+var vscode_____html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   data: data$e
@@ -4159,7 +4634,7 @@ const data$d = {
   },
   "filePathRelative": "web/text1.md"
 };
-var text1_html$2 = /* @__PURE__ */ Object.freeze({
+var text1_html$1 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   data: data$d
@@ -4207,6 +4682,48 @@ var text_html$1 = /* @__PURE__ */ Object.freeze({
   data: data$c
 });
 const data$b = {
+  "key": "v-9b98914c",
+  "path": "/guide/%E9%9A%8F%E7%AC%94/text.html",
+  "title": "1a",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "lang": "zh-CN",
+    "title": "1a",
+    "description": "12a"
+  },
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 2,
+      "title": "3",
+      "slug": "_3",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "4",
+      "slug": "_4",
+      "children": []
+    }
+  ],
+  "git": {
+    "updatedTime": 1640251957e3,
+    "contributors": [
+      {
+        "name": "\u9648\u67D2",
+        "email": "3062995371@qq.com",
+        "commits": 1
+      }
+    ]
+  },
+  "filePathRelative": "guide/\u968F\u7B14/text.md"
+};
+var text_html = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  data: data$b
+});
+const data$a = {
   "key": "v-796e15ea",
   "path": "/guide/%E9%9D%A2%E8%AF%95/interview.html",
   "title": "\u9762\u8BD5\u96C6\u9526",
@@ -4280,43 +4797,7 @@ const data$b = {
     }
   ],
   "git": {
-    "updatedTime": null,
-    "contributors": []
-  },
-  "filePathRelative": "guide/\u9762\u8BD5/interview.md"
-};
-var interview_html = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  data: data$b
-});
-const data$a = {
-  "key": "v-9b98914c",
-  "path": "/guide/%E9%9A%8F%E7%AC%94/text.html",
-  "title": "1a",
-  "lang": "zh-CN",
-  "frontmatter": {
-    "lang": "zh-CN",
-    "title": "1a",
-    "description": "12a"
-  },
-  "excerpt": "",
-  "headers": [
-    {
-      "level": 2,
-      "title": "3",
-      "slug": "_3",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "4",
-      "slug": "_4",
-      "children": []
-    }
-  ],
-  "git": {
-    "updatedTime": 1640251957e3,
+    "updatedTime": 1641109712e3,
     "contributors": [
       {
         "name": "\u9648\u67D2",
@@ -4325,9 +4806,9 @@ const data$a = {
       }
     ]
   },
-  "filePathRelative": "guide/\u968F\u7B14/text.md"
+  "filePathRelative": "guide/\u9762\u8BD5/interview.md"
 };
-var text_html = /* @__PURE__ */ Object.freeze({
+var interview_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   data: data$a
@@ -4369,7 +4850,7 @@ const data$9 = {
   },
   "filePathRelative": "web/html/text1.md"
 };
-var text1_html$1 = /* @__PURE__ */ Object.freeze({
+var text1_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   data: data$9
@@ -4455,12 +4936,12 @@ const data$7 = {
     }
   ],
   "git": {
-    "updatedTime": 1640689264e3,
+    "updatedTime": 1641109712e3,
     "contributors": [
       {
         "name": "\u9648\u67D2",
         "email": "3062995371@qq.com",
-        "commits": 1
+        "commits": 2
       }
     ]
   },
@@ -4489,15 +4970,65 @@ const data$6 = {
       "title": "Object \u5BF9\u8C61",
       "slug": "object-\u5BF9\u8C61",
       "children": []
+    },
+    {
+      "level": 2,
+      "title": "Object() \u4F5C\u4E3A\u51FD\u6570\uFF08\u65B9\u6CD5\uFF09",
+      "slug": "object-\u4F5C\u4E3A\u51FD\u6570-\u65B9\u6CD5",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "Object \u6784\u9020\u51FD\u6570(new\u521B\u5EFA)",
+      "slug": "object-\u6784\u9020\u51FD\u6570-new\u521B\u5EFA",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "Object\u7684\u9759\u6001\u65B9\u6CD5",
+      "slug": "object\u7684\u9759\u6001\u65B9\u6CD5",
+      "children": [
+        {
+          "level": 3,
+          "title": "Object.keys()",
+          "slug": "object-keys",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Object.getOwnPropertyNames()",
+          "slug": "object-getownpropertynames",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Object \u5176\u4ED6\u9759\u6001\u65B9\u6CD5",
+          "slug": "object-\u5176\u4ED6\u9759\u6001\u65B9\u6CD5",
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Object \u7684\u5B9E\u4F8B\u65B9\u6CD5",
+      "slug": "object-\u7684\u5B9E\u4F8B\u65B9\u6CD5",
+      "children": [
+        {
+          "level": 3,
+          "title": "Object.prototype.valueOf()",
+          "slug": "object-prototype-valueof",
+          "children": []
+        }
+      ]
     }
   ],
   "git": {
-    "updatedTime": 1640945144e3,
+    "updatedTime": 1641109712e3,
     "contributors": [
       {
         "name": "\u9648\u67D2",
         "email": "3062995371@qq.com",
-        "commits": 1
+        "commits": 2
       }
     ]
   },
@@ -4608,12 +5139,12 @@ const data$5 = {
     }
   ],
   "git": {
-    "updatedTime": 1640945144e3,
+    "updatedTime": 1641109712e3,
     "contributors": [
       {
         "name": "\u9648\u67D2",
         "email": "3062995371@qq.com",
-        "commits": 1
+        "commits": 2
       }
     ]
   },
@@ -4726,12 +5257,12 @@ const data$4 = {
     }
   ],
   "git": {
-    "updatedTime": 1640945144e3,
+    "updatedTime": 1641109712e3,
     "contributors": [
       {
         "name": "\u9648\u67D2",
         "email": "3062995371@qq.com",
-        "commits": 1
+        "commits": 2
       }
     ]
   },
@@ -4745,19 +5276,62 @@ var _____html = /* @__PURE__ */ Object.freeze({
 const data$3 = {
   "key": "v-e9674cca",
   "path": "/web/vue/01.html",
-  "title": "vue\u4ECB\u7ECD",
+  "title": "vue\u524D\u7F6E",
   "lang": "zh-CN",
   "frontmatter": {
     "lang": "zh-CN",
-    "title": "vue\u4ECB\u7ECD",
+    "title": "vue\u524D\u7F6E",
     "description": "vue\u63CF\u8FF0"
   },
   "excerpt": "",
   "headers": [
     {
       "level": 2,
-      "title": "\u524D\u7F6E\u5B66\u4E60",
-      "slug": "\u524D\u7F6E\u5B66\u4E60",
+      "title": "\u524D\u7F6E",
+      "slug": "\u524D\u7F6E",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "MVVM\uFF1F",
+      "slug": "mvvm",
+      "children": [
+        {
+          "level": 3,
+          "title": "MVC",
+          "slug": "mvc",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "MVP",
+          "slug": "mvp",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "MVVM",
+          "slug": "mvvm-1",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u4F8B\u5B50\u5BF9\u6BD4",
+          "slug": "\u4F8B\u5B50\u5BF9\u6BD4",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "vue\u5B9E\u73B0\u4F8B\u5B50",
+          "slug": "vue\u5B9E\u73B0\u4F8B\u5B50",
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "\u5B89\u88C5vue-devtools",
+      "slug": "\u5B89\u88C5vue-devtools",
       "children": []
     }
   ],
@@ -4779,13 +5353,13 @@ var _01_html = /* @__PURE__ */ Object.freeze({
   data: data$3
 });
 const data$2 = {
-  "key": "v-576d49b2",
-  "path": "/web/vue/text1.html",
-  "title": "vue\u6807\u9898",
+  "key": "v-637b5fd4",
+  "path": "/web/vue/02vue%E5%AE%9E%E4%BE%8B.html",
+  "title": "vue\u5B9E\u4F8B",
   "lang": "zh-CN",
   "frontmatter": {
     "lang": "zh-CN",
-    "title": "vue\u6807\u9898",
+    "title": "vue\u5B9E\u4F8B",
     "description": "vue\u63CF\u8FF0"
   },
   "excerpt": "",
@@ -4804,18 +5378,12 @@ const data$2 = {
     }
   ],
   "git": {
-    "updatedTime": 1640251957e3,
-    "contributors": [
-      {
-        "name": "\u9648\u67D2",
-        "email": "3062995371@qq.com",
-        "commits": 1
-      }
-    ]
+    "updatedTime": null,
+    "contributors": []
   },
-  "filePathRelative": "web/vue/text1.md"
+  "filePathRelative": "web/vue/02vue\u5B9E\u4F8B.md"
 };
-var text1_html = /* @__PURE__ */ Object.freeze({
+var _02vue___html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   data: data$2
@@ -6057,17 +6625,9 @@ var Layout = /* @__PURE__ */ Object.freeze({
   [Symbol.toStringTag]: "Module",
   "default": _sfc_main$1
 });
-var MyTemplate_vue_vue_type_style_index_0_lang = "";
-const _sfc_main = {
-  name: "MyTemplate",
-  data() {
-    return {
-      message: "\u81EA\u5B9A\u4E49\u7EC4\u4EF6"
-    };
-  }
-};
+const _sfc_main = {};
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  _push(`<div${serverRenderer.ssrRenderAttrs(vue.mergeProps({ class: "mytemplate" }, _attrs))}></div>`);
+  _push(`<div${serverRenderer.ssrRenderAttrs(vue.mergeProps({ class: "mytemplate" }, _attrs))}><text>\u7EC4\u4EF6\u5360\u4F4D\u7B26</text></div>`);
 }
 const _sfc_setup = _sfc_main.setup;
 _sfc_main.setup = (props, ctx) => {
