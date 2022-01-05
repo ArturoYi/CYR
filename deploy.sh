@@ -15,21 +15,20 @@ msg=`date +%Y-%m-%d`
 var1=10
 githubUrl=git@github.com:540765/CYR.git
 
-if [ -a "$GITHUB_TOKEN" ] 
+if [ -z "$GITHUB_TOKEN" ] 
 then
-  echo "有$GITHUB_TOKEN"
+  echo "有GITHUB_TOKEN"
 else
+  echo "无GITHUB_TOKEN"
   git config --global user.name "540765"
   git config --global user.email "3062995371@qq.com"
-  git init
-  git add .
-  git commit -m "更新"
-  git remote add origin @github.com:540765/CYR.gi
-  git push -u origin master
 fi
 if [ "$?"=0 ]
 then
   echo "无错误"
+  git add .
+  git commit -m "更新"
+  git push -u origin master
 while [ $var1 -gt 0 ]
 do 
    echo -ne $var1
@@ -38,12 +37,14 @@ do
    echo -ne "\r   \r" #清空行
 done
 else
-  git config --global user.name "540765"
-  git config --global user.email "3062995371@qq.com"
-  git pull --rebase
-  git add .
-  git commit -m "更新"
-  git push -u origin master
+  echo "有错误,10秒后退出"
+  while [ $var1 -gt 0 ]
+do 
+   echo -ne $var1
+   (( var1-- ))       
+   sleep 1
+   echo -ne "\r   \r" #清空行
+done
 fi
 # git init
 # git add .
