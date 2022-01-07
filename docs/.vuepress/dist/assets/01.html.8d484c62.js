@@ -1,4 +1,4 @@
-import { r as resolveComponent, o as openBlock, c as createElementBlock, b as createBaseVNode, a as createVNode, F as Fragment, e as createStaticVNode, d as createTextVNode } from "./app.fb10aa91.js";
+import { r as resolveComponent, o as openBlock, c as createElementBlock, b as createBaseVNode, a as createVNode, F as Fragment, e as createStaticVNode, d as createTextVNode } from "./app.f5083c66.js";
 import { _ as _export_sfc } from "./plugin-vue_export-helper.21dcd24c.js";
 const _sfc_main = {};
 const _hoisted_1 = /* @__PURE__ */ createStaticVNode('<h2 id="\u524D\u7F6E" tabindex="-1"><a class="header-anchor" href="#\u524D\u7F6E" aria-hidden="true">#</a> \u524D\u7F6E</h2><p>\u6700\u597D\u6709\u4E00\u5B9A\u7684HTML\u3001JavaScript\u3001CSS\u57FA\u7840\u3002</p><h2 id="mvvm" tabindex="-1"><a class="header-anchor" href="#mvvm" aria-hidden="true">#</a> MVVM\uFF1F</h2><p><code>MVVM</code>\u662F<code>Model-View-ViewModel</code>\u7684\u7F29\u5199\u3002<br><code>MVVM</code> \u7684\u6838\u5FC3\u662F <code>ViewModel</code> \u5C42\uFF0C\u5B83\u5C31\u50CF\u662F\u4E00\u4E2A\u4E2D\u8F6C\u7AD9<code>\uFF08value converter\uFF09</code>\uFF0C\u8D1F\u8D23\u8F6C\u6362 <code>Model</code> \u4E2D\u7684\u6570\u636E\u5BF9\u8C61\u6765\u8BA9\u6570\u636E\u53D8\u5F97\u66F4\u5BB9\u6613\u7BA1\u7406\u548C\u4F7F\u7528\uFF0C\u8BE5\u5C42\u5411\u4E0A\u4E0E\u89C6\u56FE\u5C42\u8FDB\u884C\u53CC\u5411\u6570\u636E\u7ED1\u5B9A\uFF0C\u5411\u4E0B\u4E0E <code>Model</code> \u5C42\u901A\u8FC7\u63A5\u53E3\u8BF7\u6C42\u8FDB\u884C\u6570\u636E\u4EA4\u4E92\uFF0C\u8D77\u5448\u4E0A\u542F\u4E0B\u4F5C\u7528\u3002</p>', 4);
@@ -64,6 +64,44 @@ const _hoisted_59 = /* @__PURE__ */ createTextVNode("\u6587\u4EF6\u5939\uFF0C\u8
 const _hoisted_60 = /* @__PURE__ */ createBaseVNode("code", null, "master", -1);
 const _hoisted_61 = /* @__PURE__ */ createTextVNode("\u5206\u652F\u7684\u4E0D\u4F1A\u4E0D\u4F1A\u6709\u6B64\u6587\u4EF6\u5939");
 const _hoisted_62 = /* @__PURE__ */ createStaticVNode("<li>\u8FDB\u5165<code>vue-devtools-master</code>\u6587\u4EF6\u5939\u4E0B\uFF0C\u5728\u8DEF\u5F84\u680F\u8F93\u5165cmd\uFF0C\u7136\u540E\u56DE\u8F66\u3002</li><li>\u7136\u540E\u8F93\u5165<code>npm install</code>\u547D\u4EE4\u5B89\u88C5\u4F9D\u8D56\u3002\uFF08\u5982\u679C\u9519\u8BEF\u5927\u4E0D\u4E86\u63A8\u5012\u91CD\u6765\uFF0C\u68C0\u67E5\u662F\u5426\u4E3A<code>master</code>\u5206\u652F\uFF0C\u6216\u4F7F\u7528<code>cnpm</code>\u7B49\u65B9\u6CD5\u4E0B\u8F7D\u3002\uFF09</li><li>\u5B89\u88C5\u5B8C\u6210\u4E4B\u540E\u6267\u884C\u547D\u4EE4<code>npm run build</code>\u3002</li><li>\u6253\u5F00\u8C37\u6B4C\u6D4F\u89C8\u5668\uFF0C\u8FDB\u5165\u66F4\u591A\u5DE5\u5177 &gt; \u6269\u5C55\u7A0B\u5E8F &gt; \u70B9\u51FB\u52A0\u8F7D\u5DF2\u89E3\u538B\u7684\u62D3\u5C55\u7A0B\u5E8F &gt; \u9009\u62E9<code>vue-devtools-matser</code>\u6587\u4EF6\u4E2D<code>shells</code>\u6587\u4EF6\u4E2D\u7684<code>chrome</code>\u6587\u4EF6\u3002</li>", 4);
+const _hoisted_66 = /* @__PURE__ */ createBaseVNode("p", null, [
+  /* @__PURE__ */ createTextVNode("\u5B89\u88C5\u6210\u529F\u4F60\u4F1A\u770B\u5230\u4E0B\u9762\u5185\u5BB9\uFF1A "),
+  /* @__PURE__ */ createBaseVNode("img", {
+    src: "https://s2.loli.net/2022/01/07/iAPnmWhQY7aOBVE.png",
+    alt: ""
+  })
+], -1);
+const _hoisted_67 = /* @__PURE__ */ createBaseVNode("p", null, "\u8C03\u8BD5\u9700\u8981\u4F60\u8FD0\u884C\u4E00\u4E2Avue\u5B9E\u4F8B\u3002", -1);
+const _hoisted_68 = /* @__PURE__ */ createBaseVNode("h2", {
+  id: "\u5F00\u53D1\u5DE5\u5177",
+  tabindex: "-1"
+}, [
+  /* @__PURE__ */ createBaseVNode("a", {
+    class: "header-anchor",
+    href: "#\u5F00\u53D1\u5DE5\u5177",
+    "aria-hidden": "true"
+  }, "#"),
+  /* @__PURE__ */ createTextVNode(" \u5F00\u53D1\u5DE5\u5177")
+], -1);
+const _hoisted_69 = /* @__PURE__ */ createBaseVNode("p", null, "\u5BF9\u5F00\u53D1\u5DE5\u5177\u6CA1\u592A\u5927\u8981\u6C42\uFF0C\u4E0B\u9762\u662F\u4E00\u4E9B\u5E38\u7528\u7684\u5DE5\u5177\uFF1A", -1);
+const _hoisted_70 = {
+  href: "https://code.visualstudio.com/",
+  target: "_blank",
+  rel: "noopener noreferrer"
+};
+const _hoisted_71 = /* @__PURE__ */ createTextVNode("VSCode");
+const _hoisted_72 = {
+  href: "https://www.dcloud.io/hbuilderx.html",
+  target: "_blank",
+  rel: "noopener noreferrer"
+};
+const _hoisted_73 = /* @__PURE__ */ createTextVNode("HBuilder X");
+const _hoisted_74 = {
+  href: "https://www.jetbrains.com/webstorm/",
+  target: "_blank",
+  rel: "noopener noreferrer"
+};
+const _hoisted_75 = /* @__PURE__ */ createTextVNode("WebStorm");
 function _sfc_render(_ctx, _cache) {
   const _component_ExternalLinkIcon = resolveComponent("ExternalLinkIcon");
   return openBlock(), createElementBlock(Fragment, null, [
@@ -114,6 +152,30 @@ function _sfc_render(_ctx, _cache) {
         _hoisted_61
       ]),
       _hoisted_62
+    ]),
+    _hoisted_66,
+    _hoisted_67,
+    _hoisted_68,
+    _hoisted_69,
+    createBaseVNode("ol", null, [
+      createBaseVNode("li", null, [
+        createBaseVNode("a", _hoisted_70, [
+          _hoisted_71,
+          createVNode(_component_ExternalLinkIcon)
+        ])
+      ]),
+      createBaseVNode("li", null, [
+        createBaseVNode("a", _hoisted_72, [
+          _hoisted_73,
+          createVNode(_component_ExternalLinkIcon)
+        ])
+      ]),
+      createBaseVNode("li", null, [
+        createBaseVNode("a", _hoisted_74, [
+          _hoisted_75,
+          createVNode(_component_ExternalLinkIcon)
+        ])
+      ])
     ])
   ], 64);
 }

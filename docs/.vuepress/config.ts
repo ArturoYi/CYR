@@ -44,8 +44,12 @@ export default defineUserConfig<DefaultThemeOptions>({
                 text:'笔记',
                 children:[
                     {
-                        text:'vue',
+                        text:'vue2',
                         link: '/web/vue/01.md',
+                    },
+                    {
+                        text: 'WebPack',
+                        link: '/web/webpack/webpack介绍.md',
                     }
                 ],
             },

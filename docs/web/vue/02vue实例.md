@@ -51,7 +51,7 @@ description: vue描述
 
 ### v-if、v-else、v-show
 
-`v-if`用来判断是否加载`html`的`DOM`。
+**1. `v-if`用来判断是否加载`html`的`DOM`。**
 
 ```html
 <!-- 主要代码 -->
@@ -67,17 +67,71 @@ description: vue描述
 <body>
     <div id="app">
         <p>请看下面：</p>
-        <h2 v-if="seeing">能看见吗</h2>
+        <h2 v-if="seeing">YES</h2>
+        <h2 v-else>NO</h2>
     </div>
 </body>
 <script>
     var app = new Vue({
         el: '#app',
         data: {
-            message: 'Hello World',
-            seeing:true,
+            seeing: false,
         }
     })
 </script>
 </html>
+```
+
+上面例子表示了`v-if`通过判断`seeing`的`boolean`值决定了创建`‘YES’`或`‘NO’`的`h2`元素：
+
+![](https://s2.loli.net/2022/01/07/7JZNMSI3aP4lFnb.png)
+
+- `v-if`可以单独使用，同时也因为它是操作`DOM`元素，所以官方不建议频繁切换时使用`v-if`；
+- `v-else`一般搭配在`v-if`一起使用，当`v-if`判断`boolean`值为`false`时才会创建`v-else`，还可以嵌套使用，类似`if-else-if`;
+
+**2. `v-show`是调整`css`中`display`属性，`DOM`已经加载，只是`CSS`控制没有显示出来。**
+核心代码：
+
+```html
+<h2 v-show="seeing">YES</h2>
+```
+
+```js
+  seeing: false,
+```
+
+![](https://s2.loli.net/2022/01/07/bsaDd2G4N5ljXpT.png)
+
+通过查看`DOM`元素可以发现`DOM`已经加载，但是通过`v-show`判断`seeing`为`false`时添加了`display: none;`属性，虽然不可见，但依然存在。
+
+::: tip v-if和v-show的区别
+- v-if： 判断是否加载，可以减轻服务器的压力，在需要时加载。
+- v-show：调整css dispaly属性，可以使客户端操作更加流畅。
+:::
+
+### v-for
+
+可以解决模板循环问题，即循环渲染一组data中的数组。常用与一系列的类似数据展示（列表等）。
+
+`v-for` 指令需要使用 `item in items` 形式的特殊语法，其中 `items` 是源数据数组，而 `item` 则是被迭代的数组元素的别名。
+
+对照下面模板核心写法简单理解就是：
+- `items`:源数据数组名称。
+- `item`:被迭代的数组里的元素名称。
+
+模板核心写法：
+```html
+<ul>
+  <li v-for="item in items" :key="item">
+    {{ item }}
+  </li>
+</ul>
+```
+```js
+var app=new Vue({
+     el:'#app',
+     data:{
+         items:[20,23,18,65,32,19,54,56,41]
+     }
+})
 ```
