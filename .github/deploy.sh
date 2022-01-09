@@ -1,18 +1,20 @@
 # 确保脚本抛出遇到的错误
 set -e
 
-#进入根目录打包
-var1=10
 
-cd ../
+var1=10
+var2=5
 #打包上传倒计时
-  while [ $var1 -gt 0 ]
+  while [ $var1 -gt 5 ]
 do 
-   echo -ne "$var1后开始打包，你现在还可以退出——Ctrl-C"
+   echo -ne "`expr $var1 - $var2 `后开始打包，你现在还可以退出——Ctrl-C"
    (( var1-- ))       
    sleep 1
    echo -ne "\r   \r" #清空行
 done
+
+#进入根目录打包
+cd ../
 
 # 生成静态文件_
 npm run docs:build
@@ -44,6 +46,6 @@ do
    (( var1-- ))       
    sleep 1
    echo -ne "\r   \r" #清空行
-done && \
+done
 # cd - # 退回开始所在目录
 # rm -rf docs/.vuepress/dist

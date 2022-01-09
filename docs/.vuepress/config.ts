@@ -49,7 +49,7 @@ export default defineUserConfig<DefaultThemeOptions>({
                     },
                     {
                         text: 'WebPack',
-                        link: '/web/webpack/webpack介绍.md',
+                        link: '/web/webpack/webpack.md',
                     }
                 ],
             },

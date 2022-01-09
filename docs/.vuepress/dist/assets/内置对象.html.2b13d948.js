@@ -64,6 +64,24 @@ const data = {
           "title": "Object.prototype.valueOf()",
           "slug": "object-prototype-valueof",
           "children": []
+        },
+        {
+          "level": 3,
+          "title": "Object.prototype.toString()",
+          "slug": "object-prototype-tostring",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Object.prototype.toLocaleString()",
+          "slug": "object-prototype-tolocalestring",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Object.prototype.hasOwnProperty()",
+          "slug": "object-prototype-hasownproperty",
+          "children": []
         }
       ]
     }

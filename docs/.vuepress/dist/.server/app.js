@@ -78,11 +78,11 @@ const pagesComponents = {
   "v-3803ce0e": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return text_html$5;
   })),
-  "v-9b98914c": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return text_html$3;
-  })),
   "v-796e15ea": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return interview_html$2;
+  })),
+  "v-9b98914c": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return text_html$3;
   })),
   "v-89e39176": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return text1_html$3;
@@ -111,8 +111,8 @@ const pagesComponents = {
   "v-59222251": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return text2_html$3;
   })),
-  "v-01e9cc1d": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return webpack___html$2;
+  "v-58f4867c": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return webpack_html$2;
   })),
   "v-3706649a": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return _404_html$2;
@@ -137,11 +137,11 @@ const pagesData$1 = {
   "v-3803ce0e": () => Promise.resolve().then(function() {
     return text_html$1;
   }).then(({ data: data2 }) => data2),
-  "v-9b98914c": () => Promise.resolve().then(function() {
-    return text_html;
-  }).then(({ data: data2 }) => data2),
   "v-796e15ea": () => Promise.resolve().then(function() {
     return interview_html;
+  }).then(({ data: data2 }) => data2),
+  "v-9b98914c": () => Promise.resolve().then(function() {
+    return text_html;
   }).then(({ data: data2 }) => data2),
   "v-89e39176": () => Promise.resolve().then(function() {
     return text1_html;
@@ -170,8 +170,8 @@ const pagesData$1 = {
   "v-59222251": () => Promise.resolve().then(function() {
     return text2_html;
   }).then(({ data: data2 }) => data2),
-  "v-01e9cc1d": () => Promise.resolve().then(function() {
-    return webpack___html;
+  "v-58f4867c": () => Promise.resolve().then(function() {
+    return webpack_html;
   }).then(({ data: data2 }) => data2),
   "v-3706649a": () => Promise.resolve().then(function() {
     return _404_html;
@@ -427,7 +427,7 @@ const themeData$1 = {
         },
         {
           "text": "WebPack",
-          "link": "/web/webpack/webpack\u4ECB\u7ECD.md"
+          "link": "/web/webpack/webpack.md"
         }
       ]
     },
@@ -1046,26 +1046,6 @@ const searchIndex$1 = [
     "extraFields": []
   },
   {
-    "title": "1a",
-    "headers": [
-      {
-        "level": 2,
-        "title": "3",
-        "slug": "_3",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4",
-        "slug": "_4",
-        "children": []
-      }
-    ],
-    "path": "/guide/%E9%9A%8F%E7%AC%94/text.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "\u9762\u8BD5\u96C6\u9526",
     "headers": [
       {
@@ -1124,6 +1104,26 @@ const searchIndex$1 = [
       }
     ],
     "path": "/guide/%E9%9D%A2%E8%AF%95/interview.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "1a",
+    "headers": [
+      {
+        "level": 2,
+        "title": "3",
+        "slug": "_3",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4",
+        "slug": "_4",
+        "children": []
+      }
+    ],
+    "path": "/guide/%E9%9A%8F%E7%AC%94/text.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1254,6 +1254,24 @@ const searchIndex$1 = [
             "level": 3,
             "title": "Object.prototype.valueOf()",
             "slug": "object-prototype-valueof",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Object.prototype.toString()",
+            "slug": "object-prototype-tostring",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Object.prototype.toLocaleString()",
+            "slug": "object-prototype-tolocalestring",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Object.prototype.hasOwnProperty()",
+            "slug": "object-prototype-hasownproperty",
             "children": []
           }
         ]
@@ -1579,18 +1597,61 @@ const searchIndex$1 = [
     "headers": [
       {
         "level": 2,
-        "title": "webpack\u5751",
-        "slug": "webpack\u5751",
+        "title": "webpack\u5165\u5751",
+        "slug": "webpack\u5165\u5751",
         "children": []
       },
       {
         "level": 2,
-        "title": "webpack\u5751",
-        "slug": "webpack\u5751-1",
-        "children": []
+        "title": "webpack\u57FA\u7840",
+        "slug": "webpack\u57FA\u7840",
+        "children": [
+          {
+            "level": 3,
+            "title": "\u5FEB\u901F\u4E0A\u624B",
+            "slug": "\u5FEB\u901F\u4E0A\u624B",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u914D\u7F6E\u6587\u4EF6",
+            "slug": "\u914D\u7F6E\u6587\u4EF6",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Loader",
+            "slug": "loader",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u63D2\u4EF6\uFF08plugin\uFF09",
+            "slug": "\u63D2\u4EF6-plugin",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u81EA\u52A8\u6E05\u7A7A\u6253\u5305\u76EE\u5F55",
+            "slug": "\u81EA\u52A8\u6E05\u7A7A\u6253\u5305\u76EE\u5F55",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u533A\u5206\u73AF\u5883",
+            "slug": "\u533A\u5206\u73AF\u5883",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u4F7F\u7528devServer",
+            "slug": "\u4F7F\u7528devserver",
+            "children": []
+          }
+        ]
       }
     ],
-    "path": "/web/webpack/webpack%E4%BB%8B%E7%BB%8D.html",
+    "path": "/web/webpack/webpack.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1940,8 +2001,8 @@ const routeItems = [
   ["v-66ff7ae2", "/course/vscode%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.html", { "title": "vscode\u5E38\u7528\u63D2\u4EF6" }, ["/course/vscode\u5E38\u7528\u63D2\u4EF6.html", "/course/vscode%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6", "/course/vscode\u5E38\u7528\u63D2\u4EF6.md", "/course/vscode%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.md"]],
   ["v-6e6848ee", "/web/text1.html", { "title": "\u9875\u9762\u7684\u6807\u9898" }, ["/web/text1", "/web/text1.md"]],
   ["v-3803ce0e", "/guide/%E6%95%99%E7%A8%8B/text.html", { "title": "1a" }, ["/guide/\u6559\u7A0B/text.html", "/guide/%E6%95%99%E7%A8%8B/text", "/guide/\u6559\u7A0B/text.md", "/guide/%E6%95%99%E7%A8%8B/text.md"]],
-  ["v-9b98914c", "/guide/%E9%9A%8F%E7%AC%94/text.html", { "title": "1a" }, ["/guide/\u968F\u7B14/text.html", "/guide/%E9%9A%8F%E7%AC%94/text", "/guide/\u968F\u7B14/text.md", "/guide/%E9%9A%8F%E7%AC%94/text.md"]],
   ["v-796e15ea", "/guide/%E9%9D%A2%E8%AF%95/interview.html", { "title": "\u9762\u8BD5\u96C6\u9526" }, ["/guide/\u9762\u8BD5/interview.html", "/guide/%E9%9D%A2%E8%AF%95/interview", "/guide/\u9762\u8BD5/interview.md", "/guide/%E9%9D%A2%E8%AF%95/interview.md"]],
+  ["v-9b98914c", "/guide/%E9%9A%8F%E7%AC%94/text.html", { "title": "1a" }, ["/guide/\u968F\u7B14/text.html", "/guide/%E9%9A%8F%E7%AC%94/text", "/guide/\u968F\u7B14/text.md", "/guide/%E9%9A%8F%E7%AC%94/text.md"]],
   ["v-89e39176", "/web/html/text1.html", { "title": "html\u6807\u9898" }, ["/web/html/text1", "/web/html/text1.md"]],
   ["v-8679e038", "/web/html/text2.html", { "title": "html2\u6807\u9898" }, ["/web/html/text2", "/web/html/text2.md"]],
   ["v-72bd4e03", "/web/JavaScript/%E5%85%A5%E9%97%A8%E5%AF%BC%E8%AE%BA.html", { "title": "\u5165\u95E8\u5BFC\u8BBA" }, ["/web/JavaScript/\u5165\u95E8\u5BFC\u8BBA.html", "/web/JavaScript/%E5%85%A5%E9%97%A8%E5%AF%BC%E8%AE%BA", "/web/JavaScript/\u5165\u95E8\u5BFC\u8BBA.md", "/web/JavaScript/%E5%85%A5%E9%97%A8%E5%AF%BC%E8%AE%BA.md"]],
@@ -1951,7 +2012,7 @@ const routeItems = [
   ["v-e9674cca", "/web/vue/01.html", { "title": "vue\u524D\u7F6E" }, ["/web/vue/01", "/web/vue/01.md"]],
   ["v-637b5fd4", "/web/vue/02vue%E5%AE%9E%E4%BE%8B.html", { "title": "vue\u5B9E\u4F8B\u8D77\u6B65" }, ["/web/vue/02vue\u5B9E\u4F8B.html", "/web/vue/02vue%E5%AE%9E%E4%BE%8B", "/web/vue/02vue\u5B9E\u4F8B.md", "/web/vue/02vue%E5%AE%9E%E4%BE%8B.md"]],
   ["v-59222251", "/web/vue/text2.html", { "title": "vue2\u6807\u9898" }, ["/web/vue/text2", "/web/vue/text2.md"]],
-  ["v-01e9cc1d", "/web/webpack/webpack%E4%BB%8B%E7%BB%8D.html", { "title": "webpack\u4ECB\u7ECD" }, ["/web/webpack/webpack\u4ECB\u7ECD.html", "/web/webpack/webpack%E4%BB%8B%E7%BB%8D", "/web/webpack/webpack\u4ECB\u7ECD.md", "/web/webpack/webpack%E4%BB%8B%E7%BB%8D.md"]],
+  ["v-58f4867c", "/web/webpack/webpack.html", { "title": "webpack\u4ECB\u7ECD" }, ["/web/webpack/webpack", "/web/webpack/webpack.md"]],
   ["v-3706649a", "/404.html", {}, ["/404"]]
 ];
 const pagesRoutes = routeItems.reduce((result, [name, path, meta, redirects]) => {
@@ -3222,35 +3283,35 @@ var text_html$5 = /* @__PURE__ */ Object.freeze({
 });
 const _sfc_main$r = {};
 function _sfc_ssrRender$d(_ctx, _push, _parent, _attrs) {
-  _push(`<!--[--><h2 id="_3" tabindex="-1"><a class="header-anchor" href="#_3" aria-hidden="true">#</a> 3</h2><h2 id="_4" tabindex="-1"><a class="header-anchor" href="#_4" aria-hidden="true">#</a> 4</h2><!--]-->`);
+  _push(`<!--[--><h1 id="\u9762\u8BD5\u96C6\u9526" tabindex="-1"><a class="header-anchor" href="#\u9762\u8BD5\u96C6\u9526" aria-hidden="true">#</a> \u9762\u8BD5\u96C6\u9526</h1><div class="custom-container tip"><p class="custom-container-title">\u9762\u8BD5</p><p>\u5E38\u89C1\u9762\u8BD5\u96C6\u9526</p></div><h2 id="\u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD" tabindex="-1"><a class="header-anchor" href="#\u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD" aria-hidden="true">#</a> \u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD</h2><p><strong>\u63D0\u793A</strong>\uFF1A\u4E00\u822C\u4EBA\u56DE\u7B54\u8FD9\u4E2A\u95EE\u9898\u8FC7\u4E8E\u5E73\u5E38\uFF0C\u59D3\u540D\u3001\u5E74\u9F84\u3001\u7231\u597D\u3001\u5DE5\u4F5C\u7ECF\u9A8C\uFF0C\u8FD9\u4E9B\u7B80\u5386\u4E0A\u90FD\u6709\u3002\u4F01\u4E1A\uFF08\u9762\u8BD5\u5B98\uFF09\u6700\u5E0C\u671B\u77E5\u9053\u7684\u662F\u6C42\u804C\u8005\u80FD\u5426\u80DC\u4EFB\u5DE5\u4F5C\uFF0C\u5305\u62EC\uFF1A\u6700\u5F3A\u7684\u6280\u80FD\u3001\u6700\u6DF1\u5165\u7814\u7A76\u7684\u9886\u57DF\u3001\u4E2A\u6027\u4E2D\u6700\u79EF\u6781\u7684\u90E8\u5206\u3001\u505A\u8FC7\u6700\u6210\u529F\u7684\u4E8B\uFF0C\u4E3B\u8981\u6210\u5C31\u7B49\uFF0C\u8981\u7A81\u51FA\u79EF\u6781\u7684\u4E2A\u6027\u548C\u505A\u4E8B\u7684\u80FD\u529B\uFF0C\u8BF4\u7684\u5408\u60C5\u5408\u7406\u4F01\u4E1A\uFF08\u9762\u8BD5\u5B98\uFF09\u624D\u4F1A\u76F8\u4FE1\u3002</p><h2 id="\u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48" tabindex="-1"><a class="header-anchor" href="#\u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48" aria-hidden="true">#</a> \u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48\uFF1F</h2><p><strong>\u56DE\u7B54\u63D0\u793A</strong>\uFF1A \u6C89\u7740\u51B7\u9759\u3001\u6761\u7406\u6E05\u695A\u3001\u7ACB\u573A\u575A\u5B9A\u3001\u4E50\u4E8E\u52A9\u4EBA\u7B49\uFF0C\u52A0\u4E0A\u4F8B\u5B50\u5982\uFF1A\u6211\u5728XX\u7ECF\u8FC7\u4E00\u5230\u4E24\u5E74\u7684\u57F9\u8BAD\u53CA\u9879\u76EE\u5B9E\u6218\uFF0C\u52A0\u4E0A\u5B9E\u4E60\u5DE5\u4F5C\uFF0C\u6211\u60F3\u6211\u9002\u5408\u8FD9\u4EFD\u5DE5\u4F5C\u3002</p><h2 id="\u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9" tabindex="-1"><a class="header-anchor" href="#\u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9" aria-hidden="true">#</a> \u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u8FD9\u4E2A\u95EE\u9898\u4F01\u4E1A\u95EE\u7684\u6982\u7387\u5F88\u5927\uFF0C\u901A\u5E38\u4E0D\u5E0C\u671B\u542C\u5230\u76F4\u63A5\u56DE\u7B54\u7684\u7F3A\u70B9\u662F\u4EC0\u4E48\u7B49\uFF0C\u5982\u679C\u6C42\u804C\u8005\u8BF4\u81EA\u5DF1\u5C0F\u5FC3\u773C\u3001\u975E\u5E38\u61D2\u3001\u5DE5\u4F5C\u6548\u7387\u4F4E\uFF0C\u4F01\u4E1A\u80AF\u5B9A\u4E0D\u4F1A\u5F55\u7528\u4F60\u3002\u8981\u4ECE\u81EA\u5DF1\u7684\u4F18\u70B9\u8BF4\u8D77\uFF0C\u4E2D\u95F4\u52A0\u4E00\u4E9B\u5C0F\u7F3A\u70B9\uFF0C\u6700\u540E\u518D\u628A\u95EE\u7B54\u8F6C\u56DE\u5230\u4F18\u70B9\u4E0A\uFF0C\u7A81\u51FA\u4F18\u70B9\u7684\u90E8\u5206\u3002</p><h2 id="\u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5" tabindex="-1"><a class="header-anchor" href="#\u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5" aria-hidden="true">#</a> \u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A\u5B9E\u9645\u4E0A\u597D\u591A\u516C\u53F8\u95EE\u8FD9\u4E2A\u95EE\u9898\uFF0C\u5E76\u4E0D\u8BC1\u660E\u4E00\u5B9A\u8981\u52A0\u73ED\uFF0C\u53EA\u662F\u60F3\u6D4B\u8BD5\u4F60\u662F\u5426\u613F\u610F\u4E3A\u516C\u53F8\u5949\u732E\u3002</p><p><strong>\u6837\u672C</strong>\uFF1A\u5982\u679C\u662F\u5DE5\u4F5C\u9700\u8981\u6211\u4F1A\u4E49\u4E0D\u5BB9\u8F9E\u52A0\u73ED\uFF0C\u4F46\u540C\u65F6\uFF0C\u6211\u4E5F\u4F1A\u63D0\u9AD8\u5DE5\u4F5C\u6548\u7387\uFF0C\u51CF\u5C11\u4E0D\u5FC5\u8981\u7684\u52A0\u73ED\u3002</p><h2 id="\u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42" tabindex="-1"><a class="header-anchor" href="#\u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42" aria-hidden="true">#</a> \u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u5982\u679C\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\u592A\u4F4E\uFF0C\u90A3\u663E\u7136\u8D2C\u4F4E\u81EA\u5DF1\u7684\u80FD\u529B\uFF1B\u5982\u679C\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\u592A\u9AD8\uFF0C\u90A3\u53C8\u4F1A\u663E\u5F97\u4F60\u5206\u91CF\u8FC7\u91CD\uFF0C\u516C\u53F8\u53D7\u7528\u4E0D\u8D77\u3002\u4E00\u4E9B\u96C7\u4E3B\u901A\u5E38\u90FD\u4E8B\u5148\u5BF9\u6C42\u8058\u7684\u804C\u4F4D\u5B9A\u4E0B\u5F00\u652F\u9884\u7B97\uFF0C\u56E0\u800C\u4ED6\u4EEC\u7B2C\u4E00\u6B21\u63D0\u51FA\u7684\u4EF7\u94B1\u5F80\u5F80\u662F\u4ED6\u4EEC\u6240\u80FD\u7ED9\u4E88\u7684\u6700\u9AD8\u4EF7\u94B1\uFF0C\u4ED6\u4EEC\u95EE\u4F60\u53EA\u4E0D\u8FC7\u60F3\u8BC1\u5B9E\u4E00\u4E0B\u8FD9\u7B14\u94B1\u662F\u5426\u8DB3\u4EE5\u5F15\u8D77\u4F60\u5BF9\u8BE5\u5DE5\u4F5C\u7684\u5174\u8DA3\u3002</p><p><strong>\u56DE\u7B54</strong>\uFF1A</p><ol><li><p>\u6211\u5BF9\u5DE5\u8D44\u6CA1\u6709\u786C\u6027\u8981\u6C42\uFF0C\u6211\u76F8\u4FE1\u8D35\u516C\u53F8\u4F1A\u53CB\u5584\u5408\u7406\u3002\u6211\u6CE8\u91CD\u7684\u662F\u627E\u5230\u5DE5\u4F5C\u673A\u4F1A\uFF0C\u6240\u4EE5\u53EA\u8981\u6761\u4EF6\u516C\u5E73\uFF0C\u6211\u5219\u4E0D\u4F1A\u8BA1\u8F83\u592A\u591A\u3002</p></li><li><p>\u6211\u53D7\u8FC7\u7CFB\u7EDF\u7684\u8F6F\u4EF6\u7F16\u7A0B\u7684\u8BAD\u7EC3\uFF0C\u4E0D\u9700\u8981\u8FDB\u884C\u5927\u91CF\u7684\u57F9\u8BAD\uFF0C\u800C\u4E14\u6211\u672C\u4EBA\u4E5F\u5BF9\u7F16\u7A0B\u7279\u522B\u611F\u5174\u8DA3\u3002\u56E0\u6B64\uFF0C\u6211\u5E0C\u671B\u516C\u53F8\u80FD\u6839\u636E\u6211\u7684\u60C5\u51B5\u548C\u5E02\u573A\u6807\u51C6\u7684\u6C34\u5E73\uFF0C\u7ED9\u6211\u5408\u7406\u7684\u85AA\u6C34\u3002</p></li><li><p>\u5982\u679C\u4F60\u5FC5\u987B\u81EA\u5DF1\u8BF4\u51FA\u5177\u4F53\u6570\u76EE\uFF0C\u8BF7\u4E0D\u8981\u8BF4\u4E00\u4E2A\u5BBD\u6CDB\u7684\u8303\u56F4\uFF0C\u90A3\u6837\u4F60\u5C06\u53EA\u80FD\u5F97\u5230\u6700\u4F4E\u9650\u5EA6\u7684\u6570\u5B57\u3002\u6700\u597D\u7ED9\u51FA\u4E00\u4E2A\u5177\u4F53\u7684\u6570\u5B57\uFF0C\u8FD9\u6837\u8868\u660E\u4F60\u5DF2\u7ECF\u5BF9\u5F53\u4ECA\u7684\u4EBA\u624D\u5E02\u573A\u505A\u4E86\u8C03\u67E5\uFF0C\u77E5\u9053\u50CF\u81EA\u5DF1\u8FD9\u6837\u5B66\u5386\u7684\u96C7\u5458\u6709\u4EC0\u4E48\u6837\u7684\u4EF7\u503C\u3002</p></li></ol><h2 id="\u5728\u4E94\u5E74\u5185-\u4F60\u7684\u804C\u4E1A\u89C4\u5212" tabindex="-1"><a class="header-anchor" href="#\u5728\u4E94\u5E74\u5185-\u4F60\u7684\u804C\u4E1A\u89C4\u5212" aria-hidden="true">#</a> \u5728\u4E94\u5E74\u5185\uFF0C\u4F60\u7684\u804C\u4E1A\u89C4\u5212\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u8FD9\u662F\u6BCF\u4E00\u4E2A\u5E94\u8058\u8005\u90FD\u4E0D\u5E0C\u671B\u88AB\u95EE\u5230\u7684\u95EE\u9898\uFF0C\u4F46\u662F\uFF08\u5927\u516C\u53F8\uFF09\u51E0\u4E4E\u6BCF\u4E2A\u4EBA\u90FD\u4F1A\u88AB\u95EE\u5230\uFF0C\u6BD4\u8F83\u591A\u7684\u7B54\u6848\u662F\u201C\u7BA1\u7406\u8005\u201D\u3002\u5F53\u7136\uFF0C\u8BF4\u51FA\u5176\u4ED6\u4E00\u4E9B\u4F60\u611F\u5174\u8DA3\u7684\u804C\u4F4D\u4E5F\u662F\u53EF\u4EE5\u7684\u3002\u8981\u77E5\u9053\uFF0C\u8003\u5B98\u603B\u662F\u559C\u6B22\u6709\u8FDB\u53D6\u5FC3\u7684\u5E94\u8058\u8005\uFF0C\u6B64\u65F6\u5982\u679C\u8BF4\u201C\u4E0D\u77E5\u9053\u201D\uFF0C\u6216\u8BB8\u5C31\u4F1A\u4F7F\u4F60\u4E27\u5931\u4E00\u4E2A\u597D\u673A\u4F1A\u3002\u6700\u666E\u901A\u7684\u56DE\u7B54\u5E94\u8BE5\u662F\u201C\u6211\u51C6\u5907\u5728\u6280\u672F\u9886\u57DF\u6709\u6240\u4F5C\u4E3A\u201D\u6216\u201C\u6211\u5E0C\u671B\u80FD\u6309\u7167\u516C\u53F8\u7684\u7BA1\u7406\u601D\u8DEF\u53D1\u5C55\u201D\u3002</p><h2 id="\u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417" tabindex="-1"><a class="header-anchor" href="#\u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417" aria-hidden="true">#</a> \u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417?</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u4F01\u4E1A\u7684\u8FD9\u4E2A\u95EE\u9898\u770B\u4E0A\u53BB\u53EF\u6709\u53EF\u65E0\uFF0C\u5176\u5B9E\u5F88\u5173\u952E\uFF0C\u4F01\u4E1A\u4E0D\u559C\u6B22\u8BF4\u201C\u6CA1\u95EE\u9898\u201D\u7684\u4EBA\uFF0C\u56E0\u4E3A\u5176\u5F88\u6CE8\u91CD\u5458\u5DE5\u7684\u4E2A\u6027\u548C\u521B\u65B0\u80FD\u529B\u3002\u4F01\u4E1A\u4E0D\u559C\u6B22\u6C42\u804C\u8005\u95EE\u4E2A\u4EBA\u798F\u5229\u4E4B\u7C7B\u7684\u95EE\u9898\uFF0C\u5982\u679C\u6709\u4EBA\u8FD9\u6837\u95EE\uFF1A\u8D35\u516C\u53F8\u5BF9\u65B0\u5165\u516C\u53F8\u7684\u5458\u5DE5\u6709\u6CA1\u6709\u4EC0\u4E48\u57F9\u8BAD\u9879\u76EE\uFF0C\u6211\u53EF\u4EE5\u53C2\u52A0\u5417\uFF1F\u6216\u8005\u8BF4\u8D35\u516C\u53F8\u7684\u664B\u5347\u673A\u5236\u662F\u4EC0\u4E48\u6837\u7684\uFF1F\u4F01\u4E1A\u5C06\u5F88\u6B22\u8FCE\uFF0C\u56E0\u4E3A\u4F53\u73B0\u51FA\u4F60\u5BF9\u5B66\u4E60\u7684\u70ED\u60C5\u548C\u5BF9\u516C\u53F8\u7684\u5FE0\u8BDA\u5EA6\u4EE5\u53CA\u4F60\u7684\u4E0A\u8FDB\u5FC3\u3002</p><h2 id="\u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5" tabindex="-1"><a class="header-anchor" href="#\u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5" aria-hidden="true">#</a> \u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5?</h2><p><strong>\u56DE\u7B54</strong>\uFF1A \u2460\u6B63\u5E38\u7684\u201C\u8DF3\u69FD\u201D\u80FD\u591F\u4FC3\u8FDB\u4EBA\u624D\u5408\u7406\u6D41\u52A8\uFF0C\u5E94\u8BE5\u652F\u6301\u3002\u2461\u9891\u7E41\u7684\u8DF3\u69FD\u5BF9\u5355\u4F4D\u548C\u4E2A\u4EBA\u53CC\u65B9\u90FD\u4E0D\u5229\uFF0C\u5E94\u8BE5\u53CD\u5BF9\u3002</p><h2 id="\u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11" tabindex="-1"><a class="header-anchor" href="#\u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11" aria-hidden="true">#</a> \u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11?</h2><p><strong>\u56DE\u7B54</strong>\uFF1A\u5728\u53BB\u516C\u53F8\u9762\u8BD5\u524D\u4E0A\u7F51\u67E5\u4E00\u4E0B\u8BE5\u516C\u53F8\u4E3B\u8425\u4E1A\u52A1\u3002\u53EF\u7C7B\u4F3C\u56DE\u7B54\uFF1A\u8D35\u516C\u53F8\u6709\u610F\u6539\u53D8\u7B56\u7565\uFF0C\u52A0\u5F3A\u4E0E\u56FD\u5916\u5927\u5382\u7684OEM\u5408\u4F5C\uFF0C\u81EA\u6709\u54C1\u724C\u7684\u90E8\u5206\u5219\u900F\u8FC7\u6D77\u5916\u7ECF\u9500\u5546\u3002</p><!--]-->`);
 }
 const _sfc_setup$r = _sfc_main$r.setup;
 _sfc_main$r.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/\u968F\u7B14/text.html.vue");
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/\u9762\u8BD5/interview.html.vue");
   return _sfc_setup$r ? _sfc_setup$r(props, ctx) : void 0;
 };
-var text_html$2 = /* @__PURE__ */ _export_sfc(_sfc_main$r, [["ssrRender", _sfc_ssrRender$d]]);
-var text_html$3 = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  "default": text_html$2
-});
-const _sfc_main$q = {};
-function _sfc_ssrRender$c(_ctx, _push, _parent, _attrs) {
-  _push(`<!--[--><h1 id="\u9762\u8BD5\u96C6\u9526" tabindex="-1"><a class="header-anchor" href="#\u9762\u8BD5\u96C6\u9526" aria-hidden="true">#</a> \u9762\u8BD5\u96C6\u9526</h1><div class="custom-container tip"><p class="custom-container-title">\u9762\u8BD5</p><p>\u5E38\u89C1\u9762\u8BD5\u96C6\u9526</p></div><h2 id="\u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD" tabindex="-1"><a class="header-anchor" href="#\u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD" aria-hidden="true">#</a> \u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD</h2><p><strong>\u63D0\u793A</strong>\uFF1A\u4E00\u822C\u4EBA\u56DE\u7B54\u8FD9\u4E2A\u95EE\u9898\u8FC7\u4E8E\u5E73\u5E38\uFF0C\u59D3\u540D\u3001\u5E74\u9F84\u3001\u7231\u597D\u3001\u5DE5\u4F5C\u7ECF\u9A8C\uFF0C\u8FD9\u4E9B\u7B80\u5386\u4E0A\u90FD\u6709\u3002\u4F01\u4E1A\uFF08\u9762\u8BD5\u5B98\uFF09\u6700\u5E0C\u671B\u77E5\u9053\u7684\u662F\u6C42\u804C\u8005\u80FD\u5426\u80DC\u4EFB\u5DE5\u4F5C\uFF0C\u5305\u62EC\uFF1A\u6700\u5F3A\u7684\u6280\u80FD\u3001\u6700\u6DF1\u5165\u7814\u7A76\u7684\u9886\u57DF\u3001\u4E2A\u6027\u4E2D\u6700\u79EF\u6781\u7684\u90E8\u5206\u3001\u505A\u8FC7\u6700\u6210\u529F\u7684\u4E8B\uFF0C\u4E3B\u8981\u6210\u5C31\u7B49\uFF0C\u8981\u7A81\u51FA\u79EF\u6781\u7684\u4E2A\u6027\u548C\u505A\u4E8B\u7684\u80FD\u529B\uFF0C\u8BF4\u7684\u5408\u60C5\u5408\u7406\u4F01\u4E1A\uFF08\u9762\u8BD5\u5B98\uFF09\u624D\u4F1A\u76F8\u4FE1\u3002</p><h2 id="\u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48" tabindex="-1"><a class="header-anchor" href="#\u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48" aria-hidden="true">#</a> \u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48\uFF1F</h2><p><strong>\u56DE\u7B54\u63D0\u793A</strong>\uFF1A \u6C89\u7740\u51B7\u9759\u3001\u6761\u7406\u6E05\u695A\u3001\u7ACB\u573A\u575A\u5B9A\u3001\u4E50\u4E8E\u52A9\u4EBA\u7B49\uFF0C\u52A0\u4E0A\u4F8B\u5B50\u5982\uFF1A\u6211\u5728XX\u7ECF\u8FC7\u4E00\u5230\u4E24\u5E74\u7684\u57F9\u8BAD\u53CA\u9879\u76EE\u5B9E\u6218\uFF0C\u52A0\u4E0A\u5B9E\u4E60\u5DE5\u4F5C\uFF0C\u6211\u60F3\u6211\u9002\u5408\u8FD9\u4EFD\u5DE5\u4F5C\u3002</p><h2 id="\u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9" tabindex="-1"><a class="header-anchor" href="#\u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9" aria-hidden="true">#</a> \u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u8FD9\u4E2A\u95EE\u9898\u4F01\u4E1A\u95EE\u7684\u6982\u7387\u5F88\u5927\uFF0C\u901A\u5E38\u4E0D\u5E0C\u671B\u542C\u5230\u76F4\u63A5\u56DE\u7B54\u7684\u7F3A\u70B9\u662F\u4EC0\u4E48\u7B49\uFF0C\u5982\u679C\u6C42\u804C\u8005\u8BF4\u81EA\u5DF1\u5C0F\u5FC3\u773C\u3001\u975E\u5E38\u61D2\u3001\u5DE5\u4F5C\u6548\u7387\u4F4E\uFF0C\u4F01\u4E1A\u80AF\u5B9A\u4E0D\u4F1A\u5F55\u7528\u4F60\u3002\u8981\u4ECE\u81EA\u5DF1\u7684\u4F18\u70B9\u8BF4\u8D77\uFF0C\u4E2D\u95F4\u52A0\u4E00\u4E9B\u5C0F\u7F3A\u70B9\uFF0C\u6700\u540E\u518D\u628A\u95EE\u7B54\u8F6C\u56DE\u5230\u4F18\u70B9\u4E0A\uFF0C\u7A81\u51FA\u4F18\u70B9\u7684\u90E8\u5206\u3002</p><h2 id="\u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5" tabindex="-1"><a class="header-anchor" href="#\u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5" aria-hidden="true">#</a> \u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A\u5B9E\u9645\u4E0A\u597D\u591A\u516C\u53F8\u95EE\u8FD9\u4E2A\u95EE\u9898\uFF0C\u5E76\u4E0D\u8BC1\u660E\u4E00\u5B9A\u8981\u52A0\u73ED\uFF0C\u53EA\u662F\u60F3\u6D4B\u8BD5\u4F60\u662F\u5426\u613F\u610F\u4E3A\u516C\u53F8\u5949\u732E\u3002</p><p><strong>\u6837\u672C</strong>\uFF1A\u5982\u679C\u662F\u5DE5\u4F5C\u9700\u8981\u6211\u4F1A\u4E49\u4E0D\u5BB9\u8F9E\u52A0\u73ED\uFF0C\u4F46\u540C\u65F6\uFF0C\u6211\u4E5F\u4F1A\u63D0\u9AD8\u5DE5\u4F5C\u6548\u7387\uFF0C\u51CF\u5C11\u4E0D\u5FC5\u8981\u7684\u52A0\u73ED\u3002</p><h2 id="\u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42" tabindex="-1"><a class="header-anchor" href="#\u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42" aria-hidden="true">#</a> \u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u5982\u679C\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\u592A\u4F4E\uFF0C\u90A3\u663E\u7136\u8D2C\u4F4E\u81EA\u5DF1\u7684\u80FD\u529B\uFF1B\u5982\u679C\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\u592A\u9AD8\uFF0C\u90A3\u53C8\u4F1A\u663E\u5F97\u4F60\u5206\u91CF\u8FC7\u91CD\uFF0C\u516C\u53F8\u53D7\u7528\u4E0D\u8D77\u3002\u4E00\u4E9B\u96C7\u4E3B\u901A\u5E38\u90FD\u4E8B\u5148\u5BF9\u6C42\u8058\u7684\u804C\u4F4D\u5B9A\u4E0B\u5F00\u652F\u9884\u7B97\uFF0C\u56E0\u800C\u4ED6\u4EEC\u7B2C\u4E00\u6B21\u63D0\u51FA\u7684\u4EF7\u94B1\u5F80\u5F80\u662F\u4ED6\u4EEC\u6240\u80FD\u7ED9\u4E88\u7684\u6700\u9AD8\u4EF7\u94B1\uFF0C\u4ED6\u4EEC\u95EE\u4F60\u53EA\u4E0D\u8FC7\u60F3\u8BC1\u5B9E\u4E00\u4E0B\u8FD9\u7B14\u94B1\u662F\u5426\u8DB3\u4EE5\u5F15\u8D77\u4F60\u5BF9\u8BE5\u5DE5\u4F5C\u7684\u5174\u8DA3\u3002</p><p><strong>\u56DE\u7B54</strong>\uFF1A</p><ol><li><p>\u6211\u5BF9\u5DE5\u8D44\u6CA1\u6709\u786C\u6027\u8981\u6C42\uFF0C\u6211\u76F8\u4FE1\u8D35\u516C\u53F8\u4F1A\u53CB\u5584\u5408\u7406\u3002\u6211\u6CE8\u91CD\u7684\u662F\u627E\u5230\u5DE5\u4F5C\u673A\u4F1A\uFF0C\u6240\u4EE5\u53EA\u8981\u6761\u4EF6\u516C\u5E73\uFF0C\u6211\u5219\u4E0D\u4F1A\u8BA1\u8F83\u592A\u591A\u3002</p></li><li><p>\u6211\u53D7\u8FC7\u7CFB\u7EDF\u7684\u8F6F\u4EF6\u7F16\u7A0B\u7684\u8BAD\u7EC3\uFF0C\u4E0D\u9700\u8981\u8FDB\u884C\u5927\u91CF\u7684\u57F9\u8BAD\uFF0C\u800C\u4E14\u6211\u672C\u4EBA\u4E5F\u5BF9\u7F16\u7A0B\u7279\u522B\u611F\u5174\u8DA3\u3002\u56E0\u6B64\uFF0C\u6211\u5E0C\u671B\u516C\u53F8\u80FD\u6839\u636E\u6211\u7684\u60C5\u51B5\u548C\u5E02\u573A\u6807\u51C6\u7684\u6C34\u5E73\uFF0C\u7ED9\u6211\u5408\u7406\u7684\u85AA\u6C34\u3002</p></li><li><p>\u5982\u679C\u4F60\u5FC5\u987B\u81EA\u5DF1\u8BF4\u51FA\u5177\u4F53\u6570\u76EE\uFF0C\u8BF7\u4E0D\u8981\u8BF4\u4E00\u4E2A\u5BBD\u6CDB\u7684\u8303\u56F4\uFF0C\u90A3\u6837\u4F60\u5C06\u53EA\u80FD\u5F97\u5230\u6700\u4F4E\u9650\u5EA6\u7684\u6570\u5B57\u3002\u6700\u597D\u7ED9\u51FA\u4E00\u4E2A\u5177\u4F53\u7684\u6570\u5B57\uFF0C\u8FD9\u6837\u8868\u660E\u4F60\u5DF2\u7ECF\u5BF9\u5F53\u4ECA\u7684\u4EBA\u624D\u5E02\u573A\u505A\u4E86\u8C03\u67E5\uFF0C\u77E5\u9053\u50CF\u81EA\u5DF1\u8FD9\u6837\u5B66\u5386\u7684\u96C7\u5458\u6709\u4EC0\u4E48\u6837\u7684\u4EF7\u503C\u3002</p></li></ol><h2 id="\u5728\u4E94\u5E74\u5185-\u4F60\u7684\u804C\u4E1A\u89C4\u5212" tabindex="-1"><a class="header-anchor" href="#\u5728\u4E94\u5E74\u5185-\u4F60\u7684\u804C\u4E1A\u89C4\u5212" aria-hidden="true">#</a> \u5728\u4E94\u5E74\u5185\uFF0C\u4F60\u7684\u804C\u4E1A\u89C4\u5212\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u8FD9\u662F\u6BCF\u4E00\u4E2A\u5E94\u8058\u8005\u90FD\u4E0D\u5E0C\u671B\u88AB\u95EE\u5230\u7684\u95EE\u9898\uFF0C\u4F46\u662F\uFF08\u5927\u516C\u53F8\uFF09\u51E0\u4E4E\u6BCF\u4E2A\u4EBA\u90FD\u4F1A\u88AB\u95EE\u5230\uFF0C\u6BD4\u8F83\u591A\u7684\u7B54\u6848\u662F\u201C\u7BA1\u7406\u8005\u201D\u3002\u5F53\u7136\uFF0C\u8BF4\u51FA\u5176\u4ED6\u4E00\u4E9B\u4F60\u611F\u5174\u8DA3\u7684\u804C\u4F4D\u4E5F\u662F\u53EF\u4EE5\u7684\u3002\u8981\u77E5\u9053\uFF0C\u8003\u5B98\u603B\u662F\u559C\u6B22\u6709\u8FDB\u53D6\u5FC3\u7684\u5E94\u8058\u8005\uFF0C\u6B64\u65F6\u5982\u679C\u8BF4\u201C\u4E0D\u77E5\u9053\u201D\uFF0C\u6216\u8BB8\u5C31\u4F1A\u4F7F\u4F60\u4E27\u5931\u4E00\u4E2A\u597D\u673A\u4F1A\u3002\u6700\u666E\u901A\u7684\u56DE\u7B54\u5E94\u8BE5\u662F\u201C\u6211\u51C6\u5907\u5728\u6280\u672F\u9886\u57DF\u6709\u6240\u4F5C\u4E3A\u201D\u6216\u201C\u6211\u5E0C\u671B\u80FD\u6309\u7167\u516C\u53F8\u7684\u7BA1\u7406\u601D\u8DEF\u53D1\u5C55\u201D\u3002</p><h2 id="\u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417" tabindex="-1"><a class="header-anchor" href="#\u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417" aria-hidden="true">#</a> \u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417?</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u4F01\u4E1A\u7684\u8FD9\u4E2A\u95EE\u9898\u770B\u4E0A\u53BB\u53EF\u6709\u53EF\u65E0\uFF0C\u5176\u5B9E\u5F88\u5173\u952E\uFF0C\u4F01\u4E1A\u4E0D\u559C\u6B22\u8BF4\u201C\u6CA1\u95EE\u9898\u201D\u7684\u4EBA\uFF0C\u56E0\u4E3A\u5176\u5F88\u6CE8\u91CD\u5458\u5DE5\u7684\u4E2A\u6027\u548C\u521B\u65B0\u80FD\u529B\u3002\u4F01\u4E1A\u4E0D\u559C\u6B22\u6C42\u804C\u8005\u95EE\u4E2A\u4EBA\u798F\u5229\u4E4B\u7C7B\u7684\u95EE\u9898\uFF0C\u5982\u679C\u6709\u4EBA\u8FD9\u6837\u95EE\uFF1A\u8D35\u516C\u53F8\u5BF9\u65B0\u5165\u516C\u53F8\u7684\u5458\u5DE5\u6709\u6CA1\u6709\u4EC0\u4E48\u57F9\u8BAD\u9879\u76EE\uFF0C\u6211\u53EF\u4EE5\u53C2\u52A0\u5417\uFF1F\u6216\u8005\u8BF4\u8D35\u516C\u53F8\u7684\u664B\u5347\u673A\u5236\u662F\u4EC0\u4E48\u6837\u7684\uFF1F\u4F01\u4E1A\u5C06\u5F88\u6B22\u8FCE\uFF0C\u56E0\u4E3A\u4F53\u73B0\u51FA\u4F60\u5BF9\u5B66\u4E60\u7684\u70ED\u60C5\u548C\u5BF9\u516C\u53F8\u7684\u5FE0\u8BDA\u5EA6\u4EE5\u53CA\u4F60\u7684\u4E0A\u8FDB\u5FC3\u3002</p><h2 id="\u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5" tabindex="-1"><a class="header-anchor" href="#\u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5" aria-hidden="true">#</a> \u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5?</h2><p><strong>\u56DE\u7B54</strong>\uFF1A \u2460\u6B63\u5E38\u7684\u201C\u8DF3\u69FD\u201D\u80FD\u591F\u4FC3\u8FDB\u4EBA\u624D\u5408\u7406\u6D41\u52A8\uFF0C\u5E94\u8BE5\u652F\u6301\u3002\u2461\u9891\u7E41\u7684\u8DF3\u69FD\u5BF9\u5355\u4F4D\u548C\u4E2A\u4EBA\u53CC\u65B9\u90FD\u4E0D\u5229\uFF0C\u5E94\u8BE5\u53CD\u5BF9\u3002</p><h2 id="\u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11" tabindex="-1"><a class="header-anchor" href="#\u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11" aria-hidden="true">#</a> \u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11?</h2><p><strong>\u56DE\u7B54</strong>\uFF1A\u5728\u53BB\u516C\u53F8\u9762\u8BD5\u524D\u4E0A\u7F51\u67E5\u4E00\u4E0B\u8BE5\u516C\u53F8\u4E3B\u8425\u4E1A\u52A1\u3002\u53EF\u7C7B\u4F3C\u56DE\u7B54\uFF1A\u8D35\u516C\u53F8\u6709\u610F\u6539\u53D8\u7B56\u7565\uFF0C\u52A0\u5F3A\u4E0E\u56FD\u5916\u5927\u5382\u7684OEM\u5408\u4F5C\uFF0C\u81EA\u6709\u54C1\u724C\u7684\u90E8\u5206\u5219\u900F\u8FC7\u6D77\u5916\u7ECF\u9500\u5546\u3002</p><!--]-->`);
-}
-const _sfc_setup$q = _sfc_main$q.setup;
-_sfc_main$q.setup = (props, ctx) => {
-  const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/\u9762\u8BD5/interview.html.vue");
-  return _sfc_setup$q ? _sfc_setup$q(props, ctx) : void 0;
-};
-var interview_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$q, [["ssrRender", _sfc_ssrRender$c]]);
+var interview_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$r, [["ssrRender", _sfc_ssrRender$d]]);
 var interview_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": interview_html$1
+});
+const _sfc_main$q = {};
+function _sfc_ssrRender$c(_ctx, _push, _parent, _attrs) {
+  _push(`<!--[--><h2 id="_3" tabindex="-1"><a class="header-anchor" href="#_3" aria-hidden="true">#</a> 3</h2><h2 id="_4" tabindex="-1"><a class="header-anchor" href="#_4" aria-hidden="true">#</a> 4</h2><!--]-->`);
+}
+const _sfc_setup$q = _sfc_main$q.setup;
+_sfc_main$q.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/\u968F\u7B14/text.html.vue");
+  return _sfc_setup$q ? _sfc_setup$q(props, ctx) : void 0;
+};
+var text_html$2 = /* @__PURE__ */ _export_sfc(_sfc_main$q, [["ssrRender", _sfc_ssrRender$c]]);
+var text_html$3 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": text_html$2
 });
 const _sfc_main$p = {};
 function _sfc_ssrRender$b(_ctx, _push, _parent, _attrs) {
@@ -3386,7 +3447,102 @@ Object<span class="token punctuation">.</span><span class="token function">getOw
 <span class="token comment">//\u83B7\u53D6\u5BF9\u8C61\u5C5E\u6027\u4E2A\u6570\u957F\u5EA6</span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><p>\u4E00\u822C\u60C5\u51B5\u4E0B\uFF0C\u51E0\u4E4E\u603B\u662F\u4F7F\u7528<code>Object.keys</code>\u65B9\u6CD5\uFF0C\u904D\u5386\u5BF9\u8C61\u7684\u5C5E\u6027\u3002</p><h3 id="object-\u5176\u4ED6\u9759\u6001\u65B9\u6CD5" tabindex="-1"><a class="header-anchor" href="#object-\u5176\u4ED6\u9759\u6001\u65B9\u6CD5" aria-hidden="true">#</a> Object \u5176\u4ED6\u9759\u6001\u65B9\u6CD5</h3><p><code>Object</code>\u8FD8\u6709\u4E0D\u5C11\u5176\u4ED6\u9759\u6001\u65B9\u6CD5\uFF0C\u5C06\u5728\u540E\u6587\u9010\u4E00\u8BE6\u7EC6\u4ECB\u7ECD\u3002</p><p>\uFF081\uFF09\u5BF9\u8C61\u5C5E\u6027\u6A21\u578B\u7684\u76F8\u5173\u65B9\u6CD5</p><ul><li><code>Object.getOwnPropertyDescriptor()</code>\uFF1A\u83B7\u53D6\u67D0\u4E2A\u5C5E\u6027\u7684\u63CF\u8FF0\u5BF9\u8C61\u3002</li><li><code>Object.defineProperty()</code>\uFF1A\u901A\u8FC7\u63CF\u8FF0\u5BF9\u8C61\uFF0C\u5B9A\u4E49\u67D0\u4E2A\u5C5E\u6027\u3002</li><li><code>Object.defineProperties()</code>\uFF1A\u901A\u8FC7\u63CF\u8FF0\u5BF9\u8C61\uFF0C\u5B9A\u4E49\u591A\u4E2A\u5C5E\u6027\u3002</li></ul><p>\uFF082\uFF09\u63A7\u5236\u5BF9\u8C61\u72B6\u6001\u7684\u65B9\u6CD5</p><ul><li><code>Object.preventExtensions()</code>\uFF1A\u9632\u6B62\u5BF9\u8C61\u6269\u5C55\u3002</li><li><code>Object.isExtensible()</code>\uFF1A\u5224\u65AD\u5BF9\u8C61\u662F\u5426\u53EF\u6269\u5C55\u3002</li><li><code>Object.seal()</code>\uFF1A\u7981\u6B62\u5BF9\u8C61\u914D\u7F6E\u3002</li><li><code>Object.isSealed()</code>\uFF1A\u5224\u65AD\u4E00\u4E2A\u5BF9\u8C61\u662F\u5426\u53EF\u914D\u7F6E\u3002</li><li><code>Object.freeze()</code>\uFF1A\u51BB\u7ED3\u4E00\u4E2A\u5BF9\u8C61\u3002</li><li><code>Object.isFrozen()</code>\uFF1A\u5224\u65AD\u4E00\u4E2A\u5BF9\u8C61\u662F\u5426\u88AB\u51BB\u7ED3\u3002</li></ul><p>\uFF083\uFF09\u539F\u578B\u94FE\u76F8\u5173\u65B9\u6CD5</p><ul><li><code>Object.create()</code>\uFF1A\u8BE5\u65B9\u6CD5\u53EF\u4EE5\u6307\u5B9A\u539F\u578B\u5BF9\u8C61\u548C\u5C5E\u6027\uFF0C\u8FD4\u56DE\u4E00\u4E2A\u65B0\u7684\u5BF9\u8C61\u3002</li><li><code>Object.getPrototypeOf()</code>\uFF1A\u83B7\u53D6\u5BF9\u8C61\u7684Prototype\u5BF9\u8C61\u3002</li></ul><h2 id="object-\u7684\u5B9E\u4F8B\u65B9\u6CD5" tabindex="-1"><a class="header-anchor" href="#object-\u7684\u5B9E\u4F8B\u65B9\u6CD5" aria-hidden="true">#</a> Object \u7684\u5B9E\u4F8B\u65B9\u6CD5</h2><p>\u9664\u4E86\u9759\u6001\u65B9\u6CD5\uFF0C\u8FD8\u6709\u4E0D\u5C11\u65B9\u6CD5\u5B9A\u4E49\u5728<code>Object.prototype</code>\u5BF9\u8C61\u3002\u5B83\u4EEC\u79F0\u4E3A\u5B9E\u4F8B\u65B9\u6CD5\uFF0C\u6240\u6709<code>Object</code>\u7684\u5B9E\u4F8B\u5BF9\u8C61\u90FD\u7EE7\u627F\u4E86\u8FD9\u4E9B\u65B9\u6CD5\u3002</p><p><code>Object</code>\u5B9E\u4F8B\u5BF9\u8C61\u7684\u65B9\u6CD5\uFF0C\u4E3B\u8981\u6709\u4EE5\u4E0B\u516D\u4E2A\u3002</p><ul><li>Object.prototype.valueOf()\uFF1A\u8FD4\u56DE\u5F53\u524D\u5BF9\u8C61\u5BF9\u5E94\u7684\u503C\u3002</li><li>Object.prototype.toString()\uFF1A\u8FD4\u56DE\u5F53\u524D\u5BF9\u8C61\u5BF9\u5E94\u7684\u5B57\u7B26\u4E32\u5F62\u5F0F\u3002</li><li>Object.prototype.toLocaleString()\uFF1A\u8FD4\u56DE\u5F53\u524D\u5BF9\u8C61\u5BF9\u5E94\u7684\u672C\u5730\u5B57\u7B26\u4E32\u5F62\u5F0F\u3002</li><li>Object.prototype.hasOwnProperty()\uFF1A\u5224\u65AD\u67D0\u4E2A\u5C5E\u6027\u662F\u5426\u4E3A\u5F53\u524D\u5BF9\u8C61\u81EA\u8EAB\u7684\u5C5E\u6027\uFF0C\u8FD8\u662F\u7EE7\u627F\u81EA\u539F\u578B\u5BF9\u8C61\u7684\u5C5E\u6027\u3002</li><li>Object.prototype.isPrototypeOf()\uFF1A\u5224\u65AD\u5F53\u524D\u5BF9\u8C61\u662F\u5426\u4E3A\u53E6\u4E00\u4E2A\u5BF9\u8C61\u7684\u539F\u578B\u3002</li><li>Object.prototype.propertyIsEnumerable()\uFF1A\u5224\u65AD\u67D0\u4E2A\u5C5E\u6027\u662F\u5426\u53EF\u679A\u4E3E\u3002</li></ul><p>\u672C\u8282\u4ECB\u7ECD\u524D\u56DB\u4E2A\u65B9\u6CD5\uFF0C\u53E6\u5916\u4E24\u4E2A\u65B9\u6CD5\u5C06\u5728\u540E\u6587\u76F8\u5173\u7AE0\u8282\u4ECB\u7ECD\u3002</p><h3 id="object-prototype-valueof" tabindex="-1"><a class="header-anchor" href="#object-prototype-valueof" aria-hidden="true">#</a> Object.prototype.valueOf()</h3><p><code>valueOf</code>\u65B9\u6CD5\u7684\u4F5C\u7528\u662F\u8FD4\u56DE\u4E00\u4E2A\u5BF9\u8C61\u7684\u201C\u503C\u201D\uFF0C\u9ED8\u8BA4\u60C5\u51B5\u4E0B\u8FD4\u56DE\u5BF9\u8C61\u672C\u8EAB\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">var</span> obj <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Object</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 obj<span class="token punctuation">.</span><span class="token function">valueOf</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">===</span> obj <span class="token comment">// true</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><!--]-->`);
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>\u4E0A\u9762\u4EE3\u7801\u6BD4\u8F83<code>obj.valueOf()</code>\u4E0E<code>obj</code>\u672C\u8EAB\uFF0C\u4E24\u8005\u662F\u4E00\u6837\u7684\u3002</p><p><code>valueOf</code>\u65B9\u6CD5\u7684\u4E3B\u8981\u7528\u9014\u662F\uFF0C<code>JavaScript</code> \u81EA\u52A8\u7C7B\u578B\u8F6C\u6362\u65F6\u4F1A\u9ED8\u8BA4\u8C03\u7528\u8FD9\u4E2A\u65B9\u6CD5\uFF08\u8BE6\u89C1\u300A\u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26\u300B\u4E00\u7AE0\uFF09\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">var</span> obj <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Object</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token number">1</span> <span class="token operator">+</span> obj <span class="token comment">// &quot;1[object Object]&quot;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>\u4E0A\u9762\u4EE3\u7801\u5C06\u5BF9\u8C61obj\u4E0E\u6570\u5B571\u76F8\u52A0\uFF0C\u8FD9\u65F6 JavaScript \u5C31\u4F1A\u9ED8\u8BA4\u8C03\u7528valueOf()\u65B9\u6CD5\uFF0C\u6C42\u51FAobj\u7684\u503C\u518D\u4E0E1\u76F8\u52A0\u3002\u6240\u4EE5\uFF0C\u5982\u679C\u81EA\u5B9A\u4E49valueOf\u65B9\u6CD5\uFF0C\u5C31\u53EF\u4EE5\u5F97\u5230\u60F3\u8981\u7684\u7ED3\u679C\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">var</span> obj <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Object</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+obj<span class="token punctuation">.</span><span class="token function-variable function">valueOf</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token number">2</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token number">1</span> <span class="token operator">+</span> obj <span class="token comment">// 3</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><p>\u4E0A\u9762\u4EE3\u7801\u81EA\u5B9A\u4E49\u4E86<code>obj</code>\u5BF9\u8C61\u7684<code>valueOf</code>\u65B9\u6CD5\uFF0C\u4E8E\u662F<code>1 + obj</code>\u5C31\u5F97\u5230\u4E86<code>3</code>\u3002\u8FD9\u79CD\u65B9\u6CD5\u5C31\u76F8\u5F53\u4E8E\u7528\u81EA\u5B9A\u4E49\u7684<code>obj.valueOf</code>\uFF0C\u8986\u76D6<code>Object.prototype.valueOf</code>\u3002</p><h3 id="object-prototype-tostring" tabindex="-1"><a class="header-anchor" href="#object-prototype-tostring" aria-hidden="true">#</a> Object.prototype.toString()</h3><p><code>toString</code>\u65B9\u6CD5\u7684\u4F5C\u7528\u662F\u8FD4\u56DE\u4E00\u4E2A\u5BF9\u8C61\u7684\u5B57\u7B26\u4E32\u5F62\u5F0F\uFF0C\u9ED8\u8BA4\u60C5\u51B5\u4E0B\u8FD4\u56DE\u7C7B\u578B\u5B57\u7B26\u4E32\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">var</span> o1 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Object</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+o1<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">// &quot;[object Object]&quot;</span>
+
+<span class="token keyword">var</span> o2 <span class="token operator">=</span> <span class="token punctuation">{</span>a<span class="token operator">:</span><span class="token number">1</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+o2<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">// &quot;[object Object]&quot;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p>\u4E0A\u9762\u4EE3\u7801\u8868\u793A\uFF0C\u5BF9\u4E8E\u4E00\u4E2A\u5BF9\u8C61\u8C03\u7528<code>toString</code>\u65B9\u6CD5\uFF0C\u4F1A\u8FD4\u56DE\u5B57\u7B26\u4E32<code>[object Object]</code>\uFF0C\u8BE5\u5B57\u7B26\u4E32\u8BF4\u660E\u5BF9\u8C61\u7684\u7C7B\u578B\u3002</p><p>\u5B57\u7B26\u4E32<code>[object Object]</code>\u672C\u8EAB\u6CA1\u6709\u592A\u5927\u7684\u7528\u5904\uFF0C\u4F46\u662F\u901A\u8FC7\u81EA\u5B9A\u4E49<code>toString</code>\u65B9\u6CD5\uFF0C\u53EF\u4EE5\u8BA9\u5BF9\u8C61\u5728\u81EA\u52A8\u7C7B\u578B\u8F6C\u6362\u65F6\uFF0C\u5F97\u5230\u60F3\u8981\u7684\u5B57\u7B26\u4E32\u5F62\u5F0F\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">var</span> obj <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Object</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+obj<span class="token punctuation">.</span><span class="token function-variable function">toString</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token string">&#39;hello&#39;</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+obj <span class="token operator">+</span> <span class="token string">&#39; &#39;</span> <span class="token operator">+</span> <span class="token string">&#39;world&#39;</span> <span class="token comment">// &quot;hello world&quot;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><p>\u4E0A\u9762\u4EE3\u7801\u8868\u793A\uFF0C\u5F53\u5BF9\u8C61\u7528\u4E8E\u5B57\u7B26\u4E32\u52A0\u6CD5\u65F6\uFF0C\u4F1A\u81EA\u52A8\u8C03\u7528<code>toString</code>\u65B9\u6CD5\u3002\u7531\u4E8E\u81EA\u5B9A\u4E49\u4E86<code>toString</code>\u65B9\u6CD5\uFF0C\u6240\u4EE5\u8FD4\u56DE\u5B57\u7B26\u4E32<code>hello world</code>\u3002</p><p>\u6570\u7EC4\u3001\u5B57\u7B26\u4E32\u3001\u51FD\u6570\u3001Date \u5BF9\u8C61\u90FD\u5206\u522B\u90E8\u7F72\u4E86\u81EA\u5B9A\u4E49\u7684toString\u65B9\u6CD5\uFF0C\u8986\u76D6\u4E86<code>Object.prototype.toString</code>\u65B9\u6CD5\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">// &quot;1,2,3&quot;</span>
+
+<span class="token string">&#39;123&#39;</span><span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">// &quot;123&quot;</span>
+
+<span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token number">123</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token comment">// &quot;function () {</span>
+<span class="token comment">//   return 123;</span>
+<span class="token comment">// }&quot;</span>
+
+<span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Date</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token comment">// &quot;Tue May 10 2016 09:11:31 GMT+0800 (CST)&quot;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div><p>\u4E0A\u9762\u4EE3\u7801\u4E2D\uFF0C\u6570\u7EC4\u3001\u5B57\u7B26\u4E32\u3001\u51FD\u6570\u3001Date \u5BF9\u8C61\u8C03\u7528<code>toString</code>\u65B9\u6CD5\uFF0C\u5E76\u4E0D\u4F1A\u8FD4\u56DE<code>[object Object]</code>\uFF0C\u56E0\u4E3A\u5B83\u4EEC\u90FD\u81EA\u5B9A\u4E49\u4E86<code>toString</code>\u65B9\u6CD5\uFF0C\u8986\u76D6\u539F\u59CB\u65B9\u6CD5\u3002</p><h4 id="tostring-\u7684\u5E94\u7528-\u5224\u65AD\u6570\u636E\u7C7B\u578B" tabindex="-1"><a class="header-anchor" href="#tostring-\u7684\u5E94\u7528-\u5224\u65AD\u6570\u636E\u7C7B\u578B" aria-hidden="true">#</a> toString() \u7684\u5E94\u7528: \u5224\u65AD\u6570\u636E\u7C7B\u578B</h4><p><code>Object.prototype.toString</code>\u65B9\u6CD5\u8FD4\u56DE\u5BF9\u8C61\u7684\u7C7B\u578B\u5B57\u7B26\u4E32\uFF0C\u56E0\u6B64\u53EF\u4EE5\u7528\u6765\u5224\u65AD\u4E00\u4E2A\u503C\u7684\u7C7B\u578B\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">var</span> obj <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+obj<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">// &quot;[object Object]&quot;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>\u4E0A\u9762\u4EE3\u7801\u8C03\u7528\u7A7A\u5BF9\u8C61\u7684<code>toString</code>\u65B9\u6CD5\uFF0C\u7ED3\u679C\u8FD4\u56DE\u4E00\u4E2A\u5B57\u7B26\u4E32<code>object Object</code>\uFF0C\u5176\u4E2D\u7B2C\u4E8C\u4E2A<code>Object</code>\u8868\u793A\u8BE5\u503C\u7684\u6784\u9020\u51FD\u6570\u3002\u8FD9\u662F\u4E00\u4E2A\u5341\u5206\u6709\u7528\u7684\u5224\u65AD\u6570\u636E\u7C7B\u578B\u7684\u65B9\u6CD5\u3002</p><p>\u7531\u4E8E\u5B9E\u4F8B\u5BF9\u8C61\u53EF\u80FD\u4F1A\u81EA\u5B9A\u4E49<code>toString</code>\u65B9\u6CD5\uFF0C\u8986\u76D6\u6389<code>Object.prototype.toString</code>\u65B9\u6CD5\uFF0C\u6240\u4EE5\u4E3A\u4E86\u5F97\u5230\u7C7B\u578B\u5B57\u7B26\u4E32\uFF0C\u6700\u597D\u76F4\u63A5\u4F7F\u7528<code>Object.prototype.toString</code>\u65B9\u6CD5\u3002\u901A\u8FC7\u51FD\u6570\u7684<code>call</code>\u65B9\u6CD5\uFF0C\u53EF\u4EE5\u5728\u4EFB\u610F\u503C\u4E0A\u8C03\u7528\u8FD9\u4E2A\u65B9\u6CD5\uFF0C\u5E2E\u52A9\u6211\u4EEC\u5224\u65AD\u8FD9\u4E2A\u503C\u7684\u7C7B\u578B\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token class-name">Object</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">.</span><span class="token function">call</span><span class="token punctuation">(</span>value<span class="token punctuation">)</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u4E0A\u9762\u4EE3\u7801\u8868\u793A\u5BF9<code>value</code>\u8FD9\u4E2A\u503C\u8C03\u7528<code>Object.prototype.toString</code>\u65B9\u6CD5\u3002</p><p>\u4E0D\u540C\u6570\u636E\u7C7B\u578B\u7684<code>Object.prototype.toString</code>\u65B9\u6CD5\u8FD4\u56DE\u503C\u5982\u4E0B\u3002</p><ul><li>\u6570\u503C\uFF1A\u8FD4\u56DE<code>[object Number]</code>\u3002</li><li>\u5B57\u7B26\u4E32\uFF1A\u8FD4\u56DE<code>[object String]</code>\u3002</li><li>\u5E03\u5C14\u503C\uFF1A\u8FD4\u56DE<code>[object Boolean]</code>\u3002</li><li>undefined\uFF1A\u8FD4\u56DE<code>[object Undefined]</code>\u3002</li><li>null\uFF1A\u8FD4\u56DE<code>[object Null]</code>\u3002</li><li>\u6570\u7EC4\uFF1A\u8FD4\u56DE<code>[object Array]</code>\u3002</li><li>arguments \u5BF9\u8C61\uFF1A\u8FD4\u56DE<code>[object Arguments]</code>\u3002</li><li>\u51FD\u6570\uFF1A\u8FD4\u56DE<code>[object Function]</code>\u3002</li><li>Error \u5BF9\u8C61\uFF1A\u8FD4\u56DE<code>[object Error]</code>\u3002</li><li>Date \u5BF9\u8C61\uFF1A\u8FD4\u56DE<code>[object Date]</code>\u3002</li><li>RegExp \u5BF9\u8C61\uFF1A\u8FD4\u56DE<code>[object RegExp]</code>\u3002</li><li>\u5176\u4ED6\u5BF9\u8C61\uFF1A\u8FD4\u56DE<code>[object Object]</code>\u3002</li></ul><p>\u8FD9\u5C31\u662F\u8BF4\uFF0C<code>Object.prototype.toString</code>\u53EF\u4EE5\u770B\u51FA\u4E00\u4E2A\u503C\u5230\u5E95\u662F\u4EC0\u4E48\u7C7B\u578B\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token class-name">Object</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">.</span><span class="token function">call</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span> <span class="token comment">// &quot;[object Number]&quot;</span>
+<span class="token class-name">Object</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">.</span><span class="token function">call</span><span class="token punctuation">(</span><span class="token string">&#39;&#39;</span><span class="token punctuation">)</span> <span class="token comment">// &quot;[object String]&quot;</span>
+<span class="token class-name">Object</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">.</span><span class="token function">call</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span> <span class="token comment">// &quot;[object Boolean]&quot;</span>
+<span class="token class-name">Object</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">.</span><span class="token function">call</span><span class="token punctuation">(</span><span class="token keyword">undefined</span><span class="token punctuation">)</span> <span class="token comment">// &quot;[object Undefined]&quot;</span>
+<span class="token class-name">Object</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">.</span><span class="token function">call</span><span class="token punctuation">(</span><span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token comment">// &quot;[object Null]&quot;</span>
+<span class="token class-name">Object</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">.</span><span class="token function">call</span><span class="token punctuation">(</span>Math<span class="token punctuation">)</span> <span class="token comment">// &quot;[object Math]&quot;</span>
+<span class="token class-name">Object</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">.</span><span class="token function">call</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token comment">// &quot;[object Object]&quot;</span>
+<span class="token class-name">Object</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">.</span><span class="token function">call</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token comment">// &quot;[object Array]&quot;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><p>\u5229\u7528\u8FD9\u4E2A\u7279\u6027\uFF0C\u53EF\u4EE5\u5199\u51FA\u4E00\u4E2A\u6BD4<code>typeof</code>\u8FD0\u7B97\u7B26\u66F4\u51C6\u786E\u7684\u7C7B\u578B\u5224\u65AD\u51FD\u6570\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">var</span> <span class="token function-variable function">type</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">o</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+  <span class="token keyword">var</span> s <span class="token operator">=</span> <span class="token class-name">Object</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">.</span><span class="token function">call</span><span class="token punctuation">(</span>o<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">return</span> s<span class="token punctuation">.</span><span class="token function">match</span><span class="token punctuation">(</span><span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">\\[object (.*?)\\]</span><span class="token regex-delimiter">/</span></span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">toLowerCase</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token function">type</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// &quot;object&quot;</span>
+<span class="token function">type</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// &quot;array&quot;</span>
+<span class="token function">type</span><span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// &quot;number&quot;</span>
+<span class="token function">type</span><span class="token punctuation">(</span><span class="token keyword">null</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// &quot;null&quot;</span>
+<span class="token function">type</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// &quot;undefined&quot;</span>
+<span class="token function">type</span><span class="token punctuation">(</span><span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">abcd</span><span class="token regex-delimiter">/</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// &quot;regex&quot;</span>
+<span class="token function">type</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Date</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// &quot;date&quot;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><p>\u5728\u4E0A\u9762\u8FD9\u4E2A<code>type</code>\u51FD\u6570\u7684\u57FA\u7840\u4E0A\uFF0C\u8FD8\u53EF\u4EE5\u52A0\u4E0A\u4E13\u95E8\u5224\u65AD\u67D0\u79CD\u7C7B\u578B\u6570\u636E\u7684\u65B9\u6CD5\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">var</span> <span class="token function-variable function">type</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">o</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+  <span class="token keyword">var</span> s <span class="token operator">=</span> <span class="token class-name">Object</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">.</span><span class="token function">call</span><span class="token punctuation">(</span>o<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">return</span> s<span class="token punctuation">.</span><span class="token function">match</span><span class="token punctuation">(</span><span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">\\[object (.*?)\\]</span><span class="token regex-delimiter">/</span></span><span class="token punctuation">)</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">toLowerCase</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token punctuation">[</span><span class="token string">&#39;Null&#39;</span><span class="token punctuation">,</span>
+ <span class="token string">&#39;Undefined&#39;</span><span class="token punctuation">,</span>
+ <span class="token string">&#39;Object&#39;</span><span class="token punctuation">,</span>
+ <span class="token string">&#39;Array&#39;</span><span class="token punctuation">,</span>
+ <span class="token string">&#39;String&#39;</span><span class="token punctuation">,</span>
+ <span class="token string">&#39;Number&#39;</span><span class="token punctuation">,</span>
+ <span class="token string">&#39;Boolean&#39;</span><span class="token punctuation">,</span>
+ <span class="token string">&#39;Function&#39;</span><span class="token punctuation">,</span>
+ <span class="token string">&#39;RegExp&#39;</span>
+<span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">forEach</span><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">t</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  type<span class="token punctuation">[</span><span class="token string">&#39;is&#39;</span> <span class="token operator">+</span> t<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">o</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token function">type</span><span class="token punctuation">(</span>o<span class="token punctuation">)</span> <span class="token operator">===</span> t<span class="token punctuation">.</span><span class="token function">toLowerCase</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+type<span class="token punctuation">.</span><span class="token function">isObject</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token comment">// true</span>
+type<span class="token punctuation">.</span><span class="token function">isNumber</span><span class="token punctuation">(</span><span class="token number">NaN</span><span class="token punctuation">)</span> <span class="token comment">// true</span>
+type<span class="token punctuation">.</span><span class="token function">isRegExp</span><span class="token punctuation">(</span><span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">abc</span><span class="token regex-delimiter">/</span></span><span class="token punctuation">)</span> <span class="token comment">// true</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br></div></div><h3 id="object-prototype-tolocalestring" tabindex="-1"><a class="header-anchor" href="#object-prototype-tolocalestring" aria-hidden="true">#</a> Object.prototype.toLocaleString()</h3><p><code>Object.prototype.toLocaleString</code>\u65B9\u6CD5\u4E0E<code>toString</code>\u7684\u8FD4\u56DE\u7ED3\u679C\u76F8\u540C\uFF0C\u4E5F\u662F\u8FD4\u56DE\u4E00\u4E2A\u503C\u7684\u5B57\u7B26\u4E32\u5F62\u5F0F\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">var</span> obj <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+obj<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span>obj<span class="token punctuation">)</span> <span class="token comment">// &quot;[object Object]&quot;</span>
+obj<span class="token punctuation">.</span><span class="token function">toLocaleString</span><span class="token punctuation">(</span>obj<span class="token punctuation">)</span> <span class="token comment">// &quot;[object Object]&quot;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>\u8FD9\u4E2A\u65B9\u6CD5\u7684\u4E3B\u8981\u4F5C\u7528\u662F\u7559\u51FA\u4E00\u4E2A\u63A5\u53E3\uFF0C\u8BA9\u5404\u79CD\u4E0D\u540C\u7684\u5BF9\u8C61\u5B9E\u73B0\u81EA\u5DF1\u7248\u672C\u7684<code>toLocaleString</code>\uFF0C\u7528\u6765\u8FD4\u56DE\u9488\u5BF9\u67D0\u4E9B\u5730\u57DF\u7684\u7279\u5B9A\u7684\u503C\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">var</span> person <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token function-variable function">toString</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token string">&#39;Henry Norman Bethune&#39;</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token function-variable function">toLocaleString</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token string">&#39;\u767D\u6C42\u6069&#39;</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+person<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">// Henry Norman Bethune</span>
+person<span class="token punctuation">.</span><span class="token function">toLocaleString</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">// \u767D\u6C42\u6069</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><p>\u4E0A\u9762\u4EE3\u7801\u4E2D\uFF0C<code>toString()</code>\u65B9\u6CD5\u8FD4\u56DE\u5BF9\u8C61\u7684\u4E00\u822C\u5B57\u7B26\u4E32\u5F62\u5F0F\uFF0C<code>toLocaleString()</code>\u65B9\u6CD5\u8FD4\u56DE\u672C\u5730\u7684\u5B57\u7B26\u4E32\u5F62\u5F0F\u3002</p><p>\u76EE\u524D\uFF0C\u4E3B\u8981\u6709\u4E09\u4E2A\u5BF9\u8C61\u81EA\u5B9A\u4E49\u4E86<code>toLocaleString</code>\u65B9\u6CD5\u3002</p><ul><li>Array.prototype.toLocaleString()</li><li>Number.prototype.toLocaleString()</li><li>Date.prototype.toLocaleString()</li></ul><p>\u4E3E\u4F8B\u6765\u8BF4\uFF0C\u65E5\u671F\u7684\u5B9E\u4F8B\u5BF9\u8C61\u7684<code>toString</code>\u548C<code>toLocaleString</code>\u8FD4\u56DE\u503C\u5C31\u4E0D\u4E00\u6837\uFF0C\u800C\u4E14<code>toLocaleString</code>\u7684\u8FD4\u56DE\u503C\u8DDF\u7528\u6237\u8BBE\u5B9A\u7684\u6240\u5728\u5730\u57DF\u76F8\u5173\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">var</span> date <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Date</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+date<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">// &quot;Tue Jan 01 2018 12:01:33 GMT+0800 (CST)&quot;</span>
+date<span class="token punctuation">.</span><span class="token function">toLocaleString</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">// &quot;1/01/2018, 12:01:33 PM&quot;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h3 id="object-prototype-hasownproperty" tabindex="-1"><a class="header-anchor" href="#object-prototype-hasownproperty" aria-hidden="true">#</a> Object.prototype.hasOwnProperty()</h3><!--]-->`);
 }
 const _sfc_setup$m = _sfc_main$m.setup;
 _sfc_main$m.setup = (props, ctx) => {
@@ -4558,19 +4714,540 @@ var text2_html$3 = /* @__PURE__ */ Object.freeze({
 });
 const _sfc_main$g = {};
 function _sfc_ssrRender$2(_ctx, _push, _parent, _attrs) {
-  _push(`<!--[--><h2 id="webpack\u5751" tabindex="-1"><a class="header-anchor" href="#webpack\u5751" aria-hidden="true">#</a> webpack\u5751</h2><p>Webpack\u5728\u5B9E\u9645\u4E2D\u771F\u7684\u63A5\u89E6\u5C11\u4E4B\u53C8\u5C11\uFF0C\u672C\u4EBA\u7B2C\u4E00\u6B21\u63A5\u89E6\u662F\u5728\u9762\u8BD5\u4E2D\u4F60\u6562\u4FE1\uFF1F</p><p><strong>em...\u{1F3B5} \u6700\u6015\u7A7A\u6C14\u7A81\u7136\u5B89\u9759</strong></p><p>\u672C\u4EBA\u88AB\u8FEB\u65E0\u5948\uFF0C\u9009\u62E9\u4ECE\u9762\u8BD5\u9898\u4E0B\u624B\u3002</p><blockquote><p>\u95EE\uFF1AWebpack \u914D\u7F6E\u4E2D\u7528\u8FC7\u54EA\u4E9B Loader \uFF1F\u90FD\u6709\u4EC0\u4E48\u4F5C\u7528\uFF1F</p></blockquote><blockquote><p>\u95EE\uFF1ALoader \u548C Plugin \u6709\u4EC0\u4E48\u533A\u522B\uFF1F</p></blockquote><blockquote><p>\u95EE\uFF1AWebpack \u6253\u5305\u6D41\u7A0B\u662F\u600E\u6837\u7684\uFF1F</p></blockquote><blockquote><p>\u95EE\uFF1AWebpack \u6253\u5305\u4E2D Babel \u63D2\u4EF6\u662F\u5982\u4F55\u5DE5\u4F5C\u7684\uFF1F</p></blockquote><p>\u5BF9\u4E8E\u534A\u8DEF\u51FA\u5BB6\uFF0C\u53C2\u8003\u7F51\u7EDC\u7684\u6559\u5B66\u540E\u5F97\u51FA\u4E09\u4E2A\u9636\u6BB5\uFF1A</p><ol><li>\u57FA\u7840 -- \u4F1A\u914D\u7F6E</li><li>\u8FDB\u9636 -- \u80FD\u4F18\u5316</li><li>\u6DF1\u5165 -- \u61C2\u539F\u7406\uFF08\u6682\u65F6\u5F00\u73A9\u7B11\uFF09</li></ol><h2 id="webpack\u5751-1" tabindex="-1"><a class="header-anchor" href="#webpack\u5751-1" aria-hidden="true">#</a> webpack\u5751</h2><!--]-->`);
+  const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
+  const _component_CodeGroup = vue.resolveComponent("CodeGroup");
+  const _component_CodeGroupItem = vue.resolveComponent("CodeGroupItem");
+  _push(`<!--[--><h2 id="webpack\u5165\u5751" tabindex="-1"><a class="header-anchor" href="#webpack\u5165\u5751" aria-hidden="true">#</a> webpack\u5165\u5751</h2><p>Webpack\u5728\u5B9E\u9645\u4E2D\u771F\u7684\u63A5\u89E6\u5C11\u4E4B\u53C8\u5C11\uFF0C\u672C\u4EBA\u7B2C\u4E00\u6B21\u63A5\u89E6\u662F\u5728\u9762\u8BD5\u4E2D\u4F60\u6562\u4FE1\uFF1F</p><p><strong>em...\u{1F3B5} \u6700\u6015\u7A7A\u6C14\u7A81\u7136\u5B89\u9759</strong></p><p>\u672C\u4EBA\u88AB\u8FEB\u65E0\u5948\uFF0C\u9009\u62E9\u4ECE\u9762\u8BD5\u9898\u4E0B\u624B\u3002</p><blockquote><p>\u95EE\uFF1AWebpack \u914D\u7F6E\u4E2D\u7528\u8FC7\u54EA\u4E9B Loader \uFF1F\u90FD\u6709\u4EC0\u4E48\u4F5C\u7528\uFF1F</p></blockquote><blockquote><p>\u95EE\uFF1ALoader \u548C Plugin \u6709\u4EC0\u4E48\u533A\u522B\uFF1F</p></blockquote><blockquote><p>\u95EE\uFF1AWebpack \u6253\u5305\u6D41\u7A0B\u662F\u600E\u6837\u7684\uFF1F</p></blockquote><blockquote><p>\u95EE\uFF1AWebpack \u6253\u5305\u4E2D Babel \u63D2\u4EF6\u662F\u5982\u4F55\u5DE5\u4F5C\u7684\uFF1F</p></blockquote><p>\u5BF9\u4E8E\u534A\u8DEF\u51FA\u5BB6\uFF0C\u53C2\u8003\u7F51\u7EDC\u7684\u6559\u5B66\u540E\u5F97\u51FA\u4E09\u4E2A\u9636\u6BB5\uFF1A</p><ol><li>\u57FA\u7840 -- \u4F1A\u914D\u7F6E</li><li>\u8FDB\u9636 -- \u80FD\u4F18\u5316</li><li>\u6DF1\u5165 -- \u61C2\u539F\u7406\uFF08\u6682\u65F6\u5F00\u73A9\u7B11\uFF09</li></ol><details class="custom-container details"><summary>\u53EF\u4EE5\u8DF3\u8FC7\u7684\u62D3\u5C55\uFF08\u6CA1\u5FC5\u8981\u70B9\u5F00\uFF09</summary><p>\u{1F648} \u4E00\u4E9Bwebpack\u7684\u6838\u5FC3\u914D\u7F6E\u6982\u5FF5\uFF1A</p><table><thead><tr><th>\u6982\u5FF5</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E</th></tr></thead><tbody><tr><td><strong>\u5165\u53E3(<code>entry</code>)</strong></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5165\u53E3\u8D77\u70B9(<code>entry point</code>) \u6307\u793A <code>webpack</code> \u5E94\u8BE5\u4F7F\u7528\u54EA\u4E2A\u6A21\u5757\uFF0C\u6765\u4F5C\u4E3A\u6784\u5EFA\u5176\u5185\u90E8 \u4F9D\u8D56\u56FE(dependency graph) \u7684\u5F00\u59CB\u3002\u9ED8\u8BA4\u503C\u662F <code>./src/index.js</code>\u3002</td></tr><tr><td><strong>\u8F93\u51FA(<code>output</code>)</strong></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>output</code> \u5C5E\u6027\u544A\u8BC9 <code>webpack</code> \u5728\u54EA\u91CC\u8F93\u51FA\u5B83\u6240\u521B\u5EFA\u7684 bundle,\u9ED8\u8BA4\u653E\u7F6E\u5728 <code>./dist</code> \u6587\u4EF6\u5939\u4E2D\u3002</td></tr><tr><td><code>loader</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>loader</code> \u8BA9 <code>webpack</code> \u80FD\u591F\u53BB\u5904\u7406\u5176\u4ED6\u7C7B\u578B\u7684\u6587\u4EF6\uFF0C\u5E76\u5C06\u5B83\u4EEC\u8F6C\u6362\u4E3A\u6709\u6548 \u6A21\u5757\uFF0C\u4EE5\u4F9B\u5E94\u7528\u7A0B\u5E8F\u4F7F\u7528</td></tr><tr><td><strong>\u63D2\u4EF6(<code>plugin</code>)</strong></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u63D2\u4EF6\u53EF\u4EE5\u7528\u4E8E\u6267\u884C\u8303\u56F4\u66F4\u5E7F\u7684\u4EFB\u52A1\u3002\u5305\u62EC\uFF1A\u6253\u5305\u4F18\u5316\uFF0C\u8D44\u6E90\u7BA1\u7406\uFF0C\u6CE8\u5165\u73AF\u5883\u53D8\u91CF\u3002</td></tr><tr><td><strong>\u6A21\u5F0F(<code>mode</code>)</strong></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u901A\u8FC7\u9009\u62E9 <code>development</code>, <code>production</code> \u6216 <code>none</code> \u4E4B\u4E2D\u7684\u4E00\u4E2A\uFF0C\u6765\u8BBE\u7F6E <code>mode</code> \u53C2\u6570\uFF0C\u4F60\u53EF\u4EE5\u542F\u7528 <code>webpack</code> \u5185\u7F6E\u5728\u76F8\u5E94\u73AF\u5883\u4E0B\u7684\u4F18\u5316\u3002\u5176\u9ED8\u8BA4\u503C\u4E3A <code>production</code>\u3002</td></tr></tbody></table></details><h2 id="webpack\u57FA\u7840" tabindex="-1"><a class="header-anchor" href="#webpack\u57FA\u7840" aria-hidden="true">#</a> webpack\u57FA\u7840</h2><h3 id="\u5FEB\u901F\u4E0A\u624B" tabindex="-1"><a class="header-anchor" href="#\u5FEB\u901F\u4E0A\u624B" aria-hidden="true">#</a> \u5FEB\u901F\u4E0A\u624B</h3><p>\u4ECE\u96F6\u5F00\u59CB\uFF0C\u5148\u5148\u672C\u5730\u5B89\u88C5\u4E00\u4E0B webpack \u4EE5\u53CA webpack-cli</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">npm</span> <span class="token function">install</span> webpack webpack-cli -D <span class="token comment"># \u5B89\u88C5\u5230\u672C\u5730\u4F9D\u8D56(\u4E0D\u63A8\u8350\uFF1A-G\u662F\u5168\u5C40\u4F9D\u8D56)</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u5982\u679C\u5B89\u88C5\u5B8C\u6210\u4F1A\u5728<code>package.json</code>\u770B\u5230\u5982\u4E0B\uFF1A \u2705</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code> <span class="token string">&quot;devDependencies&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token string">&quot;webpack&quot;</span><span class="token operator">:</span> <span class="token string">&quot;^5.65.0&quot;</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;webpack-cli&quot;</span><span class="token operator">:</span> <span class="token string">&quot;^4.9.1&quot;</span>
+  <span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p><code>webpack </code>\u5728 4 \u4EE5\u540E\u5C31\u8BF4\u652F\u6301 0 \u914D\u7F6E\u6253\u5305\uFF0C\u6211\u4EEC\u53EF\u4EE5\u6D4B\u8BD5\u4E00\u4E0B\uFF1A</p><ol><li>\u65B0\u5EFA ./src/index.js \u6587\u4EF6\uFF0C\u5199\u4E00\u6BB5\u7B80\u5355\u7684<code>js</code>\u4EE3\u7801\uFF08\u968F\u4FBF\u5199\uFF09</li></ol><p>\u5982\uFF1A</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">const</span> a <span class="token operator">=</span> <span class="token string">&#39;Hello ITEM&#39;</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span>
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> a<span class="token punctuation">;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>\u6B64\u65F6\u76EE\u5F55\u7ED3\u6784\uFF1A</p><p><img src="https://s2.loli.net/2022/01/09/jdNbqRSmMQpGge8.png" alt=""></p><ol start="2"><li>\u76F4\u63A5\u8FD0\u884C <code>npx webpack</code>\uFF0C\u542F\u52A8\u6253\u5305\uFF1A <img src="https://s2.loli.net/2022/01/09/YxpAlO2DWXt9cPd.png" alt=""></li></ol><p>\u6253\u5305\u5B8C\u6210\uFF0C\u6211\u4EEC\u770B\u5230\u65E5\u5FD7\u4E0A\u9762\u6709\u4E00\u6BB5\u63D0\u793A\uFF1A<code>The &#39;mode&#39; option has not been set,...</code></p><p>\u610F\u601D\u5C31\u662F\uFF0C\u6211\u4EEC\u6CA1\u6709\u914D\u7F6E <code>mode</code>\uFF08\u6A21\u5F0F\uFF09\u3002</p><blockquote><p><code>\u6A21\u5F0F</code>\uFF1A \u4F9B mode \u914D\u7F6E\u9009\u9879\uFF0C\u544A\u77E5 webpack \u4F7F\u7528\u76F8\u5E94\u6A21\u5F0F\u7684\u5185\u7F6E\u4F18\u5316\uFF0C\u9ED8\u8BA4\u503C\u4E3A <code>production</code>\uFF0C\u53E6\u5916\u8FD8\u6709 <code>development</code>\u3001<code>none</code>\uFF0C\u4ED6\u4EEC\u7684\u533A\u522B\u5982\u4E0B</p></blockquote><p>\u600E\u4E48\u914D\u7F6E\uFF1F\u770B\u4E0B\u9762\uFF1A</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">//1.\u53EA\u9700\u5728\u914D\u7F6E\u5BF9\u8C61\u4E2D\u63D0\u4F9B mode \u9009\u9879\uFF1A</span>
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  mode<span class="token operator">:</span> <span class="token string">&#39;development&#39;</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token comment">//2.\u4ECE CLI \u53C2\u6570\u4E2D\u4F20\u9012\uFF1A</span>
+$ webpack <span class="token operator">--</span>mode<span class="token operator">=</span>development
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><p>\u4E00\u822C\u7528\u4E0B\u9762\u914D\u7F6E\u6587\u4EF6\u65B9\u5F0F\u914D\u7F6E\uFF1A</p><h3 id="\u914D\u7F6E\u6587\u4EF6" tabindex="-1"><a class="header-anchor" href="#\u914D\u7F6E\u6587\u4EF6" aria-hidden="true">#</a> \u914D\u7F6E\u6587\u4EF6</h3><p>\u5728\u5B9E\u9645\u4E2D\uFF0C\u6211\u4EEC\u4E00\u822C\u90FD\u8981\u4F7F\u7528\u914D\u7F6E\u6587\u4EF6\u6765\u6EE1\u8DB3\u9879\u76EE\u9700\u6C42\uFF1A</p><ol><li>\u6839\u8DEF\u5F84\u4E0B\u65B0\u5EFA\u4E00\u4E2A\u914D\u7F6E\u6587\u4EF6 <code>webpack.config.js</code></li><li>\u65B0\u589E\u57FA\u672C\u914D\u7F6E\u4FE1\u606F</li></ol><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">const</span> path <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">&#39;path&#39;</span><span class="token punctuation">)</span>
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  mode<span class="token operator">:</span> <span class="token string">&#39;development&#39;</span><span class="token punctuation">,</span> <span class="token comment">// \u6A21\u5F0F</span>
+  entry<span class="token operator">:</span> <span class="token string">&#39;./src/index.js&#39;</span><span class="token punctuation">,</span> <span class="token comment">// \u6253\u5305\u5165\u53E3\u5730\u5740</span>
+  output<span class="token operator">:</span> <span class="token punctuation">{</span>
+    filename<span class="token operator">:</span> <span class="token string">&#39;bundle.js&#39;</span><span class="token punctuation">,</span> <span class="token comment">// \u8F93\u51FA\u6587\u4EF6\u540D</span>
+    path<span class="token operator">:</span> path<span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span>__dirname<span class="token punctuation">,</span> <span class="token string">&#39;dist&#39;</span><span class="token punctuation">)</span> <span class="token comment">// \u8F93\u51FA\u6587\u4EF6\u76EE\u5F55</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><p>\u4E0A\u9762\u662F\u57FA\u672C\u7684\u914D\u7F6E\uFF0C\u9700\u8981\u6211\u8BB0\u4F4F\u3002\u8BB8\u591A\u4FEE\u6539\u90FD\u662F\u57FA\u4E8E\u4E0A\u9762\u8FDB\u884C\u3002</p><h3 id="loader" tabindex="-1"><a class="header-anchor" href="#loader" aria-hidden="true">#</a> Loader</h3><p>\u5F53\u6211\u4EEC\u628A\u5165\u53E3\u6539\u6210 CSS \u6587\u4EF6\uFF0C\u53EF\u80FD\u6253\u5305\u7ED3\u679C\u4F1A\u5982\u4F55\uFF1A</p><ol><li>\u65B0\u589E ./src/main.css</li></ol><div class="language-css ext-css line-numbers-mode"><pre class="language-css"><code><span class="token selector">body</span> <span class="token punctuation">{</span>
+  <span class="token property">margin</span><span class="token punctuation">:</span> 0 auto<span class="token punctuation">;</span>
+  <span class="token property">padding</span><span class="token punctuation">:</span> 0 20px<span class="token punctuation">;</span>
+  <span class="token property">max-width</span><span class="token punctuation">:</span> 800px<span class="token punctuation">;</span>
+  <span class="token property">background</span><span class="token punctuation">:</span> #f4f8fb<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><ol start="2"><li>\u4FEE\u6539 entry \u914D\u7F6E</li></ol><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">const</span> path <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">&#39;path&#39;</span><span class="token punctuation">)</span>
+
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  mode<span class="token operator">:</span> <span class="token string">&#39;development&#39;</span><span class="token punctuation">,</span> <span class="token comment">// \u6A21\u5F0F</span>
+  entry<span class="token operator">:</span> <span class="token string">&#39;./src/main.css&#39;</span><span class="token punctuation">,</span> <span class="token comment">// \u6253\u5305\u5165\u53E3\u5730\u5740</span>
+  output<span class="token operator">:</span> <span class="token punctuation">{</span>
+    filename<span class="token operator">:</span> <span class="token string">&#39;bundle.css&#39;</span><span class="token punctuation">,</span> <span class="token comment">// \u8F93\u51FA\u6587\u4EF6\u540D</span>
+    path<span class="token operator">:</span> path<span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span>__dirname<span class="token punctuation">,</span> <span class="token string">&#39;dist&#39;</span><span class="token punctuation">)</span> <span class="token comment">// \u8F93\u51FA\u6587\u4EF6\u76EE\u5F55</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><ol start="3"><li>\u8FD0\u884C\u6253\u5305\u547D\u4EE4\uFF1Anpx webpack</li></ol><p><img src="https://s2.loli.net/2022/01/09/3qpNyQVMrt9TLiJ.png" alt=""></p><p>\u62A5\u9519\uFF01 \u56E0\u4E3Awebpack \u9ED8\u8BA4\u652F\u6301\u5904\u7406 JS \u4E0E JSON \u6587\u4EF6\uFF0C\u5176\u4ED6\u7C7B\u578B\u90FD\u5904\u7406\u4E0D\u4E86\uFF0C\u8FD9\u91CC\u5FC5\u987B\u501F\u52A9 Loader \u6765\u5BF9\u4E0D\u540C\u7C7B\u578B\u7684\u6587\u4EF6\u7684\u8FDB\u884C\u5904\u7406\u3002</p><ol start="4"><li>\u5B89\u88C5 <code>css-loader</code> \u6765\u5904\u7406 CSS</li></ol><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">npm</span> <span class="token function">install</span> css-loader -D
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><ol start="5"><li>\u914D\u7F6E\u8D44\u6E90\u52A0\u8F7D\u6A21\u5757</li></ol><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">const</span> path <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">&#39;path&#39;</span><span class="token punctuation">)</span>
+
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  mode<span class="token operator">:</span> <span class="token string">&#39;development&#39;</span><span class="token punctuation">,</span> <span class="token comment">// \u6A21\u5F0F</span>
+  entry<span class="token operator">:</span> <span class="token string">&#39;./src/main.css&#39;</span><span class="token punctuation">,</span> <span class="token comment">// \u6253\u5305\u5165\u53E3\u5730\u5740</span>
+  output<span class="token operator">:</span> <span class="token punctuation">{</span>
+    filename<span class="token operator">:</span> <span class="token string">&#39;bundle.css&#39;</span><span class="token punctuation">,</span> <span class="token comment">// \u8F93\u51FA\u6587\u4EF6\u540D</span>
+    path<span class="token operator">:</span> path<span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span>__dirname<span class="token punctuation">,</span> <span class="token string">&#39;dist&#39;</span><span class="token punctuation">)</span> <span class="token comment">// \u8F93\u51FA\u6587\u4EF6\u76EE\u5F55</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  module<span class="token operator">:</span> <span class="token punctuation">{</span> 
+    rules<span class="token operator">:</span> <span class="token punctuation">[</span> <span class="token comment">// \u8F6C\u6362\u89C4\u5219</span>
+      <span class="token punctuation">{</span>
+        test<span class="token operator">:</span> <span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">\\.css$</span><span class="token regex-delimiter">/</span></span><span class="token punctuation">,</span> <span class="token comment">//\u5339\u914D\u6240\u6709\u7684 css \u6587\u4EF6</span>
+        use<span class="token operator">:</span> <span class="token string">&#39;css-loader&#39;</span> <span class="token comment">// use: \u5BF9\u5E94\u7684 Loader \u540D\u79F0</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br></div></div><ol start="6"><li>\u91CD\u65B0\u8FD0\u884C\u6253\u5305\u547D\u4EE4 npx webpack <img src="https://s2.loli.net/2022/01/09/xHuTnfdtWLPIYo2.png" alt=""></li></ol><p>\u6253\u5305\u6210\u529F\uFF0C\u67E5\u770Bdist\u7684\u7ED3\u679C\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>dist           
+\u2514\u2500 bundle.css  <span class="token comment"># \u6253\u5305\u5F97\u5230\u7684\u7ED3\u679C</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>\u67E5\u770B\u5230bundle.css\u4F1A\u6709\u9519\u8BEF\uFF0C\u8FD9\u91CC\u8FD9\u662F\u5C1D\u8BD5\uFF0C\u5165\u53E3\u6587\u4EF6\u8FD8\u662F\u9700\u8981\u6539\u56DE ./src/index.js\u3002</p><div class="custom-container tip"><p class="custom-container-title">\u603B\u7ED3</p><p>Loader \u5C31\u662F\u5C06 Webpack \u4E0D\u8BA4\u8BC6\u7684\u5185\u5BB9\u8F6C\u5316\u4E3A\u8BA4\u8BC6\u7684\u5185\u5BB9</p></div><h3 id="\u63D2\u4EF6-plugin" tabindex="-1"><a class="header-anchor" href="#\u63D2\u4EF6-plugin" aria-hidden="true">#</a> \u63D2\u4EF6\uFF08plugin\uFF09</h3><p>\u4E0E Loader \u7528\u4E8E\u8F6C\u6362\u7279\u5B9A\u7C7B\u578B\u7684\u6587\u4EF6\uFF08\u5355\u4E00\u539F\u5219\uFF09\u4E0D\u540C\uFF0C<strong>\u63D2\u4EF6\uFF08Plugin\uFF09\u53EF\u4EE5\u8D2F\u7A7F Webpack \u6253\u5305\u7684\u751F\u547D\u5468\u671F\uFF0C\u6267\u884C\u4E0D\u540C\u7684\u4EFB\u52A1\u5F71\u54CD\u8F93\u51FA\u7ED3\u679C\uFF08\u9488\u5BF9\u6574\u4E2A\u6D41\u7A0B\u6267\u884C\u5E7F\u6CDB\u7684\u4EFB\u52A1\uFF09</strong></p><p>\u4F8B\u5B50\u4E0A\u624B\uFF1A</p><ol><li>\u65B0\u5EFA <code>./src/index.html</code> \u6587\u4EF6</li></ol><div class="language-html ext-html line-numbers-mode"><pre class="language-html"><code><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>en<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>UTF-8<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">http-equiv</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>X-UA-Compatible<span class="token punctuation">&quot;</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>IE=edge<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>viewport<span class="token punctuation">&quot;</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>width=device-width, initial-scale=1.0<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>Document<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+    
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><p>\u5982\u679C\u6211\u60F3\u6253\u5305\u540E\u7684\u8D44\u6E90\u6587\u4EF6\uFF0C\u4F8B\u5982\uFF1Ajs \u6216\u8005 css \u6587\u4EF6\u53EF\u4EE5\u81EA\u52A8\u5F15\u5165\u5230 Html \u4E2D\uFF0C\u5C31\u9700\u8981\u4F7F\u7528\u63D2\u4EF6 <a href="https://www.npmjs.com/package/html-webpack-plugin" target="_blank" rel="noopener noreferrer">html-webpack-plugin`);
+  _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
+  _push(`</a>\u6765\u5E2E\u52A9\u4F60\u5B8C\u6210\u8FD9\u4E2A\u64CD\u4F5C</p><ol start="2"><li>\u672C\u5730\u5B89\u88C5 <code>html-webpack-plugin</code></li></ol><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">npm</span> <span class="token function">install</span> html-webpack-plugin -D
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><ol start="3"><li>\u914D\u7F6E\u63D2\u4EF6</li></ol><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">const</span> path <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">&#39;path&#39;</span><span class="token punctuation">)</span>
+<span class="token keyword">const</span> HtmlWebpackPlugin <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">&#39;html-webpack-plugin&#39;</span><span class="token punctuation">)</span>
+
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  mode<span class="token operator">:</span> <span class="token string">&#39;development&#39;</span><span class="token punctuation">,</span> <span class="token comment">// \u6A21\u5F0F</span>
+  entry<span class="token operator">:</span> <span class="token string">&#39;./src/index.js&#39;</span><span class="token punctuation">,</span> <span class="token comment">// \u6253\u5305\u5165\u53E3\u5730\u5740</span>
+  output<span class="token operator">:</span> <span class="token punctuation">{</span>
+    filename<span class="token operator">:</span> <span class="token string">&#39;bundle.js&#39;</span><span class="token punctuation">,</span> <span class="token comment">// \u8F93\u51FA\u6587\u4EF6\u540D</span>
+    path<span class="token operator">:</span> path<span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span>__dirname<span class="token punctuation">,</span> <span class="token string">&#39;dist&#39;</span><span class="token punctuation">)</span> <span class="token comment">// \u8F93\u51FA\u6587\u4EF6\u76EE\u5F55</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  module<span class="token operator">:</span> <span class="token punctuation">{</span> 
+    rules<span class="token operator">:</span> <span class="token punctuation">[</span>
+      <span class="token punctuation">{</span>
+        test<span class="token operator">:</span> <span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">\\.css$</span><span class="token regex-delimiter">/</span></span><span class="token punctuation">,</span> <span class="token comment">//\u5339\u914D\u6240\u6709\u7684 css \u6587\u4EF6</span>
+        use<span class="token operator">:</span> <span class="token string">&#39;css-loader&#39;</span> <span class="token comment">// use: \u5BF9\u5E94\u7684 Loader \u540D\u79F0</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  plugins<span class="token operator">:</span><span class="token punctuation">[</span> <span class="token comment">// \u914D\u7F6E\u63D2\u4EF6</span>
+    <span class="token keyword">new</span> <span class="token class-name">HtmlWebpackPlugin</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      template<span class="token operator">:</span> <span class="token string">&#39;./src/index.html&#39;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+  <span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br></div></div><ol start="4"><li>\u8FD0\u884C\u4E00\u4E0B\u6253\u5305<code>npx webpack</code>\uFF0C\u6253\u5F00 dist \u76EE\u5F55\u4E0B\u751F\u6210\u7684 index.html \u6587\u4EF6</li></ol><div class="language-html ext-html line-numbers-mode"><pre class="language-html"><code><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>en<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>UTF-8<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">http-equiv</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>X-UA-Compatible<span class="token punctuation">&quot;</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>IE=edge<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>viewport<span class="token punctuation">&quot;</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>width=device-width, initial-scale=1.0<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>Document<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">defer</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>bundle.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+    
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><p>\u53EF\u4EE5\u770B\u5230\u5B83\u81EA\u52A8\u7684\u5F15\u5165\u4E86\u6253\u5305\u597D\u7684 <code>bundle.js</code> \uFF0C\u975E\u5E38\u65B9\u4FBF\u5B9E\u7528</p><h3 id="\u81EA\u52A8\u6E05\u7A7A\u6253\u5305\u76EE\u5F55" tabindex="-1"><a class="header-anchor" href="#\u81EA\u52A8\u6E05\u7A7A\u6253\u5305\u76EE\u5F55" aria-hidden="true">#</a> \u81EA\u52A8\u6E05\u7A7A\u6253\u5305\u76EE\u5F55</h3><p>\u8FD9\u4E2A\u5185\u5BB9\u672C\u6765\u5C5E\u4E8E\u63D2\u4EF6\uFF08plugin\uFF09\u7684\u8303\u7574\uFF0C\u4F46\u4E00\u822C\u6BD4\u8F83\u5E38\u7528\uFF1B</p><p>\u6BCF\u6B21\u6253\u5305\u7684\u65F6\u5019\uFF0C\u6253\u5305\u76EE\u5F55\u90FD\u4F1A\u9057\u7559\u4E0A\u6B21\u6253\u5305\u7684\u6587\u4EF6\uFF0C\u4E3A\u4E86\u4FDD\u6301\u6253\u5305\u76EE\u5F55\u7684\u7EAF\u51C0\uFF0C\u6211\u4EEC\u9700\u8981\u5728\u6253\u5305\u524D\u5C06\u6253\u5305\u76EE\u5F55\u6E05\u7A7A</p><p>\u6709\u4E24\u4E2A\u65B9\u6CD5\uFF1A</p><p><strong>\u7B2C\u4E00\u3001webpack5\u65B0\u7279\u6027\uFF08clean:true\uFF09</strong></p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code>    output<span class="token operator">:</span> <span class="token punctuation">{</span>
+        filename<span class="token operator">:</span> <span class="token string">&#39;bundle.js&#39;</span><span class="token punctuation">,</span> <span class="token comment">// \u8F93\u51FA\u6587\u4EF6\u540D</span>
+        path<span class="token operator">:</span> path<span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span>__dirname<span class="token punctuation">,</span> <span class="token string">&#39;dist&#39;</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token comment">// \u8F93\u51FA\u6587\u4EF6\u76EE\u5F55</span>
+        clean<span class="token operator">:</span><span class="token boolean">true</span><span class="token punctuation">,</span><span class="token comment">// \u81EA\u52A8\u6E05\u7A7A\u6253\u5305\u76EE\u5F55</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+</code></pre><div class="highlight-lines"><br><br><br><div class="highlight-line">\xA0</div><br></div><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p>\u4F7F\u7528\u65F6\u9700\u8981\u6CE8\u610F\u7248\u672C\u53F7\uFF1B</p><p><strong>\u7B2C\u4E8C\u3001\u63D2\u4EF6</strong></p><p>\u6211\u4EEC\u8FD8\u53EF\u4EE5\u4F7F\u7528\u63D2\u4EF6 <a href="https://www.npmjs.com/package/clean-webpack-plugin" target="_blank" rel="noopener noreferrer">clean-webpack-plugin`);
+  _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
+  _push(`</a> \u6765\u5B9E\u73B0</p><ol><li>\u5B89\u88C5</li></ol><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>$ <span class="token function">npm</span> <span class="token function">install</span> clean-webpack-plugin -D
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><ol start="2"><li>\u914D\u7F6E</li></ol><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">const</span> path <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">&#39;path&#39;</span><span class="token punctuation">)</span>
+<span class="token keyword">const</span> HtmlWebpackPlugin <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">&#39;html-webpack-plugin&#39;</span><span class="token punctuation">)</span>
+<span class="token comment">// \u5F15\u5165\u63D2\u4EF6</span>
+<span class="token keyword">const</span> <span class="token punctuation">{</span> CleanWebpackPlugin <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">&#39;clean-webpack-plugin&#39;</span><span class="token punctuation">)</span>
+<span class="token comment">//</span>
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token comment">// ...</span>
+  plugins<span class="token operator">:</span><span class="token punctuation">[</span> <span class="token comment">// \u914D\u7F6E\u63D2\u4EF6</span>
+    <span class="token keyword">new</span> <span class="token class-name">HtmlWebpackPlugin</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      template<span class="token operator">:</span> <span class="token string">&#39;./src/index.html&#39;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    <span class="token keyword">new</span> <span class="token class-name">CleanWebpackPlugin</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">// \u5F15\u5165\u63D2\u4EF6</span>
+  <span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="highlight-lines"><br><br><br><br><br><br><br><br><br><br><br><div class="highlight-line">\xA0</div><br><br></div><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br></div></div><h3 id="\u533A\u5206\u73AF\u5883" tabindex="-1"><a class="header-anchor" href="#\u533A\u5206\u73AF\u5883" aria-hidden="true">#</a> \u533A\u5206\u73AF\u5883</h3><p>\u672C\u5730\u5F00\u53D1\u548C\u90E8\u7F72\u7EBF\u4E0A\uFF0C\u80AF\u5B9A\u662F\u6709\u4E0D\u540C\u7684\u9700\u6C42</p><p>\u672C\u5730\u73AF\u5883\uFF1A</p><ul><li>\u9700\u8981\u66F4\u5FEB\u7684\u6784\u5EFA\u901F\u5EA6</li><li>\u9700\u8981\u6253\u5370 debug \u4FE1\u606F</li><li>\u9700\u8981 live reload \u6216 hot reload \u529F\u80FD</li><li>\u9700\u8981 sourcemap \u65B9\u4FBF\u5B9A\u4F4D\u95EE\u9898</li><li>...</li></ul><p>\u751F\u4EA7\u73AF\u5883\uFF1A</p><ul><li>\u9700\u8981\u66F4\u5C0F\u7684\u5305\u4F53\u79EF\uFF0C\u4EE3\u7801\u538B\u7F29+tree-shaking</li><li>\u9700\u8981\u8FDB\u884C\u4EE3\u7801\u5206\u5272</li><li>\u9700\u8981\u538B\u7F29\u56FE\u7247\u4F53\u79EF</li><li>...</li></ul><p>\u540C\u6837\u4E5F\u6709\u4E0D\u540C\u65B9\u6CD5\uFF1A</p><p><strong>\u7B2C\u4E00\u79CD\uFF1A</strong></p><ol><li>\u521B\u5EFA<code>webpack.dev.js</code> \u5F00\u53D1\u73AF\u5883\u914D\u7F6E\u6587\u4EF6</li><li>\u521B\u5EFA<code>webpack.prod.js</code> \u751F\u4EA7\u73AF\u5883\u914D\u7F6E\u6587\u4EF6</li><li>\u5728<code>webpack.config.js</code>\u533A\u5206\u6253\u5305</li></ol><p><strong>\u7B2C\u4E8C\u79CD\uFF1A</strong></p><ol><li>\u672C\u5730\u5B89\u88C5 <a href="https://www.npmjs.com/package/cross-env" target="_blank" rel="noopener noreferrer">cross-env`);
+  _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
+  _push(`</a></li></ol><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">npm</span> <span class="token function">install</span> cross-env -D
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><ol start="2"><li>\u914D\u7F6E\u542F\u52A8\u547D\u4EE4</li></ol><p>\u6253\u5F00 ./package.json</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token string">&quot;scripts&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token string">&quot;dev&quot;</span><span class="token operator">:</span> <span class="token string">&quot;cross-env NODE_ENV=dev webpack serve --mode development&quot;</span><span class="token punctuation">,</span> 
+    <span class="token string">&quot;test&quot;</span><span class="token operator">:</span> <span class="token string">&quot;cross-env NODE_ENV=test webpack --mode production&quot;</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;build&quot;</span><span class="token operator">:</span> <span class="token string">&quot;cross-env NODE_ENV=prod webpack --mode production&quot;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><ol start="3"><li><p>\u5728 Webpack \u914D\u7F6E\u6587\u4EF6\u4E2D\u83B7\u53D6\u73AF\u5883\u53D8\u91CF \u6838\u5FC3\u4EE3\u7801\uFF1A <img src="https://s2.loli.net/2022/01/09/9hGRxgpONyz2VjY.png" alt=""></p></li><li><p>\u6D4B\u8BD5</p></li></ol><ul><li>\u6267\u884C <code>npm run build</code></li></ul><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">//\u8F93\u51FA</span>
+process<span class="token punctuation">.</span>env<span class="token punctuation">.</span><span class="token constant">NODE_ENV</span><span class="token operator">=</span> prod
+argv<span class="token punctuation">.</span>mode<span class="token operator">=</span> production
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><ul><li>\u6267\u884C <code>npm run test</code></li></ul><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">//\u8F93\u51FA</span>
+process<span class="token punctuation">.</span>env<span class="token punctuation">.</span><span class="token constant">NODE_ENV</span><span class="token operator">=</span> prod
+argv<span class="token punctuation">.</span>mode<span class="token operator">=</span> production
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><ul><li>\u6267\u884C <code>npm run dev</code></li></ul><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">//\u8F93\u51FA</span>
+process<span class="token punctuation">.</span>env<span class="token punctuation">.</span><span class="token constant">NODE_ENV</span><span class="token operator">=</span> prod
+argv<span class="token punctuation">.</span>mode<span class="token operator">=</span> production
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>\u8FD9\u6837\u6211\u4EEC\u5C31\u53EF\u4EE5\u4E0D\u540C\u7684\u73AF\u5883\u6765\u52A8\u6001\u4FEE\u6539 Webpack \u7684\u914D\u7F6E</p><h3 id="\u4F7F\u7528devserver" tabindex="-1"><a class="header-anchor" href="#\u4F7F\u7528devserver" aria-hidden="true">#</a> \u4F7F\u7528devServer</h3><p>1.\u5B89\u88C5 webpack-dev-server</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">npm</span> intall webpack-dev-server@3.11.2 -D <span class="token operator">||</span> <span class="token function">npm</span> intall webpack-dev-server
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><div class="custom-container danger"><p class="custom-container-title">\u6CE8\u610F</p><p>\u26A0\uFE0F\u6CE8\u610F\uFF1A\u82E5\u4F7F\u7528\u7684 webpack-dev-server \u7248\u672C\u662F 3.11.2\uFF0C\u5F53\u7248\u672C version &gt;= 4.0.0 \u65F6\uFF0C\u9700\u8981\u4F7F\u7528 devServer.static \u8FDB\u884C\u914D\u7F6E\uFF0C\u4E0D\u518D\u6709 devServer.contentBase \u914D\u7F6E\u9879\u3002</p></div>`);
+  _push(serverRenderer.ssrRenderComponent(_component_CodeGroup, null, {
+    default: vue.withCtx((_, _push2, _parent2, _scopeId) => {
+      if (_push2) {
+        _push2(serverRenderer.ssrRenderComponent(_component_CodeGroupItem, { title: "version = @3.11.2" }, {
+          default: vue.withCtx((_2, _push3, _parent3, _scopeId2) => {
+            if (_push3) {
+              _push3(`<div class="language-javascript ext-js line-numbers-mode"${_scopeId2}><pre class="language-javascript"${_scopeId2}><code${_scopeId2}><span class="token comment"${_scopeId2}>// webpack.config.js</span>
+<span class="token keyword"${_scopeId2}>const</span> config <span class="token operator"${_scopeId2}>=</span> <span class="token punctuation"${_scopeId2}>{</span>
+  <span class="token comment"${_scopeId2}>// ...</span>
+  devServer<span class="token operator"${_scopeId2}>:</span> <span class="token punctuation"${_scopeId2}>{</span>
+    contentBase<span class="token operator"${_scopeId2}>:</span> path<span class="token punctuation"${_scopeId2}>.</span><span class="token function"${_scopeId2}>resolve</span><span class="token punctuation"${_scopeId2}>(</span>__dirname<span class="token punctuation"${_scopeId2}>,</span> <span class="token string"${_scopeId2}>&#39;public&#39;</span><span class="token punctuation"${_scopeId2}>)</span><span class="token punctuation"${_scopeId2}>,</span> <span class="token comment"${_scopeId2}>// \u6587\u4EF6\u76EE\u5F55</span>
+    compress<span class="token operator"${_scopeId2}>:</span> <span class="token boolean"${_scopeId2}>true</span><span class="token punctuation"${_scopeId2}>,</span> <span class="token comment"${_scopeId2}>//\u662F\u5426\u542F\u52A8\u538B\u7F29 gzip</span>
+    port<span class="token operator"${_scopeId2}>:</span> <span class="token number"${_scopeId2}>8080</span><span class="token punctuation"${_scopeId2}>,</span> <span class="token comment"${_scopeId2}>// \u7AEF\u53E3\u53F7</span>
+    <span class="token comment"${_scopeId2}>// open:true  // \u662F\u5426\u81EA\u52A8\u6253\u5F00\u6D4F\u89C8\u5668</span>
+  <span class="token punctuation"${_scopeId2}>}</span><span class="token punctuation"${_scopeId2}>,</span>
+ <span class="token comment"${_scopeId2}>// ...</span>
+<span class="token punctuation"${_scopeId2}>}</span>
+
+</code></pre><div class="line-numbers"${_scopeId2}><span class="line-number"${_scopeId2}>1</span><br${_scopeId2}><span class="line-number"${_scopeId2}>2</span><br${_scopeId2}><span class="line-number"${_scopeId2}>3</span><br${_scopeId2}><span class="line-number"${_scopeId2}>4</span><br${_scopeId2}><span class="line-number"${_scopeId2}>5</span><br${_scopeId2}><span class="line-number"${_scopeId2}>6</span><br${_scopeId2}><span class="line-number"${_scopeId2}>7</span><br${_scopeId2}><span class="line-number"${_scopeId2}>8</span><br${_scopeId2}><span class="line-number"${_scopeId2}>9</span><br${_scopeId2}><span class="line-number"${_scopeId2}>10</span><br${_scopeId2}><span class="line-number"${_scopeId2}>11</span><br${_scopeId2}><span class="line-number"${_scopeId2}>12</span><br${_scopeId2}></div></div>`);
+            } else {
+              return [
+                vue.createVNode("div", { class: "language-javascript ext-js line-numbers-mode" }, [
+                  vue.createVNode("pre", { class: "language-javascript" }, [
+                    vue.createVNode("code", null, [
+                      vue.createVNode("span", { class: "token comment" }, "// webpack.config.js"),
+                      vue.createTextVNode("\n"),
+                      vue.createVNode("span", { class: "token keyword" }, "const"),
+                      vue.createTextVNode(" config "),
+                      vue.createVNode("span", { class: "token operator" }, "="),
+                      vue.createTextVNode(),
+                      vue.createVNode("span", { class: "token punctuation" }, "{"),
+                      vue.createTextVNode("\n  "),
+                      vue.createVNode("span", { class: "token comment" }, "// ..."),
+                      vue.createTextVNode("\n  devServer"),
+                      vue.createVNode("span", { class: "token operator" }, ":"),
+                      vue.createTextVNode(),
+                      vue.createVNode("span", { class: "token punctuation" }, "{"),
+                      vue.createTextVNode("\n    contentBase"),
+                      vue.createVNode("span", { class: "token operator" }, ":"),
+                      vue.createTextVNode(" path"),
+                      vue.createVNode("span", { class: "token punctuation" }, "."),
+                      vue.createVNode("span", { class: "token function" }, "resolve"),
+                      vue.createVNode("span", { class: "token punctuation" }, "("),
+                      vue.createTextVNode("__dirname"),
+                      vue.createVNode("span", { class: "token punctuation" }, ","),
+                      vue.createTextVNode(),
+                      vue.createVNode("span", { class: "token string" }, "'public'"),
+                      vue.createVNode("span", { class: "token punctuation" }, ")"),
+                      vue.createVNode("span", { class: "token punctuation" }, ","),
+                      vue.createTextVNode(),
+                      vue.createVNode("span", { class: "token comment" }, "// \u6587\u4EF6\u76EE\u5F55"),
+                      vue.createTextVNode("\n    compress"),
+                      vue.createVNode("span", { class: "token operator" }, ":"),
+                      vue.createTextVNode(),
+                      vue.createVNode("span", { class: "token boolean" }, "true"),
+                      vue.createVNode("span", { class: "token punctuation" }, ","),
+                      vue.createTextVNode(),
+                      vue.createVNode("span", { class: "token comment" }, "//\u662F\u5426\u542F\u52A8\u538B\u7F29 gzip"),
+                      vue.createTextVNode("\n    port"),
+                      vue.createVNode("span", { class: "token operator" }, ":"),
+                      vue.createTextVNode(),
+                      vue.createVNode("span", { class: "token number" }, "8080"),
+                      vue.createVNode("span", { class: "token punctuation" }, ","),
+                      vue.createTextVNode(),
+                      vue.createVNode("span", { class: "token comment" }, "// \u7AEF\u53E3\u53F7"),
+                      vue.createTextVNode("\n    "),
+                      vue.createVNode("span", { class: "token comment" }, "// open:true  // \u662F\u5426\u81EA\u52A8\u6253\u5F00\u6D4F\u89C8\u5668"),
+                      vue.createTextVNode("\n  "),
+                      vue.createVNode("span", { class: "token punctuation" }, "}"),
+                      vue.createVNode("span", { class: "token punctuation" }, ","),
+                      vue.createTextVNode("\n "),
+                      vue.createVNode("span", { class: "token comment" }, "// ..."),
+                      vue.createTextVNode("\n"),
+                      vue.createVNode("span", { class: "token punctuation" }, "}"),
+                      vue.createTextVNode("\n\n")
+                    ])
+                  ]),
+                  vue.createVNode("div", { class: "line-numbers" }, [
+                    vue.createVNode("span", { class: "line-number" }, "1"),
+                    vue.createVNode("br"),
+                    vue.createVNode("span", { class: "line-number" }, "2"),
+                    vue.createVNode("br"),
+                    vue.createVNode("span", { class: "line-number" }, "3"),
+                    vue.createVNode("br"),
+                    vue.createVNode("span", { class: "line-number" }, "4"),
+                    vue.createVNode("br"),
+                    vue.createVNode("span", { class: "line-number" }, "5"),
+                    vue.createVNode("br"),
+                    vue.createVNode("span", { class: "line-number" }, "6"),
+                    vue.createVNode("br"),
+                    vue.createVNode("span", { class: "line-number" }, "7"),
+                    vue.createVNode("br"),
+                    vue.createVNode("span", { class: "line-number" }, "8"),
+                    vue.createVNode("br"),
+                    vue.createVNode("span", { class: "line-number" }, "9"),
+                    vue.createVNode("br"),
+                    vue.createVNode("span", { class: "line-number" }, "10"),
+                    vue.createVNode("br"),
+                    vue.createVNode("span", { class: "line-number" }, "11"),
+                    vue.createVNode("br"),
+                    vue.createVNode("span", { class: "line-number" }, "12"),
+                    vue.createVNode("br")
+                  ])
+                ])
+              ];
+            }
+          }),
+          _: 1
+        }, _parent2, _scopeId));
+        _push2(serverRenderer.ssrRenderComponent(_component_CodeGroupItem, { title: "version >= 4.0.0" }, {
+          default: vue.withCtx((_2, _push3, _parent3, _scopeId2) => {
+            if (_push3) {
+              _push3(`<div class="language-javascript ext-js line-numbers-mode"${_scopeId2}><pre class="language-javascript"${_scopeId2}><code${_scopeId2}><span class="token comment"${_scopeId2}>// webpack.config.js</span>
+<span class="token keyword"${_scopeId2}>const</span> config <span class="token operator"${_scopeId2}>=</span> <span class="token punctuation"${_scopeId2}>{</span>
+  <span class="token comment"${_scopeId2}>// ...</span>
+  devServer<span class="token operator"${_scopeId2}>:</span> <span class="token punctuation"${_scopeId2}>{</span>
+    <span class="token keyword"${_scopeId2}>static</span><span class="token operator"${_scopeId2}>:</span> <span class="token string"${_scopeId2}>&#39;./index.html&#39;</span><span class="token punctuation"${_scopeId2}>,</span> <span class="token comment"${_scopeId2}>// \u9759\u6001\u6587\u4EF6\u76EE\u5F55</span>
+    <span class="token comment"${_scopeId2}>//compress: true, //\u662F\u5426\u542F\u52A8\u538B\u7F29 gzip</span>
+    <span class="token comment"${_scopeId2}>//port: 8080, // \u9ED8\u8BA4\u7AEF\u53E3\u53F7</span>
+    <span class="token comment"${_scopeId2}>// open:true  // \u662F\u5426\u81EA\u52A8\u6253\u5F00\u6D4F\u89C8\u5668</span>
+  <span class="token punctuation"${_scopeId2}>}</span><span class="token punctuation"${_scopeId2}>,</span>
+ <span class="token comment"${_scopeId2}>// ...</span>
+<span class="token punctuation"${_scopeId2}>}</span>
+
+</code></pre><div class="line-numbers"${_scopeId2}><span class="line-number"${_scopeId2}>1</span><br${_scopeId2}><span class="line-number"${_scopeId2}>2</span><br${_scopeId2}><span class="line-number"${_scopeId2}>3</span><br${_scopeId2}><span class="line-number"${_scopeId2}>4</span><br${_scopeId2}><span class="line-number"${_scopeId2}>5</span><br${_scopeId2}><span class="line-number"${_scopeId2}>6</span><br${_scopeId2}><span class="line-number"${_scopeId2}>7</span><br${_scopeId2}><span class="line-number"${_scopeId2}>8</span><br${_scopeId2}><span class="line-number"${_scopeId2}>9</span><br${_scopeId2}><span class="line-number"${_scopeId2}>10</span><br${_scopeId2}><span class="line-number"${_scopeId2}>11</span><br${_scopeId2}><span class="line-number"${_scopeId2}>12</span><br${_scopeId2}></div></div>`);
+            } else {
+              return [
+                vue.createVNode("div", { class: "language-javascript ext-js line-numbers-mode" }, [
+                  vue.createVNode("pre", { class: "language-javascript" }, [
+                    vue.createVNode("code", null, [
+                      vue.createVNode("span", { class: "token comment" }, "// webpack.config.js"),
+                      vue.createTextVNode("\n"),
+                      vue.createVNode("span", { class: "token keyword" }, "const"),
+                      vue.createTextVNode(" config "),
+                      vue.createVNode("span", { class: "token operator" }, "="),
+                      vue.createTextVNode(),
+                      vue.createVNode("span", { class: "token punctuation" }, "{"),
+                      vue.createTextVNode("\n  "),
+                      vue.createVNode("span", { class: "token comment" }, "// ..."),
+                      vue.createTextVNode("\n  devServer"),
+                      vue.createVNode("span", { class: "token operator" }, ":"),
+                      vue.createTextVNode(),
+                      vue.createVNode("span", { class: "token punctuation" }, "{"),
+                      vue.createTextVNode("\n    "),
+                      vue.createVNode("span", { class: "token keyword" }, "static"),
+                      vue.createVNode("span", { class: "token operator" }, ":"),
+                      vue.createTextVNode(),
+                      vue.createVNode("span", { class: "token string" }, "'./index.html'"),
+                      vue.createVNode("span", { class: "token punctuation" }, ","),
+                      vue.createTextVNode(),
+                      vue.createVNode("span", { class: "token comment" }, "// \u9759\u6001\u6587\u4EF6\u76EE\u5F55"),
+                      vue.createTextVNode("\n    "),
+                      vue.createVNode("span", { class: "token comment" }, "//compress: true, //\u662F\u5426\u542F\u52A8\u538B\u7F29 gzip"),
+                      vue.createTextVNode("\n    "),
+                      vue.createVNode("span", { class: "token comment" }, "//port: 8080, // \u9ED8\u8BA4\u7AEF\u53E3\u53F7"),
+                      vue.createTextVNode("\n    "),
+                      vue.createVNode("span", { class: "token comment" }, "// open:true  // \u662F\u5426\u81EA\u52A8\u6253\u5F00\u6D4F\u89C8\u5668"),
+                      vue.createTextVNode("\n  "),
+                      vue.createVNode("span", { class: "token punctuation" }, "}"),
+                      vue.createVNode("span", { class: "token punctuation" }, ","),
+                      vue.createTextVNode("\n "),
+                      vue.createVNode("span", { class: "token comment" }, "// ..."),
+                      vue.createTextVNode("\n"),
+                      vue.createVNode("span", { class: "token punctuation" }, "}"),
+                      vue.createTextVNode("\n\n")
+                    ])
+                  ]),
+                  vue.createVNode("div", { class: "line-numbers" }, [
+                    vue.createVNode("span", { class: "line-number" }, "1"),
+                    vue.createVNode("br"),
+                    vue.createVNode("span", { class: "line-number" }, "2"),
+                    vue.createVNode("br"),
+                    vue.createVNode("span", { class: "line-number" }, "3"),
+                    vue.createVNode("br"),
+                    vue.createVNode("span", { class: "line-number" }, "4"),
+                    vue.createVNode("br"),
+                    vue.createVNode("span", { class: "line-number" }, "5"),
+                    vue.createVNode("br"),
+                    vue.createVNode("span", { class: "line-number" }, "6"),
+                    vue.createVNode("br"),
+                    vue.createVNode("span", { class: "line-number" }, "7"),
+                    vue.createVNode("br"),
+                    vue.createVNode("span", { class: "line-number" }, "8"),
+                    vue.createVNode("br"),
+                    vue.createVNode("span", { class: "line-number" }, "9"),
+                    vue.createVNode("br"),
+                    vue.createVNode("span", { class: "line-number" }, "10"),
+                    vue.createVNode("br"),
+                    vue.createVNode("span", { class: "line-number" }, "11"),
+                    vue.createVNode("br"),
+                    vue.createVNode("span", { class: "line-number" }, "12"),
+                    vue.createVNode("br")
+                  ])
+                ])
+              ];
+            }
+          }),
+          _: 1
+        }, _parent2, _scopeId));
+      } else {
+        return [
+          vue.createVNode(_component_CodeGroupItem, { title: "version = @3.11.2" }, {
+            default: vue.withCtx(() => [
+              vue.createVNode("div", { class: "language-javascript ext-js line-numbers-mode" }, [
+                vue.createVNode("pre", { class: "language-javascript" }, [
+                  vue.createVNode("code", null, [
+                    vue.createVNode("span", { class: "token comment" }, "// webpack.config.js"),
+                    vue.createTextVNode("\n"),
+                    vue.createVNode("span", { class: "token keyword" }, "const"),
+                    vue.createTextVNode(" config "),
+                    vue.createVNode("span", { class: "token operator" }, "="),
+                    vue.createTextVNode(),
+                    vue.createVNode("span", { class: "token punctuation" }, "{"),
+                    vue.createTextVNode("\n  "),
+                    vue.createVNode("span", { class: "token comment" }, "// ..."),
+                    vue.createTextVNode("\n  devServer"),
+                    vue.createVNode("span", { class: "token operator" }, ":"),
+                    vue.createTextVNode(),
+                    vue.createVNode("span", { class: "token punctuation" }, "{"),
+                    vue.createTextVNode("\n    contentBase"),
+                    vue.createVNode("span", { class: "token operator" }, ":"),
+                    vue.createTextVNode(" path"),
+                    vue.createVNode("span", { class: "token punctuation" }, "."),
+                    vue.createVNode("span", { class: "token function" }, "resolve"),
+                    vue.createVNode("span", { class: "token punctuation" }, "("),
+                    vue.createTextVNode("__dirname"),
+                    vue.createVNode("span", { class: "token punctuation" }, ","),
+                    vue.createTextVNode(),
+                    vue.createVNode("span", { class: "token string" }, "'public'"),
+                    vue.createVNode("span", { class: "token punctuation" }, ")"),
+                    vue.createVNode("span", { class: "token punctuation" }, ","),
+                    vue.createTextVNode(),
+                    vue.createVNode("span", { class: "token comment" }, "// \u6587\u4EF6\u76EE\u5F55"),
+                    vue.createTextVNode("\n    compress"),
+                    vue.createVNode("span", { class: "token operator" }, ":"),
+                    vue.createTextVNode(),
+                    vue.createVNode("span", { class: "token boolean" }, "true"),
+                    vue.createVNode("span", { class: "token punctuation" }, ","),
+                    vue.createTextVNode(),
+                    vue.createVNode("span", { class: "token comment" }, "//\u662F\u5426\u542F\u52A8\u538B\u7F29 gzip"),
+                    vue.createTextVNode("\n    port"),
+                    vue.createVNode("span", { class: "token operator" }, ":"),
+                    vue.createTextVNode(),
+                    vue.createVNode("span", { class: "token number" }, "8080"),
+                    vue.createVNode("span", { class: "token punctuation" }, ","),
+                    vue.createTextVNode(),
+                    vue.createVNode("span", { class: "token comment" }, "// \u7AEF\u53E3\u53F7"),
+                    vue.createTextVNode("\n    "),
+                    vue.createVNode("span", { class: "token comment" }, "// open:true  // \u662F\u5426\u81EA\u52A8\u6253\u5F00\u6D4F\u89C8\u5668"),
+                    vue.createTextVNode("\n  "),
+                    vue.createVNode("span", { class: "token punctuation" }, "}"),
+                    vue.createVNode("span", { class: "token punctuation" }, ","),
+                    vue.createTextVNode("\n "),
+                    vue.createVNode("span", { class: "token comment" }, "// ..."),
+                    vue.createTextVNode("\n"),
+                    vue.createVNode("span", { class: "token punctuation" }, "}"),
+                    vue.createTextVNode("\n\n")
+                  ])
+                ]),
+                vue.createVNode("div", { class: "line-numbers" }, [
+                  vue.createVNode("span", { class: "line-number" }, "1"),
+                  vue.createVNode("br"),
+                  vue.createVNode("span", { class: "line-number" }, "2"),
+                  vue.createVNode("br"),
+                  vue.createVNode("span", { class: "line-number" }, "3"),
+                  vue.createVNode("br"),
+                  vue.createVNode("span", { class: "line-number" }, "4"),
+                  vue.createVNode("br"),
+                  vue.createVNode("span", { class: "line-number" }, "5"),
+                  vue.createVNode("br"),
+                  vue.createVNode("span", { class: "line-number" }, "6"),
+                  vue.createVNode("br"),
+                  vue.createVNode("span", { class: "line-number" }, "7"),
+                  vue.createVNode("br"),
+                  vue.createVNode("span", { class: "line-number" }, "8"),
+                  vue.createVNode("br"),
+                  vue.createVNode("span", { class: "line-number" }, "9"),
+                  vue.createVNode("br"),
+                  vue.createVNode("span", { class: "line-number" }, "10"),
+                  vue.createVNode("br"),
+                  vue.createVNode("span", { class: "line-number" }, "11"),
+                  vue.createVNode("br"),
+                  vue.createVNode("span", { class: "line-number" }, "12"),
+                  vue.createVNode("br")
+                ])
+              ])
+            ]),
+            _: 1
+          }),
+          vue.createVNode(_component_CodeGroupItem, { title: "version >= 4.0.0" }, {
+            default: vue.withCtx(() => [
+              vue.createVNode("div", { class: "language-javascript ext-js line-numbers-mode" }, [
+                vue.createVNode("pre", { class: "language-javascript" }, [
+                  vue.createVNode("code", null, [
+                    vue.createVNode("span", { class: "token comment" }, "// webpack.config.js"),
+                    vue.createTextVNode("\n"),
+                    vue.createVNode("span", { class: "token keyword" }, "const"),
+                    vue.createTextVNode(" config "),
+                    vue.createVNode("span", { class: "token operator" }, "="),
+                    vue.createTextVNode(),
+                    vue.createVNode("span", { class: "token punctuation" }, "{"),
+                    vue.createTextVNode("\n  "),
+                    vue.createVNode("span", { class: "token comment" }, "// ..."),
+                    vue.createTextVNode("\n  devServer"),
+                    vue.createVNode("span", { class: "token operator" }, ":"),
+                    vue.createTextVNode(),
+                    vue.createVNode("span", { class: "token punctuation" }, "{"),
+                    vue.createTextVNode("\n    "),
+                    vue.createVNode("span", { class: "token keyword" }, "static"),
+                    vue.createVNode("span", { class: "token operator" }, ":"),
+                    vue.createTextVNode(),
+                    vue.createVNode("span", { class: "token string" }, "'./index.html'"),
+                    vue.createVNode("span", { class: "token punctuation" }, ","),
+                    vue.createTextVNode(),
+                    vue.createVNode("span", { class: "token comment" }, "// \u9759\u6001\u6587\u4EF6\u76EE\u5F55"),
+                    vue.createTextVNode("\n    "),
+                    vue.createVNode("span", { class: "token comment" }, "//compress: true, //\u662F\u5426\u542F\u52A8\u538B\u7F29 gzip"),
+                    vue.createTextVNode("\n    "),
+                    vue.createVNode("span", { class: "token comment" }, "//port: 8080, // \u9ED8\u8BA4\u7AEF\u53E3\u53F7"),
+                    vue.createTextVNode("\n    "),
+                    vue.createVNode("span", { class: "token comment" }, "// open:true  // \u662F\u5426\u81EA\u52A8\u6253\u5F00\u6D4F\u89C8\u5668"),
+                    vue.createTextVNode("\n  "),
+                    vue.createVNode("span", { class: "token punctuation" }, "}"),
+                    vue.createVNode("span", { class: "token punctuation" }, ","),
+                    vue.createTextVNode("\n "),
+                    vue.createVNode("span", { class: "token comment" }, "// ..."),
+                    vue.createTextVNode("\n"),
+                    vue.createVNode("span", { class: "token punctuation" }, "}"),
+                    vue.createTextVNode("\n\n")
+                  ])
+                ]),
+                vue.createVNode("div", { class: "line-numbers" }, [
+                  vue.createVNode("span", { class: "line-number" }, "1"),
+                  vue.createVNode("br"),
+                  vue.createVNode("span", { class: "line-number" }, "2"),
+                  vue.createVNode("br"),
+                  vue.createVNode("span", { class: "line-number" }, "3"),
+                  vue.createVNode("br"),
+                  vue.createVNode("span", { class: "line-number" }, "4"),
+                  vue.createVNode("br"),
+                  vue.createVNode("span", { class: "line-number" }, "5"),
+                  vue.createVNode("br"),
+                  vue.createVNode("span", { class: "line-number" }, "6"),
+                  vue.createVNode("br"),
+                  vue.createVNode("span", { class: "line-number" }, "7"),
+                  vue.createVNode("br"),
+                  vue.createVNode("span", { class: "line-number" }, "8"),
+                  vue.createVNode("br"),
+                  vue.createVNode("span", { class: "line-number" }, "9"),
+                  vue.createVNode("br"),
+                  vue.createVNode("span", { class: "line-number" }, "10"),
+                  vue.createVNode("br"),
+                  vue.createVNode("span", { class: "line-number" }, "11"),
+                  vue.createVNode("br"),
+                  vue.createVNode("span", { class: "line-number" }, "12"),
+                  vue.createVNode("br")
+                ])
+              ])
+            ]),
+            _: 1
+          })
+        ];
+      }
+    }),
+    _: 1
+  }, _parent));
+  _push(`<p>\u4E3A\u4EC0\u4E48\u8981\u914D\u7F6E contentBase \u6216 static \uFF1F</p><p>\u56E0\u4E3A <code>webpack</code> \u5728\u8FDB\u884C\u6253\u5305\u7684\u65F6\u5019\uFF0C\u5BF9\u9759\u6001\u6587\u4EF6\u7684\u5904\u7406\uFF0C\u4F8B\u5982\u56FE\u7247\uFF0C\u90FD\u662F\u76F4\u63A5 copy \u5230 dist \u76EE\u5F55\u4E0B\u9762\u3002\u4F46\u662F\u5BF9\u4E8E\u672C\u5730\u5F00\u53D1\u6765\u8BF4\uFF0C\u8FD9\u4E2A\u8FC7\u7A0B\u592A\u8D39\u65F6\uFF0C\u4E5F\u6CA1\u6709\u5FC5\u8981\uFF0C\u6240\u4EE5\u5728\u8BBE\u7F6E <code>contentBase</code> \u4E4B\u540E\uFF0C\u5C31\u76F4\u63A5\u5230\u5BF9\u5E94\u7684\u9759\u6001\u76EE\u5F55\u4E0B\u9762\u53BB\u8BFB\u53D6\u6587\u4EF6\uFF0C\u800C\u4E0D\u9700\u5BF9\u6587\u4EF6\u505A\u4EFB\u4F55\u79FB\u52A8\uFF0C\u8282\u7701\u4E86\u65F6\u95F4\u548C\u6027\u80FD\u5F00\u9500\u3002</p><!--]-->`);
 }
 const _sfc_setup$g = _sfc_main$g.setup;
 _sfc_main$g.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/webpack/webpack\u4ECB\u7ECD.html.vue");
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/webpack/webpack.html.vue");
   return _sfc_setup$g ? _sfc_setup$g(props, ctx) : void 0;
 };
-var webpack___html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$g, [["ssrRender", _sfc_ssrRender$2]]);
-var webpack___html$2 = /* @__PURE__ */ Object.freeze({
+var webpack_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$g, [["ssrRender", _sfc_ssrRender$2]]);
+var webpack_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  "default": webpack___html$1
+  "default": webpack_html$1
 });
 const _sfc_main$f = {};
 function _sfc_ssrRender$1(_ctx, _push, _parent, _attrs) {
@@ -4844,48 +5521,6 @@ var text_html$1 = /* @__PURE__ */ Object.freeze({
   data: data$d
 });
 const data$c = {
-  "key": "v-9b98914c",
-  "path": "/guide/%E9%9A%8F%E7%AC%94/text.html",
-  "title": "1a",
-  "lang": "zh-CN",
-  "frontmatter": {
-    "lang": "zh-CN",
-    "title": "1a",
-    "description": "12a"
-  },
-  "excerpt": "",
-  "headers": [
-    {
-      "level": 2,
-      "title": "3",
-      "slug": "_3",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "4",
-      "slug": "_4",
-      "children": []
-    }
-  ],
-  "git": {
-    "updatedTime": 1640251957e3,
-    "contributors": [
-      {
-        "name": "\u9648\u67D2",
-        "email": "3062995371@qq.com",
-        "commits": 1
-      }
-    ]
-  },
-  "filePathRelative": "guide/\u968F\u7B14/text.md"
-};
-var text_html = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  data: data$c
-});
-const data$b = {
   "key": "v-796e15ea",
   "path": "/guide/%E9%9D%A2%E8%AF%95/interview.html",
   "title": "\u9762\u8BD5\u96C6\u9526",
@@ -4971,6 +5606,48 @@ const data$b = {
   "filePathRelative": "guide/\u9762\u8BD5/interview.md"
 };
 var interview_html = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  data: data$c
+});
+const data$b = {
+  "key": "v-9b98914c",
+  "path": "/guide/%E9%9A%8F%E7%AC%94/text.html",
+  "title": "1a",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "lang": "zh-CN",
+    "title": "1a",
+    "description": "12a"
+  },
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 2,
+      "title": "3",
+      "slug": "_3",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "4",
+      "slug": "_4",
+      "children": []
+    }
+  ],
+  "git": {
+    "updatedTime": 1640251957e3,
+    "contributors": [
+      {
+        "name": "\u9648\u67D2",
+        "email": "3062995371@qq.com",
+        "commits": 1
+      }
+    ]
+  },
+  "filePathRelative": "guide/\u968F\u7B14/text.md"
+};
+var text_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   data: data$b
@@ -5179,6 +5856,24 @@ const data$7 = {
           "level": 3,
           "title": "Object.prototype.valueOf()",
           "slug": "object-prototype-valueof",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Object.prototype.toString()",
+          "slug": "object-prototype-tostring",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Object.prototype.toLocaleString()",
+          "slug": "object-prototype-tolocalestring",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Object.prototype.hasOwnProperty()",
+          "slug": "object-prototype-hasownproperty",
           "children": []
         }
       ]
@@ -5509,12 +6204,12 @@ const data$4 = {
     }
   ],
   "git": {
-    "updatedTime": 1641363782e3,
+    "updatedTime": 1641553252e3,
     "contributors": [
       {
         "name": "540765",
         "email": "3062995371@qq.com",
-        "commits": 1
+        "commits": 2
       },
       {
         "name": "\u9648\u67D2",
@@ -5575,12 +6270,12 @@ const data$3 = {
     }
   ],
   "git": {
-    "updatedTime": 1641466884e3,
+    "updatedTime": 1641553252e3,
     "contributors": [
       {
         "name": "540765",
         "email": "3062995371@qq.com",
-        "commits": 2
+        "commits": 3
       }
     ]
   },
@@ -5634,8 +6329,8 @@ var text2_html = /* @__PURE__ */ Object.freeze({
   data: data$2
 });
 const data$1 = {
-  "key": "v-01e9cc1d",
-  "path": "/web/webpack/webpack%E4%BB%8B%E7%BB%8D.html",
+  "key": "v-58f4867c",
+  "path": "/web/webpack/webpack.html",
   "title": "webpack\u4ECB\u7ECD",
   "lang": "zh-CN",
   "frontmatter": {
@@ -5646,24 +6341,67 @@ const data$1 = {
   "headers": [
     {
       "level": 2,
-      "title": "webpack\u5751",
-      "slug": "webpack\u5751",
+      "title": "webpack\u5165\u5751",
+      "slug": "webpack\u5165\u5751",
       "children": []
     },
     {
       "level": 2,
-      "title": "webpack\u5751",
-      "slug": "webpack\u5751-1",
-      "children": []
+      "title": "webpack\u57FA\u7840",
+      "slug": "webpack\u57FA\u7840",
+      "children": [
+        {
+          "level": 3,
+          "title": "\u5FEB\u901F\u4E0A\u624B",
+          "slug": "\u5FEB\u901F\u4E0A\u624B",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u914D\u7F6E\u6587\u4EF6",
+          "slug": "\u914D\u7F6E\u6587\u4EF6",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Loader",
+          "slug": "loader",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u63D2\u4EF6\uFF08plugin\uFF09",
+          "slug": "\u63D2\u4EF6-plugin",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u81EA\u52A8\u6E05\u7A7A\u6253\u5305\u76EE\u5F55",
+          "slug": "\u81EA\u52A8\u6E05\u7A7A\u6253\u5305\u76EE\u5F55",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u533A\u5206\u73AF\u5883",
+          "slug": "\u533A\u5206\u73AF\u5883",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u4F7F\u7528devServer",
+          "slug": "\u4F7F\u7528devserver",
+          "children": []
+        }
+      ]
     }
   ],
   "git": {
     "updatedTime": null,
     "contributors": []
   },
-  "filePathRelative": "web/webpack/webpack\u4ECB\u7ECD.md"
+  "filePathRelative": "web/webpack/webpack.md"
 };
-var webpack___html = /* @__PURE__ */ Object.freeze({
+var webpack_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   data: data$1
