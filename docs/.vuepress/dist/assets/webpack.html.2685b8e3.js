@@ -66,8 +66,14 @@ const data = {
     }
   ],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1641725962e3,
+    "contributors": [
+      {
+        "name": "540765",
+        "email": "3062995371@qq.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "web/webpack/webpack.md"
 };

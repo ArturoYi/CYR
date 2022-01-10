@@ -13,8 +13,8 @@ const data = {
   "headers": [
     {
       "level": 2,
-      "title": "Object \u5BF9\u8C61",
-      "slug": "object-\u5BF9\u8C61",
+      "title": "\u4E00\u3001Object \u5BF9\u8C61",
+      "slug": "\u4E00\u3001object-\u5BF9\u8C61",
       "children": []
     },
     {
@@ -84,20 +84,45 @@ const data = {
           "children": []
         }
       ]
+    },
+    {
+      "level": 2,
+      "title": "\u4E8C\u3001\u5C5E\u6027\u63CF\u8FF0\u5BF9\u8C61",
+      "slug": "\u4E8C\u3001\u5C5E\u6027\u63CF\u8FF0\u5BF9\u8C61",
+      "children": [
+        {
+          "level": 3,
+          "title": "Object.getOwnPropertyDescriptor()",
+          "slug": "object-getownpropertydescriptor",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Object.getOwnPropertyNames()",
+          "slug": "object-getownpropertynames-1",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Object.defineProperty()\uFF0CObject.defineProperties()",
+          "slug": "object-defineproperty-object-defineproperties",
+          "children": []
+        }
+      ]
     }
   ],
   "git": {
-    "updatedTime": 1641363782e3,
+    "updatedTime": 1641725962e3,
     "contributors": [
       {
-        "name": "\u9648\u67D2",
+        "name": "540765",
         "email": "3062995371@qq.com",
         "commits": 2
       },
       {
-        "name": "540765",
+        "name": "\u9648\u67D2",
         "email": "3062995371@qq.com",
-        "commits": 1
+        "commits": 2
       }
     ]
   },

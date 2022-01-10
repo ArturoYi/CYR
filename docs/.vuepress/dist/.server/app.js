@@ -1204,8 +1204,8 @@ const searchIndex$1 = [
     "headers": [
       {
         "level": 2,
-        "title": "Object \u5BF9\u8C61",
-        "slug": "object-\u5BF9\u8C61",
+        "title": "\u4E00\u3001Object \u5BF9\u8C61",
+        "slug": "\u4E00\u3001object-\u5BF9\u8C61",
         "children": []
       },
       {
@@ -1272,6 +1272,31 @@ const searchIndex$1 = [
             "level": 3,
             "title": "Object.prototype.hasOwnProperty()",
             "slug": "object-prototype-hasownproperty",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "\u4E8C\u3001\u5C5E\u6027\u63CF\u8FF0\u5BF9\u8C61",
+        "slug": "\u4E8C\u3001\u5C5E\u6027\u63CF\u8FF0\u5BF9\u8C61",
+        "children": [
+          {
+            "level": 3,
+            "title": "Object.getOwnPropertyDescriptor()",
+            "slug": "object-getownpropertydescriptor",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Object.getOwnPropertyNames()",
+            "slug": "object-getownpropertynames-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Object.defineProperty()\uFF0CObject.defineProperties()",
+            "slug": "object-defineproperty-object-defineproperties",
             "children": []
           }
         ]
@@ -3367,7 +3392,7 @@ var _____html$8 = /* @__PURE__ */ Object.freeze({
 const _sfc_main$m = {};
 function _sfc_ssrRender$8(_ctx, _push, _parent, _attrs) {
   const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
-  _push(`<!--[--><h1 id="\u5185\u7F6E\u5BF9\u8C61" tabindex="-1"><a class="header-anchor" href="#\u5185\u7F6E\u5BF9\u8C61" aria-hidden="true">#</a> \u5185\u7F6E\u5BF9\u8C61</h1><h2 id="object-\u5BF9\u8C61" tabindex="-1"><a class="header-anchor" href="#object-\u5BF9\u8C61" aria-hidden="true">#</a> Object \u5BF9\u8C61</h2><p>JavaScript \u539F\u751F\u63D0\u4F9B<code>Object</code>\u5BF9\u8C61\uFF08\u6CE8\u610F\u8D77\u9996\u7684<code>O</code>\u662F\u5927\u5199\uFF09,JavaScript \u7684\u6240\u6709\u5176\u4ED6\u5BF9\u8C61\u90FD\u7EE7\u627F\u81EA<code>Object</code>\u5BF9\u8C61\uFF0C\u5373\u90A3\u4E9B\u5BF9\u8C61\u90FD\u662F<code>Object</code>\u7684\u5B9E\u4F8B\u3002</p><p><code>Object</code>\u5BF9\u8C61\u7684\u539F\u751F\u65B9\u6CD5\u5206\u6210\u4E24\u7C7B\uFF1A<code>Object</code>\u672C\u8EAB\u7684\u65B9\u6CD5\u4E0E<code>Object</code>\u7684\u5B9E\u4F8B\u65B9\u6CD5\u3002</p><ol><li><code>Object</code>\u5BF9\u8C61\u672C\u8EAB\u7684\u65B9\u6CD5</li></ol><p>\u6240\u8C13\u201C\u672C\u8EAB\u7684\u65B9\u6CD5\u201D\u5C31\u662F\u76F4\u63A5\u5B9A\u4E49\u5728<code>Object</code>\u5BF9\u8C61\u7684\u65B9\u6CD5\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code>Object<span class="token punctuation">.</span><span class="token function-variable function">print</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">o</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>o<span class="token punctuation">)</span> <span class="token punctuation">}</span><span class="token punctuation">;</span>
+  _push(`<!--[--><h1 id="\u5185\u7F6E\u5BF9\u8C61" tabindex="-1"><a class="header-anchor" href="#\u5185\u7F6E\u5BF9\u8C61" aria-hidden="true">#</a> \u5185\u7F6E\u5BF9\u8C61</h1><h2 id="\u4E00\u3001object-\u5BF9\u8C61" tabindex="-1"><a class="header-anchor" href="#\u4E00\u3001object-\u5BF9\u8C61" aria-hidden="true">#</a> \u4E00\u3001Object \u5BF9\u8C61</h2><p>JavaScript \u539F\u751F\u63D0\u4F9B<code>Object</code>\u5BF9\u8C61\uFF08\u6CE8\u610F\u8D77\u9996\u7684<code>O</code>\u662F\u5927\u5199\uFF09,JavaScript \u7684\u6240\u6709\u5176\u4ED6\u5BF9\u8C61\u90FD\u7EE7\u627F\u81EA<code>Object</code>\u5BF9\u8C61\uFF0C\u5373\u90A3\u4E9B\u5BF9\u8C61\u90FD\u662F<code>Object</code>\u7684\u5B9E\u4F8B\u3002</p><p><code>Object</code>\u5BF9\u8C61\u7684\u539F\u751F\u65B9\u6CD5\u5206\u6210\u4E24\u7C7B\uFF1A<code>Object</code>\u672C\u8EAB\u7684\u65B9\u6CD5\u4E0E<code>Object</code>\u7684\u5B9E\u4F8B\u65B9\u6CD5\u3002</p><ol><li><code>Object</code>\u5BF9\u8C61\u672C\u8EAB\u7684\u65B9\u6CD5</li></ol><p>\u6240\u8C13\u201C\u672C\u8EAB\u7684\u65B9\u6CD5\u201D\u5C31\u662F\u76F4\u63A5\u5B9A\u4E49\u5728<code>Object</code>\u5BF9\u8C61\u7684\u65B9\u6CD5\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code>Object<span class="token punctuation">.</span><span class="token function-variable function">print</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">o</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>o<span class="token punctuation">)</span> <span class="token punctuation">}</span><span class="token punctuation">;</span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><ol start="2"><li><code>Object</code>\u7684\u5B9E\u4F8B\u65B9\u6CD5</li></ol><p>\u6240\u8C13\u5B9E\u4F8B\u65B9\u6CD5\u5C31\u662F\u5B9A\u4E49\u5728<code>Object</code>\u539F\u578B\u5BF9\u8C61<code>Object.prototype</code>\u4E0A\u7684\u65B9\u6CD5\u3002\u5B83\u53EF\u4EE5\u88AB<code>Object</code>\u5B9E\u4F8B\u76F4\u63A5\u4F7F\u7528\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token class-name">Object</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function-variable function">print</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span><span class="token punctuation">;</span>
@@ -3542,7 +3567,105 @@ person<span class="token punctuation">.</span><span class="token function">toLoc
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><p>\u4E0A\u9762\u4EE3\u7801\u4E2D\uFF0C<code>toString()</code>\u65B9\u6CD5\u8FD4\u56DE\u5BF9\u8C61\u7684\u4E00\u822C\u5B57\u7B26\u4E32\u5F62\u5F0F\uFF0C<code>toLocaleString()</code>\u65B9\u6CD5\u8FD4\u56DE\u672C\u5730\u7684\u5B57\u7B26\u4E32\u5F62\u5F0F\u3002</p><p>\u76EE\u524D\uFF0C\u4E3B\u8981\u6709\u4E09\u4E2A\u5BF9\u8C61\u81EA\u5B9A\u4E49\u4E86<code>toLocaleString</code>\u65B9\u6CD5\u3002</p><ul><li>Array.prototype.toLocaleString()</li><li>Number.prototype.toLocaleString()</li><li>Date.prototype.toLocaleString()</li></ul><p>\u4E3E\u4F8B\u6765\u8BF4\uFF0C\u65E5\u671F\u7684\u5B9E\u4F8B\u5BF9\u8C61\u7684<code>toString</code>\u548C<code>toLocaleString</code>\u8FD4\u56DE\u503C\u5C31\u4E0D\u4E00\u6837\uFF0C\u800C\u4E14<code>toLocaleString</code>\u7684\u8FD4\u56DE\u503C\u8DDF\u7528\u6237\u8BBE\u5B9A\u7684\u6240\u5728\u5730\u57DF\u76F8\u5173\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">var</span> date <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Date</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 date<span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">// &quot;Tue Jan 01 2018 12:01:33 GMT+0800 (CST)&quot;</span>
 date<span class="token punctuation">.</span><span class="token function">toLocaleString</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">// &quot;1/01/2018, 12:01:33 PM&quot;</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h3 id="object-prototype-hasownproperty" tabindex="-1"><a class="header-anchor" href="#object-prototype-hasownproperty" aria-hidden="true">#</a> Object.prototype.hasOwnProperty()</h3><!--]-->`);
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h3 id="object-prototype-hasownproperty" tabindex="-1"><a class="header-anchor" href="#object-prototype-hasownproperty" aria-hidden="true">#</a> Object.prototype.hasOwnProperty()</h3><p><code>Object.prototype.hasOwnProperty</code>\u65B9\u6CD5\u63A5\u53D7\u4E00\u4E2A\u5B57\u7B26\u4E32\u4F5C\u4E3A\u53C2\u6570\uFF0C\u8FD4\u56DE\u4E00\u4E2A\u5E03\u5C14\u503C\uFF0C\u8868\u793A\u8BE5\u5B9E\u4F8B\u5BF9\u8C61\u81EA\u8EAB\u662F\u5426\u5177\u6709\u8BE5\u5C5E\u6027\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">var</span> obj <span class="token operator">=</span> <span class="token punctuation">{</span>
+  p<span class="token operator">:</span> <span class="token number">123</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+obj<span class="token punctuation">.</span><span class="token function">hasOwnProperty</span><span class="token punctuation">(</span><span class="token string">&#39;p&#39;</span><span class="token punctuation">)</span> <span class="token comment">// true</span>
+obj<span class="token punctuation">.</span><span class="token function">hasOwnProperty</span><span class="token punctuation">(</span><span class="token string">&#39;toString&#39;</span><span class="token punctuation">)</span> <span class="token comment">// false</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><h2 id="\u4E8C\u3001\u5C5E\u6027\u63CF\u8FF0\u5BF9\u8C61" tabindex="-1"><a class="header-anchor" href="#\u4E8C\u3001\u5C5E\u6027\u63CF\u8FF0\u5BF9\u8C61" aria-hidden="true">#</a> \u4E8C\u3001\u5C5E\u6027\u63CF\u8FF0\u5BF9\u8C61</h2><p>JavaScript \u63D0\u4F9B\u4E86\u4E00\u4E2A\u5185\u90E8\u6570\u636E\u7ED3\u6784\uFF0C\u7528\u6765\u63CF\u8FF0\u5BF9\u8C61\u7684\u5C5E\u6027\uFF0C\u63A7\u5236\u5B83\u7684\u884C\u4E3A\uFF0C\u6BD4\u5982\u8BE5\u5C5E\u6027\u662F\u5426\u53EF\u5199\u3001\u53EF\u904D\u5386\u7B49\u7B49\u3002\u8FD9\u4E2A\u5185\u90E8\u6570\u636E\u7ED3\u6784\u79F0\u4E3A\u201C\u5C5E\u6027\u63CF\u8FF0\u5BF9\u8C61\u201D\uFF08<code>attributes object</code>\uFF09\u3002\u6BCF\u4E2A\u5C5E\u6027\u90FD\u6709\u81EA\u5DF1\u5BF9\u5E94\u7684\u5C5E\u6027\u63CF\u8FF0\u5BF9\u8C61\uFF0C\u4FDD\u5B58\u8BE5\u5C5E\u6027\u7684\u4E00\u4E9B\u5143\u4FE1\u606F\u3002</p><p>\u4E0B\u9762\u662F\u5C5E\u6027\u63CF\u8FF0\u5BF9\u8C61\u7684\u4E00\u4E2A\u4F8B\u5B50\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token punctuation">{</span>
+  value<span class="token operator">:</span> <span class="token number">123</span><span class="token punctuation">,</span>
+  writable<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+  enumerable<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+  configurable<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+  get<span class="token operator">:</span> <span class="token keyword">undefined</span><span class="token punctuation">,</span>
+  set<span class="token operator">:</span> <span class="token keyword">undefined</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><p><strong>\uFF081\uFF09</strong><code>value</code></p><p><code>value</code>\u662F\u8BE5\u5C5E\u6027\u7684\u5C5E\u6027\u503C\uFF0C\u9ED8\u8BA4\u4E3A<code>undefined</code>\u3002</p><p><strong>\uFF082\uFF09</strong><code>writable</code></p><p><code>writable</code>\u662F\u4E00\u4E2A\u5E03\u5C14\u503C\uFF0C\u8868\u793A\u5C5E\u6027\u503C<code>\uFF08value\uFF09</code>\u662F\u5426\u53EF\u6539\u53D8\uFF08\u5373\u662F\u5426\u53EF\u5199\uFF09\uFF0C\u9ED8\u8BA4\u4E3A<code>true</code>\u3002</p><p><strong>\uFF083\uFF09</strong><code>enumerable</code></p><p><code>enumerable</code>\u662F\u4E00\u4E2A\u5E03\u5C14\u503C\uFF0C\u8868\u793A\u8BE5\u5C5E\u6027\u662F\u5426\u53EF\u904D\u5386\uFF0C\u9ED8\u8BA4\u4E3A<code>true</code>\u3002\u5982\u679C\u8BBE\u4E3A<code>false</code>\uFF0C\u4F1A\u4F7F\u5F97\u67D0\u4E9B\u64CD\u4F5C\uFF08\u6BD4\u5982<code>for...in\u5FAA\u73AF</code>\u3001<code>Object.keys()</code>\uFF09\u8DF3\u8FC7\u8BE5\u5C5E\u6027\u3002</p><p><strong>\uFF084\uFF09</strong><code>configurable</code></p><p><code>configurable</code>\u662F\u4E00\u4E2A\u5E03\u5C14\u503C\uFF0C\u8868\u793A\u5C5E\u6027\u7684\u53EF\u914D\u7F6E\u6027\uFF0C\u9ED8\u8BA4\u4E3A<code>true</code>\u3002\u5982\u679C\u8BBE\u4E3A<code>false</code>\uFF0C\u5C06\u963B\u6B62\u67D0\u4E9B\u64CD\u4F5C\u6539\u5199\u5C5E\u6027\u63CF\u8FF0\u5BF9\u8C61\uFF0C\u6BD4\u5982\u65E0\u6CD5\u5220\u9664\u8BE5\u5C5E\u6027\uFF0C\u4E5F\u4E0D\u5F97\u6539\u53D8\u5404\u79CD\u5143\u5C5E\u6027\uFF08<code>value</code>\u5C5E\u6027\u9664\u5916\uFF09\u3002\u4E5F\u5C31\u662F\u8BF4\uFF0C<code>configurable</code>\u5C5E\u6027\u63A7\u5236\u4E86\u5C5E\u6027\u63CF\u8FF0\u5BF9\u8C61\u7684\u53EF\u5199\u6027\u3002</p><p><strong>\uFF085\uFF09</strong><code>get</code></p><p><code>get</code>\u662F\u4E00\u4E2A\u51FD\u6570\uFF0C\u8868\u793A\u8BE5\u5C5E\u6027\u7684\u53D6\u503C\u51FD\u6570\uFF08<code>getter</code>\uFF09\uFF0C\u9ED8\u8BA4\u4E3A<code>undefined</code>\u3002</p><p><strong>\uFF086\uFF09</strong><code>set</code></p><p><code>set</code>\u662F\u4E00\u4E2A\u51FD\u6570\uFF0C\u8868\u793A\u8BE5\u5C5E\u6027\u7684\u5B58\u503C\u51FD\u6570\uFF08<code>setter</code>\uFF09\uFF0C\u9ED8\u8BA4\u4E3A<code>undefined</code>\u3002</p><h3 id="object-getownpropertydescriptor" tabindex="-1"><a class="header-anchor" href="#object-getownpropertydescriptor" aria-hidden="true">#</a> Object.getOwnPropertyDescriptor()</h3><p><code>Object.getOwnPropertyDescriptor()</code>\u65B9\u6CD5\u53EF\u4EE5\u83B7\u53D6\u5C5E\u6027\u63CF\u8FF0\u5BF9\u8C61\u3002\u5B83\u7684\u7B2C\u4E00\u4E2A\u53C2\u6570\u662F\u76EE\u6807\u5BF9\u8C61\uFF0C\u7B2C\u4E8C\u4E2A\u53C2\u6570\u662F\u4E00\u4E2A\u5B57\u7B26\u4E32\uFF0C\u5BF9\u5E94\u76EE\u6807\u5BF9\u8C61\u7684\u67D0\u4E2A\u5C5E\u6027\u540D\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">var</span> obj <span class="token operator">=</span> <span class="token punctuation">{</span> p<span class="token operator">:</span> <span class="token string">&#39;a&#39;</span> <span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>Object<span class="token punctuation">.</span><span class="token function">getOwnPropertyDescriptor</span><span class="token punctuation">(</span>obj<span class="token punctuation">,</span> <span class="token string">&#39;p&#39;</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token comment">// Object { value: &quot;a&quot;,//\u5C5E\u6027\u503C&#39;a&#39;</span>
+<span class="token comment">//   writable: true,// \u5C5E\u6027\u503C&#39;a&#39; \u53EF\u6539\u5199</span>
+<span class="token comment">//   enumerable: true, // &#39;p&#39;\u5C5E\u6027\u53EF\u88AB\u904D\u5386</span>
+<span class="token comment">//   configurable: true// \u5C5E\u6027\u63CF\u8FF0\u5BF9\u8C61\u7684\u53EF\u914D\u7F6E\u6027</span>
+<span class="token comment">// }</span>
+
+<span class="token comment">// getOwnPropertyDescriptor \u4E2D\u6587\u542B\u4E49\uFF1A\u83B7\u53D6\u81EA\u5DF1\u7684\u5C5E\u6027\u63CF\u8FF0\u7B26</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><p>\u4E0A\u9762\u4EE3\u7801\u4E2D\uFF0C<code>Object.getOwnPropertyDescriptor()</code>\u65B9\u6CD5\u83B7\u53D6<code>obj.p</code>\u7684\u5C5E\u6027\u63CF\u8FF0\u5BF9\u8C61\u3002</p><blockquote><p>\u6CE8\u610F\uFF0C<code>Object.getOwnPropertyDescriptor()</code>\u65B9\u6CD5\u53EA\u80FD\u7528\u4E8E\u5BF9\u8C61\u81EA\u8EAB\u7684\u5C5E\u6027\uFF0C\u4E0D\u80FD\u7528\u4E8E\u7EE7\u627F\u7684\u5C5E\u6027\u3002</p></blockquote><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">var</span> obj <span class="token operator">=</span> <span class="token punctuation">{</span> p<span class="token operator">:</span> <span class="token string">&#39;a&#39;</span> <span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+Object<span class="token punctuation">.</span><span class="token function">getOwnPropertyDescriptor</span><span class="token punctuation">(</span>obj<span class="token punctuation">,</span> <span class="token string">&#39;toString&#39;</span><span class="token punctuation">)</span>
+<span class="token comment">// undefined</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>\u4E0A\u9762\u4EE3\u7801\u4E2D\uFF0C<code>toString</code>\u662F<code>obj</code>\u5BF9\u8C61\u7EE7\u627F\u7684\u5C5E\u6027\uFF0C<code>Object.getOwnPropertyDescriptor()</code>\u65E0\u6CD5\u83B7\u53D6\u3002</p><h3 id="object-getownpropertynames-1" tabindex="-1"><a class="header-anchor" href="#object-getownpropertynames-1" aria-hidden="true">#</a> Object.getOwnPropertyNames()</h3><p><code>Object.getOwnPropertyNames</code>\u65B9\u6CD5\u8FD4\u56DE\u4E00\u4E2A\u6570\u7EC4\uFF0C\u6210\u5458\u662F\u53C2\u6570\u5BF9\u8C61\u81EA\u8EAB\u7684\u5168\u90E8\u5C5E\u6027\u7684\u5C5E\u6027\u540D\uFF0C\u4E0D\u7BA1\u8BE5\u5C5E\u6027\u662F\u5426\u53EF\u904D\u5386\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">var</span> obj <span class="token operator">=</span> Object<span class="token punctuation">.</span><span class="token function">defineProperties</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+  p1<span class="token operator">:</span> <span class="token punctuation">{</span> value<span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span> enumerable<span class="token operator">:</span> <span class="token boolean">true</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  p2<span class="token operator">:</span> <span class="token punctuation">{</span> value<span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">,</span> enumerable<span class="token operator">:</span> <span class="token boolean">false</span> <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+Object<span class="token punctuation">.</span><span class="token function">getOwnPropertyNames</span><span class="token punctuation">(</span>obj<span class="token punctuation">)</span>
+<span class="token comment">// [&quot;p1&quot;, &quot;p2&quot;]</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><p>\u4E0A\u9762\u4EE3\u7801\u4E2D\uFF0C<code>obj.p1</code>\u662F\u53EF\u904D\u5386\u7684\uFF0C<code>obj.p2</code>\u662F\u4E0D\u53EF\u904D\u5386\u7684\u3002<code>Object.getOwnPropertyNames</code>\u4F1A\u5C06\u5B83\u4EEC\u90FD\u8FD4\u56DE\u3002</p><p>\u8FD9\u8DDF<code>Object.keys</code>\u7684\u884C\u4E3A\u4E0D\u540C\uFF0C<code>Object.keys</code>\u53EA\u8FD4\u56DE\u5BF9\u8C61\u81EA\u8EAB\u7684\u53EF\u904D\u5386\u5C5E\u6027\u7684\u5168\u90E8\u5C5E\u6027\u540D\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code>Object<span class="token punctuation">.</span><span class="token function">keys</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token comment">// []</span>
+Object<span class="token punctuation">.</span><span class="token function">getOwnPropertyNames</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token comment">// [ &#39;length&#39; ]</span>
+
+Object<span class="token punctuation">.</span><span class="token function">keys</span><span class="token punctuation">(</span><span class="token class-name">Object</span><span class="token punctuation">.</span>prototype<span class="token punctuation">)</span> <span class="token comment">// []</span>
+Object<span class="token punctuation">.</span><span class="token function">getOwnPropertyNames</span><span class="token punctuation">(</span><span class="token class-name">Object</span><span class="token punctuation">.</span>prototype<span class="token punctuation">)</span>
+<span class="token comment">// [&#39;hasOwnProperty&#39;,</span>
+<span class="token comment">//  &#39;valueOf&#39;,</span>
+<span class="token comment">//  &#39;constructor&#39;,</span>
+<span class="token comment">//  &#39;toLocaleString&#39;,</span>
+<span class="token comment">//  &#39;isPrototypeOf&#39;,</span>
+<span class="token comment">//  &#39;propertyIsEnumerable&#39;,</span>
+<span class="token comment">//  &#39;toString&#39;]</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><p>\u4E0A\u9762\u4EE3\u7801\u4E2D\uFF0C\u6570\u7EC4\u81EA\u8EAB\u7684<code>length</code>\u5C5E\u6027\u662F\u4E0D\u53EF\u904D\u5386\u7684\uFF0C<code>Object.keys</code>\u4E0D\u4F1A\u8FD4\u56DE\u8BE5\u5C5E\u6027\u3002\u7B2C\u4E8C\u4E2A\u4F8B\u5B50\u7684<code>Object.prototype</code>\u4E5F\u662F\u4E00\u4E2A\u5BF9\u8C61\uFF0C\u6240\u6709\u5B9E\u4F8B\u5BF9\u8C61\u90FD\u4F1A\u7EE7\u627F\u5B83\uFF0C\u5B83\u81EA\u8EAB\u7684\u5C5E\u6027\u90FD\u662F\u4E0D\u53EF\u904D\u5386\u7684\u3002</p><h3 id="object-defineproperty-object-defineproperties" tabindex="-1"><a class="header-anchor" href="#object-defineproperty-object-defineproperties" aria-hidden="true">#</a> Object.defineProperty()\uFF0CObject.defineProperties()</h3><p><code>Object.defineProperty()</code>\u65B9\u6CD5\u5141\u8BB8\u901A\u8FC7\u5C5E\u6027\u63CF\u8FF0\u5BF9\u8C61\uFF0C\u5B9A\u4E49\u6216\u4FEE\u6539\u4E00\u4E2A\u5C5E\u6027\uFF0C\u7136\u540E\u8FD4\u56DE\u4FEE\u6539\u540E\u7684\u5BF9\u8C61\uFF0C\u5B83\u7684\u7528\u6CD5\u5982\u4E0B\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code>Object<span class="token punctuation">.</span><span class="token function">defineProperty</span><span class="token punctuation">(</span>object<span class="token punctuation">,</span> propertyName<span class="token punctuation">,</span> attributesObject<span class="token punctuation">)</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p><code>Object.defineProperty</code>\u65B9\u6CD5\u63A5\u53D7\u4E09\u4E2A\u53C2\u6570\uFF0C\u4F9D\u6B21\u5982\u4E0B\u3002</p><ul><li><code>object</code>\uFF1A\u5C5E\u6027\u6240\u5728\u7684\u5BF9\u8C61</li><li><code>propertyName</code>\uFF1A\u5B57\u7B26\u4E32\uFF0C\u8868\u793A\u5C5E\u6027\u540D</li><li><code>attributesObject</code>\uFF1A\u5C5E\u6027\u63CF\u8FF0\u5BF9\u8C61</li></ul><p>\u4E3E\u4F8B\u6765\u8BF4\uFF0C\u5B9A\u4E49<code>obj.p</code>\u53EF\u4EE5\u5199\u6210\u4E0B\u9762\u8FD9\u6837\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">var</span> obj <span class="token operator">=</span> Object<span class="token punctuation">.</span><span class="token function">defineProperty</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token string">&#39;p&#39;</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+  value<span class="token operator">:</span> <span class="token number">123</span><span class="token punctuation">,</span>
+  writable<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+  enumerable<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+  configurable<span class="token operator">:</span> <span class="token boolean">false</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+obj<span class="token punctuation">.</span>p <span class="token comment">// 123</span>
+
+obj<span class="token punctuation">.</span>p <span class="token operator">=</span> <span class="token number">246</span><span class="token punctuation">;</span>
+obj<span class="token punctuation">.</span>p <span class="token comment">// 123</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><p>\u4E0A\u9762\u4EE3\u7801\u4E2D\uFF0C<code>Object.defineProperty()</code>\u65B9\u6CD5\u5B9A\u4E49\u4E86<code>obj.p</code>\u5C5E\u6027\u3002\u7531\u4E8E\u5C5E\u6027\u63CF\u8FF0\u5BF9\u8C61\u7684<code>writable</code>\u5C5E\u6027\u4E3A<code>false</code>\uFF0C\u6240\u4EE5<code>obj.p</code>\u5C5E\u6027\u4E0D\u53EF\u5199\u3002\u6CE8\u610F\uFF0C\u8FD9\u91CC\u7684<code>Object.defineProperty</code>\u65B9\u6CD5\u7684\u7B2C\u4E00\u4E2A\u53C2\u6570\u662F{}\uFF08\u4E00\u4E2A\u65B0\u5EFA\u7684\u7A7A\u5BF9\u8C61\uFF09\uFF0C<code>p</code>\u5C5E\u6027\u76F4\u63A5\u5B9A\u4E49\u5728\u8FD9\u4E2A\u7A7A\u5BF9\u8C61\u4E0A\u9762\uFF0C\u7136\u540E\u8FD4\u56DE\u8FD9\u4E2A\u5BF9\u8C61\uFF0C\u8FD9\u662F<code>Object.defineProperty()</code>\u7684\u5E38\u89C1\u7528\u6CD5\u3002</p><p>\u5982\u679C\u5C5E\u6027\u5DF2\u7ECF\u5B58\u5728\uFF0C<code>Object.defineProperty()</code>\u65B9\u6CD5\u76F8\u5F53\u4E8E\u66F4\u65B0\u8BE5\u5C5E\u6027\u7684\u5C5E\u6027\u63CF\u8FF0\u5BF9\u8C61\u3002</p><p>\u5982\u679C\u4E00\u6B21\u6027\u5B9A\u4E49\u6216\u4FEE\u6539\u591A\u4E2A\u5C5E\u6027\uFF0C\u53EF\u4EE5\u4F7F\u7528<code>Object.defineProperties()</code>\u65B9\u6CD5\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">var</span> obj <span class="token operator">=</span> Object<span class="token punctuation">.</span><span class="token function">defineProperties</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+  p1<span class="token operator">:</span> <span class="token punctuation">{</span> value<span class="token operator">:</span> <span class="token number">123</span><span class="token punctuation">,</span> enumerable<span class="token operator">:</span> <span class="token boolean">true</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  p2<span class="token operator">:</span> <span class="token punctuation">{</span> value<span class="token operator">:</span> <span class="token string">&#39;abc&#39;</span><span class="token punctuation">,</span> enumerable<span class="token operator">:</span> <span class="token boolean">true</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  p3<span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token function-variable function">get</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span>p1 <span class="token operator">+</span> <span class="token keyword">this</span><span class="token punctuation">.</span>p2 <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    enumerable<span class="token operator">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+    configurable<span class="token operator">:</span><span class="token boolean">true</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+obj<span class="token punctuation">.</span>p1 <span class="token comment">// 123</span>
+obj<span class="token punctuation">.</span>p2 <span class="token comment">// &quot;abc&quot;</span>
+obj<span class="token punctuation">.</span>p3 <span class="token comment">// &quot;123abc&quot;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><p>\u4E0A\u9762\u4EE3\u7801\u4E2D\uFF0C<code>Object.defineProperties()</code>\u540C\u65F6\u5B9A\u4E49\u4E86<code>obj</code>\u5BF9\u8C61\u7684\u4E09\u4E2A\u5C5E\u6027\u3002\u5176\u4E2D\uFF0C<code>p3</code>\u5C5E\u6027\u5B9A\u4E49\u4E86\u53D6\u503C\u51FD\u6570<code>get</code>\uFF0C\u5373\u6BCF\u6B21\u8BFB\u53D6\u8BE5\u5C5E\u6027\uFF0C\u90FD\u4F1A\u8C03\u7528\u8FD9\u4E2A\u53D6\u503C\u51FD\u6570\u3002</p><p>\u6CE8\u610F\uFF0C\u4E00\u65E6\u5B9A\u4E49\u4E86\u53D6\u503C\u51FD\u6570<code>get</code>\uFF08\u6216\u5B58\u503C\u51FD\u6570<code>set</code>\uFF09\uFF0C\u5C31\u4E0D\u80FD\u5C06<code>writable</code>\u5C5E\u6027\u8BBE\u4E3A<code>true</code>\uFF0C\u6216\u8005\u540C\u65F6\u5B9A\u4E49<code>value</code>\u5C5E\u6027\uFF0C\u5426\u5219\u4F1A\u62A5\u9519\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">var</span> obj <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+Object<span class="token punctuation">.</span><span class="token function">defineProperty</span><span class="token punctuation">(</span>obj<span class="token punctuation">,</span> <span class="token string">&#39;p&#39;</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+  value<span class="token operator">:</span> <span class="token number">123</span><span class="token punctuation">,</span>
+  <span class="token function-variable function">get</span><span class="token operator">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token keyword">return</span> <span class="token number">456</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// TypeError: Invalid property.</span>
+<span class="token comment">// A property cannot both have accessors and be writable or have a value</span>
+<span class="token comment">//\u4F46\u662F\uFF1A\u73B0\u5728\u8C37\u6B4C\u6D4F\u89C8\u5668\u8F93\u51FA\u4E3A\uFF1A</span>
+<span class="token comment">//TypeError: Invalid property descriptor.</span>
+<span class="token comment">//Cannot both specify accessors and a value or writable attribute, #&lt;Object&gt;</span>
+
+Object<span class="token punctuation">.</span><span class="token function">defineProperty</span><span class="token punctuation">(</span>obj<span class="token punctuation">,</span> <span class="token string">&#39;p&#39;</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+  writable<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+  <span class="token function-variable function">get</span><span class="token operator">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token keyword">return</span> <span class="token number">456</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// TypeError: Invalid property descriptor.</span>
+<span class="token comment">// Cannot both specify accessors and a value or writable attribute</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br></div></div><p>\u4E0A\u9762\u4EE3\u7801\u4E2D\uFF0C\u540C\u65F6\u5B9A\u4E49\u4E86<code>get</code>\u5C5E\u6027\u548C<code>value</code>\u5C5E\u6027\uFF0C\u4EE5\u53CA\u5C06<code>writable</code>\u5C5E\u6027\u8BBE\u4E3A<code>true</code>\uFF0C\u5C31\u4F1A\u62A5\u9519\u3002</p><p><code>Object.defineProperty()</code>\u548C<code>Object.defineProperties()</code>\u53C2\u6570\u91CC\u9762\u7684\u5C5E\u6027\u63CF\u8FF0\u5BF9\u8C61\uFF0C<code>writable</code>\u3001<code>configurable</code>\u3001<code>enumerable</code>\u8FD9\u4E09\u4E2A\u5C5E\u6027\u7684\u9ED8\u8BA4\u503C\u90FD\u4E3A<code>false</code>\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">var</span> obj <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+Object<span class="token punctuation">.</span><span class="token function">defineProperty</span><span class="token punctuation">(</span>obj<span class="token punctuation">,</span> <span class="token string">&#39;foo&#39;</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+Object<span class="token punctuation">.</span><span class="token function">getOwnPropertyDescriptor</span><span class="token punctuation">(</span>obj<span class="token punctuation">,</span> <span class="token string">&#39;foo&#39;</span><span class="token punctuation">)</span>
+<span class="token comment">// {</span>
+<span class="token comment">//   value: undefined,</span>
+<span class="token comment">//   writable: false,</span>
+<span class="token comment">//   enumerable: false,</span>
+<span class="token comment">//   configurable: false</span>
+<span class="token comment">// }</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><!--]-->`);
 }
 const _sfc_setup$m = _sfc_main$m.setup;
 _sfc_main$m.setup = (props, ctx) => {
@@ -5806,8 +5929,8 @@ const data$7 = {
   "headers": [
     {
       "level": 2,
-      "title": "Object \u5BF9\u8C61",
-      "slug": "object-\u5BF9\u8C61",
+      "title": "\u4E00\u3001Object \u5BF9\u8C61",
+      "slug": "\u4E00\u3001object-\u5BF9\u8C61",
       "children": []
     },
     {
@@ -5877,20 +6000,45 @@ const data$7 = {
           "children": []
         }
       ]
+    },
+    {
+      "level": 2,
+      "title": "\u4E8C\u3001\u5C5E\u6027\u63CF\u8FF0\u5BF9\u8C61",
+      "slug": "\u4E8C\u3001\u5C5E\u6027\u63CF\u8FF0\u5BF9\u8C61",
+      "children": [
+        {
+          "level": 3,
+          "title": "Object.getOwnPropertyDescriptor()",
+          "slug": "object-getownpropertydescriptor",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Object.getOwnPropertyNames()",
+          "slug": "object-getownpropertynames-1",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Object.defineProperty()\uFF0CObject.defineProperties()",
+          "slug": "object-defineproperty-object-defineproperties",
+          "children": []
+        }
+      ]
     }
   ],
   "git": {
-    "updatedTime": 1641363782e3,
+    "updatedTime": 1641725962e3,
     "contributors": [
       {
-        "name": "\u9648\u67D2",
+        "name": "540765",
         "email": "3062995371@qq.com",
         "commits": 2
       },
       {
-        "name": "540765",
+        "name": "\u9648\u67D2",
         "email": "3062995371@qq.com",
-        "commits": 1
+        "commits": 2
       }
     ]
   },
@@ -6396,8 +6544,14 @@ const data$1 = {
     }
   ],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1641725962e3,
+    "contributors": [
+      {
+        "name": "540765",
+        "email": "3062995371@qq.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "web/webpack/webpack.md"
 };

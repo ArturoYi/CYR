@@ -6929,76 +6929,76 @@ const __vitePreload = function preload(baseModule, deps) {
 const pagesComponents = {
   "v-8daa1a0e": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-8daa1a0e" */
-    "./index.html.7e821412.js"
-  ), true ? ["assets/index.html.7e821412.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./index.html.633f60ed.js"
+  ), true ? ["assets/index.html.633f60ed.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-6886cbbd": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-6886cbbd" */
-    "./elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247.html.fc7644cc.js"
-  ), true ? ["assets/elementui在表格中插入图片.html.fc7644cc.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247.html.c0c287cb.js"
+  ), true ? ["assets/elementui在表格中插入图片.html.c0c287cb.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-b9c2d34a": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-b9c2d34a" */
-    "./index.html.8ae77120.js"
-  ), true ? ["assets/index.html.8ae77120.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./index.html.120c0ba8.js"
+  ), true ? ["assets/index.html.120c0ba8.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-66ff7ae2": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-66ff7ae2" */
-    "./vscode\u5E38\u7528\u63D2\u4EF6.html.3b9768f4.js"
-  ), true ? ["assets/vscode常用插件.html.3b9768f4.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./vscode\u5E38\u7528\u63D2\u4EF6.html.04760af2.js"
+  ), true ? ["assets/vscode常用插件.html.04760af2.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-6e6848ee": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-6e6848ee" */
-    "./text1.html.abe31ae3.js"
-  ), true ? ["assets/text1.html.abe31ae3.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./text1.html.569d96d1.js"
+  ), true ? ["assets/text1.html.569d96d1.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-3803ce0e": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-3803ce0e" */
-    "./text.html.0b1ffa09.js"
-  ), true ? ["assets/text.html.0b1ffa09.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./text.html.cac3be80.js"
+  ), true ? ["assets/text.html.cac3be80.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-796e15ea": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-796e15ea" */
-    "./interview.html.e0dacd18.js"
-  ), true ? ["assets/interview.html.e0dacd18.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./interview.html.b1cffcf2.js"
+  ), true ? ["assets/interview.html.b1cffcf2.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-9b98914c": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-9b98914c" */
-    "./text.html.4688e5eb.js"
-  ), true ? ["assets/text.html.4688e5eb.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./text.html.d20d651d.js"
+  ), true ? ["assets/text.html.d20d651d.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-89e39176": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-89e39176" */
-    "./text1.html.4c4807fe.js"
-  ), true ? ["assets/text1.html.4c4807fe.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./text1.html.93b18bcf.js"
+  ), true ? ["assets/text1.html.93b18bcf.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-8679e038": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-8679e038" */
-    "./text2.html.d7f50630.js"
-  ), true ? ["assets/text2.html.d7f50630.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./text2.html.5b327623.js"
+  ), true ? ["assets/text2.html.5b327623.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-72bd4e03": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-72bd4e03" */
-    "./\u5165\u95E8\u5BFC\u8BBA.html.513e5207.js"
-  ), true ? ["assets/入门导论.html.513e5207.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./\u5165\u95E8\u5BFC\u8BBA.html.a63b4147.js"
+  ), true ? ["assets/入门导论.html.a63b4147.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-783b80d4": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-783b80d4" */
-    "./\u5185\u7F6E\u5BF9\u8C61.html.94a93d90.js"
-  ), true ? ["assets/内置对象.html.94a93d90.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./\u5185\u7F6E\u5BF9\u8C61.html.866a9162.js"
+  ), true ? ["assets/内置对象.html.866a9162.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-5debe7e1": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-5debe7e1" */
-    "./\u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26.html.e2bbf5e0.js"
-  ), true ? ["assets/数据类型与运算符.html.e2bbf5e0.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./\u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26.html.f0584b61.js"
+  ), true ? ["assets/数据类型与运算符.html.f0584b61.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-24f06668": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-24f06668" */
-    "./\u8BED\u6CD5\u57FA\u7840.html.cc0a0895.js"
-  ), true ? ["assets/语法基础.html.cc0a0895.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./\u8BED\u6CD5\u57FA\u7840.html.a2614662.js"
+  ), true ? ["assets/语法基础.html.a2614662.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-e9674cca": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-e9674cca" */
-    "./01.html.5c187199.js"
-  ), true ? ["assets/01.html.5c187199.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./01.html.5fa2f7d4.js"
+  ), true ? ["assets/01.html.5fa2f7d4.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-637b5fd4": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-637b5fd4" */
-    "./02vue\u5B9E\u4F8B.html.769327c0.js"
-  ), true ? ["assets/02vue实例.html.769327c0.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./02vue\u5B9E\u4F8B.html.63763087.js"
+  ), true ? ["assets/02vue实例.html.63763087.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-59222251": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-59222251" */
-    "./text2.html.780a624f.js"
-  ), true ? ["assets/text2.html.780a624f.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./text2.html.6ef2bc69.js"
+  ), true ? ["assets/text2.html.6ef2bc69.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-58f4867c": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-58f4867c" */
-    "./webpack.html.6a1b56c2.js"
-  ), true ? ["assets/webpack.html.6a1b56c2.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./webpack.html.d2cbcb6c.js"
+  ), true ? ["assets/webpack.html.d2cbcb6c.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-3706649a": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-3706649a" */
     "./404.html.bee13de6.js"
@@ -7051,7 +7051,7 @@ const pagesData$1 = {
   ), true ? [] : void 0).then(({ data }) => data),
   "v-783b80d4": () => __vitePreload(() => import(
     /* webpackChunkName: "v-783b80d4" */
-    "./\u5185\u7F6E\u5BF9\u8C61.html.2b13d948.js"
+    "./\u5185\u7F6E\u5BF9\u8C61.html.b5b890cf.js"
   ), true ? [] : void 0).then(({ data }) => data),
   "v-5debe7e1": () => __vitePreload(() => import(
     /* webpackChunkName: "v-5debe7e1" */
@@ -7075,7 +7075,7 @@ const pagesData$1 = {
   ), true ? [] : void 0).then(({ data }) => data),
   "v-58f4867c": () => __vitePreload(() => import(
     /* webpackChunkName: "v-58f4867c" */
-    "./webpack.html.ca38c927.js"
+    "./webpack.html.2685b8e3.js"
   ), true ? [] : void 0).then(({ data }) => data),
   "v-3706649a": () => __vitePreload(() => import(
     /* webpackChunkName: "v-3706649a" */
@@ -7329,11 +7329,11 @@ Content.props = {
 const layoutComponents = {
   "404": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "layout-404" */
-    "./404.918bc28e.js"
+    "./404.a4b10c72.js"
   ), true ? [] : void 0)),
   "Layout": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "layout-Layout" */
-    "./Layout.9f258a1a.js"
+    "./Layout.244a2ccb.js"
   ), true ? [] : void 0))
 };
 const Vuepress = defineComponent({
@@ -8603,7 +8603,7 @@ var clientAppEnhance3 = defineClientAppEnhance(({ app, router }) => {
   };
 });
 var clientAppEnhance4 = ({ app }) => {
-  app.component("MyTemplate", defineAsyncComponent(() => __vitePreload(() => import("./MyTemplate.542d0d99.js"), true ? ["assets/MyTemplate.542d0d99.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)));
+  app.component("MyTemplate", defineAsyncComponent(() => __vitePreload(() => import("./MyTemplate.20787342.js"), true ? ["assets/MyTemplate.20787342.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)));
 };
 const useHotKeys = ({ input, hotKeys: hotKeys2 }) => {
   const onKeydown = (event) => {
@@ -8889,8 +8889,8 @@ const searchIndex$1 = [
     "headers": [
       {
         "level": 2,
-        "title": "Object \u5BF9\u8C61",
-        "slug": "object-\u5BF9\u8C61",
+        "title": "\u4E00\u3001Object \u5BF9\u8C61",
+        "slug": "\u4E00\u3001object-\u5BF9\u8C61",
         "children": []
       },
       {
@@ -8957,6 +8957,31 @@ const searchIndex$1 = [
             "level": 3,
             "title": "Object.prototype.hasOwnProperty()",
             "slug": "object-prototype-hasownproperty",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "\u4E8C\u3001\u5C5E\u6027\u63CF\u8FF0\u5BF9\u8C61",
+        "slug": "\u4E8C\u3001\u5C5E\u6027\u63CF\u8FF0\u5BF9\u8C61",
+        "children": [
+          {
+            "level": 3,
+            "title": "Object.getOwnPropertyDescriptor()",
+            "slug": "object-getownpropertydescriptor",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Object.getOwnPropertyNames()",
+            "slug": "object-getownpropertynames-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Object.defineProperty()\uFF0CObject.defineProperties()",
+            "slug": "object-defineproperty-object-defineproperties",
             "children": []
           }
         ]
