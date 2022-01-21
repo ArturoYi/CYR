@@ -124,15 +124,15 @@ const data = {
     }
   ],
   "git": {
-    "updatedTime": 1642686185e3,
+    "updatedTime": 1642779743e3,
     "contributors": [
       {
-        "name": "540765",
+        "name": "\u9648\u67D2",
         "email": "3062995371@qq.com",
-        "commits": 3
+        "commits": 4
       },
       {
-        "name": "\u9648\u67D2",
+        "name": "540765",
         "email": "3062995371@qq.com",
         "commits": 3
       }
