@@ -65,6 +65,9 @@ export default defineUserConfig<DefaultThemeOptions>({
           {
             text: '随笔', link: '/guide/随笔/text.md'
           },
+          {
+            text: '故事', link: '/guide/故事/text.md'
+          },
         ]
       }
     ],

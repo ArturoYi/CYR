@@ -107,22 +107,34 @@ const data = {
           "title": "Object.defineProperty()\uFF0CObject.defineProperties()",
           "slug": "object-defineproperty-object-defineproperties",
           "children": []
+        },
+        {
+          "level": 3,
+          "title": "Object.prototype.propertyIsEnumerable()",
+          "slug": "object-prototype-propertyisenumerable",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u5143\u5C5E\u6027",
+          "slug": "\u5143\u5C5E\u6027",
+          "children": []
         }
       ]
     }
   ],
   "git": {
-    "updatedTime": 1641725962e3,
+    "updatedTime": 1642686185e3,
     "contributors": [
       {
         "name": "540765",
         "email": "3062995371@qq.com",
-        "commits": 2
+        "commits": 3
       },
       {
         "name": "\u9648\u67D2",
         "email": "3062995371@qq.com",
-        "commits": 2
+        "commits": 3
       }
     ]
   },

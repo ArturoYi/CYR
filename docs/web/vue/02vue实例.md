@@ -135,3 +135,142 @@ var app=new Vue({
      }
 })
 ```
+
+完整例子（循环普通数组）
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- 此为vue.js外链，可更换 -->
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+</head>
+
+<body>
+  <h1>v-for指令用法</h1>
+  <hr>
+  <div id="app">
+    数组：items:[20,23,18,65,32,19,54,56,41]
+    <ul>
+      <li v-for="(item,i) in items">
+        items 第 {{i}} 项 —— {{item}}
+      </li>
+    </ul>
+  </div>
+
+  <script type="text/javascript">
+    var app = new Vue({
+      el: '#app',
+      data: {
+        items: [20, 23, 18, 65, 32, 19, 54, 56, 41]
+      }
+    })
+  </script>
+</body>
+
+</html>
+```
+
+使用`v-for`还可以循环输出对象，对象数组等。
+
+```注意到上面例子的i字段了吗？```。再进一步，看下面例子：
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+</head>
+
+<body>
+  <h1>v-for指令用法</h1>
+  <hr>
+  <div id="app">
+    <ul>
+      <li v-for="(val,key,i) in user">
+        值是{{val}}——————键是{{key}}————索引是{{i}}
+      </li>
+    </ul>
+  </div>
+
+  <script type="text/javascript">
+    var app = new Vue({
+      el: '#app',
+      data: {
+        user:{
+          id:1,
+          name:'大哥',
+          gender:'男'
+        }
+      }
+    })
+  </script>
+</body>
+
+</html>
+```
+
+上面在遍历`对象`身上的键值的时候，除了有（val,key）,在第三个位置还有一个索引值，类似：(val,key,i)。
+
+ 注意：
+
+- v-for循环的时候，key属性只能使用number或String。
+- key在使用的时候，必须使用v-bind属性绑定的形式，指定key的值。
+- 在组件中使用v-for循环的时候，或者在一些特殊情况中，如果v-for有问题，必须在使用v-for的同时，指定唯一的 字符串/数字 类型 :key值。
+
+### v-text 、v-html
+
+使用`{{xxx}}`展示数据这种情况是有弊端的，就是当我们网速很慢或者`javascript`出错时，会暴露我们的`{{xxx}}`。`Vue`给我们提供的`v-text`,就是解决这个问题的。如果在`javascript`中写有`html`标签，用`v-text`是输出不出来的，这时候我们就需要用`v-html`标签了。
+
+下面是
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+</head>
+<body>
+  <div id="app">
+    <div id="div1"></div>
+    <br>
+    <div id="div2"></div>
+  </div>
+  <hr>
+  <div id="vueapp">
+    <div v-html="mes1" id="div3"></div>
+    <br>
+    <div v-text="mes2" id="div4"></div>
+  </div>
+</body>
+<script>
+  //传统js的innerText和innerHTML
+  window.onload = function () {//加载时候出发的函数
+    document.getElementById("div1").innerText = "<h1>hello</h1>"//不会解析
+    document.getElementById("div2").innerHTML = "<h1>hello</h1>"//会被解析
+  }
+  /*vue新式innerText和innerHTML*/
+  new Vue({
+    el: "#vueapp",
+    data: {
+      mes1: "<h1>hello</h1>",
+      mes2: "<h1>hello</h1>"
+    }
+  })
+</script>
+</html>
+```

@@ -38,6 +38,12 @@ const data = {
           "title": "v-for",
           "slug": "v-for",
           "children": []
+        },
+        {
+          "level": 3,
+          "title": "v-text \u3001v-html",
+          "slug": "v-text-\u3001v-html",
+          "children": []
         }
       ]
     }
