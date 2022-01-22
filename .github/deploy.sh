@@ -26,17 +26,17 @@ npm run docs:build
 msg=`date +%Y-%m-%d`
 githubUrl=git@github.com:540765/CYR.git
 
-# if [ -z "$GITHUB_TOKEN" ] 
-# then
-#   echo "有GITHUB_TOKEN"
-# else
-#   echo "无GITHUB_TOKEN"
-#   git config --global user.name "540765"
-#   git config --global user.email "3062995371@qq.com"
-#   git init
-#   git remote add origin $githubUrl
-# fi
-#   git init
+if [ -z "$GITHUB_TOKEN" ] 
+then
+  echo "有GITHUB_TOKEN"
+else
+  echo "无GITHUB_TOKEN"
+  git config --global user.name "540765"
+  git config --global user.email "3062995371@qq.com"
+  git init
+  git remote add origin $githubUrl
+fi
+  git init
   git add .
   git commit -m "$msg更新"
   git push -u origin master

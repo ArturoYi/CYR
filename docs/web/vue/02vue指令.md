@@ -1,6 +1,6 @@
 ---
 lang: zh-CN
-title: vue实例起步
+title: vue指令
 description: vue描述
 ---
 # vue2.x
@@ -274,3 +274,188 @@ var app=new Vue({
 </script>
 </html>
 ```
+
+总结：
+- `v-text`和`{{}}`表达式渲染数据，不解析标签。
+- ` v-html`不仅可以渲染数据，而且可以解析标签。　
+
+::: danger 注意
+在生产环境中动态渲染`HTML`是非常危险的，因为容易导致`XSS`攻击。所以只能在可信的内容上使用`v-html`，永远不要在用户提交和可操作的网页上使用。
+:::
+
+### v-on
+
+`v-on` 就是监听事件，可以用`v-on`指令监听`DOM`事件来触发一些`javascript`代码。
+
+加减案例：
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+</head>
+<body>
+  <div id="app">
+    {{count}}<br />
+    <button v-on:click="jia">加</button>
+    <button v-on:click="jian">减</button>
+  </div>
+</body>
+<script>
+  new Vue({
+    el: "#app",
+    data: {
+      count: 0,
+    },
+    methods: {
+      jia() {
+        this.count++;
+      },
+      jian() {
+        this.count--;
+      },
+    },
+  })
+</script>
+</html>
+```
+
+`v-on`还提供了一个简单写法,就是用@代替：
+
+```js
+v-on:click = jia //方法也可以写成jia()
+//等同于
+@click = jia //方法也可以写成jia()
+```
+其实，除了绑定`click`之外，我们还可以绑定其它事件，比如键盘回车事件`v-on:keyup.enter`:
+
+```html
+<input type="text" v-on:keyup.enter="onEnter">
+```
+
+### v-bind
+
+`v-bind`用于绑定数据和元素属性(动态绑定)
+
+例如：
+
+1. 绑定a标签的href属性
+
+```html
+<div class="app">
+    <a v-bind:href="url">百度一下</a>
+</div>  
+```
+
+```js
+var app = new Vue({
+    el:'.app',
+    data:{
+        url:"https://www.baidu.com",
+    }
+});
+```
+
+上面例子使用`v-bind`绑定了`a`标签的`href`属性，当`a`标签被点击时，会根据对应vue中的对应的url数据进行跳转到`https://www.baidu.com`
+
+2. 不光是`href`属性可以被`v-bind`指令绑定，大部分属性都可以被绑定
+
+下面例子绑定`class`也是可以的：
+
+```html
+<a v-bind:href="url" v-bind:class="klass">click me</a>
+```
+
+还可以用于绑定样式等等。
+
+由于使用频繁，通常将`v-bind:属性名=" "`的格式简写成`:属性名=" "`:
+
+```js
+<a v-bind:class="{active:isActive}">click me</a>
+// 等同于
+<a :class="{active:isActive}">click me</a>
+```
+
+同时，上面例子也说明了，`v-bind`还可以绑定一个对象。用法很多，可以自己试试。
+
+### v-model
+
+说在前头，`v-model`不好理解，建议网上看看视频。
+
+下面是结合网上的一些解释：
+
+1. `v-model`指令，我理解为绑定数据源。就是把数据绑定在特定的表单元素上，可以很容易的实现双向数据绑定。
+2. `v-model`本质上是一个语法糖。如下代码`<input v-model="test">`本质上是`<input :value="test" @input="test = $event.target.value">`
+3. 思考一下MVVM框架的思想，`v-model`把双向数据绑定，类似`↔` ，注意不是`⇆`,二者有区别。
+
+看一个完整例子：
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+</head>
+<body>
+  <div id="app">
+    <input type="text" v-model="name">
+    <p>{{name}}</p>
+  </div>
+</body>
+<script>
+  new Vue({
+    el: "#app",
+    data: {
+      name: '输入一些数据看看',
+    },
+  })
+</script>
+</html>
+```
+
+同时还有`v-model`的修饰符：
+
+1. `.lazy`: 在默认情况下，`v-model`在每次`input`事件触发后将输入框的值与数据进行同步，`input` 的原生 `DOM` 事件中还有一个`change` 事件，该事件是在输入框失去焦点时 或 按下回车键时 执行的。比如上述的"x"在添加修饰符`v-model.lazy`之后，"x"就不会实时改变的，而是在失焦或按回车时才更新。
+2. `.number`: 可以将输入转换为`Number`类型，否则虽然你输入的是数字，但它的类型其实是`String`
+3. `.trim`: 可以自动过滤输入的首尾空格
+
+### v-pre、v-cloak、v-once
+
+#### `v-pre`
+
+在模板中跳过`vue`的编译，直接输出原始值。就是在标签中加入`v-pre`就不会输出`vue`中的`data`值了。
+
+```js
+<div v-pre>{{message}}</div>
+
+//直接在网页中显示{{message}}
+```
+
+#### `v-cloak`
+
+在`vue`渲染完指定的整个`DOM`后才进行显示。它必须和`CSS`样式一起使用。解决：
+解决闪烁问题,防止网速慢页面会出现`{{msg}}`的问题
+
+```css
+[v-cloak] {
+  display: none;
+}
+```
+```html
+<div v-cloak>
+  {{ msg }}
+</div>
+```
+
+#### `v-once`
+
+在第一次DOM时进行渲染，渲染完成后视为静态内容，跳出以后的渲染过程。

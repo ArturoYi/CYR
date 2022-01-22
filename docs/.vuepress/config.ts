@@ -80,7 +80,8 @@ export default defineUserConfig<DefaultThemeOptions>({
           text: '标题',
           children: [
             '01.md',
-            '02vue实例.md',
+            '02vue指令.md',
+            '03全局API.md',
             'text2.md',
           ],
         },
