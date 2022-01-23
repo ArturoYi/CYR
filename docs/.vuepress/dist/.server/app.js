@@ -78,14 +78,14 @@ const pagesComponents = {
   "v-5d3f7a3b": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return JSinterview_html$2;
   })),
-  "v-3803ce0e": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return text_html$2;
+  "v-6c145c9c": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return reflection_html$2;
   })),
   "v-71958ec2": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return story_html$2;
   })),
-  "v-6c145c9c": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return reflection_html$2;
+  "v-3803ce0e": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return text_html$2;
   })),
   "v-72cc4ebc": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return _01Css_html$2;
@@ -140,14 +140,14 @@ const pagesData$1 = {
   "v-5d3f7a3b": () => Promise.resolve().then(function() {
     return JSinterview_html;
   }).then(({ data: data2 }) => data2),
-  "v-3803ce0e": () => Promise.resolve().then(function() {
-    return text_html;
+  "v-6c145c9c": () => Promise.resolve().then(function() {
+    return reflection_html;
   }).then(({ data: data2 }) => data2),
   "v-71958ec2": () => Promise.resolve().then(function() {
     return story_html;
   }).then(({ data: data2 }) => data2),
-  "v-6c145c9c": () => Promise.resolve().then(function() {
-    return reflection_html;
+  "v-3803ce0e": () => Promise.resolve().then(function() {
+    return text_html;
   }).then(({ data: data2 }) => data2),
   "v-72cc4ebc": () => Promise.resolve().then(function() {
     return _01Css_html;
@@ -1093,22 +1093,16 @@ const searchIndex$1 = [
     "extraFields": []
   },
   {
-    "title": "1a",
+    "title": "\u6240\u4EE5\u4E8B\u5C0F\u4E8E\u6B7B",
     "headers": [
       {
         "level": 2,
-        "title": "3",
-        "slug": "_3",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4",
-        "slug": "_4",
+        "title": "\u4F5C\u4E3A\u4E00\u4E2A\u4EBA",
+        "slug": "\u4F5C\u4E3A\u4E00\u4E2A\u4EBA",
         "children": []
       }
     ],
-    "path": "/guide/%E6%95%99%E7%A8%8B/text.html",
+    "path": "/guide/%E9%9A%8F%E7%AC%94/reflection.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1181,16 +1175,22 @@ const searchIndex$1 = [
     "extraFields": []
   },
   {
-    "title": "\u6240\u4EE5\u4E8B\u5C0F\u4E8E\u6B7B",
+    "title": "1a",
     "headers": [
       {
         "level": 2,
-        "title": "\u4F5C\u4E3A\u4E00\u4E2A\u4EBA",
-        "slug": "\u4F5C\u4E3A\u4E00\u4E2A\u4EBA",
+        "title": "3",
+        "slug": "_3",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4",
+        "slug": "_4",
         "children": []
       }
     ],
-    "path": "/guide/%E9%9A%8F%E7%AC%94/reflection.html",
+    "path": "/guide/%E6%95%99%E7%A8%8B/text.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2141,9 +2141,9 @@ const routeItems = [
   ["v-66ff7ae2", "/course/vscode%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.html", { "title": "vscode\u5E38\u7528\u63D2\u4EF6" }, ["/course/vscode\u5E38\u7528\u63D2\u4EF6.html", "/course/vscode%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6", "/course/vscode\u5E38\u7528\u63D2\u4EF6.md", "/course/vscode%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.md"]],
   ["v-3509cb32", "/guide/interview/interview.html", { "title": "\u95EE\u9898\u96C6\u9526" }, ["/guide/interview/interview", "/guide/interview/interview.md"]],
   ["v-5d3f7a3b", "/guide/interview/JSinterview.html", { "title": "JS\u9762\u8BD5\u96C6\u9526" }, ["/guide/interview/JSinterview", "/guide/interview/JSinterview.md"]],
-  ["v-3803ce0e", "/guide/%E6%95%99%E7%A8%8B/text.html", { "title": "1a" }, ["/guide/\u6559\u7A0B/text.html", "/guide/%E6%95%99%E7%A8%8B/text", "/guide/\u6559\u7A0B/text.md", "/guide/%E6%95%99%E7%A8%8B/text.md"]],
-  ["v-71958ec2", "/guide/%E6%95%85%E4%BA%8B/story.html", { "title": "\u65E5\u5E38\u6545\u4E8B" }, ["/guide/\u6545\u4E8B/story.html", "/guide/%E6%95%85%E4%BA%8B/story", "/guide/\u6545\u4E8B/story.md", "/guide/%E6%95%85%E4%BA%8B/story.md"]],
   ["v-6c145c9c", "/guide/%E9%9A%8F%E7%AC%94/reflection.html", { "title": "\u6240\u4EE5\u4E8B\u5C0F\u4E8E\u6B7B" }, ["/guide/\u968F\u7B14/reflection.html", "/guide/%E9%9A%8F%E7%AC%94/reflection", "/guide/\u968F\u7B14/reflection.md", "/guide/%E9%9A%8F%E7%AC%94/reflection.md"]],
+  ["v-71958ec2", "/guide/%E6%95%85%E4%BA%8B/story.html", { "title": "\u65E5\u5E38\u6545\u4E8B" }, ["/guide/\u6545\u4E8B/story.html", "/guide/%E6%95%85%E4%BA%8B/story", "/guide/\u6545\u4E8B/story.md", "/guide/%E6%95%85%E4%BA%8B/story.md"]],
+  ["v-3803ce0e", "/guide/%E6%95%99%E7%A8%8B/text.html", { "title": "1a" }, ["/guide/\u6559\u7A0B/text.html", "/guide/%E6%95%99%E7%A8%8B/text", "/guide/\u6559\u7A0B/text.md", "/guide/%E6%95%99%E7%A8%8B/text.md"]],
   ["v-72cc4ebc", "/web/css/01-css.html", { "title": "CSS" }, ["/web/css/01-css", "/web/css/01-css.md"]],
   ["v-cce3d85c", "/web/html/01-html.html", { "title": "html" }, ["/web/html/01-html", "/web/html/01-html.md"]],
   ["v-72bd4e03", "/web/JavaScript/%E5%85%A5%E9%97%A8%E5%AF%BC%E8%AE%BA.html", { "title": "\u5165\u95E8\u5BFC\u8BBA" }, ["/web/JavaScript/\u5165\u95E8\u5BFC\u8BBA.html", "/web/JavaScript/%E5%85%A5%E9%97%A8%E5%AF%BC%E8%AE%BA", "/web/JavaScript/\u5165\u95E8\u5BFC\u8BBA.md", "/web/JavaScript/%E5%85%A5%E9%97%A8%E5%AF%BC%E8%AE%BA.md"]],
@@ -3427,19 +3427,19 @@ var JSinterview_html$2 = /* @__PURE__ */ Object.freeze({
 });
 const _sfc_main$s = {};
 function _sfc_ssrRender$e(_ctx, _push, _parent, _attrs) {
-  _push(`<!--[--><h2 id="_3" tabindex="-1"><a class="header-anchor" href="#_3" aria-hidden="true">#</a> 3</h2><h2 id="_4" tabindex="-1"><a class="header-anchor" href="#_4" aria-hidden="true">#</a> 4</h2><!--]-->`);
+  _push(`<!--[--><h2 id="\u4F5C\u4E3A\u4E00\u4E2A\u4EBA" tabindex="-1"><a class="header-anchor" href="#\u4F5C\u4E3A\u4E00\u4E2A\u4EBA" aria-hidden="true">#</a> \u4F5C\u4E3A\u4E00\u4E2A\u4EBA</h2><p>\u6709\u65F6\u5019\uFF0C\u4E0D\u8981\u542C\u522B\u4EBA\u7684\u6307\u70B9\uFF0C\u66F4\u4E0D\u8981\u6307\u70B9\u522B\u4EBA\u3002</p><!--]-->`);
 }
 const _sfc_setup$s = _sfc_main$s.setup;
 _sfc_main$s.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/\u6559\u7A0B/text.html.vue");
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/\u968F\u7B14/reflection.html.vue");
   return _sfc_setup$s ? _sfc_setup$s(props, ctx) : void 0;
 };
-var text_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$s, [["ssrRender", _sfc_ssrRender$e]]);
-var text_html$2 = /* @__PURE__ */ Object.freeze({
+var reflection_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$s, [["ssrRender", _sfc_ssrRender$e]]);
+var reflection_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  "default": text_html$1
+  "default": reflection_html$1
 });
 const _sfc_main$r = {};
 function _sfc_ssrRender$d(_ctx, _push, _parent, _attrs) {
@@ -3459,19 +3459,19 @@ var story_html$2 = /* @__PURE__ */ Object.freeze({
 });
 const _sfc_main$q = {};
 function _sfc_ssrRender$c(_ctx, _push, _parent, _attrs) {
-  _push(`<!--[--><h2 id="\u4F5C\u4E3A\u4E00\u4E2A\u4EBA" tabindex="-1"><a class="header-anchor" href="#\u4F5C\u4E3A\u4E00\u4E2A\u4EBA" aria-hidden="true">#</a> \u4F5C\u4E3A\u4E00\u4E2A\u4EBA</h2><p>\u6709\u65F6\u5019\uFF0C\u4E0D\u8981\u542C\u522B\u4EBA\u7684\u6307\u70B9\uFF0C\u66F4\u4E0D\u8981\u6307\u70B9\u522B\u4EBA\u3002</p><!--]-->`);
+  _push(`<!--[--><h2 id="_3" tabindex="-1"><a class="header-anchor" href="#_3" aria-hidden="true">#</a> 3</h2><h2 id="_4" tabindex="-1"><a class="header-anchor" href="#_4" aria-hidden="true">#</a> 4</h2><!--]-->`);
 }
 const _sfc_setup$q = _sfc_main$q.setup;
 _sfc_main$q.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/\u968F\u7B14/reflection.html.vue");
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/\u6559\u7A0B/text.html.vue");
   return _sfc_setup$q ? _sfc_setup$q(props, ctx) : void 0;
 };
-var reflection_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$q, [["ssrRender", _sfc_ssrRender$c]]);
-var reflection_html$2 = /* @__PURE__ */ Object.freeze({
+var text_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$q, [["ssrRender", _sfc_ssrRender$c]]);
+var text_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  "default": reflection_html$1
+  "default": text_html$1
 });
 const _sfc_main$p = {};
 function _sfc_ssrRender$b(_ctx, _push, _parent, _attrs) {
@@ -6438,32 +6438,26 @@ var JSinterview_html = /* @__PURE__ */ Object.freeze({
   data: data$e
 });
 const data$d = {
-  "key": "v-3803ce0e",
-  "path": "/guide/%E6%95%99%E7%A8%8B/text.html",
-  "title": "1a",
+  "key": "v-6c145c9c",
+  "path": "/guide/%E9%9A%8F%E7%AC%94/reflection.html",
+  "title": "\u6240\u4EE5\u4E8B\u5C0F\u4E8E\u6B7B",
   "lang": "zh-CN",
   "frontmatter": {
     "lang": "zh-CN",
-    "title": "1a",
+    "title": "\u6240\u4EE5\u4E8B\u5C0F\u4E8E\u6B7B",
     "description": "12a"
   },
   "excerpt": "",
   "headers": [
     {
       "level": 2,
-      "title": "3",
-      "slug": "_3",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "4",
-      "slug": "_4",
+      "title": "\u4F5C\u4E3A\u4E00\u4E2A\u4EBA",
+      "slug": "\u4F5C\u4E3A\u4E00\u4E2A\u4EBA",
       "children": []
     }
   ],
   "git": {
-    "updatedTime": 1640251957e3,
+    "updatedTime": 1642922234e3,
     "contributors": [
       {
         "name": "\u9648\u67D2",
@@ -6472,9 +6466,9 @@ const data$d = {
       }
     ]
   },
-  "filePathRelative": "guide/\u6559\u7A0B/text.md"
+  "filePathRelative": "guide/\u968F\u7B14/reflection.md"
 };
-var text_html = /* @__PURE__ */ Object.freeze({
+var reflection_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   data: data$d
@@ -6569,26 +6563,32 @@ var story_html = /* @__PURE__ */ Object.freeze({
   data: data$c
 });
 const data$b = {
-  "key": "v-6c145c9c",
-  "path": "/guide/%E9%9A%8F%E7%AC%94/reflection.html",
-  "title": "\u6240\u4EE5\u4E8B\u5C0F\u4E8E\u6B7B",
+  "key": "v-3803ce0e",
+  "path": "/guide/%E6%95%99%E7%A8%8B/text.html",
+  "title": "1a",
   "lang": "zh-CN",
   "frontmatter": {
     "lang": "zh-CN",
-    "title": "\u6240\u4EE5\u4E8B\u5C0F\u4E8E\u6B7B",
+    "title": "1a",
     "description": "12a"
   },
   "excerpt": "",
   "headers": [
     {
       "level": 2,
-      "title": "\u4F5C\u4E3A\u4E00\u4E2A\u4EBA",
-      "slug": "\u4F5C\u4E3A\u4E00\u4E2A\u4EBA",
+      "title": "3",
+      "slug": "_3",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "4",
+      "slug": "_4",
       "children": []
     }
   ],
   "git": {
-    "updatedTime": 1642922234e3,
+    "updatedTime": 1640251957e3,
     "contributors": [
       {
         "name": "\u9648\u67D2",
@@ -6597,9 +6597,9 @@ const data$b = {
       }
     ]
   },
-  "filePathRelative": "guide/\u968F\u7B14/reflection.md"
+  "filePathRelative": "guide/\u6559\u7A0B/text.md"
 };
-var reflection_html = /* @__PURE__ */ Object.freeze({
+var text_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   data: data$b
