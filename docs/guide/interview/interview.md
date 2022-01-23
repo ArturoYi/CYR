@@ -1,6 +1,6 @@
 ---
 # lang: zh-CN
-title: 面试集锦
+title: 问题集锦
 lastUpdated: true
 prev: true
 next: true
@@ -10,7 +10,7 @@ tags:
   - 其他
 ---
 
-# 面试集锦
+# 问题集锦
 
 ::: tip 面试
 常见面试集锦

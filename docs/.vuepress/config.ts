@@ -60,13 +60,13 @@ export default defineUserConfig<DefaultThemeOptions>({
             text: '教程', link: '/course/README.md'
           },
           {
-            text: '面试', link: '/guide/面试/interview.md'
+            text: '面试', link: '/guide/interview/interview.md'
           },
           {
-            text: '随笔', link: '/guide/随笔/text.md'
+            text: '随笔', link: '/guide/随笔/reflection.md'
           },
           {
-            text: '故事', link: '/guide/故事/text.md'
+            text: '故事', link: '/guide/故事/story.md'
           },
         ]
       }
@@ -112,6 +112,15 @@ export default defineUserConfig<DefaultThemeOptions>({
             'elementui在表格中插入图片.md',
             'vscode常用插件.md',
           ],
+        }
+      ],
+      '/guide/interview/':[
+        {
+          text:'面试',
+          children:[
+            'interview.md',
+            'JSinterview.md'
+          ]
         }
       ],
       // fallback 侧边栏被最后定义
