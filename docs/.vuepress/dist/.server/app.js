@@ -72,26 +72,26 @@ const pagesComponents = {
   "v-66ff7ae2": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return vscode_____html$2;
   })),
-  "v-6e6848ee": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return text1_html$5;
-  })),
-  "v-dcf09e5e": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return text_html$8;
-  })),
-  "v-3803ce0e": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return text_html$6;
-  })),
-  "v-9b98914c": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return text_html$4;
-  })),
-  "v-796e15ea": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+  "v-3509cb32": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return interview_html$2;
   })),
-  "v-89e39176": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return text1_html$3;
+  "v-5d3f7a3b": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return JSinterview_html$2;
   })),
-  "v-8679e038": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return text2_html$5;
+  "v-3803ce0e": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return text_html$2;
+  })),
+  "v-71958ec2": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return story_html$2;
+  })),
+  "v-6c145c9c": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return reflection_html$2;
+  })),
+  "v-72cc4ebc": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return _01Css_html$2;
+  })),
+  "v-cce3d85c": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return _01Html_html$2;
   })),
   "v-72bd4e03": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return _____html$8;
@@ -108,11 +108,11 @@ const pagesComponents = {
   "v-e9674cca": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return _01_html$2;
   })),
-  "v-637b5fd4": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+  "v-306f3916": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return _02vue___html$2;
   })),
-  "v-59222251": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return text2_html$3;
+  "v-2ca8e124": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return _03__API_html$2;
   })),
   "v-58f4867c": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return webpack_html$2;
@@ -134,26 +134,26 @@ const pagesData$1 = {
   "v-66ff7ae2": () => Promise.resolve().then(function() {
     return vscode_____html;
   }).then(({ data: data2 }) => data2),
-  "v-6e6848ee": () => Promise.resolve().then(function() {
-    return text1_html$1;
-  }).then(({ data: data2 }) => data2),
-  "v-dcf09e5e": () => Promise.resolve().then(function() {
-    return text_html$2;
-  }).then(({ data: data2 }) => data2),
-  "v-3803ce0e": () => Promise.resolve().then(function() {
-    return text_html$1;
-  }).then(({ data: data2 }) => data2),
-  "v-9b98914c": () => Promise.resolve().then(function() {
-    return text_html;
-  }).then(({ data: data2 }) => data2),
-  "v-796e15ea": () => Promise.resolve().then(function() {
+  "v-3509cb32": () => Promise.resolve().then(function() {
     return interview_html;
   }).then(({ data: data2 }) => data2),
-  "v-89e39176": () => Promise.resolve().then(function() {
-    return text1_html;
+  "v-5d3f7a3b": () => Promise.resolve().then(function() {
+    return JSinterview_html;
   }).then(({ data: data2 }) => data2),
-  "v-8679e038": () => Promise.resolve().then(function() {
-    return text2_html$1;
+  "v-3803ce0e": () => Promise.resolve().then(function() {
+    return text_html;
+  }).then(({ data: data2 }) => data2),
+  "v-71958ec2": () => Promise.resolve().then(function() {
+    return story_html;
+  }).then(({ data: data2 }) => data2),
+  "v-6c145c9c": () => Promise.resolve().then(function() {
+    return reflection_html;
+  }).then(({ data: data2 }) => data2),
+  "v-72cc4ebc": () => Promise.resolve().then(function() {
+    return _01Css_html;
+  }).then(({ data: data2 }) => data2),
+  "v-cce3d85c": () => Promise.resolve().then(function() {
+    return _01Html_html;
   }).then(({ data: data2 }) => data2),
   "v-72bd4e03": () => Promise.resolve().then(function() {
     return _____html$2;
@@ -170,11 +170,11 @@ const pagesData$1 = {
   "v-e9674cca": () => Promise.resolve().then(function() {
     return _01_html;
   }).then(({ data: data2 }) => data2),
-  "v-637b5fd4": () => Promise.resolve().then(function() {
+  "v-306f3916": () => Promise.resolve().then(function() {
     return _02vue___html;
   }).then(({ data: data2 }) => data2),
-  "v-59222251": () => Promise.resolve().then(function() {
-    return text2_html;
+  "v-2ca8e124": () => Promise.resolve().then(function() {
+    return _03__API_html;
   }).then(({ data: data2 }) => data2),
   "v-58f4867c": () => Promise.resolve().then(function() {
     return webpack_html;
@@ -412,7 +412,7 @@ const themeData$1 = {
       "children": [
         {
           "text": "\u300Ahtml\u300B",
-          "link": "/web/html/text1.md"
+          "link": "/web/html/01-html.md"
         },
         {
           "text": "\u300AJavaScript\u6559\u7A0B\u300B",
@@ -420,7 +420,7 @@ const themeData$1 = {
         },
         {
           "text": "\u300ACSS\u300B",
-          "link": "https://www.baidu.com/"
+          "link": "/web/css/01-css.md"
         }
       ]
     },
@@ -446,15 +446,15 @@ const themeData$1 = {
         },
         {
           "text": "\u9762\u8BD5",
-          "link": "/guide/\u9762\u8BD5/interview.md"
+          "link": "/guide/interview/interview.md"
         },
         {
           "text": "\u968F\u7B14",
-          "link": "/guide/\u968F\u7B14/text.md"
+          "link": "/guide/\u968F\u7B14/reflection.md"
         },
         {
           "text": "\u6545\u4E8B",
-          "link": "/guide/\u6545\u4E8B/text.md"
+          "link": "/guide/\u6545\u4E8B/story.md"
         }
       ]
     }
@@ -463,20 +463,19 @@ const themeData$1 = {
   "sidebar": {
     "/web/vue/": [
       {
-        "text": "\u6807\u9898",
+        "text": "VUE2.x",
         "children": [
           "01.md",
-          "02vue\u5B9E\u4F8B.md",
-          "text2.md"
+          "02vue\u6307\u4EE4.md",
+          "03\u5168\u5C40API.md"
         ]
       }
     ],
     "/web/html/": [
       {
-        "text": "\u6807\u9898",
+        "text": "HTML",
         "children": [
-          "/web/html/text2.md",
-          "/web/html/text1.md"
+          "/web/html/01-html.md"
         ]
       }
     ],
@@ -498,6 +497,15 @@ const themeData$1 = {
           "README.md",
           "elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247.md",
           "vscode\u5E38\u7528\u63D2\u4EF6.md"
+        ]
+      }
+    ],
+    "/guide/interview/": [
+      {
+        "text": "\u9762\u8BD5",
+        "children": [
+          "interview.md",
+          "JSinterview.md"
         ]
       }
     ],
@@ -1016,7 +1024,76 @@ const searchIndex$1 = [
     "extraFields": []
   },
   {
-    "title": "\u9875\u9762\u7684\u6807\u9898",
+    "title": "\u95EE\u9898\u96C6\u9526",
+    "headers": [
+      {
+        "level": 2,
+        "title": "\u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD",
+        "slug": "\u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48\uFF1F",
+        "slug": "\u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9\uFF1F",
+        "slug": "\u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5\uFF1F",
+        "slug": "\u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\uFF1F",
+        "slug": "\u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u5728\u4E94\u5E74\u5185\uFF0C\u4F60\u7684\u804C\u4E1A\u89C4\u5212\uFF1F",
+        "slug": "\u5728\u4E94\u5E74\u5185-\u4F60\u7684\u804C\u4E1A\u89C4\u5212",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417?",
+        "slug": "\u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5?",
+        "slug": "\u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11?",
+        "slug": "\u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11",
+        "children": []
+      }
+    ],
+    "path": "/guide/interview/interview.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "JS\u9762\u8BD5\u96C6\u9526",
+    "headers": [],
+    "path": "/guide/interview/JSinterview.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "1a",
     "headers": [
       {
         "level": 2,
@@ -1031,7 +1108,7 @@ const searchIndex$1 = [
         "children": []
       }
     ],
-    "path": "/web/text1.html",
+    "path": "/guide/%E6%95%99%E7%A8%8B/text.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1099,149 +1176,49 @@ const searchIndex$1 = [
         "children": []
       }
     ],
-    "path": "/guide/%E6%95%85%E4%BA%8B/text.html",
+    "path": "/guide/%E6%95%85%E4%BA%8B/story.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "1a",
+    "title": "\u6240\u4EE5\u4E8B\u5C0F\u4E8E\u6B7B",
     "headers": [
       {
         "level": 2,
-        "title": "3",
-        "slug": "_3",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4",
-        "slug": "_4",
+        "title": "\u4F5C\u4E3A\u4E00\u4E2A\u4EBA",
+        "slug": "\u4F5C\u4E3A\u4E00\u4E2A\u4EBA",
         "children": []
       }
     ],
-    "path": "/guide/%E6%95%99%E7%A8%8B/text.html",
+    "path": "/guide/%E9%9A%8F%E7%AC%94/reflection.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "1a",
+    "title": "CSS",
     "headers": [
       {
         "level": 2,
-        "title": "3",
-        "slug": "_3",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4",
-        "slug": "_4",
+        "title": "\u4EC0\u4E48\u662FCSS\uFF1F",
+        "slug": "\u4EC0\u4E48\u662Fcss",
         "children": []
       }
     ],
-    "path": "/guide/%E9%9A%8F%E7%AC%94/text.html",
+    "path": "/web/css/01-css.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "\u9762\u8BD5\u96C6\u9526",
+    "title": "html",
     "headers": [
       {
         "level": 2,
-        "title": "\u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD",
-        "slug": "\u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48\uFF1F",
-        "slug": "\u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9\uFF1F",
-        "slug": "\u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5\uFF1F",
-        "slug": "\u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\uFF1F",
-        "slug": "\u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u5728\u4E94\u5E74\u5185\uFF0C\u4F60\u7684\u804C\u4E1A\u89C4\u5212\uFF1F",
-        "slug": "\u5728\u4E94\u5E74\u5185-\u4F60\u7684\u804C\u4E1A\u89C4\u5212",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417?",
-        "slug": "\u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5?",
-        "slug": "\u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11?",
-        "slug": "\u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11",
+        "title": "\u4EC0\u4E48\u662FHTML\uFF1F",
+        "slug": "\u4EC0\u4E48\u662Fhtml",
         "children": []
       }
     ],
-    "path": "/guide/%E9%9D%A2%E8%AF%95/interview.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "html\u6807\u9898",
-    "headers": [
-      {
-        "level": 2,
-        "title": "3",
-        "slug": "_3",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4",
-        "slug": "_4",
-        "children": []
-      }
-    ],
-    "path": "/web/html/text1.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "html2\u6807\u9898",
-    "headers": [
-      {
-        "level": 2,
-        "title": "3",
-        "slug": "_3",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4",
-        "slug": "_4",
-        "children": []
-      }
-    ],
-    "path": "/web/html/text2.html",
+    "path": "/web/html/01-html.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1596,8 +1573,8 @@ const searchIndex$1 = [
       },
       {
         "level": 2,
-        "title": "MVVM\uFF1F",
-        "slug": "mvvm",
+        "title": "MVVM\u6A21\u5F0F\uFF1F",
+        "slug": "mvvm\u6A21\u5F0F",
         "children": [
           {
             "level": 3,
@@ -1614,7 +1591,7 @@ const searchIndex$1 = [
           {
             "level": 3,
             "title": "MVVM",
-            "slug": "mvvm-1",
+            "slug": "mvvm",
             "children": []
           },
           {
@@ -1649,7 +1626,7 @@ const searchIndex$1 = [
     "extraFields": []
   },
   {
-    "title": "vue\u5B9E\u4F8B\u8D77\u6B65",
+    "title": "vue\u6307\u4EE4",
     "headers": [
       {
         "level": 2,
@@ -1685,31 +1662,73 @@ const searchIndex$1 = [
             "title": "v-text \u3001v-html",
             "slug": "v-text-\u3001v-html",
             "children": []
+          },
+          {
+            "level": 3,
+            "title": "v-on",
+            "slug": "v-on",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "v-bind",
+            "slug": "v-bind",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "v-model",
+            "slug": "v-model",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "v-pre\u3001v-cloak\u3001v-once",
+            "slug": "v-pre\u3001v-cloak\u3001v-once",
+            "children": []
           }
         ]
       }
     ],
-    "path": "/web/vue/02vue%E5%AE%9E%E4%BE%8B.html",
+    "path": "/web/vue/02vue%E6%8C%87%E4%BB%A4.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "vue2\u6807\u9898",
+    "title": "vue\u5168\u5C40API",
     "headers": [
       {
         "level": 2,
-        "title": "3",
-        "slug": "_3",
+        "title": "Vue.directive\u81EA\u5B9A\u4E49\u5C5E\u6027",
+        "slug": "vue-directive\u81EA\u5B9A\u4E49\u5C5E\u6027",
         "children": []
       },
       {
         "level": 2,
-        "title": "4",
-        "slug": "_4",
+        "title": "Vue.extend\u6784\u9020\u5668",
+        "slug": "vue-extend\u6784\u9020\u5668",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Vue.set\u5168\u5C40\u64CD\u4F5C",
+        "slug": "vue-set\u5168\u5C40\u64CD\u4F5C",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Vue\u751F\u547D\u5468\u671F(\u94A9\u5B50\u51FD\u6570)",
+        "slug": "vue\u751F\u547D\u5468\u671F-\u94A9\u5B50\u51FD\u6570",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Template\u6A21\u677F",
+        "slug": "template\u6A21\u677F",
         "children": []
       }
     ],
-    "path": "/web/vue/text2.html",
+    "path": "/web/vue/03%E5%85%A8%E5%B1%80API.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2120,20 +2139,20 @@ const routeItems = [
   ["v-6886cbbd", "/course/elementui%E5%9C%A8%E8%A1%A8%E6%A0%BC%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87.html", { "title": "elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247" }, ["/course/elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247.html", "/course/elementui%E5%9C%A8%E8%A1%A8%E6%A0%BC%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87", "/course/elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247.md", "/course/elementui%E5%9C%A8%E8%A1%A8%E6%A0%BC%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87.md"]],
   ["v-b9c2d34a", "/course/", { "title": "\u65E5\u5E38\u8BB0\u5F55" }, ["/course/index.html", "/course/README.md"]],
   ["v-66ff7ae2", "/course/vscode%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.html", { "title": "vscode\u5E38\u7528\u63D2\u4EF6" }, ["/course/vscode\u5E38\u7528\u63D2\u4EF6.html", "/course/vscode%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6", "/course/vscode\u5E38\u7528\u63D2\u4EF6.md", "/course/vscode%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.md"]],
-  ["v-6e6848ee", "/web/text1.html", { "title": "\u9875\u9762\u7684\u6807\u9898" }, ["/web/text1", "/web/text1.md"]],
-  ["v-dcf09e5e", "/guide/%E6%95%85%E4%BA%8B/text.html", { "title": "\u65E5\u5E38\u6545\u4E8B" }, ["/guide/\u6545\u4E8B/text.html", "/guide/%E6%95%85%E4%BA%8B/text", "/guide/\u6545\u4E8B/text.md", "/guide/%E6%95%85%E4%BA%8B/text.md"]],
+  ["v-3509cb32", "/guide/interview/interview.html", { "title": "\u95EE\u9898\u96C6\u9526" }, ["/guide/interview/interview", "/guide/interview/interview.md"]],
+  ["v-5d3f7a3b", "/guide/interview/JSinterview.html", { "title": "JS\u9762\u8BD5\u96C6\u9526" }, ["/guide/interview/JSinterview", "/guide/interview/JSinterview.md"]],
   ["v-3803ce0e", "/guide/%E6%95%99%E7%A8%8B/text.html", { "title": "1a" }, ["/guide/\u6559\u7A0B/text.html", "/guide/%E6%95%99%E7%A8%8B/text", "/guide/\u6559\u7A0B/text.md", "/guide/%E6%95%99%E7%A8%8B/text.md"]],
-  ["v-9b98914c", "/guide/%E9%9A%8F%E7%AC%94/text.html", { "title": "1a" }, ["/guide/\u968F\u7B14/text.html", "/guide/%E9%9A%8F%E7%AC%94/text", "/guide/\u968F\u7B14/text.md", "/guide/%E9%9A%8F%E7%AC%94/text.md"]],
-  ["v-796e15ea", "/guide/%E9%9D%A2%E8%AF%95/interview.html", { "title": "\u9762\u8BD5\u96C6\u9526" }, ["/guide/\u9762\u8BD5/interview.html", "/guide/%E9%9D%A2%E8%AF%95/interview", "/guide/\u9762\u8BD5/interview.md", "/guide/%E9%9D%A2%E8%AF%95/interview.md"]],
-  ["v-89e39176", "/web/html/text1.html", { "title": "html\u6807\u9898" }, ["/web/html/text1", "/web/html/text1.md"]],
-  ["v-8679e038", "/web/html/text2.html", { "title": "html2\u6807\u9898" }, ["/web/html/text2", "/web/html/text2.md"]],
+  ["v-71958ec2", "/guide/%E6%95%85%E4%BA%8B/story.html", { "title": "\u65E5\u5E38\u6545\u4E8B" }, ["/guide/\u6545\u4E8B/story.html", "/guide/%E6%95%85%E4%BA%8B/story", "/guide/\u6545\u4E8B/story.md", "/guide/%E6%95%85%E4%BA%8B/story.md"]],
+  ["v-6c145c9c", "/guide/%E9%9A%8F%E7%AC%94/reflection.html", { "title": "\u6240\u4EE5\u4E8B\u5C0F\u4E8E\u6B7B" }, ["/guide/\u968F\u7B14/reflection.html", "/guide/%E9%9A%8F%E7%AC%94/reflection", "/guide/\u968F\u7B14/reflection.md", "/guide/%E9%9A%8F%E7%AC%94/reflection.md"]],
+  ["v-72cc4ebc", "/web/css/01-css.html", { "title": "CSS" }, ["/web/css/01-css", "/web/css/01-css.md"]],
+  ["v-cce3d85c", "/web/html/01-html.html", { "title": "html" }, ["/web/html/01-html", "/web/html/01-html.md"]],
   ["v-72bd4e03", "/web/JavaScript/%E5%85%A5%E9%97%A8%E5%AF%BC%E8%AE%BA.html", { "title": "\u5165\u95E8\u5BFC\u8BBA" }, ["/web/JavaScript/\u5165\u95E8\u5BFC\u8BBA.html", "/web/JavaScript/%E5%85%A5%E9%97%A8%E5%AF%BC%E8%AE%BA", "/web/JavaScript/\u5165\u95E8\u5BFC\u8BBA.md", "/web/JavaScript/%E5%85%A5%E9%97%A8%E5%AF%BC%E8%AE%BA.md"]],
   ["v-783b80d4", "/web/JavaScript/%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1.html", { "title": "\u5185\u7F6E\u5BF9\u8C61" }, ["/web/JavaScript/\u5185\u7F6E\u5BF9\u8C61.html", "/web/JavaScript/%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1", "/web/JavaScript/\u5185\u7F6E\u5BF9\u8C61.md", "/web/JavaScript/%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1.md"]],
   ["v-5debe7e1", "/web/JavaScript/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E4%B8%8E%E8%BF%90%E7%AE%97%E7%AC%A6.html", { "title": "\u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26" }, ["/web/JavaScript/\u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26.html", "/web/JavaScript/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E4%B8%8E%E8%BF%90%E7%AE%97%E7%AC%A6", "/web/JavaScript/\u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26.md", "/web/JavaScript/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E4%B8%8E%E8%BF%90%E7%AE%97%E7%AC%A6.md"]],
   ["v-24f06668", "/web/JavaScript/%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80.html", { "title": "\u8BED\u6CD5\u57FA\u7840" }, ["/web/JavaScript/\u8BED\u6CD5\u57FA\u7840.html", "/web/JavaScript/%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80", "/web/JavaScript/\u8BED\u6CD5\u57FA\u7840.md", "/web/JavaScript/%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80.md"]],
   ["v-e9674cca", "/web/vue/01.html", { "title": "vue\u524D\u7F6E" }, ["/web/vue/01", "/web/vue/01.md"]],
-  ["v-637b5fd4", "/web/vue/02vue%E5%AE%9E%E4%BE%8B.html", { "title": "vue\u5B9E\u4F8B\u8D77\u6B65" }, ["/web/vue/02vue\u5B9E\u4F8B.html", "/web/vue/02vue%E5%AE%9E%E4%BE%8B", "/web/vue/02vue\u5B9E\u4F8B.md", "/web/vue/02vue%E5%AE%9E%E4%BE%8B.md"]],
-  ["v-59222251", "/web/vue/text2.html", { "title": "vue2\u6807\u9898" }, ["/web/vue/text2", "/web/vue/text2.md"]],
+  ["v-306f3916", "/web/vue/02vue%E6%8C%87%E4%BB%A4.html", { "title": "vue\u6307\u4EE4" }, ["/web/vue/02vue\u6307\u4EE4.html", "/web/vue/02vue%E6%8C%87%E4%BB%A4", "/web/vue/02vue\u6307\u4EE4.md", "/web/vue/02vue%E6%8C%87%E4%BB%A4.md"]],
+  ["v-2ca8e124", "/web/vue/03%E5%85%A8%E5%B1%80API.html", { "title": "vue\u5168\u5C40API" }, ["/web/vue/03\u5168\u5C40API.html", "/web/vue/03%E5%85%A8%E5%B1%80API", "/web/vue/03\u5168\u5C40API.md", "/web/vue/03%E5%85%A8%E5%B1%80API.md"]],
   ["v-58f4867c", "/web/webpack/webpack.html", { "title": "webpack\u4ECB\u7ECD" }, ["/web/webpack/webpack", "/web/webpack/webpack.md"]],
   ["v-3706649a", "/404.html", {}, ["/404"]]
 ];
@@ -3373,35 +3392,38 @@ var vscode_____html$2 = /* @__PURE__ */ Object.freeze({
 });
 const _sfc_main$u = {};
 function _sfc_ssrRender$g(_ctx, _push, _parent, _attrs) {
-  _push(`<!--[--><h2 id="_3" tabindex="-1"><a class="header-anchor" href="#_3" aria-hidden="true">#</a> 3</h2><h2 id="_4" tabindex="-1"><a class="header-anchor" href="#_4" aria-hidden="true">#</a> 4</h2><!--]-->`);
+  _push(`<!--[--><h1 id="\u95EE\u9898\u96C6\u9526" tabindex="-1"><a class="header-anchor" href="#\u95EE\u9898\u96C6\u9526" aria-hidden="true">#</a> \u95EE\u9898\u96C6\u9526</h1><div class="custom-container tip"><p class="custom-container-title">\u9762\u8BD5</p><p>\u5E38\u89C1\u9762\u8BD5\u96C6\u9526</p></div><h2 id="\u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD" tabindex="-1"><a class="header-anchor" href="#\u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD" aria-hidden="true">#</a> \u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD</h2><p><strong>\u63D0\u793A</strong>\uFF1A\u4E00\u822C\u4EBA\u56DE\u7B54\u8FD9\u4E2A\u95EE\u9898\u8FC7\u4E8E\u5E73\u5E38\uFF0C\u59D3\u540D\u3001\u5E74\u9F84\u3001\u7231\u597D\u3001\u5DE5\u4F5C\u7ECF\u9A8C\uFF0C\u8FD9\u4E9B\u7B80\u5386\u4E0A\u90FD\u6709\u3002\u4F01\u4E1A\uFF08\u9762\u8BD5\u5B98\uFF09\u6700\u5E0C\u671B\u77E5\u9053\u7684\u662F\u6C42\u804C\u8005\u80FD\u5426\u80DC\u4EFB\u5DE5\u4F5C\uFF0C\u5305\u62EC\uFF1A\u6700\u5F3A\u7684\u6280\u80FD\u3001\u6700\u6DF1\u5165\u7814\u7A76\u7684\u9886\u57DF\u3001\u4E2A\u6027\u4E2D\u6700\u79EF\u6781\u7684\u90E8\u5206\u3001\u505A\u8FC7\u6700\u6210\u529F\u7684\u4E8B\uFF0C\u4E3B\u8981\u6210\u5C31\u7B49\uFF0C\u8981\u7A81\u51FA\u79EF\u6781\u7684\u4E2A\u6027\u548C\u505A\u4E8B\u7684\u80FD\u529B\uFF0C\u8BF4\u7684\u5408\u60C5\u5408\u7406\u4F01\u4E1A\uFF08\u9762\u8BD5\u5B98\uFF09\u624D\u4F1A\u76F8\u4FE1\u3002</p><h2 id="\u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48" tabindex="-1"><a class="header-anchor" href="#\u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48" aria-hidden="true">#</a> \u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48\uFF1F</h2><p><strong>\u56DE\u7B54\u63D0\u793A</strong>\uFF1A \u6C89\u7740\u51B7\u9759\u3001\u6761\u7406\u6E05\u695A\u3001\u7ACB\u573A\u575A\u5B9A\u3001\u4E50\u4E8E\u52A9\u4EBA\u7B49\uFF0C\u52A0\u4E0A\u4F8B\u5B50\u5982\uFF1A\u6211\u5728XX\u7ECF\u8FC7\u4E00\u5230\u4E24\u5E74\u7684\u57F9\u8BAD\u53CA\u9879\u76EE\u5B9E\u6218\uFF0C\u52A0\u4E0A\u5B9E\u4E60\u5DE5\u4F5C\uFF0C\u6211\u60F3\u6211\u9002\u5408\u8FD9\u4EFD\u5DE5\u4F5C\u3002</p><h2 id="\u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9" tabindex="-1"><a class="header-anchor" href="#\u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9" aria-hidden="true">#</a> \u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u8FD9\u4E2A\u95EE\u9898\u4F01\u4E1A\u95EE\u7684\u6982\u7387\u5F88\u5927\uFF0C\u901A\u5E38\u4E0D\u5E0C\u671B\u542C\u5230\u76F4\u63A5\u56DE\u7B54\u7684\u7F3A\u70B9\u662F\u4EC0\u4E48\u7B49\uFF0C\u5982\u679C\u6C42\u804C\u8005\u8BF4\u81EA\u5DF1\u5C0F\u5FC3\u773C\u3001\u975E\u5E38\u61D2\u3001\u5DE5\u4F5C\u6548\u7387\u4F4E\uFF0C\u4F01\u4E1A\u80AF\u5B9A\u4E0D\u4F1A\u5F55\u7528\u4F60\u3002\u8981\u4ECE\u81EA\u5DF1\u7684\u4F18\u70B9\u8BF4\u8D77\uFF0C\u4E2D\u95F4\u52A0\u4E00\u4E9B\u5C0F\u7F3A\u70B9\uFF0C\u6700\u540E\u518D\u628A\u95EE\u7B54\u8F6C\u56DE\u5230\u4F18\u70B9\u4E0A\uFF0C\u7A81\u51FA\u4F18\u70B9\u7684\u90E8\u5206\u3002</p><h2 id="\u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5" tabindex="-1"><a class="header-anchor" href="#\u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5" aria-hidden="true">#</a> \u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A\u5B9E\u9645\u4E0A\u597D\u591A\u516C\u53F8\u95EE\u8FD9\u4E2A\u95EE\u9898\uFF0C\u5E76\u4E0D\u8BC1\u660E\u4E00\u5B9A\u8981\u52A0\u73ED\uFF0C\u53EA\u662F\u60F3\u6D4B\u8BD5\u4F60\u662F\u5426\u613F\u610F\u4E3A\u516C\u53F8\u5949\u732E\u3002</p><p><strong>\u6837\u672C</strong>\uFF1A\u5982\u679C\u662F\u5DE5\u4F5C\u9700\u8981\u6211\u4F1A\u4E49\u4E0D\u5BB9\u8F9E\u52A0\u73ED\uFF0C\u4F46\u540C\u65F6\uFF0C\u6211\u4E5F\u4F1A\u63D0\u9AD8\u5DE5\u4F5C\u6548\u7387\uFF0C\u51CF\u5C11\u4E0D\u5FC5\u8981\u7684\u52A0\u73ED\u3002</p><h2 id="\u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42" tabindex="-1"><a class="header-anchor" href="#\u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42" aria-hidden="true">#</a> \u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u5982\u679C\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\u592A\u4F4E\uFF0C\u90A3\u663E\u7136\u8D2C\u4F4E\u81EA\u5DF1\u7684\u80FD\u529B\uFF1B\u5982\u679C\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\u592A\u9AD8\uFF0C\u90A3\u53C8\u4F1A\u663E\u5F97\u4F60\u5206\u91CF\u8FC7\u91CD\uFF0C\u516C\u53F8\u53D7\u7528\u4E0D\u8D77\u3002\u4E00\u4E9B\u96C7\u4E3B\u901A\u5E38\u90FD\u4E8B\u5148\u5BF9\u6C42\u8058\u7684\u804C\u4F4D\u5B9A\u4E0B\u5F00\u652F\u9884\u7B97\uFF0C\u56E0\u800C\u4ED6\u4EEC\u7B2C\u4E00\u6B21\u63D0\u51FA\u7684\u4EF7\u94B1\u5F80\u5F80\u662F\u4ED6\u4EEC\u6240\u80FD\u7ED9\u4E88\u7684\u6700\u9AD8\u4EF7\u94B1\uFF0C\u4ED6\u4EEC\u95EE\u4F60\u53EA\u4E0D\u8FC7\u60F3\u8BC1\u5B9E\u4E00\u4E0B\u8FD9\u7B14\u94B1\u662F\u5426\u8DB3\u4EE5\u5F15\u8D77\u4F60\u5BF9\u8BE5\u5DE5\u4F5C\u7684\u5174\u8DA3\u3002</p><p><strong>\u56DE\u7B54</strong>\uFF1A</p><ol><li><p>\u6211\u5BF9\u5DE5\u8D44\u6CA1\u6709\u786C\u6027\u8981\u6C42\uFF0C\u6211\u76F8\u4FE1\u8D35\u516C\u53F8\u4F1A\u53CB\u5584\u5408\u7406\u3002\u6211\u6CE8\u91CD\u7684\u662F\u627E\u5230\u5DE5\u4F5C\u673A\u4F1A\uFF0C\u6240\u4EE5\u53EA\u8981\u6761\u4EF6\u516C\u5E73\uFF0C\u6211\u5219\u4E0D\u4F1A\u8BA1\u8F83\u592A\u591A\u3002</p></li><li><p>\u6211\u53D7\u8FC7\u7CFB\u7EDF\u7684\u8F6F\u4EF6\u7F16\u7A0B\u7684\u8BAD\u7EC3\uFF0C\u4E0D\u9700\u8981\u8FDB\u884C\u5927\u91CF\u7684\u57F9\u8BAD\uFF0C\u800C\u4E14\u6211\u672C\u4EBA\u4E5F\u5BF9\u7F16\u7A0B\u7279\u522B\u611F\u5174\u8DA3\u3002\u56E0\u6B64\uFF0C\u6211\u5E0C\u671B\u516C\u53F8\u80FD\u6839\u636E\u6211\u7684\u60C5\u51B5\u548C\u5E02\u573A\u6807\u51C6\u7684\u6C34\u5E73\uFF0C\u7ED9\u6211\u5408\u7406\u7684\u85AA\u6C34\u3002</p></li><li><p>\u5982\u679C\u4F60\u5FC5\u987B\u81EA\u5DF1\u8BF4\u51FA\u5177\u4F53\u6570\u76EE\uFF0C\u8BF7\u4E0D\u8981\u8BF4\u4E00\u4E2A\u5BBD\u6CDB\u7684\u8303\u56F4\uFF0C\u90A3\u6837\u4F60\u5C06\u53EA\u80FD\u5F97\u5230\u6700\u4F4E\u9650\u5EA6\u7684\u6570\u5B57\u3002\u6700\u597D\u7ED9\u51FA\u4E00\u4E2A\u5177\u4F53\u7684\u6570\u5B57\uFF0C\u8FD9\u6837\u8868\u660E\u4F60\u5DF2\u7ECF\u5BF9\u5F53\u4ECA\u7684\u4EBA\u624D\u5E02\u573A\u505A\u4E86\u8C03\u67E5\uFF0C\u77E5\u9053\u50CF\u81EA\u5DF1\u8FD9\u6837\u5B66\u5386\u7684\u96C7\u5458\u6709\u4EC0\u4E48\u6837\u7684\u4EF7\u503C\u3002</p></li></ol><h2 id="\u5728\u4E94\u5E74\u5185-\u4F60\u7684\u804C\u4E1A\u89C4\u5212" tabindex="-1"><a class="header-anchor" href="#\u5728\u4E94\u5E74\u5185-\u4F60\u7684\u804C\u4E1A\u89C4\u5212" aria-hidden="true">#</a> \u5728\u4E94\u5E74\u5185\uFF0C\u4F60\u7684\u804C\u4E1A\u89C4\u5212\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u8FD9\u662F\u6BCF\u4E00\u4E2A\u5E94\u8058\u8005\u90FD\u4E0D\u5E0C\u671B\u88AB\u95EE\u5230\u7684\u95EE\u9898\uFF0C\u4F46\u662F\uFF08\u5927\u516C\u53F8\uFF09\u51E0\u4E4E\u6BCF\u4E2A\u4EBA\u90FD\u4F1A\u88AB\u95EE\u5230\uFF0C\u6BD4\u8F83\u591A\u7684\u7B54\u6848\u662F\u201C\u7BA1\u7406\u8005\u201D\u3002\u5F53\u7136\uFF0C\u8BF4\u51FA\u5176\u4ED6\u4E00\u4E9B\u4F60\u611F\u5174\u8DA3\u7684\u804C\u4F4D\u4E5F\u662F\u53EF\u4EE5\u7684\u3002\u8981\u77E5\u9053\uFF0C\u8003\u5B98\u603B\u662F\u559C\u6B22\u6709\u8FDB\u53D6\u5FC3\u7684\u5E94\u8058\u8005\uFF0C\u6B64\u65F6\u5982\u679C\u8BF4\u201C\u4E0D\u77E5\u9053\u201D\uFF0C\u6216\u8BB8\u5C31\u4F1A\u4F7F\u4F60\u4E27\u5931\u4E00\u4E2A\u597D\u673A\u4F1A\u3002\u6700\u666E\u901A\u7684\u56DE\u7B54\u5E94\u8BE5\u662F\u201C\u6211\u51C6\u5907\u5728\u6280\u672F\u9886\u57DF\u6709\u6240\u4F5C\u4E3A\u201D\u6216\u201C\u6211\u5E0C\u671B\u80FD\u6309\u7167\u516C\u53F8\u7684\u7BA1\u7406\u601D\u8DEF\u53D1\u5C55\u201D\u3002</p><h2 id="\u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417" tabindex="-1"><a class="header-anchor" href="#\u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417" aria-hidden="true">#</a> \u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417?</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u4F01\u4E1A\u7684\u8FD9\u4E2A\u95EE\u9898\u770B\u4E0A\u53BB\u53EF\u6709\u53EF\u65E0\uFF0C\u5176\u5B9E\u5F88\u5173\u952E\uFF0C\u4F01\u4E1A\u4E0D\u559C\u6B22\u8BF4\u201C\u6CA1\u95EE\u9898\u201D\u7684\u4EBA\uFF0C\u56E0\u4E3A\u5176\u5F88\u6CE8\u91CD\u5458\u5DE5\u7684\u4E2A\u6027\u548C\u521B\u65B0\u80FD\u529B\u3002\u4F01\u4E1A\u4E0D\u559C\u6B22\u6C42\u804C\u8005\u95EE\u4E2A\u4EBA\u798F\u5229\u4E4B\u7C7B\u7684\u95EE\u9898\uFF0C\u5982\u679C\u6709\u4EBA\u8FD9\u6837\u95EE\uFF1A\u8D35\u516C\u53F8\u5BF9\u65B0\u5165\u516C\u53F8\u7684\u5458\u5DE5\u6709\u6CA1\u6709\u4EC0\u4E48\u57F9\u8BAD\u9879\u76EE\uFF0C\u6211\u53EF\u4EE5\u53C2\u52A0\u5417\uFF1F\u6216\u8005\u8BF4\u8D35\u516C\u53F8\u7684\u664B\u5347\u673A\u5236\u662F\u4EC0\u4E48\u6837\u7684\uFF1F\u4F01\u4E1A\u5C06\u5F88\u6B22\u8FCE\uFF0C\u56E0\u4E3A\u4F53\u73B0\u51FA\u4F60\u5BF9\u5B66\u4E60\u7684\u70ED\u60C5\u548C\u5BF9\u516C\u53F8\u7684\u5FE0\u8BDA\u5EA6\u4EE5\u53CA\u4F60\u7684\u4E0A\u8FDB\u5FC3\u3002</p><h2 id="\u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5" tabindex="-1"><a class="header-anchor" href="#\u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5" aria-hidden="true">#</a> \u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5?</h2><p><strong>\u56DE\u7B54</strong>\uFF1A \u2460\u6B63\u5E38\u7684\u201C\u8DF3\u69FD\u201D\u80FD\u591F\u4FC3\u8FDB\u4EBA\u624D\u5408\u7406\u6D41\u52A8\uFF0C\u5E94\u8BE5\u652F\u6301\u3002\u2461\u9891\u7E41\u7684\u8DF3\u69FD\u5BF9\u5355\u4F4D\u548C\u4E2A\u4EBA\u53CC\u65B9\u90FD\u4E0D\u5229\uFF0C\u5E94\u8BE5\u53CD\u5BF9\u3002</p><h2 id="\u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11" tabindex="-1"><a class="header-anchor" href="#\u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11" aria-hidden="true">#</a> \u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11?</h2><p><strong>\u56DE\u7B54</strong>\uFF1A\u5728\u53BB\u516C\u53F8\u9762\u8BD5\u524D\u4E0A\u7F51\u67E5\u4E00\u4E0B\u8BE5\u516C\u53F8\u4E3B\u8425\u4E1A\u52A1\u3002\u53EF\u7C7B\u4F3C\u56DE\u7B54\uFF1A\u8D35\u516C\u53F8\u6709\u610F\u6539\u53D8\u7B56\u7565\uFF0C\u52A0\u5F3A\u4E0E\u56FD\u5916\u5927\u5382\u7684OEM\u5408\u4F5C\uFF0C\u81EA\u6709\u54C1\u724C\u7684\u90E8\u5206\u5219\u900F\u8FC7\u6D77\u5916\u7ECF\u9500\u5546\u3002</p><!--]-->`);
 }
 const _sfc_setup$u = _sfc_main$u.setup;
 _sfc_main$u.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/text1.html.vue");
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/interview/interview.html.vue");
   return _sfc_setup$u ? _sfc_setup$u(props, ctx) : void 0;
 };
-var text1_html$4 = /* @__PURE__ */ _export_sfc(_sfc_main$u, [["ssrRender", _sfc_ssrRender$g]]);
-var text1_html$5 = /* @__PURE__ */ Object.freeze({
+var interview_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$u, [["ssrRender", _sfc_ssrRender$g]]);
+var interview_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  "default": text1_html$4
+  "default": interview_html$1
 });
 const _sfc_main$t = {};
 function _sfc_ssrRender$f(_ctx, _push, _parent, _attrs) {
-  _push(`<!--[--><h2 id="\u5154\u5B50\u4E0E\u661F\u661F" tabindex="-1"><a class="header-anchor" href="#\u5154\u5B50\u4E0E\u661F\u661F" aria-hidden="true">#</a> \u5154\u5B50\u4E0E\u661F\u661F</h2><p>\u5927\u5154\u5B50\u7279\u522B\u559C\u6B22\u591C\u665A\uFF0C\u56E0\u4E3A\u53EF\u4EE5\u4E00\u4E2A\u4EBA\u770B\u661F\u661F\uFF0C\u8FD8\u6CA1\u6709\u4EBA\u6253\u6270\u4ED6\u3002\u4ED6\u6BCF\u5929\u665A\u4E0A\u90FD\u5BF9\u7740\u661F\u661F\u8BF4\u5FC3\u91CC\u8BDD\uFF0C\u5C0F\u661F\u661F\u4E5F\u4F1A\u548C\u4ED6\u8BF4\u6084\u6084\u8BDD\u3002</p><p>\u6709\u4E00\u5929\u5C0F\u661F\u661F\u544A\u8BC9\u5927\u5154\u5B50\uFF1A\u7B49\u4F1A\u4F1A\u6709\u6D41\u661F\u96E8\u54E6\uFF0C\u4F60\u53EF\u4EE5\u5BF9\u7740\u5B83\u4EEC\u8BB8\u4E2A\u613F\uFF0C\u68A6\u60F3\u4E00\u5B9A\u4F1A\u5B9E\u73B0\u7684\uFF01\u5927\u5154\u5B50\u5F00\u5FC3\u7684\u50CF\u4E2A\u5B9D\u5B9D\uFF0C\u4ED6\u6709\u65E0\u6570\u4E2A\u613F\u671B\u60F3\u8981\u5B9E\u73B0\uFF0C\u4E8E\u662F\u5462\uFF0C\u4ED6\u5C31\u5F00\u59CB\u4E00\u6761\u6761\u5217\u51FA\u4ED6\u7684\u613F\u671B\u7B49\u5F85\u6D41\u661F\u96E8\u7684\u5230\u6765.....</p><p>\u5927\u5154\u5B50\u5C31\u5750\u5728\u90A3\u91CC\u7B49\u554A\u7B49\uFF0C\u6708\u4EAE\u90FD\u5FEB\u5230\u5934\u9876\u4E86\uFF0C\u5927\u767D\u5154\u4E5F\u5F00\u59CB\u72AF\u8FF7\u7CCA\u3002\u549A \u5927\u767D\u5154\u56F0\u7684\u4E00\u5934\u624E\u5230\u4E86\u8349\u5730\u91CC\u3002\u661F\u661F\u5728\u4E00\u65C1\u5077\u5077\u7684\u7B11\uFF0C\u5C31\u8FD9\u8FD9\u4E2A\u65F6\u5019\u6D41\u661F\u96E8\u6765\u4E86\uFF0C\u5C0F\u661F\u661F\u8D76\u5FEB\u53EB\u5927\u5154\u5B50\u9192\u6765\uFF0C\u600E\u4E48\u53EB\u5C31\u662F\u53EB\u4E0D\u9192\uFF0C\u8FD9\u6025\u6B7B\u5C0F\u661F\u661F\u4E86\uFF0C\u4F46\u662F\u4E5F\u6CA1\u6709\u529E\u6CD5\uFF0C\u5982\u679C\u5C0F\u661F\u661F\u6254\u4E00\u5C0F\u5757\u77F3\u5934\u7838\u5979\u7684\u8BDD\u4ED6\u5C31\u53D8\u6210\u5154\u5B50\u997C\u4E86.....</p><p>\u5C0F\u661F\u661F\u5C31\u4E00\u76F4\u53EB\u5927\u5154\u5B50\uFF0C\u4E00\u76F4\u53EB\u554A\u53EB\uFF0C\u5927\u5154\u5B50\u54D7\u7684\u4E00\u4E0B\u9192\u6765\u4E86\uFF0C\u4ED6\u4EE5\u4E3A\u81EA\u5DF1\u521A\u7761\u7740\uFF0C\u5176\u5B9E\u6D41\u661F\u96E8\u5DF2\u7ECF\u8FC7\u53BB\u4E00\u5927\u534A\u4E86\uFF01</p><p>\u5927\u767D\u5154\u614C\u91CC\u614C\u5F20\u7684\u95ED\u4E0A\u773C\u775B\u8BF4\u51FA\u4ED6\u7684\u613F\u671B\uFF0C\u6211\u60F3\u5B66\u4F1A\u5F39\u94A2\u7434\uFF0C\u6211\u60F3\u5B66\u4F1A\u505A\u597D\u5403\u7684\uFF0C\u6211\u60F3\u62E5\u6709\u6700\u597D\u5403\u7684\u80E1\u841D\u535C\uFF0C\u6211\u60F3\u53D8\u6210\u5154\u5B50\u754C\u7B2C\u4E00\u9996\u5BCC\uFF0C\u6211\u60F3\u62E5\u6709\u4E00\u4E2A\u5927\u679C\u56ED\u81EA\u5DF1\u53EF\u4EE5\u968F\u65F6\u5403\u5230\u7684\u90A3\u79CD\uFF01\u6211\u60F3.......</p><p>\u5C31\u8FD9\u6837\uFF0C\u5927\u5154\u5B50\u5C31\u50CF\u673A\u5173\u67AA\u4E00\u6837\uFF0C\u6709\u8BF4\u4E0D\u5B8C\u7684\u613F\u671B\u3002\u6709\u4E00\u9897\u5C0F\u6D41\u661F\u98DE\u8FC7\uFF0C\u544A\u8BC9\u5927\u5154\u5B50\uFF0C\u4F60\u8BF4\u7684\u90A3\u4E9B\u592A\u7269\u8D28\u4E86\uFF0C\u90A3\u4E9B\u8981\u9760\u4F60\u81EA\u5DF1\u53BB\u52AA\u529B\u624D\u53EF\u5F97\u5230\uFF0C\u4F60\u8981\u81EA\u5DF1\u5F88\u8BA4\u771F\u7684\u60F3\u4E00\u4E2A\u5FC3\u613F\uFF0C\u6211\u4F1A\u5C3D\u529B\u5E2E\u4F60\u5B9E\u73B0\u7684\uFF01\u5927\u5154\u5B50\u95ED\u4E0A\u773C\u775B\uFF0C\u53CC\u624B\u5408\u5341\u3002\u201C\u90A3\u5C31\u8BF7\u4F60\u544A\u8BC9\u5979\uFF0C\u6211\u60F3\u5979\u4E86\u201D\u5C0F\u6D41\u661F\u7B11\u4E86\u7B11\u4FDD\u8BC1\u5B8C\u6210\u4EFB\u52A1\u54E6\uFF5E</p><p>\u90A3\u5929\u7684\u665A\u4E0A\uFF0C\u8FDC\u5728\u4ED6\u4E61\u7684\u5C0F\u767D\u5154\u5728\u68A6\u4E61\u91CC\u89C1\u5230\u4E86\u5979\u7231\u7684\u5927\u5154\u5B50\uFF5E</p><h2 id="\u5929\u4E0A\u7684\u661F\u661F" tabindex="-1"><a class="header-anchor" href="#\u5929\u4E0A\u7684\u661F\u661F" aria-hidden="true">#</a> \u5929\u4E0A\u7684\u661F\u661F</h2><p>\u5154\u5154\u8981\u51FA\u4E00\u8D9F\u5F88\u4E45\u5F88\u4E45\u7684\u8FDC\u95E8\u4E86\u3002</p><p>\u732A\u732A\u81EA\u4ECE\u542C\u5230\u8FD9\u4E2A\u6D88\u606F\u5C31\u975E\u5E38\u96BE\u8FC7\uFF0C\u4ED6\u820D\u4E0D\u5F97\u5154\u5154\u79BB\u5F00\u3002\u54EA\u6015\u5C31\u4E00\u5929\u4E24\u5929\u90FD\u820D\u4E0D\u5F97\uFF0C\u66F4\u4F55\u51B5\uFF0C\u8FD9\u6B21\u7684\u5206\u5F00\u8FDC\u8FDC\u8D85\u8FC7\u8FD9\u4E2A\u6570\u76EE\u3002</p><p>\u4ED6\u867D\u7136\u8FD8\u662F\u6BCF\u5929\u90FD\u5728\u7ED9\u5154\u5154\u505A\u559C\u6B22\u5403\u7684\u4E1C\u897F\uFF0C\u8FD8\u662F\u5728\u54C4\u5154\u5154\u5F00\u5FC3\u3002\u53EF\u4ED6\u7684\u5FE7\u6101\u5199\u5728\u4E86\u5C0F\u5C0F\u7684\u773C\u775B\u91CC\uFF0C\u4ED6\u820D\u4E0D\u5F97\u5154\u5154\u8D70\u3002</p><p>\u53EF\u662F\u5154\u5154\u5DF2\u7ECF\u51B3\u5B9A\u4E86\u8981\u51FA\u53BB\uFF0C\u5C0F\u732A\u732A\u652F\u6301\u5154\u5154\u7684\u4E00\u5207\u505A\u6CD5\u3002\u732A\u732A\u6BCF\u5929\u90FD\u76D8\u7B97\u7740\u65E5\u5B50\uFF0C\u4ED6\u544A\u8BC9\u81EA\u5DF1\uFF0C\u53EA\u8981\u6709\u7231\u5728\uFF0C\u9694\u5C71\u8DDD\u6D77\uFF0C\u65E5\u5B50\u4E5F\u90FD\u4E0D\u4F1A\u592A\u96BE\u8FC7\u7684\u3002</p><p>\u54EA\u6015\u5C0F\u732A\u732A\u65E0\u6BD4\u73CD\u60DC\u6D41\u901D\u7684\u6BCF\u5206\u949F\uFF0C\u8DDD\u79BB\u5C0F\u5154\u5154\u8D70\u7684\u65F6\u95F4\u4E5F\u8D8A\u6765\u8D8A\u8FD1\u4E86\u3002\u5C0F\u732A\u732A\u5F00\u59CB\u7761\u4E0D\u7740\u89C9\uFF0C\u5403\u4E0D\u4E0B\u996D\u3002\u4ED6\u53EA\u60F3\u65E0\u65F6\u65E0\u523B\u7684\u76EF\u7740\u5154\u5154\u3002\u54EA\u6015\u8EBA\u5728\u5E8A\u4E0A\uFF0C\u4ED6\u4E5F\u4F1A\u6402\u7740\u5154\u5B50\uFF0C\u501F\u7740\u6708\u5149\uFF0C\u770B\u7740\u5154\u5154\u4FA7\u8EBA\u5728\u5E8A\u4E0A\u7684\u5A07\u4FCF\u6A21\u6837\u3002\u732A\u732A\u600E\u4E48\u53EF\u80FD\u820D\u5F97\u5154\u5154\u79BB\u5F00\u5462\u3002</p><p>\u5154\u5154\u4E5F\u53D1\u73B0\u4E86\u732A\u732A\u7684\u4E0D\u5BF9\u52B2\u3002\u4ED6\u867D\u7136\u6BCF\u5929\u90FD\u8FD8\u5728\u5C06\u989C\u6B22\u7B11\uFF0C\u53EF\u662F\u5154\u5154\u5374\u770B\u4E0D\u89C1\u4ED6\u5403\u996D\uFF0C\u53EA\u80FD\u770B\u89C1\u4ED6\u8D8A\u6765\u8D8A\u6DF1\u9083\u7684\u9ED1\u773C\u5708\uFF0C\u5154\u5154\u5F88\u5FC3\u75BC\u3002</p><p>\u201C\u732A\uFF0C\u4F60\u522B\u6015\u554A\uFF0C\u6211\u4F1A\u4E00\u76F4\u559C\u6B22\u4F60\u7684\u3002\u201D\u5C0F\u5154\u5154\u770B\u7740\u7ED9\u81EA\u5DF1\u7AEF\u83DC\u7684\u5C0F\u732A\uFF0C\u8BF4\u3002</p><p>\u201C\u50BB\u74DC\uFF0C\u6211\u4E0D\u662F\u6015\u4F60\u4E0D\u559C\u6B22\u6211\u4E86\u3002\u6211\u5BB3\u6015\u6211\u4E0D\u80FD\u4FDD\u62A4\u4F60\uFF0C\u5BB3\u6015\u4E0D\u80FD\u966A\u7740\u4F60\u3002\u6211\u5BB3\u6015\u6211\u60F3\u62B1\u4F60\u7684\u65F6\u5019\uFF0C\u8EAB\u8FB9\u6CA1\u6709\u4F60\uFF1B\u6211\u66F4\u5BB3\u6015\uFF0C\u4F60\u8EAB\u8FB9\u6709\u5F88\u591A\u4E2A\u6211\u3002\u201D\u732A\u732A\u62B1\u7740\u5C0F\u5154\u5B50\uFF0C\u7528\u529B\u628A\u5979\u6402\u5728\u6000\u91CC\u3002</p><p>\u201C\u522B\u778E\u8BF4\uFF01\u50BB\u732A\uFF0C\u4F60\u62AC\u5934\u770B\u661F\u661F\uFF0C\u5C31\u5934\u4E0A\u7684\u6700\u4EAE\u7684\u90A3\u4E00\u9897\u3002\u65E0\u8BBA\u6211\u4EEC\u76F8\u8DDD\u591A\u8FDC\uFF0C\u53EF\u662F\uFF0C\u5728\u5B83\u7684\u773C\u91CC\uFF0C\u6211\u4EEC\u90FD\u662F\u5728\u4E00\u8D77\u7684\u3002\u201D</p><p>\u201C\u732A\u732A\uFF0C\u6CA1\u6709\u51E0\u5929\u6211\u5C31\u8981\u8D70\u5566\uFF0C\u6211\u4E0D\u5E0C\u671B\u4F60\u6BCF\u5929\u90FD\u96BE\u8FC7\u3002\u65E2\u7136\u90FD\u662F\u65E2\u5B9A\u7684\u4E8B\u5B9E\uFF0C\u90A3\u4E3A\u4EC0\u4E48\uFF0C\u6211\u4EEC\u4E0D\u628A\u73B0\u5728\u4E24\u4E2A\u4EBA\u5F85\u5728\u4E00\u8D77\u7684\u65F6\u95F4\u8FC7\u7684\u66F4\u52A0\u5145\u5B9E\u7F8E\u6EE1\u5462\uFF1F\u201D\u5C0F\u5154\u5154\u5728\u732A\u732A\u7684\u6000\u91CC\uFF0C\u628A\u5934\u9760\u5728\u4E86\u4ED6\u7684\u5DF2\u7ECF\u7565\u5FAE\u6709\u4E9B\u6D88\u7626\u7684\u80A9\u8180\u4E0A\u3002</p><p>\u5C0F\u732A\u732A\u628A\u773C\u6CEA\u64E6\u5E72\uFF1A\u201C\u597D\u3002\u6211\u77E5\u9053\u8BE5\u600E\u4E48\u505A\u5566\u3002\u201D</p><p>\u201C\u65E0\u8BBA\u524D\u8DEF\u591A\u4E48\u6A21\u7CCA\uFF0C\u65E0\u8BBA\u76F8\u805A\u591A\u4E48\u9065\u8FDC\u3002\u6211\u90FD\u4F1A\u4E00\u76F4\u5728\u3002\u201D</p><p>\u201C\u6240\u7231\u9694\u5C71\u6D77\uFF0C\u5C71\u6D77\u7686\u53EF\u5E73\u3002\u201D</p><h2 id="\u82F9\u679C-\u667A\u6167\u679C" tabindex="-1"><a class="header-anchor" href="#\u82F9\u679C-\u667A\u6167\u679C" aria-hidden="true">#</a> \u82F9\u679C=\u667A\u6167\u679C</h2><p>\u5723\u7ECF\u4E0A\u8BF4\uFF0C\u4E0A\u5E1D\u521B\u9020\u4E86\u4E9A\u5F53\u548C\u590F\u5A03\u540E\uFF0C\u5B89\u6392\u4ED6\u4EEC\u5728\u4F0A\u7538\u56ED\u91CC\u751F\u6D3B\u3002\u4F0A\u7538\u56ED\u91CC\u6811\u6728\u5E38\u9752\uFF0C\u82B1\u8349\u5E38\u7EFF\uFF0C\u6709\u5404\u79CD\u5947\u73CD\u5F02\u679C\u548C\u98DE\u79BD\u8D70\u517D\u3002\u8FDB\u5165\u4F0A\u7538\u56ED\u7684\u7B2C\u4E00\u5929\uFF0C\u4E0A\u5E1D\u5C31\u8B66\u544A\u4E9A\u5F53\u548C\u590F\u5A03\u6240\u6709\u7684\u679C\u5B9E\u90FD\u53EF\u4EE5\u5403\uFF0C\u53EA\u6709\u667A\u6167\u6811\u7684\u8FC7\u662F\u4E0D\u53EF\u4EE5\u5403.</p><p>\u4E9A\u5F53\u548C\u590F\u5A03\u5F00\u59CB\u5F88\u542C\u8BDD\uFF0C\u4F46\u662F\u6CA1\u8FC7\u591A\u4E45\uFF0C\u5C31\u6709\u4E00\u6761\u9634\u9669\u7684\u6BD2\u86C7\u82B1\u8A00\u5DE7\u8BED\u5F15\u8BF1\u72EC\u81EA\u73A9\u800D\u7684\u590F\u5A03\u5077\u5403\u4E86\u667A\u6167\u6811\u7684\u679C\u5B50\uFF0C\u5929\u771F\u7684\u590F\u5A03\u53C8\u628A\u5403\u5269\u4E0B\u7684\u679C\u5B50\u7ED9\u4E86\u4E9A\u5F53\u3002\u4E8E\u662F\uFF0C\u4E9A\u5F53\u548C\u590F\u5A03\u5C31\u6709\u4E86\u667A\u6167\uFF0C\u4EBA\u7C7B\u5F00\u59CB\u6709\u4E86\u5584\u4E0E\u6076\u3002</p><p>\u82F9\u679C\u5728\u897F\u65B9\u8C61\u5F81\u7740\u7231\uFF0C\u4E9A\u5F53\u548C\u590F\u5A03\u5403\u7684\u201C\u7981\u679C\u201D\uFF0C\u5B9E\u9645\u4E0A\u5C31\u662F\u9752\u82F9\u679C\uFF0C\u5728\u4E0D\u8BE5\u5403\u7684\u65F6\u5019\u5403\u4E86\u5B83\uFF0C\u53D7\u5230\u4E0A\u5E1D\u7684\u60E9\u7F5A\u3002\u6CA1\u6709\u6210\u719F\u7684\u82F9\u679C\u7684\u5473\u9053\uFF0C\u53C8\u9178\u53C8\u6DA9\uFF0C\u6B63\u5982\u9752\u6DA9\u7684\u9752\u6625\u5982\u540C\u662F\u6CA1\u6709\u6210\u719F\u7684\u65F6\u5019\uFF0C\u4F60\u4E0D\u8981\u53BB\u5543\u5B83\u3002</p><p>\u82F9\u679C\u5C31\u6210\u4E86\u667A\u6167\u679C\u7684\u4EE3\u540D\u8BCD\uFF0C\u82F9\u679C\u4E5F\u6210\u4E86\u667A\u6167\u7684\u8C61\u5F81\u3002</p><h2 id="\u7B28\u7B28\u718A" tabindex="-1"><a class="header-anchor" href="#\u7B28\u7B28\u718A" aria-hidden="true">#</a> \u7B28\u7B28\u718A</h2><p>\u7B28\u7B28\u718A\u6765\u5230\u6CB3\u8FB9\uFF0C\u770B\u7740\u6CB3\u6C34\u91CC\u7684\u9C7C\uFF0C\u7B28\u7B28\u718A\u89C9\u5F97\u9C7C\u513F\u4EEC\u592A\u5E78\u798F\u4E86\uFF0C\u4E0D\u7528\u6355\u98DF\uFF0C\u5728\u6CB3\u6C34\u91CC\u81EA\u7531\u81EA\u5728\uFF0C\u771F\u5E78\u798F\u3002\u7B28\u7B28\u718A\u771F\u60F3\u53D8\u6210\u4E00\u6761\u9C7C\uFF0C\u4E00\u6761\u81EA\u7531\u81EA\u5728\u7684\u9C7C\u3002</p><p>\u7B28\u7B28\u718A\u8D70\u5728\u56DE\u5BB6\u7684\u8DEF\u4E0A\uFF0C\u4E0D\u5C0F\u5FC3\u649E\u5230\u4E86\u683C\u683C\u5DEB\uFF0C\u683C\u683C\u5DEB\u662F\u68EE\u6797\u91CC\u7684\u5DEB\u5A46\uFF0C\u683C\u683C\u5DEB\u65B0\u7814\u5236\u7684\u53D8\u8EAB\u836F\u6C34\u6D12\u5728\u4E86\u7B28\u7B28\u718A\u7684\u8EAB\u4E0A\uFF0C\u7B28\u7B28\u718A\u7ACB\u523B\u53D8\u6210\u4E86\u4E00\u6761\u9C7C\uFF0C\u53D8\u6210\u9C7C\u7684\u7B28\u7B28\u718A\u79BB\u5F00\u4E86\u6C34\u662F\u65E0\u6CD5\u6D3B\u4E0B\u53BB\u7684\uFF0C\u683C\u683C\u5DEB\u53EA\u597D\u628A\u7B28\u7B28\u718A\u653E\u5728\u6C34\u91CC\u3002</p><p>\u683C\u683C\u5DEB\u5BF9\u7B28\u7B28\u718A\u8BF4\uFF1A\u201C\u771F\u662F\u5BF9\u4E0D\u8D77\u7B28\u7B28\u718A\uFF0C\u4F60\u5148\u5728\u6CB3\u6C34\u91CC\u751F\u6D3B\uFF0C\u6211\u9A6C\u4E0A\u5C31\u56DE\u53BB\u7814\u5236\u89E3\u836F\uFF0C\u6211\u4F1A\u628A\u4F60\u53D8\u56DE\u6765\u7684\u3002\u201D</p><p>\u7B28\u7B28\u718A\u8BF4\uFF1A\u201C\u6CA1\u5173\u7CFB\uFF0C\u6211\u6B63\u597D\u53EF\u4EE5\u4EAB\u53D7\u4E00\u4E0B\u53D8\u6210\u9C7C\u7684\u751F\u6D3B\uFF0C\u4F60\u4E0D\u7528\u6025\u7740\u628A\u6211\u53D8\u56DE\u6765\u3002\u201D</p><p>\u683C\u683C\u5DEB\u628A\u53D8\u6210\u9C7C\u7684\u7B28\u7B28\u718A\u653E\u8FDB\u6CB3\u6C34\u91CC\u4E4B\u540E\uFF0C\u9A91\u7740\u626B\u628A\u6025\u5FD9\u56DE\u5BB6\u7814\u5236\u89E3\u836F\u53BB\u4E86\uFF0C\u7B28\u7B28\u718A\u9AD8\u5174\u7684\u5728\u6CB3\u6C34\u91CC\u6E38\u6765\u6E38\u53BB\uFF0C\u5F53\u4E00\u6761\u9C7C\u8FD9\u53EF\u662F\u7B28\u7B28\u718A\u7684\u68A6\u60F3\uFF0C\u73B0\u5728\u7EC8\u4E8E\u5B9E\u73B0\u4E86\u3002</p><p>\u7B28\u7B28\u718A\u6CA1\u6709\u6CE8\u610F\u5230\u5B83\u5DF2\u7ECF\u88AB\u4E00\u6761\u5927\u9C7C\u76EF\u4E0A\u4E86\uFF0C\u7B28\u7B28\u718A\u7A81\u7136\u611F\u5230\u773C\u524D\u4E00\u7247\u6F06\u9ED1\uFF0C\u539F\u6765\u81EA\u5DF1\u5DF2\u7ECF\u5728\u5927\u9C7C\u7684\u53E3\u91CC\u4E86\uFF0C\u7B28\u7B28\u718A\u8D81\u7740\u5927\u9C7C\u8FD8\u6CA1\u6709\u628A\u5634\u5408\u4E0A\u9003\u4E86\u51FA\u53BB\uFF0C\u7B28\u7B28\u718A\u4E0D\u65AD\u7684\u6E38\uFF0C\u51F6\u6076\u7684\u5927\u9C7C\u5728\u540E\u9762\u7D27\u8FFD\u4E0D\u820D\u3002</p><p>\u4E00\u4E2A\u5C0F\u6D77\u9A6C\u628A\u7B28\u7B28\u718A\u62FD\u8FDB\u4E86\u6D77\u85FB\u91CC\uFF0C\u5927\u9C7C\u600E\u4E48\u627E\u90FD\u627E\u4E0D\u5230\uFF0C\u53EA\u597D\u79BB\u5F00\uFF0C\u5C0F\u6D77\u9A6C\u544A\u8BC9\u7B28\u7B28\u718A\u8BF4\uFF1A\u201C\u5927\u9C7C\u5403\u5C0F\u9C7C\u8FD9\u662F\u89C4\u5F8B\uFF0C\u4E00\u5B9A\u8981\u5C0F\u5FC3\u90A3\u4E9B\u5927\u9C7C\uFF0C\u4E0D\u7136\u81EA\u5DF1\u4F1A\u88AB\u5403\u6389\u3002\u201D</p><p>\u7B28\u7B28\u718A\u5230\u5904\u4E1C\u8EB2\u897F\u85CF\uFF0C\u8FD9\u5B8C\u5168\u8DDF\u7B28\u7B28\u718A\u60F3\u8C61\u7684\u751F\u6D3B\u4E0D\u4E00\u6837\uFF0C\u5403\u7684\u98DF\u7269\u4E5F\u53D8\u6210\u4E86\u96BE\u5403\u7684\u6D77\u8349\u3002</p><p>\u8981\u77E5\u9053\u718A\u53EF\u662F\u4E00\u4E2A\u4E0D\u5403\u8349\u7684\u52A8\u7269\uFF0C\u73B0\u5728\u5374\u5929\u5929\u5403\u7740\u6D77\u8349\uFF0C\u7B28\u7B28\u718A\u6000\u5FF5\u8D77\u81EA\u5DF1\u4EE5\u524D\u505A\u5C0F\u718A\u7684\u65E5\u5B50\uFF0C\u53EF\u4EE5\u5403\u5230\u5F88\u591A\u7684\u7F8E\u98DF\uFF0C\u9999\u751C\u7684\u7CD5\u70B9\uFF0C\u60F3\u60F3\u5C31\u8BA9\u4EBA\u76F4\u6D41\u53E3\u6C34\u3002</p><p>\u7B28\u7B28\u718A\u60F3\u53D8\u56DE\u4E00\u53EA\u718A\uFF0C\u53EF\u662F\u683C\u683C\u5DEB\u7684\u89E3\u836F\u8FD8\u6CA1\u6709\u7814\u5236\u51FA\u6765\uFF0C\u7B28\u7B28\u718A\u4E0D\u613F\u610F\u518D\u5403\u90A3\u96BE\u5403\u7684\u6D77\u8349\uFF0C\u53EA\u597D\u997F\u7740\u809A\u5B50\uFF0C\u6B63\u5728\u7B28\u7B28\u718A\u997F\u7740\u809A\u5B50\u7684\u65F6\u5019\uFF0C\u4E00\u5757\u9762\u5305\u51FA\u73B0\u5728\u7B28\u7B28\u718A\u7684\u89C6\u7EBF\u91CC\uFF0C\u9762\u5305\u5728\u4E00\u4E2A\u74F6\u5B50\u91CC\uFF0C\u7B28\u7B28\u718A\u94BB\u8FDB\u74F6\u5B50\u91CC\uFF0C\u5F00\u5FC3\u7684\u5403\u8D77\u4E86\u9762\u5305\u3002</p><p>\u7B28\u7B28\u718A\u79BB\u5F00\u4E86\u6C34\u9762\uFF0C\u539F\u6765\u662F\u683C\u683C\u5DEB\u62FF\u9762\u5305\u8BF1\u60D1\u7B28\u7B28\u718A\u7684\uFF0C\u683C\u683C\u5DEB\u628A\u9B54\u6CD5\u836F\u6C34\u7684\u89E3\u836F\u6EF4\u5728\u4E86\u53D8\u6210\u9C7C\u7684\u7B28\u7B28\u718A\u8EAB\u4E0A\uFF0C\u7B28\u7B28\u718A\u53D8\u56DE\u4E86\u4E00\u53EA\u718A\uFF0C\u53EF\u662F\u7B28\u7B28\u718A\u5374\u5927\u54ED\u8D77\u6765\uFF0C\u683C\u683C\u5DEB\u5230\u73B0\u5728\u4E5F\u6CA1\u5F04\u6E05\u695A\u7B28\u7B28\u718A\u4E3A\u4EC0\u4E48\u4F1A\u54ED\u3002</p><h2 id="\u5C0F\u80A5\u732A" tabindex="-1"><a class="header-anchor" href="#\u5C0F\u80A5\u732A" aria-hidden="true">#</a> \u5C0F\u80A5\u732A</h2><p>\u4E00\u53EA\u9965\u997F\u7684\u72D0\u72F8\u6B63\u51C6\u5907\u51FA\u95E8\u627E\u5348\u9910\uFF0C\u7A81\u7136\uFF0C\u5916\u9762\u4F20\u6765\u4E00\u9635\u6572\u95E8\u58F0\u3002\u72D0\u72F8\u6253\u5F00\u95E8\uFF0C\u95E8\u53E3\u7ADF\u7AD9\u7740\u4E00\u53EA\u5C0F\u80A5\u732A\u3002</p><p>\u201C\u54CE\u5440\uFF0C\u6211\u627E\u9519\u95E8\u4E86\uFF0C\u6211\u4EE5\u4E3A\u662F\u5154\u5B50\u7684\u5BB6\u5462\uFF01\u201D</p><p>\u201C\u6CA1\u9519\uFF0C\u4F60\u6765\u5F97\u6B63\u662F\u65F6\u5019\uFF01\u201D</p><p>\u72D0\u72F8\u628A\u5C0F\u732A\u72E0\u72E0\u5730\u62D6\u8FDB\u5C4B\u91CC\uFF0C\u5927\u58F0\u53EB\u9053\uFF1A\u201C\u8FD9\u771F\u662F\u6211\u5E78\u8FD0\u7684\u4E00\u5929\uFF01\u6211\u8981\u5403\u4E00\u987F\u9999\u55B7\u55B7\u7684\u70E4\u732A\u8089\uFF0C\u73B0\u5728\uFF0C\u4F60\u4E56\u4E56\u5730\u8EBA\u5230\u70E4\u9505\u91CC\u53BB\u5427\uFF01\u201D</p><p>\u6323\u624E\u662F\u6CA1\u6709\u7528\u7684\uFF0C\u4E8E\u662F\uFF0C\u5C0F\u732A\u8BF4\uFF1A\u201C\u542C\u4F60\u7684\u5B89\u6392\u5427\u3002\u4E0D\u8FC7\uFF0C\u6211\u5F88\u810F\u54E6\uFF0C\u5728\u4F60\u5403\u6389\u6211\u4E4B\u524D\uFF0C\u5C31\u4E0D\u60F3\u628A\u6211\u6D17\u5F97\u5E72\u51C0\u4E00\u70B9\u5417\uFF1F\u201D\u4E8E\u662F\uFF0C\u72D0\u72F8\u5FD9\u8D77\u6765\u4E86\u3002\u4ED6\u62FE\u6765\u4E86\u6811\u679D\u3001\u751F\u8D77\u4E86\u706B\uFF0C\u518D\u5230\u6CB3\u8FB9\u53BB\u63D0\u6C34\uFF0C\u7136\u540E\uFF0C\u7ED9\u5C0F\u732A\u6D17\u4E86\u4E00\u4E2A\u75DB\u75DB\u5FEB\u5FEB\u7684\u70ED\u6C34\u6FA1\u3002</p><p>\u72D0\u72F8\u8BF4\uFF1A\u201C\u597D\u5566\uFF0C\u73B0\u5728\u4F60\u662F\u5168\u6751\u6700\u5E72\u51C0\u7684\u5C0F\u732A\u4E86\uFF0C\u5FEB\u7ED9\u6211\u8EBA\u5230\u70E4\u9505\u91CC\u53BB\u5427\uFF01\u201D</p><p>\u6323\u624E\u662F\u6CA1\u6709\u7528\u7684\uFF0C\u4E8E\u662F\uFF0C\u5C0F\u732A\u8BF4\uFF1A\u201C\u542C\u4F60\u7684\u5B89\u6392\u5427\u3002\u4E0D\u8FC7\uFF0C\u6211\u592A\u5C0F\u4E86\uFF0C\u5728\u4F60\u5403\u6389\u6211\u4E4B\u524D\uFF0C\u5C31\u4E0D\u60F3\u5582\u9971\u6211\uFF0C\u8BA9\u6211\u957F\u5F97\u80D6\u4E00\u70B9\u5417\uFF1F\u201D\u4E8E\u662F\uFF0C\u72D0\u72F8\u5FD9\u8D77\u6765\u4E86\u3002\u4ED6\u6458\u6765\u897F\u7EA2\u67FF\uFF0C\u505A\u4E86\u901A\u5FC3\u7C89\uFF0C\u8FD8\u70E4\u4E86\u4E00\u7089\u91D1\u9EC4\u8272\u7684\u5C0F\u751C\u997C\u3002\u5C0F\u732A\u5927\u5927\u54A7\u54A7\u5730\u5403\u4E86\u4E00\u987F\u4E30\u76DB\u7684\u5348\u9910\u3002</p><p>\u72D0\u72F8\u8BF4\uFF1A\u201C\u597D\u5566\uFF0C\u73B0\u5728\u4F60\u662F\u5168\u6751\u6700\u80A5\u7684\u5C0F\u732A\u4E86\uFF0C\u5FEB\u7ED9\u6211\u8EBA\u5230\u70E4\u9505\u91CC\u53BB\u5427\uFF01\u201D</p><p>\u6323\u624E\u662F\u6CA1\u6709\u7528\u7684\uFF0C\u4E8E\u662F\uFF0C\u5C0F\u732A\u8BF4\uFF1A\u201C\u542C\u4F60\u7684\u5B89\u6392\u5427\u3002\u4E0D\u8FC7\uFF0C\u6211\u662F\u4E00\u53EA\u52E4\u52B3\u7684\u5C0F\u732A\uFF0C\u6211\u7684\u8089\u4E00\u5B9A\u7279\u522B\u786C\u3002\u5728\u4F60\u5403\u6389\u6211\u4E4B\u524D\uFF0C\u5C31\u4E0D\u60F3\u5148\u7ED9\u6211\u6309\u6469\u4E00\u4E0B\uFF0C\u8BA9\u81EA\u5DF1\u5403\u4E0A\u66F4\u5AE9\u4E00\u70B9\u7684\u70E4\u8089\u5417\uFF1F\u201D</p><p>\u4E8E\u662F\uFF0C\u72D0\u72F8\u5FD9\u8D77\u6765\u4E86\u3002\u4ED6\u8BA9\u5C0F\u732A\u5750\u5728\u6728\u6905\u5B50\u4E0A\uFF0C\u4E3A\u5C0F\u732A\u634F\u634F\u5934\u3001\u677E\u677E\u80A9\u3001\u62C9\u62C9\u817F\uFF0C\u5C0F\u732A\u8212\u670D\u5F97\u76F4\u54FC\u54FC\u3002\u72D0\u72F8\u8BF4\uFF1A\u201C\u597D\u5566\uFF0C\u73B0\u5728\u4F60\u662F\u5168\u6751\u6700\u80A5\u7684\u5C0F\u732A\u4E86\uFF0C\u5FEB\u7ED9\u6211\u8EBA\u5230\u70E4\u9505\u91CC\u53BB\u5427\uFF01\u201D</p><p>\u201C\u90A3\u597D\u5427\uFF0C\u4E0D\u8FC7\uFF0C\u8FD9\u4E9B\u65E5\u5B50\u6211\u7684\u786E\u592A\u7D2F\u4E86\u3002\u4F60\u770B\uFF0C\u6211\u7684\u80CC\u8FD8\u6709\u70B9\u50F5\u786C\uFF0C\u4F60\u80FD\u518D\u7528\u529B\u66FF\u6211\u6309\u6469\u4E00\u4E0B\u5417\uFF1F\u5BF9\uFF0C\u5C31\u8FD9\u6837\uFF0C\u518D\u7528\u70B9\u529B\u6C14\uFF01\u201D\u8FC7\u4E86\u4E00\u4F1A\uFF0C\u8EAB\u540E\u4F20\u6765\u72D0\u72F8\u7684\u547C\u565C\u58F0\uFF0C\u5C0F\u732A\u8F7B\u58F0\u95EE\uFF1A\u201C\u72D0\u72F8\u5148\u751F\uFF0C\u4F60\u5728\u54EA\u513F\u554A\uFF1F\u201D</p><p>\u72D0\u72F8\u6CA1\u6709\u542C\u89C1\u5C0F\u732A\u7684\u558A\u58F0\uFF0C\u4ED6\u7D2F\u6781\u4E86\uFF0C\u6C89\u6C89\u5730\u7761\u53BB\u4E86\u3002</p><p>\u6751\u5B50\u91CC\u6700\u5E72\u51C0\u3001\u6700\u80A5\u3001\u6700\u67D4\u8F6F\u7684\u5C0F\u732A\uFF0C\u62FF\u7740\u5269\u4E0B\u7684\u751C\u997C\uFF0C\u98DE\u5FEB\u5730\u8DD1\u56DE\u5BB6\u53BB\u4E86\u3002</p><h2 id="\u68A6\u91CC\u6709\u4F60-\u5341\u5206\u751C" tabindex="-1"><a class="header-anchor" href="#\u68A6\u91CC\u6709\u4F60-\u5341\u5206\u751C" aria-hidden="true">#</a> \u68A6\u91CC\u6709\u4F60\uFF0C\u5341\u5206\u751C</h2><p>\u4F4F\u5728\u5C71\u5934\u7684\u5C0F\u5154\u5B50\uFF0C\u6700\u8FD1\u5FC3\u91CC\u85CF\u4E86-\u4E2A\u5C0F\u79D8\u5BC6\u3002\u90A3\u4E2A\u5C0F\u79D8\u5BC6\uFF0C\u662F\u6709\u5173\u5BF9\u9762\u5C71\u4E0A\u7684\u7EA2\u5C3E\u5DF4\u5C0F\u72D0\u72F8\u7684\u3002</p><p>\u8FD9\u5929\uFF0C\u5C0F\u5154\u5B50\u7167\u5E38\u53BB\u627E\u5C0F\u72D0\u72F8\u73A9\uFF0C\u534A\u8DEF\u9047\u5230\u4E86\u5C0F\u7CBE\u7075,\u542C\u8BF4\u8FD9\u4E2A\u5C0F\u7CBE\u7075\u7CBE\u901A\u4E07\u4E8B\uFF0C\u5C0F\u5154\u5B50\u541E\u541E\u5410\u5410\u5730\u95EE:\u201C\u5C0F\u7CBE\u7075\uFF0C. \u6211\u4E3A\u4EC0\u4E48\u89C1\u5230\u90A3\u4E2A\u4EBA\uFF0C\u5C31.. \u5C31\u4F1A\u5FC3\u8DF3\u52A0\u901F\uFF0C\u5C31.. \u50CF\u6211\u6BCF\u5929\u5728\u8349\u4E1B\u4E0A\u6253\u5B8C\u6EDA\u4E00\u6837?\u5C0F\u7CBE \u7075\u717D\u52A8\u7740\u5C0F\u7FC5\u8180\uFF0C\u7B11\u563B\u563B\u5730\u5BF9\u5C0F\u5154\u5B50\u8BF4:\u201C\u4F60\u8FD9\u662F\u559C\u6B22\u4E0A\u4EBA\u5BB6\u5566\u3002\u201D\u5C0F\u5154\u5B50\u53C8\u95EE:\u201C\u90A3\u4EC0\u4E48\u662F\u559C\u6B22\u5440?</p><p>\u5C0F\u7CBE\u7075\u60F3\u4E86\u60F3\u8BF4: &quot;\u559C\u6B22\u5C31\u662F\uFF0C\u4F60\u5728\u89C1\u4ED6\u4E4B\u524D\uFF0C\u5E0C\u671B\u65F6\u95F4\u8FC7\u5F97\u5FEB\u4E00-\u70B9, \u8FD9\u6837\u4F60\u5C31\u53EF\u4EE5\u5FEB\u70B9\u89C1\u5230\u4ED6\u3002\u89C1\u5230\u4ED6\u4E4B\u540E\uFF0C\u4F60\u4F1A\u5F88\u5F00\u5FC3\uFF0C\u4F1A\u5E0C\u671B\u65F6\u95F4\u8FC7\u5F97\u6162\u4E00-\u70B9,\u8FD9\u6837\u4F60\u5C31\u53EF\u4EE5\u6709\u66F4\u591A\u7684\u65F6\u95F4\u548C\u4ED6\u5728\u4E00\u8D77\u3002</p><p>\u201C\u53EF\u662F\uFF0C\u6211\u4E0D\u77E5\u9053\u4ED6\u559C\u4E0D\u559C\u6B22\u6211\uFF0C\u600E\u4E48\u529E?\u201D \u5C0F\u5154\u5B50\u5931\u843D\u5730\u8BF4\u3002</p><p>&quot;\u4F20\u8BF4\u5728\u7761\u524D\u53EA\u8981\u60F3\u7740\u4F60\u559C\u6B22\u7684\u90A3\u4E2A\u4EBA\uFF0C\u5982\u679C\u4ED6\u68A6\u5230\u4E86\u4F60\uFF0C\u4F60\u5C31\u53EF\u4EE5\u8FDB\u5165\u4ED6\u7684\u68A6\u91CC\uFF0C\u8FD9\u6837\uFF0C\u4F60\u4FBF\u53EF\u4EE5\u77E5\u9053\u4ED6\u5BF9\u4F60\u7684\u5FC3\u610F\u5566!\u201D\u5C0F\u7CBE\u7075\u8BF4\u5B8C\u5C31\u6D88\u5931\u4E86\u3002</p><p>\u5C0F\u5154\u5B50\u9ED8\u9ED8\u8BB0\u4F4F\u4E86\u5C0F\u7CBE\u7075\u7684\u8BDD\uFF0C\u7EC8\u4E8E\uFF0C\u661F\u661F\u51FA\u6765\u4E86\uFF0C\u5C0F\u5154\u5B50\u8EBA\u5728\u67D4\u8F6F\u7684\u5C0F\u5E8A.\u4E0A,\u60F3\u7740\u548C\u5C0F\u72D0\u72F8\u7684\u6B22\u4E50\u65F6\u5149\uFF0C\u4E0D\u77E5\u4E0D\u89C9,\u7761\u7740\u4E86..</p><p>\u679C\u7136\uFF0C\u5C0F\u5154\u5B50\u6765\u5230\u4E86\u4E00\u4E2A\u53EB\u68A6\u4E4B\u56FD\u7684\u5730\u65B9\uFF0C\u5728\u8FD9\u4E2A\u5730\u65B9\uFF0C\u5979\u770B\u5230\u4E86\u4E00\u95F4\u5C0F\u6728\u5C4B,\u6302\u7740\u7EA2\u5C3E\u5DF4\u5C0F\u72D0\u72F8\u7684\u724C\u5B50\uFF0C\u5C0F\u5154\u5B50\u6DF1\u5438\u4E00\u53E3\u6C14,\u63A8\u5F00\u4E86\u5C0F\u6728\u95E8\uFF0C\u901A\u5F80\u5C0F\u72D0\u72F8\u68A6\u91CC\u7684\u8DEF\u5F00\u6EE1\u4E86\u82B1\u82B1\u8349\u8349\uFF0C\u8774\u8776\u5728\u7A7A\u4E2D\u98DE\u821E,\u5C0F\u5154\u5B50\u8D70\u4E86\u597D\u4E45\uFF0C\u5728\u4E00\u7247\u8349\u5730\u4E0A\u770B\u5230\u4E86\u5C0F\u72D0\u72F8\uFF0C\u5C0F\u72D0\u72F8\u7B11\u563B\u563B\u5730\u5BF9\u5C0F\u5154\u5B50\u8BF4:\u201C\u4F60\u7EC8\u4E8E\u6765\u4E86\uFF0C \u6211\u4E00\u76F4\u5728\u7B49\u4F60\uFF0C\u6211\u5FC3\u7231\u7684\u5C0F\u5154\u5B50\u3002</p><p>\u68A6\u91CC\uFF0C\u5C0F\u72D0\u72F8\u5E26\u7740\u5C0F\u5154\u5B50\u5728\u8349\u4E1B\u4E0A\u6253\u6EDA\u513F\uFF0C\u5C0F\u72D0\u72F8\u8FD8\u4E3A\u5C0F\u5154\u5B50\u7F16\u7EC7\u4E86\u4E00\u4E2A\u5C0F\u82B1\u73AF\uFF0C\u4EB2\u624B\u7ED9\u5C0F\u5154\u5B50\u6234\u5728\u5934\u4E0A\uFF0C\u5750\u5728\u6E56\u8FB9\uFF0C\u770B\u7740\u5728\u6E56\u4E0A\u98D8\u7740\u7684\u5C0F\u8239\uFF0C\u5403\u7740\u751C\u751C\u7684\u7CD6\u679C\uFF0C \u73A9\u7D2F\u4E86\u5C0F\u72D0\u72F8\u5C31\u8BA9\u5C0F\u5154\u5B50\u8EBA\u5728\u4ED6\u67D4\u8F6F\u7684\u7EA2\u5C3E\u5DF4\u4E0A\uFF0C\u5BA0\u6EBA\u5730\u629A\u6478\u7740\u5C0F\u5154\u5B50\u5934\uFF0C\u8033\u8FB9\u62C2\u8FC7\u7684\u53EA\u6709\u6E29\u548C\u7684\u98CE\u548C\u5F7C\u6B64\u7684\u547C\u5438\u3002</p><p>\u4E0D\u77E5\u8FC7\u4E86\u591A\u4E45,\u5C0F\u5154\u5B50\u773C\u524D\u95EA\u8FC7\u4E00\u9053\u767D\u5149\uFF0C\u68A6\u7ED3\u675F\u4E86...</p><p>\u5C0F\u5154\u5B50\u7EC6\u7EC6\u56DE\u60F3\u7740\u521A\u624D\u7684\u68A6\uFF0C\u6025\u5FD9\u671D\u5C0F\u72D0\u72F8\u5BB6\u8DD1\u53BB\uFF0C\u72B9\u8C6B\u4E86\u4E00\u4E0B\uFF0C\u7EC8\u4E8E\u6572\u54CD\u4E86\u5C0F\u72D0\u72F8\u5BB6\u7684\u95E8,\u4E0D\u4E00\u4F1A\u513F\uFF0C\u95E8\u5F00\u4E86\uFF0C\u9732\u51FA\u4E86\u5C0F\u72D0\u72F8\u542B\u7740\u7B11\u610F\u7684\u5927\u773C\u775B\u3002\u5C0F\u5154\u5B50\u8BF4:\u201D\u4F60\u597D\u5440\uFF0C\u5C0F\u72D0\u72F8\uFF0C\u4ECA\u5929\u6211\u4EEC\u53BB\u6458\u8611\u83C7\u5427!&quot;\u5C0F\u72D0\u72F8\u70B9\u4E86\u70B9\u5934:\u201C\u597D\u554A\u597D\u554A\uFF0C\u5FEB\u8FDB\u6765\u5427\uFF0C\u7B49\u6211\u6536\u62FE\u4E00\u4E0B\u6211\u4EEC\u5C31\u51FA\u53D1\u3002</p><p>\u8DEF\u4E0A\uFF0C\u5C0F\u5154\u5B50\u652F\u652F\u543E\u543E\u5730\u95EE: &quot;\u5C0F\u72D0\u72F8\uFF0C..\u4F60\u6628\u5929\u505A\u4E86\u4EC0\u4E48\u68A6\u5440?\u201D</p><p>\u5C0F\u72D0\u72F8\u5237\u5730\u4E00\u4E0B\u8138\u7EA2\u4E86\uFF0C\u6320\u4E86\u6320\u5934\uFF0C\u4E0D\u597D\u610F\u601D\u8BF4:\u201C\u4E3A..\u4E3A\u4EC0\u4E48\u8981\u95EE\u8FD9\u4E2A?\u201D</p><p>\u201C\u56E0\u4E3A\u6211\u68A6\u5230\u4E86 ..\u5C0F\u5154\u5B50\u4E0D\u5C0F\u5FC3\u8BF4\u6F0F\u4E86\u5634\uFF0C\u8D76\u5FD9\u8BF4&quot;\u54CE\u5440\uFF0C\u4F60\u5FEB\u70B9\u8BF4\u8BF4\u561B!&quot;</p><p>&quot;\u55EF..\u6211\u68A6\u5230\u4E86.\u5176\u5B9E\u662F\u4E00\u4E2A\u5341\u4E8C\u5206\u751C\u7684\u68A6\u3002\u201D</p><p>\u201D\u4E3A\u4EC0\u4E48\u662F\u5341\u4E8C\u5206\u751C?\u201D\u5C0F\u5154\u5B50\u4E0D\u89E3\u7684\u95EE\u3002</p><p>\u201C\u4E00\u5206\u662F\u5B81\u9759\uFF0C\u4E00\u5206\u662F\u60EC\u610F\u3002\u201D</p><p>\u5C0F\u72D0\u72F8\u62C9\u8D77\u5C0F\u5154\u5B50\u7684\u624B\u7EE7\u7EED\u8BF4\u201C\u7136\u540E\u68A6\u91CC\u6709\u4F60\uFF0C\u4F60\u5341\u5206\u751C\u3002</p><h2 id="\u665A\u5B89" tabindex="-1"><a class="header-anchor" href="#\u665A\u5B89" aria-hidden="true">#</a> \u665A\u5B89\uFF01</h2><p>\u65F6\u95F4\u5728\u68EE\u6797\u91CC\uFF0C\u6162\u6162\u7684\u6D41\u901D\u7740\uFF0C\u4E0D\u4E45\u79CB\u5929\u4FBF\u6765\u4E86\uFF0C\u4E5F\u5230\u4E86\u52A8\u7269\u4EEC\u6700\u5FD9\u788C\u7684\u5B63\u8282\uFF0C\u56E0\u4E3A\u79CB\u5929\u7684\u91D1\u9EC4\uFF0C\u50CF\u6781\u4E86\u5927\u81EA\u7136\u7ED9\u4E88\u52A8\u7269\u4EEC\u6700\u73CD\u8D35\u7684\u5B9D\u85CF\uFF0C\u4E5F\u6807\u5FD7\u7740\u5C0F\u52A8\u7269\u4EEC\u8981\u5F00\u59CB\u50A8\u5B58\u51AC\u5929\u7684\u7CAE\u98DF\u4E86\u3002</p><p>\u9AD8\u8038\u5165\u4E91\u7684\u677E\u6811\u4E0A\uFF0C\u5C0F\u677E\u9F20\u4E0A\u7A9C\u4E0B\u8DF3\u7684\u8EAB\u5F71\u7740\u5B9E\u8BA9\u4EBA\u4E0D\u5F97\u4E0D\u6CE8\u610F\u3002\u90A3\u5C0F\u677E\u9F20\u5728\u5FD9\u4EC0\u4E48\u5462\uFF1F\u548B\u4E00\u770B\uFF0C\u539F\u6765\u5C0F\u677E\u9F20\u5728\u5FD9\u7740\u6361\u5730\u4E0A\u7684\u677E\u679C\uFF0C\u4E0D\u505C\u7684\u5F80\u81EA\u5DF1\u7684\u5C0F\u7A9D\u91CC\u9001\u5462\uFF01\u5728\u5C0F\u677E\u9F20\u5FD9\u788C\u7684\u8FC7\u7A0B\u4E2D\uFF0C\u5544\u6728\u9E1F\u533B\u751F\uFF0C\u4E5F\u5728\u65C1\u8FB9\u7684\u6811\u4E0A\u4E0D\u505C\u7684\u7ED9\u5927\u53D4\u4F2F\u4F2F\u9A71\u866B\u2026\u2026</p><p>\u6240\u4EE5\u53EA\u8981\u4F60\u4ED4\u7EC6\u4E00\u770B\uFF0C\u6574\u4E2A\u68EE\u6797\u90FD\u5728\u79CB\u5929\u7684\u6C14\u6C1B\u4E2D\u5FD9\u788C\u7740\u3002\u5728\u68EE\u6797\u7684\u53E6\u4E00\u8FB9\uFF0C\u5C0F\u732A\u5728\u5C4B\u5916\u4E0D\u505C\u7684\u5228\u5751\uFF0C\u8DEF\u8FC7\u7684\u5C0F\u767D\u5154\u770B\u89C1\u4E86\uFF0C\u95EE\u5C0F\u732A\uFF1A\u201C\u5C0F\u732A\uFF0C\u5C0F\u732A\u4F60\u5728\u5E72\u561B\u5462\uFF1F\u201D</p><p>\u201C\u6211\u5728\u5228\u4E2A\u5927\u70B9\u7684\u5751\uFF0C\u7136\u540E\u628A\u51AC\u5929\u8981\u5403\u7684\u7CAE\u98DF\u57CB\u91CC\u9762\u201D\u3002\u5C0F\u732A\u8FB9\u5E72\u6D3B\u8FB9\u56DE\u7B54\u8BF4\u3002</p><p>\u201C\u5E72\u561B\u8981\u57CB\u5728\u5751\u91CC\u554A\uFF01\u201D</p><p>\u201C\u56E0\u4E3A\u57CB\u5728\u5751\u91CC\uFF0C\u6E29\u5EA6\u4F4E\u53EF\u4EE5\u4FDD\u6301\u98DF\u7269\u4E0D\u574F\u554A\uFF01\u201D</p><p>\u5C0F\u767D\u5154\u542C\u4E86\uFF0C\u597D\u50CF\u5F88\u6709\u9053\u7406\uFF0C\u4FBF\u544A\u522B\u5C0F\u732A\uFF0C\u5F80\u5BB6\u91CC\u8D76\u53BB\u3002</p><p>\u56DE\u5230\u5BB6\u91CC\uFF0C\u5C0F\u767D\u5154\u8BA9\u5C0F\u72D0\u72F8\u628A\u81EA\u5DF1\u6700\u559C\u6B22\u5403\u7684\u841D\u535C\u57CB\u5728\u5730\u91CC\uFF0C\u5C0F\u72D0\u72F8\u542C\u4E86\u4E00\u9635\u60CA\u8BB6\uFF0C\u95EE\u5C0F\u767D\u5154\u4E3A\u4EC0\u4E48\u8981\u57CB\u5728\u5730\u91CC\uFF0C\u5C0F\u767D\u5154\u628A\u548C\u5C0F\u732A\u7684\u8C08\u8BDD\u544A\u8BC9\u4E86\u5C0F\u72D0\u72F8\u3002</p><p>\u5C0F\u72D0\u72F8\u542C\u540E\uFF0C\u5FCD\u4E0D\u4F4F\u5927\u7B11\u8D77\u6765\uFF0C\u8FD9\u53EF\u628A\u5C0F\u767D\u5154\u6C14\u7740\u4E86\uFF0C\u8FDE\u5FD9\u95EE\u539F\u56E0\uFF0C\u4F11\u606F\u4E86\u597D\u4E00\u4F1A\uFF0C\u5C0F\u72D0\u72F8\u8BF4\uFF1A\u201C\u5C0F\u732A\u50A8\u5B58\u7684\u662F\u90A3\u79CD\u57CB\u5728\u5730\u91CC\u4E0D\u4F1A\u574F\u7684\u98DF\u7269\uFF0C\u800C\u4E14\u4E5F\u4F1A\u628A\u98DF\u7269\u5305\u88C5\u4FDD\u62A4\u4E00\u4E0B\u554A\uFF0C\u4F46\u662F\u4F60\u559C\u6B22\u5403\u7684\u80E1\u841D\u535C\uFF0C\u4E00\u65E6\u57CB\u5728\u5730\u4E0B\uFF0C\u4F1A\u8150\u70C2\uFF0C\u5C31\u7B97\u4E0D\u8150\u70C2\u4E5F\u4F1A\u53D8\u6210\u80E1\u841D\u535C\u5E72\u201D\u3002\u5C0F\u767D\u5154\u542C\u540E\uFF0C\u4E5F\u89C9\u5F97\u597D\u50CF\u6709\u4E9B\u9053\u7406\uFF0C\u4E8E\u662F\u53C8\u95EE\uFF1A\u201C\u90A3\u4F60\u4E3A\u4EC0\u4E48\u7B11\u6211\uFF1F\u201D\uFF0C\u5C0F\u72D0\u72F8\u770B\u7740\u561F\u7740\u5634\u7684\u5C0F\u767D\u5154\uFF0C\u53C8\u597D\u7B11\u53C8\u53EF\u7231\u3002</p><p>\u201C\u56E0\u4E3A\u4F60\u8FD9\u4E48\u4E45\uFF0C\u8FD8\u662F\u6211\u7684\u50BB\u5B9D\u8D1D\uFF0C\u4E00\u70B9\u90FD\u6CA1\u53D8\u5462\uFF01\u201D\u5C0F\u767D\u5154\u542C\u540E\uFF0C\u611F\u89C9\u597D\u50CF\u88AB\u8868\u626C\u4E86\uFF0C\u4E0D\u89C9\u5F97\u5634\u89D2\u4E0A\u626C\u3002\u4F46\u4ED4\u7EC6\u4E00\u60F3\uFF0C\u597D\u50CF\u53C8\u4E0D\u662F\uFF0C\u4E8E\u662F\u8FDE\u5FD9\u8981\u627E\u5C0F\u72D0\u72F8\u7B97\u8D26\uFF0C\u8F6C\u5934\u4E00\u770B\u5C0F\u72D0\u72F8\u65E9\u5C31\u8DD1\u51FA\u95E8\uFF0C\u5BF9\u7740\u5C0F\u767D\u5154\u505A\u9B3C\u8138\u3002</p><p>\u201C\u4F60\u7B49\u7740\uFF0C\u4F60\u4E2A\u81ED\u5B9D\u8D1D\uFF01\u201D\u5C0F\u767D\u5154\u8FDE\u5FD9\u8FFD\u51FA\u53BB\u3002</p><p>\u5C31\u8FD9\u6837\uFF0C\u5728\u5FD9\u788C\u7684\u79CB\u5929\uFF0C\u4E5F\u4F1A\u6709\u521D\u6625\u7231\u60C5\u7684\u751C\u871C\uFF0C\u50CF\u5C0F\u767D\u5154\u548C\u5C0F\u72D0\u72F8\uFF0C\u5728\u5FD9\u788C\u5F53\u4E2D\u5B09\u620F\u6253\u95F9\uFF0C\u8BA9\u4E00\u4E9B\u8FD8\u5355\u8EAB\u7684\u5C0F\u52A8\u7269\uFF0C\u597D\u751F\u7FA1\u6155\u2026\u2026</p><p>\u5F53\u7136\uFF0C\u68EE\u6797\u91CC\u7684\u52A8\u7269\u4EEC\u90FD\u975E\u5E38\u7684\u5584\u826F\uFF0C\u6240\u4EE5\u554A\u6708\u8001\u4E5F\u4E00\u5B9A\u4E0D\u4F1A\u541D\u556C\u59FB\u7F18\u7684\u7EA2\u7EBF\uFF0C\u76F8\u4FE1\u4E0D\u4E45\u53C8\u4F1A\u6709\u65B0\u7684\u751C\u871C\u98D8\u6563\u5728\u8FD9\u68EE\u6797\u7684\u5927\u5BB6\u5EAD\u4E2D\u3002</p><p>\u6BCF\u4E00\u4E2A\u591C\u5E55\u964D\u4E34\uFF0C\u6211\u4EEC\u4E5F\u4F1A\u5BF9\u5F7C\u6B64\u8BF4\u4E0A\u4E00\u53E5\uFF1A\u665A\u5B89\uFF01\u597D\u68A6\uFF01</p><h2 id="\u7231-\u957F\u7BC7" tabindex="-1"><a class="header-anchor" href="#\u7231-\u957F\u7BC7" aria-hidden="true">#</a> \u7231\uFF08\u957F\u7BC7\uFF09</h2><p>\u6E05\u6668\uFF0C\u6DF1\u5C71\u4E4B\u5904\u7684\u5BFA\u5E99\u5BE5\u5BE5\u708A\u70DF\uFF0C\u53A8\u623F\u91CC\uFF0C\u725B\u6653\u70E7\u7740\u706B\uFF0C\u5C0F\u548C\u5C1A\u6405\u52A8\u7740\u9505\u91CC\u7684\u658B\u996D\uFF0C\u4E00\u4E2A\u6708\u7684\u76F8\u5904\u4E0B\u6765\uFF0C\u8BA9\u4E24\u4EBA\u914D\u5408\u76F8\u5F53\u9ED8\u5951\uFF0C\u8FD9\u4E5F\u8BA9\u5C0F\u548C\u5C1A\u7684\u5DE5\u4F5C\u8F7B\u677E\u4E86\u8BB8\u591A\u3002</p><p>\u201C\u4F60\u559C\u6B22\u8FC7\u522B\u4EBA\u5417\uFF1F\u201D\u725B\u6653\u7A81\u7136\u95EE</p><p>\u201C\u5565\uFF1F\u201D\u5C0F\u548C\u5C1A\u88AB\u8FD9\u7A81\u5982\u5176\u6765\u95EE\u9898\u60CA\u4E86\u4E00\u4E0B\uFF0C\u7136\u540E\u53C8\u8BF4\uFF1A\u201C\u6211\u559C\u6B22\u5E08\u5085\uFF0C\u5E08\u5085\u662F\u6211\u7684\u5BB6\u4EBA\uFF0C\u5982\u679C\u4F60\u5F85\u4E45\u4E86\u6211\u4E5F\u4F1A\u559C\u6B22\u4F60\u7684\u3002\u201D\u725B\u6653\u770B\u7740\u5C0F\u548C\u5C1A\u8BA4\u8BA4\u771F\u771F\u7684\u56DE\u7B54\u7740\u3002\u7A81\u7136\u5657\u55E4\u4E00\u58F0\u7B11\u4E86\u8D77\u6765\u3002</p><p>\u201C\u4F60\u662F\u4E0D\u662F\u50BB\uFF1F\u6211\u8BF4\u7684\u662F\u7537\u5973\u4E4B\u95F4\u7684\u559C\u6B22\uFF1F\u201D\u725B\u6653\u8BF4\u3002</p><p>\u201C\u90A3\u662F\u4EC0\u4E48\u559C\u6B22\uFF1F\u4E0D\u61C2\u4E0D\u61C2\uFF01\u201D\u5C0F\u548C\u5C1A\u8FB9\u76DB\u7740\u7CA5\uFF0C\u8FB9\u6447\u7740\u5934\u3002</p><p>\u996D\u684C\u4E0A\uFF0C\u5E08\u5F92\u4E09\u4EBA\u5403\u7740\u658B\u996D\uFF0C\u5C0F\u548C\u5C1A\u7A81\u7136\u95EE\u5E08\u5085\uFF1A\u201C\u5E08\u5085\uFF0C\u4F60\u559C\u6B22\u8FC7\u5973\u4EBA\u5417\uFF1F\u201D\u3002\u8FD9\u4E00\u95EE\u5B8C\uFF0C\u5E08\u5085\u5DEE\u70B9\u545B\u4E86\u4E00\u53E3\u996D\uFF0C\u8F6C\u5934\u770B\u7740\u725B\u6653\uFF0C\u725B\u6653\u4E00\u8138\u65E0\u8F9C\u7684\u8BF4\u5230\uFF1A\u201C\u5E08\u5085\uFF0C\u8DDF\u6211\u65E0\u5173\uFF0C\u6211\u53EF\u5565\u90FD\u6CA1\u8BF4\u201D\u3002\u8BF4\u5B8C\uFF0C\u4FBF\u57CB\u5934\u5403\u996D\u3002</p><p>\u201C\u4F60\u4EEC\u4FE9\uFF0C\u4E00\u5929\u4E0D\u8BA4\u771F\u5FF5\u4F5B\u5B88\u5FC3\uFF0C\u8BA8\u8BBA\u90A3\u4E9B\u65E0\u5173\u7D27\u8981\u7684\u5E72\u561B\uFF1F\u201D\u5E08\u5085\u767D\u4E86\u4E00\u773C\u725B\u6653\uFF0C\u7EE7\u7EED\u8BF4\u5230\uFF1A\u201C\u7537\u6B22\u5973\u7231\uFF0C\u7686\u4E3A\u4E16\u4FD7\u60C5\u4E8B\uFF0C\u4E16\u4EBA\u628A\u8FD9\u79CD\u611F\u60C5\u6BD4\u4E3A\u7231\u60C5\uFF0C\u53C8\u4EE5\u73AB\u7470\u4E3A\u8C61\u5F81\uFF0C\u65E0\u8BBA\u5403\u658B\u5FF5\u4F5B\u4E5F\u597D\uFF0C\u7537\u6B22\u5973\u7231\u4E5F\u7F62\uFF0C\u90FD\u662F\u4EBA\u751F\u5F53\u4E2D\u7684\u4FEE\u884C\uFF0C\u4EBA\u4EBA\u90FD\u60F3\u4FEE\u5F97\u6B63\u679C\uFF0C\u5176\u4E2D\u56F0\u96BE\u574E\u5777\uFF0C\u5927\u540C\u5C0F\u5F02\u2026\u2026\u201D\u5E08\u5085\u8BF4\u7740\uFF0C\u4EFF\u4F5B\u9677\u5165\u4E86\u56DE\u5FC6\uFF0C\u800C\u540E\u7B11\u7740\u5BF9\u9762\u524D\uFF0C\u8FD9\u4E24\u4E2A\u7741\u7740\u773C\u775B\u542C\u7740\u7684\u5F92\u5F1F\u7EE7\u7EED\u8BF4\uFF1A\u201C\u8BB0\u5F97\u5E08\u508517\u5C81\u90A3\u5E74\uFF0C\u5E76\u672A\u50CF\u73B0\u5728\u5982\u6B64\u5F00\u59CB\u5403\u658B\u5FF5\u4F5B\uFF0C\u8FD8\u5728\u4E61\u91CC\u63D2\u79E7\u79CD\u7530\uFF0C\u4E00\u5BB6\u4E09\u53E3\u6625\u8015\u79CB\u6536\uFF0C\u5176\u4E50\u878D\u878D\uFF0C\u751F\u6D3B\u4E5F\u522B\u6709\u4E00\u756A\u7CBE\u5F69\u3002\u8BB0\u5F97\u90A3\u662F\u4E00\u4E2A\u9EC4\u660F\u508D\u665A\uFF0C\u6211\u548C\u6BCD\u4EB2\u5728\u5BB6\u4E2D\u70E7\u706B\u505A\u996D\uFF0C\u7236\u4EB2\u5E26\u56DE\u4E00\u9A91\u9A6C\u7537\u5B50\u3002\u7537\u5B50\u6EE1\u8EAB\u5C18\u571F\uFF0C\u4E00\u8138\u75B2\u60EB\uFF0C\u4E0D\u8FC7\u8BF4\u4E5F\u5947\u602A\uFF0C\u8FD9\u7537\u5B50\u957F\u7684\u597D\u751F\u79C0\u6C14\u3002\u7ECF\u7236\u4EB2\u4E00\u756A\u89E3\u91CA\uFF0C\u539F\u6765\u662F\u4E00\u4E2A\u8DEF\u8FC7\uFF0C\u51C6\u5907\u53BB\u53C2\u519B\u7684\u9752\u5E74\uFF0C\u8DEF\u4E0A\u56E0\u4E3A\u9A91\u9A6C\u98A0\u7C38\uFF0C\u6454\u4F24\u4E86\u5DE6\u817F\uFF0C\u7236\u4EB2\u89C1\u5176\u5728\u6751\u53E3\u5750\u7740\uFF0C\u4E0A\u524D\u8BE2\u95EE\u540E\uFF0C\u9080\u5176\u5728\u5BB6\u4F11\u517B\u4E24\u65E5\uFF0C\u5948\u4F55\u7537\u5B50\u6709\u4F24\u5728\u8EAB\uFF0C\u76DB\u60C5\u96BE\u5374\uFF0C\u4FBF\u548C\u7236\u4EB2\u6765\u5230\u5BB6\u4E2D\u505A\u5BA2\u4F11\u517B\u201D\u3002</p><p>\u8BF4\u5230\u7740\uFF0C\u5E08\u5085\u4E00\u8138\u56DE\u5FC6\u4E4B\u8272\uFF0C\u5C0F\u548C\u5C1A\u9ED8\u9ED8\u4E3A\u5E08\u5085\u7AEF\u6765\u4E00\u676F\u8336\u6C34\uFF0C\u548C\u725B\u6653\u5E76\u6392\u5750\u5728\u5E08\u5085\u5BF9\u9762\uFF0C\u6EE1\u773C\u671F\u5F85\u5E08\u5085\u7EE7\u7EED\u8BB2\u6545\u4E8B\u3002</p><p>\u5E08\u5085\u770B\u4E86\u8FD9\u4E24\u597D\u5947\u5F92\u5F1F\u4E00\u773C\uFF0C\u7EE7\u7EED\u8BF4\uFF1A\u201C\u7537\u5B50\u6765\u5230\u5BB6\u4E2D\u4F4F\u5728\u504F\u623F\uFF0C\u524D\u4E24\u5929\u56E0\u4E3A\u817F\u811A\u4E0D\u4FBF\uFF0C\u9664\u4E86\u5403\u996D\u4FBF\u4E00\u76F4\u5F85\u5728\u623F\u95F4\u4E0D\u51FA\u95E8\u3002\u7B2C\u4E09\u5929\u508D\u665A\u548C\u7236\u4EB2\u52A1\u519C\u7ED3\u675F\uFF0C\u56DE\u5230\u5BB6\u4E2D\uFF0C\u53D1\u73B0\u90A3\u7537\u5B50\u5DF2\u7ECF\u4E0D\u89C1\uFF0C\u53CD\u800C\u6709\u4E00\u540D\u7A7F\u7740\u7D20\u8863\uFF0C\u957F\u76F8\u6E05\u79C0\u7684\u59D1\u5A18\u5728\u548C\u6BCD\u4EB2\u6709\u8BF4\u6709\u7B11\u3002\u7ECF\u8FC7\u4E00\u756A\u8BE2\u95EE\uFF0C\u90A3\u7537\u5B50\u5C45\u7136\u662F\u5973\u513F\u8EAB\uFF0C\u8FD9\u53EF\u628A\u6211\u548C\u7236\u4EB2\u60CA\u4E86\u4E00\u4E0B\u3002\u90A3\u65F6\u7236\u4EB2\u867D\u6CA1\u8BFB\u8FC7\u4E66\uFF0C\u4F46\u4E5F\u4E0D\u662F\u591A\u5634\u4E4B\u4EBA\uFF0C\u6240\u4EE5\u5F53\u65F6\u5728\u8868\u73B0\u51FA\u4E00\u5239\u60CA\u8BB6\u4E4B\u540E\uFF0C\u4FBF\u6062\u590D\u5982\u521D\uFF0C\u6CA1\u6709\u591A\u95EE\u4EC0\u4E48\uFF0C\u4F46\u6211\u60F3\u540E\u9762\u6BCD\u4EB2\u5E94\u8BE5\u7ED9\u7236\u4EB2\u89E3\u91CA\u4E86\u7F18\u7531\u3002\u5F80\u540E\u51E0\u5929\uFF0C\u8FD9\u5973\u5B50\u5F00\u59CB\u5E2E\u5BB6\u91CC\u5206\u62C5\u8D77\u4E86\u519C\u6D3B\uFF0C\u6D17\u8863\u505A\u996D\uFF0C\u987A\u4FBF\u4E5F\u5F00\u59CB\u7ED9\u6211\u8F85\u5BFC\u529F\u8BFE\uFF0C\u6559\u6211\u8BC6\u5B57\u3002</p><p>\u8FD9\u6837\u7684\u65E5\u5B50\u6301\u7EED\u4E86\u5927\u6982\u5927\u534A\u4E2A\u6708\uFF0C\u8FD9\u671F\u95F4\u6BCD\u4EB2\u548C\u7236\u4EB2\u8FD8\u62C5\u5F53\u8D77\u4E86\u5A92\u4EBA\u4F3C\u7684\uFF0C\u5C3D\u529B\u5728\u64AE\u5408\u6211\u548C\u8FD9\u59D1\u5A18\uFF0C\u7279\u522B\u662F\u6BCD\u4EB2\uFF0C\u8868\u73B0\u7684\u5341\u5206\u559C\u6B22\u3002\u90A3\u65F6\u7684\u6211\uFF0C\u56E0\u4E3A\u60C5\u7AA6\u521D\u5F00\uFF0C\u5916\u52A0\u671D\u5915\u76F8\u5904\uFF0C\u771F\u7684\u5BF9\u5979\u4EA7\u751F\u4E86\u4E00\u79CD\u83AB\u540D\u7684\u60C5\u612B\u201D\u3002\u5E08\u5085\u8BF4\u5230\u8FD9\uFF0C\u505C\u4E86\u4E0B\u6765\uFF0C\u7AEF\u8D77\u8336\u6C34\u559D\u4E86\u4E00\u53E3\u3002</p><p>\u725B\u6653\u548C\u5C0F\u548C\u5C1A\u53EF\u6025\u574F\u4E86\uFF0C\u8FDE\u5FD9\u95EE\u9053\uFF1A\u201C\u5E08\u5085\uFF0C\u90A3\u662F\u4EC0\u4E48\u611F\u89C9\u554A\uFF1F\u201D</p><p>\u5E08\u5085\u653E\u4E0B\u8336\u676F\uFF0C\u62AC\u5934\u671B\u7740\u623F\u6881\uFF0C\u6C89\u601D\u4E86\u4E00\u4F1A\u8BF4\uFF1A\u201C\u671D\u5915\u6240\u60F3\uFF0C\u591C\u4E0D\u80FD\u5BD0\uFF0C\u4E00\u65E5\u4E0D\u89C1\uFF0C\u5982\u9694\u4E09\u79CB\u3002\u73B0\u5728\u60F3\u60F3\uFF0C\u53EF\u80FD\u90A3\u5C31\u662F\u5C18\u4E16\u5411\u5F80\u7684\u559C\u6B22\u548C\u7231\u60C5\u3002\u4F46\u597D\u666F\u4E0D\u957F\uFF0C\u67D0\u5929\u6E05\u6668\u4E00\u65E9\uFF0C\u5979\u4FBF\u6084\u6084\u9A91\u9A6C\u79BB\u5F00\uFF0C\u79BB\u5F00\u65F6\u7559\u4E0B\u4E00\u5C01\u4E66\u4FE1\uFF0C\u548C\u4E00\u5757\u7389\u624B\u956F\u201D\u3002\u5E08\u5085\u8BF4\u7740\uFF0C\u4ECE\u6000\u91CC\u62FF\u51FA\u4E00\u5757\u7EA2\u5E03\uFF0C\u6253\u5F00\u4EE5\u540E\u91CC\u9762\u662F\u4E00\u5757\u54C1\u76F8\u4E0D\u9519\u7684\u7389\u624B\u956F\uFF0C\u770B\u7740\u8FD9\u5757\u624B\u956F\uFF0C\u5E08\u5085\u5F00\u59CB\u6C89\u9ED8\u4E0D\u8BED\u3002</p><p>\u5F92\u5F1F\u4EEC\u53EF\u4E0D\u7136\uFF0C\u5341\u5206\u7740\u6025\uFF0C\u8BE2\u95EE\u5E08\u5085\uFF1A\u201C\u5E08\u5085\u5E08\u5085\uFF0C\u4FE1\u4E0A\u5199\u7684\u5565\uFF1F\u540E\u9762\u53C8\u600E\u4E48\u4E86\uFF1F\u201D</p><p>\u5E08\u5085\u53F9\u606F\u4E86\u4E00\u58F0\uFF0C\u8BF4\uFF1A\u201C\u90A3\u65F6\u5B57\u8FD8\u8BA4\u4E0D\u4E86\u51E0\u4E2A\uFF0C\u53EA\u8BB0\u5F97\u6700\u540E\u51E0\u884C\uFF0C\u548C\u5979\u7684\u540D\u5B57\u201D\u3002</p><p>\u201C\u662F\u4EC0\u4E48\uFF1F\u201D\u725B\u6653\u95EE</p><p>\u201C\u66FF\u7236\u4ECE\u519B\uFF0C\u6709\u7F18\u518D\u4F1A\uFF01\u6728\u5170\u7559\u2026\u2026\u201D</p><h2 id="\u5154\u5B50\u548C\u72D0\u72F8" tabindex="-1"><a class="header-anchor" href="#\u5154\u5B50\u548C\u72D0\u72F8" aria-hidden="true">#</a> \u5154\u5B50\u548C\u72D0\u72F8</h2><p>\u4ECA\u5929\u7684\u5C0F\u5154\u5B50\u5FC3\u60C5\u5341\u5206\u7684\u5F00\u5FC3\uFF0C\u56E0\u4E3A\u5979\u83B7\u5F97\u4E86\u68EE\u6797\u91CC\u7814\u7A76\u6BD4\u8D5B\u7B2C\u4E00\u540D\u5728\u56DE\u5BB6\u7684\u8DEF\u4E0A\uFF0C\u4E5F\u628A\u60C5\u7EEA\u8868\u73B0\u5728\u81EA\u5DF1\u7684\u52A8\u4F5C\u5F53\u4E2D\uFF0C\u8E66\u8E66\u8DF3\u8DF3\uFF0C\u5341\u5206\u597D\u770B\u3002</p><p>\u56DE\u5BB6\u7684\u8DEF\u4E0A\uFF0C\u8DEF\u8FC7\u5C0F\u72D0\u72F8\u5BB6\uFF0C\u5C0F\u767D\u5154\u7279\u5730\u8DD1\u53BB\u60F3\u628A\u8FD9\u4E2A\u597D\u6D88\u606F\u5206\u4EAB\u7ED9\u5C0F\u72D0\u72F8\u3002</p><p>\u6572\u4E86\u534A\u5929\u7684\u95E8\uFF0C\u5C0F\u767D\u5154\u53D1\u73B0\u5C0F\u72D0\u72F8\u4E0D\u5728\u5BB6\uFF0C\u8DEF\u8FC7\u7684\u5927\u8C61\u4F2F\u4F2F\u770B\u89C1\u5C0F\u767D\u5154\u5728\u6572\u95E8\uFF0C\u544A\u8BC9\u5C0F\u767D\u5154\u8BF4\uFF0C\u5C0F\u72D0\u72F8\u53BB\u68EE\u6797\u91CC\u6458\u6843\u5B50\u53BB\u4E86\uFF0C\u665A\u4E0A\u624D\u4F1A\u56DE\u6765\uFF0C\u5C0F\u767D\u5154\u6709\u4E9B\u5931\u671B\uFF0C\u8C22\u8FC7\u5927\u8C61\u4F2F\u4F2F\u540E\u4FBF\u56DE\u5BB6\u4E86\u3002</p><p>\u5C0F\u767D\u5154\u53EF\u559C\u6B22\u5C0F\u72D0\u72F8\u4E86\uFF0C\u800C\u4E14\u559C\u6B22\u4E86\u597D\u4E45\uFF0C\u53EF\u662F\u5C0F\u767D\u5154\u662F\u4E00\u53EA\u5BB3\u7F9E\u7684\u5154\u5B50\uFF0C\u6240\u4EE5\u4E00\u76F4\u4E0D\u6562\u8868\u8FBE\u81EA\u5DF1\u7684\u5FC3\u58F0\u3002\u53EF\u4ECA\u5929\uFF0C\u662F\u81EA\u5DF1\u5F97\u5956\u7684\u597D\u65E5\u5B50\uFF0C\u5C0F\u767D\u5154\u89C9\u5F97\u5E94\u8BE5\u544A\u8BC9\u5C0F\u72D0\u72F8\uFF0C\u4E5F\u8BA9\u81EA\u5DF1\u559C\u6B22\u7684\u4EBA\u9AD8\u5174\u9AD8\u5174\u3002</p><p>\u65F6\u95F4\u6765\u5230\u4E86\u665A\u996D\u540E\uFF0C\u7830\u7830\u7830\uFF01\u4E00\u9635\u6572\u95E8\u58F0\u4F20\u6765\uFF0C\u5C0F\u767D\u5154\u8D76\u7D27\u53BB\u5F00\u95E8\uFF0C\u4E00\u5F00\u95E8\u53D1\u73B0\u5C45\u7136\u662F\u5C0F\u72D0\u72F8\uFF0C\u53EF\u628A\u5C0F\u767D\u5154\u60CA\u559C\u574F\u4E86\uFF0C\u4EE5\u81F3\u4E8E\u4E00\u65F6\u95F4\u8BF4\u4E0D\u51FA\u8BDD\u6765\u3002</p><p>\u201C\u542C\u5927\u8C61\u4F2F\u4F2F\u8BF4\uFF0C\u4F60\u4E0B\u5348\u627E\u6211\u4E86\uFF1F\u68EE\u6797\u91CC\u7684\u6843\u5B50\u719F\u4E86\uFF0C\u6211\u548C\u5C0F\u4F19\u4F34\u4EEC\u53BB\u68EE\u6797\u91CC\u6458\u6843\u5B50\u53BB\u4E86\uFF0C\u6211\u5C1D\u4E86\u4E0B\uFF0C\u53EF\u597D\u5403\u4E86\uFF0C\u7ED9\u4F60\u4E5F\u62FF\u4E86\u4E00\u70B9\u3002\u201D\u5C0F\u72D0\u72F8\u770B\u7740\u5C0F\u767D\u5154\u4E0D\u8BF4\u8BDD\uFF0C\u4E8E\u662F\u63D0\u524D\u5F00\u53E3\u8BF4\uFF0C\u5C0F\u767D\u5154\u4ED4\u7EC6\u4E00\u770B\uFF0C\u624D\u53D1\u89C9\u5C0F\u72D0\u72F8\u62B1\u4E86\u4E00\u5806\u6843\u5B50\u5462\uFF0C\u4E8E\u662F\u8FDE\u5FD9\u62DB\u547C\u5C0F\u72D0\u72F8\u8FDB\u5C4B\u91CC\u3002</p><p>\u5C0F\u72D0\u72F8\u6765\u5230\u5C4B\u91CC\u505A\u597D\u540E\uFF0C\u5C0F\u767D\u5154\u7ED9\u5C0F\u72D0\u72F8\u8BF4\u4E86\u597D\u591A\u597D\u591A\u8BDD\uFF0C\u6709\u81EA\u5DF1\u6BD4\u8D5B\u7684\u7CBE\u5F69\u7247\u6BB5\uFF0C\u4E5F\u6709\u81EA\u5DF1\u5F97\u5956\u7684\u60CA\u559C\u5FC3\u60C5\u2026\u2026</p><p>\u5C31\u8FD9\u6837\u4E0D\u77E5\u4E0D\u89C9\uFF0C\u5DF2\u7ECF\u5230\u4E86\u6DF1\u591C\uFF0C\u86D0\u86D0\u7684\u58F0\u97F3\u6C89\u6D78\u4E86\u6574\u4E2A\u68EE\u6797\uFF0C\u4E5F\u5305\u62EC\u5C0F\u5154\u5B50\u7684\u5BB6\u3002\u8FD9\u4E2A\u65F6\u5019\uFF0C\u5C0F\u767D\u5154\u624D\u53D1\u73B0\u81EA\u5DF1\u7ED9\u5C0F\u72D0\u72F8\u5C45\u7136\u8BB2\u4E86\u8FD9\u4E48\u4E45\uFF0C\u7ADF\u6CA1\u6709\u53D1\u73B0\u65F6\u95F4\u8FC7\u5F97\u8FD9\u4E48\u5FEB\uFF0C\u800C\u4E14\u5C0F\u72D0\u72F8\u4E5F\u8BA4\u8BA4\u771F\u771F\u7684\u5145\u5F53\u7740\u4E00\u4E2A\u8046\u542C\u8005\u3002</p><p>\u5C0F\u767D\u5154\u7A81\u7136\u89C9\u5F97\u4E0D\u597D\u610F\u601D\u4E86\uFF0C\u56E0\u4E3A\u4E00\u76F4\u662F\u81EA\u5DF1\u5728\u8BB2\uFF0C\u4E8E\u662F\u8138\u77AC\u95F4\u5C31\u7EA2\u4E86\u8D77\u6765\u3002</p><p>\u5C0F\u72D0\u72F8\u770B\u5230\u597D\u5947\u7684\u95EE\uFF1A\u201C\u600E\u4E48\u4E86\u5C0F\u767D\u5154\uFF1F\u600E\u4E48\u8138\u7EA2\u4E86\uFF1F\u201D</p><p>\u201C\u6211\u90FD\u4E0D\u77E5\u9053\u8BB2\u4E86\u8FD9\u4E48\u4E45\u4E86\uFF0C\u5BF9\u4E0D\u8D77\u5C0F\u72D0\u72F8\uFF0C\u90FD\u6CA1\u6709\u5728\u610F\u4F60\u7684\u611F\u53D7\u3002\u201D\u5C0F\u767D\u5154\u7F9E\u7EA2\u7740\u8138\u8BF4\u7740\u3002</p><p>\u5C0F\u72D0\u72F8\u8FDE\u5FD9\u9053\uFF1A\u201C\u600E\u4E48\u4F1A\u5462\uFF01\u4F60\u8BB2\u7684\u592A\u6709\u610F\u601D\u4E86\uFF0C\u771F\u53EF\u60DC\u6CA1\u53BB\u73B0\u573A\u770B\uFF0C\u4E0D\u7136\u66F4\u7CBE\u5F69\uFF01\u800C\u4E14\u2026\u2026\u800C\u4E14\u2026\u2026\u201D\u5C0F\u72D0\u72F8\u7A81\u7136\u8BF4\u8BDD\u72B9\u8C6B\u4E86\u8D77\u6765\u3002</p><p>\u201C\u800C\u4E14\u4EC0\u4E48\uFF1F\u201D\u5C0F\u767D\u5154\u76EF\u7740\u5C0F\u72D0\u72F8\u597D\u5947\u7684\u95EE\u3002</p><p>\u201C\u800C\u4E14\u542C\u81EA\u5DF1\u559C\u6B22\u7684\u4EBA\u8BB2\uFF0C\u4F1A\u66F4\u52A0\u6709\u610F\u601D\uFF01\u201D\u5C0F\u72D0\u72F8\u6EE1\u773C\u6DF1\u60C5\u7684\u76EF\u7740\u5C0F\u767D\u5154\u56DE\u7B54\u8BF4\u3002</p><p>\u201C\u554A\uFF01\u201D\u5C0F\u767D\u5154\u60CA\u8BB6\u7684\u8BF4\u4E86\u4E00\u53E5\uFF0C\u201C\u4F60\u8BF4\u4EC0\u4E48\uFF1F\u201D</p><p>\u201C\u6211\u559C\u6B22\u4F60\u5440\uFF0C\u5C0F\u767D\u5154\uFF0C\u800C\u4E14\u559C\u6B22\u597D\u4E45\u4E86\uFF01\u563B\u563B\uFF01\u201D\u5C0F\u72D0\u72F8\u4E0D\u597D\u610F\u601D\u7684\u770B\u7740\u5C0F\u767D\u5154\u2026\u2026</p><h2 id="\u62B1\u62B1" tabindex="-1"><a class="header-anchor" href="#\u62B1\u62B1" aria-hidden="true">#</a> \u62B1\u62B1</h2><p>\u5C0F\u72D0\u72F8\u4ECA\u5929\u548C\u5C0F\u5154\u5B50\u5435\u67B6\u4E86\uFF0C\u539F\u56E0\u662F\u56E0\u4E3A\uFF0C\u660E\u660E\u4ECA\u5929\u5C31\u662F\u4E00\u5E74\u4E00\u6B21\u7684\u60C5\u4EBA\u8282\uFF0C\u53EF\u662F\u5C0F\u72D0\u72F8\u53EA\u7ED9\u5C0F\u767D\u5154\u53D1\u4E86\u4E2A\u7EA2\u5305\uFF0C\u8FD9\u8BA9\u5C0F\u5154\u5B50\u89C9\u5F97\u5C0F\u72D0\u72F8\u4E00\u70B9\u90FD\u4E0D\u4E0A\u5FC3\u3002</p><p>\u521A\u5F00\u59CB\uFF0C\u5176\u5B9E\u90FD\u6CA1\u6709\u5435\u67B6\uFF0C\u53EA\u662F\u5C0F\u5154\u5B50\u7ED9\u5C0F\u72D0\u72F8\u62B1\u6028\u4E86\u4E00\u4E0B\u3002\u4F46\u5C0F\u72D0\u72F8\u4E5F\u89C9\u5F97\u59D4\u5C48\u554A\uFF0C\u56E0\u4E3A\u81EA\u5DF1\u6709\u8BB0\u5F97\u8FD9\u662F\u4E2A\u7279\u522B\u7684\u65E5\u5B50\uFF0C\u4E5F\u53D1\u4E86\u60C5\u4EBA\u8282\u7EA2\u5305\u554A\u3002</p><p>\u4E8E\u662F\uFF0C\u5C31\u548C\u5C0F\u5154\u5B50\u8BB2\u8D77\u4E86\u9053\u7406\u3002\u8C08\u604B\u7231\u7684\u5C0F\u52A8\u7269\u4EEC\u90FD\u77E5\u9053\uFF0C\u5973\u751F\u662F\u7528\u6765\u54C4\u5F97\uFF0C\u600E\u4E48\u53EF\u4EE5\u7528\u6765\u8BB2\u9053\u7406\u5462?</p><p>\u4E8E\u662F\u8BF4\u7740\u8BF4\u7740\uFF0C\u5C0F\u72D0\u72F8\u5C31\u548C\u5C0F\u5154\u5B50\u5435\u4E86\u8D77\u6765\uFF0C\u5435\u4E86\u4E00\u4F1A\uFF0C\u5C0F\u72D0\u72F8\u5C31\u51FA\u4E86\u5BB6\u95E8\uFF0C\u72EC\u81EA\u51B7\u9759\u53BB\u4E86\u3002</p><p>\u5C31\u8FD9\u6837\uFF0C\u8FC7\u4E86\u4E00\u4E2A\u5C0F\u65F6\uFF0C\u5C0F\u72D0\u72F8\u7684\u6C14\u4E5F\u6D88\u4E86\uFF0C\u4E5F\u60F3\u4E86\u60F3\u81EA\u5DF1\u4E0D\u5E94\u8BE5\u548C\u5C0F\u5154\u5B50\u5435\u67B6\uFF0C\u5C31\u60F3\u7740\u8981\u53BB\u627E\u5C0F\u5154\u5B50\u9053\u6B49\u3002</p><p>\u4F46\u5C0F\u72D0\u72F8\u4E00\u60F3\uFF0C\u8FD9\u6837\u597D\u50CF\u5F88\u6CA1\u7528\u9762\u5B50\uFF0C\u4E8E\u662F\u53C8\u5FCD\u4F4F\u4E86\u3002</p><p>\u53C8\u8FC7\u4E86\u4E00\u4E2A\u5C0F\u65F6\uFF0C\u5C0F\u72D0\u72F8\u5B9E\u5728\u5FCD\u4E0D\u4F4F\u4E86\uFF0C\u4E8E\u662F\u6765\u5230\u5BB6\u95E8\u53E3\uFF0C\u558A\u7740\u5C0F\u5154\u5B50\uFF1A\u201C\u5C0F\u5154\u5B50\uFF0C\u4F60\u51FA\u6765\uFF0C\u6211\u6709\u8BDD\u7ED9\u4F60\u8BF4\u3002\u201D</p><p>\u4E0D\u4E00\u4F1A\uFF0C\u5C0F\u5154\u5B50\u6253\u5F00\u623F\u95E8\uFF0C\u770B\u5230\u662F\u5C0F\u72D0\u72F8\uFF0C\u4FBF\u95EE\uFF1A\u201C\u51FA\u6765\u5E72\u4EC0\u4E48\uFF1F\u5BB6\u91CC\u8BF4\u3002\u201D</p><p>\u201D\u4E0D\u884C\uFF0C\u8981\u51FA\u6765\u8BF4\uFF01\u201C\u5C0F\u72D0\u72F8\u6267\u62D7\u7684\u8BF4\u3002</p><p>\u770B\u7740\u6267\u7740\u7684\u5C0F\u72D0\u72F8\uFF0C\u5C0F\u767D\u5154\u8FD8\u662F\u5FCD\u4E0D\u4F4F\u51FA\u4E86\u95E8\uFF0C\u6765\u5230\u5C0F\u72D0\u72F8\u9762\u524D\u3002</p><p>\u5C0F\u72D0\u72F8\u770B\u7740\u5C0F\u5154\u5B50\u8BF4\uFF1A\u201D\u56E0\u4E3A\uFF0C\u6211\u4EEC\u5728\u5BB6\u91CC\u95F9\u63B0\u4E86\uFF0C\u6240\u6709\u4E0D\u80FD\u5728\u5BB6\u91CC\u8BF4\uFF0C\u8981\u51FA\u6765\u8BF4\u3002\u201C</p><p>\u4E8E\u662F\u5C0F\u72D0\u72F8\u8BA4\u8BA4\u771F\u771F\u7684\u7ED9\u5C0F\u5154\u5B50\u9053\u4E86\u6B49\uFF0C\u5C0F\u5154\u5B50\u770B\u7740\u81EA\u8D23\u7684\u5C0F\u72D0\u72F8\uFF0C\u4E5F\u8BF4\u4E86\u81EA\u5DF1\u4E0D\u8BE5\u4EFB\u6027\u3002</p><p>\u901A\u8FC7\u4ECA\u5929\u7684\u4E89\u5435\uFF0C\u5C0F\u72D0\u72F8\u548C\u5C0F\u5154\u5B50\u660E\u767D\u4E86\uFF0C\u5BB6\u4E0D\u662F\u7528\u6765\u5435\u67B6\u7684\u5730\u65B9\uFF0C\u800C\u662F\u5206\u4EAB\u548C\u751F\u6D3B\u7684\u5C0F\u7A9D\u3002</p><p>\u4ED6\u4EEC\u7EA6\u5B9A\uFF0C\u4EE5\u540E\u9047\u5230\u95EE\u9898\u8981\u5C3D\u91CF\u597D\u597D\u5546\u91CF\uFF0C\u51CF\u5C11\u4E89\u5435\u3002</p><p>\u5C0F\u72D0\u72F8\u548C\u5C0F\u5154\u5B50\u4E92\u76F8\u9053\u5B8C\u6B49\u540E\uFF0C\u5C0F\u72D0\u72F8\u7ED9\u4E86\u5C0F\u5154\u5B50\u4E00\u4E2A\u5927\u5927\u7684\u5145\u6EE1\u7231\u7684\u62B1\u62B1\u3002</p><p>\u56E0\u4E3A\u5C0F\u72D0\u72F8\u77E5\u9053\uFF0C\u7231\u4EBA\u4E4B\u95F4\u6CA1\u6709\u4EC0\u4E48\u95EE\u9898\u662F\u4E0D\u80FD\u7528\u4E00\u4E2A\u62B1\u62B1\u89E3\u51B3\u7684\u3002</p><p>\u5982\u679C\u6709\uFF0C\u90A3\u5C31\u4E24\u4E2A......</p><!--]-->`);
+  _push(`<h1${serverRenderer.ssrRenderAttrs(vue.mergeProps({
+    id: "js\u9762\u8BD5",
+    tabindex: "-1"
+  }, _attrs))}><a class="header-anchor" href="#js\u9762\u8BD5" aria-hidden="true">#</a> JS\u9762\u8BD5</h1>`);
 }
 const _sfc_setup$t = _sfc_main$t.setup;
 _sfc_main$t.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/\u6545\u4E8B/text.html.vue");
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/interview/JSinterview.html.vue");
   return _sfc_setup$t ? _sfc_setup$t(props, ctx) : void 0;
 };
-var text_html$7 = /* @__PURE__ */ _export_sfc(_sfc_main$t, [["ssrRender", _sfc_ssrRender$f]]);
-var text_html$8 = /* @__PURE__ */ Object.freeze({
+var JSinterview_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$t, [["ssrRender", _sfc_ssrRender$f]]);
+var JSinterview_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  "default": text_html$7
+  "default": JSinterview_html$1
 });
 const _sfc_main$s = {};
 function _sfc_ssrRender$e(_ctx, _push, _parent, _attrs) {
@@ -3413,75 +3435,75 @@ _sfc_main$s.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/\u6559\u7A0B/text.html.vue");
   return _sfc_setup$s ? _sfc_setup$s(props, ctx) : void 0;
 };
-var text_html$5 = /* @__PURE__ */ _export_sfc(_sfc_main$s, [["ssrRender", _sfc_ssrRender$e]]);
-var text_html$6 = /* @__PURE__ */ Object.freeze({
+var text_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$s, [["ssrRender", _sfc_ssrRender$e]]);
+var text_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  "default": text_html$5
+  "default": text_html$1
 });
 const _sfc_main$r = {};
 function _sfc_ssrRender$d(_ctx, _push, _parent, _attrs) {
-  _push(`<!--[--><h2 id="_3" tabindex="-1"><a class="header-anchor" href="#_3" aria-hidden="true">#</a> 3</h2><h2 id="_4" tabindex="-1"><a class="header-anchor" href="#_4" aria-hidden="true">#</a> 4</h2><!--]-->`);
+  _push(`<!--[--><h2 id="\u5154\u5B50\u4E0E\u661F\u661F" tabindex="-1"><a class="header-anchor" href="#\u5154\u5B50\u4E0E\u661F\u661F" aria-hidden="true">#</a> \u5154\u5B50\u4E0E\u661F\u661F</h2><p>\u5927\u5154\u5B50\u7279\u522B\u559C\u6B22\u591C\u665A\uFF0C\u56E0\u4E3A\u53EF\u4EE5\u4E00\u4E2A\u4EBA\u770B\u661F\u661F\uFF0C\u8FD8\u6CA1\u6709\u4EBA\u6253\u6270\u4ED6\u3002\u4ED6\u6BCF\u5929\u665A\u4E0A\u90FD\u5BF9\u7740\u661F\u661F\u8BF4\u5FC3\u91CC\u8BDD\uFF0C\u5C0F\u661F\u661F\u4E5F\u4F1A\u548C\u4ED6\u8BF4\u6084\u6084\u8BDD\u3002</p><p>\u6709\u4E00\u5929\u5C0F\u661F\u661F\u544A\u8BC9\u5927\u5154\u5B50\uFF1A\u7B49\u4F1A\u4F1A\u6709\u6D41\u661F\u96E8\u54E6\uFF0C\u4F60\u53EF\u4EE5\u5BF9\u7740\u5B83\u4EEC\u8BB8\u4E2A\u613F\uFF0C\u68A6\u60F3\u4E00\u5B9A\u4F1A\u5B9E\u73B0\u7684\uFF01\u5927\u5154\u5B50\u5F00\u5FC3\u7684\u50CF\u4E2A\u5B9D\u5B9D\uFF0C\u4ED6\u6709\u65E0\u6570\u4E2A\u613F\u671B\u60F3\u8981\u5B9E\u73B0\uFF0C\u4E8E\u662F\u5462\uFF0C\u4ED6\u5C31\u5F00\u59CB\u4E00\u6761\u6761\u5217\u51FA\u4ED6\u7684\u613F\u671B\u7B49\u5F85\u6D41\u661F\u96E8\u7684\u5230\u6765.....</p><p>\u5927\u5154\u5B50\u5C31\u5750\u5728\u90A3\u91CC\u7B49\u554A\u7B49\uFF0C\u6708\u4EAE\u90FD\u5FEB\u5230\u5934\u9876\u4E86\uFF0C\u5927\u767D\u5154\u4E5F\u5F00\u59CB\u72AF\u8FF7\u7CCA\u3002\u549A \u5927\u767D\u5154\u56F0\u7684\u4E00\u5934\u624E\u5230\u4E86\u8349\u5730\u91CC\u3002\u661F\u661F\u5728\u4E00\u65C1\u5077\u5077\u7684\u7B11\uFF0C\u5C31\u8FD9\u8FD9\u4E2A\u65F6\u5019\u6D41\u661F\u96E8\u6765\u4E86\uFF0C\u5C0F\u661F\u661F\u8D76\u5FEB\u53EB\u5927\u5154\u5B50\u9192\u6765\uFF0C\u600E\u4E48\u53EB\u5C31\u662F\u53EB\u4E0D\u9192\uFF0C\u8FD9\u6025\u6B7B\u5C0F\u661F\u661F\u4E86\uFF0C\u4F46\u662F\u4E5F\u6CA1\u6709\u529E\u6CD5\uFF0C\u5982\u679C\u5C0F\u661F\u661F\u6254\u4E00\u5C0F\u5757\u77F3\u5934\u7838\u5979\u7684\u8BDD\u4ED6\u5C31\u53D8\u6210\u5154\u5B50\u997C\u4E86.....</p><p>\u5C0F\u661F\u661F\u5C31\u4E00\u76F4\u53EB\u5927\u5154\u5B50\uFF0C\u4E00\u76F4\u53EB\u554A\u53EB\uFF0C\u5927\u5154\u5B50\u54D7\u7684\u4E00\u4E0B\u9192\u6765\u4E86\uFF0C\u4ED6\u4EE5\u4E3A\u81EA\u5DF1\u521A\u7761\u7740\uFF0C\u5176\u5B9E\u6D41\u661F\u96E8\u5DF2\u7ECF\u8FC7\u53BB\u4E00\u5927\u534A\u4E86\uFF01</p><p>\u5927\u767D\u5154\u614C\u91CC\u614C\u5F20\u7684\u95ED\u4E0A\u773C\u775B\u8BF4\u51FA\u4ED6\u7684\u613F\u671B\uFF0C\u6211\u60F3\u5B66\u4F1A\u5F39\u94A2\u7434\uFF0C\u6211\u60F3\u5B66\u4F1A\u505A\u597D\u5403\u7684\uFF0C\u6211\u60F3\u62E5\u6709\u6700\u597D\u5403\u7684\u80E1\u841D\u535C\uFF0C\u6211\u60F3\u53D8\u6210\u5154\u5B50\u754C\u7B2C\u4E00\u9996\u5BCC\uFF0C\u6211\u60F3\u62E5\u6709\u4E00\u4E2A\u5927\u679C\u56ED\u81EA\u5DF1\u53EF\u4EE5\u968F\u65F6\u5403\u5230\u7684\u90A3\u79CD\uFF01\u6211\u60F3.......</p><p>\u5C31\u8FD9\u6837\uFF0C\u5927\u5154\u5B50\u5C31\u50CF\u673A\u5173\u67AA\u4E00\u6837\uFF0C\u6709\u8BF4\u4E0D\u5B8C\u7684\u613F\u671B\u3002\u6709\u4E00\u9897\u5C0F\u6D41\u661F\u98DE\u8FC7\uFF0C\u544A\u8BC9\u5927\u5154\u5B50\uFF0C\u4F60\u8BF4\u7684\u90A3\u4E9B\u592A\u7269\u8D28\u4E86\uFF0C\u90A3\u4E9B\u8981\u9760\u4F60\u81EA\u5DF1\u53BB\u52AA\u529B\u624D\u53EF\u5F97\u5230\uFF0C\u4F60\u8981\u81EA\u5DF1\u5F88\u8BA4\u771F\u7684\u60F3\u4E00\u4E2A\u5FC3\u613F\uFF0C\u6211\u4F1A\u5C3D\u529B\u5E2E\u4F60\u5B9E\u73B0\u7684\uFF01\u5927\u5154\u5B50\u95ED\u4E0A\u773C\u775B\uFF0C\u53CC\u624B\u5408\u5341\u3002\u201C\u90A3\u5C31\u8BF7\u4F60\u544A\u8BC9\u5979\uFF0C\u6211\u60F3\u5979\u4E86\u201D\u5C0F\u6D41\u661F\u7B11\u4E86\u7B11\u4FDD\u8BC1\u5B8C\u6210\u4EFB\u52A1\u54E6\uFF5E</p><p>\u90A3\u5929\u7684\u665A\u4E0A\uFF0C\u8FDC\u5728\u4ED6\u4E61\u7684\u5C0F\u767D\u5154\u5728\u68A6\u4E61\u91CC\u89C1\u5230\u4E86\u5979\u7231\u7684\u5927\u5154\u5B50\uFF5E</p><h2 id="\u5929\u4E0A\u7684\u661F\u661F" tabindex="-1"><a class="header-anchor" href="#\u5929\u4E0A\u7684\u661F\u661F" aria-hidden="true">#</a> \u5929\u4E0A\u7684\u661F\u661F</h2><p>\u5154\u5154\u8981\u51FA\u4E00\u8D9F\u5F88\u4E45\u5F88\u4E45\u7684\u8FDC\u95E8\u4E86\u3002</p><p>\u732A\u732A\u81EA\u4ECE\u542C\u5230\u8FD9\u4E2A\u6D88\u606F\u5C31\u975E\u5E38\u96BE\u8FC7\uFF0C\u4ED6\u820D\u4E0D\u5F97\u5154\u5154\u79BB\u5F00\u3002\u54EA\u6015\u5C31\u4E00\u5929\u4E24\u5929\u90FD\u820D\u4E0D\u5F97\uFF0C\u66F4\u4F55\u51B5\uFF0C\u8FD9\u6B21\u7684\u5206\u5F00\u8FDC\u8FDC\u8D85\u8FC7\u8FD9\u4E2A\u6570\u76EE\u3002</p><p>\u4ED6\u867D\u7136\u8FD8\u662F\u6BCF\u5929\u90FD\u5728\u7ED9\u5154\u5154\u505A\u559C\u6B22\u5403\u7684\u4E1C\u897F\uFF0C\u8FD8\u662F\u5728\u54C4\u5154\u5154\u5F00\u5FC3\u3002\u53EF\u4ED6\u7684\u5FE7\u6101\u5199\u5728\u4E86\u5C0F\u5C0F\u7684\u773C\u775B\u91CC\uFF0C\u4ED6\u820D\u4E0D\u5F97\u5154\u5154\u8D70\u3002</p><p>\u53EF\u662F\u5154\u5154\u5DF2\u7ECF\u51B3\u5B9A\u4E86\u8981\u51FA\u53BB\uFF0C\u5C0F\u732A\u732A\u652F\u6301\u5154\u5154\u7684\u4E00\u5207\u505A\u6CD5\u3002\u732A\u732A\u6BCF\u5929\u90FD\u76D8\u7B97\u7740\u65E5\u5B50\uFF0C\u4ED6\u544A\u8BC9\u81EA\u5DF1\uFF0C\u53EA\u8981\u6709\u7231\u5728\uFF0C\u9694\u5C71\u8DDD\u6D77\uFF0C\u65E5\u5B50\u4E5F\u90FD\u4E0D\u4F1A\u592A\u96BE\u8FC7\u7684\u3002</p><p>\u54EA\u6015\u5C0F\u732A\u732A\u65E0\u6BD4\u73CD\u60DC\u6D41\u901D\u7684\u6BCF\u5206\u949F\uFF0C\u8DDD\u79BB\u5C0F\u5154\u5154\u8D70\u7684\u65F6\u95F4\u4E5F\u8D8A\u6765\u8D8A\u8FD1\u4E86\u3002\u5C0F\u732A\u732A\u5F00\u59CB\u7761\u4E0D\u7740\u89C9\uFF0C\u5403\u4E0D\u4E0B\u996D\u3002\u4ED6\u53EA\u60F3\u65E0\u65F6\u65E0\u523B\u7684\u76EF\u7740\u5154\u5154\u3002\u54EA\u6015\u8EBA\u5728\u5E8A\u4E0A\uFF0C\u4ED6\u4E5F\u4F1A\u6402\u7740\u5154\u5B50\uFF0C\u501F\u7740\u6708\u5149\uFF0C\u770B\u7740\u5154\u5154\u4FA7\u8EBA\u5728\u5E8A\u4E0A\u7684\u5A07\u4FCF\u6A21\u6837\u3002\u732A\u732A\u600E\u4E48\u53EF\u80FD\u820D\u5F97\u5154\u5154\u79BB\u5F00\u5462\u3002</p><p>\u5154\u5154\u4E5F\u53D1\u73B0\u4E86\u732A\u732A\u7684\u4E0D\u5BF9\u52B2\u3002\u4ED6\u867D\u7136\u6BCF\u5929\u90FD\u8FD8\u5728\u5C06\u989C\u6B22\u7B11\uFF0C\u53EF\u662F\u5154\u5154\u5374\u770B\u4E0D\u89C1\u4ED6\u5403\u996D\uFF0C\u53EA\u80FD\u770B\u89C1\u4ED6\u8D8A\u6765\u8D8A\u6DF1\u9083\u7684\u9ED1\u773C\u5708\uFF0C\u5154\u5154\u5F88\u5FC3\u75BC\u3002</p><p>\u201C\u732A\uFF0C\u4F60\u522B\u6015\u554A\uFF0C\u6211\u4F1A\u4E00\u76F4\u559C\u6B22\u4F60\u7684\u3002\u201D\u5C0F\u5154\u5154\u770B\u7740\u7ED9\u81EA\u5DF1\u7AEF\u83DC\u7684\u5C0F\u732A\uFF0C\u8BF4\u3002</p><p>\u201C\u50BB\u74DC\uFF0C\u6211\u4E0D\u662F\u6015\u4F60\u4E0D\u559C\u6B22\u6211\u4E86\u3002\u6211\u5BB3\u6015\u6211\u4E0D\u80FD\u4FDD\u62A4\u4F60\uFF0C\u5BB3\u6015\u4E0D\u80FD\u966A\u7740\u4F60\u3002\u6211\u5BB3\u6015\u6211\u60F3\u62B1\u4F60\u7684\u65F6\u5019\uFF0C\u8EAB\u8FB9\u6CA1\u6709\u4F60\uFF1B\u6211\u66F4\u5BB3\u6015\uFF0C\u4F60\u8EAB\u8FB9\u6709\u5F88\u591A\u4E2A\u6211\u3002\u201D\u732A\u732A\u62B1\u7740\u5C0F\u5154\u5B50\uFF0C\u7528\u529B\u628A\u5979\u6402\u5728\u6000\u91CC\u3002</p><p>\u201C\u522B\u778E\u8BF4\uFF01\u50BB\u732A\uFF0C\u4F60\u62AC\u5934\u770B\u661F\u661F\uFF0C\u5C31\u5934\u4E0A\u7684\u6700\u4EAE\u7684\u90A3\u4E00\u9897\u3002\u65E0\u8BBA\u6211\u4EEC\u76F8\u8DDD\u591A\u8FDC\uFF0C\u53EF\u662F\uFF0C\u5728\u5B83\u7684\u773C\u91CC\uFF0C\u6211\u4EEC\u90FD\u662F\u5728\u4E00\u8D77\u7684\u3002\u201D</p><p>\u201C\u732A\u732A\uFF0C\u6CA1\u6709\u51E0\u5929\u6211\u5C31\u8981\u8D70\u5566\uFF0C\u6211\u4E0D\u5E0C\u671B\u4F60\u6BCF\u5929\u90FD\u96BE\u8FC7\u3002\u65E2\u7136\u90FD\u662F\u65E2\u5B9A\u7684\u4E8B\u5B9E\uFF0C\u90A3\u4E3A\u4EC0\u4E48\uFF0C\u6211\u4EEC\u4E0D\u628A\u73B0\u5728\u4E24\u4E2A\u4EBA\u5F85\u5728\u4E00\u8D77\u7684\u65F6\u95F4\u8FC7\u7684\u66F4\u52A0\u5145\u5B9E\u7F8E\u6EE1\u5462\uFF1F\u201D\u5C0F\u5154\u5154\u5728\u732A\u732A\u7684\u6000\u91CC\uFF0C\u628A\u5934\u9760\u5728\u4E86\u4ED6\u7684\u5DF2\u7ECF\u7565\u5FAE\u6709\u4E9B\u6D88\u7626\u7684\u80A9\u8180\u4E0A\u3002</p><p>\u5C0F\u732A\u732A\u628A\u773C\u6CEA\u64E6\u5E72\uFF1A\u201C\u597D\u3002\u6211\u77E5\u9053\u8BE5\u600E\u4E48\u505A\u5566\u3002\u201D</p><p>\u201C\u65E0\u8BBA\u524D\u8DEF\u591A\u4E48\u6A21\u7CCA\uFF0C\u65E0\u8BBA\u76F8\u805A\u591A\u4E48\u9065\u8FDC\u3002\u6211\u90FD\u4F1A\u4E00\u76F4\u5728\u3002\u201D</p><p>\u201C\u6240\u7231\u9694\u5C71\u6D77\uFF0C\u5C71\u6D77\u7686\u53EF\u5E73\u3002\u201D</p><h2 id="\u82F9\u679C-\u667A\u6167\u679C" tabindex="-1"><a class="header-anchor" href="#\u82F9\u679C-\u667A\u6167\u679C" aria-hidden="true">#</a> \u82F9\u679C=\u667A\u6167\u679C</h2><p>\u5723\u7ECF\u4E0A\u8BF4\uFF0C\u4E0A\u5E1D\u521B\u9020\u4E86\u4E9A\u5F53\u548C\u590F\u5A03\u540E\uFF0C\u5B89\u6392\u4ED6\u4EEC\u5728\u4F0A\u7538\u56ED\u91CC\u751F\u6D3B\u3002\u4F0A\u7538\u56ED\u91CC\u6811\u6728\u5E38\u9752\uFF0C\u82B1\u8349\u5E38\u7EFF\uFF0C\u6709\u5404\u79CD\u5947\u73CD\u5F02\u679C\u548C\u98DE\u79BD\u8D70\u517D\u3002\u8FDB\u5165\u4F0A\u7538\u56ED\u7684\u7B2C\u4E00\u5929\uFF0C\u4E0A\u5E1D\u5C31\u8B66\u544A\u4E9A\u5F53\u548C\u590F\u5A03\u6240\u6709\u7684\u679C\u5B9E\u90FD\u53EF\u4EE5\u5403\uFF0C\u53EA\u6709\u667A\u6167\u6811\u7684\u8FC7\u662F\u4E0D\u53EF\u4EE5\u5403.</p><p>\u4E9A\u5F53\u548C\u590F\u5A03\u5F00\u59CB\u5F88\u542C\u8BDD\uFF0C\u4F46\u662F\u6CA1\u8FC7\u591A\u4E45\uFF0C\u5C31\u6709\u4E00\u6761\u9634\u9669\u7684\u6BD2\u86C7\u82B1\u8A00\u5DE7\u8BED\u5F15\u8BF1\u72EC\u81EA\u73A9\u800D\u7684\u590F\u5A03\u5077\u5403\u4E86\u667A\u6167\u6811\u7684\u679C\u5B50\uFF0C\u5929\u771F\u7684\u590F\u5A03\u53C8\u628A\u5403\u5269\u4E0B\u7684\u679C\u5B50\u7ED9\u4E86\u4E9A\u5F53\u3002\u4E8E\u662F\uFF0C\u4E9A\u5F53\u548C\u590F\u5A03\u5C31\u6709\u4E86\u667A\u6167\uFF0C\u4EBA\u7C7B\u5F00\u59CB\u6709\u4E86\u5584\u4E0E\u6076\u3002</p><p>\u82F9\u679C\u5728\u897F\u65B9\u8C61\u5F81\u7740\u7231\uFF0C\u4E9A\u5F53\u548C\u590F\u5A03\u5403\u7684\u201C\u7981\u679C\u201D\uFF0C\u5B9E\u9645\u4E0A\u5C31\u662F\u9752\u82F9\u679C\uFF0C\u5728\u4E0D\u8BE5\u5403\u7684\u65F6\u5019\u5403\u4E86\u5B83\uFF0C\u53D7\u5230\u4E0A\u5E1D\u7684\u60E9\u7F5A\u3002\u6CA1\u6709\u6210\u719F\u7684\u82F9\u679C\u7684\u5473\u9053\uFF0C\u53C8\u9178\u53C8\u6DA9\uFF0C\u6B63\u5982\u9752\u6DA9\u7684\u9752\u6625\u5982\u540C\u662F\u6CA1\u6709\u6210\u719F\u7684\u65F6\u5019\uFF0C\u4F60\u4E0D\u8981\u53BB\u5543\u5B83\u3002</p><p>\u82F9\u679C\u5C31\u6210\u4E86\u667A\u6167\u679C\u7684\u4EE3\u540D\u8BCD\uFF0C\u82F9\u679C\u4E5F\u6210\u4E86\u667A\u6167\u7684\u8C61\u5F81\u3002</p><h2 id="\u7B28\u7B28\u718A" tabindex="-1"><a class="header-anchor" href="#\u7B28\u7B28\u718A" aria-hidden="true">#</a> \u7B28\u7B28\u718A</h2><p>\u7B28\u7B28\u718A\u6765\u5230\u6CB3\u8FB9\uFF0C\u770B\u7740\u6CB3\u6C34\u91CC\u7684\u9C7C\uFF0C\u7B28\u7B28\u718A\u89C9\u5F97\u9C7C\u513F\u4EEC\u592A\u5E78\u798F\u4E86\uFF0C\u4E0D\u7528\u6355\u98DF\uFF0C\u5728\u6CB3\u6C34\u91CC\u81EA\u7531\u81EA\u5728\uFF0C\u771F\u5E78\u798F\u3002\u7B28\u7B28\u718A\u771F\u60F3\u53D8\u6210\u4E00\u6761\u9C7C\uFF0C\u4E00\u6761\u81EA\u7531\u81EA\u5728\u7684\u9C7C\u3002</p><p>\u7B28\u7B28\u718A\u8D70\u5728\u56DE\u5BB6\u7684\u8DEF\u4E0A\uFF0C\u4E0D\u5C0F\u5FC3\u649E\u5230\u4E86\u683C\u683C\u5DEB\uFF0C\u683C\u683C\u5DEB\u662F\u68EE\u6797\u91CC\u7684\u5DEB\u5A46\uFF0C\u683C\u683C\u5DEB\u65B0\u7814\u5236\u7684\u53D8\u8EAB\u836F\u6C34\u6D12\u5728\u4E86\u7B28\u7B28\u718A\u7684\u8EAB\u4E0A\uFF0C\u7B28\u7B28\u718A\u7ACB\u523B\u53D8\u6210\u4E86\u4E00\u6761\u9C7C\uFF0C\u53D8\u6210\u9C7C\u7684\u7B28\u7B28\u718A\u79BB\u5F00\u4E86\u6C34\u662F\u65E0\u6CD5\u6D3B\u4E0B\u53BB\u7684\uFF0C\u683C\u683C\u5DEB\u53EA\u597D\u628A\u7B28\u7B28\u718A\u653E\u5728\u6C34\u91CC\u3002</p><p>\u683C\u683C\u5DEB\u5BF9\u7B28\u7B28\u718A\u8BF4\uFF1A\u201C\u771F\u662F\u5BF9\u4E0D\u8D77\u7B28\u7B28\u718A\uFF0C\u4F60\u5148\u5728\u6CB3\u6C34\u91CC\u751F\u6D3B\uFF0C\u6211\u9A6C\u4E0A\u5C31\u56DE\u53BB\u7814\u5236\u89E3\u836F\uFF0C\u6211\u4F1A\u628A\u4F60\u53D8\u56DE\u6765\u7684\u3002\u201D</p><p>\u7B28\u7B28\u718A\u8BF4\uFF1A\u201C\u6CA1\u5173\u7CFB\uFF0C\u6211\u6B63\u597D\u53EF\u4EE5\u4EAB\u53D7\u4E00\u4E0B\u53D8\u6210\u9C7C\u7684\u751F\u6D3B\uFF0C\u4F60\u4E0D\u7528\u6025\u7740\u628A\u6211\u53D8\u56DE\u6765\u3002\u201D</p><p>\u683C\u683C\u5DEB\u628A\u53D8\u6210\u9C7C\u7684\u7B28\u7B28\u718A\u653E\u8FDB\u6CB3\u6C34\u91CC\u4E4B\u540E\uFF0C\u9A91\u7740\u626B\u628A\u6025\u5FD9\u56DE\u5BB6\u7814\u5236\u89E3\u836F\u53BB\u4E86\uFF0C\u7B28\u7B28\u718A\u9AD8\u5174\u7684\u5728\u6CB3\u6C34\u91CC\u6E38\u6765\u6E38\u53BB\uFF0C\u5F53\u4E00\u6761\u9C7C\u8FD9\u53EF\u662F\u7B28\u7B28\u718A\u7684\u68A6\u60F3\uFF0C\u73B0\u5728\u7EC8\u4E8E\u5B9E\u73B0\u4E86\u3002</p><p>\u7B28\u7B28\u718A\u6CA1\u6709\u6CE8\u610F\u5230\u5B83\u5DF2\u7ECF\u88AB\u4E00\u6761\u5927\u9C7C\u76EF\u4E0A\u4E86\uFF0C\u7B28\u7B28\u718A\u7A81\u7136\u611F\u5230\u773C\u524D\u4E00\u7247\u6F06\u9ED1\uFF0C\u539F\u6765\u81EA\u5DF1\u5DF2\u7ECF\u5728\u5927\u9C7C\u7684\u53E3\u91CC\u4E86\uFF0C\u7B28\u7B28\u718A\u8D81\u7740\u5927\u9C7C\u8FD8\u6CA1\u6709\u628A\u5634\u5408\u4E0A\u9003\u4E86\u51FA\u53BB\uFF0C\u7B28\u7B28\u718A\u4E0D\u65AD\u7684\u6E38\uFF0C\u51F6\u6076\u7684\u5927\u9C7C\u5728\u540E\u9762\u7D27\u8FFD\u4E0D\u820D\u3002</p><p>\u4E00\u4E2A\u5C0F\u6D77\u9A6C\u628A\u7B28\u7B28\u718A\u62FD\u8FDB\u4E86\u6D77\u85FB\u91CC\uFF0C\u5927\u9C7C\u600E\u4E48\u627E\u90FD\u627E\u4E0D\u5230\uFF0C\u53EA\u597D\u79BB\u5F00\uFF0C\u5C0F\u6D77\u9A6C\u544A\u8BC9\u7B28\u7B28\u718A\u8BF4\uFF1A\u201C\u5927\u9C7C\u5403\u5C0F\u9C7C\u8FD9\u662F\u89C4\u5F8B\uFF0C\u4E00\u5B9A\u8981\u5C0F\u5FC3\u90A3\u4E9B\u5927\u9C7C\uFF0C\u4E0D\u7136\u81EA\u5DF1\u4F1A\u88AB\u5403\u6389\u3002\u201D</p><p>\u7B28\u7B28\u718A\u5230\u5904\u4E1C\u8EB2\u897F\u85CF\uFF0C\u8FD9\u5B8C\u5168\u8DDF\u7B28\u7B28\u718A\u60F3\u8C61\u7684\u751F\u6D3B\u4E0D\u4E00\u6837\uFF0C\u5403\u7684\u98DF\u7269\u4E5F\u53D8\u6210\u4E86\u96BE\u5403\u7684\u6D77\u8349\u3002</p><p>\u8981\u77E5\u9053\u718A\u53EF\u662F\u4E00\u4E2A\u4E0D\u5403\u8349\u7684\u52A8\u7269\uFF0C\u73B0\u5728\u5374\u5929\u5929\u5403\u7740\u6D77\u8349\uFF0C\u7B28\u7B28\u718A\u6000\u5FF5\u8D77\u81EA\u5DF1\u4EE5\u524D\u505A\u5C0F\u718A\u7684\u65E5\u5B50\uFF0C\u53EF\u4EE5\u5403\u5230\u5F88\u591A\u7684\u7F8E\u98DF\uFF0C\u9999\u751C\u7684\u7CD5\u70B9\uFF0C\u60F3\u60F3\u5C31\u8BA9\u4EBA\u76F4\u6D41\u53E3\u6C34\u3002</p><p>\u7B28\u7B28\u718A\u60F3\u53D8\u56DE\u4E00\u53EA\u718A\uFF0C\u53EF\u662F\u683C\u683C\u5DEB\u7684\u89E3\u836F\u8FD8\u6CA1\u6709\u7814\u5236\u51FA\u6765\uFF0C\u7B28\u7B28\u718A\u4E0D\u613F\u610F\u518D\u5403\u90A3\u96BE\u5403\u7684\u6D77\u8349\uFF0C\u53EA\u597D\u997F\u7740\u809A\u5B50\uFF0C\u6B63\u5728\u7B28\u7B28\u718A\u997F\u7740\u809A\u5B50\u7684\u65F6\u5019\uFF0C\u4E00\u5757\u9762\u5305\u51FA\u73B0\u5728\u7B28\u7B28\u718A\u7684\u89C6\u7EBF\u91CC\uFF0C\u9762\u5305\u5728\u4E00\u4E2A\u74F6\u5B50\u91CC\uFF0C\u7B28\u7B28\u718A\u94BB\u8FDB\u74F6\u5B50\u91CC\uFF0C\u5F00\u5FC3\u7684\u5403\u8D77\u4E86\u9762\u5305\u3002</p><p>\u7B28\u7B28\u718A\u79BB\u5F00\u4E86\u6C34\u9762\uFF0C\u539F\u6765\u662F\u683C\u683C\u5DEB\u62FF\u9762\u5305\u8BF1\u60D1\u7B28\u7B28\u718A\u7684\uFF0C\u683C\u683C\u5DEB\u628A\u9B54\u6CD5\u836F\u6C34\u7684\u89E3\u836F\u6EF4\u5728\u4E86\u53D8\u6210\u9C7C\u7684\u7B28\u7B28\u718A\u8EAB\u4E0A\uFF0C\u7B28\u7B28\u718A\u53D8\u56DE\u4E86\u4E00\u53EA\u718A\uFF0C\u53EF\u662F\u7B28\u7B28\u718A\u5374\u5927\u54ED\u8D77\u6765\uFF0C\u683C\u683C\u5DEB\u5230\u73B0\u5728\u4E5F\u6CA1\u5F04\u6E05\u695A\u7B28\u7B28\u718A\u4E3A\u4EC0\u4E48\u4F1A\u54ED\u3002</p><h2 id="\u5C0F\u80A5\u732A" tabindex="-1"><a class="header-anchor" href="#\u5C0F\u80A5\u732A" aria-hidden="true">#</a> \u5C0F\u80A5\u732A</h2><p>\u4E00\u53EA\u9965\u997F\u7684\u72D0\u72F8\u6B63\u51C6\u5907\u51FA\u95E8\u627E\u5348\u9910\uFF0C\u7A81\u7136\uFF0C\u5916\u9762\u4F20\u6765\u4E00\u9635\u6572\u95E8\u58F0\u3002\u72D0\u72F8\u6253\u5F00\u95E8\uFF0C\u95E8\u53E3\u7ADF\u7AD9\u7740\u4E00\u53EA\u5C0F\u80A5\u732A\u3002</p><p>\u201C\u54CE\u5440\uFF0C\u6211\u627E\u9519\u95E8\u4E86\uFF0C\u6211\u4EE5\u4E3A\u662F\u5154\u5B50\u7684\u5BB6\u5462\uFF01\u201D</p><p>\u201C\u6CA1\u9519\uFF0C\u4F60\u6765\u5F97\u6B63\u662F\u65F6\u5019\uFF01\u201D</p><p>\u72D0\u72F8\u628A\u5C0F\u732A\u72E0\u72E0\u5730\u62D6\u8FDB\u5C4B\u91CC\uFF0C\u5927\u58F0\u53EB\u9053\uFF1A\u201C\u8FD9\u771F\u662F\u6211\u5E78\u8FD0\u7684\u4E00\u5929\uFF01\u6211\u8981\u5403\u4E00\u987F\u9999\u55B7\u55B7\u7684\u70E4\u732A\u8089\uFF0C\u73B0\u5728\uFF0C\u4F60\u4E56\u4E56\u5730\u8EBA\u5230\u70E4\u9505\u91CC\u53BB\u5427\uFF01\u201D</p><p>\u6323\u624E\u662F\u6CA1\u6709\u7528\u7684\uFF0C\u4E8E\u662F\uFF0C\u5C0F\u732A\u8BF4\uFF1A\u201C\u542C\u4F60\u7684\u5B89\u6392\u5427\u3002\u4E0D\u8FC7\uFF0C\u6211\u5F88\u810F\u54E6\uFF0C\u5728\u4F60\u5403\u6389\u6211\u4E4B\u524D\uFF0C\u5C31\u4E0D\u60F3\u628A\u6211\u6D17\u5F97\u5E72\u51C0\u4E00\u70B9\u5417\uFF1F\u201D\u4E8E\u662F\uFF0C\u72D0\u72F8\u5FD9\u8D77\u6765\u4E86\u3002\u4ED6\u62FE\u6765\u4E86\u6811\u679D\u3001\u751F\u8D77\u4E86\u706B\uFF0C\u518D\u5230\u6CB3\u8FB9\u53BB\u63D0\u6C34\uFF0C\u7136\u540E\uFF0C\u7ED9\u5C0F\u732A\u6D17\u4E86\u4E00\u4E2A\u75DB\u75DB\u5FEB\u5FEB\u7684\u70ED\u6C34\u6FA1\u3002</p><p>\u72D0\u72F8\u8BF4\uFF1A\u201C\u597D\u5566\uFF0C\u73B0\u5728\u4F60\u662F\u5168\u6751\u6700\u5E72\u51C0\u7684\u5C0F\u732A\u4E86\uFF0C\u5FEB\u7ED9\u6211\u8EBA\u5230\u70E4\u9505\u91CC\u53BB\u5427\uFF01\u201D</p><p>\u6323\u624E\u662F\u6CA1\u6709\u7528\u7684\uFF0C\u4E8E\u662F\uFF0C\u5C0F\u732A\u8BF4\uFF1A\u201C\u542C\u4F60\u7684\u5B89\u6392\u5427\u3002\u4E0D\u8FC7\uFF0C\u6211\u592A\u5C0F\u4E86\uFF0C\u5728\u4F60\u5403\u6389\u6211\u4E4B\u524D\uFF0C\u5C31\u4E0D\u60F3\u5582\u9971\u6211\uFF0C\u8BA9\u6211\u957F\u5F97\u80D6\u4E00\u70B9\u5417\uFF1F\u201D\u4E8E\u662F\uFF0C\u72D0\u72F8\u5FD9\u8D77\u6765\u4E86\u3002\u4ED6\u6458\u6765\u897F\u7EA2\u67FF\uFF0C\u505A\u4E86\u901A\u5FC3\u7C89\uFF0C\u8FD8\u70E4\u4E86\u4E00\u7089\u91D1\u9EC4\u8272\u7684\u5C0F\u751C\u997C\u3002\u5C0F\u732A\u5927\u5927\u54A7\u54A7\u5730\u5403\u4E86\u4E00\u987F\u4E30\u76DB\u7684\u5348\u9910\u3002</p><p>\u72D0\u72F8\u8BF4\uFF1A\u201C\u597D\u5566\uFF0C\u73B0\u5728\u4F60\u662F\u5168\u6751\u6700\u80A5\u7684\u5C0F\u732A\u4E86\uFF0C\u5FEB\u7ED9\u6211\u8EBA\u5230\u70E4\u9505\u91CC\u53BB\u5427\uFF01\u201D</p><p>\u6323\u624E\u662F\u6CA1\u6709\u7528\u7684\uFF0C\u4E8E\u662F\uFF0C\u5C0F\u732A\u8BF4\uFF1A\u201C\u542C\u4F60\u7684\u5B89\u6392\u5427\u3002\u4E0D\u8FC7\uFF0C\u6211\u662F\u4E00\u53EA\u52E4\u52B3\u7684\u5C0F\u732A\uFF0C\u6211\u7684\u8089\u4E00\u5B9A\u7279\u522B\u786C\u3002\u5728\u4F60\u5403\u6389\u6211\u4E4B\u524D\uFF0C\u5C31\u4E0D\u60F3\u5148\u7ED9\u6211\u6309\u6469\u4E00\u4E0B\uFF0C\u8BA9\u81EA\u5DF1\u5403\u4E0A\u66F4\u5AE9\u4E00\u70B9\u7684\u70E4\u8089\u5417\uFF1F\u201D</p><p>\u4E8E\u662F\uFF0C\u72D0\u72F8\u5FD9\u8D77\u6765\u4E86\u3002\u4ED6\u8BA9\u5C0F\u732A\u5750\u5728\u6728\u6905\u5B50\u4E0A\uFF0C\u4E3A\u5C0F\u732A\u634F\u634F\u5934\u3001\u677E\u677E\u80A9\u3001\u62C9\u62C9\u817F\uFF0C\u5C0F\u732A\u8212\u670D\u5F97\u76F4\u54FC\u54FC\u3002\u72D0\u72F8\u8BF4\uFF1A\u201C\u597D\u5566\uFF0C\u73B0\u5728\u4F60\u662F\u5168\u6751\u6700\u80A5\u7684\u5C0F\u732A\u4E86\uFF0C\u5FEB\u7ED9\u6211\u8EBA\u5230\u70E4\u9505\u91CC\u53BB\u5427\uFF01\u201D</p><p>\u201C\u90A3\u597D\u5427\uFF0C\u4E0D\u8FC7\uFF0C\u8FD9\u4E9B\u65E5\u5B50\u6211\u7684\u786E\u592A\u7D2F\u4E86\u3002\u4F60\u770B\uFF0C\u6211\u7684\u80CC\u8FD8\u6709\u70B9\u50F5\u786C\uFF0C\u4F60\u80FD\u518D\u7528\u529B\u66FF\u6211\u6309\u6469\u4E00\u4E0B\u5417\uFF1F\u5BF9\uFF0C\u5C31\u8FD9\u6837\uFF0C\u518D\u7528\u70B9\u529B\u6C14\uFF01\u201D\u8FC7\u4E86\u4E00\u4F1A\uFF0C\u8EAB\u540E\u4F20\u6765\u72D0\u72F8\u7684\u547C\u565C\u58F0\uFF0C\u5C0F\u732A\u8F7B\u58F0\u95EE\uFF1A\u201C\u72D0\u72F8\u5148\u751F\uFF0C\u4F60\u5728\u54EA\u513F\u554A\uFF1F\u201D</p><p>\u72D0\u72F8\u6CA1\u6709\u542C\u89C1\u5C0F\u732A\u7684\u558A\u58F0\uFF0C\u4ED6\u7D2F\u6781\u4E86\uFF0C\u6C89\u6C89\u5730\u7761\u53BB\u4E86\u3002</p><p>\u6751\u5B50\u91CC\u6700\u5E72\u51C0\u3001\u6700\u80A5\u3001\u6700\u67D4\u8F6F\u7684\u5C0F\u732A\uFF0C\u62FF\u7740\u5269\u4E0B\u7684\u751C\u997C\uFF0C\u98DE\u5FEB\u5730\u8DD1\u56DE\u5BB6\u53BB\u4E86\u3002</p><h2 id="\u68A6\u91CC\u6709\u4F60-\u5341\u5206\u751C" tabindex="-1"><a class="header-anchor" href="#\u68A6\u91CC\u6709\u4F60-\u5341\u5206\u751C" aria-hidden="true">#</a> \u68A6\u91CC\u6709\u4F60\uFF0C\u5341\u5206\u751C</h2><p>\u4F4F\u5728\u5C71\u5934\u7684\u5C0F\u5154\u5B50\uFF0C\u6700\u8FD1\u5FC3\u91CC\u85CF\u4E86-\u4E2A\u5C0F\u79D8\u5BC6\u3002\u90A3\u4E2A\u5C0F\u79D8\u5BC6\uFF0C\u662F\u6709\u5173\u5BF9\u9762\u5C71\u4E0A\u7684\u7EA2\u5C3E\u5DF4\u5C0F\u72D0\u72F8\u7684\u3002</p><p>\u8FD9\u5929\uFF0C\u5C0F\u5154\u5B50\u7167\u5E38\u53BB\u627E\u5C0F\u72D0\u72F8\u73A9\uFF0C\u534A\u8DEF\u9047\u5230\u4E86\u5C0F\u7CBE\u7075,\u542C\u8BF4\u8FD9\u4E2A\u5C0F\u7CBE\u7075\u7CBE\u901A\u4E07\u4E8B\uFF0C\u5C0F\u5154\u5B50\u541E\u541E\u5410\u5410\u5730\u95EE:\u201C\u5C0F\u7CBE\u7075\uFF0C. \u6211\u4E3A\u4EC0\u4E48\u89C1\u5230\u90A3\u4E2A\u4EBA\uFF0C\u5C31.. \u5C31\u4F1A\u5FC3\u8DF3\u52A0\u901F\uFF0C\u5C31.. \u50CF\u6211\u6BCF\u5929\u5728\u8349\u4E1B\u4E0A\u6253\u5B8C\u6EDA\u4E00\u6837?\u5C0F\u7CBE \u7075\u717D\u52A8\u7740\u5C0F\u7FC5\u8180\uFF0C\u7B11\u563B\u563B\u5730\u5BF9\u5C0F\u5154\u5B50\u8BF4:\u201C\u4F60\u8FD9\u662F\u559C\u6B22\u4E0A\u4EBA\u5BB6\u5566\u3002\u201D\u5C0F\u5154\u5B50\u53C8\u95EE:\u201C\u90A3\u4EC0\u4E48\u662F\u559C\u6B22\u5440?</p><p>\u5C0F\u7CBE\u7075\u60F3\u4E86\u60F3\u8BF4: &quot;\u559C\u6B22\u5C31\u662F\uFF0C\u4F60\u5728\u89C1\u4ED6\u4E4B\u524D\uFF0C\u5E0C\u671B\u65F6\u95F4\u8FC7\u5F97\u5FEB\u4E00-\u70B9, \u8FD9\u6837\u4F60\u5C31\u53EF\u4EE5\u5FEB\u70B9\u89C1\u5230\u4ED6\u3002\u89C1\u5230\u4ED6\u4E4B\u540E\uFF0C\u4F60\u4F1A\u5F88\u5F00\u5FC3\uFF0C\u4F1A\u5E0C\u671B\u65F6\u95F4\u8FC7\u5F97\u6162\u4E00-\u70B9,\u8FD9\u6837\u4F60\u5C31\u53EF\u4EE5\u6709\u66F4\u591A\u7684\u65F6\u95F4\u548C\u4ED6\u5728\u4E00\u8D77\u3002</p><p>\u201C\u53EF\u662F\uFF0C\u6211\u4E0D\u77E5\u9053\u4ED6\u559C\u4E0D\u559C\u6B22\u6211\uFF0C\u600E\u4E48\u529E?\u201D \u5C0F\u5154\u5B50\u5931\u843D\u5730\u8BF4\u3002</p><p>&quot;\u4F20\u8BF4\u5728\u7761\u524D\u53EA\u8981\u60F3\u7740\u4F60\u559C\u6B22\u7684\u90A3\u4E2A\u4EBA\uFF0C\u5982\u679C\u4ED6\u68A6\u5230\u4E86\u4F60\uFF0C\u4F60\u5C31\u53EF\u4EE5\u8FDB\u5165\u4ED6\u7684\u68A6\u91CC\uFF0C\u8FD9\u6837\uFF0C\u4F60\u4FBF\u53EF\u4EE5\u77E5\u9053\u4ED6\u5BF9\u4F60\u7684\u5FC3\u610F\u5566!\u201D\u5C0F\u7CBE\u7075\u8BF4\u5B8C\u5C31\u6D88\u5931\u4E86\u3002</p><p>\u5C0F\u5154\u5B50\u9ED8\u9ED8\u8BB0\u4F4F\u4E86\u5C0F\u7CBE\u7075\u7684\u8BDD\uFF0C\u7EC8\u4E8E\uFF0C\u661F\u661F\u51FA\u6765\u4E86\uFF0C\u5C0F\u5154\u5B50\u8EBA\u5728\u67D4\u8F6F\u7684\u5C0F\u5E8A.\u4E0A,\u60F3\u7740\u548C\u5C0F\u72D0\u72F8\u7684\u6B22\u4E50\u65F6\u5149\uFF0C\u4E0D\u77E5\u4E0D\u89C9,\u7761\u7740\u4E86..</p><p>\u679C\u7136\uFF0C\u5C0F\u5154\u5B50\u6765\u5230\u4E86\u4E00\u4E2A\u53EB\u68A6\u4E4B\u56FD\u7684\u5730\u65B9\uFF0C\u5728\u8FD9\u4E2A\u5730\u65B9\uFF0C\u5979\u770B\u5230\u4E86\u4E00\u95F4\u5C0F\u6728\u5C4B,\u6302\u7740\u7EA2\u5C3E\u5DF4\u5C0F\u72D0\u72F8\u7684\u724C\u5B50\uFF0C\u5C0F\u5154\u5B50\u6DF1\u5438\u4E00\u53E3\u6C14,\u63A8\u5F00\u4E86\u5C0F\u6728\u95E8\uFF0C\u901A\u5F80\u5C0F\u72D0\u72F8\u68A6\u91CC\u7684\u8DEF\u5F00\u6EE1\u4E86\u82B1\u82B1\u8349\u8349\uFF0C\u8774\u8776\u5728\u7A7A\u4E2D\u98DE\u821E,\u5C0F\u5154\u5B50\u8D70\u4E86\u597D\u4E45\uFF0C\u5728\u4E00\u7247\u8349\u5730\u4E0A\u770B\u5230\u4E86\u5C0F\u72D0\u72F8\uFF0C\u5C0F\u72D0\u72F8\u7B11\u563B\u563B\u5730\u5BF9\u5C0F\u5154\u5B50\u8BF4:\u201C\u4F60\u7EC8\u4E8E\u6765\u4E86\uFF0C \u6211\u4E00\u76F4\u5728\u7B49\u4F60\uFF0C\u6211\u5FC3\u7231\u7684\u5C0F\u5154\u5B50\u3002</p><p>\u68A6\u91CC\uFF0C\u5C0F\u72D0\u72F8\u5E26\u7740\u5C0F\u5154\u5B50\u5728\u8349\u4E1B\u4E0A\u6253\u6EDA\u513F\uFF0C\u5C0F\u72D0\u72F8\u8FD8\u4E3A\u5C0F\u5154\u5B50\u7F16\u7EC7\u4E86\u4E00\u4E2A\u5C0F\u82B1\u73AF\uFF0C\u4EB2\u624B\u7ED9\u5C0F\u5154\u5B50\u6234\u5728\u5934\u4E0A\uFF0C\u5750\u5728\u6E56\u8FB9\uFF0C\u770B\u7740\u5728\u6E56\u4E0A\u98D8\u7740\u7684\u5C0F\u8239\uFF0C\u5403\u7740\u751C\u751C\u7684\u7CD6\u679C\uFF0C \u73A9\u7D2F\u4E86\u5C0F\u72D0\u72F8\u5C31\u8BA9\u5C0F\u5154\u5B50\u8EBA\u5728\u4ED6\u67D4\u8F6F\u7684\u7EA2\u5C3E\u5DF4\u4E0A\uFF0C\u5BA0\u6EBA\u5730\u629A\u6478\u7740\u5C0F\u5154\u5B50\u5934\uFF0C\u8033\u8FB9\u62C2\u8FC7\u7684\u53EA\u6709\u6E29\u548C\u7684\u98CE\u548C\u5F7C\u6B64\u7684\u547C\u5438\u3002</p><p>\u4E0D\u77E5\u8FC7\u4E86\u591A\u4E45,\u5C0F\u5154\u5B50\u773C\u524D\u95EA\u8FC7\u4E00\u9053\u767D\u5149\uFF0C\u68A6\u7ED3\u675F\u4E86...</p><p>\u5C0F\u5154\u5B50\u7EC6\u7EC6\u56DE\u60F3\u7740\u521A\u624D\u7684\u68A6\uFF0C\u6025\u5FD9\u671D\u5C0F\u72D0\u72F8\u5BB6\u8DD1\u53BB\uFF0C\u72B9\u8C6B\u4E86\u4E00\u4E0B\uFF0C\u7EC8\u4E8E\u6572\u54CD\u4E86\u5C0F\u72D0\u72F8\u5BB6\u7684\u95E8,\u4E0D\u4E00\u4F1A\u513F\uFF0C\u95E8\u5F00\u4E86\uFF0C\u9732\u51FA\u4E86\u5C0F\u72D0\u72F8\u542B\u7740\u7B11\u610F\u7684\u5927\u773C\u775B\u3002\u5C0F\u5154\u5B50\u8BF4:\u201D\u4F60\u597D\u5440\uFF0C\u5C0F\u72D0\u72F8\uFF0C\u4ECA\u5929\u6211\u4EEC\u53BB\u6458\u8611\u83C7\u5427!&quot;\u5C0F\u72D0\u72F8\u70B9\u4E86\u70B9\u5934:\u201C\u597D\u554A\u597D\u554A\uFF0C\u5FEB\u8FDB\u6765\u5427\uFF0C\u7B49\u6211\u6536\u62FE\u4E00\u4E0B\u6211\u4EEC\u5C31\u51FA\u53D1\u3002</p><p>\u8DEF\u4E0A\uFF0C\u5C0F\u5154\u5B50\u652F\u652F\u543E\u543E\u5730\u95EE: &quot;\u5C0F\u72D0\u72F8\uFF0C..\u4F60\u6628\u5929\u505A\u4E86\u4EC0\u4E48\u68A6\u5440?\u201D</p><p>\u5C0F\u72D0\u72F8\u5237\u5730\u4E00\u4E0B\u8138\u7EA2\u4E86\uFF0C\u6320\u4E86\u6320\u5934\uFF0C\u4E0D\u597D\u610F\u601D\u8BF4:\u201C\u4E3A..\u4E3A\u4EC0\u4E48\u8981\u95EE\u8FD9\u4E2A?\u201D</p><p>\u201C\u56E0\u4E3A\u6211\u68A6\u5230\u4E86 ..\u5C0F\u5154\u5B50\u4E0D\u5C0F\u5FC3\u8BF4\u6F0F\u4E86\u5634\uFF0C\u8D76\u5FD9\u8BF4&quot;\u54CE\u5440\uFF0C\u4F60\u5FEB\u70B9\u8BF4\u8BF4\u561B!&quot;</p><p>&quot;\u55EF..\u6211\u68A6\u5230\u4E86.\u5176\u5B9E\u662F\u4E00\u4E2A\u5341\u4E8C\u5206\u751C\u7684\u68A6\u3002\u201D</p><p>\u201D\u4E3A\u4EC0\u4E48\u662F\u5341\u4E8C\u5206\u751C?\u201D\u5C0F\u5154\u5B50\u4E0D\u89E3\u7684\u95EE\u3002</p><p>\u201C\u4E00\u5206\u662F\u5B81\u9759\uFF0C\u4E00\u5206\u662F\u60EC\u610F\u3002\u201D</p><p>\u5C0F\u72D0\u72F8\u62C9\u8D77\u5C0F\u5154\u5B50\u7684\u624B\u7EE7\u7EED\u8BF4\u201C\u7136\u540E\u68A6\u91CC\u6709\u4F60\uFF0C\u4F60\u5341\u5206\u751C\u3002</p><h2 id="\u665A\u5B89" tabindex="-1"><a class="header-anchor" href="#\u665A\u5B89" aria-hidden="true">#</a> \u665A\u5B89\uFF01</h2><p>\u65F6\u95F4\u5728\u68EE\u6797\u91CC\uFF0C\u6162\u6162\u7684\u6D41\u901D\u7740\uFF0C\u4E0D\u4E45\u79CB\u5929\u4FBF\u6765\u4E86\uFF0C\u4E5F\u5230\u4E86\u52A8\u7269\u4EEC\u6700\u5FD9\u788C\u7684\u5B63\u8282\uFF0C\u56E0\u4E3A\u79CB\u5929\u7684\u91D1\u9EC4\uFF0C\u50CF\u6781\u4E86\u5927\u81EA\u7136\u7ED9\u4E88\u52A8\u7269\u4EEC\u6700\u73CD\u8D35\u7684\u5B9D\u85CF\uFF0C\u4E5F\u6807\u5FD7\u7740\u5C0F\u52A8\u7269\u4EEC\u8981\u5F00\u59CB\u50A8\u5B58\u51AC\u5929\u7684\u7CAE\u98DF\u4E86\u3002</p><p>\u9AD8\u8038\u5165\u4E91\u7684\u677E\u6811\u4E0A\uFF0C\u5C0F\u677E\u9F20\u4E0A\u7A9C\u4E0B\u8DF3\u7684\u8EAB\u5F71\u7740\u5B9E\u8BA9\u4EBA\u4E0D\u5F97\u4E0D\u6CE8\u610F\u3002\u90A3\u5C0F\u677E\u9F20\u5728\u5FD9\u4EC0\u4E48\u5462\uFF1F\u548B\u4E00\u770B\uFF0C\u539F\u6765\u5C0F\u677E\u9F20\u5728\u5FD9\u7740\u6361\u5730\u4E0A\u7684\u677E\u679C\uFF0C\u4E0D\u505C\u7684\u5F80\u81EA\u5DF1\u7684\u5C0F\u7A9D\u91CC\u9001\u5462\uFF01\u5728\u5C0F\u677E\u9F20\u5FD9\u788C\u7684\u8FC7\u7A0B\u4E2D\uFF0C\u5544\u6728\u9E1F\u533B\u751F\uFF0C\u4E5F\u5728\u65C1\u8FB9\u7684\u6811\u4E0A\u4E0D\u505C\u7684\u7ED9\u5927\u53D4\u4F2F\u4F2F\u9A71\u866B\u2026\u2026</p><p>\u6240\u4EE5\u53EA\u8981\u4F60\u4ED4\u7EC6\u4E00\u770B\uFF0C\u6574\u4E2A\u68EE\u6797\u90FD\u5728\u79CB\u5929\u7684\u6C14\u6C1B\u4E2D\u5FD9\u788C\u7740\u3002\u5728\u68EE\u6797\u7684\u53E6\u4E00\u8FB9\uFF0C\u5C0F\u732A\u5728\u5C4B\u5916\u4E0D\u505C\u7684\u5228\u5751\uFF0C\u8DEF\u8FC7\u7684\u5C0F\u767D\u5154\u770B\u89C1\u4E86\uFF0C\u95EE\u5C0F\u732A\uFF1A\u201C\u5C0F\u732A\uFF0C\u5C0F\u732A\u4F60\u5728\u5E72\u561B\u5462\uFF1F\u201D</p><p>\u201C\u6211\u5728\u5228\u4E2A\u5927\u70B9\u7684\u5751\uFF0C\u7136\u540E\u628A\u51AC\u5929\u8981\u5403\u7684\u7CAE\u98DF\u57CB\u91CC\u9762\u201D\u3002\u5C0F\u732A\u8FB9\u5E72\u6D3B\u8FB9\u56DE\u7B54\u8BF4\u3002</p><p>\u201C\u5E72\u561B\u8981\u57CB\u5728\u5751\u91CC\u554A\uFF01\u201D</p><p>\u201C\u56E0\u4E3A\u57CB\u5728\u5751\u91CC\uFF0C\u6E29\u5EA6\u4F4E\u53EF\u4EE5\u4FDD\u6301\u98DF\u7269\u4E0D\u574F\u554A\uFF01\u201D</p><p>\u5C0F\u767D\u5154\u542C\u4E86\uFF0C\u597D\u50CF\u5F88\u6709\u9053\u7406\uFF0C\u4FBF\u544A\u522B\u5C0F\u732A\uFF0C\u5F80\u5BB6\u91CC\u8D76\u53BB\u3002</p><p>\u56DE\u5230\u5BB6\u91CC\uFF0C\u5C0F\u767D\u5154\u8BA9\u5C0F\u72D0\u72F8\u628A\u81EA\u5DF1\u6700\u559C\u6B22\u5403\u7684\u841D\u535C\u57CB\u5728\u5730\u91CC\uFF0C\u5C0F\u72D0\u72F8\u542C\u4E86\u4E00\u9635\u60CA\u8BB6\uFF0C\u95EE\u5C0F\u767D\u5154\u4E3A\u4EC0\u4E48\u8981\u57CB\u5728\u5730\u91CC\uFF0C\u5C0F\u767D\u5154\u628A\u548C\u5C0F\u732A\u7684\u8C08\u8BDD\u544A\u8BC9\u4E86\u5C0F\u72D0\u72F8\u3002</p><p>\u5C0F\u72D0\u72F8\u542C\u540E\uFF0C\u5FCD\u4E0D\u4F4F\u5927\u7B11\u8D77\u6765\uFF0C\u8FD9\u53EF\u628A\u5C0F\u767D\u5154\u6C14\u7740\u4E86\uFF0C\u8FDE\u5FD9\u95EE\u539F\u56E0\uFF0C\u4F11\u606F\u4E86\u597D\u4E00\u4F1A\uFF0C\u5C0F\u72D0\u72F8\u8BF4\uFF1A\u201C\u5C0F\u732A\u50A8\u5B58\u7684\u662F\u90A3\u79CD\u57CB\u5728\u5730\u91CC\u4E0D\u4F1A\u574F\u7684\u98DF\u7269\uFF0C\u800C\u4E14\u4E5F\u4F1A\u628A\u98DF\u7269\u5305\u88C5\u4FDD\u62A4\u4E00\u4E0B\u554A\uFF0C\u4F46\u662F\u4F60\u559C\u6B22\u5403\u7684\u80E1\u841D\u535C\uFF0C\u4E00\u65E6\u57CB\u5728\u5730\u4E0B\uFF0C\u4F1A\u8150\u70C2\uFF0C\u5C31\u7B97\u4E0D\u8150\u70C2\u4E5F\u4F1A\u53D8\u6210\u80E1\u841D\u535C\u5E72\u201D\u3002\u5C0F\u767D\u5154\u542C\u540E\uFF0C\u4E5F\u89C9\u5F97\u597D\u50CF\u6709\u4E9B\u9053\u7406\uFF0C\u4E8E\u662F\u53C8\u95EE\uFF1A\u201C\u90A3\u4F60\u4E3A\u4EC0\u4E48\u7B11\u6211\uFF1F\u201D\uFF0C\u5C0F\u72D0\u72F8\u770B\u7740\u561F\u7740\u5634\u7684\u5C0F\u767D\u5154\uFF0C\u53C8\u597D\u7B11\u53C8\u53EF\u7231\u3002</p><p>\u201C\u56E0\u4E3A\u4F60\u8FD9\u4E48\u4E45\uFF0C\u8FD8\u662F\u6211\u7684\u50BB\u5B9D\u8D1D\uFF0C\u4E00\u70B9\u90FD\u6CA1\u53D8\u5462\uFF01\u201D\u5C0F\u767D\u5154\u542C\u540E\uFF0C\u611F\u89C9\u597D\u50CF\u88AB\u8868\u626C\u4E86\uFF0C\u4E0D\u89C9\u5F97\u5634\u89D2\u4E0A\u626C\u3002\u4F46\u4ED4\u7EC6\u4E00\u60F3\uFF0C\u597D\u50CF\u53C8\u4E0D\u662F\uFF0C\u4E8E\u662F\u8FDE\u5FD9\u8981\u627E\u5C0F\u72D0\u72F8\u7B97\u8D26\uFF0C\u8F6C\u5934\u4E00\u770B\u5C0F\u72D0\u72F8\u65E9\u5C31\u8DD1\u51FA\u95E8\uFF0C\u5BF9\u7740\u5C0F\u767D\u5154\u505A\u9B3C\u8138\u3002</p><p>\u201C\u4F60\u7B49\u7740\uFF0C\u4F60\u4E2A\u81ED\u5B9D\u8D1D\uFF01\u201D\u5C0F\u767D\u5154\u8FDE\u5FD9\u8FFD\u51FA\u53BB\u3002</p><p>\u5C31\u8FD9\u6837\uFF0C\u5728\u5FD9\u788C\u7684\u79CB\u5929\uFF0C\u4E5F\u4F1A\u6709\u521D\u6625\u7231\u60C5\u7684\u751C\u871C\uFF0C\u50CF\u5C0F\u767D\u5154\u548C\u5C0F\u72D0\u72F8\uFF0C\u5728\u5FD9\u788C\u5F53\u4E2D\u5B09\u620F\u6253\u95F9\uFF0C\u8BA9\u4E00\u4E9B\u8FD8\u5355\u8EAB\u7684\u5C0F\u52A8\u7269\uFF0C\u597D\u751F\u7FA1\u6155\u2026\u2026</p><p>\u5F53\u7136\uFF0C\u68EE\u6797\u91CC\u7684\u52A8\u7269\u4EEC\u90FD\u975E\u5E38\u7684\u5584\u826F\uFF0C\u6240\u4EE5\u554A\u6708\u8001\u4E5F\u4E00\u5B9A\u4E0D\u4F1A\u541D\u556C\u59FB\u7F18\u7684\u7EA2\u7EBF\uFF0C\u76F8\u4FE1\u4E0D\u4E45\u53C8\u4F1A\u6709\u65B0\u7684\u751C\u871C\u98D8\u6563\u5728\u8FD9\u68EE\u6797\u7684\u5927\u5BB6\u5EAD\u4E2D\u3002</p><p>\u6BCF\u4E00\u4E2A\u591C\u5E55\u964D\u4E34\uFF0C\u6211\u4EEC\u4E5F\u4F1A\u5BF9\u5F7C\u6B64\u8BF4\u4E0A\u4E00\u53E5\uFF1A\u665A\u5B89\uFF01\u597D\u68A6\uFF01</p><h2 id="\u7231-\u957F\u7BC7" tabindex="-1"><a class="header-anchor" href="#\u7231-\u957F\u7BC7" aria-hidden="true">#</a> \u7231\uFF08\u957F\u7BC7\uFF09</h2><p>\u6E05\u6668\uFF0C\u6DF1\u5C71\u4E4B\u5904\u7684\u5BFA\u5E99\u5BE5\u5BE5\u708A\u70DF\uFF0C\u53A8\u623F\u91CC\uFF0C\u725B\u6653\u70E7\u7740\u706B\uFF0C\u5C0F\u548C\u5C1A\u6405\u52A8\u7740\u9505\u91CC\u7684\u658B\u996D\uFF0C\u4E00\u4E2A\u6708\u7684\u76F8\u5904\u4E0B\u6765\uFF0C\u8BA9\u4E24\u4EBA\u914D\u5408\u76F8\u5F53\u9ED8\u5951\uFF0C\u8FD9\u4E5F\u8BA9\u5C0F\u548C\u5C1A\u7684\u5DE5\u4F5C\u8F7B\u677E\u4E86\u8BB8\u591A\u3002</p><p>\u201C\u4F60\u559C\u6B22\u8FC7\u522B\u4EBA\u5417\uFF1F\u201D\u725B\u6653\u7A81\u7136\u95EE</p><p>\u201C\u5565\uFF1F\u201D\u5C0F\u548C\u5C1A\u88AB\u8FD9\u7A81\u5982\u5176\u6765\u95EE\u9898\u60CA\u4E86\u4E00\u4E0B\uFF0C\u7136\u540E\u53C8\u8BF4\uFF1A\u201C\u6211\u559C\u6B22\u5E08\u5085\uFF0C\u5E08\u5085\u662F\u6211\u7684\u5BB6\u4EBA\uFF0C\u5982\u679C\u4F60\u5F85\u4E45\u4E86\u6211\u4E5F\u4F1A\u559C\u6B22\u4F60\u7684\u3002\u201D\u725B\u6653\u770B\u7740\u5C0F\u548C\u5C1A\u8BA4\u8BA4\u771F\u771F\u7684\u56DE\u7B54\u7740\u3002\u7A81\u7136\u5657\u55E4\u4E00\u58F0\u7B11\u4E86\u8D77\u6765\u3002</p><p>\u201C\u4F60\u662F\u4E0D\u662F\u50BB\uFF1F\u6211\u8BF4\u7684\u662F\u7537\u5973\u4E4B\u95F4\u7684\u559C\u6B22\uFF1F\u201D\u725B\u6653\u8BF4\u3002</p><p>\u201C\u90A3\u662F\u4EC0\u4E48\u559C\u6B22\uFF1F\u4E0D\u61C2\u4E0D\u61C2\uFF01\u201D\u5C0F\u548C\u5C1A\u8FB9\u76DB\u7740\u7CA5\uFF0C\u8FB9\u6447\u7740\u5934\u3002</p><p>\u996D\u684C\u4E0A\uFF0C\u5E08\u5F92\u4E09\u4EBA\u5403\u7740\u658B\u996D\uFF0C\u5C0F\u548C\u5C1A\u7A81\u7136\u95EE\u5E08\u5085\uFF1A\u201C\u5E08\u5085\uFF0C\u4F60\u559C\u6B22\u8FC7\u5973\u4EBA\u5417\uFF1F\u201D\u3002\u8FD9\u4E00\u95EE\u5B8C\uFF0C\u5E08\u5085\u5DEE\u70B9\u545B\u4E86\u4E00\u53E3\u996D\uFF0C\u8F6C\u5934\u770B\u7740\u725B\u6653\uFF0C\u725B\u6653\u4E00\u8138\u65E0\u8F9C\u7684\u8BF4\u5230\uFF1A\u201C\u5E08\u5085\uFF0C\u8DDF\u6211\u65E0\u5173\uFF0C\u6211\u53EF\u5565\u90FD\u6CA1\u8BF4\u201D\u3002\u8BF4\u5B8C\uFF0C\u4FBF\u57CB\u5934\u5403\u996D\u3002</p><p>\u201C\u4F60\u4EEC\u4FE9\uFF0C\u4E00\u5929\u4E0D\u8BA4\u771F\u5FF5\u4F5B\u5B88\u5FC3\uFF0C\u8BA8\u8BBA\u90A3\u4E9B\u65E0\u5173\u7D27\u8981\u7684\u5E72\u561B\uFF1F\u201D\u5E08\u5085\u767D\u4E86\u4E00\u773C\u725B\u6653\uFF0C\u7EE7\u7EED\u8BF4\u5230\uFF1A\u201C\u7537\u6B22\u5973\u7231\uFF0C\u7686\u4E3A\u4E16\u4FD7\u60C5\u4E8B\uFF0C\u4E16\u4EBA\u628A\u8FD9\u79CD\u611F\u60C5\u6BD4\u4E3A\u7231\u60C5\uFF0C\u53C8\u4EE5\u73AB\u7470\u4E3A\u8C61\u5F81\uFF0C\u65E0\u8BBA\u5403\u658B\u5FF5\u4F5B\u4E5F\u597D\uFF0C\u7537\u6B22\u5973\u7231\u4E5F\u7F62\uFF0C\u90FD\u662F\u4EBA\u751F\u5F53\u4E2D\u7684\u4FEE\u884C\uFF0C\u4EBA\u4EBA\u90FD\u60F3\u4FEE\u5F97\u6B63\u679C\uFF0C\u5176\u4E2D\u56F0\u96BE\u574E\u5777\uFF0C\u5927\u540C\u5C0F\u5F02\u2026\u2026\u201D\u5E08\u5085\u8BF4\u7740\uFF0C\u4EFF\u4F5B\u9677\u5165\u4E86\u56DE\u5FC6\uFF0C\u800C\u540E\u7B11\u7740\u5BF9\u9762\u524D\uFF0C\u8FD9\u4E24\u4E2A\u7741\u7740\u773C\u775B\u542C\u7740\u7684\u5F92\u5F1F\u7EE7\u7EED\u8BF4\uFF1A\u201C\u8BB0\u5F97\u5E08\u508517\u5C81\u90A3\u5E74\uFF0C\u5E76\u672A\u50CF\u73B0\u5728\u5982\u6B64\u5F00\u59CB\u5403\u658B\u5FF5\u4F5B\uFF0C\u8FD8\u5728\u4E61\u91CC\u63D2\u79E7\u79CD\u7530\uFF0C\u4E00\u5BB6\u4E09\u53E3\u6625\u8015\u79CB\u6536\uFF0C\u5176\u4E50\u878D\u878D\uFF0C\u751F\u6D3B\u4E5F\u522B\u6709\u4E00\u756A\u7CBE\u5F69\u3002\u8BB0\u5F97\u90A3\u662F\u4E00\u4E2A\u9EC4\u660F\u508D\u665A\uFF0C\u6211\u548C\u6BCD\u4EB2\u5728\u5BB6\u4E2D\u70E7\u706B\u505A\u996D\uFF0C\u7236\u4EB2\u5E26\u56DE\u4E00\u9A91\u9A6C\u7537\u5B50\u3002\u7537\u5B50\u6EE1\u8EAB\u5C18\u571F\uFF0C\u4E00\u8138\u75B2\u60EB\uFF0C\u4E0D\u8FC7\u8BF4\u4E5F\u5947\u602A\uFF0C\u8FD9\u7537\u5B50\u957F\u7684\u597D\u751F\u79C0\u6C14\u3002\u7ECF\u7236\u4EB2\u4E00\u756A\u89E3\u91CA\uFF0C\u539F\u6765\u662F\u4E00\u4E2A\u8DEF\u8FC7\uFF0C\u51C6\u5907\u53BB\u53C2\u519B\u7684\u9752\u5E74\uFF0C\u8DEF\u4E0A\u56E0\u4E3A\u9A91\u9A6C\u98A0\u7C38\uFF0C\u6454\u4F24\u4E86\u5DE6\u817F\uFF0C\u7236\u4EB2\u89C1\u5176\u5728\u6751\u53E3\u5750\u7740\uFF0C\u4E0A\u524D\u8BE2\u95EE\u540E\uFF0C\u9080\u5176\u5728\u5BB6\u4F11\u517B\u4E24\u65E5\uFF0C\u5948\u4F55\u7537\u5B50\u6709\u4F24\u5728\u8EAB\uFF0C\u76DB\u60C5\u96BE\u5374\uFF0C\u4FBF\u548C\u7236\u4EB2\u6765\u5230\u5BB6\u4E2D\u505A\u5BA2\u4F11\u517B\u201D\u3002</p><p>\u8BF4\u5230\u7740\uFF0C\u5E08\u5085\u4E00\u8138\u56DE\u5FC6\u4E4B\u8272\uFF0C\u5C0F\u548C\u5C1A\u9ED8\u9ED8\u4E3A\u5E08\u5085\u7AEF\u6765\u4E00\u676F\u8336\u6C34\uFF0C\u548C\u725B\u6653\u5E76\u6392\u5750\u5728\u5E08\u5085\u5BF9\u9762\uFF0C\u6EE1\u773C\u671F\u5F85\u5E08\u5085\u7EE7\u7EED\u8BB2\u6545\u4E8B\u3002</p><p>\u5E08\u5085\u770B\u4E86\u8FD9\u4E24\u597D\u5947\u5F92\u5F1F\u4E00\u773C\uFF0C\u7EE7\u7EED\u8BF4\uFF1A\u201C\u7537\u5B50\u6765\u5230\u5BB6\u4E2D\u4F4F\u5728\u504F\u623F\uFF0C\u524D\u4E24\u5929\u56E0\u4E3A\u817F\u811A\u4E0D\u4FBF\uFF0C\u9664\u4E86\u5403\u996D\u4FBF\u4E00\u76F4\u5F85\u5728\u623F\u95F4\u4E0D\u51FA\u95E8\u3002\u7B2C\u4E09\u5929\u508D\u665A\u548C\u7236\u4EB2\u52A1\u519C\u7ED3\u675F\uFF0C\u56DE\u5230\u5BB6\u4E2D\uFF0C\u53D1\u73B0\u90A3\u7537\u5B50\u5DF2\u7ECF\u4E0D\u89C1\uFF0C\u53CD\u800C\u6709\u4E00\u540D\u7A7F\u7740\u7D20\u8863\uFF0C\u957F\u76F8\u6E05\u79C0\u7684\u59D1\u5A18\u5728\u548C\u6BCD\u4EB2\u6709\u8BF4\u6709\u7B11\u3002\u7ECF\u8FC7\u4E00\u756A\u8BE2\u95EE\uFF0C\u90A3\u7537\u5B50\u5C45\u7136\u662F\u5973\u513F\u8EAB\uFF0C\u8FD9\u53EF\u628A\u6211\u548C\u7236\u4EB2\u60CA\u4E86\u4E00\u4E0B\u3002\u90A3\u65F6\u7236\u4EB2\u867D\u6CA1\u8BFB\u8FC7\u4E66\uFF0C\u4F46\u4E5F\u4E0D\u662F\u591A\u5634\u4E4B\u4EBA\uFF0C\u6240\u4EE5\u5F53\u65F6\u5728\u8868\u73B0\u51FA\u4E00\u5239\u60CA\u8BB6\u4E4B\u540E\uFF0C\u4FBF\u6062\u590D\u5982\u521D\uFF0C\u6CA1\u6709\u591A\u95EE\u4EC0\u4E48\uFF0C\u4F46\u6211\u60F3\u540E\u9762\u6BCD\u4EB2\u5E94\u8BE5\u7ED9\u7236\u4EB2\u89E3\u91CA\u4E86\u7F18\u7531\u3002\u5F80\u540E\u51E0\u5929\uFF0C\u8FD9\u5973\u5B50\u5F00\u59CB\u5E2E\u5BB6\u91CC\u5206\u62C5\u8D77\u4E86\u519C\u6D3B\uFF0C\u6D17\u8863\u505A\u996D\uFF0C\u987A\u4FBF\u4E5F\u5F00\u59CB\u7ED9\u6211\u8F85\u5BFC\u529F\u8BFE\uFF0C\u6559\u6211\u8BC6\u5B57\u3002</p><p>\u8FD9\u6837\u7684\u65E5\u5B50\u6301\u7EED\u4E86\u5927\u6982\u5927\u534A\u4E2A\u6708\uFF0C\u8FD9\u671F\u95F4\u6BCD\u4EB2\u548C\u7236\u4EB2\u8FD8\u62C5\u5F53\u8D77\u4E86\u5A92\u4EBA\u4F3C\u7684\uFF0C\u5C3D\u529B\u5728\u64AE\u5408\u6211\u548C\u8FD9\u59D1\u5A18\uFF0C\u7279\u522B\u662F\u6BCD\u4EB2\uFF0C\u8868\u73B0\u7684\u5341\u5206\u559C\u6B22\u3002\u90A3\u65F6\u7684\u6211\uFF0C\u56E0\u4E3A\u60C5\u7AA6\u521D\u5F00\uFF0C\u5916\u52A0\u671D\u5915\u76F8\u5904\uFF0C\u771F\u7684\u5BF9\u5979\u4EA7\u751F\u4E86\u4E00\u79CD\u83AB\u540D\u7684\u60C5\u612B\u201D\u3002\u5E08\u5085\u8BF4\u5230\u8FD9\uFF0C\u505C\u4E86\u4E0B\u6765\uFF0C\u7AEF\u8D77\u8336\u6C34\u559D\u4E86\u4E00\u53E3\u3002</p><p>\u725B\u6653\u548C\u5C0F\u548C\u5C1A\u53EF\u6025\u574F\u4E86\uFF0C\u8FDE\u5FD9\u95EE\u9053\uFF1A\u201C\u5E08\u5085\uFF0C\u90A3\u662F\u4EC0\u4E48\u611F\u89C9\u554A\uFF1F\u201D</p><p>\u5E08\u5085\u653E\u4E0B\u8336\u676F\uFF0C\u62AC\u5934\u671B\u7740\u623F\u6881\uFF0C\u6C89\u601D\u4E86\u4E00\u4F1A\u8BF4\uFF1A\u201C\u671D\u5915\u6240\u60F3\uFF0C\u591C\u4E0D\u80FD\u5BD0\uFF0C\u4E00\u65E5\u4E0D\u89C1\uFF0C\u5982\u9694\u4E09\u79CB\u3002\u73B0\u5728\u60F3\u60F3\uFF0C\u53EF\u80FD\u90A3\u5C31\u662F\u5C18\u4E16\u5411\u5F80\u7684\u559C\u6B22\u548C\u7231\u60C5\u3002\u4F46\u597D\u666F\u4E0D\u957F\uFF0C\u67D0\u5929\u6E05\u6668\u4E00\u65E9\uFF0C\u5979\u4FBF\u6084\u6084\u9A91\u9A6C\u79BB\u5F00\uFF0C\u79BB\u5F00\u65F6\u7559\u4E0B\u4E00\u5C01\u4E66\u4FE1\uFF0C\u548C\u4E00\u5757\u7389\u624B\u956F\u201D\u3002\u5E08\u5085\u8BF4\u7740\uFF0C\u4ECE\u6000\u91CC\u62FF\u51FA\u4E00\u5757\u7EA2\u5E03\uFF0C\u6253\u5F00\u4EE5\u540E\u91CC\u9762\u662F\u4E00\u5757\u54C1\u76F8\u4E0D\u9519\u7684\u7389\u624B\u956F\uFF0C\u770B\u7740\u8FD9\u5757\u624B\u956F\uFF0C\u5E08\u5085\u5F00\u59CB\u6C89\u9ED8\u4E0D\u8BED\u3002</p><p>\u5F92\u5F1F\u4EEC\u53EF\u4E0D\u7136\uFF0C\u5341\u5206\u7740\u6025\uFF0C\u8BE2\u95EE\u5E08\u5085\uFF1A\u201C\u5E08\u5085\u5E08\u5085\uFF0C\u4FE1\u4E0A\u5199\u7684\u5565\uFF1F\u540E\u9762\u53C8\u600E\u4E48\u4E86\uFF1F\u201D</p><p>\u5E08\u5085\u53F9\u606F\u4E86\u4E00\u58F0\uFF0C\u8BF4\uFF1A\u201C\u90A3\u65F6\u5B57\u8FD8\u8BA4\u4E0D\u4E86\u51E0\u4E2A\uFF0C\u53EA\u8BB0\u5F97\u6700\u540E\u51E0\u884C\uFF0C\u548C\u5979\u7684\u540D\u5B57\u201D\u3002</p><p>\u201C\u662F\u4EC0\u4E48\uFF1F\u201D\u725B\u6653\u95EE</p><p>\u201C\u66FF\u7236\u4ECE\u519B\uFF0C\u6709\u7F18\u518D\u4F1A\uFF01\u6728\u5170\u7559\u2026\u2026\u201D</p><h2 id="\u5154\u5B50\u548C\u72D0\u72F8" tabindex="-1"><a class="header-anchor" href="#\u5154\u5B50\u548C\u72D0\u72F8" aria-hidden="true">#</a> \u5154\u5B50\u548C\u72D0\u72F8</h2><p>\u4ECA\u5929\u7684\u5C0F\u5154\u5B50\u5FC3\u60C5\u5341\u5206\u7684\u5F00\u5FC3\uFF0C\u56E0\u4E3A\u5979\u83B7\u5F97\u4E86\u68EE\u6797\u91CC\u7814\u7A76\u6BD4\u8D5B\u7B2C\u4E00\u540D\u5728\u56DE\u5BB6\u7684\u8DEF\u4E0A\uFF0C\u4E5F\u628A\u60C5\u7EEA\u8868\u73B0\u5728\u81EA\u5DF1\u7684\u52A8\u4F5C\u5F53\u4E2D\uFF0C\u8E66\u8E66\u8DF3\u8DF3\uFF0C\u5341\u5206\u597D\u770B\u3002</p><p>\u56DE\u5BB6\u7684\u8DEF\u4E0A\uFF0C\u8DEF\u8FC7\u5C0F\u72D0\u72F8\u5BB6\uFF0C\u5C0F\u767D\u5154\u7279\u5730\u8DD1\u53BB\u60F3\u628A\u8FD9\u4E2A\u597D\u6D88\u606F\u5206\u4EAB\u7ED9\u5C0F\u72D0\u72F8\u3002</p><p>\u6572\u4E86\u534A\u5929\u7684\u95E8\uFF0C\u5C0F\u767D\u5154\u53D1\u73B0\u5C0F\u72D0\u72F8\u4E0D\u5728\u5BB6\uFF0C\u8DEF\u8FC7\u7684\u5927\u8C61\u4F2F\u4F2F\u770B\u89C1\u5C0F\u767D\u5154\u5728\u6572\u95E8\uFF0C\u544A\u8BC9\u5C0F\u767D\u5154\u8BF4\uFF0C\u5C0F\u72D0\u72F8\u53BB\u68EE\u6797\u91CC\u6458\u6843\u5B50\u53BB\u4E86\uFF0C\u665A\u4E0A\u624D\u4F1A\u56DE\u6765\uFF0C\u5C0F\u767D\u5154\u6709\u4E9B\u5931\u671B\uFF0C\u8C22\u8FC7\u5927\u8C61\u4F2F\u4F2F\u540E\u4FBF\u56DE\u5BB6\u4E86\u3002</p><p>\u5C0F\u767D\u5154\u53EF\u559C\u6B22\u5C0F\u72D0\u72F8\u4E86\uFF0C\u800C\u4E14\u559C\u6B22\u4E86\u597D\u4E45\uFF0C\u53EF\u662F\u5C0F\u767D\u5154\u662F\u4E00\u53EA\u5BB3\u7F9E\u7684\u5154\u5B50\uFF0C\u6240\u4EE5\u4E00\u76F4\u4E0D\u6562\u8868\u8FBE\u81EA\u5DF1\u7684\u5FC3\u58F0\u3002\u53EF\u4ECA\u5929\uFF0C\u662F\u81EA\u5DF1\u5F97\u5956\u7684\u597D\u65E5\u5B50\uFF0C\u5C0F\u767D\u5154\u89C9\u5F97\u5E94\u8BE5\u544A\u8BC9\u5C0F\u72D0\u72F8\uFF0C\u4E5F\u8BA9\u81EA\u5DF1\u559C\u6B22\u7684\u4EBA\u9AD8\u5174\u9AD8\u5174\u3002</p><p>\u65F6\u95F4\u6765\u5230\u4E86\u665A\u996D\u540E\uFF0C\u7830\u7830\u7830\uFF01\u4E00\u9635\u6572\u95E8\u58F0\u4F20\u6765\uFF0C\u5C0F\u767D\u5154\u8D76\u7D27\u53BB\u5F00\u95E8\uFF0C\u4E00\u5F00\u95E8\u53D1\u73B0\u5C45\u7136\u662F\u5C0F\u72D0\u72F8\uFF0C\u53EF\u628A\u5C0F\u767D\u5154\u60CA\u559C\u574F\u4E86\uFF0C\u4EE5\u81F3\u4E8E\u4E00\u65F6\u95F4\u8BF4\u4E0D\u51FA\u8BDD\u6765\u3002</p><p>\u201C\u542C\u5927\u8C61\u4F2F\u4F2F\u8BF4\uFF0C\u4F60\u4E0B\u5348\u627E\u6211\u4E86\uFF1F\u68EE\u6797\u91CC\u7684\u6843\u5B50\u719F\u4E86\uFF0C\u6211\u548C\u5C0F\u4F19\u4F34\u4EEC\u53BB\u68EE\u6797\u91CC\u6458\u6843\u5B50\u53BB\u4E86\uFF0C\u6211\u5C1D\u4E86\u4E0B\uFF0C\u53EF\u597D\u5403\u4E86\uFF0C\u7ED9\u4F60\u4E5F\u62FF\u4E86\u4E00\u70B9\u3002\u201D\u5C0F\u72D0\u72F8\u770B\u7740\u5C0F\u767D\u5154\u4E0D\u8BF4\u8BDD\uFF0C\u4E8E\u662F\u63D0\u524D\u5F00\u53E3\u8BF4\uFF0C\u5C0F\u767D\u5154\u4ED4\u7EC6\u4E00\u770B\uFF0C\u624D\u53D1\u89C9\u5C0F\u72D0\u72F8\u62B1\u4E86\u4E00\u5806\u6843\u5B50\u5462\uFF0C\u4E8E\u662F\u8FDE\u5FD9\u62DB\u547C\u5C0F\u72D0\u72F8\u8FDB\u5C4B\u91CC\u3002</p><p>\u5C0F\u72D0\u72F8\u6765\u5230\u5C4B\u91CC\u505A\u597D\u540E\uFF0C\u5C0F\u767D\u5154\u7ED9\u5C0F\u72D0\u72F8\u8BF4\u4E86\u597D\u591A\u597D\u591A\u8BDD\uFF0C\u6709\u81EA\u5DF1\u6BD4\u8D5B\u7684\u7CBE\u5F69\u7247\u6BB5\uFF0C\u4E5F\u6709\u81EA\u5DF1\u5F97\u5956\u7684\u60CA\u559C\u5FC3\u60C5\u2026\u2026</p><p>\u5C31\u8FD9\u6837\u4E0D\u77E5\u4E0D\u89C9\uFF0C\u5DF2\u7ECF\u5230\u4E86\u6DF1\u591C\uFF0C\u86D0\u86D0\u7684\u58F0\u97F3\u6C89\u6D78\u4E86\u6574\u4E2A\u68EE\u6797\uFF0C\u4E5F\u5305\u62EC\u5C0F\u5154\u5B50\u7684\u5BB6\u3002\u8FD9\u4E2A\u65F6\u5019\uFF0C\u5C0F\u767D\u5154\u624D\u53D1\u73B0\u81EA\u5DF1\u7ED9\u5C0F\u72D0\u72F8\u5C45\u7136\u8BB2\u4E86\u8FD9\u4E48\u4E45\uFF0C\u7ADF\u6CA1\u6709\u53D1\u73B0\u65F6\u95F4\u8FC7\u5F97\u8FD9\u4E48\u5FEB\uFF0C\u800C\u4E14\u5C0F\u72D0\u72F8\u4E5F\u8BA4\u8BA4\u771F\u771F\u7684\u5145\u5F53\u7740\u4E00\u4E2A\u8046\u542C\u8005\u3002</p><p>\u5C0F\u767D\u5154\u7A81\u7136\u89C9\u5F97\u4E0D\u597D\u610F\u601D\u4E86\uFF0C\u56E0\u4E3A\u4E00\u76F4\u662F\u81EA\u5DF1\u5728\u8BB2\uFF0C\u4E8E\u662F\u8138\u77AC\u95F4\u5C31\u7EA2\u4E86\u8D77\u6765\u3002</p><p>\u5C0F\u72D0\u72F8\u770B\u5230\u597D\u5947\u7684\u95EE\uFF1A\u201C\u600E\u4E48\u4E86\u5C0F\u767D\u5154\uFF1F\u600E\u4E48\u8138\u7EA2\u4E86\uFF1F\u201D</p><p>\u201C\u6211\u90FD\u4E0D\u77E5\u9053\u8BB2\u4E86\u8FD9\u4E48\u4E45\u4E86\uFF0C\u5BF9\u4E0D\u8D77\u5C0F\u72D0\u72F8\uFF0C\u90FD\u6CA1\u6709\u5728\u610F\u4F60\u7684\u611F\u53D7\u3002\u201D\u5C0F\u767D\u5154\u7F9E\u7EA2\u7740\u8138\u8BF4\u7740\u3002</p><p>\u5C0F\u72D0\u72F8\u8FDE\u5FD9\u9053\uFF1A\u201C\u600E\u4E48\u4F1A\u5462\uFF01\u4F60\u8BB2\u7684\u592A\u6709\u610F\u601D\u4E86\uFF0C\u771F\u53EF\u60DC\u6CA1\u53BB\u73B0\u573A\u770B\uFF0C\u4E0D\u7136\u66F4\u7CBE\u5F69\uFF01\u800C\u4E14\u2026\u2026\u800C\u4E14\u2026\u2026\u201D\u5C0F\u72D0\u72F8\u7A81\u7136\u8BF4\u8BDD\u72B9\u8C6B\u4E86\u8D77\u6765\u3002</p><p>\u201C\u800C\u4E14\u4EC0\u4E48\uFF1F\u201D\u5C0F\u767D\u5154\u76EF\u7740\u5C0F\u72D0\u72F8\u597D\u5947\u7684\u95EE\u3002</p><p>\u201C\u800C\u4E14\u542C\u81EA\u5DF1\u559C\u6B22\u7684\u4EBA\u8BB2\uFF0C\u4F1A\u66F4\u52A0\u6709\u610F\u601D\uFF01\u201D\u5C0F\u72D0\u72F8\u6EE1\u773C\u6DF1\u60C5\u7684\u76EF\u7740\u5C0F\u767D\u5154\u56DE\u7B54\u8BF4\u3002</p><p>\u201C\u554A\uFF01\u201D\u5C0F\u767D\u5154\u60CA\u8BB6\u7684\u8BF4\u4E86\u4E00\u53E5\uFF0C\u201C\u4F60\u8BF4\u4EC0\u4E48\uFF1F\u201D</p><p>\u201C\u6211\u559C\u6B22\u4F60\u5440\uFF0C\u5C0F\u767D\u5154\uFF0C\u800C\u4E14\u559C\u6B22\u597D\u4E45\u4E86\uFF01\u563B\u563B\uFF01\u201D\u5C0F\u72D0\u72F8\u4E0D\u597D\u610F\u601D\u7684\u770B\u7740\u5C0F\u767D\u5154\u2026\u2026</p><h2 id="\u62B1\u62B1" tabindex="-1"><a class="header-anchor" href="#\u62B1\u62B1" aria-hidden="true">#</a> \u62B1\u62B1</h2><p>\u5C0F\u72D0\u72F8\u4ECA\u5929\u548C\u5C0F\u5154\u5B50\u5435\u67B6\u4E86\uFF0C\u539F\u56E0\u662F\u56E0\u4E3A\uFF0C\u660E\u660E\u4ECA\u5929\u5C31\u662F\u4E00\u5E74\u4E00\u6B21\u7684\u60C5\u4EBA\u8282\uFF0C\u53EF\u662F\u5C0F\u72D0\u72F8\u53EA\u7ED9\u5C0F\u767D\u5154\u53D1\u4E86\u4E2A\u7EA2\u5305\uFF0C\u8FD9\u8BA9\u5C0F\u5154\u5B50\u89C9\u5F97\u5C0F\u72D0\u72F8\u4E00\u70B9\u90FD\u4E0D\u4E0A\u5FC3\u3002</p><p>\u521A\u5F00\u59CB\uFF0C\u5176\u5B9E\u90FD\u6CA1\u6709\u5435\u67B6\uFF0C\u53EA\u662F\u5C0F\u5154\u5B50\u7ED9\u5C0F\u72D0\u72F8\u62B1\u6028\u4E86\u4E00\u4E0B\u3002\u4F46\u5C0F\u72D0\u72F8\u4E5F\u89C9\u5F97\u59D4\u5C48\u554A\uFF0C\u56E0\u4E3A\u81EA\u5DF1\u6709\u8BB0\u5F97\u8FD9\u662F\u4E2A\u7279\u522B\u7684\u65E5\u5B50\uFF0C\u4E5F\u53D1\u4E86\u60C5\u4EBA\u8282\u7EA2\u5305\u554A\u3002</p><p>\u4E8E\u662F\uFF0C\u5C31\u548C\u5C0F\u5154\u5B50\u8BB2\u8D77\u4E86\u9053\u7406\u3002\u8C08\u604B\u7231\u7684\u5C0F\u52A8\u7269\u4EEC\u90FD\u77E5\u9053\uFF0C\u5973\u751F\u662F\u7528\u6765\u54C4\u5F97\uFF0C\u600E\u4E48\u53EF\u4EE5\u7528\u6765\u8BB2\u9053\u7406\u5462?</p><p>\u4E8E\u662F\u8BF4\u7740\u8BF4\u7740\uFF0C\u5C0F\u72D0\u72F8\u5C31\u548C\u5C0F\u5154\u5B50\u5435\u4E86\u8D77\u6765\uFF0C\u5435\u4E86\u4E00\u4F1A\uFF0C\u5C0F\u72D0\u72F8\u5C31\u51FA\u4E86\u5BB6\u95E8\uFF0C\u72EC\u81EA\u51B7\u9759\u53BB\u4E86\u3002</p><p>\u5C31\u8FD9\u6837\uFF0C\u8FC7\u4E86\u4E00\u4E2A\u5C0F\u65F6\uFF0C\u5C0F\u72D0\u72F8\u7684\u6C14\u4E5F\u6D88\u4E86\uFF0C\u4E5F\u60F3\u4E86\u60F3\u81EA\u5DF1\u4E0D\u5E94\u8BE5\u548C\u5C0F\u5154\u5B50\u5435\u67B6\uFF0C\u5C31\u60F3\u7740\u8981\u53BB\u627E\u5C0F\u5154\u5B50\u9053\u6B49\u3002</p><p>\u4F46\u5C0F\u72D0\u72F8\u4E00\u60F3\uFF0C\u8FD9\u6837\u597D\u50CF\u5F88\u6CA1\u7528\u9762\u5B50\uFF0C\u4E8E\u662F\u53C8\u5FCD\u4F4F\u4E86\u3002</p><p>\u53C8\u8FC7\u4E86\u4E00\u4E2A\u5C0F\u65F6\uFF0C\u5C0F\u72D0\u72F8\u5B9E\u5728\u5FCD\u4E0D\u4F4F\u4E86\uFF0C\u4E8E\u662F\u6765\u5230\u5BB6\u95E8\u53E3\uFF0C\u558A\u7740\u5C0F\u5154\u5B50\uFF1A\u201C\u5C0F\u5154\u5B50\uFF0C\u4F60\u51FA\u6765\uFF0C\u6211\u6709\u8BDD\u7ED9\u4F60\u8BF4\u3002\u201D</p><p>\u4E0D\u4E00\u4F1A\uFF0C\u5C0F\u5154\u5B50\u6253\u5F00\u623F\u95E8\uFF0C\u770B\u5230\u662F\u5C0F\u72D0\u72F8\uFF0C\u4FBF\u95EE\uFF1A\u201C\u51FA\u6765\u5E72\u4EC0\u4E48\uFF1F\u5BB6\u91CC\u8BF4\u3002\u201D</p><p>\u201D\u4E0D\u884C\uFF0C\u8981\u51FA\u6765\u8BF4\uFF01\u201C\u5C0F\u72D0\u72F8\u6267\u62D7\u7684\u8BF4\u3002</p><p>\u770B\u7740\u6267\u7740\u7684\u5C0F\u72D0\u72F8\uFF0C\u5C0F\u767D\u5154\u8FD8\u662F\u5FCD\u4E0D\u4F4F\u51FA\u4E86\u95E8\uFF0C\u6765\u5230\u5C0F\u72D0\u72F8\u9762\u524D\u3002</p><p>\u5C0F\u72D0\u72F8\u770B\u7740\u5C0F\u5154\u5B50\u8BF4\uFF1A\u201D\u56E0\u4E3A\uFF0C\u6211\u4EEC\u5728\u5BB6\u91CC\u95F9\u63B0\u4E86\uFF0C\u6240\u6709\u4E0D\u80FD\u5728\u5BB6\u91CC\u8BF4\uFF0C\u8981\u51FA\u6765\u8BF4\u3002\u201C</p><p>\u4E8E\u662F\u5C0F\u72D0\u72F8\u8BA4\u8BA4\u771F\u771F\u7684\u7ED9\u5C0F\u5154\u5B50\u9053\u4E86\u6B49\uFF0C\u5C0F\u5154\u5B50\u770B\u7740\u81EA\u8D23\u7684\u5C0F\u72D0\u72F8\uFF0C\u4E5F\u8BF4\u4E86\u81EA\u5DF1\u4E0D\u8BE5\u4EFB\u6027\u3002</p><p>\u901A\u8FC7\u4ECA\u5929\u7684\u4E89\u5435\uFF0C\u5C0F\u72D0\u72F8\u548C\u5C0F\u5154\u5B50\u660E\u767D\u4E86\uFF0C\u5BB6\u4E0D\u662F\u7528\u6765\u5435\u67B6\u7684\u5730\u65B9\uFF0C\u800C\u662F\u5206\u4EAB\u548C\u751F\u6D3B\u7684\u5C0F\u7A9D\u3002</p><p>\u4ED6\u4EEC\u7EA6\u5B9A\uFF0C\u4EE5\u540E\u9047\u5230\u95EE\u9898\u8981\u5C3D\u91CF\u597D\u597D\u5546\u91CF\uFF0C\u51CF\u5C11\u4E89\u5435\u3002</p><p>\u5C0F\u72D0\u72F8\u548C\u5C0F\u5154\u5B50\u4E92\u76F8\u9053\u5B8C\u6B49\u540E\uFF0C\u5C0F\u72D0\u72F8\u7ED9\u4E86\u5C0F\u5154\u5B50\u4E00\u4E2A\u5927\u5927\u7684\u5145\u6EE1\u7231\u7684\u62B1\u62B1\u3002</p><p>\u56E0\u4E3A\u5C0F\u72D0\u72F8\u77E5\u9053\uFF0C\u7231\u4EBA\u4E4B\u95F4\u6CA1\u6709\u4EC0\u4E48\u95EE\u9898\u662F\u4E0D\u80FD\u7528\u4E00\u4E2A\u62B1\u62B1\u89E3\u51B3\u7684\u3002</p><p>\u5982\u679C\u6709\uFF0C\u90A3\u5C31\u4E24\u4E2A......</p><!--]-->`);
 }
 const _sfc_setup$r = _sfc_main$r.setup;
 _sfc_main$r.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/\u968F\u7B14/text.html.vue");
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/\u6545\u4E8B/story.html.vue");
   return _sfc_setup$r ? _sfc_setup$r(props, ctx) : void 0;
 };
-var text_html$3 = /* @__PURE__ */ _export_sfc(_sfc_main$r, [["ssrRender", _sfc_ssrRender$d]]);
-var text_html$4 = /* @__PURE__ */ Object.freeze({
+var story_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$r, [["ssrRender", _sfc_ssrRender$d]]);
+var story_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  "default": text_html$3
+  "default": story_html$1
 });
 const _sfc_main$q = {};
 function _sfc_ssrRender$c(_ctx, _push, _parent, _attrs) {
-  _push(`<!--[--><h1 id="\u9762\u8BD5\u96C6\u9526" tabindex="-1"><a class="header-anchor" href="#\u9762\u8BD5\u96C6\u9526" aria-hidden="true">#</a> \u9762\u8BD5\u96C6\u9526</h1><div class="custom-container tip"><p class="custom-container-title">\u9762\u8BD5</p><p>\u5E38\u89C1\u9762\u8BD5\u96C6\u9526</p></div><h2 id="\u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD" tabindex="-1"><a class="header-anchor" href="#\u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD" aria-hidden="true">#</a> \u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD</h2><p><strong>\u63D0\u793A</strong>\uFF1A\u4E00\u822C\u4EBA\u56DE\u7B54\u8FD9\u4E2A\u95EE\u9898\u8FC7\u4E8E\u5E73\u5E38\uFF0C\u59D3\u540D\u3001\u5E74\u9F84\u3001\u7231\u597D\u3001\u5DE5\u4F5C\u7ECF\u9A8C\uFF0C\u8FD9\u4E9B\u7B80\u5386\u4E0A\u90FD\u6709\u3002\u4F01\u4E1A\uFF08\u9762\u8BD5\u5B98\uFF09\u6700\u5E0C\u671B\u77E5\u9053\u7684\u662F\u6C42\u804C\u8005\u80FD\u5426\u80DC\u4EFB\u5DE5\u4F5C\uFF0C\u5305\u62EC\uFF1A\u6700\u5F3A\u7684\u6280\u80FD\u3001\u6700\u6DF1\u5165\u7814\u7A76\u7684\u9886\u57DF\u3001\u4E2A\u6027\u4E2D\u6700\u79EF\u6781\u7684\u90E8\u5206\u3001\u505A\u8FC7\u6700\u6210\u529F\u7684\u4E8B\uFF0C\u4E3B\u8981\u6210\u5C31\u7B49\uFF0C\u8981\u7A81\u51FA\u79EF\u6781\u7684\u4E2A\u6027\u548C\u505A\u4E8B\u7684\u80FD\u529B\uFF0C\u8BF4\u7684\u5408\u60C5\u5408\u7406\u4F01\u4E1A\uFF08\u9762\u8BD5\u5B98\uFF09\u624D\u4F1A\u76F8\u4FE1\u3002</p><h2 id="\u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48" tabindex="-1"><a class="header-anchor" href="#\u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48" aria-hidden="true">#</a> \u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48\uFF1F</h2><p><strong>\u56DE\u7B54\u63D0\u793A</strong>\uFF1A \u6C89\u7740\u51B7\u9759\u3001\u6761\u7406\u6E05\u695A\u3001\u7ACB\u573A\u575A\u5B9A\u3001\u4E50\u4E8E\u52A9\u4EBA\u7B49\uFF0C\u52A0\u4E0A\u4F8B\u5B50\u5982\uFF1A\u6211\u5728XX\u7ECF\u8FC7\u4E00\u5230\u4E24\u5E74\u7684\u57F9\u8BAD\u53CA\u9879\u76EE\u5B9E\u6218\uFF0C\u52A0\u4E0A\u5B9E\u4E60\u5DE5\u4F5C\uFF0C\u6211\u60F3\u6211\u9002\u5408\u8FD9\u4EFD\u5DE5\u4F5C\u3002</p><h2 id="\u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9" tabindex="-1"><a class="header-anchor" href="#\u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9" aria-hidden="true">#</a> \u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u8FD9\u4E2A\u95EE\u9898\u4F01\u4E1A\u95EE\u7684\u6982\u7387\u5F88\u5927\uFF0C\u901A\u5E38\u4E0D\u5E0C\u671B\u542C\u5230\u76F4\u63A5\u56DE\u7B54\u7684\u7F3A\u70B9\u662F\u4EC0\u4E48\u7B49\uFF0C\u5982\u679C\u6C42\u804C\u8005\u8BF4\u81EA\u5DF1\u5C0F\u5FC3\u773C\u3001\u975E\u5E38\u61D2\u3001\u5DE5\u4F5C\u6548\u7387\u4F4E\uFF0C\u4F01\u4E1A\u80AF\u5B9A\u4E0D\u4F1A\u5F55\u7528\u4F60\u3002\u8981\u4ECE\u81EA\u5DF1\u7684\u4F18\u70B9\u8BF4\u8D77\uFF0C\u4E2D\u95F4\u52A0\u4E00\u4E9B\u5C0F\u7F3A\u70B9\uFF0C\u6700\u540E\u518D\u628A\u95EE\u7B54\u8F6C\u56DE\u5230\u4F18\u70B9\u4E0A\uFF0C\u7A81\u51FA\u4F18\u70B9\u7684\u90E8\u5206\u3002</p><h2 id="\u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5" tabindex="-1"><a class="header-anchor" href="#\u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5" aria-hidden="true">#</a> \u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A\u5B9E\u9645\u4E0A\u597D\u591A\u516C\u53F8\u95EE\u8FD9\u4E2A\u95EE\u9898\uFF0C\u5E76\u4E0D\u8BC1\u660E\u4E00\u5B9A\u8981\u52A0\u73ED\uFF0C\u53EA\u662F\u60F3\u6D4B\u8BD5\u4F60\u662F\u5426\u613F\u610F\u4E3A\u516C\u53F8\u5949\u732E\u3002</p><p><strong>\u6837\u672C</strong>\uFF1A\u5982\u679C\u662F\u5DE5\u4F5C\u9700\u8981\u6211\u4F1A\u4E49\u4E0D\u5BB9\u8F9E\u52A0\u73ED\uFF0C\u4F46\u540C\u65F6\uFF0C\u6211\u4E5F\u4F1A\u63D0\u9AD8\u5DE5\u4F5C\u6548\u7387\uFF0C\u51CF\u5C11\u4E0D\u5FC5\u8981\u7684\u52A0\u73ED\u3002</p><h2 id="\u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42" tabindex="-1"><a class="header-anchor" href="#\u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42" aria-hidden="true">#</a> \u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u5982\u679C\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\u592A\u4F4E\uFF0C\u90A3\u663E\u7136\u8D2C\u4F4E\u81EA\u5DF1\u7684\u80FD\u529B\uFF1B\u5982\u679C\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\u592A\u9AD8\uFF0C\u90A3\u53C8\u4F1A\u663E\u5F97\u4F60\u5206\u91CF\u8FC7\u91CD\uFF0C\u516C\u53F8\u53D7\u7528\u4E0D\u8D77\u3002\u4E00\u4E9B\u96C7\u4E3B\u901A\u5E38\u90FD\u4E8B\u5148\u5BF9\u6C42\u8058\u7684\u804C\u4F4D\u5B9A\u4E0B\u5F00\u652F\u9884\u7B97\uFF0C\u56E0\u800C\u4ED6\u4EEC\u7B2C\u4E00\u6B21\u63D0\u51FA\u7684\u4EF7\u94B1\u5F80\u5F80\u662F\u4ED6\u4EEC\u6240\u80FD\u7ED9\u4E88\u7684\u6700\u9AD8\u4EF7\u94B1\uFF0C\u4ED6\u4EEC\u95EE\u4F60\u53EA\u4E0D\u8FC7\u60F3\u8BC1\u5B9E\u4E00\u4E0B\u8FD9\u7B14\u94B1\u662F\u5426\u8DB3\u4EE5\u5F15\u8D77\u4F60\u5BF9\u8BE5\u5DE5\u4F5C\u7684\u5174\u8DA3\u3002</p><p><strong>\u56DE\u7B54</strong>\uFF1A</p><ol><li><p>\u6211\u5BF9\u5DE5\u8D44\u6CA1\u6709\u786C\u6027\u8981\u6C42\uFF0C\u6211\u76F8\u4FE1\u8D35\u516C\u53F8\u4F1A\u53CB\u5584\u5408\u7406\u3002\u6211\u6CE8\u91CD\u7684\u662F\u627E\u5230\u5DE5\u4F5C\u673A\u4F1A\uFF0C\u6240\u4EE5\u53EA\u8981\u6761\u4EF6\u516C\u5E73\uFF0C\u6211\u5219\u4E0D\u4F1A\u8BA1\u8F83\u592A\u591A\u3002</p></li><li><p>\u6211\u53D7\u8FC7\u7CFB\u7EDF\u7684\u8F6F\u4EF6\u7F16\u7A0B\u7684\u8BAD\u7EC3\uFF0C\u4E0D\u9700\u8981\u8FDB\u884C\u5927\u91CF\u7684\u57F9\u8BAD\uFF0C\u800C\u4E14\u6211\u672C\u4EBA\u4E5F\u5BF9\u7F16\u7A0B\u7279\u522B\u611F\u5174\u8DA3\u3002\u56E0\u6B64\uFF0C\u6211\u5E0C\u671B\u516C\u53F8\u80FD\u6839\u636E\u6211\u7684\u60C5\u51B5\u548C\u5E02\u573A\u6807\u51C6\u7684\u6C34\u5E73\uFF0C\u7ED9\u6211\u5408\u7406\u7684\u85AA\u6C34\u3002</p></li><li><p>\u5982\u679C\u4F60\u5FC5\u987B\u81EA\u5DF1\u8BF4\u51FA\u5177\u4F53\u6570\u76EE\uFF0C\u8BF7\u4E0D\u8981\u8BF4\u4E00\u4E2A\u5BBD\u6CDB\u7684\u8303\u56F4\uFF0C\u90A3\u6837\u4F60\u5C06\u53EA\u80FD\u5F97\u5230\u6700\u4F4E\u9650\u5EA6\u7684\u6570\u5B57\u3002\u6700\u597D\u7ED9\u51FA\u4E00\u4E2A\u5177\u4F53\u7684\u6570\u5B57\uFF0C\u8FD9\u6837\u8868\u660E\u4F60\u5DF2\u7ECF\u5BF9\u5F53\u4ECA\u7684\u4EBA\u624D\u5E02\u573A\u505A\u4E86\u8C03\u67E5\uFF0C\u77E5\u9053\u50CF\u81EA\u5DF1\u8FD9\u6837\u5B66\u5386\u7684\u96C7\u5458\u6709\u4EC0\u4E48\u6837\u7684\u4EF7\u503C\u3002</p></li></ol><h2 id="\u5728\u4E94\u5E74\u5185-\u4F60\u7684\u804C\u4E1A\u89C4\u5212" tabindex="-1"><a class="header-anchor" href="#\u5728\u4E94\u5E74\u5185-\u4F60\u7684\u804C\u4E1A\u89C4\u5212" aria-hidden="true">#</a> \u5728\u4E94\u5E74\u5185\uFF0C\u4F60\u7684\u804C\u4E1A\u89C4\u5212\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u8FD9\u662F\u6BCF\u4E00\u4E2A\u5E94\u8058\u8005\u90FD\u4E0D\u5E0C\u671B\u88AB\u95EE\u5230\u7684\u95EE\u9898\uFF0C\u4F46\u662F\uFF08\u5927\u516C\u53F8\uFF09\u51E0\u4E4E\u6BCF\u4E2A\u4EBA\u90FD\u4F1A\u88AB\u95EE\u5230\uFF0C\u6BD4\u8F83\u591A\u7684\u7B54\u6848\u662F\u201C\u7BA1\u7406\u8005\u201D\u3002\u5F53\u7136\uFF0C\u8BF4\u51FA\u5176\u4ED6\u4E00\u4E9B\u4F60\u611F\u5174\u8DA3\u7684\u804C\u4F4D\u4E5F\u662F\u53EF\u4EE5\u7684\u3002\u8981\u77E5\u9053\uFF0C\u8003\u5B98\u603B\u662F\u559C\u6B22\u6709\u8FDB\u53D6\u5FC3\u7684\u5E94\u8058\u8005\uFF0C\u6B64\u65F6\u5982\u679C\u8BF4\u201C\u4E0D\u77E5\u9053\u201D\uFF0C\u6216\u8BB8\u5C31\u4F1A\u4F7F\u4F60\u4E27\u5931\u4E00\u4E2A\u597D\u673A\u4F1A\u3002\u6700\u666E\u901A\u7684\u56DE\u7B54\u5E94\u8BE5\u662F\u201C\u6211\u51C6\u5907\u5728\u6280\u672F\u9886\u57DF\u6709\u6240\u4F5C\u4E3A\u201D\u6216\u201C\u6211\u5E0C\u671B\u80FD\u6309\u7167\u516C\u53F8\u7684\u7BA1\u7406\u601D\u8DEF\u53D1\u5C55\u201D\u3002</p><h2 id="\u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417" tabindex="-1"><a class="header-anchor" href="#\u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417" aria-hidden="true">#</a> \u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417?</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u4F01\u4E1A\u7684\u8FD9\u4E2A\u95EE\u9898\u770B\u4E0A\u53BB\u53EF\u6709\u53EF\u65E0\uFF0C\u5176\u5B9E\u5F88\u5173\u952E\uFF0C\u4F01\u4E1A\u4E0D\u559C\u6B22\u8BF4\u201C\u6CA1\u95EE\u9898\u201D\u7684\u4EBA\uFF0C\u56E0\u4E3A\u5176\u5F88\u6CE8\u91CD\u5458\u5DE5\u7684\u4E2A\u6027\u548C\u521B\u65B0\u80FD\u529B\u3002\u4F01\u4E1A\u4E0D\u559C\u6B22\u6C42\u804C\u8005\u95EE\u4E2A\u4EBA\u798F\u5229\u4E4B\u7C7B\u7684\u95EE\u9898\uFF0C\u5982\u679C\u6709\u4EBA\u8FD9\u6837\u95EE\uFF1A\u8D35\u516C\u53F8\u5BF9\u65B0\u5165\u516C\u53F8\u7684\u5458\u5DE5\u6709\u6CA1\u6709\u4EC0\u4E48\u57F9\u8BAD\u9879\u76EE\uFF0C\u6211\u53EF\u4EE5\u53C2\u52A0\u5417\uFF1F\u6216\u8005\u8BF4\u8D35\u516C\u53F8\u7684\u664B\u5347\u673A\u5236\u662F\u4EC0\u4E48\u6837\u7684\uFF1F\u4F01\u4E1A\u5C06\u5F88\u6B22\u8FCE\uFF0C\u56E0\u4E3A\u4F53\u73B0\u51FA\u4F60\u5BF9\u5B66\u4E60\u7684\u70ED\u60C5\u548C\u5BF9\u516C\u53F8\u7684\u5FE0\u8BDA\u5EA6\u4EE5\u53CA\u4F60\u7684\u4E0A\u8FDB\u5FC3\u3002</p><h2 id="\u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5" tabindex="-1"><a class="header-anchor" href="#\u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5" aria-hidden="true">#</a> \u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5?</h2><p><strong>\u56DE\u7B54</strong>\uFF1A \u2460\u6B63\u5E38\u7684\u201C\u8DF3\u69FD\u201D\u80FD\u591F\u4FC3\u8FDB\u4EBA\u624D\u5408\u7406\u6D41\u52A8\uFF0C\u5E94\u8BE5\u652F\u6301\u3002\u2461\u9891\u7E41\u7684\u8DF3\u69FD\u5BF9\u5355\u4F4D\u548C\u4E2A\u4EBA\u53CC\u65B9\u90FD\u4E0D\u5229\uFF0C\u5E94\u8BE5\u53CD\u5BF9\u3002</p><h2 id="\u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11" tabindex="-1"><a class="header-anchor" href="#\u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11" aria-hidden="true">#</a> \u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11?</h2><p><strong>\u56DE\u7B54</strong>\uFF1A\u5728\u53BB\u516C\u53F8\u9762\u8BD5\u524D\u4E0A\u7F51\u67E5\u4E00\u4E0B\u8BE5\u516C\u53F8\u4E3B\u8425\u4E1A\u52A1\u3002\u53EF\u7C7B\u4F3C\u56DE\u7B54\uFF1A\u8D35\u516C\u53F8\u6709\u610F\u6539\u53D8\u7B56\u7565\uFF0C\u52A0\u5F3A\u4E0E\u56FD\u5916\u5927\u5382\u7684OEM\u5408\u4F5C\uFF0C\u81EA\u6709\u54C1\u724C\u7684\u90E8\u5206\u5219\u900F\u8FC7\u6D77\u5916\u7ECF\u9500\u5546\u3002</p><!--]-->`);
+  _push(`<!--[--><h2 id="\u4F5C\u4E3A\u4E00\u4E2A\u4EBA" tabindex="-1"><a class="header-anchor" href="#\u4F5C\u4E3A\u4E00\u4E2A\u4EBA" aria-hidden="true">#</a> \u4F5C\u4E3A\u4E00\u4E2A\u4EBA</h2><p>\u6709\u65F6\u5019\uFF0C\u4E0D\u8981\u542C\u522B\u4EBA\u7684\u6307\u70B9\uFF0C\u66F4\u4E0D\u8981\u6307\u70B9\u522B\u4EBA\u3002</p><!--]-->`);
 }
 const _sfc_setup$q = _sfc_main$q.setup;
 _sfc_main$q.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/\u9762\u8BD5/interview.html.vue");
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/\u968F\u7B14/reflection.html.vue");
   return _sfc_setup$q ? _sfc_setup$q(props, ctx) : void 0;
 };
-var interview_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$q, [["ssrRender", _sfc_ssrRender$c]]);
-var interview_html$2 = /* @__PURE__ */ Object.freeze({
+var reflection_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$q, [["ssrRender", _sfc_ssrRender$c]]);
+var reflection_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  "default": interview_html$1
+  "default": reflection_html$1
 });
 const _sfc_main$p = {};
 function _sfc_ssrRender$b(_ctx, _push, _parent, _attrs) {
-  _push(`<!--[--><h2 id="_3" tabindex="-1"><a class="header-anchor" href="#_3" aria-hidden="true">#</a> 3</h2><h2 id="_4" tabindex="-1"><a class="header-anchor" href="#_4" aria-hidden="true">#</a> 4</h2><!--]-->`);
+  _push(`<!--[--><h2 id="\u4EC0\u4E48\u662Fcss" tabindex="-1"><a class="header-anchor" href="#\u4EC0\u4E48\u662Fcss" aria-hidden="true">#</a> \u4EC0\u4E48\u662FCSS\uFF1F</h2><p><code>CSS</code> \u2014 \u662F\u4F60\u5728HTML\u4E4B\u540E\u5E94\u8BE5\u5B66\u4E60\u7684\u7B2C\u4E8C\u95E8\u6280\u672F\u3002<code>HTML</code>\u7528\u4E8E\u5B9A\u4E49\u5185\u5BB9\u7684\u7ED3\u6784\u548C\u8BED\u4E49\uFF0C<code>CSS</code>\u7528\u4E8E\u8BBE\u8BA1\u98CE\u683C\u548C\u5E03\u5C40\u3002\u6BD4\u5982\uFF0C\u60A8\u53EF\u4EE5\u4F7F\u7528<code>CSS</code>\u6765\u66F4\u6539\u5185\u5BB9\u7684\u5B57\u4F53\u3001\u989C\u8272\u3001\u5927\u5C0F\u3001\u95F4\u8DDD\uFF0C\u5C06\u5185\u5BB9\u5206\u4E3A\u591A\u5217\uFF0C\u6216\u8005\u6DFB\u52A0\u52A8\u753B\u53CA\u5176\u4ED6\u7684\u88C5\u9970\u6548\u679C\u3002</p><!--]-->`);
 }
 const _sfc_setup$p = _sfc_main$p.setup;
 _sfc_main$p.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/html/text1.html.vue");
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/css/01-css.html.vue");
   return _sfc_setup$p ? _sfc_setup$p(props, ctx) : void 0;
 };
-var text1_html$2 = /* @__PURE__ */ _export_sfc(_sfc_main$p, [["ssrRender", _sfc_ssrRender$b]]);
-var text1_html$3 = /* @__PURE__ */ Object.freeze({
+var _01Css_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$p, [["ssrRender", _sfc_ssrRender$b]]);
+var _01Css_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  "default": text1_html$2
+  "default": _01Css_html$1
 });
 const _sfc_main$o = {};
 function _sfc_ssrRender$a(_ctx, _push, _parent, _attrs) {
-  _push(`<!--[--><h2 id="_3" tabindex="-1"><a class="header-anchor" href="#_3" aria-hidden="true">#</a> 3</h2><h2 id="_4" tabindex="-1"><a class="header-anchor" href="#_4" aria-hidden="true">#</a> 4</h2><!--]-->`);
+  _push(`<!--[--><h2 id="\u4EC0\u4E48\u662Fhtml" tabindex="-1"><a class="header-anchor" href="#\u4EC0\u4E48\u662Fhtml" aria-hidden="true">#</a> \u4EC0\u4E48\u662FHTML\uFF1F</h2><p>HTML\uFF08\u8D85\u6587\u672C\u6807\u8BB0\u8BED\u8A00\u2014\u2014HyperText Markup Language\uFF09\u662F\u6784\u6210 Web \u4E16\u754C\u7684\u4E00\u7816\u4E00\u74E6\u3002\u5B83\u5B9A\u4E49\u4E86\u7F51\u9875\u5185\u5BB9\u7684\u542B\u4E49\u548C\u7ED3\u6784\u3002\u9664 HTML \u4EE5\u5916\u7684\u5176\u5B83\u6280\u672F\u5219\u901A\u5E38\u7528\u6765\u63CF\u8FF0\u4E00\u4E2A\u7F51\u9875\u7684\u8868\u73B0\u4E0E\u5C55\u793A\u6548\u679C\uFF08\u5982 CSS\uFF09\uFF0C\u6216\u529F\u80FD\u4E0E\u884C\u4E3A\uFF08\u5982 JavaScript\uFF09\u3002</p><!--]-->`);
 }
 const _sfc_setup$o = _sfc_main$o.setup;
 _sfc_main$o.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/html/text2.html.vue");
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/html/01-html.html.vue");
   return _sfc_setup$o ? _sfc_setup$o(props, ctx) : void 0;
 };
-var text2_html$4 = /* @__PURE__ */ _export_sfc(_sfc_main$o, [["ssrRender", _sfc_ssrRender$a]]);
-var text2_html$5 = /* @__PURE__ */ Object.freeze({
+var _01Html_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$o, [["ssrRender", _sfc_ssrRender$a]]);
+var _01Html_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  "default": text2_html$4
+  "default": _01Html_html$1
 });
 const _sfc_main$n = {};
 function _sfc_ssrRender$9(_ctx, _push, _parent, _attrs) {
@@ -4897,13 +4919,13 @@ var _____html$4 = /* @__PURE__ */ Object.freeze({
 const _sfc_main$j = {};
 function _sfc_ssrRender$5(_ctx, _push, _parent, _attrs) {
   const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
-  _push(`<!--[--><h2 id="\u524D\u7F6E" tabindex="-1"><a class="header-anchor" href="#\u524D\u7F6E" aria-hidden="true">#</a> \u524D\u7F6E</h2><p>\u6700\u597D\u6709\u4E00\u5B9A\u7684HTML\u3001JavaScript\u3001CSS\u57FA\u7840\u3002</p><h2 id="mvvm" tabindex="-1"><a class="header-anchor" href="#mvvm" aria-hidden="true">#</a> MVVM\uFF1F</h2><p><code>MVVM</code>\u662F<code>Model-View-ViewModel</code>\u7684\u7F29\u5199\u3002<br><code>MVVM</code> \u7684\u6838\u5FC3\u662F <code>ViewModel</code> \u5C42\uFF0C\u5B83\u5C31\u50CF\u662F\u4E00\u4E2A\u4E2D\u8F6C\u7AD9<code>\uFF08value converter\uFF09</code>\uFF0C\u8D1F\u8D23\u8F6C\u6362 <code>Model</code> \u4E2D\u7684\u6570\u636E\u5BF9\u8C61\u6765\u8BA9\u6570\u636E\u53D8\u5F97\u66F4\u5BB9\u6613\u7BA1\u7406\u548C\u4F7F\u7528\uFF0C\u8BE5\u5C42\u5411\u4E0A\u4E0E\u89C6\u56FE\u5C42\u8FDB\u884C\u53CC\u5411\u6570\u636E\u7ED1\u5B9A\uFF0C\u5411\u4E0B\u4E0E <code>Model</code> \u5C42\u901A\u8FC7\u63A5\u53E3\u8BF7\u6C42\u8FDB\u884C\u6570\u636E\u4EA4\u4E92\uFF0C\u8D77\u5448\u4E0A\u542F\u4E0B\u4F5C\u7528\u3002</p><div class="custom-container tip"><p class="custom-container-title">\u53C2\u8003</p><p><a href="http://www.ruanyifeng.com/blog/2015/02/mvcmvp_mvvm.html" target="_blank" rel="noopener noreferrer">http://www.ruanyifeng.com`);
+  _push(`<!--[--><h2 id="\u524D\u7F6E" tabindex="-1"><a class="header-anchor" href="#\u524D\u7F6E" aria-hidden="true">#</a> \u524D\u7F6E</h2><p>\u6700\u597D\u6709\u4E00\u5B9A\u7684HTML\u3001JavaScript\u3001CSS\u57FA\u7840\u3002</p><h2 id="mvvm\u6A21\u5F0F" tabindex="-1"><a class="header-anchor" href="#mvvm\u6A21\u5F0F" aria-hidden="true">#</a> MVVM\u6A21\u5F0F\uFF1F</h2><p><code>MVVM</code>\u662F<code>Model-View-ViewModel</code>\u7684\u7F29\u5199\u3002<br><code>MVVM</code> \u7684\u6838\u5FC3\u662F <code>ViewModel</code> \u5C42\uFF0C\u5B83\u5C31\u50CF\u662F\u4E00\u4E2A\u4E2D\u8F6C\u7AD9<code>\uFF08value converter\uFF09</code>\uFF0C\u8D1F\u8D23\u8F6C\u6362 <code>Model</code> \u4E2D\u7684\u6570\u636E\u5BF9\u8C61\u6765\u8BA9\u6570\u636E\u53D8\u5F97\u66F4\u5BB9\u6613\u7BA1\u7406\u548C\u4F7F\u7528\uFF0C\u8BE5\u5C42\u5411\u4E0A\u4E0E\u89C6\u56FE\u5C42\u8FDB\u884C\u53CC\u5411\u6570\u636E\u7ED1\u5B9A\uFF0C\u5411\u4E0B\u4E0E <code>Model</code> \u5C42\u901A\u8FC7\u63A5\u53E3\u8BF7\u6C42\u8FDB\u884C\u6570\u636E\u4EA4\u4E92\uFF0C\u8D77\u5448\u4E0A\u542F\u4E0B\u4F5C\u7528\u3002</p><div class="custom-container tip"><p class="custom-container-title">\u53C2\u8003</p><p><a href="http://www.ruanyifeng.com/blog/2015/02/mvcmvp_mvvm.html" target="_blank" rel="noopener noreferrer">http://www.ruanyifeng.com`);
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
   _push(`</a><br><a href="https://www.liaoxuefeng.com/wiki/1022910821149312/1108898947791072" target="_blank" rel="noopener noreferrer">https://www.liaoxuefeng.com`);
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
   _push(`</a><br><a href="https://www.cnblogs.com/iovec/p/7840228.html" target="_blank" rel="noopener noreferrer">https://www.cnblogs.com`);
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
-  _push(`</a><br></p></div><h3 id="mvc" tabindex="-1"><a class="header-anchor" href="#mvc" aria-hidden="true">#</a> MVC</h3><p>\uFF08\u6709\u5370\u8C61\u5373\u53EF\uFF09</p><p><img src="https://s6.jpg.cm/2022/01/04/LN4yR5.png" alt="LN4yR5.png"></p><p>\u6240\u6709\u901A\u4FE1\u90FD\u662F\u5355\u5411\u7684\u3002\uFF08\u6709\u65F6MVC\u4F1A\u5BFC\u81F4\u4E1A\u52A1\u903B\u8F91\u90FD\u90E8\u7F72\u5728 View\uFF0C\u4F7FView \u975E\u5E38\u539A\uFF0C\u800C Controller \u76F8\u5BF9\u8584\u3002\uFF09</p><h3 id="mvp" tabindex="-1"><a class="header-anchor" href="#mvp" aria-hidden="true">#</a> MVP</h3><p>\uFF08\u6709\u5370\u8C61\u5373\u53EF\uFF09</p><p><img src="https://s6.jpg.cm/2022/01/04/LN4MTG.png" alt="LN4MTG.png"></p><p>MVP \u6A21\u5F0F\u5C06 Controller \u6539\u540D\u4E3A Presenter\uFF0C\u540C\u65F6\u6539\u53D8\u4E86\u901A\u4FE1\u65B9\u5411\u3002</p><ol><li><p>\u5404\u90E8\u5206\u4E4B\u95F4\u7684\u901A\u4FE1\uFF0C\u90FD\u662F\u53CC\u5411\u7684\u3002</p></li><li><p>View \u4E0E Model \u4E0D\u53D1\u751F\u8054\u7CFB\uFF0C\u90FD\u901A\u8FC7 Presenter \u4F20\u9012\u3002</p></li><li><p>View \u975E\u5E38\u8584\uFF0C\u4E0D\u90E8\u7F72\u4EFB\u4F55\u4E1A\u52A1\u903B\u8F91\uFF0C\u79F0\u4E3A&quot;\u88AB\u52A8\u89C6\u56FE&quot;\uFF08Passive View\uFF09\uFF0C\u5373\u6CA1\u6709\u4EFB\u4F55\u4E3B\u52A8\u6027\uFF0C\u800C Presenter\u975E\u5E38\u539A\uFF0C\u6240\u6709\u903B\u8F91\u90FD\u90E8\u7F72\u5728\u90A3\u91CC\u3002</p></li><li><p>\u4E4B\u6240\u4EE5\u5217\u51FAMVP\uFF0C\u662F\u56E0\u4E3AMVVM \u6A21\u5F0F\u5C06 Presenter \u6539\u540D\u4E3A ViewModel\uFF0C\u57FA\u672C\u4E0A\u4E0E MVP \u6A21\u5F0F\u5B8C\u5168\u4E00\u81F4\uFF08\u6CE8\u610F\u5BF9\u6BD4\u7BAD\u5934\u2014\u2014\u901A\u8BAF\u65B9\u5F0F\u7684\u533A\u522B\uFF09\u3002</p></li></ol><h3 id="mvvm-1" tabindex="-1"><a class="header-anchor" href="#mvvm-1" aria-hidden="true">#</a> MVVM</h3><p><img src="https://s6.jpg.cm/2022/01/04/LN4Dmu.png" alt="LN4Dmu.png"></p><p>\u552F\u4E00\u7684\u533A\u522B\u662F\uFF0C\u5B83\u91C7\u7528\u53CC\u5411\u7ED1\u5B9A\uFF08data-binding\uFF09\uFF1AView\u7684\u53D8\u52A8\uFF0C\u81EA\u52A8\u53CD\u6620\u5728 ViewModel\uFF0C\u53CD\u4E4B\u4EA6\u7136\u3002Angular \u548C Ember \u90FD\u91C7\u7528\u8FD9\u79CD\u6A21\u5F0F\u3002</p><h3 id="\u4F8B\u5B50\u5BF9\u6BD4" tabindex="-1"><a class="header-anchor" href="#\u4F8B\u5B50\u5BF9\u6BD4" aria-hidden="true">#</a> \u4F8B\u5B50\u5BF9\u6BD4</h3><ol><li><code>MVC</code>\u6A21\u5F0F\uFF08<code>jQuery</code>\u5B9E\u73B0\u7684\u4FEE\u6539\u4E24\u4E2ADOM\u8282\u70B9\u7684\u4F8B\u5B50\uFF09</li></ol><div class="language-html ext-html line-numbers-mode"><pre class="language-html"><code><span class="token comment">&lt;!-- HTML --&gt;</span>
+  _push(`</a><br></p></div><h3 id="mvc" tabindex="-1"><a class="header-anchor" href="#mvc" aria-hidden="true">#</a> MVC</h3><p>\uFF08\u6709\u5370\u8C61\u5373\u53EF\uFF09</p><p><img src="https://s6.jpg.cm/2022/01/04/LN4yR5.png" alt="LN4yR5.png"></p><p>\u6240\u6709\u901A\u4FE1\u90FD\u662F\u5355\u5411\u7684\u3002\uFF08\u6709\u65F6MVC\u4F1A\u5BFC\u81F4\u4E1A\u52A1\u903B\u8F91\u90FD\u90E8\u7F72\u5728 View\uFF0C\u4F7FView \u975E\u5E38\u539A\uFF0C\u800C Controller \u76F8\u5BF9\u8584\u3002\uFF09</p><h3 id="mvp" tabindex="-1"><a class="header-anchor" href="#mvp" aria-hidden="true">#</a> MVP</h3><p>\uFF08\u6709\u5370\u8C61\u5373\u53EF\uFF09</p><p><img src="https://s6.jpg.cm/2022/01/04/LN4MTG.png" alt="LN4MTG.png"></p><p>MVP \u6A21\u5F0F\u5C06 Controller \u6539\u540D\u4E3A Presenter\uFF0C\u540C\u65F6\u6539\u53D8\u4E86\u901A\u4FE1\u65B9\u5411\u3002</p><ol><li><p>\u5404\u90E8\u5206\u4E4B\u95F4\u7684\u901A\u4FE1\uFF0C\u90FD\u662F\u53CC\u5411\u7684\u3002</p></li><li><p>View \u4E0E Model \u4E0D\u53D1\u751F\u8054\u7CFB\uFF0C\u90FD\u901A\u8FC7 Presenter \u4F20\u9012\u3002</p></li><li><p>View \u975E\u5E38\u8584\uFF0C\u4E0D\u90E8\u7F72\u4EFB\u4F55\u4E1A\u52A1\u903B\u8F91\uFF0C\u79F0\u4E3A&quot;\u88AB\u52A8\u89C6\u56FE&quot;\uFF08Passive View\uFF09\uFF0C\u5373\u6CA1\u6709\u4EFB\u4F55\u4E3B\u52A8\u6027\uFF0C\u800C Presenter\u975E\u5E38\u539A\uFF0C\u6240\u6709\u903B\u8F91\u90FD\u90E8\u7F72\u5728\u90A3\u91CC\u3002</p></li><li><p>\u4E4B\u6240\u4EE5\u5217\u51FAMVP\uFF0C\u662F\u56E0\u4E3AMVVM \u6A21\u5F0F\u5C06 Presenter \u6539\u540D\u4E3A ViewModel\uFF0C\u57FA\u672C\u4E0A\u4E0E MVP \u6A21\u5F0F\u5B8C\u5168\u4E00\u81F4\uFF08\u6CE8\u610F\u5BF9\u6BD4\u7BAD\u5934\u2014\u2014\u901A\u8BAF\u65B9\u5F0F\u7684\u533A\u522B\uFF09\u3002</p></li></ol><h3 id="mvvm" tabindex="-1"><a class="header-anchor" href="#mvvm" aria-hidden="true">#</a> MVVM</h3><p><img src="https://s6.jpg.cm/2022/01/04/LN4Dmu.png" alt="LN4Dmu.png"></p><p>\u552F\u4E00\u7684\u533A\u522B\u662F\uFF0C\u5B83\u91C7\u7528\u53CC\u5411\u7ED1\u5B9A\uFF08data-binding\uFF09\uFF1AView\u7684\u53D8\u52A8\uFF0C\u81EA\u52A8\u53CD\u6620\u5728 ViewModel\uFF0C\u53CD\u4E4B\u4EA6\u7136\u3002Angular \u548C Ember \u90FD\u91C7\u7528\u8FD9\u79CD\u6A21\u5F0F\u3002</p><h3 id="\u4F8B\u5B50\u5BF9\u6BD4" tabindex="-1"><a class="header-anchor" href="#\u4F8B\u5B50\u5BF9\u6BD4" aria-hidden="true">#</a> \u4F8B\u5B50\u5BF9\u6BD4</h3><ol><li><code>MVC</code>\u6A21\u5F0F\uFF08<code>jQuery</code>\u5B9E\u73B0\u7684\u4FEE\u6539\u4E24\u4E2ADOM\u8282\u70B9\u7684\u4F8B\u5B50\uFF09</li></ol><div class="language-html ext-html line-numbers-mode"><pre class="language-html"><code><span class="token comment">&lt;!-- HTML --&gt;</span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>Hello, <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>name<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>Bart<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>!<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>You are <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>age<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>12<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">var</span> name <span class="token operator">=</span> <span class="token string">&#39;Homer&#39;</span><span class="token punctuation">;</span>
@@ -4957,7 +4979,7 @@ person<span class="token punctuation">.</span>age <span class="token operator">=
         <span class="token string">&quot;domain&quot;</span><span class="token operator">:</span> <span class="token string">&quot;www.cnblogs.com&quot;</span>
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><p>\u518D\u7ED9\u4E00\u5F20\u56FE\uFF1A</p><p><img src="https://s6.jpg.cm/2022/01/04/LNBNCy.png" alt="LNBNCy.png"></p><p>\u8FD9\u5C31\u5B9E\u73B0\u4E86\u524D\u540E\u7AEF\u5206\u79BB\u4E86\u3002</p><p>\u6846\u67B6\u5E2E\u6211\u4EEC\u5B9E\u73B0\u4E86MVVM\u6A21\u5F0F\uFF0C\u6211\u4EEC\u4EE5\u8FD9\u6837\u7684\u6A21\u5F0F\u8FDB\u884C\u5F00\u53D1\u3002OK\uFF1F</p><h2 id="\u5B89\u88C5vue-devtools" tabindex="-1"><a class="header-anchor" href="#\u5B89\u88C5vue-devtools" aria-hidden="true">#</a> \u5B89\u88C5vue-devtools</h2><p>\u963F\u91CC\u4E91\u76D8\u5206\u4EAB\uFF1A<a href="https://www.aliyundrive.com/s/xcqqvUnWqeV" target="_blank" rel="noopener noreferrer">vue-devtools5.3.4.crx`);
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><p>\u518D\u7ED9\u4E00\u5F20\u56FE\uFF1A</p><p><img src="https://s6.jpg.cm/2022/01/04/LNBNCy.png" alt="LNBNCy.png"></p><p>\u8FD9\u5C31\u5B9E\u73B0\u4E86\u524D\u540E\u7AEF\u5206\u79BB\u4E86\u3002</p><p>\u6846\u67B6\u5E2E\u6211\u4EEC\u5B9E\u73B0\u4E86MVVM\u6A21\u5F0F\uFF0C\u6211\u4EEC\u4EE5\u8FD9\u6837\u7684\u6A21\u5F0F\u8FDB\u884C\u5F00\u53D1\u3002OK\uFF1F</p><h2 id="\u5B89\u88C5vue-devtools" tabindex="-1"><a class="header-anchor" href="#\u5B89\u88C5vue-devtools" aria-hidden="true">#</a> \u5B89\u88C5vue-devtools</h2><p>\u5E76\u975E\u5FC5\u987B\u7684\uFF0C\u53EF\u9009\u3002</p><p>\u963F\u91CC\u4E91\u76D8\u5206\u4EAB\uFF1A<a href="https://www.aliyundrive.com/s/xcqqvUnWqeV" target="_blank" rel="noopener noreferrer">vue-devtools5.3.4.crx`);
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
   _push(`</a>\u6D4F\u89C8\u5668\u63D2\u4EF6\u6587\u4EF6</p><p><strong>\u63D2\u4EF6\u65B9\u5F0F\u5B89\u88C5</strong>\uFF1A</p><ol><li>\u4E0B\u8F7D\u5B89\u88C5\u6587\u4EF6\uFF08.crx\u6587\u4EF6\uFF09</li><li>\u6253\u5F00\u6269\u5C55\u7A0B\u5E8F\u5B89\u88C5\u9875\u9762\uFF0Cchrome\u6D4F\u89C8\u5668\u53EF\u8F93\u5165\uFF1A<code>chrome://extensions</code>\uFF0C\u6253\u5F00\u53F3\u4E0A\u89D2\u7684\u3010\u5F00\u53D1\u8005\u6A21\u5F0F\u3011\u3002</li><li>\u5C06\u4E0B\u8F7D\u597D\u7684.crx\u6587\u4EF6\u62D6\u62FD\u5230\u5230\u6269\u5C55\u5B89\u88C5\u9875\u9762\u5185\uFF0C\u7B49\u5F85\u6570\u79D2\uFF0C\u5728\u5B89\u88C5\u5F39\u7A97\u5185\u70B9\u51FB\u6DFB\u52A0\u5373\u53EF\u3002</li></ol><p><strong>\u624B\u52A8\u5B89\u88C5</strong>\uFF1A</p><ol><li>\u5230guthub\u4E0A\u53BB\u4E0B\u8F7D\u5B89\u88C5\u5305\uFF0C<a href="https://github.com/vuejs/vue-devtools/tree/master" target="_blank" rel="noopener noreferrer">vue-devtools`);
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
@@ -5121,7 +5143,7 @@ function _sfc_ssrRender$4(_ctx, _push, _parent, _attrs) {
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
 
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br></div></div><p>\u4E0A\u9762\u5728\u904D\u5386<code>\u5BF9\u8C61</code>\u8EAB\u4E0A\u7684\u952E\u503C\u7684\u65F6\u5019\uFF0C\u9664\u4E86\u6709\uFF08val,key\uFF09,\u5728\u7B2C\u4E09\u4E2A\u4F4D\u7F6E\u8FD8\u6709\u4E00\u4E2A\u7D22\u5F15\u503C\uFF0C\u7C7B\u4F3C\uFF1A(val,key,i)\u3002</p><p>\u6CE8\u610F\uFF1A</p><ul><li>v-for\u5FAA\u73AF\u7684\u65F6\u5019\uFF0Ckey\u5C5E\u6027\u53EA\u80FD\u4F7F\u7528number\u6216String\u3002</li><li>key\u5728\u4F7F\u7528\u7684\u65F6\u5019\uFF0C\u5FC5\u987B\u4F7F\u7528v-bind\u5C5E\u6027\u7ED1\u5B9A\u7684\u5F62\u5F0F\uFF0C\u6307\u5B9Akey\u7684\u503C\u3002</li><li>\u5728\u7EC4\u4EF6\u4E2D\u4F7F\u7528v-for\u5FAA\u73AF\u7684\u65F6\u5019\uFF0C\u6216\u8005\u5728\u4E00\u4E9B\u7279\u6B8A\u60C5\u51B5\u4E2D\uFF0C\u5982\u679Cv-for\u6709\u95EE\u9898\uFF0C\u5FC5\u987B\u5728\u4F7F\u7528v-for\u7684\u540C\u65F6\uFF0C\u6307\u5B9A\u552F\u4E00\u7684 \u5B57\u7B26\u4E32/\u6570\u5B57 \u7C7B\u578B :key\u503C\u3002</li></ul><h3 id="v-text-\u3001v-html" tabindex="-1"><a class="header-anchor" href="#v-text-\u3001v-html" aria-hidden="true">#</a> v-text \u3001v-html</h3><p>\u4F7F\u7528<code>${serverRenderer.ssrInterpolate(_ctx.xxx)}</code>\u5C55\u793A\u6570\u636E\u8FD9\u79CD\u60C5\u51B5\u662F\u6709\u5F0A\u7AEF\u7684\uFF0C\u5C31\u662F\u5F53\u6211\u4EEC\u7F51\u901F\u5F88\u6162\u6216\u8005<code>javascript</code>\u51FA\u9519\u65F6\uFF0C\u4F1A\u66B4\u9732\u6211\u4EEC\u7684<code>${serverRenderer.ssrInterpolate(_ctx.xxx)}</code>\u3002<code>Vue</code>\u7ED9\u6211\u4EEC\u63D0\u4F9B\u7684<code>v-text</code>,\u5C31\u662F\u89E3\u51B3\u8FD9\u4E2A\u95EE\u9898\u7684\u3002\u5982\u679C\u5728<code>javascript</code>\u4E2D\u5199\u6709<code>html</code>\u6807\u7B7E\uFF0C\u7528<code>v-text</code>\u662F\u8F93\u51FA\u4E0D\u51FA\u6765\u7684\uFF0C\u8FD9\u65F6\u5019\u6211\u4EEC\u5C31\u9700\u8981\u7528<code>v-html</code>\u6807\u7B7E\u4E86\u3002</p><p>\u4E0B\u9762\u662F</p><div class="language-html ext-html line-numbers-mode"><pre class="language-html"><code><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">&gt;</span></span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br></div></div><p>\u4E0A\u9762\u5728\u904D\u5386<code>\u5BF9\u8C61</code>\u8EAB\u4E0A\u7684\u952E\u503C\u7684\u65F6\u5019\uFF0C\u9664\u4E86\u6709\uFF08val,key\uFF09,\u5728\u7B2C\u4E09\u4E2A\u4F4D\u7F6E\u8FD8\u6709\u4E00\u4E2A\u7D22\u5F15\u503C\uFF0C\u7C7B\u4F3C\uFF1A(val,key,i)\u3002</p><p>\u6CE8\u610F\uFF1A</p><ul><li>v-for\u5FAA\u73AF\u7684\u65F6\u5019\uFF0Ckey\u5C5E\u6027\u53EA\u80FD\u4F7F\u7528number\u6216String\u3002</li><li>key\u5728\u4F7F\u7528\u7684\u65F6\u5019\uFF0C\u5FC5\u987B\u4F7F\u7528v-bind\u5C5E\u6027\u7ED1\u5B9A\u7684\u5F62\u5F0F\uFF0C\u6307\u5B9Akey\u7684\u503C\u3002</li><li>\u5728\u7EC4\u4EF6\u4E2D\u4F7F\u7528v-for\u5FAA\u73AF\u7684\u65F6\u5019\uFF0C\u6216\u8005\u5728\u4E00\u4E9B\u7279\u6B8A\u60C5\u51B5\u4E2D\uFF0C\u5982\u679Cv-for\u6709\u95EE\u9898\uFF0C\u5FC5\u987B\u5728\u4F7F\u7528v-for\u7684\u540C\u65F6\uFF0C\u6307\u5B9A\u552F\u4E00\u7684 \u5B57\u7B26\u4E32/\u6570\u5B57 \u7C7B\u578B :key\u503C\u3002</li></ul><h3 id="v-text-\u3001v-html" tabindex="-1"><a class="header-anchor" href="#v-text-\u3001v-html" aria-hidden="true">#</a> v-text \u3001v-html</h3><p>\u4F7F\u7528<code>${serverRenderer.ssrInterpolate()}</code>\u5C55\u793A\u6570\u636E\u8FD9\u79CD\u60C5\u51B5\u662F\u6709\u5F0A\u7AEF\u7684\uFF0C\u5C31\u662F\u5F53\u6211\u4EEC\u7F51\u901F\u5F88\u6162\u6216\u8005<code>javascript</code>\u51FA\u9519\u65F6\uFF0C\u4F1A\u66B4\u9732\u6211\u4EEC\u7684<code>${serverRenderer.ssrInterpolate()}</code>\u91CC\u9762\u7684\u5C5E\u6027\u3002<code>Vue</code>\u7ED9\u6211\u4EEC\u63D0\u4F9B\u7684<code>v-text</code>,\u5C31\u662F\u89E3\u51B3\u8FD9\u4E2A\u95EE\u9898\u7684\u3002\u5982\u679C\u5728<code>javascript</code>\u4E2D\u5199\u6709<code>html</code>\u6807\u7B7E\uFF0C\u7528<code>v-text</code>\u662F\u8F93\u51FA\u4E0D\u51FA\u6765\u7684\uFF0C\u8FD9\u65F6\u5019\u6211\u4EEC\u5C31\u9700\u8981\u7528<code>v-html</code>\u6807\u7B7E\u4E86\u3002</p><p>\u4E0B\u9762\u662F</p><div class="language-html ext-html line-numbers-mode"><pre class="language-html"><code><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>en<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>UTF-8<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
@@ -5159,12 +5181,92 @@ function _sfc_ssrRender$4(_ctx, _push, _parent, _attrs) {
   <span class="token punctuation">}</span><span class="token punctuation">)</span>
 </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br></div></div><!--]-->`);
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br></div></div><p>\u603B\u7ED3\uFF1A</p><ul><li><code>v-text</code>\u548C<code>${serverRenderer.ssrInterpolate()}</code>\u8868\u8FBE\u5F0F\u6E32\u67D3\u6570\u636E\uFF0C\u4E0D\u89E3\u6790\u6807\u7B7E\u3002</li><li><code> v-html</code>\u4E0D\u4EC5\u53EF\u4EE5\u6E32\u67D3\u6570\u636E\uFF0C\u800C\u4E14\u53EF\u4EE5\u89E3\u6790\u6807\u7B7E\u3002</li></ul><div class="custom-container danger"><p class="custom-container-title">\u6CE8\u610F</p><p>\u5728\u751F\u4EA7\u73AF\u5883\u4E2D\u52A8\u6001\u6E32\u67D3<code>HTML</code>\u662F\u975E\u5E38\u5371\u9669\u7684\uFF0C\u56E0\u4E3A\u5BB9\u6613\u5BFC\u81F4<code>XSS</code>\u653B\u51FB\u3002\u6240\u4EE5\u53EA\u80FD\u5728\u53EF\u4FE1\u7684\u5185\u5BB9\u4E0A\u4F7F\u7528<code>v-html</code>\uFF0C\u6C38\u8FDC\u4E0D\u8981\u5728\u7528\u6237\u63D0\u4EA4\u548C\u53EF\u64CD\u4F5C\u7684\u7F51\u9875\u4E0A\u4F7F\u7528\u3002</p></div><h3 id="v-on" tabindex="-1"><a class="header-anchor" href="#v-on" aria-hidden="true">#</a> v-on</h3><p><code>v-on</code> \u5C31\u662F\u76D1\u542C\u4E8B\u4EF6\uFF0C\u53EF\u4EE5\u7528<code>v-on</code>\u6307\u4EE4\u76D1\u542C<code>DOM</code>\u4E8B\u4EF6\u6765\u89E6\u53D1\u4E00\u4E9B<code>javascript</code>\u4EE3\u7801\u3002</p><p>\u52A0\u51CF\u6848\u4F8B\uFF1A</p><div class="language-html ext-html line-numbers-mode"><pre class="language-html"><code><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>en<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>UTF-8<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">http-equiv</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>X-UA-Compatible<span class="token punctuation">&quot;</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>IE=edge<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>viewport<span class="token punctuation">&quot;</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>width=device-width, initial-scale=1.0<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>Document<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>https://unpkg.com/vue/dist/vue.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>app<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    {{count}}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>br</span> <span class="token punctuation">/&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name"><span class="token namespace">v-on:</span>click</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>jia<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>\u52A0<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name"><span class="token namespace">v-on:</span>click</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>jian<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>\u51CF<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+  <span class="token keyword">new</span> <span class="token class-name">Vue</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    el<span class="token operator">:</span> <span class="token string">&quot;#app&quot;</span><span class="token punctuation">,</span>
+    data<span class="token operator">:</span> <span class="token punctuation">{</span>
+      count<span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    methods<span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token function">jia</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>count<span class="token operator">++</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token function">jian</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>count<span class="token operator">--</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br></div></div><p><code>v-on</code>\u8FD8\u63D0\u4F9B\u4E86\u4E00\u4E2A\u7B80\u5355\u5199\u6CD5,\u5C31\u662F\u7528@\u4EE3\u66FF\uFF1A</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code>v<span class="token operator">-</span>on<span class="token operator">:</span>click <span class="token operator">=</span> jia <span class="token comment">//\u65B9\u6CD5\u4E5F\u53EF\u4EE5\u5199\u6210jia()</span>
+<span class="token comment">//\u7B49\u540C\u4E8E</span>
+@click <span class="token operator">=</span> jia <span class="token comment">//\u65B9\u6CD5\u4E5F\u53EF\u4EE5\u5199\u6210jia()</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>\u5176\u5B9E\uFF0C\u9664\u4E86\u7ED1\u5B9A<code>click</code>\u4E4B\u5916\uFF0C\u6211\u4EEC\u8FD8\u53EF\u4EE5\u7ED1\u5B9A\u5176\u5B83\u4E8B\u4EF6\uFF0C\u6BD4\u5982\u952E\u76D8\u56DE\u8F66\u4E8B\u4EF6<code>v-on:keyup.enter</code>:</p><div class="language-html ext-html line-numbers-mode"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>text<span class="token punctuation">&quot;</span></span> <span class="token attr-name"><span class="token namespace">v-on:</span>keyup.enter</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>onEnter<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><h3 id="v-bind" tabindex="-1"><a class="header-anchor" href="#v-bind" aria-hidden="true">#</a> v-bind</h3><p><code>v-bind</code>\u7528\u4E8E\u7ED1\u5B9A\u6570\u636E\u548C\u5143\u7D20\u5C5E\u6027(\u52A8\u6001\u7ED1\u5B9A)</p><p>\u4F8B\u5982\uFF1A</p><ol><li>\u7ED1\u5B9Aa\u6807\u7B7E\u7684href\u5C5E\u6027</li></ol><div class="language-html ext-html line-numbers-mode"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>app<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name"><span class="token namespace">v-bind:</span>href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>url<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>\u767E\u5EA6\u4E00\u4E0B<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>  
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">var</span> app <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Vue</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    el<span class="token operator">:</span><span class="token string">&#39;.app&#39;</span><span class="token punctuation">,</span>
+    data<span class="token operator">:</span><span class="token punctuation">{</span>
+        url<span class="token operator">:</span><span class="token string">&quot;https://www.baidu.com&quot;</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><p>\u4E0A\u9762\u4F8B\u5B50\u4F7F\u7528<code>v-bind</code>\u7ED1\u5B9A\u4E86<code>a</code>\u6807\u7B7E\u7684<code>href</code>\u5C5E\u6027\uFF0C\u5F53<code>a</code>\u6807\u7B7E\u88AB\u70B9\u51FB\u65F6\uFF0C\u4F1A\u6839\u636E\u5BF9\u5E94vue\u4E2D\u7684\u5BF9\u5E94\u7684url\u6570\u636E\u8FDB\u884C\u8DF3\u8F6C\u5230<code>https://www.baidu.com</code></p><ol start="2"><li>\u4E0D\u5149\u662F<code>href</code>\u5C5E\u6027\u53EF\u4EE5\u88AB<code>v-bind</code>\u6307\u4EE4\u7ED1\u5B9A\uFF0C\u5927\u90E8\u5206\u5C5E\u6027\u90FD\u53EF\u4EE5\u88AB\u7ED1\u5B9A</li></ol><p>\u4E0B\u9762\u4F8B\u5B50\u7ED1\u5B9A<code>class</code>\u4E5F\u662F\u53EF\u4EE5\u7684\uFF1A</p><div class="language-html ext-html line-numbers-mode"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name"><span class="token namespace">v-bind:</span>href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>url<span class="token punctuation">&quot;</span></span> <span class="token attr-name"><span class="token namespace">v-bind:</span>class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>klass<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>click me<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u8FD8\u53EF\u4EE5\u7528\u4E8E\u7ED1\u5B9A\u6837\u5F0F\u7B49\u7B49\u3002</p><p>\u7531\u4E8E\u4F7F\u7528\u9891\u7E41\uFF0C\u901A\u5E38\u5C06<code>v-bind:\u5C5E\u6027\u540D=&quot; &quot;</code>\u7684\u683C\u5F0F\u7B80\u5199\u6210<code>:\u5C5E\u6027\u540D=&quot; &quot;</code>:</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token operator">&lt;</span>a v<span class="token operator">-</span>bind<span class="token operator">:</span><span class="token keyword">class</span><span class="token operator">=</span><span class="token string">&quot;{active:isActive}&quot;</span><span class="token operator">&gt;</span>click me<span class="token operator">&lt;</span><span class="token operator">/</span>a<span class="token operator">&gt;</span>
+<span class="token comment">// \u7B49\u540C\u4E8E</span>
+<span class="token operator">&lt;</span>a <span class="token operator">:</span><span class="token keyword">class</span><span class="token operator">=</span><span class="token string">&quot;{active:isActive}&quot;</span><span class="token operator">&gt;</span>click me<span class="token operator">&lt;</span><span class="token operator">/</span>a<span class="token operator">&gt;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>\u540C\u65F6\uFF0C\u4E0A\u9762\u4F8B\u5B50\u4E5F\u8BF4\u660E\u4E86\uFF0C<code>v-bind</code>\u8FD8\u53EF\u4EE5\u7ED1\u5B9A\u4E00\u4E2A\u5BF9\u8C61\u3002\u7528\u6CD5\u5F88\u591A\uFF0C\u53EF\u4EE5\u81EA\u5DF1\u8BD5\u8BD5\u3002</p><h3 id="v-model" tabindex="-1"><a class="header-anchor" href="#v-model" aria-hidden="true">#</a> v-model</h3><p>\u8BF4\u5728\u524D\u5934\uFF0C<code>v-model</code>\u4E0D\u597D\u7406\u89E3\uFF0C\u5EFA\u8BAE\u7F51\u4E0A\u770B\u770B\u89C6\u9891\u3002</p><p>\u4E0B\u9762\u662F\u7ED3\u5408\u7F51\u4E0A\u7684\u4E00\u4E9B\u89E3\u91CA\uFF1A</p><ol><li><code>v-model</code>\u6307\u4EE4\uFF0C\u6211\u7406\u89E3\u4E3A\u7ED1\u5B9A\u6570\u636E\u6E90\u3002\u5C31\u662F\u628A\u6570\u636E\u7ED1\u5B9A\u5728\u7279\u5B9A\u7684\u8868\u5355\u5143\u7D20\u4E0A\uFF0C\u53EF\u4EE5\u5F88\u5BB9\u6613\u7684\u5B9E\u73B0\u53CC\u5411\u6570\u636E\u7ED1\u5B9A\u3002</li><li><code>v-model</code>\u672C\u8D28\u4E0A\u662F\u4E00\u4E2A\u8BED\u6CD5\u7CD6\u3002\u5982\u4E0B\u4EE3\u7801<code>&lt;input v-model=&quot;test&quot;&gt;</code>\u672C\u8D28\u4E0A\u662F<code>&lt;input :value=&quot;test&quot; @input=&quot;test = $event.target.value&quot;&gt;</code></li><li>\u601D\u8003\u4E00\u4E0BMVVM\u6846\u67B6\u7684\u601D\u60F3\uFF0C<code>v-model</code>\u628A\u53CC\u5411\u6570\u636E\u7ED1\u5B9A\uFF0C\u7C7B\u4F3C<code>\u2194</code> \uFF0C\u6CE8\u610F\u4E0D\u662F<code>\u21C6</code>,\u4E8C\u8005\u6709\u533A\u522B\u3002</li></ol><p>\u770B\u4E00\u4E2A\u5B8C\u6574\u4F8B\u5B50\uFF1A</p><div class="language-html ext-html line-numbers-mode"><pre class="language-html"><code><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>en<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>UTF-8<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">http-equiv</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>X-UA-Compatible<span class="token punctuation">&quot;</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>IE=edge<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>viewport<span class="token punctuation">&quot;</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>width=device-width, initial-scale=1.0<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>Document<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>https://unpkg.com/vue/dist/vue.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>app<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>text<span class="token punctuation">&quot;</span></span> <span class="token attr-name">v-model</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>name<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>{{name}}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+  <span class="token keyword">new</span> <span class="token class-name">Vue</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    el<span class="token operator">:</span> <span class="token string">&quot;#app&quot;</span><span class="token punctuation">,</span>
+    data<span class="token operator">:</span> <span class="token punctuation">{</span>
+      name<span class="token operator">:</span> <span class="token string">&#39;\u8F93\u5165\u4E00\u4E9B\u6570\u636E\u770B\u770B&#39;</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br></div></div><p>\u540C\u65F6\u8FD8\u6709<code>v-model</code>\u7684\u4FEE\u9970\u7B26\uFF1A</p><ol><li><code>.lazy</code>: \u5728\u9ED8\u8BA4\u60C5\u51B5\u4E0B\uFF0C<code>v-model</code>\u5728\u6BCF\u6B21<code>input</code>\u4E8B\u4EF6\u89E6\u53D1\u540E\u5C06\u8F93\u5165\u6846\u7684\u503C\u4E0E\u6570\u636E\u8FDB\u884C\u540C\u6B65\uFF0C<code>input</code> \u7684\u539F\u751F <code>DOM</code> \u4E8B\u4EF6\u4E2D\u8FD8\u6709\u4E00\u4E2A<code>change</code> \u4E8B\u4EF6\uFF0C\u8BE5\u4E8B\u4EF6\u662F\u5728\u8F93\u5165\u6846\u5931\u53BB\u7126\u70B9\u65F6 \u6216 \u6309\u4E0B\u56DE\u8F66\u952E\u65F6 \u6267\u884C\u7684\u3002\u6BD4\u5982\u4E0A\u8FF0\u7684&quot;x&quot;\u5728\u6DFB\u52A0\u4FEE\u9970\u7B26<code>v-model.lazy</code>\u4E4B\u540E\uFF0C&quot;x&quot;\u5C31\u4E0D\u4F1A\u5B9E\u65F6\u6539\u53D8\u7684\uFF0C\u800C\u662F\u5728\u5931\u7126\u6216\u6309\u56DE\u8F66\u65F6\u624D\u66F4\u65B0\u3002</li><li><code>.number</code>: \u53EF\u4EE5\u5C06\u8F93\u5165\u8F6C\u6362\u4E3A<code>Number</code>\u7C7B\u578B\uFF0C\u5426\u5219\u867D\u7136\u4F60\u8F93\u5165\u7684\u662F\u6570\u5B57\uFF0C\u4F46\u5B83\u7684\u7C7B\u578B\u5176\u5B9E\u662F<code>String</code></li><li><code>.trim</code>: \u53EF\u4EE5\u81EA\u52A8\u8FC7\u6EE4\u8F93\u5165\u7684\u9996\u5C3E\u7A7A\u683C</li></ol><h3 id="v-pre\u3001v-cloak\u3001v-once" tabindex="-1"><a class="header-anchor" href="#v-pre\u3001v-cloak\u3001v-once" aria-hidden="true">#</a> v-pre\u3001v-cloak\u3001v-once</h3><h4 id="v-pre" tabindex="-1"><a class="header-anchor" href="#v-pre" aria-hidden="true">#</a> <code>v-pre</code></h4><p>\u5728\u6A21\u677F\u4E2D\u8DF3\u8FC7<code>vue</code>\u7684\u7F16\u8BD1\uFF0C\u76F4\u63A5\u8F93\u51FA\u539F\u59CB\u503C\u3002\u5C31\u662F\u5728\u6807\u7B7E\u4E2D\u52A0\u5165<code>v-pre</code>\u5C31\u4E0D\u4F1A\u8F93\u51FA<code>vue</code>\u4E2D\u7684<code>data</code>\u503C\u4E86\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token operator">&lt;</span>div v<span class="token operator">-</span>pre<span class="token operator">&gt;</span><span class="token punctuation">{</span><span class="token punctuation">{</span>message<span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+
+<span class="token comment">//\u76F4\u63A5\u5728\u7F51\u9875\u4E2D\u663E\u793A{{message}}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h4 id="v-cloak" tabindex="-1"><a class="header-anchor" href="#v-cloak" aria-hidden="true">#</a> <code>v-cloak</code></h4><p>\u5728<code>vue</code>\u6E32\u67D3\u5B8C\u6307\u5B9A\u7684\u6574\u4E2A<code>DOM</code>\u540E\u624D\u8FDB\u884C\u663E\u793A\u3002\u5B83\u5FC5\u987B\u548C<code>CSS</code>\u6837\u5F0F\u4E00\u8D77\u4F7F\u7528\u3002\u89E3\u51B3\uFF1A \u89E3\u51B3\u95EA\u70C1\u95EE\u9898,\u9632\u6B62\u7F51\u901F\u6162\u9875\u9762\u4F1A\u51FA\u73B0${serverRenderer.ssrInterpolate()}\u7684\u95EE\u9898</p><div class="language-css ext-css line-numbers-mode"><pre class="language-css"><code><span class="token selector">[v-cloak]</span> <span class="token punctuation">{</span>
+  <span class="token property">display</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h4 id="v-once" tabindex="-1"><a class="header-anchor" href="#v-once" aria-hidden="true">#</a> <code>v-once</code></h4><p>\u5728\u7B2C\u4E00\u6B21DOM\u65F6\u8FDB\u884C\u6E32\u67D3\uFF0C\u6E32\u67D3\u5B8C\u6210\u540E\u89C6\u4E3A\u9759\u6001\u5185\u5BB9\uFF0C\u8DF3\u51FA\u4EE5\u540E\u7684\u6E32\u67D3\u8FC7\u7A0B\u3002</p><!--]-->`);
 }
 const _sfc_setup$i = _sfc_main$i.setup;
 _sfc_main$i.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/vue/02vue\u5B9E\u4F8B.html.vue");
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/vue/02vue\u6307\u4EE4.html.vue");
   return _sfc_setup$i ? _sfc_setup$i(props, ctx) : void 0;
 };
 var _02vue___html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$i, [["ssrRender", _sfc_ssrRender$4]]);
@@ -5175,19 +5277,316 @@ var _02vue___html$2 = /* @__PURE__ */ Object.freeze({
 });
 const _sfc_main$h = {};
 function _sfc_ssrRender$3(_ctx, _push, _parent, _attrs) {
-  _push(`<!--[--><h2 id="_3" tabindex="-1"><a class="header-anchor" href="#_3" aria-hidden="true">#</a> 3</h2><h2 id="_4" tabindex="-1"><a class="header-anchor" href="#_4" aria-hidden="true">#</a> 4</h2><!--]-->`);
+  _push(`<!--[--><h1 id="vue\u5168\u5C40api" tabindex="-1"><a class="header-anchor" href="#vue\u5168\u5C40api" aria-hidden="true">#</a> vue\u5168\u5C40API</h1><p>\u5168\u5C40API\u5E76\u4E0D\u5728\u6784\u9020\u5668\u91CC\uFF0C\u800C\u662F\u5148\u58F0\u660E\u5168\u5C40\u53D8\u91CF\u6216\u8005\u76F4\u63A5\u5728Vue\u4E0A\u5B9A\u4E49\u4E00\u4E9B\u65B0\u529F\u80FD\uFF0CVue\u5185\u7F6E\u4E86\u4E00\u4E9B\u5168\u5C40API\uFF0C\u8BF4\u7684\u7B80\u5355\u4E9B\u5C31\u662F\uFF0C\u5728\u6784\u9020\u5668\u5916\u90E8\u7528Vue\u63D0\u4F9B\u7ED9\u6211\u4EEC\u7684API\u51FD\u6570\u6765\u5B9A\u4E49\u65B0\u7684\u529F\u80FD\u3002</p><h2 id="vue-directive\u81EA\u5B9A\u4E49\u5C5E\u6027" tabindex="-1"><a class="header-anchor" href="#vue-directive\u81EA\u5B9A\u4E49\u5C5E\u6027" aria-hidden="true">#</a> Vue.directive\u81EA\u5B9A\u4E49\u5C5E\u6027</h2><p>\u4E0A\u4E00\u7BC7\u6211\u4EEC\u5B66\u4E86\u90A3\u4E9B<code>\u6307\u4EE4</code>,\u6211\u4EEC\u4E5F\u53EF\u4EE5\u81EA\u5B9A\u4E49\u6307\u4EE4\u3002</p><p>\u76F4\u63A5\u4F8B\u5B50\u6F14\u793A\uFF1A</p><div class="language-html ext-html line-numbers-mode"><pre class="language-html"><code><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>en<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>UTF-8<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">http-equiv</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>X-UA-Compatible<span class="token punctuation">&quot;</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>IE=edge<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>viewport<span class="token punctuation">&quot;</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>width=device-width, initial-scale=1.0<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>Document<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>https://unpkg.com/vue/dist/vue.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>app<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">v-my</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>color<span class="token punctuation">&quot;</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>demo<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+      {{num}}
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">@click</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>add<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>Add<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+  Vue<span class="token punctuation">.</span><span class="token function">directive</span><span class="token punctuation">(</span><span class="token string">&#39;my&#39;</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">el<span class="token punctuation">,</span> binding<span class="token punctuation">,</span> vnode</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    el<span class="token punctuation">.</span>style <span class="token operator">=</span> <span class="token string">&#39;color:&#39;</span> <span class="token operator">+</span> binding<span class="token punctuation">.</span>value<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+  <span class="token keyword">var</span> app <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Vue</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    el<span class="token operator">:</span> <span class="token string">&quot;#app&quot;</span><span class="token punctuation">,</span>
+    data<span class="token operator">:</span> <span class="token punctuation">{</span>
+      num<span class="token operator">:</span> <span class="token number">10</span><span class="token punctuation">,</span>
+      color<span class="token operator">:</span> <span class="token string">&#39;red&#39;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    methods<span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token function-variable function">add</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>num<span class="token operator">++</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br></div></div><p>\u4E0A\u9762\u4F8B\u5B50\u5B9E\u73B0\u4E86\u81EA\u5B9A\u4E49\u5C5E\u6027\uFF0C\u5176\u4E2D\uFF1A</p><h4 id="\u81EA\u5B9A\u4E49\u5C5E\u6027\u4F20\u9012\u7684\u4E09\u4E2A\u53C2\u6570" tabindex="-1"><a class="header-anchor" href="#\u81EA\u5B9A\u4E49\u5C5E\u6027\u4F20\u9012\u7684\u4E09\u4E2A\u53C2\u6570" aria-hidden="true">#</a> \u81EA\u5B9A\u4E49\u5C5E\u6027\u4F20\u9012\u7684\u4E09\u4E2A\u53C2\u6570</h4><ol><li>el: \u6307\u4EE4\u6240\u7ED1\u5B9A\u7684\u5143\u7D20\uFF0C\u53EF\u4EE5\u7528\u6765\u76F4\u63A5\u64CD\u4F5CDOM\u3002</li><li>binding: \u4E00\u4E2A\u5BF9\u8C61\uFF0C\u5305\u542B\u6307\u4EE4\u7684\u5F88\u591A\u4FE1\u606F\u3002</li><li>vnode: Vue\u7F16\u8BD1\u751F\u6210\u7684\u865A\u62DF\u8282\u70B9\u3002</li></ol><h4 id="\u81EA\u5B9A\u4E49\u6307\u4EE4\u7684\u751F\u547D\u5468\u671F" tabindex="-1"><a class="header-anchor" href="#\u81EA\u5B9A\u4E49\u6307\u4EE4\u7684\u751F\u547D\u5468\u671F" aria-hidden="true">#</a> \u81EA\u5B9A\u4E49\u6307\u4EE4\u7684\u751F\u547D\u5468\u671F</h4><p>\u81EA\u5B9A\u4E49\u6307\u4EE4\u6709\u4E94\u4E2A\u751F\u547D\u5468\u671F\uFF08\u4E5F\u53EB\u94A9\u5B50\u51FD\u6570\uFF09\uFF0C\u5206\u522B\u662F <code>bind</code>,<code>inserted</code>,<code>update</code>,<code>componentUpdated</code>,<code>unbind</code>\u3002</p><ol><li><code>bind</code>:\u53EA\u8C03\u7528\u4E00\u6B21\uFF0C\u6307\u4EE4\u7B2C\u4E00\u6B21\u7ED1\u5B9A\u5230\u5143\u7D20\u65F6\u8C03\u7528\uFF0C\u7528\u8FD9\u4E2A\u94A9\u5B50\u51FD\u6570\u53EF\u4EE5\u5B9A\u4E49\u4E00\u4E2A\u7ED1\u5B9A\u65F6\u6267\u884C\u4E00\u6B21\u7684\u521D\u59CB\u5316\u52A8\u4F5C\u3002</li><li><code>inserted</code>:\u88AB\u7ED1\u5B9A\u5143\u7D20\u63D2\u5165\u7236\u8282\u70B9\u65F6\u8C03\u7528\uFF08\u7236\u8282\u70B9\u5B58\u5728\u5373\u53EF\u8C03\u7528\uFF0C\u4E0D\u5FC5\u5B58\u5728\u4E8E<code>document</code>\u4E2D\uFF09\u3002</li><li><code>update</code>:\u88AB\u7ED1\u5B9A\u4E8E\u5143\u7D20\u6240\u5728\u7684\u6A21\u677F\u66F4\u65B0\u65F6\u8C03\u7528\uFF0C\u800C\u65E0\u8BBA\u7ED1\u5B9A\u503C\u662F\u5426\u53D8\u5316\u3002\u901A\u8FC7\u6BD4\u8F83\u66F4\u65B0\u524D\u540E\u7684\u7ED1\u5B9A\u503C\uFF0C\u53EF\u4EE5\u5FFD\u7565\u4E0D\u5FC5\u8981\u7684\u6A21\u677F\u66F4\u65B0\u3002</li><li><code>componentUpdated</code>:\u88AB\u7ED1\u5B9A\u5143\u7D20\u6240\u5728\u6A21\u677F\u5B8C\u6210\u4E00\u6B21\u66F4\u65B0\u5468\u671F\u65F6\u8C03\u7528\u3002</li><li><code>unbind</code>:\u53EA\u8C03\u7528\u4E00\u6B21\uFF0C\u6307\u4EE4\u4E0E\u5143\u7D20\u89E3\u7ED1\u65F6\u8C03\u7528\u3002</li></ol><p>\u4F7F\u7528\uFF1A</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code> Vue<span class="token punctuation">.</span><span class="token function">directive</span><span class="token punctuation">(</span><span class="token string">&#39;my&#39;</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+    <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">el<span class="token punctuation">,</span> binding<span class="token punctuation">,</span> vnode</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      el<span class="token punctuation">.</span>style <span class="token operator">=</span> <span class="token string">&#39;color:&#39;</span> <span class="token operator">+</span> binding<span class="token punctuation">.</span>value<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token function-variable function">bind</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token comment">//\u88AB\u7ED1\u5B9A</span>
+      console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&#39;1 - bind&#39;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token function-variable function">inserted</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token comment">//\u7ED1\u5B9A\u5230\u8282\u70B9</span>
+      console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&#39;2 - inserted&#39;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token function-variable function">update</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token comment">//\u7EC4\u4EF6\u66F4\u65B0</span>
+      console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&#39;3 - update&#39;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token function-variable function">componentUpdated</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token comment">//\u7EC4\u4EF6\u66F4\u65B0\u5B8C\u6210</span>
+      console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&#39;4 - componentUpdated&#39;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token function-variable function">unbind</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token comment">//\u89E3\u7ED1</span>
+      console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&#39;1 - bind&#39;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br></div></div><h2 id="vue-extend\u6784\u9020\u5668" tabindex="-1"><a class="header-anchor" href="#vue-extend\u6784\u9020\u5668" aria-hidden="true">#</a> Vue.extend\u6784\u9020\u5668</h2><p>\u53EF\u4EE5\u7406\u89E3\u4E3A\u521B\u5EFA\u4E00\u4E2AVue\u7684\u5B50\u7C7B,<code>Vue.extend</code> \u8FD4\u56DE\u7684\u662F\u4E00\u4E2A\u201C\u6269\u5C55\u5B9E\u4F8B\u6784\u9020\u5668\u201D,\u4E5F\u5C31\u662F\u9884\u8BBE\u4E86\u90E8\u5206\u9009\u9879\u7684\xB7\u5B9E\u4F8B\u6784\u9020\u5668\u3002\u7ECF\u5E38\u670D\u52A1\u4E8E<code>Vue.component</code>\u7528\u6765\u751F\u6210\u7EC4\u4EF6\u3002</p><h4 id="\u81EA\u5B9A\u4E49\u65E0\u53C2\u6570\u6807\u7B7E" tabindex="-1"><a class="header-anchor" href="#\u81EA\u5B9A\u4E49\u65E0\u53C2\u6570\u6807\u7B7E" aria-hidden="true">#</a> \u81EA\u5B9A\u4E49\u65E0\u53C2\u6570\u6807\u7B7E</h4><p>\u8FD9\u662F\u57FA\u7840\u7528\u6CD5\uFF0C\u60F3\u8C61\u4E00\u4E2A\u9700\u6C42\uFF0C\u8981\u5728\u535A\u5BA2\u9875\u9762\u591A\u5904\u663E\u793A\u4F5C\u8005\u7684\u7F51\u540D\uFF0C\u5E76\u5728\u7F51\u540D\u4E0A\u76F4\u63A5\u6709\u94FE\u63A5\u5730\u5740\u3002\u6211\u4EEC\u5E0C\u671B\u5728html\u4E2D\u53EA\u9700\u8981\u5199<code>&lt;author&gt;&lt;/author&gt;</code>\uFF0C\u8FD9\u548C\u81EA\u5B9A\u4E49\u7EC4\u4EF6\u5F88\u50CF\uFF0C\u4F46\u662F\u4ED6\u6CA1\u6709\u4F20\u9012\u4EFB\u4F55\u53C2\u6570\uFF0C\u53EA\u662F\u4E2A\u9759\u6001\u6807\u7B7E\u3002</p><p>\u5B8C\u6574\u5B9E\u73B0\uFF1A</p><div class="language-html ext-html line-numbers-mode"><pre class="language-html"><code><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>en<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>UTF-8<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">http-equiv</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>X-UA-Compatible<span class="token punctuation">&quot;</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>IE=edge<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>viewport<span class="token punctuation">&quot;</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>width=device-width, initial-scale=1.0<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>Document<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>https://unpkg.com/vue/dist/vue.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">&gt;</span></span>vue.extend-\u6269\u5C55\u5B9E\u4F8B\u6784\u9020\u5668<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>hr</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>author</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>author</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>text/javascript<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+    <span class="token keyword">var</span> authorExtend <span class="token operator">=</span> Vue<span class="token punctuation">.</span><span class="token function">extend</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      template<span class="token operator">:</span> <span class="token string">&quot;&lt;p&gt;&lt;a :href=&#39;authorUrl&#39;&gt;{{authorName}}&lt;/a&gt;&lt;/p&gt;&quot;</span><span class="token punctuation">,</span>
+      <span class="token function-variable function">data</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token punctuation">{</span>
+          authorName<span class="token operator">:</span> <span class="token string">&#39;baidu&#39;</span><span class="token punctuation">,</span>
+          authorUrl<span class="token operator">:</span> <span class="token string">&#39;http://www.baidu.com&#39;</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">// \u6269\u5C55\u5B9E\u4F8B\u6784\u9020\u5668\u662F\u9700\u8981\u6302\u8F7D\u7684</span>
+    <span class="token keyword">new</span> <span class="token class-name">authorExtend</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">$mount</span><span class="token punctuation">(</span><span class="token string">&#39;author&#39;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br></div></div><p>\u53EF\u4EE5\u770B\u5230<code>authorExtend</code>\u6269\u5C55\u5B9E\u4F8B\u6784\u9020\u5668\u662F\u9700\u8981\u6302\u8F7D\u7684\u3002\u5373\uFF1A</p><p><code>new authorExtend().$mount(&#39;author&#39;);</code></p><h4 id="\u6302\u8F7D\u5230\u5143\u7D20\u4E0A" tabindex="-1"><a class="header-anchor" href="#\u6302\u8F7D\u5230\u5143\u7D20\u4E0A" aria-hidden="true">#</a> \u6302\u8F7D\u5230\u5143\u7D20\u4E0A</h4><p>\u8FD8\u53EF\u4EE5\u901A\u8FC7<code>HTML</code>\u6807\u7B7E\u4E0A\u7684<code>id</code>\u6216\u8005<code>class</code>\u6765\u751F\u6210\u6269\u5C55\u5B9E\u4F8B\u6784\u9020\u5668\uFF0C<code>Vue.extend</code>\u91CC\u7684\u4EE3\u7801\u662F\u4E00\u6837\u7684\uFF0C\u53EA\u662F\u5728\u6302\u8F7D\u7684\u65F6\u5019\uFF0C\u6211\u4EEC\u7528\u7C7B\u4F3C<code>jquery</code>\u7684\u9009\u62E9\u5668\u7684\u65B9\u6CD5\uFF0C\u6765\u8FDB\u884C\u6302\u8F7D\u5C31\u53EF\u4EE5\u4E86\u3002</p><p>\u4F8B\u5982\uFF1A</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">new</span> <span class="token class-name">authorExtend</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">$mount</span><span class="token punctuation">(</span><span class="token string">&#39;#author&#39;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">//\u6302\u8F7D\u5230#author</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h2 id="vue-set\u5168\u5C40\u64CD\u4F5C" tabindex="-1"><a class="header-anchor" href="#vue-set\u5168\u5C40\u64CD\u4F5C" aria-hidden="true">#</a> Vue.set\u5168\u5C40\u64CD\u4F5C</h2><p><code>Vue.set </code>\u7684\u4F5C\u7528\u5C31\u662F\u5728\u6784\u9020\u5668\uFF08data\uFF09\u5916\u90E8\u64CD\u4F5C\u6784\u9020\u5668(data)\u5185\u90E8\u7684\u6570\u636E\u3001\u5C5E\u6027\u6216\u8005\u65B9\u6CD5\u3002\u56E0\u4E3A\u6784\u9020\u5668\u5916\uFF08data\u5916\uFF09\u5B9A\u4E49\u7684\u503C\u66F4\u65B0\u65F6\uFF0C\u4F1A\u53D1\u73B0\u9875\u9762\u4E0A\u5E76\u4E0D\u4F1A\u6E32\u67D3\u66F4\u6539\u540E\u7684\u503C\u3002\u8FD9\u4E2A\u95EE\u9898\u539F\u56E0\u5C31\u662F\u6DFB\u52A0\u65B0\u7684\u503C\u4E4B\u540E\u5E76\u4E0D\u4F1A\u5C06\u6DFB\u52A0\u7684\u503C\u53CC\u5411\u7ED1\u5B9A\uFF0C\u6B64\u65F6\u867D\u7136\u66F4\u65B0\u4E86\uFF0C\u4F46\u662F\u9875\u9762\u5E76\u4E0D\u4F1A\u6E32\u67D3\uFF08\u4E00\u822C\u6784\u9020\u5668\u5916\u4F1A\u6709\u8FD9\u79CD\u60C5\u51B5\uFF09\u3002</p><p>\u8BF4\u660E\uFF1A</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">//\u5728\u6784\u9020\u5668\u5916\u90E8\u58F0\u660E\u6570\u636E</span>
+ <span class="token keyword">var</span> outData<span class="token operator">=</span><span class="token punctuation">{</span>
+    count<span class="token operator">:</span><span class="token number">1</span><span class="token punctuation">,</span>
+    goodName<span class="token operator">:</span><span class="token string">&#39;car&#39;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token keyword">var</span> app<span class="token operator">=</span><span class="token keyword">new</span> <span class="token class-name">Vue</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    el<span class="token operator">:</span><span class="token string">&#39;#app&#39;</span><span class="token punctuation">,</span>
+    <span class="token comment">//\u5F15\u7528\u5916\u90E8\u6570\u636E</span>
+    data<span class="token operator">:</span>outData
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><p>\u6211\u4EEC\u5728\u5916\u90E8\u6539\u53D8\u6570\u636E\uFF1A</p><ol><li>\u7528Vue.set</li></ol><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">function</span> <span class="token function">add</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+       Vue<span class="token punctuation">.</span><span class="token function">set</span><span class="token punctuation">(</span>outData<span class="token punctuation">,</span><span class="token string">&#39;count&#39;</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+ <span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><ol start="2"><li>\u7528Vue\u5BF9\u8C61\u7684\u65B9\u6CD5\u6DFB\u52A0</li></ol><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code>app<span class="token punctuation">.</span>count<span class="token operator">++</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><ol start="3"><li>\u76F4\u63A5\u64CD\u4F5C\u5916\u90E8\u6570\u636E</li></ol><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code>outData<span class="token punctuation">.</span>count<span class="token operator">++</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u5B8C\u6574\u4EE3\u7801\uFF1A</p><div class="language-html ext-html line-numbers-mode"><pre class="language-html"><code><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>en<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>UTF-8<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">http-equiv</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>X-UA-Compatible<span class="token punctuation">&quot;</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>IE=edge<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>viewport<span class="token punctuation">&quot;</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>width=device-width, initial-scale=1.0<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>Document<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>https://unpkg.com/vue/dist/vue.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">&gt;</span></span>Vue.set \u5168\u5C40\u64CD\u4F5C<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>hr</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>app<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">v-for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span> aa in arr<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>{{aa}}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">&gt;</span></span>
+
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token special-attr"><span class="token attr-name">onclick</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span><span class="token value javascript language-javascript"><span class="token function">add</span><span class="token punctuation">(</span><span class="token punctuation">)</span></span><span class="token punctuation">&quot;</span></span></span><span class="token punctuation">&gt;</span></span>\u5916\u90E8<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>text/javascript<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+
+    <span class="token keyword">function</span> <span class="token function">add</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;\u6211\u5DF2\u7ECF\u6267\u884C&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token comment">// app.arr[1] = &#39;4&#39;;</span>
+      <span class="token comment">// console.log(app.arr);</span>
+      Vue<span class="token punctuation">.</span><span class="token function">set</span><span class="token punctuation">(</span>app<span class="token punctuation">.</span>arr<span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token string">&#39;4&#39;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>app<span class="token punctuation">.</span>arr<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">var</span> outData <span class="token operator">=</span> <span class="token punctuation">{</span>
+      arr<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">&#39;1&#39;</span><span class="token punctuation">,</span> <span class="token string">&#39;2&#39;</span><span class="token punctuation">,</span> <span class="token string">&#39;3&#39;</span><span class="token punctuation">]</span>
+    <span class="token punctuation">}</span><span class="token punctuation">;</span>
+    <span class="token keyword">var</span> app <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Vue</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      el<span class="token operator">:</span> <span class="token string">&#39;#app&#39;</span><span class="token punctuation">,</span>
+      data<span class="token operator">:</span> outData
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+  </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br></div></div><p>\u53EF\u4EE5\u770B\u5230\uFF0C\u4E0A\u9762\u65B9\u6CD5\u90FD\u53EF\u4EE5\u6539\u53D8\u6570\u636E\uFF0C\u4F46\u662F\u53EA\u6709<code>Vue.set</code>\u65B9\u6CD5\u6539\u53D8\u7684\u6570\u636E\u4F1A\u81EA\u52A8\u66F4\u65B0\u89C6\u56FE\u3002\u8FD9\u5C31\u662F<code>Vue.set</code>\u5B58\u5728\u7684\u539F\u56E0\u3002</p><h2 id="vue\u751F\u547D\u5468\u671F-\u94A9\u5B50\u51FD\u6570" tabindex="-1"><a class="header-anchor" href="#vue\u751F\u547D\u5468\u671F-\u94A9\u5B50\u51FD\u6570" aria-hidden="true">#</a> Vue\u751F\u547D\u5468\u671F(\u94A9\u5B50\u51FD\u6570)</h2><p>\u7F51\u4E0A\u6709\u8BB8\u591A\u5173\u4E8EVue\u751F\u547D\u5468\u671F\u7684\u8BB2\u89E3\uFF1A</p><p>\u6F14\u793A\uFF1A</p><div class="language-html ext-html line-numbers-mode"><pre class="language-html"><code><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>en<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>UTF-8<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">http-equiv</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>X-UA-Compatible<span class="token punctuation">&quot;</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>IE=edge<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>viewport<span class="token punctuation">&quot;</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>width=device-width, initial-scale=1.0<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>Document<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>https://unpkg.com/vue/dist/vue.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">&gt;</span></span>\u751F\u547D\u5468\u671F<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>hr</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>app<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    {{message}}
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">@click</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>jia<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>\u52A0\u5206<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token special-attr"><span class="token attr-name">onclick</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span><span class="token value javascript language-javascript">app<span class="token punctuation">.</span><span class="token function">$destroy</span><span class="token punctuation">(</span><span class="token punctuation">)</span></span><span class="token punctuation">&quot;</span></span></span><span class="token punctuation">&gt;</span></span>\u9500\u6BC1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>text/javascript<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+    <span class="token keyword">var</span> app <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Vue</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      el<span class="token operator">:</span> <span class="token string">&#39;#app&#39;</span><span class="token punctuation">,</span>
+      data<span class="token operator">:</span> <span class="token punctuation">{</span>
+        message<span class="token operator">:</span> <span class="token number">1</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      methods<span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token function-variable function">jia</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+          <span class="token keyword">this</span><span class="token punctuation">.</span>message<span class="token operator">++</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token function-variable function">beforeCreate</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&#39;1-beforeCreate \u521D\u59CB\u5316\u4E4B\u540E&#39;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token function-variable function">created</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&#39;2-created \u521B\u5EFA\u5B8C\u6210&#39;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token function-variable function">beforeMount</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&#39;3-beforeMount \u6302\u8F7D\u4E4B\u524D&#39;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token function-variable function">mounted</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&#39;4-mounted \u88AB\u521B\u5EFA&#39;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token function-variable function">beforeUpdate</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&#39;5-beforeUpdate \u6570\u636E\u66F4\u65B0\u524D&#39;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token function-variable function">updated</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&#39;6-updated \u88AB\u66F4\u65B0\u540E&#39;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token function-variable function">activated</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&#39;7-activated&#39;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token function-variable function">deactivated</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&#39;8-deactivated&#39;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token function-variable function">beforeDestroy</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&#39;9-beforeDestroy \u9500\u6BC1\u4E4B\u524D&#39;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token function-variable function">destroyed</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&#39;10-destroyed \u9500\u6BC1\u4E4B\u540E&#39;</span><span class="token punctuation">)</span>
+      <span class="token punctuation">}</span>
+
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+  </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br><span class="line-number">54</span><br><span class="line-number">55</span><br><span class="line-number">56</span><br><span class="line-number">57</span><br><span class="line-number">58</span><br><span class="line-number">59</span><br><span class="line-number">60</span><br><span class="line-number">61</span><br><span class="line-number">62</span><br><span class="line-number">63</span><br><span class="line-number">64</span><br><span class="line-number">65</span><br><span class="line-number">66</span><br><span class="line-number">67</span><br></div></div><p>\u6211\u4EEC\u53EF\u4EE5\u770B\u523010\u4E2A\u751F\u547D\u5468\u671F\u94A9\u5B50\u51FD\u6570\uFF1A</p><ol><li>beforeCreate\uFF08\u521B\u5EFA\u524D\uFF09 \uFF1A\u7EC4\u4EF6\u5B9E\u4F8B\u88AB\u521B\u5EFA\u4E4B\u521D\uFF0C\u7EC4\u4EF6\u7684\u5C5E\u6027\u751F\u6548\u4E4B\u524D</li><li>created\uFF08\u521B\u5EFA\u540E\uFF09 \uFF1A\u7EC4\u4EF6\u5B9E\u4F8B\u5DF2\u7ECF\u5B8C\u5168\u521B\u5EFA\uFF0C\u5C5E\u6027\u4E5F\u7ED1\u5B9A\uFF0C\u4F46\u771F\u5B9E dom \u8FD8\u6CA1\u6709\u751F\u6210\uFF0C$el \u8FD8\u4E0D\u53EF\u7528</li><li>beforeMount\uFF08\u6302\u8F7D\u524D\uFF09 \uFF1A\u5728\u6302\u8F7D\u5F00\u59CB\u4E4B\u524D\u88AB\u8C03\u7528\uFF1A\u76F8\u5173\u7684 render \u51FD\u6570\u9996\u6B21\u88AB\u8C03\u7528</li><li>mounted\uFF08\u6302\u8F7D\u540E\uFF09 \uFF1A\u5728el \u88AB\u65B0\u521B\u5EFA\u7684 vm.$el \u66FF\u6362\uFF0C\u5E76\u6302\u8F7D\u5230\u5B9E\u4F8B\u4E0A\u53BB\u4E4B\u540E\u8C03\u7528\u8BE5\u94A9\u5B50</li><li>beforeUpdate\uFF08\u66F4\u65B0\u524D\uFF09 \uFF1A\u7EC4\u4EF6\u6570\u636E\u66F4\u65B0\u4E4B\u524D\u8C03\u7528\uFF0C\u771F\u5B9EDOM\u8FD8\u6CA1\u88AB\u6E32\u67D3</li><li>update\uFF08\u66F4\u65B0\u540E\uFF09 \uFF1A\u7EC4\u4EF6\u6570\u636E\u66F4\u65B0\u4E4B\u540E</li><li>activated\uFF08\u6FC0\u6D3B\u524D\uFF09 \uFF1Akeep-alive\u4E13\u5C5E\uFF0C\u7EC4\u4EF6\u88AB\u6FC0\u6D3B\u65F6\u8C03\u7528</li><li>deactivated\uFF08\u6FC0\u6D3B\u540E\uFF09 \uFF1Akeep-alive\u4E13\u5C5E\uFF0C\u7EC4\u4EF6\u88AB\u9500\u6BC1\u65F6\u8C03\u7528</li><li>beforeDestory\uFF08\u9500\u6BC1\u524D\uFF09 \uFF1A\u7EC4\u4EF6\u9500\u6BC1\u524D\u8C03\u7528</li><li>destoryed\uFF08\u9500\u6BC1\u540E\uFF09 \uFF1A\u7EC4\u4EF6\u9500\u6BC1\u524D\u8C03\u7528</li></ol><p><img src="https://s2.loli.net/2022/01/22/HqwDSUOWx8ePMmb.png" alt=""></p><p>\u751F\u547D\u5468\u671F\u94A9\u5B50\u51FD\u6570\u7528\u6CD5\u5F88\u591A\u3002</p><h2 id="template\u6A21\u677F" tabindex="-1"><a class="header-anchor" href="#template\u6A21\u677F" aria-hidden="true">#</a> Template\u6A21\u677F</h2><p><code>Vue.js</code> \u4F7F\u7528\u4E86\u57FA\u4E8E HTML \u7684\u6A21\u677F\u8BED\u6CD5\uFF0C\u5141\u8BB8\u5F00\u53D1\u8005\u58F0\u660E\u5F0F\u5730\u5C06 DOM \u7ED1\u5B9A\u81F3\u5E95\u5C42 Vue \u5B9E\u4F8B\u7684\u6570\u636E\u3002</p><h4 id="_1-\u76F4\u63A5\u5728\u6784\u9020\u5668\u91CC\u7684template\u9009\u9879\u540E\u8FB9\u7F16\u5199" tabindex="-1"><a class="header-anchor" href="#_1-\u76F4\u63A5\u5728\u6784\u9020\u5668\u91CC\u7684template\u9009\u9879\u540E\u8FB9\u7F16\u5199" aria-hidden="true">#</a> 1.\u76F4\u63A5\u5728\u6784\u9020\u5668\u91CC\u7684template\u9009\u9879\u540E\u8FB9\u7F16\u5199</h4><p>\u5B8C\u6574\u4F8B\u5B50\uFF1A</p><div class="language-html ext-html line-numbers-mode"><pre class="language-html"><code><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>en<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>UTF-8<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">http-equiv</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>X-UA-Compatible<span class="token punctuation">&quot;</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>IE=edge<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>viewport<span class="token punctuation">&quot;</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>width=device-width, initial-scale=1.0<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>Document<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>https://unpkg.com/vue/dist/vue.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>app<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>text/javascript<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+    <span class="token keyword">var</span> app <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Vue</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      el<span class="token operator">:</span> <span class="token string">&#39;#app&#39;</span><span class="token punctuation">,</span>
+      data<span class="token operator">:</span> <span class="token punctuation">{</span>
+        message<span class="token operator">:</span> <span class="token string">&#39;hello Vue!&#39;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      template<span class="token operator">:</span> <span class="token template-string"><span class="token template-punctuation string">\`</span><span class="token string">
+        &lt;h1 style=&quot;color:red&quot;&gt;\u6211\u662F\u9009\u9879\u6A21\u677F&lt;/h1&gt;
+     </span><span class="token template-punctuation string">\`</span></span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+  </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br></div></div><p>\u8FD9\u91CC\u9700\u8981\u6CE8\u610F\u7684\u662F\u6A21\u677F\u7684\u6807\u8BC6\u4E0D\u662F\u5355\u5F15\u53F7\u548C\u53CC\u5F15\u53F7\uFF0C\u800C\u662F\uFF0C\u4E00\u822C\u5C31\u662FTab\u4E0A\u9762\u7684\u952E\u3002</p><h4 id="_2-\u5199\u5728template\u6807\u7B7E\u91CC\u9762" tabindex="-1"><a class="header-anchor" href="#_2-\u5199\u5728template\u6807\u7B7E\u91CC\u9762" aria-hidden="true">#</a> 2.\u5199\u5728template\u6807\u7B7E\u91CC\u9762</h4><p>\u8FD9\u79CD\u5199\u6CD5\u66F4\u50CF\u662F\u5728\u5199HTML\u4EE3\u7801\u3002</p><div class="language-html ext-html line-numbers-mode"><pre class="language-html"><code><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>en<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>UTF-8<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">http-equiv</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>X-UA-Compatible<span class="token punctuation">&quot;</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>IE=edge<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>viewport<span class="token punctuation">&quot;</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>width=device-width, initial-scale=1.0<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>Document<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>https://unpkg.com/vue/dist/vue.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>app<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>demo2<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h2</span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span><span class="token value css language-css"><span class="token property">color</span><span class="token punctuation">:</span>red</span><span class="token punctuation">&quot;</span></span></span><span class="token punctuation">&gt;</span></span>\u6211\u662Ftemplate\u6807\u7B7E\u6A21\u677F<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h2</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>text/javascript<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+    <span class="token keyword">var</span> app <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Vue</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      el<span class="token operator">:</span> <span class="token string">&#39;#app&#39;</span><span class="token punctuation">,</span>
+      data<span class="token operator">:</span> <span class="token punctuation">{</span>
+        message<span class="token operator">:</span> <span class="token string">&#39;hello Vue!&#39;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      template<span class="token operator">:</span> <span class="token string">&#39;#demo2&#39;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+  </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br></div></div><h4 id="_3-\u5199\u5728script\u6807\u7B7E\u91CC" tabindex="-1"><a class="header-anchor" href="#_3-\u5199\u5728script\u6807\u7B7E\u91CC" aria-hidden="true">#</a> 3.\u5199\u5728script\u6807\u7B7E\u91CC</h4><p>\u8FD9\u79CD\u5199\u6A21\u677F\u7684\u65B9\u6CD5\uFF0C\u53EF\u4EE5\u8BA9\u6A21\u677F\u6587\u4EF6\u4ECE\u5916\u90E8\u5F15\u5165\u3002</p><div class="language-html ext-html line-numbers-mode"><pre class="language-html"><code><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>en<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>UTF-8<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">http-equiv</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>X-UA-Compatible<span class="token punctuation">&quot;</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>IE=edge<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>viewport<span class="token punctuation">&quot;</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>width=device-width, initial-scale=1.0<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>Document<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>https://unpkg.com/vue/dist/vue.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>app<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>x-template<span class="token punctuation">&quot;</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>demo2<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+  <span class="token operator">&lt;</span>h2 style<span class="token operator">=</span><span class="token string">&quot;color:red&quot;</span><span class="token operator">&gt;</span>\u6211\u662Fscript\u6807\u7B7E\u6A21\u677F<span class="token operator">&lt;</span><span class="token operator">/</span>h2<span class="token operator">&gt;</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>text/javascript<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+  <span class="token keyword">var</span> app <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Vue</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    el<span class="token operator">:</span> <span class="token string">&#39;#app&#39;</span><span class="token punctuation">,</span>
+    data<span class="token operator">:</span> <span class="token punctuation">{</span>
+      message<span class="token operator">:</span> <span class="token string">&#39;hello Vue!&#39;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    template<span class="token operator">:</span> <span class="token string">&#39;#demo2&#39;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br></div></div><h4 id="_4\u3002\u5F53\u4F60\u4F7F\u7528vue-cli\u65F6\u4F1A\u66F4\u65B9\u4FBF" tabindex="-1"><a class="header-anchor" href="#_4\u3002\u5F53\u4F60\u4F7F\u7528vue-cli\u65F6\u4F1A\u66F4\u65B9\u4FBF" aria-hidden="true">#</a> 4\u3002\u5F53\u4F60\u4F7F\u7528vue_cli\u65F6\u4F1A\u66F4\u65B9\u4FBF</h4><!--]-->`);
 }
 const _sfc_setup$h = _sfc_main$h.setup;
 _sfc_main$h.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/vue/text2.html.vue");
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/vue/03\u5168\u5C40API.html.vue");
   return _sfc_setup$h ? _sfc_setup$h(props, ctx) : void 0;
 };
-var text2_html$2 = /* @__PURE__ */ _export_sfc(_sfc_main$h, [["ssrRender", _sfc_ssrRender$3]]);
-var text2_html$3 = /* @__PURE__ */ Object.freeze({
+var _03__API_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$h, [["ssrRender", _sfc_ssrRender$3]]);
+var _03__API_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  "default": text2_html$2
+  "default": _03__API_html$1
 });
 const _sfc_main$g = {};
 function _sfc_ssrRender$2(_ctx, _push, _parent, _attrs) {
@@ -5750,7 +6149,7 @@ const data$j = {
     "home": "true\uFF0C",
     "heroImage": "/images/logo.png",
     "heroText": null,
-    "tagline": "2019 ~ ----",
+    "tagline": null,
     "features": [
       {
         "title": "Markdown",
@@ -5777,12 +6176,12 @@ const data$j = {
     }
   ],
   "git": {
-    "updatedTime": 1641109712e3,
+    "updatedTime": 164292088e4,
     "contributors": [
       {
         "name": "\u9648\u67D2",
         "email": "3062995371@qq.com",
-        "commits": 5
+        "commits": 6
       }
     ]
   },
@@ -5914,14 +6313,139 @@ var vscode_____html = /* @__PURE__ */ Object.freeze({
   data: data$g
 });
 const data$f = {
-  "key": "v-6e6848ee",
-  "path": "/web/text1.html",
-  "title": "\u9875\u9762\u7684\u6807\u9898",
+  "key": "v-3509cb32",
+  "path": "/guide/interview/interview.html",
+  "title": "\u95EE\u9898\u96C6\u9526",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "title": "\u95EE\u9898\u96C6\u9526",
+    "lastUpdated": true,
+    "prev": true,
+    "next": true,
+    "date": "2022-01-02T00:00:00.000Z",
+    "tags": [
+      "\u9762\u8BD5",
+      "\u5176\u4ED6"
+    ]
+  },
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 2,
+      "title": "\u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD",
+      "slug": "\u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48\uFF1F",
+      "slug": "\u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9\uFF1F",
+      "slug": "\u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5\uFF1F",
+      "slug": "\u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\uFF1F",
+      "slug": "\u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u5728\u4E94\u5E74\u5185\uFF0C\u4F60\u7684\u804C\u4E1A\u89C4\u5212\uFF1F",
+      "slug": "\u5728\u4E94\u5E74\u5185-\u4F60\u7684\u804C\u4E1A\u89C4\u5212",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417?",
+      "slug": "\u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5?",
+      "slug": "\u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11?",
+      "slug": "\u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11",
+      "children": []
+    }
+  ],
+  "git": {
+    "updatedTime": 1642922234e3,
+    "contributors": [
+      {
+        "name": "\u9648\u67D2",
+        "email": "3062995371@qq.com",
+        "commits": 1
+      }
+    ]
+  },
+  "filePathRelative": "guide/interview/interview.md"
+};
+var interview_html = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  data: data$f
+});
+const data$e = {
+  "key": "v-5d3f7a3b",
+  "path": "/guide/interview/JSinterview.html",
+  "title": "JS\u9762\u8BD5\u96C6\u9526",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "title": "JS\u9762\u8BD5\u96C6\u9526",
+    "lastUpdated": true,
+    "prev": true,
+    "next": true,
+    "date": "2022-01-02T00:00:00.000Z",
+    "tags": [
+      "\u9762\u8BD5",
+      "\u5176\u4ED6"
+    ]
+  },
+  "excerpt": "",
+  "headers": [],
+  "git": {
+    "updatedTime": 1642922234e3,
+    "contributors": [
+      {
+        "name": "\u9648\u67D2",
+        "email": "3062995371@qq.com",
+        "commits": 1
+      }
+    ]
+  },
+  "filePathRelative": "guide/interview/JSinterview.md"
+};
+var JSinterview_html = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  data: data$e
+});
+const data$d = {
+  "key": "v-3803ce0e",
+  "path": "/guide/%E6%95%99%E7%A8%8B/text.html",
+  "title": "1a",
   "lang": "zh-CN",
   "frontmatter": {
     "lang": "zh-CN",
-    "title": "\u9875\u9762\u7684\u6807\u9898",
-    "description": "\u9875\u9762\u7684\u63CF\u8FF0"
+    "title": "1a",
+    "description": "12a"
   },
   "excerpt": "",
   "headers": [
@@ -5948,16 +6472,16 @@ const data$f = {
       }
     ]
   },
-  "filePathRelative": "web/text1.md"
+  "filePathRelative": "guide/\u6559\u7A0B/text.md"
 };
-var text1_html$1 = /* @__PURE__ */ Object.freeze({
+var text_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$f
+  data: data$d
 });
-const data$e = {
-  "key": "v-dcf09e5e",
-  "path": "/guide/%E6%95%85%E4%BA%8B/text.html",
+const data$c = {
+  "key": "v-71958ec2",
+  "path": "/guide/%E6%95%85%E4%BA%8B/story.html",
   "title": "\u65E5\u5E38\u6545\u4E8B",
   "lang": "zh-CN",
   "frontmatter": {
@@ -6028,7 +6552,7 @@ const data$e = {
     }
   ],
   "git": {
-    "updatedTime": 1642779743e3,
+    "updatedTime": 1642922234e3,
     "contributors": [
       {
         "name": "\u9648\u67D2",
@@ -6037,172 +6561,34 @@ const data$e = {
       }
     ]
   },
-  "filePathRelative": "guide/\u6545\u4E8B/text.md"
+  "filePathRelative": "guide/\u6545\u4E8B/story.md"
 };
-var text_html$2 = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  data: data$e
-});
-const data$d = {
-  "key": "v-3803ce0e",
-  "path": "/guide/%E6%95%99%E7%A8%8B/text.html",
-  "title": "1a",
-  "lang": "zh-CN",
-  "frontmatter": {
-    "lang": "zh-CN",
-    "title": "1a",
-    "description": "12a"
-  },
-  "excerpt": "",
-  "headers": [
-    {
-      "level": 2,
-      "title": "3",
-      "slug": "_3",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "4",
-      "slug": "_4",
-      "children": []
-    }
-  ],
-  "git": {
-    "updatedTime": 1640251957e3,
-    "contributors": [
-      {
-        "name": "\u9648\u67D2",
-        "email": "3062995371@qq.com",
-        "commits": 1
-      }
-    ]
-  },
-  "filePathRelative": "guide/\u6559\u7A0B/text.md"
-};
-var text_html$1 = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  data: data$d
-});
-const data$c = {
-  "key": "v-9b98914c",
-  "path": "/guide/%E9%9A%8F%E7%AC%94/text.html",
-  "title": "1a",
-  "lang": "zh-CN",
-  "frontmatter": {
-    "lang": "zh-CN",
-    "title": "1a",
-    "description": "12a"
-  },
-  "excerpt": "",
-  "headers": [
-    {
-      "level": 2,
-      "title": "3",
-      "slug": "_3",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "4",
-      "slug": "_4",
-      "children": []
-    }
-  ],
-  "git": {
-    "updatedTime": 1640251957e3,
-    "contributors": [
-      {
-        "name": "\u9648\u67D2",
-        "email": "3062995371@qq.com",
-        "commits": 1
-      }
-    ]
-  },
-  "filePathRelative": "guide/\u968F\u7B14/text.md"
-};
-var text_html = /* @__PURE__ */ Object.freeze({
+var story_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   data: data$c
 });
 const data$b = {
-  "key": "v-796e15ea",
-  "path": "/guide/%E9%9D%A2%E8%AF%95/interview.html",
-  "title": "\u9762\u8BD5\u96C6\u9526",
+  "key": "v-6c145c9c",
+  "path": "/guide/%E9%9A%8F%E7%AC%94/reflection.html",
+  "title": "\u6240\u4EE5\u4E8B\u5C0F\u4E8E\u6B7B",
   "lang": "zh-CN",
   "frontmatter": {
-    "title": "\u9762\u8BD5\u96C6\u9526",
-    "lastUpdated": true,
-    "prev": true,
-    "next": true,
-    "date": "2022-01-02T00:00:00.000Z",
-    "tags": [
-      "\u9762\u8BD5",
-      "\u5176\u4ED6"
-    ]
+    "lang": "zh-CN",
+    "title": "\u6240\u4EE5\u4E8B\u5C0F\u4E8E\u6B7B",
+    "description": "12a"
   },
   "excerpt": "",
   "headers": [
     {
       "level": 2,
-      "title": "\u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD",
-      "slug": "\u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48\uFF1F",
-      "slug": "\u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9\uFF1F",
-      "slug": "\u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5\uFF1F",
-      "slug": "\u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\uFF1F",
-      "slug": "\u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u5728\u4E94\u5E74\u5185\uFF0C\u4F60\u7684\u804C\u4E1A\u89C4\u5212\uFF1F",
-      "slug": "\u5728\u4E94\u5E74\u5185-\u4F60\u7684\u804C\u4E1A\u89C4\u5212",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417?",
-      "slug": "\u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5?",
-      "slug": "\u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11?",
-      "slug": "\u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11",
+      "title": "\u4F5C\u4E3A\u4E00\u4E2A\u4EBA",
+      "slug": "\u4F5C\u4E3A\u4E00\u4E2A\u4EBA",
       "children": []
     }
   ],
   "git": {
-    "updatedTime": 1641109712e3,
+    "updatedTime": 1642922234e3,
     "contributors": [
       {
         "name": "\u9648\u67D2",
@@ -6211,40 +6597,70 @@ const data$b = {
       }
     ]
   },
-  "filePathRelative": "guide/\u9762\u8BD5/interview.md"
+  "filePathRelative": "guide/\u968F\u7B14/reflection.md"
 };
-var interview_html = /* @__PURE__ */ Object.freeze({
+var reflection_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   data: data$b
 });
 const data$a = {
-  "key": "v-89e39176",
-  "path": "/web/html/text1.html",
-  "title": "html\u6807\u9898",
+  "key": "v-72cc4ebc",
+  "path": "/web/css/01-css.html",
+  "title": "CSS",
   "lang": "zh-CN",
   "frontmatter": {
     "lang": "zh-CN",
-    "title": "html\u6807\u9898",
+    "title": "CSS",
+    "description": "CSS"
+  },
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 2,
+      "title": "\u4EC0\u4E48\u662FCSS\uFF1F",
+      "slug": "\u4EC0\u4E48\u662Fcss",
+      "children": []
+    }
+  ],
+  "git": {
+    "updatedTime": 164292088e4,
+    "contributors": [
+      {
+        "name": "\u9648\u67D2",
+        "email": "3062995371@qq.com",
+        "commits": 1
+      }
+    ]
+  },
+  "filePathRelative": "web/css/01-css.md"
+};
+var _01Css_html = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  data: data$a
+});
+const data$9 = {
+  "key": "v-cce3d85c",
+  "path": "/web/html/01-html.html",
+  "title": "html",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "lang": "zh-CN",
+    "title": "html",
     "description": "html\u63CF\u8FF0"
   },
   "excerpt": "",
   "headers": [
     {
       "level": 2,
-      "title": "3",
-      "slug": "_3",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "4",
-      "slug": "_4",
+      "title": "\u4EC0\u4E48\u662FHTML\uFF1F",
+      "slug": "\u4EC0\u4E48\u662Fhtml",
       "children": []
     }
   ],
   "git": {
-    "updatedTime": 1640251957e3,
+    "updatedTime": 164292088e4,
     "contributors": [
       {
         "name": "\u9648\u67D2",
@@ -6253,51 +6669,9 @@ const data$a = {
       }
     ]
   },
-  "filePathRelative": "web/html/text1.md"
+  "filePathRelative": "web/html/01-html.md"
 };
-var text1_html = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  data: data$a
-});
-const data$9 = {
-  "key": "v-8679e038",
-  "path": "/web/html/text2.html",
-  "title": "html2\u6807\u9898",
-  "lang": "zh-CN",
-  "frontmatter": {
-    "lang": "zh-CN",
-    "title": "html2\u6807\u9898",
-    "description": "html2\u63CF\u8FF0"
-  },
-  "excerpt": "",
-  "headers": [
-    {
-      "level": 2,
-      "title": "3",
-      "slug": "_3",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "4",
-      "slug": "_4",
-      "children": []
-    }
-  ],
-  "git": {
-    "updatedTime": 1640251957e3,
-    "contributors": [
-      {
-        "name": "\u9648\u67D2",
-        "email": "3062995371@qq.com",
-        "commits": 1
-      }
-    ]
-  },
-  "filePathRelative": "web/html/text2.md"
-};
-var text2_html$1 = /* @__PURE__ */ Object.freeze({
+var _01Html_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   data: data$9
@@ -6758,8 +7132,8 @@ const data$4 = {
     },
     {
       "level": 2,
-      "title": "MVVM\uFF1F",
-      "slug": "mvvm",
+      "title": "MVVM\u6A21\u5F0F\uFF1F",
+      "slug": "mvvm\u6A21\u5F0F",
       "children": [
         {
           "level": 3,
@@ -6776,7 +7150,7 @@ const data$4 = {
         {
           "level": 3,
           "title": "MVVM",
-          "slug": "mvvm-1",
+          "slug": "mvvm",
           "children": []
         },
         {
@@ -6807,7 +7181,7 @@ const data$4 = {
     }
   ],
   "git": {
-    "updatedTime": 1641553252e3,
+    "updatedTime": 164292088e4,
     "contributors": [
       {
         "name": "540765",
@@ -6817,7 +7191,7 @@ const data$4 = {
       {
         "name": "\u9648\u67D2",
         "email": "3062995371@qq.com",
-        "commits": 1
+        "commits": 2
       }
     ]
   },
@@ -6829,13 +7203,13 @@ var _01_html = /* @__PURE__ */ Object.freeze({
   data: data$4
 });
 const data$3 = {
-  "key": "v-637b5fd4",
-  "path": "/web/vue/02vue%E5%AE%9E%E4%BE%8B.html",
-  "title": "vue\u5B9E\u4F8B\u8D77\u6B65",
+  "key": "v-306f3916",
+  "path": "/web/vue/02vue%E6%8C%87%E4%BB%A4.html",
+  "title": "vue\u6307\u4EE4",
   "lang": "zh-CN",
   "frontmatter": {
     "lang": "zh-CN",
-    "title": "vue\u5B9E\u4F8B\u8D77\u6B65",
+    "title": "vue\u6307\u4EE4",
     "description": "vue\u63CF\u8FF0"
   },
   "excerpt": "",
@@ -6874,26 +7248,45 @@ const data$3 = {
           "title": "v-text \u3001v-html",
           "slug": "v-text-\u3001v-html",
           "children": []
+        },
+        {
+          "level": 3,
+          "title": "v-on",
+          "slug": "v-on",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "v-bind",
+          "slug": "v-bind",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "v-model",
+          "slug": "v-model",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "v-pre\u3001v-cloak\u3001v-once",
+          "slug": "v-pre\u3001v-cloak\u3001v-once",
+          "children": []
         }
       ]
     }
   ],
   "git": {
-    "updatedTime": 1642779743e3,
+    "updatedTime": 164292088e4,
     "contributors": [
-      {
-        "name": "540765",
-        "email": "3062995371@qq.com",
-        "commits": 3
-      },
       {
         "name": "\u9648\u67D2",
         "email": "3062995371@qq.com",
-        "commits": 1
+        "commits": 2
       }
     ]
   },
-  "filePathRelative": "web/vue/02vue\u5B9E\u4F8B.md"
+  "filePathRelative": "web/vue/02vue\u6307\u4EE4.md"
 };
 var _02vue___html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
@@ -6901,43 +7294,61 @@ var _02vue___html = /* @__PURE__ */ Object.freeze({
   data: data$3
 });
 const data$2 = {
-  "key": "v-59222251",
-  "path": "/web/vue/text2.html",
-  "title": "vue2\u6807\u9898",
+  "key": "v-2ca8e124",
+  "path": "/web/vue/03%E5%85%A8%E5%B1%80API.html",
+  "title": "vue\u5168\u5C40API",
   "lang": "zh-CN",
   "frontmatter": {
     "lang": "zh-CN",
-    "title": "vue2\u6807\u9898",
-    "description": "vue2\u63CF\u8FF0"
+    "title": "vue\u5168\u5C40API",
+    "description": "vue\u5168\u5C40API"
   },
   "excerpt": "",
   "headers": [
     {
       "level": 2,
-      "title": "3",
-      "slug": "_3",
+      "title": "Vue.directive\u81EA\u5B9A\u4E49\u5C5E\u6027",
+      "slug": "vue-directive\u81EA\u5B9A\u4E49\u5C5E\u6027",
       "children": []
     },
     {
       "level": 2,
-      "title": "4",
-      "slug": "_4",
+      "title": "Vue.extend\u6784\u9020\u5668",
+      "slug": "vue-extend\u6784\u9020\u5668",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "Vue.set\u5168\u5C40\u64CD\u4F5C",
+      "slug": "vue-set\u5168\u5C40\u64CD\u4F5C",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "Vue\u751F\u547D\u5468\u671F(\u94A9\u5B50\u51FD\u6570)",
+      "slug": "vue\u751F\u547D\u5468\u671F-\u94A9\u5B50\u51FD\u6570",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "Template\u6A21\u677F",
+      "slug": "template\u6A21\u677F",
       "children": []
     }
   ],
   "git": {
-    "updatedTime": 1640251957e3,
+    "updatedTime": 164292088e4,
     "contributors": [
       {
         "name": "\u9648\u67D2",
         "email": "3062995371@qq.com",
-        "commits": 1
+        "commits": 2
       }
     ]
   },
-  "filePathRelative": "web/vue/text2.md"
+  "filePathRelative": "web/vue/03\u5168\u5C40API.md"
 };
-var text2_html = /* @__PURE__ */ Object.freeze({
+var _03__API_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   data: data$2
