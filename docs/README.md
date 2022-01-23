@@ -2,7 +2,7 @@
 home: true，
 heroImage: /images/logo.png
 heroText:  null
-tagline: 2019 ~ ----
+tagline: 
 # actions:
 #   - text: 快速上手
 #     link: /zh/guide/getting-started.html

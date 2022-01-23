@@ -9,7 +9,7 @@ description: vue全局API
 全局API并不在构造器里，而是先声明全局变量或者直接在Vue上定义一些新功能，Vue内置了一些全局API，说的简单些就是，在构造器外部用Vue提供给我们的API函数来定义新的功能。
 
 
-## Vue.directive自定义属性 :100:
+ ## Vue.directive自定义属性
 
 上一篇我们学了那些`指令`,我们也可以自定义指令。
 
@@ -18,7 +18,6 @@ description: vue全局API
 ```html
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,7 +25,6 @@ description: vue全局API
   <title>Document</title>
   <script src="https://unpkg.com/vue/dist/vue.js"></script>
 </head>
-
 <body>
   <div id="app">
     <p v-my="color" id="demo">
@@ -37,7 +35,6 @@ description: vue全局API
     </div>
   </div>
 </body>
-
 </html>
 <script>
   Vue.directive('my', function (el, binding, vnode) {
@@ -79,7 +76,6 @@ description: vue全局API
 使用：
 
 ```js
-//基于上面例子
  Vue.directive('my', {
     function(el, binding, vnode) {
       el.style = 'color:' + binding.value;
@@ -108,11 +104,11 @@ description: vue全局API
 
 #### 自定义无参数标签
 
-这是基础用法，想象一个需求，要在博客页面多处显示作者的网名，并在网名上直接有链接地址。我们希望在html中只需要写<author></author>，这和自定义组件很像，但是他没有传递任何参数，只是个静态标签。
+这是基础用法，想象一个需求，要在博客页面多处显示作者的网名，并在网名上直接有链接地址。我们希望在html中只需要写`<author></author>`，这和自定义组件很像，但是他没有传递任何参数，只是个静态标签。
 
 完整实现：
 
-```js
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -266,7 +262,7 @@ outData.count++;
 </head>
 
 <body>
-  <h1>构造器的声明周期</h1>
+  <h1>生命周期</h1>
   <hr>
   <div id="app">
     {{message}}
@@ -340,6 +336,127 @@ outData.count++;
 ![](https://s2.loli.net/2022/01/22/HqwDSUOWx8ePMmb.png)
 
 生命周期钩子函数用法很多。
+
+## Template模板
+
+
+`Vue.js` 使用了基于 HTML 的模板语法，允许开发者声明式地将 DOM 绑定至底层 Vue 实例的数据。
+
+#### 1.直接在构造器里的template选项后边编写
+
+完整例子：
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+</head>
+
+<body>
+  <div id="app"></div>
+
+  <script type="text/javascript">
+    var app = new Vue({
+      el: '#app',
+      data: {
+        message: 'hello Vue!'
+      },
+      template: `
+        <h1 style="color:red">我是选项模板</h1>
+     `
+    })
+  </script>
+</body>
+
+</html>
+```
+
+这里需要注意的是模板的标识不是单引号和双引号，而是，一般就是Tab上面的键。
+
+#### 2.写在template标签里面
+
+这种写法更像是在写HTML代码。
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+</head>
+
+<body>
+  <div id="app">
+    <template id="demo2">
+      <h2 style="color:red">我是template标签模板</h2>
+    </template>
+  </div>
+
+  <script type="text/javascript">
+    var app = new Vue({
+      el: '#app',
+      data: {
+        message: 'hello Vue!'
+      },
+      template: '#demo2'
+    })
+  </script>
+</body>
+
+</html>
+```
+
+#### 3.写在script标签里
+
+这种写模板的方法，可以让模板文件从外部引入。
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+</head>
+
+<body>
+  <div id="app">
+  </div>
+</body>
+<script type="x-template" id="demo2">
+  <h2 style="color:red">我是script标签模板</h2>
+</script>
+<script type="text/javascript">
+  var app = new Vue({
+    el: '#app',
+    data: {
+      message: 'hello Vue!'
+    },
+    template: '#demo2'
+  })
+</script>
+
+</html>
+```
+
+#### 4。当你使用vue_cli时会更方便
+
+
+
+
 
 
 

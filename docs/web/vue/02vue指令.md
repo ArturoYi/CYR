@@ -230,7 +230,7 @@ var app=new Vue({
 
 ### v-text 、v-html
 
-使用`{{xxx}}`展示数据这种情况是有弊端的，就是当我们网速很慢或者`javascript`出错时，会暴露我们的`{{xxx}}`。`Vue`给我们提供的`v-text`,就是解决这个问题的。如果在`javascript`中写有`html`标签，用`v-text`是输出不出来的，这时候我们就需要用`v-html`标签了。
+使用`{{ }}`展示数据这种情况是有弊端的，就是当我们网速很慢或者`javascript`出错时，会暴露我们的`{{}}`里面的属性。`Vue`给我们提供的`v-text`,就是解决这个问题的。如果在`javascript`中写有`html`标签，用`v-text`是输出不出来的，这时候我们就需要用`v-html`标签了。 
 
 下面是
 
@@ -443,18 +443,19 @@ var app = new Vue({
 #### `v-cloak`
 
 在`vue`渲染完指定的整个`DOM`后才进行显示。它必须和`CSS`样式一起使用。解决：
-解决闪烁问题,防止网速慢页面会出现`{{msg}}`的问题
+解决闪烁问题,防止网速慢页面会出现{{ }}的问题
 
 ```css
 [v-cloak] {
   display: none;
 }
 ```
-```html
+
+<!-- ```html
 <div v-cloak>
   {{ msg }}
 </div>
-```
+``` -->
 
 #### `v-once`
 

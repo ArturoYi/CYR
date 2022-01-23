@@ -35,9 +35,9 @@ export default defineUserConfig<DefaultThemeOptions>({
       {
         text: '前端',
         children: [
-          { text: '《html》', link: '/web/html/text1.md' },
+          { text: '《html》', link: '/web/html/01-html.md' },
           { text: '《JavaScript教程》', link: '/web/JavaScript/入门导论.md' },
-          { text: '《CSS》', link: 'https://www.baidu.com/' },
+          { text: '《CSS》', link: '/web/css/01-css.md' },
         ]
       },
       {
@@ -77,21 +77,19 @@ export default defineUserConfig<DefaultThemeOptions>({
     sidebar: {
       '/web/vue/': [
         {
-          text: '标题',
+          text: 'VUE2.x',
           children: [
             '01.md',
             '02vue指令.md',
             '03全局API.md',
-            'text2.md',
           ],
         },
       ],
       '/web/html/': [
         {
-          text: '标题',
+          text: 'HTML',
           children: [
-            '/web/html/text2.md',
-            '/web/html/text1.md'
+            '/web/html/01-html.md',
           ],
         },
       ],
