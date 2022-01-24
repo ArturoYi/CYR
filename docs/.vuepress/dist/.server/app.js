@@ -78,14 +78,14 @@ const pagesComponents = {
   "v-5d3f7a3b": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return JSinterview_html$2;
   })),
-  "v-6c145c9c": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return reflection_html$2;
+  "v-3803ce0e": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return text_html$2;
   })),
   "v-71958ec2": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return story_html$2;
   })),
-  "v-3803ce0e": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return text_html$2;
+  "v-6c145c9c": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return reflection_html$2;
   })),
   "v-72cc4ebc": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return _01Css_html$2;
@@ -140,14 +140,14 @@ const pagesData$1 = {
   "v-5d3f7a3b": () => Promise.resolve().then(function() {
     return JSinterview_html;
   }).then(({ data: data2 }) => data2),
-  "v-6c145c9c": () => Promise.resolve().then(function() {
-    return reflection_html;
+  "v-3803ce0e": () => Promise.resolve().then(function() {
+    return text_html;
   }).then(({ data: data2 }) => data2),
   "v-71958ec2": () => Promise.resolve().then(function() {
     return story_html;
   }).then(({ data: data2 }) => data2),
-  "v-3803ce0e": () => Promise.resolve().then(function() {
-    return text_html;
+  "v-6c145c9c": () => Promise.resolve().then(function() {
+    return reflection_html;
   }).then(({ data: data2 }) => data2),
   "v-72cc4ebc": () => Promise.resolve().then(function() {
     return _01Css_html;
@@ -1087,22 +1087,71 @@ const searchIndex$1 = [
   },
   {
     "title": "JS\u9762\u8BD5\u96C6\u9526",
-    "headers": [],
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.\u5EF6\u8FDF\u52A0\u8F7DJS\u7684\u65B9\u5F0F\u6709\u54EA\u4E9B",
+        "slug": "_1-\u5EF6\u8FDF\u52A0\u8F7Djs\u7684\u65B9\u5F0F\u6709\u54EA\u4E9B",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.js\u7684\u6570\u636E\u7C7B\u578B\u548CNaN",
+        "slug": "_2-js\u7684\u6570\u636E\u7C7B\u578B\u548Cnan",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.null \u548C undefined",
+        "slug": "_3-null-\u548C-undefined",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.==\u548C===\u6709\u4EC0\u4E48\u4E0D\u540C\uFF1F",
+        "slug": "_4-\u548C-\u6709\u4EC0\u4E48\u4E0D\u540C",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5.\u5B8F\u4EFB\u52A1\u548C\u5FAE\u4EFB\u52A1\uFF08Event Loop \uFF09",
+        "slug": "_5-\u5B8F\u4EFB\u52A1\u548C\u5FAE\u4EFB\u52A1-event-loop",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6.\u4F5C\u7528\u57DF",
+        "slug": "_6-\u4F5C\u7528\u57DF",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "7.JS\u5BF9\u8C61\uFF08new\u53D1\u751F\u4E86\u4E0A\u9762\uFF1F\uFF09",
+        "slug": "_7-js\u5BF9\u8C61-new\u53D1\u751F\u4E86\u4E0A\u9762",
+        "children": []
+      }
+    ],
     "path": "/guide/interview/JSinterview.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "\u6240\u4EE5\u4E8B\u5C0F\u4E8E\u6B7B",
+    "title": "1a",
     "headers": [
       {
         "level": 2,
-        "title": "\u4F5C\u4E3A\u4E00\u4E2A\u4EBA",
-        "slug": "\u4F5C\u4E3A\u4E00\u4E2A\u4EBA",
+        "title": "3",
+        "slug": "_3",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4",
+        "slug": "_4",
         "children": []
       }
     ],
-    "path": "/guide/%E9%9A%8F%E7%AC%94/reflection.html",
+    "path": "/guide/%E6%95%99%E7%A8%8B/text.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1175,22 +1224,16 @@ const searchIndex$1 = [
     "extraFields": []
   },
   {
-    "title": "1a",
+    "title": "\u6240\u4EE5\u4E8B\u5C0F\u4E8E\u6B7B",
     "headers": [
       {
         "level": 2,
-        "title": "3",
-        "slug": "_3",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4",
-        "slug": "_4",
+        "title": "\u4F5C\u4E3A\u4E00\u4E2A\u4EBA",
+        "slug": "\u4F5C\u4E3A\u4E00\u4E2A\u4EBA",
         "children": []
       }
     ],
-    "path": "/guide/%E6%95%99%E7%A8%8B/text.html",
+    "path": "/guide/%E9%9A%8F%E7%AC%94/reflection.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2141,9 +2184,9 @@ const routeItems = [
   ["v-66ff7ae2", "/course/vscode%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.html", { "title": "vscode\u5E38\u7528\u63D2\u4EF6" }, ["/course/vscode\u5E38\u7528\u63D2\u4EF6.html", "/course/vscode%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6", "/course/vscode\u5E38\u7528\u63D2\u4EF6.md", "/course/vscode%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.md"]],
   ["v-3509cb32", "/guide/interview/interview.html", { "title": "\u95EE\u9898\u96C6\u9526" }, ["/guide/interview/interview", "/guide/interview/interview.md"]],
   ["v-5d3f7a3b", "/guide/interview/JSinterview.html", { "title": "JS\u9762\u8BD5\u96C6\u9526" }, ["/guide/interview/JSinterview", "/guide/interview/JSinterview.md"]],
-  ["v-6c145c9c", "/guide/%E9%9A%8F%E7%AC%94/reflection.html", { "title": "\u6240\u4EE5\u4E8B\u5C0F\u4E8E\u6B7B" }, ["/guide/\u968F\u7B14/reflection.html", "/guide/%E9%9A%8F%E7%AC%94/reflection", "/guide/\u968F\u7B14/reflection.md", "/guide/%E9%9A%8F%E7%AC%94/reflection.md"]],
-  ["v-71958ec2", "/guide/%E6%95%85%E4%BA%8B/story.html", { "title": "\u65E5\u5E38\u6545\u4E8B" }, ["/guide/\u6545\u4E8B/story.html", "/guide/%E6%95%85%E4%BA%8B/story", "/guide/\u6545\u4E8B/story.md", "/guide/%E6%95%85%E4%BA%8B/story.md"]],
   ["v-3803ce0e", "/guide/%E6%95%99%E7%A8%8B/text.html", { "title": "1a" }, ["/guide/\u6559\u7A0B/text.html", "/guide/%E6%95%99%E7%A8%8B/text", "/guide/\u6559\u7A0B/text.md", "/guide/%E6%95%99%E7%A8%8B/text.md"]],
+  ["v-71958ec2", "/guide/%E6%95%85%E4%BA%8B/story.html", { "title": "\u65E5\u5E38\u6545\u4E8B" }, ["/guide/\u6545\u4E8B/story.html", "/guide/%E6%95%85%E4%BA%8B/story", "/guide/\u6545\u4E8B/story.md", "/guide/%E6%95%85%E4%BA%8B/story.md"]],
+  ["v-6c145c9c", "/guide/%E9%9A%8F%E7%AC%94/reflection.html", { "title": "\u6240\u4EE5\u4E8B\u5C0F\u4E8E\u6B7B" }, ["/guide/\u968F\u7B14/reflection.html", "/guide/%E9%9A%8F%E7%AC%94/reflection", "/guide/\u968F\u7B14/reflection.md", "/guide/%E9%9A%8F%E7%AC%94/reflection.md"]],
   ["v-72cc4ebc", "/web/css/01-css.html", { "title": "CSS" }, ["/web/css/01-css", "/web/css/01-css.md"]],
   ["v-cce3d85c", "/web/html/01-html.html", { "title": "html" }, ["/web/html/01-html", "/web/html/01-html.md"]],
   ["v-72bd4e03", "/web/JavaScript/%E5%85%A5%E9%97%A8%E5%AF%BC%E8%AE%BA.html", { "title": "\u5165\u95E8\u5BFC\u8BBA" }, ["/web/JavaScript/\u5165\u95E8\u5BFC\u8BBA.html", "/web/JavaScript/%E5%85%A5%E9%97%A8%E5%AF%BC%E8%AE%BA", "/web/JavaScript/\u5165\u95E8\u5BFC\u8BBA.md", "/web/JavaScript/%E5%85%A5%E9%97%A8%E5%AF%BC%E8%AE%BA.md"]],
@@ -3408,10 +3451,37 @@ var interview_html$2 = /* @__PURE__ */ Object.freeze({
 });
 const _sfc_main$t = {};
 function _sfc_ssrRender$f(_ctx, _push, _parent, _attrs) {
-  _push(`<h1${serverRenderer.ssrRenderAttrs(vue.mergeProps({
-    id: "js\u9762\u8BD5",
-    tabindex: "-1"
-  }, _attrs))}><a class="header-anchor" href="#js\u9762\u8BD5" aria-hidden="true">#</a> JS\u9762\u8BD5</h1>`);
+  _push(`<!--[--><h1 id="js\u9762\u8BD5" tabindex="-1"><a class="header-anchor" href="#js\u9762\u8BD5" aria-hidden="true">#</a> JS\u9762\u8BD5</h1><p>\u4E0D\u5206\u987A\u5E8F</p><h2 id="_1-\u5EF6\u8FDF\u52A0\u8F7Djs\u7684\u65B9\u5F0F\u6709\u54EA\u4E9B" tabindex="-1"><a class="header-anchor" href="#_1-\u5EF6\u8FDF\u52A0\u8F7Djs\u7684\u65B9\u5F0F\u6709\u54EA\u4E9B" aria-hidden="true">#</a> 1.\u5EF6\u8FDF\u52A0\u8F7DJS\u7684\u65B9\u5F0F\u6709\u54EA\u4E9B</h2><p>\u91CD\u70B9\uFF1A<code>async</code>\u3001<code>defer</code></p><p>\u56FE\u89E3\u8BF4\u660E\uFF1A</p><p><img src="https://s6.jpg.cm/2022/01/24/LpwDYt.jpg" alt="LpwDYt.jpg"></p><ol><li>\u6B63\u5E38\u60C5\u51B5\u4E0B\u7684<code>script</code>\u811A\u672C\u6267\u884C\uFF1A</li></ol><p>\u6B63\u5E38\u60C5\u51B5\u4E0B\uFF0C\u6D4F\u89C8\u5668\u4F1A\u987A\u5E8F\u6267\u884C\u4EE3\u7801\uFF0C\u9047\u5230<code>script</code>\u811A\u672C\u65F6\uFF0CHTML\u4F1A\u505C\u6B62\u89E3\u6790\uFF0C\u5148\u4E0B\u8F7D<code>script</code>\u811A\u672C\uFF0C\u7136\u540E\u6267\u884C\u5B83\uFF08\u4E00\u822C\u662F\u6211\u4EEC\u5916\u90E8\u5F15\u5165\u7684\u811A\u672C\uFF09,\u7136\u540E\u518D\u7EE7\u7EED\u89E3\u6790HTML\u3002\u4E0B\u9762\u4EE3\u7801\uFF1A</p><div class="language-html ext-html line-numbers-mode"><pre class="language-html"><code><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>en<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+  <span class="token comment">&lt;!-- \u6A21\u62DF\u6587\u4EF6 --&gt;</span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>./11.js<span class="token punctuation">&quot;</span></span> <span class="token attr-name">defer</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>defer<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><p><img src="https://s6.jpg.cm/2022/01/24/LpoRAX.jpg" alt="LpoRAX.jpg"></p><ol start="2"><li>defaer\u5C5E\u6027</li></ol><p><code>defaer</code>\u5728\u89E3\u6790\u9875\u9762\u65F6\u4F1A\u540C\u65F6\u4E0B\u8F7D\u811A\u672C\uFF0C\u52A0\u8F7D\u5B8C\u9875\u9762\u540E\u518D\u6267\u884C\u811A\u672C\u3002</p><p>\u91CD\u70B9\uFF1A\u5728HTML\u89E3\u6790\u5B8C\u540E\uFF0C<code>defaer</code>\u5F15\u5165\u7684\u811A\u672C(JS)\u4E4B\u95F4\u4E5F\u662F\u987A\u5E8F\u6267\u884C\u7684\u3002</p><p><img src="https://s6.jpg.cm/2022/01/24/Lpo6fS.jpg" alt="Lpo6fS.jpg"></p><ol start="3"><li>async\u5C5E\u6027</li></ol><p><code>asyns</code>\u5728\u89E3\u6790\u9875\u9762\u7684\u65F6\u5019\u4F1A\u540C\u6B65\u4E0B\u8F7D\u811A\u672C\uFF0C\u4F46\u6267\u884C\u65F6\u4F1A\u6682\u505C\u89E3\u6790HTML\u3002</p><p>\u91CD\u70B9\uFF1A<code>async</code>\u548CHTML\u540C\u6B65\u89E3\u6790\uFF0C\u4F46\u4E0D\u662F\u987A\u5E8F\u6267\u884C\u811A\u672C\uFF08JS\uFF09,\u8C01\u5148\u52A0\u8F7D\u5B8C\u8C01\u5148\u6267\u884C\u3002</p><p><img src="https://s6.jpg.cm/2022/01/24/LpoVZW.jpg" alt="LpoVZW.jpg"></p><ol start="4"><li>\u5176\u5B83\u65B9\u6CD5</li></ol><ul><li>\u4F7F\u7528jQuery\u7684getScript()\u65B9\u6CD5</li><li>\u52A8\u6001\u521B\u5EFADOM\u65B9\u5F0F</li><li>\u4F7F\u7528setTimeout\u5EF6\u8FDF\u65B9\u6CD5</li><li>\u8BA9JS\u6700\u540E\u52A0\u8F7D\uFF08JS\u653E\u5728\u6587\u4EF6\u9875\u9762\u5E95\u90E8\uFF09</li></ul><h2 id="_2-js\u7684\u6570\u636E\u7C7B\u578B\u548Cnan" tabindex="-1"><a class="header-anchor" href="#_2-js\u7684\u6570\u636E\u7C7B\u578B\u548Cnan" aria-hidden="true">#</a> 2.js\u7684\u6570\u636E\u7C7B\u578B\u548CNaN</h2><ol><li>\u57FA\u672C\u7C7B\u578B</li></ol><p><code>string</code>,<code>number</code>,<code>boolean</code>,<code>undefined</code>,<code>null</code>,<code>symbol</code></p><ol start="2"><li>\u5F15\u7528\u7C7B\u578B</li></ol><p><code>object</code></p><ol start="3"><li>NaN</li></ol><p><code>NaN</code>\u662F\u4E00\u4E2A\u6570\u503C\u7C7B\u578B\uFF0C\u4F46\u4E0D\u662F\u4E00\u4E2A\u5177\u4F53\u7684\u6570\u636E</p><h2 id="_3-null-\u548C-undefined" tabindex="-1"><a class="header-anchor" href="#_3-null-\u548C-undefined" aria-hidden="true">#</a> 3.null \u548C undefined</h2><p>\u6211\u7684\u7406\u89E3\uFF1A\u4E24\u8005\u90FD\u8868\u793A<code>\u65E0</code>\u4F46\uFF1A</p><ul><li><code>undefined</code>\u8868\u793A\u672A\u5B9A\u4E49\uFF08\u65E0\u7684\u521D\u59CB\u503C\uFF09,\u8F6C\u6362\u4E3A\u6570\u503C\u65F6\u4E3ANaN\u3002</li><li><code>null</code>\u8868\u793A\u7A7A\uFF08\u65E0\u7684\u5BF9\u8C61\u6216\u7A7A\u5BF9\u8C61\u6307\u9488\uFF09\uFF0C\u8F6C\u5316\u4E3A\u6570\u503C\u65F6\u4E3A<code>0</code>(\u95EE\u9898\u6240\u5728)\u3002</li></ul><p>\u4E0A\u9762\u5DEE\u4E0D\u591A\u4E86\uFF0C\u66F4\u591A\uFF1A</p><ul><li><code>null</code> \u548C <code>undefined</code> \u7684\u503C\u76F8\u7B49\uFF0C\u4F46\u7C7B\u578B\u4E0D\u7B49\uFF1A<code>undefined</code>\u7684\u7C7B\u578B(<code>typeof</code>)\u662F<code>undefined</code>\uFF1B<code>null</code>\u7684\u7C7B\u578B(<code>typeof</code>)\u662F<code>object</code>\u3002</li><li>\u5148\u6709<code>null</code>\u540E\u6709<code>undefined</code>,\u4E3A\u4E86\u5F25\u8865null\u6709\u65F6\u4F1A\u88AB\u9690\u5F0F\u8F6C\u6362\u4E3A0\u7684\u5751\u3002</li></ul><h2 id="_4-\u548C-\u6709\u4EC0\u4E48\u4E0D\u540C" tabindex="-1"><a class="header-anchor" href="#_4-\u548C-\u6709\u4EC0\u4E48\u4E0D\u540C" aria-hidden="true">#</a> 4.==\u548C===\u6709\u4EC0\u4E48\u4E0D\u540C\uFF1F</h2><p><code>==</code>\uFF1A\u6BD4\u8F83\u4E24\u4E2A\u503C\u662F\u5426\u76F8\u7B49\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code>string <span class="token operator">==</span> number <span class="token operator">||</span> boolean <span class="token operator">||</span> number <span class="token operator">...</span><span class="token punctuation">.</span>\u90FD\u4F1A\u9690\u5F0F\u8F6C\u6362\u3002
+<span class="token comment">// \u901A\u8FC7ValueOf()\u65B9\u6CD5\u9690\u5F0F\uFF08\u9ED8\u8BA4\u81EA\u52A8\u6267\u884C\uFF0C\u4E0D\u4F1A\u663E\u793A\uFF09\u8F6C\u6362\uFF0C\u6240\u4EE5\u4E0D\u63A8\u8350\u4F7F\u7528\u3002</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p><code>===</code>\uFF1A\u6BD4\u8F83\u503C\u548C\u6570\u636E\u7C7B\u578B\u662F\u5426\u76F8\u7B49\u3002</p><h2 id="_5-\u5B8F\u4EFB\u52A1\u548C\u5FAE\u4EFB\u52A1-event-loop" tabindex="-1"><a class="header-anchor" href="#_5-\u5B8F\u4EFB\u52A1\u548C\u5FAE\u4EFB\u52A1-event-loop" aria-hidden="true">#</a> 5.\u5B8F\u4EFB\u52A1\u548C\u5FAE\u4EFB\u52A1\uFF08Event Loop \uFF09</h2><ol><li><p>js\u662F\u5355\u7EBF\u7A0B\u8BED\u8A00\u3002</p></li><li><p>\u540C\u4E00\u4E2A\u65F6\u95F4\u53EA\u80FD\u505A\u4E00\u4EF6\u4E8B\uFF0Cjs\u6267\u884C\u987A\u5E8F\uFF1A\u540C\u6B65\u6267\u884C--&gt;\u4E8B\u4EF6\u5FAA\u73AF\u3002</p></li><li><p>\u4E8B\u4EF6\u5FAA\u73AF\u5305\u62EC\uFF1A\u5B8F\u4EFB\u52A1\u3001\u5FAE\u4EFB\u52A1</p></li><li><p>\u5B8F\u4EFB\u52A1\uFF1AsetTimeout...</p></li><li><p>\u5FAE\u4EFB\u52A1\uFF1Apromise.then...</p></li><li><p>\u91CD\u8981\uFF1A\u8981\u6267\u884C\u5B8F\u4EFB\u52A1\u524D\u63D0\u662F\u6E05\u7A7A<code>\u5F53\u524D</code>\u6240\u6709\u5FAE\u4EFB\u52A1\u3002</p></li></ol><h2 id="_6-\u4F5C\u7528\u57DF" tabindex="-1"><a class="header-anchor" href="#_6-\u4F5C\u7528\u57DF" aria-hidden="true">#</a> 6.\u4F5C\u7528\u57DF</h2><p>\u62D3\u5C55\u5230ES6\uFF1A</p><ol><li>ES5\u53EA\u6709\u51FD\u6570\u6709\u4F5C\u7528\u57DF\uFF0Cvar\u4E3A\u5168\u5C40\u53D8\u91CF\uFF0CES6\u4E2D\u6709\u4E86let\u53D8\u91CF\uFF08\u53EA\u5728\u5F53\u524D\u4F5C\u7528\u57DF\u6709\u6548\uFF09\u548Cconst\u5E38\u91CF\uFF08\u4E00\u65E6\u58F0\u660E\uFF0C\u5E38\u91CF\u7684\u503C\u5C31\u4E0D\u80FD\u6539\u53D8\uFF09\u3002</li><li>\u4F5C\u7528\u57DF\u94FE\uFF08\u4F5C\u7528\u57DF\u7684\u96C6\u5408\uFF09\uFF1A\u5185\u90E8\u53EF\u4EE5\u8BBF\u95EE\u5916\u90E8\uFF0C\u4F46\u662F\u5916\u90E8\u4E0D\u80FD\u8BBF\u95EE\u5185\u90E8\u7684\u53D8\u91CF\u3002</li></ol><ul><li>\u6CE8\u610F\uFF1A\u5982\u679C\u5185\u90E8\u6709\uFF0C\u4F18\u5148\u4F7F\u7528\u5185\u90E8\uFF0C\u5185\u90E8\u6CA1\u6709\u5219\u67E5\u627E\u5916\u90E8\u3002</li></ul><ol start="3"><li>\u6CE8\u610F\u58F0\u660E\u53D8\u91CF\u662F\u7528var\u8FD8\u662F\u6CA1\u6709\u5199\uFF08window.\uFF09</li><li>\u6CE8\u610F\uFF1AJS\u6709\u53D8\u91CF\u63D0\u5347\u673A\u5236\uFF08\u53D8\u91CF\u60AC\u6302\u58F0\u660E\uFF09</li><li>\u4F18\u5148\u7EA7\uFF1A\u58F0\u660E\u53D8\u91CF\uFF08\u6709\u503C\uFF09 &gt; \u58F0\u660E\u51FD\u6570 &gt; \u53C2\u6570 &gt; \u53D8\u91CF\u63D0\u5347</li><li>\u6CE8\u610F\uFF1A\u6211\u53D1\u73B0\uFF0C\u53C2\u6570 &gt; \u58F0\u660E\u53D8\u91CF\uFF08\u5373\u4F7F\u6709\u503C\uFF09\uFF0C\u6240\u4EE5\u4E0A\u9762\u5E94\u8BE5\u662F\u4E92\u76F8\u4E0D\u540C\u7684\uFF0C\u4E0D\u662F\u7B80\u5355\u7684\u4E0A\u4E0B\u7EA7\u5173\u7CFB\u3002\u5373\uFF1A</li></ol><ul><li>\u58F0\u660E\u53D8\u91CF\uFF08\u6709\u503C\uFF09 &gt; \u58F0\u660E\u51FD\u6570</li><li>\u58F0\u660E\u51FD\u6570 &gt; \u53C2\u6570</li><li>\u53C2\u6570 &gt; \u58F0\u660E\u53D8\u91CF\uFF08\u6709\u503C\uFF09</li><li>\u4E09\u8005 &gt; \u53D8\u91CF\u63D0\u5347</li></ul><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code>   <span class="token keyword">function</span> <span class="token function">a</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+     <span class="token keyword">var</span> b <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+     <span class="token keyword">function</span> <span class="token function">c</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+       console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>b<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//undefined</span>
+      <span class="token comment">//  \u7531\u4E8E\u4E0B\u9762\u6709var b\uFF0C\u5BFC\u81F4\u53D8\u91CF\u63D0\u5347\u3002</span>
+      <span class="token comment">//  \u7C7B\u4F3C\u4E8E\uFF1A</span>
+      <span class="token comment">//  var b;</span>
+      <span class="token comment">//  b = 2;</span>
+      <span class="token comment">//  \u5982\u679C\u53BB\u6389\u4E0B\u9762var b = 2;\u4E0A\u9762\u4F1A\u8F93\u51FA\u7236\u7EA7var b = 1;</span>
+       <span class="token keyword">var</span> b <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span>
+       console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>b<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//2</span>
+     <span class="token punctuation">}</span>
+     <span class="token function">c</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+     console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>b<span class="token punctuation">)</span><span class="token comment">//1</span>
+   <span class="token punctuation">}</span>
+   <span class="token function">a</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+   <span class="token comment">//  \u601D\u8003\uFF0C\u5982\u679C\u7ED9a\u4F20\u53C2\u6570\u4F18\u5148\u7EA7\u600E\u4E48\u6837</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br></div></div><h2 id="_7-js\u5BF9\u8C61-new\u53D1\u751F\u4E86\u4E0A\u9762" tabindex="-1"><a class="header-anchor" href="#_7-js\u5BF9\u8C61-new\u53D1\u751F\u4E86\u4E0A\u9762" aria-hidden="true">#</a> 7.JS\u5BF9\u8C61\uFF08new\u53D1\u751F\u4E86\u4E0A\u9762\uFF1F\uFF09</h2><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><!--]-->`);
 }
 const _sfc_setup$t = _sfc_main$t.setup;
 _sfc_main$t.setup = (props, ctx) => {
@@ -3427,19 +3497,19 @@ var JSinterview_html$2 = /* @__PURE__ */ Object.freeze({
 });
 const _sfc_main$s = {};
 function _sfc_ssrRender$e(_ctx, _push, _parent, _attrs) {
-  _push(`<!--[--><h2 id="\u4F5C\u4E3A\u4E00\u4E2A\u4EBA" tabindex="-1"><a class="header-anchor" href="#\u4F5C\u4E3A\u4E00\u4E2A\u4EBA" aria-hidden="true">#</a> \u4F5C\u4E3A\u4E00\u4E2A\u4EBA</h2><p>\u6709\u65F6\u5019\uFF0C\u4E0D\u8981\u542C\u522B\u4EBA\u7684\u6307\u70B9\uFF0C\u66F4\u4E0D\u8981\u6307\u70B9\u522B\u4EBA\u3002</p><!--]-->`);
+  _push(`<!--[--><h2 id="_3" tabindex="-1"><a class="header-anchor" href="#_3" aria-hidden="true">#</a> 3</h2><h2 id="_4" tabindex="-1"><a class="header-anchor" href="#_4" aria-hidden="true">#</a> 4</h2><!--]-->`);
 }
 const _sfc_setup$s = _sfc_main$s.setup;
 _sfc_main$s.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/\u968F\u7B14/reflection.html.vue");
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/\u6559\u7A0B/text.html.vue");
   return _sfc_setup$s ? _sfc_setup$s(props, ctx) : void 0;
 };
-var reflection_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$s, [["ssrRender", _sfc_ssrRender$e]]);
-var reflection_html$2 = /* @__PURE__ */ Object.freeze({
+var text_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$s, [["ssrRender", _sfc_ssrRender$e]]);
+var text_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  "default": reflection_html$1
+  "default": text_html$1
 });
 const _sfc_main$r = {};
 function _sfc_ssrRender$d(_ctx, _push, _parent, _attrs) {
@@ -3459,19 +3529,19 @@ var story_html$2 = /* @__PURE__ */ Object.freeze({
 });
 const _sfc_main$q = {};
 function _sfc_ssrRender$c(_ctx, _push, _parent, _attrs) {
-  _push(`<!--[--><h2 id="_3" tabindex="-1"><a class="header-anchor" href="#_3" aria-hidden="true">#</a> 3</h2><h2 id="_4" tabindex="-1"><a class="header-anchor" href="#_4" aria-hidden="true">#</a> 4</h2><!--]-->`);
+  _push(`<!--[--><h2 id="\u4F5C\u4E3A\u4E00\u4E2A\u4EBA" tabindex="-1"><a class="header-anchor" href="#\u4F5C\u4E3A\u4E00\u4E2A\u4EBA" aria-hidden="true">#</a> \u4F5C\u4E3A\u4E00\u4E2A\u4EBA</h2><p>\u6709\u65F6\u5019\uFF0C\u4E0D\u8981\u542C\u522B\u4EBA\u7684\u6307\u70B9\uFF0C\u66F4\u4E0D\u8981\u6307\u70B9\u522B\u4EBA\u3002</p><!--]-->`);
 }
 const _sfc_setup$q = _sfc_main$q.setup;
 _sfc_main$q.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/\u6559\u7A0B/text.html.vue");
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/\u968F\u7B14/reflection.html.vue");
   return _sfc_setup$q ? _sfc_setup$q(props, ctx) : void 0;
 };
-var text_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$q, [["ssrRender", _sfc_ssrRender$c]]);
-var text_html$2 = /* @__PURE__ */ Object.freeze({
+var reflection_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$q, [["ssrRender", _sfc_ssrRender$c]]);
+var reflection_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  "default": text_html$1
+  "default": reflection_html$1
 });
 const _sfc_main$p = {};
 function _sfc_ssrRender$b(_ctx, _push, _parent, _attrs) {
@@ -6419,7 +6489,50 @@ const data$e = {
     ]
   },
   "excerpt": "",
-  "headers": [],
+  "headers": [
+    {
+      "level": 2,
+      "title": "1.\u5EF6\u8FDF\u52A0\u8F7DJS\u7684\u65B9\u5F0F\u6709\u54EA\u4E9B",
+      "slug": "_1-\u5EF6\u8FDF\u52A0\u8F7Djs\u7684\u65B9\u5F0F\u6709\u54EA\u4E9B",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "2.js\u7684\u6570\u636E\u7C7B\u578B\u548CNaN",
+      "slug": "_2-js\u7684\u6570\u636E\u7C7B\u578B\u548Cnan",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "3.null \u548C undefined",
+      "slug": "_3-null-\u548C-undefined",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "4.==\u548C===\u6709\u4EC0\u4E48\u4E0D\u540C\uFF1F",
+      "slug": "_4-\u548C-\u6709\u4EC0\u4E48\u4E0D\u540C",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "5.\u5B8F\u4EFB\u52A1\u548C\u5FAE\u4EFB\u52A1\uFF08Event Loop \uFF09",
+      "slug": "_5-\u5B8F\u4EFB\u52A1\u548C\u5FAE\u4EFB\u52A1-event-loop",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "6.\u4F5C\u7528\u57DF",
+      "slug": "_6-\u4F5C\u7528\u57DF",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "7.JS\u5BF9\u8C61\uFF08new\u53D1\u751F\u4E86\u4E0A\u9762\uFF1F\uFF09",
+      "slug": "_7-js\u5BF9\u8C61-new\u53D1\u751F\u4E86\u4E0A\u9762",
+      "children": []
+    }
+  ],
   "git": {
     "updatedTime": 1642922234e3,
     "contributors": [
@@ -6438,26 +6551,32 @@ var JSinterview_html = /* @__PURE__ */ Object.freeze({
   data: data$e
 });
 const data$d = {
-  "key": "v-6c145c9c",
-  "path": "/guide/%E9%9A%8F%E7%AC%94/reflection.html",
-  "title": "\u6240\u4EE5\u4E8B\u5C0F\u4E8E\u6B7B",
+  "key": "v-3803ce0e",
+  "path": "/guide/%E6%95%99%E7%A8%8B/text.html",
+  "title": "1a",
   "lang": "zh-CN",
   "frontmatter": {
     "lang": "zh-CN",
-    "title": "\u6240\u4EE5\u4E8B\u5C0F\u4E8E\u6B7B",
+    "title": "1a",
     "description": "12a"
   },
   "excerpt": "",
   "headers": [
     {
       "level": 2,
-      "title": "\u4F5C\u4E3A\u4E00\u4E2A\u4EBA",
-      "slug": "\u4F5C\u4E3A\u4E00\u4E2A\u4EBA",
+      "title": "3",
+      "slug": "_3",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "4",
+      "slug": "_4",
       "children": []
     }
   ],
   "git": {
-    "updatedTime": 1642922234e3,
+    "updatedTime": 1640251957e3,
     "contributors": [
       {
         "name": "\u9648\u67D2",
@@ -6466,9 +6585,9 @@ const data$d = {
       }
     ]
   },
-  "filePathRelative": "guide/\u968F\u7B14/reflection.md"
+  "filePathRelative": "guide/\u6559\u7A0B/text.md"
 };
-var reflection_html = /* @__PURE__ */ Object.freeze({
+var text_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   data: data$d
@@ -6563,32 +6682,26 @@ var story_html = /* @__PURE__ */ Object.freeze({
   data: data$c
 });
 const data$b = {
-  "key": "v-3803ce0e",
-  "path": "/guide/%E6%95%99%E7%A8%8B/text.html",
-  "title": "1a",
+  "key": "v-6c145c9c",
+  "path": "/guide/%E9%9A%8F%E7%AC%94/reflection.html",
+  "title": "\u6240\u4EE5\u4E8B\u5C0F\u4E8E\u6B7B",
   "lang": "zh-CN",
   "frontmatter": {
     "lang": "zh-CN",
-    "title": "1a",
+    "title": "\u6240\u4EE5\u4E8B\u5C0F\u4E8E\u6B7B",
     "description": "12a"
   },
   "excerpt": "",
   "headers": [
     {
       "level": 2,
-      "title": "3",
-      "slug": "_3",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "4",
-      "slug": "_4",
+      "title": "\u4F5C\u4E3A\u4E00\u4E2A\u4EBA",
+      "slug": "\u4F5C\u4E3A\u4E00\u4E2A\u4EBA",
       "children": []
     }
   ],
   "git": {
-    "updatedTime": 1640251957e3,
+    "updatedTime": 1642922234e3,
     "contributors": [
       {
         "name": "\u9648\u67D2",
@@ -6597,9 +6710,9 @@ const data$b = {
       }
     ]
   },
-  "filePathRelative": "guide/\u6559\u7A0B/text.md"
+  "filePathRelative": "guide/\u968F\u7B14/reflection.md"
 };
-var text_html = /* @__PURE__ */ Object.freeze({
+var reflection_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   data: data$b
