@@ -1,4 +1,4 @@
-import { o as openBlock, c as createElementBlock, F as Fragment, b as createBaseVNode, d as createTextVNode } from "./app.b5d4a480.js";
+import { o as openBlock, c as createElementBlock, F as Fragment, b as createBaseVNode, d as createTextVNode } from "./app.fec03c7e.js";
 import { _ as _export_sfc } from "./plugin-vue_export-helper.21dcd24c.js";
 const _sfc_main = {};
 const _hoisted_1 = /* @__PURE__ */ createBaseVNode("h2", {
