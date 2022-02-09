@@ -119,7 +119,8 @@ export default defineUserConfig<DefaultThemeOptions>({
           text:'面试',
           children:[
             'interview.md',
-            'JSinterview.md'
+            'JSinterview.md',
+            'VUEinterview.md'
           ]
         }
       ],

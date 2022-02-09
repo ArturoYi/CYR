@@ -102,7 +102,7 @@ string == number || boolean || number ....都会隐式转换。
 
 `===`：比较值和数据类型是否相等。
 
-## 5.宏任务和微任务（Event Loop ）
+## 5.宏任务和微任务（Event Loop/事件循环 ）
 
 1. js是单线程语言。
 2. 同一个时间只能做一件事，js执行顺序：同步执行-->事件循环。
@@ -243,3 +243,198 @@ constructor属性也是对象才拥有的，它是从一个对象指向一个函
 ```js
 // 1
 ```
+
+## 8.给定一个数组，去除重复元素
+
+给定下面数组：
+
+```js
+let arr = [1,2,3,1,2,1,1,4,5,6,7,8,7,6]
+```
+
+- 方法一、Array.from与set（ES6）去重
+
+```js
+function unique(arr){
+  if(!Array.isArray(arr)){
+    return
+  }
+  return Array.from(new Set(arr))
+}
+ //new 一个 Set 对象，将数组作为参数传递进去
+  //Set对象的数据不会重复
+  //自动实现去重，Array.from() 将其转化为数组
+  // 注意这个方法不能去除空对象（''）
+```
+
+- 方法二、双重for循环去重
+
+```js
+Array.prototype.unique = function(){
+  let newArray = [];  //要返回的新数组
+  let isRepeat; //当前元素是否重复
+  let oldArrayLength = this.length;
+  for(let i = 0;i<oldArrayLength;i++){
+    isRepeat = false;
+    for(let j = i+1;j<oldArrayLength;j++){
+      if(this[i]==this[j]){
+        isRepeat = true;
+        break;
+      }
+    }
+    if(!isRepeat){
+      newArray.push(this[i]);
+    }
+  }
+  return newArray;
+}
+```
+
+- 方法三、indexOf检测元素
+
+```js
+Array.prototype.unique = function(){
+  return this.filter((item,index)=>{
+    return this.indexOf(item) === index;
+  })
+}
+//filter() 方法创建一个新的数组，新数组中的元素是通过检查指定数组中符合条件的所有元素。
+//数组中每个元素的位置(index)和其第一次出现的下标(indexof)对应,如果不对应，说明是重复元素
+```
+
+## 9.事件冒泡和事件委托
+
+1. 事件冒泡和事件捕获
+
+ - 事件冒泡：当前元素触发的事件目标一级一级完上传递，依次触发，知道document为止。（子级事件会传递给父级）
+ - 事件捕获：从document开始触发事件，一级一级往下传递，直到真正事件目标为止。（在父级捕获子级的事件）
+ - 事件委托：通过监听父元素，来给不同子元素绑定事件，减少监听次数，从而提升速度。
+
+ 2. 阻止事件冒泡
+
+ ```js
+ // 阻止冒泡
+    event.stopPropagation();
+```
+
+3. 例子
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    <style type="text/css">
+        #box1 { width: 300px; height: 300px; background: blueviolet; }
+        #box2 { width: 200px; height: 200px; background: aquamarine; }
+        #box3 { width: 100px; height: 100px; background: tomato; }
+        div { overflow: hidden; margin: 50px auto; }
+    </style>
+    <body>
+        <div id="box1">
+            <div id="box2">
+                <div id="box3"></div>
+            </div>
+        </div>
+        <script>
+            function sayBox3() {
+                console.log('你点了最里面的box');
+            }
+            function sayBox2() {
+                console.log('你点了最中间的box');
+            }
+            function sayBox1() {
+                console.log('你点了最外面的box');
+            }
+            // 事件监听，第三个参数是布尔值，默认false，false是事件冒泡，true是事件捕获
+            document.getElementById('box3').addEventListener('click', sayBox3, false);
+            document.getElementById('box2').addEventListener('click', sayBox2, false);
+            document.getElementById('box1').addEventListener('click', sayBox1, false);
+
+        </script>
+    </body>
+</html>
+```
+
+## 10.手写Promise
+
+1. Promise:用来操作异步信息。
+2. Promise对象不受外界影响，有三种状态：
+ - pending:初始状态，不是成功或失败，通常是你不做任何处理的时候。
+ - fulfilled:操作成功完成。
+ - rejected:操作失败。
+
+ ```js
+ //创建一个Promise实例
+ let promise = new Promise((resolve,reject)=>{
+   //异步处理
+  // 处理结束后、调用resolve（解析） 或 reject（拒绝）
+ })
+ ```
+
+3. Promise.all
+
+Promise.all接受多个 Promise 任务同时执行，如果全部成功执行，则以数组的方式返回所有 Promise 任务的执行结果。 `如果有一个 Promise 任务 rejected，则只返回 rejected 任务的结果`。
+
+```js
+const p = Promise.all([p1, p2, p3]);
+//p1,p2,p3都是Promise实例
+```
+
+- （1）只有p1、p2、p3的状态都变成fulfilled，p的状态才会变成fulfilled，此时p1、p2、p3的返回值组成一个数组，传递给p的回调函数。
+- （2）只要p1、p2、p3之中有一个被rejected，p的状态就变成rejected，此时第一个被reject的实例的返回值，会传递给p的回调函数。
+- （3）如果作为参数的 Promise 实例，自己定义了catch方法，那么它一旦被rejected，并不会触发Promise.all()的catch方法（返回一个新的Promise）。如果其没有自己的catch方法，就会调用Promise.all()的catch方法。
+
+
+4. 手写Promise.all
+
+```js
+Promise._all = function(arr){
+  return new Promise((resolve,reject)=>{
+    if(!Array.isArray(arr)){
+      return reject(new Error('非数组'))
+    }
+    const result = []
+    let counter = 0  //设置一个计数器
+    for(let i=0;i<arr.length;i++){
+      arr[i].then((data)=>{
+        result[i] = data
+        counter++
+        if(counter === arr.length){
+          resolve(result)
+        }
+      },reject)
+    }
+  })
+}
+
+Promise.all([p1,p2,p3])
+```
+
+## 11.this指向
+
+1. 全局环境输出this，指向全局对象（Windows）。
+
+2. 全局函数中的this，指向全局对象。
+
+3. 内部函数中的this，指向全局对象。
+
+4. 方法中的this，指向调用方法的对象。
+
+5. 事件中的this，指向触发事件的DOM对象。
+
+6. 构造函数中的this，指向new创建的对象。
+
+7. 箭头函数中的this，指向函数上下文的this。
+
+- 箭头函数严格来说没有this
+- 普通函数谁调用就指向谁
+
+8. 使用闭包，var获取dom的索引。
+
+## 12.call,apply,bind
+
+
+

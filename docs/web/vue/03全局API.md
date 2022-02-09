@@ -454,6 +454,146 @@ outData.count++;
 
 #### 4。当你使用vue_cli时会更方便
 
+当你使用脚手架编写.vue文件时会很方便。
+
+## componemt(组件)
+
+组件格式：
+
+```js
+Vue.component(tagName, options)
+//‘tagName’:组件名称
+//‘options’:组件配置项（组件内容）
+```
+
+#### 1.全局注册组件
+
+全局化就是在构造器的外部用Vue.component来注册
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <h1>component</h1>
+  <hr>
+  <div id="app">
+    <my></my>
+  </div>
+  <script type="text/javascript">
+    //注册全局组件
+    Vue.component('my', {
+      template: `<div style="color:red;">全局化注册的my组件</div>`
+    })
+    var app = new Vue({
+      el: '#app',
+      data: {
+      }
+    })
+  </script>
+</body>
+</html>
+```
+
+
+#### 2.局部组件
+
+局部注册组件局部注册组件和全局注册组件是向对应的，局部注册的组件只能在组件注册的作用域里进行使用，其他作用域使用无效。
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <h1>component</h1>
+  <hr>
+  <div id="app">
+    <panda></panda>
+  </div>
+  <script type="text/javascript">
+    //注册局部组件——只在改vue实例中有效
+    var app = new Vue({
+      el: '#app',
+      // --------
+      components: {
+        "panda": {
+          template: `<div style="color:red;">局部注册的panda标签</div>`
+        }
+      },
+      // -------
+      data: {
+      }
+    })
+  </script>
+</body>
+</html>
+```
+
+你可能会觉得指令跟标签很向，但还是有区别，组件是一个元素，而指令是一个元素的属性。
+
+#### 3.组件传值props
+
+这个内容对组件来说还是比较重要的，要扩展学习一下。
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>component</h1>
+  <hr>
+  <div id="app">
+    <panda :from-here=value2 :from=value1></panda>
+  </div>
+  <script type="text/javascript">
+    //注册全局组件
+    var app = new Vue({
+      el: '#app',
+      components: {
+        "panda": {
+          template: `<div style="color:red;">局部注册的panda标签:props传进来的值是{{from}},注意大小写：{{fromHere}}</div>`,
+          props: ['from', 'fromHere']
+        }
+      },
+      data: {
+        value1: 'China',
+        value2: 'SiChuang'
+      }
+    })
+  </script>
+</body>
+</html>
+```
+
+要注意的地方：
+
+1. props：传入的是一个数组，说明可以传很多值。
+2. 传值大小写和‘`-`’的处理：在组件中必须用小驼峰式写法props:[‘formHere’]。
+3. 传值绑定：传值一般配合指令使用，可以很灵活修改值，即在构造器中给组件传值。
+
+#### 4.父子组件
+
 
 
 

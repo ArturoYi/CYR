@@ -42,8 +42,8 @@ const data = {
     },
     {
       "level": 2,
-      "title": "5.\u5B8F\u4EFB\u52A1\u548C\u5FAE\u4EFB\u52A1\uFF08Event Loop \uFF09",
-      "slug": "_5-\u5B8F\u4EFB\u52A1\u548C\u5FAE\u4EFB\u52A1-event-loop",
+      "title": "5.\u5B8F\u4EFB\u52A1\u548C\u5FAE\u4EFB\u52A1\uFF08Event Loop/\u4E8B\u4EF6\u5FAA\u73AF \uFF09",
+      "slug": "_5-\u5B8F\u4EFB\u52A1\u548C\u5FAE\u4EFB\u52A1-event-loop-\u4E8B\u4EF6\u5FAA\u73AF",
       "children": []
     },
     {
@@ -57,15 +57,45 @@ const data = {
       "title": "7.JS\u5BF9\u8C61\uFF08new\u53D1\u751F\u4E86\u4E0A\u9762\uFF1F\uFF09",
       "slug": "_7-js\u5BF9\u8C61-new\u53D1\u751F\u4E86\u4E0A\u9762",
       "children": []
+    },
+    {
+      "level": 2,
+      "title": "8.\u7ED9\u5B9A\u4E00\u4E2A\u6570\u7EC4\uFF0C\u53BB\u9664\u91CD\u590D\u5143\u7D20",
+      "slug": "_8-\u7ED9\u5B9A\u4E00\u4E2A\u6570\u7EC4-\u53BB\u9664\u91CD\u590D\u5143\u7D20",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "9.\u4E8B\u4EF6\u5192\u6CE1\u548C\u4E8B\u4EF6\u59D4\u6258",
+      "slug": "_9-\u4E8B\u4EF6\u5192\u6CE1\u548C\u4E8B\u4EF6\u59D4\u6258",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "10.\u624B\u5199Promise",
+      "slug": "_10-\u624B\u5199promise",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "11.this\u6307\u5411",
+      "slug": "_11-this\u6307\u5411",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "12.call,apply,bind",
+      "slug": "_12-call-apply-bind",
+      "children": []
     }
   ],
   "git": {
-    "updatedTime": 1643040901e3,
+    "updatedTime": 1643125149e3,
     "contributors": [
       {
         "name": "\u9648\u67D2",
         "email": "3062995371@qq.com",
-        "commits": 2
+        "commits": 3
       }
     ]
   },

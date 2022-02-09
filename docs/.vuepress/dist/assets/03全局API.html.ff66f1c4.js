@@ -39,6 +39,12 @@ const data = {
       "title": "Template\u6A21\u677F",
       "slug": "template\u6A21\u677F",
       "children": []
+    },
+    {
+      "level": 2,
+      "title": "componemt(\u7EC4\u4EF6)",
+      "slug": "componemt-\u7EC4\u4EF6",
+      "children": []
     }
   ],
   "git": {
