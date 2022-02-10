@@ -1,10 +1,10 @@
 const data = {
   "key": "v-5d3f7a3b",
   "path": "/guide/interview/JSinterview.html",
-  "title": "JS\u9762\u8BD5\u96C6\u9526",
+  "title": "JS\u9762\u8BD5",
   "lang": "zh-CN",
   "frontmatter": {
-    "title": "JS\u9762\u8BD5\u96C6\u9526",
+    "title": "JS\u9762\u8BD5",
     "lastUpdated": true,
     "prev": true,
     "next": true,
@@ -87,15 +87,45 @@ const data = {
       "title": "12.call,apply,bind",
       "slug": "_12-call-apply-bind",
       "children": []
+    },
+    {
+      "level": 2,
+      "title": "13. \u95ED\u5305",
+      "slug": "_13-\u95ED\u5305",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "14.\u5BF9\u8C61\u62F7\u8D1D\uFF08\u6DF1\u6D45\u62F7\u8D1D\uFF09",
+      "slug": "_14-\u5BF9\u8C61\u62F7\u8D1D-\u6DF1\u6D45\u62F7\u8D1D",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "15. \u9632\u6296\u548C\u8282\u6D41",
+      "slug": "_15-\u9632\u6296\u548C\u8282\u6D41",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "16. \u539F\u578B",
+      "slug": "_16-\u539F\u578B",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "17.\u7C7B\u4E0E\u7EE7\u627F",
+      "slug": "_17-\u7C7B\u4E0E\u7EE7\u627F",
+      "children": []
     }
   ],
   "git": {
-    "updatedTime": 1643125149e3,
+    "updatedTime": 164442218e4,
     "contributors": [
       {
         "name": "\u9648\u67D2",
         "email": "3062995371@qq.com",
-        "commits": 3
+        "commits": 4
       }
     ]
   },
