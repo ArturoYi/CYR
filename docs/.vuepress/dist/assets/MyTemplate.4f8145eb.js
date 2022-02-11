@@ -1,4 +1,4 @@
-import { o as openBlock, c as createElementBlock, b as createBaseVNode } from "./app.16088f0e.js";
+import { o as openBlock, c as createElementBlock, b as createBaseVNode } from "./app.e7d24d8d.js";
 import { _ as _export_sfc } from "./plugin-vue_export-helper.21dcd24c.js";
 const _sfc_main = {};
 const _hoisted_1 = { class: "mytemplate" };

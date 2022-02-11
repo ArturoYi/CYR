@@ -1196,6 +1196,12 @@ const searchIndex$1 = [
         "title": "17.\u7C7B\u4E0E\u7EE7\u627F",
         "slug": "_17-\u7C7B\u4E0E\u7EE7\u627F",
         "children": []
+      },
+      {
+        "level": 2,
+        "title": "18. \u72B6\u6001\u7801\uFF08200\u3001400\u7B49\uFF09",
+        "slug": "_18-\u72B6\u6001\u7801-200\u3001400\u7B49",
+        "children": []
       }
     ],
     "path": "/guide/interview/JSinterview.html",
@@ -3956,7 +3962,7 @@ Promise<span class="token punctuation">.</span><span class="token function">all<
 <span class="token punctuation">}</span>
 
 <span class="token keyword">let</span> cat <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Cat</span><span class="token punctuation">(</span><span class="token string">&#39;\u55B5\u55B5&#39;</span><span class="token punctuation">,</span><span class="token string">&#39;\u5403\u9C7C&#39;</span><span class="token punctuation">)</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><ul><li>\u4F7F\u7528\u573A\u666F\uFF1A\u7BA1\u7406\u5458\u548C\u666E\u901A\u7528\u6237\u90FD\u7EE7\u627F\u81EA\u7528\u6237\u7C7B\uFF0C\u4F46\u4E24\u8005\u8FD8\u6709\u81EA\u5DF1\u7684\u6743\u9650</li></ul><h4 id="_17-2-\u539F\u578B\u94FE\u7EE7\u627F\u548C\u539F\u578B\u94FE" tabindex="-1"><a class="header-anchor" href="#_17-2-\u539F\u578B\u94FE\u7EE7\u627F\u548C\u539F\u578B\u94FE" aria-hidden="true">#</a> 17.2. \u539F\u578B\u94FE\u7EE7\u627F\u548C\u539F\u578B\u94FE</h4><h4 id="_17-3-\u6784\u9020\u7EE7\u627F" tabindex="-1"><a class="header-anchor" href="#_17-3-\u6784\u9020\u7EE7\u627F" aria-hidden="true">#</a> 17.3 \u6784\u9020\u7EE7\u627F</h4><h4 id="_17-4-\u501F\u7528\u6784\u9020\u51FD\u6570\u7EE7\u627F" tabindex="-1"><a class="header-anchor" href="#_17-4-\u501F\u7528\u6784\u9020\u51FD\u6570\u7EE7\u627F" aria-hidden="true">#</a> 17.4 \u501F\u7528\u6784\u9020\u51FD\u6570\u7EE7\u627F</h4><h4 id="_17-5-\u7EC4\u5408\u7EE7\u627F" tabindex="-1"><a class="header-anchor" href="#_17-5-\u7EC4\u5408\u7EE7\u627F" aria-hidden="true">#</a> 17.5 \u7EC4\u5408\u7EE7\u627F</h4><!--]-->`);
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><ul><li>\u4F7F\u7528\u573A\u666F\uFF1A\u7BA1\u7406\u5458\u548C\u666E\u901A\u7528\u6237\u90FD\u7EE7\u627F\u81EA\u7528\u6237\u7C7B\uFF0C\u4F46\u4E24\u8005\u8FD8\u6709\u81EA\u5DF1\u7684\u6743\u9650</li></ul><h4 id="_17-2-\u539F\u578B\u94FE\u7EE7\u627F\u548C\u539F\u578B\u94FE" tabindex="-1"><a class="header-anchor" href="#_17-2-\u539F\u578B\u94FE\u7EE7\u627F\u548C\u539F\u578B\u94FE" aria-hidden="true">#</a> 17.2. \u539F\u578B\u94FE\u7EE7\u627F\u548C\u539F\u578B\u94FE</h4><h4 id="_17-3-\u6784\u9020\u7EE7\u627F" tabindex="-1"><a class="header-anchor" href="#_17-3-\u6784\u9020\u7EE7\u627F" aria-hidden="true">#</a> 17.3 \u6784\u9020\u7EE7\u627F</h4><h4 id="_17-4-\u501F\u7528\u6784\u9020\u51FD\u6570\u7EE7\u627F" tabindex="-1"><a class="header-anchor" href="#_17-4-\u501F\u7528\u6784\u9020\u51FD\u6570\u7EE7\u627F" aria-hidden="true">#</a> 17.4 \u501F\u7528\u6784\u9020\u51FD\u6570\u7EE7\u627F</h4><h4 id="_17-5-\u7EC4\u5408\u7EE7\u627F" tabindex="-1"><a class="header-anchor" href="#_17-5-\u7EC4\u5408\u7EE7\u627F" aria-hidden="true">#</a> 17.5 \u7EC4\u5408\u7EE7\u627F</h4><h2 id="_18-\u72B6\u6001\u7801-200\u3001400\u7B49" tabindex="-1"><a class="header-anchor" href="#_18-\u72B6\u6001\u7801-200\u3001400\u7B49" aria-hidden="true">#</a> 18. \u72B6\u6001\u7801\uFF08200\u3001400\u7B49\uFF09</h2><!--]-->`);
 }
 const _sfc_setup$u = _sfc_main$u.setup;
 _sfc_main$u.setup = (props, ctx) => {
@@ -7240,15 +7246,21 @@ const data$f = {
       "title": "17.\u7C7B\u4E0E\u7EE7\u627F",
       "slug": "_17-\u7C7B\u4E0E\u7EE7\u627F",
       "children": []
+    },
+    {
+      "level": 2,
+      "title": "18. \u72B6\u6001\u7801\uFF08200\u3001400\u7B49\uFF09",
+      "slug": "_18-\u72B6\u6001\u7801-200\u3001400\u7B49",
+      "children": []
     }
   ],
   "git": {
-    "updatedTime": 164442218e4,
+    "updatedTime": 1644510468e3,
     "contributors": [
       {
         "name": "\u9648\u67D2",
         "email": "3062995371@qq.com",
-        "commits": 4
+        "commits": 5
       }
     ]
   },
@@ -7381,12 +7393,12 @@ const data$e = {
     }
   ],
   "git": {
-    "updatedTime": 164442218e4,
+    "updatedTime": 1644510468e3,
     "contributors": [
       {
         "name": "\u9648\u67D2",
         "email": "3062995371@qq.com",
-        "commits": 1
+        "commits": 2
       }
     ]
   },
