@@ -123,15 +123,27 @@ const data = {
       "title": "18. \u72B6\u6001\u7801\uFF08200\u3001400\u7B49\uFF09",
       "slug": "_18-\u72B6\u6001\u7801-200\u3001400\u7B49",
       "children": []
+    },
+    {
+      "level": 2,
+      "title": "19. \u8F93\u5165URL\u5230\u9875\u9762\u663E\u793A\u7684\u8FC7\u7A0B\uFF1F",
+      "slug": "_19-\u8F93\u5165url\u5230\u9875\u9762\u663E\u793A\u7684\u8FC7\u7A0B",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "20. ES6\u65B0\u7279\u6027",
+      "slug": "_20-es6\u65B0\u7279\u6027",
+      "children": []
     }
   ],
   "git": {
-    "updatedTime": 1644510468e3,
+    "updatedTime": 164454101e4,
     "contributors": [
       {
         "name": "\u9648\u67D2",
         "email": "3062995371@qq.com",
-        "commits": 5
+        "commits": 6
       }
     ]
   },

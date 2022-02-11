@@ -6929,84 +6929,84 @@ const __vitePreload = function preload(baseModule, deps) {
 const pagesComponents = {
   "v-8daa1a0e": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-8daa1a0e" */
-    "./index.html.b8df64d2.js"
-  ), true ? ["assets/index.html.b8df64d2.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./index.html.3c99ded8.js"
+  ), true ? ["assets/index.html.3c99ded8.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-6886cbbd": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-6886cbbd" */
-    "./elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247.html.d40e51bb.js"
-  ), true ? ["assets/elementui在表格中插入图片.html.d40e51bb.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247.html.676be900.js"
+  ), true ? ["assets/elementui在表格中插入图片.html.676be900.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-b9c2d34a": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-b9c2d34a" */
-    "./index.html.a6ee7a87.js"
-  ), true ? ["assets/index.html.a6ee7a87.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./index.html.c768e960.js"
+  ), true ? ["assets/index.html.c768e960.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-66ff7ae2": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-66ff7ae2" */
-    "./vscode\u5E38\u7528\u63D2\u4EF6.html.60c4dee5.js"
-  ), true ? ["assets/vscode常用插件.html.60c4dee5.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./vscode\u5E38\u7528\u63D2\u4EF6.html.6a666415.js"
+  ), true ? ["assets/vscode常用插件.html.6a666415.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-3509cb32": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-3509cb32" */
-    "./interview.html.113d31bb.js"
-  ), true ? ["assets/interview.html.113d31bb.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./interview.html.79bef185.js"
+  ), true ? ["assets/interview.html.79bef185.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-5d3f7a3b": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-5d3f7a3b" */
-    "./JSinterview.html.386ff7db.js"
-  ), true ? ["assets/JSinterview.html.386ff7db.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./JSinterview.html.b80335d1.js"
+  ), true ? ["assets/JSinterview.html.b80335d1.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-2d570564": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-2d570564" */
-    "./VUEinterview.html.77de574a.js"
-  ), true ? ["assets/VUEinterview.html.77de574a.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
-  "v-71958ec2": defineAsyncComponent(() => __vitePreload(() => import(
-    /* webpackChunkName: "v-71958ec2" */
-    "./story.html.e42defcd.js"
-  ), true ? ["assets/story.html.e42defcd.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./VUEinterview.html.a341a797.js"
+  ), true ? ["assets/VUEinterview.html.a341a797.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-3803ce0e": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-3803ce0e" */
-    "./text.html.e0e08332.js"
-  ), true ? ["assets/text.html.e0e08332.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./text.html.a415cac4.js"
+  ), true ? ["assets/text.html.a415cac4.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+  "v-71958ec2": defineAsyncComponent(() => __vitePreload(() => import(
+    /* webpackChunkName: "v-71958ec2" */
+    "./story.html.f1f5a36c.js"
+  ), true ? ["assets/story.html.f1f5a36c.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-6c145c9c": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-6c145c9c" */
-    "./reflection.html.68c60a32.js"
-  ), true ? ["assets/reflection.html.68c60a32.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./reflection.html.1efb348f.js"
+  ), true ? ["assets/reflection.html.1efb348f.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-72cc4ebc": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-72cc4ebc" */
-    "./01-css.html.5584d4bf.js"
-  ), true ? ["assets/01-css.html.5584d4bf.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./01-css.html.e826ebce.js"
+  ), true ? ["assets/01-css.html.e826ebce.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-cce3d85c": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-cce3d85c" */
-    "./01-html.html.7321d605.js"
-  ), true ? ["assets/01-html.html.7321d605.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./01-html.html.f01fc048.js"
+  ), true ? ["assets/01-html.html.f01fc048.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-72bd4e03": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-72bd4e03" */
-    "./\u5165\u95E8\u5BFC\u8BBA.html.e3bc4d96.js"
-  ), true ? ["assets/入门导论.html.e3bc4d96.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./\u5165\u95E8\u5BFC\u8BBA.html.01d7a080.js"
+  ), true ? ["assets/入门导论.html.01d7a080.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-783b80d4": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-783b80d4" */
-    "./\u5185\u7F6E\u5BF9\u8C61.html.1c6a3643.js"
-  ), true ? ["assets/内置对象.html.1c6a3643.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./\u5185\u7F6E\u5BF9\u8C61.html.b87742b0.js"
+  ), true ? ["assets/内置对象.html.b87742b0.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-5debe7e1": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-5debe7e1" */
-    "./\u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26.html.69b993e2.js"
-  ), true ? ["assets/数据类型与运算符.html.69b993e2.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./\u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26.html.486ddac2.js"
+  ), true ? ["assets/数据类型与运算符.html.486ddac2.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-24f06668": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-24f06668" */
-    "./\u8BED\u6CD5\u57FA\u7840.html.34cb4327.js"
-  ), true ? ["assets/语法基础.html.34cb4327.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./\u8BED\u6CD5\u57FA\u7840.html.ce100647.js"
+  ), true ? ["assets/语法基础.html.ce100647.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-e9674cca": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-e9674cca" */
-    "./01.html.99413bc4.js"
-  ), true ? ["assets/01.html.99413bc4.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./01.html.0be18c85.js"
+  ), true ? ["assets/01.html.0be18c85.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-306f3916": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-306f3916" */
-    "./02vue\u6307\u4EE4.html.40ef13db.js"
-  ), true ? ["assets/02vue指令.html.40ef13db.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./02vue\u6307\u4EE4.html.043236dc.js"
+  ), true ? ["assets/02vue指令.html.043236dc.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-2ca8e124": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-2ca8e124" */
-    "./03\u5168\u5C40API.html.0b2234ad.js"
-  ), true ? ["assets/03全局API.html.0b2234ad.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./03\u5168\u5C40API.html.bed7af37.js"
+  ), true ? ["assets/03全局API.html.bed7af37.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-58f4867c": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-58f4867c" */
-    "./webpack.html.da314f75.js"
-  ), true ? ["assets/webpack.html.da314f75.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./webpack.html.b7508072.js"
+  ), true ? ["assets/webpack.html.b7508072.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-3706649a": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-3706649a" */
     "./404.html.bee13de6.js"
@@ -7035,19 +7035,19 @@ const pagesData$1 = {
   ), true ? [] : void 0).then(({ data }) => data),
   "v-5d3f7a3b": () => __vitePreload(() => import(
     /* webpackChunkName: "v-5d3f7a3b" */
-    "./JSinterview.html.baabb38f.js"
+    "./JSinterview.html.37a84f00.js"
   ), true ? [] : void 0).then(({ data }) => data),
   "v-2d570564": () => __vitePreload(() => import(
     /* webpackChunkName: "v-2d570564" */
     "./VUEinterview.html.5268f1a7.js"
   ), true ? [] : void 0).then(({ data }) => data),
-  "v-71958ec2": () => __vitePreload(() => import(
-    /* webpackChunkName: "v-71958ec2" */
-    "./story.html.623d9e09.js"
-  ), true ? [] : void 0).then(({ data }) => data),
   "v-3803ce0e": () => __vitePreload(() => import(
     /* webpackChunkName: "v-3803ce0e" */
     "./text.html.d5ebf43b.js"
+  ), true ? [] : void 0).then(({ data }) => data),
+  "v-71958ec2": () => __vitePreload(() => import(
+    /* webpackChunkName: "v-71958ec2" */
+    "./story.html.623d9e09.js"
   ), true ? [] : void 0).then(({ data }) => data),
   "v-6c145c9c": () => __vitePreload(() => import(
     /* webpackChunkName: "v-6c145c9c" */
@@ -7345,11 +7345,11 @@ Content.props = {
 const layoutComponents = {
   "404": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "layout-404" */
-    "./404.57d89e92.js"
+    "./404.7c5460b4.js"
   ), true ? [] : void 0)),
   "Layout": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "layout-Layout" */
-    "./Layout.018714b4.js"
+    "./Layout.e60dd565.js"
   ), true ? [] : void 0))
 };
 const Vuepress = defineComponent({
@@ -8632,7 +8632,7 @@ var clientAppEnhance3 = defineClientAppEnhance(({ app, router }) => {
   };
 });
 var clientAppEnhance4 = ({ app }) => {
-  app.component("MyTemplate", defineAsyncComponent(() => __vitePreload(() => import("./MyTemplate.4f8145eb.js"), true ? ["assets/MyTemplate.4f8145eb.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)));
+  app.component("MyTemplate", defineAsyncComponent(() => __vitePreload(() => import("./MyTemplate.6b926ae2.js"), true ? ["assets/MyTemplate.6b926ae2.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)));
 };
 const useHotKeys = ({ input, hotKeys: hotKeys2 }) => {
   const onKeydown = (event) => {
@@ -8891,6 +8891,18 @@ const searchIndex$1 = [
         "title": "18. \u72B6\u6001\u7801\uFF08200\u3001400\u7B49\uFF09",
         "slug": "_18-\u72B6\u6001\u7801-200\u3001400\u7B49",
         "children": []
+      },
+      {
+        "level": 2,
+        "title": "19. \u8F93\u5165URL\u5230\u9875\u9762\u663E\u793A\u7684\u8FC7\u7A0B\uFF1F",
+        "slug": "_19-\u8F93\u5165url\u5230\u9875\u9762\u663E\u793A\u7684\u8FC7\u7A0B",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "20. ES6\u65B0\u7279\u6027",
+        "slug": "_20-es6\u65B0\u7279\u6027",
+        "children": []
       }
     ],
     "path": "/guide/interview/JSinterview.html",
@@ -9008,6 +9020,26 @@ const searchIndex$1 = [
     "extraFields": []
   },
   {
+    "title": "1a",
+    "headers": [
+      {
+        "level": 2,
+        "title": "3",
+        "slug": "_3",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4",
+        "slug": "_4",
+        "children": []
+      }
+    ],
+    "path": "/guide/%E6%95%99%E7%A8%8B/text.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "\u65E5\u5E38\u6545\u4E8B",
     "headers": [
       {
@@ -9072,26 +9104,6 @@ const searchIndex$1 = [
       }
     ],
     "path": "/guide/%E6%95%85%E4%BA%8B/story.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "1a",
-    "headers": [
-      {
-        "level": 2,
-        "title": "3",
-        "slug": "_3",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4",
-        "slug": "_4",
-        "children": []
-      }
-    ],
-    "path": "/guide/%E6%95%99%E7%A8%8B/text.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -10399,8 +10411,8 @@ const routeItems = [
   ["v-3509cb32", "/guide/interview/interview.html", { "title": "\u95EE\u9898\u96C6\u9526" }, ["/guide/interview/interview", "/guide/interview/interview.md"]],
   ["v-5d3f7a3b", "/guide/interview/JSinterview.html", { "title": "JS\u9762\u8BD5" }, ["/guide/interview/JSinterview", "/guide/interview/JSinterview.md"]],
   ["v-2d570564", "/guide/interview/VUEinterview.html", { "title": "VUE\u9762\u8BD5" }, ["/guide/interview/VUEinterview", "/guide/interview/VUEinterview.md"]],
-  ["v-71958ec2", "/guide/%E6%95%85%E4%BA%8B/story.html", { "title": "\u65E5\u5E38\u6545\u4E8B" }, ["/guide/\u6545\u4E8B/story.html", "/guide/%E6%95%85%E4%BA%8B/story", "/guide/\u6545\u4E8B/story.md", "/guide/%E6%95%85%E4%BA%8B/story.md"]],
   ["v-3803ce0e", "/guide/%E6%95%99%E7%A8%8B/text.html", { "title": "1a" }, ["/guide/\u6559\u7A0B/text.html", "/guide/%E6%95%99%E7%A8%8B/text", "/guide/\u6559\u7A0B/text.md", "/guide/%E6%95%99%E7%A8%8B/text.md"]],
+  ["v-71958ec2", "/guide/%E6%95%85%E4%BA%8B/story.html", { "title": "\u65E5\u5E38\u6545\u4E8B" }, ["/guide/\u6545\u4E8B/story.html", "/guide/%E6%95%85%E4%BA%8B/story", "/guide/\u6545\u4E8B/story.md", "/guide/%E6%95%85%E4%BA%8B/story.md"]],
   ["v-6c145c9c", "/guide/%E9%9A%8F%E7%AC%94/reflection.html", { "title": "\u6240\u4EE5\u4E8B\u5C0F\u4E8E\u6B7B" }, ["/guide/\u968F\u7B14/reflection.html", "/guide/%E9%9A%8F%E7%AC%94/reflection", "/guide/\u968F\u7B14/reflection.md", "/guide/%E9%9A%8F%E7%AC%94/reflection.md"]],
   ["v-72cc4ebc", "/web/css/01-css.html", { "title": "CSS" }, ["/web/css/01-css", "/web/css/01-css.md"]],
   ["v-cce3d85c", "/web/html/01-html.html", { "title": "html" }, ["/web/html/01-html", "/web/html/01-html.md"]],
