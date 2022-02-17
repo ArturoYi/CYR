@@ -120,12 +120,12 @@ const data = {
     }
   ],
   "git": {
-    "updatedTime": 1644510468e3,
+    "updatedTime": 1644560905e3,
     "contributors": [
       {
         "name": "\u9648\u67D2",
         "email": "3062995371@qq.com",
-        "commits": 2
+        "commits": 3
       }
     ]
   },
