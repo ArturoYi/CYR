@@ -48,6 +48,10 @@ export default defineUserConfig<DefaultThemeOptions>({
             link: '/web/vue/01.md',
           },
           {
+            text: 'Flutter',
+            link: '/web/Flutter/01.md',
+          },
+          {
             text: 'WebPack',
             link: '/web/webpack/webpack.md',
           }
@@ -82,6 +86,15 @@ export default defineUserConfig<DefaultThemeOptions>({
             '01.md',
             '02vue指令.md',
             '03全局API.md',
+          ],
+        },
+      ],
+      '/web/Flutter/': [
+        {
+          text: 'Flutter',
+          children: [
+            '01.md',
+            '02.Dart语法.md',
           ],
         },
       ],

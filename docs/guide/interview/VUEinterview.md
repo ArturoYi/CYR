@@ -131,8 +131,6 @@ props:{
 this.$emit('在父组件的事件名称','要传给父组件的数据')
 
 // 父组件
-
-<template>
   <子组件 @在父组件的事件名称='getVal'></子组件>
 </template>
 ......
@@ -169,11 +167,13 @@ import bus from '@/bus.js'
 
 ## 8.computed、methods、watch
 
-1. computed:计算数学，有缓存，性能比methods好，如果某一个值改变了，计算属性会将其返回。
+1. computed:性能比methods好，据依赖关系进行缓存的计算，并且只在需要的时候进行更新,一个数据受多个数据影响 ----  购物车结算 受到单价 数量 还有是否被选中的影响。
 
-2. methods:没有缓存
+2. methods:没有缓存，methods 里面是用来定义函数的，它需要手动调用才能执行。
 
-3. watch:监听属性，数据或路由发生改变才会执行，监听路由会比较方便。
+3. watch:watch中的函数有两个参数，前者是newVal，后者是oldVal。watch中的函数是不需要调用的。watch只会监听数据的值是否发生改变，而不会去监听数据的地址是否发生改变。也就是说，watch想要监听引用类型数据的变化，需要进行深度监听,一个数据影响多个数据  ---  应用场景：搜索框、表单输入、异步更新、动画。
+
+更多：computed能做的，watch都能完成，反之不成立，watch可处理异步。
 
 ## 9.props和data优先级谁高
 
@@ -233,6 +233,38 @@ SPA是的页面应用；
 ## 14. v-model原理
 
 通过Object.defineProperty劫持数据发生的改变，在set中赋值的，触发update方法进行更新节点内容，从而实现双向绑定。
+
+这里学一下`Object.defineProperty()`
+
+```js
+let person = {
+  name:'张三',
+}
+
+Object.defineProperty(person,'age',{
+  value:18;
+  // 这就是使用这个方法的原因，方便控制元素
+  enumerable:true,//控制属性是否可以枚举
+  writable:true,//控制属性是否可以被修改
+  configurable:true;//控制属性是否可以被删除
+
+  // 这个就是原理，值绑定,访问器,简称（getter）
+  get(){
+    return number
+  },
+
+  // 当有人修改值，值修改绑定.
+  set(value){
+    number = value;
+  }
+})
+```
+
+这里学习一下数据代理
+
+```js
+// 通过new Vue的实例代理data中属性的操作
+```
 
 ## 15. data劫持
 
