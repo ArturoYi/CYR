@@ -2,16 +2,16 @@
 set -e
 
 
-var1=7
-var2=5
+# var1=7
+# var2=5
 #打包上传倒计时
-  while [ $var1 -gt 5 ]
-do 
-   echo -ne "`expr $var1 - $var2 `后开始打包，你现在还可以退出——Ctrl-C"
-   (( var1-- ))       
-   sleep 1
-   echo -ne "\r   \r" #清空行
-done
+#   while [ $var1 -gt 5 ]
+# do 
+#    echo -ne "`expr $var1 - $var2 `后开始打包，你现在还可以退出——Ctrl-C"
+#    (( var1-- ))       
+#    sleep 1
+#    echo -ne "\r   \r" #清空行
+# done
 
 #进入根目录打包
 cd ../
@@ -40,12 +40,12 @@ fi
   git add .
   git commit -m "$msg更新"
   git push -u origin master
-  while [ $var1 -gt 0 ]
-do 
-   echo -ne $var1
-   (( var1-- ))       
-   sleep 1
-   echo -ne "\r   \r" #清空行
-done
+#   while [ $var1 -gt 0 ]
+# do 
+#    echo -ne $var1
+#    (( var1-- ))       
+#    sleep 1
+#    echo -ne "\r   \r" #清空行
+# done
 # cd - # 退回开始所在目录
 # rm -rf docs/.vuepress/dist
