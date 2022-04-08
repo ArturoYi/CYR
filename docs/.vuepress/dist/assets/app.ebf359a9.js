@@ -6929,92 +6929,100 @@ const __vitePreload = function preload(baseModule, deps) {
 const pagesComponents = {
   "v-8daa1a0e": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-8daa1a0e" */
-    "./index.html.9bd2a658.js"
-  ), true ? ["assets/index.html.9bd2a658.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./index.html.3e5be6eb.js"
+  ), true ? ["assets/index.html.3e5be6eb.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-6886cbbd": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-6886cbbd" */
-    "./elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247.html.4723e71c.js"
-  ), true ? ["assets/elementui在表格中插入图片.html.4723e71c.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247.html.9fed5d08.js"
+  ), true ? ["assets/elementui在表格中插入图片.html.9fed5d08.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-b9c2d34a": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-b9c2d34a" */
-    "./index.html.779565aa.js"
-  ), true ? ["assets/index.html.779565aa.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./index.html.ea693af8.js"
+  ), true ? ["assets/index.html.ea693af8.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+  "v-4bac9763": defineAsyncComponent(() => __vitePreload(() => import(
+    /* webpackChunkName: "v-4bac9763" */
+    "./utils.html.b3b232ab.js"
+  ), true ? ["assets/utils.html.b3b232ab.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-66ff7ae2": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-66ff7ae2" */
-    "./vscode\u5E38\u7528\u63D2\u4EF6.html.b6b18d19.js"
-  ), true ? ["assets/vscode常用插件.html.b6b18d19.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
-  "v-71958ec2": defineAsyncComponent(() => __vitePreload(() => import(
-    /* webpackChunkName: "v-71958ec2" */
-    "./story.html.c999be50.js"
-  ), true ? ["assets/story.html.c999be50.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./vscode\u5E38\u7528\u63D2\u4EF6.html.44458587.js"
+  ), true ? ["assets/vscode常用插件.html.44458587.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-3509cb32": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-3509cb32" */
-    "./interview.html.8f5522d1.js"
-  ), true ? ["assets/interview.html.8f5522d1.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./interview.html.87741f72.js"
+  ), true ? ["assets/interview.html.87741f72.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-5d3f7a3b": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-5d3f7a3b" */
-    "./JSinterview.html.1853eea7.js"
-  ), true ? ["assets/JSinterview.html.1853eea7.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./JSinterview.html.29cf3ddd.js"
+  ), true ? ["assets/JSinterview.html.29cf3ddd.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-2d570564": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-2d570564" */
-    "./VUEinterview.html.23d6a2c6.js"
-  ), true ? ["assets/VUEinterview.html.23d6a2c6.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./VUEinterview.html.68aac5c9.js"
+  ), true ? ["assets/VUEinterview.html.68aac5c9.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+  "v-71958ec2": defineAsyncComponent(() => __vitePreload(() => import(
+    /* webpackChunkName: "v-71958ec2" */
+    "./story.html.bf2ca883.js"
+  ), true ? ["assets/story.html.bf2ca883.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-3803ce0e": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-3803ce0e" */
-    "./text.html.6737da55.js"
-  ), true ? ["assets/text.html.6737da55.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./text.html.dfbd2069.js"
+  ), true ? ["assets/text.html.dfbd2069.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-6c145c9c": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-6c145c9c" */
-    "./reflection.html.90bd15eb.js"
-  ), true ? ["assets/reflection.html.90bd15eb.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./reflection.html.8bd65fd2.js"
+  ), true ? ["assets/reflection.html.8bd65fd2.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-72cc4ebc": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-72cc4ebc" */
-    "./01-css.html.3101a7e1.js"
-  ), true ? ["assets/01-css.html.3101a7e1.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./01-css.html.60207f3e.js"
+  ), true ? ["assets/01-css.html.60207f3e.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-1b13d411": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-1b13d411" */
-    "./01.html.6e50896f.js"
-  ), true ? ["assets/01.html.6e50896f.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./01.html.1e5d0fff.js"
+  ), true ? ["assets/01.html.1e5d0fff.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-4d4398ea": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-4d4398ea" */
-    "./02.Dart\u8BED\u6CD5.html.4216698c.js"
-  ), true ? ["assets/02.Dart语法.html.4216698c.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./02.Dart\u8BED\u6CD5.html.99901e8e.js"
+  ), true ? ["assets/02.Dart语法.html.99901e8e.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+  "v-6d6a57bd": defineAsyncComponent(() => __vitePreload(() => import(
+    /* webpackChunkName: "v-6d6a57bd" */
+    "./09.\u4E00\u5207\u90FD\u662Fwidget.html.59189352.js"
+  ), true ? ["assets/09.一切都是widget.html.59189352.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-cce3d85c": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-cce3d85c" */
-    "./01-html.html.cb738458.js"
-  ), true ? ["assets/01-html.html.cb738458.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./01-html.html.ab08afd6.js"
+  ), true ? ["assets/01-html.html.ab08afd6.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-72bd4e03": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-72bd4e03" */
-    "./\u5165\u95E8\u5BFC\u8BBA.html.89e2d92c.js"
-  ), true ? ["assets/入门导论.html.89e2d92c.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./\u5165\u95E8\u5BFC\u8BBA.html.331765f6.js"
+  ), true ? ["assets/入门导论.html.331765f6.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-783b80d4": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-783b80d4" */
-    "./\u5185\u7F6E\u5BF9\u8C61.html.d53f2843.js"
-  ), true ? ["assets/内置对象.html.d53f2843.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./\u5185\u7F6E\u5BF9\u8C61.html.c912282c.js"
+  ), true ? ["assets/内置对象.html.c912282c.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-5debe7e1": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-5debe7e1" */
-    "./\u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26.html.8193cda7.js"
-  ), true ? ["assets/数据类型与运算符.html.8193cda7.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./\u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26.html.3b56f08f.js"
+  ), true ? ["assets/数据类型与运算符.html.3b56f08f.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-24f06668": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-24f06668" */
-    "./\u8BED\u6CD5\u57FA\u7840.html.428b63e3.js"
-  ), true ? ["assets/语法基础.html.428b63e3.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./\u8BED\u6CD5\u57FA\u7840.html.c8ded9e8.js"
+  ), true ? ["assets/语法基础.html.c8ded9e8.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-e9674cca": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-e9674cca" */
-    "./01.html.f28d8aed.js"
-  ), true ? ["assets/01.html.f28d8aed.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./01.html.c8a9278c.js"
+  ), true ? ["assets/01.html.c8a9278c.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-306f3916": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-306f3916" */
-    "./02vue\u6307\u4EE4.html.9276508d.js"
-  ), true ? ["assets/02vue指令.html.9276508d.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./02vue\u6307\u4EE4.html.37903b5e.js"
+  ), true ? ["assets/02vue指令.html.37903b5e.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-2ca8e124": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-2ca8e124" */
-    "./03\u5168\u5C40API.html.38147793.js"
-  ), true ? ["assets/03全局API.html.38147793.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./03\u5168\u5C40API.html.1bc6dd61.js"
+  ), true ? ["assets/03全局API.html.1bc6dd61.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-58f4867c": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-58f4867c" */
-    "./webpack.html.2cff16d2.js"
-  ), true ? ["assets/webpack.html.2cff16d2.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
+    "./webpack.html.5e3815fc.js"
+  ), true ? ["assets/webpack.html.5e3815fc.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)),
   "v-3706649a": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "v-3706649a" */
     "./404.html.bee13de6.js"
@@ -7033,13 +7041,13 @@ const pagesData$1 = {
     /* webpackChunkName: "v-b9c2d34a" */
     "./index.html.a9a9ce58.js"
   ), true ? [] : void 0).then(({ data }) => data),
+  "v-4bac9763": () => __vitePreload(() => import(
+    /* webpackChunkName: "v-4bac9763" */
+    "./utils.html.fd82e565.js"
+  ), true ? [] : void 0).then(({ data }) => data),
   "v-66ff7ae2": () => __vitePreload(() => import(
     /* webpackChunkName: "v-66ff7ae2" */
     "./vscode\u5E38\u7528\u63D2\u4EF6.html.3402bdca.js"
-  ), true ? [] : void 0).then(({ data }) => data),
-  "v-71958ec2": () => __vitePreload(() => import(
-    /* webpackChunkName: "v-71958ec2" */
-    "./story.html.623d9e09.js"
   ), true ? [] : void 0).then(({ data }) => data),
   "v-3509cb32": () => __vitePreload(() => import(
     /* webpackChunkName: "v-3509cb32" */
@@ -7052,6 +7060,10 @@ const pagesData$1 = {
   "v-2d570564": () => __vitePreload(() => import(
     /* webpackChunkName: "v-2d570564" */
     "./VUEinterview.html.75a474dd.js"
+  ), true ? [] : void 0).then(({ data }) => data),
+  "v-71958ec2": () => __vitePreload(() => import(
+    /* webpackChunkName: "v-71958ec2" */
+    "./story.html.623d9e09.js"
   ), true ? [] : void 0).then(({ data }) => data),
   "v-3803ce0e": () => __vitePreload(() => import(
     /* webpackChunkName: "v-3803ce0e" */
@@ -7067,11 +7079,15 @@ const pagesData$1 = {
   ), true ? [] : void 0).then(({ data }) => data),
   "v-1b13d411": () => __vitePreload(() => import(
     /* webpackChunkName: "v-1b13d411" */
-    "./01.html.a7dcfa73.js"
+    "./01.html.76cc323d.js"
   ), true ? [] : void 0).then(({ data }) => data),
   "v-4d4398ea": () => __vitePreload(() => import(
     /* webpackChunkName: "v-4d4398ea" */
     "./02.Dart\u8BED\u6CD5.html.d1c3a980.js"
+  ), true ? [] : void 0).then(({ data }) => data),
+  "v-6d6a57bd": () => __vitePreload(() => import(
+    /* webpackChunkName: "v-6d6a57bd" */
+    "./09.\u4E00\u5207\u90FD\u662Fwidget.html.3acca81f.js"
   ), true ? [] : void 0).then(({ data }) => data),
   "v-cce3d85c": () => __vitePreload(() => import(
     /* webpackChunkName: "v-cce3d85c" */
@@ -7361,11 +7377,11 @@ Content.props = {
 const layoutComponents = {
   "404": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "layout-404" */
-    "./404.75e0ceb4.js"
+    "./404.11599c71.js"
   ), true ? [] : void 0)),
   "Layout": defineAsyncComponent(() => __vitePreload(() => import(
     /* webpackChunkName: "layout-Layout" */
-    "./Layout.0374366e.js"
+    "./Layout.cc428bf0.js"
   ), true ? [] : void 0))
 };
 const Vuepress = defineComponent({
@@ -7984,7 +8000,8 @@ const themeData$1 = {
         "text": "Flutter",
         "children": [
           "01.md",
-          "02.Dart\u8BED\u6CD5.md"
+          "02.Dart\u8BED\u6CD5.md",
+          "09.\u4E00\u5207\u90FD\u662Fwidget.md"
         ]
       }
     ],
@@ -8013,7 +8030,8 @@ const themeData$1 = {
         "children": [
           "README.md",
           "elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247.md",
-          "vscode\u5E38\u7528\u63D2\u4EF6.md"
+          "vscode\u5E38\u7528\u63D2\u4EF6.md",
+          "utils.md"
         ]
       }
     ],
@@ -8661,7 +8679,7 @@ var clientAppEnhance3 = defineClientAppEnhance(({ app, router }) => {
   };
 });
 var clientAppEnhance4 = ({ app }) => {
-  app.component("MyTemplate", defineAsyncComponent(() => __vitePreload(() => import("./MyTemplate.d417b74a.js"), true ? ["assets/MyTemplate.d417b74a.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)));
+  app.component("MyTemplate", defineAsyncComponent(() => __vitePreload(() => import("./MyTemplate.d2924ec1.js"), true ? ["assets/MyTemplate.d2924ec1.js","assets/plugin-vue_export-helper.21dcd24c.js"] : void 0)));
 };
 const useHotKeys = ({ input, hotKeys: hotKeys2 }) => {
   const onKeydown = (event) => {
@@ -8735,6 +8753,20 @@ const searchIndex$1 = [
     "extraFields": []
   },
   {
+    "title": "\u8D44\u6E90\u5DE5\u5177",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.\u5F00\u53D1\u8F6F\u4EF6",
+        "slug": "_1-\u5F00\u53D1\u8F6F\u4EF6",
+        "children": []
+      }
+    ],
+    "path": "/course/utils.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "vscode\u5E38\u7528\u63D2\u4EF6",
     "headers": [
       {
@@ -8745,74 +8777,6 @@ const searchIndex$1 = [
       }
     ],
     "path": "/course/vscode%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "\u65E5\u5E38\u6545\u4E8B",
-    "headers": [
-      {
-        "level": 2,
-        "title": "\u5154\u5B50\u4E0E\u661F\u661F",
-        "slug": "\u5154\u5B50\u4E0E\u661F\u661F",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u5929\u4E0A\u7684\u661F\u661F",
-        "slug": "\u5929\u4E0A\u7684\u661F\u661F",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u82F9\u679C=\u667A\u6167\u679C",
-        "slug": "\u82F9\u679C-\u667A\u6167\u679C",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u7B28\u7B28\u718A",
-        "slug": "\u7B28\u7B28\u718A",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u5C0F\u80A5\u732A",
-        "slug": "\u5C0F\u80A5\u732A",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u68A6\u91CC\u6709\u4F60\uFF0C\u5341\u5206\u751C",
-        "slug": "\u68A6\u91CC\u6709\u4F60-\u5341\u5206\u751C",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u665A\u5B89\uFF01",
-        "slug": "\u665A\u5B89",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u7231\uFF08\u957F\u7BC7\uFF09",
-        "slug": "\u7231-\u957F\u7BC7",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u5154\u5B50\u548C\u72D0\u72F8",
-        "slug": "\u5154\u5B50\u548C\u72D0\u72F8",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u62B1\u62B1",
-        "slug": "\u62B1\u62B1",
-        "children": []
-      }
-    ],
-    "path": "/guide/%E6%95%85%E4%BA%8B/story.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -9117,6 +9081,74 @@ const searchIndex$1 = [
     "extraFields": []
   },
   {
+    "title": "\u65E5\u5E38\u6545\u4E8B",
+    "headers": [
+      {
+        "level": 2,
+        "title": "\u5154\u5B50\u4E0E\u661F\u661F",
+        "slug": "\u5154\u5B50\u4E0E\u661F\u661F",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u5929\u4E0A\u7684\u661F\u661F",
+        "slug": "\u5929\u4E0A\u7684\u661F\u661F",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u82F9\u679C=\u667A\u6167\u679C",
+        "slug": "\u82F9\u679C-\u667A\u6167\u679C",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u7B28\u7B28\u718A",
+        "slug": "\u7B28\u7B28\u718A",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u5C0F\u80A5\u732A",
+        "slug": "\u5C0F\u80A5\u732A",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u68A6\u91CC\u6709\u4F60\uFF0C\u5341\u5206\u751C",
+        "slug": "\u68A6\u91CC\u6709\u4F60-\u5341\u5206\u751C",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u665A\u5B89\uFF01",
+        "slug": "\u665A\u5B89",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u7231\uFF08\u957F\u7BC7\uFF09",
+        "slug": "\u7231-\u957F\u7BC7",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u5154\u5B50\u548C\u72D0\u72F8",
+        "slug": "\u5154\u5B50\u548C\u72D0\u72F8",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u62B1\u62B1",
+        "slug": "\u62B1\u62B1",
+        "children": []
+      }
+    ],
+    "path": "/guide/%E6%95%85%E4%BA%8B/story.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "1a",
     "headers": [
       {
@@ -9231,6 +9263,20 @@ const searchIndex$1 = [
       }
     ],
     "path": "/web/Flutter/02.Dart%E8%AF%AD%E6%B3%95.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "\u4E00\u5207\u90FD\u662Fwidget",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Widget\u662F\u6839\u672C",
+        "slug": "widget\u662F\u6839\u672C",
+        "children": []
+      }
+    ],
+    "path": "/web/Flutter/09.%E4%B8%80%E5%88%87%E9%83%BD%E6%98%AFwidget.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -10506,16 +10552,18 @@ const routeItems = [
   ["v-8daa1a0e", "/", { "title": "" }, ["/index.html", "/README.md"]],
   ["v-6886cbbd", "/course/elementui%E5%9C%A8%E8%A1%A8%E6%A0%BC%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87.html", { "title": "elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247" }, ["/course/elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247.html", "/course/elementui%E5%9C%A8%E8%A1%A8%E6%A0%BC%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87", "/course/elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247.md", "/course/elementui%E5%9C%A8%E8%A1%A8%E6%A0%BC%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87.md"]],
   ["v-b9c2d34a", "/course/", { "title": "\u65E5\u5E38\u8BB0\u5F55" }, ["/course/index.html", "/course/README.md"]],
+  ["v-4bac9763", "/course/utils.html", { "title": "\u8D44\u6E90\u5DE5\u5177" }, ["/course/utils", "/course/utils.md"]],
   ["v-66ff7ae2", "/course/vscode%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.html", { "title": "vscode\u5E38\u7528\u63D2\u4EF6" }, ["/course/vscode\u5E38\u7528\u63D2\u4EF6.html", "/course/vscode%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6", "/course/vscode\u5E38\u7528\u63D2\u4EF6.md", "/course/vscode%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.md"]],
-  ["v-71958ec2", "/guide/%E6%95%85%E4%BA%8B/story.html", { "title": "\u65E5\u5E38\u6545\u4E8B" }, ["/guide/\u6545\u4E8B/story.html", "/guide/%E6%95%85%E4%BA%8B/story", "/guide/\u6545\u4E8B/story.md", "/guide/%E6%95%85%E4%BA%8B/story.md"]],
   ["v-3509cb32", "/guide/interview/interview.html", { "title": "\u95EE\u9898\u96C6\u9526" }, ["/guide/interview/interview", "/guide/interview/interview.md"]],
   ["v-5d3f7a3b", "/guide/interview/JSinterview.html", { "title": "JS\u9762\u8BD5" }, ["/guide/interview/JSinterview", "/guide/interview/JSinterview.md"]],
   ["v-2d570564", "/guide/interview/VUEinterview.html", { "title": "VUE\u9762\u8BD5" }, ["/guide/interview/VUEinterview", "/guide/interview/VUEinterview.md"]],
+  ["v-71958ec2", "/guide/%E6%95%85%E4%BA%8B/story.html", { "title": "\u65E5\u5E38\u6545\u4E8B" }, ["/guide/\u6545\u4E8B/story.html", "/guide/%E6%95%85%E4%BA%8B/story", "/guide/\u6545\u4E8B/story.md", "/guide/%E6%95%85%E4%BA%8B/story.md"]],
   ["v-3803ce0e", "/guide/%E6%95%99%E7%A8%8B/text.html", { "title": "1a" }, ["/guide/\u6559\u7A0B/text.html", "/guide/%E6%95%99%E7%A8%8B/text", "/guide/\u6559\u7A0B/text.md", "/guide/%E6%95%99%E7%A8%8B/text.md"]],
   ["v-6c145c9c", "/guide/%E9%9A%8F%E7%AC%94/reflection.html", { "title": "\u6240\u4EE5\u4E8B\u5C0F\u4E8E\u6B7B" }, ["/guide/\u968F\u7B14/reflection.html", "/guide/%E9%9A%8F%E7%AC%94/reflection", "/guide/\u968F\u7B14/reflection.md", "/guide/%E9%9A%8F%E7%AC%94/reflection.md"]],
   ["v-72cc4ebc", "/web/css/01-css.html", { "title": "CSS" }, ["/web/css/01-css", "/web/css/01-css.md"]],
   ["v-1b13d411", "/web/Flutter/01.html", { "title": "Flutter" }, ["/web/Flutter/01", "/web/Flutter/01.md"]],
   ["v-4d4398ea", "/web/Flutter/02.Dart%E8%AF%AD%E6%B3%95.html", { "title": "Dart\u8BED\u6CD5" }, ["/web/Flutter/02.Dart\u8BED\u6CD5.html", "/web/Flutter/02.Dart%E8%AF%AD%E6%B3%95", "/web/Flutter/02.Dart\u8BED\u6CD5.md", "/web/Flutter/02.Dart%E8%AF%AD%E6%B3%95.md"]],
+  ["v-6d6a57bd", "/web/Flutter/09.%E4%B8%80%E5%88%87%E9%83%BD%E6%98%AFwidget.html", { "title": "\u4E00\u5207\u90FD\u662Fwidget" }, ["/web/Flutter/09.\u4E00\u5207\u90FD\u662Fwidget.html", "/web/Flutter/09.%E4%B8%80%E5%88%87%E9%83%BD%E6%98%AFwidget", "/web/Flutter/09.\u4E00\u5207\u90FD\u662Fwidget.md", "/web/Flutter/09.%E4%B8%80%E5%88%87%E9%83%BD%E6%98%AFwidget.md"]],
   ["v-cce3d85c", "/web/html/01-html.html", { "title": "html" }, ["/web/html/01-html", "/web/html/01-html.md"]],
   ["v-72bd4e03", "/web/JavaScript/%E5%85%A5%E9%97%A8%E5%AF%BC%E8%AE%BA.html", { "title": "\u5165\u95E8\u5BFC\u8BBA" }, ["/web/JavaScript/\u5165\u95E8\u5BFC\u8BBA.html", "/web/JavaScript/%E5%85%A5%E9%97%A8%E5%AF%BC%E8%AE%BA", "/web/JavaScript/\u5165\u95E8\u5BFC\u8BBA.md", "/web/JavaScript/%E5%85%A5%E9%97%A8%E5%AF%BC%E8%AE%BA.md"]],
   ["v-783b80d4", "/web/JavaScript/%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1.html", { "title": "\u5185\u7F6E\u5BF9\u8C61" }, ["/web/JavaScript/\u5185\u7F6E\u5BF9\u8C61.html", "/web/JavaScript/%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1", "/web/JavaScript/\u5185\u7F6E\u5BF9\u8C61.md", "/web/JavaScript/%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1.md"]],

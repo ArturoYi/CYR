@@ -15,6 +15,7 @@ export const sidebar = {
       children: [
         '01.md',
         '02.Dart语法.md',
+        '09.一切都是widget.md',
       ],
     },
   ],
@@ -44,6 +45,7 @@ export const sidebar = {
         'README.md',
         'elementui在表格中插入图片.md',
         'vscode常用插件.md',
+        'utils.md'
       ],
     }
   ],
