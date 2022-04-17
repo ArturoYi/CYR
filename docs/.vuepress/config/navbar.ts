@@ -7,8 +7,9 @@ export const navbar = [
     text: '前端',
     children: [
       { text: '《html》', link: '/web/html/01-html.md' },
-      { text: '《JavaScript教程》', link: '/web/JavaScript/入门导论.md' },
+      { text: '《JavaScript》', link: '/web/JavaScript/入门导论.md' },
       { text: '《CSS》', link: '/web/css/01-css.md' },
+      { text: '《TypeScript》', link: '/web/TypeScript/01.md' },
     ]
   },
   {

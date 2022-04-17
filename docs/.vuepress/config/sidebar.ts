@@ -27,6 +27,14 @@ export const sidebar = {
       ],
     },
   ],
+  '/web/TypeScrupt/': [
+    {
+      text: 'TypeScript',
+      children: [
+        '01.md',
+      ]
+    }
+  ],
   '/web/JavaScript/': [
     {
       text: '《JavaScript教程》',
