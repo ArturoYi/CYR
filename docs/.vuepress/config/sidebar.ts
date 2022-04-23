@@ -27,11 +27,12 @@ export const sidebar = {
       ],
     },
   ],
-  '/web/TypeScrupt/': [
+  '/web/TypeScript/': [
     {
-      text: 'TypeScript',
+      text: 'TypeScript学习',
       children: [
         '01.md',
+        '02.变量声明.md',
       ]
     }
   ],
