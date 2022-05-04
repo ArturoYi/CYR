@@ -1,0 +1,8 @@
+---
+home: true
+---
+
+
+
+
+<MyTemplate></MyTemplate>

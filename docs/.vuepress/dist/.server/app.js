@@ -61,19 +61,25 @@ const ClientOnly = vue.defineComponent({
 });
 const pagesComponents = {
   "v-8daa1a0e": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return index_html$5;
+    return index_html$8;
+  })),
+  "v-67b7fbf4": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return index_html$6;
   })),
   "v-6886cbbd": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return elementui_________html$2;
   })),
   "v-b9c2d34a": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return index_html$3;
+    return index_html$4;
   })),
   "v-4bac9763": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return utils_html$2;
   })),
   "v-66ff7ae2": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return vscode_____html$2;
+  })),
+  "v-995ccaba": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return _01____html$2;
   })),
   "v-3509cb32": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return interview_html$2;
@@ -97,7 +103,7 @@ const pagesComponents = {
     return _01Css_html$2;
   })),
   "v-1b13d411": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return _01_html$8;
+    return _01_html$e;
   })),
   "v-4d4398ea": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return _02_Dart___html$2;
@@ -120,20 +126,26 @@ const pagesComponents = {
   "v-24f06668": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return _____html$4;
   })),
+  "v-4fa2b6ab": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return _01_html$c;
+  })),
   "v-3689f102": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return _01_html$6;
+    return _01_html$a;
   })),
   "v-998cc5e4": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return _02______html$2;
   })),
   "v-e9674cca": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return _01_html$4;
+    return _01_html$8;
   })),
   "v-306f3916": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return _02vue___html$2;
   })),
   "v-2ca8e124": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return _03__API_html$2;
+  })),
+  "v-d71deaac": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return _01_html$6;
   })),
   "v-58f4867c": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return webpack_html$2;
@@ -144,6 +156,9 @@ const pagesComponents = {
 };
 const pagesData$1 = {
   "v-8daa1a0e": () => Promise.resolve().then(function() {
+    return index_html$2;
+  }).then(({ data: data2 }) => data2),
+  "v-67b7fbf4": () => Promise.resolve().then(function() {
     return index_html$1;
   }).then(({ data: data2 }) => data2),
   "v-6886cbbd": () => Promise.resolve().then(function() {
@@ -157,6 +172,9 @@ const pagesData$1 = {
   }).then(({ data: data2 }) => data2),
   "v-66ff7ae2": () => Promise.resolve().then(function() {
     return vscode_____html;
+  }).then(({ data: data2 }) => data2),
+  "v-995ccaba": () => Promise.resolve().then(function() {
+    return _01____html;
   }).then(({ data: data2 }) => data2),
   "v-3509cb32": () => Promise.resolve().then(function() {
     return interview_html;
@@ -180,7 +198,7 @@ const pagesData$1 = {
     return _01Css_html;
   }).then(({ data: data2 }) => data2),
   "v-1b13d411": () => Promise.resolve().then(function() {
-    return _01_html$2;
+    return _01_html$4;
   }).then(({ data: data2 }) => data2),
   "v-4d4398ea": () => Promise.resolve().then(function() {
     return _02_Dart___html;
@@ -203,20 +221,26 @@ const pagesData$1 = {
   "v-24f06668": () => Promise.resolve().then(function() {
     return _____html;
   }).then(({ data: data2 }) => data2),
+  "v-4fa2b6ab": () => Promise.resolve().then(function() {
+    return _01_html$3;
+  }).then(({ data: data2 }) => data2),
   "v-3689f102": () => Promise.resolve().then(function() {
-    return _01_html$1;
+    return _01_html$2;
   }).then(({ data: data2 }) => data2),
   "v-998cc5e4": () => Promise.resolve().then(function() {
     return _02______html;
   }).then(({ data: data2 }) => data2),
   "v-e9674cca": () => Promise.resolve().then(function() {
-    return _01_html;
+    return _01_html$1;
   }).then(({ data: data2 }) => data2),
   "v-306f3916": () => Promise.resolve().then(function() {
     return _02vue___html;
   }).then(({ data: data2 }) => data2),
   "v-2ca8e124": () => Promise.resolve().then(function() {
     return _03__API_html;
+  }).then(({ data: data2 }) => data2),
+  "v-d71deaac": () => Promise.resolve().then(function() {
+    return _01_html;
   }).then(({ data: data2 }) => data2),
   "v-58f4867c": () => Promise.resolve().then(function() {
     return webpack_html;
@@ -484,6 +508,14 @@ const themeData$1 = {
         {
           "text": "WebPack",
           "link": "/web/webpack/webpack.md"
+        },
+        {
+          "text": "vue3",
+          "link": "/web/vue3/01.md"
+        },
+        {
+          "text": "Jenkins",
+          "link": "/web/Jenkins/01.md"
         }
       ]
     },
@@ -507,6 +539,10 @@ const themeData$1 = {
           "link": "/guide/\u6545\u4E8B/story.md"
         }
       ]
+    },
+    {
+      "text": "\u9879\u76EE\u5B9E\u6218",
+      "link": "/actualCombat/README.md"
     }
   ],
   "sidebarDepth": 2,
@@ -646,7 +682,7 @@ var clientAppEnhance2 = defineClientAppEnhance(({ app }) => {
     }
   });
 });
-const _sfc_main$I = /* @__PURE__ */ vue.defineComponent({
+const _sfc_main$M = /* @__PURE__ */ vue.defineComponent({
   __ssrInlineRender: true,
   props: {
     type: {
@@ -680,11 +716,11 @@ const _sfc_main$I = /* @__PURE__ */ vue.defineComponent({
     };
   }
 });
-const _sfc_setup$I = _sfc_main$I.setup;
-_sfc_main$I.setup = (props, ctx) => {
+const _sfc_setup$M = _sfc_main$M.setup;
+_sfc_main$M.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../../../../node_modules/@vuepress/theme-default/lib/client/components/global/Badge.vue");
-  return _sfc_setup$I ? _sfc_setup$I(props, ctx) : void 0;
+  return _sfc_setup$M ? _sfc_setup$M(props, ctx) : void 0;
 };
 var CodeGroup = vue.defineComponent({
   name: "CodeGroup",
@@ -767,7 +803,7 @@ var CodeGroup = vue.defineComponent({
 const __default__$1 = vue.defineComponent({
   name: "CodeGroupItem"
 });
-const _sfc_main$H = /* @__PURE__ */ vue.defineComponent(__spreadProps(__spreadValues({}, __default__$1), {
+const _sfc_main$L = /* @__PURE__ */ vue.defineComponent(__spreadProps(__spreadValues({}, __default__$1), {
   __ssrInlineRender: true,
   props: {
     title: {
@@ -791,11 +827,11 @@ const _sfc_main$H = /* @__PURE__ */ vue.defineComponent(__spreadProps(__spreadVa
     };
   }
 }));
-const _sfc_setup$H = _sfc_main$H.setup;
-_sfc_main$H.setup = (props, ctx) => {
+const _sfc_setup$L = _sfc_main$L.setup;
+_sfc_main$L.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../../../../node_modules/@vuepress/theme-default/lib/client/components/global/CodeGroupItem.vue");
-  return _sfc_setup$H ? _sfc_setup$H(props, ctx) : void 0;
+  return _sfc_setup$L ? _sfc_setup$L(props, ctx) : void 0;
 };
 const darkModeSymbol = Symbol("");
 const useDarkMode = () => {
@@ -958,7 +994,7 @@ const resolveMultiSidebarItems = (sidebarConfig, sidebarDepth) => {
   return resolveArraySidebarItems(matchedSidebarConfig, sidebarDepth);
 };
 const useThemeLocaleData = () => useThemeLocaleData$1();
-const _sfc_main$G = /* @__PURE__ */ vue.defineComponent({
+const _sfc_main$K = /* @__PURE__ */ vue.defineComponent({
   __ssrInlineRender: true,
   setup(__props) {
     const themeLocale = useThemeLocaleData();
@@ -978,19 +1014,19 @@ const _sfc_main$G = /* @__PURE__ */ vue.defineComponent({
     };
   }
 });
-const _sfc_setup$G = _sfc_main$G.setup;
-_sfc_main$G.setup = (props, ctx) => {
+const _sfc_setup$K = _sfc_main$K.setup;
+_sfc_main$K.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../../../../node_modules/@vuepress/theme-default/lib/client/components/global/ExternalLinkIcon.vue");
-  return _sfc_setup$G ? _sfc_setup$G(props, ctx) : void 0;
+  return _sfc_setup$K ? _sfc_setup$K(props, ctx) : void 0;
 };
 var index = "";
 var clientAppEnhance3 = defineClientAppEnhance(({ app, router }) => {
-  app.component("Badge", _sfc_main$I);
+  app.component("Badge", _sfc_main$M);
   app.component("CodeGroup", CodeGroup);
-  app.component("CodeGroupItem", _sfc_main$H);
+  app.component("CodeGroupItem", _sfc_main$L);
   delete app._context.components.ExternalLinkIcon;
-  app.component("ExternalLinkIcon", _sfc_main$G);
+  app.component("ExternalLinkIcon", _sfc_main$K);
   app.component("NavbarSearch", () => {
     const SearchComponent = app.component("Docsearch") || app.component("SearchBox");
     if (SearchComponent) {
@@ -1037,6 +1073,13 @@ const searchIndex$1 = [
       }
     ],
     "path": "/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/actualCombat/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1111,6 +1154,56 @@ const searchIndex$1 = [
       }
     ],
     "path": "/course/vscode%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Flutter\u5B9E\u6218",
+    "headers": [
+      {
+        "level": 2,
+        "title": "\u9002\u5408\u4EBA\u7FA4",
+        "slug": "\u9002\u5408\u4EBA\u7FA4",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "1.\u9879\u76EE\u7ED3\u6784",
+        "slug": "_1-\u9879\u76EE\u7ED3\u6784",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.\u8D77\u6B65",
+        "slug": "_2-\u8D77\u6B65",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.\u9519\u8BEF\u6355\u83B7\u548C\u4E0A\u62A5",
+        "slug": "_3-\u9519\u8BEF\u6355\u83B7\u548C\u4E0A\u62A5",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.\u62BD\u5C49\u9875",
+        "slug": "_4-\u62BD\u5C49\u9875",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5.\u8DEF\u7531\u7BA1\u7406\uFF08getX\uFF09",
+        "slug": "_5-\u8DEF\u7531\u7BA1\u7406-getx",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6.\u56FD\u9645\u5316\uFF08getX\uFF09",
+        "slug": "_6-\u56FD\u9645\u5316-getx",
+        "children": []
+      }
+    ],
+    "path": "/actualCombat/%E3%80%8AFlutter%E5%B7%A5%E7%A8%8B%E5%AE%9E%E6%88%98%E3%80%8B/01.%E8%B5%B7%E6%AD%A5.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2011,7 +2104,14 @@ const searchIndex$1 = [
     "extraFields": []
   },
   {
-    "title": "TypeScript",
+    "title": "Jenkins",
+    "headers": [],
+    "path": "/web/Jenkins/01.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "\u57FA\u7840\u7C7B\u578B",
     "headers": [
       {
         "level": 2,
@@ -2022,7 +2122,7 @@ const searchIndex$1 = [
       {
         "level": 2,
         "title": "\u57FA\u7840\u7C7B\u578B",
-        "slug": "\u57FA\u7840\u7C7B\u578B",
+        "slug": "\u57FA\u7840\u7C7B\u578B-1",
         "children": [
           {
             "level": 3,
@@ -2116,6 +2216,12 @@ const searchIndex$1 = [
         "level": 2,
         "title": "let \u58F0\u660E",
         "slug": "let-\u58F0\u660E",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "const \u58F0\u660E",
+        "slug": "const-\u58F0\u660E",
         "children": []
       }
     ],
@@ -2296,6 +2402,13 @@ const searchIndex$1 = [
       }
     ],
     "path": "/web/vue/03%E5%85%A8%E5%B1%80API.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "vue\u524D\u7F6E",
+    "headers": [],
+    "path": "/web/vue3/01.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2703,10 +2816,12 @@ const clientAppSetups = [
 ];
 const routeItems = [
   ["v-8daa1a0e", "/", { "title": "" }, ["/index.html", "/README.md"]],
+  ["v-67b7fbf4", "/actualCombat/", { "title": "" }, ["/actualCombat/index.html", "/actualCombat/README.md"]],
   ["v-6886cbbd", "/course/elementui%E5%9C%A8%E8%A1%A8%E6%A0%BC%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87.html", { "title": "elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247" }, ["/course/elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247.html", "/course/elementui%E5%9C%A8%E8%A1%A8%E6%A0%BC%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87", "/course/elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247.md", "/course/elementui%E5%9C%A8%E8%A1%A8%E6%A0%BC%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87.md"]],
   ["v-b9c2d34a", "/course/", { "title": "\u65E5\u5E38\u8BB0\u5F55" }, ["/course/index.html", "/course/README.md"]],
   ["v-4bac9763", "/course/utils.html", { "title": "\u8D44\u6E90\u5DE5\u5177" }, ["/course/utils", "/course/utils.md"]],
   ["v-66ff7ae2", "/course/vscode%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.html", { "title": "vscode\u5E38\u7528\u63D2\u4EF6" }, ["/course/vscode\u5E38\u7528\u63D2\u4EF6.html", "/course/vscode%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6", "/course/vscode\u5E38\u7528\u63D2\u4EF6.md", "/course/vscode%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.md"]],
+  ["v-995ccaba", "/actualCombat/%E3%80%8AFlutter%E5%B7%A5%E7%A8%8B%E5%AE%9E%E6%88%98%E3%80%8B/01.%E8%B5%B7%E6%AD%A5.html", { "title": "Flutter\u5B9E\u6218" }, ["/actualCombat/\u300AFlutter\u5DE5\u7A0B\u5B9E\u6218\u300B/01.\u8D77\u6B65.html", "/actualCombat/%E3%80%8AFlutter%E5%B7%A5%E7%A8%8B%E5%AE%9E%E6%88%98%E3%80%8B/01.%E8%B5%B7%E6%AD%A5", "/actualCombat/\u300AFlutter\u5DE5\u7A0B\u5B9E\u6218\u300B/01.\u8D77\u6B65.md", "/actualCombat/%E3%80%8AFlutter%E5%B7%A5%E7%A8%8B%E5%AE%9E%E6%88%98%E3%80%8B/01.%E8%B5%B7%E6%AD%A5.md"]],
   ["v-3509cb32", "/guide/interview/interview.html", { "title": "\u95EE\u9898\u96C6\u9526" }, ["/guide/interview/interview", "/guide/interview/interview.md"]],
   ["v-5d3f7a3b", "/guide/interview/JSinterview.html", { "title": "JS\u9762\u8BD5" }, ["/guide/interview/JSinterview", "/guide/interview/JSinterview.md"]],
   ["v-2d570564", "/guide/interview/VUEinterview.html", { "title": "VUE\u9762\u8BD5" }, ["/guide/interview/VUEinterview", "/guide/interview/VUEinterview.md"]],
@@ -2722,11 +2837,13 @@ const routeItems = [
   ["v-783b80d4", "/web/JavaScript/%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1.html", { "title": "\u5185\u7F6E\u5BF9\u8C61" }, ["/web/JavaScript/\u5185\u7F6E\u5BF9\u8C61.html", "/web/JavaScript/%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1", "/web/JavaScript/\u5185\u7F6E\u5BF9\u8C61.md", "/web/JavaScript/%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1.md"]],
   ["v-5debe7e1", "/web/JavaScript/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E4%B8%8E%E8%BF%90%E7%AE%97%E7%AC%A6.html", { "title": "\u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26" }, ["/web/JavaScript/\u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26.html", "/web/JavaScript/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E4%B8%8E%E8%BF%90%E7%AE%97%E7%AC%A6", "/web/JavaScript/\u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26.md", "/web/JavaScript/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E4%B8%8E%E8%BF%90%E7%AE%97%E7%AC%A6.md"]],
   ["v-24f06668", "/web/JavaScript/%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80.html", { "title": "\u8BED\u6CD5\u57FA\u7840" }, ["/web/JavaScript/\u8BED\u6CD5\u57FA\u7840.html", "/web/JavaScript/%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80", "/web/JavaScript/\u8BED\u6CD5\u57FA\u7840.md", "/web/JavaScript/%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80.md"]],
-  ["v-3689f102", "/web/TypeScript/01.html", { "title": "TypeScript" }, ["/web/TypeScript/01", "/web/TypeScript/01.md"]],
+  ["v-4fa2b6ab", "/web/Jenkins/01.html", { "title": "Jenkins" }, ["/web/Jenkins/01", "/web/Jenkins/01.md"]],
+  ["v-3689f102", "/web/TypeScript/01.html", { "title": "\u57FA\u7840\u7C7B\u578B" }, ["/web/TypeScript/01", "/web/TypeScript/01.md"]],
   ["v-998cc5e4", "/web/TypeScript/02.%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E.html", { "title": "\u53D8\u91CF\u58F0\u660E" }, ["/web/TypeScript/02.\u53D8\u91CF\u58F0\u660E.html", "/web/TypeScript/02.%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E", "/web/TypeScript/02.\u53D8\u91CF\u58F0\u660E.md", "/web/TypeScript/02.%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E.md"]],
   ["v-e9674cca", "/web/vue/01.html", { "title": "vue\u524D\u7F6E" }, ["/web/vue/01", "/web/vue/01.md"]],
   ["v-306f3916", "/web/vue/02vue%E6%8C%87%E4%BB%A4.html", { "title": "vue\u6307\u4EE4" }, ["/web/vue/02vue\u6307\u4EE4.html", "/web/vue/02vue%E6%8C%87%E4%BB%A4", "/web/vue/02vue\u6307\u4EE4.md", "/web/vue/02vue%E6%8C%87%E4%BB%A4.md"]],
   ["v-2ca8e124", "/web/vue/03%E5%85%A8%E5%B1%80API.html", { "title": "vue\u5168\u5C40API" }, ["/web/vue/03\u5168\u5C40API.html", "/web/vue/03%E5%85%A8%E5%B1%80API", "/web/vue/03\u5168\u5C40API.md", "/web/vue/03%E5%85%A8%E5%B1%80API.md"]],
+  ["v-d71deaac", "/web/vue3/01.html", { "title": "vue\u524D\u7F6E" }, ["/web/vue3/01", "/web/vue3/01.md"]],
   ["v-58f4867c", "/web/webpack/webpack.html", { "title": "webpack\u4ECB\u7ECD" }, ["/web/webpack/webpack", "/web/webpack/webpack.md"]],
   ["v-3706649a", "/404.html", {}, ["/404"]]
 ];
@@ -2830,8 +2947,8 @@ var _export_sfc = (sfc, props) => {
   }
   return target;
 };
-const _sfc_main$F = {};
-function _sfc_ssrRender$r(_ctx, _push, _parent, _attrs) {
+const _sfc_main$J = {};
+function _sfc_ssrRender$v(_ctx, _push, _parent, _attrs) {
   const _component_CodeGroup = vue.resolveComponent("CodeGroup");
   const _component_CodeGroupItem = vue.resolveComponent("CodeGroupItem");
   _push(`<!--[--><h3 id="_1\u30012\u30013" tabindex="-1"><a class="header-anchor" href="#_1\u30012\u30013" aria-hidden="true">#</a> 1\u30012\u30013</h3>`);
@@ -3853,20 +3970,37 @@ int <span class="token function"${_scopeId2}>main</span><span class="token punct
   }, _parent));
   _push(`<!--]-->`);
 }
-const _sfc_setup$F = _sfc_main$F.setup;
-_sfc_main$F.setup = (props, ctx) => {
+const _sfc_setup$J = _sfc_main$J.setup;
+_sfc_main$J.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/index.html.vue");
-  return _sfc_setup$F ? _sfc_setup$F(props, ctx) : void 0;
+  return _sfc_setup$J ? _sfc_setup$J(props, ctx) : void 0;
 };
-var index_html$4 = /* @__PURE__ */ _export_sfc(_sfc_main$F, [["ssrRender", _sfc_ssrRender$r]]);
-var index_html$5 = /* @__PURE__ */ Object.freeze({
+var index_html$7 = /* @__PURE__ */ _export_sfc(_sfc_main$J, [["ssrRender", _sfc_ssrRender$v]]);
+var index_html$8 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  "default": index_html$4
+  "default": index_html$7
 });
-const _sfc_main$E = {};
-function _sfc_ssrRender$q(_ctx, _push, _parent, _attrs) {
+const _sfc_main$I = {};
+function _sfc_ssrRender$u(_ctx, _push, _parent, _attrs) {
+  const _component_MyTemplate = vue.resolveComponent("MyTemplate");
+  _push(serverRenderer.ssrRenderComponent(_component_MyTemplate, _attrs, null, _parent));
+}
+const _sfc_setup$I = _sfc_main$I.setup;
+_sfc_main$I.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/actualCombat/index.html.vue");
+  return _sfc_setup$I ? _sfc_setup$I(props, ctx) : void 0;
+};
+var index_html$5 = /* @__PURE__ */ _export_sfc(_sfc_main$I, [["ssrRender", _sfc_ssrRender$u]]);
+var index_html$6 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": index_html$5
+});
+const _sfc_main$H = {};
+function _sfc_ssrRender$t(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h1 id="elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247" tabindex="-1"><a class="header-anchor" href="#elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247" aria-hidden="true">#</a> elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247</h1><h2 id="\u63D2\u5165\u5355\u5F20-\u60AC\u6D6E\u9884\u89C8" tabindex="-1"><a class="header-anchor" href="#\u63D2\u5165\u5355\u5F20-\u60AC\u6D6E\u9884\u89C8" aria-hidden="true">#</a> \u63D2\u5165\u5355\u5F20\uFF0C\u60AC\u6D6E\u9884\u89C8</h2><div class="custom-container warning"><p class="custom-container-title">\u6CE8\u610F</p><p>\u4E0B\u9762<code>scope.row</code>\u8868\u793A\u5F53\u524D\u7684\u884C\u5BF9\u8C61</p></div><div class="language-html ext-html line-numbers-mode"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>el-table-column</span>  <span class="token attr-name">label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>\u56FE\u7247<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span> <span class="token attr-name">slot-scope</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>scope<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>el-popover</span> <span class="token attr-name">placement</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>top-start<span class="token punctuation">&quot;</span></span> <span class="token attr-name">title</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span><span class="token punctuation">&quot;</span></span> <span class="token attr-name">trigger</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>hover<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
@@ -3896,20 +4030,20 @@ function _sfc_ssrRender$q(_ctx, _push, _parent, _attrs) {
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>el-table-column</span><span class="token punctuation">&gt;</span></span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><!--]-->`);
 }
-const _sfc_setup$E = _sfc_main$E.setup;
-_sfc_main$E.setup = (props, ctx) => {
+const _sfc_setup$H = _sfc_main$H.setup;
+_sfc_main$H.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/course/elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247.html.vue");
-  return _sfc_setup$E ? _sfc_setup$E(props, ctx) : void 0;
+  return _sfc_setup$H ? _sfc_setup$H(props, ctx) : void 0;
 };
-var elementui_________html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$E, [["ssrRender", _sfc_ssrRender$q]]);
+var elementui_________html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$H, [["ssrRender", _sfc_ssrRender$t]]);
 var elementui_________html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": elementui_________html$1
 });
-const _sfc_main$D = {};
-function _sfc_ssrRender$p(_ctx, _push, _parent, _attrs) {
+const _sfc_main$G = {};
+function _sfc_ssrRender$s(_ctx, _push, _parent, _attrs) {
   const _component_ClientOnly = vue.resolveComponent("ClientOnly");
   const _component_MyTemplate = vue.resolveComponent("MyTemplate");
   _push(`<!--[--><h2 id="clientonly\u4F7F\u7528\u7EC4\u4EF6" tabindex="-1"><a class="header-anchor" href="#clientonly\u4F7F\u7528\u7EC4\u4EF6" aria-hidden="true">#</a> ClientOnly\u4F7F\u7528\u7EC4\u4EF6</h2>`);
@@ -3927,20 +4061,20 @@ function _sfc_ssrRender$p(_ctx, _push, _parent, _attrs) {
   }, _parent));
   _push(`<!--]-->`);
 }
-const _sfc_setup$D = _sfc_main$D.setup;
-_sfc_main$D.setup = (props, ctx) => {
+const _sfc_setup$G = _sfc_main$G.setup;
+_sfc_main$G.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/course/index.html.vue");
-  return _sfc_setup$D ? _sfc_setup$D(props, ctx) : void 0;
+  return _sfc_setup$G ? _sfc_setup$G(props, ctx) : void 0;
 };
-var index_html$2 = /* @__PURE__ */ _export_sfc(_sfc_main$D, [["ssrRender", _sfc_ssrRender$p]]);
-var index_html$3 = /* @__PURE__ */ Object.freeze({
+var index_html$3 = /* @__PURE__ */ _export_sfc(_sfc_main$G, [["ssrRender", _sfc_ssrRender$s]]);
+var index_html$4 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  "default": index_html$2
+  "default": index_html$3
 });
-const _sfc_main$C = {};
-function _sfc_ssrRender$o(_ctx, _push, _parent, _attrs) {
+const _sfc_main$F = {};
+function _sfc_ssrRender$r(_ctx, _push, _parent, _attrs) {
   const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
   _push(`<!--[--><h1 id="\u8D44\u6E90\u5DE5\u5177" tabindex="-1"><a class="header-anchor" href="#\u8D44\u6E90\u5DE5\u5177" aria-hidden="true">#</a> \u8D44\u6E90\u5DE5\u5177</h1><h2 id="_1-\u529E\u516C\u88C5\u673A" tabindex="-1"><a class="header-anchor" href="#_1-\u529E\u516C\u88C5\u673A" aria-hidden="true">#</a> 1. \u529E\u516C\u88C5\u673A</h2><p><a href="https://www.7-zip.org/" target="_blank" rel="noopener noreferrer">7-zip`);
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
@@ -3966,20 +4100,20 @@ function _sfc_ssrRender$o(_ctx, _push, _parent, _attrs) {
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
   _push(`</a></p><h2 id="_2-\u5F00\u53D1\u8F6F\u4EF6" tabindex="-1"><a class="header-anchor" href="#_2-\u5F00\u53D1\u8F6F\u4EF6" aria-hidden="true">#</a> 2. \u5F00\u53D1\u8F6F\u4EF6</h2><p>1\uFE0F\u20E3 \u2003 <a href="">VSCode</a></p><p>2\uFE0F\u20E3</p><p>3\uFE0F\u20E3</p><!--]-->`);
 }
-const _sfc_setup$C = _sfc_main$C.setup;
-_sfc_main$C.setup = (props, ctx) => {
+const _sfc_setup$F = _sfc_main$F.setup;
+_sfc_main$F.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/course/utils.html.vue");
-  return _sfc_setup$C ? _sfc_setup$C(props, ctx) : void 0;
+  return _sfc_setup$F ? _sfc_setup$F(props, ctx) : void 0;
 };
-var utils_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$C, [["ssrRender", _sfc_ssrRender$o]]);
+var utils_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$F, [["ssrRender", _sfc_ssrRender$r]]);
 var utils_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": utils_html$1
 });
-const _sfc_main$B = {};
-function _sfc_ssrRender$n(_ctx, _push, _parent, _attrs) {
+const _sfc_main$E = {};
+function _sfc_ssrRender$q(_ctx, _push, _parent, _attrs) {
   const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
   _push(`<!--[--><h1 id="vscode\u5E38\u7528\u63D2\u4EF6" tabindex="-1"><a class="header-anchor" href="#vscode\u5E38\u7528\u63D2\u4EF6" aria-hidden="true">#</a> vscode\u5E38\u7528\u63D2\u4EF6</h1><ol><li><a href="https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode" target="_blank" rel="noopener noreferrer">Tabnine`);
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
@@ -3991,37 +4125,88 @@ function _sfc_ssrRender$n(_ctx, _push, _parent, _attrs) {
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
   _push(`</a></li></ol><!--]-->`);
 }
-const _sfc_setup$B = _sfc_main$B.setup;
-_sfc_main$B.setup = (props, ctx) => {
+const _sfc_setup$E = _sfc_main$E.setup;
+_sfc_main$E.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/course/vscode\u5E38\u7528\u63D2\u4EF6.html.vue");
-  return _sfc_setup$B ? _sfc_setup$B(props, ctx) : void 0;
+  return _sfc_setup$E ? _sfc_setup$E(props, ctx) : void 0;
 };
-var vscode_____html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$B, [["ssrRender", _sfc_ssrRender$n]]);
+var vscode_____html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$E, [["ssrRender", _sfc_ssrRender$q]]);
 var vscode_____html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": vscode_____html$1
 });
-const _sfc_main$A = {};
-function _sfc_ssrRender$m(_ctx, _push, _parent, _attrs) {
+const _sfc_main$D = {};
+function _sfc_ssrRender$p(_ctx, _push, _parent, _attrs) {
+  _push(`<!--[--><h1 id="\u5E8F\u8A00" tabindex="-1"><a class="header-anchor" href="#\u5E8F\u8A00" aria-hidden="true">#</a> \u5E8F\u8A00</h1><h2 id="\u9002\u5408\u4EBA\u7FA4" tabindex="-1"><a class="header-anchor" href="#\u9002\u5408\u4EBA\u7FA4" aria-hidden="true">#</a> \u9002\u5408\u4EBA\u7FA4</h2><ul><li>\u5DF2\u6709Flutter\u57FA\u7840\u7684\u5C0F\u4F19\u4F34</li><li>\u7F3A\u4E4FFlutter\u9879\u76EE\u7ECF\u9A8C\u7684\u5F00\u53D1\u4EBA\u5458</li><li>\u72EC\u7ACB\u5B8C\u6210\u9879\u76EE\u6216\u6BD5\u8BBE\u7684\u5927\u5B66\u751F</li></ul><h2 id="_1-\u9879\u76EE\u7ED3\u6784" tabindex="-1"><a class="header-anchor" href="#_1-\u9879\u76EE\u7ED3\u6784" aria-hidden="true">#</a> 1.\u9879\u76EE\u7ED3\u6784</h2><div class="language-file ext-file line-numbers-mode"><pre class="language-file"><code>|---flutter_locyin
+|     |---android  
+|     |---assets  
+|     |     |---fonts // \u5B57\u4F53\u8D44\u6E90  
+|     |     |---icon // \u56FE\u6807\u8D44\u6E90  
+|     |     |---images // \u56FE\u7247\u8D44\u6E90  
+|     |     |---json // \u672C\u5730\u6A21\u62DFJSON  
+|     |---ios  
+|     |---lib  
+|     |     |---data  
+|     |     |     |---api // http \u63A5\u53E3\u548C\u670D\u52A1\u7C7B  
+|     |     |     |---model // \u6570\u636E\u6A21\u578B  
+|     |     |---common
+|     |     |     |---lang  // \u8BED\u8A00\u76EE\u5F55
+|     |     |          \u2514\u2500\u2500en_US // \u82F1\u6587\u8BED\u8A00\u5305
+|     |     |          \u2514\u2500\u2500zh_Hans // \u4E2D\u6587\u8BED\u8A00\u5305
+|     |     |          \u2514\u2500\u2500translation_service // \u7FFB\u8BD1\u670D\u52A1\u7C7B
+|     |     |---init // \u542F\u52A8\u76EE\u5F55
+|     |     |     \u2514\u2500\u2500 app_init.dart // \u6355\u83B7\u5F02\u5E38 
+|     |     |     \u2514\u2500\u2500 default_app.dart // \u9ED8\u8BA4 App \u542F\u52A8
+|     |     |---page  
+|     |     |     \u2514\u2500\u2500 index.dart // \u4E3B\u8981\u7528\u4E8E\u5E95\u90E8\u5BFC\u822A\u3001\u72B6\u6001\u4FDD\u6301  
+|     |     |     \u2514\u2500\u2500 xxx.dart // \u6240\u6709\u9875\u9762\u5E03\u5C40\uFF0C\u4E0D\u518D\u4E00\u4E00\u5217\u51FA  
+|     |     |---route // \u8DEF\u7531\u76EE\u5F55
+|     |     |     \u2514\u2500\u2500 route_map.dart  // Getx \u8DEF\u7531\u8868  
+|     |     |     \u2514\u2500\u2500 route.dart // \u4E8C\u6B21\u5C01\u88C5 Getx
+|     |     |---utils // \u4E8C\u6B21\u5C01\u88C5\u7B2C\u4E09\u65B9\u5E93\u76EE\u5F55  
+|     |     |     \u2514\u2500\u2500 provider.dart // APP \u72B6\u6001\u7BA1\u7406  
+|     |     |     \u2514\u2500\u2500 sputils.dart // \u6570\u636E\u6301\u4E45\u5316\u5B58\u50A8  
+|     |     |     \u2514\u2500\u2500 dio_manager.dart // \u4E8C\u6B21\u5C01\u88C5 Dio\uFF0C\u914D\u7F6E\u4FE1\u606F\u3001\u8BF7\u6C42\u65E5\u5FD7\u3001\u81EA\u52A8\u5904\u7406\u9519\u8BEF\u7B49  
+|     |     |---widgets // \u5C01\u88C5\u7684\u5C0F\u90E8\u4EF6\u76EE\u5F55  
+|     |     \u2514\u2500\u2500 main.dart // APP \u5165\u53E3\u6587\u4EF6  
+|     |---test
+|     |---web
+|     \u2514\u2500\u2500 pubspec.yaml //\u4F9D\u8D56\u914D\u7F6E\u7BA1\u7406  
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br></div></div><h2 id="_2-\u8D77\u6B65" tabindex="-1"><a class="header-anchor" href="#_2-\u8D77\u6B65" aria-hidden="true">#</a> 2.\u8D77\u6B65</h2><h2 id="_3-\u9519\u8BEF\u6355\u83B7\u548C\u4E0A\u62A5" tabindex="-1"><a class="header-anchor" href="#_3-\u9519\u8BEF\u6355\u83B7\u548C\u4E0A\u62A5" aria-hidden="true">#</a> 3.\u9519\u8BEF\u6355\u83B7\u548C\u4E0A\u62A5</h2><h2 id="_4-\u62BD\u5C49\u9875" tabindex="-1"><a class="header-anchor" href="#_4-\u62BD\u5C49\u9875" aria-hidden="true">#</a> 4.\u62BD\u5C49\u9875</h2><h2 id="_5-\u8DEF\u7531\u7BA1\u7406-getx" tabindex="-1"><a class="header-anchor" href="#_5-\u8DEF\u7531\u7BA1\u7406-getx" aria-hidden="true">#</a> 5.\u8DEF\u7531\u7BA1\u7406\uFF08getX\uFF09</h2><h2 id="_6-\u56FD\u9645\u5316-getx" tabindex="-1"><a class="header-anchor" href="#_6-\u56FD\u9645\u5316-getx" aria-hidden="true">#</a> 6.\u56FD\u9645\u5316\uFF08getX\uFF09</h2><!--]-->`);
+}
+const _sfc_setup$D = _sfc_main$D.setup;
+_sfc_main$D.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/actualCombat/\u300AFlutter\u5DE5\u7A0B\u5B9E\u6218\u300B/01.\u8D77\u6B65.html.vue");
+  return _sfc_setup$D ? _sfc_setup$D(props, ctx) : void 0;
+};
+var _01____html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$D, [["ssrRender", _sfc_ssrRender$p]]);
+var _01____html$2 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": _01____html$1
+});
+const _sfc_main$C = {};
+function _sfc_ssrRender$o(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h1 id="\u95EE\u9898\u96C6\u9526" tabindex="-1"><a class="header-anchor" href="#\u95EE\u9898\u96C6\u9526" aria-hidden="true">#</a> \u95EE\u9898\u96C6\u9526</h1><div class="custom-container tip"><p class="custom-container-title">\u9762\u8BD5</p><p>\u5E38\u89C1\u9762\u8BD5\u96C6\u9526</p></div><h2 id="\u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD" tabindex="-1"><a class="header-anchor" href="#\u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD" aria-hidden="true">#</a> \u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD</h2><p><strong>\u63D0\u793A</strong>\uFF1A\u4E00\u822C\u4EBA\u56DE\u7B54\u8FD9\u4E2A\u95EE\u9898\u8FC7\u4E8E\u5E73\u5E38\uFF0C\u59D3\u540D\u3001\u5E74\u9F84\u3001\u7231\u597D\u3001\u5DE5\u4F5C\u7ECF\u9A8C\uFF0C\u8FD9\u4E9B\u7B80\u5386\u4E0A\u90FD\u6709\u3002\u4F01\u4E1A\uFF08\u9762\u8BD5\u5B98\uFF09\u6700\u5E0C\u671B\u77E5\u9053\u7684\u662F\u6C42\u804C\u8005\u80FD\u5426\u80DC\u4EFB\u5DE5\u4F5C\uFF0C\u5305\u62EC\uFF1A\u6700\u5F3A\u7684\u6280\u80FD\u3001\u6700\u6DF1\u5165\u7814\u7A76\u7684\u9886\u57DF\u3001\u4E2A\u6027\u4E2D\u6700\u79EF\u6781\u7684\u90E8\u5206\u3001\u505A\u8FC7\u6700\u6210\u529F\u7684\u4E8B\uFF0C\u4E3B\u8981\u6210\u5C31\u7B49\uFF0C\u8981\u7A81\u51FA\u79EF\u6781\u7684\u4E2A\u6027\u548C\u505A\u4E8B\u7684\u80FD\u529B\uFF0C\u8BF4\u7684\u5408\u60C5\u5408\u7406\u4F01\u4E1A\uFF08\u9762\u8BD5\u5B98\uFF09\u624D\u4F1A\u76F8\u4FE1\u3002</p><h2 id="\u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48" tabindex="-1"><a class="header-anchor" href="#\u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48" aria-hidden="true">#</a> \u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48\uFF1F</h2><p><strong>\u56DE\u7B54\u63D0\u793A</strong>\uFF1A \u6C89\u7740\u51B7\u9759\u3001\u6761\u7406\u6E05\u695A\u3001\u7ACB\u573A\u575A\u5B9A\u3001\u4E50\u4E8E\u52A9\u4EBA\u7B49\uFF0C\u52A0\u4E0A\u4F8B\u5B50\u5982\uFF1A\u6211\u5728XX\u7ECF\u8FC7\u4E00\u5230\u4E24\u5E74\u7684\u57F9\u8BAD\u53CA\u9879\u76EE\u5B9E\u6218\uFF0C\u52A0\u4E0A\u5B9E\u4E60\u5DE5\u4F5C\uFF0C\u6211\u60F3\u6211\u9002\u5408\u8FD9\u4EFD\u5DE5\u4F5C\u3002</p><h2 id="\u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9" tabindex="-1"><a class="header-anchor" href="#\u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9" aria-hidden="true">#</a> \u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u8FD9\u4E2A\u95EE\u9898\u4F01\u4E1A\u95EE\u7684\u6982\u7387\u5F88\u5927\uFF0C\u901A\u5E38\u4E0D\u5E0C\u671B\u542C\u5230\u76F4\u63A5\u56DE\u7B54\u7684\u7F3A\u70B9\u662F\u4EC0\u4E48\u7B49\uFF0C\u5982\u679C\u6C42\u804C\u8005\u8BF4\u81EA\u5DF1\u5C0F\u5FC3\u773C\u3001\u975E\u5E38\u61D2\u3001\u5DE5\u4F5C\u6548\u7387\u4F4E\uFF0C\u4F01\u4E1A\u80AF\u5B9A\u4E0D\u4F1A\u5F55\u7528\u4F60\u3002\u8981\u4ECE\u81EA\u5DF1\u7684\u4F18\u70B9\u8BF4\u8D77\uFF0C\u4E2D\u95F4\u52A0\u4E00\u4E9B\u5C0F\u7F3A\u70B9\uFF0C\u6700\u540E\u518D\u628A\u95EE\u7B54\u8F6C\u56DE\u5230\u4F18\u70B9\u4E0A\uFF0C\u7A81\u51FA\u4F18\u70B9\u7684\u90E8\u5206\u3002</p><h2 id="\u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5" tabindex="-1"><a class="header-anchor" href="#\u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5" aria-hidden="true">#</a> \u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A\u5B9E\u9645\u4E0A\u597D\u591A\u516C\u53F8\u95EE\u8FD9\u4E2A\u95EE\u9898\uFF0C\u5E76\u4E0D\u8BC1\u660E\u4E00\u5B9A\u8981\u52A0\u73ED\uFF0C\u53EA\u662F\u60F3\u6D4B\u8BD5\u4F60\u662F\u5426\u613F\u610F\u4E3A\u516C\u53F8\u5949\u732E\u3002</p><p><strong>\u6837\u672C</strong>\uFF1A\u5982\u679C\u662F\u5DE5\u4F5C\u9700\u8981\u6211\u4F1A\u4E49\u4E0D\u5BB9\u8F9E\u52A0\u73ED\uFF0C\u4F46\u540C\u65F6\uFF0C\u6211\u4E5F\u4F1A\u63D0\u9AD8\u5DE5\u4F5C\u6548\u7387\uFF0C\u51CF\u5C11\u4E0D\u5FC5\u8981\u7684\u52A0\u73ED\u3002</p><h2 id="\u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42" tabindex="-1"><a class="header-anchor" href="#\u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42" aria-hidden="true">#</a> \u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u5982\u679C\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\u592A\u4F4E\uFF0C\u90A3\u663E\u7136\u8D2C\u4F4E\u81EA\u5DF1\u7684\u80FD\u529B\uFF1B\u5982\u679C\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\u592A\u9AD8\uFF0C\u90A3\u53C8\u4F1A\u663E\u5F97\u4F60\u5206\u91CF\u8FC7\u91CD\uFF0C\u516C\u53F8\u53D7\u7528\u4E0D\u8D77\u3002\u4E00\u4E9B\u96C7\u4E3B\u901A\u5E38\u90FD\u4E8B\u5148\u5BF9\u6C42\u8058\u7684\u804C\u4F4D\u5B9A\u4E0B\u5F00\u652F\u9884\u7B97\uFF0C\u56E0\u800C\u4ED6\u4EEC\u7B2C\u4E00\u6B21\u63D0\u51FA\u7684\u4EF7\u94B1\u5F80\u5F80\u662F\u4ED6\u4EEC\u6240\u80FD\u7ED9\u4E88\u7684\u6700\u9AD8\u4EF7\u94B1\uFF0C\u4ED6\u4EEC\u95EE\u4F60\u53EA\u4E0D\u8FC7\u60F3\u8BC1\u5B9E\u4E00\u4E0B\u8FD9\u7B14\u94B1\u662F\u5426\u8DB3\u4EE5\u5F15\u8D77\u4F60\u5BF9\u8BE5\u5DE5\u4F5C\u7684\u5174\u8DA3\u3002</p><p><strong>\u56DE\u7B54</strong>\uFF1A</p><ol><li><p>\u6211\u5BF9\u5DE5\u8D44\u6CA1\u6709\u786C\u6027\u8981\u6C42\uFF0C\u6211\u76F8\u4FE1\u8D35\u516C\u53F8\u4F1A\u53CB\u5584\u5408\u7406\u3002\u6211\u6CE8\u91CD\u7684\u662F\u627E\u5230\u5DE5\u4F5C\u673A\u4F1A\uFF0C\u6240\u4EE5\u53EA\u8981\u6761\u4EF6\u516C\u5E73\uFF0C\u6211\u5219\u4E0D\u4F1A\u8BA1\u8F83\u592A\u591A\u3002</p></li><li><p>\u6211\u53D7\u8FC7\u7CFB\u7EDF\u7684\u8F6F\u4EF6\u7F16\u7A0B\u7684\u8BAD\u7EC3\uFF0C\u4E0D\u9700\u8981\u8FDB\u884C\u5927\u91CF\u7684\u57F9\u8BAD\uFF0C\u800C\u4E14\u6211\u672C\u4EBA\u4E5F\u5BF9\u7F16\u7A0B\u7279\u522B\u611F\u5174\u8DA3\u3002\u56E0\u6B64\uFF0C\u6211\u5E0C\u671B\u516C\u53F8\u80FD\u6839\u636E\u6211\u7684\u60C5\u51B5\u548C\u5E02\u573A\u6807\u51C6\u7684\u6C34\u5E73\uFF0C\u7ED9\u6211\u5408\u7406\u7684\u85AA\u6C34\u3002</p></li><li><p>\u5982\u679C\u4F60\u5FC5\u987B\u81EA\u5DF1\u8BF4\u51FA\u5177\u4F53\u6570\u76EE\uFF0C\u8BF7\u4E0D\u8981\u8BF4\u4E00\u4E2A\u5BBD\u6CDB\u7684\u8303\u56F4\uFF0C\u90A3\u6837\u4F60\u5C06\u53EA\u80FD\u5F97\u5230\u6700\u4F4E\u9650\u5EA6\u7684\u6570\u5B57\u3002\u6700\u597D\u7ED9\u51FA\u4E00\u4E2A\u5177\u4F53\u7684\u6570\u5B57\uFF0C\u8FD9\u6837\u8868\u660E\u4F60\u5DF2\u7ECF\u5BF9\u5F53\u4ECA\u7684\u4EBA\u624D\u5E02\u573A\u505A\u4E86\u8C03\u67E5\uFF0C\u77E5\u9053\u50CF\u81EA\u5DF1\u8FD9\u6837\u5B66\u5386\u7684\u96C7\u5458\u6709\u4EC0\u4E48\u6837\u7684\u4EF7\u503C\u3002</p></li></ol><h2 id="\u5728\u4E94\u5E74\u5185-\u4F60\u7684\u804C\u4E1A\u89C4\u5212" tabindex="-1"><a class="header-anchor" href="#\u5728\u4E94\u5E74\u5185-\u4F60\u7684\u804C\u4E1A\u89C4\u5212" aria-hidden="true">#</a> \u5728\u4E94\u5E74\u5185\uFF0C\u4F60\u7684\u804C\u4E1A\u89C4\u5212\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u8FD9\u662F\u6BCF\u4E00\u4E2A\u5E94\u8058\u8005\u90FD\u4E0D\u5E0C\u671B\u88AB\u95EE\u5230\u7684\u95EE\u9898\uFF0C\u4F46\u662F\uFF08\u5927\u516C\u53F8\uFF09\u51E0\u4E4E\u6BCF\u4E2A\u4EBA\u90FD\u4F1A\u88AB\u95EE\u5230\uFF0C\u6BD4\u8F83\u591A\u7684\u7B54\u6848\u662F\u201C\u7BA1\u7406\u8005\u201D\u3002\u5F53\u7136\uFF0C\u8BF4\u51FA\u5176\u4ED6\u4E00\u4E9B\u4F60\u611F\u5174\u8DA3\u7684\u804C\u4F4D\u4E5F\u662F\u53EF\u4EE5\u7684\u3002\u8981\u77E5\u9053\uFF0C\u8003\u5B98\u603B\u662F\u559C\u6B22\u6709\u8FDB\u53D6\u5FC3\u7684\u5E94\u8058\u8005\uFF0C\u6B64\u65F6\u5982\u679C\u8BF4\u201C\u4E0D\u77E5\u9053\u201D\uFF0C\u6216\u8BB8\u5C31\u4F1A\u4F7F\u4F60\u4E27\u5931\u4E00\u4E2A\u597D\u673A\u4F1A\u3002\u6700\u666E\u901A\u7684\u56DE\u7B54\u5E94\u8BE5\u662F\u201C\u6211\u51C6\u5907\u5728\u6280\u672F\u9886\u57DF\u6709\u6240\u4F5C\u4E3A\u201D\u6216\u201C\u6211\u5E0C\u671B\u80FD\u6309\u7167\u516C\u53F8\u7684\u7BA1\u7406\u601D\u8DEF\u53D1\u5C55\u201D\u3002</p><h2 id="\u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417" tabindex="-1"><a class="header-anchor" href="#\u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417" aria-hidden="true">#</a> \u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417?</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u4F01\u4E1A\u7684\u8FD9\u4E2A\u95EE\u9898\u770B\u4E0A\u53BB\u53EF\u6709\u53EF\u65E0\uFF0C\u5176\u5B9E\u5F88\u5173\u952E\uFF0C\u4F01\u4E1A\u4E0D\u559C\u6B22\u8BF4\u201C\u6CA1\u95EE\u9898\u201D\u7684\u4EBA\uFF0C\u56E0\u4E3A\u5176\u5F88\u6CE8\u91CD\u5458\u5DE5\u7684\u4E2A\u6027\u548C\u521B\u65B0\u80FD\u529B\u3002\u4F01\u4E1A\u4E0D\u559C\u6B22\u6C42\u804C\u8005\u95EE\u4E2A\u4EBA\u798F\u5229\u4E4B\u7C7B\u7684\u95EE\u9898\uFF0C\u5982\u679C\u6709\u4EBA\u8FD9\u6837\u95EE\uFF1A\u8D35\u516C\u53F8\u5BF9\u65B0\u5165\u516C\u53F8\u7684\u5458\u5DE5\u6709\u6CA1\u6709\u4EC0\u4E48\u57F9\u8BAD\u9879\u76EE\uFF0C\u6211\u53EF\u4EE5\u53C2\u52A0\u5417\uFF1F\u6216\u8005\u8BF4\u8D35\u516C\u53F8\u7684\u664B\u5347\u673A\u5236\u662F\u4EC0\u4E48\u6837\u7684\uFF1F\u4F01\u4E1A\u5C06\u5F88\u6B22\u8FCE\uFF0C\u56E0\u4E3A\u4F53\u73B0\u51FA\u4F60\u5BF9\u5B66\u4E60\u7684\u70ED\u60C5\u548C\u5BF9\u516C\u53F8\u7684\u5FE0\u8BDA\u5EA6\u4EE5\u53CA\u4F60\u7684\u4E0A\u8FDB\u5FC3\u3002</p><h2 id="\u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5" tabindex="-1"><a class="header-anchor" href="#\u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5" aria-hidden="true">#</a> \u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5?</h2><p><strong>\u56DE\u7B54</strong>\uFF1A \u2460\u6B63\u5E38\u7684\u201C\u8DF3\u69FD\u201D\u80FD\u591F\u4FC3\u8FDB\u4EBA\u624D\u5408\u7406\u6D41\u52A8\uFF0C\u5E94\u8BE5\u652F\u6301\u3002\u2461\u9891\u7E41\u7684\u8DF3\u69FD\u5BF9\u5355\u4F4D\u548C\u4E2A\u4EBA\u53CC\u65B9\u90FD\u4E0D\u5229\uFF0C\u5E94\u8BE5\u53CD\u5BF9\u3002</p><h2 id="\u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11" tabindex="-1"><a class="header-anchor" href="#\u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11" aria-hidden="true">#</a> \u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11?</h2><p><strong>\u56DE\u7B54</strong>\uFF1A\u5728\u53BB\u516C\u53F8\u9762\u8BD5\u524D\u4E0A\u7F51\u67E5\u4E00\u4E0B\u8BE5\u516C\u53F8\u4E3B\u8425\u4E1A\u52A1\u3002\u53EF\u7C7B\u4F3C\u56DE\u7B54\uFF1A\u8D35\u516C\u53F8\u6709\u610F\u6539\u53D8\u7B56\u7565\uFF0C\u52A0\u5F3A\u4E0E\u56FD\u5916\u5927\u5382\u7684OEM\u5408\u4F5C\uFF0C\u81EA\u6709\u54C1\u724C\u7684\u90E8\u5206\u5219\u900F\u8FC7\u6D77\u5916\u7ECF\u9500\u5546\u3002</p><!--]-->`);
 }
-const _sfc_setup$A = _sfc_main$A.setup;
-_sfc_main$A.setup = (props, ctx) => {
+const _sfc_setup$C = _sfc_main$C.setup;
+_sfc_main$C.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/interview/interview.html.vue");
-  return _sfc_setup$A ? _sfc_setup$A(props, ctx) : void 0;
+  return _sfc_setup$C ? _sfc_setup$C(props, ctx) : void 0;
 };
-var interview_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$A, [["ssrRender", _sfc_ssrRender$m]]);
+var interview_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$C, [["ssrRender", _sfc_ssrRender$o]]);
 var interview_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": interview_html$1
 });
 var JSinterview_html_vue_vue_type_style_index_0_lang = "";
-const _sfc_main$z = {};
-function _sfc_ssrRender$l(_ctx, _push, _parent, _attrs) {
+const _sfc_main$B = {};
+function _sfc_ssrRender$n(_ctx, _push, _parent, _attrs) {
   const _component_CodeGroup = vue.resolveComponent("CodeGroup");
   const _component_CodeGroupItem = vue.resolveComponent("CodeGroupItem");
   _push(`<!--[--><h1 id="js\u9762\u8BD5" tabindex="-1"><a class="header-anchor" href="#js\u9762\u8BD5" aria-hidden="true">#</a> JS\u9762\u8BD5</h1><blockquote><p><strong>\u4E0D\u5206\u987A\u5E8F\uFF0C\u5FE0\u544A\uFF1AJS\u7684\u9762\u8BD5\u9898\u5F88\u591A\uFF0C\u73B0\u5728\u6BCF\u4E2A\u9762\u8BD5\u5B98\u90FD\u8BD5\u56FE\u95EE\u51FA\u4E0D\u4E00\u6837\u7684\u95EE\u9898\uFF0C\u4F46\u77E5\u8BC6\u70B9\u90FD\u662F\u63A5\u8FD1\u7684\uFF0C\u6240\u4EE5\u5E94\u8BE5\u82B1\u66F4\u591A\u65F6\u95F4\u5728\u5B66\u4E60\u4E0A\uFF0C\u795D\u597D\u8FD0</strong>\u3002</p></blockquote><h2 id="_1-\u5EF6\u8FDF\u52A0\u8F7Djs\u7684\u65B9\u5F0F\u6709\u54EA\u4E9B" tabindex="-1"><a class="header-anchor" href="#_1-\u5EF6\u8FDF\u52A0\u8F7Djs\u7684\u65B9\u5F0F\u6709\u54EA\u4E9B" aria-hidden="true">#</a> 1.\u5EF6\u8FDF\u52A0\u8F7DJS\u7684\u65B9\u5F0F\u6709\u54EA\u4E9B</h2><p>\u91CD\u70B9\uFF1A<code>async</code>\u3001<code>defer</code></p><p>\u56FE\u89E3\u8BF4\u660E\uFF1A</p><p><img src="https://s6.jpg.cm/2022/01/24/LpwDYt.jpg" alt="LpwDYt.jpg"></p><ol><li>\u6B63\u5E38\u60C5\u51B5\u4E0B\u7684<code>script</code>\u811A\u672C\u6267\u884C\uFF1A</li></ol><p>\u6B63\u5E38\u60C5\u51B5\u4E0B\uFF0C\u6D4F\u89C8\u5668\u4F1A\u987A\u5E8F\u6267\u884C\u4EE3\u7801\uFF0C\u9047\u5230<code>script</code>\u811A\u672C\u65F6\uFF0CHTML\u4F1A\u505C\u6B62\u89E3\u6790\uFF0C\u5148\u4E0B\u8F7D<code>script</code>\u811A\u672C\uFF0C\u7136\u540E\u6267\u884C\u5B83\uFF08\u4E00\u822C\u662F\u6211\u4EEC\u5916\u90E8\u5F15\u5165\u7684\u811A\u672C\uFF09,\u7136\u540E\u518D\u7EE7\u7EED\u89E3\u6790HTML\u3002\u4E0B\u9762\u4EE3\u7801\uFF1A</p><div class="language-html ext-html line-numbers-mode"><pre class="language-html"><code><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">&gt;</span></span>
@@ -4345,20 +4530,20 @@ Promise<span class="token punctuation">.</span><span class="token function">all<
 <span class="token keyword">let</span> cat <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Cat</span><span class="token punctuation">(</span><span class="token string">&#39;\u55B5\u55B5&#39;</span><span class="token punctuation">,</span><span class="token string">&#39;\u5403\u9C7C&#39;</span><span class="token punctuation">)</span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><ul><li>\u4F7F\u7528\u573A\u666F\uFF1A\u7BA1\u7406\u5458\u548C\u666E\u901A\u7528\u6237\u90FD\u7EE7\u627F\u81EA\u7528\u6237\u7C7B\uFF0C\u4F46\u4E24\u8005\u8FD8\u6709\u81EA\u5DF1\u7684\u6743\u9650</li></ul><h4 id="_17-2-\u539F\u578B\u94FE\u7EE7\u627F\u548C\u539F\u578B\u94FE" tabindex="-1"><a class="header-anchor" href="#_17-2-\u539F\u578B\u94FE\u7EE7\u627F\u548C\u539F\u578B\u94FE" aria-hidden="true">#</a> 17.2. \u539F\u578B\u94FE\u7EE7\u627F\u548C\u539F\u578B\u94FE</h4><h4 id="_17-3-\u6784\u9020\u7EE7\u627F" tabindex="-1"><a class="header-anchor" href="#_17-3-\u6784\u9020\u7EE7\u627F" aria-hidden="true">#</a> 17.3 \u6784\u9020\u7EE7\u627F</h4><h4 id="_17-4-\u501F\u7528\u6784\u9020\u51FD\u6570\u7EE7\u627F" tabindex="-1"><a class="header-anchor" href="#_17-4-\u501F\u7528\u6784\u9020\u51FD\u6570\u7EE7\u627F" aria-hidden="true">#</a> 17.4 \u501F\u7528\u6784\u9020\u51FD\u6570\u7EE7\u627F</h4><h4 id="_17-5-\u7EC4\u5408\u7EE7\u627F" tabindex="-1"><a class="header-anchor" href="#_17-5-\u7EC4\u5408\u7EE7\u627F" aria-hidden="true">#</a> 17.5 \u7EC4\u5408\u7EE7\u627F</h4><h2 id="_18-\u72B6\u6001\u7801-200\u3001400\u7B49" tabindex="-1"><a class="header-anchor" href="#_18-\u72B6\u6001\u7801-200\u3001400\u7B49" aria-hidden="true">#</a> 18. \u72B6\u6001\u7801\uFF08200\u3001400\u7B49\uFF09</h2><ol><li>100\uFF1A\u4FE1\u606F\u6027\u72B6\u6001\u7801\uFF0C\u539F\u56E0\uFF1A\u63A5\u6536\u7684\u8BF7\u6C42\u6B63\u5728\u5904\u7406</li></ol><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u72B6\u6001\u7801</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">100</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u660E\u76EE\u524D\u4E3A\u6B62\uFF0C\u6240\u6709\u7684\u8BF7\u6C42\u5185\u5BB9\u90FD\u662F\u53EF\u884C\u7684\uFF0C\u5BA2\u6237\u7AEF\u5E94\u8BE5\u7EE7\u7EED\u8BF7\u6C42\uFF0C\u5982\u679C\u5B8C\u6210\uFF0C\u5219\u5FFD\u7565\u5B83\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">101</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BE5\u72B6\u6001\u7801\u662F\u54CD\u5E94\u5BA2\u6237\u7AEFUpgrade\u6807\u5934\u53D1\u9001\u7684\uFF0C\u5E76\u4E14\u6307\u793A\u670D\u52A1\u5668\u4E5F\u6B63\u5728\u5207\u6362\u534F\u8BAE\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">103</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4E3B\u8981\u7528\u4E8E\u4E0ELink\u94FE\u63A5\u5934\u4E00\u8D77\u4F7F\u7528\uFF0C\u4EE5\u5141\u8BB8\u7528\u6237\u4EE3\u7406\u5728\u670D\u52A1\u5668\u4ECD\u5728\u51C6\u5907\u54CD\u5E94\u65F6\u5F00\u59CB\u9884\u52A0\u8F7D\u8D44\u6E90\u3002</td></tr></tbody></table><ol start="2"><li>200\uFF1A\u8BF7\u6C42\u6210\u529F\u72B6\u6001\u7801\uFF0C\u8BF7\u6C42\u6B63\u5E38\u5904\u7406\u5B8C\u6BD5</li></ol><ul><li>GET\uFF1A\u8D44\u6E90\u5DF2\u88AB\u63D0\u53D6\u5E76\u5728\u6D88\u606F\u6B63\u6587\u4E2D\u4F20\u8F93</li><li>HEAD\uFF1A\u5B9E\u4F53\u6807\u5934\u4F4D\u4E8E\u6D88\u606F\u6B63\u6587\u4E2D</li><li>POST\uFF1A\u63CF\u8FF0\u52A8\u4F5C\u7ED3\u679C\u7684\u8D44\u6E90\u5728\u6D88\u606F\u4F53\u4E2D\u4F20\u8F93 TRACE\uFF1A\u6D88\u606F\u6B63\u6587\u5305\u542B\u670D\u52A1\u5668\u6536\u5230\u7684\u8BF7\u6C42\u4FE1\u606F\u3002\uFF08\u65B9\u6CD5\u4E0D\u5B89\u5168\uFF0C\u4E00\u822C\u4E0D\u7528)</li></ul><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u72B6\u6001\u7801</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">201</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF7\u6C42\u5DF2\u7ECF\u6210\u529F\uFF0C\u5E76\u56E0\u6B64\u521B\u5EFA\u4E86\u4E00\u4E2A\u65B0\u7684\u8D44\u6E90\u3002\u8FD9\u901A\u5E38\u662F\u5728PUT\u6216POST\u8BF7\u6C42\u4E4B\u540E\u53D1\u9001\u7684\u54CD\u5E94\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">202</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF7\u6C42\u5DF2\u7ECF\u63A5\u6536\u5230\uFF0C\u4F46\u662F\u6CA1\u6709\u54CD\u5E94\uFF0C\u6CA1\u6709\u7ED3\u679C\u3002\u610F\u5473\u7740\u4E0D\u4F1A\u6709\u4E00\u4E2A\u5F02\u6B65\u7684\u54CD\u5E94\u53BB\u8868\u660E\u5F53\u524D\u8BF7\u6C42\u7684\u7ED3\u679C\uFF0C\u9884\u671F\u53E6\u5916\u7684\u8FDB\u7A0B\u548C\u670D\u52A1\u53BB\u5904\u7406\u8BF7\u6C42\uFF0C\u6216\u8005\u6279\u5904\u7406\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">204</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u670D\u52A1\u5668\u6210\u529F\u5904\u7406\u4E86\u8BF7\u6C42\uFF0C\u4F46\u4E0D\u9700\u8981\u8FD4\u56DE\u4EFB\u4F55\u5B9E\u4F53\u5185\u5BB9\uFF0C\u5E76\u4E14\u5E0C\u671B\u8FD4\u56DE\u66F4\u65B0\u4E86\u7684\u5143\u4FE1\u606F\u3002\u9047\u5230\u590D\u6742\u8BF7\u6C42\u65F6\u5019\uFF0C\u6D4F\u89C8\u5668\u4F1A\u53D1\u9001\u4E00\u4E2AOPTION\u65B9\u6CD5\u8FDB\u884C\u9884\u5904\u7406\u8FD4\u56DE\u54CD\u5E94\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">205</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u670D\u52A1\u5668\u5DF2\u7ECF\u6210\u529F\u5904\u7406\u4E86\u8BF7\u6C42\uFF0C\u4F46\u662F\u6CA1\u6709\u8FD4\u56DE\u4EFB\u4F55\u5185\u5BB9\u3002\u4E0E204\u54CD\u5E94\u4E0D\u540C\uFF0C\u8FD4\u56DE\u6B64\u72B6\u6001\u7801\u7684\u54CD\u5E94\u8981\u6C42\u8BF7\u6C42\u8005\u91CD\u7F6E\u6587\u6863\u89C6\u56FE\u3002</td></tr></tbody></table><ol start="3"><li>300\uFF1A\u91CD\u5B9A\u5411\u72B6\u6001\u7801\uFF0C\u9700\u8981\u8FDB\u884C\u9644\u52A0\u64CD\u4F5C\u4EE5\u5B8C\u6210\u8BF7\u6C42</li></ol><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u72B6\u6001\u7801</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">301</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u88AB\u8BF7\u6C42\u7684\u8D44\u6E90\u5DF2\u6C38\u4E45\u79FB\u52A8\u5230\u65B0\u4F4D\u7F6E\uFF0C\u5E76\u4E14\u5C06\u6765\u4EFB\u4F55\u5BF9\u6B64\u8D44\u6E90\u7684\u5F15\u7528\u90FD\u5E94\u8BE5\u4F7F\u7528\u54CD\u5E94\u8FD4\u56DE\u7684\u82E5\u5E72\u4E2AURI\u4E4B\u4E00\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">302</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF7\u6C42\u7684\u8D44\u6E90\u73B0\u5728\u4E34\u65F6\u4ECE\u4E0D\u540C\u7684URI\u54CD\u5E94\u8BF7\u6C42\u3002\u7531\u4E8E\u8FD9\u6837\u7684\u91CD\u5B9A\u5411\u662F\u4E34\u65F6\u7684\uFF0C\u5BA2\u6237\u7AEF\u5E94\u5F53\u7EE7\u7EED\u5411\u539F\u6709\u5730\u5740\u53D1\u9001\u4EE5\u540E\u7684\u8BF7\u6C42\u3002\u53EA\u6709\u5728Cache-Control\u6216Expires\u4E2D\u8FDB\u884C\u4E86\u6307\u5B9A\u7684\u60C5\u51B5\u4E0B\uFF0C\u8FD9\u4E2A\u54CD\u5E94\u624D\u662F\u53EF\u7F13\u5B58\u7684\u3002\u8BF7\u6C42\u7684\u8D44\u6E90\u73B0\u5728\u4E34\u65F6\u4ECE\u4E0D\u540C\u7684URI\u54CD\u5E94\u8BF7\u6C42\u3002\u7531\u4E8E\u8FD9\u6837\u7684\u91CD\u5B9A\u5411\u662F\u4E34\u65F6\u7684\uFF0C\u5BA2\u6237\u7AEF\u5E94\u5F53\u7EE7\u7EED\u5411\u539F\u6709\u5730\u5740\u53D1\u9001\u4EE5\u540E\u7684\u8BF7\u6C42\u3002\u53EA\u6709\u5728Cache-Control\u6216Expires\u4E2D\u8FDB\u884C\u4E86\u6307\u5B9A\u7684\u60C5\u51B5\u4E0B\uFF0C\u8FD9\u4E2A\u54CD\u5E94\u624D\u662F\u53EF\u7F13\u5B58\u7684\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">303</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5BF9\u5F53\u524D\u7684\u8BF7\u6C42\u7684\u54CD\u5E94\u53EF\u4EE5\u5728\u53E6\u4E00\u4E2AURI\u4E0A\u88AB\u627E\u5230\uFF0C\u800C\u4E14\u5BA2\u6237\u7AEF\u5E94\u8BE5\u91C7\u7528GET\u7684\u65B9\u5F0F\u8BBF\u95EE\u90A3\u4E2A\u94FE\u63A5\u3002\u8FD9\u4E2A\u65B9\u6CD5\u7684\u5B58\u5728\u4E3B\u8981\u662F\u4E3A\u4E86\u5141\u8BB8\u7531\u811A\u672C\u6FC0\u6D3B\u7684POST\u8BF7\u6C42\u8F93\u51FA\u91CD\u5B9A\u5411\u5230\u4E00\u4E2A\u65B0\u7684\u8D44\u6E90\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">304</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5982\u679C\u5BA2\u6237\u7AEF\u53D1\u9001\u4E86\u4E00\u4E2A\u5E26\u6761\u4EF6\u7684 GET \u8BF7\u6C42\u4E14\u8BE5\u8BF7\u6C42\u5DF2\u88AB\u5141\u8BB8\uFF0C\u800C\u6587\u6863\u7684\u5185\u5BB9\uFF08\u81EA\u4E0A\u6B21\u8BBF\u95EE\u4EE5\u6765\u6216\u8005\u6839\u636E\u8BF7\u6C42\u7684\u6761\u4EF6\uFF09\u5E76\u6CA1\u6709\u6539\u53D8\uFF0C\u5219\u670D\u52A1\u5668\u5E94\u5F53\u8FD4\u56DE\u8FD9\u4E2A\u72B6\u6001\u7801\u3002304 \u54CD\u5E94\u7981\u6B62\u5305\u542B\u6D88\u606F\u4F53\uFF0C\u56E0\u6B64\u59CB\u7EC8\u4EE5\u6D88\u606F\u5934\u540E\u7684\u7B2C\u4E00\u4E2A\u7A7A\u884C\u7ED3\u5C3E\u3002\u8BF7\u6C42\u7684\u65F6\u5019\u4E00\u822C\u7ED3\u5408If-Modified-Since\u5934\u90E8\u4F7F\u7528\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">307</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">307\u7684\u610F\u4E49\u5982\u4E0A302\u3002\u4E0E\u5386\u53F2\u4E0A302\u4E0D\u540C\u7684\u662F\u5728\u91CD\u65B0\u53D1\u51FA\u539F\u59CB\u8BF7\u6C42\u65F6\u4E0D\u5141\u8BB8\u66F4\u6539\u8BF7\u6C42\u65B9\u6CD5\u3002\u6BD4\u5982\uFF0C\u4F7F\u7528POST\u8BF7\u6C42\u59CB\u7EC8\u5C31\u8BE5\u7528POST\u8BF7\u6C42\u3002</td></tr></tbody></table><ol start="4"><li>400\uFF1A\u5BA2\u6237\u7AEF\u9519\u8BEF\uFF0C\u670D\u52A1\u5668\u65E0\u6CD5\u5904\u7406\u8BF7\u6C42</li></ol><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u72B6\u6001\u7801</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">401</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8FD9\u610F\u5473\u7740\u4F60\u7684\u767B\u5F55\u51ED\u8BC1\u65E0\u6548\u3002\u670D\u52A1\u5668\u4E0D\u77E5\u9053\u4F60\u662F\u8C01\uFF0C\u8FD9\u65F6\uFF0C\u4F60\u9700\u8981\u5C1D\u8BD5\u91CD\u65B0\u767B\u5F55\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">403</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u670D\u52A1\u5668\u5DF2\u7ECF\u7406\u89E3\u8BF7\u6C42\uFF0C\u4F46\u662F\u62D2\u7EDD\u6267\u884C\u5B83\u3002\u4E0E401\u4E0D\u540C\uFF0C403\u77E5\u9053\u662F\u4F60\u767B\u5F55\u4E86\uFF0C\u4F46\u662F\u8FD8\u662F\u62D2\u7EDD\u4E86\u4F60\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">404</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E\u670D\u52A1\u5668\u7AEF\u65E0\u6CD5\u627E\u5230\u6240\u8BF7\u6C42\u7684\u8D44\u6E90\u3002\u8FD4\u56DE\u8BE5\u54CD\u5E94\u7684\u94FE\u63A5\u901A\u5E38\u79F0\u4E3A\u574F\u94FE\uFF08broken link\uFF09\u6216\u6B7B\u94FE\uFF08dead link\uFF09\uFF0C\u5B83\u4EEC\u4F1A\u5BFC\u5411\u94FE\u63A5\u51FA\u9519\u5904\u7406</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">405</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u660E\u670D\u52A1\u5668\u7981\u6B62\u4E86\u4F7F\u7528\u5F53\u524D HTTP \u65B9\u6CD5\u7684\u8BF7\u6C42\u3002\u9700\u8981\u6CE8\u610F\u7684\u662F\uFF0CGET \u4E0E HEAD \u4E24\u4E2A\u65B9\u6CD5\u4E0D\u5F97\u88AB\u7981\u6B62\uFF0C\u5F53\u7136\u4E5F\u4E0D\u5F97\u8FD4\u56DE\u72B6\u6001\u7801 405\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">406</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u793A\u670D\u52A1\u5668\u7AEF\u4E0D\u652F\u6301 Accept\u3001Accept-Charset\u3001Accept-Encoding\u3001 Accept-Language header \u6240\u8981\u6C42\u7684\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">409</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u793A\u8BF7\u6C42\u4E0E\u670D\u52A1\u5668\u7AEF\u76EE\u6807\u8D44\u6E90\u7684\u5F53\u524D\u72B6\u6001\u76F8\u51B2\u7A81\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">410</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u88AB\u8BF7\u6C42\u7684\u8D44\u6E90\u5728\u670D\u52A1\u5668\u4E0A\u5DF2\u7ECF\u4E0D\u518D\u53EF\u7528\uFF0C\u800C\u4E14\u6CA1\u6709\u4EFB\u4F55\u5DF2\u77E5\u7684\u8F6C\u53D1\u5730\u5740\u3002</td></tr></tbody></table><ol start="5"><li>500\uFF1A\u670D\u52A1\u5668\u9519\u8BEF\uFF0C\u670D\u52A1\u5668\u5904\u7406\u8BF7\u6C42\u51FA\u9519</li></ol><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u72B6\u6001\u7801</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">500</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u793A\u6240\u8BF7\u6C42\u7684\u670D\u52A1\u5668\u9047\u5230\u610F\u5916\u7684\u60C5\u51B5\u5E76\u963B\u6B62\u5176\u6267\u884C\u8BF7\u6C42\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">501</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u793Arequest header \u91CC\u7684 method \u6216 Content-* \u65F6\u4E0D\u88AB\u670D\u52A1\u5668\u652F\u6301\uFF0C\u65E0\u6CD5\u88AB\u5904\u7406\u3002\u53E6\uFF0C\u670D\u52A1\u5668\u5FC5\u987B\u652F\u6301\u7684\u65B9\u6CD5\uFF08\u5373\u4E0D\u4F1A\u8FD4\u56DE\u8FD9\u4E2A\u72B6\u6001\u7801\u7684\u65B9\u6CD5\uFF09\u53EA\u6709 GET \u548C HEAD\u3002501 \u54CD\u5E94\u9ED8\u8BA4\u662F\u53EF\u7F13\u5B58\u7684\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">502</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u793A\u4F5C\u4E3A\u7F51\u5173\u6216\u4EE3\u7406\u89D2\u8272\u7684\u670D\u52A1\u5668\uFF0C\u4ECE\u4E0A\u6E38\u670D\u52A1\u5668\uFF08\u5982tomcat\u3001php-fpm\uFF09\u4E2D\u63A5\u6536\u5230\u7684\u54CD\u5E94\u662F\u65E0\u6548\u7684\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">503</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u793A\u670D\u52A1\u5668\u5C1A\u672A\u5904\u4E8E\u53EF\u4EE5\u63A5\u53D7\u8BF7\u6C42\u7684\u72B6\u6001\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">504</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u7F51\u5173\u8D85\u65F6\uFF0C\u670D\u52A1\u5668\u672A\u80FD\u5FEB\u901F\u7684\u505A\u51FA\u53CD\u5E94\u3002</td></tr></tbody></table><h2 id="_19-\u8F93\u5165url\u5230\u9875\u9762\u663E\u793A\u7684\u8FC7\u7A0B" tabindex="-1"><a class="header-anchor" href="#_19-\u8F93\u5165url\u5230\u9875\u9762\u663E\u793A\u7684\u8FC7\u7A0B" aria-hidden="true">#</a> 19. \u8F93\u5165URL\u5230\u9875\u9762\u663E\u793A\u7684\u8FC7\u7A0B\uFF1F</h2><p>\u5148\u7B80\u5355\u6765\u8BF4\u6709\u4E0B\u9762\u8FC7\u7A0B\uFF1A</p><ol><li>DNS\u89E3\u6790\uFF1A\u5C06\u57DF\u540D\u89E3\u6790\u6210IP\u5730\u5740</li><li>TCP\u8FDE\u63A5\uFF1ATCP\u4E09\u6B21\u63E1\u624B</li><li>\u53D1\u9001HTTP\u8BF7\u6C42</li><li>\u670D\u52A1\u5668\u5904\u7406\u8BF7\u6C42\u5E76\u8FD4\u56DEHTTP\u62A5\u6587</li><li>\u6D4F\u89C8\u5668\u89E3\u6790\u6E32\u67D3\u9875\u9762</li><li>\u65AD\u5F00\u8FDE\u63A5\uFF1ATCP\u56DB\u6B21\u63E1\u624B</li></ol><p>\u5C55\u5F00\uFF1A</p><h2 id="_20-es6\u65B0\u7279\u6027" tabindex="-1"><a class="header-anchor" href="#_20-es6\u65B0\u7279\u6027" aria-hidden="true">#</a> 20. ES6\u65B0\u7279\u6027</h2><ol><li>let\u548Cconst</li></ol><p>let\u548Cconst\u90FD\u662F\u7528\u4E8E\u547D\u540D\u5C40\u90E8\u53D8\u91CF\uFF0C\u90FD\u662F\u5757\u7EA7\u4F5C\u7528\u57DF\uFF1B</p><ul><li>let:let \u5173\u952E\u8BCD\u58F0\u660E\u7684\u53D8\u91CF\u4E0D\u5177\u5907\u53D8\u91CF\u63D0\u5347</li><li>const:const \u5728\u58F0\u660E\u65F6\u5FC5\u987B\u88AB\u8D4B\u503C\uFF0C\u5426\u5219\u4F1A\u62A5\u9519,\u4E00\u65E6\u58F0\u660E\u5C31\u4E0D\u53EF\u518D\u8FDB\u884C\u4FEE\u6539\u3002(\u5BF9\u8C61\u7684\u503C\u53EF\u4EE5\u4FEE\u6539)</li></ul><ol start="2"><li>\u6A21\u677F\u5B57\u7B26\u4E32</li></ol><ul><li>\${}\u6765\u5199\u5165\u9700\u8981\u5F15\u7528\u5230\u7684JS\uFF0C\u4ED6\u4F1A\u88AB\u7F16\u8BD1</li></ul><ol start="3"><li>\u7BAD\u5934\u51FD\u6570</li></ol><p>\u9700\u8981\u6CE8\u610F\u7684\u70B9\uFF1A</p><ul><li>\u4E0D\u9700\u8981\u7528\u5173\u952E\u5B57function\u6765\u5B9A\u4E49\u51FD\u6570\uFF1B</li><li>\u4E00\u822C\u60C5\u51B5\u4E0B\u53EF\u4EE5\u7701\u7565return\uFF1B</li><li>\u5728\u7BAD\u5934\u51FD\u6570\u5185\u90E8\uFF0Cthis\u5E76\u4E0D\u4F1A\u8DDF\u5176\u4ED6\u51FD\u6570\u4E00\u6837\u6307\u5411\u8C03\u7528\u5B83\u7684\u5BF9\u8C61\uFF0C\u800C\u662F\u7EE7\u627F\u4E0A\u4E0B\u6587\u7684this\u6307\u5411\u7684\u5BF9\u8C61\u3002</li></ul><ol start="4"><li>Spreas/Reat\u64CD\u4F5C\u7B26</li></ol><ul><li>Rest\u8FD0\u7B97\u7B26\u7528\u4E8E\u83B7\u53D6\u51FD\u6570\u8C03\u7528\u65F6\u4F20\u5165\u7684\u53C2\u6570</li><li>Spread\u8FD0\u7B97\u7B26\u7528\u4E8E\u6570\u7EC4\u7684\u6784\u9020\uFF0C\u6790\u6784\uFF0C\u4EE5\u53CA\u5728\u51FD\u6570\u8C03\u7528\u65F6\u4F7F\u7528\u6570\u7EC4\u586B\u5145\u53C2\u6570\u5217\u8868</li></ul><ol start="5"><li>\u4E8C\u8FDB\u5236\u548C\u516B\u8FDB\u5236\u5B57\u9762\u91CF</li></ol><ul><li>ES6\u652F\u6301\u4E8C\u8FDB\u5236\u548C\u516B\u8FDB\u5236\u7684\u5B57\u9762\u91CF\uFF0C\u901A\u8FC7\u5728\u6570\u5B57\u524D\u9762\u589E\u52A00o\u6216\u80050O\u53EF\u4EE5\u5C06\u6570\u5B57\u8F6C\u6362\u4E3A\u516B\u8FDB\u5236\u3002</li></ul><ol start="6"><li>\u5141\u8BB8\u5728\u5BF9\u8C61\u4E2D\u4F7F\u7528super\u65B9\u6CD5</li></ol><p>super\u65B9\u6CD5\u5E94\u8BE5\u90FD\u4E0D\u964C\u751F\uFF0C\u5728java\u4E2D\u7528\u6765\u4EE3\u8868\u8C03\u7528\u7236\u7C7B\u7684\u6784\u9020\u51FD\u6570\u3002\u7531\u4E8Ejs\u4E0D\u662F\u9762\u5411\u5BF9\u8C61\u8BED\u8A00\uFF0C\u6240\u4EE5\u4E5F\u6CA1\u6709\u7EE7\u627F\u8FD9\u4EE5\u8BF4\u6CD5\u3002\u4F46\u662F\u5728ES6\u4E2D\uFF0C\u53EF\u4EE5\u901A\u8FC7\u8C03\u7528setPrototypeOf()\u65B9\u6CD5\u6765\u8BBE\u7F6E\u4E00\u4E2A\u5BF9\u8C61\u7684prototype\u5BF9\u8C61\uFF0C\u4E0E\u9762\u5411\u5BF9\u8C61\u8BED\u8A00\u4E2D\u7684\u7EE7\u627F\u6709\u76F8\u4F3C\u4E4B\u5904\uFF0C\u6240\u4EE5\u4E5F\u53EF\u4EE5\u7406\u89E3\u6210\u8FD9\u662Fjs\u4E2D\u7528\u6765\u5B9E\u73B0\u7EE7\u627F\u7684\u65B9\u6CD5\u3002</p><ol start="7"><li>\u8FED\u4EE3\u5668iterator\u3001for...of\u548Cfor...in</li></ol><p>\u5EFA\u8BAE\u5148\u53BB\u4E86\u89E3\u4E00\u4E0Biterator\uFF0C\u4F5C\u7528\u5982\u4E0B\uFF1A</p><ul><li><p>\u4E3A\u5404\u79CD\u6570\u636E\u63D0\u4F9B\u7EDF\u4E00\u7684\uFF0C\u7B80\u4FBF\u7684\u8BBF\u95EE\u63A5\u53E3</p></li><li><p>\u4F7F\u6570\u636E\u7ED3\u6784\u7684\u6210\u5458\u80FD\u6309\u67D0\u79CD\u6B21\u5E8F\u6392\u5217</p></li><li><p>\u4E3B\u8981\u4F9Bfor...of\u7528</p></li><li><p>for\u2026in \u8BED\u53E5\u4EE5\u539F\u59CB\u63D2\u5165\u987A\u5E8F\u8FED\u4EE3\u5BF9\u8C61\u7684\u53EF\u679A\u4E3E\u5C5E\u6027\uFF0C\u7B80\u5355\u7406\u89E3\u5C31\u662Ffor...in\u662F\u7528\u6765\u5FAA\u73AF\u904D\u5386\u5C5E\u6027\uFF0C\u904D\u5386\u51FA\u7684\u662F\u81EA\u8EAB\u548C\u539F\u578B\u4E0A\u7684\u53EF\u679A\u4E3E\u975Esymbol\u5C5E\u6027\uFF0C\u4F46\u662F\u904D\u5386\u4E0D\u4E00\u5B9A\u6309\u7167\u987A\u5E8F\uFF08tips\uFF1Afor...in\u5728ES5\u4E2D\u5C31\u5DF2\u7ECF\u51FA\u73B0\u4E86\uFF09</p></li><li><p>for\u2026of \u8BED\u53E5\u904D\u5386\u53EF\u8FED\u4EE3\u5BF9\u8C61\u5B9A\u4E49\u8981\u8FED\u4EE3\u7684\u6570\u636E\uFF0C\u4E5F\u5C31\u662F\u8BF4\uFF0Cfor...of\u53EA\u53EF\u4EE5\u5FAA\u73AF\u53EF\u8FED\u4EE3\u5BF9\u8C61\u7684\u53EF\u8FED\u4EE3\u5C5E\u6027\uFF0C\u4E0D\u53EF\u8FED\u4EE3\u5C5E\u6027\u5728\u5FAA\u73AF\u4E2D\u88AB\u5FFD\u7565\u4E86\u3002\uFF08tips\uFF1Afor...of\u662FES6\u624D\u63D0\u51FA\u6765\u7684\uFF09</p></li></ul><ol start="8"><li>Module</li></ol><p>\u5728ES6\u7684module\u4E4B\u524D\uFF0C\u6BD4\u8F83\u6D41\u884C\u7684\u6A21\u5757\u52A0\u8F7D\u65B9\u6848\u6709:CommonJS\u548CAMD\uFF0C\u524D\u8005\u7528\u4E8E\u670D\u52A1\u5668\uFF08node)\uFF0C\u540E\u8005\u7528\u4E8E\u6D4F\u89C8\u5668\u3002</p><p>\u533A\u522B\uFF1A</p><ul><li>CommondJS\u548CAMD\u662F\u8FD0\u884C\u65F6\u52A0\u8F7D\u7684\u3002</li><li>module\u662F\u7F16\u8BD1\u65F6\u52A0\u8F7D\u7684\u3002</li><li>CommondJS\u8F93\u51FA\u7684\u662F\u503C\u7684\u590D\u5236\uFF0C\u800CES6\u8F93\u51FA\u7684\u662F\u503C\u7684\u5F15\u7528</li></ul><p>\u5176\u4E2D\u547D\u4EE4\u6709\uFF1Aexport\u3001import \u3001export default</p><ul><li>export\u7528\u4E8E\u5BF9\u5916\u8F93\u51FA\u672C\u6A21\u5757\uFF08\u4E00\u4E2A\u6587\u4EF6\u53EF\u4EE5\u7406\u89E3\u4E3A\u4E00\u4E2A\u6A21\u5757\uFF09\u53D8\u91CF\u7684\u63A5\u53E3\uFF0C\u901A\u8FC7export\u65B9\u5F0F\u5BFC\u51FA\uFF0C\u5728\u5BFC\u5165\u65F6\u8981\u52A0{ }\uFF0Cexport default\u5219\u4E0D\u9700\u8981</li><li>import\u7528\u4E8E\u5728\u4E00\u4E2A\u6A21\u5757\u4E2D\u52A0\u8F7D\u53E6\u4E00\u4E2A\u542B\u6709export\u63A5\u53E3\u7684\u6A21\u5757\u3002</li><li>\u4F7F\u7528export default\u547D\u4EE4\uFF0C\u4E3A\u6A21\u5757\u6307\u5B9A\u9ED8\u8BA4\u8F93\u51FA\uFF0C\u8FD9\u6837\u5C31\u4E0D\u9700\u8981\u77E5\u9053\u6240\u8981\u52A0\u8F7D\u6A21\u5757\u7684\u53D8\u91CF\u540D\uFF08\u53EF\u81EA\u5B9A\u4E49\u5F15\u7528\uFF09\u3002</li></ul><!--]-->`);
 }
-const _sfc_setup$z = _sfc_main$z.setup;
-_sfc_main$z.setup = (props, ctx) => {
+const _sfc_setup$B = _sfc_main$B.setup;
+_sfc_main$B.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/interview/JSinterview.html.vue");
-  return _sfc_setup$z ? _sfc_setup$z(props, ctx) : void 0;
+  return _sfc_setup$B ? _sfc_setup$B(props, ctx) : void 0;
 };
-var JSinterview_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$z, [["ssrRender", _sfc_ssrRender$l]]);
+var JSinterview_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$B, [["ssrRender", _sfc_ssrRender$n]]);
 var JSinterview_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": JSinterview_html$1
 });
-const _sfc_main$y = {};
-function _sfc_ssrRender$k(_ctx, _push, _parent, _attrs) {
+const _sfc_main$A = {};
+function _sfc_ssrRender$m(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h1 id="vue\u9762\u8BD5" tabindex="-1"><a class="header-anchor" href="#vue\u9762\u8BD5" aria-hidden="true">#</a> VUE\u9762\u8BD5</h1><h2 id="_1-vue\u7684\u751F\u547D\u5468\u671F" tabindex="-1"><a class="header-anchor" href="#_1-vue\u7684\u751F\u547D\u5468\u671F" aria-hidden="true">#</a> 1.vue\u7684\u751F\u547D\u5468\u671F</h2><h4 id="_1-1\u5404\u4E2A\u751F\u547D\u5468\u671F" tabindex="-1"><a class="header-anchor" href="#_1-1\u5404\u4E2A\u751F\u547D\u5468\u671F" aria-hidden="true">#</a> 1.1\u5404\u4E2A\u751F\u547D\u5468\u671F</h4><ol><li>beforeCreate\uFF08\u521B\u5EFA\u524D\uFF09:\u7EC4\u4EF6\u5B9E\u4F8B\u88AB\u521B\u5EFA\u4E4B\u521D\uFF0C\u7EC4\u4EF6\u7684\u5C5E\u6027\u751F\u6548\u4E4B\u524D\u3002</li><li>created\uFF08\u521B\u5EFA\u540E\uFF09:\u7EC4\u4EF6\u5B9E\u4F8B\u5DF2\u7ECF\u5B8C\u5168\u521B\u5EFA\uFF0C\u5C5E\u6027\u4E5F\u7ED1\u5B9A\uFF0C\u4F46\u771F\u5B9Edom\u8FD8\u6CA1\u6E32\u67D3\u3002$el\u4E0D\u53EF\u7528\u3002</li><li>beforeMount\uFF08\u6302\u8F7D\u524D\uFF09:\u5728\u6302\u8F7D\u5F00\u59CB\u4E4B\u524D\u88AB\u8C03\u7528\uFF1A\u76F8\u5173\u7684render\u51FD\u6570\u9996\u6B21\u88AB\u8C03\u7528\u3002</li><li>mounted\uFF08\u6302\u8F7D\u540E\uFF09:\u5728el\u88AB\u65B0\u521B\u5EFA\u7684vm.$el\u66FF\u6362\uFF0C\u5E76\u6302\u8F7D\u5230\u5B9E\u4F8B\u4E0A\u53BB\u4E4B\u540E\u8C03\u7528\u8BE5\u94A9\u5B50\u3002</li><li>beforeUpdate\uFF08\u66F4\u65B0\u524D\uFF09:\u7EC4\u4EF6\u6570\u636E\u66F4\u65B0\u4E4B\u524D\u8C03\u7528\uFF0C\u771F\u5B9Edom\u8FD8\u6CA1\u88AB\u66F4\u65B0\u6E32\u67D3\u3002</li><li>update\uFF08\u66F4\u65B0\u540E\uFF09:\u7EC4\u4EF6\u6570\u636E\u66F4\u65B0\u540E\u3002</li><li>activated\uFF08\u6FC0\u6D3B\u524D\uFF09:keey-alive\u4E13\u5C5E\uFF0C\u7EC4\u4EF6\u88AB\u6FC0\u6D3B\u65F6\u8C03\u7528\u3002</li><li>deactivated\uFF08\u6FC0\u6D3B\u540E\uFF09:keey-alive\u4E13\u5C5E\uFF0C\u7EC4\u4EF6\u88AB\u9500\u6BC1\u65F6\u8C03\u7528\u3002</li><li>beforeDestory\uFF08\u9500\u6BC1\u524D\uFF09:\u7EC4\u4EF6\u9500\u6BC1\u65F6\u8C03\u7528\u3002</li><li>destoryed\uFF08\u9500\u6BC1\u540E\uFF09:\u7EC4\u4EF6\u9500\u6BC1\u524D\u8C03\u7528\u3002</li></ol><h4 id="_1-2\u7EC4\u4EF6\u6267\u884C\u987A\u5E8F" tabindex="-1"><a class="header-anchor" href="#_1-2\u7EC4\u4EF6\u6267\u884C\u987A\u5E8F" aria-hidden="true">#</a> 1.2\u7EC4\u4EF6\u6267\u884C\u987A\u5E8F</h4><p>\u4F60\u770B\u5B8C\u4E0A\u9762\u5E94\u8BE5\u77E5\u9053\u751F\u547D\u5468\u671F\u51FD\u6570\u5927\u6982\u6267\u884C\u987A\u5E8F\u4E86\u5427\u3002\u8FD9\u91CC\u53EA\u8BF4\u7236\u5B50\u7EC4\u4EF6\u5173\u7CFB\u5176\u751F\u547D\u5468\u671F\u7684\u6267\u884C\u987A\u5E8F\u3002</p><ul><li><code>\u52A0\u8F7D\u6E32\u67D3\u8FC7\u7A0B</code>\uFF1AbeforeCreate(\u7236) \u2014&gt; created(\u7236)\u2014&gt;beforeMount(\u7236)\u2014&gt;beforeCreate(\u5B50)\u2014&gt;created(\u5B50)\u2014&gt;beforeMount(\u5B50)\u2014&gt;mounted(\u5B50)\u2014&gt;mounted(\u7236)</li><li>beforeCreate(\u7236) \u2014&gt; created(\u7236)\u2014&gt;beforeMount(\u7236)\u2014&gt;beforeCreate(\u5B50)\u2014&gt;created(\u5B50)\u2014&gt;beforeMount(\u5B50)\u2014&gt;mounted(\u5B50)\u2014&gt;mounted(\u7236)</li><li>\u9500\u6BC1\u8FC7\u7A0B\uFF1AbeforeDestory(\u7236) \u2014&gt; beforeDestory(\u5B50) \u2014&gt; destoryed(\u5B50) \u2014&gt; destoryed(\u7236)</li></ul><h4 id="_1-3\u6BCF\u4E2A\u751F\u547D\u5468\u671F\u8BE6\u89E3" tabindex="-1"><a class="header-anchor" href="#_1-3\u6BCF\u4E2A\u751F\u547D\u5468\u671F\u8BE6\u89E3" aria-hidden="true">#</a> 1.3\u6BCF\u4E2A\u751F\u547D\u5468\u671F\u8BE6\u89E3</h4><p>\u4E0B\u9762\u662F\u6781\u7B80\u5199\u6CD5\uFF0C\u751A\u81F3\u5FFD\u7565\u4E00\u4E9B\u4E1C\u897F\uFF1A</p><ol><li>beforeCreate\uFF1Anew\u4E00\u4E2Avue\u5B9E\u4F8B\uFF0C\u5565\u90FD\u6CA1\u6709\u3002</li><li>created\uFF1Adata\u548Cmethods\u521D\u59CB\u5316\u5B8C\u6210\uFF0C\u4F46\u662F\u6CA1\u6709el\u3002</li><li>beforeMount:\u865A\u62DFdom\u5DF2\u7ECF\u7F16\u8BD1\u597D\uFF0C\u4F46\u8FD8\u6CA1\u6302\u8F7D\u5230\u9875\u9762\u4E0A\u3002</li><li>mouted\uFF1A\u9875\u9762\u521D\u59CB\u5316\u5B8C\u6210\u3002</li></ol><p>\u4E0A\u9762\u4E3A\u91CD\u70B9</p><ol start="5"><li>beforeUpdate\uFF1A\u6B64\u65F6data\u662F\u66F4\u65B0\u540E\u7684\u6570\u636E\uFF0C\u4F46\u9875\u9762\u8FD8\u662F\u65E7\u7684\uFF0C\u8FD8\u6CA1\u6709\u540C\u6B65\u3002</li><li>update\uFF1A\u66F4\u65B0\u9875\u9762\u548Cdata\u6570\u636E\u4FDD\u5B58\u540C\u6B65\u3002</li><li>beforeDestory\uFF1A\u9500\u6BC1\u9636\u6BB5\uFF0C\u6B64\u65F6data\u548Cmethods\u4F9D\u7136\u53EF\u7528\u3002</li><li>destory\uFF1A\u7EC4\u4EF6\u9500\u6BC1\uFF0C\u4E0D\u53EF\u7528\u3002</li></ol><h4 id="_1-4-keey-alive\u7684activated\u548Cdeactivated" tabindex="-1"><a class="header-anchor" href="#_1-4-keey-alive\u7684activated\u548Cdeactivated" aria-hidden="true">#</a> 1.4 keey-alive\u7684activated\u548Cdeactivated</h4><ul><li>\u5982\u679C\u52A0\u5165keey-alive: \u7B2C\u4E00\u6B21\u52A0\u8F7D\u65F6\uFF0C\u4F1A\u989D\u5916\u6267\u884Cactivated\u3002 \u540E\u7EED\u518D\u8FDB\u5165\uFF1A\u53EA\u6267\u884Cactivated</li></ul><h4 id="_1-5-\u8C08\u8C08\u4F60\u5BF9keey-alive\u7684\u7406\u89E3" tabindex="-1"><a class="header-anchor" href="#_1-5-\u8C08\u8C08\u4F60\u5BF9keey-alive\u7684\u7406\u89E3" aria-hidden="true">#</a> 1.5 \u8C08\u8C08\u4F60\u5BF9keey-alive\u7684\u7406\u89E3</h4><p>\u4F5C\u7528\uFF1A\u7F13\u5B58\u7EC4\u4EF6\u8FBE\u5230\u63D0\u9AD8\u6027\u80FD\uFF0C\u4F46\u4F60\u91CD\u65B0\u6253\u5F00\u7EC4\u4EF6\u65F6\uFF0C\u5B83\u4F1A\u7F13\u5B58\u4E0A\u4E00\u6B21\u6253\u5F00\u65F6\u7684\u72B6\u6001\u3002</p><p>\u4F8B\u5982\uFF1A\u5217\u8868\u83DC\u5355\u70B9\u51FB\u4F1A\u8DF3\u8F6C\u8BE6\u60C5\u9875\uFF0C\u5F53\u4F60\u7F13\u5B58\u65F6\u5B83\u53EF\u4EE5\u51CF\u5C11\u91CD\u590D\u8BF7\u6C42\u4FE1\u606F\u3002</p><h2 id="_2-v-if\u548Cv-show\u7684\u533A\u522B" tabindex="-1"><a class="header-anchor" href="#_2-v-if\u548Cv-show\u7684\u533A\u522B" aria-hidden="true">#</a> 2.v-if\u548Cv-show\u7684\u533A\u522B</h2><p>v-if\uFF1A\u63A7\u5236dom\u662F\u5426\u521B\u5EFA\uFF0C\u9891\u7E41\u5207\u6362\u65F6\u4E0D\u63A8\u8350\u9891\u7E41\u66F4\u65B0dom\u3002 v-show\uFF1Adom\u5143\u7D20\u4F1A\u521B\u5EFA\uFF0C\u53EA\u662F\u63A7\u5236display:none(\u4E0D\u53EF\u89C1),blok(\u663E\u793A)\u3002</p><h2 id="_2-v-if\u548Cv-for\u7684\u4F18\u5148\u7EA7" tabindex="-1"><a class="header-anchor" href="#_2-v-if\u548Cv-for\u7684\u4F18\u5148\u7EA7" aria-hidden="true">#</a> 2.v-if\u548Cv-for\u7684\u4F18\u5148\u7EA7</h2><p>v-for\u4F18\u5148\u7EA7\u6BD4v-if\u9AD8</p><h2 id="_3-ref\u662F\u4EC0\u4E48" tabindex="-1"><a class="header-anchor" href="#_3-ref\u662F\u4EC0\u4E48" aria-hidden="true">#</a> 3.ref\u662F\u4EC0\u4E48\uFF1F</h2><p>ref\u7C7B\u4F3C\u4E8E\u4E00\u4E2A\u5173\u952E\u5B57\uFF0C\u7528\u6765\u83B7\u53D6dom\u3002\uFF08\u901A\u8FC7<code>this.refs.\u5173\u952E\u5B57</code>\u6765\u83B7\u53D6dom\u5143\u7D20\uFF09</p><h2 id="_4-nexttick\u662F\u4EC0\u4E48" tabindex="-1"><a class="header-anchor" href="#_4-nexttick\u662F\u4EC0\u4E48" aria-hidden="true">#</a> 4.nextTick\u662F\u4EC0\u4E48\uFF1F</h2><p>dom\u66F4\u65B0\u540E\u7684\u56DE\u8C03\u51FD\u6570\u3002\u4E3B\u8981\u4F5C\u7528\u4E8E\u83B7\u53D6\u66F4\u65B0\u540E\u7684\u6570\u636E\uFF08\u5F02\u6B65\uFF09\u3002</p><h2 id="_5-scoped\u539F\u7406" tabindex="-1"><a class="header-anchor" href="#_5-scoped\u539F\u7406" aria-hidden="true">#</a> 5.scoped\u539F\u7406</h2><p>\u4F5C\u7528\uFF1A\u4F7F\u7528scoped\u8BA9CSS\u53EA\u4F5C\u7528\u4E8E\u5F53\u524D\u7EC4\u4EF6\u5143\u7D20\u3002</p><ul><li>\u539F\u7406\uFF1A\u7ED9HTML\u7684DOM\u8282\u70B9\u52A0\u4E00\u4E2A\u4E0D\u91CD\u590Ddata\u5C5E\u6027(\u5F62\u5982\uFF1Adata-v-2311c06a)\u6765\u8868\u793A\u4ED6\u7684\u552F\u4E00\u6027\u3002</li><li>\u5728\u6BCF\u53E5css\u9009\u62E9\u5668\u7684\u672B\u5C3E\uFF08\u7F16\u8BD1\u540E\u7684\u751F\u6210\u7684css\u8BED\u53E5\uFF09\u52A0\u4E00\u4E2A\u5F53\u524D\u7EC4\u4EF6\u7684data\u5C5E\u6027\u9009\u62E9\u5668\u7684\u54C8\u5E0C\u7279\u5F81\u503C\uFF08\u5982[data-v-2311c06a]\uFF09\u6765\u79C1\u6709\u5316\u6837\u5F0F\u3002</li></ul><h2 id="_6-vue\u4E2D\u5982\u4F55\u505A\u6837\u5F0F\u7A7F\u900F" tabindex="-1"><a class="header-anchor" href="#_6-vue\u4E2D\u5982\u4F55\u505A\u6837\u5F0F\u7A7F\u900F" aria-hidden="true">#</a> 6.Vue\u4E2D\u5982\u4F55\u505A\u6837\u5F0F\u7A7F\u900F</h2><p>\u5F15\u5165\u5916\u90E8\u7EC4\u4EF6\u800C\u4E14\u4F7F\u7528\u4E86scoped\u65F6\u9700\u8981\u66F4\u6539\u6837\u5F0F\u65F6\u4F7F\u7528\u3002</p><p>1.scss\u6837\u5F0F\u7A7F\u900F</p><div class="language-css ext-css line-numbers-mode"><pre class="language-css"><code>\u7236\u5143\u7D20 /deep/\u5B50\u5143\u7D20
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>2.stylus\u6837\u5F0F\u7A7F\u900F</p><div class="language-css ext-css line-numbers-mode"><pre class="language-css"><code>\u7236\u5143\u7D20 /deep/\u5B50\u5143\u7D20
 <span class="token comment">/* stylus\u4E00\u822C\u7528\u4E0B\u9762 */</span>
@@ -4440,84 +4625,84 @@ Object<span class="token punctuation">.</span><span class="token function">defin
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><h2 id="_16-diff\u7B97\u6CD5" tabindex="-1"><a class="header-anchor" href="#_16-diff\u7B97\u6CD5" aria-hidden="true">#</a> 16. diff\u7B97\u6CD5</h2><p>\u865A\u62DFdom\uFF08\u628Adom\u6570\u636E\u5316\uFF0C\u4FBF\u4E8E\u64CD\u4F5C\uFF09</p><p>diff\u7B97\u6CD5\u7684\u672C\u8D28\u662F\u627E\u51FA\u4E24\u4E2A\u5BF9\u8C61\u4E4B\u95F4\u7684\u5DEE\u5F02\uFF0C\u76EE\u7684\u662F\u5C3D\u53EF\u80FD\u590D\u7528\u8282\u70B9\u3002\u6B64\u5904\u8BF4\u5230\u7684\u5BF9\u8C61\u5176\u5B9E\u5C31\u5BF9\u5E94 vue\u4E2D\u7684 virtual dom,\u5373\u4F7F\u7528 js \u5BF9\u8C61\u6765\u8868\u793A\u9875\u9762\u4E2D\u7684 dom \u7ED3\u6784\u3002</p><p>\u7279\u70B9:</p><ul><li>\u6BD4\u8F83\u53EA\u4F1A\u5728\u540C\u5C42\u7EA7\u8FDB\u884C, \u4E0D\u4F1A\u8DE8\u5C42\u7EA7\u6BD4\u8F83</li><li>\u5728diff\u6BD4\u8F83\u7684\u8FC7\u7A0B\u4E2D\uFF0C\u5FAA\u73AF\u4ECE\u4E24\u8FB9\u5411\u4E2D\u95F4\u6BD4\u8F83</li></ul><p>\u6BD4\u8F83\u65B9\u5F0F:</p><ul><li>diff\u6574\u4F53\u7B56\u7565\u4E3A\uFF1A\u6DF1\u5EA6\u4F18\u5148\uFF0C\u540C\u5C42\u6BD4\u8F83</li></ul><!--]-->`);
 }
-const _sfc_setup$y = _sfc_main$y.setup;
-_sfc_main$y.setup = (props, ctx) => {
+const _sfc_setup$A = _sfc_main$A.setup;
+_sfc_main$A.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/interview/VUEinterview.html.vue");
-  return _sfc_setup$y ? _sfc_setup$y(props, ctx) : void 0;
+  return _sfc_setup$A ? _sfc_setup$A(props, ctx) : void 0;
 };
-var VUEinterview_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$y, [["ssrRender", _sfc_ssrRender$k]]);
+var VUEinterview_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$A, [["ssrRender", _sfc_ssrRender$m]]);
 var VUEinterview_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": VUEinterview_html$1
 });
-const _sfc_main$x = {};
-function _sfc_ssrRender$j(_ctx, _push, _parent, _attrs) {
+const _sfc_main$z = {};
+function _sfc_ssrRender$l(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h2 id="_3" tabindex="-1"><a class="header-anchor" href="#_3" aria-hidden="true">#</a> 3</h2><h2 id="_4" tabindex="-1"><a class="header-anchor" href="#_4" aria-hidden="true">#</a> 4</h2><!--]-->`);
 }
-const _sfc_setup$x = _sfc_main$x.setup;
-_sfc_main$x.setup = (props, ctx) => {
+const _sfc_setup$z = _sfc_main$z.setup;
+_sfc_main$z.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/\u6559\u7A0B/text.html.vue");
-  return _sfc_setup$x ? _sfc_setup$x(props, ctx) : void 0;
+  return _sfc_setup$z ? _sfc_setup$z(props, ctx) : void 0;
 };
-var text_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$x, [["ssrRender", _sfc_ssrRender$j]]);
+var text_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$z, [["ssrRender", _sfc_ssrRender$l]]);
 var text_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": text_html$1
 });
-const _sfc_main$w = {};
-function _sfc_ssrRender$i(_ctx, _push, _parent, _attrs) {
+const _sfc_main$y = {};
+function _sfc_ssrRender$k(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h2 id="\u5154\u5B50\u4E0E\u661F\u661F" tabindex="-1"><a class="header-anchor" href="#\u5154\u5B50\u4E0E\u661F\u661F" aria-hidden="true">#</a> \u5154\u5B50\u4E0E\u661F\u661F</h2><p>\u5927\u5154\u5B50\u7279\u522B\u559C\u6B22\u591C\u665A\uFF0C\u56E0\u4E3A\u53EF\u4EE5\u4E00\u4E2A\u4EBA\u770B\u661F\u661F\uFF0C\u8FD8\u6CA1\u6709\u4EBA\u6253\u6270\u4ED6\u3002\u4ED6\u6BCF\u5929\u665A\u4E0A\u90FD\u5BF9\u7740\u661F\u661F\u8BF4\u5FC3\u91CC\u8BDD\uFF0C\u5C0F\u661F\u661F\u4E5F\u4F1A\u548C\u4ED6\u8BF4\u6084\u6084\u8BDD\u3002</p><p>\u6709\u4E00\u5929\u5C0F\u661F\u661F\u544A\u8BC9\u5927\u5154\u5B50\uFF1A\u7B49\u4F1A\u4F1A\u6709\u6D41\u661F\u96E8\u54E6\uFF0C\u4F60\u53EF\u4EE5\u5BF9\u7740\u5B83\u4EEC\u8BB8\u4E2A\u613F\uFF0C\u68A6\u60F3\u4E00\u5B9A\u4F1A\u5B9E\u73B0\u7684\uFF01\u5927\u5154\u5B50\u5F00\u5FC3\u7684\u50CF\u4E2A\u5B9D\u5B9D\uFF0C\u4ED6\u6709\u65E0\u6570\u4E2A\u613F\u671B\u60F3\u8981\u5B9E\u73B0\uFF0C\u4E8E\u662F\u5462\uFF0C\u4ED6\u5C31\u5F00\u59CB\u4E00\u6761\u6761\u5217\u51FA\u4ED6\u7684\u613F\u671B\u7B49\u5F85\u6D41\u661F\u96E8\u7684\u5230\u6765.....</p><p>\u5927\u5154\u5B50\u5C31\u5750\u5728\u90A3\u91CC\u7B49\u554A\u7B49\uFF0C\u6708\u4EAE\u90FD\u5FEB\u5230\u5934\u9876\u4E86\uFF0C\u5927\u767D\u5154\u4E5F\u5F00\u59CB\u72AF\u8FF7\u7CCA\u3002\u549A \u5927\u767D\u5154\u56F0\u7684\u4E00\u5934\u624E\u5230\u4E86\u8349\u5730\u91CC\u3002\u661F\u661F\u5728\u4E00\u65C1\u5077\u5077\u7684\u7B11\uFF0C\u5C31\u8FD9\u8FD9\u4E2A\u65F6\u5019\u6D41\u661F\u96E8\u6765\u4E86\uFF0C\u5C0F\u661F\u661F\u8D76\u5FEB\u53EB\u5927\u5154\u5B50\u9192\u6765\uFF0C\u600E\u4E48\u53EB\u5C31\u662F\u53EB\u4E0D\u9192\uFF0C\u8FD9\u6025\u6B7B\u5C0F\u661F\u661F\u4E86\uFF0C\u4F46\u662F\u4E5F\u6CA1\u6709\u529E\u6CD5\uFF0C\u5982\u679C\u5C0F\u661F\u661F\u6254\u4E00\u5C0F\u5757\u77F3\u5934\u7838\u5979\u7684\u8BDD\u4ED6\u5C31\u53D8\u6210\u5154\u5B50\u997C\u4E86.....</p><p>\u5C0F\u661F\u661F\u5C31\u4E00\u76F4\u53EB\u5927\u5154\u5B50\uFF0C\u4E00\u76F4\u53EB\u554A\u53EB\uFF0C\u5927\u5154\u5B50\u54D7\u7684\u4E00\u4E0B\u9192\u6765\u4E86\uFF0C\u4ED6\u4EE5\u4E3A\u81EA\u5DF1\u521A\u7761\u7740\uFF0C\u5176\u5B9E\u6D41\u661F\u96E8\u5DF2\u7ECF\u8FC7\u53BB\u4E00\u5927\u534A\u4E86\uFF01</p><p>\u5927\u767D\u5154\u614C\u91CC\u614C\u5F20\u7684\u95ED\u4E0A\u773C\u775B\u8BF4\u51FA\u4ED6\u7684\u613F\u671B\uFF0C\u6211\u60F3\u5B66\u4F1A\u5F39\u94A2\u7434\uFF0C\u6211\u60F3\u5B66\u4F1A\u505A\u597D\u5403\u7684\uFF0C\u6211\u60F3\u62E5\u6709\u6700\u597D\u5403\u7684\u80E1\u841D\u535C\uFF0C\u6211\u60F3\u53D8\u6210\u5154\u5B50\u754C\u7B2C\u4E00\u9996\u5BCC\uFF0C\u6211\u60F3\u62E5\u6709\u4E00\u4E2A\u5927\u679C\u56ED\u81EA\u5DF1\u53EF\u4EE5\u968F\u65F6\u5403\u5230\u7684\u90A3\u79CD\uFF01\u6211\u60F3.......</p><p>\u5C31\u8FD9\u6837\uFF0C\u5927\u5154\u5B50\u5C31\u50CF\u673A\u5173\u67AA\u4E00\u6837\uFF0C\u6709\u8BF4\u4E0D\u5B8C\u7684\u613F\u671B\u3002\u6709\u4E00\u9897\u5C0F\u6D41\u661F\u98DE\u8FC7\uFF0C\u544A\u8BC9\u5927\u5154\u5B50\uFF0C\u4F60\u8BF4\u7684\u90A3\u4E9B\u592A\u7269\u8D28\u4E86\uFF0C\u90A3\u4E9B\u8981\u9760\u4F60\u81EA\u5DF1\u53BB\u52AA\u529B\u624D\u53EF\u5F97\u5230\uFF0C\u4F60\u8981\u81EA\u5DF1\u5F88\u8BA4\u771F\u7684\u60F3\u4E00\u4E2A\u5FC3\u613F\uFF0C\u6211\u4F1A\u5C3D\u529B\u5E2E\u4F60\u5B9E\u73B0\u7684\uFF01\u5927\u5154\u5B50\u95ED\u4E0A\u773C\u775B\uFF0C\u53CC\u624B\u5408\u5341\u3002\u201C\u90A3\u5C31\u8BF7\u4F60\u544A\u8BC9\u5979\uFF0C\u6211\u60F3\u5979\u4E86\u201D\u5C0F\u6D41\u661F\u7B11\u4E86\u7B11\u4FDD\u8BC1\u5B8C\u6210\u4EFB\u52A1\u54E6\uFF5E</p><p>\u90A3\u5929\u7684\u665A\u4E0A\uFF0C\u8FDC\u5728\u4ED6\u4E61\u7684\u5C0F\u767D\u5154\u5728\u68A6\u4E61\u91CC\u89C1\u5230\u4E86\u5979\u7231\u7684\u5927\u5154\u5B50\uFF5E</p><h2 id="\u5929\u4E0A\u7684\u661F\u661F" tabindex="-1"><a class="header-anchor" href="#\u5929\u4E0A\u7684\u661F\u661F" aria-hidden="true">#</a> \u5929\u4E0A\u7684\u661F\u661F</h2><p>\u5154\u5154\u8981\u51FA\u4E00\u8D9F\u5F88\u4E45\u5F88\u4E45\u7684\u8FDC\u95E8\u4E86\u3002</p><p>\u732A\u732A\u81EA\u4ECE\u542C\u5230\u8FD9\u4E2A\u6D88\u606F\u5C31\u975E\u5E38\u96BE\u8FC7\uFF0C\u4ED6\u820D\u4E0D\u5F97\u5154\u5154\u79BB\u5F00\u3002\u54EA\u6015\u5C31\u4E00\u5929\u4E24\u5929\u90FD\u820D\u4E0D\u5F97\uFF0C\u66F4\u4F55\u51B5\uFF0C\u8FD9\u6B21\u7684\u5206\u5F00\u8FDC\u8FDC\u8D85\u8FC7\u8FD9\u4E2A\u6570\u76EE\u3002</p><p>\u4ED6\u867D\u7136\u8FD8\u662F\u6BCF\u5929\u90FD\u5728\u7ED9\u5154\u5154\u505A\u559C\u6B22\u5403\u7684\u4E1C\u897F\uFF0C\u8FD8\u662F\u5728\u54C4\u5154\u5154\u5F00\u5FC3\u3002\u53EF\u4ED6\u7684\u5FE7\u6101\u5199\u5728\u4E86\u5C0F\u5C0F\u7684\u773C\u775B\u91CC\uFF0C\u4ED6\u820D\u4E0D\u5F97\u5154\u5154\u8D70\u3002</p><p>\u53EF\u662F\u5154\u5154\u5DF2\u7ECF\u51B3\u5B9A\u4E86\u8981\u51FA\u53BB\uFF0C\u5C0F\u732A\u732A\u652F\u6301\u5154\u5154\u7684\u4E00\u5207\u505A\u6CD5\u3002\u732A\u732A\u6BCF\u5929\u90FD\u76D8\u7B97\u7740\u65E5\u5B50\uFF0C\u4ED6\u544A\u8BC9\u81EA\u5DF1\uFF0C\u53EA\u8981\u6709\u7231\u5728\uFF0C\u9694\u5C71\u8DDD\u6D77\uFF0C\u65E5\u5B50\u4E5F\u90FD\u4E0D\u4F1A\u592A\u96BE\u8FC7\u7684\u3002</p><p>\u54EA\u6015\u5C0F\u732A\u732A\u65E0\u6BD4\u73CD\u60DC\u6D41\u901D\u7684\u6BCF\u5206\u949F\uFF0C\u8DDD\u79BB\u5C0F\u5154\u5154\u8D70\u7684\u65F6\u95F4\u4E5F\u8D8A\u6765\u8D8A\u8FD1\u4E86\u3002\u5C0F\u732A\u732A\u5F00\u59CB\u7761\u4E0D\u7740\u89C9\uFF0C\u5403\u4E0D\u4E0B\u996D\u3002\u4ED6\u53EA\u60F3\u65E0\u65F6\u65E0\u523B\u7684\u76EF\u7740\u5154\u5154\u3002\u54EA\u6015\u8EBA\u5728\u5E8A\u4E0A\uFF0C\u4ED6\u4E5F\u4F1A\u6402\u7740\u5154\u5B50\uFF0C\u501F\u7740\u6708\u5149\uFF0C\u770B\u7740\u5154\u5154\u4FA7\u8EBA\u5728\u5E8A\u4E0A\u7684\u5A07\u4FCF\u6A21\u6837\u3002\u732A\u732A\u600E\u4E48\u53EF\u80FD\u820D\u5F97\u5154\u5154\u79BB\u5F00\u5462\u3002</p><p>\u5154\u5154\u4E5F\u53D1\u73B0\u4E86\u732A\u732A\u7684\u4E0D\u5BF9\u52B2\u3002\u4ED6\u867D\u7136\u6BCF\u5929\u90FD\u8FD8\u5728\u5C06\u989C\u6B22\u7B11\uFF0C\u53EF\u662F\u5154\u5154\u5374\u770B\u4E0D\u89C1\u4ED6\u5403\u996D\uFF0C\u53EA\u80FD\u770B\u89C1\u4ED6\u8D8A\u6765\u8D8A\u6DF1\u9083\u7684\u9ED1\u773C\u5708\uFF0C\u5154\u5154\u5F88\u5FC3\u75BC\u3002</p><p>\u201C\u732A\uFF0C\u4F60\u522B\u6015\u554A\uFF0C\u6211\u4F1A\u4E00\u76F4\u559C\u6B22\u4F60\u7684\u3002\u201D\u5C0F\u5154\u5154\u770B\u7740\u7ED9\u81EA\u5DF1\u7AEF\u83DC\u7684\u5C0F\u732A\uFF0C\u8BF4\u3002</p><p>\u201C\u50BB\u74DC\uFF0C\u6211\u4E0D\u662F\u6015\u4F60\u4E0D\u559C\u6B22\u6211\u4E86\u3002\u6211\u5BB3\u6015\u6211\u4E0D\u80FD\u4FDD\u62A4\u4F60\uFF0C\u5BB3\u6015\u4E0D\u80FD\u966A\u7740\u4F60\u3002\u6211\u5BB3\u6015\u6211\u60F3\u62B1\u4F60\u7684\u65F6\u5019\uFF0C\u8EAB\u8FB9\u6CA1\u6709\u4F60\uFF1B\u6211\u66F4\u5BB3\u6015\uFF0C\u4F60\u8EAB\u8FB9\u6709\u5F88\u591A\u4E2A\u6211\u3002\u201D\u732A\u732A\u62B1\u7740\u5C0F\u5154\u5B50\uFF0C\u7528\u529B\u628A\u5979\u6402\u5728\u6000\u91CC\u3002</p><p>\u201C\u522B\u778E\u8BF4\uFF01\u50BB\u732A\uFF0C\u4F60\u62AC\u5934\u770B\u661F\u661F\uFF0C\u5C31\u5934\u4E0A\u7684\u6700\u4EAE\u7684\u90A3\u4E00\u9897\u3002\u65E0\u8BBA\u6211\u4EEC\u76F8\u8DDD\u591A\u8FDC\uFF0C\u53EF\u662F\uFF0C\u5728\u5B83\u7684\u773C\u91CC\uFF0C\u6211\u4EEC\u90FD\u662F\u5728\u4E00\u8D77\u7684\u3002\u201D</p><p>\u201C\u732A\u732A\uFF0C\u6CA1\u6709\u51E0\u5929\u6211\u5C31\u8981\u8D70\u5566\uFF0C\u6211\u4E0D\u5E0C\u671B\u4F60\u6BCF\u5929\u90FD\u96BE\u8FC7\u3002\u65E2\u7136\u90FD\u662F\u65E2\u5B9A\u7684\u4E8B\u5B9E\uFF0C\u90A3\u4E3A\u4EC0\u4E48\uFF0C\u6211\u4EEC\u4E0D\u628A\u73B0\u5728\u4E24\u4E2A\u4EBA\u5F85\u5728\u4E00\u8D77\u7684\u65F6\u95F4\u8FC7\u7684\u66F4\u52A0\u5145\u5B9E\u7F8E\u6EE1\u5462\uFF1F\u201D\u5C0F\u5154\u5154\u5728\u732A\u732A\u7684\u6000\u91CC\uFF0C\u628A\u5934\u9760\u5728\u4E86\u4ED6\u7684\u5DF2\u7ECF\u7565\u5FAE\u6709\u4E9B\u6D88\u7626\u7684\u80A9\u8180\u4E0A\u3002</p><p>\u5C0F\u732A\u732A\u628A\u773C\u6CEA\u64E6\u5E72\uFF1A\u201C\u597D\u3002\u6211\u77E5\u9053\u8BE5\u600E\u4E48\u505A\u5566\u3002\u201D</p><p>\u201C\u65E0\u8BBA\u524D\u8DEF\u591A\u4E48\u6A21\u7CCA\uFF0C\u65E0\u8BBA\u76F8\u805A\u591A\u4E48\u9065\u8FDC\u3002\u6211\u90FD\u4F1A\u4E00\u76F4\u5728\u3002\u201D</p><p>\u201C\u6240\u7231\u9694\u5C71\u6D77\uFF0C\u5C71\u6D77\u7686\u53EF\u5E73\u3002\u201D</p><h2 id="\u82F9\u679C-\u667A\u6167\u679C" tabindex="-1"><a class="header-anchor" href="#\u82F9\u679C-\u667A\u6167\u679C" aria-hidden="true">#</a> \u82F9\u679C=\u667A\u6167\u679C</h2><p>\u5723\u7ECF\u4E0A\u8BF4\uFF0C\u4E0A\u5E1D\u521B\u9020\u4E86\u4E9A\u5F53\u548C\u590F\u5A03\u540E\uFF0C\u5B89\u6392\u4ED6\u4EEC\u5728\u4F0A\u7538\u56ED\u91CC\u751F\u6D3B\u3002\u4F0A\u7538\u56ED\u91CC\u6811\u6728\u5E38\u9752\uFF0C\u82B1\u8349\u5E38\u7EFF\uFF0C\u6709\u5404\u79CD\u5947\u73CD\u5F02\u679C\u548C\u98DE\u79BD\u8D70\u517D\u3002\u8FDB\u5165\u4F0A\u7538\u56ED\u7684\u7B2C\u4E00\u5929\uFF0C\u4E0A\u5E1D\u5C31\u8B66\u544A\u4E9A\u5F53\u548C\u590F\u5A03\u6240\u6709\u7684\u679C\u5B9E\u90FD\u53EF\u4EE5\u5403\uFF0C\u53EA\u6709\u667A\u6167\u6811\u7684\u8FC7\u662F\u4E0D\u53EF\u4EE5\u5403.</p><p>\u4E9A\u5F53\u548C\u590F\u5A03\u5F00\u59CB\u5F88\u542C\u8BDD\uFF0C\u4F46\u662F\u6CA1\u8FC7\u591A\u4E45\uFF0C\u5C31\u6709\u4E00\u6761\u9634\u9669\u7684\u6BD2\u86C7\u82B1\u8A00\u5DE7\u8BED\u5F15\u8BF1\u72EC\u81EA\u73A9\u800D\u7684\u590F\u5A03\u5077\u5403\u4E86\u667A\u6167\u6811\u7684\u679C\u5B50\uFF0C\u5929\u771F\u7684\u590F\u5A03\u53C8\u628A\u5403\u5269\u4E0B\u7684\u679C\u5B50\u7ED9\u4E86\u4E9A\u5F53\u3002\u4E8E\u662F\uFF0C\u4E9A\u5F53\u548C\u590F\u5A03\u5C31\u6709\u4E86\u667A\u6167\uFF0C\u4EBA\u7C7B\u5F00\u59CB\u6709\u4E86\u5584\u4E0E\u6076\u3002</p><p>\u82F9\u679C\u5728\u897F\u65B9\u8C61\u5F81\u7740\u7231\uFF0C\u4E9A\u5F53\u548C\u590F\u5A03\u5403\u7684\u201C\u7981\u679C\u201D\uFF0C\u5B9E\u9645\u4E0A\u5C31\u662F\u9752\u82F9\u679C\uFF0C\u5728\u4E0D\u8BE5\u5403\u7684\u65F6\u5019\u5403\u4E86\u5B83\uFF0C\u53D7\u5230\u4E0A\u5E1D\u7684\u60E9\u7F5A\u3002\u6CA1\u6709\u6210\u719F\u7684\u82F9\u679C\u7684\u5473\u9053\uFF0C\u53C8\u9178\u53C8\u6DA9\uFF0C\u6B63\u5982\u9752\u6DA9\u7684\u9752\u6625\u5982\u540C\u662F\u6CA1\u6709\u6210\u719F\u7684\u65F6\u5019\uFF0C\u4F60\u4E0D\u8981\u53BB\u5543\u5B83\u3002</p><p>\u82F9\u679C\u5C31\u6210\u4E86\u667A\u6167\u679C\u7684\u4EE3\u540D\u8BCD\uFF0C\u82F9\u679C\u4E5F\u6210\u4E86\u667A\u6167\u7684\u8C61\u5F81\u3002</p><h2 id="\u7B28\u7B28\u718A" tabindex="-1"><a class="header-anchor" href="#\u7B28\u7B28\u718A" aria-hidden="true">#</a> \u7B28\u7B28\u718A</h2><p>\u7B28\u7B28\u718A\u6765\u5230\u6CB3\u8FB9\uFF0C\u770B\u7740\u6CB3\u6C34\u91CC\u7684\u9C7C\uFF0C\u7B28\u7B28\u718A\u89C9\u5F97\u9C7C\u513F\u4EEC\u592A\u5E78\u798F\u4E86\uFF0C\u4E0D\u7528\u6355\u98DF\uFF0C\u5728\u6CB3\u6C34\u91CC\u81EA\u7531\u81EA\u5728\uFF0C\u771F\u5E78\u798F\u3002\u7B28\u7B28\u718A\u771F\u60F3\u53D8\u6210\u4E00\u6761\u9C7C\uFF0C\u4E00\u6761\u81EA\u7531\u81EA\u5728\u7684\u9C7C\u3002</p><p>\u7B28\u7B28\u718A\u8D70\u5728\u56DE\u5BB6\u7684\u8DEF\u4E0A\uFF0C\u4E0D\u5C0F\u5FC3\u649E\u5230\u4E86\u683C\u683C\u5DEB\uFF0C\u683C\u683C\u5DEB\u662F\u68EE\u6797\u91CC\u7684\u5DEB\u5A46\uFF0C\u683C\u683C\u5DEB\u65B0\u7814\u5236\u7684\u53D8\u8EAB\u836F\u6C34\u6D12\u5728\u4E86\u7B28\u7B28\u718A\u7684\u8EAB\u4E0A\uFF0C\u7B28\u7B28\u718A\u7ACB\u523B\u53D8\u6210\u4E86\u4E00\u6761\u9C7C\uFF0C\u53D8\u6210\u9C7C\u7684\u7B28\u7B28\u718A\u79BB\u5F00\u4E86\u6C34\u662F\u65E0\u6CD5\u6D3B\u4E0B\u53BB\u7684\uFF0C\u683C\u683C\u5DEB\u53EA\u597D\u628A\u7B28\u7B28\u718A\u653E\u5728\u6C34\u91CC\u3002</p><p>\u683C\u683C\u5DEB\u5BF9\u7B28\u7B28\u718A\u8BF4\uFF1A\u201C\u771F\u662F\u5BF9\u4E0D\u8D77\u7B28\u7B28\u718A\uFF0C\u4F60\u5148\u5728\u6CB3\u6C34\u91CC\u751F\u6D3B\uFF0C\u6211\u9A6C\u4E0A\u5C31\u56DE\u53BB\u7814\u5236\u89E3\u836F\uFF0C\u6211\u4F1A\u628A\u4F60\u53D8\u56DE\u6765\u7684\u3002\u201D</p><p>\u7B28\u7B28\u718A\u8BF4\uFF1A\u201C\u6CA1\u5173\u7CFB\uFF0C\u6211\u6B63\u597D\u53EF\u4EE5\u4EAB\u53D7\u4E00\u4E0B\u53D8\u6210\u9C7C\u7684\u751F\u6D3B\uFF0C\u4F60\u4E0D\u7528\u6025\u7740\u628A\u6211\u53D8\u56DE\u6765\u3002\u201D</p><p>\u683C\u683C\u5DEB\u628A\u53D8\u6210\u9C7C\u7684\u7B28\u7B28\u718A\u653E\u8FDB\u6CB3\u6C34\u91CC\u4E4B\u540E\uFF0C\u9A91\u7740\u626B\u628A\u6025\u5FD9\u56DE\u5BB6\u7814\u5236\u89E3\u836F\u53BB\u4E86\uFF0C\u7B28\u7B28\u718A\u9AD8\u5174\u7684\u5728\u6CB3\u6C34\u91CC\u6E38\u6765\u6E38\u53BB\uFF0C\u5F53\u4E00\u6761\u9C7C\u8FD9\u53EF\u662F\u7B28\u7B28\u718A\u7684\u68A6\u60F3\uFF0C\u73B0\u5728\u7EC8\u4E8E\u5B9E\u73B0\u4E86\u3002</p><p>\u7B28\u7B28\u718A\u6CA1\u6709\u6CE8\u610F\u5230\u5B83\u5DF2\u7ECF\u88AB\u4E00\u6761\u5927\u9C7C\u76EF\u4E0A\u4E86\uFF0C\u7B28\u7B28\u718A\u7A81\u7136\u611F\u5230\u773C\u524D\u4E00\u7247\u6F06\u9ED1\uFF0C\u539F\u6765\u81EA\u5DF1\u5DF2\u7ECF\u5728\u5927\u9C7C\u7684\u53E3\u91CC\u4E86\uFF0C\u7B28\u7B28\u718A\u8D81\u7740\u5927\u9C7C\u8FD8\u6CA1\u6709\u628A\u5634\u5408\u4E0A\u9003\u4E86\u51FA\u53BB\uFF0C\u7B28\u7B28\u718A\u4E0D\u65AD\u7684\u6E38\uFF0C\u51F6\u6076\u7684\u5927\u9C7C\u5728\u540E\u9762\u7D27\u8FFD\u4E0D\u820D\u3002</p><p>\u4E00\u4E2A\u5C0F\u6D77\u9A6C\u628A\u7B28\u7B28\u718A\u62FD\u8FDB\u4E86\u6D77\u85FB\u91CC\uFF0C\u5927\u9C7C\u600E\u4E48\u627E\u90FD\u627E\u4E0D\u5230\uFF0C\u53EA\u597D\u79BB\u5F00\uFF0C\u5C0F\u6D77\u9A6C\u544A\u8BC9\u7B28\u7B28\u718A\u8BF4\uFF1A\u201C\u5927\u9C7C\u5403\u5C0F\u9C7C\u8FD9\u662F\u89C4\u5F8B\uFF0C\u4E00\u5B9A\u8981\u5C0F\u5FC3\u90A3\u4E9B\u5927\u9C7C\uFF0C\u4E0D\u7136\u81EA\u5DF1\u4F1A\u88AB\u5403\u6389\u3002\u201D</p><p>\u7B28\u7B28\u718A\u5230\u5904\u4E1C\u8EB2\u897F\u85CF\uFF0C\u8FD9\u5B8C\u5168\u8DDF\u7B28\u7B28\u718A\u60F3\u8C61\u7684\u751F\u6D3B\u4E0D\u4E00\u6837\uFF0C\u5403\u7684\u98DF\u7269\u4E5F\u53D8\u6210\u4E86\u96BE\u5403\u7684\u6D77\u8349\u3002</p><p>\u8981\u77E5\u9053\u718A\u53EF\u662F\u4E00\u4E2A\u4E0D\u5403\u8349\u7684\u52A8\u7269\uFF0C\u73B0\u5728\u5374\u5929\u5929\u5403\u7740\u6D77\u8349\uFF0C\u7B28\u7B28\u718A\u6000\u5FF5\u8D77\u81EA\u5DF1\u4EE5\u524D\u505A\u5C0F\u718A\u7684\u65E5\u5B50\uFF0C\u53EF\u4EE5\u5403\u5230\u5F88\u591A\u7684\u7F8E\u98DF\uFF0C\u9999\u751C\u7684\u7CD5\u70B9\uFF0C\u60F3\u60F3\u5C31\u8BA9\u4EBA\u76F4\u6D41\u53E3\u6C34\u3002</p><p>\u7B28\u7B28\u718A\u60F3\u53D8\u56DE\u4E00\u53EA\u718A\uFF0C\u53EF\u662F\u683C\u683C\u5DEB\u7684\u89E3\u836F\u8FD8\u6CA1\u6709\u7814\u5236\u51FA\u6765\uFF0C\u7B28\u7B28\u718A\u4E0D\u613F\u610F\u518D\u5403\u90A3\u96BE\u5403\u7684\u6D77\u8349\uFF0C\u53EA\u597D\u997F\u7740\u809A\u5B50\uFF0C\u6B63\u5728\u7B28\u7B28\u718A\u997F\u7740\u809A\u5B50\u7684\u65F6\u5019\uFF0C\u4E00\u5757\u9762\u5305\u51FA\u73B0\u5728\u7B28\u7B28\u718A\u7684\u89C6\u7EBF\u91CC\uFF0C\u9762\u5305\u5728\u4E00\u4E2A\u74F6\u5B50\u91CC\uFF0C\u7B28\u7B28\u718A\u94BB\u8FDB\u74F6\u5B50\u91CC\uFF0C\u5F00\u5FC3\u7684\u5403\u8D77\u4E86\u9762\u5305\u3002</p><p>\u7B28\u7B28\u718A\u79BB\u5F00\u4E86\u6C34\u9762\uFF0C\u539F\u6765\u662F\u683C\u683C\u5DEB\u62FF\u9762\u5305\u8BF1\u60D1\u7B28\u7B28\u718A\u7684\uFF0C\u683C\u683C\u5DEB\u628A\u9B54\u6CD5\u836F\u6C34\u7684\u89E3\u836F\u6EF4\u5728\u4E86\u53D8\u6210\u9C7C\u7684\u7B28\u7B28\u718A\u8EAB\u4E0A\uFF0C\u7B28\u7B28\u718A\u53D8\u56DE\u4E86\u4E00\u53EA\u718A\uFF0C\u53EF\u662F\u7B28\u7B28\u718A\u5374\u5927\u54ED\u8D77\u6765\uFF0C\u683C\u683C\u5DEB\u5230\u73B0\u5728\u4E5F\u6CA1\u5F04\u6E05\u695A\u7B28\u7B28\u718A\u4E3A\u4EC0\u4E48\u4F1A\u54ED\u3002</p><h2 id="\u5C0F\u80A5\u732A" tabindex="-1"><a class="header-anchor" href="#\u5C0F\u80A5\u732A" aria-hidden="true">#</a> \u5C0F\u80A5\u732A</h2><p>\u4E00\u53EA\u9965\u997F\u7684\u72D0\u72F8\u6B63\u51C6\u5907\u51FA\u95E8\u627E\u5348\u9910\uFF0C\u7A81\u7136\uFF0C\u5916\u9762\u4F20\u6765\u4E00\u9635\u6572\u95E8\u58F0\u3002\u72D0\u72F8\u6253\u5F00\u95E8\uFF0C\u95E8\u53E3\u7ADF\u7AD9\u7740\u4E00\u53EA\u5C0F\u80A5\u732A\u3002</p><p>\u201C\u54CE\u5440\uFF0C\u6211\u627E\u9519\u95E8\u4E86\uFF0C\u6211\u4EE5\u4E3A\u662F\u5154\u5B50\u7684\u5BB6\u5462\uFF01\u201D</p><p>\u201C\u6CA1\u9519\uFF0C\u4F60\u6765\u5F97\u6B63\u662F\u65F6\u5019\uFF01\u201D</p><p>\u72D0\u72F8\u628A\u5C0F\u732A\u72E0\u72E0\u5730\u62D6\u8FDB\u5C4B\u91CC\uFF0C\u5927\u58F0\u53EB\u9053\uFF1A\u201C\u8FD9\u771F\u662F\u6211\u5E78\u8FD0\u7684\u4E00\u5929\uFF01\u6211\u8981\u5403\u4E00\u987F\u9999\u55B7\u55B7\u7684\u70E4\u732A\u8089\uFF0C\u73B0\u5728\uFF0C\u4F60\u4E56\u4E56\u5730\u8EBA\u5230\u70E4\u9505\u91CC\u53BB\u5427\uFF01\u201D</p><p>\u6323\u624E\u662F\u6CA1\u6709\u7528\u7684\uFF0C\u4E8E\u662F\uFF0C\u5C0F\u732A\u8BF4\uFF1A\u201C\u542C\u4F60\u7684\u5B89\u6392\u5427\u3002\u4E0D\u8FC7\uFF0C\u6211\u5F88\u810F\u54E6\uFF0C\u5728\u4F60\u5403\u6389\u6211\u4E4B\u524D\uFF0C\u5C31\u4E0D\u60F3\u628A\u6211\u6D17\u5F97\u5E72\u51C0\u4E00\u70B9\u5417\uFF1F\u201D\u4E8E\u662F\uFF0C\u72D0\u72F8\u5FD9\u8D77\u6765\u4E86\u3002\u4ED6\u62FE\u6765\u4E86\u6811\u679D\u3001\u751F\u8D77\u4E86\u706B\uFF0C\u518D\u5230\u6CB3\u8FB9\u53BB\u63D0\u6C34\uFF0C\u7136\u540E\uFF0C\u7ED9\u5C0F\u732A\u6D17\u4E86\u4E00\u4E2A\u75DB\u75DB\u5FEB\u5FEB\u7684\u70ED\u6C34\u6FA1\u3002</p><p>\u72D0\u72F8\u8BF4\uFF1A\u201C\u597D\u5566\uFF0C\u73B0\u5728\u4F60\u662F\u5168\u6751\u6700\u5E72\u51C0\u7684\u5C0F\u732A\u4E86\uFF0C\u5FEB\u7ED9\u6211\u8EBA\u5230\u70E4\u9505\u91CC\u53BB\u5427\uFF01\u201D</p><p>\u6323\u624E\u662F\u6CA1\u6709\u7528\u7684\uFF0C\u4E8E\u662F\uFF0C\u5C0F\u732A\u8BF4\uFF1A\u201C\u542C\u4F60\u7684\u5B89\u6392\u5427\u3002\u4E0D\u8FC7\uFF0C\u6211\u592A\u5C0F\u4E86\uFF0C\u5728\u4F60\u5403\u6389\u6211\u4E4B\u524D\uFF0C\u5C31\u4E0D\u60F3\u5582\u9971\u6211\uFF0C\u8BA9\u6211\u957F\u5F97\u80D6\u4E00\u70B9\u5417\uFF1F\u201D\u4E8E\u662F\uFF0C\u72D0\u72F8\u5FD9\u8D77\u6765\u4E86\u3002\u4ED6\u6458\u6765\u897F\u7EA2\u67FF\uFF0C\u505A\u4E86\u901A\u5FC3\u7C89\uFF0C\u8FD8\u70E4\u4E86\u4E00\u7089\u91D1\u9EC4\u8272\u7684\u5C0F\u751C\u997C\u3002\u5C0F\u732A\u5927\u5927\u54A7\u54A7\u5730\u5403\u4E86\u4E00\u987F\u4E30\u76DB\u7684\u5348\u9910\u3002</p><p>\u72D0\u72F8\u8BF4\uFF1A\u201C\u597D\u5566\uFF0C\u73B0\u5728\u4F60\u662F\u5168\u6751\u6700\u80A5\u7684\u5C0F\u732A\u4E86\uFF0C\u5FEB\u7ED9\u6211\u8EBA\u5230\u70E4\u9505\u91CC\u53BB\u5427\uFF01\u201D</p><p>\u6323\u624E\u662F\u6CA1\u6709\u7528\u7684\uFF0C\u4E8E\u662F\uFF0C\u5C0F\u732A\u8BF4\uFF1A\u201C\u542C\u4F60\u7684\u5B89\u6392\u5427\u3002\u4E0D\u8FC7\uFF0C\u6211\u662F\u4E00\u53EA\u52E4\u52B3\u7684\u5C0F\u732A\uFF0C\u6211\u7684\u8089\u4E00\u5B9A\u7279\u522B\u786C\u3002\u5728\u4F60\u5403\u6389\u6211\u4E4B\u524D\uFF0C\u5C31\u4E0D\u60F3\u5148\u7ED9\u6211\u6309\u6469\u4E00\u4E0B\uFF0C\u8BA9\u81EA\u5DF1\u5403\u4E0A\u66F4\u5AE9\u4E00\u70B9\u7684\u70E4\u8089\u5417\uFF1F\u201D</p><p>\u4E8E\u662F\uFF0C\u72D0\u72F8\u5FD9\u8D77\u6765\u4E86\u3002\u4ED6\u8BA9\u5C0F\u732A\u5750\u5728\u6728\u6905\u5B50\u4E0A\uFF0C\u4E3A\u5C0F\u732A\u634F\u634F\u5934\u3001\u677E\u677E\u80A9\u3001\u62C9\u62C9\u817F\uFF0C\u5C0F\u732A\u8212\u670D\u5F97\u76F4\u54FC\u54FC\u3002\u72D0\u72F8\u8BF4\uFF1A\u201C\u597D\u5566\uFF0C\u73B0\u5728\u4F60\u662F\u5168\u6751\u6700\u80A5\u7684\u5C0F\u732A\u4E86\uFF0C\u5FEB\u7ED9\u6211\u8EBA\u5230\u70E4\u9505\u91CC\u53BB\u5427\uFF01\u201D</p><p>\u201C\u90A3\u597D\u5427\uFF0C\u4E0D\u8FC7\uFF0C\u8FD9\u4E9B\u65E5\u5B50\u6211\u7684\u786E\u592A\u7D2F\u4E86\u3002\u4F60\u770B\uFF0C\u6211\u7684\u80CC\u8FD8\u6709\u70B9\u50F5\u786C\uFF0C\u4F60\u80FD\u518D\u7528\u529B\u66FF\u6211\u6309\u6469\u4E00\u4E0B\u5417\uFF1F\u5BF9\uFF0C\u5C31\u8FD9\u6837\uFF0C\u518D\u7528\u70B9\u529B\u6C14\uFF01\u201D\u8FC7\u4E86\u4E00\u4F1A\uFF0C\u8EAB\u540E\u4F20\u6765\u72D0\u72F8\u7684\u547C\u565C\u58F0\uFF0C\u5C0F\u732A\u8F7B\u58F0\u95EE\uFF1A\u201C\u72D0\u72F8\u5148\u751F\uFF0C\u4F60\u5728\u54EA\u513F\u554A\uFF1F\u201D</p><p>\u72D0\u72F8\u6CA1\u6709\u542C\u89C1\u5C0F\u732A\u7684\u558A\u58F0\uFF0C\u4ED6\u7D2F\u6781\u4E86\uFF0C\u6C89\u6C89\u5730\u7761\u53BB\u4E86\u3002</p><p>\u6751\u5B50\u91CC\u6700\u5E72\u51C0\u3001\u6700\u80A5\u3001\u6700\u67D4\u8F6F\u7684\u5C0F\u732A\uFF0C\u62FF\u7740\u5269\u4E0B\u7684\u751C\u997C\uFF0C\u98DE\u5FEB\u5730\u8DD1\u56DE\u5BB6\u53BB\u4E86\u3002</p><h2 id="\u68A6\u91CC\u6709\u4F60-\u5341\u5206\u751C" tabindex="-1"><a class="header-anchor" href="#\u68A6\u91CC\u6709\u4F60-\u5341\u5206\u751C" aria-hidden="true">#</a> \u68A6\u91CC\u6709\u4F60\uFF0C\u5341\u5206\u751C</h2><p>\u4F4F\u5728\u5C71\u5934\u7684\u5C0F\u5154\u5B50\uFF0C\u6700\u8FD1\u5FC3\u91CC\u85CF\u4E86-\u4E2A\u5C0F\u79D8\u5BC6\u3002\u90A3\u4E2A\u5C0F\u79D8\u5BC6\uFF0C\u662F\u6709\u5173\u5BF9\u9762\u5C71\u4E0A\u7684\u7EA2\u5C3E\u5DF4\u5C0F\u72D0\u72F8\u7684\u3002</p><p>\u8FD9\u5929\uFF0C\u5C0F\u5154\u5B50\u7167\u5E38\u53BB\u627E\u5C0F\u72D0\u72F8\u73A9\uFF0C\u534A\u8DEF\u9047\u5230\u4E86\u5C0F\u7CBE\u7075,\u542C\u8BF4\u8FD9\u4E2A\u5C0F\u7CBE\u7075\u7CBE\u901A\u4E07\u4E8B\uFF0C\u5C0F\u5154\u5B50\u541E\u541E\u5410\u5410\u5730\u95EE:\u201C\u5C0F\u7CBE\u7075\uFF0C. \u6211\u4E3A\u4EC0\u4E48\u89C1\u5230\u90A3\u4E2A\u4EBA\uFF0C\u5C31.. \u5C31\u4F1A\u5FC3\u8DF3\u52A0\u901F\uFF0C\u5C31.. \u50CF\u6211\u6BCF\u5929\u5728\u8349\u4E1B\u4E0A\u6253\u5B8C\u6EDA\u4E00\u6837?\u5C0F\u7CBE \u7075\u717D\u52A8\u7740\u5C0F\u7FC5\u8180\uFF0C\u7B11\u563B\u563B\u5730\u5BF9\u5C0F\u5154\u5B50\u8BF4:\u201C\u4F60\u8FD9\u662F\u559C\u6B22\u4E0A\u4EBA\u5BB6\u5566\u3002\u201D\u5C0F\u5154\u5B50\u53C8\u95EE:\u201C\u90A3\u4EC0\u4E48\u662F\u559C\u6B22\u5440?</p><p>\u5C0F\u7CBE\u7075\u60F3\u4E86\u60F3\u8BF4: &quot;\u559C\u6B22\u5C31\u662F\uFF0C\u4F60\u5728\u89C1\u4ED6\u4E4B\u524D\uFF0C\u5E0C\u671B\u65F6\u95F4\u8FC7\u5F97\u5FEB\u4E00-\u70B9, \u8FD9\u6837\u4F60\u5C31\u53EF\u4EE5\u5FEB\u70B9\u89C1\u5230\u4ED6\u3002\u89C1\u5230\u4ED6\u4E4B\u540E\uFF0C\u4F60\u4F1A\u5F88\u5F00\u5FC3\uFF0C\u4F1A\u5E0C\u671B\u65F6\u95F4\u8FC7\u5F97\u6162\u4E00-\u70B9,\u8FD9\u6837\u4F60\u5C31\u53EF\u4EE5\u6709\u66F4\u591A\u7684\u65F6\u95F4\u548C\u4ED6\u5728\u4E00\u8D77\u3002</p><p>\u201C\u53EF\u662F\uFF0C\u6211\u4E0D\u77E5\u9053\u4ED6\u559C\u4E0D\u559C\u6B22\u6211\uFF0C\u600E\u4E48\u529E?\u201D \u5C0F\u5154\u5B50\u5931\u843D\u5730\u8BF4\u3002</p><p>&quot;\u4F20\u8BF4\u5728\u7761\u524D\u53EA\u8981\u60F3\u7740\u4F60\u559C\u6B22\u7684\u90A3\u4E2A\u4EBA\uFF0C\u5982\u679C\u4ED6\u68A6\u5230\u4E86\u4F60\uFF0C\u4F60\u5C31\u53EF\u4EE5\u8FDB\u5165\u4ED6\u7684\u68A6\u91CC\uFF0C\u8FD9\u6837\uFF0C\u4F60\u4FBF\u53EF\u4EE5\u77E5\u9053\u4ED6\u5BF9\u4F60\u7684\u5FC3\u610F\u5566!\u201D\u5C0F\u7CBE\u7075\u8BF4\u5B8C\u5C31\u6D88\u5931\u4E86\u3002</p><p>\u5C0F\u5154\u5B50\u9ED8\u9ED8\u8BB0\u4F4F\u4E86\u5C0F\u7CBE\u7075\u7684\u8BDD\uFF0C\u7EC8\u4E8E\uFF0C\u661F\u661F\u51FA\u6765\u4E86\uFF0C\u5C0F\u5154\u5B50\u8EBA\u5728\u67D4\u8F6F\u7684\u5C0F\u5E8A.\u4E0A,\u60F3\u7740\u548C\u5C0F\u72D0\u72F8\u7684\u6B22\u4E50\u65F6\u5149\uFF0C\u4E0D\u77E5\u4E0D\u89C9,\u7761\u7740\u4E86..</p><p>\u679C\u7136\uFF0C\u5C0F\u5154\u5B50\u6765\u5230\u4E86\u4E00\u4E2A\u53EB\u68A6\u4E4B\u56FD\u7684\u5730\u65B9\uFF0C\u5728\u8FD9\u4E2A\u5730\u65B9\uFF0C\u5979\u770B\u5230\u4E86\u4E00\u95F4\u5C0F\u6728\u5C4B,\u6302\u7740\u7EA2\u5C3E\u5DF4\u5C0F\u72D0\u72F8\u7684\u724C\u5B50\uFF0C\u5C0F\u5154\u5B50\u6DF1\u5438\u4E00\u53E3\u6C14,\u63A8\u5F00\u4E86\u5C0F\u6728\u95E8\uFF0C\u901A\u5F80\u5C0F\u72D0\u72F8\u68A6\u91CC\u7684\u8DEF\u5F00\u6EE1\u4E86\u82B1\u82B1\u8349\u8349\uFF0C\u8774\u8776\u5728\u7A7A\u4E2D\u98DE\u821E,\u5C0F\u5154\u5B50\u8D70\u4E86\u597D\u4E45\uFF0C\u5728\u4E00\u7247\u8349\u5730\u4E0A\u770B\u5230\u4E86\u5C0F\u72D0\u72F8\uFF0C\u5C0F\u72D0\u72F8\u7B11\u563B\u563B\u5730\u5BF9\u5C0F\u5154\u5B50\u8BF4:\u201C\u4F60\u7EC8\u4E8E\u6765\u4E86\uFF0C \u6211\u4E00\u76F4\u5728\u7B49\u4F60\uFF0C\u6211\u5FC3\u7231\u7684\u5C0F\u5154\u5B50\u3002</p><p>\u68A6\u91CC\uFF0C\u5C0F\u72D0\u72F8\u5E26\u7740\u5C0F\u5154\u5B50\u5728\u8349\u4E1B\u4E0A\u6253\u6EDA\u513F\uFF0C\u5C0F\u72D0\u72F8\u8FD8\u4E3A\u5C0F\u5154\u5B50\u7F16\u7EC7\u4E86\u4E00\u4E2A\u5C0F\u82B1\u73AF\uFF0C\u4EB2\u624B\u7ED9\u5C0F\u5154\u5B50\u6234\u5728\u5934\u4E0A\uFF0C\u5750\u5728\u6E56\u8FB9\uFF0C\u770B\u7740\u5728\u6E56\u4E0A\u98D8\u7740\u7684\u5C0F\u8239\uFF0C\u5403\u7740\u751C\u751C\u7684\u7CD6\u679C\uFF0C \u73A9\u7D2F\u4E86\u5C0F\u72D0\u72F8\u5C31\u8BA9\u5C0F\u5154\u5B50\u8EBA\u5728\u4ED6\u67D4\u8F6F\u7684\u7EA2\u5C3E\u5DF4\u4E0A\uFF0C\u5BA0\u6EBA\u5730\u629A\u6478\u7740\u5C0F\u5154\u5B50\u5934\uFF0C\u8033\u8FB9\u62C2\u8FC7\u7684\u53EA\u6709\u6E29\u548C\u7684\u98CE\u548C\u5F7C\u6B64\u7684\u547C\u5438\u3002</p><p>\u4E0D\u77E5\u8FC7\u4E86\u591A\u4E45,\u5C0F\u5154\u5B50\u773C\u524D\u95EA\u8FC7\u4E00\u9053\u767D\u5149\uFF0C\u68A6\u7ED3\u675F\u4E86...</p><p>\u5C0F\u5154\u5B50\u7EC6\u7EC6\u56DE\u60F3\u7740\u521A\u624D\u7684\u68A6\uFF0C\u6025\u5FD9\u671D\u5C0F\u72D0\u72F8\u5BB6\u8DD1\u53BB\uFF0C\u72B9\u8C6B\u4E86\u4E00\u4E0B\uFF0C\u7EC8\u4E8E\u6572\u54CD\u4E86\u5C0F\u72D0\u72F8\u5BB6\u7684\u95E8,\u4E0D\u4E00\u4F1A\u513F\uFF0C\u95E8\u5F00\u4E86\uFF0C\u9732\u51FA\u4E86\u5C0F\u72D0\u72F8\u542B\u7740\u7B11\u610F\u7684\u5927\u773C\u775B\u3002\u5C0F\u5154\u5B50\u8BF4:\u201D\u4F60\u597D\u5440\uFF0C\u5C0F\u72D0\u72F8\uFF0C\u4ECA\u5929\u6211\u4EEC\u53BB\u6458\u8611\u83C7\u5427!&quot;\u5C0F\u72D0\u72F8\u70B9\u4E86\u70B9\u5934:\u201C\u597D\u554A\u597D\u554A\uFF0C\u5FEB\u8FDB\u6765\u5427\uFF0C\u7B49\u6211\u6536\u62FE\u4E00\u4E0B\u6211\u4EEC\u5C31\u51FA\u53D1\u3002</p><p>\u8DEF\u4E0A\uFF0C\u5C0F\u5154\u5B50\u652F\u652F\u543E\u543E\u5730\u95EE: &quot;\u5C0F\u72D0\u72F8\uFF0C..\u4F60\u6628\u5929\u505A\u4E86\u4EC0\u4E48\u68A6\u5440?\u201D</p><p>\u5C0F\u72D0\u72F8\u5237\u5730\u4E00\u4E0B\u8138\u7EA2\u4E86\uFF0C\u6320\u4E86\u6320\u5934\uFF0C\u4E0D\u597D\u610F\u601D\u8BF4:\u201C\u4E3A..\u4E3A\u4EC0\u4E48\u8981\u95EE\u8FD9\u4E2A?\u201D</p><p>\u201C\u56E0\u4E3A\u6211\u68A6\u5230\u4E86 ..\u5C0F\u5154\u5B50\u4E0D\u5C0F\u5FC3\u8BF4\u6F0F\u4E86\u5634\uFF0C\u8D76\u5FD9\u8BF4&quot;\u54CE\u5440\uFF0C\u4F60\u5FEB\u70B9\u8BF4\u8BF4\u561B!&quot;</p><p>&quot;\u55EF..\u6211\u68A6\u5230\u4E86.\u5176\u5B9E\u662F\u4E00\u4E2A\u5341\u4E8C\u5206\u751C\u7684\u68A6\u3002\u201D</p><p>\u201D\u4E3A\u4EC0\u4E48\u662F\u5341\u4E8C\u5206\u751C?\u201D\u5C0F\u5154\u5B50\u4E0D\u89E3\u7684\u95EE\u3002</p><p>\u201C\u4E00\u5206\u662F\u5B81\u9759\uFF0C\u4E00\u5206\u662F\u60EC\u610F\u3002\u201D</p><p>\u5C0F\u72D0\u72F8\u62C9\u8D77\u5C0F\u5154\u5B50\u7684\u624B\u7EE7\u7EED\u8BF4\u201C\u7136\u540E\u68A6\u91CC\u6709\u4F60\uFF0C\u4F60\u5341\u5206\u751C\u3002</p><h2 id="\u665A\u5B89" tabindex="-1"><a class="header-anchor" href="#\u665A\u5B89" aria-hidden="true">#</a> \u665A\u5B89\uFF01</h2><p>\u65F6\u95F4\u5728\u68EE\u6797\u91CC\uFF0C\u6162\u6162\u7684\u6D41\u901D\u7740\uFF0C\u4E0D\u4E45\u79CB\u5929\u4FBF\u6765\u4E86\uFF0C\u4E5F\u5230\u4E86\u52A8\u7269\u4EEC\u6700\u5FD9\u788C\u7684\u5B63\u8282\uFF0C\u56E0\u4E3A\u79CB\u5929\u7684\u91D1\u9EC4\uFF0C\u50CF\u6781\u4E86\u5927\u81EA\u7136\u7ED9\u4E88\u52A8\u7269\u4EEC\u6700\u73CD\u8D35\u7684\u5B9D\u85CF\uFF0C\u4E5F\u6807\u5FD7\u7740\u5C0F\u52A8\u7269\u4EEC\u8981\u5F00\u59CB\u50A8\u5B58\u51AC\u5929\u7684\u7CAE\u98DF\u4E86\u3002</p><p>\u9AD8\u8038\u5165\u4E91\u7684\u677E\u6811\u4E0A\uFF0C\u5C0F\u677E\u9F20\u4E0A\u7A9C\u4E0B\u8DF3\u7684\u8EAB\u5F71\u7740\u5B9E\u8BA9\u4EBA\u4E0D\u5F97\u4E0D\u6CE8\u610F\u3002\u90A3\u5C0F\u677E\u9F20\u5728\u5FD9\u4EC0\u4E48\u5462\uFF1F\u548B\u4E00\u770B\uFF0C\u539F\u6765\u5C0F\u677E\u9F20\u5728\u5FD9\u7740\u6361\u5730\u4E0A\u7684\u677E\u679C\uFF0C\u4E0D\u505C\u7684\u5F80\u81EA\u5DF1\u7684\u5C0F\u7A9D\u91CC\u9001\u5462\uFF01\u5728\u5C0F\u677E\u9F20\u5FD9\u788C\u7684\u8FC7\u7A0B\u4E2D\uFF0C\u5544\u6728\u9E1F\u533B\u751F\uFF0C\u4E5F\u5728\u65C1\u8FB9\u7684\u6811\u4E0A\u4E0D\u505C\u7684\u7ED9\u5927\u53D4\u4F2F\u4F2F\u9A71\u866B\u2026\u2026</p><p>\u6240\u4EE5\u53EA\u8981\u4F60\u4ED4\u7EC6\u4E00\u770B\uFF0C\u6574\u4E2A\u68EE\u6797\u90FD\u5728\u79CB\u5929\u7684\u6C14\u6C1B\u4E2D\u5FD9\u788C\u7740\u3002\u5728\u68EE\u6797\u7684\u53E6\u4E00\u8FB9\uFF0C\u5C0F\u732A\u5728\u5C4B\u5916\u4E0D\u505C\u7684\u5228\u5751\uFF0C\u8DEF\u8FC7\u7684\u5C0F\u767D\u5154\u770B\u89C1\u4E86\uFF0C\u95EE\u5C0F\u732A\uFF1A\u201C\u5C0F\u732A\uFF0C\u5C0F\u732A\u4F60\u5728\u5E72\u561B\u5462\uFF1F\u201D</p><p>\u201C\u6211\u5728\u5228\u4E2A\u5927\u70B9\u7684\u5751\uFF0C\u7136\u540E\u628A\u51AC\u5929\u8981\u5403\u7684\u7CAE\u98DF\u57CB\u91CC\u9762\u201D\u3002\u5C0F\u732A\u8FB9\u5E72\u6D3B\u8FB9\u56DE\u7B54\u8BF4\u3002</p><p>\u201C\u5E72\u561B\u8981\u57CB\u5728\u5751\u91CC\u554A\uFF01\u201D</p><p>\u201C\u56E0\u4E3A\u57CB\u5728\u5751\u91CC\uFF0C\u6E29\u5EA6\u4F4E\u53EF\u4EE5\u4FDD\u6301\u98DF\u7269\u4E0D\u574F\u554A\uFF01\u201D</p><p>\u5C0F\u767D\u5154\u542C\u4E86\uFF0C\u597D\u50CF\u5F88\u6709\u9053\u7406\uFF0C\u4FBF\u544A\u522B\u5C0F\u732A\uFF0C\u5F80\u5BB6\u91CC\u8D76\u53BB\u3002</p><p>\u56DE\u5230\u5BB6\u91CC\uFF0C\u5C0F\u767D\u5154\u8BA9\u5C0F\u72D0\u72F8\u628A\u81EA\u5DF1\u6700\u559C\u6B22\u5403\u7684\u841D\u535C\u57CB\u5728\u5730\u91CC\uFF0C\u5C0F\u72D0\u72F8\u542C\u4E86\u4E00\u9635\u60CA\u8BB6\uFF0C\u95EE\u5C0F\u767D\u5154\u4E3A\u4EC0\u4E48\u8981\u57CB\u5728\u5730\u91CC\uFF0C\u5C0F\u767D\u5154\u628A\u548C\u5C0F\u732A\u7684\u8C08\u8BDD\u544A\u8BC9\u4E86\u5C0F\u72D0\u72F8\u3002</p><p>\u5C0F\u72D0\u72F8\u542C\u540E\uFF0C\u5FCD\u4E0D\u4F4F\u5927\u7B11\u8D77\u6765\uFF0C\u8FD9\u53EF\u628A\u5C0F\u767D\u5154\u6C14\u7740\u4E86\uFF0C\u8FDE\u5FD9\u95EE\u539F\u56E0\uFF0C\u4F11\u606F\u4E86\u597D\u4E00\u4F1A\uFF0C\u5C0F\u72D0\u72F8\u8BF4\uFF1A\u201C\u5C0F\u732A\u50A8\u5B58\u7684\u662F\u90A3\u79CD\u57CB\u5728\u5730\u91CC\u4E0D\u4F1A\u574F\u7684\u98DF\u7269\uFF0C\u800C\u4E14\u4E5F\u4F1A\u628A\u98DF\u7269\u5305\u88C5\u4FDD\u62A4\u4E00\u4E0B\u554A\uFF0C\u4F46\u662F\u4F60\u559C\u6B22\u5403\u7684\u80E1\u841D\u535C\uFF0C\u4E00\u65E6\u57CB\u5728\u5730\u4E0B\uFF0C\u4F1A\u8150\u70C2\uFF0C\u5C31\u7B97\u4E0D\u8150\u70C2\u4E5F\u4F1A\u53D8\u6210\u80E1\u841D\u535C\u5E72\u201D\u3002\u5C0F\u767D\u5154\u542C\u540E\uFF0C\u4E5F\u89C9\u5F97\u597D\u50CF\u6709\u4E9B\u9053\u7406\uFF0C\u4E8E\u662F\u53C8\u95EE\uFF1A\u201C\u90A3\u4F60\u4E3A\u4EC0\u4E48\u7B11\u6211\uFF1F\u201D\uFF0C\u5C0F\u72D0\u72F8\u770B\u7740\u561F\u7740\u5634\u7684\u5C0F\u767D\u5154\uFF0C\u53C8\u597D\u7B11\u53C8\u53EF\u7231\u3002</p><p>\u201C\u56E0\u4E3A\u4F60\u8FD9\u4E48\u4E45\uFF0C\u8FD8\u662F\u6211\u7684\u50BB\u5B9D\u8D1D\uFF0C\u4E00\u70B9\u90FD\u6CA1\u53D8\u5462\uFF01\u201D\u5C0F\u767D\u5154\u542C\u540E\uFF0C\u611F\u89C9\u597D\u50CF\u88AB\u8868\u626C\u4E86\uFF0C\u4E0D\u89C9\u5F97\u5634\u89D2\u4E0A\u626C\u3002\u4F46\u4ED4\u7EC6\u4E00\u60F3\uFF0C\u597D\u50CF\u53C8\u4E0D\u662F\uFF0C\u4E8E\u662F\u8FDE\u5FD9\u8981\u627E\u5C0F\u72D0\u72F8\u7B97\u8D26\uFF0C\u8F6C\u5934\u4E00\u770B\u5C0F\u72D0\u72F8\u65E9\u5C31\u8DD1\u51FA\u95E8\uFF0C\u5BF9\u7740\u5C0F\u767D\u5154\u505A\u9B3C\u8138\u3002</p><p>\u201C\u4F60\u7B49\u7740\uFF0C\u4F60\u4E2A\u81ED\u5B9D\u8D1D\uFF01\u201D\u5C0F\u767D\u5154\u8FDE\u5FD9\u8FFD\u51FA\u53BB\u3002</p><p>\u5C31\u8FD9\u6837\uFF0C\u5728\u5FD9\u788C\u7684\u79CB\u5929\uFF0C\u4E5F\u4F1A\u6709\u521D\u6625\u7231\u60C5\u7684\u751C\u871C\uFF0C\u50CF\u5C0F\u767D\u5154\u548C\u5C0F\u72D0\u72F8\uFF0C\u5728\u5FD9\u788C\u5F53\u4E2D\u5B09\u620F\u6253\u95F9\uFF0C\u8BA9\u4E00\u4E9B\u8FD8\u5355\u8EAB\u7684\u5C0F\u52A8\u7269\uFF0C\u597D\u751F\u7FA1\u6155\u2026\u2026</p><p>\u5F53\u7136\uFF0C\u68EE\u6797\u91CC\u7684\u52A8\u7269\u4EEC\u90FD\u975E\u5E38\u7684\u5584\u826F\uFF0C\u6240\u4EE5\u554A\u6708\u8001\u4E5F\u4E00\u5B9A\u4E0D\u4F1A\u541D\u556C\u59FB\u7F18\u7684\u7EA2\u7EBF\uFF0C\u76F8\u4FE1\u4E0D\u4E45\u53C8\u4F1A\u6709\u65B0\u7684\u751C\u871C\u98D8\u6563\u5728\u8FD9\u68EE\u6797\u7684\u5927\u5BB6\u5EAD\u4E2D\u3002</p><p>\u6BCF\u4E00\u4E2A\u591C\u5E55\u964D\u4E34\uFF0C\u6211\u4EEC\u4E5F\u4F1A\u5BF9\u5F7C\u6B64\u8BF4\u4E0A\u4E00\u53E5\uFF1A\u665A\u5B89\uFF01\u597D\u68A6\uFF01</p><h2 id="\u7231-\u957F\u7BC7" tabindex="-1"><a class="header-anchor" href="#\u7231-\u957F\u7BC7" aria-hidden="true">#</a> \u7231\uFF08\u957F\u7BC7\uFF09</h2><p>\u6E05\u6668\uFF0C\u6DF1\u5C71\u4E4B\u5904\u7684\u5BFA\u5E99\u5BE5\u5BE5\u708A\u70DF\uFF0C\u53A8\u623F\u91CC\uFF0C\u725B\u6653\u70E7\u7740\u706B\uFF0C\u5C0F\u548C\u5C1A\u6405\u52A8\u7740\u9505\u91CC\u7684\u658B\u996D\uFF0C\u4E00\u4E2A\u6708\u7684\u76F8\u5904\u4E0B\u6765\uFF0C\u8BA9\u4E24\u4EBA\u914D\u5408\u76F8\u5F53\u9ED8\u5951\uFF0C\u8FD9\u4E5F\u8BA9\u5C0F\u548C\u5C1A\u7684\u5DE5\u4F5C\u8F7B\u677E\u4E86\u8BB8\u591A\u3002</p><p>\u201C\u4F60\u559C\u6B22\u8FC7\u522B\u4EBA\u5417\uFF1F\u201D\u725B\u6653\u7A81\u7136\u95EE</p><p>\u201C\u5565\uFF1F\u201D\u5C0F\u548C\u5C1A\u88AB\u8FD9\u7A81\u5982\u5176\u6765\u95EE\u9898\u60CA\u4E86\u4E00\u4E0B\uFF0C\u7136\u540E\u53C8\u8BF4\uFF1A\u201C\u6211\u559C\u6B22\u5E08\u5085\uFF0C\u5E08\u5085\u662F\u6211\u7684\u5BB6\u4EBA\uFF0C\u5982\u679C\u4F60\u5F85\u4E45\u4E86\u6211\u4E5F\u4F1A\u559C\u6B22\u4F60\u7684\u3002\u201D\u725B\u6653\u770B\u7740\u5C0F\u548C\u5C1A\u8BA4\u8BA4\u771F\u771F\u7684\u56DE\u7B54\u7740\u3002\u7A81\u7136\u5657\u55E4\u4E00\u58F0\u7B11\u4E86\u8D77\u6765\u3002</p><p>\u201C\u4F60\u662F\u4E0D\u662F\u50BB\uFF1F\u6211\u8BF4\u7684\u662F\u7537\u5973\u4E4B\u95F4\u7684\u559C\u6B22\uFF1F\u201D\u725B\u6653\u8BF4\u3002</p><p>\u201C\u90A3\u662F\u4EC0\u4E48\u559C\u6B22\uFF1F\u4E0D\u61C2\u4E0D\u61C2\uFF01\u201D\u5C0F\u548C\u5C1A\u8FB9\u76DB\u7740\u7CA5\uFF0C\u8FB9\u6447\u7740\u5934\u3002</p><p>\u996D\u684C\u4E0A\uFF0C\u5E08\u5F92\u4E09\u4EBA\u5403\u7740\u658B\u996D\uFF0C\u5C0F\u548C\u5C1A\u7A81\u7136\u95EE\u5E08\u5085\uFF1A\u201C\u5E08\u5085\uFF0C\u4F60\u559C\u6B22\u8FC7\u5973\u4EBA\u5417\uFF1F\u201D\u3002\u8FD9\u4E00\u95EE\u5B8C\uFF0C\u5E08\u5085\u5DEE\u70B9\u545B\u4E86\u4E00\u53E3\u996D\uFF0C\u8F6C\u5934\u770B\u7740\u725B\u6653\uFF0C\u725B\u6653\u4E00\u8138\u65E0\u8F9C\u7684\u8BF4\u5230\uFF1A\u201C\u5E08\u5085\uFF0C\u8DDF\u6211\u65E0\u5173\uFF0C\u6211\u53EF\u5565\u90FD\u6CA1\u8BF4\u201D\u3002\u8BF4\u5B8C\uFF0C\u4FBF\u57CB\u5934\u5403\u996D\u3002</p><p>\u201C\u4F60\u4EEC\u4FE9\uFF0C\u4E00\u5929\u4E0D\u8BA4\u771F\u5FF5\u4F5B\u5B88\u5FC3\uFF0C\u8BA8\u8BBA\u90A3\u4E9B\u65E0\u5173\u7D27\u8981\u7684\u5E72\u561B\uFF1F\u201D\u5E08\u5085\u767D\u4E86\u4E00\u773C\u725B\u6653\uFF0C\u7EE7\u7EED\u8BF4\u5230\uFF1A\u201C\u7537\u6B22\u5973\u7231\uFF0C\u7686\u4E3A\u4E16\u4FD7\u60C5\u4E8B\uFF0C\u4E16\u4EBA\u628A\u8FD9\u79CD\u611F\u60C5\u6BD4\u4E3A\u7231\u60C5\uFF0C\u53C8\u4EE5\u73AB\u7470\u4E3A\u8C61\u5F81\uFF0C\u65E0\u8BBA\u5403\u658B\u5FF5\u4F5B\u4E5F\u597D\uFF0C\u7537\u6B22\u5973\u7231\u4E5F\u7F62\uFF0C\u90FD\u662F\u4EBA\u751F\u5F53\u4E2D\u7684\u4FEE\u884C\uFF0C\u4EBA\u4EBA\u90FD\u60F3\u4FEE\u5F97\u6B63\u679C\uFF0C\u5176\u4E2D\u56F0\u96BE\u574E\u5777\uFF0C\u5927\u540C\u5C0F\u5F02\u2026\u2026\u201D\u5E08\u5085\u8BF4\u7740\uFF0C\u4EFF\u4F5B\u9677\u5165\u4E86\u56DE\u5FC6\uFF0C\u800C\u540E\u7B11\u7740\u5BF9\u9762\u524D\uFF0C\u8FD9\u4E24\u4E2A\u7741\u7740\u773C\u775B\u542C\u7740\u7684\u5F92\u5F1F\u7EE7\u7EED\u8BF4\uFF1A\u201C\u8BB0\u5F97\u5E08\u508517\u5C81\u90A3\u5E74\uFF0C\u5E76\u672A\u50CF\u73B0\u5728\u5982\u6B64\u5F00\u59CB\u5403\u658B\u5FF5\u4F5B\uFF0C\u8FD8\u5728\u4E61\u91CC\u63D2\u79E7\u79CD\u7530\uFF0C\u4E00\u5BB6\u4E09\u53E3\u6625\u8015\u79CB\u6536\uFF0C\u5176\u4E50\u878D\u878D\uFF0C\u751F\u6D3B\u4E5F\u522B\u6709\u4E00\u756A\u7CBE\u5F69\u3002\u8BB0\u5F97\u90A3\u662F\u4E00\u4E2A\u9EC4\u660F\u508D\u665A\uFF0C\u6211\u548C\u6BCD\u4EB2\u5728\u5BB6\u4E2D\u70E7\u706B\u505A\u996D\uFF0C\u7236\u4EB2\u5E26\u56DE\u4E00\u9A91\u9A6C\u7537\u5B50\u3002\u7537\u5B50\u6EE1\u8EAB\u5C18\u571F\uFF0C\u4E00\u8138\u75B2\u60EB\uFF0C\u4E0D\u8FC7\u8BF4\u4E5F\u5947\u602A\uFF0C\u8FD9\u7537\u5B50\u957F\u7684\u597D\u751F\u79C0\u6C14\u3002\u7ECF\u7236\u4EB2\u4E00\u756A\u89E3\u91CA\uFF0C\u539F\u6765\u662F\u4E00\u4E2A\u8DEF\u8FC7\uFF0C\u51C6\u5907\u53BB\u53C2\u519B\u7684\u9752\u5E74\uFF0C\u8DEF\u4E0A\u56E0\u4E3A\u9A91\u9A6C\u98A0\u7C38\uFF0C\u6454\u4F24\u4E86\u5DE6\u817F\uFF0C\u7236\u4EB2\u89C1\u5176\u5728\u6751\u53E3\u5750\u7740\uFF0C\u4E0A\u524D\u8BE2\u95EE\u540E\uFF0C\u9080\u5176\u5728\u5BB6\u4F11\u517B\u4E24\u65E5\uFF0C\u5948\u4F55\u7537\u5B50\u6709\u4F24\u5728\u8EAB\uFF0C\u76DB\u60C5\u96BE\u5374\uFF0C\u4FBF\u548C\u7236\u4EB2\u6765\u5230\u5BB6\u4E2D\u505A\u5BA2\u4F11\u517B\u201D\u3002</p><p>\u8BF4\u5230\u7740\uFF0C\u5E08\u5085\u4E00\u8138\u56DE\u5FC6\u4E4B\u8272\uFF0C\u5C0F\u548C\u5C1A\u9ED8\u9ED8\u4E3A\u5E08\u5085\u7AEF\u6765\u4E00\u676F\u8336\u6C34\uFF0C\u548C\u725B\u6653\u5E76\u6392\u5750\u5728\u5E08\u5085\u5BF9\u9762\uFF0C\u6EE1\u773C\u671F\u5F85\u5E08\u5085\u7EE7\u7EED\u8BB2\u6545\u4E8B\u3002</p><p>\u5E08\u5085\u770B\u4E86\u8FD9\u4E24\u597D\u5947\u5F92\u5F1F\u4E00\u773C\uFF0C\u7EE7\u7EED\u8BF4\uFF1A\u201C\u7537\u5B50\u6765\u5230\u5BB6\u4E2D\u4F4F\u5728\u504F\u623F\uFF0C\u524D\u4E24\u5929\u56E0\u4E3A\u817F\u811A\u4E0D\u4FBF\uFF0C\u9664\u4E86\u5403\u996D\u4FBF\u4E00\u76F4\u5F85\u5728\u623F\u95F4\u4E0D\u51FA\u95E8\u3002\u7B2C\u4E09\u5929\u508D\u665A\u548C\u7236\u4EB2\u52A1\u519C\u7ED3\u675F\uFF0C\u56DE\u5230\u5BB6\u4E2D\uFF0C\u53D1\u73B0\u90A3\u7537\u5B50\u5DF2\u7ECF\u4E0D\u89C1\uFF0C\u53CD\u800C\u6709\u4E00\u540D\u7A7F\u7740\u7D20\u8863\uFF0C\u957F\u76F8\u6E05\u79C0\u7684\u59D1\u5A18\u5728\u548C\u6BCD\u4EB2\u6709\u8BF4\u6709\u7B11\u3002\u7ECF\u8FC7\u4E00\u756A\u8BE2\u95EE\uFF0C\u90A3\u7537\u5B50\u5C45\u7136\u662F\u5973\u513F\u8EAB\uFF0C\u8FD9\u53EF\u628A\u6211\u548C\u7236\u4EB2\u60CA\u4E86\u4E00\u4E0B\u3002\u90A3\u65F6\u7236\u4EB2\u867D\u6CA1\u8BFB\u8FC7\u4E66\uFF0C\u4F46\u4E5F\u4E0D\u662F\u591A\u5634\u4E4B\u4EBA\uFF0C\u6240\u4EE5\u5F53\u65F6\u5728\u8868\u73B0\u51FA\u4E00\u5239\u60CA\u8BB6\u4E4B\u540E\uFF0C\u4FBF\u6062\u590D\u5982\u521D\uFF0C\u6CA1\u6709\u591A\u95EE\u4EC0\u4E48\uFF0C\u4F46\u6211\u60F3\u540E\u9762\u6BCD\u4EB2\u5E94\u8BE5\u7ED9\u7236\u4EB2\u89E3\u91CA\u4E86\u7F18\u7531\u3002\u5F80\u540E\u51E0\u5929\uFF0C\u8FD9\u5973\u5B50\u5F00\u59CB\u5E2E\u5BB6\u91CC\u5206\u62C5\u8D77\u4E86\u519C\u6D3B\uFF0C\u6D17\u8863\u505A\u996D\uFF0C\u987A\u4FBF\u4E5F\u5F00\u59CB\u7ED9\u6211\u8F85\u5BFC\u529F\u8BFE\uFF0C\u6559\u6211\u8BC6\u5B57\u3002</p><p>\u8FD9\u6837\u7684\u65E5\u5B50\u6301\u7EED\u4E86\u5927\u6982\u5927\u534A\u4E2A\u6708\uFF0C\u8FD9\u671F\u95F4\u6BCD\u4EB2\u548C\u7236\u4EB2\u8FD8\u62C5\u5F53\u8D77\u4E86\u5A92\u4EBA\u4F3C\u7684\uFF0C\u5C3D\u529B\u5728\u64AE\u5408\u6211\u548C\u8FD9\u59D1\u5A18\uFF0C\u7279\u522B\u662F\u6BCD\u4EB2\uFF0C\u8868\u73B0\u7684\u5341\u5206\u559C\u6B22\u3002\u90A3\u65F6\u7684\u6211\uFF0C\u56E0\u4E3A\u60C5\u7AA6\u521D\u5F00\uFF0C\u5916\u52A0\u671D\u5915\u76F8\u5904\uFF0C\u771F\u7684\u5BF9\u5979\u4EA7\u751F\u4E86\u4E00\u79CD\u83AB\u540D\u7684\u60C5\u612B\u201D\u3002\u5E08\u5085\u8BF4\u5230\u8FD9\uFF0C\u505C\u4E86\u4E0B\u6765\uFF0C\u7AEF\u8D77\u8336\u6C34\u559D\u4E86\u4E00\u53E3\u3002</p><p>\u725B\u6653\u548C\u5C0F\u548C\u5C1A\u53EF\u6025\u574F\u4E86\uFF0C\u8FDE\u5FD9\u95EE\u9053\uFF1A\u201C\u5E08\u5085\uFF0C\u90A3\u662F\u4EC0\u4E48\u611F\u89C9\u554A\uFF1F\u201D</p><p>\u5E08\u5085\u653E\u4E0B\u8336\u676F\uFF0C\u62AC\u5934\u671B\u7740\u623F\u6881\uFF0C\u6C89\u601D\u4E86\u4E00\u4F1A\u8BF4\uFF1A\u201C\u671D\u5915\u6240\u60F3\uFF0C\u591C\u4E0D\u80FD\u5BD0\uFF0C\u4E00\u65E5\u4E0D\u89C1\uFF0C\u5982\u9694\u4E09\u79CB\u3002\u73B0\u5728\u60F3\u60F3\uFF0C\u53EF\u80FD\u90A3\u5C31\u662F\u5C18\u4E16\u5411\u5F80\u7684\u559C\u6B22\u548C\u7231\u60C5\u3002\u4F46\u597D\u666F\u4E0D\u957F\uFF0C\u67D0\u5929\u6E05\u6668\u4E00\u65E9\uFF0C\u5979\u4FBF\u6084\u6084\u9A91\u9A6C\u79BB\u5F00\uFF0C\u79BB\u5F00\u65F6\u7559\u4E0B\u4E00\u5C01\u4E66\u4FE1\uFF0C\u548C\u4E00\u5757\u7389\u624B\u956F\u201D\u3002\u5E08\u5085\u8BF4\u7740\uFF0C\u4ECE\u6000\u91CC\u62FF\u51FA\u4E00\u5757\u7EA2\u5E03\uFF0C\u6253\u5F00\u4EE5\u540E\u91CC\u9762\u662F\u4E00\u5757\u54C1\u76F8\u4E0D\u9519\u7684\u7389\u624B\u956F\uFF0C\u770B\u7740\u8FD9\u5757\u624B\u956F\uFF0C\u5E08\u5085\u5F00\u59CB\u6C89\u9ED8\u4E0D\u8BED\u3002</p><p>\u5F92\u5F1F\u4EEC\u53EF\u4E0D\u7136\uFF0C\u5341\u5206\u7740\u6025\uFF0C\u8BE2\u95EE\u5E08\u5085\uFF1A\u201C\u5E08\u5085\u5E08\u5085\uFF0C\u4FE1\u4E0A\u5199\u7684\u5565\uFF1F\u540E\u9762\u53C8\u600E\u4E48\u4E86\uFF1F\u201D</p><p>\u5E08\u5085\u53F9\u606F\u4E86\u4E00\u58F0\uFF0C\u8BF4\uFF1A\u201C\u90A3\u65F6\u5B57\u8FD8\u8BA4\u4E0D\u4E86\u51E0\u4E2A\uFF0C\u53EA\u8BB0\u5F97\u6700\u540E\u51E0\u884C\uFF0C\u548C\u5979\u7684\u540D\u5B57\u201D\u3002</p><p>\u201C\u662F\u4EC0\u4E48\uFF1F\u201D\u725B\u6653\u95EE</p><p>\u201C\u66FF\u7236\u4ECE\u519B\uFF0C\u6709\u7F18\u518D\u4F1A\uFF01\u6728\u5170\u7559\u2026\u2026\u201D</p><h2 id="\u5154\u5B50\u548C\u72D0\u72F8" tabindex="-1"><a class="header-anchor" href="#\u5154\u5B50\u548C\u72D0\u72F8" aria-hidden="true">#</a> \u5154\u5B50\u548C\u72D0\u72F8</h2><p>\u4ECA\u5929\u7684\u5C0F\u5154\u5B50\u5FC3\u60C5\u5341\u5206\u7684\u5F00\u5FC3\uFF0C\u56E0\u4E3A\u5979\u83B7\u5F97\u4E86\u68EE\u6797\u91CC\u7814\u7A76\u6BD4\u8D5B\u7B2C\u4E00\u540D\u5728\u56DE\u5BB6\u7684\u8DEF\u4E0A\uFF0C\u4E5F\u628A\u60C5\u7EEA\u8868\u73B0\u5728\u81EA\u5DF1\u7684\u52A8\u4F5C\u5F53\u4E2D\uFF0C\u8E66\u8E66\u8DF3\u8DF3\uFF0C\u5341\u5206\u597D\u770B\u3002</p><p>\u56DE\u5BB6\u7684\u8DEF\u4E0A\uFF0C\u8DEF\u8FC7\u5C0F\u72D0\u72F8\u5BB6\uFF0C\u5C0F\u767D\u5154\u7279\u5730\u8DD1\u53BB\u60F3\u628A\u8FD9\u4E2A\u597D\u6D88\u606F\u5206\u4EAB\u7ED9\u5C0F\u72D0\u72F8\u3002</p><p>\u6572\u4E86\u534A\u5929\u7684\u95E8\uFF0C\u5C0F\u767D\u5154\u53D1\u73B0\u5C0F\u72D0\u72F8\u4E0D\u5728\u5BB6\uFF0C\u8DEF\u8FC7\u7684\u5927\u8C61\u4F2F\u4F2F\u770B\u89C1\u5C0F\u767D\u5154\u5728\u6572\u95E8\uFF0C\u544A\u8BC9\u5C0F\u767D\u5154\u8BF4\uFF0C\u5C0F\u72D0\u72F8\u53BB\u68EE\u6797\u91CC\u6458\u6843\u5B50\u53BB\u4E86\uFF0C\u665A\u4E0A\u624D\u4F1A\u56DE\u6765\uFF0C\u5C0F\u767D\u5154\u6709\u4E9B\u5931\u671B\uFF0C\u8C22\u8FC7\u5927\u8C61\u4F2F\u4F2F\u540E\u4FBF\u56DE\u5BB6\u4E86\u3002</p><p>\u5C0F\u767D\u5154\u53EF\u559C\u6B22\u5C0F\u72D0\u72F8\u4E86\uFF0C\u800C\u4E14\u559C\u6B22\u4E86\u597D\u4E45\uFF0C\u53EF\u662F\u5C0F\u767D\u5154\u662F\u4E00\u53EA\u5BB3\u7F9E\u7684\u5154\u5B50\uFF0C\u6240\u4EE5\u4E00\u76F4\u4E0D\u6562\u8868\u8FBE\u81EA\u5DF1\u7684\u5FC3\u58F0\u3002\u53EF\u4ECA\u5929\uFF0C\u662F\u81EA\u5DF1\u5F97\u5956\u7684\u597D\u65E5\u5B50\uFF0C\u5C0F\u767D\u5154\u89C9\u5F97\u5E94\u8BE5\u544A\u8BC9\u5C0F\u72D0\u72F8\uFF0C\u4E5F\u8BA9\u81EA\u5DF1\u559C\u6B22\u7684\u4EBA\u9AD8\u5174\u9AD8\u5174\u3002</p><p>\u65F6\u95F4\u6765\u5230\u4E86\u665A\u996D\u540E\uFF0C\u7830\u7830\u7830\uFF01\u4E00\u9635\u6572\u95E8\u58F0\u4F20\u6765\uFF0C\u5C0F\u767D\u5154\u8D76\u7D27\u53BB\u5F00\u95E8\uFF0C\u4E00\u5F00\u95E8\u53D1\u73B0\u5C45\u7136\u662F\u5C0F\u72D0\u72F8\uFF0C\u53EF\u628A\u5C0F\u767D\u5154\u60CA\u559C\u574F\u4E86\uFF0C\u4EE5\u81F3\u4E8E\u4E00\u65F6\u95F4\u8BF4\u4E0D\u51FA\u8BDD\u6765\u3002</p><p>\u201C\u542C\u5927\u8C61\u4F2F\u4F2F\u8BF4\uFF0C\u4F60\u4E0B\u5348\u627E\u6211\u4E86\uFF1F\u68EE\u6797\u91CC\u7684\u6843\u5B50\u719F\u4E86\uFF0C\u6211\u548C\u5C0F\u4F19\u4F34\u4EEC\u53BB\u68EE\u6797\u91CC\u6458\u6843\u5B50\u53BB\u4E86\uFF0C\u6211\u5C1D\u4E86\u4E0B\uFF0C\u53EF\u597D\u5403\u4E86\uFF0C\u7ED9\u4F60\u4E5F\u62FF\u4E86\u4E00\u70B9\u3002\u201D\u5C0F\u72D0\u72F8\u770B\u7740\u5C0F\u767D\u5154\u4E0D\u8BF4\u8BDD\uFF0C\u4E8E\u662F\u63D0\u524D\u5F00\u53E3\u8BF4\uFF0C\u5C0F\u767D\u5154\u4ED4\u7EC6\u4E00\u770B\uFF0C\u624D\u53D1\u89C9\u5C0F\u72D0\u72F8\u62B1\u4E86\u4E00\u5806\u6843\u5B50\u5462\uFF0C\u4E8E\u662F\u8FDE\u5FD9\u62DB\u547C\u5C0F\u72D0\u72F8\u8FDB\u5C4B\u91CC\u3002</p><p>\u5C0F\u72D0\u72F8\u6765\u5230\u5C4B\u91CC\u505A\u597D\u540E\uFF0C\u5C0F\u767D\u5154\u7ED9\u5C0F\u72D0\u72F8\u8BF4\u4E86\u597D\u591A\u597D\u591A\u8BDD\uFF0C\u6709\u81EA\u5DF1\u6BD4\u8D5B\u7684\u7CBE\u5F69\u7247\u6BB5\uFF0C\u4E5F\u6709\u81EA\u5DF1\u5F97\u5956\u7684\u60CA\u559C\u5FC3\u60C5\u2026\u2026</p><p>\u5C31\u8FD9\u6837\u4E0D\u77E5\u4E0D\u89C9\uFF0C\u5DF2\u7ECF\u5230\u4E86\u6DF1\u591C\uFF0C\u86D0\u86D0\u7684\u58F0\u97F3\u6C89\u6D78\u4E86\u6574\u4E2A\u68EE\u6797\uFF0C\u4E5F\u5305\u62EC\u5C0F\u5154\u5B50\u7684\u5BB6\u3002\u8FD9\u4E2A\u65F6\u5019\uFF0C\u5C0F\u767D\u5154\u624D\u53D1\u73B0\u81EA\u5DF1\u7ED9\u5C0F\u72D0\u72F8\u5C45\u7136\u8BB2\u4E86\u8FD9\u4E48\u4E45\uFF0C\u7ADF\u6CA1\u6709\u53D1\u73B0\u65F6\u95F4\u8FC7\u5F97\u8FD9\u4E48\u5FEB\uFF0C\u800C\u4E14\u5C0F\u72D0\u72F8\u4E5F\u8BA4\u8BA4\u771F\u771F\u7684\u5145\u5F53\u7740\u4E00\u4E2A\u8046\u542C\u8005\u3002</p><p>\u5C0F\u767D\u5154\u7A81\u7136\u89C9\u5F97\u4E0D\u597D\u610F\u601D\u4E86\uFF0C\u56E0\u4E3A\u4E00\u76F4\u662F\u81EA\u5DF1\u5728\u8BB2\uFF0C\u4E8E\u662F\u8138\u77AC\u95F4\u5C31\u7EA2\u4E86\u8D77\u6765\u3002</p><p>\u5C0F\u72D0\u72F8\u770B\u5230\u597D\u5947\u7684\u95EE\uFF1A\u201C\u600E\u4E48\u4E86\u5C0F\u767D\u5154\uFF1F\u600E\u4E48\u8138\u7EA2\u4E86\uFF1F\u201D</p><p>\u201C\u6211\u90FD\u4E0D\u77E5\u9053\u8BB2\u4E86\u8FD9\u4E48\u4E45\u4E86\uFF0C\u5BF9\u4E0D\u8D77\u5C0F\u72D0\u72F8\uFF0C\u90FD\u6CA1\u6709\u5728\u610F\u4F60\u7684\u611F\u53D7\u3002\u201D\u5C0F\u767D\u5154\u7F9E\u7EA2\u7740\u8138\u8BF4\u7740\u3002</p><p>\u5C0F\u72D0\u72F8\u8FDE\u5FD9\u9053\uFF1A\u201C\u600E\u4E48\u4F1A\u5462\uFF01\u4F60\u8BB2\u7684\u592A\u6709\u610F\u601D\u4E86\uFF0C\u771F\u53EF\u60DC\u6CA1\u53BB\u73B0\u573A\u770B\uFF0C\u4E0D\u7136\u66F4\u7CBE\u5F69\uFF01\u800C\u4E14\u2026\u2026\u800C\u4E14\u2026\u2026\u201D\u5C0F\u72D0\u72F8\u7A81\u7136\u8BF4\u8BDD\u72B9\u8C6B\u4E86\u8D77\u6765\u3002</p><p>\u201C\u800C\u4E14\u4EC0\u4E48\uFF1F\u201D\u5C0F\u767D\u5154\u76EF\u7740\u5C0F\u72D0\u72F8\u597D\u5947\u7684\u95EE\u3002</p><p>\u201C\u800C\u4E14\u542C\u81EA\u5DF1\u559C\u6B22\u7684\u4EBA\u8BB2\uFF0C\u4F1A\u66F4\u52A0\u6709\u610F\u601D\uFF01\u201D\u5C0F\u72D0\u72F8\u6EE1\u773C\u6DF1\u60C5\u7684\u76EF\u7740\u5C0F\u767D\u5154\u56DE\u7B54\u8BF4\u3002</p><p>\u201C\u554A\uFF01\u201D\u5C0F\u767D\u5154\u60CA\u8BB6\u7684\u8BF4\u4E86\u4E00\u53E5\uFF0C\u201C\u4F60\u8BF4\u4EC0\u4E48\uFF1F\u201D</p><p>\u201C\u6211\u559C\u6B22\u4F60\u5440\uFF0C\u5C0F\u767D\u5154\uFF0C\u800C\u4E14\u559C\u6B22\u597D\u4E45\u4E86\uFF01\u563B\u563B\uFF01\u201D\u5C0F\u72D0\u72F8\u4E0D\u597D\u610F\u601D\u7684\u770B\u7740\u5C0F\u767D\u5154\u2026\u2026</p><h2 id="\u62B1\u62B1" tabindex="-1"><a class="header-anchor" href="#\u62B1\u62B1" aria-hidden="true">#</a> \u62B1\u62B1</h2><p>\u5C0F\u72D0\u72F8\u4ECA\u5929\u548C\u5C0F\u5154\u5B50\u5435\u67B6\u4E86\uFF0C\u539F\u56E0\u662F\u56E0\u4E3A\uFF0C\u660E\u660E\u4ECA\u5929\u5C31\u662F\u4E00\u5E74\u4E00\u6B21\u7684\u60C5\u4EBA\u8282\uFF0C\u53EF\u662F\u5C0F\u72D0\u72F8\u53EA\u7ED9\u5C0F\u767D\u5154\u53D1\u4E86\u4E2A\u7EA2\u5305\uFF0C\u8FD9\u8BA9\u5C0F\u5154\u5B50\u89C9\u5F97\u5C0F\u72D0\u72F8\u4E00\u70B9\u90FD\u4E0D\u4E0A\u5FC3\u3002</p><p>\u521A\u5F00\u59CB\uFF0C\u5176\u5B9E\u90FD\u6CA1\u6709\u5435\u67B6\uFF0C\u53EA\u662F\u5C0F\u5154\u5B50\u7ED9\u5C0F\u72D0\u72F8\u62B1\u6028\u4E86\u4E00\u4E0B\u3002\u4F46\u5C0F\u72D0\u72F8\u4E5F\u89C9\u5F97\u59D4\u5C48\u554A\uFF0C\u56E0\u4E3A\u81EA\u5DF1\u6709\u8BB0\u5F97\u8FD9\u662F\u4E2A\u7279\u522B\u7684\u65E5\u5B50\uFF0C\u4E5F\u53D1\u4E86\u60C5\u4EBA\u8282\u7EA2\u5305\u554A\u3002</p><p>\u4E8E\u662F\uFF0C\u5C31\u548C\u5C0F\u5154\u5B50\u8BB2\u8D77\u4E86\u9053\u7406\u3002\u8C08\u604B\u7231\u7684\u5C0F\u52A8\u7269\u4EEC\u90FD\u77E5\u9053\uFF0C\u5973\u751F\u662F\u7528\u6765\u54C4\u5F97\uFF0C\u600E\u4E48\u53EF\u4EE5\u7528\u6765\u8BB2\u9053\u7406\u5462?</p><p>\u4E8E\u662F\u8BF4\u7740\u8BF4\u7740\uFF0C\u5C0F\u72D0\u72F8\u5C31\u548C\u5C0F\u5154\u5B50\u5435\u4E86\u8D77\u6765\uFF0C\u5435\u4E86\u4E00\u4F1A\uFF0C\u5C0F\u72D0\u72F8\u5C31\u51FA\u4E86\u5BB6\u95E8\uFF0C\u72EC\u81EA\u51B7\u9759\u53BB\u4E86\u3002</p><p>\u5C31\u8FD9\u6837\uFF0C\u8FC7\u4E86\u4E00\u4E2A\u5C0F\u65F6\uFF0C\u5C0F\u72D0\u72F8\u7684\u6C14\u4E5F\u6D88\u4E86\uFF0C\u4E5F\u60F3\u4E86\u60F3\u81EA\u5DF1\u4E0D\u5E94\u8BE5\u548C\u5C0F\u5154\u5B50\u5435\u67B6\uFF0C\u5C31\u60F3\u7740\u8981\u53BB\u627E\u5C0F\u5154\u5B50\u9053\u6B49\u3002</p><p>\u4F46\u5C0F\u72D0\u72F8\u4E00\u60F3\uFF0C\u8FD9\u6837\u597D\u50CF\u5F88\u6CA1\u7528\u9762\u5B50\uFF0C\u4E8E\u662F\u53C8\u5FCD\u4F4F\u4E86\u3002</p><p>\u53C8\u8FC7\u4E86\u4E00\u4E2A\u5C0F\u65F6\uFF0C\u5C0F\u72D0\u72F8\u5B9E\u5728\u5FCD\u4E0D\u4F4F\u4E86\uFF0C\u4E8E\u662F\u6765\u5230\u5BB6\u95E8\u53E3\uFF0C\u558A\u7740\u5C0F\u5154\u5B50\uFF1A\u201C\u5C0F\u5154\u5B50\uFF0C\u4F60\u51FA\u6765\uFF0C\u6211\u6709\u8BDD\u7ED9\u4F60\u8BF4\u3002\u201D</p><p>\u4E0D\u4E00\u4F1A\uFF0C\u5C0F\u5154\u5B50\u6253\u5F00\u623F\u95E8\uFF0C\u770B\u5230\u662F\u5C0F\u72D0\u72F8\uFF0C\u4FBF\u95EE\uFF1A\u201C\u51FA\u6765\u5E72\u4EC0\u4E48\uFF1F\u5BB6\u91CC\u8BF4\u3002\u201D</p><p>\u201D\u4E0D\u884C\uFF0C\u8981\u51FA\u6765\u8BF4\uFF01\u201C\u5C0F\u72D0\u72F8\u6267\u62D7\u7684\u8BF4\u3002</p><p>\u770B\u7740\u6267\u7740\u7684\u5C0F\u72D0\u72F8\uFF0C\u5C0F\u767D\u5154\u8FD8\u662F\u5FCD\u4E0D\u4F4F\u51FA\u4E86\u95E8\uFF0C\u6765\u5230\u5C0F\u72D0\u72F8\u9762\u524D\u3002</p><p>\u5C0F\u72D0\u72F8\u770B\u7740\u5C0F\u5154\u5B50\u8BF4\uFF1A\u201D\u56E0\u4E3A\uFF0C\u6211\u4EEC\u5728\u5BB6\u91CC\u95F9\u63B0\u4E86\uFF0C\u6240\u6709\u4E0D\u80FD\u5728\u5BB6\u91CC\u8BF4\uFF0C\u8981\u51FA\u6765\u8BF4\u3002\u201C</p><p>\u4E8E\u662F\u5C0F\u72D0\u72F8\u8BA4\u8BA4\u771F\u771F\u7684\u7ED9\u5C0F\u5154\u5B50\u9053\u4E86\u6B49\uFF0C\u5C0F\u5154\u5B50\u770B\u7740\u81EA\u8D23\u7684\u5C0F\u72D0\u72F8\uFF0C\u4E5F\u8BF4\u4E86\u81EA\u5DF1\u4E0D\u8BE5\u4EFB\u6027\u3002</p><p>\u901A\u8FC7\u4ECA\u5929\u7684\u4E89\u5435\uFF0C\u5C0F\u72D0\u72F8\u548C\u5C0F\u5154\u5B50\u660E\u767D\u4E86\uFF0C\u5BB6\u4E0D\u662F\u7528\u6765\u5435\u67B6\u7684\u5730\u65B9\uFF0C\u800C\u662F\u5206\u4EAB\u548C\u751F\u6D3B\u7684\u5C0F\u7A9D\u3002</p><p>\u4ED6\u4EEC\u7EA6\u5B9A\uFF0C\u4EE5\u540E\u9047\u5230\u95EE\u9898\u8981\u5C3D\u91CF\u597D\u597D\u5546\u91CF\uFF0C\u51CF\u5C11\u4E89\u5435\u3002</p><p>\u5C0F\u72D0\u72F8\u548C\u5C0F\u5154\u5B50\u4E92\u76F8\u9053\u5B8C\u6B49\u540E\uFF0C\u5C0F\u72D0\u72F8\u7ED9\u4E86\u5C0F\u5154\u5B50\u4E00\u4E2A\u5927\u5927\u7684\u5145\u6EE1\u7231\u7684\u62B1\u62B1\u3002</p><p>\u56E0\u4E3A\u5C0F\u72D0\u72F8\u77E5\u9053\uFF0C\u7231\u4EBA\u4E4B\u95F4\u6CA1\u6709\u4EC0\u4E48\u95EE\u9898\u662F\u4E0D\u80FD\u7528\u4E00\u4E2A\u62B1\u62B1\u89E3\u51B3\u7684\u3002</p><p>\u5982\u679C\u6709\uFF0C\u90A3\u5C31\u4E24\u4E2A......</p><!--]-->`);
 }
-const _sfc_setup$w = _sfc_main$w.setup;
-_sfc_main$w.setup = (props, ctx) => {
+const _sfc_setup$y = _sfc_main$y.setup;
+_sfc_main$y.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/\u6545\u4E8B/story.html.vue");
-  return _sfc_setup$w ? _sfc_setup$w(props, ctx) : void 0;
+  return _sfc_setup$y ? _sfc_setup$y(props, ctx) : void 0;
 };
-var story_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$w, [["ssrRender", _sfc_ssrRender$i]]);
+var story_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$y, [["ssrRender", _sfc_ssrRender$k]]);
 var story_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": story_html$1
 });
-const _sfc_main$v = {};
-function _sfc_ssrRender$h(_ctx, _push, _parent, _attrs) {
+const _sfc_main$x = {};
+function _sfc_ssrRender$j(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h2 id="\u4F5C\u4E3A\u4E00\u4E2A\u4EBA" tabindex="-1"><a class="header-anchor" href="#\u4F5C\u4E3A\u4E00\u4E2A\u4EBA" aria-hidden="true">#</a> \u4F5C\u4E3A\u4E00\u4E2A\u4EBA</h2><p>\u6709\u65F6\u5019\uFF0C\u4E0D\u8981\u542C\u522B\u4EBA\u7684\u6307\u70B9\uFF0C\u66F4\u4E0D\u8981\u6307\u70B9\u522B\u4EBA\u3002</p><!--]-->`);
 }
-const _sfc_setup$v = _sfc_main$v.setup;
-_sfc_main$v.setup = (props, ctx) => {
+const _sfc_setup$x = _sfc_main$x.setup;
+_sfc_main$x.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/\u968F\u7B14/reflection.html.vue");
-  return _sfc_setup$v ? _sfc_setup$v(props, ctx) : void 0;
+  return _sfc_setup$x ? _sfc_setup$x(props, ctx) : void 0;
 };
-var reflection_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$v, [["ssrRender", _sfc_ssrRender$h]]);
+var reflection_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$x, [["ssrRender", _sfc_ssrRender$j]]);
 var reflection_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": reflection_html$1
 });
-const _sfc_main$u = {};
-function _sfc_ssrRender$g(_ctx, _push, _parent, _attrs) {
+const _sfc_main$w = {};
+function _sfc_ssrRender$i(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h2 id="\u4EC0\u4E48\u662Fcss" tabindex="-1"><a class="header-anchor" href="#\u4EC0\u4E48\u662Fcss" aria-hidden="true">#</a> \u4EC0\u4E48\u662FCSS\uFF1F</h2><p><code>CSS</code> \u2014 \u662F\u4F60\u5728HTML\u4E4B\u540E\u5E94\u8BE5\u5B66\u4E60\u7684\u7B2C\u4E8C\u95E8\u6280\u672F\u3002<code>HTML</code>\u7528\u4E8E\u5B9A\u4E49\u5185\u5BB9\u7684\u7ED3\u6784\u548C\u8BED\u4E49\uFF0C<code>CSS</code>\u7528\u4E8E\u8BBE\u8BA1\u98CE\u683C\u548C\u5E03\u5C40\u3002\u6BD4\u5982\uFF0C\u60A8\u53EF\u4EE5\u4F7F\u7528<code>CSS</code>\u6765\u66F4\u6539\u5185\u5BB9\u7684\u5B57\u4F53\u3001\u989C\u8272\u3001\u5927\u5C0F\u3001\u95F4\u8DDD\uFF0C\u5C06\u5185\u5BB9\u5206\u4E3A\u591A\u5217\uFF0C\u6216\u8005\u6DFB\u52A0\u52A8\u753B\u53CA\u5176\u4ED6\u7684\u88C5\u9970\u6548\u679C\u3002</p><!--]-->`);
 }
-const _sfc_setup$u = _sfc_main$u.setup;
-_sfc_main$u.setup = (props, ctx) => {
+const _sfc_setup$w = _sfc_main$w.setup;
+_sfc_main$w.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/css/01-css.html.vue");
-  return _sfc_setup$u ? _sfc_setup$u(props, ctx) : void 0;
+  return _sfc_setup$w ? _sfc_setup$w(props, ctx) : void 0;
 };
-var _01Css_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$u, [["ssrRender", _sfc_ssrRender$g]]);
+var _01Css_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$w, [["ssrRender", _sfc_ssrRender$i]]);
 var _01Css_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _01Css_html$1
 });
-const _sfc_main$t = {};
-function _sfc_ssrRender$f(_ctx, _push, _parent, _attrs) {
+const _sfc_main$v = {};
+function _sfc_ssrRender$h(_ctx, _push, _parent, _attrs) {
   const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
   _push(`<!--[--><h1 id="flutter" tabindex="-1"><a class="header-anchor" href="#flutter" aria-hidden="true">#</a> Flutter</h1><ul><li><p>Kotlin \u662F\u4E00\u95E8\u7F16\u7A0B\u8BED\u8A00\uFF0C\u800C Flutter \u662F\u4E00\u4E2A\u8DE8\u5E73\u53F0\u7684 UI \u5DE5\u5177\u96C6\u3002</p></li><li><p>Flutter\u662F\u8C37\u6B4C\u7684\u79FB\u52A8UI\u6846\u67B6\uFF0C\u53EF\u4EE5\u5FEB\u901F\u5728iOS\u548CAndroid\u4E0A\u6784\u5EFA\u9AD8\u8D28\u91CF\u7684\u539F\u751F\u7528\u6237\u754C\u9762\uFF0C\u5F00\u6E90\u514D\u8D39\uFF0C\u5176\u4F7F\u7528\u4E86Dart\u8BED\u6CD5\uFF0C\u6240\u4EE5\u5B66\u4E60\u65F6\u4E5F\u9700\u8981\u5148\u4E86\u89E3\u4E00\u4E0BDart\uFF08\u5EFA\u8BAE\u800C\u5DF2\uFF09\u3002</p></li><li><p>Dart\u662F\u8C37\u6B4C\u5F00\u53D1\u7684\u8BA1\u7B97\u673A\u7F16\u7A0B\u8BED\u8A00\uFF0CDart\u662F\u9762\u5411\u5BF9\u8C61\u7684\u3001\u7C7B\u5B9A\u4E49\u7684\u3001\u5355\u7EE7\u627F\u7684\u8BED\u8A00\u3002\u5B83\u7684\u8BED\u6CD5\u7C7B\u4F3CC\u8BED\u8A00\uFF0C\u53EF\u4EE5\u8F6C\u8BD1\u4E3AJavaScript\u3002</p></li></ul><h2 id="\u73AF\u5883\u642D\u5EFA" tabindex="-1"><a class="header-anchor" href="#\u73AF\u5883\u642D\u5EFA" aria-hidden="true">#</a> \u73AF\u5883\u642D\u5EFA</h2><p>\u5148\u4E0B\u8F7D\u597D\u4E0B\u9762\u5DE5\u5177\uFF1A</p><p><a href="https://www.oracle.com/java/technologies/downloads/#java8" target="_blank" rel="noopener noreferrer">JDK\u2014\u2014\uFF08\u4E00\u822Cjdk-8u251-windows-x64.exe\u5373\u53EF\uFF09`);
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
@@ -4552,20 +4737,20 @@ E:<span class="token punctuation">\\</span>Java<span class="token punctuation">\
 <span class="token comment"># \u7248\u672C\u4E0Eandroid SDKb\u4E0D\u540C</span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>\u6253\u5F00<code>android SDK</code>\u7684<code>platform-tools</code>\u76EE\u5F55\u4E0B\u7684<code>adb.exe</code>\u62F7\u8D1D\u5230\u591C\u795E\u6A21\u62DF\u5668\u7684bin\u76EE\u5F55\u4E0B\uFF0C\u76F4\u63A5\u8986\u76D6\uFF0C\u5E76\u4E14\u518D\u590D\u5236\u4E00\u4EFD\uFF0C\u91CD\u547D\u540D\u4E3A<code>nox_adb.exe</code>\uFF0C\u91CD\u542F\u8BD5\u8BD5\u770B\u3002\uFF08\u6700\u597D\u5C06\u591C\u795E\u7684<code>adb.exe</code>\u5907\u4EFD\u4E00\u4E0B\uFF0C\u968F\u610F\uFF09</p><!--]-->`);
 }
-const _sfc_setup$t = _sfc_main$t.setup;
-_sfc_main$t.setup = (props, ctx) => {
+const _sfc_setup$v = _sfc_main$v.setup;
+_sfc_main$v.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/Flutter/01.html.vue");
-  return _sfc_setup$t ? _sfc_setup$t(props, ctx) : void 0;
+  return _sfc_setup$v ? _sfc_setup$v(props, ctx) : void 0;
 };
-var _01_html$7 = /* @__PURE__ */ _export_sfc(_sfc_main$t, [["ssrRender", _sfc_ssrRender$f]]);
-var _01_html$8 = /* @__PURE__ */ Object.freeze({
+var _01_html$d = /* @__PURE__ */ _export_sfc(_sfc_main$v, [["ssrRender", _sfc_ssrRender$h]]);
+var _01_html$e = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  "default": _01_html$7
+  "default": _01_html$d
 });
-const _sfc_main$s = {};
-function _sfc_ssrRender$e(_ctx, _push, _parent, _attrs) {
+const _sfc_main$u = {};
+function _sfc_ssrRender$g(_ctx, _push, _parent, _attrs) {
   const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
   _push(`<!--[--><h1 id="dart" tabindex="-1"><a class="header-anchor" href="#dart" aria-hidden="true">#</a> Dart</h1><p>\u5982\u679C\u4F60\u5DF2\u7ECF\u642D\u5EFA\u597D\u73AF\u5883\uFF1A</p><p>\u6211\u4EEC\u4E00\u5207\u5B66\u4E60\u5F00\u59CB\u4E8E\u4E00\u4E2A\u5165\u53E3\u65B9\u6CD5\uFF1A\u4E0D\u7528\u6DF1\u7A76\uFF0C\u5B83\u5C31\u662F\u8FD9\u6837\u5F00\u59CB\u7684\uFF1A</p><div class="language-dart ext-dart line-numbers-mode"><pre class="language-dart"><code><span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
   <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">&#39;\u4F60\u597D&#39;</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//\u7ED3\u675F\u8BED\u53E5\u5FC5\u987B\u8981\u5206\u53F7</span>
@@ -4937,71 +5122,71 @@ b<span class="token punctuation">[</span><span class="token number">1</span><spa
 a<span class="token punctuation">[</span><span class="token string">&#39;name&#39;</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token string">&#39;abc&#39;</span><span class="token punctuation">;</span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h2 id="set" tabindex="-1"><a class="header-anchor" href="#set" aria-hidden="true">#</a> Set</h2><p>\u76EE\u6807\uFF1A</p><ul><li>\u521D\u59CB\u3001\u58F0\u660E</li><li>\u5E38\u7528\u5C5E\u6027</li><li>\u5E38\u7528\u65B9\u6CD5</li></ul><!--]-->`);
 }
-const _sfc_setup$s = _sfc_main$s.setup;
-_sfc_main$s.setup = (props, ctx) => {
+const _sfc_setup$u = _sfc_main$u.setup;
+_sfc_main$u.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/Flutter/02.Dart\u8BED\u6CD5.html.vue");
-  return _sfc_setup$s ? _sfc_setup$s(props, ctx) : void 0;
+  return _sfc_setup$u ? _sfc_setup$u(props, ctx) : void 0;
 };
-var _02_Dart___html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$s, [["ssrRender", _sfc_ssrRender$e]]);
+var _02_Dart___html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$u, [["ssrRender", _sfc_ssrRender$g]]);
 var _02_Dart___html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _02_Dart___html$1
 });
-const _sfc_main$r = {};
-function _sfc_ssrRender$d(_ctx, _push, _parent, _attrs) {
+const _sfc_main$t = {};
+function _sfc_ssrRender$f(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h1 id="\u4E00\u5207\u90FD\u662Fwidget" tabindex="-1"><a class="header-anchor" href="#\u4E00\u5207\u90FD\u662Fwidget" aria-hidden="true">#</a> \u4E00\u5207\u90FD\u662Fwidget</h1><p>\u67B6\u6784\u56FE</p><p><img src="https://s2.loli.net/2022/04/02/3oLIz8cPC5JVMlS.png" alt="20220402.png"></p><p>\u4E0B\u9762\u662Fflutter\u6E90\u7801\u7684\u4E00\u4E9B\u622A\u56FE\uFF1A</p><p><img src="https://s2.loli.net/2022/04/03/fjwdDxzyURiXSQI.png" alt="12"></p><p>\u5E76\u4E0D\u9700\u8981\u6DF1\u5165\u4E86\u89E3\uFF0C\u89E3\u8BFB\u4E00\u4E0B\u7ED3\u6784\u5373\u53EF</p><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">\u540D\u79F0</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">Foundation</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u57FA\u7840\u90E8\u5206</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">Animation</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u52A8\u753B</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">Painting</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8FB9\u6846\u7ED8\u5236\u3001\u989C\u8272\u3001\u88C1\u526A\u56FE\u50CF\u5904\u7406\u3001\u753B\u7B14\u3001\u63D2\u503C\u5668\u7B49\u8DDF\u7ED8\u5236\u3001\u56FE\u50CF\u3001\u88C5\u9970\u76F8\u5173\u7684\u7C7B</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">Gestures</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4E8B\u4EF6\u7C7B\u3001\u957F\u6309\u3001\u89E6\u6478\u3001\u653E\u5927\u7B49\u7B49</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">Rendering</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6E32\u67D3 Widget \u7684\u57FA\u7840\u5E93</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">Widget</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4F9D\u8D56 Rendering \u5C42\u8FDB\u884C\u6784\u5EFA\uFF0CWidget \u662F Flutter \u7684\u6838\u5FC3</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">Material</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">Android \u5E73\u53F0\u7684\u98CE\u683C</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">Cupertino</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">iOS \u5E73\u53F0\u98CE\u683C\u7684\u6241\u5E73\u5316</td></tr></tbody></table><h2 id="widget\u662F\u6839\u672C" tabindex="-1"><a class="header-anchor" href="#widget\u662F\u6839\u672C" aria-hidden="true">#</a> Widget\u662F\u6839\u672C</h2><p>\u4E3B\u8981\u5206\u4E3A StatelessWidget\uFF08\u65E0\u72B6\u6001\uFF09 \u548C StatefulWidget\uFF08\u6709\u72B6\u6001\uFF09\uFF0C\u4E0B\u9762\u5148\u603B\u4F53\u4ECB\u7ECD\u3002</p><ol><li>\u57FA\u7840\u7EC4\u4EF6 Widget\uFF08Basics\uFF09\uFF1A</li></ol><p><code>Container</code>\u3001<code>Row</code>\u3001<code>Column</code>\u3001<code>Image</code>\u3001<code>Text</code>\u3001<code>Icon</code>\u3001<code>RaisedButton</code>\u3001<code>Scaffold</code>\u3001<code>Appbar</code>\u3001<code>FlutterLogo</code>\u3001<code>Placeholder</code></p><h4 id="material-components-\u5B89\u5353\u98CE\u683C\u7EC4\u4EF6" tabindex="-1"><a class="header-anchor" href="#material-components-\u5B89\u5353\u98CE\u683C\u7EC4\u4EF6" aria-hidden="true">#</a> Material Components\uFF08\u5B89\u5353\u98CE\u683C\u7EC4\u4EF6\uFF09\uFF1A</h4><ol start="2"><li>App \u7ED3\u6784\u548C\u5BFC\u822A\u7C7B</li></ol><p><code>Scaffold</code>\u3001<code>Appbar</code>\u3001<code>BottomNavigationBar</code>\u3001<code>TabBar</code>\u3001<code>TabBarView</code>\u3001<code>MaterialApp</code>\u3001<code>WidgetsApp</code>\u3001<code>Drawer</code>\u3001<code>SliverAppBar</code></p><ol start="3"><li>\u6309\u94AE\u7C7B</li></ol><p><code>RaisedButton</code>\u3001<code>FloatingActionButton</code>\u3001<code>FlatButton</code>\u3001<code>IconButton</code>\u3001<code>DropdownButton</code>\u3001<code>PopupMenuButton</code>\u3001<code>ButtonBar</code></p><ol start="4"><li>\u8F93\u5165\u548C\u9009\u62E9\u7C7B</li></ol><p><code>TextField</code>\u3001<code>Checkbox</code>\u3001<code>Raido</code>\u3001<code>Switch</code>\u3001<code>Slider</code>\u3001<code>Date&amp;Time Pickers</code></p><ol start="5"><li>\u5BF9\u8BDD\u6846\u548C\u63A7\u5236\u9762\u677F\u7C7B</li></ol><p><code>SimpleDialog</code>\u3001<code>AlertDialog</code>\u3001<code>BottomSheet</code>\u3001<code>ExpansionPanel</code>\u3001<code>SnackBar</code></p><ol start="6"><li>\u4FE1\u606F\u663E\u793A\u7C7B</li></ol><p><code>Image</code>\u3001<code>Icon</code>\u3001<code>Chip</code>\u3001<code>Tooltip</code>\u3001<code>DataTable</code>\u3001<code>Card</code>\u3001<code>LinearProgressIndicator</code>\u3001<code>CircularProgressIndicator</code>\u3001<code>GridView</code></p><ol start="7"><li>\u5E03\u5C40\u7C7B</li></ol><p><code>ListTile</code>\u3001<code>Stepper</code>\u3001<code>Divider</code></p><!--]-->`);
 }
-const _sfc_setup$r = _sfc_main$r.setup;
-_sfc_main$r.setup = (props, ctx) => {
+const _sfc_setup$t = _sfc_main$t.setup;
+_sfc_main$t.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/Flutter/09.\u4E00\u5207\u90FD\u662Fwidget.html.vue");
-  return _sfc_setup$r ? _sfc_setup$r(props, ctx) : void 0;
+  return _sfc_setup$t ? _sfc_setup$t(props, ctx) : void 0;
 };
-var _09_____widget_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$r, [["ssrRender", _sfc_ssrRender$d]]);
+var _09_____widget_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$t, [["ssrRender", _sfc_ssrRender$f]]);
 var _09_____widget_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _09_____widget_html$1
 });
-const _sfc_main$q = {};
-function _sfc_ssrRender$c(_ctx, _push, _parent, _attrs) {
+const _sfc_main$s = {};
+function _sfc_ssrRender$e(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h2 id="\u4EC0\u4E48\u662Fhtml" tabindex="-1"><a class="header-anchor" href="#\u4EC0\u4E48\u662Fhtml" aria-hidden="true">#</a> \u4EC0\u4E48\u662FHTML\uFF1F</h2><p>HTML\uFF08\u8D85\u6587\u672C\u6807\u8BB0\u8BED\u8A00\u2014\u2014HyperText Markup Language\uFF09\u662F\u6784\u6210 Web \u4E16\u754C\u7684\u4E00\u7816\u4E00\u74E6\u3002\u5B83\u5B9A\u4E49\u4E86\u7F51\u9875\u5185\u5BB9\u7684\u542B\u4E49\u548C\u7ED3\u6784\u3002\u9664 HTML \u4EE5\u5916\u7684\u5176\u5B83\u6280\u672F\u5219\u901A\u5E38\u7528\u6765\u63CF\u8FF0\u4E00\u4E2A\u7F51\u9875\u7684\u8868\u73B0\u4E0E\u5C55\u793A\u6548\u679C\uFF08\u5982 CSS\uFF09\uFF0C\u6216\u529F\u80FD\u4E0E\u884C\u4E3A\uFF08\u5982 JavaScript\uFF09\u3002</p><!--]-->`);
 }
-const _sfc_setup$q = _sfc_main$q.setup;
-_sfc_main$q.setup = (props, ctx) => {
+const _sfc_setup$s = _sfc_main$s.setup;
+_sfc_main$s.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/html/01-html.html.vue");
-  return _sfc_setup$q ? _sfc_setup$q(props, ctx) : void 0;
+  return _sfc_setup$s ? _sfc_setup$s(props, ctx) : void 0;
 };
-var _01Html_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$q, [["ssrRender", _sfc_ssrRender$c]]);
+var _01Html_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$s, [["ssrRender", _sfc_ssrRender$e]]);
 var _01Html_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _01Html_html$1
 });
-const _sfc_main$p = {};
-function _sfc_ssrRender$b(_ctx, _push, _parent, _attrs) {
+const _sfc_main$r = {};
+function _sfc_ssrRender$d(_ctx, _push, _parent, _attrs) {
   const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
   _push(`<!--[--><h1 id="\u5165\u95E8\u5BFC\u8BBA" tabindex="-1"><a class="header-anchor" href="#\u5165\u95E8\u5BFC\u8BBA" aria-hidden="true">#</a> \u5165\u95E8\u5BFC\u8BBA</h1><blockquote><p>\u672C\u7B14\u8BB0\u5185\u5BB9\u6574\u5408\u81EA<a href="https://wangdoc.com/javascript/index.html" target="_blank" rel="noopener noreferrer">https://wangdoc.com/javascript/index.html`);
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
   _push(`</a>,\u6559\u7A0B\u7248\u6743\u5F52\u539F\u4F5C\u8005\u6240\u6709\u3002</p></blockquote><h2 id="javascript\u4ECB\u7ECD" tabindex="-1"><a class="header-anchor" href="#javascript\u4ECB\u7ECD" aria-hidden="true">#</a> JavaScript\u4ECB\u7ECD</h2><p>JavaScript\u662F\u4E00\u79CD\u8F7B\u91CF\u7EA7\u7684\u811A\u672C\u8BED\u8A00\u3002\u6240\u8C13\u201C\u811A\u672C\u8BED\u8A00\u201D\uFF08script language\uFF09\uFF0C\u6307\u7684\u662F\u5B83\u4E0D\u5177\u5907\u5F00\u53D1\u64CD\u4F5C\u7CFB\u7EDF\u7684\u80FD\u529B\uFF0C\u800C\u662F\u53EA\u7528\u6765\u7F16\u5199\u63A7\u5236\u5176\u4ED6\u5927\u578B\u5E94\u7528\u7A0B\u5E8F\uFF08\u6BD4\u5982\u6D4F\u89C8\u5668\uFF09\u7684\u201C\u811A\u672C\u201D\u3002 </p><p>JavaScript \u4E5F\u662F\u4E00\u79CD\u5D4C\u5165\u5F0F\uFF08embedded\uFF09\u8BED\u8A00\u3002\u5B83\u672C\u8EAB\u63D0\u4F9B\u7684\u6838\u5FC3\u8BED\u6CD5\u4E0D\u7B97\u5F88\u591A\uFF0C\u53EA\u80FD\u7528\u6765\u505A\u4E00\u4E9B\u6570\u5B66\u548C\u903B\u8F91\u8FD0\u7B97\u3002JavaScript \u672C\u8EAB\u4E0D\u63D0\u4F9B\u4EFB\u4F55\u4E0E I/O\uFF08\u8F93\u5165/\u8F93\u51FA\uFF09\u76F8\u5173\u7684 API\uFF0C\u90FD\u8981\u9760\u5BBF\u4E3B\u73AF\u5883\uFF08host\uFF09\u63D0\u4F9B\uFF0C\u6240\u4EE5 JavaScript \u53EA\u5408\u9002\u5D4C\u5165\u66F4\u5927\u578B\u7684\u5E94\u7528\u7A0B\u5E8F\u73AF\u5883\uFF0C\u53BB\u8C03\u7528\u5BBF\u4E3B\u73AF\u5883\u63D0\u4F9B\u7684\u5E95\u5C42 API\u3002 </p><p>\u76EE\u524D\uFF0C\u5DF2\u7ECF\u5D4C\u5165 JavaScript \u7684\u5BBF\u4E3B\u73AF\u5883\u6709\u591A\u79CD\uFF0C\u6700\u5E38\u89C1\u7684\u73AF\u5883\u5C31\u662F\u6D4F\u89C8\u5668\uFF0C\u53E6\u5916\u8FD8\u6709\u670D\u52A1\u5668\u73AF\u5883\uFF0C\u4E5F\u5C31\u662F Node \u9879\u76EE\u3002 </p><p> JavaScript \u7684\u6838\u5FC3\u8BED\u6CD5\u90E8\u5206\u76F8\u5F53\u7CBE\u7B80\uFF0C\u53EA\u5305\u62EC\u4E24\u4E2A\u90E8\u5206\uFF1A\u57FA\u672C\u7684\u8BED\u6CD5\u6784\u9020\uFF08\u6BD4\u5982\u64CD\u4F5C\u7B26\u3001\u63A7\u5236\u7ED3\u6784\u3001\u8BED\u53E5\uFF09\u548C\u6807\u51C6\u5E93\uFF08\u5C31\u662F\u4E00\u7CFB\u5217\u5177\u6709\u5404\u79CD\u529F\u80FD\u7684\u5BF9\u8C61\u6BD4\u5982Array\u3001Date\u3001Math\u7B49\uFF09\u3002\u9664\u6B64\u4E4B\u5916\uFF0C\u5404\u79CD\u5BBF\u4E3B\u73AF\u5883\u63D0\u4F9B\u989D\u5916\u7684 API\uFF08\u5373\u53EA\u80FD\u5728\u8BE5\u73AF\u5883\u4F7F\u7528\u7684\u63A5\u53E3\uFF09\uFF0C\u4EE5\u4FBF JavaScript \u8C03\u7528\u3002\u4EE5\u6D4F\u89C8\u5668\u4E3A\u4F8B\uFF0C\u5B83\u63D0\u4F9B\u7684\u989D\u5916 API \u53EF\u4EE5\u5206\u6210\u4E09\u5927\u7C7B\u3002 </p><ul><li>\u6D4F\u89C8\u5668\u63A7\u5236\u7C7B\uFF1A\u64CD\u4F5C\u6D4F\u89C8\u5668</li><li>DOM \u7C7B\uFF1A\u64CD\u4F5C\u7F51\u9875\u7684\u5404\u79CD\u5143\u7D20</li><li>Web \u7C7B\uFF1A\u5B9E\u73B0\u4E92\u8054\u7F51\u7684\u5404\u79CD\u529F\u80FD</li></ul><p>\u6B64\u7B14\u8BB0\u51E0\u4E4E\u4E0D\u6D89\u53CANode\uFF0C\u4E3B\u8981\u53EF\u4EE5\u603B\u7ED3\u4E3A\u4EE5\u4E0B\u56DB\u90E8\u5206\uFF1A</p><ul><li>\u57FA\u672C\u8BED\u6CD5</li><li>\u6807\u51C6\u5E93</li><li>\u6D4F\u89C8\u5668 API</li><li>DOM</li></ul><h2 id="\u4F7F\u7528\u9886\u57DF" tabindex="-1"><a class="header-anchor" href="#\u4F7F\u7528\u9886\u57DF" aria-hidden="true">#</a> \u4F7F\u7528\u9886\u57DF</h2><table><thead><tr><th>\u5E73\u53F0</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6280\u80FD</th></tr></thead><tbody><tr><td>\u6D4F\u89C8\u5668\u7684\u5E73\u53F0\u5316</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6BD4\u5982\u64CD\u4F5C\u672C\u5730\u6587\u4EF6\u3001\u56FE\u7247\u3001\u8C03\u7528\u6444\u50CF\u5934\u548C\u9EA6\u514B\u98CE\u7B49\u7B49</td></tr><tr><td>Node</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">Node \u9879\u76EE\u4F7F\u5F97 JavaScript \u53EF\u4EE5\u7528\u4E8E\u5F00\u53D1\u670D\u52A1\u5668\u7AEF\u7684\u5927\u578B\u9879\u76EE</td></tr><tr><td>\u6570\u636E\u5E93\u64CD\u4F5C</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">NoSQL \u6570\u636E\u5E93\u8FD9\u4E2A\u6982\u5FF5\uFF0C\u672C\u8EAB\u5C31\u662F\u5728 JSON\uFF08JavaScript Object Notation\uFF09\u683C\u5F0F\u7684\u57FA\u7840\u4E0A\u8BDE\u751F\u7684\uFF0C\u5927\u90E8\u5206 NoSQL \u6570\u636E\u5E93\u5141\u8BB8 JavaScript \u76F4\u63A5\u64CD\u4F5C</td></tr><tr><td>\u79FB\u52A8\u5E73\u53F0\u5F00\u53D1</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">JavaScript \u4E5F\u6B63\u5728\u6210\u4E3A\u624B\u673A\u5E94\u7528\u7684\u5F00\u53D1\u8BED\u8A00\u3002\u4E00\u822C\u6765\u8BF4\uFF0C\u5B89\u5353\u5E73\u53F0\u4F7F\u7528 Java \u8BED\u8A00\u5F00\u53D1\uFF0CiOS \u5E73\u53F0\u4F7F\u7528 Objective-C \u6216 Swift \u8BED\u8A00\u5F00\u53D1\u3002</td></tr><tr><td>\u5185\u5D4C\u811A\u672C\u8BED\u8A00</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5C06 JavaScript \u4F5C\u4E3A\u5185\u5D4C\u7684\u811A\u672C\u8BED\u8A00\uFF0C\u6BD4\u5982 Adobe \u516C\u53F8\u7684\u8457\u540D PDF \u9605\u8BFB\u5668 Acrobat\u3001Linux \u684C\u9762\u73AF\u5883 GNOME 3\u3002</td></tr><tr><td>\u8DE8\u5E73\u53F0\u7684\u684C\u9762\u5E94\u7528\u7A0B\u5E8F</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">Chromium OS\u3001Windows 8 \u7B49\u64CD\u4F5C\u7CFB\u7EDF\u76F4\u63A5\u652F\u6301 JavaScript \u7F16\u5199\u5E94\u7528\u7A0B\u5E8F\u3002</td></tr></tbody></table><h2 id="javascript-\u4E0E-java-\u7684\u5173\u7CFB" tabindex="-1"><a class="header-anchor" href="#javascript-\u4E0E-java-\u7684\u5173\u7CFB" aria-hidden="true">#</a> JavaScript \u4E0E Java \u7684\u5173\u7CFB</h2><p>JavaScript \u7684\u57FA\u672C\u8BED\u6CD5\u548C\u5BF9\u8C61\u4F53\u7CFB\uFF0C\u662F\u6A21\u4EFF Java \u800C\u8BBE\u8BA1\u7684\u3002\u4F46\u662F\uFF0CJavaScript \u6CA1\u6709\u91C7\u7528 Java \u7684\u9759\u6001\u7C7B\u578B\u3002\u6B63\u662F\u56E0\u4E3A JavaScript \u4E0E Java \u6709\u5F88\u5927\u7684\u76F8\u4F3C\u6027\uFF0C\u6240\u4EE5\u8FD9\u95E8\u8BED\u8A00\u624D\u4ECE\u4E00\u5F00\u59CB\u7684 LiveScript \u6539\u540D\u4E3A JavaScript\u3002\u57FA\u672C\u4E0A\uFF0CJavaScript \u8FD9\u4E2A\u540D\u5B57\u7684\u539F\u610F\u662F\u201C\u5F88\u50CFJava\u7684\u811A\u672C\u8BED\u8A00\u201D\u3002 </p><h2 id="javascript-\u4E0E-ecmascript-\u7684\u5173\u7CFB" tabindex="-1"><a class="header-anchor" href="#javascript-\u4E0E-ecmascript-\u7684\u5173\u7CFB" aria-hidden="true">#</a> JavaScript \u4E0E ECMAScript \u7684\u5173\u7CFB</h2><p> ECMAScript \u548C JavaScript \u7684\u5173\u7CFB\u662F\uFF0C\u524D\u8005\u662F\u540E\u8005\u7684\u89C4\u683C\uFF0C\u540E\u8005\u662F\u524D\u8005\u7684\u4E00\u79CD\u5B9E\u73B0\u3002\u5728\u65E5\u5E38\u573A\u5408\uFF0C\u8FD9\u4E24\u4E2A\u8BCD\u662F\u53EF\u4EE5\u4E92\u6362\u7684\u3002 </p><p> ECMAScript \u53EA\u7528\u6765\u6807\u51C6\u5316 JavaScript \u8FD9\u79CD\u8BED\u8A00\u7684\u57FA\u672C\u8BED\u6CD5\u7ED3\u6784\uFF0C\u4E0E\u90E8\u7F72\u73AF\u5883\u76F8\u5173\u7684\u6807\u51C6\u90FD\u7531\u5176\u4ED6\u6807\u51C6\u89C4\u5B9A\uFF0C\u6BD4\u5982 DOM \u7684\u6807\u51C6\u5C31\u662F\u7531 W3C\u7EC4\u7EC7\uFF08World Wide Web Consortium\uFF09\u5236\u5B9A\u7684\u3002 <p></p> ECMA-262 \u6807\u51C6\u540E\u6765\u4E5F\u88AB\u53E6\u4E00\u4E2A\u56FD\u9645\u6807\u51C6\u5316\u7EC4\u7EC7 ISO\uFF08International Organization for Standardization\uFF09\u6279\u51C6\uFF0C\u6807\u51C6\u53F7\u662F ISO-16262\u3002 </p><!--]-->`);
 }
-const _sfc_setup$p = _sfc_main$p.setup;
-_sfc_main$p.setup = (props, ctx) => {
+const _sfc_setup$r = _sfc_main$r.setup;
+_sfc_main$r.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/JavaScript/\u5165\u95E8\u5BFC\u8BBA.html.vue");
-  return _sfc_setup$p ? _sfc_setup$p(props, ctx) : void 0;
+  return _sfc_setup$r ? _sfc_setup$r(props, ctx) : void 0;
 };
-var _____html$7 = /* @__PURE__ */ _export_sfc(_sfc_main$p, [["ssrRender", _sfc_ssrRender$b]]);
+var _____html$7 = /* @__PURE__ */ _export_sfc(_sfc_main$r, [["ssrRender", _sfc_ssrRender$d]]);
 var _____html$8 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _____html$7
 });
-const _sfc_main$o = {};
-function _sfc_ssrRender$a(_ctx, _push, _parent, _attrs) {
+const _sfc_main$q = {};
+function _sfc_ssrRender$c(_ctx, _push, _parent, _attrs) {
   const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
   _push(`<!--[--><h1 id="\u5185\u7F6E\u5BF9\u8C61" tabindex="-1"><a class="header-anchor" href="#\u5185\u7F6E\u5BF9\u8C61" aria-hidden="true">#</a> \u5185\u7F6E\u5BF9\u8C61</h1><h2 id="\u4E00\u3001object-\u5BF9\u8C61" tabindex="-1"><a class="header-anchor" href="#\u4E00\u3001object-\u5BF9\u8C61" aria-hidden="true">#</a> \u4E00\u3001Object \u5BF9\u8C61</h2><p>JavaScript \u539F\u751F\u63D0\u4F9B<code>Object</code>\u5BF9\u8C61\uFF08\u6CE8\u610F\u8D77\u9996\u7684<code>O</code>\u662F\u5927\u5199\uFF09,JavaScript \u7684\u6240\u6709\u5176\u4ED6\u5BF9\u8C61\u90FD\u7EE7\u627F\u81EA<code>Object</code>\u5BF9\u8C61\uFF0C\u5373\u90A3\u4E9B\u5BF9\u8C61\u90FD\u662F<code>Object</code>\u7684\u5B9E\u4F8B\u3002</p><p><code>Object</code>\u5BF9\u8C61\u7684\u539F\u751F\u65B9\u6CD5\u5206\u6210\u4E24\u7C7B\uFF1A<code>Object</code>\u672C\u8EAB\u7684\u65B9\u6CD5\u4E0E<code>Object</code>\u7684\u5B9E\u4F8B\u65B9\u6CD5\u3002</p><ol><li><code>Object</code>\u5BF9\u8C61\u672C\u8EAB\u7684\u65B9\u6CD5</li></ol><p>\u6240\u8C13\u201C\u672C\u8EAB\u7684\u65B9\u6CD5\u201D\u5C31\u662F\u76F4\u63A5\u5B9A\u4E49\u5728<code>Object</code>\u5BF9\u8C61\u7684\u65B9\u6CD5\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code>Object<span class="token punctuation">.</span><span class="token function-variable function">print</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">o</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>o<span class="token punctuation">)</span> <span class="token punctuation">}</span><span class="token punctuation">;</span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><ol start="2"><li><code>Object</code>\u7684\u5B9E\u4F8B\u65B9\u6CD5</li></ol><p>\u6240\u8C13\u5B9E\u4F8B\u65B9\u6CD5\u5C31\u662F\u5B9A\u4E49\u5728<code>Object</code>\u539F\u578B\u5BF9\u8C61<code>Object.prototype</code>\u4E0A\u7684\u65B9\u6CD5\u3002\u5B83\u53EF\u4EE5\u88AB<code>Object</code>\u5B9E\u4F8B\u76F4\u63A5\u4F7F\u7528\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token class-name">Object</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function-variable function">print</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
@@ -5456,20 +5641,20 @@ obj<span class="token punctuation">.</span>next <span class="token operator">=</
 <span class="token comment">// {a: 1}</span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><p>\u4E0A\u9762\u8FD9\u4E2A\u65B9\u6CD5\u7684\u95EE\u9898\u5728\u4E8E\uFF0C\u5982\u679C\u9047\u5230\u5B58\u53D6\u5668\u5B9A\u4E49\u7684\u5C5E\u6027\uFF0C\u4F1A\u53EA\u62F7\u8D1D\u503C\u3002</p><!--]-->`);
 }
-const _sfc_setup$o = _sfc_main$o.setup;
-_sfc_main$o.setup = (props, ctx) => {
+const _sfc_setup$q = _sfc_main$q.setup;
+_sfc_main$q.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/JavaScript/\u5185\u7F6E\u5BF9\u8C61.html.vue");
-  return _sfc_setup$o ? _sfc_setup$o(props, ctx) : void 0;
+  return _sfc_setup$q ? _sfc_setup$q(props, ctx) : void 0;
 };
-var _____html$5 = /* @__PURE__ */ _export_sfc(_sfc_main$o, [["ssrRender", _sfc_ssrRender$a]]);
+var _____html$5 = /* @__PURE__ */ _export_sfc(_sfc_main$q, [["ssrRender", _sfc_ssrRender$c]]);
 var _____html$6 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _____html$5
 });
-const _sfc_main$n = {};
-function _sfc_ssrRender$9(_ctx, _push, _parent, _attrs) {
+const _sfc_main$p = {};
+function _sfc_ssrRender$b(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h1 id="\u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26" tabindex="-1"><a class="header-anchor" href="#\u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26" aria-hidden="true">#</a> \u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26</h1><h2 id="_1-\u6570\u636E\u7C7B\u578B" tabindex="-1"><a class="header-anchor" href="#_1-\u6570\u636E\u7C7B\u578B" aria-hidden="true">#</a> 1.\u6570\u636E\u7C7B\u578B</h2><p>JavaScript\u516D\u79CD\u6570\u636E\u7C7B\u578B\uFF08\u6B64\u6587\u6863\u4E0D\u6D89\u53CAES6\uFF09</p><ul><li>\u6570\u503C\uFF08Number\uFF09\uFF1A \u6574\u6570\u548C\u5C0F\u6570\uFF08\u6BD4\u59821\u548C3.14\uFF09\u3002</li><li>\u5B57\u7B26\u4E32\uFF08String\uFF09\uFF1A \u6587\u672C\uFF08\u5982<code>&#39;Hello World&#39;</code>\uFF09\u3002</li><li>\u5E03\u5C14\u503C\uFF08boolean\uFF09\uFF1A \u8868\u793A\u771F\u5047\u7684\u7279\u6B8A\u503C\uFF0C\u5373\u771F\uFF08<code>true</code>\uFF09\u548C\u5047(<code>false</code>)</li><li><code>undefined</code> \uFF1A \u8868\u793A\u672A\u5B9A\u4E49\u6216\u4E0D\u5B58\u5728\uFF0C\u53EF\u7406\u89E3\u4E3A\u76EE\u524D\u6CA1\u6709\u5B9A\u4E49\uFF0C\u6240\u4EE5\u6B64\u5904\u6682\u65F6\u6CA1\u6709\u4EFB\u4F55\u503C\u3002</li><li><code>null</code> \uFF1A \u8868\u793A\u7A7A\u503C\uFF0C\u5373\u6B64\u5904\u7684\u503C\u4E3A\u7A7A\u3002</li><li>\u5BF9\u8C61\uFF08object\uFF09\uFF1A \u5404\u79CD\u503C\u7EC4\u6210\u7684\u96C6\u5408\u3002</li></ul><p>\u5BF9\u8C61\u662F\u6700\u590D\u6742\u7684\u6570\u636E\u7C7B\u578B\uFF0C\u53C8\u53EF\u4EE5\u5206\u6210\u4E09\u4E2A\u5B50\u7C7B\u578B\u3002</p><ul><li>\u72ED\u4E49\u7684\u5BF9\u8C61\uFF08object\uFF09</li><li>\u6570\u7EC4\uFF08array\uFF09</li><li>\u51FD\u6570\uFF08function\uFF09</li></ul><h3 id="null\u548Cundefined" tabindex="-1"><a class="header-anchor" href="#null\u548Cundefined" aria-hidden="true">#</a> null\u548Cundefined</h3><p>\u4E24\u8005\u90FD\u53EF\u4EE5\u8868\u793A\u201C\u6CA1\u6709\u201D\uFF0C\u542B\u4E49\u975E\u5E38\u76F8\u4F3C\uFF0C\u8BED\u6CD5\u4E0A\u51E0\u4E4E\u6CA1\u6709\u533A\u522B\u3002</p><table><thead><tr><th>\u533A\u522B</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">null</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">undefined</th></tr></thead><tbody><tr><td>\u6570\u636E\u7C7B\u578B\u4E0D\u4E00\u6837</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">console.log(typeof null)<br>//object</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">console.log(typeof undefined)<br>//undefined</td></tr><tr><td>null\u548Cundefined\u4E24\u8005\u76F8\u7B49\uFF0C\u4F46\u662F\u5F53\u4E24\u8005\u505A\u5168\u7B49\u6BD4\u8F83\u65F6\u4E24\u8005\u53C8\u4E0D\u7B49\u3002\uFF08\u56E0\u4E3A\u4ED6\u4EEC\u7684\u6570\u636E\u7C7B\u578B\u4E0D\u4E00\u6837\uFF09</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">console.log(null==undefined)<br>//ture</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">console.log(null===undefined)<br>//false</td></tr><tr><td>\u8F6C\u5316\u6210\u6570\u5B57\u4E0D\u540C</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">console.log(Number(null))<br>//0</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">console.log(Number(undefined))<br>//NaN</td></tr><tr><td>null\u4EE3\u8868\u201C\u7A7A\u201D\uFF0C\u4EE3\u8868\u7A7A\u6307\u9488\uFF1Bundefined\u662F\u5B9A\u4E49\u4E86\u6CA1\u6709\u8D4B\u503C<br>var a;</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">console.log(a);<br>//undefined</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">var b=null;console.log(b);<br>//null</td></tr></tbody></table><p>\u6CE8\uFF1Aconsole.log()\u5728\u63A7\u5236\u53F0\u6253\u5370\u65E5\u5FD7\uFF0Ctypeof\u83B7\u53D6\u6570\u636E\u7C7B\u578B\uFF0C\u5728\u8FD9\u91CC\u4E0D\u6DF1\u7A76\uFF0C\u4E3A\u540E\u7EED\u5185\u5BB9</p><h3 id="\u5E03\u5C14\u503C-boolean" tabindex="-1"><a class="header-anchor" href="#\u5E03\u5C14\u503C-boolean" aria-hidden="true">#</a> \u5E03\u5C14\u503C\uFF08boolean\uFF09</h3><p>\u4E00\u822C\u4E0B\u5217\u8FD0\u7B97\u7B26\u4F1A\u8FD4\u56DE\u5E03\u5C14\u503C(\u5E03\u5C14\u503C\u5F80\u5F80\u7528\u4E8E\u7A0B\u5E8F\u6D41\u7A0B\u7684\u63A7\u5236)\uFF1A</p><ul><li>\u524D\u7F6E\u903B\u8F91\u8FD0\u7B97\u7B26\uFF1A<code>!</code>(Not)</li><li>\u76F8\u7B49\u8FD0\u7B97\u7B26\uFF1A<code>===</code>\uFF0C<code>!==</code>\uFF0C<code>==</code>\uFF0C<code>!=</code></li><li>\u6BD4\u8F83\u8FD0\u7B97\u7B26\uFF1A<code>&gt;</code>\uFF0C<code>&gt;=</code>\uFF0C<code>&lt;</code>\uFF0C<code>&lt;=</code></li></ul><p>\u5982\u679C\u67D0\u4E2A\u4F4D\u7F6E\u5E94\u8BE5\u662F\u5E03\u5C14\u503C\uFF0CJavaScript\u4F1A\u5C06\u8BE5\u4F4D\u7F6E\u8F6C\u6362\u4E3A\u5E03\u5C14\u503C\uFF0C\u89C4\u5219\u9664\u4E86\u4E0B\u9762\u516D\u4E2A\u503C\u88AB\u8F6C\u4E3Afalse\uFF0C\u5176\u4ED6\u503C\u90FD\u89C6\u4E3Atrue</p><ul><li><code>undefined</code></li><li><code>null</code></li><li><code>false</code></li><li><code>0</code></li><li><code>Nan</code></li><li><code>&quot;&quot;</code>\u6216<code>&#39;&#39;</code>(\u7A7A\u5B57\u7B26\u4E32)</li></ul><h3 id="\u6570\u503C-number" tabindex="-1"><a class="header-anchor" href="#\u6570\u503C-number" aria-hidden="true">#</a> \u6570\u503C\uFF08Number\uFF09</h3><p>JavaScript \u5185\u90E8\uFF0C\u6240\u6709\u6570\u5B57\u90FD\u662F\u4EE564\u4F4D\u6D6E\u70B9\u6570\u5F62\u5F0F\u50A8\u5B58\uFF0C\u7531\u4E8E\u6D6E\u70B9\u6570\u4E0D\u662F\u7CBE\u786E\u7684\u503C\uFF0C\u6240\u4EE5\u6D89\u53CA\u5C0F\u6570\u7684\u6BD4\u8F83\u548C\u8FD0\u7B97\u8981\u7279\u522B\u5C0F\u5FC3\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token number">0.1</span> <span class="token operator">+</span> <span class="token number">0.2</span> <span class="token operator">===</span> <span class="token number">0.3</span>
 <span class="token comment">// false</span>
 
@@ -6055,20 +6240,20 @@ x <span class="token comment">// 5</span>
 
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><ol start="2"><li>\u9017\u53F7\u8FD0\u7B97\u7B26</li></ol><p>\u9017\u53F7\u8FD0\u7B97\u7B26\u7528\u4E8E\u5BF9\u4E24\u4E2A\u8868\u8FBE\u5F0F\u6C42\u503C\uFF0C\u5E76\u8FD4\u56DE\u540E\u4E00\u4E2A\u8868\u8FBE\u5F0F\u7684\u503C\u3002</p><ol start="3"><li>\u8FD0\u7B97\u987A\u5E8F</li></ol><p>\u4F60\u8981\u5148\u8BB0\u4F4F\uFF1A\u6CA1\u5FC5\u8981\u8BB0\u4F4F\u6240\u6709\u8FD0\u7B97\u7B26\u7684\u4F18\u5148\u7EA7\u3002</p><p>\u4E94\u4E2A\u8FD0\u7B97\u7B26\u7684\u4F18\u5148\u7EA7\u4ECE\u9AD8\u5230\u4F4E\u4F9D\u6B21\u4E3A\uFF1A\u5C0F\u4E8E\u7B49\u4E8E\uFF08<code>&lt;=</code>\uFF09\u3001\u4E25\u683C\u76F8\u7B49\uFF08<code>===</code>\uFF09\u3001\u6216\uFF08<code>||</code>\uFF09\u3001\u4E09\u5143\uFF08<code>?:</code>\uFF09\u3001\u7B49\u53F7\uFF08<code>=</code>\uFF09\u3002</p><p>\u5706\u62EC\u53F7\uFF08<code>()</code>\uFF09\u53EF\u4EE5\u7528\u6765\u63D0\u9AD8\u8FD0\u7B97\u7684\u4F18\u5148\u7EA7\uFF0C\u56E0\u4E3A\u5B83\u7684\u4F18\u5148\u7EA7\u662F\u6700\u9AD8\u7684</p><!--]-->`);
 }
-const _sfc_setup$n = _sfc_main$n.setup;
-_sfc_main$n.setup = (props, ctx) => {
+const _sfc_setup$p = _sfc_main$p.setup;
+_sfc_main$p.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/JavaScript/\u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26.html.vue");
-  return _sfc_setup$n ? _sfc_setup$n(props, ctx) : void 0;
+  return _sfc_setup$p ? _sfc_setup$p(props, ctx) : void 0;
 };
-var _________html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$n, [["ssrRender", _sfc_ssrRender$9]]);
+var _________html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$p, [["ssrRender", _sfc_ssrRender$b]]);
 var _________html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _________html$1
 });
-const _sfc_main$m = {};
-function _sfc_ssrRender$8(_ctx, _push, _parent, _attrs) {
+const _sfc_main$o = {};
+function _sfc_ssrRender$a(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h1 id="\u8BED\u6CD5\u57FA\u7840" tabindex="-1"><a class="header-anchor" href="#\u8BED\u6CD5\u57FA\u7840" aria-hidden="true">#</a> \u8BED\u6CD5\u57FA\u7840</h1><h2 id="\u6570\u636E\u7C7B\u578B\u8F6C\u6362" tabindex="-1"><a class="header-anchor" href="#\u6570\u636E\u7C7B\u578B\u8F6C\u6362" aria-hidden="true">#</a> \u6570\u636E\u7C7B\u578B\u8F6C\u6362</h2><h3 id="\u5F3A\u5236\u8F6C\u6362" tabindex="-1"><a class="header-anchor" href="#\u5F3A\u5236\u8F6C\u6362" aria-hidden="true">#</a> \u5F3A\u5236\u8F6C\u6362</h3><ol><li><code>Number()</code></li></ol><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">// \u6570\u503C\uFF1A\u8F6C\u6362\u540E\u8FD8\u662F\u539F\u6765\u7684\u503C</span>
 <span class="token function">Number</span><span class="token punctuation">(</span><span class="token number">324</span><span class="token punctuation">)</span> <span class="token comment">// 324</span>
 
@@ -6427,22 +6612,37 @@ console<span class="token punctuation">.</span><span class="token function">grou
 <span class="token comment">//   InjectedScript.evaluate</span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><p><code>console.clear</code>\u65B9\u6CD5\u7528\u4E8E\u6E05\u9664\u5F53\u524D\u63A7\u5236\u53F0\u7684\u6240\u6709\u8F93\u51FA\uFF0C\u5C06\u5149\u6807\u56DE\u7F6E\u5230\u7B2C\u4E00\u884C\u3002\u5982\u679C\u7528\u6237\u9009\u4E2D\u4E86\u63A7\u5236\u53F0\u7684<code>\u201CPreserve log\u201D</code>\u9009\u9879\uFF0C<code>console.clear</code>\u65B9\u6CD5\u5C06\u4E0D\u8D77\u4F5C\u7528\u3002</p><h3 id="\u63A7\u5236\u53F0\u547D\u4EE4\u884C-api" tabindex="-1"><a class="header-anchor" href="#\u63A7\u5236\u53F0\u547D\u4EE4\u884C-api" aria-hidden="true">#</a> \u63A7\u5236\u53F0\u547D\u4EE4\u884C API</h3><p>\u6D4F\u89C8\u5668\u63A7\u5236\u53F0\u4E2D\uFF0C\u9664\u4E86\u4F7F\u7528<code>console</code>\u5BF9\u8C61\uFF0C\u8FD8\u53EF\u4EE5\u4F7F\u7528\u4E00\u4E9B\u63A7\u5236\u53F0\u81EA\u5E26\u7684\u547D\u4EE4\u884C\u65B9\u6CD5\u3002</p><h3 id="debugger-\u8BED\u53E5" tabindex="-1"><a class="header-anchor" href="#debugger-\u8BED\u53E5" aria-hidden="true">#</a> debugger \u8BED\u53E5</h3><p><code>debugger</code>\u8BED\u53E5\u4E3B\u8981\u7528\u4E8E\u9664\u9519\uFF0C\u4F5C\u7528\u662F\u8BBE\u7F6E\u65AD\u70B9\u3002\u5982\u679C\u6709\u6B63\u5728\u8FD0\u884C\u7684\u9664\u9519\u5DE5\u5177\uFF0C\u7A0B\u5E8F\u8FD0\u884C\u5230<code>debugger</code>\u8BED\u53E5\u65F6\u4F1A\u81EA\u52A8\u505C\u4E0B\u3002\u5982\u679C\u6CA1\u6709\u9664\u9519\u5DE5\u5177\uFF0C<code>debugger</code>\u8BED\u53E5\u4E0D\u4F1A\u4EA7\u751F\u4EFB\u4F55\u7ED3\u679C\uFF0C<code>JavaScript</code>\u5F15\u64CE\u81EA\u52A8\u8DF3\u8FC7\u8FD9\u4E00\u53E5\u3002</p><!--]-->`);
 }
-const _sfc_setup$m = _sfc_main$m.setup;
-_sfc_main$m.setup = (props, ctx) => {
+const _sfc_setup$o = _sfc_main$o.setup;
+_sfc_main$o.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/JavaScript/\u8BED\u6CD5\u57FA\u7840.html.vue");
-  return _sfc_setup$m ? _sfc_setup$m(props, ctx) : void 0;
+  return _sfc_setup$o ? _sfc_setup$o(props, ctx) : void 0;
 };
-var _____html$3 = /* @__PURE__ */ _export_sfc(_sfc_main$m, [["ssrRender", _sfc_ssrRender$8]]);
+var _____html$3 = /* @__PURE__ */ _export_sfc(_sfc_main$o, [["ssrRender", _sfc_ssrRender$a]]);
 var _____html$4 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _____html$3
 });
-const _sfc_main$l = {};
-function _sfc_ssrRender$7(_ctx, _push, _parent, _attrs) {
-  _push(`<!--[--><h1 id="typescript\u5165\u95E8" tabindex="-1"><a class="header-anchor" href="#typescript\u5165\u95E8" aria-hidden="true">#</a> TypeScript\u5165\u95E8</h1><h2 id="\u5B89\u88C5typescript" tabindex="-1"><a class="header-anchor" href="#\u5B89\u88C5typescript" aria-hidden="true">#</a> \u5B89\u88C5TypeScript</h2><p>\u6709\u4E24\u79CD\u4E3B\u8981\u7684\u65B9\u5F0F\u6765\u83B7\u53D6TypeScript\u5DE5\u5177\uFF1A</p><ul><li>\u901A\u8FC7npm\uFF08Node.js\u5305\u7BA1\u7406\u5668\uFF09</li><li>\u5B89\u88C5Visual Studio\u7684TypeScript\u63D2\u4EF6</li></ul><p>\u9488\u5BF9\u4F7F\u7528npm\u7684\u7528\u6237\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">npm</span> <span class="token function">install</span> -g typescript
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><blockquote><p>TypeScript\u548CJavaScript\u5341\u5206\u7C7B\u4F3C\uFF0C\u719F\u6089\u5176\u4E00\u540E\u5B66\u4E60\u53EA\u8981\u5BF9\u6BD4\u601D\u8003\u5C31\u884C</p></blockquote><blockquote><p>TypeScript\u6700\u7EC8\u8FD8\u662F\u8981\u7F16\u8BD1\u4E3AJavaScript</p></blockquote><h2 id="\u57FA\u7840\u7C7B\u578B" tabindex="-1"><a class="header-anchor" href="#\u57FA\u7840\u7C7B\u578B" aria-hidden="true">#</a> \u57FA\u7840\u7C7B\u578B</h2><p>\u76EE\u6807\uFF1A</p><ul><li>\u4E86\u89E3\u57FA\u7840\u7C7B\u578B\u7684\u58F0\u660E</li></ul><h3 id="\u5E03\u5C14\u503C" tabindex="-1"><a class="header-anchor" href="#\u5E03\u5C14\u503C" aria-hidden="true">#</a> \u5E03\u5C14\u503C</h3><p>\u6700\u57FA\u672C\u7684\u6570\u636E\u7C7B\u578B\u5C31\u662F\u7B80\u5355\u7684true/false\u503C\uFF0C\u5728JavaScript\u548CTypeScript\u91CC\u53EB\u505Aboolean\uFF08\u5176\u5B83\u8BED\u8A00\u4E2D\u4E5F\u4E00\u6837\uFF09\u3002</p><div class="language-typescript ext-ts line-numbers-mode"><pre class="language-typescript"><code><span class="token keyword">let</span> isDone<span class="token operator">:</span> <span class="token builtin">boolean</span> <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+const _sfc_main$n = {};
+function _sfc_ssrRender$9(_ctx, _push, _parent, _attrs) {
+}
+const _sfc_setup$n = _sfc_main$n.setup;
+_sfc_main$n.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/Jenkins/01.html.vue");
+  return _sfc_setup$n ? _sfc_setup$n(props, ctx) : void 0;
+};
+var _01_html$b = /* @__PURE__ */ _export_sfc(_sfc_main$n, [["ssrRender", _sfc_ssrRender$9]]);
+var _01_html$c = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": _01_html$b
+});
+const _sfc_main$m = {};
+function _sfc_ssrRender$8(_ctx, _push, _parent, _attrs) {
+  _push(`<!--[--><h1 id="\u57FA\u7840\u7C7B\u578B" tabindex="-1"><a class="header-anchor" href="#\u57FA\u7840\u7C7B\u578B" aria-hidden="true">#</a> \u57FA\u7840\u7C7B\u578B</h1><h2 id="\u5B89\u88C5typescript" tabindex="-1"><a class="header-anchor" href="#\u5B89\u88C5typescript" aria-hidden="true">#</a> \u5B89\u88C5TypeScript</h2><p>\u6709\u4E24\u79CD\u4E3B\u8981\u7684\u65B9\u5F0F\u6765\u83B7\u53D6TypeScript\u5DE5\u5177\uFF1A</p><ul><li>\u901A\u8FC7npm\uFF08Node.js\u5305\u7BA1\u7406\u5668\uFF09</li><li>\u5B89\u88C5Visual Studio\u7684TypeScript\u63D2\u4EF6</li></ul><p>\u9488\u5BF9\u4F7F\u7528npm\u7684\u7528\u6237\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">npm</span> <span class="token function">install</span> -g typescript
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><blockquote><p>TypeScript\u548CJavaScript\u5341\u5206\u7C7B\u4F3C\uFF0C\u719F\u6089\u5176\u4E00\u540E\u5B66\u4E60\u53EA\u8981\u5BF9\u6BD4\u601D\u8003\u5C31\u884C</p></blockquote><blockquote><p>TypeScript\u6700\u7EC8\u8FD8\u662F\u8981\u7F16\u8BD1\u4E3AJavaScript</p></blockquote><h2 id="\u57FA\u7840\u7C7B\u578B-1" tabindex="-1"><a class="header-anchor" href="#\u57FA\u7840\u7C7B\u578B-1" aria-hidden="true">#</a> \u57FA\u7840\u7C7B\u578B</h2><p>\u76EE\u6807\uFF1A</p><ul><li>\u4E86\u89E3\u57FA\u7840\u7C7B\u578B\u7684\u58F0\u660E</li></ul><h3 id="\u5E03\u5C14\u503C" tabindex="-1"><a class="header-anchor" href="#\u5E03\u5C14\u503C" aria-hidden="true">#</a> \u5E03\u5C14\u503C</h3><p>\u6700\u57FA\u672C\u7684\u6570\u636E\u7C7B\u578B\u5C31\u662F\u7B80\u5355\u7684true/false\u503C\uFF0C\u5728JavaScript\u548CTypeScript\u91CC\u53EB\u505Aboolean\uFF08\u5176\u5B83\u8BED\u8A00\u4E2D\u4E5F\u4E00\u6837\uFF09\u3002</p><div class="language-typescript ext-ts line-numbers-mode"><pre class="language-typescript"><code><span class="token keyword">let</span> isDone<span class="token operator">:</span> <span class="token builtin">boolean</span> <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><h3 id="\u6570\u5B57" tabindex="-1"><a class="header-anchor" href="#\u6570\u5B57" aria-hidden="true">#</a> \u6570\u5B57</h3><p>TypeScript\u91CC\u7684\u6240\u6709\u6570\u5B57\u90FD\u662F\u6D6E\u70B9\u6570\u3002 \u8FD9\u4E9B\u6D6E\u70B9\u6570\u7684\u7C7B\u578B\u662F number\u3002 \u9664\u4E86\u652F\u6301\u5341\u8FDB\u5236\u548C\u5341\u516D\u8FDB\u5236\u5B57\u9762\u91CF\uFF0CTypeScript\u8FD8\u652F\u6301ECMAScript 2015\u4E2D\u5F15\u5165\u7684\u4E8C\u8FDB\u5236\u548C\u516B\u8FDB\u5236\u5B57\u9762\u91CF\u3002</p><div class="language-typescript ext-ts line-numbers-mode"><pre class="language-typescript"><code><span class="token keyword">let</span> decLiteral<span class="token operator">:</span> <span class="token builtin">number</span> <span class="token operator">=</span> <span class="token number">6</span><span class="token punctuation">;</span>
 <span class="token keyword">let</span> hexLiteral<span class="token operator">:</span> <span class="token builtin">number</span> <span class="token operator">=</span> <span class="token number">0xf00d</span><span class="token punctuation">;</span>
 <span class="token keyword">let</span> binaryLiteral<span class="token operator">:</span> <span class="token builtin">number</span> <span class="token operator">=</span> <span class="token number">0b1010</span><span class="token punctuation">;</span>
@@ -6531,21 +6731,22 @@ list<span class="token punctuation">[</span><span class="token number">1</span><
 <span class="token keyword">let</span> strLength<span class="token operator">:</span> <span class="token builtin">number</span> <span class="token operator">=</span> <span class="token punctuation">(</span>someValue <span class="token keyword">as</span> <span class="token builtin">string</span><span class="token punctuation">)</span><span class="token punctuation">.</span>length<span class="token punctuation">;</span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>\u4E24\u79CD\u5F62\u5F0F\u662F\u7B49\u4EF7\u7684\u3002 \u81F3\u4E8E\u4F7F\u7528\u54EA\u4E2A\u5927\u591A\u6570\u60C5\u51B5\u4E0B\u662F\u51ED\u4E2A\u4EBA\u559C\u597D\uFF1B\u7136\u800C\uFF0C\u5F53\u4F60\u5728<code>TypeScript</code>\u91CC\u4F7F\u7528<code>JSX</code>\u65F6\uFF0C\u53EA\u6709 <code>as</code>\u8BED\u6CD5\u65AD\u8A00\u662F\u88AB\u5141\u8BB8\u7684\u3002</p><h3 id="\u5173\u4E8Elet" tabindex="-1"><a class="header-anchor" href="#\u5173\u4E8Elet" aria-hidden="true">#</a> \u5173\u4E8Elet</h3><p>\u73B0\u5728\u5F00\u59CB\u4F60\u8981\u7528let\u4EE3\u66FFvar\uFF0C\u5176\u5B83\u7684\u7EE7\u7EED\u5F80\u4E0B\u770B\u5C31\u77E5\u9053\u4E86\u3002</p><!--]-->`);
 }
-const _sfc_setup$l = _sfc_main$l.setup;
-_sfc_main$l.setup = (props, ctx) => {
+const _sfc_setup$m = _sfc_main$m.setup;
+_sfc_main$m.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/TypeScript/01.html.vue");
-  return _sfc_setup$l ? _sfc_setup$l(props, ctx) : void 0;
+  return _sfc_setup$m ? _sfc_setup$m(props, ctx) : void 0;
 };
-var _01_html$5 = /* @__PURE__ */ _export_sfc(_sfc_main$l, [["ssrRender", _sfc_ssrRender$7]]);
-var _01_html$6 = /* @__PURE__ */ Object.freeze({
+var _01_html$9 = /* @__PURE__ */ _export_sfc(_sfc_main$m, [["ssrRender", _sfc_ssrRender$8]]);
+var _01_html$a = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  "default": _01_html$5
+  "default": _01_html$9
 });
-const _sfc_main$k = {};
-function _sfc_ssrRender$6(_ctx, _push, _parent, _attrs) {
+const _sfc_main$l = {};
+function _sfc_ssrRender$7(_ctx, _push, _parent, _attrs) {
   const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
+  const _component_MyTemplate = vue.resolveComponent("MyTemplate");
   _push(`<!--[--><h1 id="\u53D8\u91CF\u58F0\u660E" tabindex="-1"><a class="header-anchor" href="#\u53D8\u91CF\u58F0\u660E" aria-hidden="true">#</a> \u53D8\u91CF\u58F0\u660E</h1><p>\u76EE\u6807\uFF1A</p><p>\u4E86\u89E3 let const var \u7684\u533A\u522B</p><h2 id="var\u58F0\u660E" tabindex="-1"><a class="header-anchor" href="#var\u58F0\u660E" aria-hidden="true">#</a> var\u58F0\u660E</h2><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">var</span> a <span class="token operator">=</span><span class="token number">10</span><span class="token punctuation">;</span>
 <span class="token comment">// \u5728\u51FD\u6570\u91CC\u5B9A\u4E49</span>
 <span class="token comment">// \u6211\u4EEC\u4E5F\u53EF\u4EE5\u5728\u5176\u5B83\u51FD\u6570\u5185\u90E8\u8BBF\u95EE\u76F8\u540C\u7684\u53D8\u91CF</span>
@@ -6645,22 +6846,67 @@ function _sfc_ssrRender$6(_ctx, _push, _parent, _attrs) {
         <span class="token keyword">var</span> x<span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><p>\u5728\u4E0A\u9762\u7684\u4F8B\u5B50\u91CC\uFF0C\u6240\u6709x\u7684\u58F0\u660E\u5B9E\u9645\u4E0A\u90FD\u5F15\u7528\u4E00\u4E2A\u76F8\u540C\u7684x\uFF0C\u5E76\u4E14\u8FD9\u662F\u5B8C\u5168\u6709\u6548\u7684\u4EE3\u7801\u3002 \u8FD9\u7ECF\u5E38\u4F1A\u6210\u4E3Abug\u7684\u6765\u6E90\u3002 \u597D\u7684\u662F\uFF0C let\u58F0\u660E\u5C31\u4E0D\u4F1A\u8FD9\u4E48\u5BBD\u677E\u4E86\u3002</p><!--]-->`);
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><p>\u5728\u4E0A\u9762\u7684\u4F8B\u5B50\u91CC\uFF0C\u6240\u6709x\u7684\u58F0\u660E\u5B9E\u9645\u4E0A\u90FD\u5F15\u7528\u4E00\u4E2A\u76F8\u540C\u7684x\uFF0C\u5E76\u4E14\u8FD9\u662F\u5B8C\u5168\u6709\u6548\u7684\u4EE3\u7801\u3002 \u8FD9\u7ECF\u5E38\u4F1A\u6210\u4E3Abug\u7684\u6765\u6E90\u3002 \u597D\u7684\u662F\uFF0C let\u58F0\u660E\u5C31\u4E0D\u4F1A\u8FD9\u4E48\u5BBD\u677E\u4E86\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">let</span> x <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> x <span class="token operator">=</span> <span class="token number">20</span><span class="token punctuation">;</span> <span class="token comment">// \u9519\u8BEF\uFF0C\u4E0D\u80FD\u57281\u4E2A\u4F5C\u7528\u57DF\u91CC\u591A\u6B21\u58F0\u660E\`x\`</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>\u5E76\u4E0D\u662F\u8BF4\u5757\u7EA7\u4F5C\u7528\u57DF\u53D8\u91CF\u4E0D\u80FD\u7528\u51FD\u6570\u4F5C\u7528\u57DF\u53D8\u91CF\u6765\u58F0\u660E\u3002 \u800C\u662F\u5757\u7EA7\u4F5C\u7528\u57DF\u53D8\u91CF\u9700\u8981\u5728\u660E\u663E\u4E0D\u540C\u7684\u5757\u91CC\u58F0\u660E\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">function</span> <span class="token function">f</span><span class="token punctuation">(</span><span class="token parameter">condition<span class="token punctuation">,</span> x</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>condition<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">let</span> x <span class="token operator">=</span> <span class="token number">100</span><span class="token punctuation">;</span>
+        <span class="token keyword">return</span> x<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">return</span> x<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token function">f</span><span class="token punctuation">(</span><span class="token boolean">false</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// returns 0</span>
+<span class="token function">f</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">// returns 100</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><p>\u5F53let\u58F0\u660E\u51FA\u73B0\u5728\u5FAA\u73AF\u4F53\u91CC\u65F6\u62E5\u6709\u5B8C\u5168\u4E0D\u540C\u7684\u884C\u4E3A\u3002 \u4E0D\u4EC5\u662F\u5728\u5FAA\u73AF\u91CC\u5F15\u5165\u4E86\u4E00\u4E2A\u65B0\u7684\u53D8\u91CF\u73AF\u5883\uFF0C\u800C\u662F\u9488\u5BF9 \u6BCF\u6B21\u8FED\u4EE3\u90FD\u4F1A\u521B\u5EFA\u8FD9\u6837\u4E00\u4E2A\u65B0\u4F5C\u7528\u57DF\u3002 \u8FD9\u5C31\u662F\u6211\u4EEC\u5728\u4F7F\u7528\u7ACB\u5373\u6267\u884C\u7684\u51FD\u6570\u8868\u8FBE\u5F0F\u65F6\u505A\u7684\u4E8B\uFF0C\u6240\u4EE5\u5728 setTimeout\u4F8B\u5B50\u91CC\u6211\u4EEC\u4EC5\u4F7F\u7528let\u58F0\u660E\u5C31\u53EF\u4EE5\u4E86\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">let</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">10</span> <span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">setTimeout</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token number">100</span> <span class="token operator">*</span> i<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token number">0</span>
+<span class="token number">1</span>
+<span class="token number">2</span>
+<span class="token number">3</span>
+<span class="token number">4</span>
+<span class="token number">5</span>
+<span class="token number">6</span>
+<span class="token number">7</span>
+<span class="token number">8</span>
+<span class="token number">9</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><h2 id="const-\u58F0\u660E" tabindex="-1"><a class="header-anchor" href="#const-\u58F0\u660E" aria-hidden="true">#</a> const \u58F0\u660E</h2><p>\u5B83\u4EEC\u4E0Elet\u58F0\u660E\u76F8\u4F3C\uFF0C\u4F46\u662F\u5C31\u50CF\u5B83\u7684\u540D\u5B57\u6240\u8868\u8FBE\u7684\uFF0C\u5B83\u4EEC\u88AB\u8D4B\u503C\u540E\u4E0D\u80FD\u518D\u6539\u53D8\u3002 \u6362\u53E5\u8BDD\u8BF4\uFF0C\u5B83\u4EEC\u62E5\u6709\u4E0E let\u76F8\u540C\u7684\u4F5C\u7528\u57DF\u89C4\u5219\uFF0C\u4F46\u662F\u4E0D\u80FD\u5BF9\u5B83\u4EEC\u91CD\u65B0\u8D4B\u503C\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">const</span> numLivesForCat <span class="token operator">=</span> <span class="token number">9</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> kitty <span class="token operator">=</span> <span class="token punctuation">{</span>
+    name<span class="token operator">:</span> <span class="token string">&quot;Aurora&quot;</span><span class="token punctuation">,</span>
+    numLives<span class="token operator">:</span> numLivesForCat<span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// Error</span>
+kitty <span class="token operator">=</span> <span class="token punctuation">{</span>
+    name<span class="token operator">:</span> <span class="token string">&quot;Danielle&quot;</span><span class="token punctuation">,</span>
+    numLives<span class="token operator">:</span> numLivesForCat
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token comment">// all &quot;okay&quot;</span>
+kitty<span class="token punctuation">.</span>name <span class="token operator">=</span> <span class="token string">&quot;Rory&quot;</span><span class="token punctuation">;</span>
+kitty<span class="token punctuation">.</span>name <span class="token operator">=</span> <span class="token string">&quot;Kitty&quot;</span><span class="token punctuation">;</span>
+kitty<span class="token punctuation">.</span>name <span class="token operator">=</span> <span class="token string">&quot;Cat&quot;</span><span class="token punctuation">;</span>
+kitty<span class="token punctuation">.</span>numLives<span class="token operator">--</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br></div></div><p>\u9664\u975E\u4F60\u4F7F\u7528\u7279\u6B8A\u7684\u65B9\u6CD5\u53BB\u907F\u514D\uFF0C\u5B9E\u9645\u4E0Aconst\u53D8\u91CF\u7684\u5185\u90E8\u72B6\u6001\u662F\u53EF\u4FEE\u6539\u7684\u3002 \u5E78\u8FD0\u7684\u662F\uFF0CTypeScript\u5141\u8BB8\u4F60\u5C06\u5BF9\u8C61\u7684\u6210\u5458\u8BBE\u7F6E\u6210\u53EA\u8BFB\u7684\u3002 \u63A5\u53E3\u4E00\u7AE0\u6709\u8BE6\u7EC6\u8BF4\u660E\u3002</p><h4 id="let-vs-const" tabindex="-1"><a class="header-anchor" href="#let-vs-const" aria-hidden="true">#</a> let vs const</h4><p>\u4F7F\u7528\u6700\u5C0F\u7279\u6743\u539F\u5219\uFF0C\u6240\u6709\u53D8\u91CF\u9664\u4E86\u4F60\u8BA1\u5212\u53BB\u4FEE\u6539\u7684\u90FD\u5E94\u8BE5\u4F7F\u7528const\u3002 \u57FA\u672C\u539F\u5219\u5C31\u662F\u5982\u679C\u4E00\u4E2A\u53D8\u91CF\u4E0D\u9700\u8981\u5BF9\u5B83\u5199\u5165\uFF0C\u90A3\u4E48\u5176\u5B83\u4F7F\u7528\u8FD9\u4E9B\u4EE3\u7801\u7684\u4EBA\u4E5F\u4E0D\u80FD\u591F\u5199\u5165\u5B83\u4EEC\uFF0C\u5E76\u4E14\u8981\u601D\u8003\u4E3A\u4EC0\u4E48\u4F1A\u9700\u8981\u5BF9\u8FD9\u4E9B\u53D8\u91CF\u91CD\u65B0\u8D4B\u503C\u3002 \u4F7F\u7528 const\u4E5F\u53EF\u4EE5\u8BA9\u6211\u4EEC\u66F4\u5BB9\u6613\u7684\u63A8\u6D4B\u6570\u636E\u7684\u6D41\u52A8\u3002</p>`);
+  _push(serverRenderer.ssrRenderComponent(_component_MyTemplate, null, null, _parent));
+  _push(`<!--]-->`);
 }
-const _sfc_setup$k = _sfc_main$k.setup;
-_sfc_main$k.setup = (props, ctx) => {
+const _sfc_setup$l = _sfc_main$l.setup;
+_sfc_main$l.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/TypeScript/02.\u53D8\u91CF\u58F0\u660E.html.vue");
-  return _sfc_setup$k ? _sfc_setup$k(props, ctx) : void 0;
+  return _sfc_setup$l ? _sfc_setup$l(props, ctx) : void 0;
 };
-var _02______html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$k, [["ssrRender", _sfc_ssrRender$6]]);
+var _02______html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$l, [["ssrRender", _sfc_ssrRender$7]]);
 var _02______html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _02______html$1
 });
-const _sfc_main$j = {};
-function _sfc_ssrRender$5(_ctx, _push, _parent, _attrs) {
+const _sfc_main$k = {};
+function _sfc_ssrRender$6(_ctx, _push, _parent, _attrs) {
   const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
   _push(`<!--[--><h2 id="\u524D\u7F6E" tabindex="-1"><a class="header-anchor" href="#\u524D\u7F6E" aria-hidden="true">#</a> \u524D\u7F6E</h2><p>\u6700\u597D\u6709\u4E00\u5B9A\u7684HTML\u3001JavaScript\u3001CSS\u57FA\u7840\u3002</p><h2 id="mvvm\u6A21\u5F0F" tabindex="-1"><a class="header-anchor" href="#mvvm\u6A21\u5F0F" aria-hidden="true">#</a> MVVM\u6A21\u5F0F\uFF1F</h2><p><code>MVVM</code>\u662F<code>Model-View-ViewModel</code>\u7684\u7F29\u5199\u3002<br><code>MVVM</code> \u7684\u6838\u5FC3\u662F <code>ViewModel</code> \u5C42\uFF0C\u5B83\u5C31\u50CF\u662F\u4E00\u4E2A\u4E2D\u8F6C\u7AD9<code>\uFF08value converter\uFF09</code>\uFF0C\u8D1F\u8D23\u8F6C\u6362 <code>Model</code> \u4E2D\u7684\u6570\u636E\u5BF9\u8C61\u6765\u8BA9\u6570\u636E\u53D8\u5F97\u66F4\u5BB9\u6613\u7BA1\u7406\u548C\u4F7F\u7528\uFF0C\u8BE5\u5C42\u5411\u4E0A\u4E0E\u89C6\u56FE\u5C42\u8FDB\u884C\u53CC\u5411\u6570\u636E\u7ED1\u5B9A\uFF0C\u5411\u4E0B\u4E0E <code>Model</code> \u5C42\u901A\u8FC7\u63A5\u53E3\u8BF7\u6C42\u8FDB\u884C\u6570\u636E\u4EA4\u4E92\uFF0C\u8D77\u5448\u4E0A\u542F\u4E0B\u4F5C\u7528\u3002</p><div class="custom-container tip"><p class="custom-container-title">\u53C2\u8003</p><p><a href="http://www.ruanyifeng.com/blog/2015/02/mvcmvp_mvvm.html" target="_blank" rel="noopener noreferrer">http://www.ruanyifeng.com`);
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
@@ -6734,20 +6980,20 @@ person<span class="token punctuation">.</span>age <span class="token operator">=
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
   _push(`</a></li></ol><!--]-->`);
 }
-const _sfc_setup$j = _sfc_main$j.setup;
-_sfc_main$j.setup = (props, ctx) => {
+const _sfc_setup$k = _sfc_main$k.setup;
+_sfc_main$k.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/vue/01.html.vue");
-  return _sfc_setup$j ? _sfc_setup$j(props, ctx) : void 0;
+  return _sfc_setup$k ? _sfc_setup$k(props, ctx) : void 0;
 };
-var _01_html$3 = /* @__PURE__ */ _export_sfc(_sfc_main$j, [["ssrRender", _sfc_ssrRender$5]]);
-var _01_html$4 = /* @__PURE__ */ Object.freeze({
+var _01_html$7 = /* @__PURE__ */ _export_sfc(_sfc_main$k, [["ssrRender", _sfc_ssrRender$6]]);
+var _01_html$8 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  "default": _01_html$3
+  "default": _01_html$7
 });
-const _sfc_main$i = {};
-function _sfc_ssrRender$4(_ctx, _push, _parent, _attrs) {
+const _sfc_main$j = {};
+function _sfc_ssrRender$5(_ctx, _push, _parent, _attrs) {
   const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
   _push(`<!--[--><h1 id="vue2-x" tabindex="-1"><a class="header-anchor" href="#vue2-x" aria-hidden="true">#</a> vue2.x</h1><h2 id="\u5F15\u5165vue" tabindex="-1"><a class="header-anchor" href="#\u5F15\u5165vue" aria-hidden="true">#</a> \u5F15\u5165vue</h2><p><a href="https://cn.vuejs.org/v2/guide/installation.html" target="_blank" rel="noopener noreferrer">\u5B98\u7F51\u4E0B\u8F7D`);
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
@@ -7006,20 +7252,20 @@ function _sfc_ssrRender$4(_ctx, _push, _parent, _attrs) {
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h4 id="v-once" tabindex="-1"><a class="header-anchor" href="#v-once" aria-hidden="true">#</a> <code>v-once</code></h4><p>\u5728\u7B2C\u4E00\u6B21DOM\u65F6\u8FDB\u884C\u6E32\u67D3\uFF0C\u6E32\u67D3\u5B8C\u6210\u540E\u89C6\u4E3A\u9759\u6001\u5185\u5BB9\uFF0C\u8DF3\u51FA\u4EE5\u540E\u7684\u6E32\u67D3\u8FC7\u7A0B\u3002</p><!--]-->`);
 }
-const _sfc_setup$i = _sfc_main$i.setup;
-_sfc_main$i.setup = (props, ctx) => {
+const _sfc_setup$j = _sfc_main$j.setup;
+_sfc_main$j.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/vue/02vue\u6307\u4EE4.html.vue");
-  return _sfc_setup$i ? _sfc_setup$i(props, ctx) : void 0;
+  return _sfc_setup$j ? _sfc_setup$j(props, ctx) : void 0;
 };
-var _02vue___html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$i, [["ssrRender", _sfc_ssrRender$4]]);
+var _02vue___html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$j, [["ssrRender", _sfc_ssrRender$5]]);
 var _02vue___html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _02vue___html$1
 });
-const _sfc_main$h = {};
-function _sfc_ssrRender$3(_ctx, _push, _parent, _attrs) {
+const _sfc_main$i = {};
+function _sfc_ssrRender$4(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h1 id="vue\u5168\u5C40api" tabindex="-1"><a class="header-anchor" href="#vue\u5168\u5C40api" aria-hidden="true">#</a> vue\u5168\u5C40API</h1><p>\u5168\u5C40API\u5E76\u4E0D\u5728\u6784\u9020\u5668\u91CC\uFF0C\u800C\u662F\u5148\u58F0\u660E\u5168\u5C40\u53D8\u91CF\u6216\u8005\u76F4\u63A5\u5728Vue\u4E0A\u5B9A\u4E49\u4E00\u4E9B\u65B0\u529F\u80FD\uFF0CVue\u5185\u7F6E\u4E86\u4E00\u4E9B\u5168\u5C40API\uFF0C\u8BF4\u7684\u7B80\u5355\u4E9B\u5C31\u662F\uFF0C\u5728\u6784\u9020\u5668\u5916\u90E8\u7528Vue\u63D0\u4F9B\u7ED9\u6211\u4EEC\u7684API\u51FD\u6570\u6765\u5B9A\u4E49\u65B0\u7684\u529F\u80FD\u3002</p><h2 id="vue-directive\u81EA\u5B9A\u4E49\u5C5E\u6027" tabindex="-1"><a class="header-anchor" href="#vue-directive\u81EA\u5B9A\u4E49\u5C5E\u6027" aria-hidden="true">#</a> Vue.directive\u81EA\u5B9A\u4E49\u5C5E\u6027</h2><p>\u4E0A\u4E00\u7BC7\u6211\u4EEC\u5B66\u4E86\u90A3\u4E9B<code>\u6307\u4EE4</code>,\u6211\u4EEC\u4E5F\u53EF\u4EE5\u81EA\u5B9A\u4E49\u6307\u4EE4\u3002</p><p>\u76F4\u63A5\u4F8B\u5B50\u6F14\u793A\uFF1A</p><div class="language-html ext-html line-numbers-mode"><pre class="language-html"><code><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>en<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
@@ -7418,17 +7664,32 @@ function _sfc_ssrRender$3(_ctx, _push, _parent, _attrs) {
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br></div></div><p>\u8981\u6CE8\u610F\u7684\u5730\u65B9\uFF1A</p><ol><li>props\uFF1A\u4F20\u5165\u7684\u662F\u4E00\u4E2A\u6570\u7EC4\uFF0C\u8BF4\u660E\u53EF\u4EE5\u4F20\u5F88\u591A\u503C\u3002</li><li>\u4F20\u503C\u5927\u5C0F\u5199\u548C\u2018<code>-</code>\u2019\u7684\u5904\u7406\uFF1A\u5728\u7EC4\u4EF6\u4E2D\u5FC5\u987B\u7528\u5C0F\u9A7C\u5CF0\u5F0F\u5199\u6CD5props:[\u2018formHere\u2019]\u3002</li><li>\u4F20\u503C\u7ED1\u5B9A\uFF1A\u4F20\u503C\u4E00\u822C\u914D\u5408\u6307\u4EE4\u4F7F\u7528\uFF0C\u53EF\u4EE5\u5F88\u7075\u6D3B\u4FEE\u6539\u503C\uFF0C\u5373\u5728\u6784\u9020\u5668\u4E2D\u7ED9\u7EC4\u4EF6\u4F20\u503C\u3002</li></ol><h4 id="_4-\u7236\u5B50\u7EC4\u4EF6" tabindex="-1"><a class="header-anchor" href="#_4-\u7236\u5B50\u7EC4\u4EF6" aria-hidden="true">#</a> 4.\u7236\u5B50\u7EC4\u4EF6</h4><!--]-->`);
 }
-const _sfc_setup$h = _sfc_main$h.setup;
-_sfc_main$h.setup = (props, ctx) => {
+const _sfc_setup$i = _sfc_main$i.setup;
+_sfc_main$i.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/vue/03\u5168\u5C40API.html.vue");
-  return _sfc_setup$h ? _sfc_setup$h(props, ctx) : void 0;
+  return _sfc_setup$i ? _sfc_setup$i(props, ctx) : void 0;
 };
-var _03__API_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$h, [["ssrRender", _sfc_ssrRender$3]]);
+var _03__API_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$i, [["ssrRender", _sfc_ssrRender$4]]);
 var _03__API_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _03__API_html$1
+});
+const _sfc_main$h = {};
+function _sfc_ssrRender$3(_ctx, _push, _parent, _attrs) {
+}
+const _sfc_setup$h = _sfc_main$h.setup;
+_sfc_main$h.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/vue3/01.html.vue");
+  return _sfc_setup$h ? _sfc_setup$h(props, ctx) : void 0;
+};
+var _01_html$5 = /* @__PURE__ */ _export_sfc(_sfc_main$h, [["ssrRender", _sfc_ssrRender$3]]);
+var _01_html$6 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": _01_html$5
 });
 const _sfc_main$g = {};
 function _sfc_ssrRender$2(_ctx, _push, _parent, _attrs) {
@@ -7982,7 +8243,7 @@ var _404_html$2 = /* @__PURE__ */ Object.freeze({
   [Symbol.toStringTag]: "Module",
   "default": _404_html$1
 });
-const data$q = {
+const data$u = {
   "key": "v-8daa1a0e",
   "path": "/",
   "title": "",
@@ -8029,12 +8290,33 @@ const data$q = {
   },
   "filePathRelative": "README.md"
 };
+var index_html$2 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  data: data$u
+});
+const data$t = {
+  "key": "v-67b7fbf4",
+  "path": "/actualCombat/",
+  "title": "",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "home": true
+  },
+  "excerpt": "",
+  "headers": [],
+  "git": {
+    "updatedTime": null,
+    "contributors": []
+  },
+  "filePathRelative": "actualCombat/README.md"
+};
 var index_html$1 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$q
+  data: data$t
 });
-const data$p = {
+const data$s = {
   "key": "v-6886cbbd",
   "path": "/course/elementui%E5%9C%A8%E8%A1%A8%E6%A0%BC%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87.html",
   "title": "elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247",
@@ -8080,9 +8362,9 @@ const data$p = {
 var elementui_________html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$p
+  data: data$s
 });
-const data$o = {
+const data$r = {
   "key": "v-b9c2d34a",
   "path": "/course/",
   "title": "\u65E5\u5E38\u8BB0\u5F55",
@@ -8116,9 +8398,9 @@ const data$o = {
 var index_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$o
+  data: data$r
 });
-const data$n = {
+const data$q = {
   "key": "v-4bac9763",
   "path": "/course/utils.html",
   "title": "\u8D44\u6E90\u5DE5\u5177",
@@ -8158,9 +8440,9 @@ const data$n = {
 var utils_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$n
+  data: data$q
 });
-const data$m = {
+const data$p = {
   "key": "v-66ff7ae2",
   "path": "/course/vscode%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.html",
   "title": "vscode\u5E38\u7528\u63D2\u4EF6",
@@ -8194,9 +8476,75 @@ const data$m = {
 var vscode_____html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$m
+  data: data$p
 });
-const data$l = {
+const data$o = {
+  "key": "v-995ccaba",
+  "path": "/actualCombat/%E3%80%8AFlutter%E5%B7%A5%E7%A8%8B%E5%AE%9E%E6%88%98%E3%80%8B/01.%E8%B5%B7%E6%AD%A5.html",
+  "title": "Flutter\u5B9E\u6218",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "lang": "zh-CN",
+    "title": "Flutter\u5B9E\u6218",
+    "description": "Flutter\u5B9E\u6218"
+  },
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 2,
+      "title": "\u9002\u5408\u4EBA\u7FA4",
+      "slug": "\u9002\u5408\u4EBA\u7FA4",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "1.\u9879\u76EE\u7ED3\u6784",
+      "slug": "_1-\u9879\u76EE\u7ED3\u6784",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "2.\u8D77\u6B65",
+      "slug": "_2-\u8D77\u6B65",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "3.\u9519\u8BEF\u6355\u83B7\u548C\u4E0A\u62A5",
+      "slug": "_3-\u9519\u8BEF\u6355\u83B7\u548C\u4E0A\u62A5",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "4.\u62BD\u5C49\u9875",
+      "slug": "_4-\u62BD\u5C49\u9875",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "5.\u8DEF\u7531\u7BA1\u7406\uFF08getX\uFF09",
+      "slug": "_5-\u8DEF\u7531\u7BA1\u7406-getx",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "6.\u56FD\u9645\u5316\uFF08getX\uFF09",
+      "slug": "_6-\u56FD\u9645\u5316-getx",
+      "children": []
+    }
+  ],
+  "git": {
+    "updatedTime": null,
+    "contributors": []
+  },
+  "filePathRelative": "actualCombat/\u300AFlutter\u5DE5\u7A0B\u5B9E\u6218\u300B/01.\u8D77\u6B65.md"
+};
+var _01____html = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  data: data$o
+});
+const data$n = {
   "key": "v-3509cb32",
   "path": "/guide/interview/interview.html",
   "title": "\u95EE\u9898\u96C6\u9526",
@@ -8284,9 +8632,9 @@ const data$l = {
 var interview_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$l
+  data: data$n
 });
-const data$k = {
+const data$m = {
   "key": "v-5d3f7a3b",
   "path": "/guide/interview/JSinterview.html",
   "title": "JS\u9762\u8BD5",
@@ -8440,9 +8788,9 @@ const data$k = {
 var JSinterview_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$k
+  data: data$m
 });
-const data$j = {
+const data$l = {
   "key": "v-2d570564",
   "path": "/guide/interview/VUEinterview.html",
   "title": "VUE\u9762\u8BD5",
@@ -8578,9 +8926,9 @@ const data$j = {
 var VUEinterview_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$j
+  data: data$l
 });
-const data$i = {
+const data$k = {
   "key": "v-3803ce0e",
   "path": "/guide/%E6%95%99%E7%A8%8B/text.html",
   "title": "1a",
@@ -8620,9 +8968,9 @@ const data$i = {
 var text_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$i
+  data: data$k
 });
-const data$h = {
+const data$j = {
   "key": "v-71958ec2",
   "path": "/guide/%E6%95%85%E4%BA%8B/story.html",
   "title": "\u65E5\u5E38\u6545\u4E8B",
@@ -8709,9 +9057,9 @@ const data$h = {
 var story_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$h
+  data: data$j
 });
-const data$g = {
+const data$i = {
   "key": "v-6c145c9c",
   "path": "/guide/%E9%9A%8F%E7%AC%94/reflection.html",
   "title": "\u6240\u4EE5\u4E8B\u5C0F\u4E8E\u6B7B",
@@ -8745,9 +9093,9 @@ const data$g = {
 var reflection_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$g
+  data: data$i
 });
-const data$f = {
+const data$h = {
   "key": "v-72cc4ebc",
   "path": "/web/css/01-css.html",
   "title": "CSS",
@@ -8781,9 +9129,9 @@ const data$f = {
 var _01Css_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$f
+  data: data$h
 });
-const data$e = {
+const data$g = {
   "key": "v-1b13d411",
   "path": "/web/Flutter/01.html",
   "title": "Flutter",
@@ -8850,12 +9198,12 @@ const data$e = {
   },
   "filePathRelative": "web/Flutter/01.md"
 };
-var _01_html$2 = /* @__PURE__ */ Object.freeze({
+var _01_html$4 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$e
+  data: data$g
 });
-const data$d = {
+const data$f = {
   "key": "v-4d4398ea",
   "path": "/web/Flutter/02.Dart%E8%AF%AD%E6%B3%95.html",
   "title": "Dart\u8BED\u6CD5",
@@ -8937,9 +9285,9 @@ const data$d = {
 var _02_Dart___html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$d
+  data: data$f
 });
-const data$c = {
+const data$e = {
   "key": "v-6d6a57bd",
   "path": "/web/Flutter/09.%E4%B8%80%E5%88%87%E9%83%BD%E6%98%AFwidget.html",
   "title": "\u4E00\u5207\u90FD\u662Fwidget",
@@ -8973,9 +9321,9 @@ const data$c = {
 var _09_____widget_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$c
+  data: data$e
 });
-const data$b = {
+const data$d = {
   "key": "v-cce3d85c",
   "path": "/web/html/01-html.html",
   "title": "html",
@@ -9009,9 +9357,9 @@ const data$b = {
 var _01Html_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$b
+  data: data$d
 });
-const data$a = {
+const data$c = {
   "key": "v-72bd4e03",
   "path": "/web/JavaScript/%E5%85%A5%E9%97%A8%E5%AF%BC%E8%AE%BA.html",
   "title": "\u5165\u95E8\u5BFC\u8BBA",
@@ -9064,9 +9412,9 @@ const data$a = {
 var _____html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$a
+  data: data$c
 });
-const data$9 = {
+const data$b = {
   "key": "v-783b80d4",
   "path": "/web/JavaScript/%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1.html",
   "title": "\u5185\u7F6E\u5BF9\u8C61",
@@ -9211,9 +9559,9 @@ const data$9 = {
 var _____html$1 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$9
+  data: data$b
 });
-const data$8 = {
+const data$a = {
   "key": "v-5debe7e1",
   "path": "/web/JavaScript/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E4%B8%8E%E8%BF%90%E7%AE%97%E7%AC%A6.html",
   "title": "\u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26",
@@ -9327,9 +9675,9 @@ const data$8 = {
 var _________html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$8
+  data: data$a
 });
-const data$7 = {
+const data$9 = {
   "key": "v-24f06668",
   "path": "/web/JavaScript/%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80.html",
   "title": "\u8BED\u6CD5\u57FA\u7840",
@@ -9445,16 +9793,39 @@ const data$7 = {
 var _____html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$7
+  data: data$9
 });
-const data$6 = {
-  "key": "v-3689f102",
-  "path": "/web/TypeScript/01.html",
-  "title": "TypeScript",
+const data$8 = {
+  "key": "v-4fa2b6ab",
+  "path": "/web/Jenkins/01.html",
+  "title": "Jenkins",
   "lang": "zh-CN",
   "frontmatter": {
     "lang": "zh-CN",
-    "title": "TypeScript",
+    "title": "Jenkins",
+    "description": "Jenkins"
+  },
+  "excerpt": "",
+  "headers": [],
+  "git": {
+    "updatedTime": null,
+    "contributors": []
+  },
+  "filePathRelative": "web/Jenkins/01.md"
+};
+var _01_html$3 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  data: data$8
+});
+const data$7 = {
+  "key": "v-3689f102",
+  "path": "/web/TypeScript/01.html",
+  "title": "\u57FA\u7840\u7C7B\u578B",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "lang": "zh-CN",
+    "title": "\u57FA\u7840\u7C7B\u578B",
     "description": "TypeScript"
   },
   "excerpt": "",
@@ -9468,7 +9839,7 @@ const data$6 = {
     {
       "level": 2,
       "title": "\u57FA\u7840\u7C7B\u578B",
-      "slug": "\u57FA\u7840\u7C7B\u578B",
+      "slug": "\u57FA\u7840\u7C7B\u578B-1",
       "children": [
         {
           "level": 3,
@@ -9546,23 +9917,23 @@ const data$6 = {
     }
   ],
   "git": {
-    "updatedTime": 1650211696e3,
+    "updatedTime": 1650734651e3,
     "contributors": [
       {
         "name": "\u9648\u67D2",
         "email": "3062995371@qq.com",
-        "commits": 1
+        "commits": 2
       }
     ]
   },
   "filePathRelative": "web/TypeScript/01.md"
 };
-var _01_html$1 = /* @__PURE__ */ Object.freeze({
+var _01_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$6
+  data: data$7
 });
-const data$5 = {
+const data$6 = {
   "key": "v-998cc5e4",
   "path": "/web/TypeScript/02.%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E.html",
   "title": "\u53D8\u91CF\u58F0\u660E",
@@ -9585,20 +9956,32 @@ const data$5 = {
       "title": "let \u58F0\u660E",
       "slug": "let-\u58F0\u660E",
       "children": []
+    },
+    {
+      "level": 2,
+      "title": "const \u58F0\u660E",
+      "slug": "const-\u58F0\u660E",
+      "children": []
     }
   ],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1650734651e3,
+    "contributors": [
+      {
+        "name": "\u9648\u67D2",
+        "email": "3062995371@qq.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "web/TypeScript/02.\u53D8\u91CF\u58F0\u660E.md"
 };
 var _02______html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$5
+  data: data$6
 });
-const data$4 = {
+const data$5 = {
   "key": "v-e9674cca",
   "path": "/web/vue/01.html",
   "title": "vue\u524D\u7F6E",
@@ -9683,12 +10066,12 @@ const data$4 = {
   },
   "filePathRelative": "web/vue/01.md"
 };
-var _01_html = /* @__PURE__ */ Object.freeze({
+var _01_html$1 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$4
+  data: data$5
 });
-const data$3 = {
+const data$4 = {
   "key": "v-306f3916",
   "path": "/web/vue/02vue%E6%8C%87%E4%BB%A4.html",
   "title": "vue\u6307\u4EE4",
@@ -9777,9 +10160,9 @@ const data$3 = {
 var _02vue___html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$3
+  data: data$4
 });
-const data$2 = {
+const data$3 = {
   "key": "v-2ca8e124",
   "path": "/web/vue/03%E5%85%A8%E5%B1%80API.html",
   "title": "vue\u5168\u5C40API",
@@ -9841,6 +10224,29 @@ const data$2 = {
   "filePathRelative": "web/vue/03\u5168\u5C40API.md"
 };
 var _03__API_html = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  data: data$3
+});
+const data$2 = {
+  "key": "v-d71deaac",
+  "path": "/web/vue3/01.html",
+  "title": "vue\u524D\u7F6E",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "lang": "zh-CN",
+    "title": "vue\u524D\u7F6E",
+    "description": "vue\u63CF\u8FF0"
+  },
+  "excerpt": "",
+  "headers": [],
+  "git": {
+    "updatedTime": null,
+    "contributors": []
+  },
+  "filePathRelative": "web/vue3/01.md"
+};
+var _01_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   data: data$2
@@ -11129,9 +11535,30 @@ var Layout = /* @__PURE__ */ Object.freeze({
   [Symbol.toStringTag]: "Module",
   "default": _sfc_main$1
 });
-const _sfc_main = {};
+var MyTemplate_vue_vue_type_style_index_0_lang = "";
+const _sfc_main = {
+  name: "MyTemplate",
+  data() {
+    return {
+      child: [
+        { name: "1", about: "", link: "" },
+        { name: "2", about: "", link: "" },
+        { name: "3", about: "", link: "" }
+      ]
+    };
+  },
+  methods: {
+    test(e) {
+      console.log(e);
+    }
+  }
+};
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  _push(`<div${serverRenderer.ssrRenderAttrs(vue.mergeProps({ class: "mytemplate" }, _attrs))}><text>\u7EC4\u4EF6\u5360\u4F4D\u7B26</text></div>`);
+  _push(`<div${serverRenderer.ssrRenderAttrs(vue.mergeProps({ class: "test" }, _attrs))}><!--[-->`);
+  serverRenderer.ssrRenderList($data.child, (items, name) => {
+    _push(`<div class="childs"><div class="name"> \u300A${serverRenderer.ssrInterpolate(items.name)}\u300B </div><div class="about">\u4ECB\u7ECD</div></div>`);
+  });
+  _push(`<!--]--></div>`);
 }
 const _sfc_setup = _sfc_main.setup;
 _sfc_main.setup = (props, ctx) => {

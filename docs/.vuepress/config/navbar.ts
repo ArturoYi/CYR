@@ -26,6 +26,14 @@ export const navbar = [
       {
         text: 'WebPack',
         link: '/web/webpack/webpack.md',
+      },
+      {
+        text: 'vue3',
+        link: '/web/vue3/01.md',
+      },
+      {
+        text: 'Jenkins',
+        link: '/web/Jenkins/01.md',
       }
     ],
   },
@@ -45,5 +53,9 @@ export const navbar = [
         text: '故事', link: '/guide/故事/story.md'
       },
     ]
+  },
+  {
+    text: '项目实战',
+    link: '/actualCombat/README.md'
   }
 ]
