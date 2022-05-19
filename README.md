@@ -13,7 +13,7 @@
 你可以从一个主题入手：先构键自己的项目。
 这里推荐你两个主题(点击logo查看)：
 <p align="center">
-<a href="https://vuejs.org" target="_blank" rel="noopener noreferrer"><img width="150" src="https://i.loli.net/2020/01/13/TPKA1wp6s4ufSm2.png" alt="Vue logo">
+<a href="https://vuepress-theme-reco.recoluan.com/" target="_blank" rel="noopener noreferrer"><img width="150" src="https://i.loli.net/2020/01/13/TPKA1wp6s4ufSm2.png" alt="Vue logo">
 </a>
 </p>
 
