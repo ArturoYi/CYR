@@ -15,7 +15,7 @@ export const sidebar = {
       children: [
         '01.md',
         '02.Dart语法.md',
-        '09.一切都是widget.md',
+        '09.widget.md',
       ],
     },
   ],
