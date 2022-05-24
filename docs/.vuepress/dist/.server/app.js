@@ -24,7 +24,29 @@ var vueRouter = require("vue-router");
 var vue = require("vue");
 var core = require("@vueuse/core");
 var shared = require("@vuepress/shared");
+var nprogress$1 = require("nprogress");
 var serverRenderer = require("vue/server-renderer");
+function _interopNamespace(e) {
+  if (e && e.__esModule)
+    return e;
+  var n = { __proto__: null, [Symbol.toStringTag]: "Module" };
+  if (e) {
+    Object.keys(e).forEach(function(k) {
+      if (k !== "default") {
+        var d = Object.getOwnPropertyDescriptor(e, k);
+        Object.defineProperty(n, k, d.get ? d : {
+          enumerable: true,
+          get: function() {
+            return e[k];
+          }
+        });
+      }
+    });
+  }
+  n["default"] = e;
+  return Object.freeze(n);
+}
+var nprogress__namespace = /* @__PURE__ */ _interopNamespace(nprogress$1);
 const ClientOnly = vue.defineComponent({
   setup(_, ctx) {
     const isMounted = vue.ref(false);
@@ -86,11 +108,11 @@ const pagesComponents = {
   "v-4d4398ea": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return _02_Dart___html$2;
   })),
-  "v-50b379f7": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return _09_widget_html$2;
+  "v-8cbd5a1e": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return _03_widget_html$2;
   })),
-  "v-cce3d85c": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return _01Html_html$2;
+  "v-48456869": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return _04______html$2;
   })),
   "v-72bd4e03": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return _____html$8;
@@ -103,6 +125,9 @@ const pagesComponents = {
   })),
   "v-24f06668": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return _____html$4;
+  })),
+  "v-cce3d85c": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return _01Html_html$2;
   })),
   "v-4fa2b6ab": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return _01_html$c;
@@ -181,11 +206,11 @@ const pagesData$1 = {
   "v-4d4398ea": () => Promise.resolve().then(function() {
     return _02_Dart___html;
   }).then(({ data: data2 }) => data2),
-  "v-50b379f7": () => Promise.resolve().then(function() {
-    return _09_widget_html;
+  "v-8cbd5a1e": () => Promise.resolve().then(function() {
+    return _03_widget_html;
   }).then(({ data: data2 }) => data2),
-  "v-cce3d85c": () => Promise.resolve().then(function() {
-    return _01Html_html;
+  "v-48456869": () => Promise.resolve().then(function() {
+    return _04______html;
   }).then(({ data: data2 }) => data2),
   "v-72bd4e03": () => Promise.resolve().then(function() {
     return _____html$2;
@@ -198,6 +223,9 @@ const pagesData$1 = {
   }).then(({ data: data2 }) => data2),
   "v-24f06668": () => Promise.resolve().then(function() {
     return _____html;
+  }).then(({ data: data2 }) => data2),
+  "v-cce3d85c": () => Promise.resolve().then(function() {
+    return _01Html_html;
   }).then(({ data: data2 }) => data2),
   "v-4fa2b6ab": () => Promise.resolve().then(function() {
     return _01_html$3;
@@ -541,7 +569,8 @@ const themeData$1 = {
         "children": [
           "01.md",
           "02.Dart\u8BED\u6CD5.md",
-          "09.widget.md"
+          "03.widget.md",
+          "04.\u57FA\u7840\u7EC4\u4EF6.md"
         ]
       }
     ],
@@ -660,7 +689,7 @@ var clientAppEnhance2 = defineClientAppEnhance(({ app }) => {
     }
   });
 });
-const _sfc_main$M = /* @__PURE__ */ vue.defineComponent({
+const _sfc_main$N = /* @__PURE__ */ vue.defineComponent({
   __ssrInlineRender: true,
   props: {
     type: {
@@ -694,11 +723,11 @@ const _sfc_main$M = /* @__PURE__ */ vue.defineComponent({
     };
   }
 });
-const _sfc_setup$M = _sfc_main$M.setup;
-_sfc_main$M.setup = (props, ctx) => {
+const _sfc_setup$N = _sfc_main$N.setup;
+_sfc_main$N.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../../../../node_modules/@vuepress/theme-default/lib/client/components/global/Badge.vue");
-  return _sfc_setup$M ? _sfc_setup$M(props, ctx) : void 0;
+  return _sfc_setup$N ? _sfc_setup$N(props, ctx) : void 0;
 };
 var CodeGroup = vue.defineComponent({
   name: "CodeGroup",
@@ -781,7 +810,7 @@ var CodeGroup = vue.defineComponent({
 const __default__$1 = vue.defineComponent({
   name: "CodeGroupItem"
 });
-const _sfc_main$L = /* @__PURE__ */ vue.defineComponent(__spreadProps(__spreadValues({}, __default__$1), {
+const _sfc_main$M = /* @__PURE__ */ vue.defineComponent(__spreadProps(__spreadValues({}, __default__$1), {
   __ssrInlineRender: true,
   props: {
     title: {
@@ -805,11 +834,11 @@ const _sfc_main$L = /* @__PURE__ */ vue.defineComponent(__spreadProps(__spreadVa
     };
   }
 }));
-const _sfc_setup$L = _sfc_main$L.setup;
-_sfc_main$L.setup = (props, ctx) => {
+const _sfc_setup$M = _sfc_main$M.setup;
+_sfc_main$M.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../../../../node_modules/@vuepress/theme-default/lib/client/components/global/CodeGroupItem.vue");
-  return _sfc_setup$L ? _sfc_setup$L(props, ctx) : void 0;
+  return _sfc_setup$M ? _sfc_setup$M(props, ctx) : void 0;
 };
 const darkModeSymbol = Symbol("");
 const useDarkMode = () => {
@@ -972,7 +1001,7 @@ const resolveMultiSidebarItems = (sidebarConfig, sidebarDepth) => {
   return resolveArraySidebarItems(matchedSidebarConfig, sidebarDepth);
 };
 const useThemeLocaleData = () => useThemeLocaleData$1();
-const _sfc_main$K = /* @__PURE__ */ vue.defineComponent({
+const _sfc_main$L = /* @__PURE__ */ vue.defineComponent({
   __ssrInlineRender: true,
   setup(__props) {
     const themeLocale = useThemeLocaleData();
@@ -992,19 +1021,19 @@ const _sfc_main$K = /* @__PURE__ */ vue.defineComponent({
     };
   }
 });
-const _sfc_setup$K = _sfc_main$K.setup;
-_sfc_main$K.setup = (props, ctx) => {
+const _sfc_setup$L = _sfc_main$L.setup;
+_sfc_main$L.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../../../../node_modules/@vuepress/theme-default/lib/client/components/global/ExternalLinkIcon.vue");
-  return _sfc_setup$K ? _sfc_setup$K(props, ctx) : void 0;
+  return _sfc_setup$L ? _sfc_setup$L(props, ctx) : void 0;
 };
 var index = "";
 var clientAppEnhance3 = defineClientAppEnhance(({ app, router }) => {
-  app.component("Badge", _sfc_main$M);
+  app.component("Badge", _sfc_main$N);
   app.component("CodeGroup", CodeGroup);
-  app.component("CodeGroupItem", _sfc_main$L);
+  app.component("CodeGroupItem", _sfc_main$M);
   delete app._context.components.ExternalLinkIcon;
-  app.component("ExternalLinkIcon", _sfc_main$K);
+  app.component("ExternalLinkIcon", _sfc_main$L);
   app.component("NavbarSearch", () => {
     const SearchComponent = app.component("Docsearch") || app.component("SearchBox");
     if (SearchComponent) {
@@ -1852,25 +1881,44 @@ const searchIndex$1 = [
             "title": "StatefulWidget(\u91CD\u8981)",
             "slug": "statefulwidget-\u91CD\u8981",
             "children": []
+          },
+          {
+            "level": 3,
+            "title": "State",
+            "slug": "state",
+            "children": []
           }
         ]
+      },
+      {
+        "level": 2,
+        "title": "\u7A7A\u5B89\u5168\uFF08null safety\uFF09",
+        "slug": "\u7A7A\u5B89\u5168-null-safety",
+        "children": []
       }
     ],
-    "path": "/web/Flutter/09.widget.html",
+    "path": "/web/Flutter/03.widget.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "html",
+    "title": "\u57FA\u672C\u7EC4\u4EF6",
     "headers": [
       {
         "level": 2,
-        "title": "\u4EC0\u4E48\u662FHTML\uFF1F",
-        "slug": "\u4EC0\u4E48\u662Fhtml",
-        "children": []
+        "title": "Button\uFF08\u6309\u94AE\uFF09",
+        "slug": "button-\u6309\u94AE",
+        "children": [
+          {
+            "level": 3,
+            "title": "ElevatedButton",
+            "slug": "elevatedbutton",
+            "children": []
+          }
+        ]
       }
     ],
-    "path": "/web/html/01-html.html",
+    "path": "/web/Flutter/04.%E5%9F%BA%E7%A1%80%E7%BB%84%E4%BB%B6.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2211,6 +2259,20 @@ const searchIndex$1 = [
       }
     ],
     "path": "/web/JavaScript/%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "html",
+    "headers": [
+      {
+        "level": 2,
+        "title": "\u4EC0\u4E48\u662FHTML\uFF1F",
+        "slug": "\u4EC0\u4E48\u662Fhtml",
+        "children": []
+      }
+    ],
+    "path": "/web/html/01-html.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2894,279 +2956,6 @@ const clientAppRootComponents = [
 var clientAppSetup0 = defineClientAppSetup(() => {
   return;
 });
-var commonjsGlobal = typeof globalThis !== "undefined" ? globalThis : typeof window !== "undefined" ? window : typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : {};
-var nprogress$1 = { exports: {} };
-/* NProgress, (c) 2013, 2014 Rico Sta. Cruz - http://ricostacruz.com/nprogress
- * @license MIT */
-(function(module, exports2) {
-  (function(root, factory) {
-    {
-      module.exports = factory();
-    }
-  })(commonjsGlobal, function() {
-    var NProgress = {};
-    NProgress.version = "0.2.0";
-    var Settings = NProgress.settings = {
-      minimum: 0.08,
-      easing: "ease",
-      positionUsing: "",
-      speed: 200,
-      trickle: true,
-      trickleRate: 0.02,
-      trickleSpeed: 800,
-      showSpinner: true,
-      barSelector: '[role="bar"]',
-      spinnerSelector: '[role="spinner"]',
-      parent: "body",
-      template: '<div class="bar" role="bar"><div class="peg"></div></div><div class="spinner" role="spinner"><div class="spinner-icon"></div></div>'
-    };
-    NProgress.configure = function(options) {
-      var key, value;
-      for (key in options) {
-        value = options[key];
-        if (value !== void 0 && options.hasOwnProperty(key))
-          Settings[key] = value;
-      }
-      return this;
-    };
-    NProgress.status = null;
-    NProgress.set = function(n) {
-      var started = NProgress.isStarted();
-      n = clamp(n, Settings.minimum, 1);
-      NProgress.status = n === 1 ? null : n;
-      var progress = NProgress.render(!started), bar = progress.querySelector(Settings.barSelector), speed = Settings.speed, ease = Settings.easing;
-      progress.offsetWidth;
-      queue(function(next) {
-        if (Settings.positionUsing === "")
-          Settings.positionUsing = NProgress.getPositioningCSS();
-        css(bar, barPositionCSS(n, speed, ease));
-        if (n === 1) {
-          css(progress, {
-            transition: "none",
-            opacity: 1
-          });
-          progress.offsetWidth;
-          setTimeout(function() {
-            css(progress, {
-              transition: "all " + speed + "ms linear",
-              opacity: 0
-            });
-            setTimeout(function() {
-              NProgress.remove();
-              next();
-            }, speed);
-          }, speed);
-        } else {
-          setTimeout(next, speed);
-        }
-      });
-      return this;
-    };
-    NProgress.isStarted = function() {
-      return typeof NProgress.status === "number";
-    };
-    NProgress.start = function() {
-      if (!NProgress.status)
-        NProgress.set(0);
-      var work = function() {
-        setTimeout(function() {
-          if (!NProgress.status)
-            return;
-          NProgress.trickle();
-          work();
-        }, Settings.trickleSpeed);
-      };
-      if (Settings.trickle)
-        work();
-      return this;
-    };
-    NProgress.done = function(force) {
-      if (!force && !NProgress.status)
-        return this;
-      return NProgress.inc(0.3 + 0.5 * Math.random()).set(1);
-    };
-    NProgress.inc = function(amount) {
-      var n = NProgress.status;
-      if (!n) {
-        return NProgress.start();
-      } else {
-        if (typeof amount !== "number") {
-          amount = (1 - n) * clamp(Math.random() * n, 0.1, 0.95);
-        }
-        n = clamp(n + amount, 0, 0.994);
-        return NProgress.set(n);
-      }
-    };
-    NProgress.trickle = function() {
-      return NProgress.inc(Math.random() * Settings.trickleRate);
-    };
-    (function() {
-      var initial = 0, current = 0;
-      NProgress.promise = function($promise) {
-        if (!$promise || $promise.state() === "resolved") {
-          return this;
-        }
-        if (current === 0) {
-          NProgress.start();
-        }
-        initial++;
-        current++;
-        $promise.always(function() {
-          current--;
-          if (current === 0) {
-            initial = 0;
-            NProgress.done();
-          } else {
-            NProgress.set((initial - current) / initial);
-          }
-        });
-        return this;
-      };
-    })();
-    NProgress.render = function(fromStart) {
-      if (NProgress.isRendered())
-        return document.getElementById("nprogress");
-      addClass(document.documentElement, "nprogress-busy");
-      var progress = document.createElement("div");
-      progress.id = "nprogress";
-      progress.innerHTML = Settings.template;
-      var bar = progress.querySelector(Settings.barSelector), perc = fromStart ? "-100" : toBarPerc(NProgress.status || 0), parent = document.querySelector(Settings.parent), spinner;
-      css(bar, {
-        transition: "all 0 linear",
-        transform: "translate3d(" + perc + "%,0,0)"
-      });
-      if (!Settings.showSpinner) {
-        spinner = progress.querySelector(Settings.spinnerSelector);
-        spinner && removeElement(spinner);
-      }
-      if (parent != document.body) {
-        addClass(parent, "nprogress-custom-parent");
-      }
-      parent.appendChild(progress);
-      return progress;
-    };
-    NProgress.remove = function() {
-      removeClass(document.documentElement, "nprogress-busy");
-      removeClass(document.querySelector(Settings.parent), "nprogress-custom-parent");
-      var progress = document.getElementById("nprogress");
-      progress && removeElement(progress);
-    };
-    NProgress.isRendered = function() {
-      return !!document.getElementById("nprogress");
-    };
-    NProgress.getPositioningCSS = function() {
-      var bodyStyle = document.body.style;
-      var vendorPrefix = "WebkitTransform" in bodyStyle ? "Webkit" : "MozTransform" in bodyStyle ? "Moz" : "msTransform" in bodyStyle ? "ms" : "OTransform" in bodyStyle ? "O" : "";
-      if (vendorPrefix + "Perspective" in bodyStyle) {
-        return "translate3d";
-      } else if (vendorPrefix + "Transform" in bodyStyle) {
-        return "translate";
-      } else {
-        return "margin";
-      }
-    };
-    function clamp(n, min, max) {
-      if (n < min)
-        return min;
-      if (n > max)
-        return max;
-      return n;
-    }
-    function toBarPerc(n) {
-      return (-1 + n) * 100;
-    }
-    function barPositionCSS(n, speed, ease) {
-      var barCSS;
-      if (Settings.positionUsing === "translate3d") {
-        barCSS = { transform: "translate3d(" + toBarPerc(n) + "%,0,0)" };
-      } else if (Settings.positionUsing === "translate") {
-        barCSS = { transform: "translate(" + toBarPerc(n) + "%,0)" };
-      } else {
-        barCSS = { "margin-left": toBarPerc(n) + "%" };
-      }
-      barCSS.transition = "all " + speed + "ms " + ease;
-      return barCSS;
-    }
-    var queue = function() {
-      var pending = [];
-      function next() {
-        var fn = pending.shift();
-        if (fn) {
-          fn(next);
-        }
-      }
-      return function(fn) {
-        pending.push(fn);
-        if (pending.length == 1)
-          next();
-      };
-    }();
-    var css = function() {
-      var cssPrefixes = ["Webkit", "O", "Moz", "ms"], cssProps = {};
-      function camelCase(string) {
-        return string.replace(/^-ms-/, "ms-").replace(/-([\da-z])/gi, function(match, letter) {
-          return letter.toUpperCase();
-        });
-      }
-      function getVendorProp(name) {
-        var style = document.body.style;
-        if (name in style)
-          return name;
-        var i = cssPrefixes.length, capName = name.charAt(0).toUpperCase() + name.slice(1), vendorName;
-        while (i--) {
-          vendorName = cssPrefixes[i] + capName;
-          if (vendorName in style)
-            return vendorName;
-        }
-        return name;
-      }
-      function getStyleProp(name) {
-        name = camelCase(name);
-        return cssProps[name] || (cssProps[name] = getVendorProp(name));
-      }
-      function applyCss(element, prop, value) {
-        prop = getStyleProp(prop);
-        element.style[prop] = value;
-      }
-      return function(element, properties) {
-        var args = arguments, prop, value;
-        if (args.length == 2) {
-          for (prop in properties) {
-            value = properties[prop];
-            if (value !== void 0 && properties.hasOwnProperty(prop))
-              applyCss(element, prop, value);
-          }
-        } else {
-          applyCss(element, args[1], args[2]);
-        }
-      };
-    }();
-    function hasClass(element, name) {
-      var list = typeof element == "string" ? element : classList(element);
-      return list.indexOf(" " + name + " ") >= 0;
-    }
-    function addClass(element, name) {
-      var oldList = classList(element), newList = oldList + name;
-      if (hasClass(oldList, name))
-        return;
-      element.className = newList.substring(1);
-    }
-    function removeClass(element, name) {
-      var oldList = classList(element), newList;
-      if (!hasClass(element, name))
-        return;
-      newList = oldList.replace(" " + name + " ", " ");
-      element.className = newList.substring(1, newList.length - 1);
-    }
-    function classList(element) {
-      return (" " + (element.className || "") + " ").replace(/\s+/gi, " ");
-    }
-    function removeElement(element) {
-      element && element.parentNode && element.parentNode.removeChild(element);
-    }
-    return NProgress;
-  });
-})(nprogress$1);
 var vars = "";
 var nprogress = "";
 const useNprogress = () => {
@@ -3174,15 +2963,15 @@ const useNprogress = () => {
     const router = vueRouter.useRouter();
     const loadedPages = new Set();
     loadedPages.add(router.currentRoute.value.path);
-    nprogress$1.exports.configure({ showSpinner: false });
+    nprogress__namespace.configure({ showSpinner: false });
     router.beforeEach((to) => {
       if (!loadedPages.has(to.path)) {
-        nprogress$1.exports.start();
+        nprogress__namespace.start();
       }
     });
     router.afterEach((to) => {
       loadedPages.add(to.path);
-      nprogress$1.exports.done();
+      nprogress__namespace.done();
     });
   });
 };
@@ -3215,12 +3004,13 @@ const routeItems = [
   ["v-72cc4ebc", "/web/css/01-css.html", { "title": "CSS" }, ["/web/css/01-css", "/web/css/01-css.md"]],
   ["v-1b13d411", "/web/Flutter/01.html", { "title": "Flutter" }, ["/web/Flutter/01", "/web/Flutter/01.md"]],
   ["v-4d4398ea", "/web/Flutter/02.Dart%E8%AF%AD%E6%B3%95.html", { "title": "Dart\u8BED\u6CD5" }, ["/web/Flutter/02.Dart\u8BED\u6CD5.html", "/web/Flutter/02.Dart%E8%AF%AD%E6%B3%95", "/web/Flutter/02.Dart\u8BED\u6CD5.md", "/web/Flutter/02.Dart%E8%AF%AD%E6%B3%95.md"]],
-  ["v-50b379f7", "/web/Flutter/09.widget.html", { "title": "widget" }, ["/web/Flutter/09.widget", "/web/Flutter/09.widget.md"]],
-  ["v-cce3d85c", "/web/html/01-html.html", { "title": "html" }, ["/web/html/01-html", "/web/html/01-html.md"]],
+  ["v-8cbd5a1e", "/web/Flutter/03.widget.html", { "title": "widget" }, ["/web/Flutter/03.widget", "/web/Flutter/03.widget.md"]],
+  ["v-48456869", "/web/Flutter/04.%E5%9F%BA%E7%A1%80%E7%BB%84%E4%BB%B6.html", { "title": "\u57FA\u672C\u7EC4\u4EF6" }, ["/web/Flutter/04.\u57FA\u7840\u7EC4\u4EF6.html", "/web/Flutter/04.%E5%9F%BA%E7%A1%80%E7%BB%84%E4%BB%B6", "/web/Flutter/04.\u57FA\u7840\u7EC4\u4EF6.md", "/web/Flutter/04.%E5%9F%BA%E7%A1%80%E7%BB%84%E4%BB%B6.md"]],
   ["v-72bd4e03", "/web/JavaScript/%E5%85%A5%E9%97%A8%E5%AF%BC%E8%AE%BA.html", { "title": "\u5165\u95E8\u5BFC\u8BBA" }, ["/web/JavaScript/\u5165\u95E8\u5BFC\u8BBA.html", "/web/JavaScript/%E5%85%A5%E9%97%A8%E5%AF%BC%E8%AE%BA", "/web/JavaScript/\u5165\u95E8\u5BFC\u8BBA.md", "/web/JavaScript/%E5%85%A5%E9%97%A8%E5%AF%BC%E8%AE%BA.md"]],
   ["v-783b80d4", "/web/JavaScript/%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1.html", { "title": "\u5185\u7F6E\u5BF9\u8C61" }, ["/web/JavaScript/\u5185\u7F6E\u5BF9\u8C61.html", "/web/JavaScript/%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1", "/web/JavaScript/\u5185\u7F6E\u5BF9\u8C61.md", "/web/JavaScript/%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1.md"]],
   ["v-5debe7e1", "/web/JavaScript/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E4%B8%8E%E8%BF%90%E7%AE%97%E7%AC%A6.html", { "title": "\u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26" }, ["/web/JavaScript/\u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26.html", "/web/JavaScript/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E4%B8%8E%E8%BF%90%E7%AE%97%E7%AC%A6", "/web/JavaScript/\u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26.md", "/web/JavaScript/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E4%B8%8E%E8%BF%90%E7%AE%97%E7%AC%A6.md"]],
   ["v-24f06668", "/web/JavaScript/%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80.html", { "title": "\u8BED\u6CD5\u57FA\u7840" }, ["/web/JavaScript/\u8BED\u6CD5\u57FA\u7840.html", "/web/JavaScript/%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80", "/web/JavaScript/\u8BED\u6CD5\u57FA\u7840.md", "/web/JavaScript/%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80.md"]],
+  ["v-cce3d85c", "/web/html/01-html.html", { "title": "html" }, ["/web/html/01-html", "/web/html/01-html.md"]],
   ["v-4fa2b6ab", "/web/Jenkins/01.html", { "title": "Jenkins" }, ["/web/Jenkins/01", "/web/Jenkins/01.md"]],
   ["v-3689f102", "/web/TypeScript/01.html", { "title": "\u57FA\u7840\u7C7B\u578B" }, ["/web/TypeScript/01", "/web/TypeScript/01.md"]],
   ["v-998cc5e4", "/web/TypeScript/02.%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E.html", { "title": "\u53D8\u91CF\u58F0\u660E" }, ["/web/TypeScript/02.\u53D8\u91CF\u58F0\u660E.html", "/web/TypeScript/02.%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E", "/web/TypeScript/02.\u53D8\u91CF\u58F0\u660E.md", "/web/TypeScript/02.%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E.md"]],
@@ -3331,8 +3121,8 @@ var _export_sfc = (sfc, props) => {
   }
   return target;
 };
-const _sfc_main$J = {};
-function _sfc_ssrRender$v(_ctx, _push, _parent, _attrs) {
+const _sfc_main$K = {};
+function _sfc_ssrRender$w(_ctx, _push, _parent, _attrs) {
   const _component_CodeGroup = vue.resolveComponent("CodeGroup");
   const _component_CodeGroupItem = vue.resolveComponent("CodeGroupItem");
   _push(`<!--[--><h3 id="_1\u30012\u30013" tabindex="-1"><a class="header-anchor" href="#_1\u30012\u30013" aria-hidden="true">#</a> 1\u30012\u30013</h3>`);
@@ -4354,37 +4144,37 @@ int <span class="token function"${_scopeId2}>main</span><span class="token punct
   }, _parent));
   _push(`<!--]-->`);
 }
-const _sfc_setup$J = _sfc_main$J.setup;
-_sfc_main$J.setup = (props, ctx) => {
+const _sfc_setup$K = _sfc_main$K.setup;
+_sfc_main$K.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/index.html.vue");
-  return _sfc_setup$J ? _sfc_setup$J(props, ctx) : void 0;
+  return _sfc_setup$K ? _sfc_setup$K(props, ctx) : void 0;
 };
-var index_html$7 = /* @__PURE__ */ _export_sfc(_sfc_main$J, [["ssrRender", _sfc_ssrRender$v]]);
+var index_html$7 = /* @__PURE__ */ _export_sfc(_sfc_main$K, [["ssrRender", _sfc_ssrRender$w]]);
 var index_html$8 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": index_html$7
 });
-const _sfc_main$I = {};
-function _sfc_ssrRender$u(_ctx, _push, _parent, _attrs) {
+const _sfc_main$J = {};
+function _sfc_ssrRender$v(_ctx, _push, _parent, _attrs) {
   const _component_MyTemplate = vue.resolveComponent("MyTemplate");
   _push(serverRenderer.ssrRenderComponent(_component_MyTemplate, _attrs, null, _parent));
 }
-const _sfc_setup$I = _sfc_main$I.setup;
-_sfc_main$I.setup = (props, ctx) => {
+const _sfc_setup$J = _sfc_main$J.setup;
+_sfc_main$J.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/actualCombat/index.html.vue");
-  return _sfc_setup$I ? _sfc_setup$I(props, ctx) : void 0;
+  return _sfc_setup$J ? _sfc_setup$J(props, ctx) : void 0;
 };
-var index_html$5 = /* @__PURE__ */ _export_sfc(_sfc_main$I, [["ssrRender", _sfc_ssrRender$u]]);
+var index_html$5 = /* @__PURE__ */ _export_sfc(_sfc_main$J, [["ssrRender", _sfc_ssrRender$v]]);
 var index_html$6 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": index_html$5
 });
-const _sfc_main$H = {};
-function _sfc_ssrRender$t(_ctx, _push, _parent, _attrs) {
+const _sfc_main$I = {};
+function _sfc_ssrRender$u(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h1 id="elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247" tabindex="-1"><a class="header-anchor" href="#elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247" aria-hidden="true">#</a> elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247</h1><h2 id="\u63D2\u5165\u5355\u5F20-\u60AC\u6D6E\u9884\u89C8" tabindex="-1"><a class="header-anchor" href="#\u63D2\u5165\u5355\u5F20-\u60AC\u6D6E\u9884\u89C8" aria-hidden="true">#</a> \u63D2\u5165\u5355\u5F20\uFF0C\u60AC\u6D6E\u9884\u89C8</h2><div class="custom-container warning"><p class="custom-container-title">\u6CE8\u610F</p><p>\u4E0B\u9762<code>scope.row</code>\u8868\u793A\u5F53\u524D\u7684\u884C\u5BF9\u8C61</p></div><div class="language-html ext-html line-numbers-mode"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>el-table-column</span>  <span class="token attr-name">label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>\u56FE\u7247<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span> <span class="token attr-name">slot-scope</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>scope<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>el-popover</span> <span class="token attr-name">placement</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>top-start<span class="token punctuation">&quot;</span></span> <span class="token attr-name">title</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span><span class="token punctuation">&quot;</span></span> <span class="token attr-name">trigger</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>hover<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
@@ -4414,20 +4204,20 @@ function _sfc_ssrRender$t(_ctx, _push, _parent, _attrs) {
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>el-table-column</span><span class="token punctuation">&gt;</span></span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><!--]-->`);
 }
-const _sfc_setup$H = _sfc_main$H.setup;
-_sfc_main$H.setup = (props, ctx) => {
+const _sfc_setup$I = _sfc_main$I.setup;
+_sfc_main$I.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/course/elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247.html.vue");
-  return _sfc_setup$H ? _sfc_setup$H(props, ctx) : void 0;
+  return _sfc_setup$I ? _sfc_setup$I(props, ctx) : void 0;
 };
-var elementui_________html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$H, [["ssrRender", _sfc_ssrRender$t]]);
+var elementui_________html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$I, [["ssrRender", _sfc_ssrRender$u]]);
 var elementui_________html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": elementui_________html$1
 });
-const _sfc_main$G = {};
-function _sfc_ssrRender$s(_ctx, _push, _parent, _attrs) {
+const _sfc_main$H = {};
+function _sfc_ssrRender$t(_ctx, _push, _parent, _attrs) {
   const _component_ClientOnly = vue.resolveComponent("ClientOnly");
   const _component_MyTemplate = vue.resolveComponent("MyTemplate");
   _push(`<!--[--><h2 id="clientonly\u4F7F\u7528\u7EC4\u4EF6" tabindex="-1"><a class="header-anchor" href="#clientonly\u4F7F\u7528\u7EC4\u4EF6" aria-hidden="true">#</a> ClientOnly\u4F7F\u7528\u7EC4\u4EF6</h2>`);
@@ -4445,20 +4235,20 @@ function _sfc_ssrRender$s(_ctx, _push, _parent, _attrs) {
   }, _parent));
   _push(`<!--]-->`);
 }
-const _sfc_setup$G = _sfc_main$G.setup;
-_sfc_main$G.setup = (props, ctx) => {
+const _sfc_setup$H = _sfc_main$H.setup;
+_sfc_main$H.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/course/index.html.vue");
-  return _sfc_setup$G ? _sfc_setup$G(props, ctx) : void 0;
+  return _sfc_setup$H ? _sfc_setup$H(props, ctx) : void 0;
 };
-var index_html$3 = /* @__PURE__ */ _export_sfc(_sfc_main$G, [["ssrRender", _sfc_ssrRender$s]]);
+var index_html$3 = /* @__PURE__ */ _export_sfc(_sfc_main$H, [["ssrRender", _sfc_ssrRender$t]]);
 var index_html$4 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": index_html$3
 });
-const _sfc_main$F = {};
-function _sfc_ssrRender$r(_ctx, _push, _parent, _attrs) {
+const _sfc_main$G = {};
+function _sfc_ssrRender$s(_ctx, _push, _parent, _attrs) {
   const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
   _push(`<!--[--><h1 id="\u8D44\u6E90\u5DE5\u5177" tabindex="-1"><a class="header-anchor" href="#\u8D44\u6E90\u5DE5\u5177" aria-hidden="true">#</a> \u8D44\u6E90\u5DE5\u5177</h1><h2 id="_1-\u529E\u516C\u88C5\u673A" tabindex="-1"><a class="header-anchor" href="#_1-\u529E\u516C\u88C5\u673A" aria-hidden="true">#</a> 1. \u529E\u516C\u88C5\u673A</h2><p><a href="https://www.7-zip.org/" target="_blank" rel="noopener noreferrer">7-zip`);
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
@@ -4484,20 +4274,20 @@ function _sfc_ssrRender$r(_ctx, _push, _parent, _attrs) {
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
   _push(`</a></p><h2 id="_2-\u5F00\u53D1\u8F6F\u4EF6" tabindex="-1"><a class="header-anchor" href="#_2-\u5F00\u53D1\u8F6F\u4EF6" aria-hidden="true">#</a> 2. \u5F00\u53D1\u8F6F\u4EF6</h2><p>1\uFE0F\u20E3 \u2003 <a href="">VSCode</a></p><p>2\uFE0F\u20E3</p><p>3\uFE0F\u20E3</p><!--]-->`);
 }
-const _sfc_setup$F = _sfc_main$F.setup;
-_sfc_main$F.setup = (props, ctx) => {
+const _sfc_setup$G = _sfc_main$G.setup;
+_sfc_main$G.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/course/utils.html.vue");
-  return _sfc_setup$F ? _sfc_setup$F(props, ctx) : void 0;
+  return _sfc_setup$G ? _sfc_setup$G(props, ctx) : void 0;
 };
-var utils_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$F, [["ssrRender", _sfc_ssrRender$r]]);
+var utils_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$G, [["ssrRender", _sfc_ssrRender$s]]);
 var utils_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": utils_html$1
 });
-const _sfc_main$E = {};
-function _sfc_ssrRender$q(_ctx, _push, _parent, _attrs) {
+const _sfc_main$F = {};
+function _sfc_ssrRender$r(_ctx, _push, _parent, _attrs) {
   const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
   _push(`<!--[--><h1 id="vscode\u5E38\u7528\u63D2\u4EF6" tabindex="-1"><a class="header-anchor" href="#vscode\u5E38\u7528\u63D2\u4EF6" aria-hidden="true">#</a> vscode\u5E38\u7528\u63D2\u4EF6</h1><ol><li><a href="https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode" target="_blank" rel="noopener noreferrer">Tabnine`);
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
@@ -4509,20 +4299,20 @@ function _sfc_ssrRender$q(_ctx, _push, _parent, _attrs) {
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
   _push(`</a></li></ol><!--]-->`);
 }
-const _sfc_setup$E = _sfc_main$E.setup;
-_sfc_main$E.setup = (props, ctx) => {
+const _sfc_setup$F = _sfc_main$F.setup;
+_sfc_main$F.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/course/vscode\u5E38\u7528\u63D2\u4EF6.html.vue");
-  return _sfc_setup$E ? _sfc_setup$E(props, ctx) : void 0;
+  return _sfc_setup$F ? _sfc_setup$F(props, ctx) : void 0;
 };
-var vscode_____html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$E, [["ssrRender", _sfc_ssrRender$q]]);
+var vscode_____html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$F, [["ssrRender", _sfc_ssrRender$r]]);
 var vscode_____html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": vscode_____html$1
 });
-const _sfc_main$D = {};
-function _sfc_ssrRender$p(_ctx, _push, _parent, _attrs) {
+const _sfc_main$E = {};
+function _sfc_ssrRender$q(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h1 id="\u5E8F\u8A00" tabindex="-1"><a class="header-anchor" href="#\u5E8F\u8A00" aria-hidden="true">#</a> \u5E8F\u8A00</h1><h2 id="\u9002\u5408\u4EBA\u7FA4" tabindex="-1"><a class="header-anchor" href="#\u9002\u5408\u4EBA\u7FA4" aria-hidden="true">#</a> \u9002\u5408\u4EBA\u7FA4</h2><ul><li>\u5DF2\u6709Flutter\u57FA\u7840\u7684\u5C0F\u4F19\u4F34</li><li>\u7F3A\u4E4FFlutter\u9879\u76EE\u7ECF\u9A8C\u7684\u5F00\u53D1\u4EBA\u5458</li><li>\u72EC\u7ACB\u5B8C\u6210\u9879\u76EE\u6216\u6BD5\u8BBE\u7684\u5927\u5B66\u751F</li></ul><h2 id="_1-\u9879\u76EE\u7ED3\u6784" tabindex="-1"><a class="header-anchor" href="#_1-\u9879\u76EE\u7ED3\u6784" aria-hidden="true">#</a> 1.\u9879\u76EE\u7ED3\u6784</h2><div class="language-file ext-file line-numbers-mode"><pre class="language-file"><code>|---flutter_locyin
 |     |---android  
 |     |---assets  
@@ -4560,37 +4350,37 @@ function _sfc_ssrRender$p(_ctx, _push, _parent, _attrs) {
 |     \u2514\u2500\u2500 pubspec.yaml //\u4F9D\u8D56\u914D\u7F6E\u7BA1\u7406  
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br></div></div><h2 id="_2-\u8D77\u6B65" tabindex="-1"><a class="header-anchor" href="#_2-\u8D77\u6B65" aria-hidden="true">#</a> 2.\u8D77\u6B65</h2><h2 id="_3-\u9519\u8BEF\u6355\u83B7\u548C\u4E0A\u62A5" tabindex="-1"><a class="header-anchor" href="#_3-\u9519\u8BEF\u6355\u83B7\u548C\u4E0A\u62A5" aria-hidden="true">#</a> 3.\u9519\u8BEF\u6355\u83B7\u548C\u4E0A\u62A5</h2><h2 id="_4-\u62BD\u5C49\u9875" tabindex="-1"><a class="header-anchor" href="#_4-\u62BD\u5C49\u9875" aria-hidden="true">#</a> 4.\u62BD\u5C49\u9875</h2><h2 id="_5-\u8DEF\u7531\u7BA1\u7406-getx" tabindex="-1"><a class="header-anchor" href="#_5-\u8DEF\u7531\u7BA1\u7406-getx" aria-hidden="true">#</a> 5.\u8DEF\u7531\u7BA1\u7406\uFF08getX\uFF09</h2><h2 id="_6-\u56FD\u9645\u5316-getx" tabindex="-1"><a class="header-anchor" href="#_6-\u56FD\u9645\u5316-getx" aria-hidden="true">#</a> 6.\u56FD\u9645\u5316\uFF08getX\uFF09</h2><!--]-->`);
 }
-const _sfc_setup$D = _sfc_main$D.setup;
-_sfc_main$D.setup = (props, ctx) => {
+const _sfc_setup$E = _sfc_main$E.setup;
+_sfc_main$E.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/actualCombat/\u300AFlutter\u5DE5\u7A0B\u5B9E\u6218\u300B/01.\u8D77\u6B65.html.vue");
-  return _sfc_setup$D ? _sfc_setup$D(props, ctx) : void 0;
+  return _sfc_setup$E ? _sfc_setup$E(props, ctx) : void 0;
 };
-var _01____html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$D, [["ssrRender", _sfc_ssrRender$p]]);
+var _01____html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$E, [["ssrRender", _sfc_ssrRender$q]]);
 var _01____html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _01____html$1
 });
-const _sfc_main$C = {};
-function _sfc_ssrRender$o(_ctx, _push, _parent, _attrs) {
+const _sfc_main$D = {};
+function _sfc_ssrRender$p(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h1 id="\u95EE\u9898\u96C6\u9526" tabindex="-1"><a class="header-anchor" href="#\u95EE\u9898\u96C6\u9526" aria-hidden="true">#</a> \u95EE\u9898\u96C6\u9526</h1><div class="custom-container tip"><p class="custom-container-title">\u9762\u8BD5</p><p>\u5E38\u89C1\u9762\u8BD5\u96C6\u9526</p></div><h2 id="\u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD" tabindex="-1"><a class="header-anchor" href="#\u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD" aria-hidden="true">#</a> \u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD</h2><p><strong>\u63D0\u793A</strong>\uFF1A\u4E00\u822C\u4EBA\u56DE\u7B54\u8FD9\u4E2A\u95EE\u9898\u8FC7\u4E8E\u5E73\u5E38\uFF0C\u59D3\u540D\u3001\u5E74\u9F84\u3001\u7231\u597D\u3001\u5DE5\u4F5C\u7ECF\u9A8C\uFF0C\u8FD9\u4E9B\u7B80\u5386\u4E0A\u90FD\u6709\u3002\u4F01\u4E1A\uFF08\u9762\u8BD5\u5B98\uFF09\u6700\u5E0C\u671B\u77E5\u9053\u7684\u662F\u6C42\u804C\u8005\u80FD\u5426\u80DC\u4EFB\u5DE5\u4F5C\uFF0C\u5305\u62EC\uFF1A\u6700\u5F3A\u7684\u6280\u80FD\u3001\u6700\u6DF1\u5165\u7814\u7A76\u7684\u9886\u57DF\u3001\u4E2A\u6027\u4E2D\u6700\u79EF\u6781\u7684\u90E8\u5206\u3001\u505A\u8FC7\u6700\u6210\u529F\u7684\u4E8B\uFF0C\u4E3B\u8981\u6210\u5C31\u7B49\uFF0C\u8981\u7A81\u51FA\u79EF\u6781\u7684\u4E2A\u6027\u548C\u505A\u4E8B\u7684\u80FD\u529B\uFF0C\u8BF4\u7684\u5408\u60C5\u5408\u7406\u4F01\u4E1A\uFF08\u9762\u8BD5\u5B98\uFF09\u624D\u4F1A\u76F8\u4FE1\u3002</p><h2 id="\u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48" tabindex="-1"><a class="header-anchor" href="#\u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48" aria-hidden="true">#</a> \u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48\uFF1F</h2><p><strong>\u56DE\u7B54\u63D0\u793A</strong>\uFF1A \u6C89\u7740\u51B7\u9759\u3001\u6761\u7406\u6E05\u695A\u3001\u7ACB\u573A\u575A\u5B9A\u3001\u4E50\u4E8E\u52A9\u4EBA\u7B49\uFF0C\u52A0\u4E0A\u4F8B\u5B50\u5982\uFF1A\u6211\u5728XX\u7ECF\u8FC7\u4E00\u5230\u4E24\u5E74\u7684\u57F9\u8BAD\u53CA\u9879\u76EE\u5B9E\u6218\uFF0C\u52A0\u4E0A\u5B9E\u4E60\u5DE5\u4F5C\uFF0C\u6211\u60F3\u6211\u9002\u5408\u8FD9\u4EFD\u5DE5\u4F5C\u3002</p><h2 id="\u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9" tabindex="-1"><a class="header-anchor" href="#\u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9" aria-hidden="true">#</a> \u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u8FD9\u4E2A\u95EE\u9898\u4F01\u4E1A\u95EE\u7684\u6982\u7387\u5F88\u5927\uFF0C\u901A\u5E38\u4E0D\u5E0C\u671B\u542C\u5230\u76F4\u63A5\u56DE\u7B54\u7684\u7F3A\u70B9\u662F\u4EC0\u4E48\u7B49\uFF0C\u5982\u679C\u6C42\u804C\u8005\u8BF4\u81EA\u5DF1\u5C0F\u5FC3\u773C\u3001\u975E\u5E38\u61D2\u3001\u5DE5\u4F5C\u6548\u7387\u4F4E\uFF0C\u4F01\u4E1A\u80AF\u5B9A\u4E0D\u4F1A\u5F55\u7528\u4F60\u3002\u8981\u4ECE\u81EA\u5DF1\u7684\u4F18\u70B9\u8BF4\u8D77\uFF0C\u4E2D\u95F4\u52A0\u4E00\u4E9B\u5C0F\u7F3A\u70B9\uFF0C\u6700\u540E\u518D\u628A\u95EE\u7B54\u8F6C\u56DE\u5230\u4F18\u70B9\u4E0A\uFF0C\u7A81\u51FA\u4F18\u70B9\u7684\u90E8\u5206\u3002</p><h2 id="\u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5" tabindex="-1"><a class="header-anchor" href="#\u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5" aria-hidden="true">#</a> \u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A\u5B9E\u9645\u4E0A\u597D\u591A\u516C\u53F8\u95EE\u8FD9\u4E2A\u95EE\u9898\uFF0C\u5E76\u4E0D\u8BC1\u660E\u4E00\u5B9A\u8981\u52A0\u73ED\uFF0C\u53EA\u662F\u60F3\u6D4B\u8BD5\u4F60\u662F\u5426\u613F\u610F\u4E3A\u516C\u53F8\u5949\u732E\u3002</p><p><strong>\u6837\u672C</strong>\uFF1A\u5982\u679C\u662F\u5DE5\u4F5C\u9700\u8981\u6211\u4F1A\u4E49\u4E0D\u5BB9\u8F9E\u52A0\u73ED\uFF0C\u4F46\u540C\u65F6\uFF0C\u6211\u4E5F\u4F1A\u63D0\u9AD8\u5DE5\u4F5C\u6548\u7387\uFF0C\u51CF\u5C11\u4E0D\u5FC5\u8981\u7684\u52A0\u73ED\u3002</p><h2 id="\u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42" tabindex="-1"><a class="header-anchor" href="#\u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42" aria-hidden="true">#</a> \u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u5982\u679C\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\u592A\u4F4E\uFF0C\u90A3\u663E\u7136\u8D2C\u4F4E\u81EA\u5DF1\u7684\u80FD\u529B\uFF1B\u5982\u679C\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\u592A\u9AD8\uFF0C\u90A3\u53C8\u4F1A\u663E\u5F97\u4F60\u5206\u91CF\u8FC7\u91CD\uFF0C\u516C\u53F8\u53D7\u7528\u4E0D\u8D77\u3002\u4E00\u4E9B\u96C7\u4E3B\u901A\u5E38\u90FD\u4E8B\u5148\u5BF9\u6C42\u8058\u7684\u804C\u4F4D\u5B9A\u4E0B\u5F00\u652F\u9884\u7B97\uFF0C\u56E0\u800C\u4ED6\u4EEC\u7B2C\u4E00\u6B21\u63D0\u51FA\u7684\u4EF7\u94B1\u5F80\u5F80\u662F\u4ED6\u4EEC\u6240\u80FD\u7ED9\u4E88\u7684\u6700\u9AD8\u4EF7\u94B1\uFF0C\u4ED6\u4EEC\u95EE\u4F60\u53EA\u4E0D\u8FC7\u60F3\u8BC1\u5B9E\u4E00\u4E0B\u8FD9\u7B14\u94B1\u662F\u5426\u8DB3\u4EE5\u5F15\u8D77\u4F60\u5BF9\u8BE5\u5DE5\u4F5C\u7684\u5174\u8DA3\u3002</p><p><strong>\u56DE\u7B54</strong>\uFF1A</p><ol><li><p>\u6211\u5BF9\u5DE5\u8D44\u6CA1\u6709\u786C\u6027\u8981\u6C42\uFF0C\u6211\u76F8\u4FE1\u8D35\u516C\u53F8\u4F1A\u53CB\u5584\u5408\u7406\u3002\u6211\u6CE8\u91CD\u7684\u662F\u627E\u5230\u5DE5\u4F5C\u673A\u4F1A\uFF0C\u6240\u4EE5\u53EA\u8981\u6761\u4EF6\u516C\u5E73\uFF0C\u6211\u5219\u4E0D\u4F1A\u8BA1\u8F83\u592A\u591A\u3002</p></li><li><p>\u6211\u53D7\u8FC7\u7CFB\u7EDF\u7684\u8F6F\u4EF6\u7F16\u7A0B\u7684\u8BAD\u7EC3\uFF0C\u4E0D\u9700\u8981\u8FDB\u884C\u5927\u91CF\u7684\u57F9\u8BAD\uFF0C\u800C\u4E14\u6211\u672C\u4EBA\u4E5F\u5BF9\u7F16\u7A0B\u7279\u522B\u611F\u5174\u8DA3\u3002\u56E0\u6B64\uFF0C\u6211\u5E0C\u671B\u516C\u53F8\u80FD\u6839\u636E\u6211\u7684\u60C5\u51B5\u548C\u5E02\u573A\u6807\u51C6\u7684\u6C34\u5E73\uFF0C\u7ED9\u6211\u5408\u7406\u7684\u85AA\u6C34\u3002</p></li><li><p>\u5982\u679C\u4F60\u5FC5\u987B\u81EA\u5DF1\u8BF4\u51FA\u5177\u4F53\u6570\u76EE\uFF0C\u8BF7\u4E0D\u8981\u8BF4\u4E00\u4E2A\u5BBD\u6CDB\u7684\u8303\u56F4\uFF0C\u90A3\u6837\u4F60\u5C06\u53EA\u80FD\u5F97\u5230\u6700\u4F4E\u9650\u5EA6\u7684\u6570\u5B57\u3002\u6700\u597D\u7ED9\u51FA\u4E00\u4E2A\u5177\u4F53\u7684\u6570\u5B57\uFF0C\u8FD9\u6837\u8868\u660E\u4F60\u5DF2\u7ECF\u5BF9\u5F53\u4ECA\u7684\u4EBA\u624D\u5E02\u573A\u505A\u4E86\u8C03\u67E5\uFF0C\u77E5\u9053\u50CF\u81EA\u5DF1\u8FD9\u6837\u5B66\u5386\u7684\u96C7\u5458\u6709\u4EC0\u4E48\u6837\u7684\u4EF7\u503C\u3002</p></li></ol><h2 id="\u5728\u4E94\u5E74\u5185-\u4F60\u7684\u804C\u4E1A\u89C4\u5212" tabindex="-1"><a class="header-anchor" href="#\u5728\u4E94\u5E74\u5185-\u4F60\u7684\u804C\u4E1A\u89C4\u5212" aria-hidden="true">#</a> \u5728\u4E94\u5E74\u5185\uFF0C\u4F60\u7684\u804C\u4E1A\u89C4\u5212\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u8FD9\u662F\u6BCF\u4E00\u4E2A\u5E94\u8058\u8005\u90FD\u4E0D\u5E0C\u671B\u88AB\u95EE\u5230\u7684\u95EE\u9898\uFF0C\u4F46\u662F\uFF08\u5927\u516C\u53F8\uFF09\u51E0\u4E4E\u6BCF\u4E2A\u4EBA\u90FD\u4F1A\u88AB\u95EE\u5230\uFF0C\u6BD4\u8F83\u591A\u7684\u7B54\u6848\u662F\u201C\u7BA1\u7406\u8005\u201D\u3002\u5F53\u7136\uFF0C\u8BF4\u51FA\u5176\u4ED6\u4E00\u4E9B\u4F60\u611F\u5174\u8DA3\u7684\u804C\u4F4D\u4E5F\u662F\u53EF\u4EE5\u7684\u3002\u8981\u77E5\u9053\uFF0C\u8003\u5B98\u603B\u662F\u559C\u6B22\u6709\u8FDB\u53D6\u5FC3\u7684\u5E94\u8058\u8005\uFF0C\u6B64\u65F6\u5982\u679C\u8BF4\u201C\u4E0D\u77E5\u9053\u201D\uFF0C\u6216\u8BB8\u5C31\u4F1A\u4F7F\u4F60\u4E27\u5931\u4E00\u4E2A\u597D\u673A\u4F1A\u3002\u6700\u666E\u901A\u7684\u56DE\u7B54\u5E94\u8BE5\u662F\u201C\u6211\u51C6\u5907\u5728\u6280\u672F\u9886\u57DF\u6709\u6240\u4F5C\u4E3A\u201D\u6216\u201C\u6211\u5E0C\u671B\u80FD\u6309\u7167\u516C\u53F8\u7684\u7BA1\u7406\u601D\u8DEF\u53D1\u5C55\u201D\u3002</p><h2 id="\u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417" tabindex="-1"><a class="header-anchor" href="#\u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417" aria-hidden="true">#</a> \u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417?</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u4F01\u4E1A\u7684\u8FD9\u4E2A\u95EE\u9898\u770B\u4E0A\u53BB\u53EF\u6709\u53EF\u65E0\uFF0C\u5176\u5B9E\u5F88\u5173\u952E\uFF0C\u4F01\u4E1A\u4E0D\u559C\u6B22\u8BF4\u201C\u6CA1\u95EE\u9898\u201D\u7684\u4EBA\uFF0C\u56E0\u4E3A\u5176\u5F88\u6CE8\u91CD\u5458\u5DE5\u7684\u4E2A\u6027\u548C\u521B\u65B0\u80FD\u529B\u3002\u4F01\u4E1A\u4E0D\u559C\u6B22\u6C42\u804C\u8005\u95EE\u4E2A\u4EBA\u798F\u5229\u4E4B\u7C7B\u7684\u95EE\u9898\uFF0C\u5982\u679C\u6709\u4EBA\u8FD9\u6837\u95EE\uFF1A\u8D35\u516C\u53F8\u5BF9\u65B0\u5165\u516C\u53F8\u7684\u5458\u5DE5\u6709\u6CA1\u6709\u4EC0\u4E48\u57F9\u8BAD\u9879\u76EE\uFF0C\u6211\u53EF\u4EE5\u53C2\u52A0\u5417\uFF1F\u6216\u8005\u8BF4\u8D35\u516C\u53F8\u7684\u664B\u5347\u673A\u5236\u662F\u4EC0\u4E48\u6837\u7684\uFF1F\u4F01\u4E1A\u5C06\u5F88\u6B22\u8FCE\uFF0C\u56E0\u4E3A\u4F53\u73B0\u51FA\u4F60\u5BF9\u5B66\u4E60\u7684\u70ED\u60C5\u548C\u5BF9\u516C\u53F8\u7684\u5FE0\u8BDA\u5EA6\u4EE5\u53CA\u4F60\u7684\u4E0A\u8FDB\u5FC3\u3002</p><h2 id="\u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5" tabindex="-1"><a class="header-anchor" href="#\u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5" aria-hidden="true">#</a> \u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5?</h2><p><strong>\u56DE\u7B54</strong>\uFF1A \u2460\u6B63\u5E38\u7684\u201C\u8DF3\u69FD\u201D\u80FD\u591F\u4FC3\u8FDB\u4EBA\u624D\u5408\u7406\u6D41\u52A8\uFF0C\u5E94\u8BE5\u652F\u6301\u3002\u2461\u9891\u7E41\u7684\u8DF3\u69FD\u5BF9\u5355\u4F4D\u548C\u4E2A\u4EBA\u53CC\u65B9\u90FD\u4E0D\u5229\uFF0C\u5E94\u8BE5\u53CD\u5BF9\u3002</p><h2 id="\u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11" tabindex="-1"><a class="header-anchor" href="#\u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11" aria-hidden="true">#</a> \u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11?</h2><p><strong>\u56DE\u7B54</strong>\uFF1A\u5728\u53BB\u516C\u53F8\u9762\u8BD5\u524D\u4E0A\u7F51\u67E5\u4E00\u4E0B\u8BE5\u516C\u53F8\u4E3B\u8425\u4E1A\u52A1\u3002\u53EF\u7C7B\u4F3C\u56DE\u7B54\uFF1A\u8D35\u516C\u53F8\u6709\u610F\u6539\u53D8\u7B56\u7565\uFF0C\u52A0\u5F3A\u4E0E\u56FD\u5916\u5927\u5382\u7684OEM\u5408\u4F5C\uFF0C\u81EA\u6709\u54C1\u724C\u7684\u90E8\u5206\u5219\u900F\u8FC7\u6D77\u5916\u7ECF\u9500\u5546\u3002</p><!--]-->`);
 }
-const _sfc_setup$C = _sfc_main$C.setup;
-_sfc_main$C.setup = (props, ctx) => {
+const _sfc_setup$D = _sfc_main$D.setup;
+_sfc_main$D.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/interview/interview.html.vue");
-  return _sfc_setup$C ? _sfc_setup$C(props, ctx) : void 0;
+  return _sfc_setup$D ? _sfc_setup$D(props, ctx) : void 0;
 };
-var interview_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$C, [["ssrRender", _sfc_ssrRender$o]]);
+var interview_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$D, [["ssrRender", _sfc_ssrRender$p]]);
 var interview_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": interview_html$1
 });
 var JSinterview_html_vue_vue_type_style_index_0_lang = "";
-const _sfc_main$B = {};
-function _sfc_ssrRender$n(_ctx, _push, _parent, _attrs) {
+const _sfc_main$C = {};
+function _sfc_ssrRender$o(_ctx, _push, _parent, _attrs) {
   const _component_CodeGroup = vue.resolveComponent("CodeGroup");
   const _component_CodeGroupItem = vue.resolveComponent("CodeGroupItem");
   _push(`<!--[--><h1 id="js\u9762\u8BD5" tabindex="-1"><a class="header-anchor" href="#js\u9762\u8BD5" aria-hidden="true">#</a> JS\u9762\u8BD5</h1><blockquote><p><strong>\u4E0D\u5206\u987A\u5E8F\uFF0C\u5FE0\u544A\uFF1AJS\u7684\u9762\u8BD5\u9898\u5F88\u591A\uFF0C\u73B0\u5728\u6BCF\u4E2A\u9762\u8BD5\u5B98\u90FD\u8BD5\u56FE\u95EE\u51FA\u4E0D\u4E00\u6837\u7684\u95EE\u9898\uFF0C\u4F46\u77E5\u8BC6\u70B9\u90FD\u662F\u63A5\u8FD1\u7684\uFF0C\u6240\u4EE5\u5E94\u8BE5\u82B1\u66F4\u591A\u65F6\u95F4\u5728\u5B66\u4E60\u4E0A\uFF0C\u795D\u597D\u8FD0</strong>\u3002</p></blockquote><h2 id="_1-\u5EF6\u8FDF\u52A0\u8F7Djs\u7684\u65B9\u5F0F\u6709\u54EA\u4E9B" tabindex="-1"><a class="header-anchor" href="#_1-\u5EF6\u8FDF\u52A0\u8F7Djs\u7684\u65B9\u5F0F\u6709\u54EA\u4E9B" aria-hidden="true">#</a> 1.\u5EF6\u8FDF\u52A0\u8F7DJS\u7684\u65B9\u5F0F\u6709\u54EA\u4E9B</h2><p>\u91CD\u70B9\uFF1A<code>async</code>\u3001<code>defer</code></p><p>\u56FE\u89E3\u8BF4\u660E\uFF1A</p><p><img src="https://s6.jpg.cm/2022/01/24/LpwDYt.jpg" alt="LpwDYt.jpg"></p><ol><li>\u6B63\u5E38\u60C5\u51B5\u4E0B\u7684<code>script</code>\u811A\u672C\u6267\u884C\uFF1A</li></ol><p>\u6B63\u5E38\u60C5\u51B5\u4E0B\uFF0C\u6D4F\u89C8\u5668\u4F1A\u987A\u5E8F\u6267\u884C\u4EE3\u7801\uFF0C\u9047\u5230<code>script</code>\u811A\u672C\u65F6\uFF0CHTML\u4F1A\u505C\u6B62\u89E3\u6790\uFF0C\u5148\u4E0B\u8F7D<code>script</code>\u811A\u672C\uFF0C\u7136\u540E\u6267\u884C\u5B83\uFF08\u4E00\u822C\u662F\u6211\u4EEC\u5916\u90E8\u5F15\u5165\u7684\u811A\u672C\uFF09,\u7136\u540E\u518D\u7EE7\u7EED\u89E3\u6790HTML\u3002\u4E0B\u9762\u4EE3\u7801\uFF1A</p><div class="language-html ext-html line-numbers-mode"><pre class="language-html"><code><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">&gt;</span></span>
@@ -4914,20 +4704,20 @@ Promise<span class="token punctuation">.</span><span class="token function">all<
 <span class="token keyword">let</span> cat <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Cat</span><span class="token punctuation">(</span><span class="token string">&#39;\u55B5\u55B5&#39;</span><span class="token punctuation">,</span><span class="token string">&#39;\u5403\u9C7C&#39;</span><span class="token punctuation">)</span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><ul><li>\u4F7F\u7528\u573A\u666F\uFF1A\u7BA1\u7406\u5458\u548C\u666E\u901A\u7528\u6237\u90FD\u7EE7\u627F\u81EA\u7528\u6237\u7C7B\uFF0C\u4F46\u4E24\u8005\u8FD8\u6709\u81EA\u5DF1\u7684\u6743\u9650</li></ul><h4 id="_17-2-\u539F\u578B\u94FE\u7EE7\u627F\u548C\u539F\u578B\u94FE" tabindex="-1"><a class="header-anchor" href="#_17-2-\u539F\u578B\u94FE\u7EE7\u627F\u548C\u539F\u578B\u94FE" aria-hidden="true">#</a> 17.2. \u539F\u578B\u94FE\u7EE7\u627F\u548C\u539F\u578B\u94FE</h4><h4 id="_17-3-\u6784\u9020\u7EE7\u627F" tabindex="-1"><a class="header-anchor" href="#_17-3-\u6784\u9020\u7EE7\u627F" aria-hidden="true">#</a> 17.3 \u6784\u9020\u7EE7\u627F</h4><h4 id="_17-4-\u501F\u7528\u6784\u9020\u51FD\u6570\u7EE7\u627F" tabindex="-1"><a class="header-anchor" href="#_17-4-\u501F\u7528\u6784\u9020\u51FD\u6570\u7EE7\u627F" aria-hidden="true">#</a> 17.4 \u501F\u7528\u6784\u9020\u51FD\u6570\u7EE7\u627F</h4><h4 id="_17-5-\u7EC4\u5408\u7EE7\u627F" tabindex="-1"><a class="header-anchor" href="#_17-5-\u7EC4\u5408\u7EE7\u627F" aria-hidden="true">#</a> 17.5 \u7EC4\u5408\u7EE7\u627F</h4><h2 id="_18-\u72B6\u6001\u7801-200\u3001400\u7B49" tabindex="-1"><a class="header-anchor" href="#_18-\u72B6\u6001\u7801-200\u3001400\u7B49" aria-hidden="true">#</a> 18. \u72B6\u6001\u7801\uFF08200\u3001400\u7B49\uFF09</h2><ol><li>100\uFF1A\u4FE1\u606F\u6027\u72B6\u6001\u7801\uFF0C\u539F\u56E0\uFF1A\u63A5\u6536\u7684\u8BF7\u6C42\u6B63\u5728\u5904\u7406</li></ol><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u72B6\u6001\u7801</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">100</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u660E\u76EE\u524D\u4E3A\u6B62\uFF0C\u6240\u6709\u7684\u8BF7\u6C42\u5185\u5BB9\u90FD\u662F\u53EF\u884C\u7684\uFF0C\u5BA2\u6237\u7AEF\u5E94\u8BE5\u7EE7\u7EED\u8BF7\u6C42\uFF0C\u5982\u679C\u5B8C\u6210\uFF0C\u5219\u5FFD\u7565\u5B83\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">101</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BE5\u72B6\u6001\u7801\u662F\u54CD\u5E94\u5BA2\u6237\u7AEFUpgrade\u6807\u5934\u53D1\u9001\u7684\uFF0C\u5E76\u4E14\u6307\u793A\u670D\u52A1\u5668\u4E5F\u6B63\u5728\u5207\u6362\u534F\u8BAE\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">103</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4E3B\u8981\u7528\u4E8E\u4E0ELink\u94FE\u63A5\u5934\u4E00\u8D77\u4F7F\u7528\uFF0C\u4EE5\u5141\u8BB8\u7528\u6237\u4EE3\u7406\u5728\u670D\u52A1\u5668\u4ECD\u5728\u51C6\u5907\u54CD\u5E94\u65F6\u5F00\u59CB\u9884\u52A0\u8F7D\u8D44\u6E90\u3002</td></tr></tbody></table><ol start="2"><li>200\uFF1A\u8BF7\u6C42\u6210\u529F\u72B6\u6001\u7801\uFF0C\u8BF7\u6C42\u6B63\u5E38\u5904\u7406\u5B8C\u6BD5</li></ol><ul><li>GET\uFF1A\u8D44\u6E90\u5DF2\u88AB\u63D0\u53D6\u5E76\u5728\u6D88\u606F\u6B63\u6587\u4E2D\u4F20\u8F93</li><li>HEAD\uFF1A\u5B9E\u4F53\u6807\u5934\u4F4D\u4E8E\u6D88\u606F\u6B63\u6587\u4E2D</li><li>POST\uFF1A\u63CF\u8FF0\u52A8\u4F5C\u7ED3\u679C\u7684\u8D44\u6E90\u5728\u6D88\u606F\u4F53\u4E2D\u4F20\u8F93 TRACE\uFF1A\u6D88\u606F\u6B63\u6587\u5305\u542B\u670D\u52A1\u5668\u6536\u5230\u7684\u8BF7\u6C42\u4FE1\u606F\u3002\uFF08\u65B9\u6CD5\u4E0D\u5B89\u5168\uFF0C\u4E00\u822C\u4E0D\u7528)</li></ul><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u72B6\u6001\u7801</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">201</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF7\u6C42\u5DF2\u7ECF\u6210\u529F\uFF0C\u5E76\u56E0\u6B64\u521B\u5EFA\u4E86\u4E00\u4E2A\u65B0\u7684\u8D44\u6E90\u3002\u8FD9\u901A\u5E38\u662F\u5728PUT\u6216POST\u8BF7\u6C42\u4E4B\u540E\u53D1\u9001\u7684\u54CD\u5E94\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">202</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF7\u6C42\u5DF2\u7ECF\u63A5\u6536\u5230\uFF0C\u4F46\u662F\u6CA1\u6709\u54CD\u5E94\uFF0C\u6CA1\u6709\u7ED3\u679C\u3002\u610F\u5473\u7740\u4E0D\u4F1A\u6709\u4E00\u4E2A\u5F02\u6B65\u7684\u54CD\u5E94\u53BB\u8868\u660E\u5F53\u524D\u8BF7\u6C42\u7684\u7ED3\u679C\uFF0C\u9884\u671F\u53E6\u5916\u7684\u8FDB\u7A0B\u548C\u670D\u52A1\u53BB\u5904\u7406\u8BF7\u6C42\uFF0C\u6216\u8005\u6279\u5904\u7406\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">204</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u670D\u52A1\u5668\u6210\u529F\u5904\u7406\u4E86\u8BF7\u6C42\uFF0C\u4F46\u4E0D\u9700\u8981\u8FD4\u56DE\u4EFB\u4F55\u5B9E\u4F53\u5185\u5BB9\uFF0C\u5E76\u4E14\u5E0C\u671B\u8FD4\u56DE\u66F4\u65B0\u4E86\u7684\u5143\u4FE1\u606F\u3002\u9047\u5230\u590D\u6742\u8BF7\u6C42\u65F6\u5019\uFF0C\u6D4F\u89C8\u5668\u4F1A\u53D1\u9001\u4E00\u4E2AOPTION\u65B9\u6CD5\u8FDB\u884C\u9884\u5904\u7406\u8FD4\u56DE\u54CD\u5E94\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">205</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u670D\u52A1\u5668\u5DF2\u7ECF\u6210\u529F\u5904\u7406\u4E86\u8BF7\u6C42\uFF0C\u4F46\u662F\u6CA1\u6709\u8FD4\u56DE\u4EFB\u4F55\u5185\u5BB9\u3002\u4E0E204\u54CD\u5E94\u4E0D\u540C\uFF0C\u8FD4\u56DE\u6B64\u72B6\u6001\u7801\u7684\u54CD\u5E94\u8981\u6C42\u8BF7\u6C42\u8005\u91CD\u7F6E\u6587\u6863\u89C6\u56FE\u3002</td></tr></tbody></table><ol start="3"><li>300\uFF1A\u91CD\u5B9A\u5411\u72B6\u6001\u7801\uFF0C\u9700\u8981\u8FDB\u884C\u9644\u52A0\u64CD\u4F5C\u4EE5\u5B8C\u6210\u8BF7\u6C42</li></ol><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u72B6\u6001\u7801</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">301</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u88AB\u8BF7\u6C42\u7684\u8D44\u6E90\u5DF2\u6C38\u4E45\u79FB\u52A8\u5230\u65B0\u4F4D\u7F6E\uFF0C\u5E76\u4E14\u5C06\u6765\u4EFB\u4F55\u5BF9\u6B64\u8D44\u6E90\u7684\u5F15\u7528\u90FD\u5E94\u8BE5\u4F7F\u7528\u54CD\u5E94\u8FD4\u56DE\u7684\u82E5\u5E72\u4E2AURI\u4E4B\u4E00\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">302</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF7\u6C42\u7684\u8D44\u6E90\u73B0\u5728\u4E34\u65F6\u4ECE\u4E0D\u540C\u7684URI\u54CD\u5E94\u8BF7\u6C42\u3002\u7531\u4E8E\u8FD9\u6837\u7684\u91CD\u5B9A\u5411\u662F\u4E34\u65F6\u7684\uFF0C\u5BA2\u6237\u7AEF\u5E94\u5F53\u7EE7\u7EED\u5411\u539F\u6709\u5730\u5740\u53D1\u9001\u4EE5\u540E\u7684\u8BF7\u6C42\u3002\u53EA\u6709\u5728Cache-Control\u6216Expires\u4E2D\u8FDB\u884C\u4E86\u6307\u5B9A\u7684\u60C5\u51B5\u4E0B\uFF0C\u8FD9\u4E2A\u54CD\u5E94\u624D\u662F\u53EF\u7F13\u5B58\u7684\u3002\u8BF7\u6C42\u7684\u8D44\u6E90\u73B0\u5728\u4E34\u65F6\u4ECE\u4E0D\u540C\u7684URI\u54CD\u5E94\u8BF7\u6C42\u3002\u7531\u4E8E\u8FD9\u6837\u7684\u91CD\u5B9A\u5411\u662F\u4E34\u65F6\u7684\uFF0C\u5BA2\u6237\u7AEF\u5E94\u5F53\u7EE7\u7EED\u5411\u539F\u6709\u5730\u5740\u53D1\u9001\u4EE5\u540E\u7684\u8BF7\u6C42\u3002\u53EA\u6709\u5728Cache-Control\u6216Expires\u4E2D\u8FDB\u884C\u4E86\u6307\u5B9A\u7684\u60C5\u51B5\u4E0B\uFF0C\u8FD9\u4E2A\u54CD\u5E94\u624D\u662F\u53EF\u7F13\u5B58\u7684\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">303</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5BF9\u5F53\u524D\u7684\u8BF7\u6C42\u7684\u54CD\u5E94\u53EF\u4EE5\u5728\u53E6\u4E00\u4E2AURI\u4E0A\u88AB\u627E\u5230\uFF0C\u800C\u4E14\u5BA2\u6237\u7AEF\u5E94\u8BE5\u91C7\u7528GET\u7684\u65B9\u5F0F\u8BBF\u95EE\u90A3\u4E2A\u94FE\u63A5\u3002\u8FD9\u4E2A\u65B9\u6CD5\u7684\u5B58\u5728\u4E3B\u8981\u662F\u4E3A\u4E86\u5141\u8BB8\u7531\u811A\u672C\u6FC0\u6D3B\u7684POST\u8BF7\u6C42\u8F93\u51FA\u91CD\u5B9A\u5411\u5230\u4E00\u4E2A\u65B0\u7684\u8D44\u6E90\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">304</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5982\u679C\u5BA2\u6237\u7AEF\u53D1\u9001\u4E86\u4E00\u4E2A\u5E26\u6761\u4EF6\u7684 GET \u8BF7\u6C42\u4E14\u8BE5\u8BF7\u6C42\u5DF2\u88AB\u5141\u8BB8\uFF0C\u800C\u6587\u6863\u7684\u5185\u5BB9\uFF08\u81EA\u4E0A\u6B21\u8BBF\u95EE\u4EE5\u6765\u6216\u8005\u6839\u636E\u8BF7\u6C42\u7684\u6761\u4EF6\uFF09\u5E76\u6CA1\u6709\u6539\u53D8\uFF0C\u5219\u670D\u52A1\u5668\u5E94\u5F53\u8FD4\u56DE\u8FD9\u4E2A\u72B6\u6001\u7801\u3002304 \u54CD\u5E94\u7981\u6B62\u5305\u542B\u6D88\u606F\u4F53\uFF0C\u56E0\u6B64\u59CB\u7EC8\u4EE5\u6D88\u606F\u5934\u540E\u7684\u7B2C\u4E00\u4E2A\u7A7A\u884C\u7ED3\u5C3E\u3002\u8BF7\u6C42\u7684\u65F6\u5019\u4E00\u822C\u7ED3\u5408If-Modified-Since\u5934\u90E8\u4F7F\u7528\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">307</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">307\u7684\u610F\u4E49\u5982\u4E0A302\u3002\u4E0E\u5386\u53F2\u4E0A302\u4E0D\u540C\u7684\u662F\u5728\u91CD\u65B0\u53D1\u51FA\u539F\u59CB\u8BF7\u6C42\u65F6\u4E0D\u5141\u8BB8\u66F4\u6539\u8BF7\u6C42\u65B9\u6CD5\u3002\u6BD4\u5982\uFF0C\u4F7F\u7528POST\u8BF7\u6C42\u59CB\u7EC8\u5C31\u8BE5\u7528POST\u8BF7\u6C42\u3002</td></tr></tbody></table><ol start="4"><li>400\uFF1A\u5BA2\u6237\u7AEF\u9519\u8BEF\uFF0C\u670D\u52A1\u5668\u65E0\u6CD5\u5904\u7406\u8BF7\u6C42</li></ol><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u72B6\u6001\u7801</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">401</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8FD9\u610F\u5473\u7740\u4F60\u7684\u767B\u5F55\u51ED\u8BC1\u65E0\u6548\u3002\u670D\u52A1\u5668\u4E0D\u77E5\u9053\u4F60\u662F\u8C01\uFF0C\u8FD9\u65F6\uFF0C\u4F60\u9700\u8981\u5C1D\u8BD5\u91CD\u65B0\u767B\u5F55\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">403</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u670D\u52A1\u5668\u5DF2\u7ECF\u7406\u89E3\u8BF7\u6C42\uFF0C\u4F46\u662F\u62D2\u7EDD\u6267\u884C\u5B83\u3002\u4E0E401\u4E0D\u540C\uFF0C403\u77E5\u9053\u662F\u4F60\u767B\u5F55\u4E86\uFF0C\u4F46\u662F\u8FD8\u662F\u62D2\u7EDD\u4E86\u4F60\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">404</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E\u670D\u52A1\u5668\u7AEF\u65E0\u6CD5\u627E\u5230\u6240\u8BF7\u6C42\u7684\u8D44\u6E90\u3002\u8FD4\u56DE\u8BE5\u54CD\u5E94\u7684\u94FE\u63A5\u901A\u5E38\u79F0\u4E3A\u574F\u94FE\uFF08broken link\uFF09\u6216\u6B7B\u94FE\uFF08dead link\uFF09\uFF0C\u5B83\u4EEC\u4F1A\u5BFC\u5411\u94FE\u63A5\u51FA\u9519\u5904\u7406</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">405</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u660E\u670D\u52A1\u5668\u7981\u6B62\u4E86\u4F7F\u7528\u5F53\u524D HTTP \u65B9\u6CD5\u7684\u8BF7\u6C42\u3002\u9700\u8981\u6CE8\u610F\u7684\u662F\uFF0CGET \u4E0E HEAD \u4E24\u4E2A\u65B9\u6CD5\u4E0D\u5F97\u88AB\u7981\u6B62\uFF0C\u5F53\u7136\u4E5F\u4E0D\u5F97\u8FD4\u56DE\u72B6\u6001\u7801 405\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">406</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u793A\u670D\u52A1\u5668\u7AEF\u4E0D\u652F\u6301 Accept\u3001Accept-Charset\u3001Accept-Encoding\u3001 Accept-Language header \u6240\u8981\u6C42\u7684\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">409</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u793A\u8BF7\u6C42\u4E0E\u670D\u52A1\u5668\u7AEF\u76EE\u6807\u8D44\u6E90\u7684\u5F53\u524D\u72B6\u6001\u76F8\u51B2\u7A81\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">410</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u88AB\u8BF7\u6C42\u7684\u8D44\u6E90\u5728\u670D\u52A1\u5668\u4E0A\u5DF2\u7ECF\u4E0D\u518D\u53EF\u7528\uFF0C\u800C\u4E14\u6CA1\u6709\u4EFB\u4F55\u5DF2\u77E5\u7684\u8F6C\u53D1\u5730\u5740\u3002</td></tr></tbody></table><ol start="5"><li>500\uFF1A\u670D\u52A1\u5668\u9519\u8BEF\uFF0C\u670D\u52A1\u5668\u5904\u7406\u8BF7\u6C42\u51FA\u9519</li></ol><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u72B6\u6001\u7801</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">500</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u793A\u6240\u8BF7\u6C42\u7684\u670D\u52A1\u5668\u9047\u5230\u610F\u5916\u7684\u60C5\u51B5\u5E76\u963B\u6B62\u5176\u6267\u884C\u8BF7\u6C42\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">501</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u793Arequest header \u91CC\u7684 method \u6216 Content-* \u65F6\u4E0D\u88AB\u670D\u52A1\u5668\u652F\u6301\uFF0C\u65E0\u6CD5\u88AB\u5904\u7406\u3002\u53E6\uFF0C\u670D\u52A1\u5668\u5FC5\u987B\u652F\u6301\u7684\u65B9\u6CD5\uFF08\u5373\u4E0D\u4F1A\u8FD4\u56DE\u8FD9\u4E2A\u72B6\u6001\u7801\u7684\u65B9\u6CD5\uFF09\u53EA\u6709 GET \u548C HEAD\u3002501 \u54CD\u5E94\u9ED8\u8BA4\u662F\u53EF\u7F13\u5B58\u7684\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">502</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u793A\u4F5C\u4E3A\u7F51\u5173\u6216\u4EE3\u7406\u89D2\u8272\u7684\u670D\u52A1\u5668\uFF0C\u4ECE\u4E0A\u6E38\u670D\u52A1\u5668\uFF08\u5982tomcat\u3001php-fpm\uFF09\u4E2D\u63A5\u6536\u5230\u7684\u54CD\u5E94\u662F\u65E0\u6548\u7684\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">503</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u793A\u670D\u52A1\u5668\u5C1A\u672A\u5904\u4E8E\u53EF\u4EE5\u63A5\u53D7\u8BF7\u6C42\u7684\u72B6\u6001\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">504</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u7F51\u5173\u8D85\u65F6\uFF0C\u670D\u52A1\u5668\u672A\u80FD\u5FEB\u901F\u7684\u505A\u51FA\u53CD\u5E94\u3002</td></tr></tbody></table><h2 id="_19-\u8F93\u5165url\u5230\u9875\u9762\u663E\u793A\u7684\u8FC7\u7A0B" tabindex="-1"><a class="header-anchor" href="#_19-\u8F93\u5165url\u5230\u9875\u9762\u663E\u793A\u7684\u8FC7\u7A0B" aria-hidden="true">#</a> 19. \u8F93\u5165URL\u5230\u9875\u9762\u663E\u793A\u7684\u8FC7\u7A0B\uFF1F</h2><p>\u5148\u7B80\u5355\u6765\u8BF4\u6709\u4E0B\u9762\u8FC7\u7A0B\uFF1A</p><ol><li>DNS\u89E3\u6790\uFF1A\u5C06\u57DF\u540D\u89E3\u6790\u6210IP\u5730\u5740</li><li>TCP\u8FDE\u63A5\uFF1ATCP\u4E09\u6B21\u63E1\u624B</li><li>\u53D1\u9001HTTP\u8BF7\u6C42</li><li>\u670D\u52A1\u5668\u5904\u7406\u8BF7\u6C42\u5E76\u8FD4\u56DEHTTP\u62A5\u6587</li><li>\u6D4F\u89C8\u5668\u89E3\u6790\u6E32\u67D3\u9875\u9762</li><li>\u65AD\u5F00\u8FDE\u63A5\uFF1ATCP\u56DB\u6B21\u63E1\u624B</li></ol><p>\u5C55\u5F00\uFF1A</p><h2 id="_20-es6\u65B0\u7279\u6027" tabindex="-1"><a class="header-anchor" href="#_20-es6\u65B0\u7279\u6027" aria-hidden="true">#</a> 20. ES6\u65B0\u7279\u6027</h2><ol><li>let\u548Cconst</li></ol><p>let\u548Cconst\u90FD\u662F\u7528\u4E8E\u547D\u540D\u5C40\u90E8\u53D8\u91CF\uFF0C\u90FD\u662F\u5757\u7EA7\u4F5C\u7528\u57DF\uFF1B</p><ul><li>let:let \u5173\u952E\u8BCD\u58F0\u660E\u7684\u53D8\u91CF\u4E0D\u5177\u5907\u53D8\u91CF\u63D0\u5347</li><li>const:const \u5728\u58F0\u660E\u65F6\u5FC5\u987B\u88AB\u8D4B\u503C\uFF0C\u5426\u5219\u4F1A\u62A5\u9519,\u4E00\u65E6\u58F0\u660E\u5C31\u4E0D\u53EF\u518D\u8FDB\u884C\u4FEE\u6539\u3002(\u5BF9\u8C61\u7684\u503C\u53EF\u4EE5\u4FEE\u6539)</li></ul><ol start="2"><li>\u6A21\u677F\u5B57\u7B26\u4E32</li></ol><ul><li>\${}\u6765\u5199\u5165\u9700\u8981\u5F15\u7528\u5230\u7684JS\uFF0C\u4ED6\u4F1A\u88AB\u7F16\u8BD1</li></ul><ol start="3"><li>\u7BAD\u5934\u51FD\u6570</li></ol><p>\u9700\u8981\u6CE8\u610F\u7684\u70B9\uFF1A</p><ul><li>\u4E0D\u9700\u8981\u7528\u5173\u952E\u5B57function\u6765\u5B9A\u4E49\u51FD\u6570\uFF1B</li><li>\u4E00\u822C\u60C5\u51B5\u4E0B\u53EF\u4EE5\u7701\u7565return\uFF1B</li><li>\u5728\u7BAD\u5934\u51FD\u6570\u5185\u90E8\uFF0Cthis\u5E76\u4E0D\u4F1A\u8DDF\u5176\u4ED6\u51FD\u6570\u4E00\u6837\u6307\u5411\u8C03\u7528\u5B83\u7684\u5BF9\u8C61\uFF0C\u800C\u662F\u7EE7\u627F\u4E0A\u4E0B\u6587\u7684this\u6307\u5411\u7684\u5BF9\u8C61\u3002</li></ul><ol start="4"><li>Spreas/Reat\u64CD\u4F5C\u7B26</li></ol><ul><li>Rest\u8FD0\u7B97\u7B26\u7528\u4E8E\u83B7\u53D6\u51FD\u6570\u8C03\u7528\u65F6\u4F20\u5165\u7684\u53C2\u6570</li><li>Spread\u8FD0\u7B97\u7B26\u7528\u4E8E\u6570\u7EC4\u7684\u6784\u9020\uFF0C\u6790\u6784\uFF0C\u4EE5\u53CA\u5728\u51FD\u6570\u8C03\u7528\u65F6\u4F7F\u7528\u6570\u7EC4\u586B\u5145\u53C2\u6570\u5217\u8868</li></ul><ol start="5"><li>\u4E8C\u8FDB\u5236\u548C\u516B\u8FDB\u5236\u5B57\u9762\u91CF</li></ol><ul><li>ES6\u652F\u6301\u4E8C\u8FDB\u5236\u548C\u516B\u8FDB\u5236\u7684\u5B57\u9762\u91CF\uFF0C\u901A\u8FC7\u5728\u6570\u5B57\u524D\u9762\u589E\u52A00o\u6216\u80050O\u53EF\u4EE5\u5C06\u6570\u5B57\u8F6C\u6362\u4E3A\u516B\u8FDB\u5236\u3002</li></ul><ol start="6"><li>\u5141\u8BB8\u5728\u5BF9\u8C61\u4E2D\u4F7F\u7528super\u65B9\u6CD5</li></ol><p>super\u65B9\u6CD5\u5E94\u8BE5\u90FD\u4E0D\u964C\u751F\uFF0C\u5728java\u4E2D\u7528\u6765\u4EE3\u8868\u8C03\u7528\u7236\u7C7B\u7684\u6784\u9020\u51FD\u6570\u3002\u7531\u4E8Ejs\u4E0D\u662F\u9762\u5411\u5BF9\u8C61\u8BED\u8A00\uFF0C\u6240\u4EE5\u4E5F\u6CA1\u6709\u7EE7\u627F\u8FD9\u4EE5\u8BF4\u6CD5\u3002\u4F46\u662F\u5728ES6\u4E2D\uFF0C\u53EF\u4EE5\u901A\u8FC7\u8C03\u7528setPrototypeOf()\u65B9\u6CD5\u6765\u8BBE\u7F6E\u4E00\u4E2A\u5BF9\u8C61\u7684prototype\u5BF9\u8C61\uFF0C\u4E0E\u9762\u5411\u5BF9\u8C61\u8BED\u8A00\u4E2D\u7684\u7EE7\u627F\u6709\u76F8\u4F3C\u4E4B\u5904\uFF0C\u6240\u4EE5\u4E5F\u53EF\u4EE5\u7406\u89E3\u6210\u8FD9\u662Fjs\u4E2D\u7528\u6765\u5B9E\u73B0\u7EE7\u627F\u7684\u65B9\u6CD5\u3002</p><ol start="7"><li>\u8FED\u4EE3\u5668iterator\u3001for...of\u548Cfor...in</li></ol><p>\u5EFA\u8BAE\u5148\u53BB\u4E86\u89E3\u4E00\u4E0Biterator\uFF0C\u4F5C\u7528\u5982\u4E0B\uFF1A</p><ul><li><p>\u4E3A\u5404\u79CD\u6570\u636E\u63D0\u4F9B\u7EDF\u4E00\u7684\uFF0C\u7B80\u4FBF\u7684\u8BBF\u95EE\u63A5\u53E3</p></li><li><p>\u4F7F\u6570\u636E\u7ED3\u6784\u7684\u6210\u5458\u80FD\u6309\u67D0\u79CD\u6B21\u5E8F\u6392\u5217</p></li><li><p>\u4E3B\u8981\u4F9Bfor...of\u7528</p></li><li><p>for\u2026in \u8BED\u53E5\u4EE5\u539F\u59CB\u63D2\u5165\u987A\u5E8F\u8FED\u4EE3\u5BF9\u8C61\u7684\u53EF\u679A\u4E3E\u5C5E\u6027\uFF0C\u7B80\u5355\u7406\u89E3\u5C31\u662Ffor...in\u662F\u7528\u6765\u5FAA\u73AF\u904D\u5386\u5C5E\u6027\uFF0C\u904D\u5386\u51FA\u7684\u662F\u81EA\u8EAB\u548C\u539F\u578B\u4E0A\u7684\u53EF\u679A\u4E3E\u975Esymbol\u5C5E\u6027\uFF0C\u4F46\u662F\u904D\u5386\u4E0D\u4E00\u5B9A\u6309\u7167\u987A\u5E8F\uFF08tips\uFF1Afor...in\u5728ES5\u4E2D\u5C31\u5DF2\u7ECF\u51FA\u73B0\u4E86\uFF09</p></li><li><p>for\u2026of \u8BED\u53E5\u904D\u5386\u53EF\u8FED\u4EE3\u5BF9\u8C61\u5B9A\u4E49\u8981\u8FED\u4EE3\u7684\u6570\u636E\uFF0C\u4E5F\u5C31\u662F\u8BF4\uFF0Cfor...of\u53EA\u53EF\u4EE5\u5FAA\u73AF\u53EF\u8FED\u4EE3\u5BF9\u8C61\u7684\u53EF\u8FED\u4EE3\u5C5E\u6027\uFF0C\u4E0D\u53EF\u8FED\u4EE3\u5C5E\u6027\u5728\u5FAA\u73AF\u4E2D\u88AB\u5FFD\u7565\u4E86\u3002\uFF08tips\uFF1Afor...of\u662FES6\u624D\u63D0\u51FA\u6765\u7684\uFF09</p></li></ul><ol start="8"><li>Module</li></ol><p>\u5728ES6\u7684module\u4E4B\u524D\uFF0C\u6BD4\u8F83\u6D41\u884C\u7684\u6A21\u5757\u52A0\u8F7D\u65B9\u6848\u6709:CommonJS\u548CAMD\uFF0C\u524D\u8005\u7528\u4E8E\u670D\u52A1\u5668\uFF08node)\uFF0C\u540E\u8005\u7528\u4E8E\u6D4F\u89C8\u5668\u3002</p><p>\u533A\u522B\uFF1A</p><ul><li>CommondJS\u548CAMD\u662F\u8FD0\u884C\u65F6\u52A0\u8F7D\u7684\u3002</li><li>module\u662F\u7F16\u8BD1\u65F6\u52A0\u8F7D\u7684\u3002</li><li>CommondJS\u8F93\u51FA\u7684\u662F\u503C\u7684\u590D\u5236\uFF0C\u800CES6\u8F93\u51FA\u7684\u662F\u503C\u7684\u5F15\u7528</li></ul><p>\u5176\u4E2D\u547D\u4EE4\u6709\uFF1Aexport\u3001import \u3001export default</p><ul><li>export\u7528\u4E8E\u5BF9\u5916\u8F93\u51FA\u672C\u6A21\u5757\uFF08\u4E00\u4E2A\u6587\u4EF6\u53EF\u4EE5\u7406\u89E3\u4E3A\u4E00\u4E2A\u6A21\u5757\uFF09\u53D8\u91CF\u7684\u63A5\u53E3\uFF0C\u901A\u8FC7export\u65B9\u5F0F\u5BFC\u51FA\uFF0C\u5728\u5BFC\u5165\u65F6\u8981\u52A0{ }\uFF0Cexport default\u5219\u4E0D\u9700\u8981</li><li>import\u7528\u4E8E\u5728\u4E00\u4E2A\u6A21\u5757\u4E2D\u52A0\u8F7D\u53E6\u4E00\u4E2A\u542B\u6709export\u63A5\u53E3\u7684\u6A21\u5757\u3002</li><li>\u4F7F\u7528export default\u547D\u4EE4\uFF0C\u4E3A\u6A21\u5757\u6307\u5B9A\u9ED8\u8BA4\u8F93\u51FA\uFF0C\u8FD9\u6837\u5C31\u4E0D\u9700\u8981\u77E5\u9053\u6240\u8981\u52A0\u8F7D\u6A21\u5757\u7684\u53D8\u91CF\u540D\uFF08\u53EF\u81EA\u5B9A\u4E49\u5F15\u7528\uFF09\u3002</li></ul><!--]-->`);
 }
-const _sfc_setup$B = _sfc_main$B.setup;
-_sfc_main$B.setup = (props, ctx) => {
+const _sfc_setup$C = _sfc_main$C.setup;
+_sfc_main$C.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/interview/JSinterview.html.vue");
-  return _sfc_setup$B ? _sfc_setup$B(props, ctx) : void 0;
+  return _sfc_setup$C ? _sfc_setup$C(props, ctx) : void 0;
 };
-var JSinterview_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$B, [["ssrRender", _sfc_ssrRender$n]]);
+var JSinterview_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$C, [["ssrRender", _sfc_ssrRender$o]]);
 var JSinterview_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": JSinterview_html$1
 });
-const _sfc_main$A = {};
-function _sfc_ssrRender$m(_ctx, _push, _parent, _attrs) {
+const _sfc_main$B = {};
+function _sfc_ssrRender$n(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h1 id="vue\u9762\u8BD5" tabindex="-1"><a class="header-anchor" href="#vue\u9762\u8BD5" aria-hidden="true">#</a> VUE\u9762\u8BD5</h1><h2 id="_1-vue\u7684\u751F\u547D\u5468\u671F" tabindex="-1"><a class="header-anchor" href="#_1-vue\u7684\u751F\u547D\u5468\u671F" aria-hidden="true">#</a> 1.vue\u7684\u751F\u547D\u5468\u671F</h2><h4 id="_1-1\u5404\u4E2A\u751F\u547D\u5468\u671F" tabindex="-1"><a class="header-anchor" href="#_1-1\u5404\u4E2A\u751F\u547D\u5468\u671F" aria-hidden="true">#</a> 1.1\u5404\u4E2A\u751F\u547D\u5468\u671F</h4><ol><li>beforeCreate\uFF08\u521B\u5EFA\u524D\uFF09:\u7EC4\u4EF6\u5B9E\u4F8B\u88AB\u521B\u5EFA\u4E4B\u521D\uFF0C\u7EC4\u4EF6\u7684\u5C5E\u6027\u751F\u6548\u4E4B\u524D\u3002</li><li>created\uFF08\u521B\u5EFA\u540E\uFF09:\u7EC4\u4EF6\u5B9E\u4F8B\u5DF2\u7ECF\u5B8C\u5168\u521B\u5EFA\uFF0C\u5C5E\u6027\u4E5F\u7ED1\u5B9A\uFF0C\u4F46\u771F\u5B9Edom\u8FD8\u6CA1\u6E32\u67D3\u3002$el\u4E0D\u53EF\u7528\u3002</li><li>beforeMount\uFF08\u6302\u8F7D\u524D\uFF09:\u5728\u6302\u8F7D\u5F00\u59CB\u4E4B\u524D\u88AB\u8C03\u7528\uFF1A\u76F8\u5173\u7684render\u51FD\u6570\u9996\u6B21\u88AB\u8C03\u7528\u3002</li><li>mounted\uFF08\u6302\u8F7D\u540E\uFF09:\u5728el\u88AB\u65B0\u521B\u5EFA\u7684vm.$el\u66FF\u6362\uFF0C\u5E76\u6302\u8F7D\u5230\u5B9E\u4F8B\u4E0A\u53BB\u4E4B\u540E\u8C03\u7528\u8BE5\u94A9\u5B50\u3002</li><li>beforeUpdate\uFF08\u66F4\u65B0\u524D\uFF09:\u7EC4\u4EF6\u6570\u636E\u66F4\u65B0\u4E4B\u524D\u8C03\u7528\uFF0C\u771F\u5B9Edom\u8FD8\u6CA1\u88AB\u66F4\u65B0\u6E32\u67D3\u3002</li><li>update\uFF08\u66F4\u65B0\u540E\uFF09:\u7EC4\u4EF6\u6570\u636E\u66F4\u65B0\u540E\u3002</li><li>activated\uFF08\u6FC0\u6D3B\u524D\uFF09:keey-alive\u4E13\u5C5E\uFF0C\u7EC4\u4EF6\u88AB\u6FC0\u6D3B\u65F6\u8C03\u7528\u3002</li><li>deactivated\uFF08\u6FC0\u6D3B\u540E\uFF09:keey-alive\u4E13\u5C5E\uFF0C\u7EC4\u4EF6\u88AB\u9500\u6BC1\u65F6\u8C03\u7528\u3002</li><li>beforeDestory\uFF08\u9500\u6BC1\u524D\uFF09:\u7EC4\u4EF6\u9500\u6BC1\u65F6\u8C03\u7528\u3002</li><li>destoryed\uFF08\u9500\u6BC1\u540E\uFF09:\u7EC4\u4EF6\u9500\u6BC1\u524D\u8C03\u7528\u3002</li></ol><h4 id="_1-2\u7EC4\u4EF6\u6267\u884C\u987A\u5E8F" tabindex="-1"><a class="header-anchor" href="#_1-2\u7EC4\u4EF6\u6267\u884C\u987A\u5E8F" aria-hidden="true">#</a> 1.2\u7EC4\u4EF6\u6267\u884C\u987A\u5E8F</h4><p>\u4F60\u770B\u5B8C\u4E0A\u9762\u5E94\u8BE5\u77E5\u9053\u751F\u547D\u5468\u671F\u51FD\u6570\u5927\u6982\u6267\u884C\u987A\u5E8F\u4E86\u5427\u3002\u8FD9\u91CC\u53EA\u8BF4\u7236\u5B50\u7EC4\u4EF6\u5173\u7CFB\u5176\u751F\u547D\u5468\u671F\u7684\u6267\u884C\u987A\u5E8F\u3002</p><ul><li><code>\u52A0\u8F7D\u6E32\u67D3\u8FC7\u7A0B</code>\uFF1AbeforeCreate(\u7236) \u2014&gt; created(\u7236)\u2014&gt;beforeMount(\u7236)\u2014&gt;beforeCreate(\u5B50)\u2014&gt;created(\u5B50)\u2014&gt;beforeMount(\u5B50)\u2014&gt;mounted(\u5B50)\u2014&gt;mounted(\u7236)</li><li>beforeCreate(\u7236) \u2014&gt; created(\u7236)\u2014&gt;beforeMount(\u7236)\u2014&gt;beforeCreate(\u5B50)\u2014&gt;created(\u5B50)\u2014&gt;beforeMount(\u5B50)\u2014&gt;mounted(\u5B50)\u2014&gt;mounted(\u7236)</li><li>\u9500\u6BC1\u8FC7\u7A0B\uFF1AbeforeDestory(\u7236) \u2014&gt; beforeDestory(\u5B50) \u2014&gt; destoryed(\u5B50) \u2014&gt; destoryed(\u7236)</li></ul><h4 id="_1-3\u6BCF\u4E2A\u751F\u547D\u5468\u671F\u8BE6\u89E3" tabindex="-1"><a class="header-anchor" href="#_1-3\u6BCF\u4E2A\u751F\u547D\u5468\u671F\u8BE6\u89E3" aria-hidden="true">#</a> 1.3\u6BCF\u4E2A\u751F\u547D\u5468\u671F\u8BE6\u89E3</h4><p>\u4E0B\u9762\u662F\u6781\u7B80\u5199\u6CD5\uFF0C\u751A\u81F3\u5FFD\u7565\u4E00\u4E9B\u4E1C\u897F\uFF1A</p><ol><li>beforeCreate\uFF1Anew\u4E00\u4E2Avue\u5B9E\u4F8B\uFF0C\u5565\u90FD\u6CA1\u6709\u3002</li><li>created\uFF1Adata\u548Cmethods\u521D\u59CB\u5316\u5B8C\u6210\uFF0C\u4F46\u662F\u6CA1\u6709el\u3002</li><li>beforeMount:\u865A\u62DFdom\u5DF2\u7ECF\u7F16\u8BD1\u597D\uFF0C\u4F46\u8FD8\u6CA1\u6302\u8F7D\u5230\u9875\u9762\u4E0A\u3002</li><li>mouted\uFF1A\u9875\u9762\u521D\u59CB\u5316\u5B8C\u6210\u3002</li></ol><p>\u4E0A\u9762\u4E3A\u91CD\u70B9</p><ol start="5"><li>beforeUpdate\uFF1A\u6B64\u65F6data\u662F\u66F4\u65B0\u540E\u7684\u6570\u636E\uFF0C\u4F46\u9875\u9762\u8FD8\u662F\u65E7\u7684\uFF0C\u8FD8\u6CA1\u6709\u540C\u6B65\u3002</li><li>update\uFF1A\u66F4\u65B0\u9875\u9762\u548Cdata\u6570\u636E\u4FDD\u5B58\u540C\u6B65\u3002</li><li>beforeDestory\uFF1A\u9500\u6BC1\u9636\u6BB5\uFF0C\u6B64\u65F6data\u548Cmethods\u4F9D\u7136\u53EF\u7528\u3002</li><li>destory\uFF1A\u7EC4\u4EF6\u9500\u6BC1\uFF0C\u4E0D\u53EF\u7528\u3002</li></ol><h4 id="_1-4-keey-alive\u7684activated\u548Cdeactivated" tabindex="-1"><a class="header-anchor" href="#_1-4-keey-alive\u7684activated\u548Cdeactivated" aria-hidden="true">#</a> 1.4 keey-alive\u7684activated\u548Cdeactivated</h4><ul><li>\u5982\u679C\u52A0\u5165keey-alive: \u7B2C\u4E00\u6B21\u52A0\u8F7D\u65F6\uFF0C\u4F1A\u989D\u5916\u6267\u884Cactivated\u3002 \u540E\u7EED\u518D\u8FDB\u5165\uFF1A\u53EA\u6267\u884Cactivated</li></ul><h4 id="_1-5-\u8C08\u8C08\u4F60\u5BF9keey-alive\u7684\u7406\u89E3" tabindex="-1"><a class="header-anchor" href="#_1-5-\u8C08\u8C08\u4F60\u5BF9keey-alive\u7684\u7406\u89E3" aria-hidden="true">#</a> 1.5 \u8C08\u8C08\u4F60\u5BF9keey-alive\u7684\u7406\u89E3</h4><p>\u4F5C\u7528\uFF1A\u7F13\u5B58\u7EC4\u4EF6\u8FBE\u5230\u63D0\u9AD8\u6027\u80FD\uFF0C\u4F46\u4F60\u91CD\u65B0\u6253\u5F00\u7EC4\u4EF6\u65F6\uFF0C\u5B83\u4F1A\u7F13\u5B58\u4E0A\u4E00\u6B21\u6253\u5F00\u65F6\u7684\u72B6\u6001\u3002</p><p>\u4F8B\u5982\uFF1A\u5217\u8868\u83DC\u5355\u70B9\u51FB\u4F1A\u8DF3\u8F6C\u8BE6\u60C5\u9875\uFF0C\u5F53\u4F60\u7F13\u5B58\u65F6\u5B83\u53EF\u4EE5\u51CF\u5C11\u91CD\u590D\u8BF7\u6C42\u4FE1\u606F\u3002</p><h2 id="_2-v-if\u548Cv-show\u7684\u533A\u522B" tabindex="-1"><a class="header-anchor" href="#_2-v-if\u548Cv-show\u7684\u533A\u522B" aria-hidden="true">#</a> 2.v-if\u548Cv-show\u7684\u533A\u522B</h2><p>v-if\uFF1A\u63A7\u5236dom\u662F\u5426\u521B\u5EFA\uFF0C\u9891\u7E41\u5207\u6362\u65F6\u4E0D\u63A8\u8350\u9891\u7E41\u66F4\u65B0dom\u3002 v-show\uFF1Adom\u5143\u7D20\u4F1A\u521B\u5EFA\uFF0C\u53EA\u662F\u63A7\u5236display:none(\u4E0D\u53EF\u89C1),blok(\u663E\u793A)\u3002</p><h2 id="_2-v-if\u548Cv-for\u7684\u4F18\u5148\u7EA7" tabindex="-1"><a class="header-anchor" href="#_2-v-if\u548Cv-for\u7684\u4F18\u5148\u7EA7" aria-hidden="true">#</a> 2.v-if\u548Cv-for\u7684\u4F18\u5148\u7EA7</h2><p>v-for\u4F18\u5148\u7EA7\u6BD4v-if\u9AD8</p><h2 id="_3-ref\u662F\u4EC0\u4E48" tabindex="-1"><a class="header-anchor" href="#_3-ref\u662F\u4EC0\u4E48" aria-hidden="true">#</a> 3.ref\u662F\u4EC0\u4E48\uFF1F</h2><p>ref\u7C7B\u4F3C\u4E8E\u4E00\u4E2A\u5173\u952E\u5B57\uFF0C\u7528\u6765\u83B7\u53D6dom\u3002\uFF08\u901A\u8FC7<code>this.refs.\u5173\u952E\u5B57</code>\u6765\u83B7\u53D6dom\u5143\u7D20\uFF09</p><h2 id="_4-nexttick\u662F\u4EC0\u4E48" tabindex="-1"><a class="header-anchor" href="#_4-nexttick\u662F\u4EC0\u4E48" aria-hidden="true">#</a> 4.nextTick\u662F\u4EC0\u4E48\uFF1F</h2><p>dom\u66F4\u65B0\u540E\u7684\u56DE\u8C03\u51FD\u6570\u3002\u4E3B\u8981\u4F5C\u7528\u4E8E\u83B7\u53D6\u66F4\u65B0\u540E\u7684\u6570\u636E\uFF08\u5F02\u6B65\uFF09\u3002</p><h2 id="_5-scoped\u539F\u7406" tabindex="-1"><a class="header-anchor" href="#_5-scoped\u539F\u7406" aria-hidden="true">#</a> 5.scoped\u539F\u7406</h2><p>\u4F5C\u7528\uFF1A\u4F7F\u7528scoped\u8BA9CSS\u53EA\u4F5C\u7528\u4E8E\u5F53\u524D\u7EC4\u4EF6\u5143\u7D20\u3002</p><ul><li>\u539F\u7406\uFF1A\u7ED9HTML\u7684DOM\u8282\u70B9\u52A0\u4E00\u4E2A\u4E0D\u91CD\u590Ddata\u5C5E\u6027(\u5F62\u5982\uFF1Adata-v-2311c06a)\u6765\u8868\u793A\u4ED6\u7684\u552F\u4E00\u6027\u3002</li><li>\u5728\u6BCF\u53E5css\u9009\u62E9\u5668\u7684\u672B\u5C3E\uFF08\u7F16\u8BD1\u540E\u7684\u751F\u6210\u7684css\u8BED\u53E5\uFF09\u52A0\u4E00\u4E2A\u5F53\u524D\u7EC4\u4EF6\u7684data\u5C5E\u6027\u9009\u62E9\u5668\u7684\u54C8\u5E0C\u7279\u5F81\u503C\uFF08\u5982[data-v-2311c06a]\uFF09\u6765\u79C1\u6709\u5316\u6837\u5F0F\u3002</li></ul><h2 id="_6-vue\u4E2D\u5982\u4F55\u505A\u6837\u5F0F\u7A7F\u900F" tabindex="-1"><a class="header-anchor" href="#_6-vue\u4E2D\u5982\u4F55\u505A\u6837\u5F0F\u7A7F\u900F" aria-hidden="true">#</a> 6.Vue\u4E2D\u5982\u4F55\u505A\u6837\u5F0F\u7A7F\u900F</h2><p>\u5F15\u5165\u5916\u90E8\u7EC4\u4EF6\u800C\u4E14\u4F7F\u7528\u4E86scoped\u65F6\u9700\u8981\u66F4\u6539\u6837\u5F0F\u65F6\u4F7F\u7528\u3002</p><p>1.scss\u6837\u5F0F\u7A7F\u900F</p><div class="language-css ext-css line-numbers-mode"><pre class="language-css"><code>\u7236\u5143\u7D20 /deep/\u5B50\u5143\u7D20
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>2.stylus\u6837\u5F0F\u7A7F\u900F</p><div class="language-css ext-css line-numbers-mode"><pre class="language-css"><code>\u7236\u5143\u7D20 /deep/\u5B50\u5143\u7D20
 <span class="token comment">/* stylus\u4E00\u822C\u7528\u4E0B\u9762 */</span>
@@ -5009,84 +4799,84 @@ Object<span class="token punctuation">.</span><span class="token function">defin
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><h2 id="_16-diff\u7B97\u6CD5" tabindex="-1"><a class="header-anchor" href="#_16-diff\u7B97\u6CD5" aria-hidden="true">#</a> 16. diff\u7B97\u6CD5</h2><p>\u865A\u62DFdom\uFF08\u628Adom\u6570\u636E\u5316\uFF0C\u4FBF\u4E8E\u64CD\u4F5C\uFF09</p><p>diff\u7B97\u6CD5\u7684\u672C\u8D28\u662F\u627E\u51FA\u4E24\u4E2A\u5BF9\u8C61\u4E4B\u95F4\u7684\u5DEE\u5F02\uFF0C\u76EE\u7684\u662F\u5C3D\u53EF\u80FD\u590D\u7528\u8282\u70B9\u3002\u6B64\u5904\u8BF4\u5230\u7684\u5BF9\u8C61\u5176\u5B9E\u5C31\u5BF9\u5E94 vue\u4E2D\u7684 virtual dom,\u5373\u4F7F\u7528 js \u5BF9\u8C61\u6765\u8868\u793A\u9875\u9762\u4E2D\u7684 dom \u7ED3\u6784\u3002</p><p>\u7279\u70B9:</p><ul><li>\u6BD4\u8F83\u53EA\u4F1A\u5728\u540C\u5C42\u7EA7\u8FDB\u884C, \u4E0D\u4F1A\u8DE8\u5C42\u7EA7\u6BD4\u8F83</li><li>\u5728diff\u6BD4\u8F83\u7684\u8FC7\u7A0B\u4E2D\uFF0C\u5FAA\u73AF\u4ECE\u4E24\u8FB9\u5411\u4E2D\u95F4\u6BD4\u8F83</li></ul><p>\u6BD4\u8F83\u65B9\u5F0F:</p><ul><li>diff\u6574\u4F53\u7B56\u7565\u4E3A\uFF1A\u6DF1\u5EA6\u4F18\u5148\uFF0C\u540C\u5C42\u6BD4\u8F83</li></ul><!--]-->`);
 }
-const _sfc_setup$A = _sfc_main$A.setup;
-_sfc_main$A.setup = (props, ctx) => {
+const _sfc_setup$B = _sfc_main$B.setup;
+_sfc_main$B.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/interview/VUEinterview.html.vue");
-  return _sfc_setup$A ? _sfc_setup$A(props, ctx) : void 0;
+  return _sfc_setup$B ? _sfc_setup$B(props, ctx) : void 0;
 };
-var VUEinterview_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$A, [["ssrRender", _sfc_ssrRender$m]]);
+var VUEinterview_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$B, [["ssrRender", _sfc_ssrRender$n]]);
 var VUEinterview_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": VUEinterview_html$1
 });
-const _sfc_main$z = {};
-function _sfc_ssrRender$l(_ctx, _push, _parent, _attrs) {
+const _sfc_main$A = {};
+function _sfc_ssrRender$m(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h2 id="\u5154\u5B50\u4E0E\u661F\u661F" tabindex="-1"><a class="header-anchor" href="#\u5154\u5B50\u4E0E\u661F\u661F" aria-hidden="true">#</a> \u5154\u5B50\u4E0E\u661F\u661F</h2><p>\u5927\u5154\u5B50\u7279\u522B\u559C\u6B22\u591C\u665A\uFF0C\u56E0\u4E3A\u53EF\u4EE5\u4E00\u4E2A\u4EBA\u770B\u661F\u661F\uFF0C\u8FD8\u6CA1\u6709\u4EBA\u6253\u6270\u4ED6\u3002\u4ED6\u6BCF\u5929\u665A\u4E0A\u90FD\u5BF9\u7740\u661F\u661F\u8BF4\u5FC3\u91CC\u8BDD\uFF0C\u5C0F\u661F\u661F\u4E5F\u4F1A\u548C\u4ED6\u8BF4\u6084\u6084\u8BDD\u3002</p><p>\u6709\u4E00\u5929\u5C0F\u661F\u661F\u544A\u8BC9\u5927\u5154\u5B50\uFF1A\u7B49\u4F1A\u4F1A\u6709\u6D41\u661F\u96E8\u54E6\uFF0C\u4F60\u53EF\u4EE5\u5BF9\u7740\u5B83\u4EEC\u8BB8\u4E2A\u613F\uFF0C\u68A6\u60F3\u4E00\u5B9A\u4F1A\u5B9E\u73B0\u7684\uFF01\u5927\u5154\u5B50\u5F00\u5FC3\u7684\u50CF\u4E2A\u5B9D\u5B9D\uFF0C\u4ED6\u6709\u65E0\u6570\u4E2A\u613F\u671B\u60F3\u8981\u5B9E\u73B0\uFF0C\u4E8E\u662F\u5462\uFF0C\u4ED6\u5C31\u5F00\u59CB\u4E00\u6761\u6761\u5217\u51FA\u4ED6\u7684\u613F\u671B\u7B49\u5F85\u6D41\u661F\u96E8\u7684\u5230\u6765.....</p><p>\u5927\u5154\u5B50\u5C31\u5750\u5728\u90A3\u91CC\u7B49\u554A\u7B49\uFF0C\u6708\u4EAE\u90FD\u5FEB\u5230\u5934\u9876\u4E86\uFF0C\u5927\u767D\u5154\u4E5F\u5F00\u59CB\u72AF\u8FF7\u7CCA\u3002\u549A \u5927\u767D\u5154\u56F0\u7684\u4E00\u5934\u624E\u5230\u4E86\u8349\u5730\u91CC\u3002\u661F\u661F\u5728\u4E00\u65C1\u5077\u5077\u7684\u7B11\uFF0C\u5C31\u8FD9\u8FD9\u4E2A\u65F6\u5019\u6D41\u661F\u96E8\u6765\u4E86\uFF0C\u5C0F\u661F\u661F\u8D76\u5FEB\u53EB\u5927\u5154\u5B50\u9192\u6765\uFF0C\u600E\u4E48\u53EB\u5C31\u662F\u53EB\u4E0D\u9192\uFF0C\u8FD9\u6025\u6B7B\u5C0F\u661F\u661F\u4E86\uFF0C\u4F46\u662F\u4E5F\u6CA1\u6709\u529E\u6CD5\uFF0C\u5982\u679C\u5C0F\u661F\u661F\u6254\u4E00\u5C0F\u5757\u77F3\u5934\u7838\u5979\u7684\u8BDD\u4ED6\u5C31\u53D8\u6210\u5154\u5B50\u997C\u4E86.....</p><p>\u5C0F\u661F\u661F\u5C31\u4E00\u76F4\u53EB\u5927\u5154\u5B50\uFF0C\u4E00\u76F4\u53EB\u554A\u53EB\uFF0C\u5927\u5154\u5B50\u54D7\u7684\u4E00\u4E0B\u9192\u6765\u4E86\uFF0C\u4ED6\u4EE5\u4E3A\u81EA\u5DF1\u521A\u7761\u7740\uFF0C\u5176\u5B9E\u6D41\u661F\u96E8\u5DF2\u7ECF\u8FC7\u53BB\u4E00\u5927\u534A\u4E86\uFF01</p><p>\u5927\u767D\u5154\u614C\u91CC\u614C\u5F20\u7684\u95ED\u4E0A\u773C\u775B\u8BF4\u51FA\u4ED6\u7684\u613F\u671B\uFF0C\u6211\u60F3\u5B66\u4F1A\u5F39\u94A2\u7434\uFF0C\u6211\u60F3\u5B66\u4F1A\u505A\u597D\u5403\u7684\uFF0C\u6211\u60F3\u62E5\u6709\u6700\u597D\u5403\u7684\u80E1\u841D\u535C\uFF0C\u6211\u60F3\u53D8\u6210\u5154\u5B50\u754C\u7B2C\u4E00\u9996\u5BCC\uFF0C\u6211\u60F3\u62E5\u6709\u4E00\u4E2A\u5927\u679C\u56ED\u81EA\u5DF1\u53EF\u4EE5\u968F\u65F6\u5403\u5230\u7684\u90A3\u79CD\uFF01\u6211\u60F3.......</p><p>\u5C31\u8FD9\u6837\uFF0C\u5927\u5154\u5B50\u5C31\u50CF\u673A\u5173\u67AA\u4E00\u6837\uFF0C\u6709\u8BF4\u4E0D\u5B8C\u7684\u613F\u671B\u3002\u6709\u4E00\u9897\u5C0F\u6D41\u661F\u98DE\u8FC7\uFF0C\u544A\u8BC9\u5927\u5154\u5B50\uFF0C\u4F60\u8BF4\u7684\u90A3\u4E9B\u592A\u7269\u8D28\u4E86\uFF0C\u90A3\u4E9B\u8981\u9760\u4F60\u81EA\u5DF1\u53BB\u52AA\u529B\u624D\u53EF\u5F97\u5230\uFF0C\u4F60\u8981\u81EA\u5DF1\u5F88\u8BA4\u771F\u7684\u60F3\u4E00\u4E2A\u5FC3\u613F\uFF0C\u6211\u4F1A\u5C3D\u529B\u5E2E\u4F60\u5B9E\u73B0\u7684\uFF01\u5927\u5154\u5B50\u95ED\u4E0A\u773C\u775B\uFF0C\u53CC\u624B\u5408\u5341\u3002\u201C\u90A3\u5C31\u8BF7\u4F60\u544A\u8BC9\u5979\uFF0C\u6211\u60F3\u5979\u4E86\u201D\u5C0F\u6D41\u661F\u7B11\u4E86\u7B11\u4FDD\u8BC1\u5B8C\u6210\u4EFB\u52A1\u54E6\uFF5E</p><p>\u90A3\u5929\u7684\u665A\u4E0A\uFF0C\u8FDC\u5728\u4ED6\u4E61\u7684\u5C0F\u767D\u5154\u5728\u68A6\u4E61\u91CC\u89C1\u5230\u4E86\u5979\u7231\u7684\u5927\u5154\u5B50\uFF5E</p><h2 id="\u5929\u4E0A\u7684\u661F\u661F" tabindex="-1"><a class="header-anchor" href="#\u5929\u4E0A\u7684\u661F\u661F" aria-hidden="true">#</a> \u5929\u4E0A\u7684\u661F\u661F</h2><p>\u5154\u5154\u8981\u51FA\u4E00\u8D9F\u5F88\u4E45\u5F88\u4E45\u7684\u8FDC\u95E8\u4E86\u3002</p><p>\u732A\u732A\u81EA\u4ECE\u542C\u5230\u8FD9\u4E2A\u6D88\u606F\u5C31\u975E\u5E38\u96BE\u8FC7\uFF0C\u4ED6\u820D\u4E0D\u5F97\u5154\u5154\u79BB\u5F00\u3002\u54EA\u6015\u5C31\u4E00\u5929\u4E24\u5929\u90FD\u820D\u4E0D\u5F97\uFF0C\u66F4\u4F55\u51B5\uFF0C\u8FD9\u6B21\u7684\u5206\u5F00\u8FDC\u8FDC\u8D85\u8FC7\u8FD9\u4E2A\u6570\u76EE\u3002</p><p>\u4ED6\u867D\u7136\u8FD8\u662F\u6BCF\u5929\u90FD\u5728\u7ED9\u5154\u5154\u505A\u559C\u6B22\u5403\u7684\u4E1C\u897F\uFF0C\u8FD8\u662F\u5728\u54C4\u5154\u5154\u5F00\u5FC3\u3002\u53EF\u4ED6\u7684\u5FE7\u6101\u5199\u5728\u4E86\u5C0F\u5C0F\u7684\u773C\u775B\u91CC\uFF0C\u4ED6\u820D\u4E0D\u5F97\u5154\u5154\u8D70\u3002</p><p>\u53EF\u662F\u5154\u5154\u5DF2\u7ECF\u51B3\u5B9A\u4E86\u8981\u51FA\u53BB\uFF0C\u5C0F\u732A\u732A\u652F\u6301\u5154\u5154\u7684\u4E00\u5207\u505A\u6CD5\u3002\u732A\u732A\u6BCF\u5929\u90FD\u76D8\u7B97\u7740\u65E5\u5B50\uFF0C\u4ED6\u544A\u8BC9\u81EA\u5DF1\uFF0C\u53EA\u8981\u6709\u7231\u5728\uFF0C\u9694\u5C71\u8DDD\u6D77\uFF0C\u65E5\u5B50\u4E5F\u90FD\u4E0D\u4F1A\u592A\u96BE\u8FC7\u7684\u3002</p><p>\u54EA\u6015\u5C0F\u732A\u732A\u65E0\u6BD4\u73CD\u60DC\u6D41\u901D\u7684\u6BCF\u5206\u949F\uFF0C\u8DDD\u79BB\u5C0F\u5154\u5154\u8D70\u7684\u65F6\u95F4\u4E5F\u8D8A\u6765\u8D8A\u8FD1\u4E86\u3002\u5C0F\u732A\u732A\u5F00\u59CB\u7761\u4E0D\u7740\u89C9\uFF0C\u5403\u4E0D\u4E0B\u996D\u3002\u4ED6\u53EA\u60F3\u65E0\u65F6\u65E0\u523B\u7684\u76EF\u7740\u5154\u5154\u3002\u54EA\u6015\u8EBA\u5728\u5E8A\u4E0A\uFF0C\u4ED6\u4E5F\u4F1A\u6402\u7740\u5154\u5B50\uFF0C\u501F\u7740\u6708\u5149\uFF0C\u770B\u7740\u5154\u5154\u4FA7\u8EBA\u5728\u5E8A\u4E0A\u7684\u5A07\u4FCF\u6A21\u6837\u3002\u732A\u732A\u600E\u4E48\u53EF\u80FD\u820D\u5F97\u5154\u5154\u79BB\u5F00\u5462\u3002</p><p>\u5154\u5154\u4E5F\u53D1\u73B0\u4E86\u732A\u732A\u7684\u4E0D\u5BF9\u52B2\u3002\u4ED6\u867D\u7136\u6BCF\u5929\u90FD\u8FD8\u5728\u5C06\u989C\u6B22\u7B11\uFF0C\u53EF\u662F\u5154\u5154\u5374\u770B\u4E0D\u89C1\u4ED6\u5403\u996D\uFF0C\u53EA\u80FD\u770B\u89C1\u4ED6\u8D8A\u6765\u8D8A\u6DF1\u9083\u7684\u9ED1\u773C\u5708\uFF0C\u5154\u5154\u5F88\u5FC3\u75BC\u3002</p><p>\u201C\u732A\uFF0C\u4F60\u522B\u6015\u554A\uFF0C\u6211\u4F1A\u4E00\u76F4\u559C\u6B22\u4F60\u7684\u3002\u201D\u5C0F\u5154\u5154\u770B\u7740\u7ED9\u81EA\u5DF1\u7AEF\u83DC\u7684\u5C0F\u732A\uFF0C\u8BF4\u3002</p><p>\u201C\u50BB\u74DC\uFF0C\u6211\u4E0D\u662F\u6015\u4F60\u4E0D\u559C\u6B22\u6211\u4E86\u3002\u6211\u5BB3\u6015\u6211\u4E0D\u80FD\u4FDD\u62A4\u4F60\uFF0C\u5BB3\u6015\u4E0D\u80FD\u966A\u7740\u4F60\u3002\u6211\u5BB3\u6015\u6211\u60F3\u62B1\u4F60\u7684\u65F6\u5019\uFF0C\u8EAB\u8FB9\u6CA1\u6709\u4F60\uFF1B\u6211\u66F4\u5BB3\u6015\uFF0C\u4F60\u8EAB\u8FB9\u6709\u5F88\u591A\u4E2A\u6211\u3002\u201D\u732A\u732A\u62B1\u7740\u5C0F\u5154\u5B50\uFF0C\u7528\u529B\u628A\u5979\u6402\u5728\u6000\u91CC\u3002</p><p>\u201C\u522B\u778E\u8BF4\uFF01\u50BB\u732A\uFF0C\u4F60\u62AC\u5934\u770B\u661F\u661F\uFF0C\u5C31\u5934\u4E0A\u7684\u6700\u4EAE\u7684\u90A3\u4E00\u9897\u3002\u65E0\u8BBA\u6211\u4EEC\u76F8\u8DDD\u591A\u8FDC\uFF0C\u53EF\u662F\uFF0C\u5728\u5B83\u7684\u773C\u91CC\uFF0C\u6211\u4EEC\u90FD\u662F\u5728\u4E00\u8D77\u7684\u3002\u201D</p><p>\u201C\u732A\u732A\uFF0C\u6CA1\u6709\u51E0\u5929\u6211\u5C31\u8981\u8D70\u5566\uFF0C\u6211\u4E0D\u5E0C\u671B\u4F60\u6BCF\u5929\u90FD\u96BE\u8FC7\u3002\u65E2\u7136\u90FD\u662F\u65E2\u5B9A\u7684\u4E8B\u5B9E\uFF0C\u90A3\u4E3A\u4EC0\u4E48\uFF0C\u6211\u4EEC\u4E0D\u628A\u73B0\u5728\u4E24\u4E2A\u4EBA\u5F85\u5728\u4E00\u8D77\u7684\u65F6\u95F4\u8FC7\u7684\u66F4\u52A0\u5145\u5B9E\u7F8E\u6EE1\u5462\uFF1F\u201D\u5C0F\u5154\u5154\u5728\u732A\u732A\u7684\u6000\u91CC\uFF0C\u628A\u5934\u9760\u5728\u4E86\u4ED6\u7684\u5DF2\u7ECF\u7565\u5FAE\u6709\u4E9B\u6D88\u7626\u7684\u80A9\u8180\u4E0A\u3002</p><p>\u5C0F\u732A\u732A\u628A\u773C\u6CEA\u64E6\u5E72\uFF1A\u201C\u597D\u3002\u6211\u77E5\u9053\u8BE5\u600E\u4E48\u505A\u5566\u3002\u201D</p><p>\u201C\u65E0\u8BBA\u524D\u8DEF\u591A\u4E48\u6A21\u7CCA\uFF0C\u65E0\u8BBA\u76F8\u805A\u591A\u4E48\u9065\u8FDC\u3002\u6211\u90FD\u4F1A\u4E00\u76F4\u5728\u3002\u201D</p><p>\u201C\u6240\u7231\u9694\u5C71\u6D77\uFF0C\u5C71\u6D77\u7686\u53EF\u5E73\u3002\u201D</p><h2 id="\u82F9\u679C-\u667A\u6167\u679C" tabindex="-1"><a class="header-anchor" href="#\u82F9\u679C-\u667A\u6167\u679C" aria-hidden="true">#</a> \u82F9\u679C=\u667A\u6167\u679C</h2><p>\u5723\u7ECF\u4E0A\u8BF4\uFF0C\u4E0A\u5E1D\u521B\u9020\u4E86\u4E9A\u5F53\u548C\u590F\u5A03\u540E\uFF0C\u5B89\u6392\u4ED6\u4EEC\u5728\u4F0A\u7538\u56ED\u91CC\u751F\u6D3B\u3002\u4F0A\u7538\u56ED\u91CC\u6811\u6728\u5E38\u9752\uFF0C\u82B1\u8349\u5E38\u7EFF\uFF0C\u6709\u5404\u79CD\u5947\u73CD\u5F02\u679C\u548C\u98DE\u79BD\u8D70\u517D\u3002\u8FDB\u5165\u4F0A\u7538\u56ED\u7684\u7B2C\u4E00\u5929\uFF0C\u4E0A\u5E1D\u5C31\u8B66\u544A\u4E9A\u5F53\u548C\u590F\u5A03\u6240\u6709\u7684\u679C\u5B9E\u90FD\u53EF\u4EE5\u5403\uFF0C\u53EA\u6709\u667A\u6167\u6811\u7684\u8FC7\u662F\u4E0D\u53EF\u4EE5\u5403.</p><p>\u4E9A\u5F53\u548C\u590F\u5A03\u5F00\u59CB\u5F88\u542C\u8BDD\uFF0C\u4F46\u662F\u6CA1\u8FC7\u591A\u4E45\uFF0C\u5C31\u6709\u4E00\u6761\u9634\u9669\u7684\u6BD2\u86C7\u82B1\u8A00\u5DE7\u8BED\u5F15\u8BF1\u72EC\u81EA\u73A9\u800D\u7684\u590F\u5A03\u5077\u5403\u4E86\u667A\u6167\u6811\u7684\u679C\u5B50\uFF0C\u5929\u771F\u7684\u590F\u5A03\u53C8\u628A\u5403\u5269\u4E0B\u7684\u679C\u5B50\u7ED9\u4E86\u4E9A\u5F53\u3002\u4E8E\u662F\uFF0C\u4E9A\u5F53\u548C\u590F\u5A03\u5C31\u6709\u4E86\u667A\u6167\uFF0C\u4EBA\u7C7B\u5F00\u59CB\u6709\u4E86\u5584\u4E0E\u6076\u3002</p><p>\u82F9\u679C\u5728\u897F\u65B9\u8C61\u5F81\u7740\u7231\uFF0C\u4E9A\u5F53\u548C\u590F\u5A03\u5403\u7684\u201C\u7981\u679C\u201D\uFF0C\u5B9E\u9645\u4E0A\u5C31\u662F\u9752\u82F9\u679C\uFF0C\u5728\u4E0D\u8BE5\u5403\u7684\u65F6\u5019\u5403\u4E86\u5B83\uFF0C\u53D7\u5230\u4E0A\u5E1D\u7684\u60E9\u7F5A\u3002\u6CA1\u6709\u6210\u719F\u7684\u82F9\u679C\u7684\u5473\u9053\uFF0C\u53C8\u9178\u53C8\u6DA9\uFF0C\u6B63\u5982\u9752\u6DA9\u7684\u9752\u6625\u5982\u540C\u662F\u6CA1\u6709\u6210\u719F\u7684\u65F6\u5019\uFF0C\u4F60\u4E0D\u8981\u53BB\u5543\u5B83\u3002</p><p>\u82F9\u679C\u5C31\u6210\u4E86\u667A\u6167\u679C\u7684\u4EE3\u540D\u8BCD\uFF0C\u82F9\u679C\u4E5F\u6210\u4E86\u667A\u6167\u7684\u8C61\u5F81\u3002</p><h2 id="\u7B28\u7B28\u718A" tabindex="-1"><a class="header-anchor" href="#\u7B28\u7B28\u718A" aria-hidden="true">#</a> \u7B28\u7B28\u718A</h2><p>\u7B28\u7B28\u718A\u6765\u5230\u6CB3\u8FB9\uFF0C\u770B\u7740\u6CB3\u6C34\u91CC\u7684\u9C7C\uFF0C\u7B28\u7B28\u718A\u89C9\u5F97\u9C7C\u513F\u4EEC\u592A\u5E78\u798F\u4E86\uFF0C\u4E0D\u7528\u6355\u98DF\uFF0C\u5728\u6CB3\u6C34\u91CC\u81EA\u7531\u81EA\u5728\uFF0C\u771F\u5E78\u798F\u3002\u7B28\u7B28\u718A\u771F\u60F3\u53D8\u6210\u4E00\u6761\u9C7C\uFF0C\u4E00\u6761\u81EA\u7531\u81EA\u5728\u7684\u9C7C\u3002</p><p>\u7B28\u7B28\u718A\u8D70\u5728\u56DE\u5BB6\u7684\u8DEF\u4E0A\uFF0C\u4E0D\u5C0F\u5FC3\u649E\u5230\u4E86\u683C\u683C\u5DEB\uFF0C\u683C\u683C\u5DEB\u662F\u68EE\u6797\u91CC\u7684\u5DEB\u5A46\uFF0C\u683C\u683C\u5DEB\u65B0\u7814\u5236\u7684\u53D8\u8EAB\u836F\u6C34\u6D12\u5728\u4E86\u7B28\u7B28\u718A\u7684\u8EAB\u4E0A\uFF0C\u7B28\u7B28\u718A\u7ACB\u523B\u53D8\u6210\u4E86\u4E00\u6761\u9C7C\uFF0C\u53D8\u6210\u9C7C\u7684\u7B28\u7B28\u718A\u79BB\u5F00\u4E86\u6C34\u662F\u65E0\u6CD5\u6D3B\u4E0B\u53BB\u7684\uFF0C\u683C\u683C\u5DEB\u53EA\u597D\u628A\u7B28\u7B28\u718A\u653E\u5728\u6C34\u91CC\u3002</p><p>\u683C\u683C\u5DEB\u5BF9\u7B28\u7B28\u718A\u8BF4\uFF1A\u201C\u771F\u662F\u5BF9\u4E0D\u8D77\u7B28\u7B28\u718A\uFF0C\u4F60\u5148\u5728\u6CB3\u6C34\u91CC\u751F\u6D3B\uFF0C\u6211\u9A6C\u4E0A\u5C31\u56DE\u53BB\u7814\u5236\u89E3\u836F\uFF0C\u6211\u4F1A\u628A\u4F60\u53D8\u56DE\u6765\u7684\u3002\u201D</p><p>\u7B28\u7B28\u718A\u8BF4\uFF1A\u201C\u6CA1\u5173\u7CFB\uFF0C\u6211\u6B63\u597D\u53EF\u4EE5\u4EAB\u53D7\u4E00\u4E0B\u53D8\u6210\u9C7C\u7684\u751F\u6D3B\uFF0C\u4F60\u4E0D\u7528\u6025\u7740\u628A\u6211\u53D8\u56DE\u6765\u3002\u201D</p><p>\u683C\u683C\u5DEB\u628A\u53D8\u6210\u9C7C\u7684\u7B28\u7B28\u718A\u653E\u8FDB\u6CB3\u6C34\u91CC\u4E4B\u540E\uFF0C\u9A91\u7740\u626B\u628A\u6025\u5FD9\u56DE\u5BB6\u7814\u5236\u89E3\u836F\u53BB\u4E86\uFF0C\u7B28\u7B28\u718A\u9AD8\u5174\u7684\u5728\u6CB3\u6C34\u91CC\u6E38\u6765\u6E38\u53BB\uFF0C\u5F53\u4E00\u6761\u9C7C\u8FD9\u53EF\u662F\u7B28\u7B28\u718A\u7684\u68A6\u60F3\uFF0C\u73B0\u5728\u7EC8\u4E8E\u5B9E\u73B0\u4E86\u3002</p><p>\u7B28\u7B28\u718A\u6CA1\u6709\u6CE8\u610F\u5230\u5B83\u5DF2\u7ECF\u88AB\u4E00\u6761\u5927\u9C7C\u76EF\u4E0A\u4E86\uFF0C\u7B28\u7B28\u718A\u7A81\u7136\u611F\u5230\u773C\u524D\u4E00\u7247\u6F06\u9ED1\uFF0C\u539F\u6765\u81EA\u5DF1\u5DF2\u7ECF\u5728\u5927\u9C7C\u7684\u53E3\u91CC\u4E86\uFF0C\u7B28\u7B28\u718A\u8D81\u7740\u5927\u9C7C\u8FD8\u6CA1\u6709\u628A\u5634\u5408\u4E0A\u9003\u4E86\u51FA\u53BB\uFF0C\u7B28\u7B28\u718A\u4E0D\u65AD\u7684\u6E38\uFF0C\u51F6\u6076\u7684\u5927\u9C7C\u5728\u540E\u9762\u7D27\u8FFD\u4E0D\u820D\u3002</p><p>\u4E00\u4E2A\u5C0F\u6D77\u9A6C\u628A\u7B28\u7B28\u718A\u62FD\u8FDB\u4E86\u6D77\u85FB\u91CC\uFF0C\u5927\u9C7C\u600E\u4E48\u627E\u90FD\u627E\u4E0D\u5230\uFF0C\u53EA\u597D\u79BB\u5F00\uFF0C\u5C0F\u6D77\u9A6C\u544A\u8BC9\u7B28\u7B28\u718A\u8BF4\uFF1A\u201C\u5927\u9C7C\u5403\u5C0F\u9C7C\u8FD9\u662F\u89C4\u5F8B\uFF0C\u4E00\u5B9A\u8981\u5C0F\u5FC3\u90A3\u4E9B\u5927\u9C7C\uFF0C\u4E0D\u7136\u81EA\u5DF1\u4F1A\u88AB\u5403\u6389\u3002\u201D</p><p>\u7B28\u7B28\u718A\u5230\u5904\u4E1C\u8EB2\u897F\u85CF\uFF0C\u8FD9\u5B8C\u5168\u8DDF\u7B28\u7B28\u718A\u60F3\u8C61\u7684\u751F\u6D3B\u4E0D\u4E00\u6837\uFF0C\u5403\u7684\u98DF\u7269\u4E5F\u53D8\u6210\u4E86\u96BE\u5403\u7684\u6D77\u8349\u3002</p><p>\u8981\u77E5\u9053\u718A\u53EF\u662F\u4E00\u4E2A\u4E0D\u5403\u8349\u7684\u52A8\u7269\uFF0C\u73B0\u5728\u5374\u5929\u5929\u5403\u7740\u6D77\u8349\uFF0C\u7B28\u7B28\u718A\u6000\u5FF5\u8D77\u81EA\u5DF1\u4EE5\u524D\u505A\u5C0F\u718A\u7684\u65E5\u5B50\uFF0C\u53EF\u4EE5\u5403\u5230\u5F88\u591A\u7684\u7F8E\u98DF\uFF0C\u9999\u751C\u7684\u7CD5\u70B9\uFF0C\u60F3\u60F3\u5C31\u8BA9\u4EBA\u76F4\u6D41\u53E3\u6C34\u3002</p><p>\u7B28\u7B28\u718A\u60F3\u53D8\u56DE\u4E00\u53EA\u718A\uFF0C\u53EF\u662F\u683C\u683C\u5DEB\u7684\u89E3\u836F\u8FD8\u6CA1\u6709\u7814\u5236\u51FA\u6765\uFF0C\u7B28\u7B28\u718A\u4E0D\u613F\u610F\u518D\u5403\u90A3\u96BE\u5403\u7684\u6D77\u8349\uFF0C\u53EA\u597D\u997F\u7740\u809A\u5B50\uFF0C\u6B63\u5728\u7B28\u7B28\u718A\u997F\u7740\u809A\u5B50\u7684\u65F6\u5019\uFF0C\u4E00\u5757\u9762\u5305\u51FA\u73B0\u5728\u7B28\u7B28\u718A\u7684\u89C6\u7EBF\u91CC\uFF0C\u9762\u5305\u5728\u4E00\u4E2A\u74F6\u5B50\u91CC\uFF0C\u7B28\u7B28\u718A\u94BB\u8FDB\u74F6\u5B50\u91CC\uFF0C\u5F00\u5FC3\u7684\u5403\u8D77\u4E86\u9762\u5305\u3002</p><p>\u7B28\u7B28\u718A\u79BB\u5F00\u4E86\u6C34\u9762\uFF0C\u539F\u6765\u662F\u683C\u683C\u5DEB\u62FF\u9762\u5305\u8BF1\u60D1\u7B28\u7B28\u718A\u7684\uFF0C\u683C\u683C\u5DEB\u628A\u9B54\u6CD5\u836F\u6C34\u7684\u89E3\u836F\u6EF4\u5728\u4E86\u53D8\u6210\u9C7C\u7684\u7B28\u7B28\u718A\u8EAB\u4E0A\uFF0C\u7B28\u7B28\u718A\u53D8\u56DE\u4E86\u4E00\u53EA\u718A\uFF0C\u53EF\u662F\u7B28\u7B28\u718A\u5374\u5927\u54ED\u8D77\u6765\uFF0C\u683C\u683C\u5DEB\u5230\u73B0\u5728\u4E5F\u6CA1\u5F04\u6E05\u695A\u7B28\u7B28\u718A\u4E3A\u4EC0\u4E48\u4F1A\u54ED\u3002</p><h2 id="\u5C0F\u80A5\u732A" tabindex="-1"><a class="header-anchor" href="#\u5C0F\u80A5\u732A" aria-hidden="true">#</a> \u5C0F\u80A5\u732A</h2><p>\u4E00\u53EA\u9965\u997F\u7684\u72D0\u72F8\u6B63\u51C6\u5907\u51FA\u95E8\u627E\u5348\u9910\uFF0C\u7A81\u7136\uFF0C\u5916\u9762\u4F20\u6765\u4E00\u9635\u6572\u95E8\u58F0\u3002\u72D0\u72F8\u6253\u5F00\u95E8\uFF0C\u95E8\u53E3\u7ADF\u7AD9\u7740\u4E00\u53EA\u5C0F\u80A5\u732A\u3002</p><p>\u201C\u54CE\u5440\uFF0C\u6211\u627E\u9519\u95E8\u4E86\uFF0C\u6211\u4EE5\u4E3A\u662F\u5154\u5B50\u7684\u5BB6\u5462\uFF01\u201D</p><p>\u201C\u6CA1\u9519\uFF0C\u4F60\u6765\u5F97\u6B63\u662F\u65F6\u5019\uFF01\u201D</p><p>\u72D0\u72F8\u628A\u5C0F\u732A\u72E0\u72E0\u5730\u62D6\u8FDB\u5C4B\u91CC\uFF0C\u5927\u58F0\u53EB\u9053\uFF1A\u201C\u8FD9\u771F\u662F\u6211\u5E78\u8FD0\u7684\u4E00\u5929\uFF01\u6211\u8981\u5403\u4E00\u987F\u9999\u55B7\u55B7\u7684\u70E4\u732A\u8089\uFF0C\u73B0\u5728\uFF0C\u4F60\u4E56\u4E56\u5730\u8EBA\u5230\u70E4\u9505\u91CC\u53BB\u5427\uFF01\u201D</p><p>\u6323\u624E\u662F\u6CA1\u6709\u7528\u7684\uFF0C\u4E8E\u662F\uFF0C\u5C0F\u732A\u8BF4\uFF1A\u201C\u542C\u4F60\u7684\u5B89\u6392\u5427\u3002\u4E0D\u8FC7\uFF0C\u6211\u5F88\u810F\u54E6\uFF0C\u5728\u4F60\u5403\u6389\u6211\u4E4B\u524D\uFF0C\u5C31\u4E0D\u60F3\u628A\u6211\u6D17\u5F97\u5E72\u51C0\u4E00\u70B9\u5417\uFF1F\u201D\u4E8E\u662F\uFF0C\u72D0\u72F8\u5FD9\u8D77\u6765\u4E86\u3002\u4ED6\u62FE\u6765\u4E86\u6811\u679D\u3001\u751F\u8D77\u4E86\u706B\uFF0C\u518D\u5230\u6CB3\u8FB9\u53BB\u63D0\u6C34\uFF0C\u7136\u540E\uFF0C\u7ED9\u5C0F\u732A\u6D17\u4E86\u4E00\u4E2A\u75DB\u75DB\u5FEB\u5FEB\u7684\u70ED\u6C34\u6FA1\u3002</p><p>\u72D0\u72F8\u8BF4\uFF1A\u201C\u597D\u5566\uFF0C\u73B0\u5728\u4F60\u662F\u5168\u6751\u6700\u5E72\u51C0\u7684\u5C0F\u732A\u4E86\uFF0C\u5FEB\u7ED9\u6211\u8EBA\u5230\u70E4\u9505\u91CC\u53BB\u5427\uFF01\u201D</p><p>\u6323\u624E\u662F\u6CA1\u6709\u7528\u7684\uFF0C\u4E8E\u662F\uFF0C\u5C0F\u732A\u8BF4\uFF1A\u201C\u542C\u4F60\u7684\u5B89\u6392\u5427\u3002\u4E0D\u8FC7\uFF0C\u6211\u592A\u5C0F\u4E86\uFF0C\u5728\u4F60\u5403\u6389\u6211\u4E4B\u524D\uFF0C\u5C31\u4E0D\u60F3\u5582\u9971\u6211\uFF0C\u8BA9\u6211\u957F\u5F97\u80D6\u4E00\u70B9\u5417\uFF1F\u201D\u4E8E\u662F\uFF0C\u72D0\u72F8\u5FD9\u8D77\u6765\u4E86\u3002\u4ED6\u6458\u6765\u897F\u7EA2\u67FF\uFF0C\u505A\u4E86\u901A\u5FC3\u7C89\uFF0C\u8FD8\u70E4\u4E86\u4E00\u7089\u91D1\u9EC4\u8272\u7684\u5C0F\u751C\u997C\u3002\u5C0F\u732A\u5927\u5927\u54A7\u54A7\u5730\u5403\u4E86\u4E00\u987F\u4E30\u76DB\u7684\u5348\u9910\u3002</p><p>\u72D0\u72F8\u8BF4\uFF1A\u201C\u597D\u5566\uFF0C\u73B0\u5728\u4F60\u662F\u5168\u6751\u6700\u80A5\u7684\u5C0F\u732A\u4E86\uFF0C\u5FEB\u7ED9\u6211\u8EBA\u5230\u70E4\u9505\u91CC\u53BB\u5427\uFF01\u201D</p><p>\u6323\u624E\u662F\u6CA1\u6709\u7528\u7684\uFF0C\u4E8E\u662F\uFF0C\u5C0F\u732A\u8BF4\uFF1A\u201C\u542C\u4F60\u7684\u5B89\u6392\u5427\u3002\u4E0D\u8FC7\uFF0C\u6211\u662F\u4E00\u53EA\u52E4\u52B3\u7684\u5C0F\u732A\uFF0C\u6211\u7684\u8089\u4E00\u5B9A\u7279\u522B\u786C\u3002\u5728\u4F60\u5403\u6389\u6211\u4E4B\u524D\uFF0C\u5C31\u4E0D\u60F3\u5148\u7ED9\u6211\u6309\u6469\u4E00\u4E0B\uFF0C\u8BA9\u81EA\u5DF1\u5403\u4E0A\u66F4\u5AE9\u4E00\u70B9\u7684\u70E4\u8089\u5417\uFF1F\u201D</p><p>\u4E8E\u662F\uFF0C\u72D0\u72F8\u5FD9\u8D77\u6765\u4E86\u3002\u4ED6\u8BA9\u5C0F\u732A\u5750\u5728\u6728\u6905\u5B50\u4E0A\uFF0C\u4E3A\u5C0F\u732A\u634F\u634F\u5934\u3001\u677E\u677E\u80A9\u3001\u62C9\u62C9\u817F\uFF0C\u5C0F\u732A\u8212\u670D\u5F97\u76F4\u54FC\u54FC\u3002\u72D0\u72F8\u8BF4\uFF1A\u201C\u597D\u5566\uFF0C\u73B0\u5728\u4F60\u662F\u5168\u6751\u6700\u80A5\u7684\u5C0F\u732A\u4E86\uFF0C\u5FEB\u7ED9\u6211\u8EBA\u5230\u70E4\u9505\u91CC\u53BB\u5427\uFF01\u201D</p><p>\u201C\u90A3\u597D\u5427\uFF0C\u4E0D\u8FC7\uFF0C\u8FD9\u4E9B\u65E5\u5B50\u6211\u7684\u786E\u592A\u7D2F\u4E86\u3002\u4F60\u770B\uFF0C\u6211\u7684\u80CC\u8FD8\u6709\u70B9\u50F5\u786C\uFF0C\u4F60\u80FD\u518D\u7528\u529B\u66FF\u6211\u6309\u6469\u4E00\u4E0B\u5417\uFF1F\u5BF9\uFF0C\u5C31\u8FD9\u6837\uFF0C\u518D\u7528\u70B9\u529B\u6C14\uFF01\u201D\u8FC7\u4E86\u4E00\u4F1A\uFF0C\u8EAB\u540E\u4F20\u6765\u72D0\u72F8\u7684\u547C\u565C\u58F0\uFF0C\u5C0F\u732A\u8F7B\u58F0\u95EE\uFF1A\u201C\u72D0\u72F8\u5148\u751F\uFF0C\u4F60\u5728\u54EA\u513F\u554A\uFF1F\u201D</p><p>\u72D0\u72F8\u6CA1\u6709\u542C\u89C1\u5C0F\u732A\u7684\u558A\u58F0\uFF0C\u4ED6\u7D2F\u6781\u4E86\uFF0C\u6C89\u6C89\u5730\u7761\u53BB\u4E86\u3002</p><p>\u6751\u5B50\u91CC\u6700\u5E72\u51C0\u3001\u6700\u80A5\u3001\u6700\u67D4\u8F6F\u7684\u5C0F\u732A\uFF0C\u62FF\u7740\u5269\u4E0B\u7684\u751C\u997C\uFF0C\u98DE\u5FEB\u5730\u8DD1\u56DE\u5BB6\u53BB\u4E86\u3002</p><h2 id="\u68A6\u91CC\u6709\u4F60-\u5341\u5206\u751C" tabindex="-1"><a class="header-anchor" href="#\u68A6\u91CC\u6709\u4F60-\u5341\u5206\u751C" aria-hidden="true">#</a> \u68A6\u91CC\u6709\u4F60\uFF0C\u5341\u5206\u751C</h2><p>\u4F4F\u5728\u5C71\u5934\u7684\u5C0F\u5154\u5B50\uFF0C\u6700\u8FD1\u5FC3\u91CC\u85CF\u4E86-\u4E2A\u5C0F\u79D8\u5BC6\u3002\u90A3\u4E2A\u5C0F\u79D8\u5BC6\uFF0C\u662F\u6709\u5173\u5BF9\u9762\u5C71\u4E0A\u7684\u7EA2\u5C3E\u5DF4\u5C0F\u72D0\u72F8\u7684\u3002</p><p>\u8FD9\u5929\uFF0C\u5C0F\u5154\u5B50\u7167\u5E38\u53BB\u627E\u5C0F\u72D0\u72F8\u73A9\uFF0C\u534A\u8DEF\u9047\u5230\u4E86\u5C0F\u7CBE\u7075,\u542C\u8BF4\u8FD9\u4E2A\u5C0F\u7CBE\u7075\u7CBE\u901A\u4E07\u4E8B\uFF0C\u5C0F\u5154\u5B50\u541E\u541E\u5410\u5410\u5730\u95EE:\u201C\u5C0F\u7CBE\u7075\uFF0C. \u6211\u4E3A\u4EC0\u4E48\u89C1\u5230\u90A3\u4E2A\u4EBA\uFF0C\u5C31.. \u5C31\u4F1A\u5FC3\u8DF3\u52A0\u901F\uFF0C\u5C31.. \u50CF\u6211\u6BCF\u5929\u5728\u8349\u4E1B\u4E0A\u6253\u5B8C\u6EDA\u4E00\u6837?\u5C0F\u7CBE \u7075\u717D\u52A8\u7740\u5C0F\u7FC5\u8180\uFF0C\u7B11\u563B\u563B\u5730\u5BF9\u5C0F\u5154\u5B50\u8BF4:\u201C\u4F60\u8FD9\u662F\u559C\u6B22\u4E0A\u4EBA\u5BB6\u5566\u3002\u201D\u5C0F\u5154\u5B50\u53C8\u95EE:\u201C\u90A3\u4EC0\u4E48\u662F\u559C\u6B22\u5440?</p><p>\u5C0F\u7CBE\u7075\u60F3\u4E86\u60F3\u8BF4: &quot;\u559C\u6B22\u5C31\u662F\uFF0C\u4F60\u5728\u89C1\u4ED6\u4E4B\u524D\uFF0C\u5E0C\u671B\u65F6\u95F4\u8FC7\u5F97\u5FEB\u4E00-\u70B9, \u8FD9\u6837\u4F60\u5C31\u53EF\u4EE5\u5FEB\u70B9\u89C1\u5230\u4ED6\u3002\u89C1\u5230\u4ED6\u4E4B\u540E\uFF0C\u4F60\u4F1A\u5F88\u5F00\u5FC3\uFF0C\u4F1A\u5E0C\u671B\u65F6\u95F4\u8FC7\u5F97\u6162\u4E00-\u70B9,\u8FD9\u6837\u4F60\u5C31\u53EF\u4EE5\u6709\u66F4\u591A\u7684\u65F6\u95F4\u548C\u4ED6\u5728\u4E00\u8D77\u3002</p><p>\u201C\u53EF\u662F\uFF0C\u6211\u4E0D\u77E5\u9053\u4ED6\u559C\u4E0D\u559C\u6B22\u6211\uFF0C\u600E\u4E48\u529E?\u201D \u5C0F\u5154\u5B50\u5931\u843D\u5730\u8BF4\u3002</p><p>&quot;\u4F20\u8BF4\u5728\u7761\u524D\u53EA\u8981\u60F3\u7740\u4F60\u559C\u6B22\u7684\u90A3\u4E2A\u4EBA\uFF0C\u5982\u679C\u4ED6\u68A6\u5230\u4E86\u4F60\uFF0C\u4F60\u5C31\u53EF\u4EE5\u8FDB\u5165\u4ED6\u7684\u68A6\u91CC\uFF0C\u8FD9\u6837\uFF0C\u4F60\u4FBF\u53EF\u4EE5\u77E5\u9053\u4ED6\u5BF9\u4F60\u7684\u5FC3\u610F\u5566!\u201D\u5C0F\u7CBE\u7075\u8BF4\u5B8C\u5C31\u6D88\u5931\u4E86\u3002</p><p>\u5C0F\u5154\u5B50\u9ED8\u9ED8\u8BB0\u4F4F\u4E86\u5C0F\u7CBE\u7075\u7684\u8BDD\uFF0C\u7EC8\u4E8E\uFF0C\u661F\u661F\u51FA\u6765\u4E86\uFF0C\u5C0F\u5154\u5B50\u8EBA\u5728\u67D4\u8F6F\u7684\u5C0F\u5E8A.\u4E0A,\u60F3\u7740\u548C\u5C0F\u72D0\u72F8\u7684\u6B22\u4E50\u65F6\u5149\uFF0C\u4E0D\u77E5\u4E0D\u89C9,\u7761\u7740\u4E86..</p><p>\u679C\u7136\uFF0C\u5C0F\u5154\u5B50\u6765\u5230\u4E86\u4E00\u4E2A\u53EB\u68A6\u4E4B\u56FD\u7684\u5730\u65B9\uFF0C\u5728\u8FD9\u4E2A\u5730\u65B9\uFF0C\u5979\u770B\u5230\u4E86\u4E00\u95F4\u5C0F\u6728\u5C4B,\u6302\u7740\u7EA2\u5C3E\u5DF4\u5C0F\u72D0\u72F8\u7684\u724C\u5B50\uFF0C\u5C0F\u5154\u5B50\u6DF1\u5438\u4E00\u53E3\u6C14,\u63A8\u5F00\u4E86\u5C0F\u6728\u95E8\uFF0C\u901A\u5F80\u5C0F\u72D0\u72F8\u68A6\u91CC\u7684\u8DEF\u5F00\u6EE1\u4E86\u82B1\u82B1\u8349\u8349\uFF0C\u8774\u8776\u5728\u7A7A\u4E2D\u98DE\u821E,\u5C0F\u5154\u5B50\u8D70\u4E86\u597D\u4E45\uFF0C\u5728\u4E00\u7247\u8349\u5730\u4E0A\u770B\u5230\u4E86\u5C0F\u72D0\u72F8\uFF0C\u5C0F\u72D0\u72F8\u7B11\u563B\u563B\u5730\u5BF9\u5C0F\u5154\u5B50\u8BF4:\u201C\u4F60\u7EC8\u4E8E\u6765\u4E86\uFF0C \u6211\u4E00\u76F4\u5728\u7B49\u4F60\uFF0C\u6211\u5FC3\u7231\u7684\u5C0F\u5154\u5B50\u3002</p><p>\u68A6\u91CC\uFF0C\u5C0F\u72D0\u72F8\u5E26\u7740\u5C0F\u5154\u5B50\u5728\u8349\u4E1B\u4E0A\u6253\u6EDA\u513F\uFF0C\u5C0F\u72D0\u72F8\u8FD8\u4E3A\u5C0F\u5154\u5B50\u7F16\u7EC7\u4E86\u4E00\u4E2A\u5C0F\u82B1\u73AF\uFF0C\u4EB2\u624B\u7ED9\u5C0F\u5154\u5B50\u6234\u5728\u5934\u4E0A\uFF0C\u5750\u5728\u6E56\u8FB9\uFF0C\u770B\u7740\u5728\u6E56\u4E0A\u98D8\u7740\u7684\u5C0F\u8239\uFF0C\u5403\u7740\u751C\u751C\u7684\u7CD6\u679C\uFF0C \u73A9\u7D2F\u4E86\u5C0F\u72D0\u72F8\u5C31\u8BA9\u5C0F\u5154\u5B50\u8EBA\u5728\u4ED6\u67D4\u8F6F\u7684\u7EA2\u5C3E\u5DF4\u4E0A\uFF0C\u5BA0\u6EBA\u5730\u629A\u6478\u7740\u5C0F\u5154\u5B50\u5934\uFF0C\u8033\u8FB9\u62C2\u8FC7\u7684\u53EA\u6709\u6E29\u548C\u7684\u98CE\u548C\u5F7C\u6B64\u7684\u547C\u5438\u3002</p><p>\u4E0D\u77E5\u8FC7\u4E86\u591A\u4E45,\u5C0F\u5154\u5B50\u773C\u524D\u95EA\u8FC7\u4E00\u9053\u767D\u5149\uFF0C\u68A6\u7ED3\u675F\u4E86...</p><p>\u5C0F\u5154\u5B50\u7EC6\u7EC6\u56DE\u60F3\u7740\u521A\u624D\u7684\u68A6\uFF0C\u6025\u5FD9\u671D\u5C0F\u72D0\u72F8\u5BB6\u8DD1\u53BB\uFF0C\u72B9\u8C6B\u4E86\u4E00\u4E0B\uFF0C\u7EC8\u4E8E\u6572\u54CD\u4E86\u5C0F\u72D0\u72F8\u5BB6\u7684\u95E8,\u4E0D\u4E00\u4F1A\u513F\uFF0C\u95E8\u5F00\u4E86\uFF0C\u9732\u51FA\u4E86\u5C0F\u72D0\u72F8\u542B\u7740\u7B11\u610F\u7684\u5927\u773C\u775B\u3002\u5C0F\u5154\u5B50\u8BF4:\u201D\u4F60\u597D\u5440\uFF0C\u5C0F\u72D0\u72F8\uFF0C\u4ECA\u5929\u6211\u4EEC\u53BB\u6458\u8611\u83C7\u5427!&quot;\u5C0F\u72D0\u72F8\u70B9\u4E86\u70B9\u5934:\u201C\u597D\u554A\u597D\u554A\uFF0C\u5FEB\u8FDB\u6765\u5427\uFF0C\u7B49\u6211\u6536\u62FE\u4E00\u4E0B\u6211\u4EEC\u5C31\u51FA\u53D1\u3002</p><p>\u8DEF\u4E0A\uFF0C\u5C0F\u5154\u5B50\u652F\u652F\u543E\u543E\u5730\u95EE: &quot;\u5C0F\u72D0\u72F8\uFF0C..\u4F60\u6628\u5929\u505A\u4E86\u4EC0\u4E48\u68A6\u5440?\u201D</p><p>\u5C0F\u72D0\u72F8\u5237\u5730\u4E00\u4E0B\u8138\u7EA2\u4E86\uFF0C\u6320\u4E86\u6320\u5934\uFF0C\u4E0D\u597D\u610F\u601D\u8BF4:\u201C\u4E3A..\u4E3A\u4EC0\u4E48\u8981\u95EE\u8FD9\u4E2A?\u201D</p><p>\u201C\u56E0\u4E3A\u6211\u68A6\u5230\u4E86 ..\u5C0F\u5154\u5B50\u4E0D\u5C0F\u5FC3\u8BF4\u6F0F\u4E86\u5634\uFF0C\u8D76\u5FD9\u8BF4&quot;\u54CE\u5440\uFF0C\u4F60\u5FEB\u70B9\u8BF4\u8BF4\u561B!&quot;</p><p>&quot;\u55EF..\u6211\u68A6\u5230\u4E86.\u5176\u5B9E\u662F\u4E00\u4E2A\u5341\u4E8C\u5206\u751C\u7684\u68A6\u3002\u201D</p><p>\u201D\u4E3A\u4EC0\u4E48\u662F\u5341\u4E8C\u5206\u751C?\u201D\u5C0F\u5154\u5B50\u4E0D\u89E3\u7684\u95EE\u3002</p><p>\u201C\u4E00\u5206\u662F\u5B81\u9759\uFF0C\u4E00\u5206\u662F\u60EC\u610F\u3002\u201D</p><p>\u5C0F\u72D0\u72F8\u62C9\u8D77\u5C0F\u5154\u5B50\u7684\u624B\u7EE7\u7EED\u8BF4\u201C\u7136\u540E\u68A6\u91CC\u6709\u4F60\uFF0C\u4F60\u5341\u5206\u751C\u3002</p><h2 id="\u665A\u5B89" tabindex="-1"><a class="header-anchor" href="#\u665A\u5B89" aria-hidden="true">#</a> \u665A\u5B89\uFF01</h2><p>\u65F6\u95F4\u5728\u68EE\u6797\u91CC\uFF0C\u6162\u6162\u7684\u6D41\u901D\u7740\uFF0C\u4E0D\u4E45\u79CB\u5929\u4FBF\u6765\u4E86\uFF0C\u4E5F\u5230\u4E86\u52A8\u7269\u4EEC\u6700\u5FD9\u788C\u7684\u5B63\u8282\uFF0C\u56E0\u4E3A\u79CB\u5929\u7684\u91D1\u9EC4\uFF0C\u50CF\u6781\u4E86\u5927\u81EA\u7136\u7ED9\u4E88\u52A8\u7269\u4EEC\u6700\u73CD\u8D35\u7684\u5B9D\u85CF\uFF0C\u4E5F\u6807\u5FD7\u7740\u5C0F\u52A8\u7269\u4EEC\u8981\u5F00\u59CB\u50A8\u5B58\u51AC\u5929\u7684\u7CAE\u98DF\u4E86\u3002</p><p>\u9AD8\u8038\u5165\u4E91\u7684\u677E\u6811\u4E0A\uFF0C\u5C0F\u677E\u9F20\u4E0A\u7A9C\u4E0B\u8DF3\u7684\u8EAB\u5F71\u7740\u5B9E\u8BA9\u4EBA\u4E0D\u5F97\u4E0D\u6CE8\u610F\u3002\u90A3\u5C0F\u677E\u9F20\u5728\u5FD9\u4EC0\u4E48\u5462\uFF1F\u548B\u4E00\u770B\uFF0C\u539F\u6765\u5C0F\u677E\u9F20\u5728\u5FD9\u7740\u6361\u5730\u4E0A\u7684\u677E\u679C\uFF0C\u4E0D\u505C\u7684\u5F80\u81EA\u5DF1\u7684\u5C0F\u7A9D\u91CC\u9001\u5462\uFF01\u5728\u5C0F\u677E\u9F20\u5FD9\u788C\u7684\u8FC7\u7A0B\u4E2D\uFF0C\u5544\u6728\u9E1F\u533B\u751F\uFF0C\u4E5F\u5728\u65C1\u8FB9\u7684\u6811\u4E0A\u4E0D\u505C\u7684\u7ED9\u5927\u53D4\u4F2F\u4F2F\u9A71\u866B\u2026\u2026</p><p>\u6240\u4EE5\u53EA\u8981\u4F60\u4ED4\u7EC6\u4E00\u770B\uFF0C\u6574\u4E2A\u68EE\u6797\u90FD\u5728\u79CB\u5929\u7684\u6C14\u6C1B\u4E2D\u5FD9\u788C\u7740\u3002\u5728\u68EE\u6797\u7684\u53E6\u4E00\u8FB9\uFF0C\u5C0F\u732A\u5728\u5C4B\u5916\u4E0D\u505C\u7684\u5228\u5751\uFF0C\u8DEF\u8FC7\u7684\u5C0F\u767D\u5154\u770B\u89C1\u4E86\uFF0C\u95EE\u5C0F\u732A\uFF1A\u201C\u5C0F\u732A\uFF0C\u5C0F\u732A\u4F60\u5728\u5E72\u561B\u5462\uFF1F\u201D</p><p>\u201C\u6211\u5728\u5228\u4E2A\u5927\u70B9\u7684\u5751\uFF0C\u7136\u540E\u628A\u51AC\u5929\u8981\u5403\u7684\u7CAE\u98DF\u57CB\u91CC\u9762\u201D\u3002\u5C0F\u732A\u8FB9\u5E72\u6D3B\u8FB9\u56DE\u7B54\u8BF4\u3002</p><p>\u201C\u5E72\u561B\u8981\u57CB\u5728\u5751\u91CC\u554A\uFF01\u201D</p><p>\u201C\u56E0\u4E3A\u57CB\u5728\u5751\u91CC\uFF0C\u6E29\u5EA6\u4F4E\u53EF\u4EE5\u4FDD\u6301\u98DF\u7269\u4E0D\u574F\u554A\uFF01\u201D</p><p>\u5C0F\u767D\u5154\u542C\u4E86\uFF0C\u597D\u50CF\u5F88\u6709\u9053\u7406\uFF0C\u4FBF\u544A\u522B\u5C0F\u732A\uFF0C\u5F80\u5BB6\u91CC\u8D76\u53BB\u3002</p><p>\u56DE\u5230\u5BB6\u91CC\uFF0C\u5C0F\u767D\u5154\u8BA9\u5C0F\u72D0\u72F8\u628A\u81EA\u5DF1\u6700\u559C\u6B22\u5403\u7684\u841D\u535C\u57CB\u5728\u5730\u91CC\uFF0C\u5C0F\u72D0\u72F8\u542C\u4E86\u4E00\u9635\u60CA\u8BB6\uFF0C\u95EE\u5C0F\u767D\u5154\u4E3A\u4EC0\u4E48\u8981\u57CB\u5728\u5730\u91CC\uFF0C\u5C0F\u767D\u5154\u628A\u548C\u5C0F\u732A\u7684\u8C08\u8BDD\u544A\u8BC9\u4E86\u5C0F\u72D0\u72F8\u3002</p><p>\u5C0F\u72D0\u72F8\u542C\u540E\uFF0C\u5FCD\u4E0D\u4F4F\u5927\u7B11\u8D77\u6765\uFF0C\u8FD9\u53EF\u628A\u5C0F\u767D\u5154\u6C14\u7740\u4E86\uFF0C\u8FDE\u5FD9\u95EE\u539F\u56E0\uFF0C\u4F11\u606F\u4E86\u597D\u4E00\u4F1A\uFF0C\u5C0F\u72D0\u72F8\u8BF4\uFF1A\u201C\u5C0F\u732A\u50A8\u5B58\u7684\u662F\u90A3\u79CD\u57CB\u5728\u5730\u91CC\u4E0D\u4F1A\u574F\u7684\u98DF\u7269\uFF0C\u800C\u4E14\u4E5F\u4F1A\u628A\u98DF\u7269\u5305\u88C5\u4FDD\u62A4\u4E00\u4E0B\u554A\uFF0C\u4F46\u662F\u4F60\u559C\u6B22\u5403\u7684\u80E1\u841D\u535C\uFF0C\u4E00\u65E6\u57CB\u5728\u5730\u4E0B\uFF0C\u4F1A\u8150\u70C2\uFF0C\u5C31\u7B97\u4E0D\u8150\u70C2\u4E5F\u4F1A\u53D8\u6210\u80E1\u841D\u535C\u5E72\u201D\u3002\u5C0F\u767D\u5154\u542C\u540E\uFF0C\u4E5F\u89C9\u5F97\u597D\u50CF\u6709\u4E9B\u9053\u7406\uFF0C\u4E8E\u662F\u53C8\u95EE\uFF1A\u201C\u90A3\u4F60\u4E3A\u4EC0\u4E48\u7B11\u6211\uFF1F\u201D\uFF0C\u5C0F\u72D0\u72F8\u770B\u7740\u561F\u7740\u5634\u7684\u5C0F\u767D\u5154\uFF0C\u53C8\u597D\u7B11\u53C8\u53EF\u7231\u3002</p><p>\u201C\u56E0\u4E3A\u4F60\u8FD9\u4E48\u4E45\uFF0C\u8FD8\u662F\u6211\u7684\u50BB\u5B9D\u8D1D\uFF0C\u4E00\u70B9\u90FD\u6CA1\u53D8\u5462\uFF01\u201D\u5C0F\u767D\u5154\u542C\u540E\uFF0C\u611F\u89C9\u597D\u50CF\u88AB\u8868\u626C\u4E86\uFF0C\u4E0D\u89C9\u5F97\u5634\u89D2\u4E0A\u626C\u3002\u4F46\u4ED4\u7EC6\u4E00\u60F3\uFF0C\u597D\u50CF\u53C8\u4E0D\u662F\uFF0C\u4E8E\u662F\u8FDE\u5FD9\u8981\u627E\u5C0F\u72D0\u72F8\u7B97\u8D26\uFF0C\u8F6C\u5934\u4E00\u770B\u5C0F\u72D0\u72F8\u65E9\u5C31\u8DD1\u51FA\u95E8\uFF0C\u5BF9\u7740\u5C0F\u767D\u5154\u505A\u9B3C\u8138\u3002</p><p>\u201C\u4F60\u7B49\u7740\uFF0C\u4F60\u4E2A\u81ED\u5B9D\u8D1D\uFF01\u201D\u5C0F\u767D\u5154\u8FDE\u5FD9\u8FFD\u51FA\u53BB\u3002</p><p>\u5C31\u8FD9\u6837\uFF0C\u5728\u5FD9\u788C\u7684\u79CB\u5929\uFF0C\u4E5F\u4F1A\u6709\u521D\u6625\u7231\u60C5\u7684\u751C\u871C\uFF0C\u50CF\u5C0F\u767D\u5154\u548C\u5C0F\u72D0\u72F8\uFF0C\u5728\u5FD9\u788C\u5F53\u4E2D\u5B09\u620F\u6253\u95F9\uFF0C\u8BA9\u4E00\u4E9B\u8FD8\u5355\u8EAB\u7684\u5C0F\u52A8\u7269\uFF0C\u597D\u751F\u7FA1\u6155\u2026\u2026</p><p>\u5F53\u7136\uFF0C\u68EE\u6797\u91CC\u7684\u52A8\u7269\u4EEC\u90FD\u975E\u5E38\u7684\u5584\u826F\uFF0C\u6240\u4EE5\u554A\u6708\u8001\u4E5F\u4E00\u5B9A\u4E0D\u4F1A\u541D\u556C\u59FB\u7F18\u7684\u7EA2\u7EBF\uFF0C\u76F8\u4FE1\u4E0D\u4E45\u53C8\u4F1A\u6709\u65B0\u7684\u751C\u871C\u98D8\u6563\u5728\u8FD9\u68EE\u6797\u7684\u5927\u5BB6\u5EAD\u4E2D\u3002</p><p>\u6BCF\u4E00\u4E2A\u591C\u5E55\u964D\u4E34\uFF0C\u6211\u4EEC\u4E5F\u4F1A\u5BF9\u5F7C\u6B64\u8BF4\u4E0A\u4E00\u53E5\uFF1A\u665A\u5B89\uFF01\u597D\u68A6\uFF01</p><h2 id="\u7231-\u957F\u7BC7" tabindex="-1"><a class="header-anchor" href="#\u7231-\u957F\u7BC7" aria-hidden="true">#</a> \u7231\uFF08\u957F\u7BC7\uFF09</h2><p>\u6E05\u6668\uFF0C\u6DF1\u5C71\u4E4B\u5904\u7684\u5BFA\u5E99\u5BE5\u5BE5\u708A\u70DF\uFF0C\u53A8\u623F\u91CC\uFF0C\u725B\u6653\u70E7\u7740\u706B\uFF0C\u5C0F\u548C\u5C1A\u6405\u52A8\u7740\u9505\u91CC\u7684\u658B\u996D\uFF0C\u4E00\u4E2A\u6708\u7684\u76F8\u5904\u4E0B\u6765\uFF0C\u8BA9\u4E24\u4EBA\u914D\u5408\u76F8\u5F53\u9ED8\u5951\uFF0C\u8FD9\u4E5F\u8BA9\u5C0F\u548C\u5C1A\u7684\u5DE5\u4F5C\u8F7B\u677E\u4E86\u8BB8\u591A\u3002</p><p>\u201C\u4F60\u559C\u6B22\u8FC7\u522B\u4EBA\u5417\uFF1F\u201D\u725B\u6653\u7A81\u7136\u95EE</p><p>\u201C\u5565\uFF1F\u201D\u5C0F\u548C\u5C1A\u88AB\u8FD9\u7A81\u5982\u5176\u6765\u95EE\u9898\u60CA\u4E86\u4E00\u4E0B\uFF0C\u7136\u540E\u53C8\u8BF4\uFF1A\u201C\u6211\u559C\u6B22\u5E08\u5085\uFF0C\u5E08\u5085\u662F\u6211\u7684\u5BB6\u4EBA\uFF0C\u5982\u679C\u4F60\u5F85\u4E45\u4E86\u6211\u4E5F\u4F1A\u559C\u6B22\u4F60\u7684\u3002\u201D\u725B\u6653\u770B\u7740\u5C0F\u548C\u5C1A\u8BA4\u8BA4\u771F\u771F\u7684\u56DE\u7B54\u7740\u3002\u7A81\u7136\u5657\u55E4\u4E00\u58F0\u7B11\u4E86\u8D77\u6765\u3002</p><p>\u201C\u4F60\u662F\u4E0D\u662F\u50BB\uFF1F\u6211\u8BF4\u7684\u662F\u7537\u5973\u4E4B\u95F4\u7684\u559C\u6B22\uFF1F\u201D\u725B\u6653\u8BF4\u3002</p><p>\u201C\u90A3\u662F\u4EC0\u4E48\u559C\u6B22\uFF1F\u4E0D\u61C2\u4E0D\u61C2\uFF01\u201D\u5C0F\u548C\u5C1A\u8FB9\u76DB\u7740\u7CA5\uFF0C\u8FB9\u6447\u7740\u5934\u3002</p><p>\u996D\u684C\u4E0A\uFF0C\u5E08\u5F92\u4E09\u4EBA\u5403\u7740\u658B\u996D\uFF0C\u5C0F\u548C\u5C1A\u7A81\u7136\u95EE\u5E08\u5085\uFF1A\u201C\u5E08\u5085\uFF0C\u4F60\u559C\u6B22\u8FC7\u5973\u4EBA\u5417\uFF1F\u201D\u3002\u8FD9\u4E00\u95EE\u5B8C\uFF0C\u5E08\u5085\u5DEE\u70B9\u545B\u4E86\u4E00\u53E3\u996D\uFF0C\u8F6C\u5934\u770B\u7740\u725B\u6653\uFF0C\u725B\u6653\u4E00\u8138\u65E0\u8F9C\u7684\u8BF4\u5230\uFF1A\u201C\u5E08\u5085\uFF0C\u8DDF\u6211\u65E0\u5173\uFF0C\u6211\u53EF\u5565\u90FD\u6CA1\u8BF4\u201D\u3002\u8BF4\u5B8C\uFF0C\u4FBF\u57CB\u5934\u5403\u996D\u3002</p><p>\u201C\u4F60\u4EEC\u4FE9\uFF0C\u4E00\u5929\u4E0D\u8BA4\u771F\u5FF5\u4F5B\u5B88\u5FC3\uFF0C\u8BA8\u8BBA\u90A3\u4E9B\u65E0\u5173\u7D27\u8981\u7684\u5E72\u561B\uFF1F\u201D\u5E08\u5085\u767D\u4E86\u4E00\u773C\u725B\u6653\uFF0C\u7EE7\u7EED\u8BF4\u5230\uFF1A\u201C\u7537\u6B22\u5973\u7231\uFF0C\u7686\u4E3A\u4E16\u4FD7\u60C5\u4E8B\uFF0C\u4E16\u4EBA\u628A\u8FD9\u79CD\u611F\u60C5\u6BD4\u4E3A\u7231\u60C5\uFF0C\u53C8\u4EE5\u73AB\u7470\u4E3A\u8C61\u5F81\uFF0C\u65E0\u8BBA\u5403\u658B\u5FF5\u4F5B\u4E5F\u597D\uFF0C\u7537\u6B22\u5973\u7231\u4E5F\u7F62\uFF0C\u90FD\u662F\u4EBA\u751F\u5F53\u4E2D\u7684\u4FEE\u884C\uFF0C\u4EBA\u4EBA\u90FD\u60F3\u4FEE\u5F97\u6B63\u679C\uFF0C\u5176\u4E2D\u56F0\u96BE\u574E\u5777\uFF0C\u5927\u540C\u5C0F\u5F02\u2026\u2026\u201D\u5E08\u5085\u8BF4\u7740\uFF0C\u4EFF\u4F5B\u9677\u5165\u4E86\u56DE\u5FC6\uFF0C\u800C\u540E\u7B11\u7740\u5BF9\u9762\u524D\uFF0C\u8FD9\u4E24\u4E2A\u7741\u7740\u773C\u775B\u542C\u7740\u7684\u5F92\u5F1F\u7EE7\u7EED\u8BF4\uFF1A\u201C\u8BB0\u5F97\u5E08\u508517\u5C81\u90A3\u5E74\uFF0C\u5E76\u672A\u50CF\u73B0\u5728\u5982\u6B64\u5F00\u59CB\u5403\u658B\u5FF5\u4F5B\uFF0C\u8FD8\u5728\u4E61\u91CC\u63D2\u79E7\u79CD\u7530\uFF0C\u4E00\u5BB6\u4E09\u53E3\u6625\u8015\u79CB\u6536\uFF0C\u5176\u4E50\u878D\u878D\uFF0C\u751F\u6D3B\u4E5F\u522B\u6709\u4E00\u756A\u7CBE\u5F69\u3002\u8BB0\u5F97\u90A3\u662F\u4E00\u4E2A\u9EC4\u660F\u508D\u665A\uFF0C\u6211\u548C\u6BCD\u4EB2\u5728\u5BB6\u4E2D\u70E7\u706B\u505A\u996D\uFF0C\u7236\u4EB2\u5E26\u56DE\u4E00\u9A91\u9A6C\u7537\u5B50\u3002\u7537\u5B50\u6EE1\u8EAB\u5C18\u571F\uFF0C\u4E00\u8138\u75B2\u60EB\uFF0C\u4E0D\u8FC7\u8BF4\u4E5F\u5947\u602A\uFF0C\u8FD9\u7537\u5B50\u957F\u7684\u597D\u751F\u79C0\u6C14\u3002\u7ECF\u7236\u4EB2\u4E00\u756A\u89E3\u91CA\uFF0C\u539F\u6765\u662F\u4E00\u4E2A\u8DEF\u8FC7\uFF0C\u51C6\u5907\u53BB\u53C2\u519B\u7684\u9752\u5E74\uFF0C\u8DEF\u4E0A\u56E0\u4E3A\u9A91\u9A6C\u98A0\u7C38\uFF0C\u6454\u4F24\u4E86\u5DE6\u817F\uFF0C\u7236\u4EB2\u89C1\u5176\u5728\u6751\u53E3\u5750\u7740\uFF0C\u4E0A\u524D\u8BE2\u95EE\u540E\uFF0C\u9080\u5176\u5728\u5BB6\u4F11\u517B\u4E24\u65E5\uFF0C\u5948\u4F55\u7537\u5B50\u6709\u4F24\u5728\u8EAB\uFF0C\u76DB\u60C5\u96BE\u5374\uFF0C\u4FBF\u548C\u7236\u4EB2\u6765\u5230\u5BB6\u4E2D\u505A\u5BA2\u4F11\u517B\u201D\u3002</p><p>\u8BF4\u5230\u7740\uFF0C\u5E08\u5085\u4E00\u8138\u56DE\u5FC6\u4E4B\u8272\uFF0C\u5C0F\u548C\u5C1A\u9ED8\u9ED8\u4E3A\u5E08\u5085\u7AEF\u6765\u4E00\u676F\u8336\u6C34\uFF0C\u548C\u725B\u6653\u5E76\u6392\u5750\u5728\u5E08\u5085\u5BF9\u9762\uFF0C\u6EE1\u773C\u671F\u5F85\u5E08\u5085\u7EE7\u7EED\u8BB2\u6545\u4E8B\u3002</p><p>\u5E08\u5085\u770B\u4E86\u8FD9\u4E24\u597D\u5947\u5F92\u5F1F\u4E00\u773C\uFF0C\u7EE7\u7EED\u8BF4\uFF1A\u201C\u7537\u5B50\u6765\u5230\u5BB6\u4E2D\u4F4F\u5728\u504F\u623F\uFF0C\u524D\u4E24\u5929\u56E0\u4E3A\u817F\u811A\u4E0D\u4FBF\uFF0C\u9664\u4E86\u5403\u996D\u4FBF\u4E00\u76F4\u5F85\u5728\u623F\u95F4\u4E0D\u51FA\u95E8\u3002\u7B2C\u4E09\u5929\u508D\u665A\u548C\u7236\u4EB2\u52A1\u519C\u7ED3\u675F\uFF0C\u56DE\u5230\u5BB6\u4E2D\uFF0C\u53D1\u73B0\u90A3\u7537\u5B50\u5DF2\u7ECF\u4E0D\u89C1\uFF0C\u53CD\u800C\u6709\u4E00\u540D\u7A7F\u7740\u7D20\u8863\uFF0C\u957F\u76F8\u6E05\u79C0\u7684\u59D1\u5A18\u5728\u548C\u6BCD\u4EB2\u6709\u8BF4\u6709\u7B11\u3002\u7ECF\u8FC7\u4E00\u756A\u8BE2\u95EE\uFF0C\u90A3\u7537\u5B50\u5C45\u7136\u662F\u5973\u513F\u8EAB\uFF0C\u8FD9\u53EF\u628A\u6211\u548C\u7236\u4EB2\u60CA\u4E86\u4E00\u4E0B\u3002\u90A3\u65F6\u7236\u4EB2\u867D\u6CA1\u8BFB\u8FC7\u4E66\uFF0C\u4F46\u4E5F\u4E0D\u662F\u591A\u5634\u4E4B\u4EBA\uFF0C\u6240\u4EE5\u5F53\u65F6\u5728\u8868\u73B0\u51FA\u4E00\u5239\u60CA\u8BB6\u4E4B\u540E\uFF0C\u4FBF\u6062\u590D\u5982\u521D\uFF0C\u6CA1\u6709\u591A\u95EE\u4EC0\u4E48\uFF0C\u4F46\u6211\u60F3\u540E\u9762\u6BCD\u4EB2\u5E94\u8BE5\u7ED9\u7236\u4EB2\u89E3\u91CA\u4E86\u7F18\u7531\u3002\u5F80\u540E\u51E0\u5929\uFF0C\u8FD9\u5973\u5B50\u5F00\u59CB\u5E2E\u5BB6\u91CC\u5206\u62C5\u8D77\u4E86\u519C\u6D3B\uFF0C\u6D17\u8863\u505A\u996D\uFF0C\u987A\u4FBF\u4E5F\u5F00\u59CB\u7ED9\u6211\u8F85\u5BFC\u529F\u8BFE\uFF0C\u6559\u6211\u8BC6\u5B57\u3002</p><p>\u8FD9\u6837\u7684\u65E5\u5B50\u6301\u7EED\u4E86\u5927\u6982\u5927\u534A\u4E2A\u6708\uFF0C\u8FD9\u671F\u95F4\u6BCD\u4EB2\u548C\u7236\u4EB2\u8FD8\u62C5\u5F53\u8D77\u4E86\u5A92\u4EBA\u4F3C\u7684\uFF0C\u5C3D\u529B\u5728\u64AE\u5408\u6211\u548C\u8FD9\u59D1\u5A18\uFF0C\u7279\u522B\u662F\u6BCD\u4EB2\uFF0C\u8868\u73B0\u7684\u5341\u5206\u559C\u6B22\u3002\u90A3\u65F6\u7684\u6211\uFF0C\u56E0\u4E3A\u60C5\u7AA6\u521D\u5F00\uFF0C\u5916\u52A0\u671D\u5915\u76F8\u5904\uFF0C\u771F\u7684\u5BF9\u5979\u4EA7\u751F\u4E86\u4E00\u79CD\u83AB\u540D\u7684\u60C5\u612B\u201D\u3002\u5E08\u5085\u8BF4\u5230\u8FD9\uFF0C\u505C\u4E86\u4E0B\u6765\uFF0C\u7AEF\u8D77\u8336\u6C34\u559D\u4E86\u4E00\u53E3\u3002</p><p>\u725B\u6653\u548C\u5C0F\u548C\u5C1A\u53EF\u6025\u574F\u4E86\uFF0C\u8FDE\u5FD9\u95EE\u9053\uFF1A\u201C\u5E08\u5085\uFF0C\u90A3\u662F\u4EC0\u4E48\u611F\u89C9\u554A\uFF1F\u201D</p><p>\u5E08\u5085\u653E\u4E0B\u8336\u676F\uFF0C\u62AC\u5934\u671B\u7740\u623F\u6881\uFF0C\u6C89\u601D\u4E86\u4E00\u4F1A\u8BF4\uFF1A\u201C\u671D\u5915\u6240\u60F3\uFF0C\u591C\u4E0D\u80FD\u5BD0\uFF0C\u4E00\u65E5\u4E0D\u89C1\uFF0C\u5982\u9694\u4E09\u79CB\u3002\u73B0\u5728\u60F3\u60F3\uFF0C\u53EF\u80FD\u90A3\u5C31\u662F\u5C18\u4E16\u5411\u5F80\u7684\u559C\u6B22\u548C\u7231\u60C5\u3002\u4F46\u597D\u666F\u4E0D\u957F\uFF0C\u67D0\u5929\u6E05\u6668\u4E00\u65E9\uFF0C\u5979\u4FBF\u6084\u6084\u9A91\u9A6C\u79BB\u5F00\uFF0C\u79BB\u5F00\u65F6\u7559\u4E0B\u4E00\u5C01\u4E66\u4FE1\uFF0C\u548C\u4E00\u5757\u7389\u624B\u956F\u201D\u3002\u5E08\u5085\u8BF4\u7740\uFF0C\u4ECE\u6000\u91CC\u62FF\u51FA\u4E00\u5757\u7EA2\u5E03\uFF0C\u6253\u5F00\u4EE5\u540E\u91CC\u9762\u662F\u4E00\u5757\u54C1\u76F8\u4E0D\u9519\u7684\u7389\u624B\u956F\uFF0C\u770B\u7740\u8FD9\u5757\u624B\u956F\uFF0C\u5E08\u5085\u5F00\u59CB\u6C89\u9ED8\u4E0D\u8BED\u3002</p><p>\u5F92\u5F1F\u4EEC\u53EF\u4E0D\u7136\uFF0C\u5341\u5206\u7740\u6025\uFF0C\u8BE2\u95EE\u5E08\u5085\uFF1A\u201C\u5E08\u5085\u5E08\u5085\uFF0C\u4FE1\u4E0A\u5199\u7684\u5565\uFF1F\u540E\u9762\u53C8\u600E\u4E48\u4E86\uFF1F\u201D</p><p>\u5E08\u5085\u53F9\u606F\u4E86\u4E00\u58F0\uFF0C\u8BF4\uFF1A\u201C\u90A3\u65F6\u5B57\u8FD8\u8BA4\u4E0D\u4E86\u51E0\u4E2A\uFF0C\u53EA\u8BB0\u5F97\u6700\u540E\u51E0\u884C\uFF0C\u548C\u5979\u7684\u540D\u5B57\u201D\u3002</p><p>\u201C\u662F\u4EC0\u4E48\uFF1F\u201D\u725B\u6653\u95EE</p><p>\u201C\u66FF\u7236\u4ECE\u519B\uFF0C\u6709\u7F18\u518D\u4F1A\uFF01\u6728\u5170\u7559\u2026\u2026\u201D</p><h2 id="\u5154\u5B50\u548C\u72D0\u72F8" tabindex="-1"><a class="header-anchor" href="#\u5154\u5B50\u548C\u72D0\u72F8" aria-hidden="true">#</a> \u5154\u5B50\u548C\u72D0\u72F8</h2><p>\u4ECA\u5929\u7684\u5C0F\u5154\u5B50\u5FC3\u60C5\u5341\u5206\u7684\u5F00\u5FC3\uFF0C\u56E0\u4E3A\u5979\u83B7\u5F97\u4E86\u68EE\u6797\u91CC\u7814\u7A76\u6BD4\u8D5B\u7B2C\u4E00\u540D\u5728\u56DE\u5BB6\u7684\u8DEF\u4E0A\uFF0C\u4E5F\u628A\u60C5\u7EEA\u8868\u73B0\u5728\u81EA\u5DF1\u7684\u52A8\u4F5C\u5F53\u4E2D\uFF0C\u8E66\u8E66\u8DF3\u8DF3\uFF0C\u5341\u5206\u597D\u770B\u3002</p><p>\u56DE\u5BB6\u7684\u8DEF\u4E0A\uFF0C\u8DEF\u8FC7\u5C0F\u72D0\u72F8\u5BB6\uFF0C\u5C0F\u767D\u5154\u7279\u5730\u8DD1\u53BB\u60F3\u628A\u8FD9\u4E2A\u597D\u6D88\u606F\u5206\u4EAB\u7ED9\u5C0F\u72D0\u72F8\u3002</p><p>\u6572\u4E86\u534A\u5929\u7684\u95E8\uFF0C\u5C0F\u767D\u5154\u53D1\u73B0\u5C0F\u72D0\u72F8\u4E0D\u5728\u5BB6\uFF0C\u8DEF\u8FC7\u7684\u5927\u8C61\u4F2F\u4F2F\u770B\u89C1\u5C0F\u767D\u5154\u5728\u6572\u95E8\uFF0C\u544A\u8BC9\u5C0F\u767D\u5154\u8BF4\uFF0C\u5C0F\u72D0\u72F8\u53BB\u68EE\u6797\u91CC\u6458\u6843\u5B50\u53BB\u4E86\uFF0C\u665A\u4E0A\u624D\u4F1A\u56DE\u6765\uFF0C\u5C0F\u767D\u5154\u6709\u4E9B\u5931\u671B\uFF0C\u8C22\u8FC7\u5927\u8C61\u4F2F\u4F2F\u540E\u4FBF\u56DE\u5BB6\u4E86\u3002</p><p>\u5C0F\u767D\u5154\u53EF\u559C\u6B22\u5C0F\u72D0\u72F8\u4E86\uFF0C\u800C\u4E14\u559C\u6B22\u4E86\u597D\u4E45\uFF0C\u53EF\u662F\u5C0F\u767D\u5154\u662F\u4E00\u53EA\u5BB3\u7F9E\u7684\u5154\u5B50\uFF0C\u6240\u4EE5\u4E00\u76F4\u4E0D\u6562\u8868\u8FBE\u81EA\u5DF1\u7684\u5FC3\u58F0\u3002\u53EF\u4ECA\u5929\uFF0C\u662F\u81EA\u5DF1\u5F97\u5956\u7684\u597D\u65E5\u5B50\uFF0C\u5C0F\u767D\u5154\u89C9\u5F97\u5E94\u8BE5\u544A\u8BC9\u5C0F\u72D0\u72F8\uFF0C\u4E5F\u8BA9\u81EA\u5DF1\u559C\u6B22\u7684\u4EBA\u9AD8\u5174\u9AD8\u5174\u3002</p><p>\u65F6\u95F4\u6765\u5230\u4E86\u665A\u996D\u540E\uFF0C\u7830\u7830\u7830\uFF01\u4E00\u9635\u6572\u95E8\u58F0\u4F20\u6765\uFF0C\u5C0F\u767D\u5154\u8D76\u7D27\u53BB\u5F00\u95E8\uFF0C\u4E00\u5F00\u95E8\u53D1\u73B0\u5C45\u7136\u662F\u5C0F\u72D0\u72F8\uFF0C\u53EF\u628A\u5C0F\u767D\u5154\u60CA\u559C\u574F\u4E86\uFF0C\u4EE5\u81F3\u4E8E\u4E00\u65F6\u95F4\u8BF4\u4E0D\u51FA\u8BDD\u6765\u3002</p><p>\u201C\u542C\u5927\u8C61\u4F2F\u4F2F\u8BF4\uFF0C\u4F60\u4E0B\u5348\u627E\u6211\u4E86\uFF1F\u68EE\u6797\u91CC\u7684\u6843\u5B50\u719F\u4E86\uFF0C\u6211\u548C\u5C0F\u4F19\u4F34\u4EEC\u53BB\u68EE\u6797\u91CC\u6458\u6843\u5B50\u53BB\u4E86\uFF0C\u6211\u5C1D\u4E86\u4E0B\uFF0C\u53EF\u597D\u5403\u4E86\uFF0C\u7ED9\u4F60\u4E5F\u62FF\u4E86\u4E00\u70B9\u3002\u201D\u5C0F\u72D0\u72F8\u770B\u7740\u5C0F\u767D\u5154\u4E0D\u8BF4\u8BDD\uFF0C\u4E8E\u662F\u63D0\u524D\u5F00\u53E3\u8BF4\uFF0C\u5C0F\u767D\u5154\u4ED4\u7EC6\u4E00\u770B\uFF0C\u624D\u53D1\u89C9\u5C0F\u72D0\u72F8\u62B1\u4E86\u4E00\u5806\u6843\u5B50\u5462\uFF0C\u4E8E\u662F\u8FDE\u5FD9\u62DB\u547C\u5C0F\u72D0\u72F8\u8FDB\u5C4B\u91CC\u3002</p><p>\u5C0F\u72D0\u72F8\u6765\u5230\u5C4B\u91CC\u505A\u597D\u540E\uFF0C\u5C0F\u767D\u5154\u7ED9\u5C0F\u72D0\u72F8\u8BF4\u4E86\u597D\u591A\u597D\u591A\u8BDD\uFF0C\u6709\u81EA\u5DF1\u6BD4\u8D5B\u7684\u7CBE\u5F69\u7247\u6BB5\uFF0C\u4E5F\u6709\u81EA\u5DF1\u5F97\u5956\u7684\u60CA\u559C\u5FC3\u60C5\u2026\u2026</p><p>\u5C31\u8FD9\u6837\u4E0D\u77E5\u4E0D\u89C9\uFF0C\u5DF2\u7ECF\u5230\u4E86\u6DF1\u591C\uFF0C\u86D0\u86D0\u7684\u58F0\u97F3\u6C89\u6D78\u4E86\u6574\u4E2A\u68EE\u6797\uFF0C\u4E5F\u5305\u62EC\u5C0F\u5154\u5B50\u7684\u5BB6\u3002\u8FD9\u4E2A\u65F6\u5019\uFF0C\u5C0F\u767D\u5154\u624D\u53D1\u73B0\u81EA\u5DF1\u7ED9\u5C0F\u72D0\u72F8\u5C45\u7136\u8BB2\u4E86\u8FD9\u4E48\u4E45\uFF0C\u7ADF\u6CA1\u6709\u53D1\u73B0\u65F6\u95F4\u8FC7\u5F97\u8FD9\u4E48\u5FEB\uFF0C\u800C\u4E14\u5C0F\u72D0\u72F8\u4E5F\u8BA4\u8BA4\u771F\u771F\u7684\u5145\u5F53\u7740\u4E00\u4E2A\u8046\u542C\u8005\u3002</p><p>\u5C0F\u767D\u5154\u7A81\u7136\u89C9\u5F97\u4E0D\u597D\u610F\u601D\u4E86\uFF0C\u56E0\u4E3A\u4E00\u76F4\u662F\u81EA\u5DF1\u5728\u8BB2\uFF0C\u4E8E\u662F\u8138\u77AC\u95F4\u5C31\u7EA2\u4E86\u8D77\u6765\u3002</p><p>\u5C0F\u72D0\u72F8\u770B\u5230\u597D\u5947\u7684\u95EE\uFF1A\u201C\u600E\u4E48\u4E86\u5C0F\u767D\u5154\uFF1F\u600E\u4E48\u8138\u7EA2\u4E86\uFF1F\u201D</p><p>\u201C\u6211\u90FD\u4E0D\u77E5\u9053\u8BB2\u4E86\u8FD9\u4E48\u4E45\u4E86\uFF0C\u5BF9\u4E0D\u8D77\u5C0F\u72D0\u72F8\uFF0C\u90FD\u6CA1\u6709\u5728\u610F\u4F60\u7684\u611F\u53D7\u3002\u201D\u5C0F\u767D\u5154\u7F9E\u7EA2\u7740\u8138\u8BF4\u7740\u3002</p><p>\u5C0F\u72D0\u72F8\u8FDE\u5FD9\u9053\uFF1A\u201C\u600E\u4E48\u4F1A\u5462\uFF01\u4F60\u8BB2\u7684\u592A\u6709\u610F\u601D\u4E86\uFF0C\u771F\u53EF\u60DC\u6CA1\u53BB\u73B0\u573A\u770B\uFF0C\u4E0D\u7136\u66F4\u7CBE\u5F69\uFF01\u800C\u4E14\u2026\u2026\u800C\u4E14\u2026\u2026\u201D\u5C0F\u72D0\u72F8\u7A81\u7136\u8BF4\u8BDD\u72B9\u8C6B\u4E86\u8D77\u6765\u3002</p><p>\u201C\u800C\u4E14\u4EC0\u4E48\uFF1F\u201D\u5C0F\u767D\u5154\u76EF\u7740\u5C0F\u72D0\u72F8\u597D\u5947\u7684\u95EE\u3002</p><p>\u201C\u800C\u4E14\u542C\u81EA\u5DF1\u559C\u6B22\u7684\u4EBA\u8BB2\uFF0C\u4F1A\u66F4\u52A0\u6709\u610F\u601D\uFF01\u201D\u5C0F\u72D0\u72F8\u6EE1\u773C\u6DF1\u60C5\u7684\u76EF\u7740\u5C0F\u767D\u5154\u56DE\u7B54\u8BF4\u3002</p><p>\u201C\u554A\uFF01\u201D\u5C0F\u767D\u5154\u60CA\u8BB6\u7684\u8BF4\u4E86\u4E00\u53E5\uFF0C\u201C\u4F60\u8BF4\u4EC0\u4E48\uFF1F\u201D</p><p>\u201C\u6211\u559C\u6B22\u4F60\u5440\uFF0C\u5C0F\u767D\u5154\uFF0C\u800C\u4E14\u559C\u6B22\u597D\u4E45\u4E86\uFF01\u563B\u563B\uFF01\u201D\u5C0F\u72D0\u72F8\u4E0D\u597D\u610F\u601D\u7684\u770B\u7740\u5C0F\u767D\u5154\u2026\u2026</p><h2 id="\u62B1\u62B1" tabindex="-1"><a class="header-anchor" href="#\u62B1\u62B1" aria-hidden="true">#</a> \u62B1\u62B1</h2><p>\u5C0F\u72D0\u72F8\u4ECA\u5929\u548C\u5C0F\u5154\u5B50\u5435\u67B6\u4E86\uFF0C\u539F\u56E0\u662F\u56E0\u4E3A\uFF0C\u660E\u660E\u4ECA\u5929\u5C31\u662F\u4E00\u5E74\u4E00\u6B21\u7684\u60C5\u4EBA\u8282\uFF0C\u53EF\u662F\u5C0F\u72D0\u72F8\u53EA\u7ED9\u5C0F\u767D\u5154\u53D1\u4E86\u4E2A\u7EA2\u5305\uFF0C\u8FD9\u8BA9\u5C0F\u5154\u5B50\u89C9\u5F97\u5C0F\u72D0\u72F8\u4E00\u70B9\u90FD\u4E0D\u4E0A\u5FC3\u3002</p><p>\u521A\u5F00\u59CB\uFF0C\u5176\u5B9E\u90FD\u6CA1\u6709\u5435\u67B6\uFF0C\u53EA\u662F\u5C0F\u5154\u5B50\u7ED9\u5C0F\u72D0\u72F8\u62B1\u6028\u4E86\u4E00\u4E0B\u3002\u4F46\u5C0F\u72D0\u72F8\u4E5F\u89C9\u5F97\u59D4\u5C48\u554A\uFF0C\u56E0\u4E3A\u81EA\u5DF1\u6709\u8BB0\u5F97\u8FD9\u662F\u4E2A\u7279\u522B\u7684\u65E5\u5B50\uFF0C\u4E5F\u53D1\u4E86\u60C5\u4EBA\u8282\u7EA2\u5305\u554A\u3002</p><p>\u4E8E\u662F\uFF0C\u5C31\u548C\u5C0F\u5154\u5B50\u8BB2\u8D77\u4E86\u9053\u7406\u3002\u8C08\u604B\u7231\u7684\u5C0F\u52A8\u7269\u4EEC\u90FD\u77E5\u9053\uFF0C\u5973\u751F\u662F\u7528\u6765\u54C4\u5F97\uFF0C\u600E\u4E48\u53EF\u4EE5\u7528\u6765\u8BB2\u9053\u7406\u5462?</p><p>\u4E8E\u662F\u8BF4\u7740\u8BF4\u7740\uFF0C\u5C0F\u72D0\u72F8\u5C31\u548C\u5C0F\u5154\u5B50\u5435\u4E86\u8D77\u6765\uFF0C\u5435\u4E86\u4E00\u4F1A\uFF0C\u5C0F\u72D0\u72F8\u5C31\u51FA\u4E86\u5BB6\u95E8\uFF0C\u72EC\u81EA\u51B7\u9759\u53BB\u4E86\u3002</p><p>\u5C31\u8FD9\u6837\uFF0C\u8FC7\u4E86\u4E00\u4E2A\u5C0F\u65F6\uFF0C\u5C0F\u72D0\u72F8\u7684\u6C14\u4E5F\u6D88\u4E86\uFF0C\u4E5F\u60F3\u4E86\u60F3\u81EA\u5DF1\u4E0D\u5E94\u8BE5\u548C\u5C0F\u5154\u5B50\u5435\u67B6\uFF0C\u5C31\u60F3\u7740\u8981\u53BB\u627E\u5C0F\u5154\u5B50\u9053\u6B49\u3002</p><p>\u4F46\u5C0F\u72D0\u72F8\u4E00\u60F3\uFF0C\u8FD9\u6837\u597D\u50CF\u5F88\u6CA1\u7528\u9762\u5B50\uFF0C\u4E8E\u662F\u53C8\u5FCD\u4F4F\u4E86\u3002</p><p>\u53C8\u8FC7\u4E86\u4E00\u4E2A\u5C0F\u65F6\uFF0C\u5C0F\u72D0\u72F8\u5B9E\u5728\u5FCD\u4E0D\u4F4F\u4E86\uFF0C\u4E8E\u662F\u6765\u5230\u5BB6\u95E8\u53E3\uFF0C\u558A\u7740\u5C0F\u5154\u5B50\uFF1A\u201C\u5C0F\u5154\u5B50\uFF0C\u4F60\u51FA\u6765\uFF0C\u6211\u6709\u8BDD\u7ED9\u4F60\u8BF4\u3002\u201D</p><p>\u4E0D\u4E00\u4F1A\uFF0C\u5C0F\u5154\u5B50\u6253\u5F00\u623F\u95E8\uFF0C\u770B\u5230\u662F\u5C0F\u72D0\u72F8\uFF0C\u4FBF\u95EE\uFF1A\u201C\u51FA\u6765\u5E72\u4EC0\u4E48\uFF1F\u5BB6\u91CC\u8BF4\u3002\u201D</p><p>\u201D\u4E0D\u884C\uFF0C\u8981\u51FA\u6765\u8BF4\uFF01\u201C\u5C0F\u72D0\u72F8\u6267\u62D7\u7684\u8BF4\u3002</p><p>\u770B\u7740\u6267\u7740\u7684\u5C0F\u72D0\u72F8\uFF0C\u5C0F\u767D\u5154\u8FD8\u662F\u5FCD\u4E0D\u4F4F\u51FA\u4E86\u95E8\uFF0C\u6765\u5230\u5C0F\u72D0\u72F8\u9762\u524D\u3002</p><p>\u5C0F\u72D0\u72F8\u770B\u7740\u5C0F\u5154\u5B50\u8BF4\uFF1A\u201D\u56E0\u4E3A\uFF0C\u6211\u4EEC\u5728\u5BB6\u91CC\u95F9\u63B0\u4E86\uFF0C\u6240\u6709\u4E0D\u80FD\u5728\u5BB6\u91CC\u8BF4\uFF0C\u8981\u51FA\u6765\u8BF4\u3002\u201C</p><p>\u4E8E\u662F\u5C0F\u72D0\u72F8\u8BA4\u8BA4\u771F\u771F\u7684\u7ED9\u5C0F\u5154\u5B50\u9053\u4E86\u6B49\uFF0C\u5C0F\u5154\u5B50\u770B\u7740\u81EA\u8D23\u7684\u5C0F\u72D0\u72F8\uFF0C\u4E5F\u8BF4\u4E86\u81EA\u5DF1\u4E0D\u8BE5\u4EFB\u6027\u3002</p><p>\u901A\u8FC7\u4ECA\u5929\u7684\u4E89\u5435\uFF0C\u5C0F\u72D0\u72F8\u548C\u5C0F\u5154\u5B50\u660E\u767D\u4E86\uFF0C\u5BB6\u4E0D\u662F\u7528\u6765\u5435\u67B6\u7684\u5730\u65B9\uFF0C\u800C\u662F\u5206\u4EAB\u548C\u751F\u6D3B\u7684\u5C0F\u7A9D\u3002</p><p>\u4ED6\u4EEC\u7EA6\u5B9A\uFF0C\u4EE5\u540E\u9047\u5230\u95EE\u9898\u8981\u5C3D\u91CF\u597D\u597D\u5546\u91CF\uFF0C\u51CF\u5C11\u4E89\u5435\u3002</p><p>\u5C0F\u72D0\u72F8\u548C\u5C0F\u5154\u5B50\u4E92\u76F8\u9053\u5B8C\u6B49\u540E\uFF0C\u5C0F\u72D0\u72F8\u7ED9\u4E86\u5C0F\u5154\u5B50\u4E00\u4E2A\u5927\u5927\u7684\u5145\u6EE1\u7231\u7684\u62B1\u62B1\u3002</p><p>\u56E0\u4E3A\u5C0F\u72D0\u72F8\u77E5\u9053\uFF0C\u7231\u4EBA\u4E4B\u95F4\u6CA1\u6709\u4EC0\u4E48\u95EE\u9898\u662F\u4E0D\u80FD\u7528\u4E00\u4E2A\u62B1\u62B1\u89E3\u51B3\u7684\u3002</p><p>\u5982\u679C\u6709\uFF0C\u90A3\u5C31\u4E24\u4E2A......</p><!--]-->`);
 }
-const _sfc_setup$z = _sfc_main$z.setup;
-_sfc_main$z.setup = (props, ctx) => {
+const _sfc_setup$A = _sfc_main$A.setup;
+_sfc_main$A.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/\u6545\u4E8B/story.html.vue");
-  return _sfc_setup$z ? _sfc_setup$z(props, ctx) : void 0;
+  return _sfc_setup$A ? _sfc_setup$A(props, ctx) : void 0;
 };
-var story_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$z, [["ssrRender", _sfc_ssrRender$l]]);
+var story_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$A, [["ssrRender", _sfc_ssrRender$m]]);
 var story_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": story_html$1
 });
-const _sfc_main$y = {};
-function _sfc_ssrRender$k(_ctx, _push, _parent, _attrs) {
+const _sfc_main$z = {};
+function _sfc_ssrRender$l(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h2 id="_3" tabindex="-1"><a class="header-anchor" href="#_3" aria-hidden="true">#</a> 3</h2><h2 id="_4" tabindex="-1"><a class="header-anchor" href="#_4" aria-hidden="true">#</a> 4</h2><!--]-->`);
 }
-const _sfc_setup$y = _sfc_main$y.setup;
-_sfc_main$y.setup = (props, ctx) => {
+const _sfc_setup$z = _sfc_main$z.setup;
+_sfc_main$z.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/\u6559\u7A0B/text.html.vue");
-  return _sfc_setup$y ? _sfc_setup$y(props, ctx) : void 0;
+  return _sfc_setup$z ? _sfc_setup$z(props, ctx) : void 0;
 };
-var text_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$y, [["ssrRender", _sfc_ssrRender$k]]);
+var text_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$z, [["ssrRender", _sfc_ssrRender$l]]);
 var text_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": text_html$1
 });
-const _sfc_main$x = {};
-function _sfc_ssrRender$j(_ctx, _push, _parent, _attrs) {
+const _sfc_main$y = {};
+function _sfc_ssrRender$k(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h2 id="\u4F5C\u4E3A\u4E00\u4E2A\u4EBA" tabindex="-1"><a class="header-anchor" href="#\u4F5C\u4E3A\u4E00\u4E2A\u4EBA" aria-hidden="true">#</a> \u4F5C\u4E3A\u4E00\u4E2A\u4EBA</h2><p>\u6709\u65F6\u5019\uFF0C\u4E0D\u8981\u542C\u522B\u4EBA\u7684\u6307\u70B9\uFF0C\u66F4\u4E0D\u8981\u6307\u70B9\u522B\u4EBA\u3002</p><!--]-->`);
 }
-const _sfc_setup$x = _sfc_main$x.setup;
-_sfc_main$x.setup = (props, ctx) => {
+const _sfc_setup$y = _sfc_main$y.setup;
+_sfc_main$y.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/\u968F\u7B14/reflection.html.vue");
-  return _sfc_setup$x ? _sfc_setup$x(props, ctx) : void 0;
+  return _sfc_setup$y ? _sfc_setup$y(props, ctx) : void 0;
 };
-var reflection_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$x, [["ssrRender", _sfc_ssrRender$j]]);
+var reflection_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$y, [["ssrRender", _sfc_ssrRender$k]]);
 var reflection_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": reflection_html$1
 });
-const _sfc_main$w = {};
-function _sfc_ssrRender$i(_ctx, _push, _parent, _attrs) {
+const _sfc_main$x = {};
+function _sfc_ssrRender$j(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h2 id="\u4EC0\u4E48\u662Fcss" tabindex="-1"><a class="header-anchor" href="#\u4EC0\u4E48\u662Fcss" aria-hidden="true">#</a> \u4EC0\u4E48\u662FCSS\uFF1F</h2><p><code>CSS</code> \u2014 \u662F\u4F60\u5728HTML\u4E4B\u540E\u5E94\u8BE5\u5B66\u4E60\u7684\u7B2C\u4E8C\u95E8\u6280\u672F\u3002<code>HTML</code>\u7528\u4E8E\u5B9A\u4E49\u5185\u5BB9\u7684\u7ED3\u6784\u548C\u8BED\u4E49\uFF0C<code>CSS</code>\u7528\u4E8E\u8BBE\u8BA1\u98CE\u683C\u548C\u5E03\u5C40\u3002\u6BD4\u5982\uFF0C\u60A8\u53EF\u4EE5\u4F7F\u7528<code>CSS</code>\u6765\u66F4\u6539\u5185\u5BB9\u7684\u5B57\u4F53\u3001\u989C\u8272\u3001\u5927\u5C0F\u3001\u95F4\u8DDD\uFF0C\u5C06\u5185\u5BB9\u5206\u4E3A\u591A\u5217\uFF0C\u6216\u8005\u6DFB\u52A0\u52A8\u753B\u53CA\u5176\u4ED6\u7684\u88C5\u9970\u6548\u679C\u3002</p><!--]-->`);
 }
-const _sfc_setup$w = _sfc_main$w.setup;
-_sfc_main$w.setup = (props, ctx) => {
+const _sfc_setup$x = _sfc_main$x.setup;
+_sfc_main$x.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/css/01-css.html.vue");
-  return _sfc_setup$w ? _sfc_setup$w(props, ctx) : void 0;
+  return _sfc_setup$x ? _sfc_setup$x(props, ctx) : void 0;
 };
-var _01Css_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$w, [["ssrRender", _sfc_ssrRender$i]]);
+var _01Css_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$x, [["ssrRender", _sfc_ssrRender$j]]);
 var _01Css_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _01Css_html$1
 });
-const _sfc_main$v = {};
-function _sfc_ssrRender$h(_ctx, _push, _parent, _attrs) {
+const _sfc_main$w = {};
+function _sfc_ssrRender$i(_ctx, _push, _parent, _attrs) {
   const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
   _push(`<!--[--><h1 id="flutter" tabindex="-1"><a class="header-anchor" href="#flutter" aria-hidden="true">#</a> Flutter</h1><ul><li><p>Kotlin \u662F\u4E00\u95E8\u7F16\u7A0B\u8BED\u8A00\uFF0C\u800C Flutter \u662F\u4E00\u4E2A\u8DE8\u5E73\u53F0\u7684 UI \u5DE5\u5177\u96C6\u3002</p></li><li><p>Flutter\u662F\u8C37\u6B4C\u7684\u79FB\u52A8UI\u6846\u67B6\uFF0C\u53EF\u4EE5\u5FEB\u901F\u5728iOS\u548CAndroid\u4E0A\u6784\u5EFA\u9AD8\u8D28\u91CF\u7684\u539F\u751F\u7528\u6237\u754C\u9762\uFF0C\u5F00\u6E90\u514D\u8D39\uFF0C\u5176\u4F7F\u7528\u4E86Dart\u8BED\u6CD5\uFF0C\u6240\u4EE5\u5B66\u4E60\u65F6\u4E5F\u9700\u8981\u5148\u4E86\u89E3\u4E00\u4E0BDart\uFF08\u5EFA\u8BAE\u800C\u5DF2\uFF09\u3002</p></li><li><p>Dart\u662F\u8C37\u6B4C\u5F00\u53D1\u7684\u8BA1\u7B97\u673A\u7F16\u7A0B\u8BED\u8A00\uFF0CDart\u662F\u9762\u5411\u5BF9\u8C61\u7684\u3001\u7C7B\u5B9A\u4E49\u7684\u3001\u5355\u7EE7\u627F\u7684\u8BED\u8A00\u3002\u5B83\u7684\u8BED\u6CD5\u7C7B\u4F3CC\u8BED\u8A00\uFF0C\u53EF\u4EE5\u8F6C\u8BD1\u4E3AJavaScript\u3002</p></li></ul><h2 id="\u73AF\u5883\u642D\u5EFA" tabindex="-1"><a class="header-anchor" href="#\u73AF\u5883\u642D\u5EFA" aria-hidden="true">#</a> \u73AF\u5883\u642D\u5EFA</h2><p>\u5148\u4E0B\u8F7D\u597D\u4E0B\u9762\u5DE5\u5177\uFF1A</p><p><a href="https://www.oracle.com/java/technologies/downloads/#java8" target="_blank" rel="noopener noreferrer">JDK\u2014\u2014\uFF08\u4E00\u822Cjdk-8u251-windows-x64.exe\u5373\u53EF\uFF09`);
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
@@ -5121,20 +4911,20 @@ E:<span class="token punctuation">\\</span>Java<span class="token punctuation">\
 <span class="token comment"># \u7248\u672C\u4E0Eandroid SDKb\u4E0D\u540C</span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>\u6253\u5F00<code>android SDK</code>\u7684<code>platform-tools</code>\u76EE\u5F55\u4E0B\u7684<code>adb.exe</code>\u62F7\u8D1D\u5230\u591C\u795E\u6A21\u62DF\u5668\u7684bin\u76EE\u5F55\u4E0B\uFF0C\u76F4\u63A5\u8986\u76D6\uFF0C\u5E76\u4E14\u518D\u590D\u5236\u4E00\u4EFD\uFF0C\u91CD\u547D\u540D\u4E3A<code>nox_adb.exe</code>\uFF0C\u91CD\u542F\u8BD5\u8BD5\u770B\u3002\uFF08\u6700\u597D\u5C06\u591C\u795E\u7684<code>adb.exe</code>\u5907\u4EFD\u4E00\u4E0B\uFF0C\u968F\u610F\uFF09</p><!--]-->`);
 }
-const _sfc_setup$v = _sfc_main$v.setup;
-_sfc_main$v.setup = (props, ctx) => {
+const _sfc_setup$w = _sfc_main$w.setup;
+_sfc_main$w.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/Flutter/01.html.vue");
-  return _sfc_setup$v ? _sfc_setup$v(props, ctx) : void 0;
+  return _sfc_setup$w ? _sfc_setup$w(props, ctx) : void 0;
 };
-var _01_html$d = /* @__PURE__ */ _export_sfc(_sfc_main$v, [["ssrRender", _sfc_ssrRender$h]]);
+var _01_html$d = /* @__PURE__ */ _export_sfc(_sfc_main$w, [["ssrRender", _sfc_ssrRender$i]]);
 var _01_html$e = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _01_html$d
 });
-const _sfc_main$u = {};
-function _sfc_ssrRender$g(_ctx, _push, _parent, _attrs) {
+const _sfc_main$v = {};
+function _sfc_ssrRender$h(_ctx, _push, _parent, _attrs) {
   const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
   _push(`<!--[--><h1 id="dart" tabindex="-1"><a class="header-anchor" href="#dart" aria-hidden="true">#</a> Dart</h1><p>\u5982\u679C\u4F60\u5DF2\u7ECF\u642D\u5EFA\u597D\u73AF\u5883\uFF1A</p><p>\u6211\u4EEC\u4E00\u5207\u5B66\u4E60\u5F00\u59CB\u4E8E\u4E00\u4E2A\u5165\u53E3\u65B9\u6CD5\uFF1A\u4E0D\u7528\u6DF1\u7A76\uFF0C\u5B83\u5C31\u662F\u8FD9\u6837\u5F00\u59CB\u7684\uFF1A</p><div class="language-dart ext-dart line-numbers-mode"><pre class="language-dart"><code><span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
   <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">&#39;\u4F60\u597D&#39;</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//\u7ED3\u675F\u8BED\u53E5\u5FC5\u987B\u8981\u5206\u53F7</span>
@@ -6334,20 +6124,20 @@ user<span class="token punctuation">.</span><span class="token function">printNa
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><!--]-->`);
 }
-const _sfc_setup$u = _sfc_main$u.setup;
-_sfc_main$u.setup = (props, ctx) => {
+const _sfc_setup$v = _sfc_main$v.setup;
+_sfc_main$v.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/Flutter/02.Dart\u8BED\u6CD5.html.vue");
-  return _sfc_setup$u ? _sfc_setup$u(props, ctx) : void 0;
+  return _sfc_setup$v ? _sfc_setup$v(props, ctx) : void 0;
 };
-var _02_Dart___html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$u, [["ssrRender", _sfc_ssrRender$g]]);
+var _02_Dart___html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$v, [["ssrRender", _sfc_ssrRender$h]]);
 var _02_Dart___html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _02_Dart___html$1
 });
-const _sfc_main$t = {};
-function _sfc_ssrRender$f(_ctx, _push, _parent, _attrs) {
+const _sfc_main$u = {};
+function _sfc_ssrRender$g(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h1 id="widget" tabindex="-1"><a class="header-anchor" href="#widget" aria-hidden="true">#</a> widget</h1><p>\u67B6\u6784\u56FE</p><p><img src="https://s2.loli.net/2022/04/02/3oLIz8cPC5JVMlS.png" alt="20220402.png"></p><p>\u4E0B\u9762\u662Fflutter\u6E90\u7801\u7684\u4E00\u4E9B\u622A\u56FE\uFF1A</p><p><img src="https://s2.loli.net/2022/04/03/fjwdDxzyURiXSQI.png" alt="12"></p><p>\u5E76\u4E0D\u9700\u8981\u6DF1\u5165\u4E86\u89E3\uFF0C\u89E3\u8BFB\u4E00\u4E0B\u7ED3\u6784\u5373\u53EF</p><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">\u540D\u79F0</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">Foundation</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u57FA\u7840\u90E8\u5206</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">Animation</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u52A8\u753B</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">Painting</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8FB9\u6846\u7ED8\u5236\u3001\u989C\u8272\u3001\u88C1\u526A\u56FE\u50CF\u5904\u7406\u3001\u753B\u7B14\u3001\u63D2\u503C\u5668\u7B49\u8DDF\u7ED8\u5236\u3001\u56FE\u50CF\u3001\u88C5\u9970\u76F8\u5173\u7684\u7C7B</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">Gestures</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4E8B\u4EF6\u7C7B\u3001\u957F\u6309\u3001\u89E6\u6478\u3001\u653E\u5927\u7B49\u7B49</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">Rendering</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6E32\u67D3 Widget \u7684\u57FA\u7840\u5E93</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">Widget</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4F9D\u8D56 Rendering \u5C42\u8FDB\u884C\u6784\u5EFA\uFF0CWidget \u662F Flutter \u7684\u6838\u5FC3</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">Material</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">Android \u5E73\u53F0\u7684\u98CE\u683C</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">Cupertino</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">iOS \u5E73\u53F0\u98CE\u683C\u7684\u6241\u5E73\u5316</td></tr></tbody></table><h2 id="widget\u4ECB\u7ECD-\u53EF\u8DF3\u8FC7" tabindex="-1"><a class="header-anchor" href="#widget\u4ECB\u7ECD-\u53EF\u8DF3\u8FC7" aria-hidden="true">#</a> Widget\u4ECB\u7ECD\uFF08\u53EF\u8DF3\u8FC7\uFF09</h2><p>\u4E3B\u8981\u5206\u4E3A StatelessWidget\uFF08\u65E0\u72B6\u6001\uFF09 \u548C StatefulWidget\uFF08\u6709\u72B6\u6001\uFF09\uFF0C\u4E0B\u9762\u5148\u603B\u4F53\u4ECB\u7ECD\uFF0C\u8FD9\u91CC\u6CA1\u5FC5\u8981\u7422\u78E8\u3002</p><ol><li>\u57FA\u7840\u7EC4\u4EF6 Widget\uFF08Basics\uFF09\uFF1A</li></ol><p><code>Container</code>\u3001<code>Row</code>\u3001<code>Column</code>\u3001<code>Image</code>\u3001<code>Text</code>\u3001<code>Icon</code>\u3001<code>RaisedButton</code>\u3001<code>Scaffold</code>\u3001<code>Appbar</code>\u3001<code>FlutterLogo</code>\u3001<code>Placeholder</code></p><h4 id="material-components-\u5B89\u5353\u98CE\u683C\u7EC4\u4EF6" tabindex="-1"><a class="header-anchor" href="#material-components-\u5B89\u5353\u98CE\u683C\u7EC4\u4EF6" aria-hidden="true">#</a> Material Components\uFF08\u5B89\u5353\u98CE\u683C\u7EC4\u4EF6\uFF09\uFF1A</h4><div class="language-dart ext-dart line-numbers-mode"><pre class="language-dart"><code><span class="token keyword">import</span> <span class="token string">&#39;package:flutter/material.dart&#39;</span><span class="token punctuation">;</span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><ol start="2"><li>App \u7ED3\u6784\u548C\u5BFC\u822A\u7C7B</li></ol><p><code>Scaffold</code>\u3001<code>Appbar</code>\u3001<code>BottomNavigationBar</code>\u3001<code>TabBar</code>\u3001<code>TabBarView</code>\u3001<code>MaterialApp</code>\u3001<code>WidgetsApp</code>\u3001<code>Drawer</code>\u3001<code>SliverAppBar</code></p><ol start="3"><li>\u6309\u94AE\u7C7B</li></ol><p><code>RaisedButton</code>\u3001<code>FloatingActionButton</code>\u3001<code>FlatButton</code>\u3001<code>IconButton</code>\u3001<code>DropdownButton</code>\u3001<code>PopupMenuButton</code>\u3001<code>ButtonBar</code></p><ol start="4"><li>\u8F93\u5165\u548C\u9009\u62E9\u7C7B</li></ol><p><code>TextField</code>\u3001<code>Checkbox</code>\u3001<code>Raido</code>\u3001<code>Switch</code>\u3001<code>Slider</code>\u3001<code>Date&amp;Time Pickers</code></p><ol start="5"><li>\u5BF9\u8BDD\u6846\u548C\u63A7\u5236\u9762\u677F\u7C7B</li></ol><p><code>SimpleDialog</code>\u3001<code>AlertDialog</code>\u3001<code>BottomSheet</code>\u3001<code>ExpansionPanel</code>\u3001<code>SnackBar</code></p><ol start="6"><li>\u4FE1\u606F\u663E\u793A\u7C7B</li></ol><p><code>Image</code>\u3001<code>Icon</code>\u3001<code>Chip</code>\u3001<code>Tooltip</code>\u3001<code>DataTable</code>\u3001<code>Card</code>\u3001<code>LinearProgressIndicator</code>\u3001<code>CircularProgressIndicator</code>\u3001<code>GridView</code></p><ol start="7"><li>\u5E03\u5C40\u7C7B</li></ol><p><code>ListTile</code>\u3001<code>Stepper</code>\u3001<code>Divider</code></p><h4 id="cupertino\u7EC4\u4EF6-ios\u98CE\u683C\u7EC4\u4EF6" tabindex="-1"><a class="header-anchor" href="#cupertino\u7EC4\u4EF6-ios\u98CE\u683C\u7EC4\u4EF6" aria-hidden="true">#</a> Cupertino\u7EC4\u4EF6(IOS\u98CE\u683C\u7EC4\u4EF6)</h4><div class="language-dart ext-dart line-numbers-mode"><pre class="language-dart"><code><span class="token keyword">import</span> <span class="token string">&#39;package:flutter/cupertino.dart&#39;</span><span class="token punctuation">;</span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><h2 id="\u7B80\u4ECB" tabindex="-1"><a class="header-anchor" href="#\u7B80\u4ECB" aria-hidden="true">#</a> \u7B80\u4ECB</h2><h3 id="\u6982\u5FF5" tabindex="-1"><a class="header-anchor" href="#\u6982\u5FF5" aria-hidden="true">#</a> \u6982\u5FF5</h3><p>Flutter \u4E2D\u662F\u901A\u8FC7 Widget \u5D4C\u5957 Widget \u7684\u65B9\u5F0F\u6765\u6784\u5EFAUI\u548C\u8FDB\u884C\u5B9E\u8DF5\u5904\u7406\u7684\uFF0C\u6240\u4EE5\u8BB0\u4F4F\uFF0CFlutter \u4E2D\u4E07\u7269\u7686\u4E3AWidget\u3002</p><p>Flutter \u4E2D\u7684 widget \u7684\u6982\u5FF5\u66F4\u5E7F\u6CDB\uFF0C\u5B83\u4E0D\u4EC5\u53EF\u4EE5\u8868\u793AUI\u5143\u7D20\uFF0C\u4E5F\u53EF\u4EE5\u8868\u793A\u4E00\u4E9B\u529F\u80FD\u6027\u7684\u7EC4\u4EF6\u5982\uFF1A\u7528\u4E8E\u624B\u52BF\u68C0\u6D4B\u7684 GestureDetector \u3001\u7528\u4E8EAPP\u4E3B\u9898\u6570\u636E\u4F20\u9012\u7684 Theme \u7B49\u7B49\u3002\u6240\u4EE5\uFF0C\u521D\u5B66\u65F6\u4E0D\u8981\u6DF1\u7A76\uFF0C\u5FAA\u5FAA\u6E10\u8FDB\u624D\u662F\u6700\u597D\u7684\u3002</p><h3 id="widget-\u63A5\u53E3" tabindex="-1"><a class="header-anchor" href="#widget-\u63A5\u53E3" aria-hidden="true">#</a> Widget \u63A5\u53E3</h3><p>\u5728 <code>Flutter</code> \u4E2D\uFF0C <code>widget</code> \u7684\u529F\u80FD\u662F\u201C\u63CF\u8FF0\u4E00\u4E2AUI\u5143\u7D20\u7684\u914D\u7F6E\u4FE1\u606F\u201D\uFF0C\u5C31\u662F\u8BF4 <code>Widget</code> \u5176\u5B9E\u5E76\u4E0D\u662F\u8868\u793A\u6700\u7EC8\u7ED8\u5236\u5728\u8BBE\u5907\u5C4F\u5E55\u4E0A\u7684\u663E\u793A\u5143\u7D20\uFF0C\u6240\u8C13\u7684\u914D\u7F6E\u4FE1\u606F\u5C31\u662F <code>Widget</code> \u63A5\u6536\u7684\u53C2\u6570\uFF0C\u6BD4\u5982\u5BF9\u4E8E Text \u6765\u8BB2\uFF0C\u6587\u672C\u7684\u5185\u5BB9\u3001\u5BF9\u9F50\u65B9\u5F0F\u3001\u6587\u672C\u6837\u5F0F\u90FD\u662F\u5B83\u7684\u914D\u7F6E\u4FE1\u606F\u3002\u4E0B\u9762\u6211\u4EEC\u5148\u6765\u770B\u4E00\u4E0B <code>Widget</code> \u7C7B\u7684\u58F0\u660E(\u6E90\u7801)\uFF1A</p><div class="language-dart ext-dart line-numbers-mode"><pre class="language-dart"><code><span class="token metadata symbol">@immutable</span> <span class="token comment">// \u4E0D\u53EF\u53D8\u7684</span>
@@ -6388,57 +6178,158 @@ function _sfc_ssrRender$f(_ctx, _push, _parent, _attrs) {
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br></div></div><ul><li><code>@immutable</code> \u4EE3\u8868 <code>Widget</code> \u662F\u4E0D\u53EF\u53D8\u7684\uFF0C\u8FD9\u4F1A\u9650\u5236 <code>Widget</code> \u4E2D\u5B9A\u4E49\u7684\u5C5E\u6027\uFF08\u5373\u914D\u7F6E\u4FE1\u606F\uFF09\u5FC5\u987B\u662F\u4E0D\u53EF\u53D8\u7684\uFF08<code>final</code>\uFF09,<code>Widget</code> \u7684\u5C5E\u6027\u53D8\u5316\u662F\u6CA1\u6709\u610F\u4E49\u7684\uFF0C\u56E0\u4E3A\u4E00\u65E6 Widget \u81EA\u5DF1\u7684\u5C5E\u6027\u53D8\u4E86\u81EA\u5DF1\u5C31\u4F1A\u88AB\u66FF\u6362 (\u521B\u5EFA\u65B0\u7684\u66FF\u6362\u65E7\u7684)\u3002</li><li><code>widget</code>\u7C7B\u7EE7\u627F\u81EA<code>DiagnosticableTree</code>\uFF0C<code>DiagnosticableTree</code>\u5373\u201C<code>\u8BCA\u65AD\u6811</code>\u201D\uFF0C\u4E3B\u8981\u4F5C\u7528\u662F\u63D0\u4F9B\u8C03\u8BD5\u4FE1\u606F\u3002</li><li><code>Key</code>: \u8FD9\u4E2Akey\u5C5E\u6027\u7C7B\u4F3C\u4E8E React/Vue \u4E2D\u7684key\uFF0C\u4E3B\u8981\u7684\u4F5C\u7528\u662F\u51B3\u5B9A\u662F\u5426\u5728\u4E0B\u4E00\u6B21build\u65F6\u590D\u7528\u65E7\u7684 widget \uFF0C\u51B3\u5B9A\u7684\u6761\u4EF6\u5728<code>canUpdate()</code>\u65B9\u6CD5\u4E2D\u3002</li><li><code>createElement()</code>\uFF1A\u6B63\u5982\u524D\u6587\u6240\u8FF0\u201C\u4E00\u4E2A widget \u53EF\u4EE5\u5BF9\u5E94\u591A\u4E2AElement\u201D\uFF1BFlutter \u6846\u67B6\u5728\u6784\u5EFAUI\u6811\u65F6\uFF0C\u4F1A\u5148\u8C03\u7528\u6B64\u65B9\u6CD5\u751F\u6210\u5BF9\u5E94\u8282\u70B9\u7684Element\u5BF9\u8C61\u3002</li><li><code>debugFillProperties(...)</code> \u590D\u5199\u7236\u7C7B\u7684\u65B9\u6CD5\uFF0C\u4E3B\u8981\u662F\u8BBE\u7F6E\u8BCA\u65AD\u6811\u7684\u4E00\u4E9B\u7279\u6027\u3002</li><li><code>canUpdate(...)</code>\u662F\u4E00\u4E2A\u9759\u6001\u65B9\u6CD5\uFF0C\u5B83\u4E3B\u8981\u7528\u4E8E\u5728 widget \u6811\u91CD\u65B0build\u65F6\u590D\u7528\u65E7\u7684 widget ,\u4F9D\u636E\u662F\u4E0A\u9762\u7684<code>key</code>\u3002</li></ul><p>\u53E6\u5916Widget\u7C7B\u672C\u8EAB\u662F\u4E00\u4E2A\u62BD\u8C61\u7C7B\uFF0C\u5176\u4E2D\u6700\u6838\u5FC3\u7684\u5C31\u662F\u5B9A\u4E49\u4E86createElement()\u63A5\u53E3\uFF0C\u5728 Flutter \u5F00\u53D1\u4E2D\uFF0C\u6211\u4EEC\u4E00\u822C\u90FD\u4E0D\u7528\u76F4\u63A5\u7EE7\u627FWidget\u7C7B\u6765\u5B9E\u73B0\u4E00\u4E2A\u65B0\u7EC4\u4EF6\uFF0C\u76F8\u53CD\uFF0C\u6211\u4EEC\u901A\u5E38\u4F1A\u901A\u8FC7\u7EE7\u627FStatelessWidget\u6216StatefulWidget\u6765\u95F4\u63A5\u7EE7\u627Fwidget\u7C7B\u6765\u5B9E\u73B0\u3002StatelessWidget\u548CStatefulWidget\u90FD\u662F\u76F4\u63A5\u7EE7\u627F\u81EAWidget\u7C7B\uFF0C\u800C\u8FD9\u4E24\u4E2A\u7C7B\u4E5F\u6B63\u662F Flutter \u4E2D\u975E\u5E38\u91CD\u8981\u7684\u4E24\u4E2A\u62BD\u8C61\u7C7B\uFF0C\u5B83\u4EEC\u5F15\u5165\u4E86\u4E24\u79CD widget \u6A21\u578B\uFF0C\u63A5\u4E0B\u6765\u6211\u4EEC\u5C06\u91CD\u70B9\u4ECB\u7ECD\u4E00\u4E0B\u8FD9\u4E24\u4E2A\u7C7B\u3002</p><h3 id="flutter\u4E2D\u7684\u56DB\u68F5\u6811" tabindex="-1"><a class="header-anchor" href="#flutter\u4E2D\u7684\u56DB\u68F5\u6811" aria-hidden="true">#</a> Flutter\u4E2D\u7684\u56DB\u68F5\u6811</h3><p>\u65E2\u7136 Widget \u53EA\u662F\u63CF\u8FF0\u4E00\u4E2AUI\u5143\u7D20\u7684\u914D\u7F6E\u4FE1\u606F\uFF0C\u90A3\u4E48\u771F\u6B63\u7684\u5E03\u5C40\u3001\u7ED8\u5236\u662F\u7531\u8C01\u6765\u5B8C\u6210\u7684\u5462\uFF1FFlutter \u6846\u67B6\u7684\u7684\u5904\u7406\u6D41\u7A0B\u662F\u8FD9\u6837\u7684\uFF1A</p><ol><li>\u6839\u636E Widget \u6811\u751F\u6210\u4E00\u4E2A Element \u6811\uFF0CElement \u6811\u4E2D\u7684\u8282\u70B9\u90FD\u7EE7\u627F\u81EA Element \u7C7B\u3002</li><li>\u6839\u636E Element \u6811\u751F\u6210 Render \u6811\uFF08\u6E32\u67D3\u6811\uFF09\uFF0C\u6E32\u67D3\u6811\u4E2D\u7684\u8282\u70B9\u90FD\u7EE7\u627F\u81EARenderObject \u7C7B\u3002</li><li>\u6839\u636E\u6E32\u67D3\u6811\u751F\u6210 Layer \u6811\uFF0C\u7136\u540E\u4E0A\u5C4F\u663E\u793A\uFF0CLayer \u6811\u4E2D\u7684\u8282\u70B9\u90FD\u7EE7\u627F\u81EA Layer \u7C7B\u3002</li></ol><p>\u771F\u6B63\u7684\u5E03\u5C40\u548C\u6E32\u67D3\u903B\u8F91\u5728 Render \u6811\u4E2D\uFF0CElement \u662F Widget \u548C RenderObject \u7684\u7C98\u5408\u5242\uFF0C\u53EF\u4EE5\u7406\u89E3\u4E3A\u4E00\u4E2A\u4E2D\u95F4\u4EE3\u7406</p><h3 id="statelesswidget-\u91CD\u8981" tabindex="-1"><a class="header-anchor" href="#statelesswidget-\u91CD\u8981" aria-hidden="true">#</a> StatelessWidget(\u91CD\u8981)</h3><p><code>StatelessWidget</code>\u7EE7\u627F\u81EAwidget\u7C7B\uFF0C\u91CD\u5199\u4E86<code>createElement()</code>\u65B9\u6CD5\uFF1A</p><div class="language-dart ext-dart line-numbers-mode"><pre class="language-dart"><code><span class="token metadata symbol">@override</span>
 <span class="token class-name">StatelessElement</span> <span class="token function">createElement</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token class-name">StatelessElement</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p><code>StatelessElement</code>\u4E5F\u53EB\u65E0\u72B6\u6001widget\uFF0C\u987E\u540D\u601D\u4E49\uFF0C\u4E00\u822C\u7528\u4E8E\u4E0D\u9700\u8981\u7EF4\u62A4\u72B6\u6001\u7684\u573A\u666F\uFF0C\u5B83\u901A\u5E38\u5728build\u65B9\u6CD5\u4E2D\u901A\u8FC7\u5D4C\u5957\u5176\u5B83 widget \u6765\u6784\u5EFAUI\uFF0C\u5728\u6784\u5EFA\u8FC7\u7A0B\u4E2D\u4F1A\u9012\u5F52\u7684\u6784\u5EFA\u5176\u5D4C\u5957\u7684 widget</p><h3 id="statefulwidget-\u91CD\u8981" tabindex="-1"><a class="header-anchor" href="#statefulwidget-\u91CD\u8981" aria-hidden="true">#</a> StatefulWidget(\u91CD\u8981)</h3><p><code>StatefulWidget</code>\u4E5F\u53EB\u6709\u72C0\u614Bwidget</p><!--]-->`);
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p><code>StatelessElement</code>\u4E5F\u53EB\u65E0\u72B6\u6001widget\uFF0C\u987E\u540D\u601D\u4E49\uFF0C\u4E00\u822C\u7528\u4E8E\u4E0D\u9700\u8981\u7EF4\u62A4\u72B6\u6001\u7684\u573A\u666F\uFF0C\u5B83\u901A\u5E38\u5728build\u65B9\u6CD5\u4E2D\u901A\u8FC7\u5D4C\u5957\u5176\u5B83 widget \u6765\u6784\u5EFAUI\uFF0C\u5728\u6784\u5EFA\u8FC7\u7A0B\u4E2D\u4F1A\u9012\u5F52\u7684\u6784\u5EFA\u5176\u5D4C\u5957\u7684 widget</p><h3 id="statefulwidget-\u91CD\u8981" tabindex="-1"><a class="header-anchor" href="#statefulwidget-\u91CD\u8981" aria-hidden="true">#</a> StatefulWidget(\u91CD\u8981)</h3><p><code>StatefulWidget</code>\u4E5F\u53EB\u6709\u72C0\u614Bwidget</p><div class="language-dart ext-dart line-numbers-mode"><pre class="language-dart"><code><span class="token keyword">abstract</span> <span class="token keyword">class</span> <span class="token class-name">StatefulWidget</span> <span class="token keyword">extends</span> <span class="token class-name">Widget</span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> <span class="token class-name">StatefulWidget</span><span class="token punctuation">(</span><span class="token punctuation">{</span> <span class="token class-name">Key</span> key <span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token punctuation">:</span> <span class="token keyword">super</span><span class="token punctuation">(</span>key<span class="token punctuation">:</span> key<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    
+  <span class="token metadata symbol">@override</span>
+  <span class="token class-name">StatefulElement</span> <span class="token function">createElement</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token class-name">StatefulElement</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    
+  <span class="token metadata symbol">@protected</span>
+  <span class="token class-name">State</span> <span class="token function">createState</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><p>\u5B83\u5728<code>StatefulWidget</code> \u7684\u751F\u547D\u5468\u671F\u4E2D\u53EF\u80FD\u4F1A\u88AB\u591A\u6B21\u8C03\u7528\u3002\u4F8B\u5982\uFF0C\u5F53\u4E00\u4E2A <code>StatefulWidget</code> \u540C\u65F6\u63D2\u5165\u5230 <code>widget</code> \u6811\u7684\u591A\u4E2A\u4F4D\u7F6E\u65F6\uFF0CFlutter \u6846\u67B6\u5C31\u4F1A\u8C03\u7528\u8BE5\u65B9\u6CD5\u4E3A\u6BCF\u4E00\u4E2A\u4F4D\u7F6E\u751F\u6210\u4E00\u4E2A\u72EC\u7ACB\u7684<code>State</code>\u5B9E\u4F8B\uFF0C\u5176\u5B9E\uFF0C\u672C\u8D28\u4E0A\u5C31\u662F\u4E00\u4E2A<code>StatefulElement</code>\u5BF9\u5E94\u4E00\u4E2A<code>State</code>\u5B9E\u4F8B\u3002</p><h3 id="state" tabindex="-1"><a class="header-anchor" href="#state" aria-hidden="true">#</a> State</h3><p>\u4E00\u4E2A StatefulWidget \u7C7B\u4F1A\u5BF9\u5E94\u4E00\u4E2A State \u7C7B\uFF0CState\u8868\u793A\u4E0E\u5176\u5BF9\u5E94\u7684 StatefulWidget \u8981\u7EF4\u62A4\u7684\u72B6\u6001\uFF0CState \u4E2D\u7684\u4FDD\u5B58\u7684\u72B6\u6001\u4FE1\u606F\u53EF\u4EE5\uFF1A</p><ol><li><p>\u5728 widget \u6784\u5EFA\u65F6\u53EF\u4EE5\u88AB\u540C\u6B65\u8BFB\u53D6\u3002</p></li><li><p>\u5728 widget \u751F\u547D\u5468\u671F\u4E2D\u53EF\u4EE5\u88AB\u6539\u53D8\uFF0C\u5F53State\u88AB\u6539\u53D8\u65F6\uFF0C\u53EF\u4EE5\u624B\u52A8\u8C03\u7528\u5176setState()\u65B9\u6CD5\u901A\u77E5Flutter \u6846\u67B6\u72B6\u6001\u53D1\u751F\u6539\u53D8\uFF0CFlutter \u6846\u67B6\u5728\u6536\u5230\u6D88\u606F\u540E\uFF0C\u4F1A\u91CD\u65B0\u8C03\u7528\u5176build\u65B9\u6CD5\u91CD\u65B0\u6784\u5EFA widget \u6811\uFF0C\u4ECE\u800C\u8FBE\u5230\u66F4\u65B0UI\u7684\u76EE\u7684\u3002 State \u4E2D\u6709\u4E24\u4E2A\u5E38\u7528\u5C5E\u6027\uFF1A</p></li><li><p><code>widget</code>\uFF0C\u5B83\u8868\u793A\u4E0E\u8BE5 State \u5B9E\u4F8B\u5173\u8054\u7684 widget \u5B9E\u4F8B\uFF0C\u7531Flutter \u6846\u67B6\u52A8\u6001\u8BBE\u7F6E\u3002\u6CE8\u610F\uFF0C\u8FD9\u79CD\u5173\u8054\u5E76\u975E\u6C38\u4E45\u7684\uFF0C\u56E0\u4E3A\u5728\u5E94\u7528\u751F\u547D\u5468\u671F\u4E2D\uFF0CUI\u6811\u4E0A\u7684\u67D0\u4E00\u4E2A\u8282\u70B9\u7684 widget \u5B9E\u4F8B\u5728\u91CD\u65B0\u6784\u5EFA\u65F6\u53EF\u80FD\u4F1A\u53D8\u5316\uFF0C\u4F46State\u5B9E\u4F8B\u53EA\u4F1A\u5728\u7B2C\u4E00\u6B21\u63D2\u5165\u5230\u6811\u4E2D\u65F6\u88AB\u521B\u5EFA\uFF0C\u5F53\u5728\u91CD\u65B0\u6784\u5EFA\u65F6\uFF0C\u5982\u679C widget \u88AB\u4FEE\u6539\u4E86\uFF0CFlutter \u6846\u67B6\u4F1A\u52A8\u6001\u8BBE\u7F6EState. widget \u4E3A\u65B0\u7684 widget \u5B9E\u4F8B\u3002</p></li><li><p><code>context</code>\u3002StatefulWidget\u5BF9\u5E94\u7684 BuildContext\uFF0C\u4F5C\u7528\u540CStatelessWidget \u7684BuildContext\u3002</p></li></ol><h4 id="state\u751F\u547D\u5468\u671F" tabindex="-1"><a class="header-anchor" href="#state\u751F\u547D\u5468\u671F" aria-hidden="true">#</a> State\u751F\u547D\u5468\u671F</h4><div class="language-dart ext-dart line-numbers-mode"><pre class="language-dart"><code><span class="token keyword">class</span> <span class="token class-name">CounterWidget</span> <span class="token keyword">extends</span> <span class="token class-name">StatefulWidget</span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> <span class="token class-name">CounterWidget</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token class-name">Key</span><span class="token operator">?</span> key<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>initValue <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">final</span> int initValue<span class="token punctuation">;</span>
+
+  <span class="token metadata symbol">@override</span>
+  _CounterWidgetState <span class="token function">createState</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">_CounterWidgetState</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><div class="language-dart ext-dart line-numbers-mode"><pre class="language-dart"><code><span class="token keyword">class</span> _CounterWidgetState <span class="token keyword">extends</span> <span class="token class-name">State</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">CounterWidget</span><span class="token punctuation">&gt;</span></span> <span class="token punctuation">{</span>
+  int _counter <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+
+  <span class="token metadata symbol">@override</span>
+  <span class="token keyword">void</span> <span class="token function">initState</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">super</span><span class="token punctuation">.</span><span class="token function">initState</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">//\u521D\u59CB\u5316\u72B6\u6001</span>
+    _counter <span class="token operator">=</span> widget<span class="token punctuation">.</span>initValue<span class="token punctuation">;</span>
+    <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">&quot;initState&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token metadata symbol">@override</span>
+  <span class="token class-name">Widget</span> <span class="token function">build</span><span class="token punctuation">(</span><span class="token class-name">BuildContext</span> context<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">&quot;build&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">return</span> <span class="token class-name">Scaffold</span><span class="token punctuation">(</span>
+      body<span class="token punctuation">:</span> <span class="token class-name">Center</span><span class="token punctuation">(</span>
+        child<span class="token punctuation">:</span> <span class="token class-name">TextButton</span><span class="token punctuation">(</span>
+          child<span class="token punctuation">:</span> <span class="token class-name">Text</span><span class="token punctuation">(</span><span class="token string">&#39;$_counter&#39;</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+          <span class="token comment">//\u70B9\u51FB\u540E\u8BA1\u6570\u5668\u81EA\u589E</span>
+          onPressed<span class="token punctuation">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">setState</span><span class="token punctuation">(</span>
+            <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token operator">++</span>_counter<span class="token punctuation">,</span>
+          <span class="token punctuation">)</span><span class="token punctuation">,</span>
+        <span class="token punctuation">)</span><span class="token punctuation">,</span>
+      <span class="token punctuation">)</span><span class="token punctuation">,</span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token metadata symbol">@override</span>
+  <span class="token keyword">void</span> <span class="token function">didUpdateWidget</span><span class="token punctuation">(</span><span class="token class-name">CounterWidget</span> oldWidget<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">super</span><span class="token punctuation">.</span><span class="token function">didUpdateWidget</span><span class="token punctuation">(</span>oldWidget<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">&quot;didUpdateWidget &quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token metadata symbol">@override</span>
+  <span class="token keyword">void</span> <span class="token function">deactivate</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">super</span><span class="token punctuation">.</span><span class="token function">deactivate</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">&quot;deactivate&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token metadata symbol">@override</span>
+  <span class="token keyword">void</span> <span class="token function">dispose</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">super</span><span class="token punctuation">.</span><span class="token function">dispose</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">&quot;dispose&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token metadata symbol">@override</span>
+  <span class="token keyword">void</span> <span class="token function">reassemble</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">super</span><span class="token punctuation">.</span><span class="token function">reassemble</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">&quot;reassemble&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token metadata symbol">@override</span>
+  <span class="token keyword">void</span> <span class="token function">didChangeDependencies</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">super</span><span class="token punctuation">.</span><span class="token function">didChangeDependencies</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">print</span><span class="token punctuation">(</span><span class="token string">&quot;didChangeDependencies&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br><span class="line-number">54</span><br><span class="line-number">55</span><br><span class="line-number">56</span><br><span class="line-number">57</span><br></div></div><p>\u521B\u5EFA\u4E00\u4E2A\u65B0\u8DEF\u7531\uFF0C\u5728\u65B0\u8DEF\u7531\u4E2D\uFF0C\u6211\u4EEC\u53EA\u663E\u793A\u4E00\u4E2ACounterWidget\uFF1A</p><div class="language-dart ext-dart line-numbers-mode"><pre class="language-dart"><code><span class="token keyword">class</span> <span class="token class-name">StateLifecycleTest</span> <span class="token keyword">extends</span> <span class="token class-name">StatelessWidget</span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> <span class="token class-name">StateLifecycleTest</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token class-name">Key</span><span class="token operator">?</span> key<span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token punctuation">:</span> <span class="token keyword">super</span><span class="token punctuation">(</span>key<span class="token punctuation">:</span> key<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token metadata symbol">@override</span>
+  <span class="token class-name">Widget</span> <span class="token function">build</span><span class="token punctuation">(</span><span class="token class-name">BuildContext</span> context<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token class-name">CounterWidget</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><p>\u8FD0\u884C\u9879\u76EE\u6253\u5F00\u65B0\u8DEF\u7531</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>I/flutter <span class="token punctuation">(</span> <span class="token number">5436</span><span class="token punctuation">)</span>: initState
+I/flutter <span class="token punctuation">(</span> <span class="token number">5436</span><span class="token punctuation">)</span>: didChangeDependencies
+I/flutter <span class="token punctuation">(</span> <span class="token number">5436</span><span class="token punctuation">)</span>: build
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><ol><li>\u5728StatefulWidget\u63D2\u5165\u5230 widget \u6811\u65F6\u9996\u5148initState\u65B9\u6CD5\u4F1A\u88AB\u8C03\u7528\u3002</li></ol><p>\u7136\u540E\u6211\u4EEC\u70B9\u51FB\u26A1\uFE0F\u6309\u94AE\u70ED\u91CD\u8F7D\uFF0C\u63A7\u5236\u53F0\u8F93\u51FA\u65E5\u5FD7\u5982\u4E0B\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>I/flutter <span class="token punctuation">(</span> <span class="token number">5436</span><span class="token punctuation">)</span>: reassemble
+I/flutter <span class="token punctuation">(</span> <span class="token number">5436</span><span class="token punctuation">)</span>: didUpdateWidget 
+I/flutter <span class="token punctuation">(</span> <span class="token number">5436</span><span class="token punctuation">)</span>: build
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>\u53EF\u4EE5\u770B\u5230\u6B64\u65F6<code>initState</code> \u548C<code>didChangeDependencies</code>\u90FD\u6CA1\u6709\u88AB\u8C03\u7528\uFF0C\u800C\u6B64\u65F6<code>didUpdateWidget</code>\u88AB\u8C03\u7528\u3002</p><p>\u63A5\u4E0B\u6765\uFF0C\u6211\u4EEC\u5728 widget \u6811\u4E2D\u79FB\u9664<code>CounterWidget</code>\uFF0C\u5C06 <code>StateLifecycleTest</code> \u7684 <code>build</code>\u65B9\u6CD5\u6539\u4E3A\uFF1A</p><p>\u7136\u540E\u70ED\u91CD\u8F7D\uFF0C\u65E5\u5FD7\u5982\u4E0B\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>I/flutter <span class="token punctuation">(</span> <span class="token number">5436</span><span class="token punctuation">)</span>: reassemble
+I/flutter <span class="token punctuation">(</span> <span class="token number">5436</span><span class="token punctuation">)</span>: deactive
+I/flutter <span class="token punctuation">(</span> <span class="token number">5436</span><span class="token punctuation">)</span>: dispose
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>\u53EF\u4EE5\u770B\u5230\uFF0C\u5728<code>CounterWidget</code>\u4ECE widget \u6811\u4E2D\u79FB\u9664\u65F6\uFF0C<code>deactive</code>\u548C<code>dispose</code>\u4F1A\u4F9D\u6B21\u88AB\u8C03\u7528\u3002</p><p>\u603B\u7ED3\uFF1A</p><ol><li><code>initState</code>\uFF1A\u5F53 <code>widget</code> \u7B2C\u4E00\u6B21\u63D2\u5165\u5230 <code>widget</code> \u6811\u65F6\u4F1A\u88AB\u8C03\u7528\uFF0C\u5BF9\u4E8E\u6BCF\u4E00\u4E2AState\u5BF9\u8C61\uFF0CFlutter \u6846\u67B6\u53EA\u4F1A\u8C03\u7528\u4E00\u6B21\u8BE5\u56DE\u8C03\uFF0C\u6240\u4EE5\uFF0C\u901A\u5E38\u5728\u8BE5\u56DE\u8C03\u4E2D\u505A\u4E00\u4E9B\u4E00\u6B21\u6027\u7684\u64CD\u4F5C\uFF0C\u5982\u72B6\u6001\u521D\u59CB\u5316\u3001\u8BA2\u9605\u5B50\u6811\u7684\u4E8B\u4EF6\u901A\u77E5\u7B49\u3002\u4E0D\u80FD\u5728\u8BE5\u56DE\u8C03\u4E2D\u8C03\u7528BuildContext.dependOnInheritedWidgetOfExactType\uFF08\u8BE5\u65B9\u6CD5\u7528\u4E8E\u5728 widget \u6811\u4E0A\u83B7\u53D6\u79BB\u5F53\u524D widget \u6700\u8FD1\u7684\u4E00\u4E2A\u7236\u7EA7InheritedWidget\uFF0C\u5173\u4E8EInheritedWidget\u5728\u540E\u9762\u7AE0\u8282\u4ECB\u7ECD\uFF09\uFF0C\u539F\u56E0\u662F\u5728\u521D\u59CB\u5316\u5B8C\u6210\u540E\uFF0C widget \u6811\u4E2D\u7684InheritFrom widget\u4E5F\u53EF\u80FD\u4F1A\u53D1\u751F\u53D8\u5316\uFF0C\u6240\u4EE5\u6B63\u786E\u7684\u505A\u6CD5\u5E94\u8BE5\u5728\u5728build\uFF08\uFF09\u65B9\u6CD5\u6216didChangeDependencies()\u4E2D\u8C03\u7528\u5B83(<code>InheritedWidget</code>)\u3002</li><li><code>didChangeDependencies()</code>\uFF1A\u5F53State\u5BF9\u8C61\u7684\u4F9D\u8D56\u53D1\u751F\u53D8\u5316\u65F6\u4F1A\u88AB\u8C03\u7528\uFF1B\u4F8B\u5982\uFF1A\u5728\u4E4B\u524Dbuild() \u4E2D\u5305\u542B\u4E86\u4E00\u4E2AInheritedWidget \uFF08\u7B2C\u4E03\u7AE0\uFF09\uFF0C\u7136\u540E\u5728\u4E4B\u540E\u7684build() \u4E2DInherited widget\u53D1\u751F\u4E86\u53D8\u5316\uFF0C\u90A3\u4E48\u6B64\u65F6InheritedWidget\u7684\u5B50 widget \u7684didChangeDependencies()\u56DE\u8C03\u90FD\u4F1A\u88AB\u8C03\u7528\u3002\u5178\u578B\u7684\u573A\u666F\u662F\u5F53\u7CFB\u7EDF\u8BED\u8A00 Locale \u6216\u5E94\u7528\u4E3B\u9898\u6539\u53D8\u65F6\uFF0CFlutter \u6846\u67B6\u4F1A\u901A\u77E5 widget \u8C03\u7528\u6B64\u56DE\u8C03\u3002\u9700\u8981\u6CE8\u610F\uFF0C\u7EC4\u4EF6\u7B2C\u4E00\u6B21\u88AB\u521B\u5EFA\u540E\u6302\u8F7D\u7684\u65F6\u5019\uFF08\u5305\u62EC\u91CD\u521B\u5EFA\uFF09\u5BF9\u5E94\u7684didChangeDependencies\u4E5F\u4F1A\u88AB\u8C03\u7528\u3002</li><li><code>build()</code>\uFF1A\u6B64\u56DE\u8C03\u8BFB\u8005\u73B0\u5728\u5E94\u8BE5\u5DF2\u7ECF\u76F8\u5F53\u719F\u6089\u4E86\uFF0C\u5B83\u4E3B\u8981\u662F\u7528\u4E8E\u6784\u5EFA widget \u5B50\u6811\u7684\uFF0C\u4F1A\u5728\u5982\u4E0B\u573A\u666F\u88AB\u8C03\u7528\uFF1A</li></ol><ul><li>\u5728\u8C03\u7528initState()\u4E4B\u540E\u3002</li><li>\u5728\u8C03\u7528didUpdateWidget()\u4E4B\u540E\u3002</li><li>\u5728\u8C03\u7528setState()\u4E4B\u540E\u3002</li><li>\u5728\u8C03\u7528didChangeDependencies()\u4E4B\u540E\u3002</li><li>\u5728State\u5BF9\u8C61\u4ECE\u6811\u4E2D\u4E00\u4E2A\u4F4D\u7F6E\u79FB\u9664\u540E\uFF08\u4F1A\u8C03\u7528deactivate\uFF09\u53C8\u91CD\u65B0\u63D2\u5165\u5230\u6811\u7684\u5176\u5B83\u4F4D\u7F6E\u4E4B\u540E\u3002</li></ul><ol start="4"><li><p><code>reassemble()</code>\uFF1A\u6B64\u56DE\u8C03\u662F\u4E13\u95E8\u4E3A\u4E86\u5F00\u53D1\u8C03\u8BD5\u800C\u63D0\u4F9B\u7684\uFF0C\u5728\u70ED\u91CD\u8F7D(hot reload)\u65F6\u4F1A\u88AB\u8C03\u7528\uFF0C\u6B64\u56DE\u8C03\u5728Release\u6A21\u5F0F\u4E0B\u6C38\u8FDC\u4E0D\u4F1A\u88AB\u8C03\u7528\u3002</p></li><li><p><code>didUpdateWidget ()</code>\uFF1A\u5728 widget \u91CD\u65B0\u6784\u5EFA\u65F6\uFF0CFlutter \u6846\u67B6\u4F1A\u8C03\u7528widget.canUpdate\u6765\u68C0\u6D4B widget \u6811\u4E2D\u540C\u4E00\u4F4D\u7F6E\u7684\u65B0\u65E7\u8282\u70B9\uFF0C\u7136\u540E\u51B3\u5B9A\u662F\u5426\u9700\u8981\u66F4\u65B0\uFF0C\u5982\u679Cwidget.canUpdate\u8FD4\u56DEtrue\u5219\u4F1A\u8C03\u7528\u6B64\u56DE\u8C03\u3002\u6B63\u5982\u4E4B\u524D\u6240\u8FF0\uFF0Cwidget.canUpdate\u4F1A\u5728\u65B0\u65E7 widget \u7684 key \u548C runtimeType \u540C\u65F6\u76F8\u7B49\u65F6\u4F1A\u8FD4\u56DEtrue\uFF0C\u4E5F\u5C31\u662F\u8BF4\u5728\u5728\u65B0\u65E7 widget \u7684key\u548CruntimeType\u540C\u65F6\u76F8\u7B49\u65F6didUpdateWidget()\u5C31\u4F1A\u88AB\u8C03\u7528\u3002</p></li><li><p><code>deactivate()</code>\uFF1A\u5F53 State \u5BF9\u8C61\u4ECE\u6811\u4E2D\u88AB\u79FB\u9664\u65F6\uFF0C\u4F1A\u8C03\u7528\u6B64\u56DE\u8C03\u3002\u5728\u4E00\u4E9B\u573A\u666F\u4E0B\uFF0CFlutter \u6846\u67B6\u4F1A\u5C06 State \u5BF9\u8C61\u91CD\u65B0\u63D2\u5230\u6811\u4E2D\uFF0C\u5982\u5305\u542B\u6B64 State \u5BF9\u8C61\u7684\u5B50\u6811\u5728\u6811\u7684\u4E00\u4E2A\u4F4D\u7F6E\u79FB\u52A8\u5230\u53E6\u4E00\u4E2A\u4F4D\u7F6E\u65F6\uFF08\u53EF\u4EE5\u901A\u8FC7GlobalKey \u6765\u5B9E\u73B0\uFF09\u3002\u5982\u679C\u79FB\u9664\u540E\u6CA1\u6709\u91CD\u65B0\u63D2\u5165\u5230\u6811\u4E2D\u5219\u7D27\u63A5\u7740\u4F1A\u8C03\u7528dispose()\u65B9\u6CD5\u3002</p></li><li><p><code>dispose()</code>\uFF1A\u5F53 State \u5BF9\u8C61\u4ECE\u6811\u4E2D\u88AB\u6C38\u4E45\u79FB\u9664\u65F6\u8C03\u7528\uFF1B\u901A\u5E38\u5728\u6B64\u56DE\u8C03\u4E2D\u91CA\u653E\u8D44\u6E90\u3002</p></li></ol><h4 id="\u601D\u8003-\u5982\u4F55\u5728-widget-\u6811\u4E2D\u83B7\u53D6state\u5BF9\u8C61" tabindex="-1"><a class="header-anchor" href="#\u601D\u8003-\u5982\u4F55\u5728-widget-\u6811\u4E2D\u83B7\u53D6state\u5BF9\u8C61" aria-hidden="true">#</a> \u601D\u8003\uFF1A\u5982\u4F55\u5728 widget \u6811\u4E2D\u83B7\u53D6State\u5BF9\u8C61\uFF1F</h4><ol><li>\u901A\u8FC7Context\u83B7\u53D6</li><li>\u901A\u8FC7GlobalKey</li><li>\u901A\u8FC7 RenderObject \u81EA\u5B9A\u4E49 Widget</li></ol><h2 id="\u7A7A\u5B89\u5168-null-safety" tabindex="-1"><a class="header-anchor" href="#\u7A7A\u5B89\u5168-null-safety" aria-hidden="true">#</a> \u7A7A\u5B89\u5168\uFF08null safety\uFF09</h2><p>\u8FD9\u91CC\u5217\u4E3E\u4E00\u4E9B\u53D8\u5316\uFF1A</p><p>\u5173\u95ED\u7A7A\u5B89\u5168:</p><div class="language-dart ext-dart line-numbers-mode"><pre class="language-dart"><code><span class="token keyword">class</span> <span class="token class-name">PayPage</span> <span class="token keyword">extends</span> <span class="token class-name">StatefulWidget</span> <span class="token punctuation">{</span>
+<span class="token class-name">PayPage</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token class-name">Key</span> key<span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token punctuation">:</span> <span class="token keyword">super</span><span class="token punctuation">(</span>key<span class="token punctuation">:</span> key<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token metadata symbol">@override</span>
+ _PayPageState <span class="token function">createState</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">_PayPageState</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p>\u5F00\u542F\u7A7A\u5B89\u5168:</p><div class="language-dart ext-dart line-numbers-mode"><pre class="language-dart"><code><span class="token keyword">class</span> <span class="token class-name">PayPage</span> <span class="token keyword">extends</span> <span class="token class-name">StatefulWidget</span> <span class="token punctuation">{</span>
+<span class="token class-name">PayPage</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token class-name">Key</span><span class="token operator">?</span> key<span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token punctuation">:</span> <span class="token keyword">super</span><span class="token punctuation">(</span>key<span class="token punctuation">:</span> key<span class="token punctuation">)</span><span class="token punctuation">;</span> 
+<span class="token metadata symbol">@override</span>
+_PayPageState <span class="token function">createState</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">_PayPageState</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><!--]-->`);
+}
+const _sfc_setup$u = _sfc_main$u.setup;
+_sfc_main$u.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/Flutter/03.widget.html.vue");
+  return _sfc_setup$u ? _sfc_setup$u(props, ctx) : void 0;
+};
+var _03_widget_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$u, [["ssrRender", _sfc_ssrRender$g]]);
+var _03_widget_html$2 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": _03_widget_html$1
+});
+const _sfc_main$t = {};
+function _sfc_ssrRender$f(_ctx, _push, _parent, _attrs) {
+  _push(`<!--[--><h1 id="\u57FA\u672C\u7EC4\u4EF6" tabindex="-1"><a class="header-anchor" href="#\u57FA\u672C\u7EC4\u4EF6" aria-hidden="true">#</a> \u57FA\u672C\u7EC4\u4EF6</h1><h2 id="button-\u6309\u94AE" tabindex="-1"><a class="header-anchor" href="#button-\u6309\u94AE" aria-hidden="true">#</a> Button\uFF08\u6309\u94AE\uFF09</h2><p>\u8003\u8651\u5230\u7248\u672C\u95EE\u9898\uFF0C\u5EFA\u8BAEFlutter2.x\u4EE5\u540E\u7684\u4F7F\u7528\u65B9\u6CD5</p><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u9010\u6E10\u5E9F\u5F03\u7684\uFF081.x\uFF09</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u63A8\u8350\u7684\u66FF\u4EE3\uFF082.x\uFF09</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">RaisedButton</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">ElevatedButton</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6F02\u6D6E\u6309\u94AE</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">OutlineButton</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">OutlinedButton</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u7EBF\u6846\u6309\u94AE</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">FlatButton</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">TextButton</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6241\u5E73\u5316\u7684\u6309\u94AE</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">IconButton</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">IconButton</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u56FE\u6807\u6309\u94AE</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">ButtonBar</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">ButtonBar</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6309\u94AE\u7EC4</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">FloatingActionButton</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">FloatingActionButton</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6D6E\u52A8\u6309\u94AE</td></tr></tbody></table><h3 id="elevatedbutton" tabindex="-1"><a class="header-anchor" href="#elevatedbutton" aria-hidden="true">#</a> ElevatedButton</h3><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u53C2\u6570</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">onPressed \u70B9\u51FB\u4E8B\u4EF6</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">onLongPress \u957F\u6309\u70B9\u51FB\u4E8B\u4EF6</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">style \u6309\u94AE\u6837\u5F0F</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">child \u5185\u90E8\u7EC4\u4EF6</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td></tr></tbody></table><!--]-->`);
 }
 const _sfc_setup$t = _sfc_main$t.setup;
 _sfc_main$t.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/Flutter/09.widget.html.vue");
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/Flutter/04.\u57FA\u7840\u7EC4\u4EF6.html.vue");
   return _sfc_setup$t ? _sfc_setup$t(props, ctx) : void 0;
 };
-var _09_widget_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$t, [["ssrRender", _sfc_ssrRender$f]]);
-var _09_widget_html$2 = /* @__PURE__ */ Object.freeze({
+var _04______html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$t, [["ssrRender", _sfc_ssrRender$f]]);
+var _04______html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  "default": _09_widget_html$1
+  "default": _04______html$1
 });
 const _sfc_main$s = {};
 function _sfc_ssrRender$e(_ctx, _push, _parent, _attrs) {
-  _push(`<!--[--><h2 id="\u4EC0\u4E48\u662Fhtml" tabindex="-1"><a class="header-anchor" href="#\u4EC0\u4E48\u662Fhtml" aria-hidden="true">#</a> \u4EC0\u4E48\u662FHTML\uFF1F</h2><p>HTML\uFF08\u8D85\u6587\u672C\u6807\u8BB0\u8BED\u8A00\u2014\u2014HyperText Markup Language\uFF09\u662F\u6784\u6210 Web \u4E16\u754C\u7684\u4E00\u7816\u4E00\u74E6\u3002\u5B83\u5B9A\u4E49\u4E86\u7F51\u9875\u5185\u5BB9\u7684\u542B\u4E49\u548C\u7ED3\u6784\u3002\u9664 HTML \u4EE5\u5916\u7684\u5176\u5B83\u6280\u672F\u5219\u901A\u5E38\u7528\u6765\u63CF\u8FF0\u4E00\u4E2A\u7F51\u9875\u7684\u8868\u73B0\u4E0E\u5C55\u793A\u6548\u679C\uFF08\u5982 CSS\uFF09\uFF0C\u6216\u529F\u80FD\u4E0E\u884C\u4E3A\uFF08\u5982 JavaScript\uFF09\u3002</p><!--]-->`);
-}
-const _sfc_setup$s = _sfc_main$s.setup;
-_sfc_main$s.setup = (props, ctx) => {
-  const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/html/01-html.html.vue");
-  return _sfc_setup$s ? _sfc_setup$s(props, ctx) : void 0;
-};
-var _01Html_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$s, [["ssrRender", _sfc_ssrRender$e]]);
-var _01Html_html$2 = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  "default": _01Html_html$1
-});
-const _sfc_main$r = {};
-function _sfc_ssrRender$d(_ctx, _push, _parent, _attrs) {
   const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
   _push(`<!--[--><h1 id="\u5165\u95E8\u5BFC\u8BBA" tabindex="-1"><a class="header-anchor" href="#\u5165\u95E8\u5BFC\u8BBA" aria-hidden="true">#</a> \u5165\u95E8\u5BFC\u8BBA</h1><blockquote><p>\u672C\u7B14\u8BB0\u5185\u5BB9\u6574\u5408\u81EA<a href="https://wangdoc.com/javascript/index.html" target="_blank" rel="noopener noreferrer">https://wangdoc.com/javascript/index.html`);
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
   _push(`</a>,\u6559\u7A0B\u7248\u6743\u5F52\u539F\u4F5C\u8005\u6240\u6709\u3002</p></blockquote><h2 id="javascript\u4ECB\u7ECD" tabindex="-1"><a class="header-anchor" href="#javascript\u4ECB\u7ECD" aria-hidden="true">#</a> JavaScript\u4ECB\u7ECD</h2><p>JavaScript\u662F\u4E00\u79CD\u8F7B\u91CF\u7EA7\u7684\u811A\u672C\u8BED\u8A00\u3002\u6240\u8C13\u201C\u811A\u672C\u8BED\u8A00\u201D\uFF08script language\uFF09\uFF0C\u6307\u7684\u662F\u5B83\u4E0D\u5177\u5907\u5F00\u53D1\u64CD\u4F5C\u7CFB\u7EDF\u7684\u80FD\u529B\uFF0C\u800C\u662F\u53EA\u7528\u6765\u7F16\u5199\u63A7\u5236\u5176\u4ED6\u5927\u578B\u5E94\u7528\u7A0B\u5E8F\uFF08\u6BD4\u5982\u6D4F\u89C8\u5668\uFF09\u7684\u201C\u811A\u672C\u201D\u3002 </p><p>JavaScript \u4E5F\u662F\u4E00\u79CD\u5D4C\u5165\u5F0F\uFF08embedded\uFF09\u8BED\u8A00\u3002\u5B83\u672C\u8EAB\u63D0\u4F9B\u7684\u6838\u5FC3\u8BED\u6CD5\u4E0D\u7B97\u5F88\u591A\uFF0C\u53EA\u80FD\u7528\u6765\u505A\u4E00\u4E9B\u6570\u5B66\u548C\u903B\u8F91\u8FD0\u7B97\u3002JavaScript \u672C\u8EAB\u4E0D\u63D0\u4F9B\u4EFB\u4F55\u4E0E I/O\uFF08\u8F93\u5165/\u8F93\u51FA\uFF09\u76F8\u5173\u7684 API\uFF0C\u90FD\u8981\u9760\u5BBF\u4E3B\u73AF\u5883\uFF08host\uFF09\u63D0\u4F9B\uFF0C\u6240\u4EE5 JavaScript \u53EA\u5408\u9002\u5D4C\u5165\u66F4\u5927\u578B\u7684\u5E94\u7528\u7A0B\u5E8F\u73AF\u5883\uFF0C\u53BB\u8C03\u7528\u5BBF\u4E3B\u73AF\u5883\u63D0\u4F9B\u7684\u5E95\u5C42 API\u3002 </p><p>\u76EE\u524D\uFF0C\u5DF2\u7ECF\u5D4C\u5165 JavaScript \u7684\u5BBF\u4E3B\u73AF\u5883\u6709\u591A\u79CD\uFF0C\u6700\u5E38\u89C1\u7684\u73AF\u5883\u5C31\u662F\u6D4F\u89C8\u5668\uFF0C\u53E6\u5916\u8FD8\u6709\u670D\u52A1\u5668\u73AF\u5883\uFF0C\u4E5F\u5C31\u662F Node \u9879\u76EE\u3002 </p><p> JavaScript \u7684\u6838\u5FC3\u8BED\u6CD5\u90E8\u5206\u76F8\u5F53\u7CBE\u7B80\uFF0C\u53EA\u5305\u62EC\u4E24\u4E2A\u90E8\u5206\uFF1A\u57FA\u672C\u7684\u8BED\u6CD5\u6784\u9020\uFF08\u6BD4\u5982\u64CD\u4F5C\u7B26\u3001\u63A7\u5236\u7ED3\u6784\u3001\u8BED\u53E5\uFF09\u548C\u6807\u51C6\u5E93\uFF08\u5C31\u662F\u4E00\u7CFB\u5217\u5177\u6709\u5404\u79CD\u529F\u80FD\u7684\u5BF9\u8C61\u6BD4\u5982Array\u3001Date\u3001Math\u7B49\uFF09\u3002\u9664\u6B64\u4E4B\u5916\uFF0C\u5404\u79CD\u5BBF\u4E3B\u73AF\u5883\u63D0\u4F9B\u989D\u5916\u7684 API\uFF08\u5373\u53EA\u80FD\u5728\u8BE5\u73AF\u5883\u4F7F\u7528\u7684\u63A5\u53E3\uFF09\uFF0C\u4EE5\u4FBF JavaScript \u8C03\u7528\u3002\u4EE5\u6D4F\u89C8\u5668\u4E3A\u4F8B\uFF0C\u5B83\u63D0\u4F9B\u7684\u989D\u5916 API \u53EF\u4EE5\u5206\u6210\u4E09\u5927\u7C7B\u3002 </p><ul><li>\u6D4F\u89C8\u5668\u63A7\u5236\u7C7B\uFF1A\u64CD\u4F5C\u6D4F\u89C8\u5668</li><li>DOM \u7C7B\uFF1A\u64CD\u4F5C\u7F51\u9875\u7684\u5404\u79CD\u5143\u7D20</li><li>Web \u7C7B\uFF1A\u5B9E\u73B0\u4E92\u8054\u7F51\u7684\u5404\u79CD\u529F\u80FD</li></ul><p>\u6B64\u7B14\u8BB0\u51E0\u4E4E\u4E0D\u6D89\u53CANode\uFF0C\u4E3B\u8981\u53EF\u4EE5\u603B\u7ED3\u4E3A\u4EE5\u4E0B\u56DB\u90E8\u5206\uFF1A</p><ul><li>\u57FA\u672C\u8BED\u6CD5</li><li>\u6807\u51C6\u5E93</li><li>\u6D4F\u89C8\u5668 API</li><li>DOM</li></ul><h2 id="\u4F7F\u7528\u9886\u57DF" tabindex="-1"><a class="header-anchor" href="#\u4F7F\u7528\u9886\u57DF" aria-hidden="true">#</a> \u4F7F\u7528\u9886\u57DF</h2><table><thead><tr><th>\u5E73\u53F0</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6280\u80FD</th></tr></thead><tbody><tr><td>\u6D4F\u89C8\u5668\u7684\u5E73\u53F0\u5316</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6BD4\u5982\u64CD\u4F5C\u672C\u5730\u6587\u4EF6\u3001\u56FE\u7247\u3001\u8C03\u7528\u6444\u50CF\u5934\u548C\u9EA6\u514B\u98CE\u7B49\u7B49</td></tr><tr><td>Node</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">Node \u9879\u76EE\u4F7F\u5F97 JavaScript \u53EF\u4EE5\u7528\u4E8E\u5F00\u53D1\u670D\u52A1\u5668\u7AEF\u7684\u5927\u578B\u9879\u76EE</td></tr><tr><td>\u6570\u636E\u5E93\u64CD\u4F5C</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">NoSQL \u6570\u636E\u5E93\u8FD9\u4E2A\u6982\u5FF5\uFF0C\u672C\u8EAB\u5C31\u662F\u5728 JSON\uFF08JavaScript Object Notation\uFF09\u683C\u5F0F\u7684\u57FA\u7840\u4E0A\u8BDE\u751F\u7684\uFF0C\u5927\u90E8\u5206 NoSQL \u6570\u636E\u5E93\u5141\u8BB8 JavaScript \u76F4\u63A5\u64CD\u4F5C</td></tr><tr><td>\u79FB\u52A8\u5E73\u53F0\u5F00\u53D1</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">JavaScript \u4E5F\u6B63\u5728\u6210\u4E3A\u624B\u673A\u5E94\u7528\u7684\u5F00\u53D1\u8BED\u8A00\u3002\u4E00\u822C\u6765\u8BF4\uFF0C\u5B89\u5353\u5E73\u53F0\u4F7F\u7528 Java \u8BED\u8A00\u5F00\u53D1\uFF0CiOS \u5E73\u53F0\u4F7F\u7528 Objective-C \u6216 Swift \u8BED\u8A00\u5F00\u53D1\u3002</td></tr><tr><td>\u5185\u5D4C\u811A\u672C\u8BED\u8A00</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5C06 JavaScript \u4F5C\u4E3A\u5185\u5D4C\u7684\u811A\u672C\u8BED\u8A00\uFF0C\u6BD4\u5982 Adobe \u516C\u53F8\u7684\u8457\u540D PDF \u9605\u8BFB\u5668 Acrobat\u3001Linux \u684C\u9762\u73AF\u5883 GNOME 3\u3002</td></tr><tr><td>\u8DE8\u5E73\u53F0\u7684\u684C\u9762\u5E94\u7528\u7A0B\u5E8F</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">Chromium OS\u3001Windows 8 \u7B49\u64CD\u4F5C\u7CFB\u7EDF\u76F4\u63A5\u652F\u6301 JavaScript \u7F16\u5199\u5E94\u7528\u7A0B\u5E8F\u3002</td></tr></tbody></table><h2 id="javascript-\u4E0E-java-\u7684\u5173\u7CFB" tabindex="-1"><a class="header-anchor" href="#javascript-\u4E0E-java-\u7684\u5173\u7CFB" aria-hidden="true">#</a> JavaScript \u4E0E Java \u7684\u5173\u7CFB</h2><p>JavaScript \u7684\u57FA\u672C\u8BED\u6CD5\u548C\u5BF9\u8C61\u4F53\u7CFB\uFF0C\u662F\u6A21\u4EFF Java \u800C\u8BBE\u8BA1\u7684\u3002\u4F46\u662F\uFF0CJavaScript \u6CA1\u6709\u91C7\u7528 Java \u7684\u9759\u6001\u7C7B\u578B\u3002\u6B63\u662F\u56E0\u4E3A JavaScript \u4E0E Java \u6709\u5F88\u5927\u7684\u76F8\u4F3C\u6027\uFF0C\u6240\u4EE5\u8FD9\u95E8\u8BED\u8A00\u624D\u4ECE\u4E00\u5F00\u59CB\u7684 LiveScript \u6539\u540D\u4E3A JavaScript\u3002\u57FA\u672C\u4E0A\uFF0CJavaScript \u8FD9\u4E2A\u540D\u5B57\u7684\u539F\u610F\u662F\u201C\u5F88\u50CFJava\u7684\u811A\u672C\u8BED\u8A00\u201D\u3002 </p><h2 id="javascript-\u4E0E-ecmascript-\u7684\u5173\u7CFB" tabindex="-1"><a class="header-anchor" href="#javascript-\u4E0E-ecmascript-\u7684\u5173\u7CFB" aria-hidden="true">#</a> JavaScript \u4E0E ECMAScript \u7684\u5173\u7CFB</h2><p> ECMAScript \u548C JavaScript \u7684\u5173\u7CFB\u662F\uFF0C\u524D\u8005\u662F\u540E\u8005\u7684\u89C4\u683C\uFF0C\u540E\u8005\u662F\u524D\u8005\u7684\u4E00\u79CD\u5B9E\u73B0\u3002\u5728\u65E5\u5E38\u573A\u5408\uFF0C\u8FD9\u4E24\u4E2A\u8BCD\u662F\u53EF\u4EE5\u4E92\u6362\u7684\u3002 </p><p> ECMAScript \u53EA\u7528\u6765\u6807\u51C6\u5316 JavaScript \u8FD9\u79CD\u8BED\u8A00\u7684\u57FA\u672C\u8BED\u6CD5\u7ED3\u6784\uFF0C\u4E0E\u90E8\u7F72\u73AF\u5883\u76F8\u5173\u7684\u6807\u51C6\u90FD\u7531\u5176\u4ED6\u6807\u51C6\u89C4\u5B9A\uFF0C\u6BD4\u5982 DOM \u7684\u6807\u51C6\u5C31\u662F\u7531 W3C\u7EC4\u7EC7\uFF08World Wide Web Consortium\uFF09\u5236\u5B9A\u7684\u3002 <p></p> ECMA-262 \u6807\u51C6\u540E\u6765\u4E5F\u88AB\u53E6\u4E00\u4E2A\u56FD\u9645\u6807\u51C6\u5316\u7EC4\u7EC7 ISO\uFF08International Organization for Standardization\uFF09\u6279\u51C6\uFF0C\u6807\u51C6\u53F7\u662F ISO-16262\u3002 </p><!--]-->`);
 }
-const _sfc_setup$r = _sfc_main$r.setup;
-_sfc_main$r.setup = (props, ctx) => {
+const _sfc_setup$s = _sfc_main$s.setup;
+_sfc_main$s.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/JavaScript/\u5165\u95E8\u5BFC\u8BBA.html.vue");
-  return _sfc_setup$r ? _sfc_setup$r(props, ctx) : void 0;
+  return _sfc_setup$s ? _sfc_setup$s(props, ctx) : void 0;
 };
-var _____html$7 = /* @__PURE__ */ _export_sfc(_sfc_main$r, [["ssrRender", _sfc_ssrRender$d]]);
+var _____html$7 = /* @__PURE__ */ _export_sfc(_sfc_main$s, [["ssrRender", _sfc_ssrRender$e]]);
 var _____html$8 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _____html$7
 });
-const _sfc_main$q = {};
-function _sfc_ssrRender$c(_ctx, _push, _parent, _attrs) {
+const _sfc_main$r = {};
+function _sfc_ssrRender$d(_ctx, _push, _parent, _attrs) {
   const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
   _push(`<!--[--><h1 id="\u5185\u7F6E\u5BF9\u8C61" tabindex="-1"><a class="header-anchor" href="#\u5185\u7F6E\u5BF9\u8C61" aria-hidden="true">#</a> \u5185\u7F6E\u5BF9\u8C61</h1><h2 id="\u4E00\u3001object-\u5BF9\u8C61" tabindex="-1"><a class="header-anchor" href="#\u4E00\u3001object-\u5BF9\u8C61" aria-hidden="true">#</a> \u4E00\u3001Object \u5BF9\u8C61</h2><p>JavaScript \u539F\u751F\u63D0\u4F9B<code>Object</code>\u5BF9\u8C61\uFF08\u6CE8\u610F\u8D77\u9996\u7684<code>O</code>\u662F\u5927\u5199\uFF09,JavaScript \u7684\u6240\u6709\u5176\u4ED6\u5BF9\u8C61\u90FD\u7EE7\u627F\u81EA<code>Object</code>\u5BF9\u8C61\uFF0C\u5373\u90A3\u4E9B\u5BF9\u8C61\u90FD\u662F<code>Object</code>\u7684\u5B9E\u4F8B\u3002</p><p><code>Object</code>\u5BF9\u8C61\u7684\u539F\u751F\u65B9\u6CD5\u5206\u6210\u4E24\u7C7B\uFF1A<code>Object</code>\u672C\u8EAB\u7684\u65B9\u6CD5\u4E0E<code>Object</code>\u7684\u5B9E\u4F8B\u65B9\u6CD5\u3002</p><ol><li><code>Object</code>\u5BF9\u8C61\u672C\u8EAB\u7684\u65B9\u6CD5</li></ol><p>\u6240\u8C13\u201C\u672C\u8EAB\u7684\u65B9\u6CD5\u201D\u5C31\u662F\u76F4\u63A5\u5B9A\u4E49\u5728<code>Object</code>\u5BF9\u8C61\u7684\u65B9\u6CD5\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code>Object<span class="token punctuation">.</span><span class="token function-variable function">print</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">o</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>o<span class="token punctuation">)</span> <span class="token punctuation">}</span><span class="token punctuation">;</span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><ol start="2"><li><code>Object</code>\u7684\u5B9E\u4F8B\u65B9\u6CD5</li></ol><p>\u6240\u8C13\u5B9E\u4F8B\u65B9\u6CD5\u5C31\u662F\u5B9A\u4E49\u5728<code>Object</code>\u539F\u578B\u5BF9\u8C61<code>Object.prototype</code>\u4E0A\u7684\u65B9\u6CD5\u3002\u5B83\u53EF\u4EE5\u88AB<code>Object</code>\u5B9E\u4F8B\u76F4\u63A5\u4F7F\u7528\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token class-name">Object</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function-variable function">print</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
@@ -6893,20 +6784,20 @@ obj<span class="token punctuation">.</span>next <span class="token operator">=</
 <span class="token comment">// {a: 1}</span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><p>\u4E0A\u9762\u8FD9\u4E2A\u65B9\u6CD5\u7684\u95EE\u9898\u5728\u4E8E\uFF0C\u5982\u679C\u9047\u5230\u5B58\u53D6\u5668\u5B9A\u4E49\u7684\u5C5E\u6027\uFF0C\u4F1A\u53EA\u62F7\u8D1D\u503C\u3002</p><!--]-->`);
 }
-const _sfc_setup$q = _sfc_main$q.setup;
-_sfc_main$q.setup = (props, ctx) => {
+const _sfc_setup$r = _sfc_main$r.setup;
+_sfc_main$r.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/JavaScript/\u5185\u7F6E\u5BF9\u8C61.html.vue");
-  return _sfc_setup$q ? _sfc_setup$q(props, ctx) : void 0;
+  return _sfc_setup$r ? _sfc_setup$r(props, ctx) : void 0;
 };
-var _____html$5 = /* @__PURE__ */ _export_sfc(_sfc_main$q, [["ssrRender", _sfc_ssrRender$c]]);
+var _____html$5 = /* @__PURE__ */ _export_sfc(_sfc_main$r, [["ssrRender", _sfc_ssrRender$d]]);
 var _____html$6 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _____html$5
 });
-const _sfc_main$p = {};
-function _sfc_ssrRender$b(_ctx, _push, _parent, _attrs) {
+const _sfc_main$q = {};
+function _sfc_ssrRender$c(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h1 id="\u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26" tabindex="-1"><a class="header-anchor" href="#\u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26" aria-hidden="true">#</a> \u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26</h1><h2 id="_1-\u6570\u636E\u7C7B\u578B" tabindex="-1"><a class="header-anchor" href="#_1-\u6570\u636E\u7C7B\u578B" aria-hidden="true">#</a> 1.\u6570\u636E\u7C7B\u578B</h2><p>JavaScript\u516D\u79CD\u6570\u636E\u7C7B\u578B\uFF08\u6B64\u6587\u6863\u4E0D\u6D89\u53CAES6\uFF09</p><ul><li>\u6570\u503C\uFF08Number\uFF09\uFF1A \u6574\u6570\u548C\u5C0F\u6570\uFF08\u6BD4\u59821\u548C3.14\uFF09\u3002</li><li>\u5B57\u7B26\u4E32\uFF08String\uFF09\uFF1A \u6587\u672C\uFF08\u5982<code>&#39;Hello World&#39;</code>\uFF09\u3002</li><li>\u5E03\u5C14\u503C\uFF08boolean\uFF09\uFF1A \u8868\u793A\u771F\u5047\u7684\u7279\u6B8A\u503C\uFF0C\u5373\u771F\uFF08<code>true</code>\uFF09\u548C\u5047(<code>false</code>)</li><li><code>undefined</code> \uFF1A \u8868\u793A\u672A\u5B9A\u4E49\u6216\u4E0D\u5B58\u5728\uFF0C\u53EF\u7406\u89E3\u4E3A\u76EE\u524D\u6CA1\u6709\u5B9A\u4E49\uFF0C\u6240\u4EE5\u6B64\u5904\u6682\u65F6\u6CA1\u6709\u4EFB\u4F55\u503C\u3002</li><li><code>null</code> \uFF1A \u8868\u793A\u7A7A\u503C\uFF0C\u5373\u6B64\u5904\u7684\u503C\u4E3A\u7A7A\u3002</li><li>\u5BF9\u8C61\uFF08object\uFF09\uFF1A \u5404\u79CD\u503C\u7EC4\u6210\u7684\u96C6\u5408\u3002</li></ul><p>\u5BF9\u8C61\u662F\u6700\u590D\u6742\u7684\u6570\u636E\u7C7B\u578B\uFF0C\u53C8\u53EF\u4EE5\u5206\u6210\u4E09\u4E2A\u5B50\u7C7B\u578B\u3002</p><ul><li>\u72ED\u4E49\u7684\u5BF9\u8C61\uFF08object\uFF09</li><li>\u6570\u7EC4\uFF08array\uFF09</li><li>\u51FD\u6570\uFF08function\uFF09</li></ul><h3 id="null\u548Cundefined" tabindex="-1"><a class="header-anchor" href="#null\u548Cundefined" aria-hidden="true">#</a> null\u548Cundefined</h3><p>\u4E24\u8005\u90FD\u53EF\u4EE5\u8868\u793A\u201C\u6CA1\u6709\u201D\uFF0C\u542B\u4E49\u975E\u5E38\u76F8\u4F3C\uFF0C\u8BED\u6CD5\u4E0A\u51E0\u4E4E\u6CA1\u6709\u533A\u522B\u3002</p><table><thead><tr><th>\u533A\u522B</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">null</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">undefined</th></tr></thead><tbody><tr><td>\u6570\u636E\u7C7B\u578B\u4E0D\u4E00\u6837</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">console.log(typeof null)<br>//object</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">console.log(typeof undefined)<br>//undefined</td></tr><tr><td>null\u548Cundefined\u4E24\u8005\u76F8\u7B49\uFF0C\u4F46\u662F\u5F53\u4E24\u8005\u505A\u5168\u7B49\u6BD4\u8F83\u65F6\u4E24\u8005\u53C8\u4E0D\u7B49\u3002\uFF08\u56E0\u4E3A\u4ED6\u4EEC\u7684\u6570\u636E\u7C7B\u578B\u4E0D\u4E00\u6837\uFF09</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">console.log(null==undefined)<br>//ture</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">console.log(null===undefined)<br>//false</td></tr><tr><td>\u8F6C\u5316\u6210\u6570\u5B57\u4E0D\u540C</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">console.log(Number(null))<br>//0</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">console.log(Number(undefined))<br>//NaN</td></tr><tr><td>null\u4EE3\u8868\u201C\u7A7A\u201D\uFF0C\u4EE3\u8868\u7A7A\u6307\u9488\uFF1Bundefined\u662F\u5B9A\u4E49\u4E86\u6CA1\u6709\u8D4B\u503C<br>var a;</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">console.log(a);<br>//undefined</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">var b=null;console.log(b);<br>//null</td></tr></tbody></table><p>\u6CE8\uFF1Aconsole.log()\u5728\u63A7\u5236\u53F0\u6253\u5370\u65E5\u5FD7\uFF0Ctypeof\u83B7\u53D6\u6570\u636E\u7C7B\u578B\uFF0C\u5728\u8FD9\u91CC\u4E0D\u6DF1\u7A76\uFF0C\u4E3A\u540E\u7EED\u5185\u5BB9</p><h3 id="\u5E03\u5C14\u503C-boolean" tabindex="-1"><a class="header-anchor" href="#\u5E03\u5C14\u503C-boolean" aria-hidden="true">#</a> \u5E03\u5C14\u503C\uFF08boolean\uFF09</h3><p>\u4E00\u822C\u4E0B\u5217\u8FD0\u7B97\u7B26\u4F1A\u8FD4\u56DE\u5E03\u5C14\u503C(\u5E03\u5C14\u503C\u5F80\u5F80\u7528\u4E8E\u7A0B\u5E8F\u6D41\u7A0B\u7684\u63A7\u5236)\uFF1A</p><ul><li>\u524D\u7F6E\u903B\u8F91\u8FD0\u7B97\u7B26\uFF1A<code>!</code>(Not)</li><li>\u76F8\u7B49\u8FD0\u7B97\u7B26\uFF1A<code>===</code>\uFF0C<code>!==</code>\uFF0C<code>==</code>\uFF0C<code>!=</code></li><li>\u6BD4\u8F83\u8FD0\u7B97\u7B26\uFF1A<code>&gt;</code>\uFF0C<code>&gt;=</code>\uFF0C<code>&lt;</code>\uFF0C<code>&lt;=</code></li></ul><p>\u5982\u679C\u67D0\u4E2A\u4F4D\u7F6E\u5E94\u8BE5\u662F\u5E03\u5C14\u503C\uFF0CJavaScript\u4F1A\u5C06\u8BE5\u4F4D\u7F6E\u8F6C\u6362\u4E3A\u5E03\u5C14\u503C\uFF0C\u89C4\u5219\u9664\u4E86\u4E0B\u9762\u516D\u4E2A\u503C\u88AB\u8F6C\u4E3Afalse\uFF0C\u5176\u4ED6\u503C\u90FD\u89C6\u4E3Atrue</p><ul><li><code>undefined</code></li><li><code>null</code></li><li><code>false</code></li><li><code>0</code></li><li><code>Nan</code></li><li><code>&quot;&quot;</code>\u6216<code>&#39;&#39;</code>(\u7A7A\u5B57\u7B26\u4E32)</li></ul><h3 id="\u6570\u503C-number" tabindex="-1"><a class="header-anchor" href="#\u6570\u503C-number" aria-hidden="true">#</a> \u6570\u503C\uFF08Number\uFF09</h3><p>JavaScript \u5185\u90E8\uFF0C\u6240\u6709\u6570\u5B57\u90FD\u662F\u4EE564\u4F4D\u6D6E\u70B9\u6570\u5F62\u5F0F\u50A8\u5B58\uFF0C\u7531\u4E8E\u6D6E\u70B9\u6570\u4E0D\u662F\u7CBE\u786E\u7684\u503C\uFF0C\u6240\u4EE5\u6D89\u53CA\u5C0F\u6570\u7684\u6BD4\u8F83\u548C\u8FD0\u7B97\u8981\u7279\u522B\u5C0F\u5FC3\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token number">0.1</span> <span class="token operator">+</span> <span class="token number">0.2</span> <span class="token operator">===</span> <span class="token number">0.3</span>
 <span class="token comment">// false</span>
 
@@ -7492,20 +7383,20 @@ x <span class="token comment">// 5</span>
 
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><ol start="2"><li>\u9017\u53F7\u8FD0\u7B97\u7B26</li></ol><p>\u9017\u53F7\u8FD0\u7B97\u7B26\u7528\u4E8E\u5BF9\u4E24\u4E2A\u8868\u8FBE\u5F0F\u6C42\u503C\uFF0C\u5E76\u8FD4\u56DE\u540E\u4E00\u4E2A\u8868\u8FBE\u5F0F\u7684\u503C\u3002</p><ol start="3"><li>\u8FD0\u7B97\u987A\u5E8F</li></ol><p>\u4F60\u8981\u5148\u8BB0\u4F4F\uFF1A\u6CA1\u5FC5\u8981\u8BB0\u4F4F\u6240\u6709\u8FD0\u7B97\u7B26\u7684\u4F18\u5148\u7EA7\u3002</p><p>\u4E94\u4E2A\u8FD0\u7B97\u7B26\u7684\u4F18\u5148\u7EA7\u4ECE\u9AD8\u5230\u4F4E\u4F9D\u6B21\u4E3A\uFF1A\u5C0F\u4E8E\u7B49\u4E8E\uFF08<code>&lt;=</code>\uFF09\u3001\u4E25\u683C\u76F8\u7B49\uFF08<code>===</code>\uFF09\u3001\u6216\uFF08<code>||</code>\uFF09\u3001\u4E09\u5143\uFF08<code>?:</code>\uFF09\u3001\u7B49\u53F7\uFF08<code>=</code>\uFF09\u3002</p><p>\u5706\u62EC\u53F7\uFF08<code>()</code>\uFF09\u53EF\u4EE5\u7528\u6765\u63D0\u9AD8\u8FD0\u7B97\u7684\u4F18\u5148\u7EA7\uFF0C\u56E0\u4E3A\u5B83\u7684\u4F18\u5148\u7EA7\u662F\u6700\u9AD8\u7684</p><!--]-->`);
 }
-const _sfc_setup$p = _sfc_main$p.setup;
-_sfc_main$p.setup = (props, ctx) => {
+const _sfc_setup$q = _sfc_main$q.setup;
+_sfc_main$q.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/JavaScript/\u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26.html.vue");
-  return _sfc_setup$p ? _sfc_setup$p(props, ctx) : void 0;
+  return _sfc_setup$q ? _sfc_setup$q(props, ctx) : void 0;
 };
-var _________html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$p, [["ssrRender", _sfc_ssrRender$b]]);
+var _________html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$q, [["ssrRender", _sfc_ssrRender$c]]);
 var _________html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _________html$1
 });
-const _sfc_main$o = {};
-function _sfc_ssrRender$a(_ctx, _push, _parent, _attrs) {
+const _sfc_main$p = {};
+function _sfc_ssrRender$b(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h1 id="\u8BED\u6CD5\u57FA\u7840" tabindex="-1"><a class="header-anchor" href="#\u8BED\u6CD5\u57FA\u7840" aria-hidden="true">#</a> \u8BED\u6CD5\u57FA\u7840</h1><h2 id="\u6570\u636E\u7C7B\u578B\u8F6C\u6362" tabindex="-1"><a class="header-anchor" href="#\u6570\u636E\u7C7B\u578B\u8F6C\u6362" aria-hidden="true">#</a> \u6570\u636E\u7C7B\u578B\u8F6C\u6362</h2><h3 id="\u5F3A\u5236\u8F6C\u6362" tabindex="-1"><a class="header-anchor" href="#\u5F3A\u5236\u8F6C\u6362" aria-hidden="true">#</a> \u5F3A\u5236\u8F6C\u6362</h3><ol><li><code>Number()</code></li></ol><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">// \u6570\u503C\uFF1A\u8F6C\u6362\u540E\u8FD8\u662F\u539F\u6765\u7684\u503C</span>
 <span class="token function">Number</span><span class="token punctuation">(</span><span class="token number">324</span><span class="token punctuation">)</span> <span class="token comment">// 324</span>
 
@@ -7864,17 +7755,33 @@ console<span class="token punctuation">.</span><span class="token function">grou
 <span class="token comment">//   InjectedScript.evaluate</span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><p><code>console.clear</code>\u65B9\u6CD5\u7528\u4E8E\u6E05\u9664\u5F53\u524D\u63A7\u5236\u53F0\u7684\u6240\u6709\u8F93\u51FA\uFF0C\u5C06\u5149\u6807\u56DE\u7F6E\u5230\u7B2C\u4E00\u884C\u3002\u5982\u679C\u7528\u6237\u9009\u4E2D\u4E86\u63A7\u5236\u53F0\u7684<code>\u201CPreserve log\u201D</code>\u9009\u9879\uFF0C<code>console.clear</code>\u65B9\u6CD5\u5C06\u4E0D\u8D77\u4F5C\u7528\u3002</p><h3 id="\u63A7\u5236\u53F0\u547D\u4EE4\u884C-api" tabindex="-1"><a class="header-anchor" href="#\u63A7\u5236\u53F0\u547D\u4EE4\u884C-api" aria-hidden="true">#</a> \u63A7\u5236\u53F0\u547D\u4EE4\u884C API</h3><p>\u6D4F\u89C8\u5668\u63A7\u5236\u53F0\u4E2D\uFF0C\u9664\u4E86\u4F7F\u7528<code>console</code>\u5BF9\u8C61\uFF0C\u8FD8\u53EF\u4EE5\u4F7F\u7528\u4E00\u4E9B\u63A7\u5236\u53F0\u81EA\u5E26\u7684\u547D\u4EE4\u884C\u65B9\u6CD5\u3002</p><h3 id="debugger-\u8BED\u53E5" tabindex="-1"><a class="header-anchor" href="#debugger-\u8BED\u53E5" aria-hidden="true">#</a> debugger \u8BED\u53E5</h3><p><code>debugger</code>\u8BED\u53E5\u4E3B\u8981\u7528\u4E8E\u9664\u9519\uFF0C\u4F5C\u7528\u662F\u8BBE\u7F6E\u65AD\u70B9\u3002\u5982\u679C\u6709\u6B63\u5728\u8FD0\u884C\u7684\u9664\u9519\u5DE5\u5177\uFF0C\u7A0B\u5E8F\u8FD0\u884C\u5230<code>debugger</code>\u8BED\u53E5\u65F6\u4F1A\u81EA\u52A8\u505C\u4E0B\u3002\u5982\u679C\u6CA1\u6709\u9664\u9519\u5DE5\u5177\uFF0C<code>debugger</code>\u8BED\u53E5\u4E0D\u4F1A\u4EA7\u751F\u4EFB\u4F55\u7ED3\u679C\uFF0C<code>JavaScript</code>\u5F15\u64CE\u81EA\u52A8\u8DF3\u8FC7\u8FD9\u4E00\u53E5\u3002</p><!--]-->`);
 }
-const _sfc_setup$o = _sfc_main$o.setup;
-_sfc_main$o.setup = (props, ctx) => {
+const _sfc_setup$p = _sfc_main$p.setup;
+_sfc_main$p.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/JavaScript/\u8BED\u6CD5\u57FA\u7840.html.vue");
-  return _sfc_setup$o ? _sfc_setup$o(props, ctx) : void 0;
+  return _sfc_setup$p ? _sfc_setup$p(props, ctx) : void 0;
 };
-var _____html$3 = /* @__PURE__ */ _export_sfc(_sfc_main$o, [["ssrRender", _sfc_ssrRender$a]]);
+var _____html$3 = /* @__PURE__ */ _export_sfc(_sfc_main$p, [["ssrRender", _sfc_ssrRender$b]]);
 var _____html$4 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _____html$3
+});
+const _sfc_main$o = {};
+function _sfc_ssrRender$a(_ctx, _push, _parent, _attrs) {
+  _push(`<!--[--><h2 id="\u4EC0\u4E48\u662Fhtml" tabindex="-1"><a class="header-anchor" href="#\u4EC0\u4E48\u662Fhtml" aria-hidden="true">#</a> \u4EC0\u4E48\u662FHTML\uFF1F</h2><p>HTML\uFF08\u8D85\u6587\u672C\u6807\u8BB0\u8BED\u8A00\u2014\u2014HyperText Markup Language\uFF09\u662F\u6784\u6210 Web \u4E16\u754C\u7684\u4E00\u7816\u4E00\u74E6\u3002\u5B83\u5B9A\u4E49\u4E86\u7F51\u9875\u5185\u5BB9\u7684\u542B\u4E49\u548C\u7ED3\u6784\u3002\u9664 HTML \u4EE5\u5916\u7684\u5176\u5B83\u6280\u672F\u5219\u901A\u5E38\u7528\u6765\u63CF\u8FF0\u4E00\u4E2A\u7F51\u9875\u7684\u8868\u73B0\u4E0E\u5C55\u793A\u6548\u679C\uFF08\u5982 CSS\uFF09\uFF0C\u6216\u529F\u80FD\u4E0E\u884C\u4E3A\uFF08\u5982 JavaScript\uFF09\u3002</p><!--]-->`);
+}
+const _sfc_setup$o = _sfc_main$o.setup;
+_sfc_main$o.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/html/01-html.html.vue");
+  return _sfc_setup$o ? _sfc_setup$o(props, ctx) : void 0;
+};
+var _01Html_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$o, [["ssrRender", _sfc_ssrRender$a]]);
+var _01Html_html$2 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": _01Html_html$1
 });
 const _sfc_main$n = {};
 function _sfc_ssrRender$9(_ctx, _push, _parent, _attrs) {
@@ -9495,7 +9402,7 @@ var _404_html$2 = /* @__PURE__ */ Object.freeze({
   [Symbol.toStringTag]: "Module",
   "default": _404_html$1
 });
-const data$u = {
+const data$v = {
   "key": "v-8daa1a0e",
   "path": "/",
   "title": "",
@@ -9545,9 +9452,9 @@ const data$u = {
 var index_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$u
+  data: data$v
 });
-const data$t = {
+const data$u = {
   "key": "v-67b7fbf4",
   "path": "/actualCombat/",
   "title": "",
@@ -9572,9 +9479,9 @@ const data$t = {
 var index_html$1 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$t
+  data: data$u
 });
-const data$s = {
+const data$t = {
   "key": "v-6886cbbd",
   "path": "/course/elementui%E5%9C%A8%E8%A1%A8%E6%A0%BC%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87.html",
   "title": "elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247",
@@ -9620,9 +9527,9 @@ const data$s = {
 var elementui_________html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$s
+  data: data$t
 });
-const data$r = {
+const data$s = {
   "key": "v-b9c2d34a",
   "path": "/course/",
   "title": "\u65E5\u5E38\u8BB0\u5F55",
@@ -9656,9 +9563,9 @@ const data$r = {
 var index_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$r
+  data: data$s
 });
-const data$q = {
+const data$r = {
   "key": "v-4bac9763",
   "path": "/course/utils.html",
   "title": "\u8D44\u6E90\u5DE5\u5177",
@@ -9698,9 +9605,9 @@ const data$q = {
 var utils_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$q
+  data: data$r
 });
-const data$p = {
+const data$q = {
   "key": "v-66ff7ae2",
   "path": "/course/vscode%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.html",
   "title": "vscode\u5E38\u7528\u63D2\u4EF6",
@@ -9734,9 +9641,9 @@ const data$p = {
 var vscode_____html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$p
+  data: data$q
 });
-const data$o = {
+const data$p = {
   "key": "v-995ccaba",
   "path": "/actualCombat/%E3%80%8AFlutter%E5%B7%A5%E7%A8%8B%E5%AE%9E%E6%88%98%E3%80%8B/01.%E8%B5%B7%E6%AD%A5.html",
   "title": "Flutter\u5B9E\u6218",
@@ -9806,9 +9713,9 @@ const data$o = {
 var _01____html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$o
+  data: data$p
 });
-const data$n = {
+const data$o = {
   "key": "v-3509cb32",
   "path": "/guide/interview/interview.html",
   "title": "\u95EE\u9898\u96C6\u9526",
@@ -9896,9 +9803,9 @@ const data$n = {
 var interview_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$n
+  data: data$o
 });
-const data$m = {
+const data$n = {
   "key": "v-5d3f7a3b",
   "path": "/guide/interview/JSinterview.html",
   "title": "JS\u9762\u8BD5",
@@ -10052,9 +9959,9 @@ const data$m = {
 var JSinterview_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$m
+  data: data$n
 });
-const data$l = {
+const data$m = {
   "key": "v-2d570564",
   "path": "/guide/interview/VUEinterview.html",
   "title": "VUE\u9762\u8BD5",
@@ -10190,9 +10097,9 @@ const data$l = {
 var VUEinterview_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$l
+  data: data$m
 });
-const data$k = {
+const data$l = {
   "key": "v-71958ec2",
   "path": "/guide/%E6%95%85%E4%BA%8B/story.html",
   "title": "\u65E5\u5E38\u6545\u4E8B",
@@ -10279,9 +10186,9 @@ const data$k = {
 var story_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$k
+  data: data$l
 });
-const data$j = {
+const data$k = {
   "key": "v-3803ce0e",
   "path": "/guide/%E6%95%99%E7%A8%8B/text.html",
   "title": "1a",
@@ -10321,9 +10228,9 @@ const data$j = {
 var text_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$j
+  data: data$k
 });
-const data$i = {
+const data$j = {
   "key": "v-6c145c9c",
   "path": "/guide/%E9%9A%8F%E7%AC%94/reflection.html",
   "title": "\u6240\u4EE5\u4E8B\u5C0F\u4E8E\u6B7B",
@@ -10357,9 +10264,9 @@ const data$i = {
 var reflection_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$i
+  data: data$j
 });
-const data$h = {
+const data$i = {
   "key": "v-72cc4ebc",
   "path": "/web/css/01-css.html",
   "title": "CSS",
@@ -10393,9 +10300,9 @@ const data$h = {
 var _01Css_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$h
+  data: data$i
 });
-const data$g = {
+const data$h = {
   "key": "v-1b13d411",
   "path": "/web/Flutter/01.html",
   "title": "Flutter",
@@ -10465,9 +10372,9 @@ const data$g = {
 var _01_html$4 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$g
+  data: data$h
 });
-const data$f = {
+const data$g = {
   "key": "v-4d4398ea",
   "path": "/web/Flutter/02.Dart%E8%AF%AD%E6%B3%95.html",
   "title": "Dart\u8BED\u6CD5",
@@ -10645,11 +10552,11 @@ const data$f = {
 var _02_Dart___html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$f
+  data: data$g
 });
-const data$e = {
-  "key": "v-50b379f7",
-  "path": "/web/Flutter/09.widget.html",
+const data$f = {
+  "key": "v-8cbd5a1e",
+  "path": "/web/Flutter/03.widget.html",
   "title": "widget",
   "lang": "zh-CN",
   "frontmatter": {
@@ -10699,64 +10606,71 @@ const data$e = {
           "title": "StatefulWidget(\u91CD\u8981)",
           "slug": "statefulwidget-\u91CD\u8981",
           "children": []
+        },
+        {
+          "level": 3,
+          "title": "State",
+          "slug": "state",
+          "children": []
         }
       ]
+    },
+    {
+      "level": 2,
+      "title": "\u7A7A\u5B89\u5168\uFF08null safety\uFF09",
+      "slug": "\u7A7A\u5B89\u5168-null-safety",
+      "children": []
     }
   ],
   "git": {
-    "updatedTime": 1653226294e3,
-    "contributors": [
-      {
-        "name": "\u9648\u67D2",
-        "email": "3062995371@qq.com",
-        "commits": 1
-      }
-    ]
+    "updatedTime": null,
+    "contributors": []
   },
-  "filePathRelative": "web/Flutter/09.widget.md"
+  "filePathRelative": "web/Flutter/03.widget.md"
 };
-var _09_widget_html = /* @__PURE__ */ Object.freeze({
+var _03_widget_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$e
+  data: data$f
 });
-const data$d = {
-  "key": "v-cce3d85c",
-  "path": "/web/html/01-html.html",
-  "title": "html",
+const data$e = {
+  "key": "v-48456869",
+  "path": "/web/Flutter/04.%E5%9F%BA%E7%A1%80%E7%BB%84%E4%BB%B6.html",
+  "title": "\u57FA\u672C\u7EC4\u4EF6",
   "lang": "zh-CN",
   "frontmatter": {
     "lang": "zh-CN",
-    "title": "html",
-    "description": "html\u63CF\u8FF0"
+    "title": "\u57FA\u672C\u7EC4\u4EF6",
+    "description": "Flutter"
   },
   "excerpt": "",
   "headers": [
     {
       "level": 2,
-      "title": "\u4EC0\u4E48\u662FHTML\uFF1F",
-      "slug": "\u4EC0\u4E48\u662Fhtml",
-      "children": []
+      "title": "Button\uFF08\u6309\u94AE\uFF09",
+      "slug": "button-\u6309\u94AE",
+      "children": [
+        {
+          "level": 3,
+          "title": "ElevatedButton",
+          "slug": "elevatedbutton",
+          "children": []
+        }
+      ]
     }
   ],
   "git": {
-    "updatedTime": 164292088e4,
-    "contributors": [
-      {
-        "name": "\u9648\u67D2",
-        "email": "3062995371@qq.com",
-        "commits": 1
-      }
-    ]
+    "updatedTime": null,
+    "contributors": []
   },
-  "filePathRelative": "web/html/01-html.md"
+  "filePathRelative": "web/Flutter/04.\u57FA\u7840\u7EC4\u4EF6.md"
 };
-var _01Html_html = /* @__PURE__ */ Object.freeze({
+var _04______html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$d
+  data: data$e
 });
-const data$c = {
+const data$d = {
   "key": "v-72bd4e03",
   "path": "/web/JavaScript/%E5%85%A5%E9%97%A8%E5%AF%BC%E8%AE%BA.html",
   "title": "\u5165\u95E8\u5BFC\u8BBA",
@@ -10809,9 +10723,9 @@ const data$c = {
 var _____html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$c
+  data: data$d
 });
-const data$b = {
+const data$c = {
   "key": "v-783b80d4",
   "path": "/web/JavaScript/%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1.html",
   "title": "\u5185\u7F6E\u5BF9\u8C61",
@@ -10956,9 +10870,9 @@ const data$b = {
 var _____html$1 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$b
+  data: data$c
 });
-const data$a = {
+const data$b = {
   "key": "v-5debe7e1",
   "path": "/web/JavaScript/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E4%B8%8E%E8%BF%90%E7%AE%97%E7%AC%A6.html",
   "title": "\u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26",
@@ -11072,9 +10986,9 @@ const data$a = {
 var _________html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$a
+  data: data$b
 });
-const data$9 = {
+const data$a = {
   "key": "v-24f06668",
   "path": "/web/JavaScript/%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80.html",
   "title": "\u8BED\u6CD5\u57FA\u7840",
@@ -11188,6 +11102,42 @@ const data$9 = {
   "filePathRelative": "web/JavaScript/\u8BED\u6CD5\u57FA\u7840.md"
 };
 var _____html = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  data: data$a
+});
+const data$9 = {
+  "key": "v-cce3d85c",
+  "path": "/web/html/01-html.html",
+  "title": "html",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "lang": "zh-CN",
+    "title": "html",
+    "description": "html\u63CF\u8FF0"
+  },
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 2,
+      "title": "\u4EC0\u4E48\u662FHTML\uFF1F",
+      "slug": "\u4EC0\u4E48\u662Fhtml",
+      "children": []
+    }
+  ],
+  "git": {
+    "updatedTime": 164292088e4,
+    "contributors": [
+      {
+        "name": "\u9648\u67D2",
+        "email": "3062995371@qq.com",
+        "commits": 1
+      }
+    ]
+  },
+  "filePathRelative": "web/html/01-html.md"
+};
+var _01Html_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   data: data$9
