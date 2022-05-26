@@ -69,6 +69,14 @@ export const sidebar = {
       ]
     }
   ],
+  '/actualCombat/Flutter工程实战/01.起步.md/':[
+    {
+      text:'《Flutter工程实战》',
+      children: [
+        '01.起步.md'
+      ]
+    }
+  ],
   // fallback 侧边栏被最后定义
   '/': [''], //不能放在数组第一个，否则会导致右侧栏无法使用 
 }

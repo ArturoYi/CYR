@@ -3,7 +3,7 @@
     <div
       v-for="(items, name) in child"
       :key="name"
-      @click="test(name)"
+      @click="test(items.link)"
       class="childs"
     >
       <div class="name">《{{ items.name }}》</div>
@@ -16,7 +16,11 @@ export default {
   data() {
     return {
       child: [
-        { name: "1", about: "", link: "" },
+        {
+          name: "Flutter实战",
+          about: "",
+          link: "/actualCombat/Flutter工程实战/01.起步.md/",
+        },
         { name: "2", about: "", link: "" },
         { name: "3", about: "", link: "" },
       ],
@@ -24,11 +28,9 @@ export default {
   },
   methods: {
     test(e) {
-      // location.href =
-      //   'http://localhost:9779/web/TypeScript/02.%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E.html#var%E5%A3%B0%E6%98%8E'
-      console.log(e);
-      var domain = document.domain;
-      console.log(`https://${domain}`)
+      if (e) {
+        window.location.href = e;
+      }
     },
   },
 };
@@ -48,6 +50,7 @@ export default {
   border-radius: 10px;
   transition: all 1s;
   cursor: pointer;
+  text-align: center;
 }
 .childs:hover {
   /* background-color: rgb(116, 146, 135); */
