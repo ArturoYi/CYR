@@ -1,35 +1,37 @@
 <template>
   <div class="test">
-    <div v-for="(items,name) in child"
-         :key="name"
-         @click="test(name)"
-         class="childs">
-      <div class="name">
-        《{{items.name}}》
-      </div>
+    <div
+      v-for="(items, name) in child"
+      :key="name"
+      @click="test(name)"
+      class="childs"
+    >
+      <div class="name">《{{ items.name }}》</div>
       <div class="about">介绍</div>
     </div>
   </div>
 </template><script>
 export default {
-  name: 'MyTemplate',
+  name: "MyTemplate",
   data() {
     return {
       child: [
-        { name: '1', about: '', link: '' },
-        { name: '2', about: '', link: '' },
-        { name: '3', about: '', link: '' },
+        { name: "1", about: "", link: "" },
+        { name: "2", about: "", link: "" },
+        { name: "3", about: "", link: "" },
       ],
-    }
+    };
   },
   methods: {
     test(e) {
       // location.href =
       //   'http://localhost:9779/web/TypeScript/02.%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E.html#var%E5%A3%B0%E6%98%8E'
-      console.log(e)
+      console.log(e);
+      var domain = document.domain;
+      console.log(`https://${domain}`)
     },
   },
-}
+};
 </script><style>
 .test {
   /* margin: 50px; */
