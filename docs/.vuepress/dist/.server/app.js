@@ -114,6 +114,9 @@ const pagesComponents = {
   "v-48456869": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return _04______html$2;
   })),
+  "v-cce3d85c": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return _01Html_html$2;
+  })),
   "v-72bd4e03": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return _____html$8;
   })),
@@ -125,9 +128,6 @@ const pagesComponents = {
   })),
   "v-24f06668": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return _____html$4;
-  })),
-  "v-cce3d85c": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return _01Html_html$2;
   })),
   "v-4fa2b6ab": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return _01_html$c;
@@ -212,6 +212,9 @@ const pagesData$1 = {
   "v-48456869": () => Promise.resolve().then(function() {
     return _04______html;
   }).then(({ data: data2 }) => data2),
+  "v-cce3d85c": () => Promise.resolve().then(function() {
+    return _01Html_html;
+  }).then(({ data: data2 }) => data2),
   "v-72bd4e03": () => Promise.resolve().then(function() {
     return _____html$2;
   }).then(({ data: data2 }) => data2),
@@ -223,9 +226,6 @@ const pagesData$1 = {
   }).then(({ data: data2 }) => data2),
   "v-24f06668": () => Promise.resolve().then(function() {
     return _____html;
-  }).then(({ data: data2 }) => data2),
-  "v-cce3d85c": () => Promise.resolve().then(function() {
-    return _01Html_html;
   }).then(({ data: data2 }) => data2),
   "v-4fa2b6ab": () => Promise.resolve().then(function() {
     return _01_html$3;
@@ -478,6 +478,43 @@ const themeData$1 = {
     {
       "text": "\u9996\u9875",
       "link": "/"
+    },
+    {
+      "text": "\u540E\u7AEF",
+      "children": [
+        {
+          "text": "\u300AJava\u57FA\u7840\u300B",
+          "link": "/"
+        },
+        {
+          "text": "\u300A\u6570\u636E\u7ED3\u6784\u4E0E\u7B97\u6CD5\u300B",
+          "link": "/"
+        },
+        {
+          "text": "\u300A\u8BA1\u7B97\u673A\u5BFC\u8BBA\u300B",
+          "link": "/"
+        },
+        {
+          "text": "\u300A\u8BA1\u7B97\u673A\u7F51\u7EDC\u300B",
+          "link": "/"
+        },
+        {
+          "text": "\u300AMySQL \u6570\u636E\u5E93\u300B",
+          "link": "/"
+        },
+        {
+          "text": "\u300AJava Web\u300B",
+          "link": "/"
+        },
+        {
+          "text": "\u300ASSM\u300B",
+          "link": "/"
+        },
+        {
+          "text": "\u300ASpringBoot 2\u300B",
+          "link": "/"
+        }
+      ]
     },
     {
       "text": "\u524D\u7AEF",
@@ -1974,6 +2011,20 @@ const searchIndex$1 = [
     "extraFields": []
   },
   {
+    "title": "html",
+    "headers": [
+      {
+        "level": 2,
+        "title": "\u4EC0\u4E48\u662FHTML\uFF1F",
+        "slug": "\u4EC0\u4E48\u662Fhtml",
+        "children": []
+      }
+    ],
+    "path": "/web/html/01-html.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "\u5165\u95E8\u5BFC\u8BBA",
     "headers": [
       {
@@ -2314,20 +2365,6 @@ const searchIndex$1 = [
     "extraFields": []
   },
   {
-    "title": "html",
-    "headers": [
-      {
-        "level": 2,
-        "title": "\u4EC0\u4E48\u662FHTML\uFF1F",
-        "slug": "\u4EC0\u4E48\u662Fhtml",
-        "children": []
-      }
-    ],
-    "path": "/web/html/01-html.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Jenkins",
     "headers": [],
     "path": "/web/Jenkins/01.html",
@@ -2630,8 +2667,40 @@ const searchIndex$1 = [
     "extraFields": []
   },
   {
-    "title": "vue\u524D\u7F6E",
-    "headers": [],
+    "title": "Vue3.x",
+    "headers": [
+      {
+        "level": 2,
+        "title": "\u524D\u7F6E",
+        "slug": "\u524D\u7F6E",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u521B\u5EFAvue3.x\u9879\u76EE",
+        "slug": "\u521B\u5EFAvue3-x\u9879\u76EE",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. vite\u521B\u5EFA",
+            "slug": "_1-vite\u521B\u5EFA",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u76EE\u5F55\u89E3\u6790\uFF08\u57FA\u672C\u53D8\u5316\u89E3\u6790\uFF09",
+            "slug": "\u76EE\u5F55\u89E3\u6790-\u57FA\u672C\u53D8\u5316\u89E3\u6790",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "setup",
+        "slug": "setup",
+        "children": []
+      }
+    ],
     "path": "/web/vue3/01.html",
     "pathLocale": "/",
     "extraFields": []
@@ -3057,18 +3126,18 @@ const routeItems = [
   ["v-4d4398ea", "/web/Flutter/02.Dart%E8%AF%AD%E6%B3%95.html", { "title": "Dart\u8BED\u6CD5" }, ["/web/Flutter/02.Dart\u8BED\u6CD5.html", "/web/Flutter/02.Dart%E8%AF%AD%E6%B3%95", "/web/Flutter/02.Dart\u8BED\u6CD5.md", "/web/Flutter/02.Dart%E8%AF%AD%E6%B3%95.md"]],
   ["v-8cbd5a1e", "/web/Flutter/03.widget.html", { "title": "widget" }, ["/web/Flutter/03.widget", "/web/Flutter/03.widget.md"]],
   ["v-48456869", "/web/Flutter/04.%E5%9F%BA%E7%A1%80%E7%BB%84%E4%BB%B6.html", { "title": "\u57FA\u672C\u7EC4\u4EF6" }, ["/web/Flutter/04.\u57FA\u7840\u7EC4\u4EF6.html", "/web/Flutter/04.%E5%9F%BA%E7%A1%80%E7%BB%84%E4%BB%B6", "/web/Flutter/04.\u57FA\u7840\u7EC4\u4EF6.md", "/web/Flutter/04.%E5%9F%BA%E7%A1%80%E7%BB%84%E4%BB%B6.md"]],
+  ["v-cce3d85c", "/web/html/01-html.html", { "title": "html" }, ["/web/html/01-html", "/web/html/01-html.md"]],
   ["v-72bd4e03", "/web/JavaScript/%E5%85%A5%E9%97%A8%E5%AF%BC%E8%AE%BA.html", { "title": "\u5165\u95E8\u5BFC\u8BBA" }, ["/web/JavaScript/\u5165\u95E8\u5BFC\u8BBA.html", "/web/JavaScript/%E5%85%A5%E9%97%A8%E5%AF%BC%E8%AE%BA", "/web/JavaScript/\u5165\u95E8\u5BFC\u8BBA.md", "/web/JavaScript/%E5%85%A5%E9%97%A8%E5%AF%BC%E8%AE%BA.md"]],
   ["v-783b80d4", "/web/JavaScript/%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1.html", { "title": "\u5185\u7F6E\u5BF9\u8C61" }, ["/web/JavaScript/\u5185\u7F6E\u5BF9\u8C61.html", "/web/JavaScript/%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1", "/web/JavaScript/\u5185\u7F6E\u5BF9\u8C61.md", "/web/JavaScript/%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1.md"]],
   ["v-5debe7e1", "/web/JavaScript/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E4%B8%8E%E8%BF%90%E7%AE%97%E7%AC%A6.html", { "title": "\u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26" }, ["/web/JavaScript/\u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26.html", "/web/JavaScript/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E4%B8%8E%E8%BF%90%E7%AE%97%E7%AC%A6", "/web/JavaScript/\u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26.md", "/web/JavaScript/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E4%B8%8E%E8%BF%90%E7%AE%97%E7%AC%A6.md"]],
   ["v-24f06668", "/web/JavaScript/%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80.html", { "title": "\u8BED\u6CD5\u57FA\u7840" }, ["/web/JavaScript/\u8BED\u6CD5\u57FA\u7840.html", "/web/JavaScript/%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80", "/web/JavaScript/\u8BED\u6CD5\u57FA\u7840.md", "/web/JavaScript/%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80.md"]],
-  ["v-cce3d85c", "/web/html/01-html.html", { "title": "html" }, ["/web/html/01-html", "/web/html/01-html.md"]],
   ["v-4fa2b6ab", "/web/Jenkins/01.html", { "title": "Jenkins" }, ["/web/Jenkins/01", "/web/Jenkins/01.md"]],
   ["v-3689f102", "/web/TypeScript/01.html", { "title": "\u57FA\u7840\u7C7B\u578B" }, ["/web/TypeScript/01", "/web/TypeScript/01.md"]],
   ["v-998cc5e4", "/web/TypeScript/02.%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E.html", { "title": "\u53D8\u91CF\u58F0\u660E" }, ["/web/TypeScript/02.\u53D8\u91CF\u58F0\u660E.html", "/web/TypeScript/02.%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E", "/web/TypeScript/02.\u53D8\u91CF\u58F0\u660E.md", "/web/TypeScript/02.%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E.md"]],
   ["v-e9674cca", "/web/vue/01.html", { "title": "vue\u524D\u7F6E" }, ["/web/vue/01", "/web/vue/01.md"]],
   ["v-306f3916", "/web/vue/02vue%E6%8C%87%E4%BB%A4.html", { "title": "vue\u6307\u4EE4" }, ["/web/vue/02vue\u6307\u4EE4.html", "/web/vue/02vue%E6%8C%87%E4%BB%A4", "/web/vue/02vue\u6307\u4EE4.md", "/web/vue/02vue%E6%8C%87%E4%BB%A4.md"]],
   ["v-2ca8e124", "/web/vue/03%E5%85%A8%E5%B1%80API.html", { "title": "vue\u5168\u5C40API" }, ["/web/vue/03\u5168\u5C40API.html", "/web/vue/03%E5%85%A8%E5%B1%80API", "/web/vue/03\u5168\u5C40API.md", "/web/vue/03%E5%85%A8%E5%B1%80API.md"]],
-  ["v-d71deaac", "/web/vue3/01.html", { "title": "vue\u524D\u7F6E" }, ["/web/vue3/01", "/web/vue3/01.md"]],
+  ["v-d71deaac", "/web/vue3/01.html", { "title": "Vue3.x" }, ["/web/vue3/01", "/web/vue3/01.md"]],
   ["v-58f4867c", "/web/webpack/webpack.html", { "title": "webpack\u4ECB\u7ECD" }, ["/web/webpack/webpack", "/web/webpack/webpack.md"]],
   ["v-3706649a", "/404.html", {}, ["/404"]]
 ];
@@ -6471,8 +6540,9 @@ function _sfc_ssrRender$f(_ctx, _push, _parent, _attrs) {
   label<span class="token punctuation">:</span> <span class="token class-name">Text</span><span class="token punctuation">(</span><span class="token string">&quot;\u8BE6\u60C5&quot;</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
   onPressed<span class="token punctuation">:</span> _onPressed<span class="token punctuation">,</span>
 <span class="token punctuation">)</span><span class="token punctuation">,</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div><h2 id="\u5BB9\u5668\u7C7B\u7EC4\u4EF6" tabindex="-1"><a class="header-anchor" href="#\u5BB9\u5668\u7C7B\u7EC4\u4EF6" aria-hidden="true">#</a> \u5BB9\u5668\u7C7B\u7EC4\u4EF6</h2><h3 id="container" tabindex="-1"><a class="header-anchor" href="#container" aria-hidden="true">#</a> Container</h3><div class="language-dart ext-dart line-numbers-mode"><pre class="language-dart"><code><span class="token class-name">Container</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
-  <span class="token keyword">this</span><span class="token punctuation">.</span>alignment<span class="token punctuation">,</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div><h2 id="\u5BB9\u5668\u7C7B\u7EC4\u4EF6" tabindex="-1"><a class="header-anchor" href="#\u5BB9\u5668\u7C7B\u7EC4\u4EF6" aria-hidden="true">#</a> \u5BB9\u5668\u7C7B\u7EC4\u4EF6</h2><h3 id="container" tabindex="-1"><a class="header-anchor" href="#container" aria-hidden="true">#</a> Container</h3><p>\u6CE8\u610F\u5BB9\u5668\u548C\u5E03\u5C40\u7EC4\u4EF6\u90FD\u662F\u53EF\u4EE5\u4E92\u76F8\u5D4C\u5957\u7684</p><div class="language-dart ext-dart line-numbers-mode"><pre class="language-dart"><code><span class="token class-name">Container</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  <span class="token class-name">Key</span> key<span class="token punctuation">,</span>
+  <span class="token keyword">this</span><span class="token punctuation">.</span>alignment<span class="token punctuation">,</span><span class="token comment">//\u5B50\u7EC4\u4EF6\u7684\u5BF9\u9F50\u65B9\u5F0F</span>
   <span class="token keyword">this</span><span class="token punctuation">.</span>padding<span class="token punctuation">,</span> <span class="token comment">//\u5BB9\u5668\u5185\u8865\u767D\uFF0C\u5C5E\u4E8Edecoration\u7684\u88C5\u9970\u8303\u56F4</span>
   <span class="token class-name">Color</span> color<span class="token punctuation">,</span> <span class="token comment">// \u80CC\u666F\u8272</span>
   <span class="token class-name">Decoration</span> decoration<span class="token punctuation">,</span> <span class="token comment">// \u80CC\u666F\u88C5\u9970</span>
@@ -6482,9 +6552,81 @@ function _sfc_ssrRender$f(_ctx, _push, _parent, _attrs) {
   <span class="token class-name">BoxConstraints</span> constraints<span class="token punctuation">,</span> <span class="token comment">//\u5BB9\u5668\u5927\u5C0F\u7684\u9650\u5236\u6761\u4EF6</span>
   <span class="token keyword">this</span><span class="token punctuation">.</span>margin<span class="token punctuation">,</span><span class="token comment">//\u5BB9\u5668\u5916\u8865\u767D\uFF0C\u4E0D\u5C5E\u4E8Edecoration\u7684\u88C5\u9970\u8303\u56F4</span>
   <span class="token keyword">this</span><span class="token punctuation">.</span>transform<span class="token punctuation">,</span> <span class="token comment">//\u53D8\u6362</span>
-  <span class="token keyword">this</span><span class="token punctuation">.</span>child<span class="token punctuation">,</span>
+  <span class="token keyword">this</span><span class="token punctuation">.</span>child<span class="token punctuation">,</span><span class="token comment">//\u5B50\u8282\u70B9</span>
 <span class="token punctuation">}</span><span class="token punctuation">)</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div><p>\u6CE8\u610F\u5BB9\u5668\u548C\u5E03\u5C40\u7EC4\u4EF6\u90FD\u662F\u53EF\u4EE5\u4E92\u76F8\u5D4C\u5957\u7684</p><h2 id="\u5E03\u5C40\u7C7B\u7EC4\u4EF6" tabindex="-1"><a class="header-anchor" href="#\u5E03\u5C40\u7C7B\u7EC4\u4EF6" aria-hidden="true">#</a> \u5E03\u5C40\u7C7B\u7EC4\u4EF6</h2><p>\u6CE8\u610F\u5BB9\u5668\u548C\u5E03\u5C40\u7EC4\u4EF6\u90FD\u662F\u53EF\u4EE5\u4E92\u76F8\u5D4C\u5957\u7684</p><!--]-->`);
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br></div></div><ol><li>alignment</li></ol><p>alignment: <code>Alignment.center</code>,</p><p>\u4F7F\u7528\u65B9\u6CD5\uFF08\u5B50\u7EC4\u4EF6\u5C3A\u5BF8\u8981\u5C0F\u4E8E\u5F53\u524D\u7EC4\u4EF6\u5C3A\u5BF8\u65F6\u624D\u4F1A\u751F\u6548\uFF09\uFF1A</p><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u53C2\u6570</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">center</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5C45\u4E2D</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">centerLeft</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u9760\u5DE6\u5782\u76F4\u5C45\u4E2D</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">centerRight</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u9760\u53F3\u5782\u76F4\u5C45\u4E2D</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">bottomCenter</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5E95\u90E8\u5C45\u4E2D</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">bottomLeft</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5DE6\u4E0B</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">bottomRight</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u53F3\u4E0B</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">topCenter</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u9876\u90E8\u5C45\u4E2D</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">topLeft</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5DE6\u4E0A</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">topRight</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u53F3\u4E0A</td></tr></tbody></table><ol start="2"><li>padding &amp; margin</li></ol><p>\u8FD9\u4E24\u4E2A\u653E\u4E00\u8D77\uFF0C\u8BBE\u7F6E\u65B9\u5F0F\u76F8\u540C\uFF0C\u8FD9\u91CC\u4EE5padding\u4E3A\u4F8B\u3002</p><p><code>padding: EdgeInsets.all(10.0)</code></p><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u53C2\u6570</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">EdgeInsets.all</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u56DB\u4E2A\u5185\u8FB9\u8DDD\u503C\u76F8\u540C</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">EdgeInsets.only</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u56DB\u4E2A\u8FB9\u8DDD\u5355\u72EC\u8BBE\u7F6E\uFF0C\u4E0D\u8BBE\u7F6E\u5219\u4E3A0</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">EdgeInsets.symmetric</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u53EF\u4EE5\u8BBE\u7F6E\u540C\u65B9\u5411\u4E0A\u7684\u4E24\u4E2A\u5185\u8FB9\u8DDD</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">EdgeInsets.zero</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BBE\u7F6E\u5185\u8FB9\u8DDD\u4E3A0</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">EdgeInsets.fromLTRB</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">only\u7684\u7B80\u5199\uFF0C\u987A\u5E8F\u4E3A\u5DE6\u4E0A\u53F3\u4E0B</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">EdgeInsets.fromWindowPadding</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5177\u4F53\u7528\u6CD5\u4E0D\u77E5\u9053</td></tr></tbody></table><p>EdgeInsets\u8FD9\u4E2A\u7EC4\u4EF6\u662F\u4E2A\u516C\u7528\u7EC4\u4EF6\uFF0C\u5E76\u4E0D\u662F\u53EA\u6709padding\u53EF\u4EE5\u7528\uFF0C\u6BD4\u5982margin\u4E5F\u53EF\u4EE5</p><ol start="3"><li>color</li></ol><p>\u80CC\u666F\u8272</p><p><code>color: Colors.red</code></p><ol start="4"><li>decoration</li></ol><p><code>decoration\u4E0D\u80FD\u548Ccolor\u540C\u65F6\u7528\uFF0C\u4F1A\u62A5\u9519</code></p><div class="language-dart ext-dart line-numbers-mode"><pre class="language-dart"><code><span class="token keyword">const</span> <span class="token class-name">BoxDecoration</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  <span class="token class-name">Color</span> color<span class="token punctuation">,</span><span class="token comment">//\u548Ccolor\u4E00\u6837</span>
+  <span class="token class-name">DecorationImage</span> image<span class="token punctuation">,</span><span class="token comment">//\u80CC\u666F\u56FE\uFF0C\u53EF\u4EE5\u548C\u80CC\u666F\u8272\u4E00\u8D77\u4F7F\u7528\u3002</span>
+  <span class="token class-name">BoxBorder</span> border<span class="token punctuation">,</span>
+  <span class="token class-name">BorderRadiusGeometry</span> borderRadius<span class="token punctuation">,</span>
+  <span class="token class-name">List</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">BoxShadow</span><span class="token punctuation">&gt;</span></span> boxShadow<span class="token punctuation">,</span>
+  <span class="token class-name">Gradient</span> gradient<span class="token punctuation">,</span>
+  <span class="token class-name">BlendMode</span> backgroundBlendMode<span class="token punctuation">,</span>
+  <span class="token class-name">BoxShape</span> shape<span class="token punctuation">:</span> <span class="token class-name">BoxShape</span><span class="token punctuation">.</span>rectangle
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><ul><li>border</li></ul><p>\u8FB9\u6846\uFF0C\u5728container\u5185\u90E8\uFF0C\u548Cmargin/padding\u7C7B\u4F3C\uFF0C\u53EF\u4EE5\u5355\u72EC\u8BBE\u7F6E\u4E5F\u53EF\u4EE5\u8BBE\u7F6E\u4E3A\u7EDF\u4E00\u6837\u5F0F\u3002</p><div class="language-dart ext-dart line-numbers-mode"><pre class="language-dart"><code>decoration<span class="token punctuation">:</span> <span class="token class-name">BoxDecoration</span><span class="token punctuation">(</span>
+  <span class="token comment">//border: Border.all(width: 2.0, color: Colors.blue)          \u8BBE\u7F6E\u4E3A\u76F8\u540C\u6837\u5F0F</span>
+  top<span class="token punctuation">:</span> <span class="token class-name">BorderSide</span><span class="token punctuation">(</span>width<span class="token punctuation">:</span> <span class="token number">2.0</span><span class="token punctuation">,</span> color<span class="token punctuation">:</span> <span class="token class-name">Colors</span><span class="token punctuation">.</span>blue<span class="token punctuation">)</span><span class="token punctuation">,</span>
+  left<span class="token punctuation">:</span> <span class="token class-name">BorderSide</span><span class="token punctuation">(</span>width<span class="token punctuation">:</span> <span class="token number">4.0</span><span class="token punctuation">,</span> color<span class="token punctuation">:</span> <span class="token class-name">Colors</span><span class="token punctuation">.</span>yellow<span class="token punctuation">)</span><span class="token punctuation">,</span>
+  right<span class="token punctuation">:</span> <span class="token class-name">BorderSide</span><span class="token punctuation">(</span>width<span class="token punctuation">:</span> <span class="token number">8.0</span><span class="token punctuation">,</span> color<span class="token punctuation">:</span> <span class="token class-name">Colors</span><span class="token punctuation">.</span>green<span class="token punctuation">)</span><span class="token punctuation">,</span>
+  bottom<span class="token punctuation">:</span> <span class="token class-name">BorderSide</span><span class="token punctuation">(</span>width<span class="token punctuation">:</span> <span class="token number">16.0</span><span class="token punctuation">,</span> color<span class="token punctuation">:</span> <span class="token class-name">Colors</span><span class="token punctuation">.</span>purple<span class="token punctuation">)</span>
+<span class="token punctuation">)</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><ul><li>borderRadius</li></ul><p>\u5706\u89D2\u4E0D\u80FD\u548Cborder\u540C\u65F6\u8BBE\u7F6E\uFF0C\u540C\u65F6\u5B58\u5728\u65F6\u53EF\u4EE5\u8FD0\u884C\u4F46\u662F\u4F1A\u629B\u51FA\u4E00\u4E2A\u5F02\u5E38</p><div class="language-dart ext-dart line-numbers-mode"><pre class="language-dart"><code>decoration<span class="token punctuation">:</span> <span class="token keyword">new</span> <span class="token class-name">BoxDecoration</span><span class="token punctuation">(</span>
+  borderRadius<span class="token punctuation">:</span> <span class="token class-name">BorderRadius</span><span class="token punctuation">.</span><span class="token function">only</span><span class="token punctuation">(</span>                   <span class="token comment">//only\u5BF9\u6BCF\u4E2A\u89D2\u5355\u72EC\u8BBE\u7F6E</span>
+    bottomLeft<span class="token punctuation">:</span> <span class="token class-name">Radius</span><span class="token punctuation">.</span><span class="token function">circular</span><span class="token punctuation">(</span><span class="token number">20.0</span><span class="token punctuation">)</span><span class="token punctuation">,</span>                  <span class="token comment">//\u5706\u89D2\u503C\u4E3A20.0</span>
+    topLeft<span class="token punctuation">:</span> <span class="token class-name">Radius</span><span class="token punctuation">.</span>zero<span class="token punctuation">,</span>                                      <span class="token comment">//\u5706\u89D2\u4E3A0</span>
+    bottomRight<span class="token punctuation">:</span> <span class="token class-name">Radius</span><span class="token punctuation">.</span><span class="token function">elliptical</span><span class="token punctuation">(</span><span class="token number">20.0</span><span class="token punctuation">,</span> <span class="token number">40.0</span><span class="token punctuation">)</span>       <span class="token comment">//\u5706\u89D2x\u65B9\u5411\u4E3A20.0\uFF0Cy\u65B9\u5411\u4E3A40.0</span>
+  <span class="token punctuation">)</span>
+<span class="token punctuation">)</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><p><code>Radius.all</code>\uFF1A\u56DB\u4E2A\u89D2\u540C\u65F6\u8BBE\u7F6E\uFF0C\u53C2\u6570\u548C\u4F46\u65B9\u5411\u7684\u53C2\u6570\u76F8\u540C\uFF08borderRadius: new BorderRadius.all(Radius.circular(20.0))\uFF09\u3002</p><p><code>Radius.lerp</code>: \u505A\u52A8\u753B\u7528\u7684\u591A\u4E00\u70B9\u6682\u65F6\u5148\u4E0D\u6DF1\u5165\u3002</p><ul><li>boxShadow</li></ul><p>\u5BB9\u5668\u9634\u5F71</p><div class="language-dart ext-dart line-numbers-mode"><pre class="language-dart"><code>decoration<span class="token punctuation">:</span> <span class="token keyword">new</span> <span class="token class-name">BoxDecoration</span><span class="token punctuation">(</span>
+  boxShadow<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+    <span class="token keyword">new</span> <span class="token class-name">BoxShadow</span><span class="token punctuation">(</span>
+      color<span class="token punctuation">:</span> <span class="token class-name">Colors</span><span class="token punctuation">.</span>red<span class="token punctuation">,</span>                      <span class="token comment">//\u9634\u5F71\u989C\u8272</span>
+      offset<span class="token punctuation">:</span> <span class="token class-name">Offset</span><span class="token punctuation">(</span><span class="token number">10.0</span><span class="token punctuation">,</span> <span class="token number">20.0</span><span class="token punctuation">)</span><span class="token punctuation">,</span>          <span class="token comment">//\u504F\u79FB\u91CFx, y</span>
+      blurRadius<span class="token punctuation">:</span> <span class="token number">10.0</span><span class="token punctuation">,</span>                      <span class="token comment">//\u6A21\u7CCA</span>
+      spreadRadius<span class="token punctuation">:</span> <span class="token number">10.0</span>                  <span class="token comment">//\u5EF6\u4F38</span>
+    <span class="token punctuation">)</span><span class="token punctuation">,</span>
+  <span class="token punctuation">]</span>
+<span class="token punctuation">)</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><ul><li>gradient</li></ul><p>\u80CC\u666F\u8272\u6E10\u53D8</p><div class="language-dart ext-dart line-numbers-mode"><pre class="language-dart"><code> <span class="token comment">//\u5F84\u5411\u6E10\u53D8</span>
+decoration<span class="token punctuation">:</span> <span class="token class-name">BoxDecoration</span><span class="token punctuation">(</span>
+  gradient<span class="token punctuation">:</span> <span class="token class-name">RadialGradient</span><span class="token punctuation">(</span>                         
+    colors<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token class-name">Colors</span><span class="token punctuation">.</span>red<span class="token punctuation">,</span> <span class="token class-name">Colors</span><span class="token punctuation">.</span>blue<span class="token punctuation">]</span><span class="token punctuation">,</span>            <span class="token comment">//\u6E10\u53D8\u989C\u8272</span>
+    center<span class="token punctuation">:</span> <span class="token class-name">Alignment</span><span class="token punctuation">.</span>topLeft<span class="token punctuation">,</span>                      <span class="token comment">//\u6E10\u53D8\u4E2D\u5FC3\u70B9\uFF0C\u53EF\u4EE5\u8BBE\u5177\u4F53\u6570\u503C\uFF08center: const Alignment(0.7, -0.6)\uFF09</span>
+    radius<span class="token punctuation">:</span> <span class="token number">5.0</span>                                              <span class="token comment">//\u6E10\u53D8\u534A\u5F84</span>
+    stops<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token number">0.4</span><span class="token punctuation">,</span> <span class="token number">1.0</span><span class="token punctuation">]</span><span class="token punctuation">,</span>                                    <span class="token comment">//\u6E10\u53D8\u989C\u8272\u7684\u6BD4\u4F8B</span>
+  <span class="token punctuation">)</span><span class="token punctuation">,</span>
+<span class="token punctuation">)</span>
+
+<span class="token comment">//\u7EBF\u6027\u6E10\u53D8</span>
+gradient<span class="token punctuation">:</span> <span class="token class-name">LinearGradient</span><span class="token punctuation">(</span>
+  begin<span class="token punctuation">:</span> <span class="token class-name">Alignment</span><span class="token punctuation">.</span>topLeft<span class="token punctuation">,</span>                            <span class="token comment">//\u6E10\u53D8\u8D77\u59CB\u70B9</span>
+  end<span class="token punctuation">:</span> <span class="token class-name">Alignment</span><span class="token punctuation">(</span><span class="token number">0.1</span><span class="token punctuation">,</span> <span class="token number">0.1</span><span class="token punctuation">)</span><span class="token punctuation">,</span>                            <span class="token comment">//\u7ED3\u675F\u70B9</span>
+  colors<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token class-name">Colors</span><span class="token punctuation">.</span>red<span class="token punctuation">,</span> <span class="token class-name">Colors</span><span class="token punctuation">.</span>blue<span class="token punctuation">]</span><span class="token punctuation">,</span>              
+  tileMode<span class="token punctuation">:</span> <span class="token class-name">TileMode</span><span class="token punctuation">.</span>mirror                          <span class="token comment">//\u6A21\u5F0F\u6709\u4E09\u4E2A\u503C\uFF08mirror\uFF1A\u955C\u50CF\uFF0Cclamp: \u5355\u7EAF\u7684\u5355\u6B21\u6E10\u53D8\u4E0D\u505A\u5176\u4ED6\u5904\u7406\uFF0Crepeated: \u91CD\u590D\uFF09</span>
+<span class="token punctuation">)</span>
+
+<span class="token comment">//\u6247\u5F62\u6E10\u53D8</span>
+gradient<span class="token punctuation">:</span> <span class="token class-name">SweepGradient</span><span class="token punctuation">(</span>
+  center<span class="token punctuation">:</span> <span class="token class-name">FractionalOffset</span><span class="token punctuation">.</span>center<span class="token punctuation">,</span>    <span class="token comment">//\u6E10\u53D8\u7684\u5706\u5FC3</span>
+  startAngle<span class="token punctuation">:</span> <span class="token number">0.0</span><span class="token punctuation">,</span>                      <span class="token comment">//\u6E10\u53D8\u7684\u8D77\u59CB\u89D2\u5EA6</span>
+  endAngle<span class="token punctuation">:</span> math<span class="token punctuation">.</span>pi <span class="token operator">*</span> <span class="token number">2</span><span class="token punctuation">,</span>          <span class="token comment">//\u6E10\u53D8\u7684\u89D2\u5EA6\u8303\u56F4</span>
+  colors<span class="token punctuation">:</span> <span class="token keyword">const</span> <span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">Color</span><span class="token punctuation">&gt;</span></span><span class="token punctuation">[</span>
+    <span class="token class-name">Colors</span><span class="token punctuation">.</span>blue<span class="token punctuation">,</span>
+    <span class="token class-name">Colors</span><span class="token punctuation">.</span>green<span class="token punctuation">,</span>
+    <span class="token class-name">Colors</span><span class="token punctuation">.</span>red<span class="token punctuation">,</span>
+    <span class="token class-name">Colors</span><span class="token punctuation">.</span>yellow<span class="token punctuation">,</span>
+    <span class="token class-name">Colors</span><span class="token punctuation">.</span>pink
+  <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  stops<span class="token punctuation">:</span> <span class="token keyword">const</span> <span class="token generics"><span class="token punctuation">&lt;</span>double<span class="token punctuation">&gt;</span></span><span class="token punctuation">[</span><span class="token number">0.0</span><span class="token punctuation">,</span> <span class="token number">0.25</span><span class="token punctuation">,</span> <span class="token number">0.5</span><span class="token punctuation">,</span> <span class="token number">0.75</span><span class="token punctuation">,</span> <span class="token number">1.0</span><span class="token punctuation">]</span><span class="token punctuation">,</span>      <span class="token comment">//\u6BCF\u79CD\u989C\u8272\u6240\u5360\u7684\u6BD4\u4F8B\uFF0C\u603B\u6570\u4E3A2\uFF0C\u591A\u51FA\u90E8\u5206\u88AB\u521D\u59CB\u989C\u8272\u8986\u76D6</span>
+<span class="token punctuation">)</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br></div></div><p>\u6247\u5F62\u6E10\u53D8\u6BCF\u79CD\u989C\u8272\u7684\u57FA\u51C6\u7EBF\u4E3A\u6539\u989C\u8272\u7684\u4E2D\u5FC3\u7EBF\uFF08\u4E0D\u7406\u89E3\u7684\u81EA\u5DF1\u8BD5\u4E00\u4E0B\u5C31\u77E5\u9053\u4E86\uFF09\u3002 tileMode\u662F\u8FD9\u4E09\u79CD\u6E10\u53D8\u90FD\u6709\u7684\u5C5E\u6027\uFF0C\u4E0D\u4EC5\u9650\u4E8E\u7EBF\u6027\u6E10\u53D8\u3002 \u5F84\u5411\u6E10\u53D8\u3001\u6247\u5F62\u6E10\u53D8\u7684\u5706\u5FC3\u4F4D\u7F6E\u548C\u7EBF\u6027\u6E10\u53D8\u7684\u8D77\u59CB/\u7ED3\u675F\u5750\u6807\u90FD\u662F\u53EF\u4EE5\u8BBE\u7F6E\u5177\u4F53\u6570\u503C\u7684\u3002</p><ul><li>backgroundBlendMode</li></ul><p>\u56FE\u50CF\u6DF7\u5408\u6A21\u5F0F,\u5EFA\u8BAE\u770B\u5B98\u7F51</p><ul><li>shape</li></ul><p>\u5F53\u524DContainer\u7684\u5F62\u72B6</p><p><code>shape: BoxShape.rectangle</code></p><p>\u6709\u4E24\u4E2A\u503C <code>rectangle</code>\uFF1A\u77E9\u5F62 <code>circle</code>\uFF1A\u5706\u5F62\uFF0C\u4E0D\u4F1A\u51FA\u73B0\u692D\u5706\u7684\u60C5\u51B5\uFF0C\u5BBD\u9AD8\u4E0D\u540C\u65F6\u76F4\u5F84\u6309\u5C0F\u7684\u90A3\u4E2A\u503C\u7B97\u3002</p><ol start="5"><li>width &amp; height</li></ol><p>\u8FD9\u4FE9\u653E\u4E00\u8D77\uFF0Cdouble\u7C7B\u578B\uFF0C\u5BBD\u9AD8\u3002</p><ol start="6"><li>constraints</li></ol><p>\u5BF9Container\u7684\u5C3A\u5BF8\u7EA6\u675F</p><div class="language-dart ext-dart line-numbers-mode"><pre class="language-dart"><code>constraints<span class="token punctuation">:</span> <span class="token keyword">new</span> <span class="token class-name">BoxConstraints</span><span class="token punctuation">(</span>
+  minWidth<span class="token punctuation">:</span> <span class="token number">200.0</span><span class="token punctuation">,</span>
+  maxWidth<span class="token punctuation">:</span> <span class="token number">300.0</span><span class="token punctuation">,</span>
+  minHeight<span class="token punctuation">:</span> <span class="token number">200.0</span><span class="token punctuation">,</span>
+  maxHeight<span class="token punctuation">:</span> <span class="token number">300.0</span>
+<span class="token punctuation">)</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><ol start="7"><li>transform</li></ol><p>\u5BF9Container\u8FDB\u884C\u53D8\u6362\u64CD\u4F5C\uFF0C\u548Ccss\u7684transform\u7C7B\u4F3C\uFF0C\u503C\u662F\u4E00\u4E2A\u77E9\u9635(Matrix4),\u7535\u8BDD\u540E\u7EED\u8865\u4E0A\u3002</p><ol start="8"><li>child</li></ol><p>\u5B50\u8282\u70B9\uFF0C\u53EA\u80FD\u6709\u4E00\u4E2A\u5B50\u8282\u70B9\uFF0C\u6CA1\u6709children\u3002</p><h2 id="\u5E03\u5C40\u7C7B\u7EC4\u4EF6" tabindex="-1"><a class="header-anchor" href="#\u5E03\u5C40\u7C7B\u7EC4\u4EF6" aria-hidden="true">#</a> \u5E03\u5C40\u7C7B\u7EC4\u4EF6</h2><p>\u6CE8\u610F\u5BB9\u5668\u548C\u5E03\u5C40\u7EC4\u4EF6\u90FD\u662F\u53EF\u4EE5\u4E92\u76F8\u5D4C\u5957\u7684</p><!--]-->`);
 }
 const _sfc_setup$t = _sfc_main$t.setup;
 _sfc_main$t.setup = (props, ctx) => {
@@ -6500,25 +6642,41 @@ var _04______html$2 = /* @__PURE__ */ Object.freeze({
 });
 const _sfc_main$s = {};
 function _sfc_ssrRender$e(_ctx, _push, _parent, _attrs) {
+  _push(`<!--[--><h2 id="\u4EC0\u4E48\u662Fhtml" tabindex="-1"><a class="header-anchor" href="#\u4EC0\u4E48\u662Fhtml" aria-hidden="true">#</a> \u4EC0\u4E48\u662FHTML\uFF1F</h2><p>HTML\uFF08\u8D85\u6587\u672C\u6807\u8BB0\u8BED\u8A00\u2014\u2014HyperText Markup Language\uFF09\u662F\u6784\u6210 Web \u4E16\u754C\u7684\u4E00\u7816\u4E00\u74E6\u3002\u5B83\u5B9A\u4E49\u4E86\u7F51\u9875\u5185\u5BB9\u7684\u542B\u4E49\u548C\u7ED3\u6784\u3002\u9664 HTML \u4EE5\u5916\u7684\u5176\u5B83\u6280\u672F\u5219\u901A\u5E38\u7528\u6765\u63CF\u8FF0\u4E00\u4E2A\u7F51\u9875\u7684\u8868\u73B0\u4E0E\u5C55\u793A\u6548\u679C\uFF08\u5982 CSS\uFF09\uFF0C\u6216\u529F\u80FD\u4E0E\u884C\u4E3A\uFF08\u5982 JavaScript\uFF09\u3002</p><!--]-->`);
+}
+const _sfc_setup$s = _sfc_main$s.setup;
+_sfc_main$s.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/html/01-html.html.vue");
+  return _sfc_setup$s ? _sfc_setup$s(props, ctx) : void 0;
+};
+var _01Html_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$s, [["ssrRender", _sfc_ssrRender$e]]);
+var _01Html_html$2 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": _01Html_html$1
+});
+const _sfc_main$r = {};
+function _sfc_ssrRender$d(_ctx, _push, _parent, _attrs) {
   const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
   _push(`<!--[--><h1 id="\u5165\u95E8\u5BFC\u8BBA" tabindex="-1"><a class="header-anchor" href="#\u5165\u95E8\u5BFC\u8BBA" aria-hidden="true">#</a> \u5165\u95E8\u5BFC\u8BBA</h1><blockquote><p>\u672C\u7B14\u8BB0\u5185\u5BB9\u6574\u5408\u81EA<a href="https://wangdoc.com/javascript/index.html" target="_blank" rel="noopener noreferrer">https://wangdoc.com/javascript/index.html`);
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
   _push(`</a>,\u6559\u7A0B\u7248\u6743\u5F52\u539F\u4F5C\u8005\u6240\u6709\u3002</p></blockquote><h2 id="javascript\u4ECB\u7ECD" tabindex="-1"><a class="header-anchor" href="#javascript\u4ECB\u7ECD" aria-hidden="true">#</a> JavaScript\u4ECB\u7ECD</h2><p>JavaScript\u662F\u4E00\u79CD\u8F7B\u91CF\u7EA7\u7684\u811A\u672C\u8BED\u8A00\u3002\u6240\u8C13\u201C\u811A\u672C\u8BED\u8A00\u201D\uFF08script language\uFF09\uFF0C\u6307\u7684\u662F\u5B83\u4E0D\u5177\u5907\u5F00\u53D1\u64CD\u4F5C\u7CFB\u7EDF\u7684\u80FD\u529B\uFF0C\u800C\u662F\u53EA\u7528\u6765\u7F16\u5199\u63A7\u5236\u5176\u4ED6\u5927\u578B\u5E94\u7528\u7A0B\u5E8F\uFF08\u6BD4\u5982\u6D4F\u89C8\u5668\uFF09\u7684\u201C\u811A\u672C\u201D\u3002 </p><p>JavaScript \u4E5F\u662F\u4E00\u79CD\u5D4C\u5165\u5F0F\uFF08embedded\uFF09\u8BED\u8A00\u3002\u5B83\u672C\u8EAB\u63D0\u4F9B\u7684\u6838\u5FC3\u8BED\u6CD5\u4E0D\u7B97\u5F88\u591A\uFF0C\u53EA\u80FD\u7528\u6765\u505A\u4E00\u4E9B\u6570\u5B66\u548C\u903B\u8F91\u8FD0\u7B97\u3002JavaScript \u672C\u8EAB\u4E0D\u63D0\u4F9B\u4EFB\u4F55\u4E0E I/O\uFF08\u8F93\u5165/\u8F93\u51FA\uFF09\u76F8\u5173\u7684 API\uFF0C\u90FD\u8981\u9760\u5BBF\u4E3B\u73AF\u5883\uFF08host\uFF09\u63D0\u4F9B\uFF0C\u6240\u4EE5 JavaScript \u53EA\u5408\u9002\u5D4C\u5165\u66F4\u5927\u578B\u7684\u5E94\u7528\u7A0B\u5E8F\u73AF\u5883\uFF0C\u53BB\u8C03\u7528\u5BBF\u4E3B\u73AF\u5883\u63D0\u4F9B\u7684\u5E95\u5C42 API\u3002 </p><p>\u76EE\u524D\uFF0C\u5DF2\u7ECF\u5D4C\u5165 JavaScript \u7684\u5BBF\u4E3B\u73AF\u5883\u6709\u591A\u79CD\uFF0C\u6700\u5E38\u89C1\u7684\u73AF\u5883\u5C31\u662F\u6D4F\u89C8\u5668\uFF0C\u53E6\u5916\u8FD8\u6709\u670D\u52A1\u5668\u73AF\u5883\uFF0C\u4E5F\u5C31\u662F Node \u9879\u76EE\u3002 </p><p> JavaScript \u7684\u6838\u5FC3\u8BED\u6CD5\u90E8\u5206\u76F8\u5F53\u7CBE\u7B80\uFF0C\u53EA\u5305\u62EC\u4E24\u4E2A\u90E8\u5206\uFF1A\u57FA\u672C\u7684\u8BED\u6CD5\u6784\u9020\uFF08\u6BD4\u5982\u64CD\u4F5C\u7B26\u3001\u63A7\u5236\u7ED3\u6784\u3001\u8BED\u53E5\uFF09\u548C\u6807\u51C6\u5E93\uFF08\u5C31\u662F\u4E00\u7CFB\u5217\u5177\u6709\u5404\u79CD\u529F\u80FD\u7684\u5BF9\u8C61\u6BD4\u5982Array\u3001Date\u3001Math\u7B49\uFF09\u3002\u9664\u6B64\u4E4B\u5916\uFF0C\u5404\u79CD\u5BBF\u4E3B\u73AF\u5883\u63D0\u4F9B\u989D\u5916\u7684 API\uFF08\u5373\u53EA\u80FD\u5728\u8BE5\u73AF\u5883\u4F7F\u7528\u7684\u63A5\u53E3\uFF09\uFF0C\u4EE5\u4FBF JavaScript \u8C03\u7528\u3002\u4EE5\u6D4F\u89C8\u5668\u4E3A\u4F8B\uFF0C\u5B83\u63D0\u4F9B\u7684\u989D\u5916 API \u53EF\u4EE5\u5206\u6210\u4E09\u5927\u7C7B\u3002 </p><ul><li>\u6D4F\u89C8\u5668\u63A7\u5236\u7C7B\uFF1A\u64CD\u4F5C\u6D4F\u89C8\u5668</li><li>DOM \u7C7B\uFF1A\u64CD\u4F5C\u7F51\u9875\u7684\u5404\u79CD\u5143\u7D20</li><li>Web \u7C7B\uFF1A\u5B9E\u73B0\u4E92\u8054\u7F51\u7684\u5404\u79CD\u529F\u80FD</li></ul><p>\u6B64\u7B14\u8BB0\u51E0\u4E4E\u4E0D\u6D89\u53CANode\uFF0C\u4E3B\u8981\u53EF\u4EE5\u603B\u7ED3\u4E3A\u4EE5\u4E0B\u56DB\u90E8\u5206\uFF1A</p><ul><li>\u57FA\u672C\u8BED\u6CD5</li><li>\u6807\u51C6\u5E93</li><li>\u6D4F\u89C8\u5668 API</li><li>DOM</li></ul><h2 id="\u4F7F\u7528\u9886\u57DF" tabindex="-1"><a class="header-anchor" href="#\u4F7F\u7528\u9886\u57DF" aria-hidden="true">#</a> \u4F7F\u7528\u9886\u57DF</h2><table><thead><tr><th>\u5E73\u53F0</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6280\u80FD</th></tr></thead><tbody><tr><td>\u6D4F\u89C8\u5668\u7684\u5E73\u53F0\u5316</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6BD4\u5982\u64CD\u4F5C\u672C\u5730\u6587\u4EF6\u3001\u56FE\u7247\u3001\u8C03\u7528\u6444\u50CF\u5934\u548C\u9EA6\u514B\u98CE\u7B49\u7B49</td></tr><tr><td>Node</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">Node \u9879\u76EE\u4F7F\u5F97 JavaScript \u53EF\u4EE5\u7528\u4E8E\u5F00\u53D1\u670D\u52A1\u5668\u7AEF\u7684\u5927\u578B\u9879\u76EE</td></tr><tr><td>\u6570\u636E\u5E93\u64CD\u4F5C</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">NoSQL \u6570\u636E\u5E93\u8FD9\u4E2A\u6982\u5FF5\uFF0C\u672C\u8EAB\u5C31\u662F\u5728 JSON\uFF08JavaScript Object Notation\uFF09\u683C\u5F0F\u7684\u57FA\u7840\u4E0A\u8BDE\u751F\u7684\uFF0C\u5927\u90E8\u5206 NoSQL \u6570\u636E\u5E93\u5141\u8BB8 JavaScript \u76F4\u63A5\u64CD\u4F5C</td></tr><tr><td>\u79FB\u52A8\u5E73\u53F0\u5F00\u53D1</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">JavaScript \u4E5F\u6B63\u5728\u6210\u4E3A\u624B\u673A\u5E94\u7528\u7684\u5F00\u53D1\u8BED\u8A00\u3002\u4E00\u822C\u6765\u8BF4\uFF0C\u5B89\u5353\u5E73\u53F0\u4F7F\u7528 Java \u8BED\u8A00\u5F00\u53D1\uFF0CiOS \u5E73\u53F0\u4F7F\u7528 Objective-C \u6216 Swift \u8BED\u8A00\u5F00\u53D1\u3002</td></tr><tr><td>\u5185\u5D4C\u811A\u672C\u8BED\u8A00</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5C06 JavaScript \u4F5C\u4E3A\u5185\u5D4C\u7684\u811A\u672C\u8BED\u8A00\uFF0C\u6BD4\u5982 Adobe \u516C\u53F8\u7684\u8457\u540D PDF \u9605\u8BFB\u5668 Acrobat\u3001Linux \u684C\u9762\u73AF\u5883 GNOME 3\u3002</td></tr><tr><td>\u8DE8\u5E73\u53F0\u7684\u684C\u9762\u5E94\u7528\u7A0B\u5E8F</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">Chromium OS\u3001Windows 8 \u7B49\u64CD\u4F5C\u7CFB\u7EDF\u76F4\u63A5\u652F\u6301 JavaScript \u7F16\u5199\u5E94\u7528\u7A0B\u5E8F\u3002</td></tr></tbody></table><h2 id="javascript-\u4E0E-java-\u7684\u5173\u7CFB" tabindex="-1"><a class="header-anchor" href="#javascript-\u4E0E-java-\u7684\u5173\u7CFB" aria-hidden="true">#</a> JavaScript \u4E0E Java \u7684\u5173\u7CFB</h2><p>JavaScript \u7684\u57FA\u672C\u8BED\u6CD5\u548C\u5BF9\u8C61\u4F53\u7CFB\uFF0C\u662F\u6A21\u4EFF Java \u800C\u8BBE\u8BA1\u7684\u3002\u4F46\u662F\uFF0CJavaScript \u6CA1\u6709\u91C7\u7528 Java \u7684\u9759\u6001\u7C7B\u578B\u3002\u6B63\u662F\u56E0\u4E3A JavaScript \u4E0E Java \u6709\u5F88\u5927\u7684\u76F8\u4F3C\u6027\uFF0C\u6240\u4EE5\u8FD9\u95E8\u8BED\u8A00\u624D\u4ECE\u4E00\u5F00\u59CB\u7684 LiveScript \u6539\u540D\u4E3A JavaScript\u3002\u57FA\u672C\u4E0A\uFF0CJavaScript \u8FD9\u4E2A\u540D\u5B57\u7684\u539F\u610F\u662F\u201C\u5F88\u50CFJava\u7684\u811A\u672C\u8BED\u8A00\u201D\u3002 </p><h2 id="javascript-\u4E0E-ecmascript-\u7684\u5173\u7CFB" tabindex="-1"><a class="header-anchor" href="#javascript-\u4E0E-ecmascript-\u7684\u5173\u7CFB" aria-hidden="true">#</a> JavaScript \u4E0E ECMAScript \u7684\u5173\u7CFB</h2><p> ECMAScript \u548C JavaScript \u7684\u5173\u7CFB\u662F\uFF0C\u524D\u8005\u662F\u540E\u8005\u7684\u89C4\u683C\uFF0C\u540E\u8005\u662F\u524D\u8005\u7684\u4E00\u79CD\u5B9E\u73B0\u3002\u5728\u65E5\u5E38\u573A\u5408\uFF0C\u8FD9\u4E24\u4E2A\u8BCD\u662F\u53EF\u4EE5\u4E92\u6362\u7684\u3002 </p><p> ECMAScript \u53EA\u7528\u6765\u6807\u51C6\u5316 JavaScript \u8FD9\u79CD\u8BED\u8A00\u7684\u57FA\u672C\u8BED\u6CD5\u7ED3\u6784\uFF0C\u4E0E\u90E8\u7F72\u73AF\u5883\u76F8\u5173\u7684\u6807\u51C6\u90FD\u7531\u5176\u4ED6\u6807\u51C6\u89C4\u5B9A\uFF0C\u6BD4\u5982 DOM \u7684\u6807\u51C6\u5C31\u662F\u7531 W3C\u7EC4\u7EC7\uFF08World Wide Web Consortium\uFF09\u5236\u5B9A\u7684\u3002 <p></p> ECMA-262 \u6807\u51C6\u540E\u6765\u4E5F\u88AB\u53E6\u4E00\u4E2A\u56FD\u9645\u6807\u51C6\u5316\u7EC4\u7EC7 ISO\uFF08International Organization for Standardization\uFF09\u6279\u51C6\uFF0C\u6807\u51C6\u53F7\u662F ISO-16262\u3002 </p><!--]-->`);
 }
-const _sfc_setup$s = _sfc_main$s.setup;
-_sfc_main$s.setup = (props, ctx) => {
+const _sfc_setup$r = _sfc_main$r.setup;
+_sfc_main$r.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/JavaScript/\u5165\u95E8\u5BFC\u8BBA.html.vue");
-  return _sfc_setup$s ? _sfc_setup$s(props, ctx) : void 0;
+  return _sfc_setup$r ? _sfc_setup$r(props, ctx) : void 0;
 };
-var _____html$7 = /* @__PURE__ */ _export_sfc(_sfc_main$s, [["ssrRender", _sfc_ssrRender$e]]);
+var _____html$7 = /* @__PURE__ */ _export_sfc(_sfc_main$r, [["ssrRender", _sfc_ssrRender$d]]);
 var _____html$8 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _____html$7
 });
-const _sfc_main$r = {};
-function _sfc_ssrRender$d(_ctx, _push, _parent, _attrs) {
+const _sfc_main$q = {};
+function _sfc_ssrRender$c(_ctx, _push, _parent, _attrs) {
   const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
   _push(`<!--[--><h1 id="\u5185\u7F6E\u5BF9\u8C61" tabindex="-1"><a class="header-anchor" href="#\u5185\u7F6E\u5BF9\u8C61" aria-hidden="true">#</a> \u5185\u7F6E\u5BF9\u8C61</h1><h2 id="\u4E00\u3001object-\u5BF9\u8C61" tabindex="-1"><a class="header-anchor" href="#\u4E00\u3001object-\u5BF9\u8C61" aria-hidden="true">#</a> \u4E00\u3001Object \u5BF9\u8C61</h2><p>JavaScript \u539F\u751F\u63D0\u4F9B<code>Object</code>\u5BF9\u8C61\uFF08\u6CE8\u610F\u8D77\u9996\u7684<code>O</code>\u662F\u5927\u5199\uFF09,JavaScript \u7684\u6240\u6709\u5176\u4ED6\u5BF9\u8C61\u90FD\u7EE7\u627F\u81EA<code>Object</code>\u5BF9\u8C61\uFF0C\u5373\u90A3\u4E9B\u5BF9\u8C61\u90FD\u662F<code>Object</code>\u7684\u5B9E\u4F8B\u3002</p><p><code>Object</code>\u5BF9\u8C61\u7684\u539F\u751F\u65B9\u6CD5\u5206\u6210\u4E24\u7C7B\uFF1A<code>Object</code>\u672C\u8EAB\u7684\u65B9\u6CD5\u4E0E<code>Object</code>\u7684\u5B9E\u4F8B\u65B9\u6CD5\u3002</p><ol><li><code>Object</code>\u5BF9\u8C61\u672C\u8EAB\u7684\u65B9\u6CD5</li></ol><p>\u6240\u8C13\u201C\u672C\u8EAB\u7684\u65B9\u6CD5\u201D\u5C31\u662F\u76F4\u63A5\u5B9A\u4E49\u5728<code>Object</code>\u5BF9\u8C61\u7684\u65B9\u6CD5\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code>Object<span class="token punctuation">.</span><span class="token function-variable function">print</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">o</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>o<span class="token punctuation">)</span> <span class="token punctuation">}</span><span class="token punctuation">;</span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><ol start="2"><li><code>Object</code>\u7684\u5B9E\u4F8B\u65B9\u6CD5</li></ol><p>\u6240\u8C13\u5B9E\u4F8B\u65B9\u6CD5\u5C31\u662F\u5B9A\u4E49\u5728<code>Object</code>\u539F\u578B\u5BF9\u8C61<code>Object.prototype</code>\u4E0A\u7684\u65B9\u6CD5\u3002\u5B83\u53EF\u4EE5\u88AB<code>Object</code>\u5B9E\u4F8B\u76F4\u63A5\u4F7F\u7528\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token class-name">Object</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function-variable function">print</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
@@ -6973,20 +7131,20 @@ obj<span class="token punctuation">.</span>next <span class="token operator">=</
 <span class="token comment">// {a: 1}</span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><p>\u4E0A\u9762\u8FD9\u4E2A\u65B9\u6CD5\u7684\u95EE\u9898\u5728\u4E8E\uFF0C\u5982\u679C\u9047\u5230\u5B58\u53D6\u5668\u5B9A\u4E49\u7684\u5C5E\u6027\uFF0C\u4F1A\u53EA\u62F7\u8D1D\u503C\u3002</p><!--]-->`);
 }
-const _sfc_setup$r = _sfc_main$r.setup;
-_sfc_main$r.setup = (props, ctx) => {
+const _sfc_setup$q = _sfc_main$q.setup;
+_sfc_main$q.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/JavaScript/\u5185\u7F6E\u5BF9\u8C61.html.vue");
-  return _sfc_setup$r ? _sfc_setup$r(props, ctx) : void 0;
+  return _sfc_setup$q ? _sfc_setup$q(props, ctx) : void 0;
 };
-var _____html$5 = /* @__PURE__ */ _export_sfc(_sfc_main$r, [["ssrRender", _sfc_ssrRender$d]]);
+var _____html$5 = /* @__PURE__ */ _export_sfc(_sfc_main$q, [["ssrRender", _sfc_ssrRender$c]]);
 var _____html$6 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _____html$5
 });
-const _sfc_main$q = {};
-function _sfc_ssrRender$c(_ctx, _push, _parent, _attrs) {
+const _sfc_main$p = {};
+function _sfc_ssrRender$b(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h1 id="\u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26" tabindex="-1"><a class="header-anchor" href="#\u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26" aria-hidden="true">#</a> \u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26</h1><h2 id="_1-\u6570\u636E\u7C7B\u578B" tabindex="-1"><a class="header-anchor" href="#_1-\u6570\u636E\u7C7B\u578B" aria-hidden="true">#</a> 1.\u6570\u636E\u7C7B\u578B</h2><p>JavaScript\u516D\u79CD\u6570\u636E\u7C7B\u578B\uFF08\u6B64\u6587\u6863\u4E0D\u6D89\u53CAES6\uFF09</p><ul><li>\u6570\u503C\uFF08Number\uFF09\uFF1A \u6574\u6570\u548C\u5C0F\u6570\uFF08\u6BD4\u59821\u548C3.14\uFF09\u3002</li><li>\u5B57\u7B26\u4E32\uFF08String\uFF09\uFF1A \u6587\u672C\uFF08\u5982<code>&#39;Hello World&#39;</code>\uFF09\u3002</li><li>\u5E03\u5C14\u503C\uFF08boolean\uFF09\uFF1A \u8868\u793A\u771F\u5047\u7684\u7279\u6B8A\u503C\uFF0C\u5373\u771F\uFF08<code>true</code>\uFF09\u548C\u5047(<code>false</code>)</li><li><code>undefined</code> \uFF1A \u8868\u793A\u672A\u5B9A\u4E49\u6216\u4E0D\u5B58\u5728\uFF0C\u53EF\u7406\u89E3\u4E3A\u76EE\u524D\u6CA1\u6709\u5B9A\u4E49\uFF0C\u6240\u4EE5\u6B64\u5904\u6682\u65F6\u6CA1\u6709\u4EFB\u4F55\u503C\u3002</li><li><code>null</code> \uFF1A \u8868\u793A\u7A7A\u503C\uFF0C\u5373\u6B64\u5904\u7684\u503C\u4E3A\u7A7A\u3002</li><li>\u5BF9\u8C61\uFF08object\uFF09\uFF1A \u5404\u79CD\u503C\u7EC4\u6210\u7684\u96C6\u5408\u3002</li></ul><p>\u5BF9\u8C61\u662F\u6700\u590D\u6742\u7684\u6570\u636E\u7C7B\u578B\uFF0C\u53C8\u53EF\u4EE5\u5206\u6210\u4E09\u4E2A\u5B50\u7C7B\u578B\u3002</p><ul><li>\u72ED\u4E49\u7684\u5BF9\u8C61\uFF08object\uFF09</li><li>\u6570\u7EC4\uFF08array\uFF09</li><li>\u51FD\u6570\uFF08function\uFF09</li></ul><h3 id="null\u548Cundefined" tabindex="-1"><a class="header-anchor" href="#null\u548Cundefined" aria-hidden="true">#</a> null\u548Cundefined</h3><p>\u4E24\u8005\u90FD\u53EF\u4EE5\u8868\u793A\u201C\u6CA1\u6709\u201D\uFF0C\u542B\u4E49\u975E\u5E38\u76F8\u4F3C\uFF0C\u8BED\u6CD5\u4E0A\u51E0\u4E4E\u6CA1\u6709\u533A\u522B\u3002</p><table><thead><tr><th>\u533A\u522B</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">null</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">undefined</th></tr></thead><tbody><tr><td>\u6570\u636E\u7C7B\u578B\u4E0D\u4E00\u6837</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">console.log(typeof null)<br>//object</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">console.log(typeof undefined)<br>//undefined</td></tr><tr><td>null\u548Cundefined\u4E24\u8005\u76F8\u7B49\uFF0C\u4F46\u662F\u5F53\u4E24\u8005\u505A\u5168\u7B49\u6BD4\u8F83\u65F6\u4E24\u8005\u53C8\u4E0D\u7B49\u3002\uFF08\u56E0\u4E3A\u4ED6\u4EEC\u7684\u6570\u636E\u7C7B\u578B\u4E0D\u4E00\u6837\uFF09</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">console.log(null==undefined)<br>//ture</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">console.log(null===undefined)<br>//false</td></tr><tr><td>\u8F6C\u5316\u6210\u6570\u5B57\u4E0D\u540C</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">console.log(Number(null))<br>//0</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">console.log(Number(undefined))<br>//NaN</td></tr><tr><td>null\u4EE3\u8868\u201C\u7A7A\u201D\uFF0C\u4EE3\u8868\u7A7A\u6307\u9488\uFF1Bundefined\u662F\u5B9A\u4E49\u4E86\u6CA1\u6709\u8D4B\u503C<br>var a;</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">console.log(a);<br>//undefined</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "left" })}">var b=null;console.log(b);<br>//null</td></tr></tbody></table><p>\u6CE8\uFF1Aconsole.log()\u5728\u63A7\u5236\u53F0\u6253\u5370\u65E5\u5FD7\uFF0Ctypeof\u83B7\u53D6\u6570\u636E\u7C7B\u578B\uFF0C\u5728\u8FD9\u91CC\u4E0D\u6DF1\u7A76\uFF0C\u4E3A\u540E\u7EED\u5185\u5BB9</p><h3 id="\u5E03\u5C14\u503C-boolean" tabindex="-1"><a class="header-anchor" href="#\u5E03\u5C14\u503C-boolean" aria-hidden="true">#</a> \u5E03\u5C14\u503C\uFF08boolean\uFF09</h3><p>\u4E00\u822C\u4E0B\u5217\u8FD0\u7B97\u7B26\u4F1A\u8FD4\u56DE\u5E03\u5C14\u503C(\u5E03\u5C14\u503C\u5F80\u5F80\u7528\u4E8E\u7A0B\u5E8F\u6D41\u7A0B\u7684\u63A7\u5236)\uFF1A</p><ul><li>\u524D\u7F6E\u903B\u8F91\u8FD0\u7B97\u7B26\uFF1A<code>!</code>(Not)</li><li>\u76F8\u7B49\u8FD0\u7B97\u7B26\uFF1A<code>===</code>\uFF0C<code>!==</code>\uFF0C<code>==</code>\uFF0C<code>!=</code></li><li>\u6BD4\u8F83\u8FD0\u7B97\u7B26\uFF1A<code>&gt;</code>\uFF0C<code>&gt;=</code>\uFF0C<code>&lt;</code>\uFF0C<code>&lt;=</code></li></ul><p>\u5982\u679C\u67D0\u4E2A\u4F4D\u7F6E\u5E94\u8BE5\u662F\u5E03\u5C14\u503C\uFF0CJavaScript\u4F1A\u5C06\u8BE5\u4F4D\u7F6E\u8F6C\u6362\u4E3A\u5E03\u5C14\u503C\uFF0C\u89C4\u5219\u9664\u4E86\u4E0B\u9762\u516D\u4E2A\u503C\u88AB\u8F6C\u4E3Afalse\uFF0C\u5176\u4ED6\u503C\u90FD\u89C6\u4E3Atrue</p><ul><li><code>undefined</code></li><li><code>null</code></li><li><code>false</code></li><li><code>0</code></li><li><code>Nan</code></li><li><code>&quot;&quot;</code>\u6216<code>&#39;&#39;</code>(\u7A7A\u5B57\u7B26\u4E32)</li></ul><h3 id="\u6570\u503C-number" tabindex="-1"><a class="header-anchor" href="#\u6570\u503C-number" aria-hidden="true">#</a> \u6570\u503C\uFF08Number\uFF09</h3><p>JavaScript \u5185\u90E8\uFF0C\u6240\u6709\u6570\u5B57\u90FD\u662F\u4EE564\u4F4D\u6D6E\u70B9\u6570\u5F62\u5F0F\u50A8\u5B58\uFF0C\u7531\u4E8E\u6D6E\u70B9\u6570\u4E0D\u662F\u7CBE\u786E\u7684\u503C\uFF0C\u6240\u4EE5\u6D89\u53CA\u5C0F\u6570\u7684\u6BD4\u8F83\u548C\u8FD0\u7B97\u8981\u7279\u522B\u5C0F\u5FC3\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token number">0.1</span> <span class="token operator">+</span> <span class="token number">0.2</span> <span class="token operator">===</span> <span class="token number">0.3</span>
 <span class="token comment">// false</span>
 
@@ -7572,20 +7730,20 @@ x <span class="token comment">// 5</span>
 
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><ol start="2"><li>\u9017\u53F7\u8FD0\u7B97\u7B26</li></ol><p>\u9017\u53F7\u8FD0\u7B97\u7B26\u7528\u4E8E\u5BF9\u4E24\u4E2A\u8868\u8FBE\u5F0F\u6C42\u503C\uFF0C\u5E76\u8FD4\u56DE\u540E\u4E00\u4E2A\u8868\u8FBE\u5F0F\u7684\u503C\u3002</p><ol start="3"><li>\u8FD0\u7B97\u987A\u5E8F</li></ol><p>\u4F60\u8981\u5148\u8BB0\u4F4F\uFF1A\u6CA1\u5FC5\u8981\u8BB0\u4F4F\u6240\u6709\u8FD0\u7B97\u7B26\u7684\u4F18\u5148\u7EA7\u3002</p><p>\u4E94\u4E2A\u8FD0\u7B97\u7B26\u7684\u4F18\u5148\u7EA7\u4ECE\u9AD8\u5230\u4F4E\u4F9D\u6B21\u4E3A\uFF1A\u5C0F\u4E8E\u7B49\u4E8E\uFF08<code>&lt;=</code>\uFF09\u3001\u4E25\u683C\u76F8\u7B49\uFF08<code>===</code>\uFF09\u3001\u6216\uFF08<code>||</code>\uFF09\u3001\u4E09\u5143\uFF08<code>?:</code>\uFF09\u3001\u7B49\u53F7\uFF08<code>=</code>\uFF09\u3002</p><p>\u5706\u62EC\u53F7\uFF08<code>()</code>\uFF09\u53EF\u4EE5\u7528\u6765\u63D0\u9AD8\u8FD0\u7B97\u7684\u4F18\u5148\u7EA7\uFF0C\u56E0\u4E3A\u5B83\u7684\u4F18\u5148\u7EA7\u662F\u6700\u9AD8\u7684</p><!--]-->`);
 }
-const _sfc_setup$q = _sfc_main$q.setup;
-_sfc_main$q.setup = (props, ctx) => {
+const _sfc_setup$p = _sfc_main$p.setup;
+_sfc_main$p.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/JavaScript/\u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26.html.vue");
-  return _sfc_setup$q ? _sfc_setup$q(props, ctx) : void 0;
+  return _sfc_setup$p ? _sfc_setup$p(props, ctx) : void 0;
 };
-var _________html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$q, [["ssrRender", _sfc_ssrRender$c]]);
+var _________html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$p, [["ssrRender", _sfc_ssrRender$b]]);
 var _________html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _________html$1
 });
-const _sfc_main$p = {};
-function _sfc_ssrRender$b(_ctx, _push, _parent, _attrs) {
+const _sfc_main$o = {};
+function _sfc_ssrRender$a(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h1 id="\u8BED\u6CD5\u57FA\u7840" tabindex="-1"><a class="header-anchor" href="#\u8BED\u6CD5\u57FA\u7840" aria-hidden="true">#</a> \u8BED\u6CD5\u57FA\u7840</h1><h2 id="\u6570\u636E\u7C7B\u578B\u8F6C\u6362" tabindex="-1"><a class="header-anchor" href="#\u6570\u636E\u7C7B\u578B\u8F6C\u6362" aria-hidden="true">#</a> \u6570\u636E\u7C7B\u578B\u8F6C\u6362</h2><h3 id="\u5F3A\u5236\u8F6C\u6362" tabindex="-1"><a class="header-anchor" href="#\u5F3A\u5236\u8F6C\u6362" aria-hidden="true">#</a> \u5F3A\u5236\u8F6C\u6362</h3><ol><li><code>Number()</code></li></ol><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">// \u6570\u503C\uFF1A\u8F6C\u6362\u540E\u8FD8\u662F\u539F\u6765\u7684\u503C</span>
 <span class="token function">Number</span><span class="token punctuation">(</span><span class="token number">324</span><span class="token punctuation">)</span> <span class="token comment">// 324</span>
 
@@ -7944,33 +8102,17 @@ console<span class="token punctuation">.</span><span class="token function">grou
 <span class="token comment">//   InjectedScript.evaluate</span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><p><code>console.clear</code>\u65B9\u6CD5\u7528\u4E8E\u6E05\u9664\u5F53\u524D\u63A7\u5236\u53F0\u7684\u6240\u6709\u8F93\u51FA\uFF0C\u5C06\u5149\u6807\u56DE\u7F6E\u5230\u7B2C\u4E00\u884C\u3002\u5982\u679C\u7528\u6237\u9009\u4E2D\u4E86\u63A7\u5236\u53F0\u7684<code>\u201CPreserve log\u201D</code>\u9009\u9879\uFF0C<code>console.clear</code>\u65B9\u6CD5\u5C06\u4E0D\u8D77\u4F5C\u7528\u3002</p><h3 id="\u63A7\u5236\u53F0\u547D\u4EE4\u884C-api" tabindex="-1"><a class="header-anchor" href="#\u63A7\u5236\u53F0\u547D\u4EE4\u884C-api" aria-hidden="true">#</a> \u63A7\u5236\u53F0\u547D\u4EE4\u884C API</h3><p>\u6D4F\u89C8\u5668\u63A7\u5236\u53F0\u4E2D\uFF0C\u9664\u4E86\u4F7F\u7528<code>console</code>\u5BF9\u8C61\uFF0C\u8FD8\u53EF\u4EE5\u4F7F\u7528\u4E00\u4E9B\u63A7\u5236\u53F0\u81EA\u5E26\u7684\u547D\u4EE4\u884C\u65B9\u6CD5\u3002</p><h3 id="debugger-\u8BED\u53E5" tabindex="-1"><a class="header-anchor" href="#debugger-\u8BED\u53E5" aria-hidden="true">#</a> debugger \u8BED\u53E5</h3><p><code>debugger</code>\u8BED\u53E5\u4E3B\u8981\u7528\u4E8E\u9664\u9519\uFF0C\u4F5C\u7528\u662F\u8BBE\u7F6E\u65AD\u70B9\u3002\u5982\u679C\u6709\u6B63\u5728\u8FD0\u884C\u7684\u9664\u9519\u5DE5\u5177\uFF0C\u7A0B\u5E8F\u8FD0\u884C\u5230<code>debugger</code>\u8BED\u53E5\u65F6\u4F1A\u81EA\u52A8\u505C\u4E0B\u3002\u5982\u679C\u6CA1\u6709\u9664\u9519\u5DE5\u5177\uFF0C<code>debugger</code>\u8BED\u53E5\u4E0D\u4F1A\u4EA7\u751F\u4EFB\u4F55\u7ED3\u679C\uFF0C<code>JavaScript</code>\u5F15\u64CE\u81EA\u52A8\u8DF3\u8FC7\u8FD9\u4E00\u53E5\u3002</p><!--]-->`);
 }
-const _sfc_setup$p = _sfc_main$p.setup;
-_sfc_main$p.setup = (props, ctx) => {
+const _sfc_setup$o = _sfc_main$o.setup;
+_sfc_main$o.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/JavaScript/\u8BED\u6CD5\u57FA\u7840.html.vue");
-  return _sfc_setup$p ? _sfc_setup$p(props, ctx) : void 0;
+  return _sfc_setup$o ? _sfc_setup$o(props, ctx) : void 0;
 };
-var _____html$3 = /* @__PURE__ */ _export_sfc(_sfc_main$p, [["ssrRender", _sfc_ssrRender$b]]);
+var _____html$3 = /* @__PURE__ */ _export_sfc(_sfc_main$o, [["ssrRender", _sfc_ssrRender$a]]);
 var _____html$4 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _____html$3
-});
-const _sfc_main$o = {};
-function _sfc_ssrRender$a(_ctx, _push, _parent, _attrs) {
-  _push(`<!--[--><h2 id="\u4EC0\u4E48\u662Fhtml" tabindex="-1"><a class="header-anchor" href="#\u4EC0\u4E48\u662Fhtml" aria-hidden="true">#</a> \u4EC0\u4E48\u662FHTML\uFF1F</h2><p>HTML\uFF08\u8D85\u6587\u672C\u6807\u8BB0\u8BED\u8A00\u2014\u2014HyperText Markup Language\uFF09\u662F\u6784\u6210 Web \u4E16\u754C\u7684\u4E00\u7816\u4E00\u74E6\u3002\u5B83\u5B9A\u4E49\u4E86\u7F51\u9875\u5185\u5BB9\u7684\u542B\u4E49\u548C\u7ED3\u6784\u3002\u9664 HTML \u4EE5\u5916\u7684\u5176\u5B83\u6280\u672F\u5219\u901A\u5E38\u7528\u6765\u63CF\u8FF0\u4E00\u4E2A\u7F51\u9875\u7684\u8868\u73B0\u4E0E\u5C55\u793A\u6548\u679C\uFF08\u5982 CSS\uFF09\uFF0C\u6216\u529F\u80FD\u4E0E\u884C\u4E3A\uFF08\u5982 JavaScript\uFF09\u3002</p><!--]-->`);
-}
-const _sfc_setup$o = _sfc_main$o.setup;
-_sfc_main$o.setup = (props, ctx) => {
-  const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/web/html/01-html.html.vue");
-  return _sfc_setup$o ? _sfc_setup$o(props, ctx) : void 0;
-};
-var _01Html_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$o, [["ssrRender", _sfc_ssrRender$a]]);
-var _01Html_html$2 = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  "default": _01Html_html$1
 });
 const _sfc_main$n = {};
 function _sfc_ssrRender$9(_ctx, _push, _parent, _attrs) {
@@ -9026,6 +9168,9 @@ var _03__API_html$2 = /* @__PURE__ */ Object.freeze({
 });
 const _sfc_main$h = {};
 function _sfc_ssrRender$3(_ctx, _push, _parent, _attrs) {
+  _push(`<!--[--><h1 id="vue3-x" tabindex="-1"><a class="header-anchor" href="#vue3-x" aria-hidden="true">#</a> Vue3.x</h1><h2 id="\u524D\u7F6E" tabindex="-1"><a class="header-anchor" href="#\u524D\u7F6E" aria-hidden="true">#</a> \u524D\u7F6E</h2><ol><li>\u7B14\u8BB0\u76F4\u63A5\u57FA\u4E8E\u719F\u6089vue2\u60C5\u51B5\u4E0B\u8D77\u6B65\uFF0C\u4E0D\u518D\u662F\u96F6\u57FA\u7840\uFF0C\u53EF\u4EE5\u8BF4\u662F\u4E3B\u8981\u5B66\u4E60\u4E0Evue2\u4E0D\u540C\u7684\u5730\u65B9\u3002</li><li>\u57FA\u4E8Evite\u6784\u5EFA\u9879\u76EE\u811A\u624B\u67B6\uFF0C\u8BF4\u5B9E\u8BDD\u521D\u5B66\u8005\u5982\u679C\u7528\u4E86\u540E\u7EED\u4F1A\u6BD4\u8F83\u4F9D\u8D56\u811A\u624B\u67B6\u3002</li><li>\u5EFA\u8BAE\u5148\u770B\u5B8CTS\u518D\u6765\u89C2\u770B\u3002</li></ol><h2 id="\u521B\u5EFAvue3-x\u9879\u76EE" tabindex="-1"><a class="header-anchor" href="#\u521B\u5EFAvue3-x\u9879\u76EE" aria-hidden="true">#</a> \u521B\u5EFAvue3.x\u9879\u76EE</h2><h3 id="_1-vite\u521B\u5EFA" tabindex="-1"><a class="header-anchor" href="#_1-vite\u521B\u5EFA" aria-hidden="true">#</a> 1. vite\u521B\u5EFA</h3><p>\u73AF\u5883\uFF1A<code>node.js&gt;=12</code></p><p>\u4F7F\u7528 PNPM:</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">pnpm</span> create vite
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u4F7F\u7528 NPM:</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">npm</span> create vite@latest
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u6839\u636E\u63D0\u793A\uFF0C\u8F93\u5165\u9879\u76EE\u540D\u79F0\uFF0C\u9009\u62E9vue3\u9879\u76EE\uFF0C\u9009\u62E9vue+TS(\u4E0D\u8981ts\u4E5F\u884C)\u3002</p><h3 id="\u76EE\u5F55\u89E3\u6790-\u57FA\u672C\u53D8\u5316\u89E3\u6790" tabindex="-1"><a class="header-anchor" href="#\u76EE\u5F55\u89E3\u6790-\u57FA\u672C\u53D8\u5316\u89E3\u6790" aria-hidden="true">#</a> \u76EE\u5F55\u89E3\u6790\uFF08\u57FA\u672C\u53D8\u5316\u89E3\u6790\uFF09</h3><p>$\\iff$</p><h2 id="setup" tabindex="-1"><a class="header-anchor" href="#setup" aria-hidden="true">#</a> setup</h2><!--]-->`);
 }
 const _sfc_setup$h = _sfc_main$h.setup;
 _sfc_main$h.setup = (props, ctx) => {
@@ -9888,8 +10033,14 @@ const data$p = {
     }
   ],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1653563712e3,
+    "contributors": [
+      {
+        "name": "TRANBIOT-PZ004\\Yiren",
+        "email": "yiren@tranbiot.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "actualCombat/Flutter\u5DE5\u7A0B\u5B9E\u6218/01.\u8D77\u6B65.md"
 };
@@ -10892,12 +11043,12 @@ const data$e = {
     }
   ],
   "git": {
-    "updatedTime": 1653556198e3,
+    "updatedTime": 1653563712e3,
     "contributors": [
       {
         "name": "TRANBIOT-PZ004\\Yiren",
         "email": "yiren@tranbiot.com",
-        "commits": 3
+        "commits": 4
       }
     ]
   },
@@ -10909,6 +11060,42 @@ var _04______html = /* @__PURE__ */ Object.freeze({
   data: data$e
 });
 const data$d = {
+  "key": "v-cce3d85c",
+  "path": "/web/html/01-html.html",
+  "title": "html",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "lang": "zh-CN",
+    "title": "html",
+    "description": "html\u63CF\u8FF0"
+  },
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 2,
+      "title": "\u4EC0\u4E48\u662FHTML\uFF1F",
+      "slug": "\u4EC0\u4E48\u662Fhtml",
+      "children": []
+    }
+  ],
+  "git": {
+    "updatedTime": 164292088e4,
+    "contributors": [
+      {
+        "name": "\u9648\u67D2",
+        "email": "3062995371@qq.com",
+        "commits": 1
+      }
+    ]
+  },
+  "filePathRelative": "web/html/01-html.md"
+};
+var _01Html_html = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  data: data$d
+});
+const data$c = {
   "key": "v-72bd4e03",
   "path": "/web/JavaScript/%E5%85%A5%E9%97%A8%E5%AF%BC%E8%AE%BA.html",
   "title": "\u5165\u95E8\u5BFC\u8BBA",
@@ -10961,9 +11148,9 @@ const data$d = {
 var _____html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$d
+  data: data$c
 });
-const data$c = {
+const data$b = {
   "key": "v-783b80d4",
   "path": "/web/JavaScript/%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1.html",
   "title": "\u5185\u7F6E\u5BF9\u8C61",
@@ -11108,9 +11295,9 @@ const data$c = {
 var _____html$1 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$c
+  data: data$b
 });
-const data$b = {
+const data$a = {
   "key": "v-5debe7e1",
   "path": "/web/JavaScript/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E4%B8%8E%E8%BF%90%E7%AE%97%E7%AC%A6.html",
   "title": "\u6570\u636E\u7C7B\u578B\u4E0E\u8FD0\u7B97\u7B26",
@@ -11224,9 +11411,9 @@ const data$b = {
 var _________html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$b
+  data: data$a
 });
-const data$a = {
+const data$9 = {
   "key": "v-24f06668",
   "path": "/web/JavaScript/%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80.html",
   "title": "\u8BED\u6CD5\u57FA\u7840",
@@ -11340,42 +11527,6 @@ const data$a = {
   "filePathRelative": "web/JavaScript/\u8BED\u6CD5\u57FA\u7840.md"
 };
 var _____html = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  data: data$a
-});
-const data$9 = {
-  "key": "v-cce3d85c",
-  "path": "/web/html/01-html.html",
-  "title": "html",
-  "lang": "zh-CN",
-  "frontmatter": {
-    "lang": "zh-CN",
-    "title": "html",
-    "description": "html\u63CF\u8FF0"
-  },
-  "excerpt": "",
-  "headers": [
-    {
-      "level": 2,
-      "title": "\u4EC0\u4E48\u662FHTML\uFF1F",
-      "slug": "\u4EC0\u4E48\u662Fhtml",
-      "children": []
-    }
-  ],
-  "git": {
-    "updatedTime": 164292088e4,
-    "contributors": [
-      {
-        "name": "\u9648\u67D2",
-        "email": "3062995371@qq.com",
-        "commits": 1
-      }
-    ]
-  },
-  "filePathRelative": "web/html/01-html.md"
-};
-var _01Html_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   data: data$9
@@ -11822,15 +11973,47 @@ var _03__API_html = /* @__PURE__ */ Object.freeze({
 const data$2 = {
   "key": "v-d71deaac",
   "path": "/web/vue3/01.html",
-  "title": "vue\u524D\u7F6E",
+  "title": "Vue3.x",
   "lang": "zh-CN",
   "frontmatter": {
     "lang": "zh-CN",
-    "title": "vue\u524D\u7F6E",
+    "title": "Vue3.x",
     "description": "vue\u63CF\u8FF0"
   },
   "excerpt": "",
-  "headers": [],
+  "headers": [
+    {
+      "level": 2,
+      "title": "\u524D\u7F6E",
+      "slug": "\u524D\u7F6E",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u521B\u5EFAvue3.x\u9879\u76EE",
+      "slug": "\u521B\u5EFAvue3-x\u9879\u76EE",
+      "children": [
+        {
+          "level": 3,
+          "title": "1. vite\u521B\u5EFA",
+          "slug": "_1-vite\u521B\u5EFA",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u76EE\u5F55\u89E3\u6790\uFF08\u57FA\u672C\u53D8\u5316\u89E3\u6790\uFF09",
+          "slug": "\u76EE\u5F55\u89E3\u6790-\u57FA\u672C\u53D8\u5316\u89E3\u6790",
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "setup",
+      "slug": "setup",
+      "children": []
+    }
+  ],
   "git": {
     "updatedTime": 1651677928e3,
     "contributors": [
