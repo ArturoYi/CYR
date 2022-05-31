@@ -10146,8 +10146,14 @@ const data$s = {
     }
   ],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 165398182e4,
+    "contributors": [
+      {
+        "name": "TRANBIOT-PZ004\\Yiren",
+        "email": "yiren@tranbiot.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "course/spring\u6CE8\u89E3.md"
 };
