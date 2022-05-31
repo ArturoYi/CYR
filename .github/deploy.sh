@@ -34,7 +34,7 @@ else
   # git config --global user.name "540765"
   # git config --global user.email "3062995371@qq.com"
   # git init
-  # git remote add origin $githubUrl
+  git remote add origin $githubUrl
 fi
   # git init
   git add .
