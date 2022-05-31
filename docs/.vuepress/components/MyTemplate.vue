@@ -36,7 +36,9 @@ export default {
 };
 </script><style>
 .test {
-  /* margin: 50px; */
+  height: 100%;
+  margin-top: 50px;
+  padding-bottom: 550px;
   display: grid;
   grid-template-columns: repeat(auto-fit, 300px);
   grid-gap: 10px 10px;
