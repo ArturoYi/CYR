@@ -20,7 +20,7 @@ export const sidebar = {
   "/web/TypeScript/": [
     {
       text: "TypeScript学习",
-      children: ["01.md", "02.变量声明.md"],
+      children: ["01.md", "02.变量声明.md","03.接口.md","04.类.md"],
     },
   ],
   "/web/JavaScript/": [
