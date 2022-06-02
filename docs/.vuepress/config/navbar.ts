@@ -4,19 +4,19 @@ export const navbar = [
     text: "首页",
     link: "/",
   },
-  // {
-  //   text: "后端",
-  //   children: [
-  //     { text: "《Java基础》", link: "/" },
-  //     { text: "《数据结构与算法》", link: "/" },
-  //     { text: "《计算机导论》", link: "/" },
-  //     { text: "《计算机网络》", link: "/" },
-  //     { text: "《MySQL 数据库》", link: "/" },
-  //     { text: "《Java Web》", link: "/" },
-  //     { text: "《SSM》", link: "/" },
-  //     { text: "《SpringBoot 2》", link: "/" },
-  //   ],
-  // },
+  {
+    text: "后端",
+    children: [
+      { text: "《Java基础》", link: "/java/《java入门》/01.基础介绍.md" },
+      // { text: "《数据结构与算法》", link: "/" },
+      // { text: "《计算机导论》", link: "/" },
+      // { text: "《计算机网络》", link: "/" },
+      // { text: "《MySQL 数据库》", link: "/" },
+      // { text: "《Java Web》", link: "/" },
+      // { text: "《SSM》", link: "/" },
+      // { text: "《SpringBoot 2》", link: "/" },
+    ],
+  },
   {
     text: "前端",
     children: [

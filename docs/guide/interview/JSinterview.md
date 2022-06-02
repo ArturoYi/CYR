@@ -10,7 +10,7 @@ tags:
   - 其他
 ---
 
-<style>
+<!-- <style>
 table
 {
     margin: auto;
@@ -20,7 +20,7 @@ img {
     left: 50%;
     transform: translateX(-50%);
 }
-</style>
+</style> -->
 # JS面试
 
 > **不分顺序，忠告：JS的面试题很多，现在每个面试官都试图问出不一样的问题，但知识点都是接近的，所以应该花更多时间在学习上，祝好运**。
