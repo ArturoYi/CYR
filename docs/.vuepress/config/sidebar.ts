@@ -1,4 +1,10 @@
 export const sidebar = {
+  "/java/springboot/":[
+    {
+      text:"springboot",
+      children:["01.springboot"],
+    }
+  ],
   "/web/vue/": [
     {
       text: "VUE2.x",

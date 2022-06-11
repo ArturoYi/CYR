@@ -49,6 +49,7 @@ export const navbar = [
         text: "Jenkins",
         link: "/web/Jenkins/01.md",
       },
+      { text: "springboot", link: "/java/springboot/01.springboot.md" },
     ],
   },
   {
