@@ -11537,8 +11537,14 @@ const data$n = {
     }
   ],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 165496674e4,
+    "contributors": [
+      {
+        "name": "\u9648\u67D2",
+        "email": "3062995371@qq.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "java/springboot/01.springboot.md"
 };
