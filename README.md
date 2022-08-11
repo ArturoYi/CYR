@@ -8,7 +8,9 @@
 <br>
 <br>
 <br>
-基于vuepress.2x构建的静态文档项目，很多朋友会选择更快速的 Gitee Pages 部署项目，但是它不像 GitHub Pages 那样，一提交代码就能自动更新 Pages，这里你可以参考[yanglbme](https://github.com/yanglbme)开发的[Gitee Pages Action](https://github.com/marketplace/actions/gitee-pages-action)，注：首次需要**手动**登录 Gitee ，点击“启动”进行 Gitee Pages 服务的部署。
+
+- 基于vuepress.2x构建的静态文档项目，很多朋友会选择更快速的 Gitee Pages 部署项目，但是它不像 GitHub Pages 那样，一提交代码就能自动更新 Pages，这里你可以参考[yanglbme](https://github.com/yanglbme) 开发的[Gitee Pages Action](https://github.com/marketplace/actions/gitee-pages-action)，注：首次需要**手动**登录 Gitee ，点击“启动”进行 Gitee Pages 服务的部署。
+
 ## 1.构键
 你可以从一个主题入手：先构键自己的项目。
 这里推荐你两个主题(点击logo查看)：
@@ -72,14 +74,14 @@
 
 ## 3.根据需要修改参数
 
-| 参数 | 描述 | 是否必传 | 默认值 | 示例 |
-| ---------------- | ----------------------------- | -------- | -------- | ------------------------------- |
-| `gitee-用户名` | Gitee 用户名 | 是| - | `yanglbme` |
-| `gitee-密码` | Gitee 密码 | 是| - | `${{secrets.GITEE_PASSWORD }}` |
-| `gitee-repo` | Gitee 仓库（严格范围大小写） | 是| - | `doocs/leetcode` |
-| `分支` | 要开发的分支（必须存在） | 否 | `大师` | `主要` |
-| `目录` | 要部署的分支上的目录| 否 | | `src` |
-| `https` | 必须强制使用HTTPS | 否 | `真实` | `假` |
+| 参数           | 描述                         | 是否必传 | 默认值 | 示例                           |
+| -------------- | ---------------------------- | -------- | ------ | ------------------------------ |
+| `gitee-用户名` | Gitee 用户名                 | 是       | -      | `yanglbme`                     |
+| `gitee-密码`   | Gitee 密码                   | 是       | -      | `${{secrets.GITEE_PASSWORD }}` |
+| `gitee-repo`   | Gitee 仓库（严格范围大小写） | 是       | -      | `doocs/leetcode`               |
+| `分支`         | 要开发的分支（必须存在）     | 否       | `大师` | `主要`                         |
+| `目录`         | 要部署的分支上的目录         | 否       |        | `src`                          |
+| `https`        | 必须强制使用HTTPS            | 否       | `真实` | `假`                           |
 
 先使用[ wearerequired/git-mirror-action ](https://github.com/wearerequired/git-mirror-action)将GitHub仓库同步到Gitee仓库，再使用[ yanglbme/gitee-pages-action ](https: //github.com/yanglbme/gitee-pages-action) 实现Gitee Pages的自动部署。
 
@@ -131,19 +133,19 @@ Run yanglbme/gitee-pages-action@main
 <img src="https://cdn.jsdelivr.net/gh/yanglbme/gitee-pages-action@main/images/wechat_notification.jpg" alt="add_ssh_key_gitee" style="width: 750px; height: 1334px;" />
 
 ## 4.错误及解决方案
-| #   | 错误 |              解决方案            |
-| --- | ----------- | ------------|
-| 1   | Error: Wrong username or password, login failed .  | 帐号或密码错误，请检查参数 `gitee-username`、`gitee-password`是否准确配置。  |
-| 2   | Error: Need captcha validation, please visit https://gitee.com/login, login to validate your account.   | 需要图片验证码校验。可以手动登录 Gitee 官方，校验验证码。  |
-| 3   | Error: Need phone captcha validation, please follow wechat official account "Gitee" to bind account to turn off authentication.                                                                                                                                                                                                                        | 需要短信验证码校验。可以关注 Gitee 微信公众号，并绑定 Gitee 帐号，接收登录提示。[#6](https://github.com/yanglbme/gitee-pages-action/issues/6)           |
-| 4   | Error: Do not deploy frequently, try again one minute later.                                                                                                                                                                                                                                                                                           | 短期内频繁部署 Gitee Pages 导致，可以稍后再触发自动部署。                                                                                               |
-| 5   | Error: Deploy error occurred, please check your input `gitee-repo`.                                                                                                                                                                                                                                                                                    | `gitee-repo` 参数格式如：`doocs/leetcode`，并且严格区分大小写，请准确填写。[#10](https://github.com/yanglbme/gitee-pages-action/issues/10)              |
-| 6   | Error: Unknown error occurred in login method, resp: ...                                                                                                                                                                                                                                                                                               | 登录出现未知错误，请在 [issues](https://github.com/yanglbme/gitee-pages-action/issues) 区反馈。                                                         |
-| 7   | Error: Rebuild page error, status code: xxx                                                                                                                                                                                                                                                                                                            | 更新 Pages 时状态码异常，请尝试再次触发 Action 执行。也可能为 gitee pages 未初始化，第一次需要手动部署 gitee pages。                                    |
-| 8   | Error: HTTPSConnectionPool(host='gitee.com', port=443): Read timed out. (read timeout=6)<br><br>Error: HTTPSConnectionPool(host='gitee.com', port=443): Max retries exceeded with url: /login (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f6c889d42e8>, 'Connection to gitee.com timed out. (connect timeout=6)')) | 网络请求出错，请尝试 Re-run jobs 。[#27](https://github.com/yanglbme/gitee-pages-action/issues/27)                                                      |
-| 9   | git@github.com: Permission denied (publickey).<br>fatal: Could not read from remote repository.<br>Please make sure you have the correct access rights and the repository exists..                                                                                                                                                                     | SSH 公私钥配置有问题，或是使用了带密码的私钥，请参照上文提及的密钥配置步骤进行相应配置。[#29](https://github.com/yanglbme/gitee-pages-action/issues/29) |
-| 10  | Hexo Gitee Pages 自动部署站点问题。                                                                                                                                                                                                                                                                                                                    | [@No5972](https://github.com/No5972) 详细给出了一种解决方案。[#34](https://github.com/yanglbme/gitee-pages-action/issues/34)                            |
-| ...... | ......   |......|
+| #      | 错误                                                                                                                                                                                                                                                                                                                                                   | 解决方案                                                                                                                                                |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1      | Error: Wrong username or password, login failed .                                                                                                                                                                                                                                                                                                      | 帐号或密码错误，请检查参数 `gitee-username`、`gitee-password`是否准确配置。                                                                             |
+| 2      | Error: Need captcha validation, please visit https://gitee.com/login, login to validate your account.                                                                                                                                                                                                                                                  | 需要图片验证码校验。可以手动登录 Gitee 官方，校验验证码。                                                                                               |
+| 3      | Error: Need phone captcha validation, please follow wechat official account "Gitee" to bind account to turn off authentication.                                                                                                                                                                                                                        | 需要短信验证码校验。可以关注 Gitee 微信公众号，并绑定 Gitee 帐号，接收登录提示。[#6](https://github.com/yanglbme/gitee-pages-action/issues/6)           |
+| 4      | Error: Do not deploy frequently, try again one minute later.                                                                                                                                                                                                                                                                                           | 短期内频繁部署 Gitee Pages 导致，可以稍后再触发自动部署。                                                                                               |
+| 5      | Error: Deploy error occurred, please check your input `gitee-repo`.                                                                                                                                                                                                                                                                                    | `gitee-repo` 参数格式如：`doocs/leetcode`，并且严格区分大小写，请准确填写。[#10](https://github.com/yanglbme/gitee-pages-action/issues/10)              |
+| 6      | Error: Unknown error occurred in login method, resp: ...                                                                                                                                                                                                                                                                                               | 登录出现未知错误，请在 [issues](https://github.com/yanglbme/gitee-pages-action/issues) 区反馈。                                                         |
+| 7      | Error: Rebuild page error, status code: xxx                                                                                                                                                                                                                                                                                                            | 更新 Pages 时状态码异常，请尝试再次触发 Action 执行。也可能为 gitee pages 未初始化，第一次需要手动部署 gitee pages。                                    |
+| 8      | Error: HTTPSConnectionPool(host='gitee.com', port=443): Read timed out. (read timeout=6)<br><br>Error: HTTPSConnectionPool(host='gitee.com', port=443): Max retries exceeded with url: /login (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f6c889d42e8>, 'Connection to gitee.com timed out. (connect timeout=6)')) | 网络请求出错，请尝试 Re-run jobs 。[#27](https://github.com/yanglbme/gitee-pages-action/issues/27)                                                      |
+| 9      | git@github.com: Permission denied (publickey).<br>fatal: Could not read from remote repository.<br>Please make sure you have the correct access rights and the repository exists..                                                                                                                                                                     | SSH 公私钥配置有问题，或是使用了带密码的私钥，请参照上文提及的密钥配置步骤进行相应配置。[#29](https://github.com/yanglbme/gitee-pages-action/issues/29) |
+| 10     | Hexo Gitee Pages 自动部署站点问题。                                                                                                                                                                                                                                                                                                                    | [@No5972](https://github.com/No5972) 详细给出了一种解决方案。[#34](https://github.com/yanglbme/gitee-pages-action/issues/34)                            |
+| ...... | ......                                                                                                                                                                                                                                                                                                                                                 | ......                                                                                                                                                  |
 ## 5.自动打包部署
 
 这个文件非必须，完成上面部署你只需要要很简单就可以完成部署，下面是更进一步。
