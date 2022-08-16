@@ -1,9 +1,19 @@
 export const sidebar = {
-  "/java/springboot/":[
+  "/java/git/": [
     {
-      text:"springboot",
-      children:["01.springboot"],
-    }
+      text: "git",
+      children: ["01.git版本控制.md"],
+    },
+  ],
+  "/java/springboot/": [
+    {
+      text: "springboot",
+      children: [
+        "01.springboot.md",
+        "02.springboot启动原理.md",
+        "03.springboot自动配置.md",
+      ],
+    },
   ],
   "/web/vue/": [
     {
@@ -26,7 +36,7 @@ export const sidebar = {
   "/web/TypeScript/": [
     {
       text: "TypeScript学习",
-      children: ["01.md", "02.变量声明.md","03.接口.md","04.类.md"],
+      children: ["01.md", "02.变量声明.md", "03.接口.md", "04.类.md"],
     },
   ],
   "/web/JavaScript/": [

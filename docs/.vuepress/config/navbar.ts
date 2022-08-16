@@ -50,6 +50,10 @@ export const navbar = [
         link: "/web/Jenkins/01.md",
       },
       { text: "springboot", link: "/java/springboot/01.springboot.md" },
+      {
+        text: "git",
+        link: "/java/git/01.git版本控制.md",
+      },
     ],
   },
   {
