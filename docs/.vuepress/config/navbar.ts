@@ -61,7 +61,7 @@ export const navbar = [
     children: [
       {
         text: "教程",
-        link: "/course/README.md",
+        link: "/guide/教程/text.md",
       },
       {
         text: "面试",
