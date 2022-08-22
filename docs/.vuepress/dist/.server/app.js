@@ -1943,70 +1943,108 @@ const searchIndex$1 = [
     "title": "java",
     "headers": [
       {
-        "level": 3,
-        "title": "\u524D\u671F\u804A\u804A",
-        "slug": "\u524D\u671F\u804A\u804A",
-        "children": []
+        "level": 2,
+        "title": "\u524D\u671F",
+        "slug": "\u524D\u671F",
+        "children": [
+          {
+            "level": 3,
+            "title": "\u5B78\u7FD2\u65B9\u6CD5",
+            "slug": "\u5B78\u7FD2\u65B9\u6CD5",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u4EC0\u9EBC\u662F\u8A08\u7B97\u6A5F\uFF08\u786C\u4EF6\u548C\u8EDF\u4EF6\uFF09\uFF1F",
+            "slug": "\u4EC0\u9EBC\u662F\u8A08\u7B97\u6A5F-\u786C\u4EF6\u548C\u8EDF\u4EF6",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Windows \u5FEB\u6377\u9375",
+            "slug": "windows-\u5FEB\u6377\u9375",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "DOS \u547D\u4EE4\uFF08\u547D\u4EE4\u884C\uFF09",
+            "slug": "dos-\u547D\u4EE4-\u547D\u4EE4\u884C",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "java \u8A95\u751F\u548C\u7279\u6027\u53CA\u512A\u52E2",
+            "slug": "java-\u8A95\u751F\u548C\u7279\u6027\u53CA\u512A\u52E2",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "java \u4E09\u5927\u7248\u672C",
+            "slug": "java-\u4E09\u5927\u7248\u672C",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "JDK JRE JVM",
+            "slug": "jdk-jre-jvm",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u5B89\u88DD JDK",
+            "slug": "\u5B89\u88DD-jdk",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u5378\u8F09 JDK",
+            "slug": "\u5378\u8F09-jdk",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "HelloWorld",
+            "slug": "helloworld",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u7DE8\u8B6F\u578B\u548C\u89E3\u91CB\u578B",
+            "slug": "\u7DE8\u8B6F\u578B\u548C\u89E3\u91CB\u578B",
+            "children": []
+          }
+        ]
       },
       {
-        "level": 3,
-        "title": "\u5B78\u7FD2\u65B9\u6CD5",
-        "slug": "\u5B78\u7FD2\u65B9\u6CD5",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "\u4EC0\u9EBC\u662F\u8A08\u7B97\u6A5F\uFF08\u786C\u4EF6\u548C\u8EDF\u4EF6\uFF09\uFF1F",
-        "slug": "\u4EC0\u9EBC\u662F\u8A08\u7B97\u6A5F-\u786C\u4EF6\u548C\u8EDF\u4EF6",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "Windows\u5FEB\u6377\u9375",
-        "slug": "windows\u5FEB\u6377\u9375",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "DOS\u547D\u4EE4\uFF08\u547D\u4EE4\u884C\uFF09",
-        "slug": "dos\u547D\u4EE4-\u547D\u4EE4\u884C",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "java\u8A95\u751F\u548C\u7279\u6027\u53CA\u512A\u52E2",
-        "slug": "java\u8A95\u751F\u548C\u7279\u6027\u53CA\u512A\u52E2",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "java\u4E09\u5927\u7248\u672C",
-        "slug": "java\u4E09\u5927\u7248\u672C",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "JDK JRE JVM",
-        "slug": "jdk-jre-jvm",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "\u5B89\u88DDJDK",
-        "slug": "\u5B89\u88DDjdk",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "\u5378\u8F09JDK",
-        "slug": "\u5378\u8F09jdk",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "HelloWorld",
-        "slug": "helloworld",
-        "children": []
+        "level": 2,
+        "title": "Java \u8A9E\u6CD5",
+        "slug": "java-\u8A9E\u6CD5",
+        "children": [
+          {
+            "level": 3,
+            "title": "\u6CE8\u91CB\uFF0C\u6A19\u8B58\u7B26\uFF0C\u95DC\u9375\u5B57",
+            "slug": "\u6CE8\u91CB-\u6A19\u8B58\u7B26-\u95DC\u9375\u5B57",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u6578\u64DA\u985E\u578B",
+            "slug": "\u6578\u64DA\u985E\u578B",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u7C7B\u578B\u8F6C\u6362",
+            "slug": "\u7C7B\u578B\u8F6C\u6362",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u53D8\u91CF\uFF0C\u5E38\u91CF\uFF0C\u4F5C\u7528\u57DF",
+            "slug": "\u53D8\u91CF-\u5E38\u91CF-\u4F5C\u7528\u57DF",
+            "children": []
+          }
+        ]
       }
     ],
     "path": "/java/%E3%80%8Ajava%E5%85%A5%E9%97%A8%E3%80%8B/01.%E5%9F%BA%E7%A1%80%E4%BB%8B%E7%BB%8D.html",
@@ -6462,11 +6500,11 @@ var _03_springboot_____html$2 = /* @__PURE__ */ Object.freeze({
 const _sfc_main$B = {};
 function _sfc_ssrRender$n(_ctx, _push, _parent, _attrs) {
   const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
-  _push(`<!--[--><h1 id="java" tabindex="-1"><a class="header-anchor" href="#java" aria-hidden="true">#</a> java</h1><h3 id="\u524D\u671F\u804A\u804A" tabindex="-1"><a class="header-anchor" href="#\u524D\u671F\u804A\u804A" aria-hidden="true">#</a> \u524D\u671F\u804A\u804A</h3><p>\u770B\u4F86<a href="https://www.kuangstudy.com/course" target="_blank" rel="noopener noreferrer">kuangstudy`);
+  _push(`<!--[--><h1 id="java" tabindex="-1"><a class="header-anchor" href="#java" aria-hidden="true">#</a> java</h1><h2 id="\u524D\u671F" tabindex="-1"><a class="header-anchor" href="#\u524D\u671F" aria-hidden="true">#</a> \u524D\u671F</h2><p>\u770B\u4F86<a href="https://www.kuangstudy.com/course" target="_blank" rel="noopener noreferrer">kuangstudy`);
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
-  _push(`</a>\u6559\u7A0B\uFF0C\u6B64\u6559\u7A0B\u57FA\u790E\u90E8\u5206\u6703\u6709\u9EDE\u562E\u53E8\u3002</p><h3 id="\u5B78\u7FD2\u65B9\u6CD5" tabindex="-1"><a class="header-anchor" href="#\u5B78\u7FD2\u65B9\u6CD5" aria-hidden="true">#</a> \u5B78\u7FD2\u65B9\u6CD5</h3><ul><li>\u4E0B\u9762\u6559\u7A0B\u90FD\u57FA\u65BC\u81EA\u5DF1\u535A\u5BA2\u76EE\u7684\u8A18\u9304\uFF0C\u76EE\u9304\u7AE0\u7BC0\u53EF\u6839\u64DA\u6559\u7A0B\uFF0C\u5167\u5BB9\u52D9\u5FC5\u81EA\u5DF1\u7E3D\u7D50\u3002</li></ul><ol><li>\u8A08\u7B97\u6A5F\u57FA\u790E</li><li>java\u57FA\u790E\u8A9E\u6CD5</li><li>\u9762\u5411\u5C0D\u8C61</li><li>\u7570\u5E38</li><li>\u5E38\u7528\u985E</li><li>\u96C6\u5408\u6846\u67B6</li><li>IO</li><li>\u591A\u7DDA\u7A0B</li><li>GUI\uFF08\u8ACB\u8DF3\u904E\u9019\u968E\u6BB5\uFF09</li><li>\u7DB2\u7D61\u7DE8\u7A0B</li><li>\u8A3B\u89E3\u548C\u53CD\u5C04</li><li>JUC\u7DE8\u7A0B</li><li>JVM\u63A2\u7A76</li><li>\u3010\u64F4\u5C55\u301123\u79CD\u8A2D\u8A08\u6A21\u5F0F</li><li>\u3010\u64F4\u5C55\u3011XML</li><li>\u3010\u64F4\u5C55\u3011\u6578\u64DA\u7D50\u69CB\u548C\u7B97\u6CD5</li><li>\u3010\u64F4\u5C55\u3011\u6B63\u5247\u8868\u9054\u5F0F</li></ol><h3 id="\u4EC0\u9EBC\u662F\u8A08\u7B97\u6A5F-\u786C\u4EF6\u548C\u8EDF\u4EF6" tabindex="-1"><a class="header-anchor" href="#\u4EC0\u9EBC\u662F\u8A08\u7B97\u6A5F-\u786C\u4EF6\u548C\u8EDF\u4EF6" aria-hidden="true">#</a> \u4EC0\u9EBC\u662F\u8A08\u7B97\u6A5F\uFF08\u786C\u4EF6\u548C\u8EDF\u4EF6\uFF09\uFF1F</h3><p>\u9019\u968E\u6BB5\u4F60\u53EF\u9078\uFF0C\u4F46\u662F\u5B78\u5230\u5F8C\u9762\u767C\u73FE\u9084\u662F\u6709\u5FC5\u8981\u56DE\u982D\u770B\u4E00\u4E0B\u3002</p><ol><li>\u7531\u786C\u4EF6\u548C\u8EDF\u4EF6\u7D44\u6210</li></ol><ul><li>\u786C\u4EF6\uFF1A\u4F60\u662F\u4E0D\u662F\u6700\u5148\u60F3\u5230<code>CPU</code>\uFF0C<code>\u5167\u5B58\u689D</code>\uFF0C<code>\u786C\u76E4</code>\uFF0C<code>\u4E3B\u677F</code>\uFF0C<code>IO\u8A2D\u5099</code>\u7B49\u7B49\u3002 \u804A\u9EDE\u5225\u7684\uFF1A<code>\u99AE\xB7\u8AFE\u4F9D\u66FC</code>\uFF0C\u8A08\u7B97\u6A5F\u4E4B\u7236\uFF0C\u63D0\u51FA\u4E86\u4E00\u500B\u99AE\u8AFE\u4F9D\u66FC\u9AD4\u7CFB\u7D50\u69CB\uFF0C\u9084\u6709\u4E00\u500B\u5716\u9748\u3002\u4E0D\u8AAA\u4E86\u81EA\u5DF1\u53BB\u770B\uFF0C\u9019\u4E9B\u4E0D\u662F\u6280\u8853\u662F\u6B77\u53F2\u3002</li><li>\u8EDF\u4EF6\uFF1A\u7CFB\u7D71\u8EDF\u4EF6\u548C\u61C9\u7528\u8EDF\u4EF6\u3002\u6211\u5011\u4E3B\u8981\u5B78\u7684\u5C31\u662F\u9032\u884C\u8EDF\u4EF6\u958B\u767C\uFF0C\u501F\u4F4F\u958B\u767C\u5DE5\u5177\u9032\u884C\u8EDF\u4EF6\u958B\u767C\u5C31\u662F\u8EDF\u4EF6\u958B\u767C\uFF0C\u5B78\u7FD2\u958B\u767C\u5C31\u662F\u9019\u6A23\u5957\u5A03\u3002</li></ul><ol start="2"><li>\u8A08\u7B97\u6A5F\u767C\u5C55\u53F2</li></ol><p>\u6A5F\u5668\u8A9E\u97F3\uFF1A\u53EA\u6709\uFF1A0\u548C1 \u5F59\u7DE8\u8A9E\u97F3\uFF1A\u4F7F\u7528\u6307\u4EE4\u4EE3\u66FF\u4E8C\u9032\u5236 \u9AD8\u7D1A\u8A9E\u97F3\uFF1A\u5C31\u662F\u7DE8\u7A0B\u8A9E\u97F3\uFF0Cc(\u53EF\u4EE5\u8AAA\u9F3B\u7956\uFF0C\u9762\u5411\u904E\u7A0B)\uFF0Cc#\uFF08\u9762\u5411\u904E\u7A0B\uFF09\uFF0Cc++\uFF0Cjava\u3002</p><h3 id="windows\u5FEB\u6377\u9375" tabindex="-1"><a class="header-anchor" href="#windows\u5FEB\u6377\u9375" aria-hidden="true">#</a> Windows\u5FEB\u6377\u9375</h3><p><code>Ctrl+C</code> \u8907\u88FD <code>Ctrl+V</code> \u7C98\u8CBC <code>Ctrl+A</code> \u5168\u9078 <code>Ctrl+Z</code> \u64A4\u92B7 <code>Ctrl+S</code> \u4FDD\u5B58</p><p><code>Win+E</code> \u6211\u7684\u96FB\u8166 <code>Win+R</code> \u904B\u884C <code>Win+R cmd</code> cmd\u547D\u4EE4\u884C\u7A97\u53E3</p><p><code>Ctrl+Shift+Esc</code> \u4EFB\u52D9\u7BA1\u7406\u5668</p><p>......</p><p>\u9019\u4E09\u500B\u5F88\u53EF\u6015</p><h3 id="dos\u547D\u4EE4-\u547D\u4EE4\u884C" tabindex="-1"><a class="header-anchor" href="#dos\u547D\u4EE4-\u547D\u4EE4\u884C" aria-hidden="true">#</a> DOS\u547D\u4EE4\uFF08\u547D\u4EE4\u884C\uFF09</h3><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5BEB\u6CD5</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4F5C\u7528</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>cd ..</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u9000\u51FA\u4E00\u7EA7\u76EE\u5F55(\u8FD4\u56DE\u4E0A\u4E00\u7D1A\u76EE\u9304)</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>cd [\u6587\u4EF6\u5939\u540D]</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8FDB\u5165\u6307\u5B9A\u6587\u4EF6\u5939</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>cd \\</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u76F4\u63A5\u9000\u5230\u6839\u76EE\u5F55</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>clean</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6E05\u7A7A\u8F38\u51FA</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>tree</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6253\u5370\u76EE\u9304\u6A39</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>D:</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u76E4\u5207\u63DB\uFF0C\u9019\u6307\u5207\u5230D\u76E4</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>dir</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6253\u5370\u7576\u524D\u6240\u6709\u6587\u4EF6</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>md [\u76D8\u7B26][\u8DEF\u5F84]</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5275\u5EFA\u6587\u4EF6</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>RD [\u76D8\u7B26][\u8DEF\u5F84]</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u522A\u9664\u76EE\u9304</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>exit</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u9000\u51FA\u7D42\u7AEF</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>ipconfig</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">ip\u8A2D\u7F6E</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>calc</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8A08\u7B97\u6A5F</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>notepad</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6587\u672C</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>ping [www.baidu.com]</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u7372\u53D6ip\u5730\u5740</td></tr></tbody></table><h3 id="java\u8A95\u751F\u548C\u7279\u6027\u53CA\u512A\u52E2" tabindex="-1"><a class="header-anchor" href="#java\u8A95\u751F\u548C\u7279\u6027\u53CA\u512A\u52E2" aria-hidden="true">#</a> java\u8A95\u751F\u548C\u7279\u6027\u53CA\u512A\u52E2</h3><p>java\u8A95\u751F\u5728c\u8A9E\u8A00\u548Cc++\u6D41\u884C\u7684\u6642\u4EE3\u3002\u4E92\u76F8\u4E4B\u9593\u6709\u9EDE\u76F8\u4E92\u76DC\u7248\u7684\u95DC\u4FC2\u3002 \u6700\u521D\u76EE\u6A19\u662F\uFF1A\u6709\u9EDE\u50CFjava\uFF0C\u6C92\u6709\u6307\u91DD\uFF0C\u7DE8\u5BEB\u4E00\u6B21\uFF0C\u5C0E\u51FA\u904B\u884C\uFF0C\u9762\u5411\u5C0D\u8C61\uFF0C\u985E\u578B\u5B89\u5168\uFF0C\u9AD8\u8CEA\u91CF\u985E\u5EAB\uFF0C\u7C21\u55AE\uFF0C\u53EF\u79FB\u690D\u6027 \u9019\u4E9B\u4E5F\u6210\u70BA\u4E86java\u5F8C\u4F86\u7684\u7AF6\u722D\u529B\uFF0C\u9084\u6709\u5206\u4F48\u5F0F\uFF0C\u591A\u7DDA\u7A0B\uFF0C\u5B89\u5168\u6027\uFF0C\u5065\u58EF\u6027\u7B49\u7B49</p><h3 id="java\u4E09\u5927\u7248\u672C" tabindex="-1"><a class="header-anchor" href="#java\u4E09\u5927\u7248\u672C" aria-hidden="true">#</a> java\u4E09\u5927\u7248\u672C</h3><p>JavaSE\uFF1A\u6A19\u6E96\u7248 JavaME: \u5D4C\u5165\u5F0F JavaEE\uFF1AE\u4F01\u696D\u7D1A\u958B\u767C</p><h3 id="jdk-jre-jvm" tabindex="-1"><a class="header-anchor" href="#jdk-jre-jvm" aria-hidden="true">#</a> JDK JRE JVM</h3><ol><li>JDK:</li></ol><p>Java\u958B\u767C\u8005\u5DE5\u5177\uFF0C\u5305\u62ECJRE\u7DE8\u8B6F\u5668</p><ol start="2"><li>JRE\uFF1A</li></ol><p>Java\u904B\u884C\u6642\u74B0\u5883\uFF0C\u5373\u7DE8\u8B6F\u5668</p><ol start="3"><li>JVM\uFF1A</li></ol><p>Java\u865B\u64EC\u6A5F\uFF0C\u5C31\u662F\u7528\u4F86\u7DE8\u8B6Fjava\u8A9E\u97F3\u7684\u6771\u897F\u3002\u4ED6\u662FJRE\u7684\u4E00\u90E8\u5206</p><h3 id="\u5B89\u88DDjdk" tabindex="-1"><a class="header-anchor" href="#\u5B89\u88DDjdk" aria-hidden="true">#</a> \u5B89\u88DDJDK</h3><p>\u9700\u8981\u5378\u8F09\u7684\u4E0B\u4E00\u7AE0 \u76EE\u524D2022-08\uFF0C\u672C\u4EBA\u4F7F\u7528\u7684\u662FJDK8\uFF0C\u4F46\u662F\u4F60\u4E5F\u53EF\u4EE5\u4F7F\u7528JDK11\u300217\u7248\u672C\u66AB\u4E0D\u63A8\u85A6</p><ol><li>\u53BB<a href="https://www.oracle.com/java/technologies/downloads/" target="_blank" rel="noopener noreferrer">oracle`);
+  _push(`</a>\u6559\u7A0B\uFF0C\u6B64\u6559\u7A0B\u57FA\u790E\u90E8\u5206\u6703\u6709\u9EDE\u562E\u53E8\u3002</p><h3 id="\u5B78\u7FD2\u65B9\u6CD5" tabindex="-1"><a class="header-anchor" href="#\u5B78\u7FD2\u65B9\u6CD5" aria-hidden="true">#</a> \u5B78\u7FD2\u65B9\u6CD5</h3><ul><li>\u4E0B\u9762\u6559\u7A0B\u90FD\u57FA\u65BC\u81EA\u5DF1\u535A\u5BA2\u76EE\u7684\u8A18\u9304\uFF0C\u76EE\u9304\u7AE0\u7BC0\u53EF\u6839\u64DA\u6559\u7A0B\uFF0C\u5167\u5BB9\u52D9\u5FC5\u81EA\u5DF1\u7E3D\u7D50\u3002</li></ul><ol><li>\u8A08\u7B97\u6A5F\u57FA\u790E</li><li>java \u57FA\u790E\u8A9E\u6CD5</li><li>\u9762\u5411\u5C0D\u8C61</li><li>\u7570\u5E38</li><li>\u5E38\u7528\u985E</li><li>\u96C6\u5408\u6846\u67B6</li><li>IO</li><li>\u591A\u7DDA\u7A0B</li><li>GUI\uFF08\u8ACB\u8DF3\u904E\u9019\u968E\u6BB5\uFF09</li><li>\u7DB2\u7D61\u7DE8\u7A0B</li><li>\u8A3B\u89E3\u548C\u53CD\u5C04</li><li>JUC \u7DE8\u7A0B</li><li>JVM \u63A2\u7A76</li><li>\u3010\u64F4\u5C55\u301123 \u79CD\u8A2D\u8A08\u6A21\u5F0F</li><li>\u3010\u64F4\u5C55\u3011XML</li><li>\u3010\u64F4\u5C55\u3011\u6578\u64DA\u7D50\u69CB\u548C\u7B97\u6CD5</li><li>\u3010\u64F4\u5C55\u3011\u6B63\u5247\u8868\u9054\u5F0F</li></ol><h3 id="\u4EC0\u9EBC\u662F\u8A08\u7B97\u6A5F-\u786C\u4EF6\u548C\u8EDF\u4EF6" tabindex="-1"><a class="header-anchor" href="#\u4EC0\u9EBC\u662F\u8A08\u7B97\u6A5F-\u786C\u4EF6\u548C\u8EDF\u4EF6" aria-hidden="true">#</a> \u4EC0\u9EBC\u662F\u8A08\u7B97\u6A5F\uFF08\u786C\u4EF6\u548C\u8EDF\u4EF6\uFF09\uFF1F</h3><p>\u9019\u968E\u6BB5\u4F60\u53EF\u9078\uFF0C\u4F46\u662F\u5B78\u5230\u5F8C\u9762\u767C\u73FE\u9084\u662F\u6709\u5FC5\u8981\u56DE\u982D\u770B\u4E00\u4E0B\u3002</p><ol><li>\u7531\u786C\u4EF6\u548C\u8EDF\u4EF6\u7D44\u6210</li></ol><ul><li>\u786C\u4EF6\uFF1A\u4F60\u662F\u4E0D\u662F\u6700\u5148\u60F3\u5230<code>CPU</code>\uFF0C<code>\u5167\u5B58\u689D</code>\uFF0C<code>\u786C\u76E4</code>\uFF0C<code>\u4E3B\u677F</code>\uFF0C<code>IO\u8A2D\u5099</code>\u7B49\u7B49\u3002 \u804A\u9EDE\u5225\u7684\uFF1A<code>\u99AE\xB7\u8AFE\u4F9D\u66FC</code>\uFF0C\u8A08\u7B97\u6A5F\u4E4B\u7236\uFF0C\u63D0\u51FA\u4E86\u4E00\u500B\u99AE\u8AFE\u4F9D\u66FC\u9AD4\u7CFB\u7D50\u69CB\uFF0C\u9084\u6709\u4E00\u500B\u5716\u9748\u3002\u4E0D\u8AAA\u4E86\u81EA\u5DF1\u53BB\u770B\uFF0C\u9019\u4E9B\u4E0D\u662F\u6280\u8853\u662F\u6B77\u53F2\u3002</li><li>\u8EDF\u4EF6\uFF1A\u7CFB\u7D71\u8EDF\u4EF6\u548C\u61C9\u7528\u8EDF\u4EF6\u3002\u6211\u5011\u4E3B\u8981\u5B78\u7684\u5C31\u662F\u9032\u884C\u8EDF\u4EF6\u958B\u767C\uFF0C\u501F\u4F4F\u958B\u767C\u5DE5\u5177\u9032\u884C\u8EDF\u4EF6\u958B\u767C\u5C31\u662F\u8EDF\u4EF6\u958B\u767C\uFF0C\u5B78\u7FD2\u958B\u767C\u5C31\u662F\u9019\u6A23\u5957\u5A03\u3002</li></ul><ol start="2"><li>\u8A08\u7B97\u6A5F\u767C\u5C55\u53F2</li></ol><p>\u6A5F\u5668\u8A9E\u97F3\uFF1A\u53EA\u6709\uFF1A0 \u548C 1 \u5F59\u7DE8\u8A9E\u97F3\uFF1A\u4F7F\u7528\u6307\u4EE4\u4EE3\u66FF\u4E8C\u9032\u5236 \u9AD8\u7D1A\u8A9E\u97F3\uFF1A\u5C31\u662F\u7DE8\u7A0B\u8A9E\u97F3\uFF0Cc(\u53EF\u4EE5\u8AAA\u9F3B\u7956\uFF0C\u9762\u5411\u904E\u7A0B)\uFF0Cc#\uFF08\u9762\u5411\u904E\u7A0B\uFF09\uFF0Cc++\uFF0Cjava\u3002</p><h3 id="windows-\u5FEB\u6377\u9375" tabindex="-1"><a class="header-anchor" href="#windows-\u5FEB\u6377\u9375" aria-hidden="true">#</a> Windows \u5FEB\u6377\u9375</h3><p><code>Ctrl+C</code> \u8907\u88FD <code>Ctrl+V</code> \u7C98\u8CBC <code>Ctrl+A</code> \u5168\u9078 <code>Ctrl+Z</code> \u64A4\u92B7 <code>Ctrl+S</code> \u4FDD\u5B58</p><p><code>Win+E</code> \u6211\u7684\u96FB\u8166 <code>Win+R</code> \u904B\u884C <code>Win+R cmd</code> cmd \u547D\u4EE4\u884C\u7A97\u53E3</p><p><code>Ctrl+Shift+Esc</code> \u4EFB\u52D9\u7BA1\u7406\u5668</p><p>......</p><p>\u9019\u4E09\u500B\u5F88\u53EF\u6015</p><h3 id="dos-\u547D\u4EE4-\u547D\u4EE4\u884C" tabindex="-1"><a class="header-anchor" href="#dos-\u547D\u4EE4-\u547D\u4EE4\u884C" aria-hidden="true">#</a> DOS \u547D\u4EE4\uFF08\u547D\u4EE4\u884C\uFF09</h3><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5BEB\u6CD5</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4F5C\u7528</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>cd ..</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u9000\u51FA\u4E00\u7EA7\u76EE\u5F55(\u8FD4\u56DE\u4E0A\u4E00\u7D1A\u76EE\u9304)</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>cd [\u6587\u4EF6\u5939\u540D]</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8FDB\u5165\u6307\u5B9A\u6587\u4EF6\u5939</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>cd \\</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u76F4\u63A5\u9000\u5230\u6839\u76EE\u5F55</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>clean</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6E05\u7A7A\u8F38\u51FA</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>tree</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6253\u5370\u76EE\u9304\u6A39</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>D:</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u76E4\u5207\u63DB\uFF0C\u9019\u6307\u5207\u5230 D \u76E4</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>dir</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6253\u5370\u7576\u524D\u6240\u6709\u6587\u4EF6</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>md [\u76D8\u7B26][\u8DEF\u5F84]</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5275\u5EFA\u6587\u4EF6</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>RD [\u76D8\u7B26][\u8DEF\u5F84]</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u522A\u9664\u76EE\u9304</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>exit</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u9000\u51FA\u7D42\u7AEF</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>ipconfig</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">ip \u8A2D\u7F6E</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>calc</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8A08\u7B97\u6A5F</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>notepad</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6587\u672C</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>ping [www.baidu.com]</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u7372\u53D6 ip \u5730\u5740</td></tr></tbody></table><h3 id="java-\u8A95\u751F\u548C\u7279\u6027\u53CA\u512A\u52E2" tabindex="-1"><a class="header-anchor" href="#java-\u8A95\u751F\u548C\u7279\u6027\u53CA\u512A\u52E2" aria-hidden="true">#</a> java \u8A95\u751F\u548C\u7279\u6027\u53CA\u512A\u52E2</h3><p>java \u8A95\u751F\u5728 c \u8A9E\u8A00\u548C c++\u6D41\u884C\u7684\u6642\u4EE3\u3002\u4E92\u76F8\u4E4B\u9593\u6709\u9EDE\u76F8\u4E92\u76DC\u7248\u7684\u95DC\u4FC2\u3002 \u6700\u521D\u76EE\u6A19\u662F\uFF1A\u6709\u9EDE\u50CF java\uFF0C\u6C92\u6709\u6307\u91DD\uFF0C\u7DE8\u5BEB\u4E00\u6B21\uFF0C\u5C0E\u51FA\u904B\u884C\uFF0C\u9762\u5411\u5C0D\u8C61\uFF0C\u985E\u578B\u5B89\u5168\uFF0C\u9AD8\u8CEA\u91CF\u985E\u5EAB\uFF0C\u7C21\u55AE\uFF0C\u53EF\u79FB\u690D\u6027 \u9019\u4E9B\u4E5F\u6210\u70BA\u4E86 java \u5F8C\u4F86\u7684\u7AF6\u722D\u529B\uFF0C\u9084\u6709\u5206\u4F48\u5F0F\uFF0C\u591A\u7DDA\u7A0B\uFF0C\u5B89\u5168\u6027\uFF0C\u5065\u58EF\u6027\u7B49\u7B49</p><h3 id="java-\u4E09\u5927\u7248\u672C" tabindex="-1"><a class="header-anchor" href="#java-\u4E09\u5927\u7248\u672C" aria-hidden="true">#</a> java \u4E09\u5927\u7248\u672C</h3><p>JavaSE\uFF1A\u6A19\u6E96\u7248 JavaME: \u5D4C\u5165\u5F0F JavaEE\uFF1AE \u4F01\u696D\u7D1A\u958B\u767C</p><h3 id="jdk-jre-jvm" tabindex="-1"><a class="header-anchor" href="#jdk-jre-jvm" aria-hidden="true">#</a> JDK JRE JVM</h3><ol><li>JDK:</li></ol><p>Java \u958B\u767C\u8005\u5DE5\u5177\uFF0C\u5305\u62EC JRE \u7DE8\u8B6F\u5668</p><ol start="2"><li>JRE\uFF1A</li></ol><p>Java \u904B\u884C\u6642\u74B0\u5883\uFF0C\u5373\u7DE8\u8B6F\u5668</p><ol start="3"><li>JVM\uFF1A</li></ol><p>Java \u865B\u64EC\u6A5F\uFF0C\u5C31\u662F\u7528\u4F86\u7DE8\u8B6F java \u8A9E\u97F3\u7684\u6771\u897F\u3002\u4ED6\u662F JRE \u7684\u4E00\u90E8\u5206</p><h3 id="\u5B89\u88DD-jdk" tabindex="-1"><a class="header-anchor" href="#\u5B89\u88DD-jdk" aria-hidden="true">#</a> \u5B89\u88DD JDK</h3><p>\u9700\u8981\u5378\u8F09\u7684\u4E0B\u4E00\u7AE0 \u76EE\u524D 2022-08\uFF0C\u672C\u4EBA\u4F7F\u7528\u7684\u662F JDK8\uFF0C\u4F46\u662F\u4F60\u4E5F\u53EF\u4EE5\u4F7F\u7528 JDK11\u300217 \u7248\u672C\u66AB\u4E0D\u63A8\u85A6</p><ol><li>\u53BB<a href="https://www.oracle.com/java/technologies/downloads/" target="_blank" rel="noopener noreferrer">oracle`);
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
-  _push(`</a>\u4E0B\u8F09\u3002</li><li>\u4E0B\u8F09\u76F4\u63A5\u662F\u4E00\u500B<code>.exe</code>\u6587\u4EF6\uFF0C\u76F4\u63A5\u9EDE\u64CA\u904B\u884C\uFF0C\u5207\u8A18<code>\u5B89\u88DD\u8DEF\u5F91</code>\uFF0C\u6700\u597D\u9078\u4E00\u500B\u5BB9\u6613\u8A18\u4F4F\u7684\uFF0C\u4E0D\u8981\u6709\u4E2D\u6587\u3002</li><li>\u914D\u7F6E\u74B0\u5883\u8B8A\u91CF <ul><li>\u9F20\u6A19\u53F3\u9375\u6211\u7684\u96FB\u8166-&gt;\u9EDE\u64CA\u5C6C\u6027</li><li>\u9AD8\u7D1A\u7CFB\u7D71\u8A2D\u7F6E-&gt;\u74B0\u5883\u8B8A\u91CF-&gt;\u7CFB\u7D71\u8B8A\u91CF\uFF08\u5EFA\u8B70\u7D66\u6240\u6709\u7528\u6236\u914D\u7F6E\uFF09</li><li>\u74B0\u5883\u540D\u7A31<code>JAVA_HOME</code>,\u8DEF\u5F91\u5C31\u662F\u525B\u525B\u4F60\u5B89\u88DD\u7684\u4F4D\u7F6E\uFF0C\u5207\u8A18\u4E0D\u8981\u932F</li><li>\u627E\u5230\u7CFB\u7D71\u8B8A\u91CF\u4E2D\u7684<code>path</code>\uFF0C\u96D9\u64CA\u6253\u958B\uFF0C\u9EDE\u64CA\u65B0\u5EFA\uFF0C\u8F38\u5165<code>%JAVA_HOME%/bin</code>\uFF08<code>%</code>\u8868\u793A\u7528\u65BC\u8A72\u74B0\u5883\u8B8A\u91CF\uFF0C\u9019\u88E1\u610F\u601D\u662F\u6307\u5F15\u7528java\u5B89\u88DD\u76EE\u9304\u4E0B\u7684<code>bin</code>\u76EE\u9304\uFF09</li></ul></li><li>\u6E2C\u8A66\u662F\u5426\u6210\u529F <ul><li>\u9032\u5165<code>cmd</code>\u8F38\u5165<code>java -version</code></li><li>\u986F\u793A\u7248\u672C\u4FE1\u606F\u8AAA\u660E\u6210\u529F\uFF0C\u5426\u5247\u5931\u6557</li></ul></li></ol><h3 id="\u5378\u8F09jdk" tabindex="-1"><a class="header-anchor" href="#\u5378\u8F09jdk" aria-hidden="true">#</a> \u5378\u8F09JDK</h3><ol><li>\u627E\u5230JDK\u5B89\u88DD\u76EE\u9304\uFF0C\u5982\u679C\u627E\u4E0D\u5230\u53BB\u74B0\u5883\u8B8A\u91CF\u627E<code>JAVA_HOME</code>\u5C0D\u61C9\u7684\u6587\u4EF6\uFF0C\u522A\u9664\u6587\u4EF6\u5F8C\u522A\u9664\u8A72\u74B0\u5883\u8B8A\u91CF\u3002</li><li>\u522A\u9664\u5B8C\u5F8C\u9032\u5165<code>cmd</code>\u904B\u884C<code>java -version</code>\uFF0C\u986F\u793A\u627E\u4E0D\u5230\u5167\u90E8\u547D\u4EE4\u8AAA\u660E\u5DEE\u4E0D\u591A\u4E86\u3002</li><li>\u67E5\u770B<code>path</code>\u4E0B\u95DC\u65BCjava\u7684\u76EE\u9304</li></ol><h3 id="helloworld" tabindex="-1"><a class="header-anchor" href="#helloworld" aria-hidden="true">#</a> HelloWorld</h3><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code>  <span class="token comment">//\u8868\u793A\u4E00\u4E2A\u53EBHelloWorld\u7684\u7C7B\uFF0Cpubli\u8868\u793A\u516C\u6709\u7684\u7C7B</span>
+  _push(`</a>\u4E0B\u8F09\u3002</li><li>\u4E0B\u8F09\u76F4\u63A5\u662F\u4E00\u500B<code>.exe</code>\u6587\u4EF6\uFF0C\u76F4\u63A5\u9EDE\u64CA\u904B\u884C\uFF0C\u5207\u8A18<code>\u5B89\u88DD\u8DEF\u5F91</code>\uFF0C\u6700\u597D\u9078\u4E00\u500B\u5BB9\u6613\u8A18\u4F4F\u7684\uFF0C\u4E0D\u8981\u6709\u4E2D\u6587\u3002</li><li>\u914D\u7F6E\u74B0\u5883\u8B8A\u91CF <ul><li>\u9F20\u6A19\u53F3\u9375\u6211\u7684\u96FB\u8166-&gt;\u9EDE\u64CA\u5C6C\u6027</li><li>\u9AD8\u7D1A\u7CFB\u7D71\u8A2D\u7F6E-&gt;\u74B0\u5883\u8B8A\u91CF-&gt;\u7CFB\u7D71\u8B8A\u91CF\uFF08\u5EFA\u8B70\u7D66\u6240\u6709\u7528\u6236\u914D\u7F6E\uFF09</li><li>\u74B0\u5883\u540D\u7A31<code>JAVA_HOME</code>,\u8DEF\u5F91\u5C31\u662F\u525B\u525B\u4F60\u5B89\u88DD\u7684\u4F4D\u7F6E\uFF0C\u5207\u8A18\u4E0D\u8981\u932F</li><li>\u627E\u5230\u7CFB\u7D71\u8B8A\u91CF\u4E2D\u7684<code>path</code>\uFF0C\u96D9\u64CA\u6253\u958B\uFF0C\u9EDE\u64CA\u65B0\u5EFA\uFF0C\u8F38\u5165<code>%JAVA_HOME%/bin</code>\uFF08<code>%</code>\u8868\u793A\u7528\u65BC\u8A72\u74B0\u5883\u8B8A\u91CF\uFF0C\u9019\u88E1\u610F\u601D\u662F\u6307\u5F15\u7528 java \u5B89\u88DD\u76EE\u9304\u4E0B\u7684<code>bin</code>\u76EE\u9304\uFF09</li></ul></li><li>\u6E2C\u8A66\u662F\u5426\u6210\u529F <ul><li>\u9032\u5165<code>cmd</code>\u8F38\u5165<code>java -version</code></li><li>\u986F\u793A\u7248\u672C\u4FE1\u606F\u8AAA\u660E\u6210\u529F\uFF0C\u5426\u5247\u5931\u6557</li></ul></li></ol><h3 id="\u5378\u8F09-jdk" tabindex="-1"><a class="header-anchor" href="#\u5378\u8F09-jdk" aria-hidden="true">#</a> \u5378\u8F09 JDK</h3><ol><li>\u627E\u5230 JDK \u5B89\u88DD\u76EE\u9304\uFF0C\u5982\u679C\u627E\u4E0D\u5230\u53BB\u74B0\u5883\u8B8A\u91CF\u627E<code>JAVA_HOME</code>\u5C0D\u61C9\u7684\u6587\u4EF6\uFF0C\u522A\u9664\u6587\u4EF6\u5F8C\u522A\u9664\u8A72\u74B0\u5883\u8B8A\u91CF\u3002</li><li>\u522A\u9664\u5B8C\u5F8C\u9032\u5165<code>cmd</code>\u904B\u884C<code>java -version</code>\uFF0C\u986F\u793A\u627E\u4E0D\u5230\u5167\u90E8\u547D\u4EE4\u8AAA\u660E\u5DEE\u4E0D\u591A\u4E86\u3002</li><li>\u67E5\u770B<code>path</code>\u4E0B\u95DC\u65BC java \u7684\u76EE\u9304</li></ol><h3 id="helloworld" tabindex="-1"><a class="header-anchor" href="#helloworld" aria-hidden="true">#</a> HelloWorld</h3><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code>  <span class="token comment">//\u8868\u793A\u4E00\u4E2A\u53EBHelloWorld\u7684\u7C7B\uFF0Cpubli\u8868\u793A\u516C\u6709\u7684\u7C7B</span>
   <span class="token comment">//{\u8868\u793A\u4E00\u4E2A\u7C7B\u7684\u5F00\u59CB\u548C\u7ED3\u675F</span>
   <span class="token comment">//public static void main(String []args)\u8868\u793A\u4E3B\u65B9\u6CD5\uFF0C\u5373\u7A0B\u5E8F\u5165\u53E3</span>
   <span class="token comment">//main(){}\u8868\u793A\u65B9\u7684\u5F00\u59CB\u548C\u7ED3\u675F</span>
@@ -6478,7 +6516,20 @@ function _sfc_ssrRender$n(_ctx, _push, _parent, _attrs) {
            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;Hellow World!&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
        <span class="token punctuation">}</span>
    <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><!--]-->`);
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><h3 id="\u7DE8\u8B6F\u578B\u548C\u89E3\u91CB\u578B" tabindex="-1"><a class="header-anchor" href="#\u7DE8\u8B6F\u578B\u548C\u89E3\u91CB\u578B" aria-hidden="true">#</a> \u7DE8\u8B6F\u578B\u548C\u89E3\u91CB\u578B</h3><ol><li>\u7DE8\u8B6F\u578B\uFF1Acompile\uFF0C\u4E00\u6B21\u6027\u5168\u90E8\u7DE8\u8B6F\u3002</li><li>\u89E3\u91CB\u578B\uFF1A\u6309\u9700\u89E3\u6790\uFF0C\u89E3\u6790\u4E00\u6B65\u770B\u4E00\u6B65\uFF0C\u6027\u80FD\u4F4E\uFF0C\u4F46\u5BE6\u6642\u3002</li></ol><p>java \u5148\u7DE8\u8B6F\uFF0C\u518D\u89E3\u91CB</p><h2 id="java-\u8A9E\u6CD5" tabindex="-1"><a class="header-anchor" href="#java-\u8A9E\u6CD5" aria-hidden="true">#</a> Java \u8A9E\u6CD5</h2><ol><li>\u6CE8\u91CB\uFF0C\u6A19\u8B58\u7B26\uFF0C\u95DC\u9375\u5B57</li><li>\u6578\u64DA\u985E\u578B</li><li>\u985E\u578B\u8F49\u63DB</li><li>\u8B8A\u91CF\uFF0C\u7522\u91CF</li><li>\u904B\u7B97\u7B26</li><li>\u5305\u6A5F\u5236\uFF0CjavaDoc</li></ol><h3 id="\u6CE8\u91CB-\u6A19\u8B58\u7B26-\u95DC\u9375\u5B57" tabindex="-1"><a class="header-anchor" href="#\u6CE8\u91CB-\u6A19\u8B58\u7B26-\u95DC\u9375\u5B57" aria-hidden="true">#</a> \u6CE8\u91CB\uFF0C\u6A19\u8B58\u7B26\uFF0C\u95DC\u9375\u5B57</h3><ol><li>\u55AE\u884C\u6CE8\u91CB</li></ol><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token comment">//\u55AE\u884C\u6CE8\u91CB</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><ol start="2"><li>\u591A\u884C\u6CE8\u91CB</li></ol><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token comment">/*
+ * \u591A\u884C\u6CE8\u91CB
+ */</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><ol start="3"><li>\u6587\u6A94\u6CE8\u91CB</li></ol><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token doc-comment comment">/**
+ * <span class="token keyword">@params</span> \u53C3\u6578...
+ * @Author \u4F5C\u8005...
+ * \u6587\u6A94\u6CE8\u91CB
+ * /
+</span></code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><ol start="4"><li>\u6A19\u8B58\u7B26</li></ol><table><tr><td colspan="6">\u7528\u65BC\u5B9A\u7FA9\u8A2A\u554F\u6B0A\u9650\u4FEE\u98FE\u7B26\u7684\u95DC\u9375\u5B57</td></tr><tr><td>private</td><td>protected</td><td>public</td><td></td><td></td><td></td></tr><tr><td colspan="6">\u7528\u65BC\u5B9A\u7FA9\u985E\uFF0C\u51FD\u6578\uFF0C\u8B8A\u91CF\u4FEE\u98FE\u7B26\u7684\u95DC\u9375\u5B57</td></tr><tr><td>abstract</td><td>final</td><td>static</td><td>synchronized</td><td></td><td></td></tr><tr><td colspan="6">\u7528\u65BC\u5B9A\u7FA9\u985E\u65BC\u985E\u4E4B\u9593\u95DC\u4FC2\u7684\u95DC\u9375\u5B57</td></tr><tr><td>extends</td><td>implements</td><td></td><td></td><td></td><td></td></tr><tr><td colspan="6">\u7528\u65BC\u5B9A\u7FA9\u5EFA\u7ACB\u5BE6\u4F8B\u53CA\u5F15\u7528\u5BE6\u4F8B\uFF0C\u5224\u65B7\u5BE6\u4F8B\u7684\u95DC\u9375\u5B57</td></tr><tr><td>new</td><td>this</td><td>super</td><td>instanceof</td><td></td><td></td></tr><tr><td colspan="6">\u7528\u65BC\u7570\u5E38\u8655\u7406</td></tr><tr><td>try</td><td>catch</td><td>finally</td><td>throw</td><td>throws</td><td></td></tr><tr><td colspan="6">\u7528\u65BC\u5305\u7684\u95DC\u9375\u5B57</td></tr><tr><td>package</td><td>import</td><td></td><td></td><td></td><td></td></tr><tr><td colspan="6">\u5176\u4ED6\u4FEE\u98FE\u7B26</td></tr><tr><td>native</td><td>strictfp</td><td>transient</td><td>volatile</td><td>assert</td><td></td></tr></table><p>\u6A19\u8B58\u7B26\u898F\u7BC4\uFF1A</p><ul><li>\u6240\u6709\u6A19\u8B58\u7B26\u90FD\u61C9\u8A72\u4EE5\u5B57\u6BCD\uFF08A-Z\uFF0Ca-z\uFF09\uFF0C\uFF08$\uFF09\u7F8E\u5143\u7B26\uFF0C\u6216\u8005\u4E0B\u5283\u7DDA\uFF08_\uFF09\u958B\u59CB\u3002</li><li>\u9996\u5B57\u7B26\u4E4B\u5F8C\u53EF\u4EE5\u8AAA\u5B57\u6BCD\uFF08A-Z\uFF0Ca-z\uFF09\uFF0C\uFF08$\uFF09\u7F8E\u5143\u7B26\uFF0C\u6216\u8005\u4E0B\u5283\u7DDA\uFF08_\uFF09\u6216\u6578\u7D44\u7684\u5982\u4F55\u5B57\u7B26\u7D44\u5408\u3002</li><li>\u4E0D\u80FD\u4F7F\u7528\u95DC\u9375\u5B57\u4F5C\u70BA\u8B8A\u91CF\u540D\u6216\u65B9\u6CD5\u540D</li><li>\u6A19\u8B58\u7B26\u5927\u5C0F\u5BEB\u654F\u611F</li></ul><p>\u6A19\u8B58\u7B26\u7D04\u5B9A\u4FD7\u6210\uFF1A</p><ul><li>\u5305\u540D\uFF1A\u6240\u6709\u5B57\u6BCD\u4E00\u5F8B\u5C0F\u5199</li><li>\u7C7B\u540D\u3001\u63A5\u53E3\u540D\uFF1A\u5355\u8BCD\u7684\u9996\u5B57\u6BCD\u5927\u5199\u3002\u5982 XxxYyyZzz\u3002\uFF08\u5927\u9A7C\u5CF0\u547D\u540D\u6CD5\uFF09</li><li>\u53D8\u91CF\u540D\u3001\u65B9\u6CD5\u540D\uFF1A\u7531\u591A\u4E2A\u5355\u8BCD\u7EC4\u6210\u65F6\uFF0C\u7B2C\u4E00\u4E2A\u5355\u8BCD\u5747\u5C0F\u5199\uFF0C\u5176\u5B83\u5355\u8BCD\u9996\u5B57\u6BCD\u5927\u5199\u3002\u5982 xxxYyyZzz\u3002\uFF08\u5C0F\u9A7C\u5CF0\u547D\u540D\u6CD5\uFF0C\u7B80\u79F0\u9A7C\u5CF0\u6CD5\uFF09</li><li>\u5E38\u91CF\u540D\uFF1A\u6240\u6709\u5B57\u6BCD\u5747\u5927\u5199\u3002\u4E14\u7531\u591A\u4E2A\u5355\u8BCD\u7EC4\u6210\u65F6\uFF0C\u5355\u8BCD\u4E4B\u95F4\u7528\u4E0B\u5212\u7EBF\u201C_\u201D\u9694\u5F00\u3002\u5982 XXX_YYY_ZZZ\u3002</li></ul><h3 id="\u6578\u64DA\u985E\u578B" tabindex="-1"><a class="header-anchor" href="#\u6578\u64DA\u985E\u578B" aria-hidden="true">#</a> \u6578\u64DA\u985E\u578B</h3><ul><li>\u5F37\u985E\u578B\uFF1A\u8981\u6C42\u8B8A\u91CF\u7684\u4F7F\u7528\u56B4\u683C\u7B26\u5408\u898F\u5B9A\uFF0C\u6240\u6709\u8B8A\u91CF\u90FD\u5FC5\u9808\u5148\u5B9A\u7FA9\u5F8C\u624D\u4F7F\u7528</li><li>\u5F31\u985E\u578B\uFF1A\u904B\u884C\u5FEB\uFF0C\u4F46\u662F\u898F\u5B9A\u4E0D\u56B4\u683C\uFF0C\u5BB9\u6613\u51FA\u73FE\u985E\u578B\u932F\u8AA4</li></ul><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code>type vatName <span class="token operator">=</span> value<span class="token punctuation">;</span>
+<span class="token comment">//\u6578\u64DA\u985E\u578B \u8B8A\u91CF\u540D\u7A31 = \u503C \u5206\u865F\u7D50\u675F</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><ol><li>\u57FA\u672C\u985E\u578B\uFF08primitive type\uFF09</li></ol><p><code>\u6CE8\u91CA:</code><code>\u4F4D\uFF08bit\uFF09\uFF1A\u8BA1\u7B97\u673A\u5B58\u50A8\u7684\u6700\u5C0F\u5355\u4F4D\uFF0C11001100\u662F\u4E00\u4E2A\u516B\u4F4D\u4E8C\u8FDB\u5236\u6570\u3002</code><code>\u5B57\u8282\uFF08byte\uFF09: \u8BA1\u7B97\u673A\u6570\u636E\u5904\u7406\u57FA\u672C\u5355\u4F4D\uFF0C1\u5B57\u8282 = 8 \u4F4D</code></p><table><tr><td colspan="4">\u6574\u6578\u985E\u578B</td></tr><tr><td>byte 1\u4E2A\u5B57\u8282<br>[0+-127\uFF09</td><td>short 2\u4E2A\u5B57\u8282<br>[0+-32768\uFF09</td><td>int 4\u4E2A\u5B57\u8282<br>[01+-2147483648\uFF09</td><td>long 8\u4E2A\u5B57\u8282<br>[0+-9223372036854775808\uFF09</td></tr><tr><td colspan="4">\u6D6E\u9EDE\u985E\u578B</td></tr><tr><td>float 4\u4E2A\u5B57\u8282</td><td>double 8\u4E2A\u5B57\u8282</td><td></td><td></td></tr><tr><td colspan="4">\u5B57\u7B26\u985E\u578B</td></tr><tr><td>char 2\u4E2A\u5B57\u8282</td><td></td><td></td><td></td></tr></table><table><tr><td>boolean</td></tr><tr><td>1\u4F4D\u5B57\u8282\uFF080\uFF0C1\uFF09\uFF0C\u53EA\u6709true\u548Cfalse</td></tr></table><ul><li>\u5B57\u7B26\u4E32\uFF08String\uFF09\u662F\u4E00\u4E2A\u7C7B</li></ul><ol><li>\u5F15\u7528\u985E\u578B\uFF08reference type\uFF09</li></ol><ul><li>\u7C7B</li><li>\u63A5\u53E3</li><li>\u6570\u7EC4</li></ul><p>\u6570\u636E\u7C7B\u578B\u9762\u8BD5\u9898\uFF1A</p><h3 id="\u7C7B\u578B\u8F6C\u6362" tabindex="-1"><a class="header-anchor" href="#\u7C7B\u578B\u8F6C\u6362" aria-hidden="true">#</a> \u7C7B\u578B\u8F6C\u6362</h3><ol><li><p>\u8FD0\u7B97\u4E2D\u3002\u4E0D\u540C\u7C7B\u578B\u7684\u6570\u636E\u5148\u8F6C\u6362\u4E3A\u540C\u4E00\u6570\u636E\u7C7B\u578B\uFF0C\u7136\u540E\u8FDB\u884C\u8FD0\u7B97\u3002</p><p>\u4F4E\u5230\u9AD8</p></li></ol><ul><li>byte -&gt; short -&gt; chart -&gt; int -&gt; long -&gt; float - &gt; double</li></ul><ol start="2"><li>\u5F3A\u5236\u8F6C\u6362 \uFF08\u7C7B\u578B\uFF09\u53D8\u91CF\u540D \u9AD8-&gt;\u4F4E</li><li>\u81EA\u52A8\u8F6C\u6362 \u4F4E\u5230\u9AD8</li></ol><h3 id="\u53D8\u91CF-\u5E38\u91CF-\u4F5C\u7528\u57DF" tabindex="-1"><a class="header-anchor" href="#\u53D8\u91CF-\u5E38\u91CF-\u4F5C\u7528\u57DF" aria-hidden="true">#</a> \u53D8\u91CF\uFF0C\u5E38\u91CF\uFF0C\u4F5C\u7528\u57DF</h3><ol><li>\u53D8\u91CF</li></ol><p>\u5C31\u662F\u53EF\u4EE5\u53D8\u5316\u7684\u91CF\uFF0Cjava\u4E2D\u6700\u57FA\u672C\u7684\u5B58\u50A8\u5355\u5143\uFF0C\u5305\u62EC\u53D8\u91CF\u540D\uFF0C\u53D8\u91CF\u7C7B\u578B\u548C\u4F5C\u7528\u57DF\uFF1B</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code>type vatName <span class="token operator">=</span> value<span class="token punctuation">;</span>
+<span class="token comment">//\u6578\u64DA\u985E\u578B \u8B8A\u91CF\u540D\u7A31 = \u503C \u5206\u865F\u7D50\u675F</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><!--]-->`);
 }
 const _sfc_setup$B = _sfc_main$B.setup;
 _sfc_main$B.setup = (props, ctx) => {
@@ -12348,12 +12399,12 @@ const data$t = {
     }
   ],
   "git": {
-    "updatedTime": 1640251957e3,
+    "updatedTime": 1660907761e3,
     "contributors": [
       {
         "name": "\u9648\u67D2",
         "email": "3062995371@qq.com",
-        "commits": 1
+        "commits": 2
       }
     ]
   },
@@ -12503,8 +12554,14 @@ const data$q = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1660907761e3,
+    "contributors": [
+      {
+        "name": "\u9648\u67D2",
+        "email": "3062995371@qq.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "java/mysql/01.mysql.md"
 };
@@ -12675,79 +12732,122 @@ const data$m = {
   "excerpt": "",
   "headers": [
     {
-      "level": 3,
-      "title": "\u524D\u671F\u804A\u804A",
-      "slug": "\u524D\u671F\u804A\u804A",
-      "children": []
+      "level": 2,
+      "title": "\u524D\u671F",
+      "slug": "\u524D\u671F",
+      "children": [
+        {
+          "level": 3,
+          "title": "\u5B78\u7FD2\u65B9\u6CD5",
+          "slug": "\u5B78\u7FD2\u65B9\u6CD5",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u4EC0\u9EBC\u662F\u8A08\u7B97\u6A5F\uFF08\u786C\u4EF6\u548C\u8EDF\u4EF6\uFF09\uFF1F",
+          "slug": "\u4EC0\u9EBC\u662F\u8A08\u7B97\u6A5F-\u786C\u4EF6\u548C\u8EDF\u4EF6",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Windows \u5FEB\u6377\u9375",
+          "slug": "windows-\u5FEB\u6377\u9375",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "DOS \u547D\u4EE4\uFF08\u547D\u4EE4\u884C\uFF09",
+          "slug": "dos-\u547D\u4EE4-\u547D\u4EE4\u884C",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "java \u8A95\u751F\u548C\u7279\u6027\u53CA\u512A\u52E2",
+          "slug": "java-\u8A95\u751F\u548C\u7279\u6027\u53CA\u512A\u52E2",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "java \u4E09\u5927\u7248\u672C",
+          "slug": "java-\u4E09\u5927\u7248\u672C",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "JDK JRE JVM",
+          "slug": "jdk-jre-jvm",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u5B89\u88DD JDK",
+          "slug": "\u5B89\u88DD-jdk",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u5378\u8F09 JDK",
+          "slug": "\u5378\u8F09-jdk",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "HelloWorld",
+          "slug": "helloworld",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u7DE8\u8B6F\u578B\u548C\u89E3\u91CB\u578B",
+          "slug": "\u7DE8\u8B6F\u578B\u548C\u89E3\u91CB\u578B",
+          "children": []
+        }
+      ]
     },
     {
-      "level": 3,
-      "title": "\u5B78\u7FD2\u65B9\u6CD5",
-      "slug": "\u5B78\u7FD2\u65B9\u6CD5",
-      "children": []
-    },
-    {
-      "level": 3,
-      "title": "\u4EC0\u9EBC\u662F\u8A08\u7B97\u6A5F\uFF08\u786C\u4EF6\u548C\u8EDF\u4EF6\uFF09\uFF1F",
-      "slug": "\u4EC0\u9EBC\u662F\u8A08\u7B97\u6A5F-\u786C\u4EF6\u548C\u8EDF\u4EF6",
-      "children": []
-    },
-    {
-      "level": 3,
-      "title": "Windows\u5FEB\u6377\u9375",
-      "slug": "windows\u5FEB\u6377\u9375",
-      "children": []
-    },
-    {
-      "level": 3,
-      "title": "DOS\u547D\u4EE4\uFF08\u547D\u4EE4\u884C\uFF09",
-      "slug": "dos\u547D\u4EE4-\u547D\u4EE4\u884C",
-      "children": []
-    },
-    {
-      "level": 3,
-      "title": "java\u8A95\u751F\u548C\u7279\u6027\u53CA\u512A\u52E2",
-      "slug": "java\u8A95\u751F\u548C\u7279\u6027\u53CA\u512A\u52E2",
-      "children": []
-    },
-    {
-      "level": 3,
-      "title": "java\u4E09\u5927\u7248\u672C",
-      "slug": "java\u4E09\u5927\u7248\u672C",
-      "children": []
-    },
-    {
-      "level": 3,
-      "title": "JDK JRE JVM",
-      "slug": "jdk-jre-jvm",
-      "children": []
-    },
-    {
-      "level": 3,
-      "title": "\u5B89\u88DDJDK",
-      "slug": "\u5B89\u88DDjdk",
-      "children": []
-    },
-    {
-      "level": 3,
-      "title": "\u5378\u8F09JDK",
-      "slug": "\u5378\u8F09jdk",
-      "children": []
-    },
-    {
-      "level": 3,
-      "title": "HelloWorld",
-      "slug": "helloworld",
-      "children": []
+      "level": 2,
+      "title": "Java \u8A9E\u6CD5",
+      "slug": "java-\u8A9E\u6CD5",
+      "children": [
+        {
+          "level": 3,
+          "title": "\u6CE8\u91CB\uFF0C\u6A19\u8B58\u7B26\uFF0C\u95DC\u9375\u5B57",
+          "slug": "\u6CE8\u91CB-\u6A19\u8B58\u7B26-\u95DC\u9375\u5B57",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u6578\u64DA\u985E\u578B",
+          "slug": "\u6578\u64DA\u985E\u578B",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u7C7B\u578B\u8F6C\u6362",
+          "slug": "\u7C7B\u578B\u8F6C\u6362",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u53D8\u91CF\uFF0C\u5E38\u91CF\uFF0C\u4F5C\u7528\u57DF",
+          "slug": "\u53D8\u91CF-\u5E38\u91CF-\u4F5C\u7528\u57DF",
+          "children": []
+        }
+      ]
     }
   ],
   "git": {
-    "updatedTime": 1654685963e3,
+    "updatedTime": 1660907761e3,
     "contributors": [
       {
         "name": "TRANBIOT-PZ004\\Yiren",
         "email": "yiren@tranbiot.com",
         "commits": 2
+      },
+      {
+        "name": "\u9648\u67D2",
+        "email": "3062995371@qq.com",
+        "commits": 1
       }
     ]
   },
