@@ -2043,6 +2043,60 @@ const searchIndex$1 = [
             "title": "\u53D8\u91CF\uFF0C\u5E38\u91CF\uFF0C\u4F5C\u7528\u57DF",
             "slug": "\u53D8\u91CF-\u5E38\u91CF-\u4F5C\u7528\u57DF",
             "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u904B\u7B97\u7B26",
+            "slug": "\u904B\u7B97\u7B26",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u5305\u6A5F\u5236",
+            "slug": "\u5305\u6A5F\u5236",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Scanner\u7528\u6236\u4EA4\u4E92",
+            "slug": "scanner\u7528\u6236\u4EA4\u4E92",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u987A\u5E8F\u7ED3\u6784",
+            "slug": "\u987A\u5E8F\u7ED3\u6784",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u9009\u62E9\u7ED3\u6784",
+            "slug": "\u9009\u62E9\u7ED3\u6784",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u9009\u62E9\u7ED3\u6784",
+            "slug": "\u9009\u62E9\u7ED3\u6784-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u9000\u51FA\u5FAA\u73AF",
+            "slug": "\u9000\u51FA\u5FAA\u73AF",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Debug\u4F7F\u7528",
+            "slug": "debug\u4F7F\u7528",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u65B9\u6CD5",
+            "slug": "\u65B9\u6CD5",
+            "children": []
           }
         ]
       }
@@ -6529,7 +6583,138 @@ function _sfc_ssrRender$n(_ctx, _push, _parent, _attrs) {
 <span class="token comment">//\u6578\u64DA\u985E\u578B \u8B8A\u91CF\u540D\u7A31 = \u503C \u5206\u865F\u7D50\u675F</span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><ol><li>\u57FA\u672C\u985E\u578B\uFF08primitive type\uFF09</li></ol><p><code>\u6CE8\u91CA:</code><code>\u4F4D\uFF08bit\uFF09\uFF1A\u8BA1\u7B97\u673A\u5B58\u50A8\u7684\u6700\u5C0F\u5355\u4F4D\uFF0C11001100\u662F\u4E00\u4E2A\u516B\u4F4D\u4E8C\u8FDB\u5236\u6570\u3002</code><code>\u5B57\u8282\uFF08byte\uFF09: \u8BA1\u7B97\u673A\u6570\u636E\u5904\u7406\u57FA\u672C\u5355\u4F4D\uFF0C1\u5B57\u8282 = 8 \u4F4D</code></p><table><tr><td colspan="4">\u6574\u6578\u985E\u578B</td></tr><tr><td>byte 1\u4E2A\u5B57\u8282<br>[0+-127\uFF09</td><td>short 2\u4E2A\u5B57\u8282<br>[0+-32768\uFF09</td><td>int 4\u4E2A\u5B57\u8282<br>[01+-2147483648\uFF09</td><td>long 8\u4E2A\u5B57\u8282<br>[0+-9223372036854775808\uFF09</td></tr><tr><td colspan="4">\u6D6E\u9EDE\u985E\u578B</td></tr><tr><td>float 4\u4E2A\u5B57\u8282</td><td>double 8\u4E2A\u5B57\u8282</td><td></td><td></td></tr><tr><td colspan="4">\u5B57\u7B26\u985E\u578B</td></tr><tr><td>char 2\u4E2A\u5B57\u8282</td><td></td><td></td><td></td></tr></table><table><tr><td>boolean</td></tr><tr><td>1\u4F4D\u5B57\u8282\uFF080\uFF0C1\uFF09\uFF0C\u53EA\u6709true\u548Cfalse</td></tr></table><ul><li>\u5B57\u7B26\u4E32\uFF08String\uFF09\u662F\u4E00\u4E2A\u7C7B</li></ul><ol><li>\u5F15\u7528\u985E\u578B\uFF08reference type\uFF09</li></ol><ul><li>\u7C7B</li><li>\u63A5\u53E3</li><li>\u6570\u7EC4</li></ul><p>\u6570\u636E\u7C7B\u578B\u9762\u8BD5\u9898\uFF1A</p><h3 id="\u7C7B\u578B\u8F6C\u6362" tabindex="-1"><a class="header-anchor" href="#\u7C7B\u578B\u8F6C\u6362" aria-hidden="true">#</a> \u7C7B\u578B\u8F6C\u6362</h3><ol><li><p>\u8FD0\u7B97\u4E2D\u3002\u4E0D\u540C\u7C7B\u578B\u7684\u6570\u636E\u5148\u8F6C\u6362\u4E3A\u540C\u4E00\u6570\u636E\u7C7B\u578B\uFF0C\u7136\u540E\u8FDB\u884C\u8FD0\u7B97\u3002</p><p>\u4F4E\u5230\u9AD8</p></li></ol><ul><li>byte -&gt; short -&gt; chart -&gt; int -&gt; long -&gt; float - &gt; double</li></ul><ol start="2"><li>\u5F3A\u5236\u8F6C\u6362 \uFF08\u7C7B\u578B\uFF09\u53D8\u91CF\u540D \u9AD8-&gt;\u4F4E</li><li>\u81EA\u52A8\u8F6C\u6362 \u4F4E\u5230\u9AD8</li></ol><h3 id="\u53D8\u91CF-\u5E38\u91CF-\u4F5C\u7528\u57DF" tabindex="-1"><a class="header-anchor" href="#\u53D8\u91CF-\u5E38\u91CF-\u4F5C\u7528\u57DF" aria-hidden="true">#</a> \u53D8\u91CF\uFF0C\u5E38\u91CF\uFF0C\u4F5C\u7528\u57DF</h3><ol><li>\u53D8\u91CF</li></ol><p>\u5C31\u662F\u53EF\u4EE5\u53D8\u5316\u7684\u91CF\uFF0Cjava\u4E2D\u6700\u57FA\u672C\u7684\u5B58\u50A8\u5355\u5143\uFF0C\u5305\u62EC\u53D8\u91CF\u540D\uFF0C\u53D8\u91CF\u7C7B\u578B\u548C\u4F5C\u7528\u57DF\uFF1B</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code>type vatName <span class="token operator">=</span> value<span class="token punctuation">;</span>
 <span class="token comment">//\u6578\u64DA\u985E\u578B \u8B8A\u91CF\u540D\u7A31 = \u503C \u5206\u865F\u7D50\u675F</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><!--]-->`);
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><ul><li>\u5C40\u90E8\u8B8A\u91CF\uFF1A\u5FC5\u9808\u8072\u660E\u548C\u521D\u59CB\u5316\uFF0C\u5C40\u90E8\u65B9\u6CD5\u7279\u6709\u3002</li><li>\u5BE6\u4F8B\u8B8A\u91CF\uFF1A\u5F9E\u5C6C\u65BC\u985E\uFF08\u4F4D\u65BC\u985E\u4E2D\uFF09\uFF0C\u4E5F\u7A31\u5BE6\u4F8B\u8B8A\u91CF\uFF0C\u5982\u679C\u4E0D\u9032\u884C\u521D\u59CB\u5316\uFF0C\u7CFB\u7D71\u6703\u8CE6\u4E88\u9ED8\u8A8D\u503C\u3002</li><li>\u985E\u8B8A\u91CF\uFF1A\u5BEB\u5728\u985E\u88E1\uFF0C\u52A0\u4E0A\u985E\u4F3C<code>static</code>\u4FEE\u98FE\u7B26\u3002</li></ul><p>\u547D\u540D\u898F\u7BC4\uFF1A</p><ul><li>\u898B\u547D\u601D\u610F</li><li>\u8B8A\u91CF\uFF1A\u9996\u5B57\u6BCD\u5C0F\u5BEB\u548C\u99DD\u5CF0\u539F\u5247</li><li>\u5E38\u91CF\uFF1A\u5168\u90E8\u5927\u5BEB\u5B57\u6BCD\u548C\u4E0B\u5283\u7DDA\u9694\u958B</li><li>\u985E\u540D\uFF1A\u9996\u5B57\u6BCD\u5927\u5BEB\u548C\u99DD\u5CF0\u539F\u5247</li><li>\u65B9\u6CD5\u547D\uFF1A\u9996\u5B57\u6BCD\u5927\u5BEB\u548C\u99DD\u5CF0\u539F\u5247</li></ul><h3 id="\u904B\u7B97\u7B26" tabindex="-1"><a class="header-anchor" href="#\u904B\u7B97\u7B26" aria-hidden="true">#</a> \u904B\u7B97\u7B26</h3><table><tr><td colspan="7">\u7B97\u8853\u904B\u7B97\u7B26</td></tr><tr><td>+</td><td>-</td><td>*</td><td>/</td><td>%</td><td>++</td><td>--</td></tr><tr><td>\u52A0</td><td>\u6E1B</td><td>\u4E58</td><td>\u9F63</td><td>\u6A21</td><td>\u81EA\u50A2</td><td>\u81EA\u6E1B</td></tr></table><table><tr><td colspan="1">\u8CE6\u503C\u904B\u7B97\u7B26</td></tr><tr><td>=</td></tr><tr><td>\u8CE6\u503C\u904B\u7B97\u7B26</td></tr></table><table><tr><td colspan="7">\u95DC\u4FC2\u904B\u7B97\u7B26</td></tr><tr><td>&gt;</td><td>&lt;</td><td>&gt; =</td><td>&lt;=</td><td>==</td><td>!=</td><td>instanceog</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table><table><tr><td colspan="3">\u908F\u8F2F\u904B\u7B97\u7B26</td></tr><tr><td>&amp;&amp;</td><td>||</td><td>\uFF01</td></tr><tr><td></td><td></td><td></td></tr></table><table><tr><td colspan="7">\u4F4D\u904B\u7B97\u7B26</td></tr><tr><td>&amp;</td><td>|</td><td>^</td><td>~</td><td>&gt;&gt;</td><td>&lt;&lt;</td><td>&gt;&gt;&gt;</td></tr><tr><td>\u65BC</td><td>\u6216</td><td>\u7570\u6216\u53D6\u53CD</td><td>\u4F4D\u53D6\u53CD</td><td></td><td></td><td></td></tr></table><table><tr><td colspan="2">\u689D\u4EF6\u904B\u7B97\u7B26</td></tr><tr><td>\uFF1F</td><td>\uFF1A</td></tr><tr><td></td><td></td></tr></table><table><tr><td colspan="4">\u64F4\u5C55\u8CE6\u503C\u904B\u7B97\u7B26</td></tr><tr><td>+=</td><td>-=</td><td>*=</td><td>/=</td></tr><tr><td></td><td></td><td></td><td></td></tr></table><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code>
+<span class="token keyword">int</span> a <span class="token operator">=</span> <span class="token number">3</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> b <span class="token operator">=</span> a<span class="token operator">++</span><span class="token punctuation">;</span><span class="token comment">//3</span>
+<span class="token keyword">int</span> c <span class="token operator">=</span> <span class="token operator">++</span>a<span class="token punctuation">;</span><span class="token comment">//5</span>
+
+<span class="token comment">//\u57F7\u884C\u6642\u9593\u4E0D\u540C</span>
+<span class="token comment">//a++:\u57F7\u884C\u540E\uFF0Ca\u518D\u81EA\u589E</span>
+<span class="token comment">//++a\uFF1Aa\u5148\u81EA\u589E\uFF0C\u5728\u57F7\u884C</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><p>\u51AA\u904B\u7B97</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">double</span> pow <span class="token operator">=</span> <span class="token class-name">Math</span><span class="token punctuation">.</span><span class="token function">pow</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span>
+<span class="token comment">//3\u76842\u6B21\u65B9</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token operator">&lt;&lt;</span>\uFF1A<span class="token operator">*</span><span class="token number">2</span>
+<span class="token operator">&gt;&gt;</span>\uFF1A<span class="token operator">/</span><span class="token number">2</span>
+
+a<span class="token operator">+=</span>b<span class="token punctuation">;</span><span class="token comment">//\u610F\u601D\u662Fa=a+b;</span>
+a<span class="token operator">-=</span>b<span class="token punctuation">;</span><span class="token comment">//a=a-b;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><h3 id="\u5305\u6A5F\u5236" tabindex="-1"><a class="header-anchor" href="#\u5305\u6A5F\u5236" aria-hidden="true">#</a> \u5305\u6A5F\u5236</h3><p>\u7528\u65BC\u5340\u5225\u985E\u540D\u7684\u547D\u540D\u7A7A\u9593</p><p>package</p><h3 id="scanner\u7528\u6236\u4EA4\u4E92" tabindex="-1"><a class="header-anchor" href="#scanner\u7528\u6236\u4EA4\u4E92" aria-hidden="true">#</a> Scanner\u7528\u6236\u4EA4\u4E92</h3><p><code>jdk5</code>\u540E\u589E\u52A0<code>java.util.Scanner</code>\u5305\uFF0C\u4F7F\u7528Scanner\u985E\u7372\u53D6\u7528\u6236\u8F38\u5165</p><p>\u57FA\u672C\u8A9E\u6CD5:</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token class-name">Scanner</span> s <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Scanner</span><span class="token punctuation">(</span><span class="token class-name">System</span><span class="token punctuation">.</span>in<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u901A\u904E<code>Scanner</code>\u985E\u7684<code>next()</code>\u65BC<code>nextLine()</code>\u65B9\u6CD5\u7372\u53D6\u8F38\u5165\u7684\u5B57\u7B26\u4E32\uFF0C\u5728\u8B80\u53D6\u6642\u4E00\u822C\u4F7F\u7528<code>hasNext()</code>\u65BC<code>hasNextLine()</code>\u5224\u65B7\u662F\u5426\u9084\u6709\u8F38\u5165\u6578\u64DA\u3002</p><h3 id="\u987A\u5E8F\u7ED3\u6784" tabindex="-1"><a class="header-anchor" href="#\u987A\u5E8F\u7ED3\u6784" aria-hidden="true">#</a> \u987A\u5E8F\u7ED3\u6784</h3><p>\u6240\u6709\u7B97\u6CD5\u7684\u57FA\u672C\u7ED3\u6784</p><h3 id="\u9009\u62E9\u7ED3\u6784" tabindex="-1"><a class="header-anchor" href="#\u9009\u62E9\u7ED3\u6784" aria-hidden="true">#</a> \u9009\u62E9\u7ED3\u6784</h3><ol><li><code>if</code>\u5355\u9009\u7ED3\u6784</li></ol><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code>
+<span class="token keyword">if</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+	<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u5355if\u5224\u65AD&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><ol start="2"><li><code>if</code>-<code>else</code>\u9009\u62E9</li></ol><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code>
+<span class="token keyword">if</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+	<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;if&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
+	<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;else&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><ol start="3"><li><code>if</code>\u591A\u9009\u62E9\u7ED3\u6784</li></ol><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token comment">//\u53EA\u4F1A\u6267\u884C\u4E00\u4E2A\u5224\u65AD</span>
+<span class="token keyword">if</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+	<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;1&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+	<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;2&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+	<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;3&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
+	<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;4&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><ol start="4"><li><code>switch</code>\u9009\u62E9\u7ED3\u6784</li></ol><p><code>switch--case--default</code></p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">switch</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+	<span class="token keyword">case</span> <span class="token number">1</span><span class="token operator">:</span>
+	<span class="token comment">//\u6267\u884C</span>
+	<span class="token keyword">break</span><span class="token punctuation">;</span><span class="token comment">//\u8DF3\u51FA\u5F53\u524D\u5224\u65AD</span>
+	<span class="token keyword">case</span> <span class="token number">2</span><span class="token operator">:</span>
+	<span class="token comment">//\u6267\u884C</span>
+	<span class="token keyword">break</span><span class="token punctuation">;</span><span class="token comment">//\u8DF3\u51FA\u5F53\u524D\u5224\u65AD</span>
+	<span class="token keyword">default</span><span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>\u4E0A\u9762<span class="token keyword">case</span>\u90FD\u4E0D\u7B26\u5408
+	<span class="token comment">//\u6267\u884C</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><h3 id="\u9009\u62E9\u7ED3\u6784-1" tabindex="-1"><a class="header-anchor" href="#\u9009\u62E9\u7ED3\u6784-1" aria-hidden="true">#</a> \u9009\u62E9\u7ED3\u6784</h3><ol><li><code>while</code></li></ol><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token keyword">while</span> <span class="token punctuation">(</span>i<span class="token operator">&lt;</span><span class="token number">100</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+	i<span class="token operator">++</span><span class="token punctuation">;</span>
+	<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><ol start="2"><li><code>do</code>-<code>while</code></li></ol><p>\u4ED6\u4F1A\u5148\u6267\u884C\u4E00\u6B21\u518D\u6267\u884C\u5224\u65AD</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token keyword">do</span><span class="token punctuation">{</span>
+	i<span class="token operator">++</span><span class="token punctuation">;</span>
+	<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token keyword">while</span><span class="token punctuation">(</span>i<span class="token operator">&lt;=</span><span class="token number">100</span><span class="token punctuation">)</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><ol start="3"><li><code>for</code></li></ol><p>\u6CE8\u610F\uFF1Afor\u4F1A\u5224\u65AD\u662F\u5426\u6267\u884C\uFF0C\u53EF\u4EE5\u6267\u884C\u540E\u662F\u5148\u6267\u884C\u518D\u66F4\u65B0</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token comment">//\u5982\u679C\u4E0D\u521D\u59CB\u5316\u548C\u5224\u65AD\u4E0E\u66F4\u65B0\u4F1A\u6B7B\u5FAA\u73AF</span>
+<span class="token comment">// for(\u521D\u59CB\u5316\uFF1B\u5E03\u5C14\u8868\u8FBE\u5F0F\uFF1B\u66F4\u65B0){</span>
+<span class="token comment">// 	\u6267\u884C\u8BED\u53E5</span>
+<span class="token comment">// }</span>
+
+<span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">&lt;=</span><span class="token number">100</span><span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+	<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><ul><li>\u83B7\u53D60\u5230100\u5947\u6570\u548C\u5076\u6570\u548C</li></ul><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token comment">//\u83B7\u53D60-100\u8BA1\u6570\u548C\u5076\u6570\u548C</span>
+<span class="token keyword">int</span> oddSum <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> evenSum <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+
+<span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">&lt;=</span><span class="token number">100</span><span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+	<span class="token keyword">if</span><span class="token punctuation">(</span>i <span class="token operator">%</span> <span class="token number">2</span> <span class="token operator">!=</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+		oddSum<span class="token operator">+=</span>i<span class="token punctuation">;</span>
+	<span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
+		evenSum<span class="token operator">+=</span>i<span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u5947\u6570\u548C&quot;</span><span class="token operator">+</span>oddSum<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u5076\u6570\u548C&quot;</span><span class="token operator">+</span>evenSum<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br></div></div><ul><li>\u8BA1\u7B970\u52301000\u80FD\u88AB5\u6574\u9664\u7684\u6570\uFF0C\u6BCF\u884C\u8F93\u51FA3\u4E2A</li></ul><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code>   <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i3<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>i3<span class="token operator">&lt;=</span><span class="token number">1000</span><span class="token punctuation">;</span>i3<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span>i3<span class="token operator">%</span><span class="token number">5</span><span class="token operator">==</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+                <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>i3<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span>i3<span class="token operator">%</span><span class="token punctuation">(</span><span class="token number">5</span><span class="token operator">*</span><span class="token number">3</span><span class="token punctuation">)</span><span class="token operator">==</span><span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">print</span><span class="token punctuation">(</span><span class="token string">&quot;\\n&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><ul><li>\u6253\u5370\u4E5D\u4E5D\u4E58\u6CD5\u8868</li></ul><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code>    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> a <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>a<span class="token operator">&lt;=</span><span class="token number">9</span><span class="token punctuation">;</span>a<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> b <span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span>b<span class="token operator">&lt;=</span>a<span class="token punctuation">;</span>b<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">print</span><span class="token punctuation">(</span>a<span class="token operator">+</span><span class="token string">&quot;*&quot;</span><span class="token operator">+</span>b<span class="token operator">+</span><span class="token string">&quot;=&quot;</span><span class="token operator">+</span>a<span class="token operator">*</span>b<span class="token operator">+</span><span class="token string">&quot;\\t&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">print</span><span class="token punctuation">(</span><span class="token string">&quot;\\n&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+<span class="token doc-comment comment">/**
+1*1=1	
+2*1=2	2*2=4	
+3*1=3	3*2=6	3*3=9	
+4*1=4	4*2=8	4*3=12	4*4=16	
+5*1=5	5*2=10	5*3=15	5*4=20	5*5=25	
+6*1=6	6*2=12	6*3=18	6*4=24	6*5=30	6*6=36	
+7*1=7	7*2=14	7*3=21	7*4=28	7*5=35	7*6=42	7*7=49	
+8*1=8	8*2=16	8*3=24	8*4=32	8*5=40	8*6=48	8*7=56	8*8=64	
+9*1=9	9*2=18	9*3=27	9*4=36	9*5=45	9*6=54	9*7=63	9*8=72	9*9=81	
+/
+</span></code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br></div></div><ol start="4"><li>\u589E\u5F3A<code>for</code>\u5FAA\u73AF</li></ol><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">int</span> <span class="token punctuation">[</span><span class="token punctuation">]</span> numbers <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token comment">//\u666E\u901Afor\u5FAA\u73AF</span>
+<span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">&lt;</span>numbers<span class="token punctuation">.</span>length<span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+	<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>numbers<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">//\u589E\u5F3Afor\u5FAA\u73AF</span>
+<span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> x <span class="token operator">:</span> numbers<span class="token punctuation">)</span><span class="token punctuation">{</span>
+	<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><h3 id="\u9000\u51FA\u5FAA\u73AF" tabindex="-1"><a class="header-anchor" href="#\u9000\u51FA\u5FAA\u73AF" aria-hidden="true">#</a> \u9000\u51FA\u5FAA\u73AF</h3><p><code>break,continue,goto</code></p><ol><li><code>break</code></li></ol><p>\u7EC8\u6B62\u5F53\u524D\u5FAA\u73AF\u7EE7\u7EED\u6267\u884C\u540E\u9762\u4EE3\u7801</p><ol start="2"><li><code>continue</code></li></ol><p>\u8DF3\u51FA\u8FD9\u4E00\u6B21\u5FAA\u73AF\uFF0C\u7EE7\u7EED\u4E0B\u4E00\u6B21\u5FAA\u73AF\u64CD\u4F5C</p><ol start="3"><li><code>goto</code></li></ol><p>Java\u53EA\u662F\u6709\u8FD9\u79CD\u7528\u6CD5\uFF0C\u6CA1\u6709\u6B63\u5F0F\u4F7F\u7528\uFF0C\u4E0D\u5EFA\u8BAE\u4F7F\u7528</p><h3 id="debug\u4F7F\u7528" tabindex="-1"><a class="header-anchor" href="#debug\u4F7F\u7528" aria-hidden="true">#</a> Debug\u4F7F\u7528</h3><p>idea\u4E2D\u591A\u7528\u5C31\u884C</p><h3 id="\u65B9\u6CD5" tabindex="-1"><a class="header-anchor" href="#\u65B9\u6CD5" aria-hidden="true">#</a> \u65B9\u6CD5</h3><ul><li>\u4EC0\u4E48\u662F\u65B9\u6CD5</li><li>\u65B9\u6CD5\u5B9A\u4E49\u548C\u4F7F\u7528</li><li>\u65B9\u6CD5\u91CD\u8F7D\uFF08\u91CD\u8981\uFF09</li><li>\u547D\u4EE4\u884C\u4F20\u53C2</li><li>\u53EF\u53D8\u53C2\u6570</li><li>\u9012\u5F52</li></ul><ol><li><p>\u65B9\u6CD5\u662F\u8BED\u53E5\u7684\u96C6\u5408\uFF0C\u4E00\u4E2A\u65B9\u6CD5\u5B8C\u6210\u4E00\u4E2A\u529F\u80FD\uFF0C\u56DE\u5FC6\u4E00\u4E0B\u65B9\u6CD5\u7684\u547D\u540D\u89C4\u5219\u3002 main\u4E3B\u65B9\u6CD5\u5C31\u662F\u4E00\u4E2A\u65B9\u6CD5\u3002</p></li><li><p>\u65B9\u6CD5\u5B9A\u4E49\u548C\u4F7F\u7528</p></li></ol><ul><li>\u4FEE\u9970\u7B26\uFF1A\u53EF\u9009\uFF0C\u544A\u8BC9\u7F16\u8BD1\u5668\u5982\u4F55\u8C03\u7528\u8BE5\u65B9\u6CD5\uFF0C\u5B9A\u4E49\u4E86\u8BBF\u95EE\u7C7B\u578B</li><li>\u8FD4\u56DE\u503C\u7C7B\u578B\uFF1A\u65B9\u6CD5\u53EF\u4EE5\u6709\u8FD4\u56DE\u503C\uFF0C<code>return valueType</code>\u662F\u8FD4\u56DE\u503C\u7684\u6570\u636E\u7C7B\u578B\uFF0C\u5982\u679C\u6CA1\u6709\u8FD4\u56DE\u503C\u8BF4\u660E\u662F\u4E00\u4E2Avoid\u65B9\u6CD5\uFF0C\u5373\u6CA1\u6709\u8FD4\u56DE\u503C\u3002</li><li>\u65B9\u6CD5\u540D\uFF1A\u53EF\u4EE5\u53C2\u8003Java\u65B9\u6CD5\u547D\u540D\u89C4\u8303\uFF0C\u5C31\u662F\u65B9\u6CD5\u7684\u540D\u5B57\u3002</li><li>\u53C2\u6570\u7C7B\u578B\uFF1A\u53C2\u6570\u50CF\u5360\u4F4D\u7B26\uFF0C\u5F53\u65B9\u6CD5\u88AB\u8C03\u7528\u65F6\uFF0C\u8FD9\u4E2A\u503C\u79F0\u4E3A\u5B9E\u53C2\u6216\u53D8\u91CF\uFF0C\u53EF\u9009\u7684\u3002</li><li>\u65B9\u6CD5\u4F53\uFF1A\u5C31\u662F\u65B9\u6CD5\u91CC\u9762\u7684\u5177\u4F53\u6267\u884C\u8BED\u53E5\uFF0C\u5B9E\u73B0\u67D0\u4E9B\u529F\u80FD\u3002</li></ul><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token comment">//\u4FEE\u9970\u7B26 \u8FD4\u56DE\u503C\u7C7B\u578B \u65B9\u6CD5\u540D\uFF08\u53C2\u6570\u7C7B\u578B  \u53C2\u6570\u540D\u79F0\uFF09{</span>
+<span class="token comment">//   \u65B9\u6CD5\u4F53</span>
+<span class="token comment">//  return \u8FD4\u56DE\u503C</span>
+<span class="token comment">// }</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Method</span> <span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>args<span class="token punctuation">)</span><span class="token punctuation">{</span>
+
+        <span class="token keyword">int</span> a <span class="token operator">=</span> <span class="token function">max</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">,</span><span class="token number">20</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+	<span class="token comment">//\u9759\u6001\u65B9\u6CD5\u53EF\u4EE5\u76F4\u63A5\u8C03\u7528</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">int</span> <span class="token function">max</span><span class="token punctuation">(</span><span class="token keyword">int</span> a<span class="token punctuation">,</span><span class="token keyword">int</span> b<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">return</span> a<span class="token operator">&gt;</span>b<span class="token operator">?</span>a<span class="token operator">:</span>b<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><!--]-->`);
 }
 const _sfc_setup$B = _sfc_main$B.setup;
 _sfc_main$B.setup = (props, ctx) => {
@@ -12832,12 +13017,66 @@ const data$m = {
           "title": "\u53D8\u91CF\uFF0C\u5E38\u91CF\uFF0C\u4F5C\u7528\u57DF",
           "slug": "\u53D8\u91CF-\u5E38\u91CF-\u4F5C\u7528\u57DF",
           "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u904B\u7B97\u7B26",
+          "slug": "\u904B\u7B97\u7B26",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u5305\u6A5F\u5236",
+          "slug": "\u5305\u6A5F\u5236",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Scanner\u7528\u6236\u4EA4\u4E92",
+          "slug": "scanner\u7528\u6236\u4EA4\u4E92",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u987A\u5E8F\u7ED3\u6784",
+          "slug": "\u987A\u5E8F\u7ED3\u6784",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u9009\u62E9\u7ED3\u6784",
+          "slug": "\u9009\u62E9\u7ED3\u6784",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u9009\u62E9\u7ED3\u6784",
+          "slug": "\u9009\u62E9\u7ED3\u6784-1",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u9000\u51FA\u5FAA\u73AF",
+          "slug": "\u9000\u51FA\u5FAA\u73AF",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Debug\u4F7F\u7528",
+          "slug": "debug\u4F7F\u7528",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u65B9\u6CD5",
+          "slug": "\u65B9\u6CD5",
+          "children": []
         }
       ]
     }
   ],
   "git": {
-    "updatedTime": 1660907761e3,
+    "updatedTime": 1661165112e3,
     "contributors": [
       {
         "name": "TRANBIOT-PZ004\\Yiren",
@@ -12847,7 +13086,7 @@ const data$m = {
       {
         "name": "\u9648\u67D2",
         "email": "3062995371@qq.com",
-        "commits": 1
+        "commits": 2
       }
     ]
   },

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="generator" content="VuePress 2.0.0-beta.29">
     <link rel="icon" href="/images/favicon.ico"><title>git版本控制 | IUUI</title><meta name="description" content="git">
-    <link rel="modulepreload" href="/assets/app.b8080bc2.js"><link rel="modulepreload" href="/assets/01.git版本控制.html.f59d703c.js"><link rel="modulepreload" href="/assets/plugin-vue_export-helper.21dcd24c.js"><link rel="modulepreload" href="/assets/01.git版本控制.html.2585219b.js">
+    <link rel="modulepreload" href="/assets/app.3fe39f39.js"><link rel="modulepreload" href="/assets/01.git版本控制.html.1f053614.js"><link rel="modulepreload" href="/assets/plugin-vue_export-helper.21dcd24c.js"><link rel="modulepreload" href="/assets/01.git版本控制.html.2585219b.js">
     <link rel="stylesheet" href="/assets/style.5e4251ff.css">
   </head>
   <body>
@@ -88,6 +88,6 @@ hint: <span class="token punctuation">(</span>e.g., <span class="token string">&
 hint: See the <span class="token string">&#39;Note about fast-forwards&#39;</span> <span class="token keyword">in</span> <span class="token string">&#39;git push --help&#39;</span> <span class="token keyword">for</span> details.
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><p>一旦一个本地仓库推送了代码，那么另一个本地仓库的推送会被拒绝，原因是当前文件已经被其他的推送给修改了，我们这边相当于是另一个版本，和之前两个分支合并一样，产生了冲突，因此我们只能去解决冲突问题。</p><p>如果远程仓库中的提交和本地仓库中的提交没有去编写同一个文件，那么就可以直接拉取：</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> pull 远程仓库
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>拉取后会自动进行合并，合并完成之后我们再提交即可。</p><p>但是如果两次提交都修改了同一个文件，那么就会遇到和多分支合并一样的情况，在合并时会产生冲突，这时就需要我们自己去解决冲突了。</p><p>我们可以在IDEA中演示一下，实际开发场景下可能会遇到的问题。</p><p>结束！</p><!--]--></div><footer class="page-meta"><!----><div class="meta-item last-updated"><span class="meta-item-label">Last Updated: </span><!----></div><div class="meta-item contributors"><span class="meta-item-label">Contributors: </span><span class="meta-item-info"><!--[--><!--[--><span class="contributor" title="email: 3458269236@qq.com">IU_UI</span><!----><!--]--><!--]--></span></div></footer><!----><!--[--><!--]--></main><!--]--></div><!----><!--]--></div>
-    <script type="module" src="/assets/app.b8080bc2.js" defer></script>
+    <script type="module" src="/assets/app.3fe39f39.js" defer></script>
   </body>
 </html>
