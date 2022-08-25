@@ -2097,6 +2097,60 @@ const searchIndex$1 = [
             "title": "\u65B9\u6CD5",
             "slug": "\u65B9\u6CD5",
             "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u65B9\u6CD5\u91CD\u8F09",
+            "slug": "\u65B9\u6CD5\u91CD\u8F09",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u547D\u4EE4\u884C\u50B3\u53C3",
+            "slug": "\u547D\u4EE4\u884C\u50B3\u53C3",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u53EF\u8B8A\u53C3\u6578",
+            "slug": "\u53EF\u8B8A\u53C3\u6578",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u9012\u5F52",
+            "slug": "\u9012\u5F52",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u6570\u7EC4",
+            "slug": "\u6570\u7EC4",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u5185\u5B58\u5206\u6790",
+            "slug": "\u5185\u5B58\u5206\u6790",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u591A\u7EF4\u6570\u7EC4",
+            "slug": "\u591A\u7EF4\u6570\u7EC4",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Arrays\u7C7B",
+            "slug": "arrays\u7C7B",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u516B\u79CD\u5192\u6CE1\u6392\u5E8F",
+            "slug": "\u516B\u79CD\u5192\u6CE1\u6392\u5E8F",
+            "children": []
           }
         ]
       }
@@ -6714,7 +6768,99 @@ a<span class="token operator">-=</span>b<span class="token punctuation">;</span>
         <span class="token keyword">return</span> a<span class="token operator">&gt;</span>b<span class="token operator">?</span>a<span class="token operator">:</span>b<span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><!--]-->`);
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><h3 id="\u65B9\u6CD5\u91CD\u8F09" tabindex="-1"><a class="header-anchor" href="#\u65B9\u6CD5\u91CD\u8F09" aria-hidden="true">#</a> \u65B9\u6CD5\u91CD\u8F09</h3><p>\u5982\u679C\u540C\u4E00\u4E2A\u7C7B\u4E2D\u5305\u542B\u4E86\u4E24\u4E2A\u6216\u4E24\u4E2A\u4EE5\u4E0A\u65B9\u6CD5\u540D\u76F8\u540C\u7684\u65B9\u6CD5\uFF0C\u4F46\u5F62\u53C2\u5217\u8868\u4E0D\u540C\uFF0C\u8FD9\u79CD\u60C5\u51B5\u88AB\u79F0\u4E3A\u65B9\u6CD5\u91CD\u8F7D\uFF08overload\uFF09\u3002</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">println</span><span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token punctuation">)</span><span class="token punctuation">{</span>\u2026<span class="token punctuation">}</span>
+<span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">println</span><span class="token punctuation">(</span><span class="token keyword">double</span> d<span class="token punctuation">)</span><span class="token punctuation">{</span>\u2026<span class="token punctuation">}</span>
+<span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">println</span><span class="token punctuation">(</span><span class="token class-name">String</span> s<span class="token punctuation">)</span><span class="token punctuation">{</span>\u2026<span class="token punctuation">}</span>
+
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token number">102</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">// \u8C03\u7528println(int i)\u65B9\u6CD5</span>
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token number">102.25</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">// \u8C03\u7528println(double d)\u65B9\u6CD5</span>
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u4EF7\u683C\u4E3A 102.25&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">// \u8C03\u7528println(String s)\u65B9\u6CD5</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><p>\u91CD\u8F09\u7684\u898F\u5247\uFF1A</p><ol><li>\u65B9\u6CD5\u540D\u7A31\u5FC5\u9808\u76F8\u540C\u3002</li><li>\u53C3\u6578\u5217\u8868\u4E0D\u540C\uFF08\u500B\u6578\uFF0C\u985E\u578B\uFF0C\u6392\u5217\u9806\u5E8F\u7B49\u7B49\uFF09\u3002</li><li>\u65B9\u6CD5\u8FD4\u56DE\u503C\u985E\u578B\u53EF\u4EE5\u76F8\u540C\u4E5F1\u53EF\u4EE5\u4E0D\u540C\u3002</li><li>\u50C5\u50C5\u8FD4\u56DE\u503C\u4E0D\u540C\u4E0D\u5C6C\u65BC\u65B9\u6CD5\u91CD\u8F09\u7684\u7BC4\u7587\u3002</li></ol><p>\u539F\u7406\uFF1A\u65B9\u6CD5\u540D\u7A31\u76F8\u540C\u6642\uFF0Cjava\u6703\u6839\u64DA\u8ACB\u6C42\u985E\u578B\u548C\u53C3\u6578\u53CA\u8FD4\u56DE\u503C\u985E\u578B\u53BB\u81EA\u52D5\u5339\u914D\u67D0\u4E00\u500B\u65B9\u6CD5\u53BB\u57F7\u884C\u3002</p><h3 id="\u547D\u4EE4\u884C\u50B3\u53C3" tabindex="-1"><a class="header-anchor" href="#\u547D\u4EE4\u884C\u50B3\u53C3" aria-hidden="true">#</a> \u547D\u4EE4\u884C\u50B3\u53C3</h3><p>\u53EF\u4EE5\u7D66main\u50B3\u53C3\uFF0C\u5373<code>args</code>\u3002</p><h3 id="\u53EF\u8B8A\u53C3\u6578" tabindex="-1"><a class="header-anchor" href="#\u53EF\u8B8A\u53C3\u6578" aria-hidden="true">#</a> \u53EF\u8B8A\u53C3\u6578</h3><p>\u5728\u6307\u5B9A\u53C3\u6578\u985E\u578B\u540E\u52A0\u4E00\u500B<code>...</code>\uFF0C\u4E00\u500B\u65B9\u6CD5\u53EA\u80FD\u6307\u5B9A\u4E00\u500B\u53EF\u8B8A\u53C3\u6578\uFF0C\u4E26\u4E14\u5FC5\u9808\u662F\u6700\u5F8C\u4E00\u500B\u53C3\u6578\u3002\u4EFB\u4F55\u666E\u901A\u53C3\u6578\u53EA\u80FD\u5728\u5B83\u4E4B\u524D\u8072\u660E\u3002</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">test</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span> i<span class="token punctuation">)</span><span class="token punctuation">{</span>
+	<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">priltln</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h3 id="\u9012\u5F52" tabindex="-1"><a class="header-anchor" href="#\u9012\u5F52" aria-hidden="true">#</a> \u9012\u5F52</h3><p>\u9012\u5F52\u5C31\u662F\u65B9\u6CD5\u8C03\u7528\u65B9\u6CD5\u81EA\u5DF1 \u5148\u8BF4\u4E00\u4E0B\u7591\u95EE\uFF1A</p><ol><li>\u8FD9\u4E0D\u662F\u6B7B\u5FAA\u73AF\u5417\uFF1A</li></ol><p>\u6240\u4EE5\u8981\u4E86\u89E3\u4E0B\u9762\u4E24\u70B9\uFF1A</p><ul><li>\u9012\u5F52\u5934\uFF1A\u4EC0\u4E48\u65F6\u5019\u6216\u6761\u4EF6\u4E0D\u8C03\u7528\u81EA\u8EAB\u65B9\u6CD5\uFF0C\u5373\u5224\u65AD\u5982\u679C\u4F1A\u5BFC\u81F4\u6B7B\u5FAA\u73AF\uFF0C\u90A3\u5C31\u4E0D\u5E94\u8BE5\u8C03\u7528\u81EA\u5DF1\u4E86</li><li>\u9012\u5F52\u4F53\uFF1A\u4EC0\u4E48\u65F6\u5019\u6216\u6761\u4EF6\u8C03\u7528\u81EA\u8EAB\u65B9\u6CD5\uFF0C\u53CA\u6EE1\u8DB3\u67D0\u4E00\u6761\u4EF6\u4E0B\u5E94\u8BE5\u8C03\u7528\u81EA\u5DF1\u3002</li></ul><p>\u603B\u7ED3\uFF1A\u9012\u5F52\u5FC5\u987B\u6709\u6761\u4EF6\u7684\u5F00\u59CB\u548C\u6709\u6761\u4EF6\u7684\u7ED3\u675F\uFF08\u5F00\u59CB\u4E0D\u662F\u5FC5\u987B\u7684\uFF0C\u4F46\u6700\u597D\u6709\uFF09\u3002</p><p>\u8BA1\u7B97\u5668\u7EC3\u4E60\uFF1A</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">import</span> <span class="token namespace">java<span class="token punctuation">.</span>util<span class="token punctuation">.</span></span><span class="token class-name">Scanner</span><span class="token punctuation">;</span>
+
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Demo01</span> <span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>args<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token class-name">Scanner</span> s <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Scanner</span><span class="token punctuation">(</span><span class="token class-name">System</span><span class="token punctuation">.</span>in<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token class-name">Boolean</span> end <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+        <span class="token comment">//\u5FAA\u74B0</span>
+        <span class="token keyword">while</span> <span class="token punctuation">(</span><span class="token operator">!</span>end<span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;==========\u8A08\u7B97\u5668\u958B\u59CB============&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u8ACB\u8F38\u5165\u7B2C\u4E00\u500B\u6578&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword">double</span> a <span class="token operator">=</span> s<span class="token punctuation">.</span><span class="token function">nextDouble</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u8ACB\u8F38\u5165\uFF1A+ - * %&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token class-name">String</span> operator <span class="token operator">=</span> s<span class="token punctuation">.</span><span class="token function">next</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u8ACB\u8F38\u5165\u7B2C\u4E8C\u500B\u6578&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword">double</span> b <span class="token operator">=</span> s<span class="token punctuation">.</span><span class="token function">nextDouble</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+            <span class="token keyword">switch</span> <span class="token punctuation">(</span>operator<span class="token punctuation">)</span><span class="token punctuation">{</span>
+                <span class="token keyword">case</span> <span class="token string">&quot;+&quot;</span><span class="token operator">:</span>
+                    <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u7D50\u679C\u662F&quot;</span><span class="token operator">+</span><span class="token function">add</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span>b<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                    <span class="token keyword">break</span><span class="token punctuation">;</span>
+                <span class="token keyword">case</span> <span class="token string">&quot;-&quot;</span><span class="token operator">:</span>
+                    <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u7D50\u679C\u662F&quot;</span><span class="token operator">+</span><span class="token function">subtract</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span>b<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                    <span class="token keyword">break</span><span class="token punctuation">;</span>
+                <span class="token keyword">case</span> <span class="token string">&quot;*&quot;</span><span class="token operator">:</span>
+                    <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u7D50\u679C\u662F&quot;</span><span class="token operator">+</span><span class="token function">multiply</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span>b<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                    <span class="token keyword">break</span><span class="token punctuation">;</span>
+                <span class="token keyword">case</span> <span class="token string">&quot;%&quot;</span><span class="token operator">:</span>
+                    <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u7D50\u679C\u662F&quot;</span><span class="token operator">+</span><span class="token function">divide</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span>b<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                    <span class="token keyword">break</span><span class="token punctuation">;</span>
+                <span class="token keyword">default</span><span class="token operator">:</span>
+                    <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u8F38\u5165\u7B26\u865F\u6709\u8AA4&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                    <span class="token keyword">break</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">double</span> <span class="token function">add</span><span class="token punctuation">(</span><span class="token keyword">double</span> a<span class="token punctuation">,</span><span class="token keyword">double</span> b<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">return</span> a<span class="token operator">+</span>b<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">double</span> <span class="token function">subtract</span><span class="token punctuation">(</span><span class="token keyword">double</span> a<span class="token punctuation">,</span><span class="token keyword">double</span> b<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">return</span> a<span class="token operator">-</span>b<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">double</span> <span class="token function">multiply</span><span class="token punctuation">(</span><span class="token keyword">double</span> a<span class="token punctuation">,</span><span class="token keyword">double</span> b<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">return</span> a<span class="token operator">*</span>b<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">double</span> <span class="token function">divide</span><span class="token punctuation">(</span><span class="token keyword">double</span> a<span class="token punctuation">,</span><span class="token keyword">double</span> b<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">return</span> a<span class="token operator">%</span>b<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br></div></div><h3 id="\u6570\u7EC4" tabindex="-1"><a class="header-anchor" href="#\u6570\u7EC4" aria-hidden="true">#</a> \u6570\u7EC4</h3><ul><li>\u4EC0\u4E48\u662F\u6570\u7EC4</li><li>\u6570\u7EC4\u7684\u58F0\u660E</li><li>\u6570\u7EC4\u7684\u4F7F\u7528</li><li>\u591A\u7EF4\u6570\u7EC4</li><li>Arrays\u7C7B</li><li>\u677E\u6563\u6570\u7EC4</li></ul><ol><li><ul><li>\u6570\u7EC4\u662F\u76F8\u540C\u7C7B\u578B\u6570\u636E\u7684\u6709\u5E8F\u96C6\u5408</li><li>\u6570\u7EC4\u63CF\u8FF0\u7684\u662F\u76F8\u540C\u7C7B\u578B\u7684\u82E5\u5E72\u6570\u636E\uFF0C\u6309\u4E00\u5B9A\u987A\u5E8F\u6392\u5E8F\u800C\u6210\u3002</li><li>\u6BCF\u4E00\u4E2A\u6570\u636E\u79F0\u4E3A\u5143\u7D20\uFF0C\u53EF\u4EE5\u901A\u8FC7\u4E0B\u6807\u8BBF\u95EE\u4ED6\u4EEC\u3002</li></ul></li><li><p>\u6570\u7EC4\u5B9A\u4E49</p></li></ol><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token comment">//\u53D8\u91CF\u7C7B\u578B \u53D8\u91CF\u540D\u5B57 = \u53D8\u91CF\u7684\u503C</span>
+<span class="token comment">//\u6570\u7EC4\u7C7B\u578B</span>
+
+<span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> array<span class="token punctuation">;</span><span class="token comment">//\u9996\u9009\u7684\u5B9A\u4E49\u65B9\u6CD5</span>
+<span class="token keyword">int</span> array<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span><span class="token comment">//\u548C\u4E0A\u9762\u6548\u679C\u4E00\u6837\uFF0C\u4F46\u6CA1\u6709\u4E0A\u9762\u76F4\u89C2\uFF0C\u662FC\u8BED\u8A00\u98CE\u683C</span>
+
+<span class="token comment">//\u521B\u5EFA\u6570\u7EC4</span>
+
+<span class="token comment">//dataType[]  arrayRefval = new dataTyoe[arraySize];</span>
+<span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> arr <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token number">10</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><p>\u6570\u7EC4\u5143\u7D20\u53EF\u4EE5\u901A\u8FC7\u7D22\u5F15\u4E0B\u6807\u8BBF\u95EE\uFF0C\u7D22\u5F15\u4E0B\u6807\u4ECE0\u5F00\u59CB\uFF1B</p><p>\u6570\u7EC4\u957F\u5EA6\u5C31\u662F\u6570\u7EC4\u5143\u7D20\u7684\u4E2A\u6570\uFF0C\u53EF\u4EE5\u901A\u8FC7<code>arrays.length</code>\u83B7\u53D6\uFF1B</p><p>\u601D\u8003\uFF1A\u6570\u7EC4\u957F\u5EA6\u548C\u6570\u7EC4\u4E0B\u6807\u7684\u5173\u7CFB\u3002</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token comment">//\u4EE5\u4E66\u9762\u5BF9\u7684arr\u4E3A\u4F8B</span>
+arr<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+arr<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+arr<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+arr<span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+arr<span class="token punctuation">[</span><span class="token number">4</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+arr<span class="token punctuation">[</span><span class="token number">5</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+arr<span class="token punctuation">[</span><span class="token number">6</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+arr<span class="token punctuation">[</span><span class="token number">7</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+arr<span class="token punctuation">[</span><span class="token number">8</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+arr<span class="token punctuation">[</span><span class="token number">9</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+
+<span class="token comment">//\u4E0B\u6807\u662F0\u2014\u20149</span>
+<span class="token comment">//\u957F\u5EA6\u662F10</span>
+<span class="token comment">//\u5982\u679C\u5143\u7D20\u4E0D\u8D4B\u503C\uFF0C\u4F1A\u6839\u636E\u5143\u7D20\u7C7B\u578B\u8D4B\u4E88\u9ED8\u8BA4\u503C</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div><p>\u6570\u7EC4\u7279\u70B9\uFF1A</p><ul><li>\u957F\u5EA6\u662F\u786E\u5B9A\u7684\uFF0C\u4E00\u65E6\u521B\u5EFA\uFF0C\u5927\u5C0F\u4E0D\u53EF\u4EE5\u88AB\u6539\u53D8</li><li>\u5176\u5143\u7D20\u7C7B\u578B\u5FC5\u987B\u76F8\u540C\uFF0C\u4E0D\u5141\u8BB8\u6DF7\u5408</li><li>\u5143\u7D20\u53EF\u4EE5\u662F\u4EFB\u610F\u7C7B\u578B\uFF0C\u5305\u62EC\u57FA\u672C\u7C7B\u578B\u548C\u5F15\u7528\u7C7B\u578B</li><li>\u6570\u7EC4\u5C5E\u4E8E\u5F15\u7528\u7C7B\u578B\uFF0C\u6570\u7EC4\u4E5F\u53EF\u4EE5\u770B\u6210\u662F\u5BF9\u8C61\uFF0C\u6BCF\u4E2A\u5143\u7D20\u76F8\u5F53\u4E8E1\u6210\u5458\u53D8\u91CF\uFF0C\u6570\u7EC4\u672C\u8EAB\u5B58\u5728\u5806\u4E2D\u7684\u3002</li></ul><h3 id="\u5185\u5B58\u5206\u6790" tabindex="-1"><a class="header-anchor" href="#\u5185\u5B58\u5206\u6790" aria-hidden="true">#</a> \u5185\u5B58\u5206\u6790</h3><h4 id="\u5806" tabindex="-1"><a class="header-anchor" href="#\u5806" aria-hidden="true">#</a> \u5806</h4><p>\u5B58\u653E<code>new</code>\u51FA\u6765\u7684\u5BF9\u8C61\u548C\u6570\u7EC4 \u53EF\u4EE5\u88AB\u6240\u6709\u7EBF\u7A0B\u5171\u4EAB\uFF0C\u4E0D\u4F1A\u5B58\u653E\u522B\u7684\u5BF9\u8C61\u5F15\u7528</p><h4 id="\u6808" tabindex="-1"><a class="header-anchor" href="#\u6808" aria-hidden="true">#</a> \u6808</h4><p>\u5B58\u653E\u57FA\u672C\u53D8\u91CF\u7C7B\u578B\uFF08\u4F1A\u5305\u542B\u8FD9\u4E2A\u57FA\u672C1\u7C7B\u578B\u7684\u5177\u4F53\u6570\u503C\uFF09 \u5F15\u7528\u5BF9\u8C61\u7684\u53D8\u91CF\uFF08\u4F1A\u5B58\u653E\u8FD9\u4E2A\u5F15\u7528\u5728\u5806\u91CC\u9762\u7684\u5177\u4F53\u5730\u5740\uFF09</p><h4 id="\u65B9\u6CD5\u533A" tabindex="-1"><a class="header-anchor" href="#\u65B9\u6CD5\u533A" aria-hidden="true">#</a> \u65B9\u6CD5\u533A</h4><p>\u53EF\u4EE5\u88AB\u6240\u6709\u7EBF\u7A0B\u5171\u4EAB \u5305\u542B\u4E86\u6240\u6709\u7684<code>chass</code>\u548C<code>static</code>\u53D8\u91CF</p><p>\u5E38\u89C1\u6570\u7EC4\u9519\u8BEF\uFF1A\u6570\u7EC4\u4E0B\u6807\u8D8A\u754C</p><ol start="3"><li>\u6570\u7EC4\u4F7F\u7528</li></ol><p>\u6253\u5370\u6570\u7EC4</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code>
+<span class="token keyword">int</span> <span class="token punctuation">[</span><span class="token punctuation">]</span> arrays <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h3 id="\u591A\u7EF4\u6570\u7EC4" tabindex="-1"><a class="header-anchor" href="#\u591A\u7EF4\u6570\u7EC4" aria-hidden="true">#</a> \u591A\u7EF4\u6570\u7EC4</h3><p>\u5C31\u662F\u6570\u7EC4\u91CC\u9762\u5B58\u653E\u6570\u7EC4</p><h3 id="arrays\u7C7B" tabindex="-1"><a class="header-anchor" href="#arrays\u7C7B" aria-hidden="true">#</a> Arrays\u7C7B</h3><p><a href="https://www.yiibai.com/java/util/java_util_arrays.html" target="_blank" rel="noopener noreferrer">https://www.yiibai.com/java/util/java_util_arrays.html`);
+  _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
+  _push(`</a></p><h3 id="\u516B\u79CD\u5192\u6CE1\u6392\u5E8F" tabindex="-1"><a class="header-anchor" href="#\u516B\u79CD\u5192\u6CE1\u6392\u5E8F" aria-hidden="true">#</a> \u516B\u79CD\u5192\u6CE1\u6392\u5E8F</h3><ol><li>\u6BD4\u8F83\u6570\u7EC4\u4E2D\u76F8\u5CAD\u5143\u7D20\uFF0C\u5982\u679C\u7B2C\u4E00\u4E2A\u6BD4\u7B2C\u4E8C\u4E2A\u5927\uFF0C\u5C31\u4EA4\u6362\u4ED6\u4EEC\u7684\u4F4D\u7F6E\uFF0C\u8FD9\u6837\u6BCF\u4E00\u6B21\u5C31\u4F1A\u4EA7\u751F\u4E00\u4E2A\u6700\u5927\u6216\u6700\u5C0F\u7684\u6570\u5B57\u3002</li></ol><!--]-->`);
 }
 const _sfc_setup$B = _sfc_main$B.setup;
 _sfc_main$B.setup = (props, ctx) => {
@@ -13071,21 +13217,75 @@ const data$m = {
           "title": "\u65B9\u6CD5",
           "slug": "\u65B9\u6CD5",
           "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u65B9\u6CD5\u91CD\u8F09",
+          "slug": "\u65B9\u6CD5\u91CD\u8F09",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u547D\u4EE4\u884C\u50B3\u53C3",
+          "slug": "\u547D\u4EE4\u884C\u50B3\u53C3",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u53EF\u8B8A\u53C3\u6578",
+          "slug": "\u53EF\u8B8A\u53C3\u6578",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u9012\u5F52",
+          "slug": "\u9012\u5F52",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u6570\u7EC4",
+          "slug": "\u6570\u7EC4",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u5185\u5B58\u5206\u6790",
+          "slug": "\u5185\u5B58\u5206\u6790",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u591A\u7EF4\u6570\u7EC4",
+          "slug": "\u591A\u7EF4\u6570\u7EC4",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "Arrays\u7C7B",
+          "slug": "arrays\u7C7B",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u516B\u79CD\u5192\u6CE1\u6392\u5E8F",
+          "slug": "\u516B\u79CD\u5192\u6CE1\u6392\u5E8F",
+          "children": []
         }
       ]
     }
   ],
   "git": {
-    "updatedTime": 1661165112e3,
+    "updatedTime": 166133669e4,
     "contributors": [
-      {
-        "name": "TRANBIOT-PZ004\\Yiren",
-        "email": "yiren@tranbiot.com",
-        "commits": 2
-      },
       {
         "name": "\u9648\u67D2",
         "email": "3062995371@qq.com",
+        "commits": 3
+      },
+      {
+        "name": "TRANBIOT-PZ004\\Yiren",
+        "email": "yiren@tranbiot.com",
         "commits": 2
       }
     ]
