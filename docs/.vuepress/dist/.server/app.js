@@ -87,24 +87,6 @@ const pagesComponents = {
   "v-c8744e90": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return _01____html$2;
   })),
-  "v-3509cb32": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return interview_html$2;
-  })),
-  "v-5d3f7a3b": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return JSinterview_html$2;
-  })),
-  "v-2d570564": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return VUEinterview_html$2;
-  })),
-  "v-71958ec2": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return story_html$2;
-  })),
-  "v-3803ce0e": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return text_html$2;
-  })),
-  "v-6c145c9c": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return reflection_html$2;
-  })),
   "v-88893a3e": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return _01_git_____html$2;
   })),
@@ -125,6 +107,24 @@ const pagesComponents = {
   })),
   "v-ff7fbc46": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return _02______html$5;
+  })),
+  "v-3509cb32": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return interview_html$2;
+  })),
+  "v-5d3f7a3b": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return JSinterview_html$2;
+  })),
+  "v-2d570564": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return VUEinterview_html$2;
+  })),
+  "v-71958ec2": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return story_html$2;
+  })),
+  "v-3803ce0e": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return text_html$2;
+  })),
+  "v-6c145c9c": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return reflection_html$2;
   })),
   "v-72cc4ebc": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return _01Css_html$2;
@@ -218,24 +218,6 @@ const pagesData$1 = {
   "v-c8744e90": () => Promise.resolve().then(function() {
     return _01____html;
   }).then(({ data: data2 }) => data2),
-  "v-3509cb32": () => Promise.resolve().then(function() {
-    return interview_html;
-  }).then(({ data: data2 }) => data2),
-  "v-5d3f7a3b": () => Promise.resolve().then(function() {
-    return JSinterview_html;
-  }).then(({ data: data2 }) => data2),
-  "v-2d570564": () => Promise.resolve().then(function() {
-    return VUEinterview_html;
-  }).then(({ data: data2 }) => data2),
-  "v-71958ec2": () => Promise.resolve().then(function() {
-    return story_html;
-  }).then(({ data: data2 }) => data2),
-  "v-3803ce0e": () => Promise.resolve().then(function() {
-    return text_html;
-  }).then(({ data: data2 }) => data2),
-  "v-6c145c9c": () => Promise.resolve().then(function() {
-    return reflection_html;
-  }).then(({ data: data2 }) => data2),
   "v-88893a3e": () => Promise.resolve().then(function() {
     return _01_git_____html;
   }).then(({ data: data2 }) => data2),
@@ -256,6 +238,24 @@ const pagesData$1 = {
   }).then(({ data: data2 }) => data2),
   "v-ff7fbc46": () => Promise.resolve().then(function() {
     return _02______html$1;
+  }).then(({ data: data2 }) => data2),
+  "v-3509cb32": () => Promise.resolve().then(function() {
+    return interview_html;
+  }).then(({ data: data2 }) => data2),
+  "v-5d3f7a3b": () => Promise.resolve().then(function() {
+    return JSinterview_html;
+  }).then(({ data: data2 }) => data2),
+  "v-2d570564": () => Promise.resolve().then(function() {
+    return VUEinterview_html;
+  }).then(({ data: data2 }) => data2),
+  "v-71958ec2": () => Promise.resolve().then(function() {
+    return story_html;
+  }).then(({ data: data2 }) => data2),
+  "v-3803ce0e": () => Promise.resolve().then(function() {
+    return text_html;
+  }).then(({ data: data2 }) => data2),
+  "v-6c145c9c": () => Promise.resolve().then(function() {
+    return reflection_html;
   }).then(({ data: data2 }) => data2),
   "v-72cc4ebc": () => Promise.resolve().then(function() {
     return _01Css_html;
@@ -1385,6 +1385,411 @@ const searchIndex$1 = [
     "extraFields": []
   },
   {
+    "title": "git\u7248\u672C\u63A7\u5236",
+    "headers": [
+      {
+        "level": 2,
+        "title": "\u8BA4\u8BC6git",
+        "slug": "\u8BA4\u8BC6git",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u5B89\u88C5Git",
+        "slug": "\u5B89\u88C5git",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u57FA\u672C\u547D\u4EE4\u4ECB\u7ECD",
+        "slug": "\u57FA\u672C\u547D\u4EE4\u4ECB\u7ECD",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u6DFB\u52A0\u548C\u63D0\u4EA4",
+        "slug": "\u6DFB\u52A0\u548C\u63D0\u4EA4",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u5206\u652F",
+        "slug": "\u5206\u652F",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u5408\u5E76\u5206\u652F",
+        "slug": "\u5408\u5E76\u5206\u652F",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u53D8\u57FA\u5206\u652F",
+        "slug": "\u53D8\u57FA\u5206\u652F",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u4F18\u9009",
+        "slug": "\u4F18\u9009",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u4F7F\u7528IDEA\u7248\u672C\u63A7\u5236",
+        "slug": "\u4F7F\u7528idea\u7248\u672C\u63A7\u5236",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u8FDC\u7A0B\u4ED3\u5E93",
+        "slug": "\u8FDC\u7A0B\u4ED3\u5E93",
+        "children": []
+      }
+    ],
+    "path": "/java/git/01.git%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "mysql",
+    "headers": [],
+    "path": "/java/mysql/01.mysql.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "springboot",
+    "headers": [
+      {
+        "level": 2,
+        "title": "IDEA\uFF082021.3\u4EE5\u4E0A\u7248\u672C\u5B89\u88DD\uFF09",
+        "slug": "idea-2021-3\u4EE5\u4E0A\u7248\u672C\u5B89\u88DD",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u521D\u59CB\u5316\u9805\u76EE",
+        "slug": "\u521D\u59CB\u5316\u9805\u76EE",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u5FEB\u901F\u4E0A\u624B",
+        "slug": "\u5FEB\u901F\u4E0A\u624B",
+        "children": []
+      }
+    ],
+    "path": "/java/springboot/01.springboot.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "springboot\u542F\u52A8\u539F\u7406",
+    "headers": [
+      {
+        "level": 2,
+        "title": "\u4E3B\u7C7B\u4EE3\u7801\u5F00\u59CB\uFF08\u6CE8\u89E3\u4E5F\u4F9D\u8D56\u4E8E\u4EE3\u7801\uFF09",
+        "slug": "\u4E3B\u7C7B\u4EE3\u7801\u5F00\u59CB-\u6CE8\u89E3\u4E5F\u4F9D\u8D56\u4E8E\u4EE3\u7801",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u76F4\u63A5new\u4E86\u4E00\u4E2Aspring boot\u5BF9\u8C61",
+        "slug": "\u76F4\u63A5new\u4E86\u4E00\u4E2Aspring-boot\u5BF9\u8C61",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "getSpringFactoriesInstances",
+        "slug": "getspringfactoriesinstances",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u603B\u7ED3run\u65B9\u6CD5",
+        "slug": "\u603B\u7ED3run\u65B9\u6CD5",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u81EA\u52A8\u914D\u7F6E\u539F\u7406",
+        "slug": "\u81EA\u52A8\u914D\u7F6E\u539F\u7406",
+        "children": []
+      }
+    ],
+    "path": "/java/springboot/02.springboot%E5%90%AF%E5%8A%A8%E5%8E%9F%E7%90%86.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "springboot\u81EA\u52A8\u914D\u7F6E",
+    "headers": [
+      {
+        "level": 2,
+        "title": "@EnableAutoConfiguration",
+        "slug": "enableautoconfiguration",
+        "children": []
+      }
+    ],
+    "path": "/java/springboot/03.springboot%E8%87%AA%E5%8A%A8%E9%85%8D%E7%BD%AE.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "java",
+    "headers": [
+      {
+        "level": 2,
+        "title": "\u524D\u671F",
+        "slug": "\u524D\u671F",
+        "children": [
+          {
+            "level": 3,
+            "title": "\u5B78\u7FD2\u65B9\u6CD5",
+            "slug": "\u5B78\u7FD2\u65B9\u6CD5",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u4EC0\u9EBC\u662F\u8A08\u7B97\u6A5F\uFF08\u786C\u4EF6\u548C\u8EDF\u4EF6\uFF09\uFF1F",
+            "slug": "\u4EC0\u9EBC\u662F\u8A08\u7B97\u6A5F-\u786C\u4EF6\u548C\u8EDF\u4EF6",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Windows \u5FEB\u6377\u9375",
+            "slug": "windows-\u5FEB\u6377\u9375",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "DOS \u547D\u4EE4\uFF08\u547D\u4EE4\u884C\uFF09",
+            "slug": "dos-\u547D\u4EE4-\u547D\u4EE4\u884C",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "java \u8A95\u751F\u548C\u7279\u6027\u53CA\u512A\u52E2",
+            "slug": "java-\u8A95\u751F\u548C\u7279\u6027\u53CA\u512A\u52E2",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "java \u4E09\u5927\u7248\u672C",
+            "slug": "java-\u4E09\u5927\u7248\u672C",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "JDK JRE JVM",
+            "slug": "jdk-jre-jvm",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u5B89\u88DD JDK",
+            "slug": "\u5B89\u88DD-jdk",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u5378\u8F09 JDK",
+            "slug": "\u5378\u8F09-jdk",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "HelloWorld",
+            "slug": "helloworld",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u7DE8\u8B6F\u578B\u548C\u89E3\u91CB\u578B",
+            "slug": "\u7DE8\u8B6F\u578B\u548C\u89E3\u91CB\u578B",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Java \u8A9E\u6CD5",
+        "slug": "java-\u8A9E\u6CD5",
+        "children": [
+          {
+            "level": 3,
+            "title": "\u6CE8\u91CB\uFF0C\u6A19\u8B58\u7B26\uFF0C\u95DC\u9375\u5B57",
+            "slug": "\u6CE8\u91CB-\u6A19\u8B58\u7B26-\u95DC\u9375\u5B57",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u6578\u64DA\u985E\u578B",
+            "slug": "\u6578\u64DA\u985E\u578B",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u7C7B\u578B\u8F6C\u6362",
+            "slug": "\u7C7B\u578B\u8F6C\u6362",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u53D8\u91CF\uFF0C\u5E38\u91CF\uFF0C\u4F5C\u7528\u57DF",
+            "slug": "\u53D8\u91CF-\u5E38\u91CF-\u4F5C\u7528\u57DF",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u904B\u7B97\u7B26",
+            "slug": "\u904B\u7B97\u7B26",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u5305\u6A5F\u5236",
+            "slug": "\u5305\u6A5F\u5236",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Scanner\u7528\u6236\u4EA4\u4E92",
+            "slug": "scanner\u7528\u6236\u4EA4\u4E92",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u987A\u5E8F\u7ED3\u6784",
+            "slug": "\u987A\u5E8F\u7ED3\u6784",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u9009\u62E9\u7ED3\u6784",
+            "slug": "\u9009\u62E9\u7ED3\u6784",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u9009\u62E9\u7ED3\u6784",
+            "slug": "\u9009\u62E9\u7ED3\u6784-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u9000\u51FA\u5FAA\u73AF",
+            "slug": "\u9000\u51FA\u5FAA\u73AF",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Debug\u4F7F\u7528",
+            "slug": "debug\u4F7F\u7528",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u65B9\u6CD5",
+            "slug": "\u65B9\u6CD5",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u65B9\u6CD5\u91CD\u8F09",
+            "slug": "\u65B9\u6CD5\u91CD\u8F09",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u547D\u4EE4\u884C\u50B3\u53C3",
+            "slug": "\u547D\u4EE4\u884C\u50B3\u53C3",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u53EF\u8B8A\u53C3\u6578",
+            "slug": "\u53EF\u8B8A\u53C3\u6578",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u9012\u5F52",
+            "slug": "\u9012\u5F52",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u6570\u7EC4",
+            "slug": "\u6570\u7EC4",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u5185\u5B58\u5206\u6790",
+            "slug": "\u5185\u5B58\u5206\u6790",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u591A\u7EF4\u6570\u7EC4",
+            "slug": "\u591A\u7EF4\u6570\u7EC4",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Arrays\u7C7B",
+            "slug": "arrays\u7C7B",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u516B\u79CD\u5192\u6CE1\u6392\u5E8F",
+            "slug": "\u516B\u79CD\u5192\u6CE1\u6392\u5E8F",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u9B06\u6563\u6578\u7D44\uFF08\u7A00\u758F\u6578\u7D44\uFF09",
+            "slug": "\u9B06\u6563\u6578\u7D44-\u7A00\u758F\u6578\u7D44",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/java/%E3%80%8Ajava%E5%85%A5%E9%97%A8%E3%80%8B/01.%E5%9F%BA%E7%A1%80%E4%BB%8B%E7%BB%8D.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "java\u6578\u64DA\u985E\u578B",
+    "headers": [
+      {
+        "level": 2,
+        "title": "\u57FA\u672C\u6570\u636E\u7C7B\u578B",
+        "slug": "\u57FA\u672C\u6570\u636E\u7C7B\u578B",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u5F15\u7528\u6570\u636E\u7C7B\u578B",
+        "slug": "\u5F15\u7528\u6570\u636E\u7C7B\u578B",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u6574\u6570\u7C7B\u578B",
+        "slug": "\u6574\u6570\u7C7B\u578B",
+        "children": []
+      }
+    ],
+    "path": "/java/%E3%80%8Ajava%E5%85%A5%E9%97%A8%E3%80%8B/02.%E6%95%B8%E6%93%9A%E9%A1%9E%E5%9E%8B.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "\u95EE\u9898\u96C6\u9526",
     "headers": [
       {
@@ -1783,405 +2188,6 @@ const searchIndex$1 = [
       }
     ],
     "path": "/guide/%E9%9A%8F%E7%AC%94/reflection.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "git\u7248\u672C\u63A7\u5236",
-    "headers": [
-      {
-        "level": 2,
-        "title": "\u8BA4\u8BC6git",
-        "slug": "\u8BA4\u8BC6git",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u5B89\u88C5Git",
-        "slug": "\u5B89\u88C5git",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u57FA\u672C\u547D\u4EE4\u4ECB\u7ECD",
-        "slug": "\u57FA\u672C\u547D\u4EE4\u4ECB\u7ECD",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u6DFB\u52A0\u548C\u63D0\u4EA4",
-        "slug": "\u6DFB\u52A0\u548C\u63D0\u4EA4",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u5206\u652F",
-        "slug": "\u5206\u652F",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u5408\u5E76\u5206\u652F",
-        "slug": "\u5408\u5E76\u5206\u652F",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u53D8\u57FA\u5206\u652F",
-        "slug": "\u53D8\u57FA\u5206\u652F",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u4F18\u9009",
-        "slug": "\u4F18\u9009",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u4F7F\u7528IDEA\u7248\u672C\u63A7\u5236",
-        "slug": "\u4F7F\u7528idea\u7248\u672C\u63A7\u5236",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u8FDC\u7A0B\u4ED3\u5E93",
-        "slug": "\u8FDC\u7A0B\u4ED3\u5E93",
-        "children": []
-      }
-    ],
-    "path": "/java/git/01.git%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "mysql",
-    "headers": [],
-    "path": "/java/mysql/01.mysql.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "springboot",
-    "headers": [
-      {
-        "level": 2,
-        "title": "IDEA\uFF082021.3\u4EE5\u4E0A\u7248\u672C\u5B89\u88DD\uFF09",
-        "slug": "idea-2021-3\u4EE5\u4E0A\u7248\u672C\u5B89\u88DD",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u521D\u59CB\u5316\u9805\u76EE",
-        "slug": "\u521D\u59CB\u5316\u9805\u76EE",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u5FEB\u901F\u4E0A\u624B",
-        "slug": "\u5FEB\u901F\u4E0A\u624B",
-        "children": []
-      }
-    ],
-    "path": "/java/springboot/01.springboot.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "springboot\u542F\u52A8\u539F\u7406",
-    "headers": [
-      {
-        "level": 2,
-        "title": "\u4E3B\u7C7B\u4EE3\u7801\u5F00\u59CB\uFF08\u6CE8\u89E3\u4E5F\u4F9D\u8D56\u4E8E\u4EE3\u7801\uFF09",
-        "slug": "\u4E3B\u7C7B\u4EE3\u7801\u5F00\u59CB-\u6CE8\u89E3\u4E5F\u4F9D\u8D56\u4E8E\u4EE3\u7801",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u76F4\u63A5new\u4E86\u4E00\u4E2Aspring boot\u5BF9\u8C61",
-        "slug": "\u76F4\u63A5new\u4E86\u4E00\u4E2Aspring-boot\u5BF9\u8C61",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "getSpringFactoriesInstances",
-        "slug": "getspringfactoriesinstances",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u603B\u7ED3run\u65B9\u6CD5",
-        "slug": "\u603B\u7ED3run\u65B9\u6CD5",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u81EA\u52A8\u914D\u7F6E\u539F\u7406",
-        "slug": "\u81EA\u52A8\u914D\u7F6E\u539F\u7406",
-        "children": []
-      }
-    ],
-    "path": "/java/springboot/02.springboot%E5%90%AF%E5%8A%A8%E5%8E%9F%E7%90%86.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "springboot\u81EA\u52A8\u914D\u7F6E",
-    "headers": [
-      {
-        "level": 2,
-        "title": "@EnableAutoConfiguration",
-        "slug": "enableautoconfiguration",
-        "children": []
-      }
-    ],
-    "path": "/java/springboot/03.springboot%E8%87%AA%E5%8A%A8%E9%85%8D%E7%BD%AE.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "java",
-    "headers": [
-      {
-        "level": 2,
-        "title": "\u524D\u671F",
-        "slug": "\u524D\u671F",
-        "children": [
-          {
-            "level": 3,
-            "title": "\u5B78\u7FD2\u65B9\u6CD5",
-            "slug": "\u5B78\u7FD2\u65B9\u6CD5",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "\u4EC0\u9EBC\u662F\u8A08\u7B97\u6A5F\uFF08\u786C\u4EF6\u548C\u8EDF\u4EF6\uFF09\uFF1F",
-            "slug": "\u4EC0\u9EBC\u662F\u8A08\u7B97\u6A5F-\u786C\u4EF6\u548C\u8EDF\u4EF6",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Windows \u5FEB\u6377\u9375",
-            "slug": "windows-\u5FEB\u6377\u9375",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "DOS \u547D\u4EE4\uFF08\u547D\u4EE4\u884C\uFF09",
-            "slug": "dos-\u547D\u4EE4-\u547D\u4EE4\u884C",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "java \u8A95\u751F\u548C\u7279\u6027\u53CA\u512A\u52E2",
-            "slug": "java-\u8A95\u751F\u548C\u7279\u6027\u53CA\u512A\u52E2",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "java \u4E09\u5927\u7248\u672C",
-            "slug": "java-\u4E09\u5927\u7248\u672C",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "JDK JRE JVM",
-            "slug": "jdk-jre-jvm",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "\u5B89\u88DD JDK",
-            "slug": "\u5B89\u88DD-jdk",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "\u5378\u8F09 JDK",
-            "slug": "\u5378\u8F09-jdk",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "HelloWorld",
-            "slug": "helloworld",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "\u7DE8\u8B6F\u578B\u548C\u89E3\u91CB\u578B",
-            "slug": "\u7DE8\u8B6F\u578B\u548C\u89E3\u91CB\u578B",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Java \u8A9E\u6CD5",
-        "slug": "java-\u8A9E\u6CD5",
-        "children": [
-          {
-            "level": 3,
-            "title": "\u6CE8\u91CB\uFF0C\u6A19\u8B58\u7B26\uFF0C\u95DC\u9375\u5B57",
-            "slug": "\u6CE8\u91CB-\u6A19\u8B58\u7B26-\u95DC\u9375\u5B57",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "\u6578\u64DA\u985E\u578B",
-            "slug": "\u6578\u64DA\u985E\u578B",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "\u7C7B\u578B\u8F6C\u6362",
-            "slug": "\u7C7B\u578B\u8F6C\u6362",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "\u53D8\u91CF\uFF0C\u5E38\u91CF\uFF0C\u4F5C\u7528\u57DF",
-            "slug": "\u53D8\u91CF-\u5E38\u91CF-\u4F5C\u7528\u57DF",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "\u904B\u7B97\u7B26",
-            "slug": "\u904B\u7B97\u7B26",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "\u5305\u6A5F\u5236",
-            "slug": "\u5305\u6A5F\u5236",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Scanner\u7528\u6236\u4EA4\u4E92",
-            "slug": "scanner\u7528\u6236\u4EA4\u4E92",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "\u987A\u5E8F\u7ED3\u6784",
-            "slug": "\u987A\u5E8F\u7ED3\u6784",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "\u9009\u62E9\u7ED3\u6784",
-            "slug": "\u9009\u62E9\u7ED3\u6784",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "\u9009\u62E9\u7ED3\u6784",
-            "slug": "\u9009\u62E9\u7ED3\u6784-1",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "\u9000\u51FA\u5FAA\u73AF",
-            "slug": "\u9000\u51FA\u5FAA\u73AF",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Debug\u4F7F\u7528",
-            "slug": "debug\u4F7F\u7528",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "\u65B9\u6CD5",
-            "slug": "\u65B9\u6CD5",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "\u65B9\u6CD5\u91CD\u8F09",
-            "slug": "\u65B9\u6CD5\u91CD\u8F09",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "\u547D\u4EE4\u884C\u50B3\u53C3",
-            "slug": "\u547D\u4EE4\u884C\u50B3\u53C3",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "\u53EF\u8B8A\u53C3\u6578",
-            "slug": "\u53EF\u8B8A\u53C3\u6578",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "\u9012\u5F52",
-            "slug": "\u9012\u5F52",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "\u6570\u7EC4",
-            "slug": "\u6570\u7EC4",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "\u5185\u5B58\u5206\u6790",
-            "slug": "\u5185\u5B58\u5206\u6790",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "\u591A\u7EF4\u6570\u7EC4",
-            "slug": "\u591A\u7EF4\u6570\u7EC4",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Arrays\u7C7B",
-            "slug": "arrays\u7C7B",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "\u516B\u79CD\u5192\u6CE1\u6392\u5E8F",
-            "slug": "\u516B\u79CD\u5192\u6CE1\u6392\u5E8F",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/java/%E3%80%8Ajava%E5%85%A5%E9%97%A8%E3%80%8B/01.%E5%9F%BA%E7%A1%80%E4%BB%8B%E7%BB%8D.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "java\u6578\u64DA\u985E\u578B",
-    "headers": [
-      {
-        "level": 2,
-        "title": "\u57FA\u672C\u6570\u636E\u7C7B\u578B",
-        "slug": "\u57FA\u672C\u6570\u636E\u7C7B\u578B",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u5F15\u7528\u6570\u636E\u7C7B\u578B",
-        "slug": "\u5F15\u7528\u6570\u636E\u7C7B\u578B",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u6574\u6570\u7C7B\u578B",
-        "slug": "\u6574\u6570\u7C7B\u578B",
-        "children": []
-      }
-    ],
-    "path": "/java/%E3%80%8Ajava%E5%85%A5%E9%97%A8%E3%80%8B/02.%E6%95%B8%E6%93%9A%E9%A1%9E%E5%9E%8B.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -3711,12 +3717,6 @@ const routeItems = [
   ["v-4bac9763", "/course/utils.html", { "title": "\u8D44\u6E90\u5DE5\u5177" }, ["/course/utils", "/course/utils.md"]],
   ["v-66ff7ae2", "/course/vscode%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.html", { "title": "vscode\u5E38\u7528\u63D2\u4EF6" }, ["/course/vscode\u5E38\u7528\u63D2\u4EF6.html", "/course/vscode%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6", "/course/vscode\u5E38\u7528\u63D2\u4EF6.md", "/course/vscode%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.md"]],
   ["v-c8744e90", "/actualCombat/Flutter%E5%B7%A5%E7%A8%8B%E5%AE%9E%E6%88%98/01.%E8%B5%B7%E6%AD%A5.html", { "title": "Flutter\u5B9E\u6218" }, ["/actualCombat/Flutter\u5DE5\u7A0B\u5B9E\u6218/01.\u8D77\u6B65.html", "/actualCombat/Flutter%E5%B7%A5%E7%A8%8B%E5%AE%9E%E6%88%98/01.%E8%B5%B7%E6%AD%A5", "/actualCombat/Flutter\u5DE5\u7A0B\u5B9E\u6218/01.\u8D77\u6B65.md", "/actualCombat/Flutter%E5%B7%A5%E7%A8%8B%E5%AE%9E%E6%88%98/01.%E8%B5%B7%E6%AD%A5.md"]],
-  ["v-3509cb32", "/guide/interview/interview.html", { "title": "\u95EE\u9898\u96C6\u9526" }, ["/guide/interview/interview", "/guide/interview/interview.md"]],
-  ["v-5d3f7a3b", "/guide/interview/JSinterview.html", { "title": "JS\u9762\u8BD5" }, ["/guide/interview/JSinterview", "/guide/interview/JSinterview.md"]],
-  ["v-2d570564", "/guide/interview/VUEinterview.html", { "title": "VUE\u9762\u8BD5" }, ["/guide/interview/VUEinterview", "/guide/interview/VUEinterview.md"]],
-  ["v-71958ec2", "/guide/%E6%95%85%E4%BA%8B/story.html", { "title": "\u65E5\u5E38\u6545\u4E8B" }, ["/guide/\u6545\u4E8B/story.html", "/guide/%E6%95%85%E4%BA%8B/story", "/guide/\u6545\u4E8B/story.md", "/guide/%E6%95%85%E4%BA%8B/story.md"]],
-  ["v-3803ce0e", "/guide/%E6%95%99%E7%A8%8B/text.html", { "title": "\u6559\u7A0B" }, ["/guide/\u6559\u7A0B/text.html", "/guide/%E6%95%99%E7%A8%8B/text", "/guide/\u6559\u7A0B/text.md", "/guide/%E6%95%99%E7%A8%8B/text.md"]],
-  ["v-6c145c9c", "/guide/%E9%9A%8F%E7%AC%94/reflection.html", { "title": "\u6240\u4EE5\u4E8B\u5C0F\u4E8E\u6B7B" }, ["/guide/\u968F\u7B14/reflection.html", "/guide/%E9%9A%8F%E7%AC%94/reflection", "/guide/\u968F\u7B14/reflection.md", "/guide/%E9%9A%8F%E7%AC%94/reflection.md"]],
   ["v-88893a3e", "/java/git/01.git%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6.html", { "title": "git\u7248\u672C\u63A7\u5236" }, ["/java/git/01.git\u7248\u672C\u63A7\u5236.html", "/java/git/01.git%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6", "/java/git/01.git\u7248\u672C\u63A7\u5236.md", "/java/git/01.git%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6.md"]],
   ["v-6785e53a", "/java/mysql/01.mysql.html", { "title": "mysql" }, ["/java/mysql/01.mysql", "/java/mysql/01.mysql.md"]],
   ["v-23b022e9", "/java/springboot/01.springboot.html", { "title": "springboot" }, ["/java/springboot/01.springboot", "/java/springboot/01.springboot.md"]],
@@ -3724,6 +3724,12 @@ const routeItems = [
   ["v-21d7a310", "/java/springboot/03.springboot%E8%87%AA%E5%8A%A8%E9%85%8D%E7%BD%AE.html", { "title": "springboot\u81EA\u52A8\u914D\u7F6E" }, ["/java/springboot/03.springboot\u81EA\u52A8\u914D\u7F6E.html", "/java/springboot/03.springboot%E8%87%AA%E5%8A%A8%E9%85%8D%E7%BD%AE", "/java/springboot/03.springboot\u81EA\u52A8\u914D\u7F6E.md", "/java/springboot/03.springboot%E8%87%AA%E5%8A%A8%E9%85%8D%E7%BD%AE.md"]],
   ["v-64dc3831", "/java/%E3%80%8Ajava%E5%85%A5%E9%97%A8%E3%80%8B/01.%E5%9F%BA%E7%A1%80%E4%BB%8B%E7%BB%8D.html", { "title": "java" }, ["/java/\u300Ajava\u5165\u95E8\u300B/01.\u57FA\u7840\u4ECB\u7ECD.html", "/java/%E3%80%8Ajava%E5%85%A5%E9%97%A8%E3%80%8B/01.%E5%9F%BA%E7%A1%80%E4%BB%8B%E7%BB%8D", "/java/\u300Ajava\u5165\u95E8\u300B/01.\u57FA\u7840\u4ECB\u7ECD.md", "/java/%E3%80%8Ajava%E5%85%A5%E9%97%A8%E3%80%8B/01.%E5%9F%BA%E7%A1%80%E4%BB%8B%E7%BB%8D.md"]],
   ["v-ff7fbc46", "/java/%E3%80%8Ajava%E5%85%A5%E9%97%A8%E3%80%8B/02.%E6%95%B8%E6%93%9A%E9%A1%9E%E5%9E%8B.html", { "title": "java\u6578\u64DA\u985E\u578B" }, ["/java/\u300Ajava\u5165\u95E8\u300B/02.\u6578\u64DA\u985E\u578B.html", "/java/%E3%80%8Ajava%E5%85%A5%E9%97%A8%E3%80%8B/02.%E6%95%B8%E6%93%9A%E9%A1%9E%E5%9E%8B", "/java/\u300Ajava\u5165\u95E8\u300B/02.\u6578\u64DA\u985E\u578B.md", "/java/%E3%80%8Ajava%E5%85%A5%E9%97%A8%E3%80%8B/02.%E6%95%B8%E6%93%9A%E9%A1%9E%E5%9E%8B.md"]],
+  ["v-3509cb32", "/guide/interview/interview.html", { "title": "\u95EE\u9898\u96C6\u9526" }, ["/guide/interview/interview", "/guide/interview/interview.md"]],
+  ["v-5d3f7a3b", "/guide/interview/JSinterview.html", { "title": "JS\u9762\u8BD5" }, ["/guide/interview/JSinterview", "/guide/interview/JSinterview.md"]],
+  ["v-2d570564", "/guide/interview/VUEinterview.html", { "title": "VUE\u9762\u8BD5" }, ["/guide/interview/VUEinterview", "/guide/interview/VUEinterview.md"]],
+  ["v-71958ec2", "/guide/%E6%95%85%E4%BA%8B/story.html", { "title": "\u65E5\u5E38\u6545\u4E8B" }, ["/guide/\u6545\u4E8B/story.html", "/guide/%E6%95%85%E4%BA%8B/story", "/guide/\u6545\u4E8B/story.md", "/guide/%E6%95%85%E4%BA%8B/story.md"]],
+  ["v-3803ce0e", "/guide/%E6%95%99%E7%A8%8B/text.html", { "title": "\u6559\u7A0B" }, ["/guide/\u6559\u7A0B/text.html", "/guide/%E6%95%99%E7%A8%8B/text", "/guide/\u6559\u7A0B/text.md", "/guide/%E6%95%99%E7%A8%8B/text.md"]],
+  ["v-6c145c9c", "/guide/%E9%9A%8F%E7%AC%94/reflection.html", { "title": "\u6240\u4EE5\u4E8B\u5C0F\u4E8E\u6B7B" }, ["/guide/\u968F\u7B14/reflection.html", "/guide/%E9%9A%8F%E7%AC%94/reflection", "/guide/\u968F\u7B14/reflection.md", "/guide/%E9%9A%8F%E7%AC%94/reflection.md"]],
   ["v-72cc4ebc", "/web/css/01-css.html", { "title": "CSS" }, ["/web/css/01-css", "/web/css/01-css.md"]],
   ["v-1b13d411", "/web/Flutter/01.html", { "title": "Flutter" }, ["/web/Flutter/01", "/web/Flutter/01.md"]],
   ["v-4d4398ea", "/web/Flutter/02.Dart%E8%AF%AD%E6%B3%95.html", { "title": "Dart\u8BED\u6CD5" }, ["/web/Flutter/02.Dart\u8BED\u6CD5.html", "/web/Flutter/02.Dart%E8%AF%AD%E6%B3%95", "/web/Flutter/02.Dart\u8BED\u6CD5.md", "/web/Flutter/02.Dart%E8%AF%AD%E6%B3%95.md"]],
@@ -5433,22 +5439,1089 @@ var _01____html$2 = /* @__PURE__ */ Object.freeze({
 });
 const _sfc_main$M = {};
 function _sfc_ssrRender$y(_ctx, _push, _parent, _attrs) {
-  _push(`<!--[--><h1 id="\u95EE\u9898\u96C6\u9526" tabindex="-1"><a class="header-anchor" href="#\u95EE\u9898\u96C6\u9526" aria-hidden="true">#</a> \u95EE\u9898\u96C6\u9526</h1><div class="custom-container tip"><p class="custom-container-title">\u9762\u8BD5</p><p>\u5E38\u89C1\u9762\u8BD5\u96C6\u9526</p></div><h2 id="\u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD" tabindex="-1"><a class="header-anchor" href="#\u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD" aria-hidden="true">#</a> \u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD</h2><p><strong>\u63D0\u793A</strong>\uFF1A\u4E00\u822C\u4EBA\u56DE\u7B54\u8FD9\u4E2A\u95EE\u9898\u8FC7\u4E8E\u5E73\u5E38\uFF0C\u59D3\u540D\u3001\u5E74\u9F84\u3001\u7231\u597D\u3001\u5DE5\u4F5C\u7ECF\u9A8C\uFF0C\u8FD9\u4E9B\u7B80\u5386\u4E0A\u90FD\u6709\u3002\u4F01\u4E1A\uFF08\u9762\u8BD5\u5B98\uFF09\u6700\u5E0C\u671B\u77E5\u9053\u7684\u662F\u6C42\u804C\u8005\u80FD\u5426\u80DC\u4EFB\u5DE5\u4F5C\uFF0C\u5305\u62EC\uFF1A\u6700\u5F3A\u7684\u6280\u80FD\u3001\u6700\u6DF1\u5165\u7814\u7A76\u7684\u9886\u57DF\u3001\u4E2A\u6027\u4E2D\u6700\u79EF\u6781\u7684\u90E8\u5206\u3001\u505A\u8FC7\u6700\u6210\u529F\u7684\u4E8B\uFF0C\u4E3B\u8981\u6210\u5C31\u7B49\uFF0C\u8981\u7A81\u51FA\u79EF\u6781\u7684\u4E2A\u6027\u548C\u505A\u4E8B\u7684\u80FD\u529B\uFF0C\u8BF4\u7684\u5408\u60C5\u5408\u7406\u4F01\u4E1A\uFF08\u9762\u8BD5\u5B98\uFF09\u624D\u4F1A\u76F8\u4FE1\u3002</p><h2 id="\u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48" tabindex="-1"><a class="header-anchor" href="#\u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48" aria-hidden="true">#</a> \u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48\uFF1F</h2><p><strong>\u56DE\u7B54\u63D0\u793A</strong>\uFF1A \u6C89\u7740\u51B7\u9759\u3001\u6761\u7406\u6E05\u695A\u3001\u7ACB\u573A\u575A\u5B9A\u3001\u4E50\u4E8E\u52A9\u4EBA\u7B49\uFF0C\u52A0\u4E0A\u4F8B\u5B50\u5982\uFF1A\u6211\u5728XX\u7ECF\u8FC7\u4E00\u5230\u4E24\u5E74\u7684\u57F9\u8BAD\u53CA\u9879\u76EE\u5B9E\u6218\uFF0C\u52A0\u4E0A\u5B9E\u4E60\u5DE5\u4F5C\uFF0C\u6211\u60F3\u6211\u9002\u5408\u8FD9\u4EFD\u5DE5\u4F5C\u3002</p><h2 id="\u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9" tabindex="-1"><a class="header-anchor" href="#\u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9" aria-hidden="true">#</a> \u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u8FD9\u4E2A\u95EE\u9898\u4F01\u4E1A\u95EE\u7684\u6982\u7387\u5F88\u5927\uFF0C\u901A\u5E38\u4E0D\u5E0C\u671B\u542C\u5230\u76F4\u63A5\u56DE\u7B54\u7684\u7F3A\u70B9\u662F\u4EC0\u4E48\u7B49\uFF0C\u5982\u679C\u6C42\u804C\u8005\u8BF4\u81EA\u5DF1\u5C0F\u5FC3\u773C\u3001\u975E\u5E38\u61D2\u3001\u5DE5\u4F5C\u6548\u7387\u4F4E\uFF0C\u4F01\u4E1A\u80AF\u5B9A\u4E0D\u4F1A\u5F55\u7528\u4F60\u3002\u8981\u4ECE\u81EA\u5DF1\u7684\u4F18\u70B9\u8BF4\u8D77\uFF0C\u4E2D\u95F4\u52A0\u4E00\u4E9B\u5C0F\u7F3A\u70B9\uFF0C\u6700\u540E\u518D\u628A\u95EE\u7B54\u8F6C\u56DE\u5230\u4F18\u70B9\u4E0A\uFF0C\u7A81\u51FA\u4F18\u70B9\u7684\u90E8\u5206\u3002</p><h2 id="\u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5" tabindex="-1"><a class="header-anchor" href="#\u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5" aria-hidden="true">#</a> \u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A\u5B9E\u9645\u4E0A\u597D\u591A\u516C\u53F8\u95EE\u8FD9\u4E2A\u95EE\u9898\uFF0C\u5E76\u4E0D\u8BC1\u660E\u4E00\u5B9A\u8981\u52A0\u73ED\uFF0C\u53EA\u662F\u60F3\u6D4B\u8BD5\u4F60\u662F\u5426\u613F\u610F\u4E3A\u516C\u53F8\u5949\u732E\u3002</p><p><strong>\u6837\u672C</strong>\uFF1A\u5982\u679C\u662F\u5DE5\u4F5C\u9700\u8981\u6211\u4F1A\u4E49\u4E0D\u5BB9\u8F9E\u52A0\u73ED\uFF0C\u4F46\u540C\u65F6\uFF0C\u6211\u4E5F\u4F1A\u63D0\u9AD8\u5DE5\u4F5C\u6548\u7387\uFF0C\u51CF\u5C11\u4E0D\u5FC5\u8981\u7684\u52A0\u73ED\u3002</p><h2 id="\u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42" tabindex="-1"><a class="header-anchor" href="#\u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42" aria-hidden="true">#</a> \u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u5982\u679C\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\u592A\u4F4E\uFF0C\u90A3\u663E\u7136\u8D2C\u4F4E\u81EA\u5DF1\u7684\u80FD\u529B\uFF1B\u5982\u679C\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\u592A\u9AD8\uFF0C\u90A3\u53C8\u4F1A\u663E\u5F97\u4F60\u5206\u91CF\u8FC7\u91CD\uFF0C\u516C\u53F8\u53D7\u7528\u4E0D\u8D77\u3002\u4E00\u4E9B\u96C7\u4E3B\u901A\u5E38\u90FD\u4E8B\u5148\u5BF9\u6C42\u8058\u7684\u804C\u4F4D\u5B9A\u4E0B\u5F00\u652F\u9884\u7B97\uFF0C\u56E0\u800C\u4ED6\u4EEC\u7B2C\u4E00\u6B21\u63D0\u51FA\u7684\u4EF7\u94B1\u5F80\u5F80\u662F\u4ED6\u4EEC\u6240\u80FD\u7ED9\u4E88\u7684\u6700\u9AD8\u4EF7\u94B1\uFF0C\u4ED6\u4EEC\u95EE\u4F60\u53EA\u4E0D\u8FC7\u60F3\u8BC1\u5B9E\u4E00\u4E0B\u8FD9\u7B14\u94B1\u662F\u5426\u8DB3\u4EE5\u5F15\u8D77\u4F60\u5BF9\u8BE5\u5DE5\u4F5C\u7684\u5174\u8DA3\u3002</p><p><strong>\u56DE\u7B54</strong>\uFF1A</p><ol><li><p>\u6211\u5BF9\u5DE5\u8D44\u6CA1\u6709\u786C\u6027\u8981\u6C42\uFF0C\u6211\u76F8\u4FE1\u8D35\u516C\u53F8\u4F1A\u53CB\u5584\u5408\u7406\u3002\u6211\u6CE8\u91CD\u7684\u662F\u627E\u5230\u5DE5\u4F5C\u673A\u4F1A\uFF0C\u6240\u4EE5\u53EA\u8981\u6761\u4EF6\u516C\u5E73\uFF0C\u6211\u5219\u4E0D\u4F1A\u8BA1\u8F83\u592A\u591A\u3002</p></li><li><p>\u6211\u53D7\u8FC7\u7CFB\u7EDF\u7684\u8F6F\u4EF6\u7F16\u7A0B\u7684\u8BAD\u7EC3\uFF0C\u4E0D\u9700\u8981\u8FDB\u884C\u5927\u91CF\u7684\u57F9\u8BAD\uFF0C\u800C\u4E14\u6211\u672C\u4EBA\u4E5F\u5BF9\u7F16\u7A0B\u7279\u522B\u611F\u5174\u8DA3\u3002\u56E0\u6B64\uFF0C\u6211\u5E0C\u671B\u516C\u53F8\u80FD\u6839\u636E\u6211\u7684\u60C5\u51B5\u548C\u5E02\u573A\u6807\u51C6\u7684\u6C34\u5E73\uFF0C\u7ED9\u6211\u5408\u7406\u7684\u85AA\u6C34\u3002</p></li><li><p>\u5982\u679C\u4F60\u5FC5\u987B\u81EA\u5DF1\u8BF4\u51FA\u5177\u4F53\u6570\u76EE\uFF0C\u8BF7\u4E0D\u8981\u8BF4\u4E00\u4E2A\u5BBD\u6CDB\u7684\u8303\u56F4\uFF0C\u90A3\u6837\u4F60\u5C06\u53EA\u80FD\u5F97\u5230\u6700\u4F4E\u9650\u5EA6\u7684\u6570\u5B57\u3002\u6700\u597D\u7ED9\u51FA\u4E00\u4E2A\u5177\u4F53\u7684\u6570\u5B57\uFF0C\u8FD9\u6837\u8868\u660E\u4F60\u5DF2\u7ECF\u5BF9\u5F53\u4ECA\u7684\u4EBA\u624D\u5E02\u573A\u505A\u4E86\u8C03\u67E5\uFF0C\u77E5\u9053\u50CF\u81EA\u5DF1\u8FD9\u6837\u5B66\u5386\u7684\u96C7\u5458\u6709\u4EC0\u4E48\u6837\u7684\u4EF7\u503C\u3002</p></li></ol><h2 id="\u5728\u4E94\u5E74\u5185-\u4F60\u7684\u804C\u4E1A\u89C4\u5212" tabindex="-1"><a class="header-anchor" href="#\u5728\u4E94\u5E74\u5185-\u4F60\u7684\u804C\u4E1A\u89C4\u5212" aria-hidden="true">#</a> \u5728\u4E94\u5E74\u5185\uFF0C\u4F60\u7684\u804C\u4E1A\u89C4\u5212\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u8FD9\u662F\u6BCF\u4E00\u4E2A\u5E94\u8058\u8005\u90FD\u4E0D\u5E0C\u671B\u88AB\u95EE\u5230\u7684\u95EE\u9898\uFF0C\u4F46\u662F\uFF08\u5927\u516C\u53F8\uFF09\u51E0\u4E4E\u6BCF\u4E2A\u4EBA\u90FD\u4F1A\u88AB\u95EE\u5230\uFF0C\u6BD4\u8F83\u591A\u7684\u7B54\u6848\u662F\u201C\u7BA1\u7406\u8005\u201D\u3002\u5F53\u7136\uFF0C\u8BF4\u51FA\u5176\u4ED6\u4E00\u4E9B\u4F60\u611F\u5174\u8DA3\u7684\u804C\u4F4D\u4E5F\u662F\u53EF\u4EE5\u7684\u3002\u8981\u77E5\u9053\uFF0C\u8003\u5B98\u603B\u662F\u559C\u6B22\u6709\u8FDB\u53D6\u5FC3\u7684\u5E94\u8058\u8005\uFF0C\u6B64\u65F6\u5982\u679C\u8BF4\u201C\u4E0D\u77E5\u9053\u201D\uFF0C\u6216\u8BB8\u5C31\u4F1A\u4F7F\u4F60\u4E27\u5931\u4E00\u4E2A\u597D\u673A\u4F1A\u3002\u6700\u666E\u901A\u7684\u56DE\u7B54\u5E94\u8BE5\u662F\u201C\u6211\u51C6\u5907\u5728\u6280\u672F\u9886\u57DF\u6709\u6240\u4F5C\u4E3A\u201D\u6216\u201C\u6211\u5E0C\u671B\u80FD\u6309\u7167\u516C\u53F8\u7684\u7BA1\u7406\u601D\u8DEF\u53D1\u5C55\u201D\u3002</p><h2 id="\u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417" tabindex="-1"><a class="header-anchor" href="#\u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417" aria-hidden="true">#</a> \u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417?</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u4F01\u4E1A\u7684\u8FD9\u4E2A\u95EE\u9898\u770B\u4E0A\u53BB\u53EF\u6709\u53EF\u65E0\uFF0C\u5176\u5B9E\u5F88\u5173\u952E\uFF0C\u4F01\u4E1A\u4E0D\u559C\u6B22\u8BF4\u201C\u6CA1\u95EE\u9898\u201D\u7684\u4EBA\uFF0C\u56E0\u4E3A\u5176\u5F88\u6CE8\u91CD\u5458\u5DE5\u7684\u4E2A\u6027\u548C\u521B\u65B0\u80FD\u529B\u3002\u4F01\u4E1A\u4E0D\u559C\u6B22\u6C42\u804C\u8005\u95EE\u4E2A\u4EBA\u798F\u5229\u4E4B\u7C7B\u7684\u95EE\u9898\uFF0C\u5982\u679C\u6709\u4EBA\u8FD9\u6837\u95EE\uFF1A\u8D35\u516C\u53F8\u5BF9\u65B0\u5165\u516C\u53F8\u7684\u5458\u5DE5\u6709\u6CA1\u6709\u4EC0\u4E48\u57F9\u8BAD\u9879\u76EE\uFF0C\u6211\u53EF\u4EE5\u53C2\u52A0\u5417\uFF1F\u6216\u8005\u8BF4\u8D35\u516C\u53F8\u7684\u664B\u5347\u673A\u5236\u662F\u4EC0\u4E48\u6837\u7684\uFF1F\u4F01\u4E1A\u5C06\u5F88\u6B22\u8FCE\uFF0C\u56E0\u4E3A\u4F53\u73B0\u51FA\u4F60\u5BF9\u5B66\u4E60\u7684\u70ED\u60C5\u548C\u5BF9\u516C\u53F8\u7684\u5FE0\u8BDA\u5EA6\u4EE5\u53CA\u4F60\u7684\u4E0A\u8FDB\u5FC3\u3002</p><h2 id="\u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5" tabindex="-1"><a class="header-anchor" href="#\u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5" aria-hidden="true">#</a> \u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5?</h2><p><strong>\u56DE\u7B54</strong>\uFF1A \u2460\u6B63\u5E38\u7684\u201C\u8DF3\u69FD\u201D\u80FD\u591F\u4FC3\u8FDB\u4EBA\u624D\u5408\u7406\u6D41\u52A8\uFF0C\u5E94\u8BE5\u652F\u6301\u3002\u2461\u9891\u7E41\u7684\u8DF3\u69FD\u5BF9\u5355\u4F4D\u548C\u4E2A\u4EBA\u53CC\u65B9\u90FD\u4E0D\u5229\uFF0C\u5E94\u8BE5\u53CD\u5BF9\u3002</p><h2 id="\u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11" tabindex="-1"><a class="header-anchor" href="#\u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11" aria-hidden="true">#</a> \u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11?</h2><p><strong>\u56DE\u7B54</strong>\uFF1A\u5728\u53BB\u516C\u53F8\u9762\u8BD5\u524D\u4E0A\u7F51\u67E5\u4E00\u4E0B\u8BE5\u516C\u53F8\u4E3B\u8425\u4E1A\u52A1\u3002\u53EF\u7C7B\u4F3C\u56DE\u7B54\uFF1A\u8D35\u516C\u53F8\u6709\u610F\u6539\u53D8\u7B56\u7565\uFF0C\u52A0\u5F3A\u4E0E\u56FD\u5916\u5927\u5382\u7684OEM\u5408\u4F5C\uFF0C\u81EA\u6709\u54C1\u724C\u7684\u90E8\u5206\u5219\u900F\u8FC7\u6D77\u5916\u7ECF\u9500\u5546\u3002</p><!--]-->`);
+  const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
+  _push(`<!--[--><h2 id="\u8BA4\u8BC6git" tabindex="-1"><a class="header-anchor" href="#\u8BA4\u8BC6git" aria-hidden="true">#</a> \u8BA4\u8BC6git</h2><p>\u9996\u5148\u6211\u4EEC\u6765\u4E86\u89E3\u4E00\u4E0BGit\u662F\u5982\u4F55\u5DE5\u4F5C\u7684\uFF1A</p><p>\u53EF\u4EE5\u770B\u5230\uFF0C\u5B83\u5927\u81F4\u5206\u4E3A4\u4E2A\u677F\u5757\uFF1A</p><ul><li>\u5DE5\u4F5C\u76EE\u5F55\uFF1A\u5B58\u653E\u6211\u4EEC\u6B63\u5728\u5199\u7684\u4EE3\u7801\uFF08\u5F53\u6211\u4EEC\u65B0\u7248\u672C\u5F00\u53D1\u5B8C\u6210\u4E4B\u540E\uFF0C\u5C31\u53EF\u4EE5\u8FDB\u884C\u65B0\u7248\u672C\u7684\u63D0\u4EA4\uFF09</li><li>\u6682\u5B58\u533A\uFF1A\u6682\u65F6\u4FDD\u5B58\u5F85\u63D0\u4EA4\u7684\u5185\u5BB9\uFF08\u65B0\u7248\u672C\u63D0\u4EA4\u540E\u4F1A\u5B58\u653E\u5230\u672C\u5730\u4ED3\u5E93\uFF09</li><li>\u672C\u5730\u4ED3\u5E93\uFF1A\u4F4D\u4E8E\u6211\u4EEC\u7535\u8111\u4E0A\u7684\u4E00\u4E2A\u7248\u672C\u63A7\u5236\u4ED3\u5E93\uFF08\u5B58\u653E\u7684\u5C31\u662F\u5F53\u524D\u9879\u76EE\u5404\u4E2A\u7248\u672C\u4EE3\u7801\u7684\u589E\u5220\u4FE1\u606F\uFF09</li><li>\u8FDC\u7A0B\u4ED3\u5E93\uFF1A\u4F4D\u4E8E\u670D\u52A1\u5668\u4E0A\u7684\u7248\u672C\u63A7\u5236\u4ED3\u5E93\uFF08\u670D\u52A1\u5668\u4E0A\u7684\u7248\u672C\u4FE1\u606F\u53EF\u4EE5\u7531\u672C\u5730\u4ED3\u5E93\u63A8\u9001\u4E0A\u53BB\uFF0C\u4E5F\u53EF\u4EE5\u4ECE\u670D\u52A1\u5668\u6293\u53D6\u5230\u672C\u5730\u4ED3\u5E93\uFF09</li></ul><p>\u5B83\u662F\u4E00\u4E2A\u5206\u5E03\u5F0F\u7684\u63A7\u5236\u7CFB\u7EDF\uFF0C\u56E0\u6B64\u4E00\u822C\u60C5\u51B5\u4E0B\u6211\u4EEC\u6BCF\u4E2A\u4EBA\u7684\u7535\u8111\u4E0A\u90FD\u6709\u4E00\u4E2A\u672C\u5730\u4ED3\u5E93\uFF0C\u7531\u5927\u5BB6\u5171\u540C\u5411\u8FDC\u7A0B\u4ED3\u5E93\u53BB\u63A8\u9001\u7248\u672C\u8FED\u4EE3\u4FE1\u606F\u3002</p><h2 id="\u5B89\u88C5git" tabindex="-1"><a class="header-anchor" href="#\u5B89\u88C5git" aria-hidden="true">#</a> \u5B89\u88C5Git</h2><p>\u9996\u5148\u8BF7\u524D\u5F80Git\u5B98\u7F51\u53BB\u4E0B\u8F7D\u6700\u65B0\u7684\u5B89\u88C5\u5305\uFF1A<a href="https://git-scm.com/download/win" target="_blank" rel="noopener noreferrer">https://git-scm.com/download/win`);
+  _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
+  _push(`</a></p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> config --global user.name <span class="token string">&quot;Your Name&quot;</span>
+<span class="token function">git</span> config --global user.email <span class="token string">&quot;email@example.com&quot;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h2 id="\u57FA\u672C\u547D\u4EE4\u4ECB\u7ECD" tabindex="-1"><a class="header-anchor" href="#\u57FA\u672C\u547D\u4EE4\u4ECB\u7ECD" aria-hidden="true">#</a> \u57FA\u672C\u547D\u4EE4\u4ECB\u7ECD</h2><ol><li>\u521B\u5EFA\u672C\u5730\u4ED3\u5E93</li></ol><p>\u53EF\u4EE5\u5728\u4EFB\u610F\u6587\u4EF6\u5939</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git init
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u8F93\u5165\u540E\uFF0C\u4F1A\u81EA\u52A8\u751F\u6210\u4E00\u4E2A.git\u76EE\u5F55\uFF0C\u6CE8\u610F\u8FD9\u4E2A\u76EE\u5F55\u662F\u4E00\u4E2A\u9690\u85CF\u76EE\u5F55\uFF0C\u800C\u5F53\u524D\u76EE\u5F55\u5C31\u662F\u6211\u4EEC\u7684\u5DE5\u4F5C\u76EE\u5F55\u3002</p><p>\u521B\u5EFA\u6210\u529F\u540E\uFF0C\u6211\u4EEC\u53EF\u4EE5\u67E5\u770B\u4E00\u4E0B\u5F53\u524D\u7684\u4E00\u4E2A\u72B6\u6001\uFF0C\u8F93\u5165\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git status
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u5982\u679C\u5DF2\u7ECF\u6210\u529F\u914D\u7F6E\u4E3AGit\u672C\u5730\u4ED3\u5E93\uFF0C\u90A3\u4E48\u8F93\u5165\u540E\u53EF\u4EE5\u770B\u5230</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>On branch master
+
+No commits yet
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>\u8FD9\u8868\u793A\u6211\u4EEC\u8FD8\u6CA1\u6709\u5411\u4ED3\u5E93\u4E2D\u63D0\u4EA4\u4EFB\u4F55\u5185\u5BB9\uFF0C\u4E5F\u5C31\u662F\u4E00\u4E2A\u7A7A\u7684\u72B6\u6001\u3002</p><h2 id="\u6DFB\u52A0\u548C\u63D0\u4EA4" tabindex="-1"><a class="header-anchor" href="#\u6DFB\u52A0\u548C\u63D0\u4EA4" aria-hidden="true">#</a> \u6DFB\u52A0\u548C\u63D0\u4EA4</h2><p>\u63A5\u7740\u6211\u4EEC\u6765\u770B\u770B\uFF0C\u5982\u4F55\u4F7F\u7528git\u6765\u7BA1\u7406\u6211\u4EEC\u6587\u6863\u7684\u7248\u672C\uFF0C\u6211\u4EEC\u521B\u5EFA\u4E00\u4E2A\u6587\u672C\u6587\u6863\uFF0C\u968F\u4FBF\u5199\u5165\u4E00\u70B9\u5185\u5BB9\uFF0C\u63A5\u7740\u8F93\u5165\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git status
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><ul><li>\u4F1A\u63D0\u793A</li></ul><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>Untracked files:
+  <span class="token punctuation">(</span>use <span class="token string">&quot;git add &lt;file&gt;...&quot;</span> to include <span class="token keyword">in</span> what will be committed<span class="token punctuation">)</span>
+	hello.txt
+
+nothing added to commit but untracked files present <span class="token punctuation">(</span>use <span class="token string">&quot;git add&quot;</span> to track<span class="token punctuation">)</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p>\u5176\u4E2DUntracked files\u662F\u672A\u8FFD\u8E2A\u6587\u4EF6\u7684\u610F\u601D\uFF0C\u4E5F\u5C31\u662F\u8BF4\uFF0C\u5982\u679C\u4E00\u4E2A\u6587\u4EF6\u5904\u4E8E\u672A\u8FFD\u8E2A\u72B6\u6001\uFF0C\u90A3\u4E48git\u4E0D\u4F1A\u8BB0\u5F55\u5B83\u7684\u53D8\u5316\uFF0C\u59CB\u7EC8\u5C06\u5176\u5F53\u505A\u4E00\u4E2A\u65B0\u521B\u5EFA\u7684\u6587\u4EF6\uFF0C\u8FD9\u91CC\u6211\u4EEC\u5C06\u5176\u6DFB\u52A0\u5230\u6682\u5B58\u533A\uFF0C\u90A3\u4E48\u5B83\u4F1A\u81EA\u52A8\u53D8\u4E3A\u88AB\u8FFD\u8E2A\u72B6\u6001\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git add hello<span class="token punctuation">.</span>txt #\u4E5F\u53EF\u4EE5 add <span class="token punctuation">.</span> \u4E00\u6B21\u6027\u6DFB\u52A0\u76EE\u5F55\u4E0B\u6240\u6709\u7684
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u518D\u6B21\u67E5\u770B\u5F53\u524D\u72B6\u6001(<code>git status</code>)\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>Changes to be committed<span class="token operator">:</span>
+  <span class="token punctuation">(</span>use <span class="token string">&quot;git rm --cached &lt;file&gt;...&quot;</span> to unstage<span class="token punctuation">)</span>
+	new file<span class="token operator">:</span>   hello<span class="token punctuation">.</span>txt
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>\u73B0\u5728\u6587\u4EF6\u540D\u79F0\u7684\u989C\u8272\u53D8\u6210\u4E86\u7EFF\u8272\uFF0C\u5E76\u4E14\u662F\u5904\u4E8EChanges to be committed\u4E0B\u9762\uFF0C\u56E0\u6B64\uFF0C\u6211\u4EEC\u7684hello.txt\u73B0\u5728\u5DF2\u7ECF\u88AB\u6DFB\u52A0\u5230\u6682\u5B58\u533A\u4E86\u3002</p><p>\u63A5\u7740\u6211\u4EEC\u6765\u5C1D\u8BD5\u5C06\u5176\u63D0\u4EA4\u5230Git\u672C\u5730\u4ED3\u5E93\u4E2D\uFF0C\u6CE8\u610F\u9700\u8981\u8F93\u5165\u63D0\u4EA4\u7684\u63CF\u8FF0\u4EE5\u4FBF\u540E\u7EED\u67E5\u770B\uFF0C\u6BD4\u5982\u4F60\u8FD9\u6B21\u63D0\u4EA4\u4FEE\u6539\u4E86\u6216\u662F\u65B0\u589E\u4E86\u54EA\u4E9B\u5185\u5BB9\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git commit <span class="token operator">-</span>m <span class="token string">&#39;Hello World&#39;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u63A5\u7740\u6211\u4EEC\u53EF\u4EE5\u67E5\u770B\u6211\u4EEC\u7684\u63D0\u4EA4\u8BB0\u5F55\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git log
+git log <span class="token operator">--</span>graph
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>\u6211\u4EEC\u8FD8\u53EF\u4EE5\u67E5\u770B\u6700\u8FD1\u4E00\u6B21\u53D8\u66F4\u7684\u8BE6\u7EC6\u5185\u5BB9\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git show <span class="token punctuation">[</span>\u4E5F\u53EF\u4EE5\u52A0\u4E0Acommit ID\u67E5\u770B\u6307\u5B9A\u7684\u63D0\u4EA4\u8BB0\u5F55<span class="token punctuation">]</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u518D\u6B21\u67E5\u770B\u5F53\u524D\u72B6\u6001\uFF0C\u5DF2\u7ECF\u662F\u6E05\u7A7A\u72B6\u6001\u4E86\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>On branch master
+nothing to commit<span class="token punctuation">,</span> working tree clean
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>\u63A5\u7740\u6211\u4EEC\u53EF\u4EE5\u5C1D\u8BD5\u4FEE\u6539\u4E00\u4E0B\u6211\u4EEC\u7684\u6587\u672C\u6587\u6863\uFF0C\u7531\u4E8E\u5F53\u524D\u6587\u4EF6\u5DF2\u7ECF\u662F\u88AB\u8FFD\u8E2A\u72B6\u6001\uFF0C\u90A3\u4E48git\u4F1A\u53BB\u8DDF\u8E2A\u5B83\u7684\u53D8\u5316\uFF0C\u5982\u679C\u8BF4\u6587\u4EF6\u53D1\u751F\u4E86\u4FEE\u6539\uFF0C\u90A3\u4E48\u6211\u4EEC\u518D\u6B21\u67E5\u770B\u72B6\u6001\u4F1A\u5F97\u5230\u4E0B\u9762\u7684\u7ED3\u679C\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>Changes not staged <span class="token keyword">for</span> commit<span class="token operator">:</span>
+  <span class="token punctuation">(</span>use <span class="token string">&quot;git add &lt;file&gt;...&quot;</span> to update what will be committed<span class="token punctuation">)</span>
+  <span class="token punctuation">(</span>use <span class="token string">&quot;git restore &lt;file&gt;...&quot;</span> to discard changes in working directory<span class="token punctuation">)</span>
+	modified<span class="token operator">:</span>   hello<span class="token punctuation">.</span>txt
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>\u4E5F\u5C31\u662F\u8BF4\u73B0\u5728\u6B64\u6587\u4EF6\u662F\u5904\u4E8E\u5DF2\u4FEE\u6539\u72B6\u6001\uFF0C\u6211\u4EEC\u5982\u679C\u4FEE\u6539\u597D\u4E86\uFF0C\u5C31\u53EF\u4EE5\u63D0\u4EA4\u6211\u4EEC\u7684\u65B0\u7248\u672C\u5230\u672C\u5730\u4ED3\u5E93\u4E2D\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git add <span class="token punctuation">.</span>
+git commit <span class="token operator">-</span>m <span class="token string">&#39;Modify Text&#39;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>\u63A5\u7740\u6211\u4EEC\u6765\u67E5\u8BE2\u4E00\u4E0B\u63D0\u4EA4\u8BB0\u5F55\uFF0C\u53EF\u4EE5\u770B\u5230\u4E00\u5171\u6709\u4E24\u6B21\u63D0\u4EA4\u8BB0\u5F55\u3002</p><p>\u6211\u4EEC\u53EF\u4EE5\u521B\u5EFA\u4E00\u4E2A.gitignore\u6587\u4EF6\u6765\u786E\u5B9A\u4E00\u4E2A\u6587\u4EF6\u5FFD\u7565\u5217\u8868\uFF0C\u5982\u679C\u5FFD\u7565\u5217\u8868\u4E2D\u7684\u6587\u4EF6\u5B58\u5728\u4E14\u4E0D\u662F\u88AB\u8FFD\u8E2A\u72B6\u6001\uFF0C\u90A3\u4E48git\u4E0D\u4F1A\u5BF9\u5176\u8FDB\u884C\u4EFB\u4F55\u68C0\u67E5\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># \u8FD9\u6837\u5C31\u4F1A\u5339\u914D\u6240\u6709\u4EE5txt\u7ED3\u5C3E\u7684\u6587\u4EF6</span>
+*.txt
+<span class="token comment"># \u867D\u7136\u4E0A\u9762\u6392\u9664\u4E86\u6240\u6709txt\u7ED3\u5C3E\u7684\u6587\u4EF6\uFF0C\u4F46\u662F\u8FD9\u4E2A\u4E0D\u6392\u9664</span>
+<span class="token operator">!</span><span class="token number">666</span>.txt
+<span class="token comment"># \u4E5F\u53EF\u4EE5\u76F4\u63A5\u6307\u5B9A\u4E00\u4E2A\u6587\u4EF6\u5939\uFF0C\u6587\u4EF6\u5939\u4E0B\u7684\u6240\u6709\u6587\u4EF6\u5C06\u5168\u90E8\u5FFD\u7565</span>
+test/
+<span class="token comment"># \u76EE\u5F55\u4E2D\u6240\u6709\u4EE5txt\u7ED3\u5C3E\u7684\u6587\u4EF6\uFF0C\u4F46\u4E0D\u5305\u62EC\u5B50\u76EE\u5F55</span>
+xxx/*.txt
+<span class="token comment"># \u76EE\u5F55\u4E2D\u6240\u6709\u4EE5txt\u7ED3\u5C3E\u7684\u6587\u4EF6\uFF0C\u5305\u62EC\u5B50\u76EE\u5F55</span>
+xxx/**/*.txt
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><p>\u521B\u5EFA\u540E\uFF0C\u6211\u4EEC\u6765\u770B\u770B\u662F\u5426\u8FD8\u4F1A\u68C0\u6D4B\u5230\u6211\u4EEC\u5FFD\u7565\u7684\u6587\u4EF6\u3002</p><p>\u56DE\u6EDA</p><p>\u5F53\u6211\u4EEC\u60F3\u8981\u56DE\u9000\u5230\u8FC7\u53BB\u7684\u7248\u672C\u65F6\uFF0C\u5C31\u53EF\u4EE5\u6267\u884C\u56DE\u6EDA\u64CD\u4F5C\uFF0C\u6267\u884C\u540E\uFF0C\u53EF\u4EE5\u5C06\u5DE5\u4F5C\u7A7A\u95F4\u7684\u5185\u5BB9\u6062\u590D\u5230\u6307\u5B9A\u63D0\u4EA4\u7684\u72B6\u6001\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git reset <span class="token operator">--</span>hard commitID
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u6267\u884C\u540E\uFF0C\u4F1A\u76F4\u63A5\u91CD\u7F6E\u4E3A\u90A3\u4E2A\u65F6\u5019\u7684\u72B6\u6001\u3002\u518D\u6B21\u67E5\u770B\u63D0\u4EA4\u65E5\u5FD7\uFF0C\u6211\u4EEC\u53D1\u73B0\u4E4B\u540E\u7684\u65E5\u5FD7\u5168\u90E8\u6D88\u5931\u4E86\u3002</p><p>\u90A3\u4E48\u8981\u662F\u73B0\u5728\u6211\u53C8\u60F3\u56DE\u53BB\u5462\uFF1F\u6211\u4EEC\u53EF\u4EE5\u901A\u8FC7\u67E5\u770B\u6240\u6709\u5206\u652F\u7684\u6240\u6709\u64CD\u4F5C\u8BB0\u5F55\uFF1A</p><p>\u8FD9\u6837\u5C31\u80FD\u627E\u5230\u4E4B\u524D\u7684commitID\uFF0C\u518D\u6B21\u91CD\u7F6E\u5373\u53EF\u3002</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git reflog
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><h2 id="\u5206\u652F" tabindex="-1"><a class="header-anchor" href="#\u5206\u652F" aria-hidden="true">#</a> \u5206\u652F</h2><p>\u5206\u652F\u5C31\u50CF\u6211\u4EEC\u6811\u4E0A\u7684\u4E00\u4E2A\u6811\u679D\u4E00\u6837\uFF0C\u5B83\u4EEC\u53EF\u80FD\u4E00\u5F00\u59CB\u7684\u65F6\u5019\u662F\u540C\u4E00\u6839\u6811\u679D\uFF0C\u4F46\u662F\u957F\u7740\u957F\u7740\u5C31\u5F00\u59CB\u5206\u9053\u626C\u9573\u4E86\uFF0C\u8FD9\u5C31\u662F\u5206\u652F\u3002\u6211\u4EEC\u7684\u4EE3\u7801\u4E5F\u662F\u8FD9\u6837\uFF0C\u53EF\u80FD\u4E00\u5F00\u59CB\u5199\u57FA\u7840\u529F\u80FD\u7684\u65F6\u5019\u4F7F\u7528\u7684\u662F\u5355\u4E2A\u5206\u652F\uFF0C\u4F46\u662F\u67D0\u4E00\u5929\u6211\u4EEC\u5E0C\u671B\u57FA\u4E8E\u8FD9\u4E9B\u57FA\u7840\u7684\u529F\u80FD\uFF0C\u628A\u6211\u4EEC\u7684\u9879\u76EE\u505A\u6210\u4E24\u4E2A\u4E0D\u540C\u65B9\u5411\u7684\u9879\u76EE\uFF0C\u6BD4\u5982\u4E00\u4E2A\u65B9\u5411\u505AWeb\u7F51\u7AD9\uFF0C\u53E6\u4E00\u4E2A\u65B9\u5411\u505A\u6E38\u620F\u670D\u52A1\u7AEF\u3002</p><p>\u56E0\u6B64\uFF0C\u6211\u4EEC\u53EF\u4EE5\u5728\u4E00\u4E2A\u4E3B\u5E72\u4E0A\u5206\u51FAN\u4E2A\u5206\u652F\uFF0C\u5206\u522B\u5BF9\u591A\u4E2A\u5206\u652F\u7684\u4EE3\u7801\u8FDB\u884C\u7EF4\u62A4\u3002</p><ol><li>\u521B\u5EFA\u5206\u652F</li></ol><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git branch
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u6211\u4EEC\u53D1\u73B0\uFF0C\u9ED8\u8BA4\u60C5\u51B5\u4E0B\u662F\u6709\u4E00\u4E2Amaster\u5206\u652F\u7684\uFF0C\u5E76\u4E14\u6211\u4EEC\u4F7F\u7528\u7684\u4E5F\u662Fmaster\u5206\u652F\uFF0C\u4E00\u822C\u60C5\u51B5\u4E0Bmaster\u5206\u652F\u90FD\u662F\u6B63\u5F0F\u7248\u672C\u7684\u66F4\u65B0\uFF0C\u800C\u5176\u4ED6\u5206\u652F\u4E00\u822C\u662F\u5F00\u53D1\u4E2D\u624D\u9891\u7E41\u66F4\u65B0\u7684\u3002\u6211\u4EEC\u63A5\u7740\u6765\u57FA\u4E8E\u5F53\u524D\u5206\u652F\u521B\u5EFA\u4E00\u4E2A\u65B0\u7684\u5206\u652F\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> branch <span class="token builtin class-name">test</span>
+<span class="token comment"># \u5BF9\u5E94\u7684\u5220\u9664\u5206\u652F\u662F</span>
+<span class="token function">git</span> branch -d yyds
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>\u73B0\u5728\u6211\u4EEC\u4FEE\u6539\u4E00\u4E0B\u6587\u4EF6\uFF0C\u63D0\u4EA4\uFF0C\u518D\u67E5\u770B\u4E00\u4E0B\u63D0\u4EA4\u65E5\u5FD7\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> commit -a -m <span class="token string">&#39;branch master commit&#39;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u901A\u8FC7\u6DFB\u52A0-a\u6765\u81EA\u52A8\u5C06\u672A\u653E\u5165\u6682\u5B58\u533A\u7684\u5DF2\u4FEE\u6539\u6587\u4EF6\u653E\u5165\u6682\u5B58\u533A\u5E76\u6267\u884C\u63D0\u4EA4\u64CD\u4F5C\u3002\u67E5\u770B\u65E5\u5FD7\uFF0C\u6211\u4EEC\u53D1\u73B0\u73B0\u5728\u6211\u4EEC\u7684\u63D0\u4EA4\u53EA\u751F\u6548\u4E8Emaster\u5206\u652F\uFF0C\u800C\u65B0\u521B\u5EFA\u7684\u5206\u652F\u5E76\u6CA1\u6709\u53D1\u751F\u4FEE\u6539\u3002</p><p>\u6211\u4EEC\u5C06\u5206\u652F\u5207\u6362\u5230\u53E6\u4E00\u4E2A\u5206\u652F\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> checkout <span class="token builtin class-name">test</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u6211\u4EEC\u4F1A\u53D1\u73B0\uFF0C\u6587\u4EF6\u53D8\u6210\u4E86\u6B64\u5206\u652F\u521B\u5EFA\u7684\u65F6\u7684\u72B6\u6001\uFF0C\u4E5F\u5C31\u662F\u8BF4\uFF0C\u5728\u4E0D\u540C\u5206\u652F\u4E0B\u6211\u4EEC\u7684\u6587\u4EF6\u5185\u5BB9\u662F\u76F8\u4E92\u9694\u79BB\u7684\u3002</p><p>\u6211\u4EEC\u73B0\u5728\u518D\u6765\u63D0\u4EA4\u4E00\u6B21\u53D8\u66F4\uFF0C\u4F1A\u53D1\u73B0\u5B83\u53EA\u751F\u6548\u5728yyds\u5206\u652F\u4E0A\u3002\u6211\u4EEC\u53EF\u4EE5\u770B\u770B\u5F53\u524D\u7684\u5206\u652F\u72B6\u6001\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> log --all --graph
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><h2 id="\u5408\u5E76\u5206\u652F" tabindex="-1"><a class="header-anchor" href="#\u5408\u5E76\u5206\u652F" aria-hidden="true">#</a> \u5408\u5E76\u5206\u652F</h2><p>\u6211\u4EEC\u4E5F\u53EF\u4EE5\u5C06\u4E24\u4E2A\u5206\u652F\u66F4\u65B0\u7684\u5185\u5BB9\u6700\u7EC8\u5408\u5E76\u5230\u540C\u4E00\u4E2A\u5206\u652F\u4E0A\uFF0C\u6211\u4EEC\u5148\u5207\u6362\u56DE\u4E3B\u5206\u652F\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> checkout master
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u63A5\u7740\u4F7F\u7528\u5206\u652F\u5408\u5E76\u547D\u4EE4\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> merge <span class="token builtin class-name">test</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u4F1A\u5F97\u5230\u5982\u4E0B\u63D0\u793A\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>Auto-merging hello.txt
+CONFLICT <span class="token punctuation">(</span>content<span class="token punctuation">)</span>: Merge conflict <span class="token keyword">in</span> hello.txt
+Automatic merge failed<span class="token punctuation">;</span> fix conflicts and <span class="token keyword">then</span> commit the result.
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>\u5728\u5408\u5E76\u8FC7\u7A0B\u4E2D\u4EA7\u751F\u4E86\u51B2\u7A81\uFF0C\u56E0\u4E3A\u4E24\u4E2A\u5206\u652F\u90FD\u5BF9hello.txt\u6587\u4EF6\u8FDB\u884C\u4E86\u4FEE\u6539\uFF0C\u90A3\u4E48\u73B0\u5728\u8981\u5408\u5E76\u5728\u4E00\u8D77\uFF0C\u5230\u5E95\u4FDD\u7559\u8C01\u7684hello\u6587\u4EF6\u5462\uFF1F</p><p>\u6211\u4EEC\u53EF\u4EE5\u67E5\u770B\u4E00\u4E0B\u662F\u54EA\u91CC\u53D1\u751F\u4E86\u51B2\u7A81\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> <span class="token function">diff</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u56E0\u6B64\uFF0C\u73B0\u5728\u6211\u4EEC\u5C06master\u5206\u652F\u7684\u7248\u672C\u56DE\u9000\u5230\u4FEE\u6539hello.txt\u4E4B\u524D\u6216\u662F\u76F4\u63A5\u4FEE\u6539\u4E3A\u6700\u65B0\u7248\u672C\u7684\u5185\u5BB9\uFF0C\u8FD9\u6837\u5C31\u4E0D\u4F1A\u6709\u51B2\u7A81\u4E86\uFF0C\u63A5\u7740\u518D\u6267\u884C\u4E00\u6B21\u5408\u5E76\u64CD\u4F5C\uFF0C\u73B0\u5728\u4E24\u4E2A\u5206\u652F\u6210\u529F\u5408\u5E76\u4E3A\u540C\u4E00\u4E2A\u5206\u652F\u3002</p><h2 id="\u53D8\u57FA\u5206\u652F" tabindex="-1"><a class="header-anchor" href="#\u53D8\u57FA\u5206\u652F" aria-hidden="true">#</a> \u53D8\u57FA\u5206\u652F</h2><p>\u9664\u4E86\u76F4\u63A5\u5408\u5E76\u5206\u652F\u4EE5\u5916\uFF0C\u6211\u4EEC\u8FD8\u53EF\u4EE5\u8FDB\u884C\u53D8\u57FA\u64CD\u4F5C\uFF0C\u5B83\u8DDF\u5408\u5E76\u4E0D\u540C\uFF0C\u5408\u5E76\u662F\u5206\u652F\u56DE\u5230\u4E3B\u5E72\u7684\u8FC7\u7A0B\uFF0C\u800C\u53D8\u57FA\u662F\u76F4\u63A5\u4FEE\u6539\u5206\u652F\u5F00\u59CB\u7684\u4F4D\u7F6E\uFF0C\u6BD4\u5982\u6211\u4EEC\u5E0C\u671B\u5C06yyds\u53D8\u57FA\u5230master\u4E0A\uFF0C\u90A3\u4E48yyds\u4F1A\u5C06\u5206\u652F\u8D77\u70B9\u79FB\u52A8\u5230master\u6700\u540E\u4E00\u6B21\u63D0\u4EA4\u4F4D\u7F6E\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> rebase master
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u53D8\u57FA\u540E\uFF0Cyyds\u5206\u652F\u76F8\u5F53\u4E8E\u540C\u6B65\u4E86\u6B64\u524Dmaster\u5206\u652F\u7684\u5168\u90E8\u63D0\u4EA4\u3002</p><h2 id="\u4F18\u9009" tabindex="-1"><a class="header-anchor" href="#\u4F18\u9009" aria-hidden="true">#</a> \u4F18\u9009</h2><p>\u6211\u4EEC\u8FD8\u53EF\u4EE5\u9009\u62E9\u5176\u5C06\u4ED6\u5206\u652F\u4E0A\u7684\u63D0\u4EA4\u4F5C\u7528\u4E8E\u5F53\u524D\u5206\u652F\u4E0A\uFF0C\u8FD9\u79CD\u64CD\u4F5C\u79F0\u4E3Acherrypick\uFF1A</p><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>git cherry-pick &lt;commit id&gt;:\u5355\u72EC\u5408\u5E76\u4E00\u4E2A\u63D0\u4EA4
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u8FD9\u91CC\u6211\u4EEC\u5728master\u5206\u652F\u4E0A\u521B\u5EFA\u4E00\u4E2A\u65B0\u7684\u6587\u4EF6\uFF0C\u63D0\u4EA4\u6B64\u6B21\u66F4\u65B0\uFF0C\u63A5\u7740\u901A\u8FC7cherry-pick\u7684\u65B9\u5F0F\u5C06\u6B64\u6B21\u66F4\u65B0\u4F5C\u7528\u4E8Etest\u5206\u652F\u4E0A\u3002</p><h2 id="\u4F7F\u7528idea\u7248\u672C\u63A7\u5236" tabindex="-1"><a class="header-anchor" href="#\u4F7F\u7528idea\u7248\u672C\u63A7\u5236" aria-hidden="true">#</a> \u4F7F\u7528IDEA\u7248\u672C\u63A7\u5236</h2><p>\u867D\u7136\u524D\u9762\u6211\u4EEC\u57FA\u672C\u8BB2\u89E3\u4E86git\u7684\u547D\u4EE4\u884C\u4F7F\u7528\u65B9\u6CD5\uFF0C\u4F46\u662F\u6CA1\u6709\u4E00\u4E2A\u56FE\u5F62\u5316\u754C\u9762\uFF0C\u59CB\u7EC8\u4F1A\u611F\u89C9\u5230\u5F88\u62BD\u8C61\uFF0C\u6240\u4EE5\u8FD9\u91CC\u6211\u4EEC\u4F7F\u7528IDEA\u6765\u6F14\u793A\uFF0CIDEA\u5185\u90E8\u96C6\u6210\u4E86git\u6A21\u5757\uFF0C\u5B83\u53EF\u4EE5\u8BA9\u6211\u4EEC\u7684git\u7248\u672C\u7BA1\u7406\u56FE\u5F62\u5316\u663E\u793A\uFF0C\u5F53\u7136\u9664\u4E86IDEA\u4E5F\u6709\u4E00\u4E9B\u72EC\u7ACB\u7684\u8F6F\u4EF6\u6BD4\u5982\uFF1ASourceTree\uFF08\u633A\u597D\u7528\uFF09</p><p>\u6253\u5F00IDEA\u540E\uFF0C\u627E\u5230\u7248\u672C\u63A7\u6A21\u5757\uFF0C\u6211\u4EEC\u76F4\u63A5\u70B9\u51FB\u521B\u5EFA\u672C\u5730\u4ED3\u5E93\uFF0C\u5B83\u4F1A\u81EA\u52A8\u5C06\u5F53\u524D\u9879\u76EE\u7684\u6839\u76EE\u5F55\u4F5C\u4E3A\u6211\u4EEC\u7684\u672C\u5730\u4ED3\u5E93\uFF0C\u800C\u6211\u4EEC\u7F16\u5199\u7684\u6240\u6709\u4EE3\u7801\u548C\u9879\u76EE\u76EE\u5F55\u4E0B\u5176\u4ED6\u7684\u6587\u4EF6\u90FD\u53EF\u4EE5\u8FDB\u884C\u7248\u672C\u63A7\u5236\u3002</p><p>\u6211\u4EEC\u53D1\u73B0\u6240\u6709\u9879\u76EE\u4E2D\u6B63\u5728\u7F16\u5199\u7684\u7C7B\u6587\u4EF6\u5168\u90E8\u53D8\u7EA2\u4E86\uFF0C\u4E5F\u5C31\u662F\u5904\u4E8E\u672A\u8FFD\u8E2A\u72B6\u6001\uFF0C\u63A5\u7740\u6211\u4EEC\u8FDB\u884C\u7B2C\u4E00\u6B21\u521D\u59CB\u5316\u63D0\u4EA4\uFF0C\u63D0\u4EA4\u4E4B\u540E\u6211\u4EEC\u53EF\u4EE5\u5728\u4E0B\u65B9\u770B\u5230\u6240\u6709\u7684\u672C\u5730\u4ED3\u5E93\u63D0\u4EA4\u8BB0\u5F55\u3002</p><p>\u63A5\u7740\u6211\u4EEC\u6765\u6574\u5408\u4E00\u4E0BWeb\u73AF\u5883\uFF0C\u521B\u5EFA\u65B0\u7684\u7C7B\u4E4B\u540E\uFF0CIDEA\u4F1A\u63D0\u793A\u6211\u4EEC\u662F\u5426\u5C06\u6587\u4EF6\u6DFB\u52A0\u5230Git\uFF0C\u4E5F\u5C31\u662F\u662F\u5426\u653E\u5165\u6682\u5B58\u533A\u5E76\u5F00\u542F\u8FFD\u8E2A\uFF0C\u6211\u4EEC\u53EF\u4EE5\u76F4\u63A5\u5BF9\u6BD4\u4E24\u6B21\u4EE3\u7801\u7684\u76F8\u540C\u548C\u4E0D\u540C\u4E4B\u5904\u3002</p><p>\u63A5\u7740\u6211\u4EEC\u6765\u6F14\u793A\u4E00\u4E0B\u5206\u652F\u521B\u5EFA\u548C\u5206\u652F\u7BA1\u7406\u3002</p><h2 id="\u8FDC\u7A0B\u4ED3\u5E93" tabindex="-1"><a class="header-anchor" href="#\u8FDC\u7A0B\u4ED3\u5E93" aria-hidden="true">#</a> \u8FDC\u7A0B\u4ED3\u5E93</h2><p>\u8FDC\u7A0B\u4ED3\u5E93\u5B9E\u9645\u4E0A\u5C31\u662F\u4F4D\u4E8E\u670D\u52A1\u5668\u4E0A\u7684\u4ED3\u5E93\uFF0C\u5B83\u80FD\u5728\u8FDC\u7AEF\u4FDD\u5B58\u6211\u4EEC\u7684\u7248\u672C\u5386\u53F2\uFF0C\u5E76\u4E14\u53EF\u4EE5\u5B9E\u73B0\u591A\u4EBA\u540C\u65F6\u5408\u4F5C\u7F16\u5199\u9879\u76EE\uFF0C\u6BCF\u4E2A\u4EBA\u90FD\u80FD\u591F\u540C\u6B65\u4ED6\u4EBA\u7684\u7248\u672C\uFF0C\u80FD\u591F\u770B\u5230\u4ED6\u4EBA\u7684\u7248\u672C\u63D0\u4EA4\uFF0C\u76F8\u5F53\u4E8E\u5C06\u6211\u4EEC\u7684\u4EE3\u7801\u653E\u5728\u670D\u52A1\u5668\u4E0A\u8FDB\u884C\u6258\u7BA1\u3002</p><p>\u8FDC\u7A0B\u4ED3\u5E93\u6709\u516C\u6709\u548C\u79C1\u6709\u7684\uFF0C\u516C\u6709\u7684\u8FDC\u7A0B\u4ED3\u5E93\u6709GitHub\u3001\u7801\u4E91\u3001Coding\u7B49\uFF0C\u4ED6\u4EEC\u90FD\u662F\u5BF9\u5916\u5F00\u653E\u7684\uFF0C\u6211\u4EEC\u6CE8\u518C\u8D26\u53F7\u4E4B\u540E\u5C31\u53EF\u4EE5\u4F7F\u7528\u8FDC\u7A0B\u4ED3\u5E93\u8FDB\u884C\u7248\u672C\u63A7\u5236\uFF0C\u5176\u4E2D\u6700\u5927\u7684\u5C31\u662FGitHub\uFF0C\u4F46\u662F\u5B83\u670D\u52A1\u5668\u5728\u56FD\u5916\uFF0C\u6211\u4EEC\u56FD\u5185\u8FDE\u63A5\u53EF\u80FD\u4F1A\u6709\u4E00\u70B9\u5361\u3002\u79C1\u6709\u7684\u4E00\u822C\u662FGitLab\u8FD9\u79CD\u81EA\u4E3B\u642D\u5EFA\u7684\u8FDC\u7A0B\u4ED3\u5E93\u79C1\u670D\uFF0C\u5728\u516C\u53F8\u4E2D\u6BD4\u8F83\u5E38\u7528\uFF0C\u5B83\u53EA\u5BF9\u516C\u53F8\u5185\u90E8\u5F00\u653E\uFF0C\u4E0D\u5BF9\u5916\u5F00\u653E\u3002</p><p>\u8FD9\u91CC\u6211\u4EEC\u4EE5GitHub\u505A\u8BB2\u89E3\uFF0C\u5B98\u7F51\uFF1Ahttps://github.com\uFF0C\u9996\u5148\u5B8C\u6210\u7528\u6237\u6CE8\u518C\u3002</p><ol><li>\u8FDC\u7A0B\u8D26\u6237\u8BA4\u8BC1\u548C\u63A8\u9001</li></ol><p>\u63A5\u7740\u6211\u4EEC\u5C31\u53EF\u4EE5\u521B\u5EFA\u4E00\u4E2A\u81EA\u5B9A\u4E49\u7684\u8FDC\u7A0B\u4ED3\u5E93\u4E86\u3002</p><p>\u521B\u5EFA\u4ED3\u5E93\u540E\uFF0C\u6211\u4EEC\u53EF\u4EE5\u901A\u8FC7\u63A8\u9001\u6765\u5C06\u672C\u5730\u4ED3\u5E93\u4E2D\u7684\u5185\u5BB9\u63A8\u9001\u5230\u8FDC\u7A0B\u4ED3\u5E93\u3002</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git remote add \u540D\u79F0 \u8FDC\u7A0B\u4ED3\u5E93\u5730\u5740
+git push \u8FDC\u7A0B\u4ED3\u5E93\u540D\u79F0 \u672C\u5730\u5206\u652F\u540D\u79F0<span class="token punctuation">[</span><span class="token operator">:</span>\u8FDC\u7AEF\u5206\u652F\u540D\u79F0<span class="token punctuation">]</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>\u6CE8\u610Fpush\u540E\u9762\u4E24\u4E2A\u53C2\u6570\uFF0C\u4E00\u4E2A\u662F\u8FDC\u7AEF\u540D\u79F0\uFF0C\u8FD8\u6709\u4E00\u4E2A\u5C31\u662F\u672C\u5730\u5206\u652F\u540D\u79F0\uFF0C\u4F46\u662F\u5982\u679C\u672C\u5730\u5206\u652F\u540D\u79F0\u548C\u8FDC\u7AEF\u5206\u652F\u540D\u79F0\u4E00\u81F4\uFF0C\u90A3\u4E48\u4E0D\u7528\u6307\u5B9A\u8FDC\u7AEF\u5206\u652F\u540D\u79F0\uFF0C\u4F46\u662F\u5982\u679C\u6211\u4EEC\u5E0C\u671B\u63A8\u9001\u7684\u5206\u652F\u5728\u8FDC\u7AEF\u6CA1\u6709\u540C\u540D\u7684\uFF0C\u90A3\u4E48\u9700\u8981\u989D\u5916\u6307\u5B9A\u3002\u63A8\u9001\u524D\u9700\u8981\u767B\u9646\u8D26\u6237\uFF0CGitHub\u73B0\u5728\u4E0D\u5141\u8BB8\u4F7F\u7528\u7528\u6237\u540D\u5BC6\u7801\u9A8C\u8BC1\uFF0C\u53EA\u5141\u8BB8\u4F7F\u7528\u4E2A\u4EBAAccessToken\u6765\u9A8C\u8BC1\u8EAB\u4EFD\uFF0C\u6240\u4EE5\u6211\u4EEC\u9700\u8981\u5148\u53BB\u751F\u6210\u4E00\u4E2AToken\u624D\u53EF\u4EE5\u3002</p><p>\u63A8\u9001\u540E\uFF0C\u6211\u4EEC\u53D1\u73B0\u8FDC\u7A0B\u4ED3\u5E93\u4E2D\u7684\u5185\u5BB9\u5DF2\u7ECF\u4E0E\u6211\u4EEC\u672C\u5730\u4ED3\u5E93\u4E2D\u7684\u5185\u5BB9\u4FDD\u6301\u4E00\u81F4\u4E86\uFF0C\u6CE8\u610F\uFF0C\u8FDC\u7A0B\u4ED3\u5E93\u4E5F\u53EF\u4EE5\u6709\u5F88\u591A\u4E2A\u5206\u652F\u3002</p><p>\u4F46\u662F\u8FD9\u6837\u6BD4\u8F83\u9EBB\u70E6\uFF0C\u6211\u4EEC\u6BCF\u6B21\u90FD\u9700\u8981\u53BB\u8F93\u5165\u7528\u6237\u540D\u548C\u5BC6\u7801\uFF0C\u6709\u6CA1\u6709\u4E00\u52B3\u6C38\u9038\u7684\u65B9\u6CD5\u5462\uFF1F\u5F53\u7136\uFF0C\u6211\u4EEC\u4E5F\u53EF\u4EE5\u4F7F\u7528SSH\u6765\u5B9E\u73B0\u4E00\u6B21\u6027\u6821\u9A8C\uFF0C\u6211\u4EEC\u53EF\u4EE5\u5728\u672C\u5730\u751F\u6210\u4E00\u4E2Arsa\u516C\u94A5\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>ssh-keygen -t rsa
+<span class="token function">cat</span> ~/.ssh/github.pub
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>\u63A5\u7740\u6211\u4EEC\u9700\u8981\u5728GitHub\u4E0A\u4E0A\u4F20\u6211\u4EEC\u7684\u516C\u94A5\uFF0C\u5F53\u6211\u4EEC\u518D\u6B21\u53BB\u8BBF\u95EEGitHub\u65F6\uFF0C\u4F1A\u81EA\u52A8\u9A8C\u8BC1\uFF0C\u5C31\u65E0\u9700\u8FDB\u884C\u767B\u5F55\u4E86\uFF0C\u4E4B\u540E\u5728Linux\u90E8\u5206\u6211\u4EEC\u4F1A\u8BE6\u7EC6\u8BB2\u89E3SSH\u7684\u539F\u7406\u3002</p><p>\u63A5\u7740\u6211\u4EEC\u4FEE\u6539\u4E00\u4E0B\u5DE5\u4F5C\u533A\u7684\u5185\u5BB9\uFF0C\u63D0\u4EA4\u5230\u672C\u5730\u4ED3\u5E93\u540E\uFF0C\u518D\u63A8\u9001\u5230\u8FDC\u7A0B\u4ED3\u5E93\uFF0C\u63D0\u4EA4\u7684\u8FC7\u7A0B\u4E2D\u6211\u4EEC\u6CE8\u610F\u89C2\u5BDF\u63D0\u4EA4\u8BB0\u5F55\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> commit -a -m <span class="token string">&#39;Modify files&#39;</span>
+<span class="token function">git</span> log --all --oneline --graph
+<span class="token function">git</span> push origin master 
+<span class="token function">git</span> log --all --oneline --graph
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>\u6211\u4EEC\u53EF\u4EE5\u5C06\u8FDC\u7AEF\u548C\u672C\u5730\u7684\u5206\u652F\u8FDB\u884C\u7ED1\u5B9A\uFF0C\u7ED1\u5B9A\u540E\u5C31\u4E0D\u9700\u8981\u6307\u5B9A\u5206\u652F\u540D\u79F0\u4E86\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> push --set-upstream origin master:master
+<span class="token function">git</span> push origin
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>\u5728\u4E00\u4E2A\u672C\u5730\u4ED3\u5E93\u5BF9\u5E94\u4E00\u4E2A\u8FDC\u7A0B\u4ED3\u5E93\u7684\u60C5\u51B5\u4E0B\uFF0C\u8FDC\u7A0B\u4ED3\u5E93\u57FA\u672C\u4E0A\u5C31\u662F\u7EAF\u7CB9\u7684\u4EE3\u7801\u6258\u7BA1\u4E86\uFF08\u4E91\u76D8\u90A3\u79CD\u611F\u89C9\uFF0C\u5C31\u7EAF\u7CB9\u662F\u5B58\u4F60\u4EE3\u7801\u7684\uFF09</p><ol start="2"><li>\u514B\u9686\u9879\u76EE</li></ol><p>\u5982\u679C\u6211\u4EEC\u5DF2\u7ECF\u5B58\u5728\u4E00\u4E2A\u8FDC\u7A0B\u4ED3\u5E93\u7684\u60C5\u51B5\u4E0B\uFF0C\u6211\u4EEC\u9700\u8981\u5728\u8FDC\u7A0B\u4ED3\u5E93\u7684\u4EE3\u7801\u4E0A\u7EE7\u7EED\u7F16\u5199\u4EE3\u7801\uFF0C\u8FD9\u4E2A\u65F6\u5019\u600E\u4E48\u529E\u5462\uFF1F</p><p>\u6211\u4EEC\u53EF\u4EE5\u4F7F\u7528\u514B\u9686\u64CD\u4F5C\u6765\u5C06\u8FDC\u7AEF\u4ED3\u5E93\u7684\u5185\u5BB9\u5168\u90E8\u590D\u5236\u5230\u672C\u5730\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> clone \u8FDC\u7A0B\u4ED3\u5E93\u5730\u5740
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u8FD9\u6837\u672C\u5730\u5C31\u80FD\u591F\u76F4\u63A5\u4E0E\u8FDC\u7A0B\u4FDD\u6301\u540C\u6B65\u3002</p><ol start="3"><li>\u6293\u53D6\u3001\u62C9\u53D6\u548C\u51B2\u7A81\u89E3\u51B3</li></ol><p>\u6211\u4EEC\u63A5\u7740\u6765\u770B\uFF0C\u5982\u679C\u8FD9\u4E2A\u65F6\u5019\uFF0C\u51FA\u73B0\u591A\u4E2A\u672C\u5730\u4ED3\u5E93\u5BF9\u5E94\u4E00\u4E2A\u8FDC\u7A0B\u4ED3\u5E93\u7684\u60C5\u51B5\u4E0B\uFF0C\u6BD4\u5982\u4E00\u4E2A\u56E2\u961F\u91CC\u9762\uFF0CN\u4E2A\u4EBA\u90FD\u5728\u4F7F\u7528\u540C\u4E00\u4E2A\u8FDC\u7A0B\u4ED3\u5E93\uFF0C\u4F46\u662F\u4ED6\u4EEC\u5404\u81EA\u53EA\u8D1F\u8D23\u7F16\u5199\u548C\u63A8\u9001\u81EA\u5DF1\u4E1A\u52A1\u90E8\u5206\u7684\u4EE3\u7801\uFF0C\u4E5F\u5C31\u662F\u6211\u4EEC\u5E38\u8BF4\u7684\u534F\u540C\u5DE5\u4F5C\uFF0C\u90A3\u4E48\u8FD9\u4E2A\u65F6\u5019\uFF0C\u6211\u4EEC\u5C31\u9700\u8981\u534F\u8C03\u3002</p><p>\u6BD4\u5982\u7A0B\u5E8F\u5458A\u5B8C\u6210\u4E86\u4ED6\u7684\u6A21\u5757\uFF0C\u90A3\u4E48\u4ED6\u5C31\u53EF\u4EE5\u63D0\u4EA4\u4EE3\u7801\u5E76\u63A8\u9001\u5230\u8FDC\u7A0B\u4ED3\u5E93\uFF0C\u8FD9\u65F6\u7A0B\u5E8F\u5458B\u4E5F\u8981\u5F00\u59CB\u5199\u4EE3\u7801\u4E86\uFF0C\u7531\u4E8E\u8FDC\u7A0B\u4ED3\u5E93\u6709\u5176\u4ED6\u7A0B\u5E8F\u5458\u7684\u63D0\u4EA4\u8BB0\u5F55\uFF0C\u56E0\u6B64\u7A0B\u5E8F\u5458B\u7684\u672C\u5730\u4ED3\u5E93\u548C\u8FDC\u7A0B\u4ED3\u5E93\u4E0D\u4E00\u81F4\uFF0C\u8FD9\u65F6\u5C31\u9700\u8981\u6709\u5148\u8FDB\u884Cpull\u64CD\u4F5C\uFF0C\u83B7\u53D6\u8FDC\u7A0B\u4ED3\u5E93\u4E2D\u6700\u65B0\u7684\u63D0\u4EA4\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> fetch \u8FDC\u7A0B\u4ED3\u5E93 <span class="token comment">#\u6293\u53D6\uFF1A\u53EA\u83B7\u53D6\u4F46\u4E0D\u5408\u5E76\u8FDC\u7AEF\u5206\u652F\uFF0C\u540E\u9762\u9700\u8981\u6211\u4EEC\u624B\u52A8\u5408\u5E76\u624D\u80FD\u63D0\u4EA4</span>
+<span class="token function">git</span> pull \u8FDC\u7A0B\u4ED3\u5E93 <span class="token comment">#\u62C9\u53D6\uFF1A\u83B7\u53D6+\u5408\u5E76</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>\u5728\u7A0B\u5E8F\u5458B\u62C9\u53D6\u4E86\u6700\u65B0\u7684\u7248\u672C\u540E\uFF0C\u518D\u7F16\u5199\u81EA\u5DF1\u7684\u4EE3\u7801\u7136\u540E\u63D0\u4EA4\u5C31\u53EF\u4EE5\u5B9E\u73B0\u591A\u4EBA\u5408\u4F5C\u7F16\u5199\u9879\u76EE\u4E86\uFF0C\u5E76\u4E14\u5728\u62C9\u53D6\u8FC7\u7A0B\u4E2D\u5C31\u80FD\u5C06\u522B\u4EBA\u63D0\u4EA4\u7684\u5185\u5BB9\u540C\u6B65\u5230\u672C\u5730\uFF0C\u5F00\u53D1\u6548\u7387\u5927\u5927\u63D0\u5347\u3002</p><p>\u5982\u679C\u5DE5\u4F5C\u4E2D\u5B58\u5728\u4E0D\u534F\u8C03\u7684\u5730\u65B9\uFF0C\u6BD4\u5982\u73B0\u5728\u6211\u4EEC\u672C\u5730\u6709\u4E24\u4E2A\u4ED3\u5E93\uFF0C\u4E00\u4E2A\u4ED3\u5E93\u53BB\u4FEE\u6539hello.txt\u5E76\u76F4\u63A5\u63D0\u4EA4\uFF0C\u53E6\u4E00\u4E2A\u4ED3\u5E93\u4E5F\u4FEE\u6539hello.txt\u5E76\u76F4\u63A5\u63D0\u4EA4\uFF0C\u4F1A\u5F97\u5230\u5982\u4E0B\u9519\u8BEF\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>To https://github.com/xx/xxx.git
+ <span class="token operator">!</span> <span class="token punctuation">[</span>rejected<span class="token punctuation">]</span>        master -<span class="token operator">&gt;</span> master <span class="token punctuation">(</span>fetch first<span class="token punctuation">)</span>
+error: failed to push some refs to <span class="token string">&#39;https://github.com/xx/xxx.git&#39;</span>
+hint: Updates were rejected because the remote contains work that you <span class="token keyword">do</span>
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: <span class="token punctuation">(</span>e.g., <span class="token string">&#39;git pull ...&#39;</span><span class="token punctuation">)</span> before pushing again.
+hint: See the <span class="token string">&#39;Note about fast-forwards&#39;</span> <span class="token keyword">in</span> <span class="token string">&#39;git push --help&#39;</span> <span class="token keyword">for</span> details.
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><p>\u4E00\u65E6\u4E00\u4E2A\u672C\u5730\u4ED3\u5E93\u63A8\u9001\u4E86\u4EE3\u7801\uFF0C\u90A3\u4E48\u53E6\u4E00\u4E2A\u672C\u5730\u4ED3\u5E93\u7684\u63A8\u9001\u4F1A\u88AB\u62D2\u7EDD\uFF0C\u539F\u56E0\u662F\u5F53\u524D\u6587\u4EF6\u5DF2\u7ECF\u88AB\u5176\u4ED6\u7684\u63A8\u9001\u7ED9\u4FEE\u6539\u4E86\uFF0C\u6211\u4EEC\u8FD9\u8FB9\u76F8\u5F53\u4E8E\u662F\u53E6\u4E00\u4E2A\u7248\u672C\uFF0C\u548C\u4E4B\u524D\u4E24\u4E2A\u5206\u652F\u5408\u5E76\u4E00\u6837\uFF0C\u4EA7\u751F\u4E86\u51B2\u7A81\uFF0C\u56E0\u6B64\u6211\u4EEC\u53EA\u80FD\u53BB\u89E3\u51B3\u51B2\u7A81\u95EE\u9898\u3002</p><p>\u5982\u679C\u8FDC\u7A0B\u4ED3\u5E93\u4E2D\u7684\u63D0\u4EA4\u548C\u672C\u5730\u4ED3\u5E93\u4E2D\u7684\u63D0\u4EA4\u6CA1\u6709\u53BB\u7F16\u5199\u540C\u4E00\u4E2A\u6587\u4EF6\uFF0C\u90A3\u4E48\u5C31\u53EF\u4EE5\u76F4\u63A5\u62C9\u53D6\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> pull \u8FDC\u7A0B\u4ED3\u5E93
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u62C9\u53D6\u540E\u4F1A\u81EA\u52A8\u8FDB\u884C\u5408\u5E76\uFF0C\u5408\u5E76\u5B8C\u6210\u4E4B\u540E\u6211\u4EEC\u518D\u63D0\u4EA4\u5373\u53EF\u3002</p><p>\u4F46\u662F\u5982\u679C\u4E24\u6B21\u63D0\u4EA4\u90FD\u4FEE\u6539\u4E86\u540C\u4E00\u4E2A\u6587\u4EF6\uFF0C\u90A3\u4E48\u5C31\u4F1A\u9047\u5230\u548C\u591A\u5206\u652F\u5408\u5E76\u4E00\u6837\u7684\u60C5\u51B5\uFF0C\u5728\u5408\u5E76\u65F6\u4F1A\u4EA7\u751F\u51B2\u7A81\uFF0C\u8FD9\u65F6\u5C31\u9700\u8981\u6211\u4EEC\u81EA\u5DF1\u53BB\u89E3\u51B3\u51B2\u7A81\u4E86\u3002</p><p>\u6211\u4EEC\u53EF\u4EE5\u5728IDEA\u4E2D\u6F14\u793A\u4E00\u4E0B\uFF0C\u5B9E\u9645\u5F00\u53D1\u573A\u666F\u4E0B\u53EF\u80FD\u4F1A\u9047\u5230\u7684\u95EE\u9898\u3002</p><p>\u7ED3\u675F\uFF01</p><!--]-->`);
 }
 const _sfc_setup$M = _sfc_main$M.setup;
 _sfc_main$M.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/interview/interview.html.vue");
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/git/01.git\u7248\u672C\u63A7\u5236.html.vue");
   return _sfc_setup$M ? _sfc_setup$M(props, ctx) : void 0;
 };
-var interview_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$M, [["ssrRender", _sfc_ssrRender$y]]);
+var _01_git_____html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$M, [["ssrRender", _sfc_ssrRender$y]]);
+var _01_git_____html$2 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": _01_git_____html$1
+});
+const _sfc_main$L = {};
+function _sfc_ssrRender$x(_ctx, _push, _parent, _attrs) {
+  _push(`<!--[--><h1 id="mysql" tabindex="-1"><a class="header-anchor" href="#mysql" aria-hidden="true">#</a> MySQL</h1><ol><li>mysql</li><li>JDBC</li><li>UML\u985E\u5716</li><li>\u6578\u64DA\u5EAB\u8A2D\u8A08</li></ol><!--]-->`);
+}
+const _sfc_setup$L = _sfc_main$L.setup;
+_sfc_main$L.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/mysql/01.mysql.html.vue");
+  return _sfc_setup$L ? _sfc_setup$L(props, ctx) : void 0;
+};
+var _01_mysql_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$L, [["ssrRender", _sfc_ssrRender$x]]);
+var _01_mysql_html$2 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": _01_mysql_html$1
+});
+const _sfc_main$K = {};
+function _sfc_ssrRender$w(_ctx, _push, _parent, _attrs) {
+  _push(`<!--[--><h1 id="springboot\u5148\u5165\u95E8" tabindex="-1"><a class="header-anchor" href="#springboot\u5148\u5165\u95E8" aria-hidden="true">#</a> springboot\u5148\u5165\u95E8</h1><p>\u6211\u521A\u6BD5\u4E1A\u4F5C\u4E3A\u4E00\u4E2A\u524D\u7AEF\u65F6\u88AB\u53EB\u5617\u8A66\u540E\u7AEF\u5F00\u53D1\uFF0C\u6846\u67B6\u5C31\u662Fspringboot\u3002</p><p>\u6211\u8FD8\u662F\u60F3\u5E9F\u8BDD\u5410\u69FD\u4E00\u4E0B\uFF0C\u6B63\u5E38\u7684\u5927\u5B66\u751F\u5B66\u4E60\u8DEF\u7EBF\uFF082018\uFF09\uFF1A</p><ol><li>java:\u8FD9\u662F\u5FC5\u987B\u7684\uFF0C\u4E0D\u4F1A\u5C31\u5230\u8FD9\u91CC\u4E86</li><li>MySql:\u6570\u636E\u5E93</li><li>Servlet:\u65E9\u671F\u7684\u5F00\u53D1\u65B9\u5F0F</li><li>Mybatis:\u6570\u636E\u5E93\u6846\u67B6</li><li>Sprong mvc:\u7ECF\u5178mvc\u4E09\u5C42\u67B6\u6784</li><li>Spring</li><li>Spring boot</li></ol><p>\u6211\u76F4\u63A5<code>1</code>\u2014\u2014&gt;<code>7</code>\u3002\u5B66\u5B8C\u540E\u7ED3\u8BBA\u662F\uFF0C\u5F53\u7136\u53EF\u4EE5\u76F4\u63A5\u4E0A\u624B<code>spring boot</code>\u3002\u5F53\u7136\u8FD9\u662F\u4ECE\u6211\u7684\u9700\u6C42\u51FA\u53D1\uFF1A</p><ol><li>\u5E95\u5C42\u6E90\u7801\u8FD9\u4E9B\u4E0D\u8981\u53BB\u641E\u61C2\uFF0C\u6CA1\u5FC5\u8981\uFF0C\u6211\u8981\u7684\u662F\u5148\u5B66\u4F1A\u5982\u4F55\u4F7F\u7528\u3002</li><li>\u8981\u8BB0\u5F88\u591A\uFF0C\u65F6\u5E38\u4F1A\u95EE\u4E3A\u4EC0\u4E48\u662F\u8FD9\u6837\u7528\u7684\uFF0C\u4F46\u5B83\u5C31\u662F\u8FD9\u6837\u7528\u7684\uFF08\u4E0D\u89E3\u91CA\u5E95\u5C42\uFF09</li></ol><p>\u5B66\u4E60\u524D\u63D0\uFF1A</p><ol><li>\u57FA\u672Cjava\u8BED\u6CD5</li><li>\u57FA\u672Cmysql\u8BED\u6CD5</li><li>\u57FA\u672Cmvc\u601D\u60F3</li></ol><h2 id="idea-2021-3\u4EE5\u4E0A\u7248\u672C\u5B89\u88DD" tabindex="-1"><a class="header-anchor" href="#idea-2021-3\u4EE5\u4E0A\u7248\u672C\u5B89\u88DD" aria-hidden="true">#</a> IDEA\uFF082021.3\u4EE5\u4E0A\u7248\u672C\u5B89\u88DD\uFF09</h2><p>\u958B\u767C\u5DE5\u5177\u7528\u81EA\u5DF1\u7FD2\u6163\u7684\u5C31\u597D\u3002</p><p>\u76EE\u524D\u5E02\u573A\u5E94\u8BE5\u90FD\u662F\u8FD9\u4E2A\u5F00\u53D1\u5DE5\u5177\u591A\u5427\uFF0C\u76F4\u63A5\u5F00\u59CB</p><h2 id="\u521D\u59CB\u5316\u9805\u76EE" tabindex="-1"><a class="header-anchor" href="#\u521D\u59CB\u5316\u9805\u76EE" aria-hidden="true">#</a> \u521D\u59CB\u5316\u9805\u76EE</h2><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token annotation punctuation">@SpringBootApplication</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">SpringBootTestApplication</span> <span class="token punctuation">{</span>
+
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token class-name">SpringApplication</span><span class="token punctuation">.</span><span class="token function">run</span><span class="token punctuation">(</span><span class="token class-name">SpringBootTestApplication</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">,</span> args<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><div class="language-xml ext-xml line-numbers-mode"><pre class="language-xml"><code><span class="token prolog">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>project</span> <span class="token attr-name">xmlns</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>http://maven.apache.org/POM/4.0.0<span class="token punctuation">&quot;</span></span> <span class="token attr-name"><span class="token namespace">xmlns:</span>xsi</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>http://www.w3.org/2001/XMLSchema-instance<span class="token punctuation">&quot;</span></span>
+         <span class="token attr-name"><span class="token namespace">xsi:</span>schemaLocation</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>modelVersion</span><span class="token punctuation">&gt;</span></span>4.0.0<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>modelVersion</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>parent</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">&gt;</span></span>org.springframework.boot<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">&gt;</span></span>spring-boot-starter-parent<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>version</span><span class="token punctuation">&gt;</span></span>2.7.1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>version</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>relativePath</span><span class="token punctuation">/&gt;</span></span> <span class="token comment">&lt;!-- lookup parent from repository --&gt;</span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>parent</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">&gt;</span></span>com.example<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">&gt;</span></span>SpringBootTest<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>version</span><span class="token punctuation">&gt;</span></span>0.0.1-SNAPSHOT<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>version</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>name</span><span class="token punctuation">&gt;</span></span>SpringBootTest<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>name</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>description</span><span class="token punctuation">&gt;</span></span>SpringBootTest<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>description</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>properties</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>java.version</span><span class="token punctuation">&gt;</span></span>1.8<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>java.version</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>properties</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependencies</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">&gt;</span></span>org.springframework.boot<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">&gt;</span></span>spring-boot-starter<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">&gt;</span></span>
+
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">&gt;</span></span>org.springframework.boot<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">&gt;</span></span>spring-boot-starter-test<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>scope</span><span class="token punctuation">&gt;</span></span>test<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>scope</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependencies</span><span class="token punctuation">&gt;</span></span>
+
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>build</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>plugins</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>plugin</span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">&gt;</span></span>org.springframework.boot<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">&gt;</span></span>spring-boot-maven-plugin<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>plugin</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>plugins</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>build</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>project</span><span class="token punctuation">&gt;</span></span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br></div></div><h2 id="\u5FEB\u901F\u4E0A\u624B" tabindex="-1"><a class="header-anchor" href="#\u5FEB\u901F\u4E0A\u624B" aria-hidden="true">#</a> \u5FEB\u901F\u4E0A\u624B</h2><p>\u5982\u679C\u4F60\u4E0D\u662F\u4E13\u804C\u540E\u7AEF\u800C\u53EA\u662F\u60F3\u5199\u4E2A\u63A5\u53E3\uFF0C\u90A3\u770B\u5B8C\u8FD9\u4E00\u7AE0\u5C31\u53EF\u4EE5\u4E86\u3002</p><!--]-->`);
+}
+const _sfc_setup$K = _sfc_main$K.setup;
+_sfc_main$K.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/springboot/01.springboot.html.vue");
+  return _sfc_setup$K ? _sfc_setup$K(props, ctx) : void 0;
+};
+var _01_springboot_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$K, [["ssrRender", _sfc_ssrRender$w]]);
+var _01_springboot_html$2 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": _01_springboot_html$1
+});
+const _sfc_main$J = {};
+function _sfc_ssrRender$v(_ctx, _push, _parent, _attrs) {
+  _push(`<!--[--><h1 id="\u542F\u52A8\u8FC7\u7A0B\u5F00\u59CB" tabindex="-1"><a class="header-anchor" href="#\u542F\u52A8\u8FC7\u7A0B\u5F00\u59CB" aria-hidden="true">#</a> \u542F\u52A8\u8FC7\u7A0B\u5F00\u59CB</h1><ul><li>\u4E00\u4E2A\u5B8C\u5168\u7A7A\u7684\u65B0\u9879\u76EE\uFF0Cpom.xml\u6211\u4EEC\u662F\u4E0D\u662F\u53EA\u770B\u5230\u4E00\u4E2A\u5F88\u660E\u663E\u7684\u4F9D\u8D56</li></ul><div class="language-xml ext-xml line-numbers-mode"><pre class="language-xml"><code> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">&gt;</span></span>
+            <span class="token comment">&lt;!--\u57FA\u672C\u4F9D\u8CF4--&gt;</span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">&gt;</span></span>org.springframework.boot<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">&gt;</span></span>spring-boot-starter<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">&gt;</span></span>
+ <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">&gt;</span></span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><h2 id="\u4E3B\u7C7B\u4EE3\u7801\u5F00\u59CB-\u6CE8\u89E3\u4E5F\u4F9D\u8D56\u4E8E\u4EE3\u7801" tabindex="-1"><a class="header-anchor" href="#\u4E3B\u7C7B\u4EE3\u7801\u5F00\u59CB-\u6CE8\u89E3\u4E5F\u4F9D\u8D56\u4E8E\u4EE3\u7801" aria-hidden="true">#</a> \u4E3B\u7C7B\u4EE3\u7801\u5F00\u59CB\uFF08\u6CE8\u89E3\u4E5F\u4F9D\u8D56\u4E8E\u4EE3\u7801\uFF09</h2><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token annotation punctuation">@SpringBootApplication</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">SpringBootTestApplication</span> <span class="token punctuation">{</span>
+
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token class-name">SpringApplication</span><span class="token punctuation">.</span><span class="token function">run</span><span class="token punctuation">(</span><span class="token class-name">SpringBootTestApplication</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">,</span> args<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><h2 id="\u76F4\u63A5new\u4E86\u4E00\u4E2Aspring-boot\u5BF9\u8C61" tabindex="-1"><a class="header-anchor" href="#\u76F4\u63A5new\u4E86\u4E00\u4E2Aspring-boot\u5BF9\u8C61" aria-hidden="true">#</a> \u76F4\u63A5new\u4E86\u4E00\u4E2Aspring boot\u5BF9\u8C61</h2><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token class-name">ConfigurableApplicationContext</span> <span class="token function">run</span><span class="token punctuation">(</span><span class="token class-name">Class</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token operator">?</span><span class="token punctuation">&gt;</span></span> primarySource<span class="token punctuation">,</span> <span class="token class-name">String</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token function">run</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Class</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">{</span>primarySource<span class="token punctuation">}</span><span class="token punctuation">,</span> args<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><ul><li>\u5957\u5A03</li></ul><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token class-name">ConfigurableApplicationContext</span> <span class="token function">run</span><span class="token punctuation">(</span><span class="token class-name">Class</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token operator">?</span><span class="token punctuation">&gt;</span></span><span class="token punctuation">[</span><span class="token punctuation">]</span> primarySources<span class="token punctuation">,</span> <span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">SpringApplication</span><span class="token punctuation">(</span>primarySources<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">run</span><span class="token punctuation">(</span>args<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><ul><li>\u6211\u4EEC\u53D1\u73B0\uFF0C\u8FD9\u91CC\u76F4\u63A5new\u4E86\u4E00\u4E2A\u65B0\u7684SpringApplication\u5BF9\u8C61\uFF0C\u4F20\u5165\u6211\u4EEC\u7684\u4E3B\u7C7B\u4F5C\u4E3A\u6784\u9020\u65B9\u6CD5\u53C2\u6570\uFF0C\u5E76\u8C03\u7528\u4E86\u975Estatic\u7684run\u65B9\u6CD5\uFF0C\u6211\u4EEC\u5148\u6765\u770B\u770B\u6784\u9020\u65B9\u6CD5\u91CC\u9762\u505A\u4E86\u4EC0\u4E48\u4E8B\u60C5\uFF1A</li></ul><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code>    <span class="token keyword">public</span> <span class="token class-name">SpringApplication</span><span class="token punctuation">(</span><span class="token class-name">ResourceLoader</span> resourceLoader<span class="token punctuation">,</span> <span class="token class-name">Class</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token operator">?</span><span class="token punctuation">&gt;</span></span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span> primarySources<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>sources <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">LinkedHashSet</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>bannerMode <span class="token operator">=</span> <span class="token class-name">Mode</span><span class="token punctuation">.</span>CONSOLE<span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>logStartupInfo <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>addCommandLineProperties <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>addConversionService <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>headless <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>registerShutdownHook <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>additionalProfiles <span class="token operator">=</span> <span class="token class-name">Collections</span><span class="token punctuation">.</span><span class="token function">emptySet</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>isCustomEnvironment <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>lazyInitialization <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>applicationContextFactory <span class="token operator">=</span> <span class="token class-name">ApplicationContextFactory</span><span class="token punctuation">.</span>DEFAULT<span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>applicationStartup <span class="token operator">=</span> <span class="token class-name">ApplicationStartup</span><span class="token punctuation">.</span>DEFAULT<span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>resourceLoader <span class="token operator">=</span> resourceLoader<span class="token punctuation">;</span>
+        <span class="token class-name">Assert</span><span class="token punctuation">.</span><span class="token function">notNull</span><span class="token punctuation">(</span>primarySources<span class="token punctuation">,</span> <span class="token string">&quot;PrimarySources must not be null&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>primarySources <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">LinkedHashSet</span><span class="token punctuation">(</span><span class="token class-name">Arrays</span><span class="token punctuation">.</span><span class="token function">asList</span><span class="token punctuation">(</span>primarySources<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>webApplicationType <span class="token operator">=</span> <span class="token class-name">WebApplicationType</span><span class="token punctuation">.</span><span class="token function">deduceFromClasspath</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment">//\u53EF\u4EE5\u5728\u6B64\u5904\u6253\u4E0A\u65AD\u70B9\u6D4B\u8BD5\uFF0C\u4F60\u4F1A\u53D1\u73B0webApplicationType = null</span>
+        <span class="token comment">//\u5982\u679C\u4F60\u5F15\u5165web\u4F9D\u8D56\uFF0C\u5B83\u6709\u53D8\u6210\u4E86SERVLET,\u5C31\u662F\u83B7\u53D6\u670D\u52A1\u7C7B\u578B</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>bootstrapRegistryInitializers <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ArrayList</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">getSpringFactoriesInstances</span><span class="token punctuation">(</span><span class="token class-name">BootstrapRegistryInitializer</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment">//\u5173\u952EgetSpringFactoriesInstances\uFF0C\u521B\u5EFA\u6240\u6709ApplicationContextInitializer\u5B9E\u73B0\u7C7B\u7684\u5BF9\u8C61</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">setInitializers</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>getSpringFactoriesInstances<span class="token punctuation">;</span><span class="token punctuation">(</span><span class="token class-name">ApplicationContextInitializer</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">setListeners</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">getSpringFactoriesInstances</span><span class="token punctuation">(</span><span class="token class-name">ApplicationListener</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>mainApplicationClass <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">deduceMainApplicationClass</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br></div></div><ul><li>\u5173\u952E\u5C31\u5728\u8FD9\u91CC\u4E86\uFF0C\u5B83\u662F\u5982\u4F55\u77E5\u9053\u54EA\u4E9B\u7C7B\u662FApplicationContextInitializer\u7684\u5B9E\u73B0\u7C7B\u7684\u5462\uFF1F</li></ul><h2 id="getspringfactoriesinstances" tabindex="-1"><a class="header-anchor" href="#getspringfactoriesinstances" aria-hidden="true">#</a> getSpringFactoriesInstances</h2><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code>    <span class="token comment">//\u7C7B\u578B\u662F\u8C03\u7528\u65B9\u6CD5\u4F20\u8FC7\u6765\u7684\uFF0C\u8FD4\u56DE\u503C\u662F\u4E00\u4E2ACollection&lt;T&gt;</span>
+    <span class="token keyword">private</span> <span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">T</span><span class="token punctuation">&gt;</span></span> <span class="token class-name">Collection</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">T</span><span class="token punctuation">&gt;</span></span> <span class="token function">getSpringFactoriesInstances</span><span class="token punctuation">(</span><span class="token class-name">Class</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">T</span><span class="token punctuation">&gt;</span></span> type<span class="token punctuation">,</span> <span class="token class-name">Class</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token operator">?</span><span class="token punctuation">&gt;</span></span><span class="token punctuation">[</span><span class="token punctuation">]</span> parameterTypes<span class="token punctuation">,</span> <span class="token class-name">Object</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token comment">//\u7C7B\u52A0\u8F7D\u5668</span>
+        <span class="token class-name">ClassLoader</span> classLoader <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">getClassLoader</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment">//\u589E\u52A0\u4E86\u4E00\u4E2A\u53CC\u5411\u94FE\u8868\u7528\u6765\u8BB0\u5F55\u5143\u7D20\u6DFB\u52A0\u7684\u987A\u5E8F\uFF0C\u80FD\u6309\u7167\u6DFB\u52A0\u987A\u5E8F\u904D\u5386\u8F93\u51FA\u3002</span>
+        <span class="token class-name">Set</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">String</span><span class="token punctuation">&gt;</span></span> names <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">LinkedHashSet</span><span class="token punctuation">(</span><span class="token class-name">SpringFactoriesLoader</span><span class="token punctuation">.</span><span class="token function">loadFactoryNames</span><span class="token punctuation">(</span>type<span class="token punctuation">,</span> classLoader<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token class-name">List</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">T</span><span class="token punctuation">&gt;</span></span> instances <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">createSpringFactoriesInstances</span><span class="token punctuation">(</span>type<span class="token punctuation">,</span> parameterTypes<span class="token punctuation">,</span> classLoader<span class="token punctuation">,</span> args<span class="token punctuation">,</span> names<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment">//\u6CE8\u610F\uFF0C\u53D1\u73B0\u4E0B\u9762\u662F\u6709\u6392\u5E8F\u64CD\u4F5C\uFF0C\u8BF4\u660E\u6709\u987A\u5E8F\u8FD4\u56DE\u8981\u6C42</span>
+        <span class="token class-name">AnnotationAwareOrderComparator</span><span class="token punctuation">.</span><span class="token function">sort</span><span class="token punctuation">(</span>instances<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">return</span> instances<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><ul><li>\u5176\u4E2D<code>SpringFactoriesLoader.loadFactoryNames</code>\u6B63\u662F\u8BFB\u53D6\u914D\u7F6E\u7684\u6838\u5FC3\u90E8\u5206\uFF0C\u6211\u4EEC\u540E\u9762\u8FD8\u4F1A\u9047\u5230\u3002</li></ul><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code>    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token class-name">List</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">String</span><span class="token punctuation">&gt;</span></span> <span class="token function">loadFactoryNames</span><span class="token punctuation">(</span><span class="token class-name">Class</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token operator">?</span><span class="token punctuation">&gt;</span></span> factoryType<span class="token punctuation">,</span> <span class="token annotation punctuation">@Nullable</span> <span class="token class-name">ClassLoader</span> classLoader<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token class-name">ClassLoader</span> classLoaderToUse <span class="token operator">=</span> classLoader<span class="token punctuation">;</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>classLoader <span class="token operator">==</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            classLoaderToUse <span class="token operator">=</span> <span class="token class-name">SpringFactoriesLoader</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">.</span><span class="token function">getClassLoader</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+
+        <span class="token class-name">String</span> factoryTypeName <span class="token operator">=</span> factoryType<span class="token punctuation">.</span><span class="token function">getName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">return</span> <span class="token punctuation">(</span><span class="token class-name">List</span><span class="token punctuation">)</span><span class="token function">loadSpringFactories</span><span class="token punctuation">(</span>classLoaderToUse<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">getOrDefault</span><span class="token punctuation">(</span>factoryTypeName<span class="token punctuation">,</span> <span class="token class-name">Collections</span><span class="token punctuation">.</span><span class="token function">emptyList</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><ul><li><code>loadSpringFactories</code>\u4E00\u76F4\u5F80\u4E0B\u8D70\uFF0C\u4F60\u4F1A\u770B\u5230\u4E0B\u9762\u65B9\u6CD5\uFF0C\u6CE8\u610F\u91CC\u9762\u8FD9\u4E00\u6BB5</li></ul><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">private</span> <span class="token keyword">static</span> <span class="token class-name">Map</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">String</span><span class="token punctuation">,</span> <span class="token class-name">List</span><span class="token punctuation">&lt;</span><span class="token class-name">String</span><span class="token punctuation">&gt;</span><span class="token punctuation">&gt;</span></span> <span class="token function">loadSpringFactories</span><span class="token punctuation">(</span><span class="token class-name">ClassLoader</span> classLoader<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">//......</span>
+     <span class="token class-name">Enumeration</span><span class="token generics"><span class="token punctuation">&lt;</span>URL<span class="token punctuation">&gt;</span></span> urls <span class="token operator">=</span> classLoader<span class="token punctuation">.</span><span class="token function">getResources</span><span class="token punctuation">(</span><span class="token string">&quot;META-INF/spring.factories&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+     <span class="token comment">//......</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><ul><li><code>spring.factories</code></li><li>\u4EFF\u7167Java\u4E2D\u7684SPI\u6269\u5C55\u673A\u5236\u6765\u5B9E\u73B0\u7684\u3002\u5C31\u662F\u63D0\u4F9B\u8FD9\u6837\u7684\u4E00\u4E2A\u673A\u5236\uFF1A\u4E3A\u67D0\u4E2A\u63A5\u53E3\u5BFB\u627E\u670D\u52A1\u5B9E\u73B0\u7684\u673A\u5236\u3002\u6709\u70B9\u7C7B\u4F3CIOC\u7684\u601D\u60F3\uFF0C\u5C31\u662F\u5C06\u88C5\u914D\u7684\u63A7\u5236\u6743\u79FB\u5230\u7A0B\u5E8F\u4E4B\u5916\uFF0C\u5728\u6A21\u5757\u5316\u8BBE\u8BA1\u4E2D\u8FD9\u4E2A\u673A\u5236\u5C24\u5176\u91CD\u8981\u3002</li><li>\u8BF4\u767D\u4E86\u5C31\u662F\u4EBA\u5BB6\u5B9A\u4E49\u63A5\u53E3\uFF0C\u4F46\u662F\u5B9E\u73B0\u53EF\u80FD\u6709\u5F88\u591A\u79CD\uFF0C\u4F46\u662F\u6838\u5FC3\u53EA\u63D0\u4F9B\u63A5\u53E3\uFF0C\u9700\u8981\u6211\u4EEC\u6309\u9700\u9009\u62E9\u5BF9\u5E94\u7684\u5B9E\u73B0\uFF0C\u8FD9\u79CD\u65B9\u5F0F\u662F\u9AD8\u5EA6\u89E3\u8026\u7684\u3002</li><li>\u4E0B\u9762\u662F\u4E00\u4E9B<code>spring.factories</code>\u7684\u7247\u6BB5</li><li><code>\\</code>\u662F\u6362\uFF0C\u6BCF\u6BB5\u9017\u53F7\u9694\u5F00</li></ul><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># Logging Systems</span>
+org.springframework.boot.logging.LoggingSystemFactory<span class="token operator">=</span><span class="token punctuation">\\</span>
+org.springframework.boot.logging.logback.LogbackLoggingSystem.Factory,<span class="token punctuation">\\</span>
+org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.Factory,<span class="token punctuation">\\</span>
+org.springframework.boot.logging.java.JavaLoggingSystem.Factory
+
+<span class="token comment"># PropertySource Loaders</span>
+org.springframework.boot.env.PropertySourceLoader<span class="token operator">=</span><span class="token punctuation">\\</span>
+org.springframework.boot.env.PropertiesPropertySourceLoader,<span class="token punctuation">\\</span>
+org.springframework.boot.env.YamlPropertySourceLoader
+
+<span class="token comment"># Application Context Factories</span>
+org.springframework.boot.ApplicationContextFactory<span class="token operator">=</span><span class="token punctuation">\\</span>
+org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext.Factory,<span class="token punctuation">\\</span>
+org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext.Factory
+
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br></div></div><h2 id="\u603B\u7ED3run\u65B9\u6CD5" tabindex="-1"><a class="header-anchor" href="#\u603B\u7ED3run\u65B9\u6CD5" aria-hidden="true">#</a> \u603B\u7ED3run\u65B9\u6CD5</h2><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token class-name">ConfigurableApplicationContext</span> <span class="token function">run</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">long</span> startTime <span class="token operator">=</span> <span class="token class-name">System</span><span class="token punctuation">.</span><span class="token function">nanoTime</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token class-name">DefaultBootstrapContext</span> bootstrapContext <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">createBootstrapContext</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token class-name">ConfigurableApplicationContext</span> context <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">configureHeadlessProperty</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment">//\u83B7\u53D6\u6240\u6709\u7684SpringApplicationRunListener\uFF0C\u5E76\u901A\u77E5\u542F\u52A8\u4E8B\u4EF6\uFF0C\u9ED8\u8BA4\u53EA\u6709\u4E00\u4E2A\u5B9E\u73B0\u7C7BEventPublishingRunListener</span>
+  	    <span class="token comment">//EventPublishingRunListener\u4F1A\u5C06\u521D\u59CB\u5316\u5404\u4E2A\u9636\u6BB5\u7684\u4E8B\u4EF6\u8F6C\u53D1\u7ED9\u6240\u6709\u76D1\u542C\u5668</span>
+        <span class="token class-name">SpringApplicationRunListeners</span> listeners <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">getRunListeners</span><span class="token punctuation">(</span>args<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        listeners<span class="token punctuation">.</span><span class="token function">starting</span><span class="token punctuation">(</span>bootstrapContext<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>mainApplicationClass<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">try</span> <span class="token punctuation">{</span>
+            <span class="token comment">//\u73AF\u5883\u914D\u7F6E</span>
+            <span class="token class-name">ApplicationArguments</span> applicationArguments <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">DefaultApplicationArguments</span><span class="token punctuation">(</span>args<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token class-name">ConfigurableEnvironment</span> environment <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">prepareEnvironment</span><span class="token punctuation">(</span>listeners<span class="token punctuation">,</span> bootstrapContext<span class="token punctuation">,</span> applicationArguments<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">configureIgnoreBeanInfo</span><span class="token punctuation">(</span>environment<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token comment">//\u6253\u5370Banner</span>
+            <span class="token class-name">Banner</span> printedBanner <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">printBanner</span><span class="token punctuation">(</span>environment<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token comment">//\u521B\u5EFAApplicationContext\uFF0C\u6CE8\u610F\u8FD9\u91CC\u4F1A\u6839\u636E\u662F\u5426\u4E3AWeb\u5BB9\u5668\u4F7F\u7528\u4E0D\u540C\u7684ApplicationContext\u5B9E\u73B0\u7C7B</span>
+            context <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">createApplicationContext</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            context<span class="token punctuation">.</span><span class="token function">setApplicationStartup</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>applicationStartup<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token comment">//\u521D\u59CB\u5316ApplicationContext</span>
+            <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">prepareContext</span><span class="token punctuation">(</span>bootstrapContext<span class="token punctuation">,</span> context<span class="token punctuation">,</span> environment<span class="token punctuation">,</span> listeners<span class="token punctuation">,</span> applicationArguments<span class="token punctuation">,</span> printedBanner<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token comment">//\u6267\u884CApplicationContext\u7684refresh\u65B9\u6CD5(bean\u6CE8\u518C)</span>
+            <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">refreshContext</span><span class="token punctuation">(</span>context<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">afterRefresh</span><span class="token punctuation">(</span>context<span class="token punctuation">,</span> applicationArguments<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token class-name">Duration</span> timeTakenToStartup <span class="token operator">=</span> <span class="token class-name">Duration</span><span class="token punctuation">.</span><span class="token function">ofNanos</span><span class="token punctuation">(</span><span class="token class-name">System</span><span class="token punctuation">.</span><span class="token function">nanoTime</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">-</span> startTime<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>logStartupInfo<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                <span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">StartupInfoLogger</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>mainApplicationClass<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">logStarted</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">getApplicationLog</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> timeTakenToStartup<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+
+            listeners<span class="token punctuation">.</span><span class="token function">started</span><span class="token punctuation">(</span>context<span class="token punctuation">,</span> timeTakenToStartup<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">callRunners</span><span class="token punctuation">(</span>context<span class="token punctuation">,</span> applicationArguments<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span><span class="token class-name">Throwable</span> var12<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">handleRunFailure</span><span class="token punctuation">(</span>context<span class="token punctuation">,</span> var12<span class="token punctuation">,</span> listeners<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword">throw</span> <span class="token keyword">new</span> <span class="token class-name">IllegalStateException</span><span class="token punctuation">(</span>var12<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+
+        <span class="token keyword">try</span> <span class="token punctuation">{</span>
+            <span class="token class-name">Duration</span> timeTakenToReady <span class="token operator">=</span> <span class="token class-name">Duration</span><span class="token punctuation">.</span><span class="token function">ofNanos</span><span class="token punctuation">(</span><span class="token class-name">System</span><span class="token punctuation">.</span><span class="token function">nanoTime</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">-</span> startTime<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            listeners<span class="token punctuation">.</span><span class="token function">ready</span><span class="token punctuation">(</span>context<span class="token punctuation">,</span> timeTakenToReady<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword">return</span> context<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span><span class="token class-name">Throwable</span> var11<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">handleRunFailure</span><span class="token punctuation">(</span>context<span class="token punctuation">,</span> var11<span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token class-name">SpringApplicationRunListeners</span><span class="token punctuation">)</span><span class="token keyword">null</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword">throw</span> <span class="token keyword">new</span> <span class="token class-name">IllegalStateException</span><span class="token punctuation">(</span>var11<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br></div></div><ul><li>\u5B9E\u9645\u4E0ASpringBoot\u5C31\u662FSpring\u7684\u4E00\u5C42\u58F3\u7F62\u4E86\uFF0C\u79BB\u4E0D\u5F00\u6700\u5173\u952E\u7684ApplicationContext\uFF0C\u4E5F\u5C31\u662F\u8BF4\uFF0C\u5728\u542F\u52A8\u540E\u4F1A\u81EA\u52A8\u914D\u7F6E\u4E00\u4E2AApplicationContext\uFF0C\u53EA\u4E0D\u8FC7\u662F\u8FDB\u884C\u4E86\u5927\u91CF\u7684\u6269\u5C55\u3002</li><li>\u6211\u4EEC\u6765\u770BApplicationContext\u662F\u600E\u4E48\u6765\u7684\uFF0C\u6253\u5F00createApplicationContext\u65B9\u6CD5\uFF1A</li></ul><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code>
+<span class="token keyword">protected</span> <span class="token class-name">ConfigurableApplicationContext</span> <span class="token function">createApplicationContext</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span>applicationContextFactory<span class="token punctuation">.</span><span class="token function">create</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>webApplicationType<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><ul><li>\u67E5\u770B\u6784\u9020\u65B9\u6CD5\u4E2D</li></ul><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">this</span><span class="token punctuation">.</span>applicationContextFactory <span class="token operator">=</span> <span class="token class-name">ApplicationContextFactory</span><span class="token punctuation">.</span>DEFAULT<span class="token punctuation">;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token class-name">ApplicationContextFactory</span> DEFAULT <span class="token operator">=</span> <span class="token punctuation">(</span>webApplicationType<span class="token punctuation">)</span> <span class="token operator">-&gt;</span> <span class="token punctuation">{</span>
+    <span class="token keyword">try</span> <span class="token punctuation">{</span>
+        <span class="token keyword">switch</span><span class="token punctuation">(</span>webApplicationType<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">case</span> SERVLET<span class="token operator">:</span>
+            <span class="token keyword">return</span> <span class="token keyword">new</span> <span class="token class-name">AnnotationConfigServletWebServerApplicationContext</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">case</span> REACTIVE<span class="token operator">:</span>
+            <span class="token keyword">return</span> <span class="token keyword">new</span> <span class="token class-name">AnnotationConfigReactiveWebServerApplicationContext</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">default</span><span class="token operator">:</span>
+            <span class="token keyword">return</span> <span class="token keyword">new</span> <span class="token class-name">AnnotationConfigApplicationContext</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span><span class="token class-name">Exception</span> var2<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">throw</span> <span class="token keyword">new</span> <span class="token class-name">IllegalStateException</span><span class="token punctuation">(</span><span class="token string">&quot;Unable create a default ApplicationContext instance, you may need a custom ApplicationContextFactory&quot;</span><span class="token punctuation">,</span> var2<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token class-name">ConfigurableApplicationContext</span> <span class="token function">create</span><span class="token punctuation">(</span><span class="token class-name">WebApplicationType</span> webApplicationType<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br></div></div><ul><li>DEFAULT\u662F\u76F4\u63A5\u7F16\u5199\u7684\u4E00\u4E2A\u533F\u540D\u5185\u90E8\u7C7B\uFF0C\u5176\u5B9E\u5DF2\u7ECF\u5F88\u660E\u786E\u4E86\uFF0C\u6B63\u662F\u6839\u636EwebApplicationType\u7C7B\u578B\u8FDB\u884C\u5224\u65AD\uFF0C\u5982\u679C\u662FSERVLET\uFF0C\u90A3\u4E48\u4E45\u8FD4\u56DE\u4E13\u7528\u4E8EWeb\u73AF\u5883\u7684AnnotationConfigServletWebServerApplicationContext\u5BF9\u8C61\uFF08SpringBoot\u4E2D\u65B0\u589E\u7684\uFF09\uFF0C\u5426\u5219\u8FD4\u56DE\u666E\u901A\u7684AnnotationConfigApplicationContext\u5BF9\u8C61\uFF0C\u4E5F\u5C31\u662F\u5230\u8FD9\u91CC\u4E3A\u6B62\uFF0CSpring\u7684\u5BB9\u5668\u5C31\u57FA\u672C\u5DF2\u7ECF\u786E\u5B9A\u4E86\u3002</li><li>\u6CE8\u610FAnnotationConfigApplicationContext\u662FSpring\u6846\u67B6\u63D0\u4F9B\u7684\u7C7B\uFF0C\u4ECE\u8FD9\u91CC\u5F00\u59CB\u76F8\u5F53\u4E8E\u6211\u4EEC\u5728\u8BB2Spring\u7684\u5E95\u5C42\u6E90\u7801\u4E86\uFF0C\u6211\u4EEC\u7EE7\u7EED\u6DF1\u5165\uFF0CAnnotationConfigApplicationContext\u5BF9\u8C61\u5728\u521B\u5EFA\u8FC7\u7A0B\u4E2D\u4F1A\u521B\u5EFAAnnotatedBeanDefinitionReader\uFF0C\u5B83\u662F\u7528\u4E8E\u901A\u8FC7\u6CE8\u89E3\u89E3\u6790Bean\u5B9A\u4E49\u7684\u5DE5\u5177\u7C7B\uFF1A</li></ul><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token class-name">AnnotationConfigApplicationContext</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token class-name">StartupStep</span> createAnnotatedBeanDefReader <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">getApplicationStartup</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">start</span><span class="token punctuation">(</span><span class="token string">&quot;spring.context.annotated-bean-reader.create&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>reader <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">AnnotatedBeanDefinitionReader</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    createAnnotatedBeanDefReader<span class="token punctuation">.</span><span class="token function">end</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>scanner <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ClassPathBeanDefinitionScanner</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><ul><li>\u5176\u6784\u9020\u65B9\u6CD5\uFF1A</li></ul><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token class-name">AnnotatedBeanDefinitionReader</span><span class="token punctuation">(</span><span class="token class-name">BeanDefinitionRegistry</span> registry<span class="token punctuation">,</span> <span class="token class-name">Environment</span> environment<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+    <span class="token comment">//\u8FD9\u91CC\u4F1A\u6CE8\u518C\u5F88\u591A\u7684\u540E\u7F6E\u5904\u7406\u5668</span>
+    <span class="token class-name">AnnotationConfigUtils</span><span class="token punctuation">.</span><span class="token function">registerAnnotationConfigProcessors</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>registry<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token class-name">Set</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">BeanDefinitionHolder</span><span class="token punctuation">&gt;</span></span> <span class="token function">registerAnnotationConfigProcessors</span><span class="token punctuation">(</span><span class="token class-name">BeanDefinitionRegistry</span> registry<span class="token punctuation">,</span> <span class="token annotation punctuation">@Nullable</span> <span class="token class-name">Object</span> source<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token class-name">DefaultListableBeanFactory</span> beanFactory <span class="token operator">=</span> <span class="token function">unwrapDefaultListableBeanFactory</span><span class="token punctuation">(</span>registry<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+    <span class="token class-name">Set</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">BeanDefinitionHolder</span><span class="token punctuation">&gt;</span></span> beanDefs <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">LinkedHashSet</span><span class="token punctuation">(</span><span class="token number">8</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token class-name">RootBeanDefinition</span> def<span class="token punctuation">;</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>registry<span class="token punctuation">.</span><span class="token function">containsBeanDefinition</span><span class="token punctuation">(</span><span class="token string">&quot;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&quot;</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      	<span class="token comment">//\u6CE8\u518C\u4E86ConfigurationClassPostProcessor\u7528\u4E8E\u5904\u7406@Configuration\u3001@Import\u7B49\u6CE8\u89E3</span>
+      	<span class="token comment">//\u6CE8\u610F\u8FD9\u91CC\u662F\u5173\u952E\uFF0C\u4E4B\u540ESelector\u8FD8\u8981\u8BB2\u5230\u5B83</span>
+      	<span class="token comment">//\u5B83\u662F\u7EE7\u627F\u81EABeanDefinitionRegistryPostProcessor\uFF0C\u6240\u4EE5\u5B83\u7684\u6267\u884C\u65F6\u95F4\u5728Bean\u5B9A\u4E49\u52A0\u8F7D\u5B8C\u6210\u540E\uFF0CBean\u521D\u59CB\u5316\u4E4B\u524D</span>
+        def <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">RootBeanDefinition</span><span class="token punctuation">(</span><span class="token class-name">ConfigurationClassPostProcessor</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        def<span class="token punctuation">.</span><span class="token function">setSource</span><span class="token punctuation">(</span>source<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        beanDefs<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span><span class="token function">registerPostProcessor</span><span class="token punctuation">(</span>registry<span class="token punctuation">,</span> def<span class="token punctuation">,</span> <span class="token string">&quot;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&quot;</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>registry<span class="token punctuation">.</span><span class="token function">containsBeanDefinition</span><span class="token punctuation">(</span><span class="token string">&quot;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&quot;</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      	<span class="token comment">//AutowiredAnnotationBeanPostProcessor\u7528\u4E8E\u5904\u7406@Value\u7B49\u6CE8\u89E3\u81EA\u52A8\u6CE8\u5165</span>
+        def <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">RootBeanDefinition</span><span class="token punctuation">(</span><span class="token class-name">AutowiredAnnotationBeanPostProcessor</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        def<span class="token punctuation">.</span><span class="token function">setSource</span><span class="token punctuation">(</span>source<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        beanDefs<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span><span class="token function">registerPostProcessor</span><span class="token punctuation">(</span>registry<span class="token punctuation">,</span> def<span class="token punctuation">,</span> <span class="token string">&quot;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&quot;</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  
+  	<span class="token comment">//...</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br></div></div><ul><li>\u56DE\u5230SpringBoot\uFF0C\u6211\u4EEC\u6700\u540E\u6765\u770B\uFF0CprepareContext\u65B9\u6CD5\u4E2D\u53C8\u505A\u4E86\u4EC0\u4E48\u4E8B\u60C5\uFF1A</li></ul><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">private</span> <span class="token keyword">void</span> <span class="token function">prepareContext</span><span class="token punctuation">(</span><span class="token class-name">DefaultBootstrapContext</span> bootstrapContext<span class="token punctuation">,</span> <span class="token class-name">ConfigurableApplicationContext</span> context<span class="token punctuation">,</span> <span class="token class-name">ConfigurableEnvironment</span> environment<span class="token punctuation">,</span> <span class="token class-name">SpringApplicationRunListeners</span> listeners<span class="token punctuation">,</span> <span class="token class-name">ApplicationArguments</span> applicationArguments<span class="token punctuation">,</span> <span class="token class-name">Banner</span> printedBanner<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  	<span class="token comment">//\u73AF\u5883\u914D\u7F6E</span>
+    context<span class="token punctuation">.</span><span class="token function">setEnvironment</span><span class="token punctuation">(</span>environment<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">postProcessApplicationContext</span><span class="token punctuation">(</span>context<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">applyInitializers</span><span class="token punctuation">(</span>context<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    listeners<span class="token punctuation">.</span><span class="token function">contextPrepared</span><span class="token punctuation">(</span>context<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    bootstrapContext<span class="token punctuation">.</span><span class="token function">close</span><span class="token punctuation">(</span>context<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>logStartupInfo<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">logStartupInfo</span><span class="token punctuation">(</span>context<span class="token punctuation">.</span><span class="token function">getParent</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token keyword">null</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">logStartupProfileInfo</span><span class="token punctuation">(</span>context<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+  	<span class="token comment">//\u5C06Banner\u6CE8\u518C\u4E3ABean</span>
+    <span class="token class-name">ConfigurableListableBeanFactory</span> beanFactory <span class="token operator">=</span> context<span class="token punctuation">.</span><span class="token function">getBeanFactory</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    beanFactory<span class="token punctuation">.</span><span class="token function">registerSingleton</span><span class="token punctuation">(</span><span class="token string">&quot;springApplicationArguments&quot;</span><span class="token punctuation">,</span> applicationArguments<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>printedBanner <span class="token operator">!=</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        beanFactory<span class="token punctuation">.</span><span class="token function">registerSingleton</span><span class="token punctuation">(</span><span class="token string">&quot;springBootBanner&quot;</span><span class="token punctuation">,</span> printedBanner<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>beanFactory <span class="token keyword">instanceof</span> <span class="token class-name">AbstractAutowireCapableBeanFactory</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token class-name">AbstractAutowireCapableBeanFactory</span><span class="token punctuation">)</span>beanFactory<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">setAllowCircularReferences</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>allowCircularReferences<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>beanFactory <span class="token keyword">instanceof</span> <span class="token class-name">DefaultListableBeanFactory</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token class-name">DefaultListableBeanFactory</span><span class="token punctuation">)</span>beanFactory<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">setAllowBeanDefinitionOverriding</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>allowBeanDefinitionOverriding<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>lazyInitialization<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        context<span class="token punctuation">.</span><span class="token function">addBeanFactoryPostProcessor</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">LazyInitializationBeanFactoryPostProcessor</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+  	<span class="token comment">//\u8FD9\u91CC\u4F1A\u83B7\u53D6\u6211\u4EEC\u4E00\u5F00\u59CB\u4F20\u5165\u7684\u9879\u76EE\u4E3B\u7C7B</span>
+    <span class="token class-name">Set</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">Object</span><span class="token punctuation">&gt;</span></span> sources <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">getAllSources</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token class-name">Assert</span><span class="token punctuation">.</span><span class="token function">notEmpty</span><span class="token punctuation">(</span>sources<span class="token punctuation">,</span> <span class="token string">&quot;Sources must not be empty&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  	<span class="token comment">//\u8FD9\u91CC\u4F1A\u5C06\u6211\u4EEC\u7684\u4E3B\u7C7B\u76F4\u63A5\u6CE8\u518C\u4E3ABean\uFF0C\u8FD9\u6837\u5C31\u53EF\u4EE5\u901A\u8FC7\u6CE8\u89E3\u52A0\u8F7D\u4E86,\u5DF2\u7ECF\u628Abean\u6CE8\u518C</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">load</span><span class="token punctuation">(</span>context<span class="token punctuation">,</span> sources<span class="token punctuation">.</span><span class="token function">toArray</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Object</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    listeners<span class="token punctuation">.</span><span class="token function">contextLoaded</span><span class="token punctuation">(</span>context<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br></div></div><h2 id="\u81EA\u52A8\u914D\u7F6E\u539F\u7406" tabindex="-1"><a class="header-anchor" href="#\u81EA\u52A8\u914D\u7F6E\u539F\u7406" aria-hidden="true">#</a> \u81EA\u52A8\u914D\u7F6E\u539F\u7406</h2><!--]-->`);
+}
+const _sfc_setup$J = _sfc_main$J.setup;
+_sfc_main$J.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/springboot/02.springboot\u542F\u52A8\u539F\u7406.html.vue");
+  return _sfc_setup$J ? _sfc_setup$J(props, ctx) : void 0;
+};
+var _02_springboot_____html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$J, [["ssrRender", _sfc_ssrRender$v]]);
+var _02_springboot_____html$2 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": _02_springboot_____html$1
+});
+const _sfc_main$I = {};
+function _sfc_ssrRender$u(_ctx, _push, _parent, _attrs) {
+  _push(`<!--[--><h1 id="\u81EA\u52A8\u914D\u7F6E" tabindex="-1"><a class="header-anchor" href="#\u81EA\u52A8\u914D\u7F6E" aria-hidden="true">#</a> \u81EA\u52A8\u914D\u7F6E</h1><ul><li>\u65E2\u7136\u4E3B\u7C7B\u5DF2\u7ECF\u5728\u521D\u59CB\u9636\u6BB5\u6CE8\u518C\u4E3ABean\uFF0C\u90A3\u4E48\u5728\u52A0\u8F7D\u65F6\uFF0C\u5C31\u4F1A\u6839\u636E\u6CE8\u89E3\u5B9A\u4E49\uFF0C\u8FDB\u884C\u66F4\u591A\u7684\u989D\u5916\u64CD\u4F5C\u3002\u6240\u4EE5\u6211\u4EEC\u6765\u770B\u770B\u4E3B\u7C7B\u4E0A\u7684@SpringBootApplication\u6CE8\u89E3\u505A\u4E86\u4EC0\u4E48\u4E8B\u60C5\u3002</li></ul><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token annotation punctuation">@Target</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token class-name">ElementType</span><span class="token punctuation">.</span>TYPE<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token annotation punctuation">@Retention</span><span class="token punctuation">(</span><span class="token class-name">RetentionPolicy</span><span class="token punctuation">.</span>RUNTIME<span class="token punctuation">)</span>
+<span class="token annotation punctuation">@Documented</span>
+<span class="token annotation punctuation">@Inherited</span>
+<span class="token annotation punctuation">@SpringBootConfiguration</span>
+<span class="token comment">//\u5173\u952E\uFF0C\u4F60\u5728\u9879\u76EE\u4E2D\u70B9\u51FB\u8FDB\u53BB\u7EC6\u770B\u5982\u4F55\u626B\u63CF\u5305\u7684</span>
+<span class="token annotation punctuation">@EnableAutoConfiguration</span>
+<span class="token annotation punctuation">@ComponentScan</span><span class="token punctuation">(</span>
+    excludeFilters <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token annotation punctuation">@Filter</span><span class="token punctuation">(</span>
+    type <span class="token operator">=</span> <span class="token class-name">FilterType</span><span class="token punctuation">.</span>CUSTOM<span class="token punctuation">,</span>
+    classes <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token class-name">TypeExcludeFilter</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">}</span>
+<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token annotation punctuation">@Filter</span><span class="token punctuation">(</span>
+    type <span class="token operator">=</span> <span class="token class-name">FilterType</span><span class="token punctuation">.</span>CUSTOM<span class="token punctuation">,</span>
+    classes <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token class-name">AutoConfigurationExcludeFilter</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">}</span>
+<span class="token punctuation">)</span><span class="token punctuation">}</span>
+<span class="token punctuation">)</span>
+<span class="token keyword">public</span> <span class="token annotation punctuation">@interface</span> <span class="token class-name">SpringBootApplication</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br></div></div><ul><li>\u6211\u4EEC\u53D1\u73B0\uFF0C@SpringBootApplication\u4E0A\u6DFB\u52A0\u4E86@ComponentScan\u6CE8\u89E3\uFF0C\u6B64\u6CE8\u89E3\u6211\u4EEC\u6B64\u524D\u5DF2\u7ECF\u8BA4\u8BC6\u8FC7\u4E86\uFF0C\u4F46\u662F\u8FD9\u91CC\u5E76\u6CA1\u6709\u914D\u7F6E\u5177\u4F53\u626B\u63CF\u7684\u5305\uFF0C\u56E0\u6B64\u5B83\u4F1A\u81EA\u52A8\u5C06\u58F0\u660E\u6B64\u63A5\u53E3\u7684\u7C7B\u6240\u5728\u7684\u5305\u4F5C\u4E3AbasePackage\uFF0C\u56E0\u6B64\u5F53\u6DFB\u52A0@SpringBootApplication\u4E4B\u540E\u4E5F\u5C31\u7B49\u4E8E\u76F4\u63A5\u5F00\u542F\u4E86\u81EA\u52A8\u626B\u63CF\uFF0C\u4F46\u662F\u4E00\u5B9A\u6CE8\u610F\u4E0D\u80FD\u5728\u4E3B\u7C7B\u4E4B\u5916\u7684\u5305\u8FDB\u884CBean\u5B9A\u4E49\uFF0C\u5426\u5219\u65E0\u6CD5\u626B\u63CF\u5230\uFF0C\u9700\u8981\u624B\u52A8\u914D\u7F6E\u3002</li></ul><h2 id="enableautoconfiguration" tabindex="-1"><a class="header-anchor" href="#enableautoconfiguration" aria-hidden="true">#</a> @EnableAutoConfiguration</h2><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token annotation punctuation">@Target</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token class-name">ElementType</span><span class="token punctuation">.</span>TYPE<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token annotation punctuation">@Retention</span><span class="token punctuation">(</span><span class="token class-name">RetentionPolicy</span><span class="token punctuation">.</span>RUNTIME<span class="token punctuation">)</span>
+<span class="token annotation punctuation">@Documented</span>
+<span class="token annotation punctuation">@Inherited</span>
+<span class="token annotation punctuation">@AutoConfigurationPackage</span>
+<span class="token annotation punctuation">@Import</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token class-name">AutoConfigurationImportSelector</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token keyword">public</span> <span class="token annotation punctuation">@interface</span> <span class="token class-name">EnableAutoConfiguration</span> <span class="token punctuation">{</span>
+    <span class="token class-name">String</span> ENABLED_OVERRIDE_PROPERTY <span class="token operator">=</span> <span class="token string">&quot;spring.boot.enableautoconfiguration&quot;</span><span class="token punctuation">;</span>
+
+    <span class="token class-name">Class</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token operator">?</span><span class="token punctuation">&gt;</span></span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token function">exclude</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">default</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+    <span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token function">excludeName</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">default</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div><ul><li>\u76F4\u63A5\u4E00\u624B@Import\uFF0C\u901A\u8FC7\u8FD9\u79CD\u65B9\u5F0F\u6765\u5C06\u4E00\u4E9B\u5916\u90E8\u7684Bean\u52A0\u8F7D\u5230\u5BB9\u5668\u4E2D\u3002\u6211\u4EEC\u6765\u770B\u770BAutoConfigurationImportSelector\u505A\u4E86\u4EC0\u4E48\u4E8B\u60C5\uFF1A</li></ul><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">AutoConfigurationImportSelector</span> <span class="token keyword">implements</span> <span class="token class-name">DeferredImportSelector</span><span class="token punctuation">,</span> <span class="token class-name">BeanClassLoaderAware</span><span class="token punctuation">,</span> <span class="token class-name">ResourceLoaderAware</span><span class="token punctuation">,</span> <span class="token class-name">BeanFactoryAware</span><span class="token punctuation">,</span> <span class="token class-name">EnvironmentAware</span><span class="token punctuation">,</span> <span class="token class-name">Ordered</span> <span class="token punctuation">{</span>
+		<span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>\u6211\u4EEC\u770B\u5230\u5B83\u5B9E\u73B0\u4E86\u5F88\u591A\u63A5\u53E3\uFF0C\u5305\u62EC\u5927\u91CF\u7684Aware\u63A5\u53E3\uFF0C\u5B9E\u9645\u4E0A\u5C31\u662F\u4E3A\u4E86\u611F\u77E5\u67D0\u4E9B\u5FC5\u8981\u7684\u5BF9\u8C61\uFF0C\u5E76\u5C06\u5176\u5B58\u5230\u5F53\u524D\u7C7B\u4E2D\u3002</p><p>\u5176\u4E2D\u6700\u6838\u5FC3\u7684\u662FDeferredImportSelector\u63A5\u53E3\uFF0C\u5B83\u662FImportSelector\u7684\u5B50\u7C7B\uFF0C\u5B83\u5B9A\u4E49\u4E86selectImports\u65B9\u6CD5\uFF0C\u7528\u4E8E\u8FD4\u56DE\u9700\u8981\u52A0\u8F7D\u7684\u7C7B\u540D\u79F0\uFF0C\u5728Spring\u52A0\u8F7DImportSelector\u7C7B\u578B\u7684Bean\u65F6\uFF0C\u4F1A\u8C03\u7528\u6B64\u65B9\u6CD5\u6765\u83B7\u53D6\u66F4\u591A\u9700\u8981\u52A0\u8F7D\u7684\u7C7B\uFF0C\u5E76\u5C06\u8FD9\u4E9B\u7C7B\u4E00\u5E76\u6CE8\u518C\u4E3ABean\uFF1A</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">interface</span> <span class="token class-name">ImportSelector</span> <span class="token punctuation">{</span>
+    <span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token function">selectImports</span><span class="token punctuation">(</span><span class="token class-name">AnnotationMetadata</span> importingClassMetadata<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token annotation punctuation">@Nullable</span>
+    <span class="token keyword">default</span> <span class="token class-name">Predicate</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">String</span><span class="token punctuation">&gt;</span></span> <span class="token function">getExclusionFilter</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><p>\u5230\u76EE\u524D\u4E3A\u6B62\uFF0C\u6211\u4EEC\u4E86\u89E3\u4E86\u4E24\u79CD\u4F7F\u7528@Import\u6709\u7279\u6B8A\u673A\u5236\u7684\u63A5\u53E3\uFF1AImportSelector\uFF08\u8FD9\u91CC\u7528\u5230\u7684\uFF09\u548CImportBeanDefinitionRegistrar\uFF08\u4E4B\u524DMybatis-spring\u6E90\u7801\u6709\u8BB2\uFF09\u5F53\u7136\u8FD8\u6709\u666E\u901A\u7684@Configuration\u914D\u7F6E\u7C7B\u3002</p><ul><li>\u80FD\u591Fimport\u662F\u56E0\u4E3A\u542F\u52A8\u539F\u7406\u4E00\u7AE0\u7684<code>ConfigurationClassPostProcessor</code>\u7C7B</li></ul><p>\u6211\u4EEC\u53EF\u4EE5\u6765\u9605\u8BFB\u4E00\u4E0B<code>ConfigurationClassPostProcessor</code>\u7684\u6E90\u7801\uFF0C\u770B\u770B\u5B83\u5230\u5E95\u662F\u5982\u4F55\u5904\u7406<code>@Import</code>\u7684\uFF1A</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">processConfigBeanDefinitions</span><span class="token punctuation">(</span><span class="token class-name">BeanDefinitionRegistry</span> registry<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">//\u5B58\u50A8\u914D\u7F6E\u7C7B</span>
+    <span class="token class-name">List</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">BeanDefinitionHolder</span><span class="token punctuation">&gt;</span></span> configCandidates <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ArrayList</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  	<span class="token comment">//\u6CE8\u610F\u8FD9\u4E2A\u9636\u6BB5\u4EC5\u4EC5\u662F\u5DF2\u7ECF\u5B8C\u6210\u626B\u63CF\u4E86\u6240\u6709\u7684Bean\uFF0C\u5F97\u5230\u4E86\u6240\u6709\u7684BeanDefinition\uFF0C\u4F46\u662F\u8FD8\u6CA1\u6709\u8FDB\u884C\u4EFB\u4F55\u533A\u5206</span>
+  	<span class="token comment">//candidate\u662F\u5019\u9009\u8005\u7684\u610F\u601D\uFF0C\u4E00\u4F1A\u4F1A\u5C06\u6807\u8BB0\u4E86@Configuration\u7684\u7C7B\u4F5C\u4E3AConfigurationClass\u52A0\u5165\u5230configCandidates\u4E2D</span>
+    <span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> candidateNames <span class="token operator">=</span> registry<span class="token punctuation">.</span><span class="token function">getBeanDefinitionNames</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> var4 <span class="token operator">=</span> candidateNames<span class="token punctuation">;</span>
+    <span class="token keyword">int</span> var5 <span class="token operator">=</span> candidateNames<span class="token punctuation">.</span>length<span class="token punctuation">;</span>
+
+    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> var6 <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> var6 <span class="token operator">&lt;</span> var5<span class="token punctuation">;</span> <span class="token operator">++</span>var6<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token class-name">String</span> beanName <span class="token operator">=</span> var4<span class="token punctuation">[</span>var6<span class="token punctuation">]</span><span class="token punctuation">;</span>
+        <span class="token class-name">BeanDefinition</span> beanDef <span class="token operator">=</span> registry<span class="token punctuation">.</span><span class="token function">getBeanDefinition</span><span class="token punctuation">(</span>beanName<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>beanDef<span class="token punctuation">.</span><span class="token function">getAttribute</span><span class="token punctuation">(</span><span class="token class-name">ConfigurationClassUtils</span><span class="token punctuation">.</span>CONFIGURATION_CLASS_ATTRIBUTE<span class="token punctuation">)</span> <span class="token operator">!=</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>logger<span class="token punctuation">.</span><span class="token function">isDebugEnabled</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                <span class="token keyword">this</span><span class="token punctuation">.</span>logger<span class="token punctuation">.</span><span class="token function">debug</span><span class="token punctuation">(</span><span class="token string">&quot;Bean definition has already been processed as a configuration class: &quot;</span> <span class="token operator">+</span> beanDef<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token class-name">ConfigurationClassUtils</span><span class="token punctuation">.</span><span class="token function">checkConfigurationClassCandidate</span><span class="token punctuation">(</span>beanDef<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>metadataReaderFactory<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>   <span class="token comment">//\u5224\u65AD\u662F\u5426\u6DFB\u52A0\u4E86@Configuration\u6CE8\u89E3</span>
+            configCandidates<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">BeanDefinitionHolder</span><span class="token punctuation">(</span>beanDef<span class="token punctuation">,</span> beanName<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>configCandidates<span class="token punctuation">.</span><span class="token function">isEmpty</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token comment">//...\u7701\u7565</span>
+
+      	<span class="token comment">//\u8FD9\u91CC\u521B\u5EFA\u4E86\u4E00\u4E2AConfigurationClassParser\u7528\u4E8E\u89E3\u6790\u914D\u7F6E\u7C7B</span>
+        <span class="token class-name">ConfigurationClassParser</span> parser <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ConfigurationClassParser</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>metadataReaderFactory<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>problemReporter<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>environment<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>resourceLoader<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>componentScanBeanNameGenerator<span class="token punctuation">,</span> registry<span class="token punctuation">)</span><span class="token punctuation">;</span>
+      	<span class="token comment">//\u6240\u6709\u914D\u7F6E\u7C7B\u7684BeanDefinitionHolder\u5217\u8868</span>
+        <span class="token class-name">Set</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">BeanDefinitionHolder</span><span class="token punctuation">&gt;</span></span> candidates <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">LinkedHashSet</span><span class="token punctuation">(</span>configCandidates<span class="token punctuation">)</span><span class="token punctuation">;</span>
+      	<span class="token comment">//\u5DF2\u7ECF\u89E3\u6790\u5B8C\u6210\u7684\u7C7B</span>
+        <span class="token class-name">HashSet</span> alreadyParsed <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">HashSet</span><span class="token punctuation">(</span>configCandidates<span class="token punctuation">.</span><span class="token function">size</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">do</span> <span class="token punctuation">{</span>
+            <span class="token comment">//\u8FD9\u91CC\u7701\u7565\uFF0C\u76F4\u5230\u6240\u6709\u7684\u914D\u7F6E\u7C7B\u5168\u90E8\u89E3\u6790\u5B8C\u6210</span>
+          	<span class="token comment">//\u6CE8\u610F\u5728\u5FAA\u73AF\u8FC7\u7A0B\u4E2D\u53EF\u80FD\u4F1A\u7531\u4E8E@Import\u65B0\u589E\u66F4\u591A\u7684\u5F85\u89E3\u6790\u914D\u7F6E\u7C7B\uFF0C\u4E00\u5F8B\u4E22\u8FDBcandidates\u96C6\u5408\u4E2D</span>
+        <span class="token punctuation">}</span> <span class="token keyword">while</span><span class="token punctuation">(</span><span class="token operator">!</span>candidates<span class="token punctuation">.</span><span class="token function">isEmpty</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token comment">//...</span>
+
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br></div></div><p>\u6211\u4EEC\u63A5\u7740\u6765\u770B\uFF0C<code>ConfigurationClassParser</code>\u662F\u5982\u4F55\u8FDB\u884C\u89E3\u6790\u7684\uFF1A</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">protected</span> <span class="token keyword">void</span> <span class="token function">processConfigurationClass</span><span class="token punctuation">(</span><span class="token class-name">ConfigurationClass</span> configClass<span class="token punctuation">,</span> <span class="token class-name">Predicate</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">String</span><span class="token punctuation">&gt;</span></span> filter<span class="token punctuation">)</span> <span class="token keyword">throws</span> <span class="token class-name">IOException</span> <span class="token punctuation">{</span>
+  	<span class="token comment">//@Conditional\u76F8\u5173\u6CE8\u89E3\u5904\u7406</span>
+  	<span class="token comment">//\u540E\u9762\u4F1A\u8BB2</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span><span class="token keyword">this</span><span class="token punctuation">.</span>conditionEvaluator<span class="token punctuation">.</span><span class="token function">shouldSkip</span><span class="token punctuation">(</span>configClass<span class="token punctuation">.</span><span class="token function">getMetadata</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token class-name">ConfigurationPhase</span><span class="token punctuation">.</span>PARSE_CONFIGURATION<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+        <span class="token punctuation">}</span>
+
+        <span class="token class-name">ConfigurationClassParser<span class="token punctuation">.</span>SourceClass</span> sourceClass <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">asSourceClass</span><span class="token punctuation">(</span>configClass<span class="token punctuation">,</span> filter<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">do</span> <span class="token punctuation">{</span>
+          	<span class="token comment">//\u6838\u5FC3</span>
+            sourceClass <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">doProcessConfigurationClass</span><span class="token punctuation">(</span>configClass<span class="token punctuation">,</span> sourceClass<span class="token punctuation">,</span> filter<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span> <span class="token keyword">while</span><span class="token punctuation">(</span>sourceClass <span class="token operator">!=</span> <span class="token keyword">null</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment">//put,\u901A\u8FC7\u8FD9\u4E2A\u5C31\u53EF\u4EE5\u83B7\u53D6\u5230\u914D\u7F6E\u7C7B</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>configurationClasses<span class="token punctuation">.</span><span class="token function">put</span><span class="token punctuation">(</span>configClass<span class="token punctuation">,</span> configClass<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br></div></div><p>\u6700\u540E\u6211\u4EEC\u518D\u6765\u770B\u6700\u6838\u5FC3\u7684<code>doProcessConfigurationClass</code>\u65B9\u6CD5\uFF1A</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">protected</span> <span class="token keyword">final</span> <span class="token class-name">SourceClass</span> <span class="token function">doProcessConfigurationClass</span><span class="token punctuation">(</span><span class="token class-name">ConfigurationClass</span> configClass<span class="token punctuation">,</span> <span class="token class-name">SourceClass</span> sourceClass<span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token comment">//...</span>
+
+    <span class="token function">processImports</span><span class="token punctuation">(</span>configClass<span class="token punctuation">,</span> sourceClass<span class="token punctuation">,</span> <span class="token function">getImports</span><span class="token punctuation">(</span>sourceClass<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">// \u5904\u7406Import\u6CE8\u89E3</span>
+
+		<span class="token comment">//...</span>
+
+    <span class="token keyword">return</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">private</span> <span class="token keyword">void</span> <span class="token function">processImports</span><span class="token punctuation">(</span><span class="token class-name">ConfigurationClass</span> configClass<span class="token punctuation">,</span> <span class="token class-name">ConfigurationClassParser<span class="token punctuation">.</span>SourceClass</span> currentSourceClass<span class="token punctuation">,</span> <span class="token class-name">Collection</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">ConfigurationClassParser<span class="token punctuation">.</span>SourceClass</span><span class="token punctuation">&gt;</span></span> importCandidates<span class="token punctuation">,</span> <span class="token class-name">Predicate</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">String</span><span class="token punctuation">&gt;</span></span> exclusionFilter<span class="token punctuation">,</span> <span class="token keyword">boolean</span> checkForCircularImports<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>importCandidates<span class="token punctuation">.</span><span class="token function">isEmpty</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>checkForCircularImports <span class="token operator">&amp;&amp;</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">isChainedImportOnStack</span><span class="token punctuation">(</span>configClass<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">this</span><span class="token punctuation">.</span>problemReporter<span class="token punctuation">.</span><span class="token function">error</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">ConfigurationClassParser<span class="token punctuation">.</span>CircularImportProblem</span><span class="token punctuation">(</span>configClass<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>importStack<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+            <span class="token keyword">this</span><span class="token punctuation">.</span>importStack<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>configClass<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+            <span class="token keyword">try</span> <span class="token punctuation">{</span>
+                <span class="token class-name">Iterator</span> var6 <span class="token operator">=</span> importCandidates<span class="token punctuation">.</span><span class="token function">iterator</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+                <span class="token keyword">while</span><span class="token punctuation">(</span>var6<span class="token punctuation">.</span><span class="token function">hasNext</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                    <span class="token class-name">ConfigurationClassParser<span class="token punctuation">.</span>SourceClass</span> candidate <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token class-name">ConfigurationClassParser<span class="token punctuation">.</span>SourceClass</span><span class="token punctuation">)</span>var6<span class="token punctuation">.</span><span class="token function">next</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                    <span class="token class-name">Class</span> candidateClass<span class="token punctuation">;</span>
+                  	<span class="token comment">//\u5982\u679C\u662FImportSelector\u7C7B\u578B\uFF0C\u7EE7\u7EED\u8FDB\u884C\u8FD0\u884C</span>
+                    <span class="token keyword">if</span> <span class="token punctuation">(</span>candidate<span class="token punctuation">.</span><span class="token function">isAssignable</span><span class="token punctuation">(</span><span class="token class-name">ImportSelector</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                        candidateClass <span class="token operator">=</span> candidate<span class="token punctuation">.</span><span class="token function">loadClass</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                        <span class="token class-name">ImportSelector</span> selector <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token class-name">ImportSelector</span><span class="token punctuation">)</span><span class="token class-name">ParserStrategyUtils</span><span class="token punctuation">.</span><span class="token function">instantiateClass</span><span class="token punctuation">(</span>candidateClass<span class="token punctuation">,</span> <span class="token class-name">ImportSelector</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>environment<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>resourceLoader<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>registry<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                        <span class="token class-name">Predicate</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">String</span><span class="token punctuation">&gt;</span></span> selectorFilter <span class="token operator">=</span> selector<span class="token punctuation">.</span><span class="token function">getExclusionFilter</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                        <span class="token keyword">if</span> <span class="token punctuation">(</span>selectorFilter <span class="token operator">!=</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                            exclusionFilter <span class="token operator">=</span> exclusionFilter<span class="token punctuation">.</span><span class="token function">or</span><span class="token punctuation">(</span>selectorFilter<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                        <span class="token punctuation">}</span>
+									<span class="token comment">//\u5982\u679C\u662FDeferredImportSelector\u7684\u5B9E\u73B0\u7C7B\uFF0C\u90A3\u4E48\u4F1A\u8D70deferredImportSelectorHandler\u7684handle\u65B9\u6CD5</span>
+                        <span class="token keyword">if</span> <span class="token punctuation">(</span>selector <span class="token keyword">instanceof</span> <span class="token class-name">DeferredImportSelector</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                            <span class="token keyword">this</span><span class="token punctuation">.</span>deferredImportSelectorHandler<span class="token punctuation">.</span><span class="token function">handle</span><span class="token punctuation">(</span>configClass<span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token class-name">DeferredImportSelector</span><span class="token punctuation">)</span>selector<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                          <span class="token comment">//\u5426\u5219\u5C31\u6309\u7167\u6B63\u5E38\u7684ImportSelector\u7C7B\u578B\u8FDB\u884C\u52A0\u8F7D</span>
+                        <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+                          	<span class="token comment">//\u8C03\u7528selectImports\u65B9\u6CD5\u83B7\u53D6\u6240\u6709\u9700\u8981\u52A0\u8F7D\u7684\u7C7B</span>
+                            <span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> importClassNames <span class="token operator">=</span> selector<span class="token punctuation">.</span><span class="token function">selectImports</span><span class="token punctuation">(</span>currentSourceClass<span class="token punctuation">.</span><span class="token function">getMetadata</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                            <span class="token class-name">Collection</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">ConfigurationClassParser<span class="token punctuation">.</span>SourceClass</span><span class="token punctuation">&gt;</span></span> importSourceClasses <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">asSourceClasses</span><span class="token punctuation">(</span>importClassNames<span class="token punctuation">,</span> exclusionFilter<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                          	<span class="token comment">//\u9012\u5F52\u5904\u7406\uFF0C\u76F4\u5230\u6CA1\u6709\uFF0C\u7C7B\u4F3C\u4E8E\u6DF1\u5EA6\u904D\u5386</span>
+                            <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">processImports</span><span class="token punctuation">(</span>configClass<span class="token punctuation">,</span> currentSourceClass<span class="token punctuation">,</span> importSourceClasses<span class="token punctuation">,</span> exclusionFilter<span class="token punctuation">,</span> <span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                        <span class="token punctuation">}</span>
+                      <span class="token comment">//\u5224\u65AD\u662F\u5426\u4E3AImportBeanDefinitionRegistrar\u7C7B\u578B</span>
+                    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>candidate<span class="token punctuation">.</span><span class="token function">isAssignable</span><span class="token punctuation">(</span><span class="token class-name">ImportBeanDefinitionRegistrar</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                        candidateClass <span class="token operator">=</span> candidate<span class="token punctuation">.</span><span class="token function">loadClass</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                        <span class="token class-name">ImportBeanDefinitionRegistrar</span> registrar <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token class-name">ImportBeanDefinitionRegistrar</span><span class="token punctuation">)</span><span class="token class-name">ParserStrategyUtils</span><span class="token punctuation">.</span><span class="token function">instantiateClass</span><span class="token punctuation">(</span>candidateClass<span class="token punctuation">,</span> <span class="token class-name">ImportBeanDefinitionRegistrar</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>environment<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>resourceLoader<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>registry<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                      	<span class="token comment">//\u5F80configClass\u4E22ImportBeanDefinitionRegistrar\u4FE1\u606F\u8FDB\u53BB\uFF0C\u4E4B\u540E\u518D\u5904\u7406</span>
+                        configClass<span class="token punctuation">.</span><span class="token function">addImportBeanDefinitionRegistrar</span><span class="token punctuation">(</span>registrar<span class="token punctuation">,</span> currentSourceClass<span class="token punctuation">.</span><span class="token function">getMetadata</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                      <span class="token comment">//\u5426\u5219\u6309\u666E\u901A\u7684\u914D\u7F6E\u7C7B\u8FDB\u884C\u5904\u7406</span>
+                    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+                        <span class="token keyword">this</span><span class="token punctuation">.</span>importStack<span class="token punctuation">.</span><span class="token function">registerImport</span><span class="token punctuation">(</span>currentSourceClass<span class="token punctuation">.</span><span class="token function">getMetadata</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> candidate<span class="token punctuation">.</span><span class="token function">getMetadata</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">getClassName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                        <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">processConfigurationClass</span><span class="token punctuation">(</span>candidate<span class="token punctuation">.</span><span class="token function">asConfigClass</span><span class="token punctuation">(</span>configClass<span class="token punctuation">)</span><span class="token punctuation">,</span> exclusionFilter<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                    <span class="token punctuation">}</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span><span class="token class-name">BeanDefinitionStoreException</span> var17<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                <span class="token keyword">throw</span> var17<span class="token punctuation">;</span>
+            <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span><span class="token class-name">Throwable</span> var18<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                <span class="token keyword">throw</span> <span class="token keyword">new</span> <span class="token class-name">BeanDefinitionStoreException</span><span class="token punctuation">(</span><span class="token string">&quot;Failed to process import candidates for configuration class [&quot;</span> <span class="token operator">+</span> configClass<span class="token punctuation">.</span><span class="token function">getMetadata</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">getClassName</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token string">&quot;]&quot;</span><span class="token punctuation">,</span> var18<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span> <span class="token keyword">finally</span> <span class="token punctuation">{</span>
+                <span class="token keyword">this</span><span class="token punctuation">.</span>importStack<span class="token punctuation">.</span><span class="token function">pop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br><span class="line-number">54</span><br><span class="line-number">55</span><br></div></div><p>\u4E0D\u96BE\u6CE8\u610F\u5230\uFF0C\u867D\u7136\u8FD9\u91CC\u989D\u5916\u5904\u7406\u4E86ImportSelector\u5BF9\u8C61\uFF0C\u4F46\u662F\u8FD8\u9488\u5BF9ImportSelector\u7684\u5B50\u63A5\u53E3DeferredImportSelector\u8FDB\u884C\u4E86\u989D\u5916\u5904\u7406\uFF0CDeferred\u662F\u5EF6\u8FDF\u7684\u610F\u601D\uFF0C\u5B83\u662F\u4E00\u4E2A\u5EF6\u8FDF\u6267\u884C\u7684ImportSelector\uFF0C\u5E76\u4E0D\u4F1A\u7ACB\u5373\u8FDB\u5904\u7406\uFF0C\u800C\u662F\u4E22\u8FDBDeferredImportSelectorHandler\uFF0C\u5E76\u4E14\u5728parse\u65B9\u6CD5\u7684\u6700\u540E\u8FDB\u884C\u5904\u7406\uFF1A</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">parse</span><span class="token punctuation">(</span><span class="token class-name">Set</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">BeanDefinitionHolder</span><span class="token punctuation">&gt;</span></span> configCandidates<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+     <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+
+    <span class="token keyword">this</span><span class="token punctuation">.</span>deferredImportSelectorHandler<span class="token punctuation">.</span><span class="token function">process</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p>\u6211\u4EEC\u63A5\u7740\u6765\u770BDeferredImportSelector\u6B63\u597D\u5C31\u6709\u4E00\u4E2Aprocess\u65B9\u6CD5\uFF1A</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">interface</span> <span class="token class-name">DeferredImportSelector</span> <span class="token keyword">extends</span> <span class="token class-name">ImportSelector</span> <span class="token punctuation">{</span>
+    <span class="token annotation punctuation">@Nullable</span>
+    <span class="token keyword">default</span> <span class="token class-name">Class</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token operator">?</span> <span class="token keyword">extends</span> <span class="token class-name">DeferredImportSelector<span class="token punctuation">.</span>Group</span><span class="token punctuation">&gt;</span></span> <span class="token function">getImportGroup</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">public</span> <span class="token keyword">interface</span> <span class="token class-name">Group</span> <span class="token punctuation">{</span>
+        <span class="token keyword">void</span> <span class="token function">process</span><span class="token punctuation">(</span><span class="token class-name">AnnotationMetadata</span> metadata<span class="token punctuation">,</span> <span class="token class-name">DeferredImportSelector</span> selector<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token class-name">Iterable</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">DeferredImportSelector<span class="token punctuation">.</span>Group<span class="token punctuation">.</span>Entry</span><span class="token punctuation">&gt;</span></span> <span class="token function">selectImports</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">class</span> <span class="token class-name">Entry</span> <span class="token punctuation">{</span>
+        <span class="token comment">//  ...</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div><p>\u6700\u540E\u7ECF\u8FC7ConfigurationClassParser\u5904\u7406\u5B8C\u6210\u540E\uFF0C\u901A\u8FC7parser.getConfigurationClasses()\u5C31\u80FD\u5F97\u5230\u901A\u8FC7\u914D\u7F6E\u7C7B\u5BFC\u5165\u4E86\u54EA\u4E9B\u989D\u5916\u7684\u914D\u7F6E\u7C7B\u3002\u6700\u540E\u5C06\u8FD9\u4E9B\u914D\u7F6E\u7C7B\u5168\u90E8\u6CE8\u518CBeanDefinition\uFF0C\u7136\u540E\u5C31\u53EF\u4EE5\u4EA4\u7ED9\u63A5\u4E0B\u6765\u7684Bean\u521D\u59CB\u5316\u8FC7\u7A0B\u53BB\u5904\u7406\u4E86\u3002</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">this</span><span class="token punctuation">.</span>reader<span class="token punctuation">.</span><span class="token function">loadBeanDefinitions</span><span class="token punctuation">(</span>configClasses<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u6700\u540E\u6211\u4EEC\u518D\u53BB\u770BloadBeanDefinitions\u662F\u5982\u4F55\u8FD0\u884C\u7684\uFF1A</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">loadBeanDefinitions</span><span class="token punctuation">(</span><span class="token class-name">Set</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">ConfigurationClass</span><span class="token punctuation">&gt;</span></span> configurationModel<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token class-name">ConfigurationClassBeanDefinitionReader<span class="token punctuation">.</span>TrackedConditionEvaluator</span> trackedConditionEvaluator <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ConfigurationClassBeanDefinitionReader<span class="token punctuation">.</span>TrackedConditionEvaluator</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token class-name">Iterator</span> var3 <span class="token operator">=</span> configurationModel<span class="token punctuation">.</span><span class="token function">iterator</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">while</span><span class="token punctuation">(</span>var3<span class="token punctuation">.</span><span class="token function">hasNext</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token class-name">ConfigurationClass</span> configClass <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token class-name">ConfigurationClass</span><span class="token punctuation">)</span>var3<span class="token punctuation">.</span><span class="token function">next</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">loadBeanDefinitionsForConfigurationClass</span><span class="token punctuation">(</span>configClass<span class="token punctuation">,</span> trackedConditionEvaluator<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+<span class="token punctuation">}</span>
+
+<span class="token keyword">private</span> <span class="token keyword">void</span> <span class="token function">loadBeanDefinitionsForConfigurationClass</span><span class="token punctuation">(</span><span class="token class-name">ConfigurationClass</span> configClass<span class="token punctuation">,</span> <span class="token class-name">ConfigurationClassBeanDefinitionReader<span class="token punctuation">.</span>TrackedConditionEvaluator</span> trackedConditionEvaluator<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>trackedConditionEvaluator<span class="token punctuation">.</span><span class="token function">shouldSkip</span><span class="token punctuation">(</span>configClass<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token class-name">String</span> beanName <span class="token operator">=</span> configClass<span class="token punctuation">.</span><span class="token function">getBeanName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token class-name">StringUtils</span><span class="token punctuation">.</span><span class="token function">hasLength</span><span class="token punctuation">(</span>beanName<span class="token punctuation">)</span> <span class="token operator">&amp;&amp;</span> <span class="token keyword">this</span><span class="token punctuation">.</span>registry<span class="token punctuation">.</span><span class="token function">containsBeanDefinition</span><span class="token punctuation">(</span>beanName<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">this</span><span class="token punctuation">.</span>registry<span class="token punctuation">.</span><span class="token function">removeBeanDefinition</span><span class="token punctuation">(</span>beanName<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+
+        <span class="token keyword">this</span><span class="token punctuation">.</span>importRegistry<span class="token punctuation">.</span><span class="token function">removeImportingClass</span><span class="token punctuation">(</span>configClass<span class="token punctuation">.</span><span class="token function">getMetadata</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">getClassName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>configClass<span class="token punctuation">.</span><span class="token function">isImported</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">registerBeanDefinitionForImportedConfigurationClass</span><span class="token punctuation">(</span>configClass<span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">//\u6CE8\u518C\u914D\u7F6E\u7C7B\u81EA\u5DF1</span>
+        <span class="token punctuation">}</span>
+
+        <span class="token class-name">Iterator</span> var3 <span class="token operator">=</span> configClass<span class="token punctuation">.</span><span class="token function">getBeanMethods</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">iterator</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">while</span><span class="token punctuation">(</span>var3<span class="token punctuation">.</span><span class="token function">hasNext</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token class-name">BeanMethod</span> beanMethod <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token class-name">BeanMethod</span><span class="token punctuation">)</span>var3<span class="token punctuation">.</span><span class="token function">next</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">loadBeanDefinitionsForBeanMethod</span><span class="token punctuation">(</span>beanMethod<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//\u6CE8\u518C@Bean\u6CE8\u89E3\u6807\u8BC6\u7684\u65B9\u6CD5</span>
+        <span class="token punctuation">}</span>
+
+      	<span class="token comment">//\u6CE8\u518C\`@ImportResource\`\u5F15\u5165\u7684XML\u914D\u7F6E\u6587\u4EF6\u4E2D\u8BFB\u53D6\u7684bean\u5B9A\u4E49</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">loadBeanDefinitionsFromImportedResources</span><span class="token punctuation">(</span>configClass<span class="token punctuation">.</span><span class="token function">getImportedResources</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment">//\u4E0A\u9762\u4FDD\u5B58\u7684\u5EF6\u8FDF\u6267\u884C\u5904\u7406</span>
+     	 <span class="token comment">//\u6CE8\u518CconfigClass\u4E2D\u7ECF\u8FC7\u89E3\u6790\u540E\u4FDD\u5B58\u7684\u6240\u6709ImportBeanDefinitionRegistrar\uFF0C\u6CE8\u518C\u5BF9\u5E94\u7684BeanDefinition</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">loadBeanDefinitionsFromRegistrars</span><span class="token punctuation">(</span>configClass<span class="token punctuation">.</span><span class="token function">getImportBeanDefinitionRegistrars</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br></div></div><p>\u8FD9\u6837\uFF0C\u6574\u4E2A@Configuration\u914D\u7F6E\u7C7B\u7684\u5E95\u5C42\u914D\u7F6E\u6D41\u7A0B\u6211\u4EEC\u5C31\u5927\u81F4\u4E86\u89E3\u4E86\u3002\u63A5\u7740\u6211\u4EEC\u6765\u770BAutoConfigurationImportSelector\u662F\u5982\u4F55\u5B9E\u73B0\u81EA\u52A8\u914D\u7F6E\u7684\uFF0C\u53EF\u4EE5\u770B\u5230\u5185\u90E8\u7C7BAutoConfigurationGroup\u7684process\u65B9\u6CD5\uFF0C\u5B83\u662F\u7236\u63A5\u53E3\u7684\u5B9E\u73B0\uFF0C\u56E0\u4E3A\u7236\u63A5\u53E3\u662FDeferredImportSelector\uFF0C\u90A3\u4E48\u5F88\u5BB9\u6613\u5F97\u77E5\uFF0C\u5B9E\u9645\u4E0A\u6700\u540E\u4F1A\u8C03\u7528process\u65B9\u6CD5\u83B7\u53D6\u6240\u6709\u7684\u81EA\u52A8\u914D\u7F6E\u7C7B\uFF1A</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">process</span><span class="token punctuation">(</span><span class="token class-name">AnnotationMetadata</span> annotationMetadata<span class="token punctuation">,</span> <span class="token class-name">DeferredImportSelector</span> deferredImportSelector<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token class-name">Assert</span><span class="token punctuation">.</span><span class="token function">state</span><span class="token punctuation">(</span>deferredImportSelector <span class="token keyword">instanceof</span> <span class="token class-name">AutoConfigurationImportSelector</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">-&gt;</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token class-name">String</span><span class="token punctuation">.</span><span class="token function">format</span><span class="token punctuation">(</span><span class="token string">&quot;Only %s implementations are supported, got %s&quot;</span><span class="token punctuation">,</span> <span class="token class-name">AutoConfigurationImportSelector</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">.</span><span class="token function">getSimpleName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> deferredImportSelector<span class="token punctuation">.</span><span class="token function">getClass</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">getName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  	<span class="token comment">//\u83B7\u53D6\u6240\u6709\u7684Entry\uFF0C\u5176\u5B9E\u5C31\u662F\uFF0C\u8BFB\u53D6spring.factories\u6765\u67E5\u770B\u6709\u54EA\u4E9B\u81EA\u52A8\u914D\u7F6E\u7C7B</span>
+    <span class="token class-name">AutoConfigurationImportSelector<span class="token punctuation">.</span>AutoConfigurationEntry</span> autoConfigurationEntry <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token class-name">AutoConfigurationImportSelector</span><span class="token punctuation">)</span>deferredImportSelector<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">getAutoConfigurationEntry</span><span class="token punctuation">(</span>annotationMetadata<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>autoConfigurationEntries<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span>autoConfigurationEntry<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token class-name">Iterator</span> var4 <span class="token operator">=</span> autoConfigurationEntry<span class="token punctuation">.</span><span class="token function">getConfigurations</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">iterator</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">while</span><span class="token punctuation">(</span>var4<span class="token punctuation">.</span><span class="token function">hasNext</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token class-name">String</span> importClassName <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">)</span>var4<span class="token punctuation">.</span><span class="token function">next</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>entries<span class="token punctuation">.</span><span class="token function">putIfAbsent</span><span class="token punctuation">(</span>importClassName<span class="token punctuation">,</span> annotationMetadata<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div><p>\u6211\u4EEC\u63A5\u7740\u6765\u770BgetAutoConfigurationEntry\u65B9\u6CD5\uFF1A</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">protected</span> <span class="token class-name">AutoConfigurationImportSelector<span class="token punctuation">.</span>AutoConfigurationEntry</span> <span class="token function">getAutoConfigurationEntry</span><span class="token punctuation">(</span><span class="token class-name">AnnotationMetadata</span> annotationMetadata<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  	<span class="token comment">//\u5224\u65AD\u662F\u5426\u5F00\u542F\u4E86\u81EA\u52A8\u914D\u7F6E\uFF0C\u662F\u7684\uFF0C\u81EA\u52A8\u914D\u7F6E\u53EF\u4EE5\u5173</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span><span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">isEnabled</span><span class="token punctuation">(</span>annotationMetadata<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> EMPTY_ENTRY<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+      	<span class="token comment">//\u6839\u636E\u6CE8\u89E3\u5B9A\u4E49\u83B7\u53D6\u4E00\u4E9B\u5C5E\u6027</span>
+        <span class="token class-name">AnnotationAttributes</span> attributes <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">getAttributes</span><span class="token punctuation">(</span>annotationMetadata<span class="token punctuation">)</span><span class="token punctuation">;</span>
+      	<span class="token comment">//\u5F97\u5230spring.factories\u6587\u4EF6\u4E2D\u6240\u6709\u9700\u8981\u81EA\u52A8\u914D\u7F6E\u7684\u7C7B</span>
+        <span class="token class-name">List</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">String</span><span class="token punctuation">&gt;</span></span> configurations <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">getCandidateConfigurations</span><span class="token punctuation">(</span>annotationMetadata<span class="token punctuation">,</span> attributes<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span> \u8FD9\u91CC\u5148\u770B\u524D\u534A\u90E8\u5206
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><p>\u6CE8\u610F\u8FD9\u91CC\u5E76\u4E0D\u662Fspring.factories\u6587\u4EF6\u4E2D\u6240\u6709\u7684\u81EA\u52A8\u914D\u7F6E\u7C7B\u90FD\u4F1A\u88AB\u52A0\u8F7D\uFF0C\u5B83\u4F1A\u6839\u636E@Condition\u6CE8\u89E3\u7684\u6761\u4EF6\u8FDB\u884C\u52A0\u8F7D\u3002\u8FD9\u6837\u5C31\u80FD\u5B9E\u73B0\u6211\u4EEC\u9700\u8981\u4EC0\u4E48\u6A21\u5757\u6DFB\u52A0\u5BF9\u5E94\u4F9D\u8D56\u5C31\u53EF\u4EE5\u5B9E\u73B0\u81EA\u52A8\u914D\u7F6E\u4E86\u3002</p><p>\u6240\u6709\u7684\u6E90\u7801\u770B\u4E0D\u61C2\uFF0C\u90FD\u6E90\u81EA\u4E8E\u4F60\u7684\u5FC3\u4E2D\u6CA1\u6709\u5F62\u6210\u4E00\u4E2A\u5B8C\u6574\u7684\u95ED\u73AF\uFF01\u4E00\u65E6\u4E00\u6761\u7EBF\u63A8\u5230\u5934\uFF0C\u95ED\u73AF\u5F62\u6210\uFF0C\u6240\u6709\u7591\u60D1\u8FCE\u5203\u800C\u89E3\u3002</p><!--]-->`);
+}
+const _sfc_setup$I = _sfc_main$I.setup;
+_sfc_main$I.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/springboot/03.springboot\u81EA\u52A8\u914D\u7F6E.html.vue");
+  return _sfc_setup$I ? _sfc_setup$I(props, ctx) : void 0;
+};
+var _03_springboot_____html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$I, [["ssrRender", _sfc_ssrRender$u]]);
+var _03_springboot_____html$2 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": _03_springboot_____html$1
+});
+const _sfc_main$H = {};
+function _sfc_ssrRender$t(_ctx, _push, _parent, _attrs) {
+  const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
+  _push(`<!--[--><h1 id="java" tabindex="-1"><a class="header-anchor" href="#java" aria-hidden="true">#</a> java</h1><h2 id="\u524D\u671F" tabindex="-1"><a class="header-anchor" href="#\u524D\u671F" aria-hidden="true">#</a> \u524D\u671F</h2><p>\u770B\u4F86<a href="https://www.kuangstudy.com/course" target="_blank" rel="noopener noreferrer">kuangstudy`);
+  _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
+  _push(`</a>\u6559\u7A0B\uFF0C\u6B64\u6559\u7A0B\u57FA\u790E\u90E8\u5206\u6703\u6709\u9EDE\u562E\u53E8\u3002</p><h3 id="\u5B78\u7FD2\u65B9\u6CD5" tabindex="-1"><a class="header-anchor" href="#\u5B78\u7FD2\u65B9\u6CD5" aria-hidden="true">#</a> \u5B78\u7FD2\u65B9\u6CD5</h3><ul><li>\u4E0B\u9762\u6559\u7A0B\u90FD\u57FA\u65BC\u81EA\u5DF1\u535A\u5BA2\u76EE\u7684\u8A18\u9304\uFF0C\u76EE\u9304\u7AE0\u7BC0\u53EF\u6839\u64DA\u6559\u7A0B\uFF0C\u5167\u5BB9\u52D9\u5FC5\u81EA\u5DF1\u7E3D\u7D50\u3002</li></ul><ol><li>\u8A08\u7B97\u6A5F\u57FA\u790E</li><li>java \u57FA\u790E\u8A9E\u6CD5</li><li>\u9762\u5411\u5C0D\u8C61</li><li>\u7570\u5E38</li><li>\u5E38\u7528\u985E</li><li>\u96C6\u5408\u6846\u67B6</li><li>IO</li><li>\u591A\u7DDA\u7A0B</li><li>GUI\uFF08\u8ACB\u8DF3\u904E\u9019\u968E\u6BB5\uFF09</li><li>\u7DB2\u7D61\u7DE8\u7A0B</li><li>\u8A3B\u89E3\u548C\u53CD\u5C04</li><li>JUC \u7DE8\u7A0B</li><li>JVM \u63A2\u7A76</li><li>\u3010\u64F4\u5C55\u301123 \u79CD\u8A2D\u8A08\u6A21\u5F0F</li><li>\u3010\u64F4\u5C55\u3011XML</li><li>\u3010\u64F4\u5C55\u3011\u6578\u64DA\u7D50\u69CB\u548C\u7B97\u6CD5</li><li>\u3010\u64F4\u5C55\u3011\u6B63\u5247\u8868\u9054\u5F0F</li></ol><h3 id="\u4EC0\u9EBC\u662F\u8A08\u7B97\u6A5F-\u786C\u4EF6\u548C\u8EDF\u4EF6" tabindex="-1"><a class="header-anchor" href="#\u4EC0\u9EBC\u662F\u8A08\u7B97\u6A5F-\u786C\u4EF6\u548C\u8EDF\u4EF6" aria-hidden="true">#</a> \u4EC0\u9EBC\u662F\u8A08\u7B97\u6A5F\uFF08\u786C\u4EF6\u548C\u8EDF\u4EF6\uFF09\uFF1F</h3><p>\u9019\u968E\u6BB5\u4F60\u53EF\u9078\uFF0C\u4F46\u662F\u5B78\u5230\u5F8C\u9762\u767C\u73FE\u9084\u662F\u6709\u5FC5\u8981\u56DE\u982D\u770B\u4E00\u4E0B\u3002</p><ol><li>\u7531\u786C\u4EF6\u548C\u8EDF\u4EF6\u7D44\u6210</li></ol><ul><li>\u786C\u4EF6\uFF1A\u4F60\u662F\u4E0D\u662F\u6700\u5148\u60F3\u5230<code>CPU</code>\uFF0C<code>\u5167\u5B58\u689D</code>\uFF0C<code>\u786C\u76E4</code>\uFF0C<code>\u4E3B\u677F</code>\uFF0C<code>IO\u8A2D\u5099</code>\u7B49\u7B49\u3002 \u804A\u9EDE\u5225\u7684\uFF1A<code>\u99AE\xB7\u8AFE\u4F9D\u66FC</code>\uFF0C\u8A08\u7B97\u6A5F\u4E4B\u7236\uFF0C\u63D0\u51FA\u4E86\u4E00\u500B\u99AE\u8AFE\u4F9D\u66FC\u9AD4\u7CFB\u7D50\u69CB\uFF0C\u9084\u6709\u4E00\u500B\u5716\u9748\u3002\u4E0D\u8AAA\u4E86\u81EA\u5DF1\u53BB\u770B\uFF0C\u9019\u4E9B\u4E0D\u662F\u6280\u8853\u662F\u6B77\u53F2\u3002</li><li>\u8EDF\u4EF6\uFF1A\u7CFB\u7D71\u8EDF\u4EF6\u548C\u61C9\u7528\u8EDF\u4EF6\u3002\u6211\u5011\u4E3B\u8981\u5B78\u7684\u5C31\u662F\u9032\u884C\u8EDF\u4EF6\u958B\u767C\uFF0C\u501F\u4F4F\u958B\u767C\u5DE5\u5177\u9032\u884C\u8EDF\u4EF6\u958B\u767C\u5C31\u662F\u8EDF\u4EF6\u958B\u767C\uFF0C\u5B78\u7FD2\u958B\u767C\u5C31\u662F\u9019\u6A23\u5957\u5A03\u3002</li></ul><ol start="2"><li>\u8A08\u7B97\u6A5F\u767C\u5C55\u53F2</li></ol><p>\u6A5F\u5668\u8A9E\u97F3\uFF1A\u53EA\u6709\uFF1A0 \u548C 1 \u5F59\u7DE8\u8A9E\u97F3\uFF1A\u4F7F\u7528\u6307\u4EE4\u4EE3\u66FF\u4E8C\u9032\u5236 \u9AD8\u7D1A\u8A9E\u97F3\uFF1A\u5C31\u662F\u7DE8\u7A0B\u8A9E\u97F3\uFF0Cc(\u53EF\u4EE5\u8AAA\u9F3B\u7956\uFF0C\u9762\u5411\u904E\u7A0B)\uFF0Cc#\uFF08\u9762\u5411\u904E\u7A0B\uFF09\uFF0Cc++\uFF0Cjava\u3002</p><h3 id="windows-\u5FEB\u6377\u9375" tabindex="-1"><a class="header-anchor" href="#windows-\u5FEB\u6377\u9375" aria-hidden="true">#</a> Windows \u5FEB\u6377\u9375</h3><p><code>Ctrl+C</code> \u8907\u88FD <code>Ctrl+V</code> \u7C98\u8CBC <code>Ctrl+A</code> \u5168\u9078 <code>Ctrl+Z</code> \u64A4\u92B7 <code>Ctrl+S</code> \u4FDD\u5B58</p><p><code>Win+E</code> \u6211\u7684\u96FB\u8166 <code>Win+R</code> \u904B\u884C <code>Win+R cmd</code> cmd \u547D\u4EE4\u884C\u7A97\u53E3</p><p><code>Ctrl+Shift+Esc</code> \u4EFB\u52D9\u7BA1\u7406\u5668</p><p>......</p><p>\u9019\u4E09\u500B\u5F88\u53EF\u6015</p><h3 id="dos-\u547D\u4EE4-\u547D\u4EE4\u884C" tabindex="-1"><a class="header-anchor" href="#dos-\u547D\u4EE4-\u547D\u4EE4\u884C" aria-hidden="true">#</a> DOS \u547D\u4EE4\uFF08\u547D\u4EE4\u884C\uFF09</h3><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5BEB\u6CD5</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4F5C\u7528</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>cd ..</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u9000\u51FA\u4E00\u7EA7\u76EE\u5F55(\u8FD4\u56DE\u4E0A\u4E00\u7D1A\u76EE\u9304)</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>cd [\u6587\u4EF6\u5939\u540D]</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8FDB\u5165\u6307\u5B9A\u6587\u4EF6\u5939</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>cd \\</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u76F4\u63A5\u9000\u5230\u6839\u76EE\u5F55</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>clean</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6E05\u7A7A\u8F38\u51FA</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>tree</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6253\u5370\u76EE\u9304\u6A39</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>D:</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u76E4\u5207\u63DB\uFF0C\u9019\u6307\u5207\u5230 D \u76E4</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>dir</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6253\u5370\u7576\u524D\u6240\u6709\u6587\u4EF6</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>md [\u76D8\u7B26][\u8DEF\u5F84]</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5275\u5EFA\u6587\u4EF6</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>RD [\u76D8\u7B26][\u8DEF\u5F84]</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u522A\u9664\u76EE\u9304</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>exit</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u9000\u51FA\u7D42\u7AEF</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>ipconfig</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">ip \u8A2D\u7F6E</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>calc</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8A08\u7B97\u6A5F</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>notepad</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6587\u672C</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>ping [www.baidu.com]</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u7372\u53D6 ip \u5730\u5740</td></tr></tbody></table><h3 id="java-\u8A95\u751F\u548C\u7279\u6027\u53CA\u512A\u52E2" tabindex="-1"><a class="header-anchor" href="#java-\u8A95\u751F\u548C\u7279\u6027\u53CA\u512A\u52E2" aria-hidden="true">#</a> java \u8A95\u751F\u548C\u7279\u6027\u53CA\u512A\u52E2</h3><p>java \u8A95\u751F\u5728 c \u8A9E\u8A00\u548C c++\u6D41\u884C\u7684\u6642\u4EE3\u3002\u4E92\u76F8\u4E4B\u9593\u6709\u9EDE\u76F8\u4E92\u76DC\u7248\u7684\u95DC\u4FC2\u3002 \u6700\u521D\u76EE\u6A19\u662F\uFF1A\u6709\u9EDE\u50CF java\uFF0C\u6C92\u6709\u6307\u91DD\uFF0C\u7DE8\u5BEB\u4E00\u6B21\uFF0C\u5C0E\u51FA\u904B\u884C\uFF0C\u9762\u5411\u5C0D\u8C61\uFF0C\u985E\u578B\u5B89\u5168\uFF0C\u9AD8\u8CEA\u91CF\u985E\u5EAB\uFF0C\u7C21\u55AE\uFF0C\u53EF\u79FB\u690D\u6027 \u9019\u4E9B\u4E5F\u6210\u70BA\u4E86 java \u5F8C\u4F86\u7684\u7AF6\u722D\u529B\uFF0C\u9084\u6709\u5206\u4F48\u5F0F\uFF0C\u591A\u7DDA\u7A0B\uFF0C\u5B89\u5168\u6027\uFF0C\u5065\u58EF\u6027\u7B49\u7B49</p><h3 id="java-\u4E09\u5927\u7248\u672C" tabindex="-1"><a class="header-anchor" href="#java-\u4E09\u5927\u7248\u672C" aria-hidden="true">#</a> java \u4E09\u5927\u7248\u672C</h3><p>JavaSE\uFF1A\u6A19\u6E96\u7248 JavaME: \u5D4C\u5165\u5F0F JavaEE\uFF1AE \u4F01\u696D\u7D1A\u958B\u767C</p><h3 id="jdk-jre-jvm" tabindex="-1"><a class="header-anchor" href="#jdk-jre-jvm" aria-hidden="true">#</a> JDK JRE JVM</h3><ol><li>JDK:</li></ol><p>Java \u958B\u767C\u8005\u5DE5\u5177\uFF0C\u5305\u62EC JRE \u7DE8\u8B6F\u5668</p><ol start="2"><li>JRE\uFF1A</li></ol><p>Java \u904B\u884C\u6642\u74B0\u5883\uFF0C\u5373\u7DE8\u8B6F\u5668</p><ol start="3"><li>JVM\uFF1A</li></ol><p>Java \u865B\u64EC\u6A5F\uFF0C\u5C31\u662F\u7528\u4F86\u7DE8\u8B6F java \u8A9E\u97F3\u7684\u6771\u897F\u3002\u4ED6\u662F JRE \u7684\u4E00\u90E8\u5206</p><h3 id="\u5B89\u88DD-jdk" tabindex="-1"><a class="header-anchor" href="#\u5B89\u88DD-jdk" aria-hidden="true">#</a> \u5B89\u88DD JDK</h3><p>\u9700\u8981\u5378\u8F09\u7684\u4E0B\u4E00\u7AE0 \u76EE\u524D 2022-08\uFF0C\u672C\u4EBA\u4F7F\u7528\u7684\u662F JDK8\uFF0C\u4F46\u662F\u4F60\u4E5F\u53EF\u4EE5\u4F7F\u7528 JDK11\u300217 \u7248\u672C\u66AB\u4E0D\u63A8\u85A6</p><ol><li>\u53BB<a href="https://www.oracle.com/java/technologies/downloads/" target="_blank" rel="noopener noreferrer">oracle`);
+  _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
+  _push(`</a>\u4E0B\u8F09\u3002</li><li>\u4E0B\u8F09\u76F4\u63A5\u662F\u4E00\u500B<code>.exe</code>\u6587\u4EF6\uFF0C\u76F4\u63A5\u9EDE\u64CA\u904B\u884C\uFF0C\u5207\u8A18<code>\u5B89\u88DD\u8DEF\u5F91</code>\uFF0C\u6700\u597D\u9078\u4E00\u500B\u5BB9\u6613\u8A18\u4F4F\u7684\uFF0C\u4E0D\u8981\u6709\u4E2D\u6587\u3002</li><li>\u914D\u7F6E\u74B0\u5883\u8B8A\u91CF <ul><li>\u9F20\u6A19\u53F3\u9375\u6211\u7684\u96FB\u8166-&gt;\u9EDE\u64CA\u5C6C\u6027</li><li>\u9AD8\u7D1A\u7CFB\u7D71\u8A2D\u7F6E-&gt;\u74B0\u5883\u8B8A\u91CF-&gt;\u7CFB\u7D71\u8B8A\u91CF\uFF08\u5EFA\u8B70\u7D66\u6240\u6709\u7528\u6236\u914D\u7F6E\uFF09</li><li>\u74B0\u5883\u540D\u7A31<code>JAVA_HOME</code>,\u8DEF\u5F91\u5C31\u662F\u525B\u525B\u4F60\u5B89\u88DD\u7684\u4F4D\u7F6E\uFF0C\u5207\u8A18\u4E0D\u8981\u932F</li><li>\u627E\u5230\u7CFB\u7D71\u8B8A\u91CF\u4E2D\u7684<code>path</code>\uFF0C\u96D9\u64CA\u6253\u958B\uFF0C\u9EDE\u64CA\u65B0\u5EFA\uFF0C\u8F38\u5165<code>%JAVA_HOME%/bin</code>\uFF08<code>%</code>\u8868\u793A\u7528\u65BC\u8A72\u74B0\u5883\u8B8A\u91CF\uFF0C\u9019\u88E1\u610F\u601D\u662F\u6307\u5F15\u7528 java \u5B89\u88DD\u76EE\u9304\u4E0B\u7684<code>bin</code>\u76EE\u9304\uFF09</li></ul></li><li>\u6E2C\u8A66\u662F\u5426\u6210\u529F <ul><li>\u9032\u5165<code>cmd</code>\u8F38\u5165<code>java -version</code></li><li>\u986F\u793A\u7248\u672C\u4FE1\u606F\u8AAA\u660E\u6210\u529F\uFF0C\u5426\u5247\u5931\u6557</li></ul></li></ol><h3 id="\u5378\u8F09-jdk" tabindex="-1"><a class="header-anchor" href="#\u5378\u8F09-jdk" aria-hidden="true">#</a> \u5378\u8F09 JDK</h3><ol><li>\u627E\u5230 JDK \u5B89\u88DD\u76EE\u9304\uFF0C\u5982\u679C\u627E\u4E0D\u5230\u53BB\u74B0\u5883\u8B8A\u91CF\u627E<code>JAVA_HOME</code>\u5C0D\u61C9\u7684\u6587\u4EF6\uFF0C\u522A\u9664\u6587\u4EF6\u5F8C\u522A\u9664\u8A72\u74B0\u5883\u8B8A\u91CF\u3002</li><li>\u522A\u9664\u5B8C\u5F8C\u9032\u5165<code>cmd</code>\u904B\u884C<code>java -version</code>\uFF0C\u986F\u793A\u627E\u4E0D\u5230\u5167\u90E8\u547D\u4EE4\u8AAA\u660E\u5DEE\u4E0D\u591A\u4E86\u3002</li><li>\u67E5\u770B<code>path</code>\u4E0B\u95DC\u65BC java \u7684\u76EE\u9304</li></ol><h3 id="helloworld" tabindex="-1"><a class="header-anchor" href="#helloworld" aria-hidden="true">#</a> HelloWorld</h3><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code>  <span class="token comment">//\u8868\u793A\u4E00\u4E2A\u53EBHelloWorld\u7684\u7C7B\uFF0Cpubli\u8868\u793A\u516C\u6709\u7684\u7C7B</span>
+  <span class="token comment">//{\u8868\u793A\u4E00\u4E2A\u7C7B\u7684\u5F00\u59CB\u548C\u7ED3\u675F</span>
+  <span class="token comment">//public static void main(String []args)\u8868\u793A\u4E3B\u65B9\u6CD5\uFF0C\u5373\u7A0B\u5E8F\u5165\u53E3</span>
+  <span class="token comment">//main(){}\u8868\u793A\u65B9\u7684\u5F00\u59CB\u548C\u7ED3\u675F</span>
+  <span class="token comment">//System.out.println(&#39;Hellow World!&#39;);\u8868\u793A\u8F93\u51FAHellow World!\u5230\u5C4F\u5E55\u4E0A</span>
+  <span class="token comment">//;\u8868\u793A\u8BED\u53E5\u7ED3\u675F\u7B26\u53F7</span>
+   <span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">HelloWorld</span> <span class="token punctuation">{</span>
+       <span class="token comment">// main\u4E3B\u65B9\u6CD5</span>
+       <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>args<span class="token punctuation">)</span><span class="token punctuation">{</span>
+           <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;Hellow World!&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+       <span class="token punctuation">}</span>
+   <span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><h3 id="\u7DE8\u8B6F\u578B\u548C\u89E3\u91CB\u578B" tabindex="-1"><a class="header-anchor" href="#\u7DE8\u8B6F\u578B\u548C\u89E3\u91CB\u578B" aria-hidden="true">#</a> \u7DE8\u8B6F\u578B\u548C\u89E3\u91CB\u578B</h3><ol><li>\u7DE8\u8B6F\u578B\uFF1Acompile\uFF0C\u4E00\u6B21\u6027\u5168\u90E8\u7DE8\u8B6F\u3002</li><li>\u89E3\u91CB\u578B\uFF1A\u6309\u9700\u89E3\u6790\uFF0C\u89E3\u6790\u4E00\u6B65\u770B\u4E00\u6B65\uFF0C\u6027\u80FD\u4F4E\uFF0C\u4F46\u5BE6\u6642\u3002</li></ol><p>java \u5148\u7DE8\u8B6F\uFF0C\u518D\u89E3\u91CB</p><h2 id="java-\u8A9E\u6CD5" tabindex="-1"><a class="header-anchor" href="#java-\u8A9E\u6CD5" aria-hidden="true">#</a> Java \u8A9E\u6CD5</h2><ol><li>\u6CE8\u91CB\uFF0C\u6A19\u8B58\u7B26\uFF0C\u95DC\u9375\u5B57</li><li>\u6578\u64DA\u985E\u578B</li><li>\u985E\u578B\u8F49\u63DB</li><li>\u8B8A\u91CF\uFF0C\u7522\u91CF</li><li>\u904B\u7B97\u7B26</li><li>\u5305\u6A5F\u5236\uFF0CjavaDoc</li></ol><h3 id="\u6CE8\u91CB-\u6A19\u8B58\u7B26-\u95DC\u9375\u5B57" tabindex="-1"><a class="header-anchor" href="#\u6CE8\u91CB-\u6A19\u8B58\u7B26-\u95DC\u9375\u5B57" aria-hidden="true">#</a> \u6CE8\u91CB\uFF0C\u6A19\u8B58\u7B26\uFF0C\u95DC\u9375\u5B57</h3><ol><li>\u55AE\u884C\u6CE8\u91CB</li></ol><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token comment">//\u55AE\u884C\u6CE8\u91CB</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><ol start="2"><li>\u591A\u884C\u6CE8\u91CB</li></ol><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token comment">/*
+ * \u591A\u884C\u6CE8\u91CB
+ */</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><ol start="3"><li>\u6587\u6A94\u6CE8\u91CB</li></ol><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token doc-comment comment">/**
+ * <span class="token keyword">@params</span> \u53C3\u6578...
+ * @Author \u4F5C\u8005...
+ * \u6587\u6A94\u6CE8\u91CB
+ * /
+</span></code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><ol start="4"><li>\u6A19\u8B58\u7B26</li></ol><table><tr><td colspan="6">\u7528\u65BC\u5B9A\u7FA9\u8A2A\u554F\u6B0A\u9650\u4FEE\u98FE\u7B26\u7684\u95DC\u9375\u5B57</td></tr><tr><td>private</td><td>protected</td><td>public</td><td></td><td></td><td></td></tr><tr><td colspan="6">\u7528\u65BC\u5B9A\u7FA9\u985E\uFF0C\u51FD\u6578\uFF0C\u8B8A\u91CF\u4FEE\u98FE\u7B26\u7684\u95DC\u9375\u5B57</td></tr><tr><td>abstract</td><td>final</td><td>static</td><td>synchronized</td><td></td><td></td></tr><tr><td colspan="6">\u7528\u65BC\u5B9A\u7FA9\u985E\u65BC\u985E\u4E4B\u9593\u95DC\u4FC2\u7684\u95DC\u9375\u5B57</td></tr><tr><td>extends</td><td>implements</td><td></td><td></td><td></td><td></td></tr><tr><td colspan="6">\u7528\u65BC\u5B9A\u7FA9\u5EFA\u7ACB\u5BE6\u4F8B\u53CA\u5F15\u7528\u5BE6\u4F8B\uFF0C\u5224\u65B7\u5BE6\u4F8B\u7684\u95DC\u9375\u5B57</td></tr><tr><td>new</td><td>this</td><td>super</td><td>instanceof</td><td></td><td></td></tr><tr><td colspan="6">\u7528\u65BC\u7570\u5E38\u8655\u7406</td></tr><tr><td>try</td><td>catch</td><td>finally</td><td>throw</td><td>throws</td><td></td></tr><tr><td colspan="6">\u7528\u65BC\u5305\u7684\u95DC\u9375\u5B57</td></tr><tr><td>package</td><td>import</td><td></td><td></td><td></td><td></td></tr><tr><td colspan="6">\u5176\u4ED6\u4FEE\u98FE\u7B26</td></tr><tr><td>native</td><td>strictfp</td><td>transient</td><td>volatile</td><td>assert</td><td></td></tr></table><p>\u6A19\u8B58\u7B26\u898F\u7BC4\uFF1A</p><ul><li>\u6240\u6709\u6A19\u8B58\u7B26\u90FD\u61C9\u8A72\u4EE5\u5B57\u6BCD\uFF08A-Z\uFF0Ca-z\uFF09\uFF0C\uFF08$\uFF09\u7F8E\u5143\u7B26\uFF0C\u6216\u8005\u4E0B\u5283\u7DDA\uFF08_\uFF09\u958B\u59CB\u3002</li><li>\u9996\u5B57\u7B26\u4E4B\u5F8C\u53EF\u4EE5\u8AAA\u5B57\u6BCD\uFF08A-Z\uFF0Ca-z\uFF09\uFF0C\uFF08$\uFF09\u7F8E\u5143\u7B26\uFF0C\u6216\u8005\u4E0B\u5283\u7DDA\uFF08_\uFF09\u6216\u6578\u7D44\u7684\u5982\u4F55\u5B57\u7B26\u7D44\u5408\u3002</li><li>\u4E0D\u80FD\u4F7F\u7528\u95DC\u9375\u5B57\u4F5C\u70BA\u8B8A\u91CF\u540D\u6216\u65B9\u6CD5\u540D</li><li>\u6A19\u8B58\u7B26\u5927\u5C0F\u5BEB\u654F\u611F</li></ul><p>\u6A19\u8B58\u7B26\u7D04\u5B9A\u4FD7\u6210\uFF1A</p><ul><li>\u5305\u540D\uFF1A\u6240\u6709\u5B57\u6BCD\u4E00\u5F8B\u5C0F\u5199</li><li>\u7C7B\u540D\u3001\u63A5\u53E3\u540D\uFF1A\u5355\u8BCD\u7684\u9996\u5B57\u6BCD\u5927\u5199\u3002\u5982 XxxYyyZzz\u3002\uFF08\u5927\u9A7C\u5CF0\u547D\u540D\u6CD5\uFF09</li><li>\u53D8\u91CF\u540D\u3001\u65B9\u6CD5\u540D\uFF1A\u7531\u591A\u4E2A\u5355\u8BCD\u7EC4\u6210\u65F6\uFF0C\u7B2C\u4E00\u4E2A\u5355\u8BCD\u5747\u5C0F\u5199\uFF0C\u5176\u5B83\u5355\u8BCD\u9996\u5B57\u6BCD\u5927\u5199\u3002\u5982 xxxYyyZzz\u3002\uFF08\u5C0F\u9A7C\u5CF0\u547D\u540D\u6CD5\uFF0C\u7B80\u79F0\u9A7C\u5CF0\u6CD5\uFF09</li><li>\u5E38\u91CF\u540D\uFF1A\u6240\u6709\u5B57\u6BCD\u5747\u5927\u5199\u3002\u4E14\u7531\u591A\u4E2A\u5355\u8BCD\u7EC4\u6210\u65F6\uFF0C\u5355\u8BCD\u4E4B\u95F4\u7528\u4E0B\u5212\u7EBF\u201C_\u201D\u9694\u5F00\u3002\u5982 XXX_YYY_ZZZ\u3002</li></ul><h3 id="\u6578\u64DA\u985E\u578B" tabindex="-1"><a class="header-anchor" href="#\u6578\u64DA\u985E\u578B" aria-hidden="true">#</a> \u6578\u64DA\u985E\u578B</h3><ul><li>\u5F37\u985E\u578B\uFF1A\u8981\u6C42\u8B8A\u91CF\u7684\u4F7F\u7528\u56B4\u683C\u7B26\u5408\u898F\u5B9A\uFF0C\u6240\u6709\u8B8A\u91CF\u90FD\u5FC5\u9808\u5148\u5B9A\u7FA9\u5F8C\u624D\u4F7F\u7528</li><li>\u5F31\u985E\u578B\uFF1A\u904B\u884C\u5FEB\uFF0C\u4F46\u662F\u898F\u5B9A\u4E0D\u56B4\u683C\uFF0C\u5BB9\u6613\u51FA\u73FE\u985E\u578B\u932F\u8AA4</li></ul><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code>type vatName <span class="token operator">=</span> value<span class="token punctuation">;</span>
+<span class="token comment">//\u6578\u64DA\u985E\u578B \u8B8A\u91CF\u540D\u7A31 = \u503C \u5206\u865F\u7D50\u675F</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><ol><li>\u57FA\u672C\u985E\u578B\uFF08primitive type\uFF09</li></ol><p><code>\u6CE8\u91CA:</code><code>\u4F4D\uFF08bit\uFF09\uFF1A\u8BA1\u7B97\u673A\u5B58\u50A8\u7684\u6700\u5C0F\u5355\u4F4D\uFF0C11001100\u662F\u4E00\u4E2A\u516B\u4F4D\u4E8C\u8FDB\u5236\u6570\u3002</code><code>\u5B57\u8282\uFF08byte\uFF09: \u8BA1\u7B97\u673A\u6570\u636E\u5904\u7406\u57FA\u672C\u5355\u4F4D\uFF0C1\u5B57\u8282 = 8 \u4F4D</code></p><table><tr><td colspan="4">\u6574\u6578\u985E\u578B</td></tr><tr><td>byte 1\u4E2A\u5B57\u8282<br>[0+-127\uFF09</td><td>short 2\u4E2A\u5B57\u8282<br>[0+-32768\uFF09</td><td>int 4\u4E2A\u5B57\u8282<br>[01+-2147483648\uFF09</td><td>long 8\u4E2A\u5B57\u8282<br>[0+-9223372036854775808\uFF09</td></tr><tr><td colspan="4">\u6D6E\u9EDE\u985E\u578B</td></tr><tr><td>float 4\u4E2A\u5B57\u8282</td><td>double 8\u4E2A\u5B57\u8282</td><td></td><td></td></tr><tr><td colspan="4">\u5B57\u7B26\u985E\u578B</td></tr><tr><td>char 2\u4E2A\u5B57\u8282</td><td></td><td></td><td></td></tr></table><table><tr><td>boolean</td></tr><tr><td>1\u4F4D\u5B57\u8282\uFF080\uFF0C1\uFF09\uFF0C\u53EA\u6709true\u548Cfalse</td></tr></table><ul><li>\u5B57\u7B26\u4E32\uFF08String\uFF09\u662F\u4E00\u4E2A\u7C7B</li></ul><ol><li>\u5F15\u7528\u985E\u578B\uFF08reference type\uFF09</li></ol><ul><li>\u7C7B</li><li>\u63A5\u53E3</li><li>\u6570\u7EC4</li></ul><p>\u6570\u636E\u7C7B\u578B\u9762\u8BD5\u9898\uFF1A</p><h3 id="\u7C7B\u578B\u8F6C\u6362" tabindex="-1"><a class="header-anchor" href="#\u7C7B\u578B\u8F6C\u6362" aria-hidden="true">#</a> \u7C7B\u578B\u8F6C\u6362</h3><ol><li><p>\u8FD0\u7B97\u4E2D\u3002\u4E0D\u540C\u7C7B\u578B\u7684\u6570\u636E\u5148\u8F6C\u6362\u4E3A\u540C\u4E00\u6570\u636E\u7C7B\u578B\uFF0C\u7136\u540E\u8FDB\u884C\u8FD0\u7B97\u3002</p><p>\u4F4E\u5230\u9AD8</p></li></ol><ul><li>byte -&gt; short -&gt; chart -&gt; int -&gt; long -&gt; float - &gt; double</li></ul><ol start="2"><li>\u5F3A\u5236\u8F6C\u6362 \uFF08\u7C7B\u578B\uFF09\u53D8\u91CF\u540D \u9AD8-&gt;\u4F4E</li><li>\u81EA\u52A8\u8F6C\u6362 \u4F4E\u5230\u9AD8</li></ol><h3 id="\u53D8\u91CF-\u5E38\u91CF-\u4F5C\u7528\u57DF" tabindex="-1"><a class="header-anchor" href="#\u53D8\u91CF-\u5E38\u91CF-\u4F5C\u7528\u57DF" aria-hidden="true">#</a> \u53D8\u91CF\uFF0C\u5E38\u91CF\uFF0C\u4F5C\u7528\u57DF</h3><ol><li>\u53D8\u91CF</li></ol><p>\u5C31\u662F\u53EF\u4EE5\u53D8\u5316\u7684\u91CF\uFF0Cjava\u4E2D\u6700\u57FA\u672C\u7684\u5B58\u50A8\u5355\u5143\uFF0C\u5305\u62EC\u53D8\u91CF\u540D\uFF0C\u53D8\u91CF\u7C7B\u578B\u548C\u4F5C\u7528\u57DF\uFF1B</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code>type vatName <span class="token operator">=</span> value<span class="token punctuation">;</span>
+<span class="token comment">//\u6578\u64DA\u985E\u578B \u8B8A\u91CF\u540D\u7A31 = \u503C \u5206\u865F\u7D50\u675F</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><ul><li>\u5C40\u90E8\u8B8A\u91CF\uFF1A\u5FC5\u9808\u8072\u660E\u548C\u521D\u59CB\u5316\uFF0C\u5C40\u90E8\u65B9\u6CD5\u7279\u6709\u3002</li><li>\u5BE6\u4F8B\u8B8A\u91CF\uFF1A\u5F9E\u5C6C\u65BC\u985E\uFF08\u4F4D\u65BC\u985E\u4E2D\uFF09\uFF0C\u4E5F\u7A31\u5BE6\u4F8B\u8B8A\u91CF\uFF0C\u5982\u679C\u4E0D\u9032\u884C\u521D\u59CB\u5316\uFF0C\u7CFB\u7D71\u6703\u8CE6\u4E88\u9ED8\u8A8D\u503C\u3002</li><li>\u985E\u8B8A\u91CF\uFF1A\u5BEB\u5728\u985E\u88E1\uFF0C\u52A0\u4E0A\u985E\u4F3C<code>static</code>\u4FEE\u98FE\u7B26\u3002</li></ul><p>\u547D\u540D\u898F\u7BC4\uFF1A</p><ul><li>\u898B\u547D\u601D\u610F</li><li>\u8B8A\u91CF\uFF1A\u9996\u5B57\u6BCD\u5C0F\u5BEB\u548C\u99DD\u5CF0\u539F\u5247</li><li>\u5E38\u91CF\uFF1A\u5168\u90E8\u5927\u5BEB\u5B57\u6BCD\u548C\u4E0B\u5283\u7DDA\u9694\u958B</li><li>\u985E\u540D\uFF1A\u9996\u5B57\u6BCD\u5927\u5BEB\u548C\u99DD\u5CF0\u539F\u5247</li><li>\u65B9\u6CD5\u547D\uFF1A\u9996\u5B57\u6BCD\u5927\u5BEB\u548C\u99DD\u5CF0\u539F\u5247</li></ul><h3 id="\u904B\u7B97\u7B26" tabindex="-1"><a class="header-anchor" href="#\u904B\u7B97\u7B26" aria-hidden="true">#</a> \u904B\u7B97\u7B26</h3><table><tr><td colspan="7">\u7B97\u8853\u904B\u7B97\u7B26</td></tr><tr><td>+</td><td>-</td><td>*</td><td>/</td><td>%</td><td>++</td><td>--</td></tr><tr><td>\u52A0</td><td>\u6E1B</td><td>\u4E58</td><td>\u9F63</td><td>\u6A21</td><td>\u81EA\u50A2</td><td>\u81EA\u6E1B</td></tr></table><table><tr><td colspan="1">\u8CE6\u503C\u904B\u7B97\u7B26</td></tr><tr><td>=</td></tr><tr><td>\u8CE6\u503C\u904B\u7B97\u7B26</td></tr></table><table><tr><td colspan="7">\u95DC\u4FC2\u904B\u7B97\u7B26</td></tr><tr><td>&gt;</td><td>&lt;</td><td>&gt; =</td><td>&lt;=</td><td>==</td><td>!=</td><td>instanceog</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table><table><tr><td colspan="3">\u908F\u8F2F\u904B\u7B97\u7B26</td></tr><tr><td>&amp;&amp;</td><td>||</td><td>\uFF01</td></tr><tr><td></td><td></td><td></td></tr></table><table><tr><td colspan="7">\u4F4D\u904B\u7B97\u7B26</td></tr><tr><td>&amp;</td><td>|</td><td>^</td><td>~</td><td>&gt;&gt;</td><td>&lt;&lt;</td><td>&gt;&gt;&gt;</td></tr><tr><td>\u65BC</td><td>\u6216</td><td>\u7570\u6216\u53D6\u53CD</td><td>\u4F4D\u53D6\u53CD</td><td></td><td></td><td></td></tr></table><table><tr><td colspan="2">\u689D\u4EF6\u904B\u7B97\u7B26</td></tr><tr><td>\uFF1F</td><td>\uFF1A</td></tr><tr><td></td><td></td></tr></table><table><tr><td colspan="4">\u64F4\u5C55\u8CE6\u503C\u904B\u7B97\u7B26</td></tr><tr><td>+=</td><td>-=</td><td>*=</td><td>/=</td></tr><tr><td></td><td></td><td></td><td></td></tr></table><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code>
+<span class="token keyword">int</span> a <span class="token operator">=</span> <span class="token number">3</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> b <span class="token operator">=</span> a<span class="token operator">++</span><span class="token punctuation">;</span><span class="token comment">//3</span>
+<span class="token keyword">int</span> c <span class="token operator">=</span> <span class="token operator">++</span>a<span class="token punctuation">;</span><span class="token comment">//5</span>
+
+<span class="token comment">//\u57F7\u884C\u6642\u9593\u4E0D\u540C</span>
+<span class="token comment">//a++:\u57F7\u884C\u540E\uFF0Ca\u518D\u81EA\u589E</span>
+<span class="token comment">//++a\uFF1Aa\u5148\u81EA\u589E\uFF0C\u5728\u57F7\u884C</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><p>\u51AA\u904B\u7B97</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">double</span> pow <span class="token operator">=</span> <span class="token class-name">Math</span><span class="token punctuation">.</span><span class="token function">pow</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span>
+<span class="token comment">//3\u76842\u6B21\u65B9</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token operator">&lt;&lt;</span>\uFF1A<span class="token operator">*</span><span class="token number">2</span>
+<span class="token operator">&gt;&gt;</span>\uFF1A<span class="token operator">/</span><span class="token number">2</span>
+
+a<span class="token operator">+=</span>b<span class="token punctuation">;</span><span class="token comment">//\u610F\u601D\u662Fa=a+b;</span>
+a<span class="token operator">-=</span>b<span class="token punctuation">;</span><span class="token comment">//a=a-b;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><h3 id="\u5305\u6A5F\u5236" tabindex="-1"><a class="header-anchor" href="#\u5305\u6A5F\u5236" aria-hidden="true">#</a> \u5305\u6A5F\u5236</h3><p>\u7528\u65BC\u5340\u5225\u985E\u540D\u7684\u547D\u540D\u7A7A\u9593</p><p>package</p><h3 id="scanner\u7528\u6236\u4EA4\u4E92" tabindex="-1"><a class="header-anchor" href="#scanner\u7528\u6236\u4EA4\u4E92" aria-hidden="true">#</a> Scanner\u7528\u6236\u4EA4\u4E92</h3><p><code>jdk5</code>\u540E\u589E\u52A0<code>java.util.Scanner</code>\u5305\uFF0C\u4F7F\u7528Scanner\u985E\u7372\u53D6\u7528\u6236\u8F38\u5165</p><p>\u57FA\u672C\u8A9E\u6CD5:</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token class-name">Scanner</span> s <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Scanner</span><span class="token punctuation">(</span><span class="token class-name">System</span><span class="token punctuation">.</span>in<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u901A\u904E<code>Scanner</code>\u985E\u7684<code>next()</code>\u65BC<code>nextLine()</code>\u65B9\u6CD5\u7372\u53D6\u8F38\u5165\u7684\u5B57\u7B26\u4E32\uFF0C\u5728\u8B80\u53D6\u6642\u4E00\u822C\u4F7F\u7528<code>hasNext()</code>\u65BC<code>hasNextLine()</code>\u5224\u65B7\u662F\u5426\u9084\u6709\u8F38\u5165\u6578\u64DA\u3002</p><h3 id="\u987A\u5E8F\u7ED3\u6784" tabindex="-1"><a class="header-anchor" href="#\u987A\u5E8F\u7ED3\u6784" aria-hidden="true">#</a> \u987A\u5E8F\u7ED3\u6784</h3><p>\u6240\u6709\u7B97\u6CD5\u7684\u57FA\u672C\u7ED3\u6784</p><h3 id="\u9009\u62E9\u7ED3\u6784" tabindex="-1"><a class="header-anchor" href="#\u9009\u62E9\u7ED3\u6784" aria-hidden="true">#</a> \u9009\u62E9\u7ED3\u6784</h3><ol><li><code>if</code>\u5355\u9009\u7ED3\u6784</li></ol><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code>
+<span class="token keyword">if</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+	<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u5355if\u5224\u65AD&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><ol start="2"><li><code>if</code>-<code>else</code>\u9009\u62E9</li></ol><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code>
+<span class="token keyword">if</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+	<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;if&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
+	<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;else&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><ol start="3"><li><code>if</code>\u591A\u9009\u62E9\u7ED3\u6784</li></ol><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token comment">//\u53EA\u4F1A\u6267\u884C\u4E00\u4E2A\u5224\u65AD</span>
+<span class="token keyword">if</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+	<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;1&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+	<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;2&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+	<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;3&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
+	<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;4&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><ol start="4"><li><code>switch</code>\u9009\u62E9\u7ED3\u6784</li></ol><p><code>switch--case--default</code></p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">switch</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+	<span class="token keyword">case</span> <span class="token number">1</span><span class="token operator">:</span>
+	<span class="token comment">//\u6267\u884C</span>
+	<span class="token keyword">break</span><span class="token punctuation">;</span><span class="token comment">//\u8DF3\u51FA\u5F53\u524D\u5224\u65AD</span>
+	<span class="token keyword">case</span> <span class="token number">2</span><span class="token operator">:</span>
+	<span class="token comment">//\u6267\u884C</span>
+	<span class="token keyword">break</span><span class="token punctuation">;</span><span class="token comment">//\u8DF3\u51FA\u5F53\u524D\u5224\u65AD</span>
+	<span class="token keyword">default</span><span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>\u4E0A\u9762<span class="token keyword">case</span>\u90FD\u4E0D\u7B26\u5408
+	<span class="token comment">//\u6267\u884C</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><h3 id="\u9009\u62E9\u7ED3\u6784-1" tabindex="-1"><a class="header-anchor" href="#\u9009\u62E9\u7ED3\u6784-1" aria-hidden="true">#</a> \u9009\u62E9\u7ED3\u6784</h3><ol><li><code>while</code></li></ol><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token keyword">while</span> <span class="token punctuation">(</span>i<span class="token operator">&lt;</span><span class="token number">100</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+	i<span class="token operator">++</span><span class="token punctuation">;</span>
+	<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><ol start="2"><li><code>do</code>-<code>while</code></li></ol><p>\u4ED6\u4F1A\u5148\u6267\u884C\u4E00\u6B21\u518D\u6267\u884C\u5224\u65AD</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token keyword">do</span><span class="token punctuation">{</span>
+	i<span class="token operator">++</span><span class="token punctuation">;</span>
+	<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token keyword">while</span><span class="token punctuation">(</span>i<span class="token operator">&lt;=</span><span class="token number">100</span><span class="token punctuation">)</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><ol start="3"><li><code>for</code></li></ol><p>\u6CE8\u610F\uFF1Afor\u4F1A\u5224\u65AD\u662F\u5426\u6267\u884C\uFF0C\u53EF\u4EE5\u6267\u884C\u540E\u662F\u5148\u6267\u884C\u518D\u66F4\u65B0</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token comment">//\u5982\u679C\u4E0D\u521D\u59CB\u5316\u548C\u5224\u65AD\u4E0E\u66F4\u65B0\u4F1A\u6B7B\u5FAA\u73AF</span>
+<span class="token comment">// for(\u521D\u59CB\u5316\uFF1B\u5E03\u5C14\u8868\u8FBE\u5F0F\uFF1B\u66F4\u65B0){</span>
+<span class="token comment">// 	\u6267\u884C\u8BED\u53E5</span>
+<span class="token comment">// }</span>
+
+<span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">&lt;=</span><span class="token number">100</span><span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+	<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><ul><li>\u83B7\u53D60\u5230100\u5947\u6570\u548C\u5076\u6570\u548C</li></ul><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token comment">//\u83B7\u53D60-100\u8BA1\u6570\u548C\u5076\u6570\u548C</span>
+<span class="token keyword">int</span> oddSum <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> evenSum <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+
+<span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">&lt;=</span><span class="token number">100</span><span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+	<span class="token keyword">if</span><span class="token punctuation">(</span>i <span class="token operator">%</span> <span class="token number">2</span> <span class="token operator">!=</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+		oddSum<span class="token operator">+=</span>i<span class="token punctuation">;</span>
+	<span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
+		evenSum<span class="token operator">+=</span>i<span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u5947\u6570\u548C&quot;</span><span class="token operator">+</span>oddSum<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u5076\u6570\u548C&quot;</span><span class="token operator">+</span>evenSum<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br></div></div><ul><li>\u8BA1\u7B970\u52301000\u80FD\u88AB5\u6574\u9664\u7684\u6570\uFF0C\u6BCF\u884C\u8F93\u51FA3\u4E2A</li></ul><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code>   <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i3<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>i3<span class="token operator">&lt;=</span><span class="token number">1000</span><span class="token punctuation">;</span>i3<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span>i3<span class="token operator">%</span><span class="token number">5</span><span class="token operator">==</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+                <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>i3<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span>i3<span class="token operator">%</span><span class="token punctuation">(</span><span class="token number">5</span><span class="token operator">*</span><span class="token number">3</span><span class="token punctuation">)</span><span class="token operator">==</span><span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">print</span><span class="token punctuation">(</span><span class="token string">&quot;\\n&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><ul><li>\u6253\u5370\u4E5D\u4E5D\u4E58\u6CD5\u8868</li></ul><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code>    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> a <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>a<span class="token operator">&lt;=</span><span class="token number">9</span><span class="token punctuation">;</span>a<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> b <span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span>b<span class="token operator">&lt;=</span>a<span class="token punctuation">;</span>b<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">print</span><span class="token punctuation">(</span>a<span class="token operator">+</span><span class="token string">&quot;*&quot;</span><span class="token operator">+</span>b<span class="token operator">+</span><span class="token string">&quot;=&quot;</span><span class="token operator">+</span>a<span class="token operator">*</span>b<span class="token operator">+</span><span class="token string">&quot;\\t&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">print</span><span class="token punctuation">(</span><span class="token string">&quot;\\n&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+<span class="token doc-comment comment">/**
+1*1=1	
+2*1=2	2*2=4	
+3*1=3	3*2=6	3*3=9	
+4*1=4	4*2=8	4*3=12	4*4=16	
+5*1=5	5*2=10	5*3=15	5*4=20	5*5=25	
+6*1=6	6*2=12	6*3=18	6*4=24	6*5=30	6*6=36	
+7*1=7	7*2=14	7*3=21	7*4=28	7*5=35	7*6=42	7*7=49	
+8*1=8	8*2=16	8*3=24	8*4=32	8*5=40	8*6=48	8*7=56	8*8=64	
+9*1=9	9*2=18	9*3=27	9*4=36	9*5=45	9*6=54	9*7=63	9*8=72	9*9=81	
+/
+</span></code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br></div></div><ol start="4"><li>\u589E\u5F3A<code>for</code>\u5FAA\u73AF</li></ol><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">int</span> <span class="token punctuation">[</span><span class="token punctuation">]</span> numbers <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token comment">//\u666E\u901Afor\u5FAA\u73AF</span>
+<span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">&lt;</span>numbers<span class="token punctuation">.</span>length<span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+	<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>numbers<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">//\u589E\u5F3Afor\u5FAA\u73AF</span>
+<span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> x <span class="token operator">:</span> numbers<span class="token punctuation">)</span><span class="token punctuation">{</span>
+	<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><h3 id="\u9000\u51FA\u5FAA\u73AF" tabindex="-1"><a class="header-anchor" href="#\u9000\u51FA\u5FAA\u73AF" aria-hidden="true">#</a> \u9000\u51FA\u5FAA\u73AF</h3><p><code>break,continue,goto</code></p><ol><li><code>break</code></li></ol><p>\u7EC8\u6B62\u5F53\u524D\u5FAA\u73AF\u7EE7\u7EED\u6267\u884C\u540E\u9762\u4EE3\u7801</p><ol start="2"><li><code>continue</code></li></ol><p>\u8DF3\u51FA\u8FD9\u4E00\u6B21\u5FAA\u73AF\uFF0C\u7EE7\u7EED\u4E0B\u4E00\u6B21\u5FAA\u73AF\u64CD\u4F5C</p><ol start="3"><li><code>goto</code></li></ol><p>Java\u53EA\u662F\u6709\u8FD9\u79CD\u7528\u6CD5\uFF0C\u6CA1\u6709\u6B63\u5F0F\u4F7F\u7528\uFF0C\u4E0D\u5EFA\u8BAE\u4F7F\u7528</p><h3 id="debug\u4F7F\u7528" tabindex="-1"><a class="header-anchor" href="#debug\u4F7F\u7528" aria-hidden="true">#</a> Debug\u4F7F\u7528</h3><p>idea\u4E2D\u591A\u7528\u5C31\u884C</p><h3 id="\u65B9\u6CD5" tabindex="-1"><a class="header-anchor" href="#\u65B9\u6CD5" aria-hidden="true">#</a> \u65B9\u6CD5</h3><ul><li>\u4EC0\u4E48\u662F\u65B9\u6CD5</li><li>\u65B9\u6CD5\u5B9A\u4E49\u548C\u4F7F\u7528</li><li>\u65B9\u6CD5\u91CD\u8F7D\uFF08\u91CD\u8981\uFF09</li><li>\u547D\u4EE4\u884C\u4F20\u53C2</li><li>\u53EF\u53D8\u53C2\u6570</li><li>\u9012\u5F52</li></ul><ol><li><p>\u65B9\u6CD5\u662F\u8BED\u53E5\u7684\u96C6\u5408\uFF0C\u4E00\u4E2A\u65B9\u6CD5\u5B8C\u6210\u4E00\u4E2A\u529F\u80FD\uFF0C\u56DE\u5FC6\u4E00\u4E0B\u65B9\u6CD5\u7684\u547D\u540D\u89C4\u5219\u3002 main\u4E3B\u65B9\u6CD5\u5C31\u662F\u4E00\u4E2A\u65B9\u6CD5\u3002</p></li><li><p>\u65B9\u6CD5\u5B9A\u4E49\u548C\u4F7F\u7528</p></li></ol><ul><li>\u4FEE\u9970\u7B26\uFF1A\u53EF\u9009\uFF0C\u544A\u8BC9\u7F16\u8BD1\u5668\u5982\u4F55\u8C03\u7528\u8BE5\u65B9\u6CD5\uFF0C\u5B9A\u4E49\u4E86\u8BBF\u95EE\u7C7B\u578B</li><li>\u8FD4\u56DE\u503C\u7C7B\u578B\uFF1A\u65B9\u6CD5\u53EF\u4EE5\u6709\u8FD4\u56DE\u503C\uFF0C<code>return valueType</code>\u662F\u8FD4\u56DE\u503C\u7684\u6570\u636E\u7C7B\u578B\uFF0C\u5982\u679C\u6CA1\u6709\u8FD4\u56DE\u503C\u8BF4\u660E\u662F\u4E00\u4E2Avoid\u65B9\u6CD5\uFF0C\u5373\u6CA1\u6709\u8FD4\u56DE\u503C\u3002</li><li>\u65B9\u6CD5\u540D\uFF1A\u53EF\u4EE5\u53C2\u8003Java\u65B9\u6CD5\u547D\u540D\u89C4\u8303\uFF0C\u5C31\u662F\u65B9\u6CD5\u7684\u540D\u5B57\u3002</li><li>\u53C2\u6570\u7C7B\u578B\uFF1A\u53C2\u6570\u50CF\u5360\u4F4D\u7B26\uFF0C\u5F53\u65B9\u6CD5\u88AB\u8C03\u7528\u65F6\uFF0C\u8FD9\u4E2A\u503C\u79F0\u4E3A\u5B9E\u53C2\u6216\u53D8\u91CF\uFF0C\u53EF\u9009\u7684\u3002</li><li>\u65B9\u6CD5\u4F53\uFF1A\u5C31\u662F\u65B9\u6CD5\u91CC\u9762\u7684\u5177\u4F53\u6267\u884C\u8BED\u53E5\uFF0C\u5B9E\u73B0\u67D0\u4E9B\u529F\u80FD\u3002</li></ul><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token comment">//\u4FEE\u9970\u7B26 \u8FD4\u56DE\u503C\u7C7B\u578B \u65B9\u6CD5\u540D\uFF08\u53C2\u6570\u7C7B\u578B  \u53C2\u6570\u540D\u79F0\uFF09{</span>
+<span class="token comment">//   \u65B9\u6CD5\u4F53</span>
+<span class="token comment">//  return \u8FD4\u56DE\u503C</span>
+<span class="token comment">// }</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Method</span> <span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>args<span class="token punctuation">)</span><span class="token punctuation">{</span>
+
+        <span class="token keyword">int</span> a <span class="token operator">=</span> <span class="token function">max</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">,</span><span class="token number">20</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+	<span class="token comment">//\u9759\u6001\u65B9\u6CD5\u53EF\u4EE5\u76F4\u63A5\u8C03\u7528</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">int</span> <span class="token function">max</span><span class="token punctuation">(</span><span class="token keyword">int</span> a<span class="token punctuation">,</span><span class="token keyword">int</span> b<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">return</span> a<span class="token operator">&gt;</span>b<span class="token operator">?</span>a<span class="token operator">:</span>b<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><h3 id="\u65B9\u6CD5\u91CD\u8F09" tabindex="-1"><a class="header-anchor" href="#\u65B9\u6CD5\u91CD\u8F09" aria-hidden="true">#</a> \u65B9\u6CD5\u91CD\u8F09</h3><p>\u5982\u679C\u540C\u4E00\u4E2A\u7C7B\u4E2D\u5305\u542B\u4E86\u4E24\u4E2A\u6216\u4E24\u4E2A\u4EE5\u4E0A\u65B9\u6CD5\u540D\u76F8\u540C\u7684\u65B9\u6CD5\uFF0C\u4F46\u5F62\u53C2\u5217\u8868\u4E0D\u540C\uFF0C\u8FD9\u79CD\u60C5\u51B5\u88AB\u79F0\u4E3A\u65B9\u6CD5\u91CD\u8F7D\uFF08overload\uFF09\u3002</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">println</span><span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token punctuation">)</span><span class="token punctuation">{</span>\u2026<span class="token punctuation">}</span>
+<span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">println</span><span class="token punctuation">(</span><span class="token keyword">double</span> d<span class="token punctuation">)</span><span class="token punctuation">{</span>\u2026<span class="token punctuation">}</span>
+<span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">println</span><span class="token punctuation">(</span><span class="token class-name">String</span> s<span class="token punctuation">)</span><span class="token punctuation">{</span>\u2026<span class="token punctuation">}</span>
+
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token number">102</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">// \u8C03\u7528println(int i)\u65B9\u6CD5</span>
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token number">102.25</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">// \u8C03\u7528println(double d)\u65B9\u6CD5</span>
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u4EF7\u683C\u4E3A 102.25&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">// \u8C03\u7528println(String s)\u65B9\u6CD5</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><p>\u91CD\u8F09\u7684\u898F\u5247\uFF1A</p><ol><li>\u65B9\u6CD5\u540D\u7A31\u5FC5\u9808\u76F8\u540C\u3002</li><li>\u53C3\u6578\u5217\u8868\u4E0D\u540C\uFF08\u500B\u6578\uFF0C\u985E\u578B\uFF0C\u6392\u5217\u9806\u5E8F\u7B49\u7B49\uFF09\u3002</li><li>\u65B9\u6CD5\u8FD4\u56DE\u503C\u985E\u578B\u53EF\u4EE5\u76F8\u540C\u4E5F1\u53EF\u4EE5\u4E0D\u540C\u3002</li><li>\u50C5\u50C5\u8FD4\u56DE\u503C\u4E0D\u540C\u4E0D\u5C6C\u65BC\u65B9\u6CD5\u91CD\u8F09\u7684\u7BC4\u7587\u3002</li></ol><p>\u539F\u7406\uFF1A\u65B9\u6CD5\u540D\u7A31\u76F8\u540C\u6642\uFF0Cjava\u6703\u6839\u64DA\u8ACB\u6C42\u985E\u578B\u548C\u53C3\u6578\u53CA\u8FD4\u56DE\u503C\u985E\u578B\u53BB\u81EA\u52D5\u5339\u914D\u67D0\u4E00\u500B\u65B9\u6CD5\u53BB\u57F7\u884C\u3002</p><h3 id="\u547D\u4EE4\u884C\u50B3\u53C3" tabindex="-1"><a class="header-anchor" href="#\u547D\u4EE4\u884C\u50B3\u53C3" aria-hidden="true">#</a> \u547D\u4EE4\u884C\u50B3\u53C3</h3><p>\u53EF\u4EE5\u7D66main\u50B3\u53C3\uFF0C\u5373<code>args</code>\u3002</p><h3 id="\u53EF\u8B8A\u53C3\u6578" tabindex="-1"><a class="header-anchor" href="#\u53EF\u8B8A\u53C3\u6578" aria-hidden="true">#</a> \u53EF\u8B8A\u53C3\u6578</h3><p>\u5728\u6307\u5B9A\u53C3\u6578\u985E\u578B\u540E\u52A0\u4E00\u500B<code>...</code>\uFF0C\u4E00\u500B\u65B9\u6CD5\u53EA\u80FD\u6307\u5B9A\u4E00\u500B\u53EF\u8B8A\u53C3\u6578\uFF0C\u4E26\u4E14\u5FC5\u9808\u662F\u6700\u5F8C\u4E00\u500B\u53C3\u6578\u3002\u4EFB\u4F55\u666E\u901A\u53C3\u6578\u53EA\u80FD\u5728\u5B83\u4E4B\u524D\u8072\u660E\u3002</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">test</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span> i<span class="token punctuation">)</span><span class="token punctuation">{</span>
+	<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">priltln</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h3 id="\u9012\u5F52" tabindex="-1"><a class="header-anchor" href="#\u9012\u5F52" aria-hidden="true">#</a> \u9012\u5F52</h3><p>\u9012\u5F52\u5C31\u662F\u65B9\u6CD5\u8C03\u7528\u65B9\u6CD5\u81EA\u5DF1 \u5148\u8BF4\u4E00\u4E0B\u7591\u95EE\uFF1A</p><ol><li>\u8FD9\u4E0D\u662F\u6B7B\u5FAA\u73AF\u5417\uFF1A</li></ol><p>\u6240\u4EE5\u8981\u4E86\u89E3\u4E0B\u9762\u4E24\u70B9\uFF1A</p><ul><li>\u9012\u5F52\u5934\uFF1A\u4EC0\u4E48\u65F6\u5019\u6216\u6761\u4EF6\u4E0D\u8C03\u7528\u81EA\u8EAB\u65B9\u6CD5\uFF0C\u5373\u5224\u65AD\u5982\u679C\u4F1A\u5BFC\u81F4\u6B7B\u5FAA\u73AF\uFF0C\u90A3\u5C31\u4E0D\u5E94\u8BE5\u8C03\u7528\u81EA\u5DF1\u4E86</li><li>\u9012\u5F52\u4F53\uFF1A\u4EC0\u4E48\u65F6\u5019\u6216\u6761\u4EF6\u8C03\u7528\u81EA\u8EAB\u65B9\u6CD5\uFF0C\u53CA\u6EE1\u8DB3\u67D0\u4E00\u6761\u4EF6\u4E0B\u5E94\u8BE5\u8C03\u7528\u81EA\u5DF1\u3002</li></ul><p>\u603B\u7ED3\uFF1A\u9012\u5F52\u5FC5\u987B\u6709\u6761\u4EF6\u7684\u5F00\u59CB\u548C\u6709\u6761\u4EF6\u7684\u7ED3\u675F\uFF08\u5F00\u59CB\u4E0D\u662F\u5FC5\u987B\u7684\uFF0C\u4F46\u6700\u597D\u6709\uFF09\u3002</p><p>\u8BA1\u7B97\u5668\u7EC3\u4E60\uFF1A</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">import</span> <span class="token namespace">java<span class="token punctuation">.</span>util<span class="token punctuation">.</span></span><span class="token class-name">Scanner</span><span class="token punctuation">;</span>
+
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Demo01</span> <span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>args<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token class-name">Scanner</span> s <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Scanner</span><span class="token punctuation">(</span><span class="token class-name">System</span><span class="token punctuation">.</span>in<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token class-name">Boolean</span> end <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+        <span class="token comment">//\u5FAA\u74B0</span>
+        <span class="token keyword">while</span> <span class="token punctuation">(</span><span class="token operator">!</span>end<span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;==========\u8A08\u7B97\u5668\u958B\u59CB============&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u8ACB\u8F38\u5165\u7B2C\u4E00\u500B\u6578&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword">double</span> a <span class="token operator">=</span> s<span class="token punctuation">.</span><span class="token function">nextDouble</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u8ACB\u8F38\u5165\uFF1A+ - * %&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token class-name">String</span> operator <span class="token operator">=</span> s<span class="token punctuation">.</span><span class="token function">next</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u8ACB\u8F38\u5165\u7B2C\u4E8C\u500B\u6578&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword">double</span> b <span class="token operator">=</span> s<span class="token punctuation">.</span><span class="token function">nextDouble</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+            <span class="token keyword">switch</span> <span class="token punctuation">(</span>operator<span class="token punctuation">)</span><span class="token punctuation">{</span>
+                <span class="token keyword">case</span> <span class="token string">&quot;+&quot;</span><span class="token operator">:</span>
+                    <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u7D50\u679C\u662F&quot;</span><span class="token operator">+</span><span class="token function">add</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span>b<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                    <span class="token keyword">break</span><span class="token punctuation">;</span>
+                <span class="token keyword">case</span> <span class="token string">&quot;-&quot;</span><span class="token operator">:</span>
+                    <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u7D50\u679C\u662F&quot;</span><span class="token operator">+</span><span class="token function">subtract</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span>b<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                    <span class="token keyword">break</span><span class="token punctuation">;</span>
+                <span class="token keyword">case</span> <span class="token string">&quot;*&quot;</span><span class="token operator">:</span>
+                    <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u7D50\u679C\u662F&quot;</span><span class="token operator">+</span><span class="token function">multiply</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span>b<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                    <span class="token keyword">break</span><span class="token punctuation">;</span>
+                <span class="token keyword">case</span> <span class="token string">&quot;%&quot;</span><span class="token operator">:</span>
+                    <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u7D50\u679C\u662F&quot;</span><span class="token operator">+</span><span class="token function">divide</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span>b<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                    <span class="token keyword">break</span><span class="token punctuation">;</span>
+                <span class="token keyword">default</span><span class="token operator">:</span>
+                    <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u8F38\u5165\u7B26\u865F\u6709\u8AA4&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                    <span class="token keyword">break</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">double</span> <span class="token function">add</span><span class="token punctuation">(</span><span class="token keyword">double</span> a<span class="token punctuation">,</span><span class="token keyword">double</span> b<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">return</span> a<span class="token operator">+</span>b<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">double</span> <span class="token function">subtract</span><span class="token punctuation">(</span><span class="token keyword">double</span> a<span class="token punctuation">,</span><span class="token keyword">double</span> b<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">return</span> a<span class="token operator">-</span>b<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">double</span> <span class="token function">multiply</span><span class="token punctuation">(</span><span class="token keyword">double</span> a<span class="token punctuation">,</span><span class="token keyword">double</span> b<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">return</span> a<span class="token operator">*</span>b<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">double</span> <span class="token function">divide</span><span class="token punctuation">(</span><span class="token keyword">double</span> a<span class="token punctuation">,</span><span class="token keyword">double</span> b<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">return</span> a<span class="token operator">%</span>b<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br></div></div><h3 id="\u6570\u7EC4" tabindex="-1"><a class="header-anchor" href="#\u6570\u7EC4" aria-hidden="true">#</a> \u6570\u7EC4</h3><ul><li>\u4EC0\u4E48\u662F\u6570\u7EC4</li><li>\u6570\u7EC4\u7684\u58F0\u660E</li><li>\u6570\u7EC4\u7684\u4F7F\u7528</li><li>\u591A\u7EF4\u6570\u7EC4</li><li>Arrays\u7C7B</li><li>\u677E\u6563\u6570\u7EC4</li></ul><ol><li><ul><li>\u6570\u7EC4\u662F\u76F8\u540C\u7C7B\u578B\u6570\u636E\u7684\u6709\u5E8F\u96C6\u5408</li><li>\u6570\u7EC4\u63CF\u8FF0\u7684\u662F\u76F8\u540C\u7C7B\u578B\u7684\u82E5\u5E72\u6570\u636E\uFF0C\u6309\u4E00\u5B9A\u987A\u5E8F\u6392\u5E8F\u800C\u6210\u3002</li><li>\u6BCF\u4E00\u4E2A\u6570\u636E\u79F0\u4E3A\u5143\u7D20\uFF0C\u53EF\u4EE5\u901A\u8FC7\u4E0B\u6807\u8BBF\u95EE\u4ED6\u4EEC\u3002</li></ul></li><li><p>\u6570\u7EC4\u5B9A\u4E49</p></li></ol><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token comment">//\u53D8\u91CF\u7C7B\u578B \u53D8\u91CF\u540D\u5B57 = \u53D8\u91CF\u7684\u503C</span>
+<span class="token comment">//\u6570\u7EC4\u7C7B\u578B</span>
+
+<span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> array<span class="token punctuation">;</span><span class="token comment">//\u9996\u9009\u7684\u5B9A\u4E49\u65B9\u6CD5</span>
+<span class="token keyword">int</span> array<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span><span class="token comment">//\u548C\u4E0A\u9762\u6548\u679C\u4E00\u6837\uFF0C\u4F46\u6CA1\u6709\u4E0A\u9762\u76F4\u89C2\uFF0C\u662FC\u8BED\u8A00\u98CE\u683C</span>
+
+<span class="token comment">//\u521B\u5EFA\u6570\u7EC4</span>
+
+<span class="token comment">//dataType[]  arrayRefval = new dataTyoe[arraySize];</span>
+<span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> arr <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token number">10</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><p>\u6570\u7EC4\u5143\u7D20\u53EF\u4EE5\u901A\u8FC7\u7D22\u5F15\u4E0B\u6807\u8BBF\u95EE\uFF0C\u7D22\u5F15\u4E0B\u6807\u4ECE0\u5F00\u59CB\uFF1B</p><p>\u6570\u7EC4\u957F\u5EA6\u5C31\u662F\u6570\u7EC4\u5143\u7D20\u7684\u4E2A\u6570\uFF0C\u53EF\u4EE5\u901A\u8FC7<code>arrays.length</code>\u83B7\u53D6\uFF1B</p><p>\u601D\u8003\uFF1A\u6570\u7EC4\u957F\u5EA6\u548C\u6570\u7EC4\u4E0B\u6807\u7684\u5173\u7CFB\u3002</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token comment">//\u4EE5\u4E66\u9762\u5BF9\u7684arr\u4E3A\u4F8B</span>
+arr<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+arr<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+arr<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+arr<span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+arr<span class="token punctuation">[</span><span class="token number">4</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+arr<span class="token punctuation">[</span><span class="token number">5</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+arr<span class="token punctuation">[</span><span class="token number">6</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+arr<span class="token punctuation">[</span><span class="token number">7</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+arr<span class="token punctuation">[</span><span class="token number">8</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+arr<span class="token punctuation">[</span><span class="token number">9</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+
+<span class="token comment">//\u4E0B\u6807\u662F0\u2014\u20149</span>
+<span class="token comment">//\u957F\u5EA6\u662F10</span>
+<span class="token comment">//\u5982\u679C\u5143\u7D20\u4E0D\u8D4B\u503C\uFF0C\u4F1A\u6839\u636E\u5143\u7D20\u7C7B\u578B\u8D4B\u4E88\u9ED8\u8BA4\u503C</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div><p>\u6570\u7EC4\u7279\u70B9\uFF1A</p><ul><li>\u957F\u5EA6\u662F\u786E\u5B9A\u7684\uFF0C\u4E00\u65E6\u521B\u5EFA\uFF0C\u5927\u5C0F\u4E0D\u53EF\u4EE5\u88AB\u6539\u53D8</li><li>\u5176\u5143\u7D20\u7C7B\u578B\u5FC5\u987B\u76F8\u540C\uFF0C\u4E0D\u5141\u8BB8\u6DF7\u5408</li><li>\u5143\u7D20\u53EF\u4EE5\u662F\u4EFB\u610F\u7C7B\u578B\uFF0C\u5305\u62EC\u57FA\u672C\u7C7B\u578B\u548C\u5F15\u7528\u7C7B\u578B</li><li>\u6570\u7EC4\u5C5E\u4E8E\u5F15\u7528\u7C7B\u578B\uFF0C\u6570\u7EC4\u4E5F\u53EF\u4EE5\u770B\u6210\u662F\u5BF9\u8C61\uFF0C\u6BCF\u4E2A\u5143\u7D20\u76F8\u5F53\u4E8E1\u6210\u5458\u53D8\u91CF\uFF0C\u6570\u7EC4\u672C\u8EAB\u5B58\u5728\u5806\u4E2D\u7684\u3002</li></ul><h3 id="\u5185\u5B58\u5206\u6790" tabindex="-1"><a class="header-anchor" href="#\u5185\u5B58\u5206\u6790" aria-hidden="true">#</a> \u5185\u5B58\u5206\u6790</h3><h4 id="\u5806" tabindex="-1"><a class="header-anchor" href="#\u5806" aria-hidden="true">#</a> \u5806</h4><p>\u5B58\u653E<code>new</code>\u51FA\u6765\u7684\u5BF9\u8C61\u548C\u6570\u7EC4 \u53EF\u4EE5\u88AB\u6240\u6709\u7EBF\u7A0B\u5171\u4EAB\uFF0C\u4E0D\u4F1A\u5B58\u653E\u522B\u7684\u5BF9\u8C61\u5F15\u7528</p><h4 id="\u6808" tabindex="-1"><a class="header-anchor" href="#\u6808" aria-hidden="true">#</a> \u6808</h4><p>\u5B58\u653E\u57FA\u672C\u53D8\u91CF\u7C7B\u578B\uFF08\u4F1A\u5305\u542B\u8FD9\u4E2A\u57FA\u672C1\u7C7B\u578B\u7684\u5177\u4F53\u6570\u503C\uFF09 \u5F15\u7528\u5BF9\u8C61\u7684\u53D8\u91CF\uFF08\u4F1A\u5B58\u653E\u8FD9\u4E2A\u5F15\u7528\u5728\u5806\u91CC\u9762\u7684\u5177\u4F53\u5730\u5740\uFF09</p><h4 id="\u65B9\u6CD5\u533A" tabindex="-1"><a class="header-anchor" href="#\u65B9\u6CD5\u533A" aria-hidden="true">#</a> \u65B9\u6CD5\u533A</h4><p>\u53EF\u4EE5\u88AB\u6240\u6709\u7EBF\u7A0B\u5171\u4EAB \u5305\u542B\u4E86\u6240\u6709\u7684<code>chass</code>\u548C<code>static</code>\u53D8\u91CF</p><p>\u5E38\u89C1\u6570\u7EC4\u9519\u8BEF\uFF1A\u6570\u7EC4\u4E0B\u6807\u8D8A\u754C</p><ol start="3"><li>\u6570\u7EC4\u4F7F\u7528</li></ol><p>\u6253\u5370\u6570\u7EC4</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code>
+<span class="token keyword">int</span> <span class="token punctuation">[</span><span class="token punctuation">]</span> arrays <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h3 id="\u591A\u7EF4\u6570\u7EC4" tabindex="-1"><a class="header-anchor" href="#\u591A\u7EF4\u6570\u7EC4" aria-hidden="true">#</a> \u591A\u7EF4\u6570\u7EC4</h3><p>\u5C31\u662F\u6570\u7EC4\u91CC\u9762\u5B58\u653E\u6570\u7EC4</p><h3 id="arrays\u7C7B" tabindex="-1"><a class="header-anchor" href="#arrays\u7C7B" aria-hidden="true">#</a> Arrays\u7C7B</h3><p><a href="https://www.yiibai.com/java/util/java_util_arrays.html" target="_blank" rel="noopener noreferrer">https://www.yiibai.com/java/util/java_util_arrays.html`);
+  _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
+  _push(`</a></p><h3 id="\u516B\u79CD\u5192\u6CE1\u6392\u5E8F" tabindex="-1"><a class="header-anchor" href="#\u516B\u79CD\u5192\u6CE1\u6392\u5E8F" aria-hidden="true">#</a> \u516B\u79CD\u5192\u6CE1\u6392\u5E8F</h3><p>\u4E0B\u9762\u503C\u4ECB\u7D39\u7D93\u5178\u7684\u4E00\u7A2E\uFF1A</p><ol><li>\u6BD4\u8F83\u6570\u7EC4\u4E2D\u76F8\u5CAD\u5143\u7D20\uFF0C\u5982\u679C\u7B2C\u4E00\u4E2A\u6BD4\u7B2C\u4E8C\u4E2A\u5927\uFF0C\u5C31\u4EA4\u6362\u4ED6\u4EEC\u7684\u4F4D\u7F6E\uFF0C\u8FD9\u6837\u6BCF\u4E00\u6B21\u5C31\u4F1A\u4EA7\u751F\u4E00\u4E2A\u6700\u5927\u6216\u6700\u5C0F\u7684\u6570\u5B57\u3002</li></ol><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> arr <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">56</span><span class="token punctuation">,</span><span class="token number">78</span><span class="token punctuation">,</span><span class="token number">23</span><span class="token punctuation">,</span><span class="token number">7</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token keyword">int</span> temp <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+
+<span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">&lt;</span>arr<span class="token punctuation">.</span>length<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+	<span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> j<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>j<span class="token operator">&lt;</span>arr<span class="token punctuation">.</span>length<span class="token operator">-</span><span class="token number">1</span><span class="token operator">-</span>i<span class="token punctuation">;</span>j<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+		<span class="token keyword">if</span><span class="token punctuation">(</span>arr<span class="token punctuation">[</span>j<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token operator">&gt;</span>arr<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+			temp <span class="token operator">=</span> arr<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">;</span>
+			arr<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">=</span> arr<span class="token punctuation">[</span>j<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+			arr<span class="token punctuation">[</span>j<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">=</span> temp<span class="token punctuation">;</span>
+		<span class="token punctuation">}</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span>
+<span class="token comment">//\u6642\u9593\u8907\u96DC\u5EA6O\uFF08n^2\uFF09</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br></div></div><h3 id="\u9B06\u6563\u6578\u7D44-\u7A00\u758F\u6578\u7D44" tabindex="-1"><a class="header-anchor" href="#\u9B06\u6563\u6578\u7D44-\u7A00\u758F\u6578\u7D44" aria-hidden="true">#</a> \u9B06\u6563\u6578\u7D44\uFF08\u7A00\u758F\u6578\u7D44\uFF09</h3><p>\u8655\u7406\u539F\u7406\uFF1A</p><ul><li>\u8A18\u9304\u6578\u7D44\u4E00\u5171\u6709\u5E7E\u884C\u5E7E\u5217\uFF0C\u6709\u591A\u5C11\u500B\u4E0D\u540C\u503C</li><li>\u628A\u5177\u6709\u4E0D\u540C\u503C\u5F97\u5143\u7D20\u548C\u884C\u5217\u53CA\u503C\u8A18\u9304\u5728\u4E00\u500B\u5C0F\u898F\u6A21\u7684\u6578\u7D44\u4E2D\uFF0C\u5F9E\u800C\u7E2E\u5C0F\u7A0B\u5E8F\u7684\u898F\u6A21\u3002</li></ul><p>\u6BD4\u5982\uFF1A</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code>
+<span class="token operator">|</span><span class="token number">0</span> <span class="token number">0</span> <span class="token number">1</span> <span class="token number">0</span> <span class="token operator">|</span>
+<span class="token operator">|</span><span class="token number">0</span> <span class="token number">2</span> <span class="token number">0</span> <span class="token number">0</span> <span class="token operator">|</span>
+<span class="token operator">|</span><span class="token number">0</span> <span class="token number">0</span> <span class="token number">0</span> <span class="token number">0</span> <span class="token operator">|</span>
+<span class="token operator">|</span><span class="token number">0</span> <span class="token number">0</span> <span class="token number">0</span> <span class="token number">0</span> <span class="token operator">|</span>
+
+<span class="token comment">//\u4E0A\u9762\u6578\u7D44\u6709\u5F88\u591A\u91CD\u8907\u5143\u7D20\uFF0C\u70BA\u4E86\u7C21\u5316\uFF0C\u6211\u5011\u53EA\u9700\u8981\u8A18\u4F4F\u503C\u53EA\u67090\u548C1\u548C2\uFF0C\u4E26\u4E14\u6211\u5011\u53EA\u9700\u8981\u8A18\u4F4F1\u548C2\u7684\u503C\u7684\u4F4D\u7F6E\uFF0C\u5269\u4E0B\u7684\u90FD\u662F0\uFF0C\u9019\u5C31\u7C21\u5316\u4E86\u5B58\u5132\u3002</span>
+
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><p>\u7E3D\u7D50\u7DF4\u7FD2\uFF1A</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Array</span> <span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>args<span class="token punctuation">)</span><span class="token punctuation">{</span>
+
+        <span class="token comment">//1.\u5275\u5EFA\u4E00\u500B\u4E8C\u7DAD\u6578\u7D44 11*11 0\uFF1A\u6C92\u6709\u68CB\u5B50  1\uFF1A\u9ED1\u68CB  2\uFF1A\u767D\u68CB</span>
+        <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token punctuation">]</span> arr1 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token number">11</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">11</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+        arr1<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+        arr1<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span>
+        <span class="token comment">//\u8F38\u51FA\u539F\u6578\u7D44</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u8F38\u51FA\u539F\u6578\u7D44&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> <span class="token punctuation">[</span><span class="token punctuation">]</span> ints <span class="token operator">:</span> arr1<span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> anInts <span class="token operator">:</span> ints<span class="token punctuation">)</span><span class="token punctuation">{</span>
+                <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">print</span><span class="token punctuation">(</span>anInts<span class="token operator">+</span><span class="token string">&quot;\\t&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;==============================&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment">//\u8F49\u63DB\u70BA\u7A00\u758F\u6578\u7D44</span>
+        <span class="token comment">//\u7372\u53D6\u6709\u6548\u503C\u500B\u6578</span>
+        <span class="token keyword">int</span> sum <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+        <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">&lt;</span>arr1<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>length<span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> j <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> j <span class="token operator">&lt;</span> arr1<span class="token punctuation">.</span>length<span class="token punctuation">;</span> j<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                <span class="token keyword">if</span><span class="token punctuation">(</span>arr1<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token operator">!=</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+                    sum<span class="token operator">++</span><span class="token punctuation">;</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+
+        <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token punctuation">]</span> arr2 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token keyword">int</span><span class="token punctuation">[</span>sum<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+        arr2<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">=</span> arr1<span class="token punctuation">.</span>length<span class="token punctuation">;</span>
+        arr2<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">=</span> arr1<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>length<span class="token punctuation">;</span>
+        arr2<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span> <span class="token operator">=</span> sum<span class="token punctuation">;</span>
+
+        <span class="token comment">//\u904D\u6B77\u7A00\u758F\u6578\u7D44</span>
+        <span class="token keyword">int</span> count <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> arr1<span class="token punctuation">.</span>length<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> j <span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>j<span class="token operator">&lt;</span>arr1<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">.</span>length<span class="token punctuation">;</span>j<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+                <span class="token keyword">if</span><span class="token punctuation">(</span>arr1<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token operator">!=</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+                    count <span class="token operator">++</span><span class="token punctuation">;</span>
+                    arr2<span class="token punctuation">[</span>count<span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">=</span> i<span class="token punctuation">;</span>
+                    arr2<span class="token punctuation">[</span>count<span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">=</span> j<span class="token punctuation">;</span>
+                    arr2<span class="token punctuation">[</span>count<span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span> <span class="token operator">=</span> arr1<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">;</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+        
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u8F38\u51FA\u7A00\u758F\u6578\u7D44&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u6709\u6548\u503C\u500B\u6578&quot;</span><span class="token operator">+</span>count<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> arr2<span class="token punctuation">.</span>length<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> j <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> j <span class="token operator">&lt;</span> arr2<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">.</span>length<span class="token punctuation">;</span> j<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">print</span><span class="token punctuation">(</span>arr2<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token operator">+</span><span class="token string">&quot;\\t&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+
+        <span class="token comment">//\u9084\u539F\u7A00\u758F\u6578\u7D44</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;==================&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token punctuation">]</span> arr3 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token keyword">int</span><span class="token punctuation">[</span>arr2<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">[</span>arr2<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+        <span class="token comment">//\u904D\u6B77\u9084\u539F</span>
+        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> arr2<span class="token punctuation">.</span>length<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            arr3<span class="token punctuation">[</span>arr2<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">[</span>arr2<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">]</span> <span class="token operator">=</span> arr2<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u9084\u539F\u7684\u6578\u7D44&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> <span class="token punctuation">[</span><span class="token punctuation">]</span> ints <span class="token operator">:</span> arr3<span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> anInts <span class="token operator">:</span> ints<span class="token punctuation">)</span><span class="token punctuation">{</span>
+                <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">print</span><span class="token punctuation">(</span>anInts<span class="token operator">+</span><span class="token string">&quot;\\t&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br><span class="line-number">54</span><br><span class="line-number">55</span><br><span class="line-number">56</span><br><span class="line-number">57</span><br><span class="line-number">58</span><br><span class="line-number">59</span><br><span class="line-number">60</span><br><span class="line-number">61</span><br><span class="line-number">62</span><br><span class="line-number">63</span><br><span class="line-number">64</span><br><span class="line-number">65</span><br><span class="line-number">66</span><br><span class="line-number">67</span><br><span class="line-number">68</span><br><span class="line-number">69</span><br><span class="line-number">70</span><br><span class="line-number">71</span><br><span class="line-number">72</span><br><span class="line-number">73</span><br><span class="line-number">74</span><br><span class="line-number">75</span><br><span class="line-number">76</span><br><span class="line-number">77</span><br><span class="line-number">78</span><br><span class="line-number">79</span><br><span class="line-number">80</span><br></div></div><!--]-->`);
+}
+const _sfc_setup$H = _sfc_main$H.setup;
+_sfc_main$H.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/\u300Ajava\u5165\u95E8\u300B/01.\u57FA\u7840\u4ECB\u7ECD.html.vue");
+  return _sfc_setup$H ? _sfc_setup$H(props, ctx) : void 0;
+};
+var _01______html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$H, [["ssrRender", _sfc_ssrRender$t]]);
+var _01______html$2 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": _01______html$1
+});
+const _sfc_main$G = {};
+function _sfc_ssrRender$s(_ctx, _push, _parent, _attrs) {
+  _push(`<!--[--><h1 id="java\u6578\u64DA\u985E\u578B" tabindex="-1"><a class="header-anchor" href="#java\u6578\u64DA\u985E\u578B" aria-hidden="true">#</a> java\u6578\u64DA\u985E\u578B</h1><p>\u53D8\u91CF3\u4E2A\u57FA\u672C\u7279\u5F81\uFF1A\u7C7B\u578B\uFF0C\u540D\u79F0\uFF0C\u503C \u6BCF\u4E2A\u53D8\u91CF\u90FD\u5360\u4E00\u4E2A\u5B58\u50A8\u7A7A\u95F4 \u7A0B\u5E8F\u4E2D<code>+ - * %</code>\u7684\u4F7F\u7528</p><h2 id="\u57FA\u672C\u6570\u636E\u7C7B\u578B" tabindex="-1"><a class="header-anchor" href="#\u57FA\u672C\u6570\u636E\u7C7B\u578B" aria-hidden="true">#</a> \u57FA\u672C\u6570\u636E\u7C7B\u578B</h2><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6570\u636E\u7C7B\u578B</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6570\u503C\u578B</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6574\u6570\u7C7B\u578B\uFF0C\u5B58\u653E\u6574\u6570\uFF08byte[1],short[2],int[4],long[8]\uFF1B\u6D6E\u70B9\uFF08\u5C0F\u6570\u7C7B\u578B\uFF09\uFF08float[4]\u5355\u7CBE\u5EA6,double[8]\u53CC\u7CBE\u5EA6\uFF09\uFF09</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5B57\u7B26\u578B</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">char[2]</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5E03\u5C14\u578B</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">boolean[1],\u5B58\u653Etrue,false</td></tr></tbody></table><h2 id="\u5F15\u7528\u6570\u636E\u7C7B\u578B" tabindex="-1"><a class="header-anchor" href="#\u5F15\u7528\u6570\u636E\u7C7B\u578B" aria-hidden="true">#</a> \u5F15\u7528\u6570\u636E\u7C7B\u578B</h2><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6570\u636E\u7C7B\u578B</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u7C7B</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">class</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u63A5\u53E3</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">interface</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6570\u7EC4</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">[]</td></tr></tbody></table><h2 id="\u6574\u6570\u7C7B\u578B" tabindex="-1"><a class="header-anchor" href="#\u6574\u6570\u7C7B\u578B" aria-hidden="true">#</a> \u6574\u6570\u7C7B\u578B</h2><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u7C7B\u578B</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5360\u7528\u7A7A\u95F4</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8303\u56F4</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>byte</code>\u5B57\u8282</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">1\u5B57\u8282</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>short</code>\u77ED\u6574\u578B</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">2\u5B57\u8282</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>int</code>\u6574\u578B</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">4\u5B57\u8282</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>long</code>\u957F\u6574\u578B</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">8\u5B57\u8282</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td></tr></tbody></table><!--]-->`);
+}
+const _sfc_setup$G = _sfc_main$G.setup;
+_sfc_main$G.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/\u300Ajava\u5165\u95E8\u300B/02.\u6578\u64DA\u985E\u578B.html.vue");
+  return _sfc_setup$G ? _sfc_setup$G(props, ctx) : void 0;
+};
+var _02______html$4 = /* @__PURE__ */ _export_sfc(_sfc_main$G, [["ssrRender", _sfc_ssrRender$s]]);
+var _02______html$5 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": _02______html$4
+});
+const _sfc_main$F = {};
+function _sfc_ssrRender$r(_ctx, _push, _parent, _attrs) {
+  _push(`<!--[--><h1 id="\u95EE\u9898\u96C6\u9526" tabindex="-1"><a class="header-anchor" href="#\u95EE\u9898\u96C6\u9526" aria-hidden="true">#</a> \u95EE\u9898\u96C6\u9526</h1><div class="custom-container tip"><p class="custom-container-title">\u9762\u8BD5</p><p>\u5E38\u89C1\u9762\u8BD5\u96C6\u9526</p></div><h2 id="\u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD" tabindex="-1"><a class="header-anchor" href="#\u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD" aria-hidden="true">#</a> \u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD</h2><p><strong>\u63D0\u793A</strong>\uFF1A\u4E00\u822C\u4EBA\u56DE\u7B54\u8FD9\u4E2A\u95EE\u9898\u8FC7\u4E8E\u5E73\u5E38\uFF0C\u59D3\u540D\u3001\u5E74\u9F84\u3001\u7231\u597D\u3001\u5DE5\u4F5C\u7ECF\u9A8C\uFF0C\u8FD9\u4E9B\u7B80\u5386\u4E0A\u90FD\u6709\u3002\u4F01\u4E1A\uFF08\u9762\u8BD5\u5B98\uFF09\u6700\u5E0C\u671B\u77E5\u9053\u7684\u662F\u6C42\u804C\u8005\u80FD\u5426\u80DC\u4EFB\u5DE5\u4F5C\uFF0C\u5305\u62EC\uFF1A\u6700\u5F3A\u7684\u6280\u80FD\u3001\u6700\u6DF1\u5165\u7814\u7A76\u7684\u9886\u57DF\u3001\u4E2A\u6027\u4E2D\u6700\u79EF\u6781\u7684\u90E8\u5206\u3001\u505A\u8FC7\u6700\u6210\u529F\u7684\u4E8B\uFF0C\u4E3B\u8981\u6210\u5C31\u7B49\uFF0C\u8981\u7A81\u51FA\u79EF\u6781\u7684\u4E2A\u6027\u548C\u505A\u4E8B\u7684\u80FD\u529B\uFF0C\u8BF4\u7684\u5408\u60C5\u5408\u7406\u4F01\u4E1A\uFF08\u9762\u8BD5\u5B98\uFF09\u624D\u4F1A\u76F8\u4FE1\u3002</p><h2 id="\u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48" tabindex="-1"><a class="header-anchor" href="#\u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48" aria-hidden="true">#</a> \u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48\uFF1F</h2><p><strong>\u56DE\u7B54\u63D0\u793A</strong>\uFF1A \u6C89\u7740\u51B7\u9759\u3001\u6761\u7406\u6E05\u695A\u3001\u7ACB\u573A\u575A\u5B9A\u3001\u4E50\u4E8E\u52A9\u4EBA\u7B49\uFF0C\u52A0\u4E0A\u4F8B\u5B50\u5982\uFF1A\u6211\u5728XX\u7ECF\u8FC7\u4E00\u5230\u4E24\u5E74\u7684\u57F9\u8BAD\u53CA\u9879\u76EE\u5B9E\u6218\uFF0C\u52A0\u4E0A\u5B9E\u4E60\u5DE5\u4F5C\uFF0C\u6211\u60F3\u6211\u9002\u5408\u8FD9\u4EFD\u5DE5\u4F5C\u3002</p><h2 id="\u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9" tabindex="-1"><a class="header-anchor" href="#\u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9" aria-hidden="true">#</a> \u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u8FD9\u4E2A\u95EE\u9898\u4F01\u4E1A\u95EE\u7684\u6982\u7387\u5F88\u5927\uFF0C\u901A\u5E38\u4E0D\u5E0C\u671B\u542C\u5230\u76F4\u63A5\u56DE\u7B54\u7684\u7F3A\u70B9\u662F\u4EC0\u4E48\u7B49\uFF0C\u5982\u679C\u6C42\u804C\u8005\u8BF4\u81EA\u5DF1\u5C0F\u5FC3\u773C\u3001\u975E\u5E38\u61D2\u3001\u5DE5\u4F5C\u6548\u7387\u4F4E\uFF0C\u4F01\u4E1A\u80AF\u5B9A\u4E0D\u4F1A\u5F55\u7528\u4F60\u3002\u8981\u4ECE\u81EA\u5DF1\u7684\u4F18\u70B9\u8BF4\u8D77\uFF0C\u4E2D\u95F4\u52A0\u4E00\u4E9B\u5C0F\u7F3A\u70B9\uFF0C\u6700\u540E\u518D\u628A\u95EE\u7B54\u8F6C\u56DE\u5230\u4F18\u70B9\u4E0A\uFF0C\u7A81\u51FA\u4F18\u70B9\u7684\u90E8\u5206\u3002</p><h2 id="\u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5" tabindex="-1"><a class="header-anchor" href="#\u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5" aria-hidden="true">#</a> \u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A\u5B9E\u9645\u4E0A\u597D\u591A\u516C\u53F8\u95EE\u8FD9\u4E2A\u95EE\u9898\uFF0C\u5E76\u4E0D\u8BC1\u660E\u4E00\u5B9A\u8981\u52A0\u73ED\uFF0C\u53EA\u662F\u60F3\u6D4B\u8BD5\u4F60\u662F\u5426\u613F\u610F\u4E3A\u516C\u53F8\u5949\u732E\u3002</p><p><strong>\u6837\u672C</strong>\uFF1A\u5982\u679C\u662F\u5DE5\u4F5C\u9700\u8981\u6211\u4F1A\u4E49\u4E0D\u5BB9\u8F9E\u52A0\u73ED\uFF0C\u4F46\u540C\u65F6\uFF0C\u6211\u4E5F\u4F1A\u63D0\u9AD8\u5DE5\u4F5C\u6548\u7387\uFF0C\u51CF\u5C11\u4E0D\u5FC5\u8981\u7684\u52A0\u73ED\u3002</p><h2 id="\u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42" tabindex="-1"><a class="header-anchor" href="#\u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42" aria-hidden="true">#</a> \u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u5982\u679C\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\u592A\u4F4E\uFF0C\u90A3\u663E\u7136\u8D2C\u4F4E\u81EA\u5DF1\u7684\u80FD\u529B\uFF1B\u5982\u679C\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\u592A\u9AD8\uFF0C\u90A3\u53C8\u4F1A\u663E\u5F97\u4F60\u5206\u91CF\u8FC7\u91CD\uFF0C\u516C\u53F8\u53D7\u7528\u4E0D\u8D77\u3002\u4E00\u4E9B\u96C7\u4E3B\u901A\u5E38\u90FD\u4E8B\u5148\u5BF9\u6C42\u8058\u7684\u804C\u4F4D\u5B9A\u4E0B\u5F00\u652F\u9884\u7B97\uFF0C\u56E0\u800C\u4ED6\u4EEC\u7B2C\u4E00\u6B21\u63D0\u51FA\u7684\u4EF7\u94B1\u5F80\u5F80\u662F\u4ED6\u4EEC\u6240\u80FD\u7ED9\u4E88\u7684\u6700\u9AD8\u4EF7\u94B1\uFF0C\u4ED6\u4EEC\u95EE\u4F60\u53EA\u4E0D\u8FC7\u60F3\u8BC1\u5B9E\u4E00\u4E0B\u8FD9\u7B14\u94B1\u662F\u5426\u8DB3\u4EE5\u5F15\u8D77\u4F60\u5BF9\u8BE5\u5DE5\u4F5C\u7684\u5174\u8DA3\u3002</p><p><strong>\u56DE\u7B54</strong>\uFF1A</p><ol><li><p>\u6211\u5BF9\u5DE5\u8D44\u6CA1\u6709\u786C\u6027\u8981\u6C42\uFF0C\u6211\u76F8\u4FE1\u8D35\u516C\u53F8\u4F1A\u53CB\u5584\u5408\u7406\u3002\u6211\u6CE8\u91CD\u7684\u662F\u627E\u5230\u5DE5\u4F5C\u673A\u4F1A\uFF0C\u6240\u4EE5\u53EA\u8981\u6761\u4EF6\u516C\u5E73\uFF0C\u6211\u5219\u4E0D\u4F1A\u8BA1\u8F83\u592A\u591A\u3002</p></li><li><p>\u6211\u53D7\u8FC7\u7CFB\u7EDF\u7684\u8F6F\u4EF6\u7F16\u7A0B\u7684\u8BAD\u7EC3\uFF0C\u4E0D\u9700\u8981\u8FDB\u884C\u5927\u91CF\u7684\u57F9\u8BAD\uFF0C\u800C\u4E14\u6211\u672C\u4EBA\u4E5F\u5BF9\u7F16\u7A0B\u7279\u522B\u611F\u5174\u8DA3\u3002\u56E0\u6B64\uFF0C\u6211\u5E0C\u671B\u516C\u53F8\u80FD\u6839\u636E\u6211\u7684\u60C5\u51B5\u548C\u5E02\u573A\u6807\u51C6\u7684\u6C34\u5E73\uFF0C\u7ED9\u6211\u5408\u7406\u7684\u85AA\u6C34\u3002</p></li><li><p>\u5982\u679C\u4F60\u5FC5\u987B\u81EA\u5DF1\u8BF4\u51FA\u5177\u4F53\u6570\u76EE\uFF0C\u8BF7\u4E0D\u8981\u8BF4\u4E00\u4E2A\u5BBD\u6CDB\u7684\u8303\u56F4\uFF0C\u90A3\u6837\u4F60\u5C06\u53EA\u80FD\u5F97\u5230\u6700\u4F4E\u9650\u5EA6\u7684\u6570\u5B57\u3002\u6700\u597D\u7ED9\u51FA\u4E00\u4E2A\u5177\u4F53\u7684\u6570\u5B57\uFF0C\u8FD9\u6837\u8868\u660E\u4F60\u5DF2\u7ECF\u5BF9\u5F53\u4ECA\u7684\u4EBA\u624D\u5E02\u573A\u505A\u4E86\u8C03\u67E5\uFF0C\u77E5\u9053\u50CF\u81EA\u5DF1\u8FD9\u6837\u5B66\u5386\u7684\u96C7\u5458\u6709\u4EC0\u4E48\u6837\u7684\u4EF7\u503C\u3002</p></li></ol><h2 id="\u5728\u4E94\u5E74\u5185-\u4F60\u7684\u804C\u4E1A\u89C4\u5212" tabindex="-1"><a class="header-anchor" href="#\u5728\u4E94\u5E74\u5185-\u4F60\u7684\u804C\u4E1A\u89C4\u5212" aria-hidden="true">#</a> \u5728\u4E94\u5E74\u5185\uFF0C\u4F60\u7684\u804C\u4E1A\u89C4\u5212\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u8FD9\u662F\u6BCF\u4E00\u4E2A\u5E94\u8058\u8005\u90FD\u4E0D\u5E0C\u671B\u88AB\u95EE\u5230\u7684\u95EE\u9898\uFF0C\u4F46\u662F\uFF08\u5927\u516C\u53F8\uFF09\u51E0\u4E4E\u6BCF\u4E2A\u4EBA\u90FD\u4F1A\u88AB\u95EE\u5230\uFF0C\u6BD4\u8F83\u591A\u7684\u7B54\u6848\u662F\u201C\u7BA1\u7406\u8005\u201D\u3002\u5F53\u7136\uFF0C\u8BF4\u51FA\u5176\u4ED6\u4E00\u4E9B\u4F60\u611F\u5174\u8DA3\u7684\u804C\u4F4D\u4E5F\u662F\u53EF\u4EE5\u7684\u3002\u8981\u77E5\u9053\uFF0C\u8003\u5B98\u603B\u662F\u559C\u6B22\u6709\u8FDB\u53D6\u5FC3\u7684\u5E94\u8058\u8005\uFF0C\u6B64\u65F6\u5982\u679C\u8BF4\u201C\u4E0D\u77E5\u9053\u201D\uFF0C\u6216\u8BB8\u5C31\u4F1A\u4F7F\u4F60\u4E27\u5931\u4E00\u4E2A\u597D\u673A\u4F1A\u3002\u6700\u666E\u901A\u7684\u56DE\u7B54\u5E94\u8BE5\u662F\u201C\u6211\u51C6\u5907\u5728\u6280\u672F\u9886\u57DF\u6709\u6240\u4F5C\u4E3A\u201D\u6216\u201C\u6211\u5E0C\u671B\u80FD\u6309\u7167\u516C\u53F8\u7684\u7BA1\u7406\u601D\u8DEF\u53D1\u5C55\u201D\u3002</p><h2 id="\u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417" tabindex="-1"><a class="header-anchor" href="#\u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417" aria-hidden="true">#</a> \u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417?</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u4F01\u4E1A\u7684\u8FD9\u4E2A\u95EE\u9898\u770B\u4E0A\u53BB\u53EF\u6709\u53EF\u65E0\uFF0C\u5176\u5B9E\u5F88\u5173\u952E\uFF0C\u4F01\u4E1A\u4E0D\u559C\u6B22\u8BF4\u201C\u6CA1\u95EE\u9898\u201D\u7684\u4EBA\uFF0C\u56E0\u4E3A\u5176\u5F88\u6CE8\u91CD\u5458\u5DE5\u7684\u4E2A\u6027\u548C\u521B\u65B0\u80FD\u529B\u3002\u4F01\u4E1A\u4E0D\u559C\u6B22\u6C42\u804C\u8005\u95EE\u4E2A\u4EBA\u798F\u5229\u4E4B\u7C7B\u7684\u95EE\u9898\uFF0C\u5982\u679C\u6709\u4EBA\u8FD9\u6837\u95EE\uFF1A\u8D35\u516C\u53F8\u5BF9\u65B0\u5165\u516C\u53F8\u7684\u5458\u5DE5\u6709\u6CA1\u6709\u4EC0\u4E48\u57F9\u8BAD\u9879\u76EE\uFF0C\u6211\u53EF\u4EE5\u53C2\u52A0\u5417\uFF1F\u6216\u8005\u8BF4\u8D35\u516C\u53F8\u7684\u664B\u5347\u673A\u5236\u662F\u4EC0\u4E48\u6837\u7684\uFF1F\u4F01\u4E1A\u5C06\u5F88\u6B22\u8FCE\uFF0C\u56E0\u4E3A\u4F53\u73B0\u51FA\u4F60\u5BF9\u5B66\u4E60\u7684\u70ED\u60C5\u548C\u5BF9\u516C\u53F8\u7684\u5FE0\u8BDA\u5EA6\u4EE5\u53CA\u4F60\u7684\u4E0A\u8FDB\u5FC3\u3002</p><h2 id="\u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5" tabindex="-1"><a class="header-anchor" href="#\u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5" aria-hidden="true">#</a> \u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5?</h2><p><strong>\u56DE\u7B54</strong>\uFF1A \u2460\u6B63\u5E38\u7684\u201C\u8DF3\u69FD\u201D\u80FD\u591F\u4FC3\u8FDB\u4EBA\u624D\u5408\u7406\u6D41\u52A8\uFF0C\u5E94\u8BE5\u652F\u6301\u3002\u2461\u9891\u7E41\u7684\u8DF3\u69FD\u5BF9\u5355\u4F4D\u548C\u4E2A\u4EBA\u53CC\u65B9\u90FD\u4E0D\u5229\uFF0C\u5E94\u8BE5\u53CD\u5BF9\u3002</p><h2 id="\u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11" tabindex="-1"><a class="header-anchor" href="#\u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11" aria-hidden="true">#</a> \u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11?</h2><p><strong>\u56DE\u7B54</strong>\uFF1A\u5728\u53BB\u516C\u53F8\u9762\u8BD5\u524D\u4E0A\u7F51\u67E5\u4E00\u4E0B\u8BE5\u516C\u53F8\u4E3B\u8425\u4E1A\u52A1\u3002\u53EF\u7C7B\u4F3C\u56DE\u7B54\uFF1A\u8D35\u516C\u53F8\u6709\u610F\u6539\u53D8\u7B56\u7565\uFF0C\u52A0\u5F3A\u4E0E\u56FD\u5916\u5927\u5382\u7684OEM\u5408\u4F5C\uFF0C\u81EA\u6709\u54C1\u724C\u7684\u90E8\u5206\u5219\u900F\u8FC7\u6D77\u5916\u7ECF\u9500\u5546\u3002</p><!--]-->`);
+}
+const _sfc_setup$F = _sfc_main$F.setup;
+_sfc_main$F.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/interview/interview.html.vue");
+  return _sfc_setup$F ? _sfc_setup$F(props, ctx) : void 0;
+};
+var interview_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$F, [["ssrRender", _sfc_ssrRender$r]]);
 var interview_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": interview_html$1
 });
-const _sfc_main$L = {};
-function _sfc_ssrRender$x(_ctx, _push, _parent, _attrs) {
+const _sfc_main$E = {};
+function _sfc_ssrRender$q(_ctx, _push, _parent, _attrs) {
   const _component_CodeGroup = vue.resolveComponent("CodeGroup");
   const _component_CodeGroupItem = vue.resolveComponent("CodeGroupItem");
   _push(`<!--[--><h1 id="js\u9762\u8BD5" tabindex="-1"><a class="header-anchor" href="#js\u9762\u8BD5" aria-hidden="true">#</a> JS\u9762\u8BD5</h1><blockquote><p><strong>\u4E0D\u5206\u987A\u5E8F\uFF0C\u5FE0\u544A\uFF1AJS\u7684\u9762\u8BD5\u9898\u5F88\u591A\uFF0C\u73B0\u5728\u6BCF\u4E2A\u9762\u8BD5\u5B98\u90FD\u8BD5\u56FE\u95EE\u51FA\u4E0D\u4E00\u6837\u7684\u95EE\u9898\uFF0C\u4F46\u77E5\u8BC6\u70B9\u90FD\u662F\u63A5\u8FD1\u7684\uFF0C\u6240\u4EE5\u5E94\u8BE5\u82B1\u66F4\u591A\u65F6\u95F4\u5728\u5B66\u4E60\u4E0A\uFF0C\u795D\u597D\u8FD0</strong>\u3002</p></blockquote><h2 id="_1-\u5EF6\u8FDF\u52A0\u8F7Djs\u7684\u65B9\u5F0F\u6709\u54EA\u4E9B" tabindex="-1"><a class="header-anchor" href="#_1-\u5EF6\u8FDF\u52A0\u8F7Djs\u7684\u65B9\u5F0F\u6709\u54EA\u4E9B" aria-hidden="true">#</a> 1.\u5EF6\u8FDF\u52A0\u8F7DJS\u7684\u65B9\u5F0F\u6709\u54EA\u4E9B</h2><p>\u91CD\u70B9\uFF1A<code>async</code>\u3001<code>defer</code></p><p>\u56FE\u89E3\u8BF4\u660E\uFF1A</p><p><img src="https://s6.jpg.cm/2022/01/24/LpwDYt.jpg" alt="LpwDYt.jpg"></p><ol><li>\u6B63\u5E38\u60C5\u51B5\u4E0B\u7684<code>script</code>\u811A\u672C\u6267\u884C\uFF1A</li></ol><p>\u6B63\u5E38\u60C5\u51B5\u4E0B\uFF0C\u6D4F\u89C8\u5668\u4F1A\u987A\u5E8F\u6267\u884C\u4EE3\u7801\uFF0C\u9047\u5230<code>script</code>\u811A\u672C\u65F6\uFF0CHTML\u4F1A\u505C\u6B62\u89E3\u6790\uFF0C\u5148\u4E0B\u8F7D<code>script</code>\u811A\u672C\uFF0C\u7136\u540E\u6267\u884C\u5B83\uFF08\u4E00\u822C\u662F\u6211\u4EEC\u5916\u90E8\u5F15\u5165\u7684\u811A\u672C\uFF09,\u7136\u540E\u518D\u7EE7\u7EED\u89E3\u6790HTML\u3002\u4E0B\u9762\u4EE3\u7801\uFF1A</p><div class="language-html ext-html line-numbers-mode"><pre class="language-html"><code><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">&gt;</span></span>
@@ -5772,20 +6845,20 @@ Promise<span class="token punctuation">.</span><span class="token function">all<
 <span class="token keyword">let</span> cat <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Cat</span><span class="token punctuation">(</span><span class="token string">&#39;\u55B5\u55B5&#39;</span><span class="token punctuation">,</span><span class="token string">&#39;\u5403\u9C7C&#39;</span><span class="token punctuation">)</span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><ul><li>\u4F7F\u7528\u573A\u666F\uFF1A\u7BA1\u7406\u5458\u548C\u666E\u901A\u7528\u6237\u90FD\u7EE7\u627F\u81EA\u7528\u6237\u7C7B\uFF0C\u4F46\u4E24\u8005\u8FD8\u6709\u81EA\u5DF1\u7684\u6743\u9650</li></ul><h4 id="_17-2-\u539F\u578B\u94FE\u7EE7\u627F\u548C\u539F\u578B\u94FE" tabindex="-1"><a class="header-anchor" href="#_17-2-\u539F\u578B\u94FE\u7EE7\u627F\u548C\u539F\u578B\u94FE" aria-hidden="true">#</a> 17.2. \u539F\u578B\u94FE\u7EE7\u627F\u548C\u539F\u578B\u94FE</h4><h4 id="_17-3-\u6784\u9020\u7EE7\u627F" tabindex="-1"><a class="header-anchor" href="#_17-3-\u6784\u9020\u7EE7\u627F" aria-hidden="true">#</a> 17.3 \u6784\u9020\u7EE7\u627F</h4><h4 id="_17-4-\u501F\u7528\u6784\u9020\u51FD\u6570\u7EE7\u627F" tabindex="-1"><a class="header-anchor" href="#_17-4-\u501F\u7528\u6784\u9020\u51FD\u6570\u7EE7\u627F" aria-hidden="true">#</a> 17.4 \u501F\u7528\u6784\u9020\u51FD\u6570\u7EE7\u627F</h4><h4 id="_17-5-\u7EC4\u5408\u7EE7\u627F" tabindex="-1"><a class="header-anchor" href="#_17-5-\u7EC4\u5408\u7EE7\u627F" aria-hidden="true">#</a> 17.5 \u7EC4\u5408\u7EE7\u627F</h4><h2 id="_18-\u72B6\u6001\u7801-200\u3001400\u7B49" tabindex="-1"><a class="header-anchor" href="#_18-\u72B6\u6001\u7801-200\u3001400\u7B49" aria-hidden="true">#</a> 18. \u72B6\u6001\u7801\uFF08200\u3001400\u7B49\uFF09</h2><ol><li>100\uFF1A\u4FE1\u606F\u6027\u72B6\u6001\u7801\uFF0C\u539F\u56E0\uFF1A\u63A5\u6536\u7684\u8BF7\u6C42\u6B63\u5728\u5904\u7406</li></ol><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u72B6\u6001\u7801</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">100</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u660E\u76EE\u524D\u4E3A\u6B62\uFF0C\u6240\u6709\u7684\u8BF7\u6C42\u5185\u5BB9\u90FD\u662F\u53EF\u884C\u7684\uFF0C\u5BA2\u6237\u7AEF\u5E94\u8BE5\u7EE7\u7EED\u8BF7\u6C42\uFF0C\u5982\u679C\u5B8C\u6210\uFF0C\u5219\u5FFD\u7565\u5B83\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">101</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BE5\u72B6\u6001\u7801\u662F\u54CD\u5E94\u5BA2\u6237\u7AEFUpgrade\u6807\u5934\u53D1\u9001\u7684\uFF0C\u5E76\u4E14\u6307\u793A\u670D\u52A1\u5668\u4E5F\u6B63\u5728\u5207\u6362\u534F\u8BAE\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">103</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4E3B\u8981\u7528\u4E8E\u4E0ELink\u94FE\u63A5\u5934\u4E00\u8D77\u4F7F\u7528\uFF0C\u4EE5\u5141\u8BB8\u7528\u6237\u4EE3\u7406\u5728\u670D\u52A1\u5668\u4ECD\u5728\u51C6\u5907\u54CD\u5E94\u65F6\u5F00\u59CB\u9884\u52A0\u8F7D\u8D44\u6E90\u3002</td></tr></tbody></table><ol start="2"><li>200\uFF1A\u8BF7\u6C42\u6210\u529F\u72B6\u6001\u7801\uFF0C\u8BF7\u6C42\u6B63\u5E38\u5904\u7406\u5B8C\u6BD5</li></ol><ul><li>GET\uFF1A\u8D44\u6E90\u5DF2\u88AB\u63D0\u53D6\u5E76\u5728\u6D88\u606F\u6B63\u6587\u4E2D\u4F20\u8F93</li><li>HEAD\uFF1A\u5B9E\u4F53\u6807\u5934\u4F4D\u4E8E\u6D88\u606F\u6B63\u6587\u4E2D</li><li>POST\uFF1A\u63CF\u8FF0\u52A8\u4F5C\u7ED3\u679C\u7684\u8D44\u6E90\u5728\u6D88\u606F\u4F53\u4E2D\u4F20\u8F93 TRACE\uFF1A\u6D88\u606F\u6B63\u6587\u5305\u542B\u670D\u52A1\u5668\u6536\u5230\u7684\u8BF7\u6C42\u4FE1\u606F\u3002\uFF08\u65B9\u6CD5\u4E0D\u5B89\u5168\uFF0C\u4E00\u822C\u4E0D\u7528)</li></ul><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u72B6\u6001\u7801</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">201</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF7\u6C42\u5DF2\u7ECF\u6210\u529F\uFF0C\u5E76\u56E0\u6B64\u521B\u5EFA\u4E86\u4E00\u4E2A\u65B0\u7684\u8D44\u6E90\u3002\u8FD9\u901A\u5E38\u662F\u5728PUT\u6216POST\u8BF7\u6C42\u4E4B\u540E\u53D1\u9001\u7684\u54CD\u5E94\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">202</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF7\u6C42\u5DF2\u7ECF\u63A5\u6536\u5230\uFF0C\u4F46\u662F\u6CA1\u6709\u54CD\u5E94\uFF0C\u6CA1\u6709\u7ED3\u679C\u3002\u610F\u5473\u7740\u4E0D\u4F1A\u6709\u4E00\u4E2A\u5F02\u6B65\u7684\u54CD\u5E94\u53BB\u8868\u660E\u5F53\u524D\u8BF7\u6C42\u7684\u7ED3\u679C\uFF0C\u9884\u671F\u53E6\u5916\u7684\u8FDB\u7A0B\u548C\u670D\u52A1\u53BB\u5904\u7406\u8BF7\u6C42\uFF0C\u6216\u8005\u6279\u5904\u7406\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">204</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u670D\u52A1\u5668\u6210\u529F\u5904\u7406\u4E86\u8BF7\u6C42\uFF0C\u4F46\u4E0D\u9700\u8981\u8FD4\u56DE\u4EFB\u4F55\u5B9E\u4F53\u5185\u5BB9\uFF0C\u5E76\u4E14\u5E0C\u671B\u8FD4\u56DE\u66F4\u65B0\u4E86\u7684\u5143\u4FE1\u606F\u3002\u9047\u5230\u590D\u6742\u8BF7\u6C42\u65F6\u5019\uFF0C\u6D4F\u89C8\u5668\u4F1A\u53D1\u9001\u4E00\u4E2AOPTION\u65B9\u6CD5\u8FDB\u884C\u9884\u5904\u7406\u8FD4\u56DE\u54CD\u5E94\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">205</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u670D\u52A1\u5668\u5DF2\u7ECF\u6210\u529F\u5904\u7406\u4E86\u8BF7\u6C42\uFF0C\u4F46\u662F\u6CA1\u6709\u8FD4\u56DE\u4EFB\u4F55\u5185\u5BB9\u3002\u4E0E204\u54CD\u5E94\u4E0D\u540C\uFF0C\u8FD4\u56DE\u6B64\u72B6\u6001\u7801\u7684\u54CD\u5E94\u8981\u6C42\u8BF7\u6C42\u8005\u91CD\u7F6E\u6587\u6863\u89C6\u56FE\u3002</td></tr></tbody></table><ol start="3"><li>300\uFF1A\u91CD\u5B9A\u5411\u72B6\u6001\u7801\uFF0C\u9700\u8981\u8FDB\u884C\u9644\u52A0\u64CD\u4F5C\u4EE5\u5B8C\u6210\u8BF7\u6C42</li></ol><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u72B6\u6001\u7801</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">301</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u88AB\u8BF7\u6C42\u7684\u8D44\u6E90\u5DF2\u6C38\u4E45\u79FB\u52A8\u5230\u65B0\u4F4D\u7F6E\uFF0C\u5E76\u4E14\u5C06\u6765\u4EFB\u4F55\u5BF9\u6B64\u8D44\u6E90\u7684\u5F15\u7528\u90FD\u5E94\u8BE5\u4F7F\u7528\u54CD\u5E94\u8FD4\u56DE\u7684\u82E5\u5E72\u4E2AURI\u4E4B\u4E00\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">302</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF7\u6C42\u7684\u8D44\u6E90\u73B0\u5728\u4E34\u65F6\u4ECE\u4E0D\u540C\u7684URI\u54CD\u5E94\u8BF7\u6C42\u3002\u7531\u4E8E\u8FD9\u6837\u7684\u91CD\u5B9A\u5411\u662F\u4E34\u65F6\u7684\uFF0C\u5BA2\u6237\u7AEF\u5E94\u5F53\u7EE7\u7EED\u5411\u539F\u6709\u5730\u5740\u53D1\u9001\u4EE5\u540E\u7684\u8BF7\u6C42\u3002\u53EA\u6709\u5728Cache-Control\u6216Expires\u4E2D\u8FDB\u884C\u4E86\u6307\u5B9A\u7684\u60C5\u51B5\u4E0B\uFF0C\u8FD9\u4E2A\u54CD\u5E94\u624D\u662F\u53EF\u7F13\u5B58\u7684\u3002\u8BF7\u6C42\u7684\u8D44\u6E90\u73B0\u5728\u4E34\u65F6\u4ECE\u4E0D\u540C\u7684URI\u54CD\u5E94\u8BF7\u6C42\u3002\u7531\u4E8E\u8FD9\u6837\u7684\u91CD\u5B9A\u5411\u662F\u4E34\u65F6\u7684\uFF0C\u5BA2\u6237\u7AEF\u5E94\u5F53\u7EE7\u7EED\u5411\u539F\u6709\u5730\u5740\u53D1\u9001\u4EE5\u540E\u7684\u8BF7\u6C42\u3002\u53EA\u6709\u5728Cache-Control\u6216Expires\u4E2D\u8FDB\u884C\u4E86\u6307\u5B9A\u7684\u60C5\u51B5\u4E0B\uFF0C\u8FD9\u4E2A\u54CD\u5E94\u624D\u662F\u53EF\u7F13\u5B58\u7684\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">303</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5BF9\u5F53\u524D\u7684\u8BF7\u6C42\u7684\u54CD\u5E94\u53EF\u4EE5\u5728\u53E6\u4E00\u4E2AURI\u4E0A\u88AB\u627E\u5230\uFF0C\u800C\u4E14\u5BA2\u6237\u7AEF\u5E94\u8BE5\u91C7\u7528GET\u7684\u65B9\u5F0F\u8BBF\u95EE\u90A3\u4E2A\u94FE\u63A5\u3002\u8FD9\u4E2A\u65B9\u6CD5\u7684\u5B58\u5728\u4E3B\u8981\u662F\u4E3A\u4E86\u5141\u8BB8\u7531\u811A\u672C\u6FC0\u6D3B\u7684POST\u8BF7\u6C42\u8F93\u51FA\u91CD\u5B9A\u5411\u5230\u4E00\u4E2A\u65B0\u7684\u8D44\u6E90\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">304</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5982\u679C\u5BA2\u6237\u7AEF\u53D1\u9001\u4E86\u4E00\u4E2A\u5E26\u6761\u4EF6\u7684 GET \u8BF7\u6C42\u4E14\u8BE5\u8BF7\u6C42\u5DF2\u88AB\u5141\u8BB8\uFF0C\u800C\u6587\u6863\u7684\u5185\u5BB9\uFF08\u81EA\u4E0A\u6B21\u8BBF\u95EE\u4EE5\u6765\u6216\u8005\u6839\u636E\u8BF7\u6C42\u7684\u6761\u4EF6\uFF09\u5E76\u6CA1\u6709\u6539\u53D8\uFF0C\u5219\u670D\u52A1\u5668\u5E94\u5F53\u8FD4\u56DE\u8FD9\u4E2A\u72B6\u6001\u7801\u3002304 \u54CD\u5E94\u7981\u6B62\u5305\u542B\u6D88\u606F\u4F53\uFF0C\u56E0\u6B64\u59CB\u7EC8\u4EE5\u6D88\u606F\u5934\u540E\u7684\u7B2C\u4E00\u4E2A\u7A7A\u884C\u7ED3\u5C3E\u3002\u8BF7\u6C42\u7684\u65F6\u5019\u4E00\u822C\u7ED3\u5408If-Modified-Since\u5934\u90E8\u4F7F\u7528\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">307</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">307\u7684\u610F\u4E49\u5982\u4E0A302\u3002\u4E0E\u5386\u53F2\u4E0A302\u4E0D\u540C\u7684\u662F\u5728\u91CD\u65B0\u53D1\u51FA\u539F\u59CB\u8BF7\u6C42\u65F6\u4E0D\u5141\u8BB8\u66F4\u6539\u8BF7\u6C42\u65B9\u6CD5\u3002\u6BD4\u5982\uFF0C\u4F7F\u7528POST\u8BF7\u6C42\u59CB\u7EC8\u5C31\u8BE5\u7528POST\u8BF7\u6C42\u3002</td></tr></tbody></table><ol start="4"><li>400\uFF1A\u5BA2\u6237\u7AEF\u9519\u8BEF\uFF0C\u670D\u52A1\u5668\u65E0\u6CD5\u5904\u7406\u8BF7\u6C42</li></ol><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u72B6\u6001\u7801</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">401</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8FD9\u610F\u5473\u7740\u4F60\u7684\u767B\u5F55\u51ED\u8BC1\u65E0\u6548\u3002\u670D\u52A1\u5668\u4E0D\u77E5\u9053\u4F60\u662F\u8C01\uFF0C\u8FD9\u65F6\uFF0C\u4F60\u9700\u8981\u5C1D\u8BD5\u91CD\u65B0\u767B\u5F55\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">403</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u670D\u52A1\u5668\u5DF2\u7ECF\u7406\u89E3\u8BF7\u6C42\uFF0C\u4F46\u662F\u62D2\u7EDD\u6267\u884C\u5B83\u3002\u4E0E401\u4E0D\u540C\uFF0C403\u77E5\u9053\u662F\u4F60\u767B\u5F55\u4E86\uFF0C\u4F46\u662F\u8FD8\u662F\u62D2\u7EDD\u4E86\u4F60\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">404</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E\u670D\u52A1\u5668\u7AEF\u65E0\u6CD5\u627E\u5230\u6240\u8BF7\u6C42\u7684\u8D44\u6E90\u3002\u8FD4\u56DE\u8BE5\u54CD\u5E94\u7684\u94FE\u63A5\u901A\u5E38\u79F0\u4E3A\u574F\u94FE\uFF08broken link\uFF09\u6216\u6B7B\u94FE\uFF08dead link\uFF09\uFF0C\u5B83\u4EEC\u4F1A\u5BFC\u5411\u94FE\u63A5\u51FA\u9519\u5904\u7406</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">405</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u660E\u670D\u52A1\u5668\u7981\u6B62\u4E86\u4F7F\u7528\u5F53\u524D HTTP \u65B9\u6CD5\u7684\u8BF7\u6C42\u3002\u9700\u8981\u6CE8\u610F\u7684\u662F\uFF0CGET \u4E0E HEAD \u4E24\u4E2A\u65B9\u6CD5\u4E0D\u5F97\u88AB\u7981\u6B62\uFF0C\u5F53\u7136\u4E5F\u4E0D\u5F97\u8FD4\u56DE\u72B6\u6001\u7801 405\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">406</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u793A\u670D\u52A1\u5668\u7AEF\u4E0D\u652F\u6301 Accept\u3001Accept-Charset\u3001Accept-Encoding\u3001 Accept-Language header \u6240\u8981\u6C42\u7684\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">409</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u793A\u8BF7\u6C42\u4E0E\u670D\u52A1\u5668\u7AEF\u76EE\u6807\u8D44\u6E90\u7684\u5F53\u524D\u72B6\u6001\u76F8\u51B2\u7A81\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">410</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u88AB\u8BF7\u6C42\u7684\u8D44\u6E90\u5728\u670D\u52A1\u5668\u4E0A\u5DF2\u7ECF\u4E0D\u518D\u53EF\u7528\uFF0C\u800C\u4E14\u6CA1\u6709\u4EFB\u4F55\u5DF2\u77E5\u7684\u8F6C\u53D1\u5730\u5740\u3002</td></tr></tbody></table><ol start="5"><li>500\uFF1A\u670D\u52A1\u5668\u9519\u8BEF\uFF0C\u670D\u52A1\u5668\u5904\u7406\u8BF7\u6C42\u51FA\u9519</li></ol><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u72B6\u6001\u7801</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">500</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u793A\u6240\u8BF7\u6C42\u7684\u670D\u52A1\u5668\u9047\u5230\u610F\u5916\u7684\u60C5\u51B5\u5E76\u963B\u6B62\u5176\u6267\u884C\u8BF7\u6C42\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">501</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u793Arequest header \u91CC\u7684 method \u6216 Content-* \u65F6\u4E0D\u88AB\u670D\u52A1\u5668\u652F\u6301\uFF0C\u65E0\u6CD5\u88AB\u5904\u7406\u3002\u53E6\uFF0C\u670D\u52A1\u5668\u5FC5\u987B\u652F\u6301\u7684\u65B9\u6CD5\uFF08\u5373\u4E0D\u4F1A\u8FD4\u56DE\u8FD9\u4E2A\u72B6\u6001\u7801\u7684\u65B9\u6CD5\uFF09\u53EA\u6709 GET \u548C HEAD\u3002501 \u54CD\u5E94\u9ED8\u8BA4\u662F\u53EF\u7F13\u5B58\u7684\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">502</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u793A\u4F5C\u4E3A\u7F51\u5173\u6216\u4EE3\u7406\u89D2\u8272\u7684\u670D\u52A1\u5668\uFF0C\u4ECE\u4E0A\u6E38\u670D\u52A1\u5668\uFF08\u5982tomcat\u3001php-fpm\uFF09\u4E2D\u63A5\u6536\u5230\u7684\u54CD\u5E94\u662F\u65E0\u6548\u7684\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">503</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u793A\u670D\u52A1\u5668\u5C1A\u672A\u5904\u4E8E\u53EF\u4EE5\u63A5\u53D7\u8BF7\u6C42\u7684\u72B6\u6001\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">504</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u7F51\u5173\u8D85\u65F6\uFF0C\u670D\u52A1\u5668\u672A\u80FD\u5FEB\u901F\u7684\u505A\u51FA\u53CD\u5E94\u3002</td></tr></tbody></table><h2 id="_19-\u8F93\u5165url\u5230\u9875\u9762\u663E\u793A\u7684\u8FC7\u7A0B" tabindex="-1"><a class="header-anchor" href="#_19-\u8F93\u5165url\u5230\u9875\u9762\u663E\u793A\u7684\u8FC7\u7A0B" aria-hidden="true">#</a> 19. \u8F93\u5165URL\u5230\u9875\u9762\u663E\u793A\u7684\u8FC7\u7A0B\uFF1F</h2><p>\u5148\u7B80\u5355\u6765\u8BF4\u6709\u4E0B\u9762\u8FC7\u7A0B\uFF1A</p><ol><li>DNS\u89E3\u6790\uFF1A\u5C06\u57DF\u540D\u89E3\u6790\u6210IP\u5730\u5740</li><li>TCP\u8FDE\u63A5\uFF1ATCP\u4E09\u6B21\u63E1\u624B</li><li>\u53D1\u9001HTTP\u8BF7\u6C42</li><li>\u670D\u52A1\u5668\u5904\u7406\u8BF7\u6C42\u5E76\u8FD4\u56DEHTTP\u62A5\u6587</li><li>\u6D4F\u89C8\u5668\u89E3\u6790\u6E32\u67D3\u9875\u9762</li><li>\u65AD\u5F00\u8FDE\u63A5\uFF1ATCP\u56DB\u6B21\u63E1\u624B</li></ol><p>\u5C55\u5F00\uFF1A</p><h2 id="_20-es6\u65B0\u7279\u6027" tabindex="-1"><a class="header-anchor" href="#_20-es6\u65B0\u7279\u6027" aria-hidden="true">#</a> 20. ES6\u65B0\u7279\u6027</h2><ol><li>let\u548Cconst</li></ol><p>let\u548Cconst\u90FD\u662F\u7528\u4E8E\u547D\u540D\u5C40\u90E8\u53D8\u91CF\uFF0C\u90FD\u662F\u5757\u7EA7\u4F5C\u7528\u57DF\uFF1B</p><ul><li>let:let \u5173\u952E\u8BCD\u58F0\u660E\u7684\u53D8\u91CF\u4E0D\u5177\u5907\u53D8\u91CF\u63D0\u5347</li><li>const:const \u5728\u58F0\u660E\u65F6\u5FC5\u987B\u88AB\u8D4B\u503C\uFF0C\u5426\u5219\u4F1A\u62A5\u9519,\u4E00\u65E6\u58F0\u660E\u5C31\u4E0D\u53EF\u518D\u8FDB\u884C\u4FEE\u6539\u3002(\u5BF9\u8C61\u7684\u503C\u53EF\u4EE5\u4FEE\u6539)</li></ul><ol start="2"><li>\u6A21\u677F\u5B57\u7B26\u4E32</li></ol><ul><li>\${}\u6765\u5199\u5165\u9700\u8981\u5F15\u7528\u5230\u7684JS\uFF0C\u4ED6\u4F1A\u88AB\u7F16\u8BD1</li></ul><ol start="3"><li>\u7BAD\u5934\u51FD\u6570</li></ol><p>\u9700\u8981\u6CE8\u610F\u7684\u70B9\uFF1A</p><ul><li>\u4E0D\u9700\u8981\u7528\u5173\u952E\u5B57function\u6765\u5B9A\u4E49\u51FD\u6570\uFF1B</li><li>\u4E00\u822C\u60C5\u51B5\u4E0B\u53EF\u4EE5\u7701\u7565return\uFF1B</li><li>\u5728\u7BAD\u5934\u51FD\u6570\u5185\u90E8\uFF0Cthis\u5E76\u4E0D\u4F1A\u8DDF\u5176\u4ED6\u51FD\u6570\u4E00\u6837\u6307\u5411\u8C03\u7528\u5B83\u7684\u5BF9\u8C61\uFF0C\u800C\u662F\u7EE7\u627F\u4E0A\u4E0B\u6587\u7684this\u6307\u5411\u7684\u5BF9\u8C61\u3002</li></ul><ol start="4"><li>Spreas/Reat\u64CD\u4F5C\u7B26</li></ol><ul><li>Rest\u8FD0\u7B97\u7B26\u7528\u4E8E\u83B7\u53D6\u51FD\u6570\u8C03\u7528\u65F6\u4F20\u5165\u7684\u53C2\u6570</li><li>Spread\u8FD0\u7B97\u7B26\u7528\u4E8E\u6570\u7EC4\u7684\u6784\u9020\uFF0C\u6790\u6784\uFF0C\u4EE5\u53CA\u5728\u51FD\u6570\u8C03\u7528\u65F6\u4F7F\u7528\u6570\u7EC4\u586B\u5145\u53C2\u6570\u5217\u8868</li></ul><ol start="5"><li>\u4E8C\u8FDB\u5236\u548C\u516B\u8FDB\u5236\u5B57\u9762\u91CF</li></ol><ul><li>ES6\u652F\u6301\u4E8C\u8FDB\u5236\u548C\u516B\u8FDB\u5236\u7684\u5B57\u9762\u91CF\uFF0C\u901A\u8FC7\u5728\u6570\u5B57\u524D\u9762\u589E\u52A00o\u6216\u80050O\u53EF\u4EE5\u5C06\u6570\u5B57\u8F6C\u6362\u4E3A\u516B\u8FDB\u5236\u3002</li></ul><ol start="6"><li>\u5141\u8BB8\u5728\u5BF9\u8C61\u4E2D\u4F7F\u7528super\u65B9\u6CD5</li></ol><p>super\u65B9\u6CD5\u5E94\u8BE5\u90FD\u4E0D\u964C\u751F\uFF0C\u5728java\u4E2D\u7528\u6765\u4EE3\u8868\u8C03\u7528\u7236\u7C7B\u7684\u6784\u9020\u51FD\u6570\u3002\u7531\u4E8Ejs\u4E0D\u662F\u9762\u5411\u5BF9\u8C61\u8BED\u8A00\uFF0C\u6240\u4EE5\u4E5F\u6CA1\u6709\u7EE7\u627F\u8FD9\u4EE5\u8BF4\u6CD5\u3002\u4F46\u662F\u5728ES6\u4E2D\uFF0C\u53EF\u4EE5\u901A\u8FC7\u8C03\u7528setPrototypeOf()\u65B9\u6CD5\u6765\u8BBE\u7F6E\u4E00\u4E2A\u5BF9\u8C61\u7684prototype\u5BF9\u8C61\uFF0C\u4E0E\u9762\u5411\u5BF9\u8C61\u8BED\u8A00\u4E2D\u7684\u7EE7\u627F\u6709\u76F8\u4F3C\u4E4B\u5904\uFF0C\u6240\u4EE5\u4E5F\u53EF\u4EE5\u7406\u89E3\u6210\u8FD9\u662Fjs\u4E2D\u7528\u6765\u5B9E\u73B0\u7EE7\u627F\u7684\u65B9\u6CD5\u3002</p><ol start="7"><li>\u8FED\u4EE3\u5668iterator\u3001for...of\u548Cfor...in</li></ol><p>\u5EFA\u8BAE\u5148\u53BB\u4E86\u89E3\u4E00\u4E0Biterator\uFF0C\u4F5C\u7528\u5982\u4E0B\uFF1A</p><ul><li><p>\u4E3A\u5404\u79CD\u6570\u636E\u63D0\u4F9B\u7EDF\u4E00\u7684\uFF0C\u7B80\u4FBF\u7684\u8BBF\u95EE\u63A5\u53E3</p></li><li><p>\u4F7F\u6570\u636E\u7ED3\u6784\u7684\u6210\u5458\u80FD\u6309\u67D0\u79CD\u6B21\u5E8F\u6392\u5217</p></li><li><p>\u4E3B\u8981\u4F9Bfor...of\u7528</p></li><li><p>for\u2026in \u8BED\u53E5\u4EE5\u539F\u59CB\u63D2\u5165\u987A\u5E8F\u8FED\u4EE3\u5BF9\u8C61\u7684\u53EF\u679A\u4E3E\u5C5E\u6027\uFF0C\u7B80\u5355\u7406\u89E3\u5C31\u662Ffor...in\u662F\u7528\u6765\u5FAA\u73AF\u904D\u5386\u5C5E\u6027\uFF0C\u904D\u5386\u51FA\u7684\u662F\u81EA\u8EAB\u548C\u539F\u578B\u4E0A\u7684\u53EF\u679A\u4E3E\u975Esymbol\u5C5E\u6027\uFF0C\u4F46\u662F\u904D\u5386\u4E0D\u4E00\u5B9A\u6309\u7167\u987A\u5E8F\uFF08tips\uFF1Afor...in\u5728ES5\u4E2D\u5C31\u5DF2\u7ECF\u51FA\u73B0\u4E86\uFF09</p></li><li><p>for\u2026of \u8BED\u53E5\u904D\u5386\u53EF\u8FED\u4EE3\u5BF9\u8C61\u5B9A\u4E49\u8981\u8FED\u4EE3\u7684\u6570\u636E\uFF0C\u4E5F\u5C31\u662F\u8BF4\uFF0Cfor...of\u53EA\u53EF\u4EE5\u5FAA\u73AF\u53EF\u8FED\u4EE3\u5BF9\u8C61\u7684\u53EF\u8FED\u4EE3\u5C5E\u6027\uFF0C\u4E0D\u53EF\u8FED\u4EE3\u5C5E\u6027\u5728\u5FAA\u73AF\u4E2D\u88AB\u5FFD\u7565\u4E86\u3002\uFF08tips\uFF1Afor...of\u662FES6\u624D\u63D0\u51FA\u6765\u7684\uFF09</p></li></ul><ol start="8"><li>Module</li></ol><p>\u5728ES6\u7684module\u4E4B\u524D\uFF0C\u6BD4\u8F83\u6D41\u884C\u7684\u6A21\u5757\u52A0\u8F7D\u65B9\u6848\u6709:CommonJS\u548CAMD\uFF0C\u524D\u8005\u7528\u4E8E\u670D\u52A1\u5668\uFF08node)\uFF0C\u540E\u8005\u7528\u4E8E\u6D4F\u89C8\u5668\u3002</p><p>\u533A\u522B\uFF1A</p><ul><li>CommondJS\u548CAMD\u662F\u8FD0\u884C\u65F6\u52A0\u8F7D\u7684\u3002</li><li>module\u662F\u7F16\u8BD1\u65F6\u52A0\u8F7D\u7684\u3002</li><li>CommondJS\u8F93\u51FA\u7684\u662F\u503C\u7684\u590D\u5236\uFF0C\u800CES6\u8F93\u51FA\u7684\u662F\u503C\u7684\u5F15\u7528</li></ul><p>\u5176\u4E2D\u547D\u4EE4\u6709\uFF1Aexport\u3001import \u3001export default</p><ul><li>export\u7528\u4E8E\u5BF9\u5916\u8F93\u51FA\u672C\u6A21\u5757\uFF08\u4E00\u4E2A\u6587\u4EF6\u53EF\u4EE5\u7406\u89E3\u4E3A\u4E00\u4E2A\u6A21\u5757\uFF09\u53D8\u91CF\u7684\u63A5\u53E3\uFF0C\u901A\u8FC7export\u65B9\u5F0F\u5BFC\u51FA\uFF0C\u5728\u5BFC\u5165\u65F6\u8981\u52A0{ }\uFF0Cexport default\u5219\u4E0D\u9700\u8981</li><li>import\u7528\u4E8E\u5728\u4E00\u4E2A\u6A21\u5757\u4E2D\u52A0\u8F7D\u53E6\u4E00\u4E2A\u542B\u6709export\u63A5\u53E3\u7684\u6A21\u5757\u3002</li><li>\u4F7F\u7528export default\u547D\u4EE4\uFF0C\u4E3A\u6A21\u5757\u6307\u5B9A\u9ED8\u8BA4\u8F93\u51FA\uFF0C\u8FD9\u6837\u5C31\u4E0D\u9700\u8981\u77E5\u9053\u6240\u8981\u52A0\u8F7D\u6A21\u5757\u7684\u53D8\u91CF\u540D\uFF08\u53EF\u81EA\u5B9A\u4E49\u5F15\u7528\uFF09\u3002</li></ul><!--]-->`);
 }
-const _sfc_setup$L = _sfc_main$L.setup;
-_sfc_main$L.setup = (props, ctx) => {
+const _sfc_setup$E = _sfc_main$E.setup;
+_sfc_main$E.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/interview/JSinterview.html.vue");
-  return _sfc_setup$L ? _sfc_setup$L(props, ctx) : void 0;
+  return _sfc_setup$E ? _sfc_setup$E(props, ctx) : void 0;
 };
-var JSinterview_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$L, [["ssrRender", _sfc_ssrRender$x]]);
+var JSinterview_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$E, [["ssrRender", _sfc_ssrRender$q]]);
 var JSinterview_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": JSinterview_html$1
 });
-const _sfc_main$K = {};
-function _sfc_ssrRender$w(_ctx, _push, _parent, _attrs) {
+const _sfc_main$D = {};
+function _sfc_ssrRender$p(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h1 id="vue\u9762\u8BD5" tabindex="-1"><a class="header-anchor" href="#vue\u9762\u8BD5" aria-hidden="true">#</a> VUE\u9762\u8BD5</h1><h2 id="_1-vue\u7684\u751F\u547D\u5468\u671F" tabindex="-1"><a class="header-anchor" href="#_1-vue\u7684\u751F\u547D\u5468\u671F" aria-hidden="true">#</a> 1.vue\u7684\u751F\u547D\u5468\u671F</h2><h4 id="_1-1\u5404\u4E2A\u751F\u547D\u5468\u671F" tabindex="-1"><a class="header-anchor" href="#_1-1\u5404\u4E2A\u751F\u547D\u5468\u671F" aria-hidden="true">#</a> 1.1\u5404\u4E2A\u751F\u547D\u5468\u671F</h4><ol><li>beforeCreate\uFF08\u521B\u5EFA\u524D\uFF09:\u7EC4\u4EF6\u5B9E\u4F8B\u88AB\u521B\u5EFA\u4E4B\u521D\uFF0C\u7EC4\u4EF6\u7684\u5C5E\u6027\u751F\u6548\u4E4B\u524D\u3002</li><li>created\uFF08\u521B\u5EFA\u540E\uFF09:\u7EC4\u4EF6\u5B9E\u4F8B\u5DF2\u7ECF\u5B8C\u5168\u521B\u5EFA\uFF0C\u5C5E\u6027\u4E5F\u7ED1\u5B9A\uFF0C\u4F46\u771F\u5B9Edom\u8FD8\u6CA1\u6E32\u67D3\u3002$el\u4E0D\u53EF\u7528\u3002</li><li>beforeMount\uFF08\u6302\u8F7D\u524D\uFF09:\u5728\u6302\u8F7D\u5F00\u59CB\u4E4B\u524D\u88AB\u8C03\u7528\uFF1A\u76F8\u5173\u7684render\u51FD\u6570\u9996\u6B21\u88AB\u8C03\u7528\u3002</li><li>mounted\uFF08\u6302\u8F7D\u540E\uFF09:\u5728el\u88AB\u65B0\u521B\u5EFA\u7684vm.$el\u66FF\u6362\uFF0C\u5E76\u6302\u8F7D\u5230\u5B9E\u4F8B\u4E0A\u53BB\u4E4B\u540E\u8C03\u7528\u8BE5\u94A9\u5B50\u3002</li><li>beforeUpdate\uFF08\u66F4\u65B0\u524D\uFF09:\u7EC4\u4EF6\u6570\u636E\u66F4\u65B0\u4E4B\u524D\u8C03\u7528\uFF0C\u771F\u5B9Edom\u8FD8\u6CA1\u88AB\u66F4\u65B0\u6E32\u67D3\u3002</li><li>update\uFF08\u66F4\u65B0\u540E\uFF09:\u7EC4\u4EF6\u6570\u636E\u66F4\u65B0\u540E\u3002</li><li>activated\uFF08\u6FC0\u6D3B\u524D\uFF09:keey-alive\u4E13\u5C5E\uFF0C\u7EC4\u4EF6\u88AB\u6FC0\u6D3B\u65F6\u8C03\u7528\u3002</li><li>deactivated\uFF08\u6FC0\u6D3B\u540E\uFF09:keey-alive\u4E13\u5C5E\uFF0C\u7EC4\u4EF6\u88AB\u9500\u6BC1\u65F6\u8C03\u7528\u3002</li><li>beforeDestory\uFF08\u9500\u6BC1\u524D\uFF09:\u7EC4\u4EF6\u9500\u6BC1\u65F6\u8C03\u7528\u3002</li><li>destoryed\uFF08\u9500\u6BC1\u540E\uFF09:\u7EC4\u4EF6\u9500\u6BC1\u524D\u8C03\u7528\u3002</li></ol><h4 id="_1-2\u7EC4\u4EF6\u6267\u884C\u987A\u5E8F" tabindex="-1"><a class="header-anchor" href="#_1-2\u7EC4\u4EF6\u6267\u884C\u987A\u5E8F" aria-hidden="true">#</a> 1.2\u7EC4\u4EF6\u6267\u884C\u987A\u5E8F</h4><p>\u4F60\u770B\u5B8C\u4E0A\u9762\u5E94\u8BE5\u77E5\u9053\u751F\u547D\u5468\u671F\u51FD\u6570\u5927\u6982\u6267\u884C\u987A\u5E8F\u4E86\u5427\u3002\u8FD9\u91CC\u53EA\u8BF4\u7236\u5B50\u7EC4\u4EF6\u5173\u7CFB\u5176\u751F\u547D\u5468\u671F\u7684\u6267\u884C\u987A\u5E8F\u3002</p><ul><li><code>\u52A0\u8F7D\u6E32\u67D3\u8FC7\u7A0B</code>\uFF1AbeforeCreate(\u7236) \u2014&gt; created(\u7236)\u2014&gt;beforeMount(\u7236)\u2014&gt;beforeCreate(\u5B50)\u2014&gt;created(\u5B50)\u2014&gt;beforeMount(\u5B50)\u2014&gt;mounted(\u5B50)\u2014&gt;mounted(\u7236)</li><li>beforeCreate(\u7236) \u2014&gt; created(\u7236)\u2014&gt;beforeMount(\u7236)\u2014&gt;beforeCreate(\u5B50)\u2014&gt;created(\u5B50)\u2014&gt;beforeMount(\u5B50)\u2014&gt;mounted(\u5B50)\u2014&gt;mounted(\u7236)</li><li>\u9500\u6BC1\u8FC7\u7A0B\uFF1AbeforeDestory(\u7236) \u2014&gt; beforeDestory(\u5B50) \u2014&gt; destoryed(\u5B50) \u2014&gt; destoryed(\u7236)</li></ul><h4 id="_1-3\u6BCF\u4E2A\u751F\u547D\u5468\u671F\u8BE6\u89E3" tabindex="-1"><a class="header-anchor" href="#_1-3\u6BCF\u4E2A\u751F\u547D\u5468\u671F\u8BE6\u89E3" aria-hidden="true">#</a> 1.3\u6BCF\u4E2A\u751F\u547D\u5468\u671F\u8BE6\u89E3</h4><p>\u4E0B\u9762\u662F\u6781\u7B80\u5199\u6CD5\uFF0C\u751A\u81F3\u5FFD\u7565\u4E00\u4E9B\u4E1C\u897F\uFF1A</p><ol><li>beforeCreate\uFF1Anew\u4E00\u4E2Avue\u5B9E\u4F8B\uFF0C\u5565\u90FD\u6CA1\u6709\u3002</li><li>created\uFF1Adata\u548Cmethods\u521D\u59CB\u5316\u5B8C\u6210\uFF0C\u4F46\u662F\u6CA1\u6709el\u3002</li><li>beforeMount:\u865A\u62DFdom\u5DF2\u7ECF\u7F16\u8BD1\u597D\uFF0C\u4F46\u8FD8\u6CA1\u6302\u8F7D\u5230\u9875\u9762\u4E0A\u3002</li><li>mouted\uFF1A\u9875\u9762\u521D\u59CB\u5316\u5B8C\u6210\u3002</li></ol><p>\u4E0A\u9762\u4E3A\u91CD\u70B9</p><ol start="5"><li>beforeUpdate\uFF1A\u6B64\u65F6data\u662F\u66F4\u65B0\u540E\u7684\u6570\u636E\uFF0C\u4F46\u9875\u9762\u8FD8\u662F\u65E7\u7684\uFF0C\u8FD8\u6CA1\u6709\u540C\u6B65\u3002</li><li>update\uFF1A\u66F4\u65B0\u9875\u9762\u548Cdata\u6570\u636E\u4FDD\u5B58\u540C\u6B65\u3002</li><li>beforeDestory\uFF1A\u9500\u6BC1\u9636\u6BB5\uFF0C\u6B64\u65F6data\u548Cmethods\u4F9D\u7136\u53EF\u7528\u3002</li><li>destory\uFF1A\u7EC4\u4EF6\u9500\u6BC1\uFF0C\u4E0D\u53EF\u7528\u3002</li></ol><h4 id="_1-4-keey-alive\u7684activated\u548Cdeactivated" tabindex="-1"><a class="header-anchor" href="#_1-4-keey-alive\u7684activated\u548Cdeactivated" aria-hidden="true">#</a> 1.4 keey-alive\u7684activated\u548Cdeactivated</h4><ul><li>\u5982\u679C\u52A0\u5165keey-alive: \u7B2C\u4E00\u6B21\u52A0\u8F7D\u65F6\uFF0C\u4F1A\u989D\u5916\u6267\u884Cactivated\u3002 \u540E\u7EED\u518D\u8FDB\u5165\uFF1A\u53EA\u6267\u884Cactivated</li></ul><h4 id="_1-5-\u8C08\u8C08\u4F60\u5BF9keey-alive\u7684\u7406\u89E3" tabindex="-1"><a class="header-anchor" href="#_1-5-\u8C08\u8C08\u4F60\u5BF9keey-alive\u7684\u7406\u89E3" aria-hidden="true">#</a> 1.5 \u8C08\u8C08\u4F60\u5BF9keey-alive\u7684\u7406\u89E3</h4><p>\u4F5C\u7528\uFF1A\u7F13\u5B58\u7EC4\u4EF6\u8FBE\u5230\u63D0\u9AD8\u6027\u80FD\uFF0C\u4F46\u4F60\u91CD\u65B0\u6253\u5F00\u7EC4\u4EF6\u65F6\uFF0C\u5B83\u4F1A\u7F13\u5B58\u4E0A\u4E00\u6B21\u6253\u5F00\u65F6\u7684\u72B6\u6001\u3002</p><p>\u4F8B\u5982\uFF1A\u5217\u8868\u83DC\u5355\u70B9\u51FB\u4F1A\u8DF3\u8F6C\u8BE6\u60C5\u9875\uFF0C\u5F53\u4F60\u7F13\u5B58\u65F6\u5B83\u53EF\u4EE5\u51CF\u5C11\u91CD\u590D\u8BF7\u6C42\u4FE1\u606F\u3002</p><h2 id="_2-v-if\u548Cv-show\u7684\u533A\u522B" tabindex="-1"><a class="header-anchor" href="#_2-v-if\u548Cv-show\u7684\u533A\u522B" aria-hidden="true">#</a> 2.v-if\u548Cv-show\u7684\u533A\u522B</h2><p>v-if\uFF1A\u63A7\u5236dom\u662F\u5426\u521B\u5EFA\uFF0C\u9891\u7E41\u5207\u6362\u65F6\u4E0D\u63A8\u8350\u9891\u7E41\u66F4\u65B0dom\u3002 v-show\uFF1Adom\u5143\u7D20\u4F1A\u521B\u5EFA\uFF0C\u53EA\u662F\u63A7\u5236display:none(\u4E0D\u53EF\u89C1),blok(\u663E\u793A)\u3002</p><h2 id="_2-v-if\u548Cv-for\u7684\u4F18\u5148\u7EA7" tabindex="-1"><a class="header-anchor" href="#_2-v-if\u548Cv-for\u7684\u4F18\u5148\u7EA7" aria-hidden="true">#</a> 2.v-if\u548Cv-for\u7684\u4F18\u5148\u7EA7</h2><p>v-for\u4F18\u5148\u7EA7\u6BD4v-if\u9AD8</p><h2 id="_3-ref\u662F\u4EC0\u4E48" tabindex="-1"><a class="header-anchor" href="#_3-ref\u662F\u4EC0\u4E48" aria-hidden="true">#</a> 3.ref\u662F\u4EC0\u4E48\uFF1F</h2><p>ref\u7C7B\u4F3C\u4E8E\u4E00\u4E2A\u5173\u952E\u5B57\uFF0C\u7528\u6765\u83B7\u53D6dom\u3002\uFF08\u901A\u8FC7<code>this.refs.\u5173\u952E\u5B57</code>\u6765\u83B7\u53D6dom\u5143\u7D20\uFF09</p><h2 id="_4-nexttick\u662F\u4EC0\u4E48" tabindex="-1"><a class="header-anchor" href="#_4-nexttick\u662F\u4EC0\u4E48" aria-hidden="true">#</a> 4.nextTick\u662F\u4EC0\u4E48\uFF1F</h2><p>dom\u66F4\u65B0\u540E\u7684\u56DE\u8C03\u51FD\u6570\u3002\u4E3B\u8981\u4F5C\u7528\u4E8E\u83B7\u53D6\u66F4\u65B0\u540E\u7684\u6570\u636E\uFF08\u5F02\u6B65\uFF09\u3002</p><h2 id="_5-scoped\u539F\u7406" tabindex="-1"><a class="header-anchor" href="#_5-scoped\u539F\u7406" aria-hidden="true">#</a> 5.scoped\u539F\u7406</h2><p>\u4F5C\u7528\uFF1A\u4F7F\u7528scoped\u8BA9CSS\u53EA\u4F5C\u7528\u4E8E\u5F53\u524D\u7EC4\u4EF6\u5143\u7D20\u3002</p><ul><li>\u539F\u7406\uFF1A\u7ED9HTML\u7684DOM\u8282\u70B9\u52A0\u4E00\u4E2A\u4E0D\u91CD\u590Ddata\u5C5E\u6027(\u5F62\u5982\uFF1Adata-v-2311c06a)\u6765\u8868\u793A\u4ED6\u7684\u552F\u4E00\u6027\u3002</li><li>\u5728\u6BCF\u53E5css\u9009\u62E9\u5668\u7684\u672B\u5C3E\uFF08\u7F16\u8BD1\u540E\u7684\u751F\u6210\u7684css\u8BED\u53E5\uFF09\u52A0\u4E00\u4E2A\u5F53\u524D\u7EC4\u4EF6\u7684data\u5C5E\u6027\u9009\u62E9\u5668\u7684\u54C8\u5E0C\u7279\u5F81\u503C\uFF08\u5982[data-v-2311c06a]\uFF09\u6765\u79C1\u6709\u5316\u6837\u5F0F\u3002</li></ul><h2 id="_6-vue\u4E2D\u5982\u4F55\u505A\u6837\u5F0F\u7A7F\u900F" tabindex="-1"><a class="header-anchor" href="#_6-vue\u4E2D\u5982\u4F55\u505A\u6837\u5F0F\u7A7F\u900F" aria-hidden="true">#</a> 6.Vue\u4E2D\u5982\u4F55\u505A\u6837\u5F0F\u7A7F\u900F</h2><p>\u5F15\u5165\u5916\u90E8\u7EC4\u4EF6\u800C\u4E14\u4F7F\u7528\u4E86scoped\u65F6\u9700\u8981\u66F4\u6539\u6837\u5F0F\u65F6\u4F7F\u7528\u3002</p><p>1.scss\u6837\u5F0F\u7A7F\u900F</p><div class="language-css ext-css line-numbers-mode"><pre class="language-css"><code>\u7236\u5143\u7D20 /deep/\u5B50\u5143\u7D20
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>2.stylus\u6837\u5F0F\u7A7F\u900F</p><div class="language-css ext-css line-numbers-mode"><pre class="language-css"><code>\u7236\u5143\u7D20 /deep/\u5B50\u5143\u7D20
 <span class="token comment">/* stylus\u4E00\u822C\u7528\u4E0B\u9762 */</span>
@@ -5867,1028 +6940,65 @@ Object<span class="token punctuation">.</span><span class="token function">defin
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><h2 id="_16-diff\u7B97\u6CD5" tabindex="-1"><a class="header-anchor" href="#_16-diff\u7B97\u6CD5" aria-hidden="true">#</a> 16. diff\u7B97\u6CD5</h2><p>\u865A\u62DFdom\uFF08\u628Adom\u6570\u636E\u5316\uFF0C\u4FBF\u4E8E\u64CD\u4F5C\uFF09</p><p>diff\u7B97\u6CD5\u7684\u672C\u8D28\u662F\u627E\u51FA\u4E24\u4E2A\u5BF9\u8C61\u4E4B\u95F4\u7684\u5DEE\u5F02\uFF0C\u76EE\u7684\u662F\u5C3D\u53EF\u80FD\u590D\u7528\u8282\u70B9\u3002\u6B64\u5904\u8BF4\u5230\u7684\u5BF9\u8C61\u5176\u5B9E\u5C31\u5BF9\u5E94 vue\u4E2D\u7684 virtual dom,\u5373\u4F7F\u7528 js \u5BF9\u8C61\u6765\u8868\u793A\u9875\u9762\u4E2D\u7684 dom \u7ED3\u6784\u3002</p><p>\u7279\u70B9:</p><ul><li>\u6BD4\u8F83\u53EA\u4F1A\u5728\u540C\u5C42\u7EA7\u8FDB\u884C, \u4E0D\u4F1A\u8DE8\u5C42\u7EA7\u6BD4\u8F83</li><li>\u5728diff\u6BD4\u8F83\u7684\u8FC7\u7A0B\u4E2D\uFF0C\u5FAA\u73AF\u4ECE\u4E24\u8FB9\u5411\u4E2D\u95F4\u6BD4\u8F83</li></ul><p>\u6BD4\u8F83\u65B9\u5F0F:</p><ul><li>diff\u6574\u4F53\u7B56\u7565\u4E3A\uFF1A\u6DF1\u5EA6\u4F18\u5148\uFF0C\u540C\u5C42\u6BD4\u8F83</li></ul><!--]-->`);
 }
-const _sfc_setup$K = _sfc_main$K.setup;
-_sfc_main$K.setup = (props, ctx) => {
+const _sfc_setup$D = _sfc_main$D.setup;
+_sfc_main$D.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/interview/VUEinterview.html.vue");
-  return _sfc_setup$K ? _sfc_setup$K(props, ctx) : void 0;
+  return _sfc_setup$D ? _sfc_setup$D(props, ctx) : void 0;
 };
-var VUEinterview_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$K, [["ssrRender", _sfc_ssrRender$w]]);
+var VUEinterview_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$D, [["ssrRender", _sfc_ssrRender$p]]);
 var VUEinterview_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": VUEinterview_html$1
 });
-const _sfc_main$J = {};
-function _sfc_ssrRender$v(_ctx, _push, _parent, _attrs) {
+const _sfc_main$C = {};
+function _sfc_ssrRender$o(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h2 id="\u5154\u5B50\u4E0E\u661F\u661F" tabindex="-1"><a class="header-anchor" href="#\u5154\u5B50\u4E0E\u661F\u661F" aria-hidden="true">#</a> \u5154\u5B50\u4E0E\u661F\u661F</h2><p>\u5927\u5154\u5B50\u7279\u522B\u559C\u6B22\u591C\u665A\uFF0C\u56E0\u4E3A\u53EF\u4EE5\u4E00\u4E2A\u4EBA\u770B\u661F\u661F\uFF0C\u8FD8\u6CA1\u6709\u4EBA\u6253\u6270\u4ED6\u3002\u4ED6\u6BCF\u5929\u665A\u4E0A\u90FD\u5BF9\u7740\u661F\u661F\u8BF4\u5FC3\u91CC\u8BDD\uFF0C\u5C0F\u661F\u661F\u4E5F\u4F1A\u548C\u4ED6\u8BF4\u6084\u6084\u8BDD\u3002</p><p>\u6709\u4E00\u5929\u5C0F\u661F\u661F\u544A\u8BC9\u5927\u5154\u5B50\uFF1A\u7B49\u4F1A\u4F1A\u6709\u6D41\u661F\u96E8\u54E6\uFF0C\u4F60\u53EF\u4EE5\u5BF9\u7740\u5B83\u4EEC\u8BB8\u4E2A\u613F\uFF0C\u68A6\u60F3\u4E00\u5B9A\u4F1A\u5B9E\u73B0\u7684\uFF01\u5927\u5154\u5B50\u5F00\u5FC3\u7684\u50CF\u4E2A\u5B9D\u5B9D\uFF0C\u4ED6\u6709\u65E0\u6570\u4E2A\u613F\u671B\u60F3\u8981\u5B9E\u73B0\uFF0C\u4E8E\u662F\u5462\uFF0C\u4ED6\u5C31\u5F00\u59CB\u4E00\u6761\u6761\u5217\u51FA\u4ED6\u7684\u613F\u671B\u7B49\u5F85\u6D41\u661F\u96E8\u7684\u5230\u6765.....</p><p>\u5927\u5154\u5B50\u5C31\u5750\u5728\u90A3\u91CC\u7B49\u554A\u7B49\uFF0C\u6708\u4EAE\u90FD\u5FEB\u5230\u5934\u9876\u4E86\uFF0C\u5927\u767D\u5154\u4E5F\u5F00\u59CB\u72AF\u8FF7\u7CCA\u3002\u549A \u5927\u767D\u5154\u56F0\u7684\u4E00\u5934\u624E\u5230\u4E86\u8349\u5730\u91CC\u3002\u661F\u661F\u5728\u4E00\u65C1\u5077\u5077\u7684\u7B11\uFF0C\u5C31\u8FD9\u8FD9\u4E2A\u65F6\u5019\u6D41\u661F\u96E8\u6765\u4E86\uFF0C\u5C0F\u661F\u661F\u8D76\u5FEB\u53EB\u5927\u5154\u5B50\u9192\u6765\uFF0C\u600E\u4E48\u53EB\u5C31\u662F\u53EB\u4E0D\u9192\uFF0C\u8FD9\u6025\u6B7B\u5C0F\u661F\u661F\u4E86\uFF0C\u4F46\u662F\u4E5F\u6CA1\u6709\u529E\u6CD5\uFF0C\u5982\u679C\u5C0F\u661F\u661F\u6254\u4E00\u5C0F\u5757\u77F3\u5934\u7838\u5979\u7684\u8BDD\u4ED6\u5C31\u53D8\u6210\u5154\u5B50\u997C\u4E86.....</p><p>\u5C0F\u661F\u661F\u5C31\u4E00\u76F4\u53EB\u5927\u5154\u5B50\uFF0C\u4E00\u76F4\u53EB\u554A\u53EB\uFF0C\u5927\u5154\u5B50\u54D7\u7684\u4E00\u4E0B\u9192\u6765\u4E86\uFF0C\u4ED6\u4EE5\u4E3A\u81EA\u5DF1\u521A\u7761\u7740\uFF0C\u5176\u5B9E\u6D41\u661F\u96E8\u5DF2\u7ECF\u8FC7\u53BB\u4E00\u5927\u534A\u4E86\uFF01</p><p>\u5927\u767D\u5154\u614C\u91CC\u614C\u5F20\u7684\u95ED\u4E0A\u773C\u775B\u8BF4\u51FA\u4ED6\u7684\u613F\u671B\uFF0C\u6211\u60F3\u5B66\u4F1A\u5F39\u94A2\u7434\uFF0C\u6211\u60F3\u5B66\u4F1A\u505A\u597D\u5403\u7684\uFF0C\u6211\u60F3\u62E5\u6709\u6700\u597D\u5403\u7684\u80E1\u841D\u535C\uFF0C\u6211\u60F3\u53D8\u6210\u5154\u5B50\u754C\u7B2C\u4E00\u9996\u5BCC\uFF0C\u6211\u60F3\u62E5\u6709\u4E00\u4E2A\u5927\u679C\u56ED\u81EA\u5DF1\u53EF\u4EE5\u968F\u65F6\u5403\u5230\u7684\u90A3\u79CD\uFF01\u6211\u60F3.......</p><p>\u5C31\u8FD9\u6837\uFF0C\u5927\u5154\u5B50\u5C31\u50CF\u673A\u5173\u67AA\u4E00\u6837\uFF0C\u6709\u8BF4\u4E0D\u5B8C\u7684\u613F\u671B\u3002\u6709\u4E00\u9897\u5C0F\u6D41\u661F\u98DE\u8FC7\uFF0C\u544A\u8BC9\u5927\u5154\u5B50\uFF0C\u4F60\u8BF4\u7684\u90A3\u4E9B\u592A\u7269\u8D28\u4E86\uFF0C\u90A3\u4E9B\u8981\u9760\u4F60\u81EA\u5DF1\u53BB\u52AA\u529B\u624D\u53EF\u5F97\u5230\uFF0C\u4F60\u8981\u81EA\u5DF1\u5F88\u8BA4\u771F\u7684\u60F3\u4E00\u4E2A\u5FC3\u613F\uFF0C\u6211\u4F1A\u5C3D\u529B\u5E2E\u4F60\u5B9E\u73B0\u7684\uFF01\u5927\u5154\u5B50\u95ED\u4E0A\u773C\u775B\uFF0C\u53CC\u624B\u5408\u5341\u3002\u201C\u90A3\u5C31\u8BF7\u4F60\u544A\u8BC9\u5979\uFF0C\u6211\u60F3\u5979\u4E86\u201D\u5C0F\u6D41\u661F\u7B11\u4E86\u7B11\u4FDD\u8BC1\u5B8C\u6210\u4EFB\u52A1\u54E6\uFF5E</p><p>\u90A3\u5929\u7684\u665A\u4E0A\uFF0C\u8FDC\u5728\u4ED6\u4E61\u7684\u5C0F\u767D\u5154\u5728\u68A6\u4E61\u91CC\u89C1\u5230\u4E86\u5979\u7231\u7684\u5927\u5154\u5B50\uFF5E</p><h2 id="\u5929\u4E0A\u7684\u661F\u661F" tabindex="-1"><a class="header-anchor" href="#\u5929\u4E0A\u7684\u661F\u661F" aria-hidden="true">#</a> \u5929\u4E0A\u7684\u661F\u661F</h2><p>\u5154\u5154\u8981\u51FA\u4E00\u8D9F\u5F88\u4E45\u5F88\u4E45\u7684\u8FDC\u95E8\u4E86\u3002</p><p>\u732A\u732A\u81EA\u4ECE\u542C\u5230\u8FD9\u4E2A\u6D88\u606F\u5C31\u975E\u5E38\u96BE\u8FC7\uFF0C\u4ED6\u820D\u4E0D\u5F97\u5154\u5154\u79BB\u5F00\u3002\u54EA\u6015\u5C31\u4E00\u5929\u4E24\u5929\u90FD\u820D\u4E0D\u5F97\uFF0C\u66F4\u4F55\u51B5\uFF0C\u8FD9\u6B21\u7684\u5206\u5F00\u8FDC\u8FDC\u8D85\u8FC7\u8FD9\u4E2A\u6570\u76EE\u3002</p><p>\u4ED6\u867D\u7136\u8FD8\u662F\u6BCF\u5929\u90FD\u5728\u7ED9\u5154\u5154\u505A\u559C\u6B22\u5403\u7684\u4E1C\u897F\uFF0C\u8FD8\u662F\u5728\u54C4\u5154\u5154\u5F00\u5FC3\u3002\u53EF\u4ED6\u7684\u5FE7\u6101\u5199\u5728\u4E86\u5C0F\u5C0F\u7684\u773C\u775B\u91CC\uFF0C\u4ED6\u820D\u4E0D\u5F97\u5154\u5154\u8D70\u3002</p><p>\u53EF\u662F\u5154\u5154\u5DF2\u7ECF\u51B3\u5B9A\u4E86\u8981\u51FA\u53BB\uFF0C\u5C0F\u732A\u732A\u652F\u6301\u5154\u5154\u7684\u4E00\u5207\u505A\u6CD5\u3002\u732A\u732A\u6BCF\u5929\u90FD\u76D8\u7B97\u7740\u65E5\u5B50\uFF0C\u4ED6\u544A\u8BC9\u81EA\u5DF1\uFF0C\u53EA\u8981\u6709\u7231\u5728\uFF0C\u9694\u5C71\u8DDD\u6D77\uFF0C\u65E5\u5B50\u4E5F\u90FD\u4E0D\u4F1A\u592A\u96BE\u8FC7\u7684\u3002</p><p>\u54EA\u6015\u5C0F\u732A\u732A\u65E0\u6BD4\u73CD\u60DC\u6D41\u901D\u7684\u6BCF\u5206\u949F\uFF0C\u8DDD\u79BB\u5C0F\u5154\u5154\u8D70\u7684\u65F6\u95F4\u4E5F\u8D8A\u6765\u8D8A\u8FD1\u4E86\u3002\u5C0F\u732A\u732A\u5F00\u59CB\u7761\u4E0D\u7740\u89C9\uFF0C\u5403\u4E0D\u4E0B\u996D\u3002\u4ED6\u53EA\u60F3\u65E0\u65F6\u65E0\u523B\u7684\u76EF\u7740\u5154\u5154\u3002\u54EA\u6015\u8EBA\u5728\u5E8A\u4E0A\uFF0C\u4ED6\u4E5F\u4F1A\u6402\u7740\u5154\u5B50\uFF0C\u501F\u7740\u6708\u5149\uFF0C\u770B\u7740\u5154\u5154\u4FA7\u8EBA\u5728\u5E8A\u4E0A\u7684\u5A07\u4FCF\u6A21\u6837\u3002\u732A\u732A\u600E\u4E48\u53EF\u80FD\u820D\u5F97\u5154\u5154\u79BB\u5F00\u5462\u3002</p><p>\u5154\u5154\u4E5F\u53D1\u73B0\u4E86\u732A\u732A\u7684\u4E0D\u5BF9\u52B2\u3002\u4ED6\u867D\u7136\u6BCF\u5929\u90FD\u8FD8\u5728\u5C06\u989C\u6B22\u7B11\uFF0C\u53EF\u662F\u5154\u5154\u5374\u770B\u4E0D\u89C1\u4ED6\u5403\u996D\uFF0C\u53EA\u80FD\u770B\u89C1\u4ED6\u8D8A\u6765\u8D8A\u6DF1\u9083\u7684\u9ED1\u773C\u5708\uFF0C\u5154\u5154\u5F88\u5FC3\u75BC\u3002</p><p>\u201C\u732A\uFF0C\u4F60\u522B\u6015\u554A\uFF0C\u6211\u4F1A\u4E00\u76F4\u559C\u6B22\u4F60\u7684\u3002\u201D\u5C0F\u5154\u5154\u770B\u7740\u7ED9\u81EA\u5DF1\u7AEF\u83DC\u7684\u5C0F\u732A\uFF0C\u8BF4\u3002</p><p>\u201C\u50BB\u74DC\uFF0C\u6211\u4E0D\u662F\u6015\u4F60\u4E0D\u559C\u6B22\u6211\u4E86\u3002\u6211\u5BB3\u6015\u6211\u4E0D\u80FD\u4FDD\u62A4\u4F60\uFF0C\u5BB3\u6015\u4E0D\u80FD\u966A\u7740\u4F60\u3002\u6211\u5BB3\u6015\u6211\u60F3\u62B1\u4F60\u7684\u65F6\u5019\uFF0C\u8EAB\u8FB9\u6CA1\u6709\u4F60\uFF1B\u6211\u66F4\u5BB3\u6015\uFF0C\u4F60\u8EAB\u8FB9\u6709\u5F88\u591A\u4E2A\u6211\u3002\u201D\u732A\u732A\u62B1\u7740\u5C0F\u5154\u5B50\uFF0C\u7528\u529B\u628A\u5979\u6402\u5728\u6000\u91CC\u3002</p><p>\u201C\u522B\u778E\u8BF4\uFF01\u50BB\u732A\uFF0C\u4F60\u62AC\u5934\u770B\u661F\u661F\uFF0C\u5C31\u5934\u4E0A\u7684\u6700\u4EAE\u7684\u90A3\u4E00\u9897\u3002\u65E0\u8BBA\u6211\u4EEC\u76F8\u8DDD\u591A\u8FDC\uFF0C\u53EF\u662F\uFF0C\u5728\u5B83\u7684\u773C\u91CC\uFF0C\u6211\u4EEC\u90FD\u662F\u5728\u4E00\u8D77\u7684\u3002\u201D</p><p>\u201C\u732A\u732A\uFF0C\u6CA1\u6709\u51E0\u5929\u6211\u5C31\u8981\u8D70\u5566\uFF0C\u6211\u4E0D\u5E0C\u671B\u4F60\u6BCF\u5929\u90FD\u96BE\u8FC7\u3002\u65E2\u7136\u90FD\u662F\u65E2\u5B9A\u7684\u4E8B\u5B9E\uFF0C\u90A3\u4E3A\u4EC0\u4E48\uFF0C\u6211\u4EEC\u4E0D\u628A\u73B0\u5728\u4E24\u4E2A\u4EBA\u5F85\u5728\u4E00\u8D77\u7684\u65F6\u95F4\u8FC7\u7684\u66F4\u52A0\u5145\u5B9E\u7F8E\u6EE1\u5462\uFF1F\u201D\u5C0F\u5154\u5154\u5728\u732A\u732A\u7684\u6000\u91CC\uFF0C\u628A\u5934\u9760\u5728\u4E86\u4ED6\u7684\u5DF2\u7ECF\u7565\u5FAE\u6709\u4E9B\u6D88\u7626\u7684\u80A9\u8180\u4E0A\u3002</p><p>\u5C0F\u732A\u732A\u628A\u773C\u6CEA\u64E6\u5E72\uFF1A\u201C\u597D\u3002\u6211\u77E5\u9053\u8BE5\u600E\u4E48\u505A\u5566\u3002\u201D</p><p>\u201C\u65E0\u8BBA\u524D\u8DEF\u591A\u4E48\u6A21\u7CCA\uFF0C\u65E0\u8BBA\u76F8\u805A\u591A\u4E48\u9065\u8FDC\u3002\u6211\u90FD\u4F1A\u4E00\u76F4\u5728\u3002\u201D</p><p>\u201C\u6240\u7231\u9694\u5C71\u6D77\uFF0C\u5C71\u6D77\u7686\u53EF\u5E73\u3002\u201D</p><h2 id="\u82F9\u679C-\u667A\u6167\u679C" tabindex="-1"><a class="header-anchor" href="#\u82F9\u679C-\u667A\u6167\u679C" aria-hidden="true">#</a> \u82F9\u679C=\u667A\u6167\u679C</h2><p>\u5723\u7ECF\u4E0A\u8BF4\uFF0C\u4E0A\u5E1D\u521B\u9020\u4E86\u4E9A\u5F53\u548C\u590F\u5A03\u540E\uFF0C\u5B89\u6392\u4ED6\u4EEC\u5728\u4F0A\u7538\u56ED\u91CC\u751F\u6D3B\u3002\u4F0A\u7538\u56ED\u91CC\u6811\u6728\u5E38\u9752\uFF0C\u82B1\u8349\u5E38\u7EFF\uFF0C\u6709\u5404\u79CD\u5947\u73CD\u5F02\u679C\u548C\u98DE\u79BD\u8D70\u517D\u3002\u8FDB\u5165\u4F0A\u7538\u56ED\u7684\u7B2C\u4E00\u5929\uFF0C\u4E0A\u5E1D\u5C31\u8B66\u544A\u4E9A\u5F53\u548C\u590F\u5A03\u6240\u6709\u7684\u679C\u5B9E\u90FD\u53EF\u4EE5\u5403\uFF0C\u53EA\u6709\u667A\u6167\u6811\u7684\u8FC7\u662F\u4E0D\u53EF\u4EE5\u5403.</p><p>\u4E9A\u5F53\u548C\u590F\u5A03\u5F00\u59CB\u5F88\u542C\u8BDD\uFF0C\u4F46\u662F\u6CA1\u8FC7\u591A\u4E45\uFF0C\u5C31\u6709\u4E00\u6761\u9634\u9669\u7684\u6BD2\u86C7\u82B1\u8A00\u5DE7\u8BED\u5F15\u8BF1\u72EC\u81EA\u73A9\u800D\u7684\u590F\u5A03\u5077\u5403\u4E86\u667A\u6167\u6811\u7684\u679C\u5B50\uFF0C\u5929\u771F\u7684\u590F\u5A03\u53C8\u628A\u5403\u5269\u4E0B\u7684\u679C\u5B50\u7ED9\u4E86\u4E9A\u5F53\u3002\u4E8E\u662F\uFF0C\u4E9A\u5F53\u548C\u590F\u5A03\u5C31\u6709\u4E86\u667A\u6167\uFF0C\u4EBA\u7C7B\u5F00\u59CB\u6709\u4E86\u5584\u4E0E\u6076\u3002</p><p>\u82F9\u679C\u5728\u897F\u65B9\u8C61\u5F81\u7740\u7231\uFF0C\u4E9A\u5F53\u548C\u590F\u5A03\u5403\u7684\u201C\u7981\u679C\u201D\uFF0C\u5B9E\u9645\u4E0A\u5C31\u662F\u9752\u82F9\u679C\uFF0C\u5728\u4E0D\u8BE5\u5403\u7684\u65F6\u5019\u5403\u4E86\u5B83\uFF0C\u53D7\u5230\u4E0A\u5E1D\u7684\u60E9\u7F5A\u3002\u6CA1\u6709\u6210\u719F\u7684\u82F9\u679C\u7684\u5473\u9053\uFF0C\u53C8\u9178\u53C8\u6DA9\uFF0C\u6B63\u5982\u9752\u6DA9\u7684\u9752\u6625\u5982\u540C\u662F\u6CA1\u6709\u6210\u719F\u7684\u65F6\u5019\uFF0C\u4F60\u4E0D\u8981\u53BB\u5543\u5B83\u3002</p><p>\u82F9\u679C\u5C31\u6210\u4E86\u667A\u6167\u679C\u7684\u4EE3\u540D\u8BCD\uFF0C\u82F9\u679C\u4E5F\u6210\u4E86\u667A\u6167\u7684\u8C61\u5F81\u3002</p><h2 id="\u7B28\u7B28\u718A" tabindex="-1"><a class="header-anchor" href="#\u7B28\u7B28\u718A" aria-hidden="true">#</a> \u7B28\u7B28\u718A</h2><p>\u7B28\u7B28\u718A\u6765\u5230\u6CB3\u8FB9\uFF0C\u770B\u7740\u6CB3\u6C34\u91CC\u7684\u9C7C\uFF0C\u7B28\u7B28\u718A\u89C9\u5F97\u9C7C\u513F\u4EEC\u592A\u5E78\u798F\u4E86\uFF0C\u4E0D\u7528\u6355\u98DF\uFF0C\u5728\u6CB3\u6C34\u91CC\u81EA\u7531\u81EA\u5728\uFF0C\u771F\u5E78\u798F\u3002\u7B28\u7B28\u718A\u771F\u60F3\u53D8\u6210\u4E00\u6761\u9C7C\uFF0C\u4E00\u6761\u81EA\u7531\u81EA\u5728\u7684\u9C7C\u3002</p><p>\u7B28\u7B28\u718A\u8D70\u5728\u56DE\u5BB6\u7684\u8DEF\u4E0A\uFF0C\u4E0D\u5C0F\u5FC3\u649E\u5230\u4E86\u683C\u683C\u5DEB\uFF0C\u683C\u683C\u5DEB\u662F\u68EE\u6797\u91CC\u7684\u5DEB\u5A46\uFF0C\u683C\u683C\u5DEB\u65B0\u7814\u5236\u7684\u53D8\u8EAB\u836F\u6C34\u6D12\u5728\u4E86\u7B28\u7B28\u718A\u7684\u8EAB\u4E0A\uFF0C\u7B28\u7B28\u718A\u7ACB\u523B\u53D8\u6210\u4E86\u4E00\u6761\u9C7C\uFF0C\u53D8\u6210\u9C7C\u7684\u7B28\u7B28\u718A\u79BB\u5F00\u4E86\u6C34\u662F\u65E0\u6CD5\u6D3B\u4E0B\u53BB\u7684\uFF0C\u683C\u683C\u5DEB\u53EA\u597D\u628A\u7B28\u7B28\u718A\u653E\u5728\u6C34\u91CC\u3002</p><p>\u683C\u683C\u5DEB\u5BF9\u7B28\u7B28\u718A\u8BF4\uFF1A\u201C\u771F\u662F\u5BF9\u4E0D\u8D77\u7B28\u7B28\u718A\uFF0C\u4F60\u5148\u5728\u6CB3\u6C34\u91CC\u751F\u6D3B\uFF0C\u6211\u9A6C\u4E0A\u5C31\u56DE\u53BB\u7814\u5236\u89E3\u836F\uFF0C\u6211\u4F1A\u628A\u4F60\u53D8\u56DE\u6765\u7684\u3002\u201D</p><p>\u7B28\u7B28\u718A\u8BF4\uFF1A\u201C\u6CA1\u5173\u7CFB\uFF0C\u6211\u6B63\u597D\u53EF\u4EE5\u4EAB\u53D7\u4E00\u4E0B\u53D8\u6210\u9C7C\u7684\u751F\u6D3B\uFF0C\u4F60\u4E0D\u7528\u6025\u7740\u628A\u6211\u53D8\u56DE\u6765\u3002\u201D</p><p>\u683C\u683C\u5DEB\u628A\u53D8\u6210\u9C7C\u7684\u7B28\u7B28\u718A\u653E\u8FDB\u6CB3\u6C34\u91CC\u4E4B\u540E\uFF0C\u9A91\u7740\u626B\u628A\u6025\u5FD9\u56DE\u5BB6\u7814\u5236\u89E3\u836F\u53BB\u4E86\uFF0C\u7B28\u7B28\u718A\u9AD8\u5174\u7684\u5728\u6CB3\u6C34\u91CC\u6E38\u6765\u6E38\u53BB\uFF0C\u5F53\u4E00\u6761\u9C7C\u8FD9\u53EF\u662F\u7B28\u7B28\u718A\u7684\u68A6\u60F3\uFF0C\u73B0\u5728\u7EC8\u4E8E\u5B9E\u73B0\u4E86\u3002</p><p>\u7B28\u7B28\u718A\u6CA1\u6709\u6CE8\u610F\u5230\u5B83\u5DF2\u7ECF\u88AB\u4E00\u6761\u5927\u9C7C\u76EF\u4E0A\u4E86\uFF0C\u7B28\u7B28\u718A\u7A81\u7136\u611F\u5230\u773C\u524D\u4E00\u7247\u6F06\u9ED1\uFF0C\u539F\u6765\u81EA\u5DF1\u5DF2\u7ECF\u5728\u5927\u9C7C\u7684\u53E3\u91CC\u4E86\uFF0C\u7B28\u7B28\u718A\u8D81\u7740\u5927\u9C7C\u8FD8\u6CA1\u6709\u628A\u5634\u5408\u4E0A\u9003\u4E86\u51FA\u53BB\uFF0C\u7B28\u7B28\u718A\u4E0D\u65AD\u7684\u6E38\uFF0C\u51F6\u6076\u7684\u5927\u9C7C\u5728\u540E\u9762\u7D27\u8FFD\u4E0D\u820D\u3002</p><p>\u4E00\u4E2A\u5C0F\u6D77\u9A6C\u628A\u7B28\u7B28\u718A\u62FD\u8FDB\u4E86\u6D77\u85FB\u91CC\uFF0C\u5927\u9C7C\u600E\u4E48\u627E\u90FD\u627E\u4E0D\u5230\uFF0C\u53EA\u597D\u79BB\u5F00\uFF0C\u5C0F\u6D77\u9A6C\u544A\u8BC9\u7B28\u7B28\u718A\u8BF4\uFF1A\u201C\u5927\u9C7C\u5403\u5C0F\u9C7C\u8FD9\u662F\u89C4\u5F8B\uFF0C\u4E00\u5B9A\u8981\u5C0F\u5FC3\u90A3\u4E9B\u5927\u9C7C\uFF0C\u4E0D\u7136\u81EA\u5DF1\u4F1A\u88AB\u5403\u6389\u3002\u201D</p><p>\u7B28\u7B28\u718A\u5230\u5904\u4E1C\u8EB2\u897F\u85CF\uFF0C\u8FD9\u5B8C\u5168\u8DDF\u7B28\u7B28\u718A\u60F3\u8C61\u7684\u751F\u6D3B\u4E0D\u4E00\u6837\uFF0C\u5403\u7684\u98DF\u7269\u4E5F\u53D8\u6210\u4E86\u96BE\u5403\u7684\u6D77\u8349\u3002</p><p>\u8981\u77E5\u9053\u718A\u53EF\u662F\u4E00\u4E2A\u4E0D\u5403\u8349\u7684\u52A8\u7269\uFF0C\u73B0\u5728\u5374\u5929\u5929\u5403\u7740\u6D77\u8349\uFF0C\u7B28\u7B28\u718A\u6000\u5FF5\u8D77\u81EA\u5DF1\u4EE5\u524D\u505A\u5C0F\u718A\u7684\u65E5\u5B50\uFF0C\u53EF\u4EE5\u5403\u5230\u5F88\u591A\u7684\u7F8E\u98DF\uFF0C\u9999\u751C\u7684\u7CD5\u70B9\uFF0C\u60F3\u60F3\u5C31\u8BA9\u4EBA\u76F4\u6D41\u53E3\u6C34\u3002</p><p>\u7B28\u7B28\u718A\u60F3\u53D8\u56DE\u4E00\u53EA\u718A\uFF0C\u53EF\u662F\u683C\u683C\u5DEB\u7684\u89E3\u836F\u8FD8\u6CA1\u6709\u7814\u5236\u51FA\u6765\uFF0C\u7B28\u7B28\u718A\u4E0D\u613F\u610F\u518D\u5403\u90A3\u96BE\u5403\u7684\u6D77\u8349\uFF0C\u53EA\u597D\u997F\u7740\u809A\u5B50\uFF0C\u6B63\u5728\u7B28\u7B28\u718A\u997F\u7740\u809A\u5B50\u7684\u65F6\u5019\uFF0C\u4E00\u5757\u9762\u5305\u51FA\u73B0\u5728\u7B28\u7B28\u718A\u7684\u89C6\u7EBF\u91CC\uFF0C\u9762\u5305\u5728\u4E00\u4E2A\u74F6\u5B50\u91CC\uFF0C\u7B28\u7B28\u718A\u94BB\u8FDB\u74F6\u5B50\u91CC\uFF0C\u5F00\u5FC3\u7684\u5403\u8D77\u4E86\u9762\u5305\u3002</p><p>\u7B28\u7B28\u718A\u79BB\u5F00\u4E86\u6C34\u9762\uFF0C\u539F\u6765\u662F\u683C\u683C\u5DEB\u62FF\u9762\u5305\u8BF1\u60D1\u7B28\u7B28\u718A\u7684\uFF0C\u683C\u683C\u5DEB\u628A\u9B54\u6CD5\u836F\u6C34\u7684\u89E3\u836F\u6EF4\u5728\u4E86\u53D8\u6210\u9C7C\u7684\u7B28\u7B28\u718A\u8EAB\u4E0A\uFF0C\u7B28\u7B28\u718A\u53D8\u56DE\u4E86\u4E00\u53EA\u718A\uFF0C\u53EF\u662F\u7B28\u7B28\u718A\u5374\u5927\u54ED\u8D77\u6765\uFF0C\u683C\u683C\u5DEB\u5230\u73B0\u5728\u4E5F\u6CA1\u5F04\u6E05\u695A\u7B28\u7B28\u718A\u4E3A\u4EC0\u4E48\u4F1A\u54ED\u3002</p><h2 id="\u5C0F\u80A5\u732A" tabindex="-1"><a class="header-anchor" href="#\u5C0F\u80A5\u732A" aria-hidden="true">#</a> \u5C0F\u80A5\u732A</h2><p>\u4E00\u53EA\u9965\u997F\u7684\u72D0\u72F8\u6B63\u51C6\u5907\u51FA\u95E8\u627E\u5348\u9910\uFF0C\u7A81\u7136\uFF0C\u5916\u9762\u4F20\u6765\u4E00\u9635\u6572\u95E8\u58F0\u3002\u72D0\u72F8\u6253\u5F00\u95E8\uFF0C\u95E8\u53E3\u7ADF\u7AD9\u7740\u4E00\u53EA\u5C0F\u80A5\u732A\u3002</p><p>\u201C\u54CE\u5440\uFF0C\u6211\u627E\u9519\u95E8\u4E86\uFF0C\u6211\u4EE5\u4E3A\u662F\u5154\u5B50\u7684\u5BB6\u5462\uFF01\u201D</p><p>\u201C\u6CA1\u9519\uFF0C\u4F60\u6765\u5F97\u6B63\u662F\u65F6\u5019\uFF01\u201D</p><p>\u72D0\u72F8\u628A\u5C0F\u732A\u72E0\u72E0\u5730\u62D6\u8FDB\u5C4B\u91CC\uFF0C\u5927\u58F0\u53EB\u9053\uFF1A\u201C\u8FD9\u771F\u662F\u6211\u5E78\u8FD0\u7684\u4E00\u5929\uFF01\u6211\u8981\u5403\u4E00\u987F\u9999\u55B7\u55B7\u7684\u70E4\u732A\u8089\uFF0C\u73B0\u5728\uFF0C\u4F60\u4E56\u4E56\u5730\u8EBA\u5230\u70E4\u9505\u91CC\u53BB\u5427\uFF01\u201D</p><p>\u6323\u624E\u662F\u6CA1\u6709\u7528\u7684\uFF0C\u4E8E\u662F\uFF0C\u5C0F\u732A\u8BF4\uFF1A\u201C\u542C\u4F60\u7684\u5B89\u6392\u5427\u3002\u4E0D\u8FC7\uFF0C\u6211\u5F88\u810F\u54E6\uFF0C\u5728\u4F60\u5403\u6389\u6211\u4E4B\u524D\uFF0C\u5C31\u4E0D\u60F3\u628A\u6211\u6D17\u5F97\u5E72\u51C0\u4E00\u70B9\u5417\uFF1F\u201D\u4E8E\u662F\uFF0C\u72D0\u72F8\u5FD9\u8D77\u6765\u4E86\u3002\u4ED6\u62FE\u6765\u4E86\u6811\u679D\u3001\u751F\u8D77\u4E86\u706B\uFF0C\u518D\u5230\u6CB3\u8FB9\u53BB\u63D0\u6C34\uFF0C\u7136\u540E\uFF0C\u7ED9\u5C0F\u732A\u6D17\u4E86\u4E00\u4E2A\u75DB\u75DB\u5FEB\u5FEB\u7684\u70ED\u6C34\u6FA1\u3002</p><p>\u72D0\u72F8\u8BF4\uFF1A\u201C\u597D\u5566\uFF0C\u73B0\u5728\u4F60\u662F\u5168\u6751\u6700\u5E72\u51C0\u7684\u5C0F\u732A\u4E86\uFF0C\u5FEB\u7ED9\u6211\u8EBA\u5230\u70E4\u9505\u91CC\u53BB\u5427\uFF01\u201D</p><p>\u6323\u624E\u662F\u6CA1\u6709\u7528\u7684\uFF0C\u4E8E\u662F\uFF0C\u5C0F\u732A\u8BF4\uFF1A\u201C\u542C\u4F60\u7684\u5B89\u6392\u5427\u3002\u4E0D\u8FC7\uFF0C\u6211\u592A\u5C0F\u4E86\uFF0C\u5728\u4F60\u5403\u6389\u6211\u4E4B\u524D\uFF0C\u5C31\u4E0D\u60F3\u5582\u9971\u6211\uFF0C\u8BA9\u6211\u957F\u5F97\u80D6\u4E00\u70B9\u5417\uFF1F\u201D\u4E8E\u662F\uFF0C\u72D0\u72F8\u5FD9\u8D77\u6765\u4E86\u3002\u4ED6\u6458\u6765\u897F\u7EA2\u67FF\uFF0C\u505A\u4E86\u901A\u5FC3\u7C89\uFF0C\u8FD8\u70E4\u4E86\u4E00\u7089\u91D1\u9EC4\u8272\u7684\u5C0F\u751C\u997C\u3002\u5C0F\u732A\u5927\u5927\u54A7\u54A7\u5730\u5403\u4E86\u4E00\u987F\u4E30\u76DB\u7684\u5348\u9910\u3002</p><p>\u72D0\u72F8\u8BF4\uFF1A\u201C\u597D\u5566\uFF0C\u73B0\u5728\u4F60\u662F\u5168\u6751\u6700\u80A5\u7684\u5C0F\u732A\u4E86\uFF0C\u5FEB\u7ED9\u6211\u8EBA\u5230\u70E4\u9505\u91CC\u53BB\u5427\uFF01\u201D</p><p>\u6323\u624E\u662F\u6CA1\u6709\u7528\u7684\uFF0C\u4E8E\u662F\uFF0C\u5C0F\u732A\u8BF4\uFF1A\u201C\u542C\u4F60\u7684\u5B89\u6392\u5427\u3002\u4E0D\u8FC7\uFF0C\u6211\u662F\u4E00\u53EA\u52E4\u52B3\u7684\u5C0F\u732A\uFF0C\u6211\u7684\u8089\u4E00\u5B9A\u7279\u522B\u786C\u3002\u5728\u4F60\u5403\u6389\u6211\u4E4B\u524D\uFF0C\u5C31\u4E0D\u60F3\u5148\u7ED9\u6211\u6309\u6469\u4E00\u4E0B\uFF0C\u8BA9\u81EA\u5DF1\u5403\u4E0A\u66F4\u5AE9\u4E00\u70B9\u7684\u70E4\u8089\u5417\uFF1F\u201D</p><p>\u4E8E\u662F\uFF0C\u72D0\u72F8\u5FD9\u8D77\u6765\u4E86\u3002\u4ED6\u8BA9\u5C0F\u732A\u5750\u5728\u6728\u6905\u5B50\u4E0A\uFF0C\u4E3A\u5C0F\u732A\u634F\u634F\u5934\u3001\u677E\u677E\u80A9\u3001\u62C9\u62C9\u817F\uFF0C\u5C0F\u732A\u8212\u670D\u5F97\u76F4\u54FC\u54FC\u3002\u72D0\u72F8\u8BF4\uFF1A\u201C\u597D\u5566\uFF0C\u73B0\u5728\u4F60\u662F\u5168\u6751\u6700\u80A5\u7684\u5C0F\u732A\u4E86\uFF0C\u5FEB\u7ED9\u6211\u8EBA\u5230\u70E4\u9505\u91CC\u53BB\u5427\uFF01\u201D</p><p>\u201C\u90A3\u597D\u5427\uFF0C\u4E0D\u8FC7\uFF0C\u8FD9\u4E9B\u65E5\u5B50\u6211\u7684\u786E\u592A\u7D2F\u4E86\u3002\u4F60\u770B\uFF0C\u6211\u7684\u80CC\u8FD8\u6709\u70B9\u50F5\u786C\uFF0C\u4F60\u80FD\u518D\u7528\u529B\u66FF\u6211\u6309\u6469\u4E00\u4E0B\u5417\uFF1F\u5BF9\uFF0C\u5C31\u8FD9\u6837\uFF0C\u518D\u7528\u70B9\u529B\u6C14\uFF01\u201D\u8FC7\u4E86\u4E00\u4F1A\uFF0C\u8EAB\u540E\u4F20\u6765\u72D0\u72F8\u7684\u547C\u565C\u58F0\uFF0C\u5C0F\u732A\u8F7B\u58F0\u95EE\uFF1A\u201C\u72D0\u72F8\u5148\u751F\uFF0C\u4F60\u5728\u54EA\u513F\u554A\uFF1F\u201D</p><p>\u72D0\u72F8\u6CA1\u6709\u542C\u89C1\u5C0F\u732A\u7684\u558A\u58F0\uFF0C\u4ED6\u7D2F\u6781\u4E86\uFF0C\u6C89\u6C89\u5730\u7761\u53BB\u4E86\u3002</p><p>\u6751\u5B50\u91CC\u6700\u5E72\u51C0\u3001\u6700\u80A5\u3001\u6700\u67D4\u8F6F\u7684\u5C0F\u732A\uFF0C\u62FF\u7740\u5269\u4E0B\u7684\u751C\u997C\uFF0C\u98DE\u5FEB\u5730\u8DD1\u56DE\u5BB6\u53BB\u4E86\u3002</p><h2 id="\u68A6\u91CC\u6709\u4F60-\u5341\u5206\u751C" tabindex="-1"><a class="header-anchor" href="#\u68A6\u91CC\u6709\u4F60-\u5341\u5206\u751C" aria-hidden="true">#</a> \u68A6\u91CC\u6709\u4F60\uFF0C\u5341\u5206\u751C</h2><p>\u4F4F\u5728\u5C71\u5934\u7684\u5C0F\u5154\u5B50\uFF0C\u6700\u8FD1\u5FC3\u91CC\u85CF\u4E86-\u4E2A\u5C0F\u79D8\u5BC6\u3002\u90A3\u4E2A\u5C0F\u79D8\u5BC6\uFF0C\u662F\u6709\u5173\u5BF9\u9762\u5C71\u4E0A\u7684\u7EA2\u5C3E\u5DF4\u5C0F\u72D0\u72F8\u7684\u3002</p><p>\u8FD9\u5929\uFF0C\u5C0F\u5154\u5B50\u7167\u5E38\u53BB\u627E\u5C0F\u72D0\u72F8\u73A9\uFF0C\u534A\u8DEF\u9047\u5230\u4E86\u5C0F\u7CBE\u7075,\u542C\u8BF4\u8FD9\u4E2A\u5C0F\u7CBE\u7075\u7CBE\u901A\u4E07\u4E8B\uFF0C\u5C0F\u5154\u5B50\u541E\u541E\u5410\u5410\u5730\u95EE:\u201C\u5C0F\u7CBE\u7075\uFF0C. \u6211\u4E3A\u4EC0\u4E48\u89C1\u5230\u90A3\u4E2A\u4EBA\uFF0C\u5C31.. \u5C31\u4F1A\u5FC3\u8DF3\u52A0\u901F\uFF0C\u5C31.. \u50CF\u6211\u6BCF\u5929\u5728\u8349\u4E1B\u4E0A\u6253\u5B8C\u6EDA\u4E00\u6837?\u5C0F\u7CBE \u7075\u717D\u52A8\u7740\u5C0F\u7FC5\u8180\uFF0C\u7B11\u563B\u563B\u5730\u5BF9\u5C0F\u5154\u5B50\u8BF4:\u201C\u4F60\u8FD9\u662F\u559C\u6B22\u4E0A\u4EBA\u5BB6\u5566\u3002\u201D\u5C0F\u5154\u5B50\u53C8\u95EE:\u201C\u90A3\u4EC0\u4E48\u662F\u559C\u6B22\u5440?</p><p>\u5C0F\u7CBE\u7075\u60F3\u4E86\u60F3\u8BF4: &quot;\u559C\u6B22\u5C31\u662F\uFF0C\u4F60\u5728\u89C1\u4ED6\u4E4B\u524D\uFF0C\u5E0C\u671B\u65F6\u95F4\u8FC7\u5F97\u5FEB\u4E00-\u70B9, \u8FD9\u6837\u4F60\u5C31\u53EF\u4EE5\u5FEB\u70B9\u89C1\u5230\u4ED6\u3002\u89C1\u5230\u4ED6\u4E4B\u540E\uFF0C\u4F60\u4F1A\u5F88\u5F00\u5FC3\uFF0C\u4F1A\u5E0C\u671B\u65F6\u95F4\u8FC7\u5F97\u6162\u4E00-\u70B9,\u8FD9\u6837\u4F60\u5C31\u53EF\u4EE5\u6709\u66F4\u591A\u7684\u65F6\u95F4\u548C\u4ED6\u5728\u4E00\u8D77\u3002</p><p>\u201C\u53EF\u662F\uFF0C\u6211\u4E0D\u77E5\u9053\u4ED6\u559C\u4E0D\u559C\u6B22\u6211\uFF0C\u600E\u4E48\u529E?\u201D \u5C0F\u5154\u5B50\u5931\u843D\u5730\u8BF4\u3002</p><p>&quot;\u4F20\u8BF4\u5728\u7761\u524D\u53EA\u8981\u60F3\u7740\u4F60\u559C\u6B22\u7684\u90A3\u4E2A\u4EBA\uFF0C\u5982\u679C\u4ED6\u68A6\u5230\u4E86\u4F60\uFF0C\u4F60\u5C31\u53EF\u4EE5\u8FDB\u5165\u4ED6\u7684\u68A6\u91CC\uFF0C\u8FD9\u6837\uFF0C\u4F60\u4FBF\u53EF\u4EE5\u77E5\u9053\u4ED6\u5BF9\u4F60\u7684\u5FC3\u610F\u5566!\u201D\u5C0F\u7CBE\u7075\u8BF4\u5B8C\u5C31\u6D88\u5931\u4E86\u3002</p><p>\u5C0F\u5154\u5B50\u9ED8\u9ED8\u8BB0\u4F4F\u4E86\u5C0F\u7CBE\u7075\u7684\u8BDD\uFF0C\u7EC8\u4E8E\uFF0C\u661F\u661F\u51FA\u6765\u4E86\uFF0C\u5C0F\u5154\u5B50\u8EBA\u5728\u67D4\u8F6F\u7684\u5C0F\u5E8A.\u4E0A,\u60F3\u7740\u548C\u5C0F\u72D0\u72F8\u7684\u6B22\u4E50\u65F6\u5149\uFF0C\u4E0D\u77E5\u4E0D\u89C9,\u7761\u7740\u4E86..</p><p>\u679C\u7136\uFF0C\u5C0F\u5154\u5B50\u6765\u5230\u4E86\u4E00\u4E2A\u53EB\u68A6\u4E4B\u56FD\u7684\u5730\u65B9\uFF0C\u5728\u8FD9\u4E2A\u5730\u65B9\uFF0C\u5979\u770B\u5230\u4E86\u4E00\u95F4\u5C0F\u6728\u5C4B,\u6302\u7740\u7EA2\u5C3E\u5DF4\u5C0F\u72D0\u72F8\u7684\u724C\u5B50\uFF0C\u5C0F\u5154\u5B50\u6DF1\u5438\u4E00\u53E3\u6C14,\u63A8\u5F00\u4E86\u5C0F\u6728\u95E8\uFF0C\u901A\u5F80\u5C0F\u72D0\u72F8\u68A6\u91CC\u7684\u8DEF\u5F00\u6EE1\u4E86\u82B1\u82B1\u8349\u8349\uFF0C\u8774\u8776\u5728\u7A7A\u4E2D\u98DE\u821E,\u5C0F\u5154\u5B50\u8D70\u4E86\u597D\u4E45\uFF0C\u5728\u4E00\u7247\u8349\u5730\u4E0A\u770B\u5230\u4E86\u5C0F\u72D0\u72F8\uFF0C\u5C0F\u72D0\u72F8\u7B11\u563B\u563B\u5730\u5BF9\u5C0F\u5154\u5B50\u8BF4:\u201C\u4F60\u7EC8\u4E8E\u6765\u4E86\uFF0C \u6211\u4E00\u76F4\u5728\u7B49\u4F60\uFF0C\u6211\u5FC3\u7231\u7684\u5C0F\u5154\u5B50\u3002</p><p>\u68A6\u91CC\uFF0C\u5C0F\u72D0\u72F8\u5E26\u7740\u5C0F\u5154\u5B50\u5728\u8349\u4E1B\u4E0A\u6253\u6EDA\u513F\uFF0C\u5C0F\u72D0\u72F8\u8FD8\u4E3A\u5C0F\u5154\u5B50\u7F16\u7EC7\u4E86\u4E00\u4E2A\u5C0F\u82B1\u73AF\uFF0C\u4EB2\u624B\u7ED9\u5C0F\u5154\u5B50\u6234\u5728\u5934\u4E0A\uFF0C\u5750\u5728\u6E56\u8FB9\uFF0C\u770B\u7740\u5728\u6E56\u4E0A\u98D8\u7740\u7684\u5C0F\u8239\uFF0C\u5403\u7740\u751C\u751C\u7684\u7CD6\u679C\uFF0C \u73A9\u7D2F\u4E86\u5C0F\u72D0\u72F8\u5C31\u8BA9\u5C0F\u5154\u5B50\u8EBA\u5728\u4ED6\u67D4\u8F6F\u7684\u7EA2\u5C3E\u5DF4\u4E0A\uFF0C\u5BA0\u6EBA\u5730\u629A\u6478\u7740\u5C0F\u5154\u5B50\u5934\uFF0C\u8033\u8FB9\u62C2\u8FC7\u7684\u53EA\u6709\u6E29\u548C\u7684\u98CE\u548C\u5F7C\u6B64\u7684\u547C\u5438\u3002</p><p>\u4E0D\u77E5\u8FC7\u4E86\u591A\u4E45,\u5C0F\u5154\u5B50\u773C\u524D\u95EA\u8FC7\u4E00\u9053\u767D\u5149\uFF0C\u68A6\u7ED3\u675F\u4E86...</p><p>\u5C0F\u5154\u5B50\u7EC6\u7EC6\u56DE\u60F3\u7740\u521A\u624D\u7684\u68A6\uFF0C\u6025\u5FD9\u671D\u5C0F\u72D0\u72F8\u5BB6\u8DD1\u53BB\uFF0C\u72B9\u8C6B\u4E86\u4E00\u4E0B\uFF0C\u7EC8\u4E8E\u6572\u54CD\u4E86\u5C0F\u72D0\u72F8\u5BB6\u7684\u95E8,\u4E0D\u4E00\u4F1A\u513F\uFF0C\u95E8\u5F00\u4E86\uFF0C\u9732\u51FA\u4E86\u5C0F\u72D0\u72F8\u542B\u7740\u7B11\u610F\u7684\u5927\u773C\u775B\u3002\u5C0F\u5154\u5B50\u8BF4:\u201D\u4F60\u597D\u5440\uFF0C\u5C0F\u72D0\u72F8\uFF0C\u4ECA\u5929\u6211\u4EEC\u53BB\u6458\u8611\u83C7\u5427!&quot;\u5C0F\u72D0\u72F8\u70B9\u4E86\u70B9\u5934:\u201C\u597D\u554A\u597D\u554A\uFF0C\u5FEB\u8FDB\u6765\u5427\uFF0C\u7B49\u6211\u6536\u62FE\u4E00\u4E0B\u6211\u4EEC\u5C31\u51FA\u53D1\u3002</p><p>\u8DEF\u4E0A\uFF0C\u5C0F\u5154\u5B50\u652F\u652F\u543E\u543E\u5730\u95EE: &quot;\u5C0F\u72D0\u72F8\uFF0C..\u4F60\u6628\u5929\u505A\u4E86\u4EC0\u4E48\u68A6\u5440?\u201D</p><p>\u5C0F\u72D0\u72F8\u5237\u5730\u4E00\u4E0B\u8138\u7EA2\u4E86\uFF0C\u6320\u4E86\u6320\u5934\uFF0C\u4E0D\u597D\u610F\u601D\u8BF4:\u201C\u4E3A..\u4E3A\u4EC0\u4E48\u8981\u95EE\u8FD9\u4E2A?\u201D</p><p>\u201C\u56E0\u4E3A\u6211\u68A6\u5230\u4E86 ..\u5C0F\u5154\u5B50\u4E0D\u5C0F\u5FC3\u8BF4\u6F0F\u4E86\u5634\uFF0C\u8D76\u5FD9\u8BF4&quot;\u54CE\u5440\uFF0C\u4F60\u5FEB\u70B9\u8BF4\u8BF4\u561B!&quot;</p><p>&quot;\u55EF..\u6211\u68A6\u5230\u4E86.\u5176\u5B9E\u662F\u4E00\u4E2A\u5341\u4E8C\u5206\u751C\u7684\u68A6\u3002\u201D</p><p>\u201D\u4E3A\u4EC0\u4E48\u662F\u5341\u4E8C\u5206\u751C?\u201D\u5C0F\u5154\u5B50\u4E0D\u89E3\u7684\u95EE\u3002</p><p>\u201C\u4E00\u5206\u662F\u5B81\u9759\uFF0C\u4E00\u5206\u662F\u60EC\u610F\u3002\u201D</p><p>\u5C0F\u72D0\u72F8\u62C9\u8D77\u5C0F\u5154\u5B50\u7684\u624B\u7EE7\u7EED\u8BF4\u201C\u7136\u540E\u68A6\u91CC\u6709\u4F60\uFF0C\u4F60\u5341\u5206\u751C\u3002</p><h2 id="\u665A\u5B89" tabindex="-1"><a class="header-anchor" href="#\u665A\u5B89" aria-hidden="true">#</a> \u665A\u5B89\uFF01</h2><p>\u65F6\u95F4\u5728\u68EE\u6797\u91CC\uFF0C\u6162\u6162\u7684\u6D41\u901D\u7740\uFF0C\u4E0D\u4E45\u79CB\u5929\u4FBF\u6765\u4E86\uFF0C\u4E5F\u5230\u4E86\u52A8\u7269\u4EEC\u6700\u5FD9\u788C\u7684\u5B63\u8282\uFF0C\u56E0\u4E3A\u79CB\u5929\u7684\u91D1\u9EC4\uFF0C\u50CF\u6781\u4E86\u5927\u81EA\u7136\u7ED9\u4E88\u52A8\u7269\u4EEC\u6700\u73CD\u8D35\u7684\u5B9D\u85CF\uFF0C\u4E5F\u6807\u5FD7\u7740\u5C0F\u52A8\u7269\u4EEC\u8981\u5F00\u59CB\u50A8\u5B58\u51AC\u5929\u7684\u7CAE\u98DF\u4E86\u3002</p><p>\u9AD8\u8038\u5165\u4E91\u7684\u677E\u6811\u4E0A\uFF0C\u5C0F\u677E\u9F20\u4E0A\u7A9C\u4E0B\u8DF3\u7684\u8EAB\u5F71\u7740\u5B9E\u8BA9\u4EBA\u4E0D\u5F97\u4E0D\u6CE8\u610F\u3002\u90A3\u5C0F\u677E\u9F20\u5728\u5FD9\u4EC0\u4E48\u5462\uFF1F\u548B\u4E00\u770B\uFF0C\u539F\u6765\u5C0F\u677E\u9F20\u5728\u5FD9\u7740\u6361\u5730\u4E0A\u7684\u677E\u679C\uFF0C\u4E0D\u505C\u7684\u5F80\u81EA\u5DF1\u7684\u5C0F\u7A9D\u91CC\u9001\u5462\uFF01\u5728\u5C0F\u677E\u9F20\u5FD9\u788C\u7684\u8FC7\u7A0B\u4E2D\uFF0C\u5544\u6728\u9E1F\u533B\u751F\uFF0C\u4E5F\u5728\u65C1\u8FB9\u7684\u6811\u4E0A\u4E0D\u505C\u7684\u7ED9\u5927\u53D4\u4F2F\u4F2F\u9A71\u866B\u2026\u2026</p><p>\u6240\u4EE5\u53EA\u8981\u4F60\u4ED4\u7EC6\u4E00\u770B\uFF0C\u6574\u4E2A\u68EE\u6797\u90FD\u5728\u79CB\u5929\u7684\u6C14\u6C1B\u4E2D\u5FD9\u788C\u7740\u3002\u5728\u68EE\u6797\u7684\u53E6\u4E00\u8FB9\uFF0C\u5C0F\u732A\u5728\u5C4B\u5916\u4E0D\u505C\u7684\u5228\u5751\uFF0C\u8DEF\u8FC7\u7684\u5C0F\u767D\u5154\u770B\u89C1\u4E86\uFF0C\u95EE\u5C0F\u732A\uFF1A\u201C\u5C0F\u732A\uFF0C\u5C0F\u732A\u4F60\u5728\u5E72\u561B\u5462\uFF1F\u201D</p><p>\u201C\u6211\u5728\u5228\u4E2A\u5927\u70B9\u7684\u5751\uFF0C\u7136\u540E\u628A\u51AC\u5929\u8981\u5403\u7684\u7CAE\u98DF\u57CB\u91CC\u9762\u201D\u3002\u5C0F\u732A\u8FB9\u5E72\u6D3B\u8FB9\u56DE\u7B54\u8BF4\u3002</p><p>\u201C\u5E72\u561B\u8981\u57CB\u5728\u5751\u91CC\u554A\uFF01\u201D</p><p>\u201C\u56E0\u4E3A\u57CB\u5728\u5751\u91CC\uFF0C\u6E29\u5EA6\u4F4E\u53EF\u4EE5\u4FDD\u6301\u98DF\u7269\u4E0D\u574F\u554A\uFF01\u201D</p><p>\u5C0F\u767D\u5154\u542C\u4E86\uFF0C\u597D\u50CF\u5F88\u6709\u9053\u7406\uFF0C\u4FBF\u544A\u522B\u5C0F\u732A\uFF0C\u5F80\u5BB6\u91CC\u8D76\u53BB\u3002</p><p>\u56DE\u5230\u5BB6\u91CC\uFF0C\u5C0F\u767D\u5154\u8BA9\u5C0F\u72D0\u72F8\u628A\u81EA\u5DF1\u6700\u559C\u6B22\u5403\u7684\u841D\u535C\u57CB\u5728\u5730\u91CC\uFF0C\u5C0F\u72D0\u72F8\u542C\u4E86\u4E00\u9635\u60CA\u8BB6\uFF0C\u95EE\u5C0F\u767D\u5154\u4E3A\u4EC0\u4E48\u8981\u57CB\u5728\u5730\u91CC\uFF0C\u5C0F\u767D\u5154\u628A\u548C\u5C0F\u732A\u7684\u8C08\u8BDD\u544A\u8BC9\u4E86\u5C0F\u72D0\u72F8\u3002</p><p>\u5C0F\u72D0\u72F8\u542C\u540E\uFF0C\u5FCD\u4E0D\u4F4F\u5927\u7B11\u8D77\u6765\uFF0C\u8FD9\u53EF\u628A\u5C0F\u767D\u5154\u6C14\u7740\u4E86\uFF0C\u8FDE\u5FD9\u95EE\u539F\u56E0\uFF0C\u4F11\u606F\u4E86\u597D\u4E00\u4F1A\uFF0C\u5C0F\u72D0\u72F8\u8BF4\uFF1A\u201C\u5C0F\u732A\u50A8\u5B58\u7684\u662F\u90A3\u79CD\u57CB\u5728\u5730\u91CC\u4E0D\u4F1A\u574F\u7684\u98DF\u7269\uFF0C\u800C\u4E14\u4E5F\u4F1A\u628A\u98DF\u7269\u5305\u88C5\u4FDD\u62A4\u4E00\u4E0B\u554A\uFF0C\u4F46\u662F\u4F60\u559C\u6B22\u5403\u7684\u80E1\u841D\u535C\uFF0C\u4E00\u65E6\u57CB\u5728\u5730\u4E0B\uFF0C\u4F1A\u8150\u70C2\uFF0C\u5C31\u7B97\u4E0D\u8150\u70C2\u4E5F\u4F1A\u53D8\u6210\u80E1\u841D\u535C\u5E72\u201D\u3002\u5C0F\u767D\u5154\u542C\u540E\uFF0C\u4E5F\u89C9\u5F97\u597D\u50CF\u6709\u4E9B\u9053\u7406\uFF0C\u4E8E\u662F\u53C8\u95EE\uFF1A\u201C\u90A3\u4F60\u4E3A\u4EC0\u4E48\u7B11\u6211\uFF1F\u201D\uFF0C\u5C0F\u72D0\u72F8\u770B\u7740\u561F\u7740\u5634\u7684\u5C0F\u767D\u5154\uFF0C\u53C8\u597D\u7B11\u53C8\u53EF\u7231\u3002</p><p>\u201C\u56E0\u4E3A\u4F60\u8FD9\u4E48\u4E45\uFF0C\u8FD8\u662F\u6211\u7684\u50BB\u5B9D\u8D1D\uFF0C\u4E00\u70B9\u90FD\u6CA1\u53D8\u5462\uFF01\u201D\u5C0F\u767D\u5154\u542C\u540E\uFF0C\u611F\u89C9\u597D\u50CF\u88AB\u8868\u626C\u4E86\uFF0C\u4E0D\u89C9\u5F97\u5634\u89D2\u4E0A\u626C\u3002\u4F46\u4ED4\u7EC6\u4E00\u60F3\uFF0C\u597D\u50CF\u53C8\u4E0D\u662F\uFF0C\u4E8E\u662F\u8FDE\u5FD9\u8981\u627E\u5C0F\u72D0\u72F8\u7B97\u8D26\uFF0C\u8F6C\u5934\u4E00\u770B\u5C0F\u72D0\u72F8\u65E9\u5C31\u8DD1\u51FA\u95E8\uFF0C\u5BF9\u7740\u5C0F\u767D\u5154\u505A\u9B3C\u8138\u3002</p><p>\u201C\u4F60\u7B49\u7740\uFF0C\u4F60\u4E2A\u81ED\u5B9D\u8D1D\uFF01\u201D\u5C0F\u767D\u5154\u8FDE\u5FD9\u8FFD\u51FA\u53BB\u3002</p><p>\u5C31\u8FD9\u6837\uFF0C\u5728\u5FD9\u788C\u7684\u79CB\u5929\uFF0C\u4E5F\u4F1A\u6709\u521D\u6625\u7231\u60C5\u7684\u751C\u871C\uFF0C\u50CF\u5C0F\u767D\u5154\u548C\u5C0F\u72D0\u72F8\uFF0C\u5728\u5FD9\u788C\u5F53\u4E2D\u5B09\u620F\u6253\u95F9\uFF0C\u8BA9\u4E00\u4E9B\u8FD8\u5355\u8EAB\u7684\u5C0F\u52A8\u7269\uFF0C\u597D\u751F\u7FA1\u6155\u2026\u2026</p><p>\u5F53\u7136\uFF0C\u68EE\u6797\u91CC\u7684\u52A8\u7269\u4EEC\u90FD\u975E\u5E38\u7684\u5584\u826F\uFF0C\u6240\u4EE5\u554A\u6708\u8001\u4E5F\u4E00\u5B9A\u4E0D\u4F1A\u541D\u556C\u59FB\u7F18\u7684\u7EA2\u7EBF\uFF0C\u76F8\u4FE1\u4E0D\u4E45\u53C8\u4F1A\u6709\u65B0\u7684\u751C\u871C\u98D8\u6563\u5728\u8FD9\u68EE\u6797\u7684\u5927\u5BB6\u5EAD\u4E2D\u3002</p><p>\u6BCF\u4E00\u4E2A\u591C\u5E55\u964D\u4E34\uFF0C\u6211\u4EEC\u4E5F\u4F1A\u5BF9\u5F7C\u6B64\u8BF4\u4E0A\u4E00\u53E5\uFF1A\u665A\u5B89\uFF01\u597D\u68A6\uFF01</p><h2 id="\u7231-\u957F\u7BC7" tabindex="-1"><a class="header-anchor" href="#\u7231-\u957F\u7BC7" aria-hidden="true">#</a> \u7231\uFF08\u957F\u7BC7\uFF09</h2><p>\u6E05\u6668\uFF0C\u6DF1\u5C71\u4E4B\u5904\u7684\u5BFA\u5E99\u5BE5\u5BE5\u708A\u70DF\uFF0C\u53A8\u623F\u91CC\uFF0C\u725B\u6653\u70E7\u7740\u706B\uFF0C\u5C0F\u548C\u5C1A\u6405\u52A8\u7740\u9505\u91CC\u7684\u658B\u996D\uFF0C\u4E00\u4E2A\u6708\u7684\u76F8\u5904\u4E0B\u6765\uFF0C\u8BA9\u4E24\u4EBA\u914D\u5408\u76F8\u5F53\u9ED8\u5951\uFF0C\u8FD9\u4E5F\u8BA9\u5C0F\u548C\u5C1A\u7684\u5DE5\u4F5C\u8F7B\u677E\u4E86\u8BB8\u591A\u3002</p><p>\u201C\u4F60\u559C\u6B22\u8FC7\u522B\u4EBA\u5417\uFF1F\u201D\u725B\u6653\u7A81\u7136\u95EE</p><p>\u201C\u5565\uFF1F\u201D\u5C0F\u548C\u5C1A\u88AB\u8FD9\u7A81\u5982\u5176\u6765\u95EE\u9898\u60CA\u4E86\u4E00\u4E0B\uFF0C\u7136\u540E\u53C8\u8BF4\uFF1A\u201C\u6211\u559C\u6B22\u5E08\u5085\uFF0C\u5E08\u5085\u662F\u6211\u7684\u5BB6\u4EBA\uFF0C\u5982\u679C\u4F60\u5F85\u4E45\u4E86\u6211\u4E5F\u4F1A\u559C\u6B22\u4F60\u7684\u3002\u201D\u725B\u6653\u770B\u7740\u5C0F\u548C\u5C1A\u8BA4\u8BA4\u771F\u771F\u7684\u56DE\u7B54\u7740\u3002\u7A81\u7136\u5657\u55E4\u4E00\u58F0\u7B11\u4E86\u8D77\u6765\u3002</p><p>\u201C\u4F60\u662F\u4E0D\u662F\u50BB\uFF1F\u6211\u8BF4\u7684\u662F\u7537\u5973\u4E4B\u95F4\u7684\u559C\u6B22\uFF1F\u201D\u725B\u6653\u8BF4\u3002</p><p>\u201C\u90A3\u662F\u4EC0\u4E48\u559C\u6B22\uFF1F\u4E0D\u61C2\u4E0D\u61C2\uFF01\u201D\u5C0F\u548C\u5C1A\u8FB9\u76DB\u7740\u7CA5\uFF0C\u8FB9\u6447\u7740\u5934\u3002</p><p>\u996D\u684C\u4E0A\uFF0C\u5E08\u5F92\u4E09\u4EBA\u5403\u7740\u658B\u996D\uFF0C\u5C0F\u548C\u5C1A\u7A81\u7136\u95EE\u5E08\u5085\uFF1A\u201C\u5E08\u5085\uFF0C\u4F60\u559C\u6B22\u8FC7\u5973\u4EBA\u5417\uFF1F\u201D\u3002\u8FD9\u4E00\u95EE\u5B8C\uFF0C\u5E08\u5085\u5DEE\u70B9\u545B\u4E86\u4E00\u53E3\u996D\uFF0C\u8F6C\u5934\u770B\u7740\u725B\u6653\uFF0C\u725B\u6653\u4E00\u8138\u65E0\u8F9C\u7684\u8BF4\u5230\uFF1A\u201C\u5E08\u5085\uFF0C\u8DDF\u6211\u65E0\u5173\uFF0C\u6211\u53EF\u5565\u90FD\u6CA1\u8BF4\u201D\u3002\u8BF4\u5B8C\uFF0C\u4FBF\u57CB\u5934\u5403\u996D\u3002</p><p>\u201C\u4F60\u4EEC\u4FE9\uFF0C\u4E00\u5929\u4E0D\u8BA4\u771F\u5FF5\u4F5B\u5B88\u5FC3\uFF0C\u8BA8\u8BBA\u90A3\u4E9B\u65E0\u5173\u7D27\u8981\u7684\u5E72\u561B\uFF1F\u201D\u5E08\u5085\u767D\u4E86\u4E00\u773C\u725B\u6653\uFF0C\u7EE7\u7EED\u8BF4\u5230\uFF1A\u201C\u7537\u6B22\u5973\u7231\uFF0C\u7686\u4E3A\u4E16\u4FD7\u60C5\u4E8B\uFF0C\u4E16\u4EBA\u628A\u8FD9\u79CD\u611F\u60C5\u6BD4\u4E3A\u7231\u60C5\uFF0C\u53C8\u4EE5\u73AB\u7470\u4E3A\u8C61\u5F81\uFF0C\u65E0\u8BBA\u5403\u658B\u5FF5\u4F5B\u4E5F\u597D\uFF0C\u7537\u6B22\u5973\u7231\u4E5F\u7F62\uFF0C\u90FD\u662F\u4EBA\u751F\u5F53\u4E2D\u7684\u4FEE\u884C\uFF0C\u4EBA\u4EBA\u90FD\u60F3\u4FEE\u5F97\u6B63\u679C\uFF0C\u5176\u4E2D\u56F0\u96BE\u574E\u5777\uFF0C\u5927\u540C\u5C0F\u5F02\u2026\u2026\u201D\u5E08\u5085\u8BF4\u7740\uFF0C\u4EFF\u4F5B\u9677\u5165\u4E86\u56DE\u5FC6\uFF0C\u800C\u540E\u7B11\u7740\u5BF9\u9762\u524D\uFF0C\u8FD9\u4E24\u4E2A\u7741\u7740\u773C\u775B\u542C\u7740\u7684\u5F92\u5F1F\u7EE7\u7EED\u8BF4\uFF1A\u201C\u8BB0\u5F97\u5E08\u508517\u5C81\u90A3\u5E74\uFF0C\u5E76\u672A\u50CF\u73B0\u5728\u5982\u6B64\u5F00\u59CB\u5403\u658B\u5FF5\u4F5B\uFF0C\u8FD8\u5728\u4E61\u91CC\u63D2\u79E7\u79CD\u7530\uFF0C\u4E00\u5BB6\u4E09\u53E3\u6625\u8015\u79CB\u6536\uFF0C\u5176\u4E50\u878D\u878D\uFF0C\u751F\u6D3B\u4E5F\u522B\u6709\u4E00\u756A\u7CBE\u5F69\u3002\u8BB0\u5F97\u90A3\u662F\u4E00\u4E2A\u9EC4\u660F\u508D\u665A\uFF0C\u6211\u548C\u6BCD\u4EB2\u5728\u5BB6\u4E2D\u70E7\u706B\u505A\u996D\uFF0C\u7236\u4EB2\u5E26\u56DE\u4E00\u9A91\u9A6C\u7537\u5B50\u3002\u7537\u5B50\u6EE1\u8EAB\u5C18\u571F\uFF0C\u4E00\u8138\u75B2\u60EB\uFF0C\u4E0D\u8FC7\u8BF4\u4E5F\u5947\u602A\uFF0C\u8FD9\u7537\u5B50\u957F\u7684\u597D\u751F\u79C0\u6C14\u3002\u7ECF\u7236\u4EB2\u4E00\u756A\u89E3\u91CA\uFF0C\u539F\u6765\u662F\u4E00\u4E2A\u8DEF\u8FC7\uFF0C\u51C6\u5907\u53BB\u53C2\u519B\u7684\u9752\u5E74\uFF0C\u8DEF\u4E0A\u56E0\u4E3A\u9A91\u9A6C\u98A0\u7C38\uFF0C\u6454\u4F24\u4E86\u5DE6\u817F\uFF0C\u7236\u4EB2\u89C1\u5176\u5728\u6751\u53E3\u5750\u7740\uFF0C\u4E0A\u524D\u8BE2\u95EE\u540E\uFF0C\u9080\u5176\u5728\u5BB6\u4F11\u517B\u4E24\u65E5\uFF0C\u5948\u4F55\u7537\u5B50\u6709\u4F24\u5728\u8EAB\uFF0C\u76DB\u60C5\u96BE\u5374\uFF0C\u4FBF\u548C\u7236\u4EB2\u6765\u5230\u5BB6\u4E2D\u505A\u5BA2\u4F11\u517B\u201D\u3002</p><p>\u8BF4\u5230\u7740\uFF0C\u5E08\u5085\u4E00\u8138\u56DE\u5FC6\u4E4B\u8272\uFF0C\u5C0F\u548C\u5C1A\u9ED8\u9ED8\u4E3A\u5E08\u5085\u7AEF\u6765\u4E00\u676F\u8336\u6C34\uFF0C\u548C\u725B\u6653\u5E76\u6392\u5750\u5728\u5E08\u5085\u5BF9\u9762\uFF0C\u6EE1\u773C\u671F\u5F85\u5E08\u5085\u7EE7\u7EED\u8BB2\u6545\u4E8B\u3002</p><p>\u5E08\u5085\u770B\u4E86\u8FD9\u4E24\u597D\u5947\u5F92\u5F1F\u4E00\u773C\uFF0C\u7EE7\u7EED\u8BF4\uFF1A\u201C\u7537\u5B50\u6765\u5230\u5BB6\u4E2D\u4F4F\u5728\u504F\u623F\uFF0C\u524D\u4E24\u5929\u56E0\u4E3A\u817F\u811A\u4E0D\u4FBF\uFF0C\u9664\u4E86\u5403\u996D\u4FBF\u4E00\u76F4\u5F85\u5728\u623F\u95F4\u4E0D\u51FA\u95E8\u3002\u7B2C\u4E09\u5929\u508D\u665A\u548C\u7236\u4EB2\u52A1\u519C\u7ED3\u675F\uFF0C\u56DE\u5230\u5BB6\u4E2D\uFF0C\u53D1\u73B0\u90A3\u7537\u5B50\u5DF2\u7ECF\u4E0D\u89C1\uFF0C\u53CD\u800C\u6709\u4E00\u540D\u7A7F\u7740\u7D20\u8863\uFF0C\u957F\u76F8\u6E05\u79C0\u7684\u59D1\u5A18\u5728\u548C\u6BCD\u4EB2\u6709\u8BF4\u6709\u7B11\u3002\u7ECF\u8FC7\u4E00\u756A\u8BE2\u95EE\uFF0C\u90A3\u7537\u5B50\u5C45\u7136\u662F\u5973\u513F\u8EAB\uFF0C\u8FD9\u53EF\u628A\u6211\u548C\u7236\u4EB2\u60CA\u4E86\u4E00\u4E0B\u3002\u90A3\u65F6\u7236\u4EB2\u867D\u6CA1\u8BFB\u8FC7\u4E66\uFF0C\u4F46\u4E5F\u4E0D\u662F\u591A\u5634\u4E4B\u4EBA\uFF0C\u6240\u4EE5\u5F53\u65F6\u5728\u8868\u73B0\u51FA\u4E00\u5239\u60CA\u8BB6\u4E4B\u540E\uFF0C\u4FBF\u6062\u590D\u5982\u521D\uFF0C\u6CA1\u6709\u591A\u95EE\u4EC0\u4E48\uFF0C\u4F46\u6211\u60F3\u540E\u9762\u6BCD\u4EB2\u5E94\u8BE5\u7ED9\u7236\u4EB2\u89E3\u91CA\u4E86\u7F18\u7531\u3002\u5F80\u540E\u51E0\u5929\uFF0C\u8FD9\u5973\u5B50\u5F00\u59CB\u5E2E\u5BB6\u91CC\u5206\u62C5\u8D77\u4E86\u519C\u6D3B\uFF0C\u6D17\u8863\u505A\u996D\uFF0C\u987A\u4FBF\u4E5F\u5F00\u59CB\u7ED9\u6211\u8F85\u5BFC\u529F\u8BFE\uFF0C\u6559\u6211\u8BC6\u5B57\u3002</p><p>\u8FD9\u6837\u7684\u65E5\u5B50\u6301\u7EED\u4E86\u5927\u6982\u5927\u534A\u4E2A\u6708\uFF0C\u8FD9\u671F\u95F4\u6BCD\u4EB2\u548C\u7236\u4EB2\u8FD8\u62C5\u5F53\u8D77\u4E86\u5A92\u4EBA\u4F3C\u7684\uFF0C\u5C3D\u529B\u5728\u64AE\u5408\u6211\u548C\u8FD9\u59D1\u5A18\uFF0C\u7279\u522B\u662F\u6BCD\u4EB2\uFF0C\u8868\u73B0\u7684\u5341\u5206\u559C\u6B22\u3002\u90A3\u65F6\u7684\u6211\uFF0C\u56E0\u4E3A\u60C5\u7AA6\u521D\u5F00\uFF0C\u5916\u52A0\u671D\u5915\u76F8\u5904\uFF0C\u771F\u7684\u5BF9\u5979\u4EA7\u751F\u4E86\u4E00\u79CD\u83AB\u540D\u7684\u60C5\u612B\u201D\u3002\u5E08\u5085\u8BF4\u5230\u8FD9\uFF0C\u505C\u4E86\u4E0B\u6765\uFF0C\u7AEF\u8D77\u8336\u6C34\u559D\u4E86\u4E00\u53E3\u3002</p><p>\u725B\u6653\u548C\u5C0F\u548C\u5C1A\u53EF\u6025\u574F\u4E86\uFF0C\u8FDE\u5FD9\u95EE\u9053\uFF1A\u201C\u5E08\u5085\uFF0C\u90A3\u662F\u4EC0\u4E48\u611F\u89C9\u554A\uFF1F\u201D</p><p>\u5E08\u5085\u653E\u4E0B\u8336\u676F\uFF0C\u62AC\u5934\u671B\u7740\u623F\u6881\uFF0C\u6C89\u601D\u4E86\u4E00\u4F1A\u8BF4\uFF1A\u201C\u671D\u5915\u6240\u60F3\uFF0C\u591C\u4E0D\u80FD\u5BD0\uFF0C\u4E00\u65E5\u4E0D\u89C1\uFF0C\u5982\u9694\u4E09\u79CB\u3002\u73B0\u5728\u60F3\u60F3\uFF0C\u53EF\u80FD\u90A3\u5C31\u662F\u5C18\u4E16\u5411\u5F80\u7684\u559C\u6B22\u548C\u7231\u60C5\u3002\u4F46\u597D\u666F\u4E0D\u957F\uFF0C\u67D0\u5929\u6E05\u6668\u4E00\u65E9\uFF0C\u5979\u4FBF\u6084\u6084\u9A91\u9A6C\u79BB\u5F00\uFF0C\u79BB\u5F00\u65F6\u7559\u4E0B\u4E00\u5C01\u4E66\u4FE1\uFF0C\u548C\u4E00\u5757\u7389\u624B\u956F\u201D\u3002\u5E08\u5085\u8BF4\u7740\uFF0C\u4ECE\u6000\u91CC\u62FF\u51FA\u4E00\u5757\u7EA2\u5E03\uFF0C\u6253\u5F00\u4EE5\u540E\u91CC\u9762\u662F\u4E00\u5757\u54C1\u76F8\u4E0D\u9519\u7684\u7389\u624B\u956F\uFF0C\u770B\u7740\u8FD9\u5757\u624B\u956F\uFF0C\u5E08\u5085\u5F00\u59CB\u6C89\u9ED8\u4E0D\u8BED\u3002</p><p>\u5F92\u5F1F\u4EEC\u53EF\u4E0D\u7136\uFF0C\u5341\u5206\u7740\u6025\uFF0C\u8BE2\u95EE\u5E08\u5085\uFF1A\u201C\u5E08\u5085\u5E08\u5085\uFF0C\u4FE1\u4E0A\u5199\u7684\u5565\uFF1F\u540E\u9762\u53C8\u600E\u4E48\u4E86\uFF1F\u201D</p><p>\u5E08\u5085\u53F9\u606F\u4E86\u4E00\u58F0\uFF0C\u8BF4\uFF1A\u201C\u90A3\u65F6\u5B57\u8FD8\u8BA4\u4E0D\u4E86\u51E0\u4E2A\uFF0C\u53EA\u8BB0\u5F97\u6700\u540E\u51E0\u884C\uFF0C\u548C\u5979\u7684\u540D\u5B57\u201D\u3002</p><p>\u201C\u662F\u4EC0\u4E48\uFF1F\u201D\u725B\u6653\u95EE</p><p>\u201C\u66FF\u7236\u4ECE\u519B\uFF0C\u6709\u7F18\u518D\u4F1A\uFF01\u6728\u5170\u7559\u2026\u2026\u201D</p><h2 id="\u5154\u5B50\u548C\u72D0\u72F8" tabindex="-1"><a class="header-anchor" href="#\u5154\u5B50\u548C\u72D0\u72F8" aria-hidden="true">#</a> \u5154\u5B50\u548C\u72D0\u72F8</h2><p>\u4ECA\u5929\u7684\u5C0F\u5154\u5B50\u5FC3\u60C5\u5341\u5206\u7684\u5F00\u5FC3\uFF0C\u56E0\u4E3A\u5979\u83B7\u5F97\u4E86\u68EE\u6797\u91CC\u7814\u7A76\u6BD4\u8D5B\u7B2C\u4E00\u540D\u5728\u56DE\u5BB6\u7684\u8DEF\u4E0A\uFF0C\u4E5F\u628A\u60C5\u7EEA\u8868\u73B0\u5728\u81EA\u5DF1\u7684\u52A8\u4F5C\u5F53\u4E2D\uFF0C\u8E66\u8E66\u8DF3\u8DF3\uFF0C\u5341\u5206\u597D\u770B\u3002</p><p>\u56DE\u5BB6\u7684\u8DEF\u4E0A\uFF0C\u8DEF\u8FC7\u5C0F\u72D0\u72F8\u5BB6\uFF0C\u5C0F\u767D\u5154\u7279\u5730\u8DD1\u53BB\u60F3\u628A\u8FD9\u4E2A\u597D\u6D88\u606F\u5206\u4EAB\u7ED9\u5C0F\u72D0\u72F8\u3002</p><p>\u6572\u4E86\u534A\u5929\u7684\u95E8\uFF0C\u5C0F\u767D\u5154\u53D1\u73B0\u5C0F\u72D0\u72F8\u4E0D\u5728\u5BB6\uFF0C\u8DEF\u8FC7\u7684\u5927\u8C61\u4F2F\u4F2F\u770B\u89C1\u5C0F\u767D\u5154\u5728\u6572\u95E8\uFF0C\u544A\u8BC9\u5C0F\u767D\u5154\u8BF4\uFF0C\u5C0F\u72D0\u72F8\u53BB\u68EE\u6797\u91CC\u6458\u6843\u5B50\u53BB\u4E86\uFF0C\u665A\u4E0A\u624D\u4F1A\u56DE\u6765\uFF0C\u5C0F\u767D\u5154\u6709\u4E9B\u5931\u671B\uFF0C\u8C22\u8FC7\u5927\u8C61\u4F2F\u4F2F\u540E\u4FBF\u56DE\u5BB6\u4E86\u3002</p><p>\u5C0F\u767D\u5154\u53EF\u559C\u6B22\u5C0F\u72D0\u72F8\u4E86\uFF0C\u800C\u4E14\u559C\u6B22\u4E86\u597D\u4E45\uFF0C\u53EF\u662F\u5C0F\u767D\u5154\u662F\u4E00\u53EA\u5BB3\u7F9E\u7684\u5154\u5B50\uFF0C\u6240\u4EE5\u4E00\u76F4\u4E0D\u6562\u8868\u8FBE\u81EA\u5DF1\u7684\u5FC3\u58F0\u3002\u53EF\u4ECA\u5929\uFF0C\u662F\u81EA\u5DF1\u5F97\u5956\u7684\u597D\u65E5\u5B50\uFF0C\u5C0F\u767D\u5154\u89C9\u5F97\u5E94\u8BE5\u544A\u8BC9\u5C0F\u72D0\u72F8\uFF0C\u4E5F\u8BA9\u81EA\u5DF1\u559C\u6B22\u7684\u4EBA\u9AD8\u5174\u9AD8\u5174\u3002</p><p>\u65F6\u95F4\u6765\u5230\u4E86\u665A\u996D\u540E\uFF0C\u7830\u7830\u7830\uFF01\u4E00\u9635\u6572\u95E8\u58F0\u4F20\u6765\uFF0C\u5C0F\u767D\u5154\u8D76\u7D27\u53BB\u5F00\u95E8\uFF0C\u4E00\u5F00\u95E8\u53D1\u73B0\u5C45\u7136\u662F\u5C0F\u72D0\u72F8\uFF0C\u53EF\u628A\u5C0F\u767D\u5154\u60CA\u559C\u574F\u4E86\uFF0C\u4EE5\u81F3\u4E8E\u4E00\u65F6\u95F4\u8BF4\u4E0D\u51FA\u8BDD\u6765\u3002</p><p>\u201C\u542C\u5927\u8C61\u4F2F\u4F2F\u8BF4\uFF0C\u4F60\u4E0B\u5348\u627E\u6211\u4E86\uFF1F\u68EE\u6797\u91CC\u7684\u6843\u5B50\u719F\u4E86\uFF0C\u6211\u548C\u5C0F\u4F19\u4F34\u4EEC\u53BB\u68EE\u6797\u91CC\u6458\u6843\u5B50\u53BB\u4E86\uFF0C\u6211\u5C1D\u4E86\u4E0B\uFF0C\u53EF\u597D\u5403\u4E86\uFF0C\u7ED9\u4F60\u4E5F\u62FF\u4E86\u4E00\u70B9\u3002\u201D\u5C0F\u72D0\u72F8\u770B\u7740\u5C0F\u767D\u5154\u4E0D\u8BF4\u8BDD\uFF0C\u4E8E\u662F\u63D0\u524D\u5F00\u53E3\u8BF4\uFF0C\u5C0F\u767D\u5154\u4ED4\u7EC6\u4E00\u770B\uFF0C\u624D\u53D1\u89C9\u5C0F\u72D0\u72F8\u62B1\u4E86\u4E00\u5806\u6843\u5B50\u5462\uFF0C\u4E8E\u662F\u8FDE\u5FD9\u62DB\u547C\u5C0F\u72D0\u72F8\u8FDB\u5C4B\u91CC\u3002</p><p>\u5C0F\u72D0\u72F8\u6765\u5230\u5C4B\u91CC\u505A\u597D\u540E\uFF0C\u5C0F\u767D\u5154\u7ED9\u5C0F\u72D0\u72F8\u8BF4\u4E86\u597D\u591A\u597D\u591A\u8BDD\uFF0C\u6709\u81EA\u5DF1\u6BD4\u8D5B\u7684\u7CBE\u5F69\u7247\u6BB5\uFF0C\u4E5F\u6709\u81EA\u5DF1\u5F97\u5956\u7684\u60CA\u559C\u5FC3\u60C5\u2026\u2026</p><p>\u5C31\u8FD9\u6837\u4E0D\u77E5\u4E0D\u89C9\uFF0C\u5DF2\u7ECF\u5230\u4E86\u6DF1\u591C\uFF0C\u86D0\u86D0\u7684\u58F0\u97F3\u6C89\u6D78\u4E86\u6574\u4E2A\u68EE\u6797\uFF0C\u4E5F\u5305\u62EC\u5C0F\u5154\u5B50\u7684\u5BB6\u3002\u8FD9\u4E2A\u65F6\u5019\uFF0C\u5C0F\u767D\u5154\u624D\u53D1\u73B0\u81EA\u5DF1\u7ED9\u5C0F\u72D0\u72F8\u5C45\u7136\u8BB2\u4E86\u8FD9\u4E48\u4E45\uFF0C\u7ADF\u6CA1\u6709\u53D1\u73B0\u65F6\u95F4\u8FC7\u5F97\u8FD9\u4E48\u5FEB\uFF0C\u800C\u4E14\u5C0F\u72D0\u72F8\u4E5F\u8BA4\u8BA4\u771F\u771F\u7684\u5145\u5F53\u7740\u4E00\u4E2A\u8046\u542C\u8005\u3002</p><p>\u5C0F\u767D\u5154\u7A81\u7136\u89C9\u5F97\u4E0D\u597D\u610F\u601D\u4E86\uFF0C\u56E0\u4E3A\u4E00\u76F4\u662F\u81EA\u5DF1\u5728\u8BB2\uFF0C\u4E8E\u662F\u8138\u77AC\u95F4\u5C31\u7EA2\u4E86\u8D77\u6765\u3002</p><p>\u5C0F\u72D0\u72F8\u770B\u5230\u597D\u5947\u7684\u95EE\uFF1A\u201C\u600E\u4E48\u4E86\u5C0F\u767D\u5154\uFF1F\u600E\u4E48\u8138\u7EA2\u4E86\uFF1F\u201D</p><p>\u201C\u6211\u90FD\u4E0D\u77E5\u9053\u8BB2\u4E86\u8FD9\u4E48\u4E45\u4E86\uFF0C\u5BF9\u4E0D\u8D77\u5C0F\u72D0\u72F8\uFF0C\u90FD\u6CA1\u6709\u5728\u610F\u4F60\u7684\u611F\u53D7\u3002\u201D\u5C0F\u767D\u5154\u7F9E\u7EA2\u7740\u8138\u8BF4\u7740\u3002</p><p>\u5C0F\u72D0\u72F8\u8FDE\u5FD9\u9053\uFF1A\u201C\u600E\u4E48\u4F1A\u5462\uFF01\u4F60\u8BB2\u7684\u592A\u6709\u610F\u601D\u4E86\uFF0C\u771F\u53EF\u60DC\u6CA1\u53BB\u73B0\u573A\u770B\uFF0C\u4E0D\u7136\u66F4\u7CBE\u5F69\uFF01\u800C\u4E14\u2026\u2026\u800C\u4E14\u2026\u2026\u201D\u5C0F\u72D0\u72F8\u7A81\u7136\u8BF4\u8BDD\u72B9\u8C6B\u4E86\u8D77\u6765\u3002</p><p>\u201C\u800C\u4E14\u4EC0\u4E48\uFF1F\u201D\u5C0F\u767D\u5154\u76EF\u7740\u5C0F\u72D0\u72F8\u597D\u5947\u7684\u95EE\u3002</p><p>\u201C\u800C\u4E14\u542C\u81EA\u5DF1\u559C\u6B22\u7684\u4EBA\u8BB2\uFF0C\u4F1A\u66F4\u52A0\u6709\u610F\u601D\uFF01\u201D\u5C0F\u72D0\u72F8\u6EE1\u773C\u6DF1\u60C5\u7684\u76EF\u7740\u5C0F\u767D\u5154\u56DE\u7B54\u8BF4\u3002</p><p>\u201C\u554A\uFF01\u201D\u5C0F\u767D\u5154\u60CA\u8BB6\u7684\u8BF4\u4E86\u4E00\u53E5\uFF0C\u201C\u4F60\u8BF4\u4EC0\u4E48\uFF1F\u201D</p><p>\u201C\u6211\u559C\u6B22\u4F60\u5440\uFF0C\u5C0F\u767D\u5154\uFF0C\u800C\u4E14\u559C\u6B22\u597D\u4E45\u4E86\uFF01\u563B\u563B\uFF01\u201D\u5C0F\u72D0\u72F8\u4E0D\u597D\u610F\u601D\u7684\u770B\u7740\u5C0F\u767D\u5154\u2026\u2026</p><h2 id="\u62B1\u62B1" tabindex="-1"><a class="header-anchor" href="#\u62B1\u62B1" aria-hidden="true">#</a> \u62B1\u62B1</h2><p>\u5C0F\u72D0\u72F8\u4ECA\u5929\u548C\u5C0F\u5154\u5B50\u5435\u67B6\u4E86\uFF0C\u539F\u56E0\u662F\u56E0\u4E3A\uFF0C\u660E\u660E\u4ECA\u5929\u5C31\u662F\u4E00\u5E74\u4E00\u6B21\u7684\u60C5\u4EBA\u8282\uFF0C\u53EF\u662F\u5C0F\u72D0\u72F8\u53EA\u7ED9\u5C0F\u767D\u5154\u53D1\u4E86\u4E2A\u7EA2\u5305\uFF0C\u8FD9\u8BA9\u5C0F\u5154\u5B50\u89C9\u5F97\u5C0F\u72D0\u72F8\u4E00\u70B9\u90FD\u4E0D\u4E0A\u5FC3\u3002</p><p>\u521A\u5F00\u59CB\uFF0C\u5176\u5B9E\u90FD\u6CA1\u6709\u5435\u67B6\uFF0C\u53EA\u662F\u5C0F\u5154\u5B50\u7ED9\u5C0F\u72D0\u72F8\u62B1\u6028\u4E86\u4E00\u4E0B\u3002\u4F46\u5C0F\u72D0\u72F8\u4E5F\u89C9\u5F97\u59D4\u5C48\u554A\uFF0C\u56E0\u4E3A\u81EA\u5DF1\u6709\u8BB0\u5F97\u8FD9\u662F\u4E2A\u7279\u522B\u7684\u65E5\u5B50\uFF0C\u4E5F\u53D1\u4E86\u60C5\u4EBA\u8282\u7EA2\u5305\u554A\u3002</p><p>\u4E8E\u662F\uFF0C\u5C31\u548C\u5C0F\u5154\u5B50\u8BB2\u8D77\u4E86\u9053\u7406\u3002\u8C08\u604B\u7231\u7684\u5C0F\u52A8\u7269\u4EEC\u90FD\u77E5\u9053\uFF0C\u5973\u751F\u662F\u7528\u6765\u54C4\u5F97\uFF0C\u600E\u4E48\u53EF\u4EE5\u7528\u6765\u8BB2\u9053\u7406\u5462?</p><p>\u4E8E\u662F\u8BF4\u7740\u8BF4\u7740\uFF0C\u5C0F\u72D0\u72F8\u5C31\u548C\u5C0F\u5154\u5B50\u5435\u4E86\u8D77\u6765\uFF0C\u5435\u4E86\u4E00\u4F1A\uFF0C\u5C0F\u72D0\u72F8\u5C31\u51FA\u4E86\u5BB6\u95E8\uFF0C\u72EC\u81EA\u51B7\u9759\u53BB\u4E86\u3002</p><p>\u5C31\u8FD9\u6837\uFF0C\u8FC7\u4E86\u4E00\u4E2A\u5C0F\u65F6\uFF0C\u5C0F\u72D0\u72F8\u7684\u6C14\u4E5F\u6D88\u4E86\uFF0C\u4E5F\u60F3\u4E86\u60F3\u81EA\u5DF1\u4E0D\u5E94\u8BE5\u548C\u5C0F\u5154\u5B50\u5435\u67B6\uFF0C\u5C31\u60F3\u7740\u8981\u53BB\u627E\u5C0F\u5154\u5B50\u9053\u6B49\u3002</p><p>\u4F46\u5C0F\u72D0\u72F8\u4E00\u60F3\uFF0C\u8FD9\u6837\u597D\u50CF\u5F88\u6CA1\u7528\u9762\u5B50\uFF0C\u4E8E\u662F\u53C8\u5FCD\u4F4F\u4E86\u3002</p><p>\u53C8\u8FC7\u4E86\u4E00\u4E2A\u5C0F\u65F6\uFF0C\u5C0F\u72D0\u72F8\u5B9E\u5728\u5FCD\u4E0D\u4F4F\u4E86\uFF0C\u4E8E\u662F\u6765\u5230\u5BB6\u95E8\u53E3\uFF0C\u558A\u7740\u5C0F\u5154\u5B50\uFF1A\u201C\u5C0F\u5154\u5B50\uFF0C\u4F60\u51FA\u6765\uFF0C\u6211\u6709\u8BDD\u7ED9\u4F60\u8BF4\u3002\u201D</p><p>\u4E0D\u4E00\u4F1A\uFF0C\u5C0F\u5154\u5B50\u6253\u5F00\u623F\u95E8\uFF0C\u770B\u5230\u662F\u5C0F\u72D0\u72F8\uFF0C\u4FBF\u95EE\uFF1A\u201C\u51FA\u6765\u5E72\u4EC0\u4E48\uFF1F\u5BB6\u91CC\u8BF4\u3002\u201D</p><p>\u201D\u4E0D\u884C\uFF0C\u8981\u51FA\u6765\u8BF4\uFF01\u201C\u5C0F\u72D0\u72F8\u6267\u62D7\u7684\u8BF4\u3002</p><p>\u770B\u7740\u6267\u7740\u7684\u5C0F\u72D0\u72F8\uFF0C\u5C0F\u767D\u5154\u8FD8\u662F\u5FCD\u4E0D\u4F4F\u51FA\u4E86\u95E8\uFF0C\u6765\u5230\u5C0F\u72D0\u72F8\u9762\u524D\u3002</p><p>\u5C0F\u72D0\u72F8\u770B\u7740\u5C0F\u5154\u5B50\u8BF4\uFF1A\u201D\u56E0\u4E3A\uFF0C\u6211\u4EEC\u5728\u5BB6\u91CC\u95F9\u63B0\u4E86\uFF0C\u6240\u6709\u4E0D\u80FD\u5728\u5BB6\u91CC\u8BF4\uFF0C\u8981\u51FA\u6765\u8BF4\u3002\u201C</p><p>\u4E8E\u662F\u5C0F\u72D0\u72F8\u8BA4\u8BA4\u771F\u771F\u7684\u7ED9\u5C0F\u5154\u5B50\u9053\u4E86\u6B49\uFF0C\u5C0F\u5154\u5B50\u770B\u7740\u81EA\u8D23\u7684\u5C0F\u72D0\u72F8\uFF0C\u4E5F\u8BF4\u4E86\u81EA\u5DF1\u4E0D\u8BE5\u4EFB\u6027\u3002</p><p>\u901A\u8FC7\u4ECA\u5929\u7684\u4E89\u5435\uFF0C\u5C0F\u72D0\u72F8\u548C\u5C0F\u5154\u5B50\u660E\u767D\u4E86\uFF0C\u5BB6\u4E0D\u662F\u7528\u6765\u5435\u67B6\u7684\u5730\u65B9\uFF0C\u800C\u662F\u5206\u4EAB\u548C\u751F\u6D3B\u7684\u5C0F\u7A9D\u3002</p><p>\u4ED6\u4EEC\u7EA6\u5B9A\uFF0C\u4EE5\u540E\u9047\u5230\u95EE\u9898\u8981\u5C3D\u91CF\u597D\u597D\u5546\u91CF\uFF0C\u51CF\u5C11\u4E89\u5435\u3002</p><p>\u5C0F\u72D0\u72F8\u548C\u5C0F\u5154\u5B50\u4E92\u76F8\u9053\u5B8C\u6B49\u540E\uFF0C\u5C0F\u72D0\u72F8\u7ED9\u4E86\u5C0F\u5154\u5B50\u4E00\u4E2A\u5927\u5927\u7684\u5145\u6EE1\u7231\u7684\u62B1\u62B1\u3002</p><p>\u56E0\u4E3A\u5C0F\u72D0\u72F8\u77E5\u9053\uFF0C\u7231\u4EBA\u4E4B\u95F4\u6CA1\u6709\u4EC0\u4E48\u95EE\u9898\u662F\u4E0D\u80FD\u7528\u4E00\u4E2A\u62B1\u62B1\u89E3\u51B3\u7684\u3002</p><p>\u5982\u679C\u6709\uFF0C\u90A3\u5C31\u4E24\u4E2A......</p><!--]-->`);
 }
-const _sfc_setup$J = _sfc_main$J.setup;
-_sfc_main$J.setup = (props, ctx) => {
+const _sfc_setup$C = _sfc_main$C.setup;
+_sfc_main$C.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/\u6545\u4E8B/story.html.vue");
-  return _sfc_setup$J ? _sfc_setup$J(props, ctx) : void 0;
+  return _sfc_setup$C ? _sfc_setup$C(props, ctx) : void 0;
 };
-var story_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$J, [["ssrRender", _sfc_ssrRender$v]]);
+var story_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$C, [["ssrRender", _sfc_ssrRender$o]]);
 var story_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": story_html$1
 });
-const _sfc_main$I = {};
-function _sfc_ssrRender$u(_ctx, _push, _parent, _attrs) {
+const _sfc_main$B = {};
+function _sfc_ssrRender$n(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h2 id="\u6559\u7A0B" tabindex="-1"><a class="header-anchor" href="#\u6559\u7A0B" aria-hidden="true">#</a> \u6559\u7A0B</h2><h2 id="\u6559\u7A0B-1" tabindex="-1"><a class="header-anchor" href="#\u6559\u7A0B-1" aria-hidden="true">#</a> \u6559\u7A0B</h2><!--]-->`);
 }
-const _sfc_setup$I = _sfc_main$I.setup;
-_sfc_main$I.setup = (props, ctx) => {
+const _sfc_setup$B = _sfc_main$B.setup;
+_sfc_main$B.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/\u6559\u7A0B/text.html.vue");
-  return _sfc_setup$I ? _sfc_setup$I(props, ctx) : void 0;
+  return _sfc_setup$B ? _sfc_setup$B(props, ctx) : void 0;
 };
-var text_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$I, [["ssrRender", _sfc_ssrRender$u]]);
+var text_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$B, [["ssrRender", _sfc_ssrRender$n]]);
 var text_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": text_html$1
 });
-const _sfc_main$H = {};
-function _sfc_ssrRender$t(_ctx, _push, _parent, _attrs) {
-  _push(`<!--[--><h2 id="\u4F5C\u4E3A\u4E00\u4E2A\u4EBA" tabindex="-1"><a class="header-anchor" href="#\u4F5C\u4E3A\u4E00\u4E2A\u4EBA" aria-hidden="true">#</a> \u4F5C\u4E3A\u4E00\u4E2A\u4EBA</h2><p>\u6709\u65F6\u5019\uFF0C\u4E0D\u8981\u542C\u522B\u4EBA\u7684\u6307\u70B9\uFF0C\u66F4\u4E0D\u8981\u6307\u70B9\u522B\u4EBA\u3002</p><!--]-->`);
-}
-const _sfc_setup$H = _sfc_main$H.setup;
-_sfc_main$H.setup = (props, ctx) => {
-  const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/\u968F\u7B14/reflection.html.vue");
-  return _sfc_setup$H ? _sfc_setup$H(props, ctx) : void 0;
-};
-var reflection_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$H, [["ssrRender", _sfc_ssrRender$t]]);
-var reflection_html$2 = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  "default": reflection_html$1
-});
-const _sfc_main$G = {};
-function _sfc_ssrRender$s(_ctx, _push, _parent, _attrs) {
-  const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
-  _push(`<!--[--><h2 id="\u8BA4\u8BC6git" tabindex="-1"><a class="header-anchor" href="#\u8BA4\u8BC6git" aria-hidden="true">#</a> \u8BA4\u8BC6git</h2><p>\u9996\u5148\u6211\u4EEC\u6765\u4E86\u89E3\u4E00\u4E0BGit\u662F\u5982\u4F55\u5DE5\u4F5C\u7684\uFF1A</p><p>\u53EF\u4EE5\u770B\u5230\uFF0C\u5B83\u5927\u81F4\u5206\u4E3A4\u4E2A\u677F\u5757\uFF1A</p><ul><li>\u5DE5\u4F5C\u76EE\u5F55\uFF1A\u5B58\u653E\u6211\u4EEC\u6B63\u5728\u5199\u7684\u4EE3\u7801\uFF08\u5F53\u6211\u4EEC\u65B0\u7248\u672C\u5F00\u53D1\u5B8C\u6210\u4E4B\u540E\uFF0C\u5C31\u53EF\u4EE5\u8FDB\u884C\u65B0\u7248\u672C\u7684\u63D0\u4EA4\uFF09</li><li>\u6682\u5B58\u533A\uFF1A\u6682\u65F6\u4FDD\u5B58\u5F85\u63D0\u4EA4\u7684\u5185\u5BB9\uFF08\u65B0\u7248\u672C\u63D0\u4EA4\u540E\u4F1A\u5B58\u653E\u5230\u672C\u5730\u4ED3\u5E93\uFF09</li><li>\u672C\u5730\u4ED3\u5E93\uFF1A\u4F4D\u4E8E\u6211\u4EEC\u7535\u8111\u4E0A\u7684\u4E00\u4E2A\u7248\u672C\u63A7\u5236\u4ED3\u5E93\uFF08\u5B58\u653E\u7684\u5C31\u662F\u5F53\u524D\u9879\u76EE\u5404\u4E2A\u7248\u672C\u4EE3\u7801\u7684\u589E\u5220\u4FE1\u606F\uFF09</li><li>\u8FDC\u7A0B\u4ED3\u5E93\uFF1A\u4F4D\u4E8E\u670D\u52A1\u5668\u4E0A\u7684\u7248\u672C\u63A7\u5236\u4ED3\u5E93\uFF08\u670D\u52A1\u5668\u4E0A\u7684\u7248\u672C\u4FE1\u606F\u53EF\u4EE5\u7531\u672C\u5730\u4ED3\u5E93\u63A8\u9001\u4E0A\u53BB\uFF0C\u4E5F\u53EF\u4EE5\u4ECE\u670D\u52A1\u5668\u6293\u53D6\u5230\u672C\u5730\u4ED3\u5E93\uFF09</li></ul><p>\u5B83\u662F\u4E00\u4E2A\u5206\u5E03\u5F0F\u7684\u63A7\u5236\u7CFB\u7EDF\uFF0C\u56E0\u6B64\u4E00\u822C\u60C5\u51B5\u4E0B\u6211\u4EEC\u6BCF\u4E2A\u4EBA\u7684\u7535\u8111\u4E0A\u90FD\u6709\u4E00\u4E2A\u672C\u5730\u4ED3\u5E93\uFF0C\u7531\u5927\u5BB6\u5171\u540C\u5411\u8FDC\u7A0B\u4ED3\u5E93\u53BB\u63A8\u9001\u7248\u672C\u8FED\u4EE3\u4FE1\u606F\u3002</p><h2 id="\u5B89\u88C5git" tabindex="-1"><a class="header-anchor" href="#\u5B89\u88C5git" aria-hidden="true">#</a> \u5B89\u88C5Git</h2><p>\u9996\u5148\u8BF7\u524D\u5F80Git\u5B98\u7F51\u53BB\u4E0B\u8F7D\u6700\u65B0\u7684\u5B89\u88C5\u5305\uFF1A<a href="https://git-scm.com/download/win" target="_blank" rel="noopener noreferrer">https://git-scm.com/download/win`);
-  _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
-  _push(`</a></p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> config --global user.name <span class="token string">&quot;Your Name&quot;</span>
-<span class="token function">git</span> config --global user.email <span class="token string">&quot;email@example.com&quot;</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h2 id="\u57FA\u672C\u547D\u4EE4\u4ECB\u7ECD" tabindex="-1"><a class="header-anchor" href="#\u57FA\u672C\u547D\u4EE4\u4ECB\u7ECD" aria-hidden="true">#</a> \u57FA\u672C\u547D\u4EE4\u4ECB\u7ECD</h2><ol><li>\u521B\u5EFA\u672C\u5730\u4ED3\u5E93</li></ol><p>\u53EF\u4EE5\u5728\u4EFB\u610F\u6587\u4EF6\u5939</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git init
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u8F93\u5165\u540E\uFF0C\u4F1A\u81EA\u52A8\u751F\u6210\u4E00\u4E2A.git\u76EE\u5F55\uFF0C\u6CE8\u610F\u8FD9\u4E2A\u76EE\u5F55\u662F\u4E00\u4E2A\u9690\u85CF\u76EE\u5F55\uFF0C\u800C\u5F53\u524D\u76EE\u5F55\u5C31\u662F\u6211\u4EEC\u7684\u5DE5\u4F5C\u76EE\u5F55\u3002</p><p>\u521B\u5EFA\u6210\u529F\u540E\uFF0C\u6211\u4EEC\u53EF\u4EE5\u67E5\u770B\u4E00\u4E0B\u5F53\u524D\u7684\u4E00\u4E2A\u72B6\u6001\uFF0C\u8F93\u5165\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git status
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u5982\u679C\u5DF2\u7ECF\u6210\u529F\u914D\u7F6E\u4E3AGit\u672C\u5730\u4ED3\u5E93\uFF0C\u90A3\u4E48\u8F93\u5165\u540E\u53EF\u4EE5\u770B\u5230</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>On branch master
-
-No commits yet
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>\u8FD9\u8868\u793A\u6211\u4EEC\u8FD8\u6CA1\u6709\u5411\u4ED3\u5E93\u4E2D\u63D0\u4EA4\u4EFB\u4F55\u5185\u5BB9\uFF0C\u4E5F\u5C31\u662F\u4E00\u4E2A\u7A7A\u7684\u72B6\u6001\u3002</p><h2 id="\u6DFB\u52A0\u548C\u63D0\u4EA4" tabindex="-1"><a class="header-anchor" href="#\u6DFB\u52A0\u548C\u63D0\u4EA4" aria-hidden="true">#</a> \u6DFB\u52A0\u548C\u63D0\u4EA4</h2><p>\u63A5\u7740\u6211\u4EEC\u6765\u770B\u770B\uFF0C\u5982\u4F55\u4F7F\u7528git\u6765\u7BA1\u7406\u6211\u4EEC\u6587\u6863\u7684\u7248\u672C\uFF0C\u6211\u4EEC\u521B\u5EFA\u4E00\u4E2A\u6587\u672C\u6587\u6863\uFF0C\u968F\u4FBF\u5199\u5165\u4E00\u70B9\u5185\u5BB9\uFF0C\u63A5\u7740\u8F93\u5165\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git status
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><ul><li>\u4F1A\u63D0\u793A</li></ul><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>Untracked files:
-  <span class="token punctuation">(</span>use <span class="token string">&quot;git add &lt;file&gt;...&quot;</span> to include <span class="token keyword">in</span> what will be committed<span class="token punctuation">)</span>
-	hello.txt
-
-nothing added to commit but untracked files present <span class="token punctuation">(</span>use <span class="token string">&quot;git add&quot;</span> to track<span class="token punctuation">)</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p>\u5176\u4E2DUntracked files\u662F\u672A\u8FFD\u8E2A\u6587\u4EF6\u7684\u610F\u601D\uFF0C\u4E5F\u5C31\u662F\u8BF4\uFF0C\u5982\u679C\u4E00\u4E2A\u6587\u4EF6\u5904\u4E8E\u672A\u8FFD\u8E2A\u72B6\u6001\uFF0C\u90A3\u4E48git\u4E0D\u4F1A\u8BB0\u5F55\u5B83\u7684\u53D8\u5316\uFF0C\u59CB\u7EC8\u5C06\u5176\u5F53\u505A\u4E00\u4E2A\u65B0\u521B\u5EFA\u7684\u6587\u4EF6\uFF0C\u8FD9\u91CC\u6211\u4EEC\u5C06\u5176\u6DFB\u52A0\u5230\u6682\u5B58\u533A\uFF0C\u90A3\u4E48\u5B83\u4F1A\u81EA\u52A8\u53D8\u4E3A\u88AB\u8FFD\u8E2A\u72B6\u6001\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git add hello<span class="token punctuation">.</span>txt #\u4E5F\u53EF\u4EE5 add <span class="token punctuation">.</span> \u4E00\u6B21\u6027\u6DFB\u52A0\u76EE\u5F55\u4E0B\u6240\u6709\u7684
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u518D\u6B21\u67E5\u770B\u5F53\u524D\u72B6\u6001(<code>git status</code>)\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>Changes to be committed<span class="token operator">:</span>
-  <span class="token punctuation">(</span>use <span class="token string">&quot;git rm --cached &lt;file&gt;...&quot;</span> to unstage<span class="token punctuation">)</span>
-	new file<span class="token operator">:</span>   hello<span class="token punctuation">.</span>txt
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>\u73B0\u5728\u6587\u4EF6\u540D\u79F0\u7684\u989C\u8272\u53D8\u6210\u4E86\u7EFF\u8272\uFF0C\u5E76\u4E14\u662F\u5904\u4E8EChanges to be committed\u4E0B\u9762\uFF0C\u56E0\u6B64\uFF0C\u6211\u4EEC\u7684hello.txt\u73B0\u5728\u5DF2\u7ECF\u88AB\u6DFB\u52A0\u5230\u6682\u5B58\u533A\u4E86\u3002</p><p>\u63A5\u7740\u6211\u4EEC\u6765\u5C1D\u8BD5\u5C06\u5176\u63D0\u4EA4\u5230Git\u672C\u5730\u4ED3\u5E93\u4E2D\uFF0C\u6CE8\u610F\u9700\u8981\u8F93\u5165\u63D0\u4EA4\u7684\u63CF\u8FF0\u4EE5\u4FBF\u540E\u7EED\u67E5\u770B\uFF0C\u6BD4\u5982\u4F60\u8FD9\u6B21\u63D0\u4EA4\u4FEE\u6539\u4E86\u6216\u662F\u65B0\u589E\u4E86\u54EA\u4E9B\u5185\u5BB9\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git commit <span class="token operator">-</span>m <span class="token string">&#39;Hello World&#39;</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u63A5\u7740\u6211\u4EEC\u53EF\u4EE5\u67E5\u770B\u6211\u4EEC\u7684\u63D0\u4EA4\u8BB0\u5F55\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git log
-git log <span class="token operator">--</span>graph
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>\u6211\u4EEC\u8FD8\u53EF\u4EE5\u67E5\u770B\u6700\u8FD1\u4E00\u6B21\u53D8\u66F4\u7684\u8BE6\u7EC6\u5185\u5BB9\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git show <span class="token punctuation">[</span>\u4E5F\u53EF\u4EE5\u52A0\u4E0Acommit ID\u67E5\u770B\u6307\u5B9A\u7684\u63D0\u4EA4\u8BB0\u5F55<span class="token punctuation">]</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u518D\u6B21\u67E5\u770B\u5F53\u524D\u72B6\u6001\uFF0C\u5DF2\u7ECF\u662F\u6E05\u7A7A\u72B6\u6001\u4E86\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>On branch master
-nothing to commit<span class="token punctuation">,</span> working tree clean
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>\u63A5\u7740\u6211\u4EEC\u53EF\u4EE5\u5C1D\u8BD5\u4FEE\u6539\u4E00\u4E0B\u6211\u4EEC\u7684\u6587\u672C\u6587\u6863\uFF0C\u7531\u4E8E\u5F53\u524D\u6587\u4EF6\u5DF2\u7ECF\u662F\u88AB\u8FFD\u8E2A\u72B6\u6001\uFF0C\u90A3\u4E48git\u4F1A\u53BB\u8DDF\u8E2A\u5B83\u7684\u53D8\u5316\uFF0C\u5982\u679C\u8BF4\u6587\u4EF6\u53D1\u751F\u4E86\u4FEE\u6539\uFF0C\u90A3\u4E48\u6211\u4EEC\u518D\u6B21\u67E5\u770B\u72B6\u6001\u4F1A\u5F97\u5230\u4E0B\u9762\u7684\u7ED3\u679C\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>Changes not staged <span class="token keyword">for</span> commit<span class="token operator">:</span>
-  <span class="token punctuation">(</span>use <span class="token string">&quot;git add &lt;file&gt;...&quot;</span> to update what will be committed<span class="token punctuation">)</span>
-  <span class="token punctuation">(</span>use <span class="token string">&quot;git restore &lt;file&gt;...&quot;</span> to discard changes in working directory<span class="token punctuation">)</span>
-	modified<span class="token operator">:</span>   hello<span class="token punctuation">.</span>txt
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>\u4E5F\u5C31\u662F\u8BF4\u73B0\u5728\u6B64\u6587\u4EF6\u662F\u5904\u4E8E\u5DF2\u4FEE\u6539\u72B6\u6001\uFF0C\u6211\u4EEC\u5982\u679C\u4FEE\u6539\u597D\u4E86\uFF0C\u5C31\u53EF\u4EE5\u63D0\u4EA4\u6211\u4EEC\u7684\u65B0\u7248\u672C\u5230\u672C\u5730\u4ED3\u5E93\u4E2D\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git add <span class="token punctuation">.</span>
-git commit <span class="token operator">-</span>m <span class="token string">&#39;Modify Text&#39;</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>\u63A5\u7740\u6211\u4EEC\u6765\u67E5\u8BE2\u4E00\u4E0B\u63D0\u4EA4\u8BB0\u5F55\uFF0C\u53EF\u4EE5\u770B\u5230\u4E00\u5171\u6709\u4E24\u6B21\u63D0\u4EA4\u8BB0\u5F55\u3002</p><p>\u6211\u4EEC\u53EF\u4EE5\u521B\u5EFA\u4E00\u4E2A.gitignore\u6587\u4EF6\u6765\u786E\u5B9A\u4E00\u4E2A\u6587\u4EF6\u5FFD\u7565\u5217\u8868\uFF0C\u5982\u679C\u5FFD\u7565\u5217\u8868\u4E2D\u7684\u6587\u4EF6\u5B58\u5728\u4E14\u4E0D\u662F\u88AB\u8FFD\u8E2A\u72B6\u6001\uFF0C\u90A3\u4E48git\u4E0D\u4F1A\u5BF9\u5176\u8FDB\u884C\u4EFB\u4F55\u68C0\u67E5\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># \u8FD9\u6837\u5C31\u4F1A\u5339\u914D\u6240\u6709\u4EE5txt\u7ED3\u5C3E\u7684\u6587\u4EF6</span>
-*.txt
-<span class="token comment"># \u867D\u7136\u4E0A\u9762\u6392\u9664\u4E86\u6240\u6709txt\u7ED3\u5C3E\u7684\u6587\u4EF6\uFF0C\u4F46\u662F\u8FD9\u4E2A\u4E0D\u6392\u9664</span>
-<span class="token operator">!</span><span class="token number">666</span>.txt
-<span class="token comment"># \u4E5F\u53EF\u4EE5\u76F4\u63A5\u6307\u5B9A\u4E00\u4E2A\u6587\u4EF6\u5939\uFF0C\u6587\u4EF6\u5939\u4E0B\u7684\u6240\u6709\u6587\u4EF6\u5C06\u5168\u90E8\u5FFD\u7565</span>
-test/
-<span class="token comment"># \u76EE\u5F55\u4E2D\u6240\u6709\u4EE5txt\u7ED3\u5C3E\u7684\u6587\u4EF6\uFF0C\u4F46\u4E0D\u5305\u62EC\u5B50\u76EE\u5F55</span>
-xxx/*.txt
-<span class="token comment"># \u76EE\u5F55\u4E2D\u6240\u6709\u4EE5txt\u7ED3\u5C3E\u7684\u6587\u4EF6\uFF0C\u5305\u62EC\u5B50\u76EE\u5F55</span>
-xxx/**/*.txt
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><p>\u521B\u5EFA\u540E\uFF0C\u6211\u4EEC\u6765\u770B\u770B\u662F\u5426\u8FD8\u4F1A\u68C0\u6D4B\u5230\u6211\u4EEC\u5FFD\u7565\u7684\u6587\u4EF6\u3002</p><p>\u56DE\u6EDA</p><p>\u5F53\u6211\u4EEC\u60F3\u8981\u56DE\u9000\u5230\u8FC7\u53BB\u7684\u7248\u672C\u65F6\uFF0C\u5C31\u53EF\u4EE5\u6267\u884C\u56DE\u6EDA\u64CD\u4F5C\uFF0C\u6267\u884C\u540E\uFF0C\u53EF\u4EE5\u5C06\u5DE5\u4F5C\u7A7A\u95F4\u7684\u5185\u5BB9\u6062\u590D\u5230\u6307\u5B9A\u63D0\u4EA4\u7684\u72B6\u6001\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git reset <span class="token operator">--</span>hard commitID
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u6267\u884C\u540E\uFF0C\u4F1A\u76F4\u63A5\u91CD\u7F6E\u4E3A\u90A3\u4E2A\u65F6\u5019\u7684\u72B6\u6001\u3002\u518D\u6B21\u67E5\u770B\u63D0\u4EA4\u65E5\u5FD7\uFF0C\u6211\u4EEC\u53D1\u73B0\u4E4B\u540E\u7684\u65E5\u5FD7\u5168\u90E8\u6D88\u5931\u4E86\u3002</p><p>\u90A3\u4E48\u8981\u662F\u73B0\u5728\u6211\u53C8\u60F3\u56DE\u53BB\u5462\uFF1F\u6211\u4EEC\u53EF\u4EE5\u901A\u8FC7\u67E5\u770B\u6240\u6709\u5206\u652F\u7684\u6240\u6709\u64CD\u4F5C\u8BB0\u5F55\uFF1A</p><p>\u8FD9\u6837\u5C31\u80FD\u627E\u5230\u4E4B\u524D\u7684commitID\uFF0C\u518D\u6B21\u91CD\u7F6E\u5373\u53EF\u3002</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git reflog
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><h2 id="\u5206\u652F" tabindex="-1"><a class="header-anchor" href="#\u5206\u652F" aria-hidden="true">#</a> \u5206\u652F</h2><p>\u5206\u652F\u5C31\u50CF\u6211\u4EEC\u6811\u4E0A\u7684\u4E00\u4E2A\u6811\u679D\u4E00\u6837\uFF0C\u5B83\u4EEC\u53EF\u80FD\u4E00\u5F00\u59CB\u7684\u65F6\u5019\u662F\u540C\u4E00\u6839\u6811\u679D\uFF0C\u4F46\u662F\u957F\u7740\u957F\u7740\u5C31\u5F00\u59CB\u5206\u9053\u626C\u9573\u4E86\uFF0C\u8FD9\u5C31\u662F\u5206\u652F\u3002\u6211\u4EEC\u7684\u4EE3\u7801\u4E5F\u662F\u8FD9\u6837\uFF0C\u53EF\u80FD\u4E00\u5F00\u59CB\u5199\u57FA\u7840\u529F\u80FD\u7684\u65F6\u5019\u4F7F\u7528\u7684\u662F\u5355\u4E2A\u5206\u652F\uFF0C\u4F46\u662F\u67D0\u4E00\u5929\u6211\u4EEC\u5E0C\u671B\u57FA\u4E8E\u8FD9\u4E9B\u57FA\u7840\u7684\u529F\u80FD\uFF0C\u628A\u6211\u4EEC\u7684\u9879\u76EE\u505A\u6210\u4E24\u4E2A\u4E0D\u540C\u65B9\u5411\u7684\u9879\u76EE\uFF0C\u6BD4\u5982\u4E00\u4E2A\u65B9\u5411\u505AWeb\u7F51\u7AD9\uFF0C\u53E6\u4E00\u4E2A\u65B9\u5411\u505A\u6E38\u620F\u670D\u52A1\u7AEF\u3002</p><p>\u56E0\u6B64\uFF0C\u6211\u4EEC\u53EF\u4EE5\u5728\u4E00\u4E2A\u4E3B\u5E72\u4E0A\u5206\u51FAN\u4E2A\u5206\u652F\uFF0C\u5206\u522B\u5BF9\u591A\u4E2A\u5206\u652F\u7684\u4EE3\u7801\u8FDB\u884C\u7EF4\u62A4\u3002</p><ol><li>\u521B\u5EFA\u5206\u652F</li></ol><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git branch
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u6211\u4EEC\u53D1\u73B0\uFF0C\u9ED8\u8BA4\u60C5\u51B5\u4E0B\u662F\u6709\u4E00\u4E2Amaster\u5206\u652F\u7684\uFF0C\u5E76\u4E14\u6211\u4EEC\u4F7F\u7528\u7684\u4E5F\u662Fmaster\u5206\u652F\uFF0C\u4E00\u822C\u60C5\u51B5\u4E0Bmaster\u5206\u652F\u90FD\u662F\u6B63\u5F0F\u7248\u672C\u7684\u66F4\u65B0\uFF0C\u800C\u5176\u4ED6\u5206\u652F\u4E00\u822C\u662F\u5F00\u53D1\u4E2D\u624D\u9891\u7E41\u66F4\u65B0\u7684\u3002\u6211\u4EEC\u63A5\u7740\u6765\u57FA\u4E8E\u5F53\u524D\u5206\u652F\u521B\u5EFA\u4E00\u4E2A\u65B0\u7684\u5206\u652F\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> branch <span class="token builtin class-name">test</span>
-<span class="token comment"># \u5BF9\u5E94\u7684\u5220\u9664\u5206\u652F\u662F</span>
-<span class="token function">git</span> branch -d yyds
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>\u73B0\u5728\u6211\u4EEC\u4FEE\u6539\u4E00\u4E0B\u6587\u4EF6\uFF0C\u63D0\u4EA4\uFF0C\u518D\u67E5\u770B\u4E00\u4E0B\u63D0\u4EA4\u65E5\u5FD7\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> commit -a -m <span class="token string">&#39;branch master commit&#39;</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u901A\u8FC7\u6DFB\u52A0-a\u6765\u81EA\u52A8\u5C06\u672A\u653E\u5165\u6682\u5B58\u533A\u7684\u5DF2\u4FEE\u6539\u6587\u4EF6\u653E\u5165\u6682\u5B58\u533A\u5E76\u6267\u884C\u63D0\u4EA4\u64CD\u4F5C\u3002\u67E5\u770B\u65E5\u5FD7\uFF0C\u6211\u4EEC\u53D1\u73B0\u73B0\u5728\u6211\u4EEC\u7684\u63D0\u4EA4\u53EA\u751F\u6548\u4E8Emaster\u5206\u652F\uFF0C\u800C\u65B0\u521B\u5EFA\u7684\u5206\u652F\u5E76\u6CA1\u6709\u53D1\u751F\u4FEE\u6539\u3002</p><p>\u6211\u4EEC\u5C06\u5206\u652F\u5207\u6362\u5230\u53E6\u4E00\u4E2A\u5206\u652F\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> checkout <span class="token builtin class-name">test</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u6211\u4EEC\u4F1A\u53D1\u73B0\uFF0C\u6587\u4EF6\u53D8\u6210\u4E86\u6B64\u5206\u652F\u521B\u5EFA\u7684\u65F6\u7684\u72B6\u6001\uFF0C\u4E5F\u5C31\u662F\u8BF4\uFF0C\u5728\u4E0D\u540C\u5206\u652F\u4E0B\u6211\u4EEC\u7684\u6587\u4EF6\u5185\u5BB9\u662F\u76F8\u4E92\u9694\u79BB\u7684\u3002</p><p>\u6211\u4EEC\u73B0\u5728\u518D\u6765\u63D0\u4EA4\u4E00\u6B21\u53D8\u66F4\uFF0C\u4F1A\u53D1\u73B0\u5B83\u53EA\u751F\u6548\u5728yyds\u5206\u652F\u4E0A\u3002\u6211\u4EEC\u53EF\u4EE5\u770B\u770B\u5F53\u524D\u7684\u5206\u652F\u72B6\u6001\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> log --all --graph
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><h2 id="\u5408\u5E76\u5206\u652F" tabindex="-1"><a class="header-anchor" href="#\u5408\u5E76\u5206\u652F" aria-hidden="true">#</a> \u5408\u5E76\u5206\u652F</h2><p>\u6211\u4EEC\u4E5F\u53EF\u4EE5\u5C06\u4E24\u4E2A\u5206\u652F\u66F4\u65B0\u7684\u5185\u5BB9\u6700\u7EC8\u5408\u5E76\u5230\u540C\u4E00\u4E2A\u5206\u652F\u4E0A\uFF0C\u6211\u4EEC\u5148\u5207\u6362\u56DE\u4E3B\u5206\u652F\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> checkout master
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u63A5\u7740\u4F7F\u7528\u5206\u652F\u5408\u5E76\u547D\u4EE4\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> merge <span class="token builtin class-name">test</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u4F1A\u5F97\u5230\u5982\u4E0B\u63D0\u793A\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>Auto-merging hello.txt
-CONFLICT <span class="token punctuation">(</span>content<span class="token punctuation">)</span>: Merge conflict <span class="token keyword">in</span> hello.txt
-Automatic merge failed<span class="token punctuation">;</span> fix conflicts and <span class="token keyword">then</span> commit the result.
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>\u5728\u5408\u5E76\u8FC7\u7A0B\u4E2D\u4EA7\u751F\u4E86\u51B2\u7A81\uFF0C\u56E0\u4E3A\u4E24\u4E2A\u5206\u652F\u90FD\u5BF9hello.txt\u6587\u4EF6\u8FDB\u884C\u4E86\u4FEE\u6539\uFF0C\u90A3\u4E48\u73B0\u5728\u8981\u5408\u5E76\u5728\u4E00\u8D77\uFF0C\u5230\u5E95\u4FDD\u7559\u8C01\u7684hello\u6587\u4EF6\u5462\uFF1F</p><p>\u6211\u4EEC\u53EF\u4EE5\u67E5\u770B\u4E00\u4E0B\u662F\u54EA\u91CC\u53D1\u751F\u4E86\u51B2\u7A81\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> <span class="token function">diff</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u56E0\u6B64\uFF0C\u73B0\u5728\u6211\u4EEC\u5C06master\u5206\u652F\u7684\u7248\u672C\u56DE\u9000\u5230\u4FEE\u6539hello.txt\u4E4B\u524D\u6216\u662F\u76F4\u63A5\u4FEE\u6539\u4E3A\u6700\u65B0\u7248\u672C\u7684\u5185\u5BB9\uFF0C\u8FD9\u6837\u5C31\u4E0D\u4F1A\u6709\u51B2\u7A81\u4E86\uFF0C\u63A5\u7740\u518D\u6267\u884C\u4E00\u6B21\u5408\u5E76\u64CD\u4F5C\uFF0C\u73B0\u5728\u4E24\u4E2A\u5206\u652F\u6210\u529F\u5408\u5E76\u4E3A\u540C\u4E00\u4E2A\u5206\u652F\u3002</p><h2 id="\u53D8\u57FA\u5206\u652F" tabindex="-1"><a class="header-anchor" href="#\u53D8\u57FA\u5206\u652F" aria-hidden="true">#</a> \u53D8\u57FA\u5206\u652F</h2><p>\u9664\u4E86\u76F4\u63A5\u5408\u5E76\u5206\u652F\u4EE5\u5916\uFF0C\u6211\u4EEC\u8FD8\u53EF\u4EE5\u8FDB\u884C\u53D8\u57FA\u64CD\u4F5C\uFF0C\u5B83\u8DDF\u5408\u5E76\u4E0D\u540C\uFF0C\u5408\u5E76\u662F\u5206\u652F\u56DE\u5230\u4E3B\u5E72\u7684\u8FC7\u7A0B\uFF0C\u800C\u53D8\u57FA\u662F\u76F4\u63A5\u4FEE\u6539\u5206\u652F\u5F00\u59CB\u7684\u4F4D\u7F6E\uFF0C\u6BD4\u5982\u6211\u4EEC\u5E0C\u671B\u5C06yyds\u53D8\u57FA\u5230master\u4E0A\uFF0C\u90A3\u4E48yyds\u4F1A\u5C06\u5206\u652F\u8D77\u70B9\u79FB\u52A8\u5230master\u6700\u540E\u4E00\u6B21\u63D0\u4EA4\u4F4D\u7F6E\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> rebase master
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u53D8\u57FA\u540E\uFF0Cyyds\u5206\u652F\u76F8\u5F53\u4E8E\u540C\u6B65\u4E86\u6B64\u524Dmaster\u5206\u652F\u7684\u5168\u90E8\u63D0\u4EA4\u3002</p><h2 id="\u4F18\u9009" tabindex="-1"><a class="header-anchor" href="#\u4F18\u9009" aria-hidden="true">#</a> \u4F18\u9009</h2><p>\u6211\u4EEC\u8FD8\u53EF\u4EE5\u9009\u62E9\u5176\u5C06\u4ED6\u5206\u652F\u4E0A\u7684\u63D0\u4EA4\u4F5C\u7528\u4E8E\u5F53\u524D\u5206\u652F\u4E0A\uFF0C\u8FD9\u79CD\u64CD\u4F5C\u79F0\u4E3Acherrypick\uFF1A</p><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>git cherry-pick &lt;commit id&gt;:\u5355\u72EC\u5408\u5E76\u4E00\u4E2A\u63D0\u4EA4
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u8FD9\u91CC\u6211\u4EEC\u5728master\u5206\u652F\u4E0A\u521B\u5EFA\u4E00\u4E2A\u65B0\u7684\u6587\u4EF6\uFF0C\u63D0\u4EA4\u6B64\u6B21\u66F4\u65B0\uFF0C\u63A5\u7740\u901A\u8FC7cherry-pick\u7684\u65B9\u5F0F\u5C06\u6B64\u6B21\u66F4\u65B0\u4F5C\u7528\u4E8Etest\u5206\u652F\u4E0A\u3002</p><h2 id="\u4F7F\u7528idea\u7248\u672C\u63A7\u5236" tabindex="-1"><a class="header-anchor" href="#\u4F7F\u7528idea\u7248\u672C\u63A7\u5236" aria-hidden="true">#</a> \u4F7F\u7528IDEA\u7248\u672C\u63A7\u5236</h2><p>\u867D\u7136\u524D\u9762\u6211\u4EEC\u57FA\u672C\u8BB2\u89E3\u4E86git\u7684\u547D\u4EE4\u884C\u4F7F\u7528\u65B9\u6CD5\uFF0C\u4F46\u662F\u6CA1\u6709\u4E00\u4E2A\u56FE\u5F62\u5316\u754C\u9762\uFF0C\u59CB\u7EC8\u4F1A\u611F\u89C9\u5230\u5F88\u62BD\u8C61\uFF0C\u6240\u4EE5\u8FD9\u91CC\u6211\u4EEC\u4F7F\u7528IDEA\u6765\u6F14\u793A\uFF0CIDEA\u5185\u90E8\u96C6\u6210\u4E86git\u6A21\u5757\uFF0C\u5B83\u53EF\u4EE5\u8BA9\u6211\u4EEC\u7684git\u7248\u672C\u7BA1\u7406\u56FE\u5F62\u5316\u663E\u793A\uFF0C\u5F53\u7136\u9664\u4E86IDEA\u4E5F\u6709\u4E00\u4E9B\u72EC\u7ACB\u7684\u8F6F\u4EF6\u6BD4\u5982\uFF1ASourceTree\uFF08\u633A\u597D\u7528\uFF09</p><p>\u6253\u5F00IDEA\u540E\uFF0C\u627E\u5230\u7248\u672C\u63A7\u6A21\u5757\uFF0C\u6211\u4EEC\u76F4\u63A5\u70B9\u51FB\u521B\u5EFA\u672C\u5730\u4ED3\u5E93\uFF0C\u5B83\u4F1A\u81EA\u52A8\u5C06\u5F53\u524D\u9879\u76EE\u7684\u6839\u76EE\u5F55\u4F5C\u4E3A\u6211\u4EEC\u7684\u672C\u5730\u4ED3\u5E93\uFF0C\u800C\u6211\u4EEC\u7F16\u5199\u7684\u6240\u6709\u4EE3\u7801\u548C\u9879\u76EE\u76EE\u5F55\u4E0B\u5176\u4ED6\u7684\u6587\u4EF6\u90FD\u53EF\u4EE5\u8FDB\u884C\u7248\u672C\u63A7\u5236\u3002</p><p>\u6211\u4EEC\u53D1\u73B0\u6240\u6709\u9879\u76EE\u4E2D\u6B63\u5728\u7F16\u5199\u7684\u7C7B\u6587\u4EF6\u5168\u90E8\u53D8\u7EA2\u4E86\uFF0C\u4E5F\u5C31\u662F\u5904\u4E8E\u672A\u8FFD\u8E2A\u72B6\u6001\uFF0C\u63A5\u7740\u6211\u4EEC\u8FDB\u884C\u7B2C\u4E00\u6B21\u521D\u59CB\u5316\u63D0\u4EA4\uFF0C\u63D0\u4EA4\u4E4B\u540E\u6211\u4EEC\u53EF\u4EE5\u5728\u4E0B\u65B9\u770B\u5230\u6240\u6709\u7684\u672C\u5730\u4ED3\u5E93\u63D0\u4EA4\u8BB0\u5F55\u3002</p><p>\u63A5\u7740\u6211\u4EEC\u6765\u6574\u5408\u4E00\u4E0BWeb\u73AF\u5883\uFF0C\u521B\u5EFA\u65B0\u7684\u7C7B\u4E4B\u540E\uFF0CIDEA\u4F1A\u63D0\u793A\u6211\u4EEC\u662F\u5426\u5C06\u6587\u4EF6\u6DFB\u52A0\u5230Git\uFF0C\u4E5F\u5C31\u662F\u662F\u5426\u653E\u5165\u6682\u5B58\u533A\u5E76\u5F00\u542F\u8FFD\u8E2A\uFF0C\u6211\u4EEC\u53EF\u4EE5\u76F4\u63A5\u5BF9\u6BD4\u4E24\u6B21\u4EE3\u7801\u7684\u76F8\u540C\u548C\u4E0D\u540C\u4E4B\u5904\u3002</p><p>\u63A5\u7740\u6211\u4EEC\u6765\u6F14\u793A\u4E00\u4E0B\u5206\u652F\u521B\u5EFA\u548C\u5206\u652F\u7BA1\u7406\u3002</p><h2 id="\u8FDC\u7A0B\u4ED3\u5E93" tabindex="-1"><a class="header-anchor" href="#\u8FDC\u7A0B\u4ED3\u5E93" aria-hidden="true">#</a> \u8FDC\u7A0B\u4ED3\u5E93</h2><p>\u8FDC\u7A0B\u4ED3\u5E93\u5B9E\u9645\u4E0A\u5C31\u662F\u4F4D\u4E8E\u670D\u52A1\u5668\u4E0A\u7684\u4ED3\u5E93\uFF0C\u5B83\u80FD\u5728\u8FDC\u7AEF\u4FDD\u5B58\u6211\u4EEC\u7684\u7248\u672C\u5386\u53F2\uFF0C\u5E76\u4E14\u53EF\u4EE5\u5B9E\u73B0\u591A\u4EBA\u540C\u65F6\u5408\u4F5C\u7F16\u5199\u9879\u76EE\uFF0C\u6BCF\u4E2A\u4EBA\u90FD\u80FD\u591F\u540C\u6B65\u4ED6\u4EBA\u7684\u7248\u672C\uFF0C\u80FD\u591F\u770B\u5230\u4ED6\u4EBA\u7684\u7248\u672C\u63D0\u4EA4\uFF0C\u76F8\u5F53\u4E8E\u5C06\u6211\u4EEC\u7684\u4EE3\u7801\u653E\u5728\u670D\u52A1\u5668\u4E0A\u8FDB\u884C\u6258\u7BA1\u3002</p><p>\u8FDC\u7A0B\u4ED3\u5E93\u6709\u516C\u6709\u548C\u79C1\u6709\u7684\uFF0C\u516C\u6709\u7684\u8FDC\u7A0B\u4ED3\u5E93\u6709GitHub\u3001\u7801\u4E91\u3001Coding\u7B49\uFF0C\u4ED6\u4EEC\u90FD\u662F\u5BF9\u5916\u5F00\u653E\u7684\uFF0C\u6211\u4EEC\u6CE8\u518C\u8D26\u53F7\u4E4B\u540E\u5C31\u53EF\u4EE5\u4F7F\u7528\u8FDC\u7A0B\u4ED3\u5E93\u8FDB\u884C\u7248\u672C\u63A7\u5236\uFF0C\u5176\u4E2D\u6700\u5927\u7684\u5C31\u662FGitHub\uFF0C\u4F46\u662F\u5B83\u670D\u52A1\u5668\u5728\u56FD\u5916\uFF0C\u6211\u4EEC\u56FD\u5185\u8FDE\u63A5\u53EF\u80FD\u4F1A\u6709\u4E00\u70B9\u5361\u3002\u79C1\u6709\u7684\u4E00\u822C\u662FGitLab\u8FD9\u79CD\u81EA\u4E3B\u642D\u5EFA\u7684\u8FDC\u7A0B\u4ED3\u5E93\u79C1\u670D\uFF0C\u5728\u516C\u53F8\u4E2D\u6BD4\u8F83\u5E38\u7528\uFF0C\u5B83\u53EA\u5BF9\u516C\u53F8\u5185\u90E8\u5F00\u653E\uFF0C\u4E0D\u5BF9\u5916\u5F00\u653E\u3002</p><p>\u8FD9\u91CC\u6211\u4EEC\u4EE5GitHub\u505A\u8BB2\u89E3\uFF0C\u5B98\u7F51\uFF1Ahttps://github.com\uFF0C\u9996\u5148\u5B8C\u6210\u7528\u6237\u6CE8\u518C\u3002</p><ol><li>\u8FDC\u7A0B\u8D26\u6237\u8BA4\u8BC1\u548C\u63A8\u9001</li></ol><p>\u63A5\u7740\u6211\u4EEC\u5C31\u53EF\u4EE5\u521B\u5EFA\u4E00\u4E2A\u81EA\u5B9A\u4E49\u7684\u8FDC\u7A0B\u4ED3\u5E93\u4E86\u3002</p><p>\u521B\u5EFA\u4ED3\u5E93\u540E\uFF0C\u6211\u4EEC\u53EF\u4EE5\u901A\u8FC7\u63A8\u9001\u6765\u5C06\u672C\u5730\u4ED3\u5E93\u4E2D\u7684\u5185\u5BB9\u63A8\u9001\u5230\u8FDC\u7A0B\u4ED3\u5E93\u3002</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git remote add \u540D\u79F0 \u8FDC\u7A0B\u4ED3\u5E93\u5730\u5740
-git push \u8FDC\u7A0B\u4ED3\u5E93\u540D\u79F0 \u672C\u5730\u5206\u652F\u540D\u79F0<span class="token punctuation">[</span><span class="token operator">:</span>\u8FDC\u7AEF\u5206\u652F\u540D\u79F0<span class="token punctuation">]</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>\u6CE8\u610Fpush\u540E\u9762\u4E24\u4E2A\u53C2\u6570\uFF0C\u4E00\u4E2A\u662F\u8FDC\u7AEF\u540D\u79F0\uFF0C\u8FD8\u6709\u4E00\u4E2A\u5C31\u662F\u672C\u5730\u5206\u652F\u540D\u79F0\uFF0C\u4F46\u662F\u5982\u679C\u672C\u5730\u5206\u652F\u540D\u79F0\u548C\u8FDC\u7AEF\u5206\u652F\u540D\u79F0\u4E00\u81F4\uFF0C\u90A3\u4E48\u4E0D\u7528\u6307\u5B9A\u8FDC\u7AEF\u5206\u652F\u540D\u79F0\uFF0C\u4F46\u662F\u5982\u679C\u6211\u4EEC\u5E0C\u671B\u63A8\u9001\u7684\u5206\u652F\u5728\u8FDC\u7AEF\u6CA1\u6709\u540C\u540D\u7684\uFF0C\u90A3\u4E48\u9700\u8981\u989D\u5916\u6307\u5B9A\u3002\u63A8\u9001\u524D\u9700\u8981\u767B\u9646\u8D26\u6237\uFF0CGitHub\u73B0\u5728\u4E0D\u5141\u8BB8\u4F7F\u7528\u7528\u6237\u540D\u5BC6\u7801\u9A8C\u8BC1\uFF0C\u53EA\u5141\u8BB8\u4F7F\u7528\u4E2A\u4EBAAccessToken\u6765\u9A8C\u8BC1\u8EAB\u4EFD\uFF0C\u6240\u4EE5\u6211\u4EEC\u9700\u8981\u5148\u53BB\u751F\u6210\u4E00\u4E2AToken\u624D\u53EF\u4EE5\u3002</p><p>\u63A8\u9001\u540E\uFF0C\u6211\u4EEC\u53D1\u73B0\u8FDC\u7A0B\u4ED3\u5E93\u4E2D\u7684\u5185\u5BB9\u5DF2\u7ECF\u4E0E\u6211\u4EEC\u672C\u5730\u4ED3\u5E93\u4E2D\u7684\u5185\u5BB9\u4FDD\u6301\u4E00\u81F4\u4E86\uFF0C\u6CE8\u610F\uFF0C\u8FDC\u7A0B\u4ED3\u5E93\u4E5F\u53EF\u4EE5\u6709\u5F88\u591A\u4E2A\u5206\u652F\u3002</p><p>\u4F46\u662F\u8FD9\u6837\u6BD4\u8F83\u9EBB\u70E6\uFF0C\u6211\u4EEC\u6BCF\u6B21\u90FD\u9700\u8981\u53BB\u8F93\u5165\u7528\u6237\u540D\u548C\u5BC6\u7801\uFF0C\u6709\u6CA1\u6709\u4E00\u52B3\u6C38\u9038\u7684\u65B9\u6CD5\u5462\uFF1F\u5F53\u7136\uFF0C\u6211\u4EEC\u4E5F\u53EF\u4EE5\u4F7F\u7528SSH\u6765\u5B9E\u73B0\u4E00\u6B21\u6027\u6821\u9A8C\uFF0C\u6211\u4EEC\u53EF\u4EE5\u5728\u672C\u5730\u751F\u6210\u4E00\u4E2Arsa\u516C\u94A5\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>ssh-keygen -t rsa
-<span class="token function">cat</span> ~/.ssh/github.pub
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>\u63A5\u7740\u6211\u4EEC\u9700\u8981\u5728GitHub\u4E0A\u4E0A\u4F20\u6211\u4EEC\u7684\u516C\u94A5\uFF0C\u5F53\u6211\u4EEC\u518D\u6B21\u53BB\u8BBF\u95EEGitHub\u65F6\uFF0C\u4F1A\u81EA\u52A8\u9A8C\u8BC1\uFF0C\u5C31\u65E0\u9700\u8FDB\u884C\u767B\u5F55\u4E86\uFF0C\u4E4B\u540E\u5728Linux\u90E8\u5206\u6211\u4EEC\u4F1A\u8BE6\u7EC6\u8BB2\u89E3SSH\u7684\u539F\u7406\u3002</p><p>\u63A5\u7740\u6211\u4EEC\u4FEE\u6539\u4E00\u4E0B\u5DE5\u4F5C\u533A\u7684\u5185\u5BB9\uFF0C\u63D0\u4EA4\u5230\u672C\u5730\u4ED3\u5E93\u540E\uFF0C\u518D\u63A8\u9001\u5230\u8FDC\u7A0B\u4ED3\u5E93\uFF0C\u63D0\u4EA4\u7684\u8FC7\u7A0B\u4E2D\u6211\u4EEC\u6CE8\u610F\u89C2\u5BDF\u63D0\u4EA4\u8BB0\u5F55\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> commit -a -m <span class="token string">&#39;Modify files&#39;</span>
-<span class="token function">git</span> log --all --oneline --graph
-<span class="token function">git</span> push origin master 
-<span class="token function">git</span> log --all --oneline --graph
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>\u6211\u4EEC\u53EF\u4EE5\u5C06\u8FDC\u7AEF\u548C\u672C\u5730\u7684\u5206\u652F\u8FDB\u884C\u7ED1\u5B9A\uFF0C\u7ED1\u5B9A\u540E\u5C31\u4E0D\u9700\u8981\u6307\u5B9A\u5206\u652F\u540D\u79F0\u4E86\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> push --set-upstream origin master:master
-<span class="token function">git</span> push origin
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>\u5728\u4E00\u4E2A\u672C\u5730\u4ED3\u5E93\u5BF9\u5E94\u4E00\u4E2A\u8FDC\u7A0B\u4ED3\u5E93\u7684\u60C5\u51B5\u4E0B\uFF0C\u8FDC\u7A0B\u4ED3\u5E93\u57FA\u672C\u4E0A\u5C31\u662F\u7EAF\u7CB9\u7684\u4EE3\u7801\u6258\u7BA1\u4E86\uFF08\u4E91\u76D8\u90A3\u79CD\u611F\u89C9\uFF0C\u5C31\u7EAF\u7CB9\u662F\u5B58\u4F60\u4EE3\u7801\u7684\uFF09</p><ol start="2"><li>\u514B\u9686\u9879\u76EE</li></ol><p>\u5982\u679C\u6211\u4EEC\u5DF2\u7ECF\u5B58\u5728\u4E00\u4E2A\u8FDC\u7A0B\u4ED3\u5E93\u7684\u60C5\u51B5\u4E0B\uFF0C\u6211\u4EEC\u9700\u8981\u5728\u8FDC\u7A0B\u4ED3\u5E93\u7684\u4EE3\u7801\u4E0A\u7EE7\u7EED\u7F16\u5199\u4EE3\u7801\uFF0C\u8FD9\u4E2A\u65F6\u5019\u600E\u4E48\u529E\u5462\uFF1F</p><p>\u6211\u4EEC\u53EF\u4EE5\u4F7F\u7528\u514B\u9686\u64CD\u4F5C\u6765\u5C06\u8FDC\u7AEF\u4ED3\u5E93\u7684\u5185\u5BB9\u5168\u90E8\u590D\u5236\u5230\u672C\u5730\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> clone \u8FDC\u7A0B\u4ED3\u5E93\u5730\u5740
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u8FD9\u6837\u672C\u5730\u5C31\u80FD\u591F\u76F4\u63A5\u4E0E\u8FDC\u7A0B\u4FDD\u6301\u540C\u6B65\u3002</p><ol start="3"><li>\u6293\u53D6\u3001\u62C9\u53D6\u548C\u51B2\u7A81\u89E3\u51B3</li></ol><p>\u6211\u4EEC\u63A5\u7740\u6765\u770B\uFF0C\u5982\u679C\u8FD9\u4E2A\u65F6\u5019\uFF0C\u51FA\u73B0\u591A\u4E2A\u672C\u5730\u4ED3\u5E93\u5BF9\u5E94\u4E00\u4E2A\u8FDC\u7A0B\u4ED3\u5E93\u7684\u60C5\u51B5\u4E0B\uFF0C\u6BD4\u5982\u4E00\u4E2A\u56E2\u961F\u91CC\u9762\uFF0CN\u4E2A\u4EBA\u90FD\u5728\u4F7F\u7528\u540C\u4E00\u4E2A\u8FDC\u7A0B\u4ED3\u5E93\uFF0C\u4F46\u662F\u4ED6\u4EEC\u5404\u81EA\u53EA\u8D1F\u8D23\u7F16\u5199\u548C\u63A8\u9001\u81EA\u5DF1\u4E1A\u52A1\u90E8\u5206\u7684\u4EE3\u7801\uFF0C\u4E5F\u5C31\u662F\u6211\u4EEC\u5E38\u8BF4\u7684\u534F\u540C\u5DE5\u4F5C\uFF0C\u90A3\u4E48\u8FD9\u4E2A\u65F6\u5019\uFF0C\u6211\u4EEC\u5C31\u9700\u8981\u534F\u8C03\u3002</p><p>\u6BD4\u5982\u7A0B\u5E8F\u5458A\u5B8C\u6210\u4E86\u4ED6\u7684\u6A21\u5757\uFF0C\u90A3\u4E48\u4ED6\u5C31\u53EF\u4EE5\u63D0\u4EA4\u4EE3\u7801\u5E76\u63A8\u9001\u5230\u8FDC\u7A0B\u4ED3\u5E93\uFF0C\u8FD9\u65F6\u7A0B\u5E8F\u5458B\u4E5F\u8981\u5F00\u59CB\u5199\u4EE3\u7801\u4E86\uFF0C\u7531\u4E8E\u8FDC\u7A0B\u4ED3\u5E93\u6709\u5176\u4ED6\u7A0B\u5E8F\u5458\u7684\u63D0\u4EA4\u8BB0\u5F55\uFF0C\u56E0\u6B64\u7A0B\u5E8F\u5458B\u7684\u672C\u5730\u4ED3\u5E93\u548C\u8FDC\u7A0B\u4ED3\u5E93\u4E0D\u4E00\u81F4\uFF0C\u8FD9\u65F6\u5C31\u9700\u8981\u6709\u5148\u8FDB\u884Cpull\u64CD\u4F5C\uFF0C\u83B7\u53D6\u8FDC\u7A0B\u4ED3\u5E93\u4E2D\u6700\u65B0\u7684\u63D0\u4EA4\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> fetch \u8FDC\u7A0B\u4ED3\u5E93 <span class="token comment">#\u6293\u53D6\uFF1A\u53EA\u83B7\u53D6\u4F46\u4E0D\u5408\u5E76\u8FDC\u7AEF\u5206\u652F\uFF0C\u540E\u9762\u9700\u8981\u6211\u4EEC\u624B\u52A8\u5408\u5E76\u624D\u80FD\u63D0\u4EA4</span>
-<span class="token function">git</span> pull \u8FDC\u7A0B\u4ED3\u5E93 <span class="token comment">#\u62C9\u53D6\uFF1A\u83B7\u53D6+\u5408\u5E76</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>\u5728\u7A0B\u5E8F\u5458B\u62C9\u53D6\u4E86\u6700\u65B0\u7684\u7248\u672C\u540E\uFF0C\u518D\u7F16\u5199\u81EA\u5DF1\u7684\u4EE3\u7801\u7136\u540E\u63D0\u4EA4\u5C31\u53EF\u4EE5\u5B9E\u73B0\u591A\u4EBA\u5408\u4F5C\u7F16\u5199\u9879\u76EE\u4E86\uFF0C\u5E76\u4E14\u5728\u62C9\u53D6\u8FC7\u7A0B\u4E2D\u5C31\u80FD\u5C06\u522B\u4EBA\u63D0\u4EA4\u7684\u5185\u5BB9\u540C\u6B65\u5230\u672C\u5730\uFF0C\u5F00\u53D1\u6548\u7387\u5927\u5927\u63D0\u5347\u3002</p><p>\u5982\u679C\u5DE5\u4F5C\u4E2D\u5B58\u5728\u4E0D\u534F\u8C03\u7684\u5730\u65B9\uFF0C\u6BD4\u5982\u73B0\u5728\u6211\u4EEC\u672C\u5730\u6709\u4E24\u4E2A\u4ED3\u5E93\uFF0C\u4E00\u4E2A\u4ED3\u5E93\u53BB\u4FEE\u6539hello.txt\u5E76\u76F4\u63A5\u63D0\u4EA4\uFF0C\u53E6\u4E00\u4E2A\u4ED3\u5E93\u4E5F\u4FEE\u6539hello.txt\u5E76\u76F4\u63A5\u63D0\u4EA4\uFF0C\u4F1A\u5F97\u5230\u5982\u4E0B\u9519\u8BEF\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>To https://github.com/xx/xxx.git
- <span class="token operator">!</span> <span class="token punctuation">[</span>rejected<span class="token punctuation">]</span>        master -<span class="token operator">&gt;</span> master <span class="token punctuation">(</span>fetch first<span class="token punctuation">)</span>
-error: failed to push some refs to <span class="token string">&#39;https://github.com/xx/xxx.git&#39;</span>
-hint: Updates were rejected because the remote contains work that you <span class="token keyword">do</span>
-hint: not have locally. This is usually caused by another repository pushing
-hint: to the same ref. You may want to first integrate the remote changes
-hint: <span class="token punctuation">(</span>e.g., <span class="token string">&#39;git pull ...&#39;</span><span class="token punctuation">)</span> before pushing again.
-hint: See the <span class="token string">&#39;Note about fast-forwards&#39;</span> <span class="token keyword">in</span> <span class="token string">&#39;git push --help&#39;</span> <span class="token keyword">for</span> details.
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><p>\u4E00\u65E6\u4E00\u4E2A\u672C\u5730\u4ED3\u5E93\u63A8\u9001\u4E86\u4EE3\u7801\uFF0C\u90A3\u4E48\u53E6\u4E00\u4E2A\u672C\u5730\u4ED3\u5E93\u7684\u63A8\u9001\u4F1A\u88AB\u62D2\u7EDD\uFF0C\u539F\u56E0\u662F\u5F53\u524D\u6587\u4EF6\u5DF2\u7ECF\u88AB\u5176\u4ED6\u7684\u63A8\u9001\u7ED9\u4FEE\u6539\u4E86\uFF0C\u6211\u4EEC\u8FD9\u8FB9\u76F8\u5F53\u4E8E\u662F\u53E6\u4E00\u4E2A\u7248\u672C\uFF0C\u548C\u4E4B\u524D\u4E24\u4E2A\u5206\u652F\u5408\u5E76\u4E00\u6837\uFF0C\u4EA7\u751F\u4E86\u51B2\u7A81\uFF0C\u56E0\u6B64\u6211\u4EEC\u53EA\u80FD\u53BB\u89E3\u51B3\u51B2\u7A81\u95EE\u9898\u3002</p><p>\u5982\u679C\u8FDC\u7A0B\u4ED3\u5E93\u4E2D\u7684\u63D0\u4EA4\u548C\u672C\u5730\u4ED3\u5E93\u4E2D\u7684\u63D0\u4EA4\u6CA1\u6709\u53BB\u7F16\u5199\u540C\u4E00\u4E2A\u6587\u4EF6\uFF0C\u90A3\u4E48\u5C31\u53EF\u4EE5\u76F4\u63A5\u62C9\u53D6\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> pull \u8FDC\u7A0B\u4ED3\u5E93
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u62C9\u53D6\u540E\u4F1A\u81EA\u52A8\u8FDB\u884C\u5408\u5E76\uFF0C\u5408\u5E76\u5B8C\u6210\u4E4B\u540E\u6211\u4EEC\u518D\u63D0\u4EA4\u5373\u53EF\u3002</p><p>\u4F46\u662F\u5982\u679C\u4E24\u6B21\u63D0\u4EA4\u90FD\u4FEE\u6539\u4E86\u540C\u4E00\u4E2A\u6587\u4EF6\uFF0C\u90A3\u4E48\u5C31\u4F1A\u9047\u5230\u548C\u591A\u5206\u652F\u5408\u5E76\u4E00\u6837\u7684\u60C5\u51B5\uFF0C\u5728\u5408\u5E76\u65F6\u4F1A\u4EA7\u751F\u51B2\u7A81\uFF0C\u8FD9\u65F6\u5C31\u9700\u8981\u6211\u4EEC\u81EA\u5DF1\u53BB\u89E3\u51B3\u51B2\u7A81\u4E86\u3002</p><p>\u6211\u4EEC\u53EF\u4EE5\u5728IDEA\u4E2D\u6F14\u793A\u4E00\u4E0B\uFF0C\u5B9E\u9645\u5F00\u53D1\u573A\u666F\u4E0B\u53EF\u80FD\u4F1A\u9047\u5230\u7684\u95EE\u9898\u3002</p><p>\u7ED3\u675F\uFF01</p><!--]-->`);
-}
-const _sfc_setup$G = _sfc_main$G.setup;
-_sfc_main$G.setup = (props, ctx) => {
-  const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/git/01.git\u7248\u672C\u63A7\u5236.html.vue");
-  return _sfc_setup$G ? _sfc_setup$G(props, ctx) : void 0;
-};
-var _01_git_____html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$G, [["ssrRender", _sfc_ssrRender$s]]);
-var _01_git_____html$2 = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  "default": _01_git_____html$1
-});
-const _sfc_main$F = {};
-function _sfc_ssrRender$r(_ctx, _push, _parent, _attrs) {
-  _push(`<!--[--><h1 id="mysql" tabindex="-1"><a class="header-anchor" href="#mysql" aria-hidden="true">#</a> MySQL</h1><ol><li>mysql</li><li>JDBC</li><li>UML\u985E\u5716</li><li>\u6578\u64DA\u5EAB\u8A2D\u8A08</li></ol><!--]-->`);
-}
-const _sfc_setup$F = _sfc_main$F.setup;
-_sfc_main$F.setup = (props, ctx) => {
-  const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/mysql/01.mysql.html.vue");
-  return _sfc_setup$F ? _sfc_setup$F(props, ctx) : void 0;
-};
-var _01_mysql_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$F, [["ssrRender", _sfc_ssrRender$r]]);
-var _01_mysql_html$2 = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  "default": _01_mysql_html$1
-});
-const _sfc_main$E = {};
-function _sfc_ssrRender$q(_ctx, _push, _parent, _attrs) {
-  _push(`<!--[--><h1 id="springboot\u5148\u5165\u95E8" tabindex="-1"><a class="header-anchor" href="#springboot\u5148\u5165\u95E8" aria-hidden="true">#</a> springboot\u5148\u5165\u95E8</h1><p>\u6211\u521A\u6BD5\u4E1A\u4F5C\u4E3A\u4E00\u4E2A\u524D\u7AEF\u65F6\u88AB\u53EB\u5617\u8A66\u540E\u7AEF\u5F00\u53D1\uFF0C\u6846\u67B6\u5C31\u662Fspringboot\u3002</p><p>\u6211\u8FD8\u662F\u60F3\u5E9F\u8BDD\u5410\u69FD\u4E00\u4E0B\uFF0C\u6B63\u5E38\u7684\u5927\u5B66\u751F\u5B66\u4E60\u8DEF\u7EBF\uFF082018\uFF09\uFF1A</p><ol><li>java:\u8FD9\u662F\u5FC5\u987B\u7684\uFF0C\u4E0D\u4F1A\u5C31\u5230\u8FD9\u91CC\u4E86</li><li>MySql:\u6570\u636E\u5E93</li><li>Servlet:\u65E9\u671F\u7684\u5F00\u53D1\u65B9\u5F0F</li><li>Mybatis:\u6570\u636E\u5E93\u6846\u67B6</li><li>Sprong mvc:\u7ECF\u5178mvc\u4E09\u5C42\u67B6\u6784</li><li>Spring</li><li>Spring boot</li></ol><p>\u6211\u76F4\u63A5<code>1</code>\u2014\u2014&gt;<code>7</code>\u3002\u5B66\u5B8C\u540E\u7ED3\u8BBA\u662F\uFF0C\u5F53\u7136\u53EF\u4EE5\u76F4\u63A5\u4E0A\u624B<code>spring boot</code>\u3002\u5F53\u7136\u8FD9\u662F\u4ECE\u6211\u7684\u9700\u6C42\u51FA\u53D1\uFF1A</p><ol><li>\u5E95\u5C42\u6E90\u7801\u8FD9\u4E9B\u4E0D\u8981\u53BB\u641E\u61C2\uFF0C\u6CA1\u5FC5\u8981\uFF0C\u6211\u8981\u7684\u662F\u5148\u5B66\u4F1A\u5982\u4F55\u4F7F\u7528\u3002</li><li>\u8981\u8BB0\u5F88\u591A\uFF0C\u65F6\u5E38\u4F1A\u95EE\u4E3A\u4EC0\u4E48\u662F\u8FD9\u6837\u7528\u7684\uFF0C\u4F46\u5B83\u5C31\u662F\u8FD9\u6837\u7528\u7684\uFF08\u4E0D\u89E3\u91CA\u5E95\u5C42\uFF09</li></ol><p>\u5B66\u4E60\u524D\u63D0\uFF1A</p><ol><li>\u57FA\u672Cjava\u8BED\u6CD5</li><li>\u57FA\u672Cmysql\u8BED\u6CD5</li><li>\u57FA\u672Cmvc\u601D\u60F3</li></ol><h2 id="idea-2021-3\u4EE5\u4E0A\u7248\u672C\u5B89\u88DD" tabindex="-1"><a class="header-anchor" href="#idea-2021-3\u4EE5\u4E0A\u7248\u672C\u5B89\u88DD" aria-hidden="true">#</a> IDEA\uFF082021.3\u4EE5\u4E0A\u7248\u672C\u5B89\u88DD\uFF09</h2><p>\u958B\u767C\u5DE5\u5177\u7528\u81EA\u5DF1\u7FD2\u6163\u7684\u5C31\u597D\u3002</p><p>\u76EE\u524D\u5E02\u573A\u5E94\u8BE5\u90FD\u662F\u8FD9\u4E2A\u5F00\u53D1\u5DE5\u5177\u591A\u5427\uFF0C\u76F4\u63A5\u5F00\u59CB</p><h2 id="\u521D\u59CB\u5316\u9805\u76EE" tabindex="-1"><a class="header-anchor" href="#\u521D\u59CB\u5316\u9805\u76EE" aria-hidden="true">#</a> \u521D\u59CB\u5316\u9805\u76EE</h2><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token annotation punctuation">@SpringBootApplication</span>
-<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">SpringBootTestApplication</span> <span class="token punctuation">{</span>
-
-    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token class-name">SpringApplication</span><span class="token punctuation">.</span><span class="token function">run</span><span class="token punctuation">(</span><span class="token class-name">SpringBootTestApplication</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">,</span> args<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><div class="language-xml ext-xml line-numbers-mode"><pre class="language-xml"><code><span class="token prolog">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>project</span> <span class="token attr-name">xmlns</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>http://maven.apache.org/POM/4.0.0<span class="token punctuation">&quot;</span></span> <span class="token attr-name"><span class="token namespace">xmlns:</span>xsi</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>http://www.w3.org/2001/XMLSchema-instance<span class="token punctuation">&quot;</span></span>
-         <span class="token attr-name"><span class="token namespace">xsi:</span>schemaLocation</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>modelVersion</span><span class="token punctuation">&gt;</span></span>4.0.0<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>modelVersion</span><span class="token punctuation">&gt;</span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>parent</span><span class="token punctuation">&gt;</span></span>
-        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">&gt;</span></span>org.springframework.boot<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">&gt;</span></span>
-        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">&gt;</span></span>spring-boot-starter-parent<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">&gt;</span></span>
-        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>version</span><span class="token punctuation">&gt;</span></span>2.7.1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>version</span><span class="token punctuation">&gt;</span></span>
-        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>relativePath</span><span class="token punctuation">/&gt;</span></span> <span class="token comment">&lt;!-- lookup parent from repository --&gt;</span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>parent</span><span class="token punctuation">&gt;</span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">&gt;</span></span>com.example<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">&gt;</span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">&gt;</span></span>SpringBootTest<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">&gt;</span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>version</span><span class="token punctuation">&gt;</span></span>0.0.1-SNAPSHOT<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>version</span><span class="token punctuation">&gt;</span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>name</span><span class="token punctuation">&gt;</span></span>SpringBootTest<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>name</span><span class="token punctuation">&gt;</span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>description</span><span class="token punctuation">&gt;</span></span>SpringBootTest<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>description</span><span class="token punctuation">&gt;</span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>properties</span><span class="token punctuation">&gt;</span></span>
-        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>java.version</span><span class="token punctuation">&gt;</span></span>1.8<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>java.version</span><span class="token punctuation">&gt;</span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>properties</span><span class="token punctuation">&gt;</span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependencies</span><span class="token punctuation">&gt;</span></span>
-        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">&gt;</span></span>
-            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">&gt;</span></span>org.springframework.boot<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">&gt;</span></span>
-            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">&gt;</span></span>spring-boot-starter<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">&gt;</span></span>
-        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">&gt;</span></span>
-
-        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">&gt;</span></span>
-            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">&gt;</span></span>org.springframework.boot<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">&gt;</span></span>
-            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">&gt;</span></span>spring-boot-starter-test<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">&gt;</span></span>
-            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>scope</span><span class="token punctuation">&gt;</span></span>test<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>scope</span><span class="token punctuation">&gt;</span></span>
-        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">&gt;</span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependencies</span><span class="token punctuation">&gt;</span></span>
-
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>build</span><span class="token punctuation">&gt;</span></span>
-        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>plugins</span><span class="token punctuation">&gt;</span></span>
-            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>plugin</span><span class="token punctuation">&gt;</span></span>
-                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">&gt;</span></span>org.springframework.boot<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">&gt;</span></span>
-                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">&gt;</span></span>spring-boot-maven-plugin<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">&gt;</span></span>
-            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>plugin</span><span class="token punctuation">&gt;</span></span>
-        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>plugins</span><span class="token punctuation">&gt;</span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>build</span><span class="token punctuation">&gt;</span></span>
-
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>project</span><span class="token punctuation">&gt;</span></span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br></div></div><h2 id="\u5FEB\u901F\u4E0A\u624B" tabindex="-1"><a class="header-anchor" href="#\u5FEB\u901F\u4E0A\u624B" aria-hidden="true">#</a> \u5FEB\u901F\u4E0A\u624B</h2><p>\u5982\u679C\u4F60\u4E0D\u662F\u4E13\u804C\u540E\u7AEF\u800C\u53EA\u662F\u60F3\u5199\u4E2A\u63A5\u53E3\uFF0C\u90A3\u770B\u5B8C\u8FD9\u4E00\u7AE0\u5C31\u53EF\u4EE5\u4E86\u3002</p><!--]-->`);
-}
-const _sfc_setup$E = _sfc_main$E.setup;
-_sfc_main$E.setup = (props, ctx) => {
-  const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/springboot/01.springboot.html.vue");
-  return _sfc_setup$E ? _sfc_setup$E(props, ctx) : void 0;
-};
-var _01_springboot_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$E, [["ssrRender", _sfc_ssrRender$q]]);
-var _01_springboot_html$2 = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  "default": _01_springboot_html$1
-});
-const _sfc_main$D = {};
-function _sfc_ssrRender$p(_ctx, _push, _parent, _attrs) {
-  _push(`<!--[--><h1 id="\u542F\u52A8\u8FC7\u7A0B\u5F00\u59CB" tabindex="-1"><a class="header-anchor" href="#\u542F\u52A8\u8FC7\u7A0B\u5F00\u59CB" aria-hidden="true">#</a> \u542F\u52A8\u8FC7\u7A0B\u5F00\u59CB</h1><ul><li>\u4E00\u4E2A\u5B8C\u5168\u7A7A\u7684\u65B0\u9879\u76EE\uFF0Cpom.xml\u6211\u4EEC\u662F\u4E0D\u662F\u53EA\u770B\u5230\u4E00\u4E2A\u5F88\u660E\u663E\u7684\u4F9D\u8D56</li></ul><div class="language-xml ext-xml line-numbers-mode"><pre class="language-xml"><code> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">&gt;</span></span>
-            <span class="token comment">&lt;!--\u57FA\u672C\u4F9D\u8CF4--&gt;</span>
-            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">&gt;</span></span>org.springframework.boot<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">&gt;</span></span>
-            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">&gt;</span></span>spring-boot-starter<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">&gt;</span></span>
- <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">&gt;</span></span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><h2 id="\u4E3B\u7C7B\u4EE3\u7801\u5F00\u59CB-\u6CE8\u89E3\u4E5F\u4F9D\u8D56\u4E8E\u4EE3\u7801" tabindex="-1"><a class="header-anchor" href="#\u4E3B\u7C7B\u4EE3\u7801\u5F00\u59CB-\u6CE8\u89E3\u4E5F\u4F9D\u8D56\u4E8E\u4EE3\u7801" aria-hidden="true">#</a> \u4E3B\u7C7B\u4EE3\u7801\u5F00\u59CB\uFF08\u6CE8\u89E3\u4E5F\u4F9D\u8D56\u4E8E\u4EE3\u7801\uFF09</h2><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token annotation punctuation">@SpringBootApplication</span>
-<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">SpringBootTestApplication</span> <span class="token punctuation">{</span>
-
-    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token class-name">SpringApplication</span><span class="token punctuation">.</span><span class="token function">run</span><span class="token punctuation">(</span><span class="token class-name">SpringBootTestApplication</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">,</span> args<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><h2 id="\u76F4\u63A5new\u4E86\u4E00\u4E2Aspring-boot\u5BF9\u8C61" tabindex="-1"><a class="header-anchor" href="#\u76F4\u63A5new\u4E86\u4E00\u4E2Aspring-boot\u5BF9\u8C61" aria-hidden="true">#</a> \u76F4\u63A5new\u4E86\u4E00\u4E2Aspring boot\u5BF9\u8C61</h2><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token class-name">ConfigurableApplicationContext</span> <span class="token function">run</span><span class="token punctuation">(</span><span class="token class-name">Class</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token operator">?</span><span class="token punctuation">&gt;</span></span> primarySource<span class="token punctuation">,</span> <span class="token class-name">String</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">return</span> <span class="token function">run</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Class</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">{</span>primarySource<span class="token punctuation">}</span><span class="token punctuation">,</span> args<span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><ul><li>\u5957\u5A03</li></ul><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token class-name">ConfigurableApplicationContext</span> <span class="token function">run</span><span class="token punctuation">(</span><span class="token class-name">Class</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token operator">?</span><span class="token punctuation">&gt;</span></span><span class="token punctuation">[</span><span class="token punctuation">]</span> primarySources<span class="token punctuation">,</span> <span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">return</span> <span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">SpringApplication</span><span class="token punctuation">(</span>primarySources<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">run</span><span class="token punctuation">(</span>args<span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><ul><li>\u6211\u4EEC\u53D1\u73B0\uFF0C\u8FD9\u91CC\u76F4\u63A5new\u4E86\u4E00\u4E2A\u65B0\u7684SpringApplication\u5BF9\u8C61\uFF0C\u4F20\u5165\u6211\u4EEC\u7684\u4E3B\u7C7B\u4F5C\u4E3A\u6784\u9020\u65B9\u6CD5\u53C2\u6570\uFF0C\u5E76\u8C03\u7528\u4E86\u975Estatic\u7684run\u65B9\u6CD5\uFF0C\u6211\u4EEC\u5148\u6765\u770B\u770B\u6784\u9020\u65B9\u6CD5\u91CC\u9762\u505A\u4E86\u4EC0\u4E48\u4E8B\u60C5\uFF1A</li></ul><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code>    <span class="token keyword">public</span> <span class="token class-name">SpringApplication</span><span class="token punctuation">(</span><span class="token class-name">ResourceLoader</span> resourceLoader<span class="token punctuation">,</span> <span class="token class-name">Class</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token operator">?</span><span class="token punctuation">&gt;</span></span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span> primarySources<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span>sources <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">LinkedHashSet</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span>bannerMode <span class="token operator">=</span> <span class="token class-name">Mode</span><span class="token punctuation">.</span>CONSOLE<span class="token punctuation">;</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span>logStartupInfo <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span>addCommandLineProperties <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span>addConversionService <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span>headless <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span>registerShutdownHook <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span>additionalProfiles <span class="token operator">=</span> <span class="token class-name">Collections</span><span class="token punctuation">.</span><span class="token function">emptySet</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span>isCustomEnvironment <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span>lazyInitialization <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span>applicationContextFactory <span class="token operator">=</span> <span class="token class-name">ApplicationContextFactory</span><span class="token punctuation">.</span>DEFAULT<span class="token punctuation">;</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span>applicationStartup <span class="token operator">=</span> <span class="token class-name">ApplicationStartup</span><span class="token punctuation">.</span>DEFAULT<span class="token punctuation">;</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span>resourceLoader <span class="token operator">=</span> resourceLoader<span class="token punctuation">;</span>
-        <span class="token class-name">Assert</span><span class="token punctuation">.</span><span class="token function">notNull</span><span class="token punctuation">(</span>primarySources<span class="token punctuation">,</span> <span class="token string">&quot;PrimarySources must not be null&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span>primarySources <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">LinkedHashSet</span><span class="token punctuation">(</span><span class="token class-name">Arrays</span><span class="token punctuation">.</span><span class="token function">asList</span><span class="token punctuation">(</span>primarySources<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span>webApplicationType <span class="token operator">=</span> <span class="token class-name">WebApplicationType</span><span class="token punctuation">.</span><span class="token function">deduceFromClasspath</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token comment">//\u53EF\u4EE5\u5728\u6B64\u5904\u6253\u4E0A\u65AD\u70B9\u6D4B\u8BD5\uFF0C\u4F60\u4F1A\u53D1\u73B0webApplicationType = null</span>
-        <span class="token comment">//\u5982\u679C\u4F60\u5F15\u5165web\u4F9D\u8D56\uFF0C\u5B83\u6709\u53D8\u6210\u4E86SERVLET,\u5C31\u662F\u83B7\u53D6\u670D\u52A1\u7C7B\u578B</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span>bootstrapRegistryInitializers <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ArrayList</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">getSpringFactoriesInstances</span><span class="token punctuation">(</span><span class="token class-name">BootstrapRegistryInitializer</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token comment">//\u5173\u952EgetSpringFactoriesInstances\uFF0C\u521B\u5EFA\u6240\u6709ApplicationContextInitializer\u5B9E\u73B0\u7C7B\u7684\u5BF9\u8C61</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">setInitializers</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>getSpringFactoriesInstances<span class="token punctuation">;</span><span class="token punctuation">(</span><span class="token class-name">ApplicationContextInitializer</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">setListeners</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">getSpringFactoriesInstances</span><span class="token punctuation">(</span><span class="token class-name">ApplicationListener</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span>mainApplicationClass <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">deduceMainApplicationClass</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br></div></div><ul><li>\u5173\u952E\u5C31\u5728\u8FD9\u91CC\u4E86\uFF0C\u5B83\u662F\u5982\u4F55\u77E5\u9053\u54EA\u4E9B\u7C7B\u662FApplicationContextInitializer\u7684\u5B9E\u73B0\u7C7B\u7684\u5462\uFF1F</li></ul><h2 id="getspringfactoriesinstances" tabindex="-1"><a class="header-anchor" href="#getspringfactoriesinstances" aria-hidden="true">#</a> getSpringFactoriesInstances</h2><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code>    <span class="token comment">//\u7C7B\u578B\u662F\u8C03\u7528\u65B9\u6CD5\u4F20\u8FC7\u6765\u7684\uFF0C\u8FD4\u56DE\u503C\u662F\u4E00\u4E2ACollection&lt;T&gt;</span>
-    <span class="token keyword">private</span> <span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">T</span><span class="token punctuation">&gt;</span></span> <span class="token class-name">Collection</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">T</span><span class="token punctuation">&gt;</span></span> <span class="token function">getSpringFactoriesInstances</span><span class="token punctuation">(</span><span class="token class-name">Class</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">T</span><span class="token punctuation">&gt;</span></span> type<span class="token punctuation">,</span> <span class="token class-name">Class</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token operator">?</span><span class="token punctuation">&gt;</span></span><span class="token punctuation">[</span><span class="token punctuation">]</span> parameterTypes<span class="token punctuation">,</span> <span class="token class-name">Object</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token comment">//\u7C7B\u52A0\u8F7D\u5668</span>
-        <span class="token class-name">ClassLoader</span> classLoader <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">getClassLoader</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token comment">//\u589E\u52A0\u4E86\u4E00\u4E2A\u53CC\u5411\u94FE\u8868\u7528\u6765\u8BB0\u5F55\u5143\u7D20\u6DFB\u52A0\u7684\u987A\u5E8F\uFF0C\u80FD\u6309\u7167\u6DFB\u52A0\u987A\u5E8F\u904D\u5386\u8F93\u51FA\u3002</span>
-        <span class="token class-name">Set</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">String</span><span class="token punctuation">&gt;</span></span> names <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">LinkedHashSet</span><span class="token punctuation">(</span><span class="token class-name">SpringFactoriesLoader</span><span class="token punctuation">.</span><span class="token function">loadFactoryNames</span><span class="token punctuation">(</span>type<span class="token punctuation">,</span> classLoader<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name">List</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">T</span><span class="token punctuation">&gt;</span></span> instances <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">createSpringFactoriesInstances</span><span class="token punctuation">(</span>type<span class="token punctuation">,</span> parameterTypes<span class="token punctuation">,</span> classLoader<span class="token punctuation">,</span> args<span class="token punctuation">,</span> names<span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token comment">//\u6CE8\u610F\uFF0C\u53D1\u73B0\u4E0B\u9762\u662F\u6709\u6392\u5E8F\u64CD\u4F5C\uFF0C\u8BF4\u660E\u6709\u987A\u5E8F\u8FD4\u56DE\u8981\u6C42</span>
-        <span class="token class-name">AnnotationAwareOrderComparator</span><span class="token punctuation">.</span><span class="token function">sort</span><span class="token punctuation">(</span>instances<span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token keyword">return</span> instances<span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><ul><li>\u5176\u4E2D<code>SpringFactoriesLoader.loadFactoryNames</code>\u6B63\u662F\u8BFB\u53D6\u914D\u7F6E\u7684\u6838\u5FC3\u90E8\u5206\uFF0C\u6211\u4EEC\u540E\u9762\u8FD8\u4F1A\u9047\u5230\u3002</li></ul><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code>    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token class-name">List</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">String</span><span class="token punctuation">&gt;</span></span> <span class="token function">loadFactoryNames</span><span class="token punctuation">(</span><span class="token class-name">Class</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token operator">?</span><span class="token punctuation">&gt;</span></span> factoryType<span class="token punctuation">,</span> <span class="token annotation punctuation">@Nullable</span> <span class="token class-name">ClassLoader</span> classLoader<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token class-name">ClassLoader</span> classLoaderToUse <span class="token operator">=</span> classLoader<span class="token punctuation">;</span>
-        <span class="token keyword">if</span> <span class="token punctuation">(</span>classLoader <span class="token operator">==</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            classLoaderToUse <span class="token operator">=</span> <span class="token class-name">SpringFactoriesLoader</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">.</span><span class="token function">getClassLoader</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token punctuation">}</span>
-
-        <span class="token class-name">String</span> factoryTypeName <span class="token operator">=</span> factoryType<span class="token punctuation">.</span><span class="token function">getName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token keyword">return</span> <span class="token punctuation">(</span><span class="token class-name">List</span><span class="token punctuation">)</span><span class="token function">loadSpringFactories</span><span class="token punctuation">(</span>classLoaderToUse<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">getOrDefault</span><span class="token punctuation">(</span>factoryTypeName<span class="token punctuation">,</span> <span class="token class-name">Collections</span><span class="token punctuation">.</span><span class="token function">emptyList</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><ul><li><code>loadSpringFactories</code>\u4E00\u76F4\u5F80\u4E0B\u8D70\uFF0C\u4F60\u4F1A\u770B\u5230\u4E0B\u9762\u65B9\u6CD5\uFF0C\u6CE8\u610F\u91CC\u9762\u8FD9\u4E00\u6BB5</li></ul><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">private</span> <span class="token keyword">static</span> <span class="token class-name">Map</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">String</span><span class="token punctuation">,</span> <span class="token class-name">List</span><span class="token punctuation">&lt;</span><span class="token class-name">String</span><span class="token punctuation">&gt;</span><span class="token punctuation">&gt;</span></span> <span class="token function">loadSpringFactories</span><span class="token punctuation">(</span><span class="token class-name">ClassLoader</span> classLoader<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token comment">//......</span>
-     <span class="token class-name">Enumeration</span><span class="token generics"><span class="token punctuation">&lt;</span>URL<span class="token punctuation">&gt;</span></span> urls <span class="token operator">=</span> classLoader<span class="token punctuation">.</span><span class="token function">getResources</span><span class="token punctuation">(</span><span class="token string">&quot;META-INF/spring.factories&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-     <span class="token comment">//......</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><ul><li><code>spring.factories</code></li><li>\u4EFF\u7167Java\u4E2D\u7684SPI\u6269\u5C55\u673A\u5236\u6765\u5B9E\u73B0\u7684\u3002\u5C31\u662F\u63D0\u4F9B\u8FD9\u6837\u7684\u4E00\u4E2A\u673A\u5236\uFF1A\u4E3A\u67D0\u4E2A\u63A5\u53E3\u5BFB\u627E\u670D\u52A1\u5B9E\u73B0\u7684\u673A\u5236\u3002\u6709\u70B9\u7C7B\u4F3CIOC\u7684\u601D\u60F3\uFF0C\u5C31\u662F\u5C06\u88C5\u914D\u7684\u63A7\u5236\u6743\u79FB\u5230\u7A0B\u5E8F\u4E4B\u5916\uFF0C\u5728\u6A21\u5757\u5316\u8BBE\u8BA1\u4E2D\u8FD9\u4E2A\u673A\u5236\u5C24\u5176\u91CD\u8981\u3002</li><li>\u8BF4\u767D\u4E86\u5C31\u662F\u4EBA\u5BB6\u5B9A\u4E49\u63A5\u53E3\uFF0C\u4F46\u662F\u5B9E\u73B0\u53EF\u80FD\u6709\u5F88\u591A\u79CD\uFF0C\u4F46\u662F\u6838\u5FC3\u53EA\u63D0\u4F9B\u63A5\u53E3\uFF0C\u9700\u8981\u6211\u4EEC\u6309\u9700\u9009\u62E9\u5BF9\u5E94\u7684\u5B9E\u73B0\uFF0C\u8FD9\u79CD\u65B9\u5F0F\u662F\u9AD8\u5EA6\u89E3\u8026\u7684\u3002</li><li>\u4E0B\u9762\u662F\u4E00\u4E9B<code>spring.factories</code>\u7684\u7247\u6BB5</li><li><code>\\</code>\u662F\u6362\uFF0C\u6BCF\u6BB5\u9017\u53F7\u9694\u5F00</li></ul><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># Logging Systems</span>
-org.springframework.boot.logging.LoggingSystemFactory<span class="token operator">=</span><span class="token punctuation">\\</span>
-org.springframework.boot.logging.logback.LogbackLoggingSystem.Factory,<span class="token punctuation">\\</span>
-org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.Factory,<span class="token punctuation">\\</span>
-org.springframework.boot.logging.java.JavaLoggingSystem.Factory
-
-<span class="token comment"># PropertySource Loaders</span>
-org.springframework.boot.env.PropertySourceLoader<span class="token operator">=</span><span class="token punctuation">\\</span>
-org.springframework.boot.env.PropertiesPropertySourceLoader,<span class="token punctuation">\\</span>
-org.springframework.boot.env.YamlPropertySourceLoader
-
-<span class="token comment"># Application Context Factories</span>
-org.springframework.boot.ApplicationContextFactory<span class="token operator">=</span><span class="token punctuation">\\</span>
-org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext.Factory,<span class="token punctuation">\\</span>
-org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext.Factory
-
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br></div></div><h2 id="\u603B\u7ED3run\u65B9\u6CD5" tabindex="-1"><a class="header-anchor" href="#\u603B\u7ED3run\u65B9\u6CD5" aria-hidden="true">#</a> \u603B\u7ED3run\u65B9\u6CD5</h2><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token class-name">ConfigurableApplicationContext</span> <span class="token function">run</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">long</span> startTime <span class="token operator">=</span> <span class="token class-name">System</span><span class="token punctuation">.</span><span class="token function">nanoTime</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name">DefaultBootstrapContext</span> bootstrapContext <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">createBootstrapContext</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name">ConfigurableApplicationContext</span> context <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">configureHeadlessProperty</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token comment">//\u83B7\u53D6\u6240\u6709\u7684SpringApplicationRunListener\uFF0C\u5E76\u901A\u77E5\u542F\u52A8\u4E8B\u4EF6\uFF0C\u9ED8\u8BA4\u53EA\u6709\u4E00\u4E2A\u5B9E\u73B0\u7C7BEventPublishingRunListener</span>
-  	    <span class="token comment">//EventPublishingRunListener\u4F1A\u5C06\u521D\u59CB\u5316\u5404\u4E2A\u9636\u6BB5\u7684\u4E8B\u4EF6\u8F6C\u53D1\u7ED9\u6240\u6709\u76D1\u542C\u5668</span>
-        <span class="token class-name">SpringApplicationRunListeners</span> listeners <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">getRunListeners</span><span class="token punctuation">(</span>args<span class="token punctuation">)</span><span class="token punctuation">;</span>
-        listeners<span class="token punctuation">.</span><span class="token function">starting</span><span class="token punctuation">(</span>bootstrapContext<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>mainApplicationClass<span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-        <span class="token keyword">try</span> <span class="token punctuation">{</span>
-            <span class="token comment">//\u73AF\u5883\u914D\u7F6E</span>
-            <span class="token class-name">ApplicationArguments</span> applicationArguments <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">DefaultApplicationArguments</span><span class="token punctuation">(</span>args<span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token class-name">ConfigurableEnvironment</span> environment <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">prepareEnvironment</span><span class="token punctuation">(</span>listeners<span class="token punctuation">,</span> bootstrapContext<span class="token punctuation">,</span> applicationArguments<span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">configureIgnoreBeanInfo</span><span class="token punctuation">(</span>environment<span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token comment">//\u6253\u5370Banner</span>
-            <span class="token class-name">Banner</span> printedBanner <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">printBanner</span><span class="token punctuation">(</span>environment<span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token comment">//\u521B\u5EFAApplicationContext\uFF0C\u6CE8\u610F\u8FD9\u91CC\u4F1A\u6839\u636E\u662F\u5426\u4E3AWeb\u5BB9\u5668\u4F7F\u7528\u4E0D\u540C\u7684ApplicationContext\u5B9E\u73B0\u7C7B</span>
-            context <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">createApplicationContext</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-            context<span class="token punctuation">.</span><span class="token function">setApplicationStartup</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>applicationStartup<span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token comment">//\u521D\u59CB\u5316ApplicationContext</span>
-            <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">prepareContext</span><span class="token punctuation">(</span>bootstrapContext<span class="token punctuation">,</span> context<span class="token punctuation">,</span> environment<span class="token punctuation">,</span> listeners<span class="token punctuation">,</span> applicationArguments<span class="token punctuation">,</span> printedBanner<span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token comment">//\u6267\u884CApplicationContext\u7684refresh\u65B9\u6CD5(bean\u6CE8\u518C)</span>
-            <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">refreshContext</span><span class="token punctuation">(</span>context<span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">afterRefresh</span><span class="token punctuation">(</span>context<span class="token punctuation">,</span> applicationArguments<span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token class-name">Duration</span> timeTakenToStartup <span class="token operator">=</span> <span class="token class-name">Duration</span><span class="token punctuation">.</span><span class="token function">ofNanos</span><span class="token punctuation">(</span><span class="token class-name">System</span><span class="token punctuation">.</span><span class="token function">nanoTime</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">-</span> startTime<span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>logStartupInfo<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-                <span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">StartupInfoLogger</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>mainApplicationClass<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">logStarted</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">getApplicationLog</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> timeTakenToStartup<span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token punctuation">}</span>
-
-            listeners<span class="token punctuation">.</span><span class="token function">started</span><span class="token punctuation">(</span>context<span class="token punctuation">,</span> timeTakenToStartup<span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">callRunners</span><span class="token punctuation">(</span>context<span class="token punctuation">,</span> applicationArguments<span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span><span class="token class-name">Throwable</span> var12<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">handleRunFailure</span><span class="token punctuation">(</span>context<span class="token punctuation">,</span> var12<span class="token punctuation">,</span> listeners<span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token keyword">throw</span> <span class="token keyword">new</span> <span class="token class-name">IllegalStateException</span><span class="token punctuation">(</span>var12<span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token punctuation">}</span>
-
-        <span class="token keyword">try</span> <span class="token punctuation">{</span>
-            <span class="token class-name">Duration</span> timeTakenToReady <span class="token operator">=</span> <span class="token class-name">Duration</span><span class="token punctuation">.</span><span class="token function">ofNanos</span><span class="token punctuation">(</span><span class="token class-name">System</span><span class="token punctuation">.</span><span class="token function">nanoTime</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">-</span> startTime<span class="token punctuation">)</span><span class="token punctuation">;</span>
-            listeners<span class="token punctuation">.</span><span class="token function">ready</span><span class="token punctuation">(</span>context<span class="token punctuation">,</span> timeTakenToReady<span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token keyword">return</span> context<span class="token punctuation">;</span>
-        <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span><span class="token class-name">Throwable</span> var11<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">handleRunFailure</span><span class="token punctuation">(</span>context<span class="token punctuation">,</span> var11<span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token class-name">SpringApplicationRunListeners</span><span class="token punctuation">)</span><span class="token keyword">null</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token keyword">throw</span> <span class="token keyword">new</span> <span class="token class-name">IllegalStateException</span><span class="token punctuation">(</span>var11<span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token punctuation">}</span>
-    <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br></div></div><ul><li>\u5B9E\u9645\u4E0ASpringBoot\u5C31\u662FSpring\u7684\u4E00\u5C42\u58F3\u7F62\u4E86\uFF0C\u79BB\u4E0D\u5F00\u6700\u5173\u952E\u7684ApplicationContext\uFF0C\u4E5F\u5C31\u662F\u8BF4\uFF0C\u5728\u542F\u52A8\u540E\u4F1A\u81EA\u52A8\u914D\u7F6E\u4E00\u4E2AApplicationContext\uFF0C\u53EA\u4E0D\u8FC7\u662F\u8FDB\u884C\u4E86\u5927\u91CF\u7684\u6269\u5C55\u3002</li><li>\u6211\u4EEC\u6765\u770BApplicationContext\u662F\u600E\u4E48\u6765\u7684\uFF0C\u6253\u5F00createApplicationContext\u65B9\u6CD5\uFF1A</li></ul><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code>
-<span class="token keyword">protected</span> <span class="token class-name">ConfigurableApplicationContext</span> <span class="token function">createApplicationContext</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span>applicationContextFactory<span class="token punctuation">.</span><span class="token function">create</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>webApplicationType<span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><ul><li>\u67E5\u770B\u6784\u9020\u65B9\u6CD5\u4E2D</li></ul><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">this</span><span class="token punctuation">.</span>applicationContextFactory <span class="token operator">=</span> <span class="token class-name">ApplicationContextFactory</span><span class="token punctuation">.</span>DEFAULT<span class="token punctuation">;</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token class-name">ApplicationContextFactory</span> DEFAULT <span class="token operator">=</span> <span class="token punctuation">(</span>webApplicationType<span class="token punctuation">)</span> <span class="token operator">-&gt;</span> <span class="token punctuation">{</span>
-    <span class="token keyword">try</span> <span class="token punctuation">{</span>
-        <span class="token keyword">switch</span><span class="token punctuation">(</span>webApplicationType<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">case</span> SERVLET<span class="token operator">:</span>
-            <span class="token keyword">return</span> <span class="token keyword">new</span> <span class="token class-name">AnnotationConfigServletWebServerApplicationContext</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token keyword">case</span> REACTIVE<span class="token operator">:</span>
-            <span class="token keyword">return</span> <span class="token keyword">new</span> <span class="token class-name">AnnotationConfigReactiveWebServerApplicationContext</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token keyword">default</span><span class="token operator">:</span>
-            <span class="token keyword">return</span> <span class="token keyword">new</span> <span class="token class-name">AnnotationConfigApplicationContext</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token punctuation">}</span>
-    <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span><span class="token class-name">Exception</span> var2<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">throw</span> <span class="token keyword">new</span> <span class="token class-name">IllegalStateException</span><span class="token punctuation">(</span><span class="token string">&quot;Unable create a default ApplicationContext instance, you may need a custom ApplicationContextFactory&quot;</span><span class="token punctuation">,</span> var2<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span><span class="token punctuation">;</span>
-
-<span class="token class-name">ConfigurableApplicationContext</span> <span class="token function">create</span><span class="token punctuation">(</span><span class="token class-name">WebApplicationType</span> webApplicationType<span class="token punctuation">)</span><span class="token punctuation">;</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br></div></div><ul><li>DEFAULT\u662F\u76F4\u63A5\u7F16\u5199\u7684\u4E00\u4E2A\u533F\u540D\u5185\u90E8\u7C7B\uFF0C\u5176\u5B9E\u5DF2\u7ECF\u5F88\u660E\u786E\u4E86\uFF0C\u6B63\u662F\u6839\u636EwebApplicationType\u7C7B\u578B\u8FDB\u884C\u5224\u65AD\uFF0C\u5982\u679C\u662FSERVLET\uFF0C\u90A3\u4E48\u4E45\u8FD4\u56DE\u4E13\u7528\u4E8EWeb\u73AF\u5883\u7684AnnotationConfigServletWebServerApplicationContext\u5BF9\u8C61\uFF08SpringBoot\u4E2D\u65B0\u589E\u7684\uFF09\uFF0C\u5426\u5219\u8FD4\u56DE\u666E\u901A\u7684AnnotationConfigApplicationContext\u5BF9\u8C61\uFF0C\u4E5F\u5C31\u662F\u5230\u8FD9\u91CC\u4E3A\u6B62\uFF0CSpring\u7684\u5BB9\u5668\u5C31\u57FA\u672C\u5DF2\u7ECF\u786E\u5B9A\u4E86\u3002</li><li>\u6CE8\u610FAnnotationConfigApplicationContext\u662FSpring\u6846\u67B6\u63D0\u4F9B\u7684\u7C7B\uFF0C\u4ECE\u8FD9\u91CC\u5F00\u59CB\u76F8\u5F53\u4E8E\u6211\u4EEC\u5728\u8BB2Spring\u7684\u5E95\u5C42\u6E90\u7801\u4E86\uFF0C\u6211\u4EEC\u7EE7\u7EED\u6DF1\u5165\uFF0CAnnotationConfigApplicationContext\u5BF9\u8C61\u5728\u521B\u5EFA\u8FC7\u7A0B\u4E2D\u4F1A\u521B\u5EFAAnnotatedBeanDefinitionReader\uFF0C\u5B83\u662F\u7528\u4E8E\u901A\u8FC7\u6CE8\u89E3\u89E3\u6790Bean\u5B9A\u4E49\u7684\u5DE5\u5177\u7C7B\uFF1A</li></ul><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token class-name">AnnotationConfigApplicationContext</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token class-name">StartupStep</span> createAnnotatedBeanDefReader <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">getApplicationStartup</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">start</span><span class="token punctuation">(</span><span class="token string">&quot;spring.context.annotated-bean-reader.create&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token keyword">this</span><span class="token punctuation">.</span>reader <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">AnnotatedBeanDefinitionReader</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    createAnnotatedBeanDefReader<span class="token punctuation">.</span><span class="token function">end</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token keyword">this</span><span class="token punctuation">.</span>scanner <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ClassPathBeanDefinitionScanner</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><ul><li>\u5176\u6784\u9020\u65B9\u6CD5\uFF1A</li></ul><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token class-name">AnnotatedBeanDefinitionReader</span><span class="token punctuation">(</span><span class="token class-name">BeanDefinitionRegistry</span> registry<span class="token punctuation">,</span> <span class="token class-name">Environment</span> environment<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
-    <span class="token comment">//\u8FD9\u91CC\u4F1A\u6CE8\u518C\u5F88\u591A\u7684\u540E\u7F6E\u5904\u7406\u5668</span>
-    <span class="token class-name">AnnotationConfigUtils</span><span class="token punctuation">.</span><span class="token function">registerAnnotationConfigProcessors</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>registry<span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token class-name">Set</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">BeanDefinitionHolder</span><span class="token punctuation">&gt;</span></span> <span class="token function">registerAnnotationConfigProcessors</span><span class="token punctuation">(</span><span class="token class-name">BeanDefinitionRegistry</span> registry<span class="token punctuation">,</span> <span class="token annotation punctuation">@Nullable</span> <span class="token class-name">Object</span> source<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token class-name">DefaultListableBeanFactory</span> beanFactory <span class="token operator">=</span> <span class="token function">unwrapDefaultListableBeanFactory</span><span class="token punctuation">(</span>registry<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
-    <span class="token class-name">Set</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">BeanDefinitionHolder</span><span class="token punctuation">&gt;</span></span> beanDefs <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">LinkedHashSet</span><span class="token punctuation">(</span><span class="token number">8</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token class-name">RootBeanDefinition</span> def<span class="token punctuation">;</span>
-    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>registry<span class="token punctuation">.</span><span class="token function">containsBeanDefinition</span><span class="token punctuation">(</span><span class="token string">&quot;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&quot;</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-      	<span class="token comment">//\u6CE8\u518C\u4E86ConfigurationClassPostProcessor\u7528\u4E8E\u5904\u7406@Configuration\u3001@Import\u7B49\u6CE8\u89E3</span>
-      	<span class="token comment">//\u6CE8\u610F\u8FD9\u91CC\u662F\u5173\u952E\uFF0C\u4E4B\u540ESelector\u8FD8\u8981\u8BB2\u5230\u5B83</span>
-      	<span class="token comment">//\u5B83\u662F\u7EE7\u627F\u81EABeanDefinitionRegistryPostProcessor\uFF0C\u6240\u4EE5\u5B83\u7684\u6267\u884C\u65F6\u95F4\u5728Bean\u5B9A\u4E49\u52A0\u8F7D\u5B8C\u6210\u540E\uFF0CBean\u521D\u59CB\u5316\u4E4B\u524D</span>
-        def <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">RootBeanDefinition</span><span class="token punctuation">(</span><span class="token class-name">ConfigurationClassPostProcessor</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        def<span class="token punctuation">.</span><span class="token function">setSource</span><span class="token punctuation">(</span>source<span class="token punctuation">)</span><span class="token punctuation">;</span>
-        beanDefs<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span><span class="token function">registerPostProcessor</span><span class="token punctuation">(</span>registry<span class="token punctuation">,</span> def<span class="token punctuation">,</span> <span class="token string">&quot;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&quot;</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-
-    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>registry<span class="token punctuation">.</span><span class="token function">containsBeanDefinition</span><span class="token punctuation">(</span><span class="token string">&quot;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&quot;</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-      	<span class="token comment">//AutowiredAnnotationBeanPostProcessor\u7528\u4E8E\u5904\u7406@Value\u7B49\u6CE8\u89E3\u81EA\u52A8\u6CE8\u5165</span>
-        def <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">RootBeanDefinition</span><span class="token punctuation">(</span><span class="token class-name">AutowiredAnnotationBeanPostProcessor</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        def<span class="token punctuation">.</span><span class="token function">setSource</span><span class="token punctuation">(</span>source<span class="token punctuation">)</span><span class="token punctuation">;</span>
-        beanDefs<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span><span class="token function">registerPostProcessor</span><span class="token punctuation">(</span>registry<span class="token punctuation">,</span> def<span class="token punctuation">,</span> <span class="token string">&quot;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&quot;</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-  
-  	<span class="token comment">//...</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br></div></div><ul><li>\u56DE\u5230SpringBoot\uFF0C\u6211\u4EEC\u6700\u540E\u6765\u770B\uFF0CprepareContext\u65B9\u6CD5\u4E2D\u53C8\u505A\u4E86\u4EC0\u4E48\u4E8B\u60C5\uFF1A</li></ul><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">private</span> <span class="token keyword">void</span> <span class="token function">prepareContext</span><span class="token punctuation">(</span><span class="token class-name">DefaultBootstrapContext</span> bootstrapContext<span class="token punctuation">,</span> <span class="token class-name">ConfigurableApplicationContext</span> context<span class="token punctuation">,</span> <span class="token class-name">ConfigurableEnvironment</span> environment<span class="token punctuation">,</span> <span class="token class-name">SpringApplicationRunListeners</span> listeners<span class="token punctuation">,</span> <span class="token class-name">ApplicationArguments</span> applicationArguments<span class="token punctuation">,</span> <span class="token class-name">Banner</span> printedBanner<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-  	<span class="token comment">//\u73AF\u5883\u914D\u7F6E</span>
-    context<span class="token punctuation">.</span><span class="token function">setEnvironment</span><span class="token punctuation">(</span>environment<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">postProcessApplicationContext</span><span class="token punctuation">(</span>context<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">applyInitializers</span><span class="token punctuation">(</span>context<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    listeners<span class="token punctuation">.</span><span class="token function">contextPrepared</span><span class="token punctuation">(</span>context<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    bootstrapContext<span class="token punctuation">.</span><span class="token function">close</span><span class="token punctuation">(</span>context<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>logStartupInfo<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">logStartupInfo</span><span class="token punctuation">(</span>context<span class="token punctuation">.</span><span class="token function">getParent</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token keyword">null</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">logStartupProfileInfo</span><span class="token punctuation">(</span>context<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-
-  	<span class="token comment">//\u5C06Banner\u6CE8\u518C\u4E3ABean</span>
-    <span class="token class-name">ConfigurableListableBeanFactory</span> beanFactory <span class="token operator">=</span> context<span class="token punctuation">.</span><span class="token function">getBeanFactory</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    beanFactory<span class="token punctuation">.</span><span class="token function">registerSingleton</span><span class="token punctuation">(</span><span class="token string">&quot;springApplicationArguments&quot;</span><span class="token punctuation">,</span> applicationArguments<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token keyword">if</span> <span class="token punctuation">(</span>printedBanner <span class="token operator">!=</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        beanFactory<span class="token punctuation">.</span><span class="token function">registerSingleton</span><span class="token punctuation">(</span><span class="token string">&quot;springBootBanner&quot;</span><span class="token punctuation">,</span> printedBanner<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-
-    <span class="token keyword">if</span> <span class="token punctuation">(</span>beanFactory <span class="token keyword">instanceof</span> <span class="token class-name">AbstractAutowireCapableBeanFactory</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token class-name">AbstractAutowireCapableBeanFactory</span><span class="token punctuation">)</span>beanFactory<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">setAllowCircularReferences</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>allowCircularReferences<span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token keyword">if</span> <span class="token punctuation">(</span>beanFactory <span class="token keyword">instanceof</span> <span class="token class-name">DefaultListableBeanFactory</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            <span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token class-name">DefaultListableBeanFactory</span><span class="token punctuation">)</span>beanFactory<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">setAllowBeanDefinitionOverriding</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>allowBeanDefinitionOverriding<span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token punctuation">}</span>
-    <span class="token punctuation">}</span>
-
-    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>lazyInitialization<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        context<span class="token punctuation">.</span><span class="token function">addBeanFactoryPostProcessor</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">LazyInitializationBeanFactoryPostProcessor</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-
-  	<span class="token comment">//\u8FD9\u91CC\u4F1A\u83B7\u53D6\u6211\u4EEC\u4E00\u5F00\u59CB\u4F20\u5165\u7684\u9879\u76EE\u4E3B\u7C7B</span>
-    <span class="token class-name">Set</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">Object</span><span class="token punctuation">&gt;</span></span> sources <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">getAllSources</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token class-name">Assert</span><span class="token punctuation">.</span><span class="token function">notEmpty</span><span class="token punctuation">(</span>sources<span class="token punctuation">,</span> <span class="token string">&quot;Sources must not be empty&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-  	<span class="token comment">//\u8FD9\u91CC\u4F1A\u5C06\u6211\u4EEC\u7684\u4E3B\u7C7B\u76F4\u63A5\u6CE8\u518C\u4E3ABean\uFF0C\u8FD9\u6837\u5C31\u53EF\u4EE5\u901A\u8FC7\u6CE8\u89E3\u52A0\u8F7D\u4E86,\u5DF2\u7ECF\u628Abean\u6CE8\u518C</span>
-    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">load</span><span class="token punctuation">(</span>context<span class="token punctuation">,</span> sources<span class="token punctuation">.</span><span class="token function">toArray</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Object</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    listeners<span class="token punctuation">.</span><span class="token function">contextLoaded</span><span class="token punctuation">(</span>context<span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br></div></div><h2 id="\u81EA\u52A8\u914D\u7F6E\u539F\u7406" tabindex="-1"><a class="header-anchor" href="#\u81EA\u52A8\u914D\u7F6E\u539F\u7406" aria-hidden="true">#</a> \u81EA\u52A8\u914D\u7F6E\u539F\u7406</h2><!--]-->`);
-}
-const _sfc_setup$D = _sfc_main$D.setup;
-_sfc_main$D.setup = (props, ctx) => {
-  const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/springboot/02.springboot\u542F\u52A8\u539F\u7406.html.vue");
-  return _sfc_setup$D ? _sfc_setup$D(props, ctx) : void 0;
-};
-var _02_springboot_____html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$D, [["ssrRender", _sfc_ssrRender$p]]);
-var _02_springboot_____html$2 = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  "default": _02_springboot_____html$1
-});
-const _sfc_main$C = {};
-function _sfc_ssrRender$o(_ctx, _push, _parent, _attrs) {
-  _push(`<!--[--><h1 id="\u81EA\u52A8\u914D\u7F6E" tabindex="-1"><a class="header-anchor" href="#\u81EA\u52A8\u914D\u7F6E" aria-hidden="true">#</a> \u81EA\u52A8\u914D\u7F6E</h1><ul><li>\u65E2\u7136\u4E3B\u7C7B\u5DF2\u7ECF\u5728\u521D\u59CB\u9636\u6BB5\u6CE8\u518C\u4E3ABean\uFF0C\u90A3\u4E48\u5728\u52A0\u8F7D\u65F6\uFF0C\u5C31\u4F1A\u6839\u636E\u6CE8\u89E3\u5B9A\u4E49\uFF0C\u8FDB\u884C\u66F4\u591A\u7684\u989D\u5916\u64CD\u4F5C\u3002\u6240\u4EE5\u6211\u4EEC\u6765\u770B\u770B\u4E3B\u7C7B\u4E0A\u7684@SpringBootApplication\u6CE8\u89E3\u505A\u4E86\u4EC0\u4E48\u4E8B\u60C5\u3002</li></ul><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token annotation punctuation">@Target</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token class-name">ElementType</span><span class="token punctuation">.</span>TYPE<span class="token punctuation">}</span><span class="token punctuation">)</span>
-<span class="token annotation punctuation">@Retention</span><span class="token punctuation">(</span><span class="token class-name">RetentionPolicy</span><span class="token punctuation">.</span>RUNTIME<span class="token punctuation">)</span>
-<span class="token annotation punctuation">@Documented</span>
-<span class="token annotation punctuation">@Inherited</span>
-<span class="token annotation punctuation">@SpringBootConfiguration</span>
-<span class="token comment">//\u5173\u952E\uFF0C\u4F60\u5728\u9879\u76EE\u4E2D\u70B9\u51FB\u8FDB\u53BB\u7EC6\u770B\u5982\u4F55\u626B\u63CF\u5305\u7684</span>
-<span class="token annotation punctuation">@EnableAutoConfiguration</span>
-<span class="token annotation punctuation">@ComponentScan</span><span class="token punctuation">(</span>
-    excludeFilters <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token annotation punctuation">@Filter</span><span class="token punctuation">(</span>
-    type <span class="token operator">=</span> <span class="token class-name">FilterType</span><span class="token punctuation">.</span>CUSTOM<span class="token punctuation">,</span>
-    classes <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token class-name">TypeExcludeFilter</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">}</span>
-<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token annotation punctuation">@Filter</span><span class="token punctuation">(</span>
-    type <span class="token operator">=</span> <span class="token class-name">FilterType</span><span class="token punctuation">.</span>CUSTOM<span class="token punctuation">,</span>
-    classes <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token class-name">AutoConfigurationExcludeFilter</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">}</span>
-<span class="token punctuation">)</span><span class="token punctuation">}</span>
-<span class="token punctuation">)</span>
-<span class="token keyword">public</span> <span class="token annotation punctuation">@interface</span> <span class="token class-name">SpringBootApplication</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br></div></div><ul><li>\u6211\u4EEC\u53D1\u73B0\uFF0C@SpringBootApplication\u4E0A\u6DFB\u52A0\u4E86@ComponentScan\u6CE8\u89E3\uFF0C\u6B64\u6CE8\u89E3\u6211\u4EEC\u6B64\u524D\u5DF2\u7ECF\u8BA4\u8BC6\u8FC7\u4E86\uFF0C\u4F46\u662F\u8FD9\u91CC\u5E76\u6CA1\u6709\u914D\u7F6E\u5177\u4F53\u626B\u63CF\u7684\u5305\uFF0C\u56E0\u6B64\u5B83\u4F1A\u81EA\u52A8\u5C06\u58F0\u660E\u6B64\u63A5\u53E3\u7684\u7C7B\u6240\u5728\u7684\u5305\u4F5C\u4E3AbasePackage\uFF0C\u56E0\u6B64\u5F53\u6DFB\u52A0@SpringBootApplication\u4E4B\u540E\u4E5F\u5C31\u7B49\u4E8E\u76F4\u63A5\u5F00\u542F\u4E86\u81EA\u52A8\u626B\u63CF\uFF0C\u4F46\u662F\u4E00\u5B9A\u6CE8\u610F\u4E0D\u80FD\u5728\u4E3B\u7C7B\u4E4B\u5916\u7684\u5305\u8FDB\u884CBean\u5B9A\u4E49\uFF0C\u5426\u5219\u65E0\u6CD5\u626B\u63CF\u5230\uFF0C\u9700\u8981\u624B\u52A8\u914D\u7F6E\u3002</li></ul><h2 id="enableautoconfiguration" tabindex="-1"><a class="header-anchor" href="#enableautoconfiguration" aria-hidden="true">#</a> @EnableAutoConfiguration</h2><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token annotation punctuation">@Target</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token class-name">ElementType</span><span class="token punctuation">.</span>TYPE<span class="token punctuation">}</span><span class="token punctuation">)</span>
-<span class="token annotation punctuation">@Retention</span><span class="token punctuation">(</span><span class="token class-name">RetentionPolicy</span><span class="token punctuation">.</span>RUNTIME<span class="token punctuation">)</span>
-<span class="token annotation punctuation">@Documented</span>
-<span class="token annotation punctuation">@Inherited</span>
-<span class="token annotation punctuation">@AutoConfigurationPackage</span>
-<span class="token annotation punctuation">@Import</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token class-name">AutoConfigurationImportSelector</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
-<span class="token keyword">public</span> <span class="token annotation punctuation">@interface</span> <span class="token class-name">EnableAutoConfiguration</span> <span class="token punctuation">{</span>
-    <span class="token class-name">String</span> ENABLED_OVERRIDE_PROPERTY <span class="token operator">=</span> <span class="token string">&quot;spring.boot.enableautoconfiguration&quot;</span><span class="token punctuation">;</span>
-
-    <span class="token class-name">Class</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token operator">?</span><span class="token punctuation">&gt;</span></span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token function">exclude</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">default</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
-
-    <span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token function">excludeName</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">default</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div><ul><li>\u76F4\u63A5\u4E00\u624B@Import\uFF0C\u901A\u8FC7\u8FD9\u79CD\u65B9\u5F0F\u6765\u5C06\u4E00\u4E9B\u5916\u90E8\u7684Bean\u52A0\u8F7D\u5230\u5BB9\u5668\u4E2D\u3002\u6211\u4EEC\u6765\u770B\u770BAutoConfigurationImportSelector\u505A\u4E86\u4EC0\u4E48\u4E8B\u60C5\uFF1A</li></ul><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">AutoConfigurationImportSelector</span> <span class="token keyword">implements</span> <span class="token class-name">DeferredImportSelector</span><span class="token punctuation">,</span> <span class="token class-name">BeanClassLoaderAware</span><span class="token punctuation">,</span> <span class="token class-name">ResourceLoaderAware</span><span class="token punctuation">,</span> <span class="token class-name">BeanFactoryAware</span><span class="token punctuation">,</span> <span class="token class-name">EnvironmentAware</span><span class="token punctuation">,</span> <span class="token class-name">Ordered</span> <span class="token punctuation">{</span>
-		<span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>\u6211\u4EEC\u770B\u5230\u5B83\u5B9E\u73B0\u4E86\u5F88\u591A\u63A5\u53E3\uFF0C\u5305\u62EC\u5927\u91CF\u7684Aware\u63A5\u53E3\uFF0C\u5B9E\u9645\u4E0A\u5C31\u662F\u4E3A\u4E86\u611F\u77E5\u67D0\u4E9B\u5FC5\u8981\u7684\u5BF9\u8C61\uFF0C\u5E76\u5C06\u5176\u5B58\u5230\u5F53\u524D\u7C7B\u4E2D\u3002</p><p>\u5176\u4E2D\u6700\u6838\u5FC3\u7684\u662FDeferredImportSelector\u63A5\u53E3\uFF0C\u5B83\u662FImportSelector\u7684\u5B50\u7C7B\uFF0C\u5B83\u5B9A\u4E49\u4E86selectImports\u65B9\u6CD5\uFF0C\u7528\u4E8E\u8FD4\u56DE\u9700\u8981\u52A0\u8F7D\u7684\u7C7B\u540D\u79F0\uFF0C\u5728Spring\u52A0\u8F7DImportSelector\u7C7B\u578B\u7684Bean\u65F6\uFF0C\u4F1A\u8C03\u7528\u6B64\u65B9\u6CD5\u6765\u83B7\u53D6\u66F4\u591A\u9700\u8981\u52A0\u8F7D\u7684\u7C7B\uFF0C\u5E76\u5C06\u8FD9\u4E9B\u7C7B\u4E00\u5E76\u6CE8\u518C\u4E3ABean\uFF1A</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">interface</span> <span class="token class-name">ImportSelector</span> <span class="token punctuation">{</span>
-    <span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token function">selectImports</span><span class="token punctuation">(</span><span class="token class-name">AnnotationMetadata</span> importingClassMetadata<span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-    <span class="token annotation punctuation">@Nullable</span>
-    <span class="token keyword">default</span> <span class="token class-name">Predicate</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">String</span><span class="token punctuation">&gt;</span></span> <span class="token function">getExclusionFilter</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">return</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><p>\u5230\u76EE\u524D\u4E3A\u6B62\uFF0C\u6211\u4EEC\u4E86\u89E3\u4E86\u4E24\u79CD\u4F7F\u7528@Import\u6709\u7279\u6B8A\u673A\u5236\u7684\u63A5\u53E3\uFF1AImportSelector\uFF08\u8FD9\u91CC\u7528\u5230\u7684\uFF09\u548CImportBeanDefinitionRegistrar\uFF08\u4E4B\u524DMybatis-spring\u6E90\u7801\u6709\u8BB2\uFF09\u5F53\u7136\u8FD8\u6709\u666E\u901A\u7684@Configuration\u914D\u7F6E\u7C7B\u3002</p><ul><li>\u80FD\u591Fimport\u662F\u56E0\u4E3A\u542F\u52A8\u539F\u7406\u4E00\u7AE0\u7684<code>ConfigurationClassPostProcessor</code>\u7C7B</li></ul><p>\u6211\u4EEC\u53EF\u4EE5\u6765\u9605\u8BFB\u4E00\u4E0B<code>ConfigurationClassPostProcessor</code>\u7684\u6E90\u7801\uFF0C\u770B\u770B\u5B83\u5230\u5E95\u662F\u5982\u4F55\u5904\u7406<code>@Import</code>\u7684\uFF1A</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">processConfigBeanDefinitions</span><span class="token punctuation">(</span><span class="token class-name">BeanDefinitionRegistry</span> registry<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token comment">//\u5B58\u50A8\u914D\u7F6E\u7C7B</span>
-    <span class="token class-name">List</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">BeanDefinitionHolder</span><span class="token punctuation">&gt;</span></span> configCandidates <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ArrayList</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-  	<span class="token comment">//\u6CE8\u610F\u8FD9\u4E2A\u9636\u6BB5\u4EC5\u4EC5\u662F\u5DF2\u7ECF\u5B8C\u6210\u626B\u63CF\u4E86\u6240\u6709\u7684Bean\uFF0C\u5F97\u5230\u4E86\u6240\u6709\u7684BeanDefinition\uFF0C\u4F46\u662F\u8FD8\u6CA1\u6709\u8FDB\u884C\u4EFB\u4F55\u533A\u5206</span>
-  	<span class="token comment">//candidate\u662F\u5019\u9009\u8005\u7684\u610F\u601D\uFF0C\u4E00\u4F1A\u4F1A\u5C06\u6807\u8BB0\u4E86@Configuration\u7684\u7C7B\u4F5C\u4E3AConfigurationClass\u52A0\u5165\u5230configCandidates\u4E2D</span>
-    <span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> candidateNames <span class="token operator">=</span> registry<span class="token punctuation">.</span><span class="token function">getBeanDefinitionNames</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> var4 <span class="token operator">=</span> candidateNames<span class="token punctuation">;</span>
-    <span class="token keyword">int</span> var5 <span class="token operator">=</span> candidateNames<span class="token punctuation">.</span>length<span class="token punctuation">;</span>
-
-    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> var6 <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> var6 <span class="token operator">&lt;</span> var5<span class="token punctuation">;</span> <span class="token operator">++</span>var6<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token class-name">String</span> beanName <span class="token operator">=</span> var4<span class="token punctuation">[</span>var6<span class="token punctuation">]</span><span class="token punctuation">;</span>
-        <span class="token class-name">BeanDefinition</span> beanDef <span class="token operator">=</span> registry<span class="token punctuation">.</span><span class="token function">getBeanDefinition</span><span class="token punctuation">(</span>beanName<span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token keyword">if</span> <span class="token punctuation">(</span>beanDef<span class="token punctuation">.</span><span class="token function">getAttribute</span><span class="token punctuation">(</span><span class="token class-name">ConfigurationClassUtils</span><span class="token punctuation">.</span>CONFIGURATION_CLASS_ATTRIBUTE<span class="token punctuation">)</span> <span class="token operator">!=</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>logger<span class="token punctuation">.</span><span class="token function">isDebugEnabled</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-                <span class="token keyword">this</span><span class="token punctuation">.</span>logger<span class="token punctuation">.</span><span class="token function">debug</span><span class="token punctuation">(</span><span class="token string">&quot;Bean definition has already been processed as a configuration class: &quot;</span> <span class="token operator">+</span> beanDef<span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token punctuation">}</span>
-        <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token class-name">ConfigurationClassUtils</span><span class="token punctuation">.</span><span class="token function">checkConfigurationClassCandidate</span><span class="token punctuation">(</span>beanDef<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>metadataReaderFactory<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>   <span class="token comment">//\u5224\u65AD\u662F\u5426\u6DFB\u52A0\u4E86@Configuration\u6CE8\u89E3</span>
-            configCandidates<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">BeanDefinitionHolder</span><span class="token punctuation">(</span>beanDef<span class="token punctuation">,</span> beanName<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token punctuation">}</span>
-    <span class="token punctuation">}</span>
-
-    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>configCandidates<span class="token punctuation">.</span><span class="token function">isEmpty</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token comment">//...\u7701\u7565</span>
-
-      	<span class="token comment">//\u8FD9\u91CC\u521B\u5EFA\u4E86\u4E00\u4E2AConfigurationClassParser\u7528\u4E8E\u89E3\u6790\u914D\u7F6E\u7C7B</span>
-        <span class="token class-name">ConfigurationClassParser</span> parser <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ConfigurationClassParser</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>metadataReaderFactory<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>problemReporter<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>environment<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>resourceLoader<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>componentScanBeanNameGenerator<span class="token punctuation">,</span> registry<span class="token punctuation">)</span><span class="token punctuation">;</span>
-      	<span class="token comment">//\u6240\u6709\u914D\u7F6E\u7C7B\u7684BeanDefinitionHolder\u5217\u8868</span>
-        <span class="token class-name">Set</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">BeanDefinitionHolder</span><span class="token punctuation">&gt;</span></span> candidates <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">LinkedHashSet</span><span class="token punctuation">(</span>configCandidates<span class="token punctuation">)</span><span class="token punctuation">;</span>
-      	<span class="token comment">//\u5DF2\u7ECF\u89E3\u6790\u5B8C\u6210\u7684\u7C7B</span>
-        <span class="token class-name">HashSet</span> alreadyParsed <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">HashSet</span><span class="token punctuation">(</span>configCandidates<span class="token punctuation">.</span><span class="token function">size</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-        <span class="token keyword">do</span> <span class="token punctuation">{</span>
-            <span class="token comment">//\u8FD9\u91CC\u7701\u7565\uFF0C\u76F4\u5230\u6240\u6709\u7684\u914D\u7F6E\u7C7B\u5168\u90E8\u89E3\u6790\u5B8C\u6210</span>
-          	<span class="token comment">//\u6CE8\u610F\u5728\u5FAA\u73AF\u8FC7\u7A0B\u4E2D\u53EF\u80FD\u4F1A\u7531\u4E8E@Import\u65B0\u589E\u66F4\u591A\u7684\u5F85\u89E3\u6790\u914D\u7F6E\u7C7B\uFF0C\u4E00\u5F8B\u4E22\u8FDBcandidates\u96C6\u5408\u4E2D</span>
-        <span class="token punctuation">}</span> <span class="token keyword">while</span><span class="token punctuation">(</span><span class="token operator">!</span>candidates<span class="token punctuation">.</span><span class="token function">isEmpty</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-        <span class="token comment">//...</span>
-
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br></div></div><p>\u6211\u4EEC\u63A5\u7740\u6765\u770B\uFF0C<code>ConfigurationClassParser</code>\u662F\u5982\u4F55\u8FDB\u884C\u89E3\u6790\u7684\uFF1A</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">protected</span> <span class="token keyword">void</span> <span class="token function">processConfigurationClass</span><span class="token punctuation">(</span><span class="token class-name">ConfigurationClass</span> configClass<span class="token punctuation">,</span> <span class="token class-name">Predicate</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">String</span><span class="token punctuation">&gt;</span></span> filter<span class="token punctuation">)</span> <span class="token keyword">throws</span> <span class="token class-name">IOException</span> <span class="token punctuation">{</span>
-  	<span class="token comment">//@Conditional\u76F8\u5173\u6CE8\u89E3\u5904\u7406</span>
-  	<span class="token comment">//\u540E\u9762\u4F1A\u8BB2</span>
-    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span><span class="token keyword">this</span><span class="token punctuation">.</span>conditionEvaluator<span class="token punctuation">.</span><span class="token function">shouldSkip</span><span class="token punctuation">(</span>configClass<span class="token punctuation">.</span><span class="token function">getMetadata</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token class-name">ConfigurationPhase</span><span class="token punctuation">.</span>PARSE_CONFIGURATION<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
-        <span class="token punctuation">}</span>
-
-        <span class="token class-name">ConfigurationClassParser<span class="token punctuation">.</span>SourceClass</span> sourceClass <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">asSourceClass</span><span class="token punctuation">(</span>configClass<span class="token punctuation">,</span> filter<span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-        <span class="token keyword">do</span> <span class="token punctuation">{</span>
-          	<span class="token comment">//\u6838\u5FC3</span>
-            sourceClass <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">doProcessConfigurationClass</span><span class="token punctuation">(</span>configClass<span class="token punctuation">,</span> sourceClass<span class="token punctuation">,</span> filter<span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token punctuation">}</span> <span class="token keyword">while</span><span class="token punctuation">(</span>sourceClass <span class="token operator">!=</span> <span class="token keyword">null</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token comment">//put,\u901A\u8FC7\u8FD9\u4E2A\u5C31\u53EF\u4EE5\u83B7\u53D6\u5230\u914D\u7F6E\u7C7B</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span>configurationClasses<span class="token punctuation">.</span><span class="token function">put</span><span class="token punctuation">(</span>configClass<span class="token punctuation">,</span> configClass<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br></div></div><p>\u6700\u540E\u6211\u4EEC\u518D\u6765\u770B\u6700\u6838\u5FC3\u7684<code>doProcessConfigurationClass</code>\u65B9\u6CD5\uFF1A</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">protected</span> <span class="token keyword">final</span> <span class="token class-name">SourceClass</span> <span class="token function">doProcessConfigurationClass</span><span class="token punctuation">(</span><span class="token class-name">ConfigurationClass</span> configClass<span class="token punctuation">,</span> <span class="token class-name">SourceClass</span> sourceClass<span class="token punctuation">)</span><span class="token punctuation">{</span>
-    <span class="token comment">//...</span>
-
-    <span class="token function">processImports</span><span class="token punctuation">(</span>configClass<span class="token punctuation">,</span> sourceClass<span class="token punctuation">,</span> <span class="token function">getImports</span><span class="token punctuation">(</span>sourceClass<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">// \u5904\u7406Import\u6CE8\u89E3</span>
-
-		<span class="token comment">//...</span>
-
-    <span class="token keyword">return</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">private</span> <span class="token keyword">void</span> <span class="token function">processImports</span><span class="token punctuation">(</span><span class="token class-name">ConfigurationClass</span> configClass<span class="token punctuation">,</span> <span class="token class-name">ConfigurationClassParser<span class="token punctuation">.</span>SourceClass</span> currentSourceClass<span class="token punctuation">,</span> <span class="token class-name">Collection</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">ConfigurationClassParser<span class="token punctuation">.</span>SourceClass</span><span class="token punctuation">&gt;</span></span> importCandidates<span class="token punctuation">,</span> <span class="token class-name">Predicate</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">String</span><span class="token punctuation">&gt;</span></span> exclusionFilter<span class="token punctuation">,</span> <span class="token keyword">boolean</span> checkForCircularImports<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>importCandidates<span class="token punctuation">.</span><span class="token function">isEmpty</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">if</span> <span class="token punctuation">(</span>checkForCircularImports <span class="token operator">&amp;&amp;</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">isChainedImportOnStack</span><span class="token punctuation">(</span>configClass<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            <span class="token keyword">this</span><span class="token punctuation">.</span>problemReporter<span class="token punctuation">.</span><span class="token function">error</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">ConfigurationClassParser<span class="token punctuation">.</span>CircularImportProblem</span><span class="token punctuation">(</span>configClass<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>importStack<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
-            <span class="token keyword">this</span><span class="token punctuation">.</span>importStack<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>configClass<span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-            <span class="token keyword">try</span> <span class="token punctuation">{</span>
-                <span class="token class-name">Iterator</span> var6 <span class="token operator">=</span> importCandidates<span class="token punctuation">.</span><span class="token function">iterator</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-                <span class="token keyword">while</span><span class="token punctuation">(</span>var6<span class="token punctuation">.</span><span class="token function">hasNext</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-                    <span class="token class-name">ConfigurationClassParser<span class="token punctuation">.</span>SourceClass</span> candidate <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token class-name">ConfigurationClassParser<span class="token punctuation">.</span>SourceClass</span><span class="token punctuation">)</span>var6<span class="token punctuation">.</span><span class="token function">next</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-                    <span class="token class-name">Class</span> candidateClass<span class="token punctuation">;</span>
-                  	<span class="token comment">//\u5982\u679C\u662FImportSelector\u7C7B\u578B\uFF0C\u7EE7\u7EED\u8FDB\u884C\u8FD0\u884C</span>
-                    <span class="token keyword">if</span> <span class="token punctuation">(</span>candidate<span class="token punctuation">.</span><span class="token function">isAssignable</span><span class="token punctuation">(</span><span class="token class-name">ImportSelector</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-                        candidateClass <span class="token operator">=</span> candidate<span class="token punctuation">.</span><span class="token function">loadClass</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-                        <span class="token class-name">ImportSelector</span> selector <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token class-name">ImportSelector</span><span class="token punctuation">)</span><span class="token class-name">ParserStrategyUtils</span><span class="token punctuation">.</span><span class="token function">instantiateClass</span><span class="token punctuation">(</span>candidateClass<span class="token punctuation">,</span> <span class="token class-name">ImportSelector</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>environment<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>resourceLoader<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>registry<span class="token punctuation">)</span><span class="token punctuation">;</span>
-                        <span class="token class-name">Predicate</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">String</span><span class="token punctuation">&gt;</span></span> selectorFilter <span class="token operator">=</span> selector<span class="token punctuation">.</span><span class="token function">getExclusionFilter</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-                        <span class="token keyword">if</span> <span class="token punctuation">(</span>selectorFilter <span class="token operator">!=</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-                            exclusionFilter <span class="token operator">=</span> exclusionFilter<span class="token punctuation">.</span><span class="token function">or</span><span class="token punctuation">(</span>selectorFilter<span class="token punctuation">)</span><span class="token punctuation">;</span>
-                        <span class="token punctuation">}</span>
-									<span class="token comment">//\u5982\u679C\u662FDeferredImportSelector\u7684\u5B9E\u73B0\u7C7B\uFF0C\u90A3\u4E48\u4F1A\u8D70deferredImportSelectorHandler\u7684handle\u65B9\u6CD5</span>
-                        <span class="token keyword">if</span> <span class="token punctuation">(</span>selector <span class="token keyword">instanceof</span> <span class="token class-name">DeferredImportSelector</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-                            <span class="token keyword">this</span><span class="token punctuation">.</span>deferredImportSelectorHandler<span class="token punctuation">.</span><span class="token function">handle</span><span class="token punctuation">(</span>configClass<span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token class-name">DeferredImportSelector</span><span class="token punctuation">)</span>selector<span class="token punctuation">)</span><span class="token punctuation">;</span>
-                          <span class="token comment">//\u5426\u5219\u5C31\u6309\u7167\u6B63\u5E38\u7684ImportSelector\u7C7B\u578B\u8FDB\u884C\u52A0\u8F7D</span>
-                        <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
-                          	<span class="token comment">//\u8C03\u7528selectImports\u65B9\u6CD5\u83B7\u53D6\u6240\u6709\u9700\u8981\u52A0\u8F7D\u7684\u7C7B</span>
-                            <span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> importClassNames <span class="token operator">=</span> selector<span class="token punctuation">.</span><span class="token function">selectImports</span><span class="token punctuation">(</span>currentSourceClass<span class="token punctuation">.</span><span class="token function">getMetadata</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-                            <span class="token class-name">Collection</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">ConfigurationClassParser<span class="token punctuation">.</span>SourceClass</span><span class="token punctuation">&gt;</span></span> importSourceClasses <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">asSourceClasses</span><span class="token punctuation">(</span>importClassNames<span class="token punctuation">,</span> exclusionFilter<span class="token punctuation">)</span><span class="token punctuation">;</span>
-                          	<span class="token comment">//\u9012\u5F52\u5904\u7406\uFF0C\u76F4\u5230\u6CA1\u6709\uFF0C\u7C7B\u4F3C\u4E8E\u6DF1\u5EA6\u904D\u5386</span>
-                            <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">processImports</span><span class="token punctuation">(</span>configClass<span class="token punctuation">,</span> currentSourceClass<span class="token punctuation">,</span> importSourceClasses<span class="token punctuation">,</span> exclusionFilter<span class="token punctuation">,</span> <span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-                        <span class="token punctuation">}</span>
-                      <span class="token comment">//\u5224\u65AD\u662F\u5426\u4E3AImportBeanDefinitionRegistrar\u7C7B\u578B</span>
-                    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>candidate<span class="token punctuation">.</span><span class="token function">isAssignable</span><span class="token punctuation">(</span><span class="token class-name">ImportBeanDefinitionRegistrar</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-                        candidateClass <span class="token operator">=</span> candidate<span class="token punctuation">.</span><span class="token function">loadClass</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-                        <span class="token class-name">ImportBeanDefinitionRegistrar</span> registrar <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token class-name">ImportBeanDefinitionRegistrar</span><span class="token punctuation">)</span><span class="token class-name">ParserStrategyUtils</span><span class="token punctuation">.</span><span class="token function">instantiateClass</span><span class="token punctuation">(</span>candidateClass<span class="token punctuation">,</span> <span class="token class-name">ImportBeanDefinitionRegistrar</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>environment<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>resourceLoader<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>registry<span class="token punctuation">)</span><span class="token punctuation">;</span>
-                      	<span class="token comment">//\u5F80configClass\u4E22ImportBeanDefinitionRegistrar\u4FE1\u606F\u8FDB\u53BB\uFF0C\u4E4B\u540E\u518D\u5904\u7406</span>
-                        configClass<span class="token punctuation">.</span><span class="token function">addImportBeanDefinitionRegistrar</span><span class="token punctuation">(</span>registrar<span class="token punctuation">,</span> currentSourceClass<span class="token punctuation">.</span><span class="token function">getMetadata</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-                      <span class="token comment">//\u5426\u5219\u6309\u666E\u901A\u7684\u914D\u7F6E\u7C7B\u8FDB\u884C\u5904\u7406</span>
-                    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
-                        <span class="token keyword">this</span><span class="token punctuation">.</span>importStack<span class="token punctuation">.</span><span class="token function">registerImport</span><span class="token punctuation">(</span>currentSourceClass<span class="token punctuation">.</span><span class="token function">getMetadata</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> candidate<span class="token punctuation">.</span><span class="token function">getMetadata</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">getClassName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-                        <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">processConfigurationClass</span><span class="token punctuation">(</span>candidate<span class="token punctuation">.</span><span class="token function">asConfigClass</span><span class="token punctuation">(</span>configClass<span class="token punctuation">)</span><span class="token punctuation">,</span> exclusionFilter<span class="token punctuation">)</span><span class="token punctuation">;</span>
-                    <span class="token punctuation">}</span>
-                <span class="token punctuation">}</span>
-            <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span><span class="token class-name">BeanDefinitionStoreException</span> var17<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-                <span class="token keyword">throw</span> var17<span class="token punctuation">;</span>
-            <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span><span class="token class-name">Throwable</span> var18<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-                <span class="token keyword">throw</span> <span class="token keyword">new</span> <span class="token class-name">BeanDefinitionStoreException</span><span class="token punctuation">(</span><span class="token string">&quot;Failed to process import candidates for configuration class [&quot;</span> <span class="token operator">+</span> configClass<span class="token punctuation">.</span><span class="token function">getMetadata</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">getClassName</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token string">&quot;]&quot;</span><span class="token punctuation">,</span> var18<span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token punctuation">}</span> <span class="token keyword">finally</span> <span class="token punctuation">{</span>
-                <span class="token keyword">this</span><span class="token punctuation">.</span>importStack<span class="token punctuation">.</span><span class="token function">pop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token punctuation">}</span>
-        <span class="token punctuation">}</span>
-
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br><span class="line-number">54</span><br><span class="line-number">55</span><br></div></div><p>\u4E0D\u96BE\u6CE8\u610F\u5230\uFF0C\u867D\u7136\u8FD9\u91CC\u989D\u5916\u5904\u7406\u4E86ImportSelector\u5BF9\u8C61\uFF0C\u4F46\u662F\u8FD8\u9488\u5BF9ImportSelector\u7684\u5B50\u63A5\u53E3DeferredImportSelector\u8FDB\u884C\u4E86\u989D\u5916\u5904\u7406\uFF0CDeferred\u662F\u5EF6\u8FDF\u7684\u610F\u601D\uFF0C\u5B83\u662F\u4E00\u4E2A\u5EF6\u8FDF\u6267\u884C\u7684ImportSelector\uFF0C\u5E76\u4E0D\u4F1A\u7ACB\u5373\u8FDB\u5904\u7406\uFF0C\u800C\u662F\u4E22\u8FDBDeferredImportSelectorHandler\uFF0C\u5E76\u4E14\u5728parse\u65B9\u6CD5\u7684\u6700\u540E\u8FDB\u884C\u5904\u7406\uFF1A</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">parse</span><span class="token punctuation">(</span><span class="token class-name">Set</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">BeanDefinitionHolder</span><span class="token punctuation">&gt;</span></span> configCandidates<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-     <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
-
-    <span class="token keyword">this</span><span class="token punctuation">.</span>deferredImportSelectorHandler<span class="token punctuation">.</span><span class="token function">process</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p>\u6211\u4EEC\u63A5\u7740\u6765\u770BDeferredImportSelector\u6B63\u597D\u5C31\u6709\u4E00\u4E2Aprocess\u65B9\u6CD5\uFF1A</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">interface</span> <span class="token class-name">DeferredImportSelector</span> <span class="token keyword">extends</span> <span class="token class-name">ImportSelector</span> <span class="token punctuation">{</span>
-    <span class="token annotation punctuation">@Nullable</span>
-    <span class="token keyword">default</span> <span class="token class-name">Class</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token operator">?</span> <span class="token keyword">extends</span> <span class="token class-name">DeferredImportSelector<span class="token punctuation">.</span>Group</span><span class="token punctuation">&gt;</span></span> <span class="token function">getImportGroup</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">return</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-
-    <span class="token keyword">public</span> <span class="token keyword">interface</span> <span class="token class-name">Group</span> <span class="token punctuation">{</span>
-        <span class="token keyword">void</span> <span class="token function">process</span><span class="token punctuation">(</span><span class="token class-name">AnnotationMetadata</span> metadata<span class="token punctuation">,</span> <span class="token class-name">DeferredImportSelector</span> selector<span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-        <span class="token class-name">Iterable</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">DeferredImportSelector<span class="token punctuation">.</span>Group<span class="token punctuation">.</span>Entry</span><span class="token punctuation">&gt;</span></span> <span class="token function">selectImports</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-        <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">class</span> <span class="token class-name">Entry</span> <span class="token punctuation">{</span>
-        <span class="token comment">//  ...</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div><p>\u6700\u540E\u7ECF\u8FC7ConfigurationClassParser\u5904\u7406\u5B8C\u6210\u540E\uFF0C\u901A\u8FC7parser.getConfigurationClasses()\u5C31\u80FD\u5F97\u5230\u901A\u8FC7\u914D\u7F6E\u7C7B\u5BFC\u5165\u4E86\u54EA\u4E9B\u989D\u5916\u7684\u914D\u7F6E\u7C7B\u3002\u6700\u540E\u5C06\u8FD9\u4E9B\u914D\u7F6E\u7C7B\u5168\u90E8\u6CE8\u518CBeanDefinition\uFF0C\u7136\u540E\u5C31\u53EF\u4EE5\u4EA4\u7ED9\u63A5\u4E0B\u6765\u7684Bean\u521D\u59CB\u5316\u8FC7\u7A0B\u53BB\u5904\u7406\u4E86\u3002</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">this</span><span class="token punctuation">.</span>reader<span class="token punctuation">.</span><span class="token function">loadBeanDefinitions</span><span class="token punctuation">(</span>configClasses<span class="token punctuation">)</span><span class="token punctuation">;</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u6700\u540E\u6211\u4EEC\u518D\u53BB\u770BloadBeanDefinitions\u662F\u5982\u4F55\u8FD0\u884C\u7684\uFF1A</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">loadBeanDefinitions</span><span class="token punctuation">(</span><span class="token class-name">Set</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">ConfigurationClass</span><span class="token punctuation">&gt;</span></span> configurationModel<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token class-name">ConfigurationClassBeanDefinitionReader<span class="token punctuation">.</span>TrackedConditionEvaluator</span> trackedConditionEvaluator <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ConfigurationClassBeanDefinitionReader<span class="token punctuation">.</span>TrackedConditionEvaluator</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token class-name">Iterator</span> var3 <span class="token operator">=</span> configurationModel<span class="token punctuation">.</span><span class="token function">iterator</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-    <span class="token keyword">while</span><span class="token punctuation">(</span>var3<span class="token punctuation">.</span><span class="token function">hasNext</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token class-name">ConfigurationClass</span> configClass <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token class-name">ConfigurationClass</span><span class="token punctuation">)</span>var3<span class="token punctuation">.</span><span class="token function">next</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">loadBeanDefinitionsForConfigurationClass</span><span class="token punctuation">(</span>configClass<span class="token punctuation">,</span> trackedConditionEvaluator<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-
-<span class="token punctuation">}</span>
-
-<span class="token keyword">private</span> <span class="token keyword">void</span> <span class="token function">loadBeanDefinitionsForConfigurationClass</span><span class="token punctuation">(</span><span class="token class-name">ConfigurationClass</span> configClass<span class="token punctuation">,</span> <span class="token class-name">ConfigurationClassBeanDefinitionReader<span class="token punctuation">.</span>TrackedConditionEvaluator</span> trackedConditionEvaluator<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">if</span> <span class="token punctuation">(</span>trackedConditionEvaluator<span class="token punctuation">.</span><span class="token function">shouldSkip</span><span class="token punctuation">(</span>configClass<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token class-name">String</span> beanName <span class="token operator">=</span> configClass<span class="token punctuation">.</span><span class="token function">getBeanName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token class-name">StringUtils</span><span class="token punctuation">.</span><span class="token function">hasLength</span><span class="token punctuation">(</span>beanName<span class="token punctuation">)</span> <span class="token operator">&amp;&amp;</span> <span class="token keyword">this</span><span class="token punctuation">.</span>registry<span class="token punctuation">.</span><span class="token function">containsBeanDefinition</span><span class="token punctuation">(</span>beanName<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            <span class="token keyword">this</span><span class="token punctuation">.</span>registry<span class="token punctuation">.</span><span class="token function">removeBeanDefinition</span><span class="token punctuation">(</span>beanName<span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token punctuation">}</span>
-
-        <span class="token keyword">this</span><span class="token punctuation">.</span>importRegistry<span class="token punctuation">.</span><span class="token function">removeImportingClass</span><span class="token punctuation">(</span>configClass<span class="token punctuation">.</span><span class="token function">getMetadata</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">getClassName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
-        <span class="token keyword">if</span> <span class="token punctuation">(</span>configClass<span class="token punctuation">.</span><span class="token function">isImported</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">registerBeanDefinitionForImportedConfigurationClass</span><span class="token punctuation">(</span>configClass<span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment">//\u6CE8\u518C\u914D\u7F6E\u7C7B\u81EA\u5DF1</span>
-        <span class="token punctuation">}</span>
-
-        <span class="token class-name">Iterator</span> var3 <span class="token operator">=</span> configClass<span class="token punctuation">.</span><span class="token function">getBeanMethods</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">iterator</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-        <span class="token keyword">while</span><span class="token punctuation">(</span>var3<span class="token punctuation">.</span><span class="token function">hasNext</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            <span class="token class-name">BeanMethod</span> beanMethod <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token class-name">BeanMethod</span><span class="token punctuation">)</span>var3<span class="token punctuation">.</span><span class="token function">next</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">loadBeanDefinitionsForBeanMethod</span><span class="token punctuation">(</span>beanMethod<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//\u6CE8\u518C@Bean\u6CE8\u89E3\u6807\u8BC6\u7684\u65B9\u6CD5</span>
-        <span class="token punctuation">}</span>
-
-      	<span class="token comment">//\u6CE8\u518C\`@ImportResource\`\u5F15\u5165\u7684XML\u914D\u7F6E\u6587\u4EF6\u4E2D\u8BFB\u53D6\u7684bean\u5B9A\u4E49</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">loadBeanDefinitionsFromImportedResources</span><span class="token punctuation">(</span>configClass<span class="token punctuation">.</span><span class="token function">getImportedResources</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token comment">//\u4E0A\u9762\u4FDD\u5B58\u7684\u5EF6\u8FDF\u6267\u884C\u5904\u7406</span>
-     	 <span class="token comment">//\u6CE8\u518CconfigClass\u4E2D\u7ECF\u8FC7\u89E3\u6790\u540E\u4FDD\u5B58\u7684\u6240\u6709ImportBeanDefinitionRegistrar\uFF0C\u6CE8\u518C\u5BF9\u5E94\u7684BeanDefinition</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">loadBeanDefinitionsFromRegistrars</span><span class="token punctuation">(</span>configClass<span class="token punctuation">.</span><span class="token function">getImportBeanDefinitionRegistrars</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br></div></div><p>\u8FD9\u6837\uFF0C\u6574\u4E2A@Configuration\u914D\u7F6E\u7C7B\u7684\u5E95\u5C42\u914D\u7F6E\u6D41\u7A0B\u6211\u4EEC\u5C31\u5927\u81F4\u4E86\u89E3\u4E86\u3002\u63A5\u7740\u6211\u4EEC\u6765\u770BAutoConfigurationImportSelector\u662F\u5982\u4F55\u5B9E\u73B0\u81EA\u52A8\u914D\u7F6E\u7684\uFF0C\u53EF\u4EE5\u770B\u5230\u5185\u90E8\u7C7BAutoConfigurationGroup\u7684process\u65B9\u6CD5\uFF0C\u5B83\u662F\u7236\u63A5\u53E3\u7684\u5B9E\u73B0\uFF0C\u56E0\u4E3A\u7236\u63A5\u53E3\u662FDeferredImportSelector\uFF0C\u90A3\u4E48\u5F88\u5BB9\u6613\u5F97\u77E5\uFF0C\u5B9E\u9645\u4E0A\u6700\u540E\u4F1A\u8C03\u7528process\u65B9\u6CD5\u83B7\u53D6\u6240\u6709\u7684\u81EA\u52A8\u914D\u7F6E\u7C7B\uFF1A</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">process</span><span class="token punctuation">(</span><span class="token class-name">AnnotationMetadata</span> annotationMetadata<span class="token punctuation">,</span> <span class="token class-name">DeferredImportSelector</span> deferredImportSelector<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token class-name">Assert</span><span class="token punctuation">.</span><span class="token function">state</span><span class="token punctuation">(</span>deferredImportSelector <span class="token keyword">instanceof</span> <span class="token class-name">AutoConfigurationImportSelector</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">-&gt;</span> <span class="token punctuation">{</span>
-        <span class="token keyword">return</span> <span class="token class-name">String</span><span class="token punctuation">.</span><span class="token function">format</span><span class="token punctuation">(</span><span class="token string">&quot;Only %s implementations are supported, got %s&quot;</span><span class="token punctuation">,</span> <span class="token class-name">AutoConfigurationImportSelector</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">.</span><span class="token function">getSimpleName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> deferredImportSelector<span class="token punctuation">.</span><span class="token function">getClass</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">getName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-  	<span class="token comment">//\u83B7\u53D6\u6240\u6709\u7684Entry\uFF0C\u5176\u5B9E\u5C31\u662F\uFF0C\u8BFB\u53D6spring.factories\u6765\u67E5\u770B\u6709\u54EA\u4E9B\u81EA\u52A8\u914D\u7F6E\u7C7B</span>
-    <span class="token class-name">AutoConfigurationImportSelector<span class="token punctuation">.</span>AutoConfigurationEntry</span> autoConfigurationEntry <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token class-name">AutoConfigurationImportSelector</span><span class="token punctuation">)</span>deferredImportSelector<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">getAutoConfigurationEntry</span><span class="token punctuation">(</span>annotationMetadata<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token keyword">this</span><span class="token punctuation">.</span>autoConfigurationEntries<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span>autoConfigurationEntry<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token class-name">Iterator</span> var4 <span class="token operator">=</span> autoConfigurationEntry<span class="token punctuation">.</span><span class="token function">getConfigurations</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">iterator</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-    <span class="token keyword">while</span><span class="token punctuation">(</span>var4<span class="token punctuation">.</span><span class="token function">hasNext</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token class-name">String</span> importClassName <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">)</span>var4<span class="token punctuation">.</span><span class="token function">next</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span>entries<span class="token punctuation">.</span><span class="token function">putIfAbsent</span><span class="token punctuation">(</span>importClassName<span class="token punctuation">,</span> annotationMetadata<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div><p>\u6211\u4EEC\u63A5\u7740\u6765\u770BgetAutoConfigurationEntry\u65B9\u6CD5\uFF1A</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">protected</span> <span class="token class-name">AutoConfigurationImportSelector<span class="token punctuation">.</span>AutoConfigurationEntry</span> <span class="token function">getAutoConfigurationEntry</span><span class="token punctuation">(</span><span class="token class-name">AnnotationMetadata</span> annotationMetadata<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-  	<span class="token comment">//\u5224\u65AD\u662F\u5426\u5F00\u542F\u4E86\u81EA\u52A8\u914D\u7F6E\uFF0C\u662F\u7684\uFF0C\u81EA\u52A8\u914D\u7F6E\u53EF\u4EE5\u5173</span>
-    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span><span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">isEnabled</span><span class="token punctuation">(</span>annotationMetadata<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">return</span> EMPTY_ENTRY<span class="token punctuation">;</span>
-    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
-      	<span class="token comment">//\u6839\u636E\u6CE8\u89E3\u5B9A\u4E49\u83B7\u53D6\u4E00\u4E9B\u5C5E\u6027</span>
-        <span class="token class-name">AnnotationAttributes</span> attributes <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">getAttributes</span><span class="token punctuation">(</span>annotationMetadata<span class="token punctuation">)</span><span class="token punctuation">;</span>
-      	<span class="token comment">//\u5F97\u5230spring.factories\u6587\u4EF6\u4E2D\u6240\u6709\u9700\u8981\u81EA\u52A8\u914D\u7F6E\u7684\u7C7B</span>
-        <span class="token class-name">List</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token class-name">String</span><span class="token punctuation">&gt;</span></span> configurations <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">getCandidateConfigurations</span><span class="token punctuation">(</span>annotationMetadata<span class="token punctuation">,</span> attributes<span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span> \u8FD9\u91CC\u5148\u770B\u524D\u534A\u90E8\u5206
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><p>\u6CE8\u610F\u8FD9\u91CC\u5E76\u4E0D\u662Fspring.factories\u6587\u4EF6\u4E2D\u6240\u6709\u7684\u81EA\u52A8\u914D\u7F6E\u7C7B\u90FD\u4F1A\u88AB\u52A0\u8F7D\uFF0C\u5B83\u4F1A\u6839\u636E@Condition\u6CE8\u89E3\u7684\u6761\u4EF6\u8FDB\u884C\u52A0\u8F7D\u3002\u8FD9\u6837\u5C31\u80FD\u5B9E\u73B0\u6211\u4EEC\u9700\u8981\u4EC0\u4E48\u6A21\u5757\u6DFB\u52A0\u5BF9\u5E94\u4F9D\u8D56\u5C31\u53EF\u4EE5\u5B9E\u73B0\u81EA\u52A8\u914D\u7F6E\u4E86\u3002</p><p>\u6240\u6709\u7684\u6E90\u7801\u770B\u4E0D\u61C2\uFF0C\u90FD\u6E90\u81EA\u4E8E\u4F60\u7684\u5FC3\u4E2D\u6CA1\u6709\u5F62\u6210\u4E00\u4E2A\u5B8C\u6574\u7684\u95ED\u73AF\uFF01\u4E00\u65E6\u4E00\u6761\u7EBF\u63A8\u5230\u5934\uFF0C\u95ED\u73AF\u5F62\u6210\uFF0C\u6240\u6709\u7591\u60D1\u8FCE\u5203\u800C\u89E3\u3002</p><!--]-->`);
-}
-const _sfc_setup$C = _sfc_main$C.setup;
-_sfc_main$C.setup = (props, ctx) => {
-  const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/springboot/03.springboot\u81EA\u52A8\u914D\u7F6E.html.vue");
-  return _sfc_setup$C ? _sfc_setup$C(props, ctx) : void 0;
-};
-var _03_springboot_____html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$C, [["ssrRender", _sfc_ssrRender$o]]);
-var _03_springboot_____html$2 = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  "default": _03_springboot_____html$1
-});
-const _sfc_main$B = {};
-function _sfc_ssrRender$n(_ctx, _push, _parent, _attrs) {
-  const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
-  _push(`<!--[--><h1 id="java" tabindex="-1"><a class="header-anchor" href="#java" aria-hidden="true">#</a> java</h1><h2 id="\u524D\u671F" tabindex="-1"><a class="header-anchor" href="#\u524D\u671F" aria-hidden="true">#</a> \u524D\u671F</h2><p>\u770B\u4F86<a href="https://www.kuangstudy.com/course" target="_blank" rel="noopener noreferrer">kuangstudy`);
-  _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
-  _push(`</a>\u6559\u7A0B\uFF0C\u6B64\u6559\u7A0B\u57FA\u790E\u90E8\u5206\u6703\u6709\u9EDE\u562E\u53E8\u3002</p><h3 id="\u5B78\u7FD2\u65B9\u6CD5" tabindex="-1"><a class="header-anchor" href="#\u5B78\u7FD2\u65B9\u6CD5" aria-hidden="true">#</a> \u5B78\u7FD2\u65B9\u6CD5</h3><ul><li>\u4E0B\u9762\u6559\u7A0B\u90FD\u57FA\u65BC\u81EA\u5DF1\u535A\u5BA2\u76EE\u7684\u8A18\u9304\uFF0C\u76EE\u9304\u7AE0\u7BC0\u53EF\u6839\u64DA\u6559\u7A0B\uFF0C\u5167\u5BB9\u52D9\u5FC5\u81EA\u5DF1\u7E3D\u7D50\u3002</li></ul><ol><li>\u8A08\u7B97\u6A5F\u57FA\u790E</li><li>java \u57FA\u790E\u8A9E\u6CD5</li><li>\u9762\u5411\u5C0D\u8C61</li><li>\u7570\u5E38</li><li>\u5E38\u7528\u985E</li><li>\u96C6\u5408\u6846\u67B6</li><li>IO</li><li>\u591A\u7DDA\u7A0B</li><li>GUI\uFF08\u8ACB\u8DF3\u904E\u9019\u968E\u6BB5\uFF09</li><li>\u7DB2\u7D61\u7DE8\u7A0B</li><li>\u8A3B\u89E3\u548C\u53CD\u5C04</li><li>JUC \u7DE8\u7A0B</li><li>JVM \u63A2\u7A76</li><li>\u3010\u64F4\u5C55\u301123 \u79CD\u8A2D\u8A08\u6A21\u5F0F</li><li>\u3010\u64F4\u5C55\u3011XML</li><li>\u3010\u64F4\u5C55\u3011\u6578\u64DA\u7D50\u69CB\u548C\u7B97\u6CD5</li><li>\u3010\u64F4\u5C55\u3011\u6B63\u5247\u8868\u9054\u5F0F</li></ol><h3 id="\u4EC0\u9EBC\u662F\u8A08\u7B97\u6A5F-\u786C\u4EF6\u548C\u8EDF\u4EF6" tabindex="-1"><a class="header-anchor" href="#\u4EC0\u9EBC\u662F\u8A08\u7B97\u6A5F-\u786C\u4EF6\u548C\u8EDF\u4EF6" aria-hidden="true">#</a> \u4EC0\u9EBC\u662F\u8A08\u7B97\u6A5F\uFF08\u786C\u4EF6\u548C\u8EDF\u4EF6\uFF09\uFF1F</h3><p>\u9019\u968E\u6BB5\u4F60\u53EF\u9078\uFF0C\u4F46\u662F\u5B78\u5230\u5F8C\u9762\u767C\u73FE\u9084\u662F\u6709\u5FC5\u8981\u56DE\u982D\u770B\u4E00\u4E0B\u3002</p><ol><li>\u7531\u786C\u4EF6\u548C\u8EDF\u4EF6\u7D44\u6210</li></ol><ul><li>\u786C\u4EF6\uFF1A\u4F60\u662F\u4E0D\u662F\u6700\u5148\u60F3\u5230<code>CPU</code>\uFF0C<code>\u5167\u5B58\u689D</code>\uFF0C<code>\u786C\u76E4</code>\uFF0C<code>\u4E3B\u677F</code>\uFF0C<code>IO\u8A2D\u5099</code>\u7B49\u7B49\u3002 \u804A\u9EDE\u5225\u7684\uFF1A<code>\u99AE\xB7\u8AFE\u4F9D\u66FC</code>\uFF0C\u8A08\u7B97\u6A5F\u4E4B\u7236\uFF0C\u63D0\u51FA\u4E86\u4E00\u500B\u99AE\u8AFE\u4F9D\u66FC\u9AD4\u7CFB\u7D50\u69CB\uFF0C\u9084\u6709\u4E00\u500B\u5716\u9748\u3002\u4E0D\u8AAA\u4E86\u81EA\u5DF1\u53BB\u770B\uFF0C\u9019\u4E9B\u4E0D\u662F\u6280\u8853\u662F\u6B77\u53F2\u3002</li><li>\u8EDF\u4EF6\uFF1A\u7CFB\u7D71\u8EDF\u4EF6\u548C\u61C9\u7528\u8EDF\u4EF6\u3002\u6211\u5011\u4E3B\u8981\u5B78\u7684\u5C31\u662F\u9032\u884C\u8EDF\u4EF6\u958B\u767C\uFF0C\u501F\u4F4F\u958B\u767C\u5DE5\u5177\u9032\u884C\u8EDF\u4EF6\u958B\u767C\u5C31\u662F\u8EDF\u4EF6\u958B\u767C\uFF0C\u5B78\u7FD2\u958B\u767C\u5C31\u662F\u9019\u6A23\u5957\u5A03\u3002</li></ul><ol start="2"><li>\u8A08\u7B97\u6A5F\u767C\u5C55\u53F2</li></ol><p>\u6A5F\u5668\u8A9E\u97F3\uFF1A\u53EA\u6709\uFF1A0 \u548C 1 \u5F59\u7DE8\u8A9E\u97F3\uFF1A\u4F7F\u7528\u6307\u4EE4\u4EE3\u66FF\u4E8C\u9032\u5236 \u9AD8\u7D1A\u8A9E\u97F3\uFF1A\u5C31\u662F\u7DE8\u7A0B\u8A9E\u97F3\uFF0Cc(\u53EF\u4EE5\u8AAA\u9F3B\u7956\uFF0C\u9762\u5411\u904E\u7A0B)\uFF0Cc#\uFF08\u9762\u5411\u904E\u7A0B\uFF09\uFF0Cc++\uFF0Cjava\u3002</p><h3 id="windows-\u5FEB\u6377\u9375" tabindex="-1"><a class="header-anchor" href="#windows-\u5FEB\u6377\u9375" aria-hidden="true">#</a> Windows \u5FEB\u6377\u9375</h3><p><code>Ctrl+C</code> \u8907\u88FD <code>Ctrl+V</code> \u7C98\u8CBC <code>Ctrl+A</code> \u5168\u9078 <code>Ctrl+Z</code> \u64A4\u92B7 <code>Ctrl+S</code> \u4FDD\u5B58</p><p><code>Win+E</code> \u6211\u7684\u96FB\u8166 <code>Win+R</code> \u904B\u884C <code>Win+R cmd</code> cmd \u547D\u4EE4\u884C\u7A97\u53E3</p><p><code>Ctrl+Shift+Esc</code> \u4EFB\u52D9\u7BA1\u7406\u5668</p><p>......</p><p>\u9019\u4E09\u500B\u5F88\u53EF\u6015</p><h3 id="dos-\u547D\u4EE4-\u547D\u4EE4\u884C" tabindex="-1"><a class="header-anchor" href="#dos-\u547D\u4EE4-\u547D\u4EE4\u884C" aria-hidden="true">#</a> DOS \u547D\u4EE4\uFF08\u547D\u4EE4\u884C\uFF09</h3><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5BEB\u6CD5</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4F5C\u7528</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>cd ..</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u9000\u51FA\u4E00\u7EA7\u76EE\u5F55(\u8FD4\u56DE\u4E0A\u4E00\u7D1A\u76EE\u9304)</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>cd [\u6587\u4EF6\u5939\u540D]</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8FDB\u5165\u6307\u5B9A\u6587\u4EF6\u5939</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>cd \\</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u76F4\u63A5\u9000\u5230\u6839\u76EE\u5F55</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>clean</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6E05\u7A7A\u8F38\u51FA</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>tree</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6253\u5370\u76EE\u9304\u6A39</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>D:</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u76E4\u5207\u63DB\uFF0C\u9019\u6307\u5207\u5230 D \u76E4</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>dir</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6253\u5370\u7576\u524D\u6240\u6709\u6587\u4EF6</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>md [\u76D8\u7B26][\u8DEF\u5F84]</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5275\u5EFA\u6587\u4EF6</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>RD [\u76D8\u7B26][\u8DEF\u5F84]</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u522A\u9664\u76EE\u9304</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>exit</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u9000\u51FA\u7D42\u7AEF</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>ipconfig</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">ip \u8A2D\u7F6E</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>calc</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8A08\u7B97\u6A5F</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>notepad</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6587\u672C</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>ping [www.baidu.com]</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u7372\u53D6 ip \u5730\u5740</td></tr></tbody></table><h3 id="java-\u8A95\u751F\u548C\u7279\u6027\u53CA\u512A\u52E2" tabindex="-1"><a class="header-anchor" href="#java-\u8A95\u751F\u548C\u7279\u6027\u53CA\u512A\u52E2" aria-hidden="true">#</a> java \u8A95\u751F\u548C\u7279\u6027\u53CA\u512A\u52E2</h3><p>java \u8A95\u751F\u5728 c \u8A9E\u8A00\u548C c++\u6D41\u884C\u7684\u6642\u4EE3\u3002\u4E92\u76F8\u4E4B\u9593\u6709\u9EDE\u76F8\u4E92\u76DC\u7248\u7684\u95DC\u4FC2\u3002 \u6700\u521D\u76EE\u6A19\u662F\uFF1A\u6709\u9EDE\u50CF java\uFF0C\u6C92\u6709\u6307\u91DD\uFF0C\u7DE8\u5BEB\u4E00\u6B21\uFF0C\u5C0E\u51FA\u904B\u884C\uFF0C\u9762\u5411\u5C0D\u8C61\uFF0C\u985E\u578B\u5B89\u5168\uFF0C\u9AD8\u8CEA\u91CF\u985E\u5EAB\uFF0C\u7C21\u55AE\uFF0C\u53EF\u79FB\u690D\u6027 \u9019\u4E9B\u4E5F\u6210\u70BA\u4E86 java \u5F8C\u4F86\u7684\u7AF6\u722D\u529B\uFF0C\u9084\u6709\u5206\u4F48\u5F0F\uFF0C\u591A\u7DDA\u7A0B\uFF0C\u5B89\u5168\u6027\uFF0C\u5065\u58EF\u6027\u7B49\u7B49</p><h3 id="java-\u4E09\u5927\u7248\u672C" tabindex="-1"><a class="header-anchor" href="#java-\u4E09\u5927\u7248\u672C" aria-hidden="true">#</a> java \u4E09\u5927\u7248\u672C</h3><p>JavaSE\uFF1A\u6A19\u6E96\u7248 JavaME: \u5D4C\u5165\u5F0F JavaEE\uFF1AE \u4F01\u696D\u7D1A\u958B\u767C</p><h3 id="jdk-jre-jvm" tabindex="-1"><a class="header-anchor" href="#jdk-jre-jvm" aria-hidden="true">#</a> JDK JRE JVM</h3><ol><li>JDK:</li></ol><p>Java \u958B\u767C\u8005\u5DE5\u5177\uFF0C\u5305\u62EC JRE \u7DE8\u8B6F\u5668</p><ol start="2"><li>JRE\uFF1A</li></ol><p>Java \u904B\u884C\u6642\u74B0\u5883\uFF0C\u5373\u7DE8\u8B6F\u5668</p><ol start="3"><li>JVM\uFF1A</li></ol><p>Java \u865B\u64EC\u6A5F\uFF0C\u5C31\u662F\u7528\u4F86\u7DE8\u8B6F java \u8A9E\u97F3\u7684\u6771\u897F\u3002\u4ED6\u662F JRE \u7684\u4E00\u90E8\u5206</p><h3 id="\u5B89\u88DD-jdk" tabindex="-1"><a class="header-anchor" href="#\u5B89\u88DD-jdk" aria-hidden="true">#</a> \u5B89\u88DD JDK</h3><p>\u9700\u8981\u5378\u8F09\u7684\u4E0B\u4E00\u7AE0 \u76EE\u524D 2022-08\uFF0C\u672C\u4EBA\u4F7F\u7528\u7684\u662F JDK8\uFF0C\u4F46\u662F\u4F60\u4E5F\u53EF\u4EE5\u4F7F\u7528 JDK11\u300217 \u7248\u672C\u66AB\u4E0D\u63A8\u85A6</p><ol><li>\u53BB<a href="https://www.oracle.com/java/technologies/downloads/" target="_blank" rel="noopener noreferrer">oracle`);
-  _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
-  _push(`</a>\u4E0B\u8F09\u3002</li><li>\u4E0B\u8F09\u76F4\u63A5\u662F\u4E00\u500B<code>.exe</code>\u6587\u4EF6\uFF0C\u76F4\u63A5\u9EDE\u64CA\u904B\u884C\uFF0C\u5207\u8A18<code>\u5B89\u88DD\u8DEF\u5F91</code>\uFF0C\u6700\u597D\u9078\u4E00\u500B\u5BB9\u6613\u8A18\u4F4F\u7684\uFF0C\u4E0D\u8981\u6709\u4E2D\u6587\u3002</li><li>\u914D\u7F6E\u74B0\u5883\u8B8A\u91CF <ul><li>\u9F20\u6A19\u53F3\u9375\u6211\u7684\u96FB\u8166-&gt;\u9EDE\u64CA\u5C6C\u6027</li><li>\u9AD8\u7D1A\u7CFB\u7D71\u8A2D\u7F6E-&gt;\u74B0\u5883\u8B8A\u91CF-&gt;\u7CFB\u7D71\u8B8A\u91CF\uFF08\u5EFA\u8B70\u7D66\u6240\u6709\u7528\u6236\u914D\u7F6E\uFF09</li><li>\u74B0\u5883\u540D\u7A31<code>JAVA_HOME</code>,\u8DEF\u5F91\u5C31\u662F\u525B\u525B\u4F60\u5B89\u88DD\u7684\u4F4D\u7F6E\uFF0C\u5207\u8A18\u4E0D\u8981\u932F</li><li>\u627E\u5230\u7CFB\u7D71\u8B8A\u91CF\u4E2D\u7684<code>path</code>\uFF0C\u96D9\u64CA\u6253\u958B\uFF0C\u9EDE\u64CA\u65B0\u5EFA\uFF0C\u8F38\u5165<code>%JAVA_HOME%/bin</code>\uFF08<code>%</code>\u8868\u793A\u7528\u65BC\u8A72\u74B0\u5883\u8B8A\u91CF\uFF0C\u9019\u88E1\u610F\u601D\u662F\u6307\u5F15\u7528 java \u5B89\u88DD\u76EE\u9304\u4E0B\u7684<code>bin</code>\u76EE\u9304\uFF09</li></ul></li><li>\u6E2C\u8A66\u662F\u5426\u6210\u529F <ul><li>\u9032\u5165<code>cmd</code>\u8F38\u5165<code>java -version</code></li><li>\u986F\u793A\u7248\u672C\u4FE1\u606F\u8AAA\u660E\u6210\u529F\uFF0C\u5426\u5247\u5931\u6557</li></ul></li></ol><h3 id="\u5378\u8F09-jdk" tabindex="-1"><a class="header-anchor" href="#\u5378\u8F09-jdk" aria-hidden="true">#</a> \u5378\u8F09 JDK</h3><ol><li>\u627E\u5230 JDK \u5B89\u88DD\u76EE\u9304\uFF0C\u5982\u679C\u627E\u4E0D\u5230\u53BB\u74B0\u5883\u8B8A\u91CF\u627E<code>JAVA_HOME</code>\u5C0D\u61C9\u7684\u6587\u4EF6\uFF0C\u522A\u9664\u6587\u4EF6\u5F8C\u522A\u9664\u8A72\u74B0\u5883\u8B8A\u91CF\u3002</li><li>\u522A\u9664\u5B8C\u5F8C\u9032\u5165<code>cmd</code>\u904B\u884C<code>java -version</code>\uFF0C\u986F\u793A\u627E\u4E0D\u5230\u5167\u90E8\u547D\u4EE4\u8AAA\u660E\u5DEE\u4E0D\u591A\u4E86\u3002</li><li>\u67E5\u770B<code>path</code>\u4E0B\u95DC\u65BC java \u7684\u76EE\u9304</li></ol><h3 id="helloworld" tabindex="-1"><a class="header-anchor" href="#helloworld" aria-hidden="true">#</a> HelloWorld</h3><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code>  <span class="token comment">//\u8868\u793A\u4E00\u4E2A\u53EBHelloWorld\u7684\u7C7B\uFF0Cpubli\u8868\u793A\u516C\u6709\u7684\u7C7B</span>
-  <span class="token comment">//{\u8868\u793A\u4E00\u4E2A\u7C7B\u7684\u5F00\u59CB\u548C\u7ED3\u675F</span>
-  <span class="token comment">//public static void main(String []args)\u8868\u793A\u4E3B\u65B9\u6CD5\uFF0C\u5373\u7A0B\u5E8F\u5165\u53E3</span>
-  <span class="token comment">//main(){}\u8868\u793A\u65B9\u7684\u5F00\u59CB\u548C\u7ED3\u675F</span>
-  <span class="token comment">//System.out.println(&#39;Hellow World!&#39;);\u8868\u793A\u8F93\u51FAHellow World!\u5230\u5C4F\u5E55\u4E0A</span>
-  <span class="token comment">//;\u8868\u793A\u8BED\u53E5\u7ED3\u675F\u7B26\u53F7</span>
-   <span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">HelloWorld</span> <span class="token punctuation">{</span>
-       <span class="token comment">// main\u4E3B\u65B9\u6CD5</span>
-       <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>args<span class="token punctuation">)</span><span class="token punctuation">{</span>
-           <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;Hellow World!&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-       <span class="token punctuation">}</span>
-   <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><h3 id="\u7DE8\u8B6F\u578B\u548C\u89E3\u91CB\u578B" tabindex="-1"><a class="header-anchor" href="#\u7DE8\u8B6F\u578B\u548C\u89E3\u91CB\u578B" aria-hidden="true">#</a> \u7DE8\u8B6F\u578B\u548C\u89E3\u91CB\u578B</h3><ol><li>\u7DE8\u8B6F\u578B\uFF1Acompile\uFF0C\u4E00\u6B21\u6027\u5168\u90E8\u7DE8\u8B6F\u3002</li><li>\u89E3\u91CB\u578B\uFF1A\u6309\u9700\u89E3\u6790\uFF0C\u89E3\u6790\u4E00\u6B65\u770B\u4E00\u6B65\uFF0C\u6027\u80FD\u4F4E\uFF0C\u4F46\u5BE6\u6642\u3002</li></ol><p>java \u5148\u7DE8\u8B6F\uFF0C\u518D\u89E3\u91CB</p><h2 id="java-\u8A9E\u6CD5" tabindex="-1"><a class="header-anchor" href="#java-\u8A9E\u6CD5" aria-hidden="true">#</a> Java \u8A9E\u6CD5</h2><ol><li>\u6CE8\u91CB\uFF0C\u6A19\u8B58\u7B26\uFF0C\u95DC\u9375\u5B57</li><li>\u6578\u64DA\u985E\u578B</li><li>\u985E\u578B\u8F49\u63DB</li><li>\u8B8A\u91CF\uFF0C\u7522\u91CF</li><li>\u904B\u7B97\u7B26</li><li>\u5305\u6A5F\u5236\uFF0CjavaDoc</li></ol><h3 id="\u6CE8\u91CB-\u6A19\u8B58\u7B26-\u95DC\u9375\u5B57" tabindex="-1"><a class="header-anchor" href="#\u6CE8\u91CB-\u6A19\u8B58\u7B26-\u95DC\u9375\u5B57" aria-hidden="true">#</a> \u6CE8\u91CB\uFF0C\u6A19\u8B58\u7B26\uFF0C\u95DC\u9375\u5B57</h3><ol><li>\u55AE\u884C\u6CE8\u91CB</li></ol><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token comment">//\u55AE\u884C\u6CE8\u91CB</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><ol start="2"><li>\u591A\u884C\u6CE8\u91CB</li></ol><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token comment">/*
- * \u591A\u884C\u6CE8\u91CB
- */</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><ol start="3"><li>\u6587\u6A94\u6CE8\u91CB</li></ol><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token doc-comment comment">/**
- * <span class="token keyword">@params</span> \u53C3\u6578...
- * @Author \u4F5C\u8005...
- * \u6587\u6A94\u6CE8\u91CB
- * /
-</span></code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><ol start="4"><li>\u6A19\u8B58\u7B26</li></ol><table><tr><td colspan="6">\u7528\u65BC\u5B9A\u7FA9\u8A2A\u554F\u6B0A\u9650\u4FEE\u98FE\u7B26\u7684\u95DC\u9375\u5B57</td></tr><tr><td>private</td><td>protected</td><td>public</td><td></td><td></td><td></td></tr><tr><td colspan="6">\u7528\u65BC\u5B9A\u7FA9\u985E\uFF0C\u51FD\u6578\uFF0C\u8B8A\u91CF\u4FEE\u98FE\u7B26\u7684\u95DC\u9375\u5B57</td></tr><tr><td>abstract</td><td>final</td><td>static</td><td>synchronized</td><td></td><td></td></tr><tr><td colspan="6">\u7528\u65BC\u5B9A\u7FA9\u985E\u65BC\u985E\u4E4B\u9593\u95DC\u4FC2\u7684\u95DC\u9375\u5B57</td></tr><tr><td>extends</td><td>implements</td><td></td><td></td><td></td><td></td></tr><tr><td colspan="6">\u7528\u65BC\u5B9A\u7FA9\u5EFA\u7ACB\u5BE6\u4F8B\u53CA\u5F15\u7528\u5BE6\u4F8B\uFF0C\u5224\u65B7\u5BE6\u4F8B\u7684\u95DC\u9375\u5B57</td></tr><tr><td>new</td><td>this</td><td>super</td><td>instanceof</td><td></td><td></td></tr><tr><td colspan="6">\u7528\u65BC\u7570\u5E38\u8655\u7406</td></tr><tr><td>try</td><td>catch</td><td>finally</td><td>throw</td><td>throws</td><td></td></tr><tr><td colspan="6">\u7528\u65BC\u5305\u7684\u95DC\u9375\u5B57</td></tr><tr><td>package</td><td>import</td><td></td><td></td><td></td><td></td></tr><tr><td colspan="6">\u5176\u4ED6\u4FEE\u98FE\u7B26</td></tr><tr><td>native</td><td>strictfp</td><td>transient</td><td>volatile</td><td>assert</td><td></td></tr></table><p>\u6A19\u8B58\u7B26\u898F\u7BC4\uFF1A</p><ul><li>\u6240\u6709\u6A19\u8B58\u7B26\u90FD\u61C9\u8A72\u4EE5\u5B57\u6BCD\uFF08A-Z\uFF0Ca-z\uFF09\uFF0C\uFF08$\uFF09\u7F8E\u5143\u7B26\uFF0C\u6216\u8005\u4E0B\u5283\u7DDA\uFF08_\uFF09\u958B\u59CB\u3002</li><li>\u9996\u5B57\u7B26\u4E4B\u5F8C\u53EF\u4EE5\u8AAA\u5B57\u6BCD\uFF08A-Z\uFF0Ca-z\uFF09\uFF0C\uFF08$\uFF09\u7F8E\u5143\u7B26\uFF0C\u6216\u8005\u4E0B\u5283\u7DDA\uFF08_\uFF09\u6216\u6578\u7D44\u7684\u5982\u4F55\u5B57\u7B26\u7D44\u5408\u3002</li><li>\u4E0D\u80FD\u4F7F\u7528\u95DC\u9375\u5B57\u4F5C\u70BA\u8B8A\u91CF\u540D\u6216\u65B9\u6CD5\u540D</li><li>\u6A19\u8B58\u7B26\u5927\u5C0F\u5BEB\u654F\u611F</li></ul><p>\u6A19\u8B58\u7B26\u7D04\u5B9A\u4FD7\u6210\uFF1A</p><ul><li>\u5305\u540D\uFF1A\u6240\u6709\u5B57\u6BCD\u4E00\u5F8B\u5C0F\u5199</li><li>\u7C7B\u540D\u3001\u63A5\u53E3\u540D\uFF1A\u5355\u8BCD\u7684\u9996\u5B57\u6BCD\u5927\u5199\u3002\u5982 XxxYyyZzz\u3002\uFF08\u5927\u9A7C\u5CF0\u547D\u540D\u6CD5\uFF09</li><li>\u53D8\u91CF\u540D\u3001\u65B9\u6CD5\u540D\uFF1A\u7531\u591A\u4E2A\u5355\u8BCD\u7EC4\u6210\u65F6\uFF0C\u7B2C\u4E00\u4E2A\u5355\u8BCD\u5747\u5C0F\u5199\uFF0C\u5176\u5B83\u5355\u8BCD\u9996\u5B57\u6BCD\u5927\u5199\u3002\u5982 xxxYyyZzz\u3002\uFF08\u5C0F\u9A7C\u5CF0\u547D\u540D\u6CD5\uFF0C\u7B80\u79F0\u9A7C\u5CF0\u6CD5\uFF09</li><li>\u5E38\u91CF\u540D\uFF1A\u6240\u6709\u5B57\u6BCD\u5747\u5927\u5199\u3002\u4E14\u7531\u591A\u4E2A\u5355\u8BCD\u7EC4\u6210\u65F6\uFF0C\u5355\u8BCD\u4E4B\u95F4\u7528\u4E0B\u5212\u7EBF\u201C_\u201D\u9694\u5F00\u3002\u5982 XXX_YYY_ZZZ\u3002</li></ul><h3 id="\u6578\u64DA\u985E\u578B" tabindex="-1"><a class="header-anchor" href="#\u6578\u64DA\u985E\u578B" aria-hidden="true">#</a> \u6578\u64DA\u985E\u578B</h3><ul><li>\u5F37\u985E\u578B\uFF1A\u8981\u6C42\u8B8A\u91CF\u7684\u4F7F\u7528\u56B4\u683C\u7B26\u5408\u898F\u5B9A\uFF0C\u6240\u6709\u8B8A\u91CF\u90FD\u5FC5\u9808\u5148\u5B9A\u7FA9\u5F8C\u624D\u4F7F\u7528</li><li>\u5F31\u985E\u578B\uFF1A\u904B\u884C\u5FEB\uFF0C\u4F46\u662F\u898F\u5B9A\u4E0D\u56B4\u683C\uFF0C\u5BB9\u6613\u51FA\u73FE\u985E\u578B\u932F\u8AA4</li></ul><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code>type vatName <span class="token operator">=</span> value<span class="token punctuation">;</span>
-<span class="token comment">//\u6578\u64DA\u985E\u578B \u8B8A\u91CF\u540D\u7A31 = \u503C \u5206\u865F\u7D50\u675F</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><ol><li>\u57FA\u672C\u985E\u578B\uFF08primitive type\uFF09</li></ol><p><code>\u6CE8\u91CA:</code><code>\u4F4D\uFF08bit\uFF09\uFF1A\u8BA1\u7B97\u673A\u5B58\u50A8\u7684\u6700\u5C0F\u5355\u4F4D\uFF0C11001100\u662F\u4E00\u4E2A\u516B\u4F4D\u4E8C\u8FDB\u5236\u6570\u3002</code><code>\u5B57\u8282\uFF08byte\uFF09: \u8BA1\u7B97\u673A\u6570\u636E\u5904\u7406\u57FA\u672C\u5355\u4F4D\uFF0C1\u5B57\u8282 = 8 \u4F4D</code></p><table><tr><td colspan="4">\u6574\u6578\u985E\u578B</td></tr><tr><td>byte 1\u4E2A\u5B57\u8282<br>[0+-127\uFF09</td><td>short 2\u4E2A\u5B57\u8282<br>[0+-32768\uFF09</td><td>int 4\u4E2A\u5B57\u8282<br>[01+-2147483648\uFF09</td><td>long 8\u4E2A\u5B57\u8282<br>[0+-9223372036854775808\uFF09</td></tr><tr><td colspan="4">\u6D6E\u9EDE\u985E\u578B</td></tr><tr><td>float 4\u4E2A\u5B57\u8282</td><td>double 8\u4E2A\u5B57\u8282</td><td></td><td></td></tr><tr><td colspan="4">\u5B57\u7B26\u985E\u578B</td></tr><tr><td>char 2\u4E2A\u5B57\u8282</td><td></td><td></td><td></td></tr></table><table><tr><td>boolean</td></tr><tr><td>1\u4F4D\u5B57\u8282\uFF080\uFF0C1\uFF09\uFF0C\u53EA\u6709true\u548Cfalse</td></tr></table><ul><li>\u5B57\u7B26\u4E32\uFF08String\uFF09\u662F\u4E00\u4E2A\u7C7B</li></ul><ol><li>\u5F15\u7528\u985E\u578B\uFF08reference type\uFF09</li></ol><ul><li>\u7C7B</li><li>\u63A5\u53E3</li><li>\u6570\u7EC4</li></ul><p>\u6570\u636E\u7C7B\u578B\u9762\u8BD5\u9898\uFF1A</p><h3 id="\u7C7B\u578B\u8F6C\u6362" tabindex="-1"><a class="header-anchor" href="#\u7C7B\u578B\u8F6C\u6362" aria-hidden="true">#</a> \u7C7B\u578B\u8F6C\u6362</h3><ol><li><p>\u8FD0\u7B97\u4E2D\u3002\u4E0D\u540C\u7C7B\u578B\u7684\u6570\u636E\u5148\u8F6C\u6362\u4E3A\u540C\u4E00\u6570\u636E\u7C7B\u578B\uFF0C\u7136\u540E\u8FDB\u884C\u8FD0\u7B97\u3002</p><p>\u4F4E\u5230\u9AD8</p></li></ol><ul><li>byte -&gt; short -&gt; chart -&gt; int -&gt; long -&gt; float - &gt; double</li></ul><ol start="2"><li>\u5F3A\u5236\u8F6C\u6362 \uFF08\u7C7B\u578B\uFF09\u53D8\u91CF\u540D \u9AD8-&gt;\u4F4E</li><li>\u81EA\u52A8\u8F6C\u6362 \u4F4E\u5230\u9AD8</li></ol><h3 id="\u53D8\u91CF-\u5E38\u91CF-\u4F5C\u7528\u57DF" tabindex="-1"><a class="header-anchor" href="#\u53D8\u91CF-\u5E38\u91CF-\u4F5C\u7528\u57DF" aria-hidden="true">#</a> \u53D8\u91CF\uFF0C\u5E38\u91CF\uFF0C\u4F5C\u7528\u57DF</h3><ol><li>\u53D8\u91CF</li></ol><p>\u5C31\u662F\u53EF\u4EE5\u53D8\u5316\u7684\u91CF\uFF0Cjava\u4E2D\u6700\u57FA\u672C\u7684\u5B58\u50A8\u5355\u5143\uFF0C\u5305\u62EC\u53D8\u91CF\u540D\uFF0C\u53D8\u91CF\u7C7B\u578B\u548C\u4F5C\u7528\u57DF\uFF1B</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code>type vatName <span class="token operator">=</span> value<span class="token punctuation">;</span>
-<span class="token comment">//\u6578\u64DA\u985E\u578B \u8B8A\u91CF\u540D\u7A31 = \u503C \u5206\u865F\u7D50\u675F</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><ul><li>\u5C40\u90E8\u8B8A\u91CF\uFF1A\u5FC5\u9808\u8072\u660E\u548C\u521D\u59CB\u5316\uFF0C\u5C40\u90E8\u65B9\u6CD5\u7279\u6709\u3002</li><li>\u5BE6\u4F8B\u8B8A\u91CF\uFF1A\u5F9E\u5C6C\u65BC\u985E\uFF08\u4F4D\u65BC\u985E\u4E2D\uFF09\uFF0C\u4E5F\u7A31\u5BE6\u4F8B\u8B8A\u91CF\uFF0C\u5982\u679C\u4E0D\u9032\u884C\u521D\u59CB\u5316\uFF0C\u7CFB\u7D71\u6703\u8CE6\u4E88\u9ED8\u8A8D\u503C\u3002</li><li>\u985E\u8B8A\u91CF\uFF1A\u5BEB\u5728\u985E\u88E1\uFF0C\u52A0\u4E0A\u985E\u4F3C<code>static</code>\u4FEE\u98FE\u7B26\u3002</li></ul><p>\u547D\u540D\u898F\u7BC4\uFF1A</p><ul><li>\u898B\u547D\u601D\u610F</li><li>\u8B8A\u91CF\uFF1A\u9996\u5B57\u6BCD\u5C0F\u5BEB\u548C\u99DD\u5CF0\u539F\u5247</li><li>\u5E38\u91CF\uFF1A\u5168\u90E8\u5927\u5BEB\u5B57\u6BCD\u548C\u4E0B\u5283\u7DDA\u9694\u958B</li><li>\u985E\u540D\uFF1A\u9996\u5B57\u6BCD\u5927\u5BEB\u548C\u99DD\u5CF0\u539F\u5247</li><li>\u65B9\u6CD5\u547D\uFF1A\u9996\u5B57\u6BCD\u5927\u5BEB\u548C\u99DD\u5CF0\u539F\u5247</li></ul><h3 id="\u904B\u7B97\u7B26" tabindex="-1"><a class="header-anchor" href="#\u904B\u7B97\u7B26" aria-hidden="true">#</a> \u904B\u7B97\u7B26</h3><table><tr><td colspan="7">\u7B97\u8853\u904B\u7B97\u7B26</td></tr><tr><td>+</td><td>-</td><td>*</td><td>/</td><td>%</td><td>++</td><td>--</td></tr><tr><td>\u52A0</td><td>\u6E1B</td><td>\u4E58</td><td>\u9F63</td><td>\u6A21</td><td>\u81EA\u50A2</td><td>\u81EA\u6E1B</td></tr></table><table><tr><td colspan="1">\u8CE6\u503C\u904B\u7B97\u7B26</td></tr><tr><td>=</td></tr><tr><td>\u8CE6\u503C\u904B\u7B97\u7B26</td></tr></table><table><tr><td colspan="7">\u95DC\u4FC2\u904B\u7B97\u7B26</td></tr><tr><td>&gt;</td><td>&lt;</td><td>&gt; =</td><td>&lt;=</td><td>==</td><td>!=</td><td>instanceog</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table><table><tr><td colspan="3">\u908F\u8F2F\u904B\u7B97\u7B26</td></tr><tr><td>&amp;&amp;</td><td>||</td><td>\uFF01</td></tr><tr><td></td><td></td><td></td></tr></table><table><tr><td colspan="7">\u4F4D\u904B\u7B97\u7B26</td></tr><tr><td>&amp;</td><td>|</td><td>^</td><td>~</td><td>&gt;&gt;</td><td>&lt;&lt;</td><td>&gt;&gt;&gt;</td></tr><tr><td>\u65BC</td><td>\u6216</td><td>\u7570\u6216\u53D6\u53CD</td><td>\u4F4D\u53D6\u53CD</td><td></td><td></td><td></td></tr></table><table><tr><td colspan="2">\u689D\u4EF6\u904B\u7B97\u7B26</td></tr><tr><td>\uFF1F</td><td>\uFF1A</td></tr><tr><td></td><td></td></tr></table><table><tr><td colspan="4">\u64F4\u5C55\u8CE6\u503C\u904B\u7B97\u7B26</td></tr><tr><td>+=</td><td>-=</td><td>*=</td><td>/=</td></tr><tr><td></td><td></td><td></td><td></td></tr></table><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code>
-<span class="token keyword">int</span> a <span class="token operator">=</span> <span class="token number">3</span><span class="token punctuation">;</span>
-<span class="token keyword">int</span> b <span class="token operator">=</span> a<span class="token operator">++</span><span class="token punctuation">;</span><span class="token comment">//3</span>
-<span class="token keyword">int</span> c <span class="token operator">=</span> <span class="token operator">++</span>a<span class="token punctuation">;</span><span class="token comment">//5</span>
-
-<span class="token comment">//\u57F7\u884C\u6642\u9593\u4E0D\u540C</span>
-<span class="token comment">//a++:\u57F7\u884C\u540E\uFF0Ca\u518D\u81EA\u589E</span>
-<span class="token comment">//++a\uFF1Aa\u5148\u81EA\u589E\uFF0C\u5728\u57F7\u884C</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><p>\u51AA\u904B\u7B97</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">double</span> pow <span class="token operator">=</span> <span class="token class-name">Math</span><span class="token punctuation">.</span><span class="token function">pow</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span>
-<span class="token comment">//3\u76842\u6B21\u65B9</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token operator">&lt;&lt;</span>\uFF1A<span class="token operator">*</span><span class="token number">2</span>
-<span class="token operator">&gt;&gt;</span>\uFF1A<span class="token operator">/</span><span class="token number">2</span>
-
-a<span class="token operator">+=</span>b<span class="token punctuation">;</span><span class="token comment">//\u610F\u601D\u662Fa=a+b;</span>
-a<span class="token operator">-=</span>b<span class="token punctuation">;</span><span class="token comment">//a=a-b;</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><h3 id="\u5305\u6A5F\u5236" tabindex="-1"><a class="header-anchor" href="#\u5305\u6A5F\u5236" aria-hidden="true">#</a> \u5305\u6A5F\u5236</h3><p>\u7528\u65BC\u5340\u5225\u985E\u540D\u7684\u547D\u540D\u7A7A\u9593</p><p>package</p><h3 id="scanner\u7528\u6236\u4EA4\u4E92" tabindex="-1"><a class="header-anchor" href="#scanner\u7528\u6236\u4EA4\u4E92" aria-hidden="true">#</a> Scanner\u7528\u6236\u4EA4\u4E92</h3><p><code>jdk5</code>\u540E\u589E\u52A0<code>java.util.Scanner</code>\u5305\uFF0C\u4F7F\u7528Scanner\u985E\u7372\u53D6\u7528\u6236\u8F38\u5165</p><p>\u57FA\u672C\u8A9E\u6CD5:</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token class-name">Scanner</span> s <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Scanner</span><span class="token punctuation">(</span><span class="token class-name">System</span><span class="token punctuation">.</span>in<span class="token punctuation">)</span><span class="token punctuation">;</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u901A\u904E<code>Scanner</code>\u985E\u7684<code>next()</code>\u65BC<code>nextLine()</code>\u65B9\u6CD5\u7372\u53D6\u8F38\u5165\u7684\u5B57\u7B26\u4E32\uFF0C\u5728\u8B80\u53D6\u6642\u4E00\u822C\u4F7F\u7528<code>hasNext()</code>\u65BC<code>hasNextLine()</code>\u5224\u65B7\u662F\u5426\u9084\u6709\u8F38\u5165\u6578\u64DA\u3002</p><h3 id="\u987A\u5E8F\u7ED3\u6784" tabindex="-1"><a class="header-anchor" href="#\u987A\u5E8F\u7ED3\u6784" aria-hidden="true">#</a> \u987A\u5E8F\u7ED3\u6784</h3><p>\u6240\u6709\u7B97\u6CD5\u7684\u57FA\u672C\u7ED3\u6784</p><h3 id="\u9009\u62E9\u7ED3\u6784" tabindex="-1"><a class="header-anchor" href="#\u9009\u62E9\u7ED3\u6784" aria-hidden="true">#</a> \u9009\u62E9\u7ED3\u6784</h3><ol><li><code>if</code>\u5355\u9009\u7ED3\u6784</li></ol><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code>
-<span class="token keyword">if</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-	<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u5355if\u5224\u65AD&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><ol start="2"><li><code>if</code>-<code>else</code>\u9009\u62E9</li></ol><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code>
-<span class="token keyword">if</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-	<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;if&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
-	<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;else&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><ol start="3"><li><code>if</code>\u591A\u9009\u62E9\u7ED3\u6784</li></ol><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token comment">//\u53EA\u4F1A\u6267\u884C\u4E00\u4E2A\u5224\u65AD</span>
-<span class="token keyword">if</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-	<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;1&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-	<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;2&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-	<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;3&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
-	<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;4&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><ol start="4"><li><code>switch</code>\u9009\u62E9\u7ED3\u6784</li></ol><p><code>switch--case--default</code></p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">switch</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-	<span class="token keyword">case</span> <span class="token number">1</span><span class="token operator">:</span>
-	<span class="token comment">//\u6267\u884C</span>
-	<span class="token keyword">break</span><span class="token punctuation">;</span><span class="token comment">//\u8DF3\u51FA\u5F53\u524D\u5224\u65AD</span>
-	<span class="token keyword">case</span> <span class="token number">2</span><span class="token operator">:</span>
-	<span class="token comment">//\u6267\u884C</span>
-	<span class="token keyword">break</span><span class="token punctuation">;</span><span class="token comment">//\u8DF3\u51FA\u5F53\u524D\u5224\u65AD</span>
-	<span class="token keyword">default</span><span class="token operator">:</span><span class="token operator">/</span><span class="token operator">/</span>\u4E0A\u9762<span class="token keyword">case</span>\u90FD\u4E0D\u7B26\u5408
-	<span class="token comment">//\u6267\u884C</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><h3 id="\u9009\u62E9\u7ED3\u6784-1" tabindex="-1"><a class="header-anchor" href="#\u9009\u62E9\u7ED3\u6784-1" aria-hidden="true">#</a> \u9009\u62E9\u7ED3\u6784</h3><ol><li><code>while</code></li></ol><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
-<span class="token keyword">while</span> <span class="token punctuation">(</span>i<span class="token operator">&lt;</span><span class="token number">100</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-	i<span class="token operator">++</span><span class="token punctuation">;</span>
-	<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><ol start="2"><li><code>do</code>-<code>while</code></li></ol><p>\u4ED6\u4F1A\u5148\u6267\u884C\u4E00\u6B21\u518D\u6267\u884C\u5224\u65AD</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
-<span class="token keyword">do</span><span class="token punctuation">{</span>
-	i<span class="token operator">++</span><span class="token punctuation">;</span>
-	<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span><span class="token keyword">while</span><span class="token punctuation">(</span>i<span class="token operator">&lt;=</span><span class="token number">100</span><span class="token punctuation">)</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><ol start="3"><li><code>for</code></li></ol><p>\u6CE8\u610F\uFF1Afor\u4F1A\u5224\u65AD\u662F\u5426\u6267\u884C\uFF0C\u53EF\u4EE5\u6267\u884C\u540E\u662F\u5148\u6267\u884C\u518D\u66F4\u65B0</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token comment">//\u5982\u679C\u4E0D\u521D\u59CB\u5316\u548C\u5224\u65AD\u4E0E\u66F4\u65B0\u4F1A\u6B7B\u5FAA\u73AF</span>
-<span class="token comment">// for(\u521D\u59CB\u5316\uFF1B\u5E03\u5C14\u8868\u8FBE\u5F0F\uFF1B\u66F4\u65B0){</span>
-<span class="token comment">// 	\u6267\u884C\u8BED\u53E5</span>
-<span class="token comment">// }</span>
-
-<span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">&lt;=</span><span class="token number">100</span><span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-	<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><ul><li>\u83B7\u53D60\u5230100\u5947\u6570\u548C\u5076\u6570\u548C</li></ul><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token comment">//\u83B7\u53D60-100\u8BA1\u6570\u548C\u5076\u6570\u548C</span>
-<span class="token keyword">int</span> oddSum <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
-<span class="token keyword">int</span> evenSum <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
-
-<span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">&lt;=</span><span class="token number">100</span><span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-	<span class="token keyword">if</span><span class="token punctuation">(</span>i <span class="token operator">%</span> <span class="token number">2</span> <span class="token operator">!=</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-		oddSum<span class="token operator">+=</span>i<span class="token punctuation">;</span>
-	<span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
-		evenSum<span class="token operator">+=</span>i<span class="token punctuation">;</span>
-	<span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
-
-<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u5947\u6570\u548C&quot;</span><span class="token operator">+</span>oddSum<span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u5076\u6570\u548C&quot;</span><span class="token operator">+</span>evenSum<span class="token punctuation">)</span><span class="token punctuation">;</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br></div></div><ul><li>\u8BA1\u7B970\u52301000\u80FD\u88AB5\u6574\u9664\u7684\u6570\uFF0C\u6BCF\u884C\u8F93\u51FA3\u4E2A</li></ul><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code>   <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i3<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>i3<span class="token operator">&lt;=</span><span class="token number">1000</span><span class="token punctuation">;</span>i3<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-        <span class="token keyword">if</span><span class="token punctuation">(</span>i3<span class="token operator">%</span><span class="token number">5</span><span class="token operator">==</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-                <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>i3<span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token punctuation">}</span>
-        <span class="token keyword">if</span><span class="token punctuation">(</span>i3<span class="token operator">%</span><span class="token punctuation">(</span><span class="token number">5</span><span class="token operator">*</span><span class="token number">3</span><span class="token punctuation">)</span><span class="token operator">==</span><span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-                <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">print</span><span class="token punctuation">(</span><span class="token string">&quot;\\n&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token punctuation">}</span>
-    <span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><ul><li>\u6253\u5370\u4E5D\u4E5D\u4E58\u6CD5\u8868</li></ul><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code>    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> a <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>a<span class="token operator">&lt;=</span><span class="token number">9</span><span class="token punctuation">;</span>a<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-        <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> b <span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span>b<span class="token operator">&lt;=</span>a<span class="token punctuation">;</span>b<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">print</span><span class="token punctuation">(</span>a<span class="token operator">+</span><span class="token string">&quot;*&quot;</span><span class="token operator">+</span>b<span class="token operator">+</span><span class="token string">&quot;=&quot;</span><span class="token operator">+</span>a<span class="token operator">*</span>b<span class="token operator">+</span><span class="token string">&quot;\\t&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token punctuation">}</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">print</span><span class="token punctuation">(</span><span class="token string">&quot;\\n&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-
-<span class="token doc-comment comment">/**
-1*1=1	
-2*1=2	2*2=4	
-3*1=3	3*2=6	3*3=9	
-4*1=4	4*2=8	4*3=12	4*4=16	
-5*1=5	5*2=10	5*3=15	5*4=20	5*5=25	
-6*1=6	6*2=12	6*3=18	6*4=24	6*5=30	6*6=36	
-7*1=7	7*2=14	7*3=21	7*4=28	7*5=35	7*6=42	7*7=49	
-8*1=8	8*2=16	8*3=24	8*4=32	8*5=40	8*6=48	8*7=56	8*8=64	
-9*1=9	9*2=18	9*3=27	9*4=36	9*5=45	9*6=54	9*7=63	9*8=72	9*9=81	
-/
-</span></code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br></div></div><ol start="4"><li>\u589E\u5F3A<code>for</code>\u5FAA\u73AF</li></ol><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">int</span> <span class="token punctuation">[</span><span class="token punctuation">]</span> numbers <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
-
-<span class="token comment">//\u666E\u901Afor\u5FAA\u73AF</span>
-<span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">&lt;</span>numbers<span class="token punctuation">.</span>length<span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-	<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>numbers<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-
-<span class="token comment">//\u589E\u5F3Afor\u5FAA\u73AF</span>
-<span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> x <span class="token operator">:</span> numbers<span class="token punctuation">)</span><span class="token punctuation">{</span>
-	<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><h3 id="\u9000\u51FA\u5FAA\u73AF" tabindex="-1"><a class="header-anchor" href="#\u9000\u51FA\u5FAA\u73AF" aria-hidden="true">#</a> \u9000\u51FA\u5FAA\u73AF</h3><p><code>break,continue,goto</code></p><ol><li><code>break</code></li></ol><p>\u7EC8\u6B62\u5F53\u524D\u5FAA\u73AF\u7EE7\u7EED\u6267\u884C\u540E\u9762\u4EE3\u7801</p><ol start="2"><li><code>continue</code></li></ol><p>\u8DF3\u51FA\u8FD9\u4E00\u6B21\u5FAA\u73AF\uFF0C\u7EE7\u7EED\u4E0B\u4E00\u6B21\u5FAA\u73AF\u64CD\u4F5C</p><ol start="3"><li><code>goto</code></li></ol><p>Java\u53EA\u662F\u6709\u8FD9\u79CD\u7528\u6CD5\uFF0C\u6CA1\u6709\u6B63\u5F0F\u4F7F\u7528\uFF0C\u4E0D\u5EFA\u8BAE\u4F7F\u7528</p><h3 id="debug\u4F7F\u7528" tabindex="-1"><a class="header-anchor" href="#debug\u4F7F\u7528" aria-hidden="true">#</a> Debug\u4F7F\u7528</h3><p>idea\u4E2D\u591A\u7528\u5C31\u884C</p><h3 id="\u65B9\u6CD5" tabindex="-1"><a class="header-anchor" href="#\u65B9\u6CD5" aria-hidden="true">#</a> \u65B9\u6CD5</h3><ul><li>\u4EC0\u4E48\u662F\u65B9\u6CD5</li><li>\u65B9\u6CD5\u5B9A\u4E49\u548C\u4F7F\u7528</li><li>\u65B9\u6CD5\u91CD\u8F7D\uFF08\u91CD\u8981\uFF09</li><li>\u547D\u4EE4\u884C\u4F20\u53C2</li><li>\u53EF\u53D8\u53C2\u6570</li><li>\u9012\u5F52</li></ul><ol><li><p>\u65B9\u6CD5\u662F\u8BED\u53E5\u7684\u96C6\u5408\uFF0C\u4E00\u4E2A\u65B9\u6CD5\u5B8C\u6210\u4E00\u4E2A\u529F\u80FD\uFF0C\u56DE\u5FC6\u4E00\u4E0B\u65B9\u6CD5\u7684\u547D\u540D\u89C4\u5219\u3002 main\u4E3B\u65B9\u6CD5\u5C31\u662F\u4E00\u4E2A\u65B9\u6CD5\u3002</p></li><li><p>\u65B9\u6CD5\u5B9A\u4E49\u548C\u4F7F\u7528</p></li></ol><ul><li>\u4FEE\u9970\u7B26\uFF1A\u53EF\u9009\uFF0C\u544A\u8BC9\u7F16\u8BD1\u5668\u5982\u4F55\u8C03\u7528\u8BE5\u65B9\u6CD5\uFF0C\u5B9A\u4E49\u4E86\u8BBF\u95EE\u7C7B\u578B</li><li>\u8FD4\u56DE\u503C\u7C7B\u578B\uFF1A\u65B9\u6CD5\u53EF\u4EE5\u6709\u8FD4\u56DE\u503C\uFF0C<code>return valueType</code>\u662F\u8FD4\u56DE\u503C\u7684\u6570\u636E\u7C7B\u578B\uFF0C\u5982\u679C\u6CA1\u6709\u8FD4\u56DE\u503C\u8BF4\u660E\u662F\u4E00\u4E2Avoid\u65B9\u6CD5\uFF0C\u5373\u6CA1\u6709\u8FD4\u56DE\u503C\u3002</li><li>\u65B9\u6CD5\u540D\uFF1A\u53EF\u4EE5\u53C2\u8003Java\u65B9\u6CD5\u547D\u540D\u89C4\u8303\uFF0C\u5C31\u662F\u65B9\u6CD5\u7684\u540D\u5B57\u3002</li><li>\u53C2\u6570\u7C7B\u578B\uFF1A\u53C2\u6570\u50CF\u5360\u4F4D\u7B26\uFF0C\u5F53\u65B9\u6CD5\u88AB\u8C03\u7528\u65F6\uFF0C\u8FD9\u4E2A\u503C\u79F0\u4E3A\u5B9E\u53C2\u6216\u53D8\u91CF\uFF0C\u53EF\u9009\u7684\u3002</li><li>\u65B9\u6CD5\u4F53\uFF1A\u5C31\u662F\u65B9\u6CD5\u91CC\u9762\u7684\u5177\u4F53\u6267\u884C\u8BED\u53E5\uFF0C\u5B9E\u73B0\u67D0\u4E9B\u529F\u80FD\u3002</li></ul><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token comment">//\u4FEE\u9970\u7B26 \u8FD4\u56DE\u503C\u7C7B\u578B \u65B9\u6CD5\u540D\uFF08\u53C2\u6570\u7C7B\u578B  \u53C2\u6570\u540D\u79F0\uFF09{</span>
-<span class="token comment">//   \u65B9\u6CD5\u4F53</span>
-<span class="token comment">//  return \u8FD4\u56DE\u503C</span>
-<span class="token comment">// }</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Method</span> <span class="token punctuation">{</span>
-    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>args<span class="token punctuation">)</span><span class="token punctuation">{</span>
-
-        <span class="token keyword">int</span> a <span class="token operator">=</span> <span class="token function">max</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">,</span><span class="token number">20</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-	<span class="token comment">//\u9759\u6001\u65B9\u6CD5\u53EF\u4EE5\u76F4\u63A5\u8C03\u7528</span>
-    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">int</span> <span class="token function">max</span><span class="token punctuation">(</span><span class="token keyword">int</span> a<span class="token punctuation">,</span><span class="token keyword">int</span> b<span class="token punctuation">)</span><span class="token punctuation">{</span>
-        <span class="token keyword">return</span> a<span class="token operator">&gt;</span>b<span class="token operator">?</span>a<span class="token operator">:</span>b<span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><h3 id="\u65B9\u6CD5\u91CD\u8F09" tabindex="-1"><a class="header-anchor" href="#\u65B9\u6CD5\u91CD\u8F09" aria-hidden="true">#</a> \u65B9\u6CD5\u91CD\u8F09</h3><p>\u5982\u679C\u540C\u4E00\u4E2A\u7C7B\u4E2D\u5305\u542B\u4E86\u4E24\u4E2A\u6216\u4E24\u4E2A\u4EE5\u4E0A\u65B9\u6CD5\u540D\u76F8\u540C\u7684\u65B9\u6CD5\uFF0C\u4F46\u5F62\u53C2\u5217\u8868\u4E0D\u540C\uFF0C\u8FD9\u79CD\u60C5\u51B5\u88AB\u79F0\u4E3A\u65B9\u6CD5\u91CD\u8F7D\uFF08overload\uFF09\u3002</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">println</span><span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token punctuation">)</span><span class="token punctuation">{</span>\u2026<span class="token punctuation">}</span>
-<span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">println</span><span class="token punctuation">(</span><span class="token keyword">double</span> d<span class="token punctuation">)</span><span class="token punctuation">{</span>\u2026<span class="token punctuation">}</span>
-<span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">println</span><span class="token punctuation">(</span><span class="token class-name">String</span> s<span class="token punctuation">)</span><span class="token punctuation">{</span>\u2026<span class="token punctuation">}</span>
-
-<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token number">102</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">// \u8C03\u7528println(int i)\u65B9\u6CD5</span>
-<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token number">102.25</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">// \u8C03\u7528println(double d)\u65B9\u6CD5</span>
-<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u4EF7\u683C\u4E3A 102.25&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">// \u8C03\u7528println(String s)\u65B9\u6CD5</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><p>\u91CD\u8F09\u7684\u898F\u5247\uFF1A</p><ol><li>\u65B9\u6CD5\u540D\u7A31\u5FC5\u9808\u76F8\u540C\u3002</li><li>\u53C3\u6578\u5217\u8868\u4E0D\u540C\uFF08\u500B\u6578\uFF0C\u985E\u578B\uFF0C\u6392\u5217\u9806\u5E8F\u7B49\u7B49\uFF09\u3002</li><li>\u65B9\u6CD5\u8FD4\u56DE\u503C\u985E\u578B\u53EF\u4EE5\u76F8\u540C\u4E5F1\u53EF\u4EE5\u4E0D\u540C\u3002</li><li>\u50C5\u50C5\u8FD4\u56DE\u503C\u4E0D\u540C\u4E0D\u5C6C\u65BC\u65B9\u6CD5\u91CD\u8F09\u7684\u7BC4\u7587\u3002</li></ol><p>\u539F\u7406\uFF1A\u65B9\u6CD5\u540D\u7A31\u76F8\u540C\u6642\uFF0Cjava\u6703\u6839\u64DA\u8ACB\u6C42\u985E\u578B\u548C\u53C3\u6578\u53CA\u8FD4\u56DE\u503C\u985E\u578B\u53BB\u81EA\u52D5\u5339\u914D\u67D0\u4E00\u500B\u65B9\u6CD5\u53BB\u57F7\u884C\u3002</p><h3 id="\u547D\u4EE4\u884C\u50B3\u53C3" tabindex="-1"><a class="header-anchor" href="#\u547D\u4EE4\u884C\u50B3\u53C3" aria-hidden="true">#</a> \u547D\u4EE4\u884C\u50B3\u53C3</h3><p>\u53EF\u4EE5\u7D66main\u50B3\u53C3\uFF0C\u5373<code>args</code>\u3002</p><h3 id="\u53EF\u8B8A\u53C3\u6578" tabindex="-1"><a class="header-anchor" href="#\u53EF\u8B8A\u53C3\u6578" aria-hidden="true">#</a> \u53EF\u8B8A\u53C3\u6578</h3><p>\u5728\u6307\u5B9A\u53C3\u6578\u985E\u578B\u540E\u52A0\u4E00\u500B<code>...</code>\uFF0C\u4E00\u500B\u65B9\u6CD5\u53EA\u80FD\u6307\u5B9A\u4E00\u500B\u53EF\u8B8A\u53C3\u6578\uFF0C\u4E26\u4E14\u5FC5\u9808\u662F\u6700\u5F8C\u4E00\u500B\u53C3\u6578\u3002\u4EFB\u4F55\u666E\u901A\u53C3\u6578\u53EA\u80FD\u5728\u5B83\u4E4B\u524D\u8072\u660E\u3002</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">test</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span> i<span class="token punctuation">)</span><span class="token punctuation">{</span>
-	<span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">priltln</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h3 id="\u9012\u5F52" tabindex="-1"><a class="header-anchor" href="#\u9012\u5F52" aria-hidden="true">#</a> \u9012\u5F52</h3><p>\u9012\u5F52\u5C31\u662F\u65B9\u6CD5\u8C03\u7528\u65B9\u6CD5\u81EA\u5DF1 \u5148\u8BF4\u4E00\u4E0B\u7591\u95EE\uFF1A</p><ol><li>\u8FD9\u4E0D\u662F\u6B7B\u5FAA\u73AF\u5417\uFF1A</li></ol><p>\u6240\u4EE5\u8981\u4E86\u89E3\u4E0B\u9762\u4E24\u70B9\uFF1A</p><ul><li>\u9012\u5F52\u5934\uFF1A\u4EC0\u4E48\u65F6\u5019\u6216\u6761\u4EF6\u4E0D\u8C03\u7528\u81EA\u8EAB\u65B9\u6CD5\uFF0C\u5373\u5224\u65AD\u5982\u679C\u4F1A\u5BFC\u81F4\u6B7B\u5FAA\u73AF\uFF0C\u90A3\u5C31\u4E0D\u5E94\u8BE5\u8C03\u7528\u81EA\u5DF1\u4E86</li><li>\u9012\u5F52\u4F53\uFF1A\u4EC0\u4E48\u65F6\u5019\u6216\u6761\u4EF6\u8C03\u7528\u81EA\u8EAB\u65B9\u6CD5\uFF0C\u53CA\u6EE1\u8DB3\u67D0\u4E00\u6761\u4EF6\u4E0B\u5E94\u8BE5\u8C03\u7528\u81EA\u5DF1\u3002</li></ul><p>\u603B\u7ED3\uFF1A\u9012\u5F52\u5FC5\u987B\u6709\u6761\u4EF6\u7684\u5F00\u59CB\u548C\u6709\u6761\u4EF6\u7684\u7ED3\u675F\uFF08\u5F00\u59CB\u4E0D\u662F\u5FC5\u987B\u7684\uFF0C\u4F46\u6700\u597D\u6709\uFF09\u3002</p><p>\u8BA1\u7B97\u5668\u7EC3\u4E60\uFF1A</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token keyword">import</span> <span class="token namespace">java<span class="token punctuation">.</span>util<span class="token punctuation">.</span></span><span class="token class-name">Scanner</span><span class="token punctuation">;</span>
-
-<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Demo01</span> <span class="token punctuation">{</span>
-    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>args<span class="token punctuation">)</span><span class="token punctuation">{</span>
-        <span class="token class-name">Scanner</span> s <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Scanner</span><span class="token punctuation">(</span><span class="token class-name">System</span><span class="token punctuation">.</span>in<span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token class-name">Boolean</span> end <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
-        <span class="token comment">//\u5FAA\u74B0</span>
-        <span class="token keyword">while</span> <span class="token punctuation">(</span><span class="token operator">!</span>end<span class="token punctuation">)</span><span class="token punctuation">{</span>
-            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;==========\u8A08\u7B97\u5668\u958B\u59CB============&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u8ACB\u8F38\u5165\u7B2C\u4E00\u500B\u6578&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token keyword">double</span> a <span class="token operator">=</span> s<span class="token punctuation">.</span><span class="token function">nextDouble</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u8ACB\u8F38\u5165\uFF1A+ - * %&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token class-name">String</span> operator <span class="token operator">=</span> s<span class="token punctuation">.</span><span class="token function">next</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u8ACB\u8F38\u5165\u7B2C\u4E8C\u500B\u6578&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token keyword">double</span> b <span class="token operator">=</span> s<span class="token punctuation">.</span><span class="token function">nextDouble</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-            <span class="token keyword">switch</span> <span class="token punctuation">(</span>operator<span class="token punctuation">)</span><span class="token punctuation">{</span>
-                <span class="token keyword">case</span> <span class="token string">&quot;+&quot;</span><span class="token operator">:</span>
-                    <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u7D50\u679C\u662F&quot;</span><span class="token operator">+</span><span class="token function">add</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span>b<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-                    <span class="token keyword">break</span><span class="token punctuation">;</span>
-                <span class="token keyword">case</span> <span class="token string">&quot;-&quot;</span><span class="token operator">:</span>
-                    <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u7D50\u679C\u662F&quot;</span><span class="token operator">+</span><span class="token function">subtract</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span>b<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-                    <span class="token keyword">break</span><span class="token punctuation">;</span>
-                <span class="token keyword">case</span> <span class="token string">&quot;*&quot;</span><span class="token operator">:</span>
-                    <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u7D50\u679C\u662F&quot;</span><span class="token operator">+</span><span class="token function">multiply</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span>b<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-                    <span class="token keyword">break</span><span class="token punctuation">;</span>
-                <span class="token keyword">case</span> <span class="token string">&quot;%&quot;</span><span class="token operator">:</span>
-                    <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u7D50\u679C\u662F&quot;</span><span class="token operator">+</span><span class="token function">divide</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span>b<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-                    <span class="token keyword">break</span><span class="token punctuation">;</span>
-                <span class="token keyword">default</span><span class="token operator">:</span>
-                    <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u8F38\u5165\u7B26\u865F\u6709\u8AA4&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-                    <span class="token keyword">break</span><span class="token punctuation">;</span>
-            <span class="token punctuation">}</span>
-        <span class="token punctuation">}</span>
-    <span class="token punctuation">}</span>
-
-    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">double</span> <span class="token function">add</span><span class="token punctuation">(</span><span class="token keyword">double</span> a<span class="token punctuation">,</span><span class="token keyword">double</span> b<span class="token punctuation">)</span><span class="token punctuation">{</span>
-        <span class="token keyword">return</span> a<span class="token operator">+</span>b<span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-
-    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">double</span> <span class="token function">subtract</span><span class="token punctuation">(</span><span class="token keyword">double</span> a<span class="token punctuation">,</span><span class="token keyword">double</span> b<span class="token punctuation">)</span><span class="token punctuation">{</span>
-        <span class="token keyword">return</span> a<span class="token operator">-</span>b<span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">double</span> <span class="token function">multiply</span><span class="token punctuation">(</span><span class="token keyword">double</span> a<span class="token punctuation">,</span><span class="token keyword">double</span> b<span class="token punctuation">)</span><span class="token punctuation">{</span>
-        <span class="token keyword">return</span> a<span class="token operator">*</span>b<span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">double</span> <span class="token function">divide</span><span class="token punctuation">(</span><span class="token keyword">double</span> a<span class="token punctuation">,</span><span class="token keyword">double</span> b<span class="token punctuation">)</span><span class="token punctuation">{</span>
-        <span class="token keyword">return</span> a<span class="token operator">%</span>b<span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br></div></div><h3 id="\u6570\u7EC4" tabindex="-1"><a class="header-anchor" href="#\u6570\u7EC4" aria-hidden="true">#</a> \u6570\u7EC4</h3><ul><li>\u4EC0\u4E48\u662F\u6570\u7EC4</li><li>\u6570\u7EC4\u7684\u58F0\u660E</li><li>\u6570\u7EC4\u7684\u4F7F\u7528</li><li>\u591A\u7EF4\u6570\u7EC4</li><li>Arrays\u7C7B</li><li>\u677E\u6563\u6570\u7EC4</li></ul><ol><li><ul><li>\u6570\u7EC4\u662F\u76F8\u540C\u7C7B\u578B\u6570\u636E\u7684\u6709\u5E8F\u96C6\u5408</li><li>\u6570\u7EC4\u63CF\u8FF0\u7684\u662F\u76F8\u540C\u7C7B\u578B\u7684\u82E5\u5E72\u6570\u636E\uFF0C\u6309\u4E00\u5B9A\u987A\u5E8F\u6392\u5E8F\u800C\u6210\u3002</li><li>\u6BCF\u4E00\u4E2A\u6570\u636E\u79F0\u4E3A\u5143\u7D20\uFF0C\u53EF\u4EE5\u901A\u8FC7\u4E0B\u6807\u8BBF\u95EE\u4ED6\u4EEC\u3002</li></ul></li><li><p>\u6570\u7EC4\u5B9A\u4E49</p></li></ol><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token comment">//\u53D8\u91CF\u7C7B\u578B \u53D8\u91CF\u540D\u5B57 = \u53D8\u91CF\u7684\u503C</span>
-<span class="token comment">//\u6570\u7EC4\u7C7B\u578B</span>
-
-<span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> array<span class="token punctuation">;</span><span class="token comment">//\u9996\u9009\u7684\u5B9A\u4E49\u65B9\u6CD5</span>
-<span class="token keyword">int</span> array<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span><span class="token comment">//\u548C\u4E0A\u9762\u6548\u679C\u4E00\u6837\uFF0C\u4F46\u6CA1\u6709\u4E0A\u9762\u76F4\u89C2\uFF0C\u662FC\u8BED\u8A00\u98CE\u683C</span>
-
-<span class="token comment">//\u521B\u5EFA\u6570\u7EC4</span>
-
-<span class="token comment">//dataType[]  arrayRefval = new dataTyoe[arraySize];</span>
-<span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> arr <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token number">10</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><p>\u6570\u7EC4\u5143\u7D20\u53EF\u4EE5\u901A\u8FC7\u7D22\u5F15\u4E0B\u6807\u8BBF\u95EE\uFF0C\u7D22\u5F15\u4E0B\u6807\u4ECE0\u5F00\u59CB\uFF1B</p><p>\u6570\u7EC4\u957F\u5EA6\u5C31\u662F\u6570\u7EC4\u5143\u7D20\u7684\u4E2A\u6570\uFF0C\u53EF\u4EE5\u901A\u8FC7<code>arrays.length</code>\u83B7\u53D6\uFF1B</p><p>\u601D\u8003\uFF1A\u6570\u7EC4\u957F\u5EA6\u548C\u6570\u7EC4\u4E0B\u6807\u7684\u5173\u7CFB\u3002</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token comment">//\u4EE5\u4E66\u9762\u5BF9\u7684arr\u4E3A\u4F8B</span>
-arr<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
-arr<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
-arr<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
-arr<span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
-arr<span class="token punctuation">[</span><span class="token number">4</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
-arr<span class="token punctuation">[</span><span class="token number">5</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
-arr<span class="token punctuation">[</span><span class="token number">6</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
-arr<span class="token punctuation">[</span><span class="token number">7</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
-arr<span class="token punctuation">[</span><span class="token number">8</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
-arr<span class="token punctuation">[</span><span class="token number">9</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
-
-<span class="token comment">//\u4E0B\u6807\u662F0\u2014\u20149</span>
-<span class="token comment">//\u957F\u5EA6\u662F10</span>
-<span class="token comment">//\u5982\u679C\u5143\u7D20\u4E0D\u8D4B\u503C\uFF0C\u4F1A\u6839\u636E\u5143\u7D20\u7C7B\u578B\u8D4B\u4E88\u9ED8\u8BA4\u503C</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div><p>\u6570\u7EC4\u7279\u70B9\uFF1A</p><ul><li>\u957F\u5EA6\u662F\u786E\u5B9A\u7684\uFF0C\u4E00\u65E6\u521B\u5EFA\uFF0C\u5927\u5C0F\u4E0D\u53EF\u4EE5\u88AB\u6539\u53D8</li><li>\u5176\u5143\u7D20\u7C7B\u578B\u5FC5\u987B\u76F8\u540C\uFF0C\u4E0D\u5141\u8BB8\u6DF7\u5408</li><li>\u5143\u7D20\u53EF\u4EE5\u662F\u4EFB\u610F\u7C7B\u578B\uFF0C\u5305\u62EC\u57FA\u672C\u7C7B\u578B\u548C\u5F15\u7528\u7C7B\u578B</li><li>\u6570\u7EC4\u5C5E\u4E8E\u5F15\u7528\u7C7B\u578B\uFF0C\u6570\u7EC4\u4E5F\u53EF\u4EE5\u770B\u6210\u662F\u5BF9\u8C61\uFF0C\u6BCF\u4E2A\u5143\u7D20\u76F8\u5F53\u4E8E1\u6210\u5458\u53D8\u91CF\uFF0C\u6570\u7EC4\u672C\u8EAB\u5B58\u5728\u5806\u4E2D\u7684\u3002</li></ul><h3 id="\u5185\u5B58\u5206\u6790" tabindex="-1"><a class="header-anchor" href="#\u5185\u5B58\u5206\u6790" aria-hidden="true">#</a> \u5185\u5B58\u5206\u6790</h3><h4 id="\u5806" tabindex="-1"><a class="header-anchor" href="#\u5806" aria-hidden="true">#</a> \u5806</h4><p>\u5B58\u653E<code>new</code>\u51FA\u6765\u7684\u5BF9\u8C61\u548C\u6570\u7EC4 \u53EF\u4EE5\u88AB\u6240\u6709\u7EBF\u7A0B\u5171\u4EAB\uFF0C\u4E0D\u4F1A\u5B58\u653E\u522B\u7684\u5BF9\u8C61\u5F15\u7528</p><h4 id="\u6808" tabindex="-1"><a class="header-anchor" href="#\u6808" aria-hidden="true">#</a> \u6808</h4><p>\u5B58\u653E\u57FA\u672C\u53D8\u91CF\u7C7B\u578B\uFF08\u4F1A\u5305\u542B\u8FD9\u4E2A\u57FA\u672C1\u7C7B\u578B\u7684\u5177\u4F53\u6570\u503C\uFF09 \u5F15\u7528\u5BF9\u8C61\u7684\u53D8\u91CF\uFF08\u4F1A\u5B58\u653E\u8FD9\u4E2A\u5F15\u7528\u5728\u5806\u91CC\u9762\u7684\u5177\u4F53\u5730\u5740\uFF09</p><h4 id="\u65B9\u6CD5\u533A" tabindex="-1"><a class="header-anchor" href="#\u65B9\u6CD5\u533A" aria-hidden="true">#</a> \u65B9\u6CD5\u533A</h4><p>\u53EF\u4EE5\u88AB\u6240\u6709\u7EBF\u7A0B\u5171\u4EAB \u5305\u542B\u4E86\u6240\u6709\u7684<code>chass</code>\u548C<code>static</code>\u53D8\u91CF</p><p>\u5E38\u89C1\u6570\u7EC4\u9519\u8BEF\uFF1A\u6570\u7EC4\u4E0B\u6807\u8D8A\u754C</p><ol start="3"><li>\u6570\u7EC4\u4F7F\u7528</li></ol><p>\u6253\u5370\u6570\u7EC4</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code>
-<span class="token keyword">int</span> <span class="token punctuation">[</span><span class="token punctuation">]</span> arrays <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
-
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h3 id="\u591A\u7EF4\u6570\u7EC4" tabindex="-1"><a class="header-anchor" href="#\u591A\u7EF4\u6570\u7EC4" aria-hidden="true">#</a> \u591A\u7EF4\u6570\u7EC4</h3><p>\u5C31\u662F\u6570\u7EC4\u91CC\u9762\u5B58\u653E\u6570\u7EC4</p><h3 id="arrays\u7C7B" tabindex="-1"><a class="header-anchor" href="#arrays\u7C7B" aria-hidden="true">#</a> Arrays\u7C7B</h3><p><a href="https://www.yiibai.com/java/util/java_util_arrays.html" target="_blank" rel="noopener noreferrer">https://www.yiibai.com/java/util/java_util_arrays.html`);
-  _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
-  _push(`</a></p><h3 id="\u516B\u79CD\u5192\u6CE1\u6392\u5E8F" tabindex="-1"><a class="header-anchor" href="#\u516B\u79CD\u5192\u6CE1\u6392\u5E8F" aria-hidden="true">#</a> \u516B\u79CD\u5192\u6CE1\u6392\u5E8F</h3><ol><li>\u6BD4\u8F83\u6570\u7EC4\u4E2D\u76F8\u5CAD\u5143\u7D20\uFF0C\u5982\u679C\u7B2C\u4E00\u4E2A\u6BD4\u7B2C\u4E8C\u4E2A\u5927\uFF0C\u5C31\u4EA4\u6362\u4ED6\u4EEC\u7684\u4F4D\u7F6E\uFF0C\u8FD9\u6837\u6BCF\u4E00\u6B21\u5C31\u4F1A\u4EA7\u751F\u4E00\u4E2A\u6700\u5927\u6216\u6700\u5C0F\u7684\u6570\u5B57\u3002</li></ol><!--]-->`);
-}
-const _sfc_setup$B = _sfc_main$B.setup;
-_sfc_main$B.setup = (props, ctx) => {
-  const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/\u300Ajava\u5165\u95E8\u300B/01.\u57FA\u7840\u4ECB\u7ECD.html.vue");
-  return _sfc_setup$B ? _sfc_setup$B(props, ctx) : void 0;
-};
-var _01______html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$B, [["ssrRender", _sfc_ssrRender$n]]);
-var _01______html$2 = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  "default": _01______html$1
-});
 const _sfc_main$A = {};
 function _sfc_ssrRender$m(_ctx, _push, _parent, _attrs) {
-  _push(`<!--[--><h1 id="java\u6578\u64DA\u985E\u578B" tabindex="-1"><a class="header-anchor" href="#java\u6578\u64DA\u985E\u578B" aria-hidden="true">#</a> java\u6578\u64DA\u985E\u578B</h1><p>\u53D8\u91CF3\u4E2A\u57FA\u672C\u7279\u5F81\uFF1A\u7C7B\u578B\uFF0C\u540D\u79F0\uFF0C\u503C \u6BCF\u4E2A\u53D8\u91CF\u90FD\u5360\u4E00\u4E2A\u5B58\u50A8\u7A7A\u95F4 \u7A0B\u5E8F\u4E2D<code>+ - * %</code>\u7684\u4F7F\u7528</p><h2 id="\u57FA\u672C\u6570\u636E\u7C7B\u578B" tabindex="-1"><a class="header-anchor" href="#\u57FA\u672C\u6570\u636E\u7C7B\u578B" aria-hidden="true">#</a> \u57FA\u672C\u6570\u636E\u7C7B\u578B</h2><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6570\u636E\u7C7B\u578B</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6570\u503C\u578B</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6574\u6570\u7C7B\u578B\uFF0C\u5B58\u653E\u6574\u6570\uFF08byte[1],short[2],int[4],long[8]\uFF1B\u6D6E\u70B9\uFF08\u5C0F\u6570\u7C7B\u578B\uFF09\uFF08float[4]\u5355\u7CBE\u5EA6,double[8]\u53CC\u7CBE\u5EA6\uFF09\uFF09</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5B57\u7B26\u578B</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">char[2]</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5E03\u5C14\u578B</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">boolean[1],\u5B58\u653Etrue,false</td></tr></tbody></table><h2 id="\u5F15\u7528\u6570\u636E\u7C7B\u578B" tabindex="-1"><a class="header-anchor" href="#\u5F15\u7528\u6570\u636E\u7C7B\u578B" aria-hidden="true">#</a> \u5F15\u7528\u6570\u636E\u7C7B\u578B</h2><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6570\u636E\u7C7B\u578B</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u7C7B</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">class</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u63A5\u53E3</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">interface</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6570\u7EC4</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">[]</td></tr></tbody></table><h2 id="\u6574\u6570\u7C7B\u578B" tabindex="-1"><a class="header-anchor" href="#\u6574\u6570\u7C7B\u578B" aria-hidden="true">#</a> \u6574\u6570\u7C7B\u578B</h2><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u7C7B\u578B</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5360\u7528\u7A7A\u95F4</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8303\u56F4</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>byte</code>\u5B57\u8282</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">1\u5B57\u8282</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>short</code>\u77ED\u6574\u578B</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">2\u5B57\u8282</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>int</code>\u6574\u578B</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">4\u5B57\u8282</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>long</code>\u957F\u6574\u578B</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">8\u5B57\u8282</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td></tr></tbody></table><!--]-->`);
+  _push(`<!--[--><h2 id="\u4F5C\u4E3A\u4E00\u4E2A\u4EBA" tabindex="-1"><a class="header-anchor" href="#\u4F5C\u4E3A\u4E00\u4E2A\u4EBA" aria-hidden="true">#</a> \u4F5C\u4E3A\u4E00\u4E2A\u4EBA</h2><p>\u6709\u65F6\u5019\uFF0C\u4E0D\u8981\u542C\u522B\u4EBA\u7684\u6307\u70B9\uFF0C\u66F4\u4E0D\u8981\u6307\u70B9\u522B\u4EBA\u3002</p><!--]-->`);
 }
 const _sfc_setup$A = _sfc_main$A.setup;
 _sfc_main$A.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/\u300Ajava\u5165\u95E8\u300B/02.\u6578\u64DA\u985E\u578B.html.vue");
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/\u968F\u7B14/reflection.html.vue");
   return _sfc_setup$A ? _sfc_setup$A(props, ctx) : void 0;
 };
-var _02______html$4 = /* @__PURE__ */ _export_sfc(_sfc_main$A, [["ssrRender", _sfc_ssrRender$m]]);
-var _02______html$5 = /* @__PURE__ */ Object.freeze({
+var reflection_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$A, [["ssrRender", _sfc_ssrRender$m]]);
+var reflection_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  "default": _02______html$4
+  "default": reflection_html$1
 });
 const _sfc_main$z = {};
 function _sfc_ssrRender$l(_ctx, _push, _parent, _attrs) {
@@ -12227,562 +12337,6 @@ var _01____html = /* @__PURE__ */ Object.freeze({
   data: data$y
 });
 const data$x = {
-  "key": "v-3509cb32",
-  "path": "/guide/interview/interview.html",
-  "title": "\u95EE\u9898\u96C6\u9526",
-  "lang": "zh-CN",
-  "frontmatter": {
-    "title": "\u95EE\u9898\u96C6\u9526",
-    "lastUpdated": true,
-    "prev": true,
-    "next": true,
-    "date": "2022-01-02T00:00:00.000Z",
-    "tags": [
-      "\u9762\u8BD5",
-      "\u5176\u4ED6"
-    ]
-  },
-  "excerpt": "",
-  "headers": [
-    {
-      "level": 2,
-      "title": "\u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD",
-      "slug": "\u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48\uFF1F",
-      "slug": "\u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9\uFF1F",
-      "slug": "\u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5\uFF1F",
-      "slug": "\u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\uFF1F",
-      "slug": "\u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u5728\u4E94\u5E74\u5185\uFF0C\u4F60\u7684\u804C\u4E1A\u89C4\u5212\uFF1F",
-      "slug": "\u5728\u4E94\u5E74\u5185-\u4F60\u7684\u804C\u4E1A\u89C4\u5212",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417?",
-      "slug": "\u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5?",
-      "slug": "\u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11?",
-      "slug": "\u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11",
-      "children": []
-    }
-  ],
-  "git": {
-    "updatedTime": 1642922234e3,
-    "contributors": [
-      {
-        "name": "\u9648\u67D2",
-        "email": "3062995371@qq.com",
-        "commits": 1
-      }
-    ]
-  },
-  "filePathRelative": "guide/interview/interview.md"
-};
-var interview_html = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  data: data$x
-});
-const data$w = {
-  "key": "v-5d3f7a3b",
-  "path": "/guide/interview/JSinterview.html",
-  "title": "JS\u9762\u8BD5",
-  "lang": "zh-CN",
-  "frontmatter": {
-    "title": "JS\u9762\u8BD5",
-    "lastUpdated": true,
-    "prev": true,
-    "next": true,
-    "date": "2022-01-02T00:00:00.000Z",
-    "tags": [
-      "\u9762\u8BD5",
-      "\u5176\u4ED6"
-    ]
-  },
-  "excerpt": "",
-  "headers": [
-    {
-      "level": 2,
-      "title": "1.\u5EF6\u8FDF\u52A0\u8F7DJS\u7684\u65B9\u5F0F\u6709\u54EA\u4E9B",
-      "slug": "_1-\u5EF6\u8FDF\u52A0\u8F7Djs\u7684\u65B9\u5F0F\u6709\u54EA\u4E9B",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "2.js\u7684\u6570\u636E\u7C7B\u578B\u548CNaN",
-      "slug": "_2-js\u7684\u6570\u636E\u7C7B\u578B\u548Cnan",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "3.null \u548C undefined",
-      "slug": "_3-null-\u548C-undefined",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "4.==\u548C===\u6709\u4EC0\u4E48\u4E0D\u540C\uFF1F",
-      "slug": "_4-\u548C-\u6709\u4EC0\u4E48\u4E0D\u540C",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "5.\u5B8F\u4EFB\u52A1\u548C\u5FAE\u4EFB\u52A1\uFF08Event Loop/\u4E8B\u4EF6\u5FAA\u73AF \uFF09",
-      "slug": "_5-\u5B8F\u4EFB\u52A1\u548C\u5FAE\u4EFB\u52A1-event-loop-\u4E8B\u4EF6\u5FAA\u73AF",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "6.\u4F5C\u7528\u57DF",
-      "slug": "_6-\u4F5C\u7528\u57DF",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "7.JS\u5BF9\u8C61\uFF08new\u53D1\u751F\u4E86\u4E0A\u9762\uFF1F\uFF09",
-      "slug": "_7-js\u5BF9\u8C61-new\u53D1\u751F\u4E86\u4E0A\u9762",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "8.\u7ED9\u5B9A\u4E00\u4E2A\u6570\u7EC4\uFF0C\u53BB\u9664\u91CD\u590D\u5143\u7D20",
-      "slug": "_8-\u7ED9\u5B9A\u4E00\u4E2A\u6570\u7EC4-\u53BB\u9664\u91CD\u590D\u5143\u7D20",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "9.\u4E8B\u4EF6\u5192\u6CE1\u548C\u4E8B\u4EF6\u59D4\u6258",
-      "slug": "_9-\u4E8B\u4EF6\u5192\u6CE1\u548C\u4E8B\u4EF6\u59D4\u6258",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "10.\u624B\u5199Promise",
-      "slug": "_10-\u624B\u5199promise",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "11.this\u6307\u5411",
-      "slug": "_11-this\u6307\u5411",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "12.call,apply,bind",
-      "slug": "_12-call-apply-bind",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "13. \u95ED\u5305",
-      "slug": "_13-\u95ED\u5305",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "14.\u5BF9\u8C61\u62F7\u8D1D\uFF08\u6DF1\u6D45\u62F7\u8D1D\uFF09",
-      "slug": "_14-\u5BF9\u8C61\u62F7\u8D1D-\u6DF1\u6D45\u62F7\u8D1D",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "15. \u9632\u6296\u548C\u8282\u6D41",
-      "slug": "_15-\u9632\u6296\u548C\u8282\u6D41",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "16. \u539F\u578B",
-      "slug": "_16-\u539F\u578B",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "17.\u7C7B\u4E0E\u7EE7\u627F",
-      "slug": "_17-\u7C7B\u4E0E\u7EE7\u627F",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "18. \u72B6\u6001\u7801\uFF08200\u3001400\u7B49\uFF09",
-      "slug": "_18-\u72B6\u6001\u7801-200\u3001400\u7B49",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "19. \u8F93\u5165URL\u5230\u9875\u9762\u663E\u793A\u7684\u8FC7\u7A0B\uFF1F",
-      "slug": "_19-\u8F93\u5165url\u5230\u9875\u9762\u663E\u793A\u7684\u8FC7\u7A0B",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "20. ES6\u65B0\u7279\u6027",
-      "slug": "_20-es6\u65B0\u7279\u6027",
-      "children": []
-    }
-  ],
-  "git": {
-    "updatedTime": 165416531e4,
-    "contributors": [
-      {
-        "name": "\u9648\u67D2",
-        "email": "3062995371@qq.com",
-        "commits": 8
-      },
-      {
-        "name": "TRANBIOT-PZ004\\Yiren",
-        "email": "yiren@tranbiot.com",
-        "commits": 1
-      }
-    ]
-  },
-  "filePathRelative": "guide/interview/JSinterview.md"
-};
-var JSinterview_html = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  data: data$w
-});
-const data$v = {
-  "key": "v-2d570564",
-  "path": "/guide/interview/VUEinterview.html",
-  "title": "VUE\u9762\u8BD5",
-  "lang": "zh-CN",
-  "frontmatter": {
-    "title": "VUE\u9762\u8BD5",
-    "lastUpdated": true,
-    "prev": true,
-    "next": true,
-    "date": "2022-01-02T00:00:00.000Z",
-    "tags": [
-      "\u9762\u8BD5",
-      "\u5176\u4ED6"
-    ]
-  },
-  "excerpt": "",
-  "headers": [
-    {
-      "level": 2,
-      "title": "1.vue\u7684\u751F\u547D\u5468\u671F",
-      "slug": "_1-vue\u7684\u751F\u547D\u5468\u671F",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "2.v-if\u548Cv-show\u7684\u533A\u522B",
-      "slug": "_2-v-if\u548Cv-show\u7684\u533A\u522B",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "2.v-if\u548Cv-for\u7684\u4F18\u5148\u7EA7",
-      "slug": "_2-v-if\u548Cv-for\u7684\u4F18\u5148\u7EA7",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "3.ref\u662F\u4EC0\u4E48\uFF1F",
-      "slug": "_3-ref\u662F\u4EC0\u4E48",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "4.nextTick\u662F\u4EC0\u4E48\uFF1F",
-      "slug": "_4-nexttick\u662F\u4EC0\u4E48",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "5.scoped\u539F\u7406",
-      "slug": "_5-scoped\u539F\u7406",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "6.Vue\u4E2D\u5982\u4F55\u505A\u6837\u5F0F\u7A7F\u900F",
-      "slug": "_6-vue\u4E2D\u5982\u4F55\u505A\u6837\u5F0F\u7A7F\u900F",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "7.\u7EC4\u4EF6\u4E4B\u95F4\u7684\u901A\u4FE1",
-      "slug": "_7-\u7EC4\u4EF6\u4E4B\u95F4\u7684\u901A\u4FE1",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "8.computed\u3001methods\u3001watch",
-      "slug": "_8-computed\u3001methods\u3001watch",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "9.props\u548Cdata\u4F18\u5148\u7EA7\u8C01\u9AD8",
-      "slug": "_9-props\u548Cdata\u4F18\u5148\u7EA7\u8C01\u9AD8",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "10.VueX",
-      "slug": "_10-vuex",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "11. Vue\u8BBE\u7F6E\u4EE3\u7406\uFF08vue.config.js\uFF09",
-      "slug": "_11-vue\u8BBE\u7F6E\u4EE3\u7406-vue-config-js",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "12. Vue\u8DEF\u7531",
-      "slug": "_12-vue\u8DEF\u7531",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "13. \u4ECB\u7ECD\u4E00\u4E0BSPA\u4EE5\u53CA\u5176\u4F18\u7F3A\u70B9\u3002",
-      "slug": "_13-\u4ECB\u7ECD\u4E00\u4E0Bspa\u4EE5\u53CA\u5176\u4F18\u7F3A\u70B9\u3002",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "14. v-model\u539F\u7406",
-      "slug": "_14-v-model\u539F\u7406",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "15. data\u52AB\u6301",
-      "slug": "_15-data\u52AB\u6301",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "16. diff\u7B97\u6CD5",
-      "slug": "_16-diff\u7B97\u6CD5",
-      "children": []
-    }
-  ],
-  "git": {
-    "updatedTime": 1646661851e3,
-    "contributors": [
-      {
-        "name": "\u9648\u67D2",
-        "email": "3062995371@qq.com",
-        "commits": 5
-      }
-    ]
-  },
-  "filePathRelative": "guide/interview/VUEinterview.md"
-};
-var VUEinterview_html = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  data: data$v
-});
-const data$u = {
-  "key": "v-71958ec2",
-  "path": "/guide/%E6%95%85%E4%BA%8B/story.html",
-  "title": "\u65E5\u5E38\u6545\u4E8B",
-  "lang": "zh-CN",
-  "frontmatter": {
-    "title": "\u65E5\u5E38\u6545\u4E8B",
-    "description": "\u65E5\u5E38\u6545\u4E8B"
-  },
-  "excerpt": "",
-  "headers": [
-    {
-      "level": 2,
-      "title": "\u5154\u5B50\u4E0E\u661F\u661F",
-      "slug": "\u5154\u5B50\u4E0E\u661F\u661F",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u5929\u4E0A\u7684\u661F\u661F",
-      "slug": "\u5929\u4E0A\u7684\u661F\u661F",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u82F9\u679C=\u667A\u6167\u679C",
-      "slug": "\u82F9\u679C-\u667A\u6167\u679C",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u7B28\u7B28\u718A",
-      "slug": "\u7B28\u7B28\u718A",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u5C0F\u80A5\u732A",
-      "slug": "\u5C0F\u80A5\u732A",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u68A6\u91CC\u6709\u4F60\uFF0C\u5341\u5206\u751C",
-      "slug": "\u68A6\u91CC\u6709\u4F60-\u5341\u5206\u751C",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u665A\u5B89\uFF01",
-      "slug": "\u665A\u5B89",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u7231\uFF08\u957F\u7BC7\uFF09",
-      "slug": "\u7231-\u957F\u7BC7",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u5154\u5B50\u548C\u72D0\u72F8",
-      "slug": "\u5154\u5B50\u548C\u72D0\u72F8",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u62B1\u62B1",
-      "slug": "\u62B1\u62B1",
-      "children": []
-    }
-  ],
-  "git": {
-    "updatedTime": 1642922234e3,
-    "contributors": [
-      {
-        "name": "\u9648\u67D2",
-        "email": "3062995371@qq.com",
-        "commits": 1
-      }
-    ]
-  },
-  "filePathRelative": "guide/\u6545\u4E8B/story.md"
-};
-var story_html = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  data: data$u
-});
-const data$t = {
-  "key": "v-3803ce0e",
-  "path": "/guide/%E6%95%99%E7%A8%8B/text.html",
-  "title": "\u6559\u7A0B",
-  "lang": "zh-CN",
-  "frontmatter": {
-    "lang": "zh-CN",
-    "title": "\u6559\u7A0B",
-    "description": "12a"
-  },
-  "excerpt": "",
-  "headers": [
-    {
-      "level": 2,
-      "title": "\u6559\u7A0B",
-      "slug": "\u6559\u7A0B",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u6559\u7A0B",
-      "slug": "\u6559\u7A0B-1",
-      "children": []
-    }
-  ],
-  "git": {
-    "updatedTime": 1660907761e3,
-    "contributors": [
-      {
-        "name": "\u9648\u67D2",
-        "email": "3062995371@qq.com",
-        "commits": 2
-      }
-    ]
-  },
-  "filePathRelative": "guide/\u6559\u7A0B/text.md"
-};
-var text_html = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  data: data$t
-});
-const data$s = {
-  "key": "v-6c145c9c",
-  "path": "/guide/%E9%9A%8F%E7%AC%94/reflection.html",
-  "title": "\u6240\u4EE5\u4E8B\u5C0F\u4E8E\u6B7B",
-  "lang": "zh-CN",
-  "frontmatter": {
-    "lang": "zh-CN",
-    "title": "\u6240\u4EE5\u4E8B\u5C0F\u4E8E\u6B7B",
-    "description": "12a"
-  },
-  "excerpt": "",
-  "headers": [
-    {
-      "level": 2,
-      "title": "\u4F5C\u4E3A\u4E00\u4E2A\u4EBA",
-      "slug": "\u4F5C\u4E3A\u4E00\u4E2A\u4EBA",
-      "children": []
-    }
-  ],
-  "git": {
-    "updatedTime": 1642922234e3,
-    "contributors": [
-      {
-        "name": "\u9648\u67D2",
-        "email": "3062995371@qq.com",
-        "commits": 1
-      }
-    ]
-  },
-  "filePathRelative": "guide/\u968F\u7B14/reflection.md"
-};
-var reflection_html = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  data: data$s
-});
-const data$r = {
   "key": "v-88893a3e",
   "path": "/java/git/01.git%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6.html",
   "title": "git\u7248\u672C\u63A7\u5236",
@@ -12870,9 +12424,9 @@ const data$r = {
 var _01_git_____html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$r
+  data: data$x
 });
-const data$q = {
+const data$w = {
   "key": "v-6785e53a",
   "path": "/java/mysql/01.mysql.html",
   "title": "mysql",
@@ -12899,9 +12453,9 @@ const data$q = {
 var _01_mysql_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$q
+  data: data$w
 });
-const data$p = {
+const data$v = {
   "key": "v-23b022e9",
   "path": "/java/springboot/01.springboot.html",
   "title": "springboot",
@@ -12952,9 +12506,9 @@ const data$p = {
 var _01_springboot_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$p
+  data: data$v
 });
-const data$o = {
+const data$u = {
   "key": "v-1f229241",
   "path": "/java/springboot/02.springboot%E5%90%AF%E5%8A%A8%E5%8E%9F%E7%90%86.html",
   "title": "springboot\u542F\u52A8\u539F\u7406",
@@ -13012,9 +12566,9 @@ const data$o = {
 var _02_springboot_____html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$o
+  data: data$u
 });
-const data$n = {
+const data$t = {
   "key": "v-21d7a310",
   "path": "/java/springboot/03.springboot%E8%87%AA%E5%8A%A8%E9%85%8D%E7%BD%AE.html",
   "title": "springboot\u81EA\u52A8\u914D\u7F6E",
@@ -13048,9 +12602,9 @@ const data$n = {
 var _03_springboot_____html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$n
+  data: data$t
 });
-const data$m = {
+const data$s = {
   "key": "v-64dc3831",
   "path": "/java/%E3%80%8Ajava%E5%85%A5%E9%97%A8%E3%80%8B/01.%E5%9F%BA%E7%A1%80%E4%BB%8B%E7%BB%8D.html",
   "title": "java",
@@ -13271,17 +12825,23 @@ const data$m = {
           "title": "\u516B\u79CD\u5192\u6CE1\u6392\u5E8F",
           "slug": "\u516B\u79CD\u5192\u6CE1\u6392\u5E8F",
           "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u9B06\u6563\u6578\u7D44\uFF08\u7A00\u758F\u6578\u7D44\uFF09",
+          "slug": "\u9B06\u6563\u6578\u7D44-\u7A00\u758F\u6578\u7D44",
+          "children": []
         }
       ]
     }
   ],
   "git": {
-    "updatedTime": 166133669e4,
+    "updatedTime": 1661425643e3,
     "contributors": [
       {
         "name": "\u9648\u67D2",
         "email": "3062995371@qq.com",
-        "commits": 3
+        "commits": 4
       },
       {
         "name": "TRANBIOT-PZ004\\Yiren",
@@ -13295,9 +12855,9 @@ const data$m = {
 var _01______html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$m
+  data: data$s
 });
-const data$l = {
+const data$r = {
   "key": "v-ff7fbc46",
   "path": "/java/%E3%80%8Ajava%E5%85%A5%E9%97%A8%E3%80%8B/02.%E6%95%B8%E6%93%9A%E9%A1%9E%E5%9E%8B.html",
   "title": "java\u6578\u64DA\u985E\u578B",
@@ -13341,6 +12901,562 @@ const data$l = {
   "filePathRelative": "java/\u300Ajava\u5165\u95E8\u300B/02.\u6578\u64DA\u985E\u578B.md"
 };
 var _02______html$1 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  data: data$r
+});
+const data$q = {
+  "key": "v-3509cb32",
+  "path": "/guide/interview/interview.html",
+  "title": "\u95EE\u9898\u96C6\u9526",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "title": "\u95EE\u9898\u96C6\u9526",
+    "lastUpdated": true,
+    "prev": true,
+    "next": true,
+    "date": "2022-01-02T00:00:00.000Z",
+    "tags": [
+      "\u9762\u8BD5",
+      "\u5176\u4ED6"
+    ]
+  },
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 2,
+      "title": "\u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD",
+      "slug": "\u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48\uFF1F",
+      "slug": "\u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9\uFF1F",
+      "slug": "\u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5\uFF1F",
+      "slug": "\u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\uFF1F",
+      "slug": "\u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u5728\u4E94\u5E74\u5185\uFF0C\u4F60\u7684\u804C\u4E1A\u89C4\u5212\uFF1F",
+      "slug": "\u5728\u4E94\u5E74\u5185-\u4F60\u7684\u804C\u4E1A\u89C4\u5212",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417?",
+      "slug": "\u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5?",
+      "slug": "\u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11?",
+      "slug": "\u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11",
+      "children": []
+    }
+  ],
+  "git": {
+    "updatedTime": 1642922234e3,
+    "contributors": [
+      {
+        "name": "\u9648\u67D2",
+        "email": "3062995371@qq.com",
+        "commits": 1
+      }
+    ]
+  },
+  "filePathRelative": "guide/interview/interview.md"
+};
+var interview_html = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  data: data$q
+});
+const data$p = {
+  "key": "v-5d3f7a3b",
+  "path": "/guide/interview/JSinterview.html",
+  "title": "JS\u9762\u8BD5",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "title": "JS\u9762\u8BD5",
+    "lastUpdated": true,
+    "prev": true,
+    "next": true,
+    "date": "2022-01-02T00:00:00.000Z",
+    "tags": [
+      "\u9762\u8BD5",
+      "\u5176\u4ED6"
+    ]
+  },
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 2,
+      "title": "1.\u5EF6\u8FDF\u52A0\u8F7DJS\u7684\u65B9\u5F0F\u6709\u54EA\u4E9B",
+      "slug": "_1-\u5EF6\u8FDF\u52A0\u8F7Djs\u7684\u65B9\u5F0F\u6709\u54EA\u4E9B",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "2.js\u7684\u6570\u636E\u7C7B\u578B\u548CNaN",
+      "slug": "_2-js\u7684\u6570\u636E\u7C7B\u578B\u548Cnan",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "3.null \u548C undefined",
+      "slug": "_3-null-\u548C-undefined",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "4.==\u548C===\u6709\u4EC0\u4E48\u4E0D\u540C\uFF1F",
+      "slug": "_4-\u548C-\u6709\u4EC0\u4E48\u4E0D\u540C",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "5.\u5B8F\u4EFB\u52A1\u548C\u5FAE\u4EFB\u52A1\uFF08Event Loop/\u4E8B\u4EF6\u5FAA\u73AF \uFF09",
+      "slug": "_5-\u5B8F\u4EFB\u52A1\u548C\u5FAE\u4EFB\u52A1-event-loop-\u4E8B\u4EF6\u5FAA\u73AF",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "6.\u4F5C\u7528\u57DF",
+      "slug": "_6-\u4F5C\u7528\u57DF",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "7.JS\u5BF9\u8C61\uFF08new\u53D1\u751F\u4E86\u4E0A\u9762\uFF1F\uFF09",
+      "slug": "_7-js\u5BF9\u8C61-new\u53D1\u751F\u4E86\u4E0A\u9762",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "8.\u7ED9\u5B9A\u4E00\u4E2A\u6570\u7EC4\uFF0C\u53BB\u9664\u91CD\u590D\u5143\u7D20",
+      "slug": "_8-\u7ED9\u5B9A\u4E00\u4E2A\u6570\u7EC4-\u53BB\u9664\u91CD\u590D\u5143\u7D20",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "9.\u4E8B\u4EF6\u5192\u6CE1\u548C\u4E8B\u4EF6\u59D4\u6258",
+      "slug": "_9-\u4E8B\u4EF6\u5192\u6CE1\u548C\u4E8B\u4EF6\u59D4\u6258",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "10.\u624B\u5199Promise",
+      "slug": "_10-\u624B\u5199promise",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "11.this\u6307\u5411",
+      "slug": "_11-this\u6307\u5411",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "12.call,apply,bind",
+      "slug": "_12-call-apply-bind",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "13. \u95ED\u5305",
+      "slug": "_13-\u95ED\u5305",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "14.\u5BF9\u8C61\u62F7\u8D1D\uFF08\u6DF1\u6D45\u62F7\u8D1D\uFF09",
+      "slug": "_14-\u5BF9\u8C61\u62F7\u8D1D-\u6DF1\u6D45\u62F7\u8D1D",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "15. \u9632\u6296\u548C\u8282\u6D41",
+      "slug": "_15-\u9632\u6296\u548C\u8282\u6D41",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "16. \u539F\u578B",
+      "slug": "_16-\u539F\u578B",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "17.\u7C7B\u4E0E\u7EE7\u627F",
+      "slug": "_17-\u7C7B\u4E0E\u7EE7\u627F",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "18. \u72B6\u6001\u7801\uFF08200\u3001400\u7B49\uFF09",
+      "slug": "_18-\u72B6\u6001\u7801-200\u3001400\u7B49",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "19. \u8F93\u5165URL\u5230\u9875\u9762\u663E\u793A\u7684\u8FC7\u7A0B\uFF1F",
+      "slug": "_19-\u8F93\u5165url\u5230\u9875\u9762\u663E\u793A\u7684\u8FC7\u7A0B",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "20. ES6\u65B0\u7279\u6027",
+      "slug": "_20-es6\u65B0\u7279\u6027",
+      "children": []
+    }
+  ],
+  "git": {
+    "updatedTime": 165416531e4,
+    "contributors": [
+      {
+        "name": "\u9648\u67D2",
+        "email": "3062995371@qq.com",
+        "commits": 8
+      },
+      {
+        "name": "TRANBIOT-PZ004\\Yiren",
+        "email": "yiren@tranbiot.com",
+        "commits": 1
+      }
+    ]
+  },
+  "filePathRelative": "guide/interview/JSinterview.md"
+};
+var JSinterview_html = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  data: data$p
+});
+const data$o = {
+  "key": "v-2d570564",
+  "path": "/guide/interview/VUEinterview.html",
+  "title": "VUE\u9762\u8BD5",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "title": "VUE\u9762\u8BD5",
+    "lastUpdated": true,
+    "prev": true,
+    "next": true,
+    "date": "2022-01-02T00:00:00.000Z",
+    "tags": [
+      "\u9762\u8BD5",
+      "\u5176\u4ED6"
+    ]
+  },
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 2,
+      "title": "1.vue\u7684\u751F\u547D\u5468\u671F",
+      "slug": "_1-vue\u7684\u751F\u547D\u5468\u671F",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "2.v-if\u548Cv-show\u7684\u533A\u522B",
+      "slug": "_2-v-if\u548Cv-show\u7684\u533A\u522B",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "2.v-if\u548Cv-for\u7684\u4F18\u5148\u7EA7",
+      "slug": "_2-v-if\u548Cv-for\u7684\u4F18\u5148\u7EA7",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "3.ref\u662F\u4EC0\u4E48\uFF1F",
+      "slug": "_3-ref\u662F\u4EC0\u4E48",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "4.nextTick\u662F\u4EC0\u4E48\uFF1F",
+      "slug": "_4-nexttick\u662F\u4EC0\u4E48",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "5.scoped\u539F\u7406",
+      "slug": "_5-scoped\u539F\u7406",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "6.Vue\u4E2D\u5982\u4F55\u505A\u6837\u5F0F\u7A7F\u900F",
+      "slug": "_6-vue\u4E2D\u5982\u4F55\u505A\u6837\u5F0F\u7A7F\u900F",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "7.\u7EC4\u4EF6\u4E4B\u95F4\u7684\u901A\u4FE1",
+      "slug": "_7-\u7EC4\u4EF6\u4E4B\u95F4\u7684\u901A\u4FE1",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "8.computed\u3001methods\u3001watch",
+      "slug": "_8-computed\u3001methods\u3001watch",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "9.props\u548Cdata\u4F18\u5148\u7EA7\u8C01\u9AD8",
+      "slug": "_9-props\u548Cdata\u4F18\u5148\u7EA7\u8C01\u9AD8",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "10.VueX",
+      "slug": "_10-vuex",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "11. Vue\u8BBE\u7F6E\u4EE3\u7406\uFF08vue.config.js\uFF09",
+      "slug": "_11-vue\u8BBE\u7F6E\u4EE3\u7406-vue-config-js",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "12. Vue\u8DEF\u7531",
+      "slug": "_12-vue\u8DEF\u7531",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "13. \u4ECB\u7ECD\u4E00\u4E0BSPA\u4EE5\u53CA\u5176\u4F18\u7F3A\u70B9\u3002",
+      "slug": "_13-\u4ECB\u7ECD\u4E00\u4E0Bspa\u4EE5\u53CA\u5176\u4F18\u7F3A\u70B9\u3002",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "14. v-model\u539F\u7406",
+      "slug": "_14-v-model\u539F\u7406",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "15. data\u52AB\u6301",
+      "slug": "_15-data\u52AB\u6301",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "16. diff\u7B97\u6CD5",
+      "slug": "_16-diff\u7B97\u6CD5",
+      "children": []
+    }
+  ],
+  "git": {
+    "updatedTime": 1646661851e3,
+    "contributors": [
+      {
+        "name": "\u9648\u67D2",
+        "email": "3062995371@qq.com",
+        "commits": 5
+      }
+    ]
+  },
+  "filePathRelative": "guide/interview/VUEinterview.md"
+};
+var VUEinterview_html = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  data: data$o
+});
+const data$n = {
+  "key": "v-71958ec2",
+  "path": "/guide/%E6%95%85%E4%BA%8B/story.html",
+  "title": "\u65E5\u5E38\u6545\u4E8B",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "title": "\u65E5\u5E38\u6545\u4E8B",
+    "description": "\u65E5\u5E38\u6545\u4E8B"
+  },
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 2,
+      "title": "\u5154\u5B50\u4E0E\u661F\u661F",
+      "slug": "\u5154\u5B50\u4E0E\u661F\u661F",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u5929\u4E0A\u7684\u661F\u661F",
+      "slug": "\u5929\u4E0A\u7684\u661F\u661F",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u82F9\u679C=\u667A\u6167\u679C",
+      "slug": "\u82F9\u679C-\u667A\u6167\u679C",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u7B28\u7B28\u718A",
+      "slug": "\u7B28\u7B28\u718A",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u5C0F\u80A5\u732A",
+      "slug": "\u5C0F\u80A5\u732A",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u68A6\u91CC\u6709\u4F60\uFF0C\u5341\u5206\u751C",
+      "slug": "\u68A6\u91CC\u6709\u4F60-\u5341\u5206\u751C",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u665A\u5B89\uFF01",
+      "slug": "\u665A\u5B89",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u7231\uFF08\u957F\u7BC7\uFF09",
+      "slug": "\u7231-\u957F\u7BC7",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u5154\u5B50\u548C\u72D0\u72F8",
+      "slug": "\u5154\u5B50\u548C\u72D0\u72F8",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u62B1\u62B1",
+      "slug": "\u62B1\u62B1",
+      "children": []
+    }
+  ],
+  "git": {
+    "updatedTime": 1642922234e3,
+    "contributors": [
+      {
+        "name": "\u9648\u67D2",
+        "email": "3062995371@qq.com",
+        "commits": 1
+      }
+    ]
+  },
+  "filePathRelative": "guide/\u6545\u4E8B/story.md"
+};
+var story_html = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  data: data$n
+});
+const data$m = {
+  "key": "v-3803ce0e",
+  "path": "/guide/%E6%95%99%E7%A8%8B/text.html",
+  "title": "\u6559\u7A0B",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "lang": "zh-CN",
+    "title": "\u6559\u7A0B",
+    "description": "12a"
+  },
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 2,
+      "title": "\u6559\u7A0B",
+      "slug": "\u6559\u7A0B",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u6559\u7A0B",
+      "slug": "\u6559\u7A0B-1",
+      "children": []
+    }
+  ],
+  "git": {
+    "updatedTime": 1660907761e3,
+    "contributors": [
+      {
+        "name": "\u9648\u67D2",
+        "email": "3062995371@qq.com",
+        "commits": 2
+      }
+    ]
+  },
+  "filePathRelative": "guide/\u6559\u7A0B/text.md"
+};
+var text_html = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  data: data$m
+});
+const data$l = {
+  "key": "v-6c145c9c",
+  "path": "/guide/%E9%9A%8F%E7%AC%94/reflection.html",
+  "title": "\u6240\u4EE5\u4E8B\u5C0F\u4E8E\u6B7B",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "lang": "zh-CN",
+    "title": "\u6240\u4EE5\u4E8B\u5C0F\u4E8E\u6B7B",
+    "description": "12a"
+  },
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 2,
+      "title": "\u4F5C\u4E3A\u4E00\u4E2A\u4EBA",
+      "slug": "\u4F5C\u4E3A\u4E00\u4E2A\u4EBA",
+      "children": []
+    }
+  ],
+  "git": {
+    "updatedTime": 1642922234e3,
+    "contributors": [
+      {
+        "name": "\u9648\u67D2",
+        "email": "3062995371@qq.com",
+        "commits": 1
+      }
+    ]
+  },
+  "filePathRelative": "guide/\u968F\u7B14/reflection.md"
+};
+var reflection_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   data: data$l
