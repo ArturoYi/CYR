@@ -21,139 +21,73 @@ footer: MIT Licensed | Copyright © 2020-柒-IU
 ---
 
 
-### 1、2、3
 
-:::: code-group
-::: code-group-item JS
-```js
-console.log("Hello World");
+<style>
+.anchor-down {
+  display: block;
+  margin: 12rem auto 0;
+  bottom: 45px;
+  width: 20px;
+  height: 100px;
+  font-size: 34px;
+  text-align: center;
+  animation: bounce-in 5s 1s infinite;
+  /* position: absolute; */
+  left: 50%;
+  bottom: 30%;
+  /* margin-left: -10px; */
+  margin-bottom:120px;
+  cursor: pointer;
+}
+@-webkit-keyframes bounce-in{
+  0%{transform:translateY(0)}
+  20%{transform:translateY(0)}
+  50%{transform:translateY(-20px)}
+  80%{transform:translateY(0)}
+  to{transform:translateY(0)}
+}
+.anchor-down::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  border-right: 3px solid rgb(116, 146, 135);
+  border-top: 3px solid rgb(116, 146, 135);
+  transform: rotate(45deg);
+  position: absolute;
+  bottom: 77px;
+}
+.anchor-down::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  border-right: 3px solid rgb(116, 146, 135);
+  border-top: 3px solid rgb(116, 146, 135);
+  transform: rotate(-135deg);
+}
+</style>
 
+<script>
+export default {
+  mounted () {
+    const ifJanchor = document.getElementById("JanchorDown"); 
+    ifJanchor && ifJanchor.parentNode.removeChild(ifJanchor);
+    let a = document.createElement('a');
+    a.id = 'JanchorDown';
+    a.className = 'anchor-down';
+    document.getElementsByClassName('hero')[0].append(a);
+    let targetA = document.getElementById("JanchorDown");
+    targetA.addEventListener('click', e => { // 添加点击事件
+      this.scrollFn();
+    })
+  },
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-console.log('Goodbye, world');
-```
-:::
-::: code-group-item Python
-```js
-print('Hello World')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-print('Goodbye, world')
-```
-:::
-::: code-group-item PHP
-```js
-<?php
-// In PHP, we use echo to print text echo "Hello World"; // If you want to print in browser's console, we use print_r print_r("Hello World"); // if you want the variable data types as well use var_dump $stringVar = 'hello world'; var_dump($stringVar);?>
-
-// In PHP, we use echo to print text
-
-echo "Hello World";
-
-// If you want to print in browser's console, we use print_r
-
-print_r("Hello World");
-
-// if you want the variable data types as well use var_dump
-
-$stringVar = 'hello world';
-
-var_dump($stringVar);
-
-?>
-```
-:::
-::: code-group-item Java
-```js
-class HelloWorld { 
-  public static void main(String[] args) { 
-    System.out.println("Hello World!!"); 
+  methods: {
+    scrollFn() {
+      // const windowH = document.getElementsByClassName('hero')[0].clientHeight; // 获取窗口高度
+      // document.documentElement.scrollTop = windowH; // 滚动条滚动到指定位置
+    }
   }
 }
-    
-
-
-
-
-
-
-
-
-
-
-
-
-```
-:::
-::: code-group-item C
-```js
-#include
-int main(void)
-{
-printf("Hello, world!");
-return 0;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-```
-:::
-::: code-group-item SQL
-```js
-SELECT 'Hello World';PRINT 'Hello World';
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-SELECT 'Goodbye world';PRINT 'Goodbye world';
-```
-:::
-::::
+</script>

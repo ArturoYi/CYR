@@ -30,8 +30,12 @@ export const navbar = [
     text: "笔记",
     children: [
       {
-        text: "vue2",
+        text: "Vue2",
         link: "/web/vue/01.md",
+      },
+      {
+        text: "MySQL",
+        link: "/java/mysql/01.mysql.md",
       },
       {
         text: "Flutter",
@@ -42,7 +46,7 @@ export const navbar = [
         link: "/web/webpack/webpack.md",
       },
       {
-        text: "vue3",
+        text: "Vue3",
         link: "/web/vue3/01.md",
       },
       {
@@ -51,7 +55,7 @@ export const navbar = [
       },
       { text: "springboot", link: "/java/springboot/01.springboot.md" },
       {
-        text: "git",
+        text: "Git",
         link: "/java/git/01.git版本控制.md",
       },
     ],
