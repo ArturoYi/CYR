@@ -58,6 +58,10 @@ export const navbar = [
         text: "Git",
         link: "/java/git/01.git版本控制.md",
       },
+      {
+        text: "Linux",
+        link: "/java/Linux/01.Linux入门.md",
+      },
     ],
   },
   {

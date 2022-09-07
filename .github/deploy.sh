@@ -2,7 +2,7 @@
 set -e
 
 
-var1=7
+var1=10
 var2=5
 #打包上传倒计时
   while [ $var1 -gt 5 ]
