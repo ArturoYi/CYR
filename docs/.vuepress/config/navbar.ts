@@ -30,37 +30,52 @@ export const navbar = [
     text: "笔记",
     children: [
       {
-        text: "Vue2",
-        link: "/web/vue/01.md",
+        text: "前端",
+        children: [
+          {
+            text: "Vue2",
+            link: "/web/vue/01.md",
+          },
+          {
+            text: "Vue3",
+            link: "/web/vue3/01.md",
+          },
+          {
+            text: "WebPack",
+            link: "/web/webpack/webpack.md",
+          },
+          {
+            text: "Git",
+            link: "/java/git/01.git版本控制.md",
+          },
+          {
+            text: "Flutter",
+            link: "/web/Flutter/01.md",
+          },
+        ],
       },
       {
-        text: "MySQL",
-        link: "/java/mysql/01.mysql.md",
+        text: "后端",
+        children: [
+          {
+            text: "MySQL",
+            link: "/java/mysql/01.mysql.md",
+          },
+          {
+            text: "Jenkins",
+            link: "/web/Jenkins/01.md",
+          },
+          { text: "SpringBoot", link: "/java/springboot/01.springboot.md" },
+        ],
       },
       {
-        text: "Flutter",
-        link: "/web/Flutter/01.md",
-      },
-      {
-        text: "WebPack",
-        link: "/web/webpack/webpack.md",
-      },
-      {
-        text: "Vue3",
-        link: "/web/vue3/01.md",
-      },
-      {
-        text: "Jenkins",
-        link: "/web/Jenkins/01.md",
-      },
-      { text: "springboot", link: "/java/springboot/01.springboot.md" },
-      {
-        text: "Git",
-        link: "/java/git/01.git版本控制.md",
-      },
-      {
-        text: "Linux",
-        link: "/java/Linux/01.Linux入门.md",
+        text: "Linux运维",
+        children: [
+          {
+            text: "Linux",
+            link: "/java/Linux/01.Linux入门.md",
+          },
+        ],
       },
     ],
   },
