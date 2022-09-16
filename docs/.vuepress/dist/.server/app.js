@@ -63,14 +63,11 @@ const pagesComponents = {
   "v-8daa1a0e": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return index_html$8;
   })),
-  "v-67b7fbf4": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return index_html$6;
-  })),
   "v-6886cbbd": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return elementui_________html$2;
   })),
   "v-b9c2d34a": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return index_html$4;
+    return index_html$6;
   })),
   "v-4b48928e": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return spring___html$2;
@@ -84,17 +81,20 @@ const pagesComponents = {
   "v-66ff7ae2": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return vscode_____html$2;
   })),
-  "v-c8744e90": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return _01____html$2;
+  "v-67b7fbf4": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return index_html$4;
   })),
-  "v-6785e53a": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return _01_mysql_html$2;
+  "v-88893a3e": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return _01_git_____html$2;
   })),
   "v-061c80c6": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return _01_Linux___html$2;
   })),
-  "v-88893a3e": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return _01_git_____html$2;
+  "v-6785e53a": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return _01_mysql_html$2;
+  })),
+  "v-4f12841a": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return _02_mysql_____html$2;
   })),
   "v-23b022e9": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return _01_springboot_html$2;
@@ -110,6 +110,9 @@ const pagesComponents = {
   })),
   "v-ff7fbc46": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return _02______html$5;
+  })),
+  "v-c8744e90": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return _01____html$2;
   })),
   "v-3509cb32": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return interview_html$2;
@@ -197,14 +200,11 @@ const pagesData$1 = {
   "v-8daa1a0e": () => Promise.resolve().then(function() {
     return index_html$2;
   }).then(({ data: data2 }) => data2),
-  "v-67b7fbf4": () => Promise.resolve().then(function() {
-    return index_html$1;
-  }).then(({ data: data2 }) => data2),
   "v-6886cbbd": () => Promise.resolve().then(function() {
     return elementui_________html;
   }).then(({ data: data2 }) => data2),
   "v-b9c2d34a": () => Promise.resolve().then(function() {
-    return index_html;
+    return index_html$1;
   }).then(({ data: data2 }) => data2),
   "v-4b48928e": () => Promise.resolve().then(function() {
     return spring___html;
@@ -218,17 +218,20 @@ const pagesData$1 = {
   "v-66ff7ae2": () => Promise.resolve().then(function() {
     return vscode_____html;
   }).then(({ data: data2 }) => data2),
-  "v-c8744e90": () => Promise.resolve().then(function() {
-    return _01____html;
+  "v-67b7fbf4": () => Promise.resolve().then(function() {
+    return index_html;
   }).then(({ data: data2 }) => data2),
-  "v-6785e53a": () => Promise.resolve().then(function() {
-    return _01_mysql_html;
+  "v-88893a3e": () => Promise.resolve().then(function() {
+    return _01_git_____html;
   }).then(({ data: data2 }) => data2),
   "v-061c80c6": () => Promise.resolve().then(function() {
     return _01_Linux___html;
   }).then(({ data: data2 }) => data2),
-  "v-88893a3e": () => Promise.resolve().then(function() {
-    return _01_git_____html;
+  "v-6785e53a": () => Promise.resolve().then(function() {
+    return _01_mysql_html;
+  }).then(({ data: data2 }) => data2),
+  "v-4f12841a": () => Promise.resolve().then(function() {
+    return _02_mysql_____html;
   }).then(({ data: data2 }) => data2),
   "v-23b022e9": () => Promise.resolve().then(function() {
     return _01_springboot_html;
@@ -244,6 +247,9 @@ const pagesData$1 = {
   }).then(({ data: data2 }) => data2),
   "v-ff7fbc46": () => Promise.resolve().then(function() {
     return _02______html$1;
+  }).then(({ data: data2 }) => data2),
+  "v-c8744e90": () => Promise.resolve().then(function() {
+    return _01____html;
   }).then(({ data: data2 }) => data2),
   "v-3509cb32": () => Promise.resolve().then(function() {
     return interview_html;
@@ -673,6 +679,15 @@ const themeData$1 = {
         ]
       }
     ],
+    "/java/mysql/": [
+      {
+        "text": "MySql",
+        "children": [
+          "01.mysql.md",
+          "02.mysql\u6578\u64DA\u7BA1\u7406.md"
+        ]
+      }
+    ],
     "/java/springboot/": [
       {
         "text": "springboot",
@@ -830,7 +845,7 @@ var clientAppEnhance2 = defineClientAppEnhance(({ app }) => {
     }
   });
 });
-const _sfc_main$Z = /* @__PURE__ */ vue.defineComponent({
+const _sfc_main$_ = /* @__PURE__ */ vue.defineComponent({
   __ssrInlineRender: true,
   props: {
     type: {
@@ -864,11 +879,11 @@ const _sfc_main$Z = /* @__PURE__ */ vue.defineComponent({
     };
   }
 });
-const _sfc_setup$Z = _sfc_main$Z.setup;
-_sfc_main$Z.setup = (props, ctx) => {
+const _sfc_setup$_ = _sfc_main$_.setup;
+_sfc_main$_.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../../../../node_modules/@vuepress/theme-default/lib/client/components/global/Badge.vue");
-  return _sfc_setup$Z ? _sfc_setup$Z(props, ctx) : void 0;
+  return _sfc_setup$_ ? _sfc_setup$_(props, ctx) : void 0;
 };
 var CodeGroup = vue.defineComponent({
   name: "CodeGroup",
@@ -951,7 +966,7 @@ var CodeGroup = vue.defineComponent({
 const __default__$1 = vue.defineComponent({
   name: "CodeGroupItem"
 });
-const _sfc_main$Y = /* @__PURE__ */ vue.defineComponent(__spreadProps(__spreadValues({}, __default__$1), {
+const _sfc_main$Z = /* @__PURE__ */ vue.defineComponent(__spreadProps(__spreadValues({}, __default__$1), {
   __ssrInlineRender: true,
   props: {
     title: {
@@ -975,11 +990,11 @@ const _sfc_main$Y = /* @__PURE__ */ vue.defineComponent(__spreadProps(__spreadVa
     };
   }
 }));
-const _sfc_setup$Y = _sfc_main$Y.setup;
-_sfc_main$Y.setup = (props, ctx) => {
+const _sfc_setup$Z = _sfc_main$Z.setup;
+_sfc_main$Z.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../../../../node_modules/@vuepress/theme-default/lib/client/components/global/CodeGroupItem.vue");
-  return _sfc_setup$Y ? _sfc_setup$Y(props, ctx) : void 0;
+  return _sfc_setup$Z ? _sfc_setup$Z(props, ctx) : void 0;
 };
 const darkModeSymbol = Symbol("");
 const useDarkMode = () => {
@@ -1142,7 +1157,7 @@ const resolveMultiSidebarItems = (sidebarConfig, sidebarDepth) => {
   return resolveArraySidebarItems(matchedSidebarConfig, sidebarDepth);
 };
 const useThemeLocaleData = () => useThemeLocaleData$1();
-const _sfc_main$X = /* @__PURE__ */ vue.defineComponent({
+const _sfc_main$Y = /* @__PURE__ */ vue.defineComponent({
   __ssrInlineRender: true,
   setup(__props) {
     const themeLocale = useThemeLocaleData();
@@ -1162,19 +1177,19 @@ const _sfc_main$X = /* @__PURE__ */ vue.defineComponent({
     };
   }
 });
-const _sfc_setup$X = _sfc_main$X.setup;
-_sfc_main$X.setup = (props, ctx) => {
+const _sfc_setup$Y = _sfc_main$Y.setup;
+_sfc_main$Y.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../../../../node_modules/@vuepress/theme-default/lib/client/components/global/ExternalLinkIcon.vue");
-  return _sfc_setup$X ? _sfc_setup$X(props, ctx) : void 0;
+  return _sfc_setup$Y ? _sfc_setup$Y(props, ctx) : void 0;
 };
 var index = "";
 var clientAppEnhance3 = defineClientAppEnhance(({ app, router }) => {
-  app.component("Badge", _sfc_main$Z);
+  app.component("Badge", _sfc_main$_);
   app.component("CodeGroup", CodeGroup);
-  app.component("CodeGroupItem", _sfc_main$Y);
+  app.component("CodeGroupItem", _sfc_main$Z);
   delete app._context.components.ExternalLinkIcon;
-  app.component("ExternalLinkIcon", _sfc_main$X);
+  app.component("ExternalLinkIcon", _sfc_main$Y);
   app.component("NavbarSearch", () => {
     const SearchComponent = app.component("Docsearch") || app.component("SearchBox");
     if (SearchComponent) {
@@ -1214,13 +1229,6 @@ const searchIndex$1 = [
     "title": "",
     "headers": [],
     "path": "/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/actualCombat/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1357,115 +1365,77 @@ const searchIndex$1 = [
     "extraFields": []
   },
   {
-    "title": "Flutter\u5B9E\u6218",
-    "headers": [
-      {
-        "level": 2,
-        "title": "\u9002\u5408\u4EBA\u7FA4",
-        "slug": "\u9002\u5408\u4EBA\u7FA4",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "1.\u9879\u76EE\u7ED3\u6784",
-        "slug": "_1-\u9879\u76EE\u7ED3\u6784",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.\u8D77\u6B65",
-        "slug": "_2-\u8D77\u6B65",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.\u9519\u8BEF\u6355\u83B7\u548C\u4E0A\u62A5",
-        "slug": "_3-\u9519\u8BEF\u6355\u83B7\u548C\u4E0A\u62A5",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.\u62BD\u5C49\u9875",
-        "slug": "_4-\u62BD\u5C49\u9875",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5.\u8DEF\u7531\u7BA1\u7406\uFF08getX\uFF09",
-        "slug": "_5-\u8DEF\u7531\u7BA1\u7406-getx",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6.\u56FD\u9645\u5316\uFF08getX\uFF09",
-        "slug": "_6-\u56FD\u9645\u5316-getx",
-        "children": []
-      }
-    ],
-    "path": "/actualCombat/Flutter%E5%B7%A5%E7%A8%8B%E5%AE%9E%E6%88%98/01.%E8%B5%B7%E6%AD%A5.html",
+    "title": "",
+    "headers": [],
+    "path": "/actualCombat/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "mysql",
+    "title": "git\u7248\u672C\u63A7\u5236",
     "headers": [
       {
         "level": 2,
-        "title": "\u5B89\u88C5",
-        "slug": "\u5B89\u88C5",
+        "title": "\u8BA4\u8BC6git",
+        "slug": "\u8BA4\u8BC6git",
         "children": []
       },
       {
         "level": 2,
-        "title": "\u5B89\u88C5 navicat",
-        "slug": "\u5B89\u88C5-navicat",
+        "title": "\u5B89\u88C5Git",
+        "slug": "\u5B89\u88C5git",
         "children": []
       },
       {
         "level": 2,
-        "title": "\u57FA\u672C\u547D\u4EE4\u884C",
-        "slug": "\u57FA\u672C\u547D\u4EE4\u884C",
+        "title": "\u57FA\u672C\u547D\u4EE4\u4ECB\u7ECD",
+        "slug": "\u57FA\u672C\u547D\u4EE4\u4ECB\u7ECD",
         "children": []
       },
       {
         "level": 2,
-        "title": "\u64CD\u4F5C\u6570\u636E\u5E93",
-        "slug": "\u64CD\u4F5C\u6570\u636E\u5E93",
+        "title": "\u6DFB\u52A0\u548C\u63D0\u4EA4",
+        "slug": "\u6DFB\u52A0\u548C\u63D0\u4EA4",
         "children": []
       },
       {
         "level": 2,
-        "title": "\u64CD\u4F5C\u8868",
-        "slug": "\u64CD\u4F5C\u8868",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.\u6570\u636E\u7C7B\u578B",
-            "slug": "_1-\u6570\u636E\u7C7B\u578B",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.\u5B57\u6BB5\u5C5E\u6027\uFF08\u91CD\u8981\uFF09",
-            "slug": "_2-\u5B57\u6BB5\u5C5E\u6027-\u91CD\u8981",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.\u6570\u636E\u5E93\u5F15\u64CE\u548C\u7F16\u7801",
-            "slug": "_3-\u6570\u636E\u5E93\u5F15\u64CE\u548C\u7F16\u7801",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.\u5B57\u6BB5\u5220\u9664\u548C\u4FEE\u6539",
-            "slug": "_4-\u5B57\u6BB5\u5220\u9664\u548C\u4FEE\u6539",
-            "children": []
-          }
-        ]
+        "title": "\u5206\u652F",
+        "slug": "\u5206\u652F",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u5408\u5E76\u5206\u652F",
+        "slug": "\u5408\u5E76\u5206\u652F",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u53D8\u57FA\u5206\u652F",
+        "slug": "\u53D8\u57FA\u5206\u652F",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u4F18\u9009",
+        "slug": "\u4F18\u9009",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u4F7F\u7528IDEA\u7248\u672C\u63A7\u5236",
+        "slug": "\u4F7F\u7528idea\u7248\u672C\u63A7\u5236",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u8FDC\u7A0B\u4ED3\u5E93",
+        "slug": "\u8FDC\u7A0B\u4ED3\u5E93",
+        "children": []
       }
     ],
-    "path": "/java/mysql/01.mysql.html",
+    "path": "/java/git/01.git%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1791,70 +1761,135 @@ const searchIndex$1 = [
     "extraFields": []
   },
   {
-    "title": "git\u7248\u672C\u63A7\u5236",
+    "title": "MySql\u57FA\u790E",
     "headers": [
       {
         "level": 2,
-        "title": "\u8BA4\u8BC6git",
-        "slug": "\u8BA4\u8BC6git",
+        "title": "MySql\u5B89\u88C5",
+        "slug": "mysql\u5B89\u88C5",
         "children": []
       },
       {
         "level": 2,
-        "title": "\u5B89\u88C5Git",
-        "slug": "\u5B89\u88C5git",
+        "title": "\u5B89\u88C5 navicat",
+        "slug": "\u5B89\u88C5-navicat",
         "children": []
       },
       {
         "level": 2,
-        "title": "\u57FA\u672C\u547D\u4EE4\u4ECB\u7ECD",
-        "slug": "\u57FA\u672C\u547D\u4EE4\u4ECB\u7ECD",
+        "title": "\u57FA\u672C\u547D\u4EE4\u884C",
+        "slug": "\u57FA\u672C\u547D\u4EE4\u884C",
         "children": []
       },
       {
         "level": 2,
-        "title": "\u6DFB\u52A0\u548C\u63D0\u4EA4",
-        "slug": "\u6DFB\u52A0\u548C\u63D0\u4EA4",
+        "title": "\u64CD\u4F5C\u6570\u636E\u5E93",
+        "slug": "\u64CD\u4F5C\u6570\u636E\u5E93",
         "children": []
       },
       {
         "level": 2,
-        "title": "\u5206\u652F",
-        "slug": "\u5206\u652F",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u5408\u5E76\u5206\u652F",
-        "slug": "\u5408\u5E76\u5206\u652F",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u53D8\u57FA\u5206\u652F",
-        "slug": "\u53D8\u57FA\u5206\u652F",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u4F18\u9009",
-        "slug": "\u4F18\u9009",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u4F7F\u7528IDEA\u7248\u672C\u63A7\u5236",
-        "slug": "\u4F7F\u7528idea\u7248\u672C\u63A7\u5236",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u8FDC\u7A0B\u4ED3\u5E93",
-        "slug": "\u8FDC\u7A0B\u4ED3\u5E93",
-        "children": []
+        "title": "\u64CD\u4F5C\u8868",
+        "slug": "\u64CD\u4F5C\u8868",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.\u6570\u636E\u7C7B\u578B",
+            "slug": "_1-\u6570\u636E\u7C7B\u578B",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.\u5B57\u6BB5\u5C5E\u6027\uFF08\u91CD\u8981\uFF09",
+            "slug": "_2-\u5B57\u6BB5\u5C5E\u6027-\u91CD\u8981",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.\u6570\u636E\u5E93\u5F15\u64CE\u548C\u7F16\u7801",
+            "slug": "_3-\u6570\u636E\u5E93\u5F15\u64CE\u548C\u7F16\u7801",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.\u5B57\u6BB5\u5220\u9664\u548C\u4FEE\u6539",
+            "slug": "_4-\u5B57\u6BB5\u5220\u9664\u548C\u4FEE\u6539",
+            "children": []
+          }
+        ]
       }
     ],
-    "path": "/java/git/01.git%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6.html",
+    "path": "/java/mysql/01.mysql.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "\u6578\u64DA\u7BA1\u7406",
+    "headers": [
+      {
+        "level": 2,
+        "title": "\u5916\u9375",
+        "slug": "\u5916\u9375",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "DML \u8A9E\u8A00",
+        "slug": "dml-\u8A9E\u8A00",
+        "children": [
+          {
+            "level": 3,
+            "title": "\u63D2\u5165",
+            "slug": "\u63D2\u5165",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u4FEE\u6539",
+            "slug": "\u4FEE\u6539",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u522A\u9664",
+            "slug": "\u522A\u9664",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "DQL \u67E5\u8A62\u6578\u64DA",
+        "slug": "dql-\u67E5\u8A62\u6578\u64DA",
+        "children": [
+          {
+            "level": 3,
+            "title": "\u67E5\u8A62",
+            "slug": "\u67E5\u8A62",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u53BB\u91CD",
+            "slug": "\u53BB\u91CD",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "where \u689D\u4EF6\u5B57\u53E5",
+            "slug": "where-\u689D\u4EF6\u5B57\u53E5",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u6A21\u7CCA\u67E5\u8A62",
+            "slug": "\u6A21\u7CCA\u67E5\u8A62",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/java/mysql/02.mysql%E6%95%B8%E6%93%9A%E7%AE%A1%E7%90%86.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2302,6 +2337,56 @@ const searchIndex$1 = [
       }
     ],
     "path": "/java/%E3%80%8Ajava%E5%85%A5%E9%97%A8%E3%80%8B/02.%E6%95%B8%E6%93%9A%E9%A1%9E%E5%9E%8B.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Flutter\u5B9E\u6218",
+    "headers": [
+      {
+        "level": 2,
+        "title": "\u9002\u5408\u4EBA\u7FA4",
+        "slug": "\u9002\u5408\u4EBA\u7FA4",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "1.\u9879\u76EE\u7ED3\u6784",
+        "slug": "_1-\u9879\u76EE\u7ED3\u6784",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.\u8D77\u6B65",
+        "slug": "_2-\u8D77\u6B65",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.\u9519\u8BEF\u6355\u83B7\u548C\u4E0A\u62A5",
+        "slug": "_3-\u9519\u8BEF\u6355\u83B7\u548C\u4E0A\u62A5",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.\u62BD\u5C49\u9875",
+        "slug": "_4-\u62BD\u5C49\u9875",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5.\u8DEF\u7531\u7BA1\u7406\uFF08getX\uFF09",
+        "slug": "_5-\u8DEF\u7531\u7BA1\u7406-getx",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6.\u56FD\u9645\u5316\uFF08getX\uFF09",
+        "slug": "_6-\u56FD\u9645\u5316-getx",
+        "children": []
+      }
+    ],
+    "path": "/actualCombat/Flutter%E5%B7%A5%E7%A8%8B%E5%AE%9E%E6%88%98/01.%E8%B5%B7%E6%AD%A5.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -4244,22 +4329,23 @@ const clientAppSetups = [
 ];
 const routeItems = [
   ["v-8daa1a0e", "/", { "title": "" }, ["/index.html", "/README.md"]],
-  ["v-67b7fbf4", "/actualCombat/", { "title": "" }, ["/actualCombat/index.html", "/actualCombat/README.md"]],
   ["v-6886cbbd", "/course/elementui%E5%9C%A8%E8%A1%A8%E6%A0%BC%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87.html", { "title": "elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247" }, ["/course/elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247.html", "/course/elementui%E5%9C%A8%E8%A1%A8%E6%A0%BC%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87", "/course/elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247.md", "/course/elementui%E5%9C%A8%E8%A1%A8%E6%A0%BC%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87.md"]],
   ["v-b9c2d34a", "/course/", { "title": "\u65E5\u5E38\u8BB0\u5F55" }, ["/course/index.html", "/course/README.md"]],
   ["v-4b48928e", "/course/spring%E6%B3%A8%E8%A7%A3.html", { "title": "spring" }, ["/course/spring\u6CE8\u89E3.html", "/course/spring%E6%B3%A8%E8%A7%A3", "/course/spring\u6CE8\u89E3.md", "/course/spring%E6%B3%A8%E8%A7%A3.md"]],
   ["v-9148d7c4", "/course/stripe%E6%94%AF%E4%BB%98.html", { "title": "stripe\u652F\u4ED8" }, ["/course/stripe\u652F\u4ED8.html", "/course/stripe%E6%94%AF%E4%BB%98", "/course/stripe\u652F\u4ED8.md", "/course/stripe%E6%94%AF%E4%BB%98.md"]],
   ["v-4bac9763", "/course/utils.html", { "title": "\u8D44\u6E90\u5DE5\u5177" }, ["/course/utils", "/course/utils.md"]],
   ["v-66ff7ae2", "/course/vscode%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.html", { "title": "vscode\u5E38\u7528\u63D2\u4EF6" }, ["/course/vscode\u5E38\u7528\u63D2\u4EF6.html", "/course/vscode%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6", "/course/vscode\u5E38\u7528\u63D2\u4EF6.md", "/course/vscode%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.md"]],
-  ["v-c8744e90", "/actualCombat/Flutter%E5%B7%A5%E7%A8%8B%E5%AE%9E%E6%88%98/01.%E8%B5%B7%E6%AD%A5.html", { "title": "Flutter\u5B9E\u6218" }, ["/actualCombat/Flutter\u5DE5\u7A0B\u5B9E\u6218/01.\u8D77\u6B65.html", "/actualCombat/Flutter%E5%B7%A5%E7%A8%8B%E5%AE%9E%E6%88%98/01.%E8%B5%B7%E6%AD%A5", "/actualCombat/Flutter\u5DE5\u7A0B\u5B9E\u6218/01.\u8D77\u6B65.md", "/actualCombat/Flutter%E5%B7%A5%E7%A8%8B%E5%AE%9E%E6%88%98/01.%E8%B5%B7%E6%AD%A5.md"]],
-  ["v-6785e53a", "/java/mysql/01.mysql.html", { "title": "mysql" }, ["/java/mysql/01.mysql", "/java/mysql/01.mysql.md"]],
-  ["v-061c80c6", "/java/Linux/01.Linux%E5%85%A5%E9%97%A8.html", { "title": "Linux\u5165\u95E8" }, ["/java/Linux/01.Linux\u5165\u95E8.html", "/java/Linux/01.Linux%E5%85%A5%E9%97%A8", "/java/Linux/01.Linux\u5165\u95E8.md", "/java/Linux/01.Linux%E5%85%A5%E9%97%A8.md"]],
+  ["v-67b7fbf4", "/actualCombat/", { "title": "" }, ["/actualCombat/index.html", "/actualCombat/README.md"]],
   ["v-88893a3e", "/java/git/01.git%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6.html", { "title": "git\u7248\u672C\u63A7\u5236" }, ["/java/git/01.git\u7248\u672C\u63A7\u5236.html", "/java/git/01.git%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6", "/java/git/01.git\u7248\u672C\u63A7\u5236.md", "/java/git/01.git%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6.md"]],
+  ["v-061c80c6", "/java/Linux/01.Linux%E5%85%A5%E9%97%A8.html", { "title": "Linux\u5165\u95E8" }, ["/java/Linux/01.Linux\u5165\u95E8.html", "/java/Linux/01.Linux%E5%85%A5%E9%97%A8", "/java/Linux/01.Linux\u5165\u95E8.md", "/java/Linux/01.Linux%E5%85%A5%E9%97%A8.md"]],
+  ["v-6785e53a", "/java/mysql/01.mysql.html", { "title": "MySql\u57FA\u790E" }, ["/java/mysql/01.mysql", "/java/mysql/01.mysql.md"]],
+  ["v-4f12841a", "/java/mysql/02.mysql%E6%95%B8%E6%93%9A%E7%AE%A1%E7%90%86.html", { "title": "\u6578\u64DA\u7BA1\u7406" }, ["/java/mysql/02.mysql\u6578\u64DA\u7BA1\u7406.html", "/java/mysql/02.mysql%E6%95%B8%E6%93%9A%E7%AE%A1%E7%90%86", "/java/mysql/02.mysql\u6578\u64DA\u7BA1\u7406.md", "/java/mysql/02.mysql%E6%95%B8%E6%93%9A%E7%AE%A1%E7%90%86.md"]],
   ["v-23b022e9", "/java/springboot/01.springboot.html", { "title": "springboot" }, ["/java/springboot/01.springboot", "/java/springboot/01.springboot.md"]],
   ["v-1f229241", "/java/springboot/02.springboot%E5%90%AF%E5%8A%A8%E5%8E%9F%E7%90%86.html", { "title": "springboot\u542F\u52A8\u539F\u7406" }, ["/java/springboot/02.springboot\u542F\u52A8\u539F\u7406.html", "/java/springboot/02.springboot%E5%90%AF%E5%8A%A8%E5%8E%9F%E7%90%86", "/java/springboot/02.springboot\u542F\u52A8\u539F\u7406.md", "/java/springboot/02.springboot%E5%90%AF%E5%8A%A8%E5%8E%9F%E7%90%86.md"]],
   ["v-21d7a310", "/java/springboot/03.springboot%E8%87%AA%E5%8A%A8%E9%85%8D%E7%BD%AE.html", { "title": "springboot\u81EA\u52A8\u914D\u7F6E" }, ["/java/springboot/03.springboot\u81EA\u52A8\u914D\u7F6E.html", "/java/springboot/03.springboot%E8%87%AA%E5%8A%A8%E9%85%8D%E7%BD%AE", "/java/springboot/03.springboot\u81EA\u52A8\u914D\u7F6E.md", "/java/springboot/03.springboot%E8%87%AA%E5%8A%A8%E9%85%8D%E7%BD%AE.md"]],
   ["v-64dc3831", "/java/%E3%80%8Ajava%E5%85%A5%E9%97%A8%E3%80%8B/01.%E5%9F%BA%E7%A1%80%E4%BB%8B%E7%BB%8D.html", { "title": "java" }, ["/java/\u300Ajava\u5165\u95E8\u300B/01.\u57FA\u7840\u4ECB\u7ECD.html", "/java/%E3%80%8Ajava%E5%85%A5%E9%97%A8%E3%80%8B/01.%E5%9F%BA%E7%A1%80%E4%BB%8B%E7%BB%8D", "/java/\u300Ajava\u5165\u95E8\u300B/01.\u57FA\u7840\u4ECB\u7ECD.md", "/java/%E3%80%8Ajava%E5%85%A5%E9%97%A8%E3%80%8B/01.%E5%9F%BA%E7%A1%80%E4%BB%8B%E7%BB%8D.md"]],
   ["v-ff7fbc46", "/java/%E3%80%8Ajava%E5%85%A5%E9%97%A8%E3%80%8B/02.%E6%95%B8%E6%93%9A%E9%A1%9E%E5%9E%8B.html", { "title": "java\u6578\u64DA\u985E\u578B" }, ["/java/\u300Ajava\u5165\u95E8\u300B/02.\u6578\u64DA\u985E\u578B.html", "/java/%E3%80%8Ajava%E5%85%A5%E9%97%A8%E3%80%8B/02.%E6%95%B8%E6%93%9A%E9%A1%9E%E5%9E%8B", "/java/\u300Ajava\u5165\u95E8\u300B/02.\u6578\u64DA\u985E\u578B.md", "/java/%E3%80%8Ajava%E5%85%A5%E9%97%A8%E3%80%8B/02.%E6%95%B8%E6%93%9A%E9%A1%9E%E5%9E%8B.md"]],
+  ["v-c8744e90", "/actualCombat/Flutter%E5%B7%A5%E7%A8%8B%E5%AE%9E%E6%88%98/01.%E8%B5%B7%E6%AD%A5.html", { "title": "Flutter\u5B9E\u6218" }, ["/actualCombat/Flutter\u5DE5\u7A0B\u5B9E\u6218/01.\u8D77\u6B65.html", "/actualCombat/Flutter%E5%B7%A5%E7%A8%8B%E5%AE%9E%E6%88%98/01.%E8%B5%B7%E6%AD%A5", "/actualCombat/Flutter\u5DE5\u7A0B\u5B9E\u6218/01.\u8D77\u6B65.md", "/actualCombat/Flutter%E5%B7%A5%E7%A8%8B%E5%AE%9E%E6%88%98/01.%E8%B5%B7%E6%AD%A5.md"]],
   ["v-3509cb32", "/guide/interview/interview.html", { "title": "\u95EE\u9898\u96C6\u9526" }, ["/guide/interview/interview", "/guide/interview/interview.md"]],
   ["v-5d3f7a3b", "/guide/interview/JSinterview.html", { "title": "JS\u9762\u8BD5" }, ["/guide/interview/JSinterview", "/guide/interview/JSinterview.md"]],
   ["v-2d570564", "/guide/interview/VUEinterview.html", { "title": "VUE\u9762\u8BD5" }, ["/guide/interview/VUEinterview", "/guide/interview/VUEinterview.md"]],
@@ -4389,7 +4475,7 @@ var _export_sfc = (sfc, props) => {
   }
   return target;
 };
-const _sfc_main$W = {
+const _sfc_main$X = {
   mounted() {
     const ifJanchor = document.getElementById("JanchorDown");
     ifJanchor && ifJanchor.parentNode.removeChild(ifJanchor);
@@ -4407,39 +4493,22 @@ const _sfc_main$W = {
     }
   }
 };
-function _sfc_ssrRender$I(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+function _sfc_ssrRender$J(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
 }
-const _sfc_setup$W = _sfc_main$W.setup;
-_sfc_main$W.setup = (props, ctx) => {
+const _sfc_setup$X = _sfc_main$X.setup;
+_sfc_main$X.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/index.html.vue");
-  return _sfc_setup$W ? _sfc_setup$W(props, ctx) : void 0;
+  return _sfc_setup$X ? _sfc_setup$X(props, ctx) : void 0;
 };
-var index_html$7 = /* @__PURE__ */ _export_sfc(_sfc_main$W, [["ssrRender", _sfc_ssrRender$I]]);
+var index_html$7 = /* @__PURE__ */ _export_sfc(_sfc_main$X, [["ssrRender", _sfc_ssrRender$J]]);
 var index_html$8 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": index_html$7
 });
-const _sfc_main$V = {};
-function _sfc_ssrRender$H(_ctx, _push, _parent, _attrs) {
-  const _component_MyTemplate = vue.resolveComponent("MyTemplate");
-  _push(serverRenderer.ssrRenderComponent(_component_MyTemplate, _attrs, null, _parent));
-}
-const _sfc_setup$V = _sfc_main$V.setup;
-_sfc_main$V.setup = (props, ctx) => {
-  const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/actualCombat/index.html.vue");
-  return _sfc_setup$V ? _sfc_setup$V(props, ctx) : void 0;
-};
-var index_html$5 = /* @__PURE__ */ _export_sfc(_sfc_main$V, [["ssrRender", _sfc_ssrRender$H]]);
-var index_html$6 = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  "default": index_html$5
-});
-const _sfc_main$U = {};
-function _sfc_ssrRender$G(_ctx, _push, _parent, _attrs) {
+const _sfc_main$W = {};
+function _sfc_ssrRender$I(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h1 id="elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247" tabindex="-1"><a class="header-anchor" href="#elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247" aria-hidden="true">#</a> elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247</h1><h2 id="\u63D2\u5165\u5355\u5F20-\u60AC\u6D6E\u9884\u89C8" tabindex="-1"><a class="header-anchor" href="#\u63D2\u5165\u5355\u5F20-\u60AC\u6D6E\u9884\u89C8" aria-hidden="true">#</a> \u63D2\u5165\u5355\u5F20\uFF0C\u60AC\u6D6E\u9884\u89C8</h2><div class="custom-container warning"><p class="custom-container-title">\u6CE8\u610F</p><p>\u4E0B\u9762<code>scope.row</code>\u8868\u793A\u5F53\u524D\u7684\u884C\u5BF9\u8C61</p></div><div class="language-html ext-html line-numbers-mode"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>el-table-column</span>  <span class="token attr-name">label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>\u56FE\u7247<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span> <span class="token attr-name">slot-scope</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>scope<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>el-popover</span> <span class="token attr-name">placement</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>top-start<span class="token punctuation">&quot;</span></span> <span class="token attr-name">title</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span><span class="token punctuation">&quot;</span></span> <span class="token attr-name">trigger</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>hover<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
@@ -4469,20 +4538,20 @@ function _sfc_ssrRender$G(_ctx, _push, _parent, _attrs) {
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>el-table-column</span><span class="token punctuation">&gt;</span></span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><!--]-->`);
 }
-const _sfc_setup$U = _sfc_main$U.setup;
-_sfc_main$U.setup = (props, ctx) => {
+const _sfc_setup$W = _sfc_main$W.setup;
+_sfc_main$W.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/course/elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247.html.vue");
-  return _sfc_setup$U ? _sfc_setup$U(props, ctx) : void 0;
+  return _sfc_setup$W ? _sfc_setup$W(props, ctx) : void 0;
 };
-var elementui_________html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$U, [["ssrRender", _sfc_ssrRender$G]]);
+var elementui_________html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$W, [["ssrRender", _sfc_ssrRender$I]]);
 var elementui_________html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": elementui_________html$1
 });
-const _sfc_main$T = {};
-function _sfc_ssrRender$F(_ctx, _push, _parent, _attrs) {
+const _sfc_main$V = {};
+function _sfc_ssrRender$H(_ctx, _push, _parent, _attrs) {
   const _component_ClientOnly = vue.resolveComponent("ClientOnly");
   const _component_MyTemplate = vue.resolveComponent("MyTemplate");
   _push(`<!--[--><h2 id="clientonly\u4F7F\u7528\u7EC4\u4EF6" tabindex="-1"><a class="header-anchor" href="#clientonly\u4F7F\u7528\u7EC4\u4EF6" aria-hidden="true">#</a> ClientOnly\u4F7F\u7528\u7EC4\u4EF6</h2>`);
@@ -4500,20 +4569,20 @@ function _sfc_ssrRender$F(_ctx, _push, _parent, _attrs) {
   }, _parent));
   _push(`<!--]-->`);
 }
-const _sfc_setup$T = _sfc_main$T.setup;
-_sfc_main$T.setup = (props, ctx) => {
+const _sfc_setup$V = _sfc_main$V.setup;
+_sfc_main$V.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/course/index.html.vue");
-  return _sfc_setup$T ? _sfc_setup$T(props, ctx) : void 0;
+  return _sfc_setup$V ? _sfc_setup$V(props, ctx) : void 0;
 };
-var index_html$3 = /* @__PURE__ */ _export_sfc(_sfc_main$T, [["ssrRender", _sfc_ssrRender$F]]);
-var index_html$4 = /* @__PURE__ */ Object.freeze({
+var index_html$5 = /* @__PURE__ */ _export_sfc(_sfc_main$V, [["ssrRender", _sfc_ssrRender$H]]);
+var index_html$6 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  "default": index_html$3
+  "default": index_html$5
 });
-const _sfc_main$S = {};
-function _sfc_ssrRender$E(_ctx, _push, _parent, _attrs) {
+const _sfc_main$U = {};
+function _sfc_ssrRender$G(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h1 id="spring" tabindex="-1"><a class="header-anchor" href="#spring" aria-hidden="true">#</a> spring</h1><h2 id="models" tabindex="-1"><a class="header-anchor" href="#models" aria-hidden="true">#</a> models</h2><p>\u4ECE\u72ED\u4E49\u4E0A\u8BB2\uFF0CModel\u5C31\u662F\u4E2Akey-value\u96C6\u5408\u3002\u6570\u636E\u4F1A\u5B58\u653E\u5230Model\u5BF9\u8C61\u4E2D\uFF0C\u5F53\u9700\u8981\u751F\u6210HTML\u7684\u65F6\u5019\uFF0C\u6A21\u677F\u5F15\u64CE\u4F1A\u6839\u636E\u540D\u5B57\u6765\u5B9A\u4F4D\u6570\u636E</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token annotation punctuation">@Entity</span>
 <span class="token comment">//@Entity\u8868\u793A\u8FD9\u662F\u4E00\u4E2A\u5B9E\u4F53\u7C7B\uFF0C\u610F\u601D\u662F\u6307\u5B9A\u5BF9\u5E94\u6570\u636E\u5E93\u4E2D\u7684\u8868</span>
 <span class="token annotation punctuation">@Getter</span>
@@ -4694,20 +4763,20 @@ collect(Collectors.toList());\u8F6C\u6362\u6210list\u96C6\u5408
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br><span class="line-number">54</span><br><span class="line-number">55</span><br><span class="line-number">56</span><br><span class="line-number">57</span><br><span class="line-number">58</span><br><span class="line-number">59</span><br><span class="line-number">60</span><br><span class="line-number">61</span><br><span class="line-number">62</span><br><span class="line-number">63</span><br><span class="line-number">64</span><br><span class="line-number">65</span><br><span class="line-number">66</span><br><span class="line-number">67</span><br><span class="line-number">68</span><br><span class="line-number">69</span><br><span class="line-number">70</span><br><span class="line-number">71</span><br><span class="line-number">72</span><br><span class="line-number">73</span><br><span class="line-number">74</span><br><span class="line-number">75</span><br><span class="line-number">76</span><br><span class="line-number">77</span><br><span class="line-number">78</span><br><span class="line-number">79</span><br><span class="line-number">80</span><br><span class="line-number">81</span><br><span class="line-number">82</span><br><span class="line-number">83</span><br><span class="line-number">84</span><br><span class="line-number">85</span><br><span class="line-number">86</span><br><span class="line-number">87</span><br><span class="line-number">88</span><br><span class="line-number">89</span><br><span class="line-number">90</span><br><span class="line-number">91</span><br><span class="line-number">92</span><br><span class="line-number">93</span><br><span class="line-number">94</span><br><span class="line-number">95</span><br><span class="line-number">96</span><br><span class="line-number">97</span><br><span class="line-number">98</span><br></div></div><!--]-->`);
 }
-const _sfc_setup$S = _sfc_main$S.setup;
-_sfc_main$S.setup = (props, ctx) => {
+const _sfc_setup$U = _sfc_main$U.setup;
+_sfc_main$U.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/course/spring\u6CE8\u89E3.html.vue");
-  return _sfc_setup$S ? _sfc_setup$S(props, ctx) : void 0;
+  return _sfc_setup$U ? _sfc_setup$U(props, ctx) : void 0;
 };
-var spring___html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$S, [["ssrRender", _sfc_ssrRender$E]]);
+var spring___html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$U, [["ssrRender", _sfc_ssrRender$G]]);
 var spring___html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": spring___html$1
 });
-const _sfc_main$R = {};
-function _sfc_ssrRender$D(_ctx, _push, _parent, _attrs) {
+const _sfc_main$T = {};
+function _sfc_ssrRender$F(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h1 id="stripe\u652F\u4ED8" tabindex="-1"><a class="header-anchor" href="#stripe\u652F\u4ED8" aria-hidden="true">#</a> stripe\u652F\u4ED8</h1><p>\u524D\u7AEF<code>flutter</code> \u5F8C\u7AEF<code>spring boot</code></p><h2 id="\u524D\u7AEF\u51FA\u767C\u652F\u4ED8" tabindex="-1"><a class="header-anchor" href="#\u524D\u7AEF\u51FA\u767C\u652F\u4ED8" aria-hidden="true">#</a> \u524D\u7AEF\u51FA\u767C\u652F\u4ED8</h2><div class="language-dart ext-dart line-numbers-mode"><pre class="language-dart"><code><span class="token keyword">if</span> <span class="token punctuation">(</span>paymentMethod <span class="token operator">==</span> <span class="token string">&#39;visa&#39;</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
     <span class="token comment">//\u4FE1\u7528\u5361\u652F\u4ED8</span>
     sc<span class="token punctuation">.</span><span class="token function">makeFacilityVisaPayment</span><span class="token punctuation">(</span>id<span class="token punctuation">)</span><span class="token punctuation">;</span>
@@ -4844,20 +4913,20 @@ private final FacilityBookingService bookingService;
     <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br></div></div><!--]-->`);
 }
-const _sfc_setup$R = _sfc_main$R.setup;
-_sfc_main$R.setup = (props, ctx) => {
+const _sfc_setup$T = _sfc_main$T.setup;
+_sfc_main$T.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/course/stripe\u652F\u4ED8.html.vue");
-  return _sfc_setup$R ? _sfc_setup$R(props, ctx) : void 0;
+  return _sfc_setup$T ? _sfc_setup$T(props, ctx) : void 0;
 };
-var stripe___html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$R, [["ssrRender", _sfc_ssrRender$D]]);
+var stripe___html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$T, [["ssrRender", _sfc_ssrRender$F]]);
 var stripe___html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": stripe___html$1
 });
-const _sfc_main$Q = {};
-function _sfc_ssrRender$C(_ctx, _push, _parent, _attrs) {
+const _sfc_main$S = {};
+function _sfc_ssrRender$E(_ctx, _push, _parent, _attrs) {
   const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
   _push(`<!--[--><h1 id="\u8D44\u6E90\u5DE5\u5177" tabindex="-1"><a class="header-anchor" href="#\u8D44\u6E90\u5DE5\u5177" aria-hidden="true">#</a> \u8D44\u6E90\u5DE5\u5177</h1><h2 id="_1-\u529E\u516C\u88C5\u673A" tabindex="-1"><a class="header-anchor" href="#_1-\u529E\u516C\u88C5\u673A" aria-hidden="true">#</a> 1. \u529E\u516C\u88C5\u673A</h2><p><a href="https://www.7-zip.org/" target="_blank" rel="noopener noreferrer">7-zip`);
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
@@ -4883,20 +4952,20 @@ function _sfc_ssrRender$C(_ctx, _push, _parent, _attrs) {
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
   _push(`</a></p><h2 id="_2-\u5F00\u53D1\u8F6F\u4EF6" tabindex="-1"><a class="header-anchor" href="#_2-\u5F00\u53D1\u8F6F\u4EF6" aria-hidden="true">#</a> 2. \u5F00\u53D1\u8F6F\u4EF6</h2><p>1\uFE0F\u20E3 \u2003 <a href="">VSCode</a></p><p>2\uFE0F\u20E3</p><p>3\uFE0F\u20E3</p><!--]-->`);
 }
-const _sfc_setup$Q = _sfc_main$Q.setup;
-_sfc_main$Q.setup = (props, ctx) => {
+const _sfc_setup$S = _sfc_main$S.setup;
+_sfc_main$S.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/course/utils.html.vue");
-  return _sfc_setup$Q ? _sfc_setup$Q(props, ctx) : void 0;
+  return _sfc_setup$S ? _sfc_setup$S(props, ctx) : void 0;
 };
-var utils_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$Q, [["ssrRender", _sfc_ssrRender$C]]);
+var utils_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$S, [["ssrRender", _sfc_ssrRender$E]]);
 var utils_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": utils_html$1
 });
-const _sfc_main$P = {};
-function _sfc_ssrRender$B(_ctx, _push, _parent, _attrs) {
+const _sfc_main$R = {};
+function _sfc_ssrRender$D(_ctx, _push, _parent, _attrs) {
   const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
   _push(`<!--[--><h1 id="vscode\u5E38\u7528\u63D2\u4EF6" tabindex="-1"><a class="header-anchor" href="#vscode\u5E38\u7528\u63D2\u4EF6" aria-hidden="true">#</a> vscode\u5E38\u7528\u63D2\u4EF6</h1><ol><li><a href="https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode" target="_blank" rel="noopener noreferrer">Tabnine`);
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
@@ -4908,157 +4977,134 @@ function _sfc_ssrRender$B(_ctx, _push, _parent, _attrs) {
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
   _push(`</a></li></ol><!--]-->`);
 }
-const _sfc_setup$P = _sfc_main$P.setup;
-_sfc_main$P.setup = (props, ctx) => {
+const _sfc_setup$R = _sfc_main$R.setup;
+_sfc_main$R.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/course/vscode\u5E38\u7528\u63D2\u4EF6.html.vue");
-  return _sfc_setup$P ? _sfc_setup$P(props, ctx) : void 0;
+  return _sfc_setup$R ? _sfc_setup$R(props, ctx) : void 0;
 };
-var vscode_____html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$P, [["ssrRender", _sfc_ssrRender$B]]);
+var vscode_____html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$R, [["ssrRender", _sfc_ssrRender$D]]);
 var vscode_____html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": vscode_____html$1
 });
+const _sfc_main$Q = {};
+function _sfc_ssrRender$C(_ctx, _push, _parent, _attrs) {
+  const _component_MyTemplate = vue.resolveComponent("MyTemplate");
+  _push(serverRenderer.ssrRenderComponent(_component_MyTemplate, _attrs, null, _parent));
+}
+const _sfc_setup$Q = _sfc_main$Q.setup;
+_sfc_main$Q.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/actualCombat/index.html.vue");
+  return _sfc_setup$Q ? _sfc_setup$Q(props, ctx) : void 0;
+};
+var index_html$3 = /* @__PURE__ */ _export_sfc(_sfc_main$Q, [["ssrRender", _sfc_ssrRender$C]]);
+var index_html$4 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": index_html$3
+});
+const _sfc_main$P = {};
+function _sfc_ssrRender$B(_ctx, _push, _parent, _attrs) {
+  const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
+  _push(`<!--[--><h2 id="\u8BA4\u8BC6git" tabindex="-1"><a class="header-anchor" href="#\u8BA4\u8BC6git" aria-hidden="true">#</a> \u8BA4\u8BC6git</h2><p>\u9996\u5148\u6211\u4EEC\u6765\u4E86\u89E3\u4E00\u4E0BGit\u662F\u5982\u4F55\u5DE5\u4F5C\u7684\uFF1A</p><p>\u53EF\u4EE5\u770B\u5230\uFF0C\u5B83\u5927\u81F4\u5206\u4E3A4\u4E2A\u677F\u5757\uFF1A</p><ul><li>\u5DE5\u4F5C\u76EE\u5F55\uFF1A\u5B58\u653E\u6211\u4EEC\u6B63\u5728\u5199\u7684\u4EE3\u7801\uFF08\u5F53\u6211\u4EEC\u65B0\u7248\u672C\u5F00\u53D1\u5B8C\u6210\u4E4B\u540E\uFF0C\u5C31\u53EF\u4EE5\u8FDB\u884C\u65B0\u7248\u672C\u7684\u63D0\u4EA4\uFF09</li><li>\u6682\u5B58\u533A\uFF1A\u6682\u65F6\u4FDD\u5B58\u5F85\u63D0\u4EA4\u7684\u5185\u5BB9\uFF08\u65B0\u7248\u672C\u63D0\u4EA4\u540E\u4F1A\u5B58\u653E\u5230\u672C\u5730\u4ED3\u5E93\uFF09</li><li>\u672C\u5730\u4ED3\u5E93\uFF1A\u4F4D\u4E8E\u6211\u4EEC\u7535\u8111\u4E0A\u7684\u4E00\u4E2A\u7248\u672C\u63A7\u5236\u4ED3\u5E93\uFF08\u5B58\u653E\u7684\u5C31\u662F\u5F53\u524D\u9879\u76EE\u5404\u4E2A\u7248\u672C\u4EE3\u7801\u7684\u589E\u5220\u4FE1\u606F\uFF09</li><li>\u8FDC\u7A0B\u4ED3\u5E93\uFF1A\u4F4D\u4E8E\u670D\u52A1\u5668\u4E0A\u7684\u7248\u672C\u63A7\u5236\u4ED3\u5E93\uFF08\u670D\u52A1\u5668\u4E0A\u7684\u7248\u672C\u4FE1\u606F\u53EF\u4EE5\u7531\u672C\u5730\u4ED3\u5E93\u63A8\u9001\u4E0A\u53BB\uFF0C\u4E5F\u53EF\u4EE5\u4ECE\u670D\u52A1\u5668\u6293\u53D6\u5230\u672C\u5730\u4ED3\u5E93\uFF09</li></ul><p>\u5B83\u662F\u4E00\u4E2A\u5206\u5E03\u5F0F\u7684\u63A7\u5236\u7CFB\u7EDF\uFF0C\u56E0\u6B64\u4E00\u822C\u60C5\u51B5\u4E0B\u6211\u4EEC\u6BCF\u4E2A\u4EBA\u7684\u7535\u8111\u4E0A\u90FD\u6709\u4E00\u4E2A\u672C\u5730\u4ED3\u5E93\uFF0C\u7531\u5927\u5BB6\u5171\u540C\u5411\u8FDC\u7A0B\u4ED3\u5E93\u53BB\u63A8\u9001\u7248\u672C\u8FED\u4EE3\u4FE1\u606F\u3002</p><h2 id="\u5B89\u88C5git" tabindex="-1"><a class="header-anchor" href="#\u5B89\u88C5git" aria-hidden="true">#</a> \u5B89\u88C5Git</h2><p>\u9996\u5148\u8BF7\u524D\u5F80Git\u5B98\u7F51\u53BB\u4E0B\u8F7D\u6700\u65B0\u7684\u5B89\u88C5\u5305\uFF1A<a href="https://git-scm.com/download/win" target="_blank" rel="noopener noreferrer">https://git-scm.com/download/win`);
+  _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
+  _push(`</a></p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> config --global user.name <span class="token string">&quot;Your Name&quot;</span>
+<span class="token function">git</span> config --global user.email <span class="token string">&quot;email@example.com&quot;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h2 id="\u57FA\u672C\u547D\u4EE4\u4ECB\u7ECD" tabindex="-1"><a class="header-anchor" href="#\u57FA\u672C\u547D\u4EE4\u4ECB\u7ECD" aria-hidden="true">#</a> \u57FA\u672C\u547D\u4EE4\u4ECB\u7ECD</h2><ol><li>\u521B\u5EFA\u672C\u5730\u4ED3\u5E93</li></ol><p>\u53EF\u4EE5\u5728\u4EFB\u610F\u6587\u4EF6\u5939</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git init
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u8F93\u5165\u540E\uFF0C\u4F1A\u81EA\u52A8\u751F\u6210\u4E00\u4E2A.git\u76EE\u5F55\uFF0C\u6CE8\u610F\u8FD9\u4E2A\u76EE\u5F55\u662F\u4E00\u4E2A\u9690\u85CF\u76EE\u5F55\uFF0C\u800C\u5F53\u524D\u76EE\u5F55\u5C31\u662F\u6211\u4EEC\u7684\u5DE5\u4F5C\u76EE\u5F55\u3002</p><p>\u521B\u5EFA\u6210\u529F\u540E\uFF0C\u6211\u4EEC\u53EF\u4EE5\u67E5\u770B\u4E00\u4E0B\u5F53\u524D\u7684\u4E00\u4E2A\u72B6\u6001\uFF0C\u8F93\u5165\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git status
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u5982\u679C\u5DF2\u7ECF\u6210\u529F\u914D\u7F6E\u4E3AGit\u672C\u5730\u4ED3\u5E93\uFF0C\u90A3\u4E48\u8F93\u5165\u540E\u53EF\u4EE5\u770B\u5230</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>On branch master
+
+No commits yet
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>\u8FD9\u8868\u793A\u6211\u4EEC\u8FD8\u6CA1\u6709\u5411\u4ED3\u5E93\u4E2D\u63D0\u4EA4\u4EFB\u4F55\u5185\u5BB9\uFF0C\u4E5F\u5C31\u662F\u4E00\u4E2A\u7A7A\u7684\u72B6\u6001\u3002</p><h2 id="\u6DFB\u52A0\u548C\u63D0\u4EA4" tabindex="-1"><a class="header-anchor" href="#\u6DFB\u52A0\u548C\u63D0\u4EA4" aria-hidden="true">#</a> \u6DFB\u52A0\u548C\u63D0\u4EA4</h2><p>\u63A5\u7740\u6211\u4EEC\u6765\u770B\u770B\uFF0C\u5982\u4F55\u4F7F\u7528git\u6765\u7BA1\u7406\u6211\u4EEC\u6587\u6863\u7684\u7248\u672C\uFF0C\u6211\u4EEC\u521B\u5EFA\u4E00\u4E2A\u6587\u672C\u6587\u6863\uFF0C\u968F\u4FBF\u5199\u5165\u4E00\u70B9\u5185\u5BB9\uFF0C\u63A5\u7740\u8F93\u5165\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git status
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><ul><li>\u4F1A\u63D0\u793A</li></ul><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>Untracked files:
+  <span class="token punctuation">(</span>use <span class="token string">&quot;git add &lt;file&gt;...&quot;</span> to include <span class="token keyword">in</span> what will be committed<span class="token punctuation">)</span>
+	hello.txt
+
+nothing added to commit but untracked files present <span class="token punctuation">(</span>use <span class="token string">&quot;git add&quot;</span> to track<span class="token punctuation">)</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p>\u5176\u4E2DUntracked files\u662F\u672A\u8FFD\u8E2A\u6587\u4EF6\u7684\u610F\u601D\uFF0C\u4E5F\u5C31\u662F\u8BF4\uFF0C\u5982\u679C\u4E00\u4E2A\u6587\u4EF6\u5904\u4E8E\u672A\u8FFD\u8E2A\u72B6\u6001\uFF0C\u90A3\u4E48git\u4E0D\u4F1A\u8BB0\u5F55\u5B83\u7684\u53D8\u5316\uFF0C\u59CB\u7EC8\u5C06\u5176\u5F53\u505A\u4E00\u4E2A\u65B0\u521B\u5EFA\u7684\u6587\u4EF6\uFF0C\u8FD9\u91CC\u6211\u4EEC\u5C06\u5176\u6DFB\u52A0\u5230\u6682\u5B58\u533A\uFF0C\u90A3\u4E48\u5B83\u4F1A\u81EA\u52A8\u53D8\u4E3A\u88AB\u8FFD\u8E2A\u72B6\u6001\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git add hello<span class="token punctuation">.</span>txt #\u4E5F\u53EF\u4EE5 add <span class="token punctuation">.</span> \u4E00\u6B21\u6027\u6DFB\u52A0\u76EE\u5F55\u4E0B\u6240\u6709\u7684
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u518D\u6B21\u67E5\u770B\u5F53\u524D\u72B6\u6001(<code>git status</code>)\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>Changes to be committed<span class="token operator">:</span>
+  <span class="token punctuation">(</span>use <span class="token string">&quot;git rm --cached &lt;file&gt;...&quot;</span> to unstage<span class="token punctuation">)</span>
+	new file<span class="token operator">:</span>   hello<span class="token punctuation">.</span>txt
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>\u73B0\u5728\u6587\u4EF6\u540D\u79F0\u7684\u989C\u8272\u53D8\u6210\u4E86\u7EFF\u8272\uFF0C\u5E76\u4E14\u662F\u5904\u4E8EChanges to be committed\u4E0B\u9762\uFF0C\u56E0\u6B64\uFF0C\u6211\u4EEC\u7684hello.txt\u73B0\u5728\u5DF2\u7ECF\u88AB\u6DFB\u52A0\u5230\u6682\u5B58\u533A\u4E86\u3002</p><p>\u63A5\u7740\u6211\u4EEC\u6765\u5C1D\u8BD5\u5C06\u5176\u63D0\u4EA4\u5230Git\u672C\u5730\u4ED3\u5E93\u4E2D\uFF0C\u6CE8\u610F\u9700\u8981\u8F93\u5165\u63D0\u4EA4\u7684\u63CF\u8FF0\u4EE5\u4FBF\u540E\u7EED\u67E5\u770B\uFF0C\u6BD4\u5982\u4F60\u8FD9\u6B21\u63D0\u4EA4\u4FEE\u6539\u4E86\u6216\u662F\u65B0\u589E\u4E86\u54EA\u4E9B\u5185\u5BB9\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git commit <span class="token operator">-</span>m <span class="token string">&#39;Hello World&#39;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u63A5\u7740\u6211\u4EEC\u53EF\u4EE5\u67E5\u770B\u6211\u4EEC\u7684\u63D0\u4EA4\u8BB0\u5F55\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git log
+git log <span class="token operator">--</span>graph
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>\u6211\u4EEC\u8FD8\u53EF\u4EE5\u67E5\u770B\u6700\u8FD1\u4E00\u6B21\u53D8\u66F4\u7684\u8BE6\u7EC6\u5185\u5BB9\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git show <span class="token punctuation">[</span>\u4E5F\u53EF\u4EE5\u52A0\u4E0Acommit ID\u67E5\u770B\u6307\u5B9A\u7684\u63D0\u4EA4\u8BB0\u5F55<span class="token punctuation">]</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u518D\u6B21\u67E5\u770B\u5F53\u524D\u72B6\u6001\uFF0C\u5DF2\u7ECF\u662F\u6E05\u7A7A\u72B6\u6001\u4E86\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>On branch master
+nothing to commit<span class="token punctuation">,</span> working tree clean
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>\u63A5\u7740\u6211\u4EEC\u53EF\u4EE5\u5C1D\u8BD5\u4FEE\u6539\u4E00\u4E0B\u6211\u4EEC\u7684\u6587\u672C\u6587\u6863\uFF0C\u7531\u4E8E\u5F53\u524D\u6587\u4EF6\u5DF2\u7ECF\u662F\u88AB\u8FFD\u8E2A\u72B6\u6001\uFF0C\u90A3\u4E48git\u4F1A\u53BB\u8DDF\u8E2A\u5B83\u7684\u53D8\u5316\uFF0C\u5982\u679C\u8BF4\u6587\u4EF6\u53D1\u751F\u4E86\u4FEE\u6539\uFF0C\u90A3\u4E48\u6211\u4EEC\u518D\u6B21\u67E5\u770B\u72B6\u6001\u4F1A\u5F97\u5230\u4E0B\u9762\u7684\u7ED3\u679C\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>Changes not staged <span class="token keyword">for</span> commit<span class="token operator">:</span>
+  <span class="token punctuation">(</span>use <span class="token string">&quot;git add &lt;file&gt;...&quot;</span> to update what will be committed<span class="token punctuation">)</span>
+  <span class="token punctuation">(</span>use <span class="token string">&quot;git restore &lt;file&gt;...&quot;</span> to discard changes in working directory<span class="token punctuation">)</span>
+	modified<span class="token operator">:</span>   hello<span class="token punctuation">.</span>txt
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>\u4E5F\u5C31\u662F\u8BF4\u73B0\u5728\u6B64\u6587\u4EF6\u662F\u5904\u4E8E\u5DF2\u4FEE\u6539\u72B6\u6001\uFF0C\u6211\u4EEC\u5982\u679C\u4FEE\u6539\u597D\u4E86\uFF0C\u5C31\u53EF\u4EE5\u63D0\u4EA4\u6211\u4EEC\u7684\u65B0\u7248\u672C\u5230\u672C\u5730\u4ED3\u5E93\u4E2D\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git add <span class="token punctuation">.</span>
+git commit <span class="token operator">-</span>m <span class="token string">&#39;Modify Text&#39;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>\u63A5\u7740\u6211\u4EEC\u6765\u67E5\u8BE2\u4E00\u4E0B\u63D0\u4EA4\u8BB0\u5F55\uFF0C\u53EF\u4EE5\u770B\u5230\u4E00\u5171\u6709\u4E24\u6B21\u63D0\u4EA4\u8BB0\u5F55\u3002</p><p>\u6211\u4EEC\u53EF\u4EE5\u521B\u5EFA\u4E00\u4E2A.gitignore\u6587\u4EF6\u6765\u786E\u5B9A\u4E00\u4E2A\u6587\u4EF6\u5FFD\u7565\u5217\u8868\uFF0C\u5982\u679C\u5FFD\u7565\u5217\u8868\u4E2D\u7684\u6587\u4EF6\u5B58\u5728\u4E14\u4E0D\u662F\u88AB\u8FFD\u8E2A\u72B6\u6001\uFF0C\u90A3\u4E48git\u4E0D\u4F1A\u5BF9\u5176\u8FDB\u884C\u4EFB\u4F55\u68C0\u67E5\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># \u8FD9\u6837\u5C31\u4F1A\u5339\u914D\u6240\u6709\u4EE5txt\u7ED3\u5C3E\u7684\u6587\u4EF6</span>
+*.txt
+<span class="token comment"># \u867D\u7136\u4E0A\u9762\u6392\u9664\u4E86\u6240\u6709txt\u7ED3\u5C3E\u7684\u6587\u4EF6\uFF0C\u4F46\u662F\u8FD9\u4E2A\u4E0D\u6392\u9664</span>
+<span class="token operator">!</span><span class="token number">666</span>.txt
+<span class="token comment"># \u4E5F\u53EF\u4EE5\u76F4\u63A5\u6307\u5B9A\u4E00\u4E2A\u6587\u4EF6\u5939\uFF0C\u6587\u4EF6\u5939\u4E0B\u7684\u6240\u6709\u6587\u4EF6\u5C06\u5168\u90E8\u5FFD\u7565</span>
+test/
+<span class="token comment"># \u76EE\u5F55\u4E2D\u6240\u6709\u4EE5txt\u7ED3\u5C3E\u7684\u6587\u4EF6\uFF0C\u4F46\u4E0D\u5305\u62EC\u5B50\u76EE\u5F55</span>
+xxx/*.txt
+<span class="token comment"># \u76EE\u5F55\u4E2D\u6240\u6709\u4EE5txt\u7ED3\u5C3E\u7684\u6587\u4EF6\uFF0C\u5305\u62EC\u5B50\u76EE\u5F55</span>
+xxx/**/*.txt
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><p>\u521B\u5EFA\u540E\uFF0C\u6211\u4EEC\u6765\u770B\u770B\u662F\u5426\u8FD8\u4F1A\u68C0\u6D4B\u5230\u6211\u4EEC\u5FFD\u7565\u7684\u6587\u4EF6\u3002</p><p>\u56DE\u6EDA</p><p>\u5F53\u6211\u4EEC\u60F3\u8981\u56DE\u9000\u5230\u8FC7\u53BB\u7684\u7248\u672C\u65F6\uFF0C\u5C31\u53EF\u4EE5\u6267\u884C\u56DE\u6EDA\u64CD\u4F5C\uFF0C\u6267\u884C\u540E\uFF0C\u53EF\u4EE5\u5C06\u5DE5\u4F5C\u7A7A\u95F4\u7684\u5185\u5BB9\u6062\u590D\u5230\u6307\u5B9A\u63D0\u4EA4\u7684\u72B6\u6001\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git reset <span class="token operator">--</span>hard commitID
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u6267\u884C\u540E\uFF0C\u4F1A\u76F4\u63A5\u91CD\u7F6E\u4E3A\u90A3\u4E2A\u65F6\u5019\u7684\u72B6\u6001\u3002\u518D\u6B21\u67E5\u770B\u63D0\u4EA4\u65E5\u5FD7\uFF0C\u6211\u4EEC\u53D1\u73B0\u4E4B\u540E\u7684\u65E5\u5FD7\u5168\u90E8\u6D88\u5931\u4E86\u3002</p><p>\u90A3\u4E48\u8981\u662F\u73B0\u5728\u6211\u53C8\u60F3\u56DE\u53BB\u5462\uFF1F\u6211\u4EEC\u53EF\u4EE5\u901A\u8FC7\u67E5\u770B\u6240\u6709\u5206\u652F\u7684\u6240\u6709\u64CD\u4F5C\u8BB0\u5F55\uFF1A</p><p>\u8FD9\u6837\u5C31\u80FD\u627E\u5230\u4E4B\u524D\u7684commitID\uFF0C\u518D\u6B21\u91CD\u7F6E\u5373\u53EF\u3002</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git reflog
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><h2 id="\u5206\u652F" tabindex="-1"><a class="header-anchor" href="#\u5206\u652F" aria-hidden="true">#</a> \u5206\u652F</h2><p>\u5206\u652F\u5C31\u50CF\u6211\u4EEC\u6811\u4E0A\u7684\u4E00\u4E2A\u6811\u679D\u4E00\u6837\uFF0C\u5B83\u4EEC\u53EF\u80FD\u4E00\u5F00\u59CB\u7684\u65F6\u5019\u662F\u540C\u4E00\u6839\u6811\u679D\uFF0C\u4F46\u662F\u957F\u7740\u957F\u7740\u5C31\u5F00\u59CB\u5206\u9053\u626C\u9573\u4E86\uFF0C\u8FD9\u5C31\u662F\u5206\u652F\u3002\u6211\u4EEC\u7684\u4EE3\u7801\u4E5F\u662F\u8FD9\u6837\uFF0C\u53EF\u80FD\u4E00\u5F00\u59CB\u5199\u57FA\u7840\u529F\u80FD\u7684\u65F6\u5019\u4F7F\u7528\u7684\u662F\u5355\u4E2A\u5206\u652F\uFF0C\u4F46\u662F\u67D0\u4E00\u5929\u6211\u4EEC\u5E0C\u671B\u57FA\u4E8E\u8FD9\u4E9B\u57FA\u7840\u7684\u529F\u80FD\uFF0C\u628A\u6211\u4EEC\u7684\u9879\u76EE\u505A\u6210\u4E24\u4E2A\u4E0D\u540C\u65B9\u5411\u7684\u9879\u76EE\uFF0C\u6BD4\u5982\u4E00\u4E2A\u65B9\u5411\u505AWeb\u7F51\u7AD9\uFF0C\u53E6\u4E00\u4E2A\u65B9\u5411\u505A\u6E38\u620F\u670D\u52A1\u7AEF\u3002</p><p>\u56E0\u6B64\uFF0C\u6211\u4EEC\u53EF\u4EE5\u5728\u4E00\u4E2A\u4E3B\u5E72\u4E0A\u5206\u51FAN\u4E2A\u5206\u652F\uFF0C\u5206\u522B\u5BF9\u591A\u4E2A\u5206\u652F\u7684\u4EE3\u7801\u8FDB\u884C\u7EF4\u62A4\u3002</p><ol><li>\u521B\u5EFA\u5206\u652F</li></ol><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git branch
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u6211\u4EEC\u53D1\u73B0\uFF0C\u9ED8\u8BA4\u60C5\u51B5\u4E0B\u662F\u6709\u4E00\u4E2Amaster\u5206\u652F\u7684\uFF0C\u5E76\u4E14\u6211\u4EEC\u4F7F\u7528\u7684\u4E5F\u662Fmaster\u5206\u652F\uFF0C\u4E00\u822C\u60C5\u51B5\u4E0Bmaster\u5206\u652F\u90FD\u662F\u6B63\u5F0F\u7248\u672C\u7684\u66F4\u65B0\uFF0C\u800C\u5176\u4ED6\u5206\u652F\u4E00\u822C\u662F\u5F00\u53D1\u4E2D\u624D\u9891\u7E41\u66F4\u65B0\u7684\u3002\u6211\u4EEC\u63A5\u7740\u6765\u57FA\u4E8E\u5F53\u524D\u5206\u652F\u521B\u5EFA\u4E00\u4E2A\u65B0\u7684\u5206\u652F\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> branch <span class="token builtin class-name">test</span>
+<span class="token comment"># \u5BF9\u5E94\u7684\u5220\u9664\u5206\u652F\u662F</span>
+<span class="token function">git</span> branch -d yyds
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>\u73B0\u5728\u6211\u4EEC\u4FEE\u6539\u4E00\u4E0B\u6587\u4EF6\uFF0C\u63D0\u4EA4\uFF0C\u518D\u67E5\u770B\u4E00\u4E0B\u63D0\u4EA4\u65E5\u5FD7\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> commit -a -m <span class="token string">&#39;branch master commit&#39;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u901A\u8FC7\u6DFB\u52A0-a\u6765\u81EA\u52A8\u5C06\u672A\u653E\u5165\u6682\u5B58\u533A\u7684\u5DF2\u4FEE\u6539\u6587\u4EF6\u653E\u5165\u6682\u5B58\u533A\u5E76\u6267\u884C\u63D0\u4EA4\u64CD\u4F5C\u3002\u67E5\u770B\u65E5\u5FD7\uFF0C\u6211\u4EEC\u53D1\u73B0\u73B0\u5728\u6211\u4EEC\u7684\u63D0\u4EA4\u53EA\u751F\u6548\u4E8Emaster\u5206\u652F\uFF0C\u800C\u65B0\u521B\u5EFA\u7684\u5206\u652F\u5E76\u6CA1\u6709\u53D1\u751F\u4FEE\u6539\u3002</p><p>\u6211\u4EEC\u5C06\u5206\u652F\u5207\u6362\u5230\u53E6\u4E00\u4E2A\u5206\u652F\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> checkout <span class="token builtin class-name">test</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u6211\u4EEC\u4F1A\u53D1\u73B0\uFF0C\u6587\u4EF6\u53D8\u6210\u4E86\u6B64\u5206\u652F\u521B\u5EFA\u7684\u65F6\u7684\u72B6\u6001\uFF0C\u4E5F\u5C31\u662F\u8BF4\uFF0C\u5728\u4E0D\u540C\u5206\u652F\u4E0B\u6211\u4EEC\u7684\u6587\u4EF6\u5185\u5BB9\u662F\u76F8\u4E92\u9694\u79BB\u7684\u3002</p><p>\u6211\u4EEC\u73B0\u5728\u518D\u6765\u63D0\u4EA4\u4E00\u6B21\u53D8\u66F4\uFF0C\u4F1A\u53D1\u73B0\u5B83\u53EA\u751F\u6548\u5728yyds\u5206\u652F\u4E0A\u3002\u6211\u4EEC\u53EF\u4EE5\u770B\u770B\u5F53\u524D\u7684\u5206\u652F\u72B6\u6001\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> log --all --graph
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><h2 id="\u5408\u5E76\u5206\u652F" tabindex="-1"><a class="header-anchor" href="#\u5408\u5E76\u5206\u652F" aria-hidden="true">#</a> \u5408\u5E76\u5206\u652F</h2><p>\u6211\u4EEC\u4E5F\u53EF\u4EE5\u5C06\u4E24\u4E2A\u5206\u652F\u66F4\u65B0\u7684\u5185\u5BB9\u6700\u7EC8\u5408\u5E76\u5230\u540C\u4E00\u4E2A\u5206\u652F\u4E0A\uFF0C\u6211\u4EEC\u5148\u5207\u6362\u56DE\u4E3B\u5206\u652F\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> checkout master
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u63A5\u7740\u4F7F\u7528\u5206\u652F\u5408\u5E76\u547D\u4EE4\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> merge <span class="token builtin class-name">test</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u4F1A\u5F97\u5230\u5982\u4E0B\u63D0\u793A\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>Auto-merging hello.txt
+CONFLICT <span class="token punctuation">(</span>content<span class="token punctuation">)</span>: Merge conflict <span class="token keyword">in</span> hello.txt
+Automatic merge failed<span class="token punctuation">;</span> fix conflicts and <span class="token keyword">then</span> commit the result.
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>\u5728\u5408\u5E76\u8FC7\u7A0B\u4E2D\u4EA7\u751F\u4E86\u51B2\u7A81\uFF0C\u56E0\u4E3A\u4E24\u4E2A\u5206\u652F\u90FD\u5BF9hello.txt\u6587\u4EF6\u8FDB\u884C\u4E86\u4FEE\u6539\uFF0C\u90A3\u4E48\u73B0\u5728\u8981\u5408\u5E76\u5728\u4E00\u8D77\uFF0C\u5230\u5E95\u4FDD\u7559\u8C01\u7684hello\u6587\u4EF6\u5462\uFF1F</p><p>\u6211\u4EEC\u53EF\u4EE5\u67E5\u770B\u4E00\u4E0B\u662F\u54EA\u91CC\u53D1\u751F\u4E86\u51B2\u7A81\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> <span class="token function">diff</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u56E0\u6B64\uFF0C\u73B0\u5728\u6211\u4EEC\u5C06master\u5206\u652F\u7684\u7248\u672C\u56DE\u9000\u5230\u4FEE\u6539hello.txt\u4E4B\u524D\u6216\u662F\u76F4\u63A5\u4FEE\u6539\u4E3A\u6700\u65B0\u7248\u672C\u7684\u5185\u5BB9\uFF0C\u8FD9\u6837\u5C31\u4E0D\u4F1A\u6709\u51B2\u7A81\u4E86\uFF0C\u63A5\u7740\u518D\u6267\u884C\u4E00\u6B21\u5408\u5E76\u64CD\u4F5C\uFF0C\u73B0\u5728\u4E24\u4E2A\u5206\u652F\u6210\u529F\u5408\u5E76\u4E3A\u540C\u4E00\u4E2A\u5206\u652F\u3002</p><h2 id="\u53D8\u57FA\u5206\u652F" tabindex="-1"><a class="header-anchor" href="#\u53D8\u57FA\u5206\u652F" aria-hidden="true">#</a> \u53D8\u57FA\u5206\u652F</h2><p>\u9664\u4E86\u76F4\u63A5\u5408\u5E76\u5206\u652F\u4EE5\u5916\uFF0C\u6211\u4EEC\u8FD8\u53EF\u4EE5\u8FDB\u884C\u53D8\u57FA\u64CD\u4F5C\uFF0C\u5B83\u8DDF\u5408\u5E76\u4E0D\u540C\uFF0C\u5408\u5E76\u662F\u5206\u652F\u56DE\u5230\u4E3B\u5E72\u7684\u8FC7\u7A0B\uFF0C\u800C\u53D8\u57FA\u662F\u76F4\u63A5\u4FEE\u6539\u5206\u652F\u5F00\u59CB\u7684\u4F4D\u7F6E\uFF0C\u6BD4\u5982\u6211\u4EEC\u5E0C\u671B\u5C06yyds\u53D8\u57FA\u5230master\u4E0A\uFF0C\u90A3\u4E48yyds\u4F1A\u5C06\u5206\u652F\u8D77\u70B9\u79FB\u52A8\u5230master\u6700\u540E\u4E00\u6B21\u63D0\u4EA4\u4F4D\u7F6E\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> rebase master
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u53D8\u57FA\u540E\uFF0Cyyds\u5206\u652F\u76F8\u5F53\u4E8E\u540C\u6B65\u4E86\u6B64\u524Dmaster\u5206\u652F\u7684\u5168\u90E8\u63D0\u4EA4\u3002</p><h2 id="\u4F18\u9009" tabindex="-1"><a class="header-anchor" href="#\u4F18\u9009" aria-hidden="true">#</a> \u4F18\u9009</h2><p>\u6211\u4EEC\u8FD8\u53EF\u4EE5\u9009\u62E9\u5176\u5C06\u4ED6\u5206\u652F\u4E0A\u7684\u63D0\u4EA4\u4F5C\u7528\u4E8E\u5F53\u524D\u5206\u652F\u4E0A\uFF0C\u8FD9\u79CD\u64CD\u4F5C\u79F0\u4E3Acherrypick\uFF1A</p><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>git cherry-pick &lt;commit id&gt;:\u5355\u72EC\u5408\u5E76\u4E00\u4E2A\u63D0\u4EA4
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u8FD9\u91CC\u6211\u4EEC\u5728master\u5206\u652F\u4E0A\u521B\u5EFA\u4E00\u4E2A\u65B0\u7684\u6587\u4EF6\uFF0C\u63D0\u4EA4\u6B64\u6B21\u66F4\u65B0\uFF0C\u63A5\u7740\u901A\u8FC7cherry-pick\u7684\u65B9\u5F0F\u5C06\u6B64\u6B21\u66F4\u65B0\u4F5C\u7528\u4E8Etest\u5206\u652F\u4E0A\u3002</p><h2 id="\u4F7F\u7528idea\u7248\u672C\u63A7\u5236" tabindex="-1"><a class="header-anchor" href="#\u4F7F\u7528idea\u7248\u672C\u63A7\u5236" aria-hidden="true">#</a> \u4F7F\u7528IDEA\u7248\u672C\u63A7\u5236</h2><p>\u867D\u7136\u524D\u9762\u6211\u4EEC\u57FA\u672C\u8BB2\u89E3\u4E86git\u7684\u547D\u4EE4\u884C\u4F7F\u7528\u65B9\u6CD5\uFF0C\u4F46\u662F\u6CA1\u6709\u4E00\u4E2A\u56FE\u5F62\u5316\u754C\u9762\uFF0C\u59CB\u7EC8\u4F1A\u611F\u89C9\u5230\u5F88\u62BD\u8C61\uFF0C\u6240\u4EE5\u8FD9\u91CC\u6211\u4EEC\u4F7F\u7528IDEA\u6765\u6F14\u793A\uFF0CIDEA\u5185\u90E8\u96C6\u6210\u4E86git\u6A21\u5757\uFF0C\u5B83\u53EF\u4EE5\u8BA9\u6211\u4EEC\u7684git\u7248\u672C\u7BA1\u7406\u56FE\u5F62\u5316\u663E\u793A\uFF0C\u5F53\u7136\u9664\u4E86IDEA\u4E5F\u6709\u4E00\u4E9B\u72EC\u7ACB\u7684\u8F6F\u4EF6\u6BD4\u5982\uFF1ASourceTree\uFF08\u633A\u597D\u7528\uFF09</p><p>\u6253\u5F00IDEA\u540E\uFF0C\u627E\u5230\u7248\u672C\u63A7\u6A21\u5757\uFF0C\u6211\u4EEC\u76F4\u63A5\u70B9\u51FB\u521B\u5EFA\u672C\u5730\u4ED3\u5E93\uFF0C\u5B83\u4F1A\u81EA\u52A8\u5C06\u5F53\u524D\u9879\u76EE\u7684\u6839\u76EE\u5F55\u4F5C\u4E3A\u6211\u4EEC\u7684\u672C\u5730\u4ED3\u5E93\uFF0C\u800C\u6211\u4EEC\u7F16\u5199\u7684\u6240\u6709\u4EE3\u7801\u548C\u9879\u76EE\u76EE\u5F55\u4E0B\u5176\u4ED6\u7684\u6587\u4EF6\u90FD\u53EF\u4EE5\u8FDB\u884C\u7248\u672C\u63A7\u5236\u3002</p><p>\u6211\u4EEC\u53D1\u73B0\u6240\u6709\u9879\u76EE\u4E2D\u6B63\u5728\u7F16\u5199\u7684\u7C7B\u6587\u4EF6\u5168\u90E8\u53D8\u7EA2\u4E86\uFF0C\u4E5F\u5C31\u662F\u5904\u4E8E\u672A\u8FFD\u8E2A\u72B6\u6001\uFF0C\u63A5\u7740\u6211\u4EEC\u8FDB\u884C\u7B2C\u4E00\u6B21\u521D\u59CB\u5316\u63D0\u4EA4\uFF0C\u63D0\u4EA4\u4E4B\u540E\u6211\u4EEC\u53EF\u4EE5\u5728\u4E0B\u65B9\u770B\u5230\u6240\u6709\u7684\u672C\u5730\u4ED3\u5E93\u63D0\u4EA4\u8BB0\u5F55\u3002</p><p>\u63A5\u7740\u6211\u4EEC\u6765\u6574\u5408\u4E00\u4E0BWeb\u73AF\u5883\uFF0C\u521B\u5EFA\u65B0\u7684\u7C7B\u4E4B\u540E\uFF0CIDEA\u4F1A\u63D0\u793A\u6211\u4EEC\u662F\u5426\u5C06\u6587\u4EF6\u6DFB\u52A0\u5230Git\uFF0C\u4E5F\u5C31\u662F\u662F\u5426\u653E\u5165\u6682\u5B58\u533A\u5E76\u5F00\u542F\u8FFD\u8E2A\uFF0C\u6211\u4EEC\u53EF\u4EE5\u76F4\u63A5\u5BF9\u6BD4\u4E24\u6B21\u4EE3\u7801\u7684\u76F8\u540C\u548C\u4E0D\u540C\u4E4B\u5904\u3002</p><p>\u63A5\u7740\u6211\u4EEC\u6765\u6F14\u793A\u4E00\u4E0B\u5206\u652F\u521B\u5EFA\u548C\u5206\u652F\u7BA1\u7406\u3002</p><h2 id="\u8FDC\u7A0B\u4ED3\u5E93" tabindex="-1"><a class="header-anchor" href="#\u8FDC\u7A0B\u4ED3\u5E93" aria-hidden="true">#</a> \u8FDC\u7A0B\u4ED3\u5E93</h2><p>\u8FDC\u7A0B\u4ED3\u5E93\u5B9E\u9645\u4E0A\u5C31\u662F\u4F4D\u4E8E\u670D\u52A1\u5668\u4E0A\u7684\u4ED3\u5E93\uFF0C\u5B83\u80FD\u5728\u8FDC\u7AEF\u4FDD\u5B58\u6211\u4EEC\u7684\u7248\u672C\u5386\u53F2\uFF0C\u5E76\u4E14\u53EF\u4EE5\u5B9E\u73B0\u591A\u4EBA\u540C\u65F6\u5408\u4F5C\u7F16\u5199\u9879\u76EE\uFF0C\u6BCF\u4E2A\u4EBA\u90FD\u80FD\u591F\u540C\u6B65\u4ED6\u4EBA\u7684\u7248\u672C\uFF0C\u80FD\u591F\u770B\u5230\u4ED6\u4EBA\u7684\u7248\u672C\u63D0\u4EA4\uFF0C\u76F8\u5F53\u4E8E\u5C06\u6211\u4EEC\u7684\u4EE3\u7801\u653E\u5728\u670D\u52A1\u5668\u4E0A\u8FDB\u884C\u6258\u7BA1\u3002</p><p>\u8FDC\u7A0B\u4ED3\u5E93\u6709\u516C\u6709\u548C\u79C1\u6709\u7684\uFF0C\u516C\u6709\u7684\u8FDC\u7A0B\u4ED3\u5E93\u6709GitHub\u3001\u7801\u4E91\u3001Coding\u7B49\uFF0C\u4ED6\u4EEC\u90FD\u662F\u5BF9\u5916\u5F00\u653E\u7684\uFF0C\u6211\u4EEC\u6CE8\u518C\u8D26\u53F7\u4E4B\u540E\u5C31\u53EF\u4EE5\u4F7F\u7528\u8FDC\u7A0B\u4ED3\u5E93\u8FDB\u884C\u7248\u672C\u63A7\u5236\uFF0C\u5176\u4E2D\u6700\u5927\u7684\u5C31\u662FGitHub\uFF0C\u4F46\u662F\u5B83\u670D\u52A1\u5668\u5728\u56FD\u5916\uFF0C\u6211\u4EEC\u56FD\u5185\u8FDE\u63A5\u53EF\u80FD\u4F1A\u6709\u4E00\u70B9\u5361\u3002\u79C1\u6709\u7684\u4E00\u822C\u662FGitLab\u8FD9\u79CD\u81EA\u4E3B\u642D\u5EFA\u7684\u8FDC\u7A0B\u4ED3\u5E93\u79C1\u670D\uFF0C\u5728\u516C\u53F8\u4E2D\u6BD4\u8F83\u5E38\u7528\uFF0C\u5B83\u53EA\u5BF9\u516C\u53F8\u5185\u90E8\u5F00\u653E\uFF0C\u4E0D\u5BF9\u5916\u5F00\u653E\u3002</p><p>\u8FD9\u91CC\u6211\u4EEC\u4EE5GitHub\u505A\u8BB2\u89E3\uFF0C\u5B98\u7F51\uFF1Ahttps://github.com\uFF0C\u9996\u5148\u5B8C\u6210\u7528\u6237\u6CE8\u518C\u3002</p><ol><li>\u8FDC\u7A0B\u8D26\u6237\u8BA4\u8BC1\u548C\u63A8\u9001</li></ol><p>\u63A5\u7740\u6211\u4EEC\u5C31\u53EF\u4EE5\u521B\u5EFA\u4E00\u4E2A\u81EA\u5B9A\u4E49\u7684\u8FDC\u7A0B\u4ED3\u5E93\u4E86\u3002</p><p>\u521B\u5EFA\u4ED3\u5E93\u540E\uFF0C\u6211\u4EEC\u53EF\u4EE5\u901A\u8FC7\u63A8\u9001\u6765\u5C06\u672C\u5730\u4ED3\u5E93\u4E2D\u7684\u5185\u5BB9\u63A8\u9001\u5230\u8FDC\u7A0B\u4ED3\u5E93\u3002</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git remote add \u540D\u79F0 \u8FDC\u7A0B\u4ED3\u5E93\u5730\u5740
+git push \u8FDC\u7A0B\u4ED3\u5E93\u540D\u79F0 \u672C\u5730\u5206\u652F\u540D\u79F0<span class="token punctuation">[</span><span class="token operator">:</span>\u8FDC\u7AEF\u5206\u652F\u540D\u79F0<span class="token punctuation">]</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>\u6CE8\u610Fpush\u540E\u9762\u4E24\u4E2A\u53C2\u6570\uFF0C\u4E00\u4E2A\u662F\u8FDC\u7AEF\u540D\u79F0\uFF0C\u8FD8\u6709\u4E00\u4E2A\u5C31\u662F\u672C\u5730\u5206\u652F\u540D\u79F0\uFF0C\u4F46\u662F\u5982\u679C\u672C\u5730\u5206\u652F\u540D\u79F0\u548C\u8FDC\u7AEF\u5206\u652F\u540D\u79F0\u4E00\u81F4\uFF0C\u90A3\u4E48\u4E0D\u7528\u6307\u5B9A\u8FDC\u7AEF\u5206\u652F\u540D\u79F0\uFF0C\u4F46\u662F\u5982\u679C\u6211\u4EEC\u5E0C\u671B\u63A8\u9001\u7684\u5206\u652F\u5728\u8FDC\u7AEF\u6CA1\u6709\u540C\u540D\u7684\uFF0C\u90A3\u4E48\u9700\u8981\u989D\u5916\u6307\u5B9A\u3002\u63A8\u9001\u524D\u9700\u8981\u767B\u9646\u8D26\u6237\uFF0CGitHub\u73B0\u5728\u4E0D\u5141\u8BB8\u4F7F\u7528\u7528\u6237\u540D\u5BC6\u7801\u9A8C\u8BC1\uFF0C\u53EA\u5141\u8BB8\u4F7F\u7528\u4E2A\u4EBAAccessToken\u6765\u9A8C\u8BC1\u8EAB\u4EFD\uFF0C\u6240\u4EE5\u6211\u4EEC\u9700\u8981\u5148\u53BB\u751F\u6210\u4E00\u4E2AToken\u624D\u53EF\u4EE5\u3002</p><p>\u63A8\u9001\u540E\uFF0C\u6211\u4EEC\u53D1\u73B0\u8FDC\u7A0B\u4ED3\u5E93\u4E2D\u7684\u5185\u5BB9\u5DF2\u7ECF\u4E0E\u6211\u4EEC\u672C\u5730\u4ED3\u5E93\u4E2D\u7684\u5185\u5BB9\u4FDD\u6301\u4E00\u81F4\u4E86\uFF0C\u6CE8\u610F\uFF0C\u8FDC\u7A0B\u4ED3\u5E93\u4E5F\u53EF\u4EE5\u6709\u5F88\u591A\u4E2A\u5206\u652F\u3002</p><p>\u4F46\u662F\u8FD9\u6837\u6BD4\u8F83\u9EBB\u70E6\uFF0C\u6211\u4EEC\u6BCF\u6B21\u90FD\u9700\u8981\u53BB\u8F93\u5165\u7528\u6237\u540D\u548C\u5BC6\u7801\uFF0C\u6709\u6CA1\u6709\u4E00\u52B3\u6C38\u9038\u7684\u65B9\u6CD5\u5462\uFF1F\u5F53\u7136\uFF0C\u6211\u4EEC\u4E5F\u53EF\u4EE5\u4F7F\u7528SSH\u6765\u5B9E\u73B0\u4E00\u6B21\u6027\u6821\u9A8C\uFF0C\u6211\u4EEC\u53EF\u4EE5\u5728\u672C\u5730\u751F\u6210\u4E00\u4E2Arsa\u516C\u94A5\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>ssh-keygen -t rsa
+<span class="token function">cat</span> ~/.ssh/github.pub
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>\u63A5\u7740\u6211\u4EEC\u9700\u8981\u5728GitHub\u4E0A\u4E0A\u4F20\u6211\u4EEC\u7684\u516C\u94A5\uFF0C\u5F53\u6211\u4EEC\u518D\u6B21\u53BB\u8BBF\u95EEGitHub\u65F6\uFF0C\u4F1A\u81EA\u52A8\u9A8C\u8BC1\uFF0C\u5C31\u65E0\u9700\u8FDB\u884C\u767B\u5F55\u4E86\uFF0C\u4E4B\u540E\u5728Linux\u90E8\u5206\u6211\u4EEC\u4F1A\u8BE6\u7EC6\u8BB2\u89E3SSH\u7684\u539F\u7406\u3002</p><p>\u63A5\u7740\u6211\u4EEC\u4FEE\u6539\u4E00\u4E0B\u5DE5\u4F5C\u533A\u7684\u5185\u5BB9\uFF0C\u63D0\u4EA4\u5230\u672C\u5730\u4ED3\u5E93\u540E\uFF0C\u518D\u63A8\u9001\u5230\u8FDC\u7A0B\u4ED3\u5E93\uFF0C\u63D0\u4EA4\u7684\u8FC7\u7A0B\u4E2D\u6211\u4EEC\u6CE8\u610F\u89C2\u5BDF\u63D0\u4EA4\u8BB0\u5F55\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> commit -a -m <span class="token string">&#39;Modify files&#39;</span>
+<span class="token function">git</span> log --all --oneline --graph
+<span class="token function">git</span> push origin master 
+<span class="token function">git</span> log --all --oneline --graph
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>\u6211\u4EEC\u53EF\u4EE5\u5C06\u8FDC\u7AEF\u548C\u672C\u5730\u7684\u5206\u652F\u8FDB\u884C\u7ED1\u5B9A\uFF0C\u7ED1\u5B9A\u540E\u5C31\u4E0D\u9700\u8981\u6307\u5B9A\u5206\u652F\u540D\u79F0\u4E86\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> push --set-upstream origin master:master
+<span class="token function">git</span> push origin
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>\u5728\u4E00\u4E2A\u672C\u5730\u4ED3\u5E93\u5BF9\u5E94\u4E00\u4E2A\u8FDC\u7A0B\u4ED3\u5E93\u7684\u60C5\u51B5\u4E0B\uFF0C\u8FDC\u7A0B\u4ED3\u5E93\u57FA\u672C\u4E0A\u5C31\u662F\u7EAF\u7CB9\u7684\u4EE3\u7801\u6258\u7BA1\u4E86\uFF08\u4E91\u76D8\u90A3\u79CD\u611F\u89C9\uFF0C\u5C31\u7EAF\u7CB9\u662F\u5B58\u4F60\u4EE3\u7801\u7684\uFF09</p><ol start="2"><li>\u514B\u9686\u9879\u76EE</li></ol><p>\u5982\u679C\u6211\u4EEC\u5DF2\u7ECF\u5B58\u5728\u4E00\u4E2A\u8FDC\u7A0B\u4ED3\u5E93\u7684\u60C5\u51B5\u4E0B\uFF0C\u6211\u4EEC\u9700\u8981\u5728\u8FDC\u7A0B\u4ED3\u5E93\u7684\u4EE3\u7801\u4E0A\u7EE7\u7EED\u7F16\u5199\u4EE3\u7801\uFF0C\u8FD9\u4E2A\u65F6\u5019\u600E\u4E48\u529E\u5462\uFF1F</p><p>\u6211\u4EEC\u53EF\u4EE5\u4F7F\u7528\u514B\u9686\u64CD\u4F5C\u6765\u5C06\u8FDC\u7AEF\u4ED3\u5E93\u7684\u5185\u5BB9\u5168\u90E8\u590D\u5236\u5230\u672C\u5730\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> clone \u8FDC\u7A0B\u4ED3\u5E93\u5730\u5740
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u8FD9\u6837\u672C\u5730\u5C31\u80FD\u591F\u76F4\u63A5\u4E0E\u8FDC\u7A0B\u4FDD\u6301\u540C\u6B65\u3002</p><ol start="3"><li>\u6293\u53D6\u3001\u62C9\u53D6\u548C\u51B2\u7A81\u89E3\u51B3</li></ol><p>\u6211\u4EEC\u63A5\u7740\u6765\u770B\uFF0C\u5982\u679C\u8FD9\u4E2A\u65F6\u5019\uFF0C\u51FA\u73B0\u591A\u4E2A\u672C\u5730\u4ED3\u5E93\u5BF9\u5E94\u4E00\u4E2A\u8FDC\u7A0B\u4ED3\u5E93\u7684\u60C5\u51B5\u4E0B\uFF0C\u6BD4\u5982\u4E00\u4E2A\u56E2\u961F\u91CC\u9762\uFF0CN\u4E2A\u4EBA\u90FD\u5728\u4F7F\u7528\u540C\u4E00\u4E2A\u8FDC\u7A0B\u4ED3\u5E93\uFF0C\u4F46\u662F\u4ED6\u4EEC\u5404\u81EA\u53EA\u8D1F\u8D23\u7F16\u5199\u548C\u63A8\u9001\u81EA\u5DF1\u4E1A\u52A1\u90E8\u5206\u7684\u4EE3\u7801\uFF0C\u4E5F\u5C31\u662F\u6211\u4EEC\u5E38\u8BF4\u7684\u534F\u540C\u5DE5\u4F5C\uFF0C\u90A3\u4E48\u8FD9\u4E2A\u65F6\u5019\uFF0C\u6211\u4EEC\u5C31\u9700\u8981\u534F\u8C03\u3002</p><p>\u6BD4\u5982\u7A0B\u5E8F\u5458A\u5B8C\u6210\u4E86\u4ED6\u7684\u6A21\u5757\uFF0C\u90A3\u4E48\u4ED6\u5C31\u53EF\u4EE5\u63D0\u4EA4\u4EE3\u7801\u5E76\u63A8\u9001\u5230\u8FDC\u7A0B\u4ED3\u5E93\uFF0C\u8FD9\u65F6\u7A0B\u5E8F\u5458B\u4E5F\u8981\u5F00\u59CB\u5199\u4EE3\u7801\u4E86\uFF0C\u7531\u4E8E\u8FDC\u7A0B\u4ED3\u5E93\u6709\u5176\u4ED6\u7A0B\u5E8F\u5458\u7684\u63D0\u4EA4\u8BB0\u5F55\uFF0C\u56E0\u6B64\u7A0B\u5E8F\u5458B\u7684\u672C\u5730\u4ED3\u5E93\u548C\u8FDC\u7A0B\u4ED3\u5E93\u4E0D\u4E00\u81F4\uFF0C\u8FD9\u65F6\u5C31\u9700\u8981\u6709\u5148\u8FDB\u884Cpull\u64CD\u4F5C\uFF0C\u83B7\u53D6\u8FDC\u7A0B\u4ED3\u5E93\u4E2D\u6700\u65B0\u7684\u63D0\u4EA4\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> fetch \u8FDC\u7A0B\u4ED3\u5E93 <span class="token comment">#\u6293\u53D6\uFF1A\u53EA\u83B7\u53D6\u4F46\u4E0D\u5408\u5E76\u8FDC\u7AEF\u5206\u652F\uFF0C\u540E\u9762\u9700\u8981\u6211\u4EEC\u624B\u52A8\u5408\u5E76\u624D\u80FD\u63D0\u4EA4</span>
+<span class="token function">git</span> pull \u8FDC\u7A0B\u4ED3\u5E93 <span class="token comment">#\u62C9\u53D6\uFF1A\u83B7\u53D6+\u5408\u5E76</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>\u5728\u7A0B\u5E8F\u5458B\u62C9\u53D6\u4E86\u6700\u65B0\u7684\u7248\u672C\u540E\uFF0C\u518D\u7F16\u5199\u81EA\u5DF1\u7684\u4EE3\u7801\u7136\u540E\u63D0\u4EA4\u5C31\u53EF\u4EE5\u5B9E\u73B0\u591A\u4EBA\u5408\u4F5C\u7F16\u5199\u9879\u76EE\u4E86\uFF0C\u5E76\u4E14\u5728\u62C9\u53D6\u8FC7\u7A0B\u4E2D\u5C31\u80FD\u5C06\u522B\u4EBA\u63D0\u4EA4\u7684\u5185\u5BB9\u540C\u6B65\u5230\u672C\u5730\uFF0C\u5F00\u53D1\u6548\u7387\u5927\u5927\u63D0\u5347\u3002</p><p>\u5982\u679C\u5DE5\u4F5C\u4E2D\u5B58\u5728\u4E0D\u534F\u8C03\u7684\u5730\u65B9\uFF0C\u6BD4\u5982\u73B0\u5728\u6211\u4EEC\u672C\u5730\u6709\u4E24\u4E2A\u4ED3\u5E93\uFF0C\u4E00\u4E2A\u4ED3\u5E93\u53BB\u4FEE\u6539hello.txt\u5E76\u76F4\u63A5\u63D0\u4EA4\uFF0C\u53E6\u4E00\u4E2A\u4ED3\u5E93\u4E5F\u4FEE\u6539hello.txt\u5E76\u76F4\u63A5\u63D0\u4EA4\uFF0C\u4F1A\u5F97\u5230\u5982\u4E0B\u9519\u8BEF\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>To https://github.com/xx/xxx.git
+ <span class="token operator">!</span> <span class="token punctuation">[</span>rejected<span class="token punctuation">]</span>        master -<span class="token operator">&gt;</span> master <span class="token punctuation">(</span>fetch first<span class="token punctuation">)</span>
+error: failed to push some refs to <span class="token string">&#39;https://github.com/xx/xxx.git&#39;</span>
+hint: Updates were rejected because the remote contains work that you <span class="token keyword">do</span>
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: <span class="token punctuation">(</span>e.g., <span class="token string">&#39;git pull ...&#39;</span><span class="token punctuation">)</span> before pushing again.
+hint: See the <span class="token string">&#39;Note about fast-forwards&#39;</span> <span class="token keyword">in</span> <span class="token string">&#39;git push --help&#39;</span> <span class="token keyword">for</span> details.
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><p>\u4E00\u65E6\u4E00\u4E2A\u672C\u5730\u4ED3\u5E93\u63A8\u9001\u4E86\u4EE3\u7801\uFF0C\u90A3\u4E48\u53E6\u4E00\u4E2A\u672C\u5730\u4ED3\u5E93\u7684\u63A8\u9001\u4F1A\u88AB\u62D2\u7EDD\uFF0C\u539F\u56E0\u662F\u5F53\u524D\u6587\u4EF6\u5DF2\u7ECF\u88AB\u5176\u4ED6\u7684\u63A8\u9001\u7ED9\u4FEE\u6539\u4E86\uFF0C\u6211\u4EEC\u8FD9\u8FB9\u76F8\u5F53\u4E8E\u662F\u53E6\u4E00\u4E2A\u7248\u672C\uFF0C\u548C\u4E4B\u524D\u4E24\u4E2A\u5206\u652F\u5408\u5E76\u4E00\u6837\uFF0C\u4EA7\u751F\u4E86\u51B2\u7A81\uFF0C\u56E0\u6B64\u6211\u4EEC\u53EA\u80FD\u53BB\u89E3\u51B3\u51B2\u7A81\u95EE\u9898\u3002</p><p>\u5982\u679C\u8FDC\u7A0B\u4ED3\u5E93\u4E2D\u7684\u63D0\u4EA4\u548C\u672C\u5730\u4ED3\u5E93\u4E2D\u7684\u63D0\u4EA4\u6CA1\u6709\u53BB\u7F16\u5199\u540C\u4E00\u4E2A\u6587\u4EF6\uFF0C\u90A3\u4E48\u5C31\u53EF\u4EE5\u76F4\u63A5\u62C9\u53D6\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> pull \u8FDC\u7A0B\u4ED3\u5E93
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u62C9\u53D6\u540E\u4F1A\u81EA\u52A8\u8FDB\u884C\u5408\u5E76\uFF0C\u5408\u5E76\u5B8C\u6210\u4E4B\u540E\u6211\u4EEC\u518D\u63D0\u4EA4\u5373\u53EF\u3002</p><p>\u4F46\u662F\u5982\u679C\u4E24\u6B21\u63D0\u4EA4\u90FD\u4FEE\u6539\u4E86\u540C\u4E00\u4E2A\u6587\u4EF6\uFF0C\u90A3\u4E48\u5C31\u4F1A\u9047\u5230\u548C\u591A\u5206\u652F\u5408\u5E76\u4E00\u6837\u7684\u60C5\u51B5\uFF0C\u5728\u5408\u5E76\u65F6\u4F1A\u4EA7\u751F\u51B2\u7A81\uFF0C\u8FD9\u65F6\u5C31\u9700\u8981\u6211\u4EEC\u81EA\u5DF1\u53BB\u89E3\u51B3\u51B2\u7A81\u4E86\u3002</p><p>\u6211\u4EEC\u53EF\u4EE5\u5728IDEA\u4E2D\u6F14\u793A\u4E00\u4E0B\uFF0C\u5B9E\u9645\u5F00\u53D1\u573A\u666F\u4E0B\u53EF\u80FD\u4F1A\u9047\u5230\u7684\u95EE\u9898\u3002</p><p>\u7ED3\u675F\uFF01</p><!--]-->`);
+}
+const _sfc_setup$P = _sfc_main$P.setup;
+_sfc_main$P.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/git/01.git\u7248\u672C\u63A7\u5236.html.vue");
+  return _sfc_setup$P ? _sfc_setup$P(props, ctx) : void 0;
+};
+var _01_git_____html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$P, [["ssrRender", _sfc_ssrRender$B]]);
+var _01_git_____html$2 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": _01_git_____html$1
+});
 const _sfc_main$O = {};
 function _sfc_ssrRender$A(_ctx, _push, _parent, _attrs) {
-  _push(`<!--[--><h1 id="\u5E8F\u8A00" tabindex="-1"><a class="header-anchor" href="#\u5E8F\u8A00" aria-hidden="true">#</a> \u5E8F\u8A00</h1><h2 id="\u9002\u5408\u4EBA\u7FA4" tabindex="-1"><a class="header-anchor" href="#\u9002\u5408\u4EBA\u7FA4" aria-hidden="true">#</a> \u9002\u5408\u4EBA\u7FA4</h2><ul><li>\u5DF2\u6709Flutter\u57FA\u7840\u7684\u5C0F\u4F19\u4F34</li><li>\u7F3A\u4E4FFlutter\u9879\u76EE\u7ECF\u9A8C\u7684\u5F00\u53D1\u4EBA\u5458</li><li>\u72EC\u7ACB\u5B8C\u6210\u9879\u76EE\u6216\u6BD5\u8BBE\u7684\u5927\u5B66\u751F</li></ul><h2 id="_1-\u9879\u76EE\u7ED3\u6784" tabindex="-1"><a class="header-anchor" href="#_1-\u9879\u76EE\u7ED3\u6784" aria-hidden="true">#</a> 1.\u9879\u76EE\u7ED3\u6784</h2><div class="language-file ext-file line-numbers-mode"><pre class="language-file"><code>|---flutter_locyin
-|     |---android  
-|     |---assets  
-|     |     |---fonts // \u5B57\u4F53\u8D44\u6E90  
-|     |     |---icon // \u56FE\u6807\u8D44\u6E90  
-|     |     |---images // \u56FE\u7247\u8D44\u6E90  
-|     |     |---json // \u672C\u5730\u6A21\u62DFJSON  
-|     |---ios  
-|     |---lib  
-|     |     |---data  
-|     |     |     |---api // http \u63A5\u53E3\u548C\u670D\u52A1\u7C7B  
-|     |     |     |---model // \u6570\u636E\u6A21\u578B  
-|     |     |---common
-|     |     |     |---lang  // \u8BED\u8A00\u76EE\u5F55
-|     |     |          \u2514\u2500\u2500en_US // \u82F1\u6587\u8BED\u8A00\u5305
-|     |     |          \u2514\u2500\u2500zh_Hans // \u4E2D\u6587\u8BED\u8A00\u5305
-|     |     |          \u2514\u2500\u2500translation_service // \u7FFB\u8BD1\u670D\u52A1\u7C7B
-|     |     |---init // \u542F\u52A8\u76EE\u5F55
-|     |     |     \u2514\u2500\u2500 app_init.dart // \u6355\u83B7\u5F02\u5E38 
-|     |     |     \u2514\u2500\u2500 default_app.dart // \u9ED8\u8BA4 App \u542F\u52A8
-|     |     |---page  
-|     |     |     \u2514\u2500\u2500 index.dart // \u4E3B\u8981\u7528\u4E8E\u5E95\u90E8\u5BFC\u822A\u3001\u72B6\u6001\u4FDD\u6301  
-|     |     |     \u2514\u2500\u2500 xxx.dart // \u6240\u6709\u9875\u9762\u5E03\u5C40\uFF0C\u4E0D\u518D\u4E00\u4E00\u5217\u51FA  
-|     |     |---route // \u8DEF\u7531\u76EE\u5F55
-|     |     |     \u2514\u2500\u2500 route_map.dart  // Getx \u8DEF\u7531\u8868  
-|     |     |     \u2514\u2500\u2500 route.dart // \u4E8C\u6B21\u5C01\u88C5 Getx
-|     |     |---utils // \u4E8C\u6B21\u5C01\u88C5\u7B2C\u4E09\u65B9\u5E93\u76EE\u5F55  
-|     |     |     \u2514\u2500\u2500 provider.dart // APP \u72B6\u6001\u7BA1\u7406  
-|     |     |     \u2514\u2500\u2500 sputils.dart // \u6570\u636E\u6301\u4E45\u5316\u5B58\u50A8  
-|     |     |     \u2514\u2500\u2500 dio_manager.dart // \u4E8C\u6B21\u5C01\u88C5 Dio\uFF0C\u914D\u7F6E\u4FE1\u606F\u3001\u8BF7\u6C42\u65E5\u5FD7\u3001\u81EA\u52A8\u5904\u7406\u9519\u8BEF\u7B49  
-|     |     |---widgets // \u5C01\u88C5\u7684\u5C0F\u90E8\u4EF6\u76EE\u5F55  
-|     |     \u2514\u2500\u2500 main.dart // APP \u5165\u53E3\u6587\u4EF6  
-|     |---test
-|     |---web
-|     \u2514\u2500\u2500 pubspec.yaml //\u4F9D\u8D56\u914D\u7F6E\u7BA1\u7406  
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br></div></div><h2 id="_2-\u8D77\u6B65" tabindex="-1"><a class="header-anchor" href="#_2-\u8D77\u6B65" aria-hidden="true">#</a> 2.\u8D77\u6B65</h2><h2 id="_3-\u9519\u8BEF\u6355\u83B7\u548C\u4E0A\u62A5" tabindex="-1"><a class="header-anchor" href="#_3-\u9519\u8BEF\u6355\u83B7\u548C\u4E0A\u62A5" aria-hidden="true">#</a> 3.\u9519\u8BEF\u6355\u83B7\u548C\u4E0A\u62A5</h2><h2 id="_4-\u62BD\u5C49\u9875" tabindex="-1"><a class="header-anchor" href="#_4-\u62BD\u5C49\u9875" aria-hidden="true">#</a> 4.\u62BD\u5C49\u9875</h2><h2 id="_5-\u8DEF\u7531\u7BA1\u7406-getx" tabindex="-1"><a class="header-anchor" href="#_5-\u8DEF\u7531\u7BA1\u7406-getx" aria-hidden="true">#</a> 5.\u8DEF\u7531\u7BA1\u7406\uFF08getX\uFF09</h2><h2 id="_6-\u56FD\u9645\u5316-getx" tabindex="-1"><a class="header-anchor" href="#_6-\u56FD\u9645\u5316-getx" aria-hidden="true">#</a> 6.\u56FD\u9645\u5316\uFF08getX\uFF09</h2><!--]-->`);
-}
-const _sfc_setup$O = _sfc_main$O.setup;
-_sfc_main$O.setup = (props, ctx) => {
-  const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/actualCombat/Flutter\u5DE5\u7A0B\u5B9E\u6218/01.\u8D77\u6B65.html.vue");
-  return _sfc_setup$O ? _sfc_setup$O(props, ctx) : void 0;
-};
-var _01____html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$O, [["ssrRender", _sfc_ssrRender$A]]);
-var _01____html$2 = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  "default": _01____html$1
-});
-const _sfc_main$N = {};
-function _sfc_ssrRender$z(_ctx, _push, _parent, _attrs) {
-  const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
-  _push(`<!--[--><h1 id="mysql" tabindex="-1"><a class="header-anchor" href="#mysql" aria-hidden="true">#</a> MySQL</h1><p>\u6570\u636E\u7B80\u5355\u6765\u8BF4\u5C31\u662F\u5B58\u50A8\u6570\u636E\u7684\u5E93</p><ul><li>\u5173\u7CFB\u578B\u6570\u636E\u5E93\uFF1AMySQL,oracle</li><li>\u975E\u5173\u7CFB\u578B\u6570\u636E\u5E93\uFF1Aredis,mongodb</li></ul><h2 id="\u5B89\u88C5" tabindex="-1"><a class="header-anchor" href="#\u5B89\u88C5" aria-hidden="true">#</a> \u5B89\u88C5</h2><p><a href="https://dev.mysql.com/downloads/mysql/" target="_blank" rel="noopener noreferrer">https://dev.mysql.com/downloads/mysql/`);
-  _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
-  _push(`</a></p><ol><li><p>\u5EFA\u8BAE\u4E0D\u8981\u4F7F\u7528 exe\uFF0C\u4F1A\u81EA\u52A8\u6DFB\u52A0\u5230\u6CE8\u518C\u8868\uFF0C\u5220\u9664\u65F6\u4F1A\u5BFC\u81F4\u4E00\u4E9B\u5947\u602A\u60C5\u51B5</p></li><li><p>\u538B\u7F29\u5305\u5B89\u88C5\u65B9\u4FBF\u5378\u8F7D\u548C\u7BA1\u7406</p><p>\u5B89\u88C5\u6559\u7A0B\u8FD9\u91CC\u4E0D\u518D\u8D58\u8FF0</p></li></ol><h2 id="\u5B89\u88C5-navicat" tabindex="-1"><a class="header-anchor" href="#\u5B89\u88C5-navicat" aria-hidden="true">#</a> \u5B89\u88C5 navicat</h2><p>\u5728\u6B63\u89C4\u673A\u6784\u4E00\u822C\u90FD\u4F1A\u8D2D\u4E70\uFF0C\u6211\u5C31\u4E0D\u8BF4\u4E86\uFF0C\u6839\u636E\u60C5\u51B5\u81EA\u5DF1\u4F7F\u7528\uFF0C\u53EF\u89C6\u5316\u5DE5\u5177\u53EA\u662F\u8F85\u52A9\u4F5C\u7528\uFF0C\u4E0D\u80FD\u4F9D\u8D56\u3002</p><h2 id="\u57FA\u672C\u547D\u4EE4\u884C" tabindex="-1"><a class="header-anchor" href="#\u57FA\u672C\u547D\u4EE4\u884C" aria-hidden="true">#</a> \u57FA\u672C\u547D\u4EE4\u884C</h2><p>\u76EE\u524D\u4E3A\u6B62\uFF0CMySQL \u8BED\u53E5\u5FC5\u987B\u5206\u53F7\u7ED3\u5C3E\uFF0C\u5173\u952E\u5B57\u6CE8\u610F\u4E0D\u533A\u5206\u5927\u5C0F\u5199\u3002</p><ol><li>\u94FE\u63A5 MySQL</li><li>\u4FEE\u6539\u5BC6\u7801</li><li>\u5237\u65B0\u6743\u9650</li><li>\u6253\u5370\u5168\u90E8\u6570\u636E\u5E93</li><li>\u5207\u6362\u6570\u636E\u5E93</li><li>\u6253\u5370\u6240\u6709\u8868</li><li>\u663E\u793A\u8868\u4FE1\u606F</li><li>\u521B\u5EFA\u6570\u636E\u5E93</li><li>\u5173\u95ED\u6570\u636E\u5E93</li><li>\u6CE8\u91CA</li></ol><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">-- \u767B\u5F55MySQL\u94FE\u63A5\u6570\u636E\u5E93</span>
-mysql <span class="token operator">-</span>u root <span class="token operator">-</span>p <span class="token number">123456</span>
-
-<span class="token comment">-- MySQL5.7\u4FEE\u6539\u5BC6\u7801(\u4E0B\u9762\u662F\u628Aroot\u5BC6\u7801\u6539\u4E3A123456)</span>
-<span class="token keyword">update</span> mysql<span class="token punctuation">.</span><span class="token keyword">user</span> <span class="token keyword">set</span> authentication_string<span class="token operator">=</span>password<span class="token punctuation">(</span><span class="token string">&#39;123456&#39;</span><span class="token punctuation">)</span> <span class="token keyword">where</span> <span class="token keyword">user</span> <span class="token operator">=</span> <span class="token string">&quot;root&quot;</span><span class="token punctuation">;</span>
-
-<span class="token comment">-- MySQL8\u4FEE\u6539\u5BC6\u7801(\u8981\u5148\u767B\u5F55root)</span>
-<span class="token keyword">show</span> <span class="token keyword">database</span><span class="token punctuation">;</span>
-<span class="token keyword">use</span> mysql<span class="token punctuation">;</span>
-<span class="token keyword">alter</span> <span class="token keyword">user</span> <span class="token string">&quot;root&quot;</span><span class="token variable">@&quot;localhost&quot;</span> identified <span class="token keyword">with</span> mysql_native_password <span class="token keyword">by</span> <span class="token string">&#39;123456&#39;</span><span class="token punctuation">;</span>
-
-<span class="token comment">-- \u5237\u65B0MySQL\u7CFB\u7EDF\u6743\u9650\u76F8\u5173</span>
-flush <span class="token keyword">privileges</span><span class="token punctuation">;</span>
-
-<span class="token comment">-- \u6253\u5370\u5168\u90E8\u6570\u636E\u5E93</span>
-<span class="token keyword">show</span> <span class="token keyword">database</span><span class="token punctuation">;</span>
-
-<span class="token comment">-- \u5207\u6362\u6570\u636E\u5E93(\u5207\u6362\u5230school\u6570\u636E\u5E93)</span>
-<span class="token keyword">use</span> school<span class="token punctuation">;</span>
-
-<span class="token comment">-- \u6253\u5370\u6240\u6709\u8868</span>
-<span class="token keyword">show</span> <span class="token keyword">tables</span><span class="token punctuation">;</span>
-
-<span class="token comment">-- \u663E\u793A\u8868\u4FE1\u606F(\u663E\u793Astudent\u8868\u4FE1\u606F)</span>
-<span class="token keyword">describe</span> student<span class="token punctuation">;</span>
-
-<span class="token comment">-- \u521B\u5EFA\u6570\u636E\u5E93(\u521B\u5EFAschool\u6570\u636E\u5E93)</span>
-<span class="token keyword">create</span> <span class="token keyword">database</span> school<span class="token punctuation">;</span>
-
-<span class="token comment">-- \u5173\u95ED\u6570\u636E\u5E93</span>
-<span class="token keyword">exit</span><span class="token punctuation">;</span>
-
-<span class="token comment">-- \u5355\u884C\u6CE8\u91CA</span>
-
-<span class="token comment">/*
-\u591A\u884C\u6CE8\u91CA
-*/</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br></div></div><p>\u4E00\u4E9B\u540D\u79F0\u91CA\u4E49\uFF1A</p><p><code>DDL</code>\uFF1A\u6570\u636E\u5E93\u5B9A\u4E49\u8BED\u8A00</p><p><code>DML</code>\uFF1A\u6570\u636E\u5E93\u64CD\u4F5C\u8BED\u8A00</p><p><code>DQL</code>\uFF1A\u6570\u636E\u5E93\u67E5\u8BE2\u8BED\u8A00</p><p><code>DCL</code>\uFF1A\u6570\u636E\u5E93\u63A7\u5236\u8BED\u8A00</p><h2 id="\u64CD\u4F5C\u6570\u636E\u5E93" tabindex="-1"><a class="header-anchor" href="#\u64CD\u4F5C\u6570\u636E\u5E93" aria-hidden="true">#</a> \u64CD\u4F5C\u6570\u636E\u5E93</h2><p><code>\u64CD\u4F5C\u6570\u636E\u5E93</code>\u2014\u2014&gt;<code>\u64CD\u4F5C\u6570\u636E\u5E93\u8868</code>\u2014\u2014&gt;<code>\u64CD\u4F5C\u6570\u636E\u5E93\u8868\u6570\u636E</code></p><p>\u57FA\u672C<code>CRUD</code>\u589E\u5220\u67E5\u6539\u3002</p><p><code>\u91CA\u4E49\uFF1A\u4E0B\u9762\u7B26\u53F7</code> [ ] <code>\u662F\u53EF\u9009\u7684\u9009\u9879\u4F46\u4E0D\u5305\u62EC</code> [ ] <code>\u7B26\u53F7\uFF0C\u5982\uFF1A</code> <code>[if not exists]</code> <code>\u7B49\u4E8E</code> <code>if not exists</code> <code>;</code></p><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">-- \u521B\u5EFAschool\u6570\u636E\u5E93\uFF1B\u5982\u679C\u4E0D\u5B58\u5728\u7684\u8BDD\uFF0C[if not exists]\u4F5C\u7528\u662F\u5982\u679C\u5DF2\u7ECF\u5B58\u5728\u5219\u8DF3\u8FC7\uFF0C\u4E0D\u4F1A\u518D\u62A5\u9519\u3002</span>
-<span class="token keyword">create</span> <span class="token keyword">database</span> <span class="token punctuation">[</span><span class="token keyword">if</span> <span class="token operator">not</span> <span class="token keyword">exists</span><span class="token punctuation">]</span> school<span class="token punctuation">;</span>
-
-<span class="token comment">-- \u5220\u9664\u6570\u636E\u5E93\uFF0C\u5982\u679C\u5B58\u5728\uFF0C\u4E0D\u5B58\u5728\u5219\u8DF3\u8FC7\u8FD9\u53E5\u3002</span>
-<span class="token keyword">drop</span> databser <span class="token punctuation">[</span><span class="token keyword">if</span> <span class="token keyword">exists</span><span class="token punctuation">]</span> school<span class="token punctuation">;</span>
-
-<span class="token comment">-- \u5207\u6362\u6570\u636E\u5E93(\u6CE8\u610F\u4E0B\u9762\u5E93\u540D\u6709\u53CD\u5F15\u53F7\uFF0C\u5982\u679C\u4F60\u7684\u5B57\u6BB5\u548CMySQL\u91CD\u540D\u4E86\u5C31\u9700\u8981\u7528\u53CD\u5F15\u53F7\u5305\u88F9)</span>
-<span class="token keyword">use</span> <span class="token punctuation">\`</span>school<span class="token punctuation">\`</span><span class="token punctuation">;</span>
-
-<span class="token comment">-- \u67E5\u770B\u6240\u6709\u6570\u636E\u5E93</span>
-<span class="token keyword">show</span> <span class="token keyword">databases</span><span class="token punctuation">;</span>
-
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><h2 id="\u64CD\u4F5C\u8868" tabindex="-1"><a class="header-anchor" href="#\u64CD\u4F5C\u8868" aria-hidden="true">#</a> \u64CD\u4F5C\u8868</h2><h3 id="_1-\u6570\u636E\u7C7B\u578B" tabindex="-1"><a class="header-anchor" href="#_1-\u6570\u636E\u7C7B\u578B" aria-hidden="true">#</a> 1.\u6570\u636E\u7C7B\u578B</h3><blockquote><p><code>\u6570\u503C</code></p></blockquote><ul><li><code>tinyint</code>\uFF1A\u5341\u5206\u5C0F\u7684\u6570\u636E\uFF0C1 \u4E2A\u5B57\u8282</li><li><code>smallint</code>\uFF1A\u8F83\u5C0F\u7684\u6570\u636E\uFF0C2 \u4E2A\u5B57\u8282</li><li><code>mediumint</code>\uFF1A\u4E2D\u7B49\u5927\u5C0F\u7684\u6570\u636E\uFF0C3 \u4E2A\u5B57\u8282</li><li><code>int</code>\uFF1A\u6807\u51C6\u6574\u6570\uFF0C4 \u4E2A\u5B57\u8282\uFF0C\u5E38\u7528</li><li><code>bigint</code>\uFF1A\u8F83\u5927\u7684\u6570\u636E\uFF0C8 \u4E2A\u5B57\u8282</li><li><code>float</code>\uFF1A\u6D6E\u70B9\u6570\uFF0C4 \u4E2A\u5B57\u8282</li><li><code>double</code>\uFF1A\u6D6E\u70B9\u6570\uFF0C8 \u4E2A\u5B57\u8282</li><li><code>decimal</code>\uFF1A\u5B57\u7B26\u4E32\u6D6E\u70B9\u6570\uFF0C\u91D1\u878D\u8BA1\u7B97\u5E38\u7528\uFF08\u4E0D\u4F1A\u7CBE\u5EA6\u7F3A\u5C11\uFF09\u5E38\u7528</li></ul><blockquote><p><code>\u5B57\u7B26\u4E32</code></p></blockquote><ul><li><code>char</code>\uFF1A\u56FA\u5B9A\u5927\u5C0F\u5B57\u7B26\u4E32\uFF0C0-255</li><li><code>varchar</code>\uFF1A\u53EF\u53D8\u5B57\u7B26\u4E32\uFF0C0-65535\uFF0C\u5E38\u7528\uFF0C\u5BF9\u5E94 Java \u4E2D\u7684 string</li><li><code>tinytext</code>\uFF1A\u5FAE\u578B\u6587\u672C\uFF0C2<sup>8</sup>-1</li><li><code>text</code>\uFF1A\u6587\u672C\u4E32\uFF0C2<sup>16</sup>-1</li></ul><blockquote><p><code>\u65F6\u95F4\u65E5\u671F</code></p></blockquote><ul><li><code>date</code>\uFF1Ayyyy-mm-dd\uFF0C\u65E5\u671F</li><li><code>time</code>\uFF1Ahh:mm:ss \u65F6\u95F4\u683C\u5F0F</li><li><code>datetime</code>\uFF1Ayyyy-mm-dd hh:mm:ss \u5E38\u7528\u7684\u65F6\u95F4\u683C\u5F0F</li><li><code>timestamp</code>\uFF1A\u65F6\u95F4\u6233\uFF0C1970.1.1 \u5230\u73B0\u5728\u7684\u65F6\u95F4\u6233\uFF0C\u5E38\u7528\u7684\u65F6\u95F4\u683C\u5F0F</li><li><code>year</code>\uFF1A\u5E74\u4EFD\u8868\u793A</li></ul><blockquote><p><code>null</code></p></blockquote><ul><li>\u6CA1\u6709\u503C\uFF0C\u672A\u77E5</li><li>\u6CE8\u610F\uFF0C\u5C3D\u91CF\u4E0D\u8981\u4F7F\u7528 null \u6765\u8FD0\u7B97\uFF0C\u5BB9\u6613\u62A5\u9519</li><li>\u5982\u679C\u6539\u5217\u6CA1\u503C\uFF0C\u53EF\u4EE5\u7528\u5176\u7C7B\u578B\u7684\u9ED8\u8BA4\u503C\uFF0C\u4E0D\u8981 null</li></ul><h3 id="_2-\u5B57\u6BB5\u5C5E\u6027-\u91CD\u8981" tabindex="-1"><a class="header-anchor" href="#_2-\u5B57\u6BB5\u5C5E\u6027-\u91CD\u8981" aria-hidden="true">#</a> 2.\u5B57\u6BB5\u5C5E\u6027\uFF08\u91CD\u8981\uFF09</h3><blockquote><p><code>Unsigned</code></p></blockquote><p>\u6570\u503C\u7C7B\u578B\u4F7F\u7528\uFF0C\u6807\u6CE8\u503C\u4E3A\u65E0\u7B26\u53F7\u7684\u6574\u6570\uFF0C\u4E0D\u80FD\u4E3A\u8D1F\u6570\uFF0C\u5426\u5219\u62A5\u9519\u3002</p><blockquote><p><code>zerofill</code></p></blockquote><p>0 \u586B\u5145\u7684 \u4E0D\u8DB3\u7684\u4F4D\u6570\uFF0C\u4F7F\u7528 0 \u6765\u586B\u5145 \u6BD4\u5982\uFF1Aint(5 \u4E2A\u5B57\u8282)\uFF0C\u5982\u679C\u4F20\u5165<code>5</code>\uFF0C\u90A3\u4FDD\u5B58\u7684\u662F<code>0005</code></p><blockquote><p><code>auto_increamennt</code></p></blockquote><p>\u7B80\u5355\u7406\u89E3\u5C31\u662F\u81EA\u589E\uFF0C\u81EA\u52A8\u5728\u4E0A\u4E00\u6761\u8BB0\u5F55\u57FA\u7840\u4E0A\u52A0\u4E00\uFF08\u9ED8\u8BA4\uFF09 \u5E38\u7528\u4E8E\u8BBE\u8BA1\u552F\u4E00\u4E3B\u952E\u81EA\u589E\uFF0C\u5FC5\u987B\u662F\u6574\u6570\u7C7B\u578B \u53EF\u4EE5\u8BBE\u7F6E\u8D77\u59CB\u503C\u548C\u589E\u91CF\uFF0C\u4E00\u822C\u4E0D\u6539</p><blockquote><p>not null</p></blockquote><p>\u975E\u7A7A \u5982\u679C\u8BBE\u7F6E\u4E86\uFF0C\u5728\u63D2\u5165\u503C\u7684\u65F6\u5019\u5982\u679C\u4E3A null \u5219\u62A5\u9519\u3002 null\uFF1A\u5982\u679C\u4E0D\u586B\u5199\u503C\uFF0CMySQL \u4F1A\u4E3A null\u3002</p><blockquote><p>default</p></blockquote><p>\u8BBE\u7F6E\u9ED8\u8BA4\u503C \u5982\u679C\u63D2\u5165\u6570\u636E\u65F6\uFF0C\u5982\u679C\u4E0D\u6307\u5B9A\u8BE5\u5217\u7684\u503C\uFF0C\u5C31\u4F1A\u4F7F\u7528 default \u9ED8\u8BA4\u503C</p><ol><li>\u7EC3\u4E60 <ul><li>\u521B\u5EFA\u4E00\u4E2A school \u5E93</li><li>\u521B\u5EFA\u5B66\u751F\u8868</li><li>\u5B66\u53F7 int</li><li>\u767B\u9646\u5BC6\u7801 varchar(20)</li><li>\u59D3\u540D</li><li>\u6027\u522B</li><li>\u51FA\u751F\u65E5\u671F</li><li>\u5BB6\u5EAD\u5730\u5740</li><li>Email</li></ul></li></ol><p>\u6CE8\u610F\uFF1A\u4F7F\u7528\u82F1\u6587\u7B26\u53F7\uFF0C\u8868\u548C\u5B57\u6BB5\u540D\u79F0\u5C3D\u91CF\u4F7F\u7528\u53CD\u5F15\u53F7\u5305\u88F9\u3002\u552F\u4E00\u503C\u8BBE\u7F6E\u81EA\u589E,\u4E00\u822C\u4F7F\u7528\u5355\u5F15\u53F7\uFF0C\u8BED\u53E5\u9017\u53F7\u9694\u5F00\uFF0C\u6700\u540E\u4E00\u4E2A\u4E0D\u7528</p><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token keyword">show</span> <span class="token keyword">create</span> <span class="token keyword">database</span> school<span class="token punctuation">;</span> <span class="token comment">--\u67E5\u770B\u521B\u5EFA\u6570\u636E\u5E93\u7684\u8BED\u53E5</span>
-<span class="token keyword">show</span> <span class="token keyword">create</span> <span class="token keyword">table</span> student<span class="token punctuation">;</span> <span class="token comment">--\u67E5\u770B\u8868\u5B9A\u4E49\u7684\u8BED\u53E5</span>
-<span class="token keyword">desc</span> student <span class="token comment">--\u67E5\u770B\u8868\u7ED3\u6784</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token keyword">create</span> <span class="token keyword">table</span> <span class="token keyword">if</span> <span class="token operator">not</span> <span class="token keyword">exists</span> <span class="token punctuation">\`</span>student<span class="token punctuation">\`</span> <span class="token punctuation">(</span>
-   <span class="token punctuation">\`</span>id<span class="token punctuation">\`</span> <span class="token keyword">int</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">)</span> <span class="token operator">not</span> <span class="token boolean">null</span> auto_increamennt <span class="token keyword">comment</span> <span class="token string">&#39;\u5B66\u53F7&#39;</span><span class="token punctuation">,</span>
-   <span class="token punctuation">\`</span>name<span class="token punctuation">\`</span> <span class="token keyword">varchar</span><span class="token punctuation">(</span><span class="token number">30</span><span class="token punctuation">)</span> <span class="token operator">not</span> <span class="token boolean">null</span> <span class="token keyword">default</span> <span class="token string">&#39;\u533F\u540D&#39;</span> <span class="token keyword">comment</span> <span class="token string">&#39;\u59D3\u540D&#39;</span><span class="token punctuation">,</span>
-   <span class="token punctuation">\`</span>password<span class="token punctuation">\`</span> <span class="token keyword">varchar</span><span class="token punctuation">(</span><span class="token number">20</span><span class="token punctuation">)</span> <span class="token operator">not</span> <span class="token boolean">null</span> <span class="token keyword">default</span> <span class="token string">&#39;123456&#39;</span> <span class="token keyword">comment</span> <span class="token string">&#39;\u5BC6\u7801&#39;</span><span class="token punctuation">,</span>
-   <span class="token punctuation">\`</span>sex<span class="token punctuation">\`</span> <span class="token keyword">varchar</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span> <span class="token operator">not</span> <span class="token boolean">null</span> <span class="token keyword">default</span> <span class="token string">&#39;\u5973&#39;</span> <span class="token keyword">comment</span> <span class="token string">&#39;\u6027\u522B&#39;</span><span class="token punctuation">,</span>
-   <span class="token punctuation">\`</span>birthday<span class="token punctuation">\`</span> <span class="token keyword">datetime</span> <span class="token keyword">default</span> <span class="token boolean">null</span> <span class="token keyword">comment</span> <span class="token string">&#39;\u51FA\u751F\u65E5\u671F&#39;</span><span class="token punctuation">,</span>
-   <span class="token punctuation">\`</span>address<span class="token punctuation">\`</span> <span class="token keyword">varchar</span><span class="token punctuation">(</span><span class="token number">100</span><span class="token punctuation">)</span> <span class="token keyword">default</span> <span class="token boolean">null</span> <span class="token keyword">comment</span> <span class="token string">&#39;\u5BB6\u5EAD\u5730\u5740&#39;</span><span class="token punctuation">,</span>
-   <span class="token punctuation">\`</span>email<span class="token punctuation">\`</span> <span class="token keyword">varchar</span><span class="token punctuation">(</span><span class="token number">50</span><span class="token punctuation">)</span> <span class="token keyword">default</span> <span class="token boolean">null</span> <span class="token keyword">comment</span> <span class="token string">&#39;&#39;</span>\u90AE\u7BB1<span class="token punctuation">,</span>
-   <span class="token keyword">primary</span> <span class="token keyword">key</span><span class="token punctuation">(</span><span class="token punctuation">\`</span>id<span class="token punctuation">\`</span><span class="token punctuation">)</span>
-<span class="token punctuation">)</span><span class="token keyword">engine</span><span class="token operator">=</span><span class="token keyword">innodb</span> <span class="token keyword">default</span> <span class="token keyword">charset</span><span class="token operator">=</span>utf8
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token keyword">create</span> <span class="token keyword">table</span> <span class="token punctuation">[</span><span class="token keyword">if</span> <span class="token operator">not</span> exiset<span class="token punctuation">]</span> <span class="token punctuation">\`</span>\u8868\u540D<span class="token punctuation">\`</span> <span class="token punctuation">(</span>
-   <span class="token punctuation">\`</span>\u5B57\u6BB5\u540D<span class="token punctuation">\`</span> \u5217\u7C7B\u578B <span class="token punctuation">[</span>\u5C5E\u6027<span class="token punctuation">]</span> <span class="token punctuation">[</span>\u7D22\u5F15<span class="token punctuation">]</span> <span class="token punctuation">[</span>\u6CE8\u91CA<span class="token punctuation">]</span>
-   <span class="token comment">--......</span>
-<span class="token punctuation">)</span><span class="token punctuation">[</span>\u8868\u7C7B\u578B<span class="token punctuation">]</span><span class="token punctuation">[</span>\u5B57\u7B26\u96C6\u8BBE\u7F6E<span class="token punctuation">]</span><span class="token punctuation">[</span>\u6CE8\u91CA<span class="token punctuation">]</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h3 id="_3-\u6570\u636E\u5E93\u5F15\u64CE\u548C\u7F16\u7801" tabindex="-1"><a class="header-anchor" href="#_3-\u6570\u636E\u5E93\u5F15\u64CE\u548C\u7F16\u7801" aria-hidden="true">#</a> 3.\u6570\u636E\u5E93\u5F15\u64CE\u548C\u7F16\u7801</h3><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">MyIsam</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">InnoDB</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4E8B\u52A1\u652F\u6301</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4E0D\u652F\u6301</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u652F\u6301</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6570\u636E\u884C\u9501\u5B9A</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4E0D\u652F\u6301</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u652F\u6301</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5916\u952E</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4E0D\u652F\u6301</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u652F\u6301</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5168\u6587\u7D22\u5F15</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u652F\u6301</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6682\u4E0D\u652F\u6301</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u7A7A\u95F4\u5927\u5C0F</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8F83\u5C0F</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8F83\u5927\uFF0C\u7EA6\u524D\u8005 2 \u500D</td></tr></tbody></table><blockquote><p>\u7269\u7406\u5B58\u50A8\u7684\u533A\u522B</p></blockquote><ol><li>InnoDB\uFF1A(\u6CE8\u610F 5.x \u548C 8.x \u7248\u672C\u6709\u4E0D\u540C)</li></ol><p><code>.frm</code>\uFF1A\u5B58\u50A8\u8868\u5B9A\u4E49\uFF0C\u5728 5.x \u4EE5\u4E0B\u5E94\u8BE5\u5B58\u5728 <code>.idb</code>\uFF1A\u5B58\u50A8\u6570\u636E\u548C\u7D22\u5F15\uFF0C\u5728\u540C\u4E00\u4E2A\u6587\u4EF6\u4E2D\uFF0C8.x \u5E94\u8BE5\u53EF\u89C1</p><ol start="2"><li>MyIsam:</li></ol><p><code>.frm</code>: \u5B58\u50A8\u8868\u5B9A\u4E49 <code>.myd(MYData)</code>: \u5B58\u50A8\u6570\u636E <code>.MYI(MYindex)</code>: \u5B58\u50A8\u5F15\u64CE,\u5373\u7D22\u5F15\u6587\u4EF6</p><blockquote><p>\u8BBE\u7F6E\u6570\u636E\u5E93\u8868\u7F16\u7801\u95EE\u9898</p></blockquote><p><code>charset=utf8</code></p><p>\u9996\u5148MySQL\u9ED8\u8BA4\u5B57\u7B26\u96C6\u7F16\u7801\u4E0D\u652F\u6301\u4E2D\u6587\uFF0C\u6240\u4EE5\u5C3D\u91CF\u90FD\u8BBE\u7F6E\uFF0C\u4E0D\u7136\u5728\u4E0D\u540C\u73AF\u5883\u4E0B\u4F1A\u51FA\u73B0\u95EE\u9898\u3002</p><h3 id="_4-\u5B57\u6BB5\u5220\u9664\u548C\u4FEE\u6539" tabindex="-1"><a class="header-anchor" href="#_4-\u5B57\u6BB5\u5220\u9664\u548C\u4FEE\u6539" aria-hidden="true">#</a> 4.\u5B57\u6BB5\u5220\u9664\u548C\u4FEE\u6539</h3><blockquote><p>\u4FEE\u6539\u8868<code>alter</code></p></blockquote><div class="language-SQL ext-SQL line-numbers-mode"><pre class="language-SQL"><code>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><!--]-->`);
-}
-const _sfc_setup$N = _sfc_main$N.setup;
-_sfc_main$N.setup = (props, ctx) => {
-  const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/mysql/01.mysql.html.vue");
-  return _sfc_setup$N ? _sfc_setup$N(props, ctx) : void 0;
-};
-var _01_mysql_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$N, [["ssrRender", _sfc_ssrRender$z]]);
-var _01_mysql_html$2 = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  "default": _01_mysql_html$1
-});
-const _sfc_main$M = {};
-function _sfc_ssrRender$y(_ctx, _push, _parent, _attrs) {
   const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
   _push(`<!--[--><h1 id="linux" tabindex="-1"><a class="header-anchor" href="#linux" aria-hidden="true">#</a> Linux</h1><p>\u5B66\u4E60\u76EE\u6807</p><ol><li>\u6587\u4EF6\u64CD\u4F5C</li><li>\u76EE\u5F55\u7BA1\u7406</li><li>\u6587\u4EF6\u5C5E\u6027</li><li>Vim \u7F16\u8F91\u5668</li><li>\u8D26\u53F7\u7BA1\u7406</li><li>\u78C1\u76D8\u7BA1\u7406</li><li>\u6743\u9650\u7BA1\u7406</li></ol><h2 id="\u5B66\u524D\u5FC5\u770B" tabindex="-1"><a class="header-anchor" href="#\u5B66\u524D\u5FC5\u770B" aria-hidden="true">#</a> \u5B66\u524D\u5FC5\u770B</h2><p>\u76EE\u524D\u5E02\u9762\u4E0A\u8F83\u77E5\u540D\u7684\u53D1\u884C\u7248\u6709\uFF1AUbuntu\u3001RedHat\u3001CentOS\u3001Debian\u3001Fedora\u3001SuSE\u3001OpenSUSE\u3001Arch Linux\u3001SolusOS \u7B49\u3002</p><p>\u8FD9\u4E9B\u64CD\u4F5C\u7CFB\u7EDF\u90FD\u662F\u57FA\u4E8E Linux \u7684\u53D1\u884C\u7248\uFF0C\u6240\u4EE5 Linux \u662F\u5FC5\u987B\u5B66\u4E60\u7684\uFF0C\u4E0D\u7528\u7EA0\u7ED3\u662F Ubuntu \u6216\u8005 RedHat \u8FD8\u662F CentOS \u7B49\u3002</p><h2 id="\u5165\u95E8\u6982\u8FF0" tabindex="-1"><a class="header-anchor" href="#\u5165\u95E8\u6982\u8FF0" aria-hidden="true">#</a> \u5165\u95E8\u6982\u8FF0</h2><p>Linux \u5185\u6838\u6700\u521D\u53EA\u662F\u7531\u82AC\u5170\u4EBA\u6797\u7EB3\u65AF\xB7\u6258\u74E6\u5179\uFF08Linus Torvalds\uFF09\u5728\u8D6B\u5C14\u8F9B\u57FA\u5927\u5B66\u4E0A\u5B66\u65F6\u51FA\u4E8E\u4E2A\u4EBA\u7231\u597D\u800C\u7F16\u5199\u7684\u3002</p><p>Linux \u662F\u4E00\u5957\u514D\u8D39\u4F7F\u7528\u548C\u81EA\u7531\u4F20\u64AD\u7684\u7C7B Unix \u64CD\u4F5C\u7CFB\u7EDF\uFF0C\u662F\u4E00\u4E2A\u57FA\u4E8E POSIX\uFF08\u53EF\u79FB\u690D\u64CD\u4F5C\u7CFB\u7EDF\u63A5\u53E3\uFF09 \u548C UNIX \u7684\u591A\u7528\u6237\u3001\u591A\u4EFB\u52A1\u3001\u652F\u6301\u591A\u7EBF\u7A0B\u548C\u591A CPU \u7684\u64CD\u4F5C\u7CFB\u7EDF\u3002</p><p>Linux \u80FD\u8FD0\u884C\u4E3B\u8981\u7684 UNIX \u5DE5\u5177\u8F6F\u4EF6\u3001\u5E94\u7528\u7A0B\u5E8F\u548C\u7F51\u7EDC\u534F\u8BAE\u3002\u5B83\u652F\u6301 32 \u4F4D\u548C 64 \u4F4D\u786C\u4EF6\u3002Linux \u7EE7\u627F\u4E86 Unix \u4EE5\u7F51\u7EDC\u4E3A\u6838\u5FC3\u7684\u8BBE\u8BA1\u601D\u60F3\uFF0C\u662F\u4E00\u4E2A\u6027\u80FD\u7A33\u5B9A\u7684\u591A\u7528\u6237\u7F51\u7EDC\u64CD\u4F5C\u7CFB\u7EDF\u3002</p><ul><li>Linux \u53D1\u884C\u7248</li></ul><p><img src="https://mmbiz.qpic.cn/mmbiz_png/uJDAUKrGC7LDkhrDl4H9TqZhwyeNSeaNIyC5tbowflHyRITPKvgAySf3AZJibEUTrSo3fzRm85VDfInZ2olkIgg/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="alt \u56FE\u7247\u6765\u81EA\u72C2\u795E\u6559\u7A0B\uFF0C\u53EF\u81EA\u884C\u53BB\u67E5\u770B"></p><p>\u4ECA\u5929\u5404\u79CD\u573A\u5408\u90FD\u6709\u4F7F\u7528\u5404\u79CD Linux \u53D1\u884C\u7248\uFF0C\u4ECE\u5D4C\u5165\u5F0F\u8BBE\u5907\u5230\u8D85\u7EA7\u8BA1\u7B97\u673A\uFF0C\u5E76\u4E14\u5728\u670D\u52A1\u5668\u9886\u57DF\u786E\u5B9A\u4E86\u5730\u4F4D\uFF0C\u901A\u5E38\u670D\u52A1\u5668\u4F7F\u7528 LAMP\uFF08Linux + Apache + MySQL + PHP\uFF09\u6216 LNMP\uFF08Linux + Nginx+ MySQL + PHP\uFF09\u7EC4\u5408\u3002</p><h2 id="\u73AF\u5883\u642D\u5EFA-vmware-\u865A\u62DF\u673A\u5B89\u88C5" tabindex="-1"><a class="header-anchor" href="#\u73AF\u5883\u642D\u5EFA-vmware-\u865A\u62DF\u673A\u5B89\u88C5" aria-hidden="true">#</a> \u73AF\u5883\u642D\u5EFA\uFF08VMware \u865A\u62DF\u673A\u5B89\u88C5\uFF09</h2><p>Linux \u672C\u8EAB\u662F\u4E00\u4E2A\u64CD\u4F5C\u7CFB\uFF0C\u6240\u4EE5\u5B89\u88C5\u6BD4\u8F83\u9EBB\u70E6\u3002</p><p>\u4E24\u79CD\u65B9\u6CD5</p><ol><li>\u5B89\u88C5 CentOS\uFF08\u865A\u62DF\u673A\u5B89\u88C5\uFF0C\u8017\u8D44\u6E90\uFF09</li></ol><ul><li>\u5B89\u88C5 VMware \u865A\u62DF\u673A\u8F6F\u4EF6\uFF0C\u7136\u540E\u6253\u5F00\u6211\u4EEC\u7684\u955C\u50CF\u5373\u53EF\u4F7F\u7528\uFF01</li></ul><ol start="2"><li>\u8D2D\u4E70\u4E91\u670D\u52A1\u5668\uFF08\u6709\u94B1\u7684\u53EF\u4EE5\uFF0C\u63A5\u8FD1\u4F01\u4E1A\u73AF\u5883\uFF09</li></ol><ul><li><p>\u963F\u91CC\u4E91\u8D2D\u4E70\u670D\u52A1\u5668\uFF1Ahttps://www.aliyun.com/minisite/goods?userCode=0phtycgr</p></li><li><p>\u8D2D\u4E70\u5B8C\u6BD5\u540E\uFF0C\u83B7\u53D6\u670D\u52A1\u5668\u7684 ip \u5730\u5740\uFF0C\u91CD\u7F6E\u670D\u52A1\u5668\u5BC6\u7801\uFF0C\u5C31\u53EF\u4EE5\u8FDC\u7A0B\u767B\u5F55\u4E86</p></li></ul><blockquote><p>\u8FD9\u91CC\u901A\u8FC7 VMware \u865A\u62DF\u673A\u5B89\u88C5,\u8FD9\u662F\u5B66\u751F\u5E38\u7528\u7684\u65B9\u5F0F\uFF0C\u5948\u4F55\u6211\u6CA1\u94B1</p></blockquote><p>VMware \u5B98\u7F51\u94FE\u63A5<a href="https://www.vmware.com/cn.html" target="_blank" rel="noopener noreferrer">https://www.vmware.com/cn.html`);
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
@@ -5390,118 +5436,197 @@ pstree
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><h3 id="kill-9" tabindex="-1"><a class="header-anchor" href="#kill-9" aria-hidden="true">#</a> kill-9</h3><p>\u7ED3\u675F\u8FDB\u7A0B</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>kill-9 \u8FDB\u7A0Bid
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><h2 id="\u5B89\u88C5jdk" tabindex="-1"><a class="header-anchor" href="#\u5B89\u88C5jdk" aria-hidden="true">#</a> \u5B89\u88C5JDK</h2><p>\u6CE8\u610F\uFF1ACentOS\u7B49\u7CFB\u7EDF\u53EF\u80FD\u4F1A\u81EA\u5E26Openjdk\u73AF\u5883\uFF0C\u8F93\u5165\u547D\u4EE4<code>java -version</code>\u67E5\u770B\u662F\u5426\u5DF2\u7ECF\u6709\u5B89\u88C5\u6216\u81EA\u5E26</p><!--]-->`);
 }
-const _sfc_setup$M = _sfc_main$M.setup;
-_sfc_main$M.setup = (props, ctx) => {
+const _sfc_setup$O = _sfc_main$O.setup;
+_sfc_main$O.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/Linux/01.Linux\u5165\u95E8.html.vue");
-  return _sfc_setup$M ? _sfc_setup$M(props, ctx) : void 0;
+  return _sfc_setup$O ? _sfc_setup$O(props, ctx) : void 0;
 };
-var _01_Linux___html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$M, [["ssrRender", _sfc_ssrRender$y]]);
+var _01_Linux___html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$O, [["ssrRender", _sfc_ssrRender$A]]);
 var _01_Linux___html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _01_Linux___html$1
 });
-const _sfc_main$L = {};
-function _sfc_ssrRender$x(_ctx, _push, _parent, _attrs) {
+const _sfc_main$N = {};
+function _sfc_ssrRender$z(_ctx, _push, _parent, _attrs) {
   const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
-  _push(`<!--[--><h2 id="\u8BA4\u8BC6git" tabindex="-1"><a class="header-anchor" href="#\u8BA4\u8BC6git" aria-hidden="true">#</a> \u8BA4\u8BC6git</h2><p>\u9996\u5148\u6211\u4EEC\u6765\u4E86\u89E3\u4E00\u4E0BGit\u662F\u5982\u4F55\u5DE5\u4F5C\u7684\uFF1A</p><p>\u53EF\u4EE5\u770B\u5230\uFF0C\u5B83\u5927\u81F4\u5206\u4E3A4\u4E2A\u677F\u5757\uFF1A</p><ul><li>\u5DE5\u4F5C\u76EE\u5F55\uFF1A\u5B58\u653E\u6211\u4EEC\u6B63\u5728\u5199\u7684\u4EE3\u7801\uFF08\u5F53\u6211\u4EEC\u65B0\u7248\u672C\u5F00\u53D1\u5B8C\u6210\u4E4B\u540E\uFF0C\u5C31\u53EF\u4EE5\u8FDB\u884C\u65B0\u7248\u672C\u7684\u63D0\u4EA4\uFF09</li><li>\u6682\u5B58\u533A\uFF1A\u6682\u65F6\u4FDD\u5B58\u5F85\u63D0\u4EA4\u7684\u5185\u5BB9\uFF08\u65B0\u7248\u672C\u63D0\u4EA4\u540E\u4F1A\u5B58\u653E\u5230\u672C\u5730\u4ED3\u5E93\uFF09</li><li>\u672C\u5730\u4ED3\u5E93\uFF1A\u4F4D\u4E8E\u6211\u4EEC\u7535\u8111\u4E0A\u7684\u4E00\u4E2A\u7248\u672C\u63A7\u5236\u4ED3\u5E93\uFF08\u5B58\u653E\u7684\u5C31\u662F\u5F53\u524D\u9879\u76EE\u5404\u4E2A\u7248\u672C\u4EE3\u7801\u7684\u589E\u5220\u4FE1\u606F\uFF09</li><li>\u8FDC\u7A0B\u4ED3\u5E93\uFF1A\u4F4D\u4E8E\u670D\u52A1\u5668\u4E0A\u7684\u7248\u672C\u63A7\u5236\u4ED3\u5E93\uFF08\u670D\u52A1\u5668\u4E0A\u7684\u7248\u672C\u4FE1\u606F\u53EF\u4EE5\u7531\u672C\u5730\u4ED3\u5E93\u63A8\u9001\u4E0A\u53BB\uFF0C\u4E5F\u53EF\u4EE5\u4ECE\u670D\u52A1\u5668\u6293\u53D6\u5230\u672C\u5730\u4ED3\u5E93\uFF09</li></ul><p>\u5B83\u662F\u4E00\u4E2A\u5206\u5E03\u5F0F\u7684\u63A7\u5236\u7CFB\u7EDF\uFF0C\u56E0\u6B64\u4E00\u822C\u60C5\u51B5\u4E0B\u6211\u4EEC\u6BCF\u4E2A\u4EBA\u7684\u7535\u8111\u4E0A\u90FD\u6709\u4E00\u4E2A\u672C\u5730\u4ED3\u5E93\uFF0C\u7531\u5927\u5BB6\u5171\u540C\u5411\u8FDC\u7A0B\u4ED3\u5E93\u53BB\u63A8\u9001\u7248\u672C\u8FED\u4EE3\u4FE1\u606F\u3002</p><h2 id="\u5B89\u88C5git" tabindex="-1"><a class="header-anchor" href="#\u5B89\u88C5git" aria-hidden="true">#</a> \u5B89\u88C5Git</h2><p>\u9996\u5148\u8BF7\u524D\u5F80Git\u5B98\u7F51\u53BB\u4E0B\u8F7D\u6700\u65B0\u7684\u5B89\u88C5\u5305\uFF1A<a href="https://git-scm.com/download/win" target="_blank" rel="noopener noreferrer">https://git-scm.com/download/win`);
+  _push(`<!--[--><p>\u6570\u636E\u7B80\u5355\u6765\u8BF4\u5C31\u662F\u5B58\u50A8\u6570\u636E\u7684\u5E93</p><ul><li>\u5173\u7CFB\u578B\u6570\u636E\u5E93\uFF1AMySQL,oracle</li><li>\u975E\u5173\u7CFB\u578B\u6570\u636E\u5E93\uFF1Aredis,mongodb</li></ul><h2 id="mysql\u5B89\u88C5" tabindex="-1"><a class="header-anchor" href="#mysql\u5B89\u88C5" aria-hidden="true">#</a> MySql\u5B89\u88C5</h2><p><a href="https://dev.mysql.com/downloads/mysql/" target="_blank" rel="noopener noreferrer">https://dev.mysql.com/downloads/mysql/`);
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
-  _push(`</a></p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> config --global user.name <span class="token string">&quot;Your Name&quot;</span>
-<span class="token function">git</span> config --global user.email <span class="token string">&quot;email@example.com&quot;</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h2 id="\u57FA\u672C\u547D\u4EE4\u4ECB\u7ECD" tabindex="-1"><a class="header-anchor" href="#\u57FA\u672C\u547D\u4EE4\u4ECB\u7ECD" aria-hidden="true">#</a> \u57FA\u672C\u547D\u4EE4\u4ECB\u7ECD</h2><ol><li>\u521B\u5EFA\u672C\u5730\u4ED3\u5E93</li></ol><p>\u53EF\u4EE5\u5728\u4EFB\u610F\u6587\u4EF6\u5939</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git init
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u8F93\u5165\u540E\uFF0C\u4F1A\u81EA\u52A8\u751F\u6210\u4E00\u4E2A.git\u76EE\u5F55\uFF0C\u6CE8\u610F\u8FD9\u4E2A\u76EE\u5F55\u662F\u4E00\u4E2A\u9690\u85CF\u76EE\u5F55\uFF0C\u800C\u5F53\u524D\u76EE\u5F55\u5C31\u662F\u6211\u4EEC\u7684\u5DE5\u4F5C\u76EE\u5F55\u3002</p><p>\u521B\u5EFA\u6210\u529F\u540E\uFF0C\u6211\u4EEC\u53EF\u4EE5\u67E5\u770B\u4E00\u4E0B\u5F53\u524D\u7684\u4E00\u4E2A\u72B6\u6001\uFF0C\u8F93\u5165\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git status
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u5982\u679C\u5DF2\u7ECF\u6210\u529F\u914D\u7F6E\u4E3AGit\u672C\u5730\u4ED3\u5E93\uFF0C\u90A3\u4E48\u8F93\u5165\u540E\u53EF\u4EE5\u770B\u5230</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>On branch master
+  _push(`</a></p><ol><li><p>\u5EFA\u8BAE\u4E0D\u8981\u4F7F\u7528 exe\uFF0C\u4F1A\u81EA\u52A8\u6DFB\u52A0\u5230\u6CE8\u518C\u8868\uFF0C\u5220\u9664\u65F6\u4F1A\u5BFC\u81F4\u4E00\u4E9B\u5947\u602A\u60C5\u51B5</p></li><li><p>\u538B\u7F29\u5305\u5B89\u88C5\u65B9\u4FBF\u5378\u8F7D\u548C\u7BA1\u7406</p><p>\u5B89\u88C5\u6559\u7A0B\u8FD9\u91CC\u4E0D\u518D\u8D58\u8FF0</p></li></ol><h2 id="\u5B89\u88C5-navicat" tabindex="-1"><a class="header-anchor" href="#\u5B89\u88C5-navicat" aria-hidden="true">#</a> \u5B89\u88C5 navicat</h2><p>\u7DB2\u4E0A\u6709\u5F88\u591A\u7834X\u7248\u3002</p><h2 id="\u57FA\u672C\u547D\u4EE4\u884C" tabindex="-1"><a class="header-anchor" href="#\u57FA\u672C\u547D\u4EE4\u884C" aria-hidden="true">#</a> \u57FA\u672C\u547D\u4EE4\u884C</h2><p>\u76EE\u524D\u4E3A\u6B62\uFF0CMySQL \u8BED\u53E5\u5FC5\u987B\u5206\u53F7\u7ED3\u5C3E\uFF0C\u5173\u952E\u5B57\u6CE8\u610F\u4E0D\u533A\u5206\u5927\u5C0F\u5199\u3002</p><ol><li>\u94FE\u63A5 MySQL</li><li>\u4FEE\u6539\u5BC6\u7801</li><li>\u5237\u65B0\u6743\u9650</li><li>\u6253\u5370\u5168\u90E8\u6570\u636E\u5E93</li><li>\u5207\u6362\u6570\u636E\u5E93</li><li>\u6253\u5370\u6240\u6709\u8868</li><li>\u663E\u793A\u8868\u4FE1\u606F</li><li>\u521B\u5EFA\u6570\u636E\u5E93</li><li>\u5173\u95ED\u6570\u636E\u5E93</li><li>\u6CE8\u91CA</li></ol><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">-- \u767B\u5F55MySQL\u94FE\u63A5\u6570\u636E\u5E93</span>
+mysql <span class="token operator">-</span>u root <span class="token operator">-</span>p <span class="token number">123456</span>
 
-No commits yet
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>\u8FD9\u8868\u793A\u6211\u4EEC\u8FD8\u6CA1\u6709\u5411\u4ED3\u5E93\u4E2D\u63D0\u4EA4\u4EFB\u4F55\u5185\u5BB9\uFF0C\u4E5F\u5C31\u662F\u4E00\u4E2A\u7A7A\u7684\u72B6\u6001\u3002</p><h2 id="\u6DFB\u52A0\u548C\u63D0\u4EA4" tabindex="-1"><a class="header-anchor" href="#\u6DFB\u52A0\u548C\u63D0\u4EA4" aria-hidden="true">#</a> \u6DFB\u52A0\u548C\u63D0\u4EA4</h2><p>\u63A5\u7740\u6211\u4EEC\u6765\u770B\u770B\uFF0C\u5982\u4F55\u4F7F\u7528git\u6765\u7BA1\u7406\u6211\u4EEC\u6587\u6863\u7684\u7248\u672C\uFF0C\u6211\u4EEC\u521B\u5EFA\u4E00\u4E2A\u6587\u672C\u6587\u6863\uFF0C\u968F\u4FBF\u5199\u5165\u4E00\u70B9\u5185\u5BB9\uFF0C\u63A5\u7740\u8F93\u5165\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git status
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><ul><li>\u4F1A\u63D0\u793A</li></ul><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>Untracked files:
-  <span class="token punctuation">(</span>use <span class="token string">&quot;git add &lt;file&gt;...&quot;</span> to include <span class="token keyword">in</span> what will be committed<span class="token punctuation">)</span>
-	hello.txt
+<span class="token comment">-- MySQL5.7\u4FEE\u6539\u5BC6\u7801(\u4E0B\u9762\u662F\u628Aroot\u5BC6\u7801\u6539\u4E3A123456)</span>
+<span class="token keyword">update</span> mysql<span class="token punctuation">.</span><span class="token keyword">user</span> <span class="token keyword">set</span> authentication_string<span class="token operator">=</span>password<span class="token punctuation">(</span><span class="token string">&#39;123456&#39;</span><span class="token punctuation">)</span> <span class="token keyword">where</span> <span class="token keyword">user</span> <span class="token operator">=</span> <span class="token string">&quot;root&quot;</span><span class="token punctuation">;</span>
 
-nothing added to commit but untracked files present <span class="token punctuation">(</span>use <span class="token string">&quot;git add&quot;</span> to track<span class="token punctuation">)</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p>\u5176\u4E2DUntracked files\u662F\u672A\u8FFD\u8E2A\u6587\u4EF6\u7684\u610F\u601D\uFF0C\u4E5F\u5C31\u662F\u8BF4\uFF0C\u5982\u679C\u4E00\u4E2A\u6587\u4EF6\u5904\u4E8E\u672A\u8FFD\u8E2A\u72B6\u6001\uFF0C\u90A3\u4E48git\u4E0D\u4F1A\u8BB0\u5F55\u5B83\u7684\u53D8\u5316\uFF0C\u59CB\u7EC8\u5C06\u5176\u5F53\u505A\u4E00\u4E2A\u65B0\u521B\u5EFA\u7684\u6587\u4EF6\uFF0C\u8FD9\u91CC\u6211\u4EEC\u5C06\u5176\u6DFB\u52A0\u5230\u6682\u5B58\u533A\uFF0C\u90A3\u4E48\u5B83\u4F1A\u81EA\u52A8\u53D8\u4E3A\u88AB\u8FFD\u8E2A\u72B6\u6001\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git add hello<span class="token punctuation">.</span>txt #\u4E5F\u53EF\u4EE5 add <span class="token punctuation">.</span> \u4E00\u6B21\u6027\u6DFB\u52A0\u76EE\u5F55\u4E0B\u6240\u6709\u7684
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u518D\u6B21\u67E5\u770B\u5F53\u524D\u72B6\u6001(<code>git status</code>)\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>Changes to be committed<span class="token operator">:</span>
-  <span class="token punctuation">(</span>use <span class="token string">&quot;git rm --cached &lt;file&gt;...&quot;</span> to unstage<span class="token punctuation">)</span>
-	new file<span class="token operator">:</span>   hello<span class="token punctuation">.</span>txt
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>\u73B0\u5728\u6587\u4EF6\u540D\u79F0\u7684\u989C\u8272\u53D8\u6210\u4E86\u7EFF\u8272\uFF0C\u5E76\u4E14\u662F\u5904\u4E8EChanges to be committed\u4E0B\u9762\uFF0C\u56E0\u6B64\uFF0C\u6211\u4EEC\u7684hello.txt\u73B0\u5728\u5DF2\u7ECF\u88AB\u6DFB\u52A0\u5230\u6682\u5B58\u533A\u4E86\u3002</p><p>\u63A5\u7740\u6211\u4EEC\u6765\u5C1D\u8BD5\u5C06\u5176\u63D0\u4EA4\u5230Git\u672C\u5730\u4ED3\u5E93\u4E2D\uFF0C\u6CE8\u610F\u9700\u8981\u8F93\u5165\u63D0\u4EA4\u7684\u63CF\u8FF0\u4EE5\u4FBF\u540E\u7EED\u67E5\u770B\uFF0C\u6BD4\u5982\u4F60\u8FD9\u6B21\u63D0\u4EA4\u4FEE\u6539\u4E86\u6216\u662F\u65B0\u589E\u4E86\u54EA\u4E9B\u5185\u5BB9\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git commit <span class="token operator">-</span>m <span class="token string">&#39;Hello World&#39;</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u63A5\u7740\u6211\u4EEC\u53EF\u4EE5\u67E5\u770B\u6211\u4EEC\u7684\u63D0\u4EA4\u8BB0\u5F55\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git log
-git log <span class="token operator">--</span>graph
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>\u6211\u4EEC\u8FD8\u53EF\u4EE5\u67E5\u770B\u6700\u8FD1\u4E00\u6B21\u53D8\u66F4\u7684\u8BE6\u7EC6\u5185\u5BB9\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git show <span class="token punctuation">[</span>\u4E5F\u53EF\u4EE5\u52A0\u4E0Acommit ID\u67E5\u770B\u6307\u5B9A\u7684\u63D0\u4EA4\u8BB0\u5F55<span class="token punctuation">]</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u518D\u6B21\u67E5\u770B\u5F53\u524D\u72B6\u6001\uFF0C\u5DF2\u7ECF\u662F\u6E05\u7A7A\u72B6\u6001\u4E86\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>On branch master
-nothing to commit<span class="token punctuation">,</span> working tree clean
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>\u63A5\u7740\u6211\u4EEC\u53EF\u4EE5\u5C1D\u8BD5\u4FEE\u6539\u4E00\u4E0B\u6211\u4EEC\u7684\u6587\u672C\u6587\u6863\uFF0C\u7531\u4E8E\u5F53\u524D\u6587\u4EF6\u5DF2\u7ECF\u662F\u88AB\u8FFD\u8E2A\u72B6\u6001\uFF0C\u90A3\u4E48git\u4F1A\u53BB\u8DDF\u8E2A\u5B83\u7684\u53D8\u5316\uFF0C\u5982\u679C\u8BF4\u6587\u4EF6\u53D1\u751F\u4E86\u4FEE\u6539\uFF0C\u90A3\u4E48\u6211\u4EEC\u518D\u6B21\u67E5\u770B\u72B6\u6001\u4F1A\u5F97\u5230\u4E0B\u9762\u7684\u7ED3\u679C\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>Changes not staged <span class="token keyword">for</span> commit<span class="token operator">:</span>
-  <span class="token punctuation">(</span>use <span class="token string">&quot;git add &lt;file&gt;...&quot;</span> to update what will be committed<span class="token punctuation">)</span>
-  <span class="token punctuation">(</span>use <span class="token string">&quot;git restore &lt;file&gt;...&quot;</span> to discard changes in working directory<span class="token punctuation">)</span>
-	modified<span class="token operator">:</span>   hello<span class="token punctuation">.</span>txt
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>\u4E5F\u5C31\u662F\u8BF4\u73B0\u5728\u6B64\u6587\u4EF6\u662F\u5904\u4E8E\u5DF2\u4FEE\u6539\u72B6\u6001\uFF0C\u6211\u4EEC\u5982\u679C\u4FEE\u6539\u597D\u4E86\uFF0C\u5C31\u53EF\u4EE5\u63D0\u4EA4\u6211\u4EEC\u7684\u65B0\u7248\u672C\u5230\u672C\u5730\u4ED3\u5E93\u4E2D\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git add <span class="token punctuation">.</span>
-git commit <span class="token operator">-</span>m <span class="token string">&#39;Modify Text&#39;</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>\u63A5\u7740\u6211\u4EEC\u6765\u67E5\u8BE2\u4E00\u4E0B\u63D0\u4EA4\u8BB0\u5F55\uFF0C\u53EF\u4EE5\u770B\u5230\u4E00\u5171\u6709\u4E24\u6B21\u63D0\u4EA4\u8BB0\u5F55\u3002</p><p>\u6211\u4EEC\u53EF\u4EE5\u521B\u5EFA\u4E00\u4E2A.gitignore\u6587\u4EF6\u6765\u786E\u5B9A\u4E00\u4E2A\u6587\u4EF6\u5FFD\u7565\u5217\u8868\uFF0C\u5982\u679C\u5FFD\u7565\u5217\u8868\u4E2D\u7684\u6587\u4EF6\u5B58\u5728\u4E14\u4E0D\u662F\u88AB\u8FFD\u8E2A\u72B6\u6001\uFF0C\u90A3\u4E48git\u4E0D\u4F1A\u5BF9\u5176\u8FDB\u884C\u4EFB\u4F55\u68C0\u67E5\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># \u8FD9\u6837\u5C31\u4F1A\u5339\u914D\u6240\u6709\u4EE5txt\u7ED3\u5C3E\u7684\u6587\u4EF6</span>
-*.txt
-<span class="token comment"># \u867D\u7136\u4E0A\u9762\u6392\u9664\u4E86\u6240\u6709txt\u7ED3\u5C3E\u7684\u6587\u4EF6\uFF0C\u4F46\u662F\u8FD9\u4E2A\u4E0D\u6392\u9664</span>
-<span class="token operator">!</span><span class="token number">666</span>.txt
-<span class="token comment"># \u4E5F\u53EF\u4EE5\u76F4\u63A5\u6307\u5B9A\u4E00\u4E2A\u6587\u4EF6\u5939\uFF0C\u6587\u4EF6\u5939\u4E0B\u7684\u6240\u6709\u6587\u4EF6\u5C06\u5168\u90E8\u5FFD\u7565</span>
-test/
-<span class="token comment"># \u76EE\u5F55\u4E2D\u6240\u6709\u4EE5txt\u7ED3\u5C3E\u7684\u6587\u4EF6\uFF0C\u4F46\u4E0D\u5305\u62EC\u5B50\u76EE\u5F55</span>
-xxx/*.txt
-<span class="token comment"># \u76EE\u5F55\u4E2D\u6240\u6709\u4EE5txt\u7ED3\u5C3E\u7684\u6587\u4EF6\uFF0C\u5305\u62EC\u5B50\u76EE\u5F55</span>
-xxx/**/*.txt
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><p>\u521B\u5EFA\u540E\uFF0C\u6211\u4EEC\u6765\u770B\u770B\u662F\u5426\u8FD8\u4F1A\u68C0\u6D4B\u5230\u6211\u4EEC\u5FFD\u7565\u7684\u6587\u4EF6\u3002</p><p>\u56DE\u6EDA</p><p>\u5F53\u6211\u4EEC\u60F3\u8981\u56DE\u9000\u5230\u8FC7\u53BB\u7684\u7248\u672C\u65F6\uFF0C\u5C31\u53EF\u4EE5\u6267\u884C\u56DE\u6EDA\u64CD\u4F5C\uFF0C\u6267\u884C\u540E\uFF0C\u53EF\u4EE5\u5C06\u5DE5\u4F5C\u7A7A\u95F4\u7684\u5185\u5BB9\u6062\u590D\u5230\u6307\u5B9A\u63D0\u4EA4\u7684\u72B6\u6001\uFF1A</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git reset <span class="token operator">--</span>hard commitID
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u6267\u884C\u540E\uFF0C\u4F1A\u76F4\u63A5\u91CD\u7F6E\u4E3A\u90A3\u4E2A\u65F6\u5019\u7684\u72B6\u6001\u3002\u518D\u6B21\u67E5\u770B\u63D0\u4EA4\u65E5\u5FD7\uFF0C\u6211\u4EEC\u53D1\u73B0\u4E4B\u540E\u7684\u65E5\u5FD7\u5168\u90E8\u6D88\u5931\u4E86\u3002</p><p>\u90A3\u4E48\u8981\u662F\u73B0\u5728\u6211\u53C8\u60F3\u56DE\u53BB\u5462\uFF1F\u6211\u4EEC\u53EF\u4EE5\u901A\u8FC7\u67E5\u770B\u6240\u6709\u5206\u652F\u7684\u6240\u6709\u64CD\u4F5C\u8BB0\u5F55\uFF1A</p><p>\u8FD9\u6837\u5C31\u80FD\u627E\u5230\u4E4B\u524D\u7684commitID\uFF0C\u518D\u6B21\u91CD\u7F6E\u5373\u53EF\u3002</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git reflog
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><h2 id="\u5206\u652F" tabindex="-1"><a class="header-anchor" href="#\u5206\u652F" aria-hidden="true">#</a> \u5206\u652F</h2><p>\u5206\u652F\u5C31\u50CF\u6211\u4EEC\u6811\u4E0A\u7684\u4E00\u4E2A\u6811\u679D\u4E00\u6837\uFF0C\u5B83\u4EEC\u53EF\u80FD\u4E00\u5F00\u59CB\u7684\u65F6\u5019\u662F\u540C\u4E00\u6839\u6811\u679D\uFF0C\u4F46\u662F\u957F\u7740\u957F\u7740\u5C31\u5F00\u59CB\u5206\u9053\u626C\u9573\u4E86\uFF0C\u8FD9\u5C31\u662F\u5206\u652F\u3002\u6211\u4EEC\u7684\u4EE3\u7801\u4E5F\u662F\u8FD9\u6837\uFF0C\u53EF\u80FD\u4E00\u5F00\u59CB\u5199\u57FA\u7840\u529F\u80FD\u7684\u65F6\u5019\u4F7F\u7528\u7684\u662F\u5355\u4E2A\u5206\u652F\uFF0C\u4F46\u662F\u67D0\u4E00\u5929\u6211\u4EEC\u5E0C\u671B\u57FA\u4E8E\u8FD9\u4E9B\u57FA\u7840\u7684\u529F\u80FD\uFF0C\u628A\u6211\u4EEC\u7684\u9879\u76EE\u505A\u6210\u4E24\u4E2A\u4E0D\u540C\u65B9\u5411\u7684\u9879\u76EE\uFF0C\u6BD4\u5982\u4E00\u4E2A\u65B9\u5411\u505AWeb\u7F51\u7AD9\uFF0C\u53E6\u4E00\u4E2A\u65B9\u5411\u505A\u6E38\u620F\u670D\u52A1\u7AEF\u3002</p><p>\u56E0\u6B64\uFF0C\u6211\u4EEC\u53EF\u4EE5\u5728\u4E00\u4E2A\u4E3B\u5E72\u4E0A\u5206\u51FAN\u4E2A\u5206\u652F\uFF0C\u5206\u522B\u5BF9\u591A\u4E2A\u5206\u652F\u7684\u4EE3\u7801\u8FDB\u884C\u7EF4\u62A4\u3002</p><ol><li>\u521B\u5EFA\u5206\u652F</li></ol><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git branch
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u6211\u4EEC\u53D1\u73B0\uFF0C\u9ED8\u8BA4\u60C5\u51B5\u4E0B\u662F\u6709\u4E00\u4E2Amaster\u5206\u652F\u7684\uFF0C\u5E76\u4E14\u6211\u4EEC\u4F7F\u7528\u7684\u4E5F\u662Fmaster\u5206\u652F\uFF0C\u4E00\u822C\u60C5\u51B5\u4E0Bmaster\u5206\u652F\u90FD\u662F\u6B63\u5F0F\u7248\u672C\u7684\u66F4\u65B0\uFF0C\u800C\u5176\u4ED6\u5206\u652F\u4E00\u822C\u662F\u5F00\u53D1\u4E2D\u624D\u9891\u7E41\u66F4\u65B0\u7684\u3002\u6211\u4EEC\u63A5\u7740\u6765\u57FA\u4E8E\u5F53\u524D\u5206\u652F\u521B\u5EFA\u4E00\u4E2A\u65B0\u7684\u5206\u652F\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> branch <span class="token builtin class-name">test</span>
-<span class="token comment"># \u5BF9\u5E94\u7684\u5220\u9664\u5206\u652F\u662F</span>
-<span class="token function">git</span> branch -d yyds
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>\u73B0\u5728\u6211\u4EEC\u4FEE\u6539\u4E00\u4E0B\u6587\u4EF6\uFF0C\u63D0\u4EA4\uFF0C\u518D\u67E5\u770B\u4E00\u4E0B\u63D0\u4EA4\u65E5\u5FD7\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> commit -a -m <span class="token string">&#39;branch master commit&#39;</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u901A\u8FC7\u6DFB\u52A0-a\u6765\u81EA\u52A8\u5C06\u672A\u653E\u5165\u6682\u5B58\u533A\u7684\u5DF2\u4FEE\u6539\u6587\u4EF6\u653E\u5165\u6682\u5B58\u533A\u5E76\u6267\u884C\u63D0\u4EA4\u64CD\u4F5C\u3002\u67E5\u770B\u65E5\u5FD7\uFF0C\u6211\u4EEC\u53D1\u73B0\u73B0\u5728\u6211\u4EEC\u7684\u63D0\u4EA4\u53EA\u751F\u6548\u4E8Emaster\u5206\u652F\uFF0C\u800C\u65B0\u521B\u5EFA\u7684\u5206\u652F\u5E76\u6CA1\u6709\u53D1\u751F\u4FEE\u6539\u3002</p><p>\u6211\u4EEC\u5C06\u5206\u652F\u5207\u6362\u5230\u53E6\u4E00\u4E2A\u5206\u652F\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> checkout <span class="token builtin class-name">test</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u6211\u4EEC\u4F1A\u53D1\u73B0\uFF0C\u6587\u4EF6\u53D8\u6210\u4E86\u6B64\u5206\u652F\u521B\u5EFA\u7684\u65F6\u7684\u72B6\u6001\uFF0C\u4E5F\u5C31\u662F\u8BF4\uFF0C\u5728\u4E0D\u540C\u5206\u652F\u4E0B\u6211\u4EEC\u7684\u6587\u4EF6\u5185\u5BB9\u662F\u76F8\u4E92\u9694\u79BB\u7684\u3002</p><p>\u6211\u4EEC\u73B0\u5728\u518D\u6765\u63D0\u4EA4\u4E00\u6B21\u53D8\u66F4\uFF0C\u4F1A\u53D1\u73B0\u5B83\u53EA\u751F\u6548\u5728yyds\u5206\u652F\u4E0A\u3002\u6211\u4EEC\u53EF\u4EE5\u770B\u770B\u5F53\u524D\u7684\u5206\u652F\u72B6\u6001\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> log --all --graph
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><h2 id="\u5408\u5E76\u5206\u652F" tabindex="-1"><a class="header-anchor" href="#\u5408\u5E76\u5206\u652F" aria-hidden="true">#</a> \u5408\u5E76\u5206\u652F</h2><p>\u6211\u4EEC\u4E5F\u53EF\u4EE5\u5C06\u4E24\u4E2A\u5206\u652F\u66F4\u65B0\u7684\u5185\u5BB9\u6700\u7EC8\u5408\u5E76\u5230\u540C\u4E00\u4E2A\u5206\u652F\u4E0A\uFF0C\u6211\u4EEC\u5148\u5207\u6362\u56DE\u4E3B\u5206\u652F\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> checkout master
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u63A5\u7740\u4F7F\u7528\u5206\u652F\u5408\u5E76\u547D\u4EE4\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> merge <span class="token builtin class-name">test</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u4F1A\u5F97\u5230\u5982\u4E0B\u63D0\u793A\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>Auto-merging hello.txt
-CONFLICT <span class="token punctuation">(</span>content<span class="token punctuation">)</span>: Merge conflict <span class="token keyword">in</span> hello.txt
-Automatic merge failed<span class="token punctuation">;</span> fix conflicts and <span class="token keyword">then</span> commit the result.
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>\u5728\u5408\u5E76\u8FC7\u7A0B\u4E2D\u4EA7\u751F\u4E86\u51B2\u7A81\uFF0C\u56E0\u4E3A\u4E24\u4E2A\u5206\u652F\u90FD\u5BF9hello.txt\u6587\u4EF6\u8FDB\u884C\u4E86\u4FEE\u6539\uFF0C\u90A3\u4E48\u73B0\u5728\u8981\u5408\u5E76\u5728\u4E00\u8D77\uFF0C\u5230\u5E95\u4FDD\u7559\u8C01\u7684hello\u6587\u4EF6\u5462\uFF1F</p><p>\u6211\u4EEC\u53EF\u4EE5\u67E5\u770B\u4E00\u4E0B\u662F\u54EA\u91CC\u53D1\u751F\u4E86\u51B2\u7A81\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> <span class="token function">diff</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u56E0\u6B64\uFF0C\u73B0\u5728\u6211\u4EEC\u5C06master\u5206\u652F\u7684\u7248\u672C\u56DE\u9000\u5230\u4FEE\u6539hello.txt\u4E4B\u524D\u6216\u662F\u76F4\u63A5\u4FEE\u6539\u4E3A\u6700\u65B0\u7248\u672C\u7684\u5185\u5BB9\uFF0C\u8FD9\u6837\u5C31\u4E0D\u4F1A\u6709\u51B2\u7A81\u4E86\uFF0C\u63A5\u7740\u518D\u6267\u884C\u4E00\u6B21\u5408\u5E76\u64CD\u4F5C\uFF0C\u73B0\u5728\u4E24\u4E2A\u5206\u652F\u6210\u529F\u5408\u5E76\u4E3A\u540C\u4E00\u4E2A\u5206\u652F\u3002</p><h2 id="\u53D8\u57FA\u5206\u652F" tabindex="-1"><a class="header-anchor" href="#\u53D8\u57FA\u5206\u652F" aria-hidden="true">#</a> \u53D8\u57FA\u5206\u652F</h2><p>\u9664\u4E86\u76F4\u63A5\u5408\u5E76\u5206\u652F\u4EE5\u5916\uFF0C\u6211\u4EEC\u8FD8\u53EF\u4EE5\u8FDB\u884C\u53D8\u57FA\u64CD\u4F5C\uFF0C\u5B83\u8DDF\u5408\u5E76\u4E0D\u540C\uFF0C\u5408\u5E76\u662F\u5206\u652F\u56DE\u5230\u4E3B\u5E72\u7684\u8FC7\u7A0B\uFF0C\u800C\u53D8\u57FA\u662F\u76F4\u63A5\u4FEE\u6539\u5206\u652F\u5F00\u59CB\u7684\u4F4D\u7F6E\uFF0C\u6BD4\u5982\u6211\u4EEC\u5E0C\u671B\u5C06yyds\u53D8\u57FA\u5230master\u4E0A\uFF0C\u90A3\u4E48yyds\u4F1A\u5C06\u5206\u652F\u8D77\u70B9\u79FB\u52A8\u5230master\u6700\u540E\u4E00\u6B21\u63D0\u4EA4\u4F4D\u7F6E\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> rebase master
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u53D8\u57FA\u540E\uFF0Cyyds\u5206\u652F\u76F8\u5F53\u4E8E\u540C\u6B65\u4E86\u6B64\u524Dmaster\u5206\u652F\u7684\u5168\u90E8\u63D0\u4EA4\u3002</p><h2 id="\u4F18\u9009" tabindex="-1"><a class="header-anchor" href="#\u4F18\u9009" aria-hidden="true">#</a> \u4F18\u9009</h2><p>\u6211\u4EEC\u8FD8\u53EF\u4EE5\u9009\u62E9\u5176\u5C06\u4ED6\u5206\u652F\u4E0A\u7684\u63D0\u4EA4\u4F5C\u7528\u4E8E\u5F53\u524D\u5206\u652F\u4E0A\uFF0C\u8FD9\u79CD\u64CD\u4F5C\u79F0\u4E3Acherrypick\uFF1A</p><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>git cherry-pick &lt;commit id&gt;:\u5355\u72EC\u5408\u5E76\u4E00\u4E2A\u63D0\u4EA4
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u8FD9\u91CC\u6211\u4EEC\u5728master\u5206\u652F\u4E0A\u521B\u5EFA\u4E00\u4E2A\u65B0\u7684\u6587\u4EF6\uFF0C\u63D0\u4EA4\u6B64\u6B21\u66F4\u65B0\uFF0C\u63A5\u7740\u901A\u8FC7cherry-pick\u7684\u65B9\u5F0F\u5C06\u6B64\u6B21\u66F4\u65B0\u4F5C\u7528\u4E8Etest\u5206\u652F\u4E0A\u3002</p><h2 id="\u4F7F\u7528idea\u7248\u672C\u63A7\u5236" tabindex="-1"><a class="header-anchor" href="#\u4F7F\u7528idea\u7248\u672C\u63A7\u5236" aria-hidden="true">#</a> \u4F7F\u7528IDEA\u7248\u672C\u63A7\u5236</h2><p>\u867D\u7136\u524D\u9762\u6211\u4EEC\u57FA\u672C\u8BB2\u89E3\u4E86git\u7684\u547D\u4EE4\u884C\u4F7F\u7528\u65B9\u6CD5\uFF0C\u4F46\u662F\u6CA1\u6709\u4E00\u4E2A\u56FE\u5F62\u5316\u754C\u9762\uFF0C\u59CB\u7EC8\u4F1A\u611F\u89C9\u5230\u5F88\u62BD\u8C61\uFF0C\u6240\u4EE5\u8FD9\u91CC\u6211\u4EEC\u4F7F\u7528IDEA\u6765\u6F14\u793A\uFF0CIDEA\u5185\u90E8\u96C6\u6210\u4E86git\u6A21\u5757\uFF0C\u5B83\u53EF\u4EE5\u8BA9\u6211\u4EEC\u7684git\u7248\u672C\u7BA1\u7406\u56FE\u5F62\u5316\u663E\u793A\uFF0C\u5F53\u7136\u9664\u4E86IDEA\u4E5F\u6709\u4E00\u4E9B\u72EC\u7ACB\u7684\u8F6F\u4EF6\u6BD4\u5982\uFF1ASourceTree\uFF08\u633A\u597D\u7528\uFF09</p><p>\u6253\u5F00IDEA\u540E\uFF0C\u627E\u5230\u7248\u672C\u63A7\u6A21\u5757\uFF0C\u6211\u4EEC\u76F4\u63A5\u70B9\u51FB\u521B\u5EFA\u672C\u5730\u4ED3\u5E93\uFF0C\u5B83\u4F1A\u81EA\u52A8\u5C06\u5F53\u524D\u9879\u76EE\u7684\u6839\u76EE\u5F55\u4F5C\u4E3A\u6211\u4EEC\u7684\u672C\u5730\u4ED3\u5E93\uFF0C\u800C\u6211\u4EEC\u7F16\u5199\u7684\u6240\u6709\u4EE3\u7801\u548C\u9879\u76EE\u76EE\u5F55\u4E0B\u5176\u4ED6\u7684\u6587\u4EF6\u90FD\u53EF\u4EE5\u8FDB\u884C\u7248\u672C\u63A7\u5236\u3002</p><p>\u6211\u4EEC\u53D1\u73B0\u6240\u6709\u9879\u76EE\u4E2D\u6B63\u5728\u7F16\u5199\u7684\u7C7B\u6587\u4EF6\u5168\u90E8\u53D8\u7EA2\u4E86\uFF0C\u4E5F\u5C31\u662F\u5904\u4E8E\u672A\u8FFD\u8E2A\u72B6\u6001\uFF0C\u63A5\u7740\u6211\u4EEC\u8FDB\u884C\u7B2C\u4E00\u6B21\u521D\u59CB\u5316\u63D0\u4EA4\uFF0C\u63D0\u4EA4\u4E4B\u540E\u6211\u4EEC\u53EF\u4EE5\u5728\u4E0B\u65B9\u770B\u5230\u6240\u6709\u7684\u672C\u5730\u4ED3\u5E93\u63D0\u4EA4\u8BB0\u5F55\u3002</p><p>\u63A5\u7740\u6211\u4EEC\u6765\u6574\u5408\u4E00\u4E0BWeb\u73AF\u5883\uFF0C\u521B\u5EFA\u65B0\u7684\u7C7B\u4E4B\u540E\uFF0CIDEA\u4F1A\u63D0\u793A\u6211\u4EEC\u662F\u5426\u5C06\u6587\u4EF6\u6DFB\u52A0\u5230Git\uFF0C\u4E5F\u5C31\u662F\u662F\u5426\u653E\u5165\u6682\u5B58\u533A\u5E76\u5F00\u542F\u8FFD\u8E2A\uFF0C\u6211\u4EEC\u53EF\u4EE5\u76F4\u63A5\u5BF9\u6BD4\u4E24\u6B21\u4EE3\u7801\u7684\u76F8\u540C\u548C\u4E0D\u540C\u4E4B\u5904\u3002</p><p>\u63A5\u7740\u6211\u4EEC\u6765\u6F14\u793A\u4E00\u4E0B\u5206\u652F\u521B\u5EFA\u548C\u5206\u652F\u7BA1\u7406\u3002</p><h2 id="\u8FDC\u7A0B\u4ED3\u5E93" tabindex="-1"><a class="header-anchor" href="#\u8FDC\u7A0B\u4ED3\u5E93" aria-hidden="true">#</a> \u8FDC\u7A0B\u4ED3\u5E93</h2><p>\u8FDC\u7A0B\u4ED3\u5E93\u5B9E\u9645\u4E0A\u5C31\u662F\u4F4D\u4E8E\u670D\u52A1\u5668\u4E0A\u7684\u4ED3\u5E93\uFF0C\u5B83\u80FD\u5728\u8FDC\u7AEF\u4FDD\u5B58\u6211\u4EEC\u7684\u7248\u672C\u5386\u53F2\uFF0C\u5E76\u4E14\u53EF\u4EE5\u5B9E\u73B0\u591A\u4EBA\u540C\u65F6\u5408\u4F5C\u7F16\u5199\u9879\u76EE\uFF0C\u6BCF\u4E2A\u4EBA\u90FD\u80FD\u591F\u540C\u6B65\u4ED6\u4EBA\u7684\u7248\u672C\uFF0C\u80FD\u591F\u770B\u5230\u4ED6\u4EBA\u7684\u7248\u672C\u63D0\u4EA4\uFF0C\u76F8\u5F53\u4E8E\u5C06\u6211\u4EEC\u7684\u4EE3\u7801\u653E\u5728\u670D\u52A1\u5668\u4E0A\u8FDB\u884C\u6258\u7BA1\u3002</p><p>\u8FDC\u7A0B\u4ED3\u5E93\u6709\u516C\u6709\u548C\u79C1\u6709\u7684\uFF0C\u516C\u6709\u7684\u8FDC\u7A0B\u4ED3\u5E93\u6709GitHub\u3001\u7801\u4E91\u3001Coding\u7B49\uFF0C\u4ED6\u4EEC\u90FD\u662F\u5BF9\u5916\u5F00\u653E\u7684\uFF0C\u6211\u4EEC\u6CE8\u518C\u8D26\u53F7\u4E4B\u540E\u5C31\u53EF\u4EE5\u4F7F\u7528\u8FDC\u7A0B\u4ED3\u5E93\u8FDB\u884C\u7248\u672C\u63A7\u5236\uFF0C\u5176\u4E2D\u6700\u5927\u7684\u5C31\u662FGitHub\uFF0C\u4F46\u662F\u5B83\u670D\u52A1\u5668\u5728\u56FD\u5916\uFF0C\u6211\u4EEC\u56FD\u5185\u8FDE\u63A5\u53EF\u80FD\u4F1A\u6709\u4E00\u70B9\u5361\u3002\u79C1\u6709\u7684\u4E00\u822C\u662FGitLab\u8FD9\u79CD\u81EA\u4E3B\u642D\u5EFA\u7684\u8FDC\u7A0B\u4ED3\u5E93\u79C1\u670D\uFF0C\u5728\u516C\u53F8\u4E2D\u6BD4\u8F83\u5E38\u7528\uFF0C\u5B83\u53EA\u5BF9\u516C\u53F8\u5185\u90E8\u5F00\u653E\uFF0C\u4E0D\u5BF9\u5916\u5F00\u653E\u3002</p><p>\u8FD9\u91CC\u6211\u4EEC\u4EE5GitHub\u505A\u8BB2\u89E3\uFF0C\u5B98\u7F51\uFF1Ahttps://github.com\uFF0C\u9996\u5148\u5B8C\u6210\u7528\u6237\u6CE8\u518C\u3002</p><ol><li>\u8FDC\u7A0B\u8D26\u6237\u8BA4\u8BC1\u548C\u63A8\u9001</li></ol><p>\u63A5\u7740\u6211\u4EEC\u5C31\u53EF\u4EE5\u521B\u5EFA\u4E00\u4E2A\u81EA\u5B9A\u4E49\u7684\u8FDC\u7A0B\u4ED3\u5E93\u4E86\u3002</p><p>\u521B\u5EFA\u4ED3\u5E93\u540E\uFF0C\u6211\u4EEC\u53EF\u4EE5\u901A\u8FC7\u63A8\u9001\u6765\u5C06\u672C\u5730\u4ED3\u5E93\u4E2D\u7684\u5185\u5BB9\u63A8\u9001\u5230\u8FDC\u7A0B\u4ED3\u5E93\u3002</p><div class="language-c ext-c line-numbers-mode"><pre class="language-c"><code>git remote add \u540D\u79F0 \u8FDC\u7A0B\u4ED3\u5E93\u5730\u5740
-git push \u8FDC\u7A0B\u4ED3\u5E93\u540D\u79F0 \u672C\u5730\u5206\u652F\u540D\u79F0<span class="token punctuation">[</span><span class="token operator">:</span>\u8FDC\u7AEF\u5206\u652F\u540D\u79F0<span class="token punctuation">]</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>\u6CE8\u610Fpush\u540E\u9762\u4E24\u4E2A\u53C2\u6570\uFF0C\u4E00\u4E2A\u662F\u8FDC\u7AEF\u540D\u79F0\uFF0C\u8FD8\u6709\u4E00\u4E2A\u5C31\u662F\u672C\u5730\u5206\u652F\u540D\u79F0\uFF0C\u4F46\u662F\u5982\u679C\u672C\u5730\u5206\u652F\u540D\u79F0\u548C\u8FDC\u7AEF\u5206\u652F\u540D\u79F0\u4E00\u81F4\uFF0C\u90A3\u4E48\u4E0D\u7528\u6307\u5B9A\u8FDC\u7AEF\u5206\u652F\u540D\u79F0\uFF0C\u4F46\u662F\u5982\u679C\u6211\u4EEC\u5E0C\u671B\u63A8\u9001\u7684\u5206\u652F\u5728\u8FDC\u7AEF\u6CA1\u6709\u540C\u540D\u7684\uFF0C\u90A3\u4E48\u9700\u8981\u989D\u5916\u6307\u5B9A\u3002\u63A8\u9001\u524D\u9700\u8981\u767B\u9646\u8D26\u6237\uFF0CGitHub\u73B0\u5728\u4E0D\u5141\u8BB8\u4F7F\u7528\u7528\u6237\u540D\u5BC6\u7801\u9A8C\u8BC1\uFF0C\u53EA\u5141\u8BB8\u4F7F\u7528\u4E2A\u4EBAAccessToken\u6765\u9A8C\u8BC1\u8EAB\u4EFD\uFF0C\u6240\u4EE5\u6211\u4EEC\u9700\u8981\u5148\u53BB\u751F\u6210\u4E00\u4E2AToken\u624D\u53EF\u4EE5\u3002</p><p>\u63A8\u9001\u540E\uFF0C\u6211\u4EEC\u53D1\u73B0\u8FDC\u7A0B\u4ED3\u5E93\u4E2D\u7684\u5185\u5BB9\u5DF2\u7ECF\u4E0E\u6211\u4EEC\u672C\u5730\u4ED3\u5E93\u4E2D\u7684\u5185\u5BB9\u4FDD\u6301\u4E00\u81F4\u4E86\uFF0C\u6CE8\u610F\uFF0C\u8FDC\u7A0B\u4ED3\u5E93\u4E5F\u53EF\u4EE5\u6709\u5F88\u591A\u4E2A\u5206\u652F\u3002</p><p>\u4F46\u662F\u8FD9\u6837\u6BD4\u8F83\u9EBB\u70E6\uFF0C\u6211\u4EEC\u6BCF\u6B21\u90FD\u9700\u8981\u53BB\u8F93\u5165\u7528\u6237\u540D\u548C\u5BC6\u7801\uFF0C\u6709\u6CA1\u6709\u4E00\u52B3\u6C38\u9038\u7684\u65B9\u6CD5\u5462\uFF1F\u5F53\u7136\uFF0C\u6211\u4EEC\u4E5F\u53EF\u4EE5\u4F7F\u7528SSH\u6765\u5B9E\u73B0\u4E00\u6B21\u6027\u6821\u9A8C\uFF0C\u6211\u4EEC\u53EF\u4EE5\u5728\u672C\u5730\u751F\u6210\u4E00\u4E2Arsa\u516C\u94A5\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>ssh-keygen -t rsa
-<span class="token function">cat</span> ~/.ssh/github.pub
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>\u63A5\u7740\u6211\u4EEC\u9700\u8981\u5728GitHub\u4E0A\u4E0A\u4F20\u6211\u4EEC\u7684\u516C\u94A5\uFF0C\u5F53\u6211\u4EEC\u518D\u6B21\u53BB\u8BBF\u95EEGitHub\u65F6\uFF0C\u4F1A\u81EA\u52A8\u9A8C\u8BC1\uFF0C\u5C31\u65E0\u9700\u8FDB\u884C\u767B\u5F55\u4E86\uFF0C\u4E4B\u540E\u5728Linux\u90E8\u5206\u6211\u4EEC\u4F1A\u8BE6\u7EC6\u8BB2\u89E3SSH\u7684\u539F\u7406\u3002</p><p>\u63A5\u7740\u6211\u4EEC\u4FEE\u6539\u4E00\u4E0B\u5DE5\u4F5C\u533A\u7684\u5185\u5BB9\uFF0C\u63D0\u4EA4\u5230\u672C\u5730\u4ED3\u5E93\u540E\uFF0C\u518D\u63A8\u9001\u5230\u8FDC\u7A0B\u4ED3\u5E93\uFF0C\u63D0\u4EA4\u7684\u8FC7\u7A0B\u4E2D\u6211\u4EEC\u6CE8\u610F\u89C2\u5BDF\u63D0\u4EA4\u8BB0\u5F55\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> commit -a -m <span class="token string">&#39;Modify files&#39;</span>
-<span class="token function">git</span> log --all --oneline --graph
-<span class="token function">git</span> push origin master 
-<span class="token function">git</span> log --all --oneline --graph
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>\u6211\u4EEC\u53EF\u4EE5\u5C06\u8FDC\u7AEF\u548C\u672C\u5730\u7684\u5206\u652F\u8FDB\u884C\u7ED1\u5B9A\uFF0C\u7ED1\u5B9A\u540E\u5C31\u4E0D\u9700\u8981\u6307\u5B9A\u5206\u652F\u540D\u79F0\u4E86\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> push --set-upstream origin master:master
-<span class="token function">git</span> push origin
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>\u5728\u4E00\u4E2A\u672C\u5730\u4ED3\u5E93\u5BF9\u5E94\u4E00\u4E2A\u8FDC\u7A0B\u4ED3\u5E93\u7684\u60C5\u51B5\u4E0B\uFF0C\u8FDC\u7A0B\u4ED3\u5E93\u57FA\u672C\u4E0A\u5C31\u662F\u7EAF\u7CB9\u7684\u4EE3\u7801\u6258\u7BA1\u4E86\uFF08\u4E91\u76D8\u90A3\u79CD\u611F\u89C9\uFF0C\u5C31\u7EAF\u7CB9\u662F\u5B58\u4F60\u4EE3\u7801\u7684\uFF09</p><ol start="2"><li>\u514B\u9686\u9879\u76EE</li></ol><p>\u5982\u679C\u6211\u4EEC\u5DF2\u7ECF\u5B58\u5728\u4E00\u4E2A\u8FDC\u7A0B\u4ED3\u5E93\u7684\u60C5\u51B5\u4E0B\uFF0C\u6211\u4EEC\u9700\u8981\u5728\u8FDC\u7A0B\u4ED3\u5E93\u7684\u4EE3\u7801\u4E0A\u7EE7\u7EED\u7F16\u5199\u4EE3\u7801\uFF0C\u8FD9\u4E2A\u65F6\u5019\u600E\u4E48\u529E\u5462\uFF1F</p><p>\u6211\u4EEC\u53EF\u4EE5\u4F7F\u7528\u514B\u9686\u64CD\u4F5C\u6765\u5C06\u8FDC\u7AEF\u4ED3\u5E93\u7684\u5185\u5BB9\u5168\u90E8\u590D\u5236\u5230\u672C\u5730\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> clone \u8FDC\u7A0B\u4ED3\u5E93\u5730\u5740
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u8FD9\u6837\u672C\u5730\u5C31\u80FD\u591F\u76F4\u63A5\u4E0E\u8FDC\u7A0B\u4FDD\u6301\u540C\u6B65\u3002</p><ol start="3"><li>\u6293\u53D6\u3001\u62C9\u53D6\u548C\u51B2\u7A81\u89E3\u51B3</li></ol><p>\u6211\u4EEC\u63A5\u7740\u6765\u770B\uFF0C\u5982\u679C\u8FD9\u4E2A\u65F6\u5019\uFF0C\u51FA\u73B0\u591A\u4E2A\u672C\u5730\u4ED3\u5E93\u5BF9\u5E94\u4E00\u4E2A\u8FDC\u7A0B\u4ED3\u5E93\u7684\u60C5\u51B5\u4E0B\uFF0C\u6BD4\u5982\u4E00\u4E2A\u56E2\u961F\u91CC\u9762\uFF0CN\u4E2A\u4EBA\u90FD\u5728\u4F7F\u7528\u540C\u4E00\u4E2A\u8FDC\u7A0B\u4ED3\u5E93\uFF0C\u4F46\u662F\u4ED6\u4EEC\u5404\u81EA\u53EA\u8D1F\u8D23\u7F16\u5199\u548C\u63A8\u9001\u81EA\u5DF1\u4E1A\u52A1\u90E8\u5206\u7684\u4EE3\u7801\uFF0C\u4E5F\u5C31\u662F\u6211\u4EEC\u5E38\u8BF4\u7684\u534F\u540C\u5DE5\u4F5C\uFF0C\u90A3\u4E48\u8FD9\u4E2A\u65F6\u5019\uFF0C\u6211\u4EEC\u5C31\u9700\u8981\u534F\u8C03\u3002</p><p>\u6BD4\u5982\u7A0B\u5E8F\u5458A\u5B8C\u6210\u4E86\u4ED6\u7684\u6A21\u5757\uFF0C\u90A3\u4E48\u4ED6\u5C31\u53EF\u4EE5\u63D0\u4EA4\u4EE3\u7801\u5E76\u63A8\u9001\u5230\u8FDC\u7A0B\u4ED3\u5E93\uFF0C\u8FD9\u65F6\u7A0B\u5E8F\u5458B\u4E5F\u8981\u5F00\u59CB\u5199\u4EE3\u7801\u4E86\uFF0C\u7531\u4E8E\u8FDC\u7A0B\u4ED3\u5E93\u6709\u5176\u4ED6\u7A0B\u5E8F\u5458\u7684\u63D0\u4EA4\u8BB0\u5F55\uFF0C\u56E0\u6B64\u7A0B\u5E8F\u5458B\u7684\u672C\u5730\u4ED3\u5E93\u548C\u8FDC\u7A0B\u4ED3\u5E93\u4E0D\u4E00\u81F4\uFF0C\u8FD9\u65F6\u5C31\u9700\u8981\u6709\u5148\u8FDB\u884Cpull\u64CD\u4F5C\uFF0C\u83B7\u53D6\u8FDC\u7A0B\u4ED3\u5E93\u4E2D\u6700\u65B0\u7684\u63D0\u4EA4\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> fetch \u8FDC\u7A0B\u4ED3\u5E93 <span class="token comment">#\u6293\u53D6\uFF1A\u53EA\u83B7\u53D6\u4F46\u4E0D\u5408\u5E76\u8FDC\u7AEF\u5206\u652F\uFF0C\u540E\u9762\u9700\u8981\u6211\u4EEC\u624B\u52A8\u5408\u5E76\u624D\u80FD\u63D0\u4EA4</span>
-<span class="token function">git</span> pull \u8FDC\u7A0B\u4ED3\u5E93 <span class="token comment">#\u62C9\u53D6\uFF1A\u83B7\u53D6+\u5408\u5E76</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>\u5728\u7A0B\u5E8F\u5458B\u62C9\u53D6\u4E86\u6700\u65B0\u7684\u7248\u672C\u540E\uFF0C\u518D\u7F16\u5199\u81EA\u5DF1\u7684\u4EE3\u7801\u7136\u540E\u63D0\u4EA4\u5C31\u53EF\u4EE5\u5B9E\u73B0\u591A\u4EBA\u5408\u4F5C\u7F16\u5199\u9879\u76EE\u4E86\uFF0C\u5E76\u4E14\u5728\u62C9\u53D6\u8FC7\u7A0B\u4E2D\u5C31\u80FD\u5C06\u522B\u4EBA\u63D0\u4EA4\u7684\u5185\u5BB9\u540C\u6B65\u5230\u672C\u5730\uFF0C\u5F00\u53D1\u6548\u7387\u5927\u5927\u63D0\u5347\u3002</p><p>\u5982\u679C\u5DE5\u4F5C\u4E2D\u5B58\u5728\u4E0D\u534F\u8C03\u7684\u5730\u65B9\uFF0C\u6BD4\u5982\u73B0\u5728\u6211\u4EEC\u672C\u5730\u6709\u4E24\u4E2A\u4ED3\u5E93\uFF0C\u4E00\u4E2A\u4ED3\u5E93\u53BB\u4FEE\u6539hello.txt\u5E76\u76F4\u63A5\u63D0\u4EA4\uFF0C\u53E6\u4E00\u4E2A\u4ED3\u5E93\u4E5F\u4FEE\u6539hello.txt\u5E76\u76F4\u63A5\u63D0\u4EA4\uFF0C\u4F1A\u5F97\u5230\u5982\u4E0B\u9519\u8BEF\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>To https://github.com/xx/xxx.git
- <span class="token operator">!</span> <span class="token punctuation">[</span>rejected<span class="token punctuation">]</span>        master -<span class="token operator">&gt;</span> master <span class="token punctuation">(</span>fetch first<span class="token punctuation">)</span>
-error: failed to push some refs to <span class="token string">&#39;https://github.com/xx/xxx.git&#39;</span>
-hint: Updates were rejected because the remote contains work that you <span class="token keyword">do</span>
-hint: not have locally. This is usually caused by another repository pushing
-hint: to the same ref. You may want to first integrate the remote changes
-hint: <span class="token punctuation">(</span>e.g., <span class="token string">&#39;git pull ...&#39;</span><span class="token punctuation">)</span> before pushing again.
-hint: See the <span class="token string">&#39;Note about fast-forwards&#39;</span> <span class="token keyword">in</span> <span class="token string">&#39;git push --help&#39;</span> <span class="token keyword">for</span> details.
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><p>\u4E00\u65E6\u4E00\u4E2A\u672C\u5730\u4ED3\u5E93\u63A8\u9001\u4E86\u4EE3\u7801\uFF0C\u90A3\u4E48\u53E6\u4E00\u4E2A\u672C\u5730\u4ED3\u5E93\u7684\u63A8\u9001\u4F1A\u88AB\u62D2\u7EDD\uFF0C\u539F\u56E0\u662F\u5F53\u524D\u6587\u4EF6\u5DF2\u7ECF\u88AB\u5176\u4ED6\u7684\u63A8\u9001\u7ED9\u4FEE\u6539\u4E86\uFF0C\u6211\u4EEC\u8FD9\u8FB9\u76F8\u5F53\u4E8E\u662F\u53E6\u4E00\u4E2A\u7248\u672C\uFF0C\u548C\u4E4B\u524D\u4E24\u4E2A\u5206\u652F\u5408\u5E76\u4E00\u6837\uFF0C\u4EA7\u751F\u4E86\u51B2\u7A81\uFF0C\u56E0\u6B64\u6211\u4EEC\u53EA\u80FD\u53BB\u89E3\u51B3\u51B2\u7A81\u95EE\u9898\u3002</p><p>\u5982\u679C\u8FDC\u7A0B\u4ED3\u5E93\u4E2D\u7684\u63D0\u4EA4\u548C\u672C\u5730\u4ED3\u5E93\u4E2D\u7684\u63D0\u4EA4\u6CA1\u6709\u53BB\u7F16\u5199\u540C\u4E00\u4E2A\u6587\u4EF6\uFF0C\u90A3\u4E48\u5C31\u53EF\u4EE5\u76F4\u63A5\u62C9\u53D6\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> pull \u8FDC\u7A0B\u4ED3\u5E93
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u62C9\u53D6\u540E\u4F1A\u81EA\u52A8\u8FDB\u884C\u5408\u5E76\uFF0C\u5408\u5E76\u5B8C\u6210\u4E4B\u540E\u6211\u4EEC\u518D\u63D0\u4EA4\u5373\u53EF\u3002</p><p>\u4F46\u662F\u5982\u679C\u4E24\u6B21\u63D0\u4EA4\u90FD\u4FEE\u6539\u4E86\u540C\u4E00\u4E2A\u6587\u4EF6\uFF0C\u90A3\u4E48\u5C31\u4F1A\u9047\u5230\u548C\u591A\u5206\u652F\u5408\u5E76\u4E00\u6837\u7684\u60C5\u51B5\uFF0C\u5728\u5408\u5E76\u65F6\u4F1A\u4EA7\u751F\u51B2\u7A81\uFF0C\u8FD9\u65F6\u5C31\u9700\u8981\u6211\u4EEC\u81EA\u5DF1\u53BB\u89E3\u51B3\u51B2\u7A81\u4E86\u3002</p><p>\u6211\u4EEC\u53EF\u4EE5\u5728IDEA\u4E2D\u6F14\u793A\u4E00\u4E0B\uFF0C\u5B9E\u9645\u5F00\u53D1\u573A\u666F\u4E0B\u53EF\u80FD\u4F1A\u9047\u5230\u7684\u95EE\u9898\u3002</p><p>\u7ED3\u675F\uFF01</p><!--]-->`);
+<span class="token comment">-- MySQL8\u4FEE\u6539\u5BC6\u7801(\u8981\u5148\u767B\u5F55root)</span>
+<span class="token keyword">show</span> <span class="token keyword">databases</span><span class="token punctuation">;</span>
+<span class="token keyword">use</span> mysql<span class="token punctuation">;</span>
+<span class="token keyword">alter</span> <span class="token keyword">user</span> <span class="token string">&quot;root&quot;</span><span class="token variable">@&quot;localhost&quot;</span> identified <span class="token keyword">with</span> mysql_native_password <span class="token keyword">by</span> <span class="token string">&#39;123456&#39;</span><span class="token punctuation">;</span>
+
+<span class="token comment">-- \u5237\u65B0MySQL\u7CFB\u7EDF\u6743\u9650\u76F8\u5173</span>
+flush <span class="token keyword">privileges</span><span class="token punctuation">;</span>
+
+<span class="token comment">-- \u6253\u5370\u5168\u90E8\u6570\u636E\u5E93</span>
+<span class="token keyword">show</span> <span class="token keyword">databases</span><span class="token punctuation">;</span>
+
+<span class="token comment">-- \u5207\u6362\u6570\u636E\u5E93(\u5207\u6362\u5230school\u6570\u636E\u5E93)</span>
+<span class="token keyword">use</span> school<span class="token punctuation">;</span>
+
+<span class="token comment">-- \u6253\u5370\u6240\u6709\u8868</span>
+<span class="token keyword">show</span> <span class="token keyword">tables</span><span class="token punctuation">;</span>
+
+<span class="token comment">-- \u663E\u793A\u8868\u4FE1\u606F(\u663E\u793Astudent\u8868\u4FE1\u606F)</span>
+<span class="token keyword">describe</span> student<span class="token punctuation">;</span>
+
+<span class="token comment">-- \u521B\u5EFA\u6570\u636E\u5E93(\u521B\u5EFAschool\u6570\u636E\u5E93)</span>
+<span class="token keyword">create</span> <span class="token keyword">database</span> school<span class="token punctuation">;</span>
+
+<span class="token comment">-- \u5173\u95ED\u6570\u636E\u5E93</span>
+<span class="token keyword">exit</span><span class="token punctuation">;</span>
+
+<span class="token comment">-- \u5355\u884C\u6CE8\u91CA</span>
+
+<span class="token comment">/*
+\u591A\u884C\u6CE8\u91CA
+*/</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br></div></div><p>\u4E00\u4E9B\u540D\u79F0\u91CA\u4E49\uFF1A</p><p><code>DDL</code>\uFF1A\u6570\u636E\u5E93\u5B9A\u4E49\u8BED\u8A00</p><p><code>DML</code>\uFF1A\u6570\u636E\u5E93\u64CD\u4F5C\u8BED\u8A00</p><p><code>DQL</code>\uFF1A\u6570\u636E\u5E93\u67E5\u8BE2\u8BED\u8A00</p><p><code>DCL</code>\uFF1A\u6570\u636E\u5E93\u63A7\u5236\u8BED\u8A00</p><h2 id="\u64CD\u4F5C\u6570\u636E\u5E93" tabindex="-1"><a class="header-anchor" href="#\u64CD\u4F5C\u6570\u636E\u5E93" aria-hidden="true">#</a> \u64CD\u4F5C\u6570\u636E\u5E93</h2><p><code>\u64CD\u4F5C\u6570\u636E\u5E93</code>\u2014\u2014&gt;<code>\u64CD\u4F5C\u6570\u636E\u5E93\u8868</code>\u2014\u2014&gt;<code>\u64CD\u4F5C\u6570\u636E\u5E93\u8868\u6570\u636E</code></p><p>\u57FA\u672C<code>CRUD</code>\u589E\u5220\u67E5\u6539\u3002</p><p><code>\u91CA\u4E49\uFF1A\u4E0B\u9762\u7B26\u53F7</code> [ ] <code>\u662F\u53EF\u9009\u7684\u9009\u9879\u4F46\u4E0D\u5305\u62EC</code> [ ] <code>\u7B26\u53F7\uFF0C\u5982\uFF1A</code> <code>[if not exists]</code> <code>\u7B49\u4E8E</code> <code>if not exists</code> <code>;</code></p><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">-- \u521B\u5EFAschool\u6570\u636E\u5E93\uFF1B\u5982\u679C\u4E0D\u5B58\u5728\u7684\u8BDD\uFF0C[if not exists]\u4F5C\u7528\u662F\u5982\u679C\u5DF2\u7ECF\u5B58\u5728\u5219\u8DF3\u8FC7\uFF0C\u4E0D\u4F1A\u518D\u62A5\u9519\u3002</span>
+<span class="token keyword">create</span> <span class="token keyword">database</span> <span class="token punctuation">[</span><span class="token keyword">if</span> <span class="token operator">not</span> <span class="token keyword">exists</span><span class="token punctuation">]</span> school<span class="token punctuation">;</span>
+
+<span class="token comment">-- \u5220\u9664\u6570\u636E\u5E93\uFF0C\u5982\u679C\u5B58\u5728\uFF0C\u4E0D\u5B58\u5728\u5219\u8DF3\u8FC7\u8FD9\u53E5\u3002</span>
+<span class="token keyword">drop</span> databser <span class="token punctuation">[</span><span class="token keyword">if</span> <span class="token keyword">exists</span><span class="token punctuation">]</span> school<span class="token punctuation">;</span>
+
+<span class="token comment">-- \u5207\u6362\u6570\u636E\u5E93(\u6CE8\u610F\u4E0B\u9762\u5E93\u540D\u6709\u53CD\u5F15\u53F7\uFF0C\u5982\u679C\u4F60\u7684\u5B57\u6BB5\u548CMySQL\u91CD\u540D\u4E86\u5C31\u9700\u8981\u7528\u53CD\u5F15\u53F7\u5305\u88F9)</span>
+<span class="token keyword">use</span> <span class="token punctuation">\`</span>school<span class="token punctuation">\`</span><span class="token punctuation">;</span>
+
+<span class="token comment">-- \u67E5\u770B\u6240\u6709\u6570\u636E\u5E93</span>
+<span class="token keyword">show</span> <span class="token keyword">databases</span><span class="token punctuation">;</span>
+
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><h2 id="\u64CD\u4F5C\u8868" tabindex="-1"><a class="header-anchor" href="#\u64CD\u4F5C\u8868" aria-hidden="true">#</a> \u64CD\u4F5C\u8868</h2><h3 id="_1-\u6570\u636E\u7C7B\u578B" tabindex="-1"><a class="header-anchor" href="#_1-\u6570\u636E\u7C7B\u578B" aria-hidden="true">#</a> 1.\u6570\u636E\u7C7B\u578B</h3><blockquote><p><code>\u6570\u503C</code></p></blockquote><ul><li><code>tinyint</code>\uFF1A\u5341\u5206\u5C0F\u7684\u6570\u636E\uFF0C1 \u4E2A\u5B57\u8282</li><li><code>smallint</code>\uFF1A\u8F83\u5C0F\u7684\u6570\u636E\uFF0C2 \u4E2A\u5B57\u8282</li><li><code>mediumint</code>\uFF1A\u4E2D\u7B49\u5927\u5C0F\u7684\u6570\u636E\uFF0C3 \u4E2A\u5B57\u8282</li><li><code>int</code>\uFF1A\u6807\u51C6\u6574\u6570\uFF0C4 \u4E2A\u5B57\u8282\uFF0C\u5E38\u7528</li><li><code>bigint</code>\uFF1A\u8F83\u5927\u7684\u6570\u636E\uFF0C8 \u4E2A\u5B57\u8282</li><li><code>float</code>\uFF1A\u6D6E\u70B9\u6570\uFF0C4 \u4E2A\u5B57\u8282</li><li><code>double</code>\uFF1A\u6D6E\u70B9\u6570\uFF0C8 \u4E2A\u5B57\u8282</li><li><code>decimal</code>\uFF1A\u5B57\u7B26\u4E32\u6D6E\u70B9\u6570\uFF0C\u91D1\u878D\u8BA1\u7B97\u5E38\u7528\uFF08\u4E0D\u4F1A\u7CBE\u5EA6\u7F3A\u5C11\uFF09\u5E38\u7528</li></ul><blockquote><p><code>\u5B57\u7B26\u4E32</code></p></blockquote><ul><li><code>char</code>\uFF1A\u56FA\u5B9A\u5927\u5C0F\u5B57\u7B26\u4E32\uFF0C0-255</li><li><code>varchar</code>\uFF1A\u53EF\u53D8\u5B57\u7B26\u4E32\uFF0C0-65535\uFF0C\u5E38\u7528\uFF0C\u5BF9\u5E94 Java \u4E2D\u7684 string</li><li><code>tinytext</code>\uFF1A\u5FAE\u578B\u6587\u672C\uFF0C2<sup>8</sup>-1</li><li><code>text</code>\uFF1A\u6587\u672C\u4E32\uFF0C2<sup>16</sup>-1</li></ul><blockquote><p><code>\u65F6\u95F4\u65E5\u671F</code></p></blockquote><ul><li><code>date</code>\uFF1Ayyyy-mm-dd\uFF0C\u65E5\u671F</li><li><code>time</code>\uFF1Ahh:mm:ss \u65F6\u95F4\u683C\u5F0F</li><li><code>datetime</code>\uFF1Ayyyy-mm-dd hh:mm:ss \u5E38\u7528\u7684\u65F6\u95F4\u683C\u5F0F</li><li><code>timestamp</code>\uFF1A\u65F6\u95F4\u6233\uFF0C1970.1.1 \u5230\u73B0\u5728\u7684\u65F6\u95F4\u6233\uFF0C\u5E38\u7528\u7684\u65F6\u95F4\u683C\u5F0F</li><li><code>year</code>\uFF1A\u5E74\u4EFD\u8868\u793A</li></ul><blockquote><p><code>null</code></p></blockquote><ul><li>\u6CA1\u6709\u503C\uFF0C\u672A\u77E5</li><li>\u6CE8\u610F\uFF0C\u5C3D\u91CF\u4E0D\u8981\u4F7F\u7528 null \u6765\u8FD0\u7B97\uFF0C\u5BB9\u6613\u62A5\u9519</li><li>\u5982\u679C\u6539\u5217\u6CA1\u503C\uFF0C\u53EF\u4EE5\u7528\u5176\u7C7B\u578B\u7684\u9ED8\u8BA4\u503C\uFF0C\u4E0D\u8981 null</li></ul><h3 id="_2-\u5B57\u6BB5\u5C5E\u6027-\u91CD\u8981" tabindex="-1"><a class="header-anchor" href="#_2-\u5B57\u6BB5\u5C5E\u6027-\u91CD\u8981" aria-hidden="true">#</a> 2.\u5B57\u6BB5\u5C5E\u6027\uFF08\u91CD\u8981\uFF09</h3><blockquote><p><code>Unsigned</code></p></blockquote><p>\u6570\u503C\u7C7B\u578B\u4F7F\u7528\uFF0C\u6807\u6CE8\u503C\u4E3A\u65E0\u7B26\u53F7\u7684\u6574\u6570\uFF0C\u4E0D\u80FD\u4E3A\u8D1F\u6570\uFF0C\u5426\u5219\u62A5\u9519\u3002</p><blockquote><p><code>zerofill</code></p></blockquote><p>0 \u586B\u5145\u7684 \u4E0D\u8DB3\u7684\u4F4D\u6570\uFF0C\u4F7F\u7528 0 \u6765\u586B\u5145 \u6BD4\u5982\uFF1Aint(5 \u4E2A\u5B57\u8282)\uFF0C\u5982\u679C\u4F20\u5165<code>5</code>\uFF0C\u90A3\u4FDD\u5B58\u7684\u662F<code>0005</code></p><blockquote><p><code>auto_increamennt</code></p></blockquote><p>\u7B80\u5355\u7406\u89E3\u5C31\u662F\u81EA\u589E\uFF0C\u81EA\u52A8\u5728\u4E0A\u4E00\u6761\u8BB0\u5F55\u57FA\u7840\u4E0A\u52A0\u4E00\uFF08\u9ED8\u8BA4\uFF09 \u5E38\u7528\u4E8E\u8BBE\u8BA1\u552F\u4E00\u4E3B\u952E\u81EA\u589E\uFF0C\u5FC5\u987B\u662F\u6574\u6570\u7C7B\u578B \u53EF\u4EE5\u8BBE\u7F6E\u8D77\u59CB\u503C\u548C\u589E\u91CF\uFF0C\u4E00\u822C\u4E0D\u6539</p><blockquote><p><code>not null</code></p></blockquote><p>\u975E\u7A7A \u5982\u679C\u8BBE\u7F6E\u4E86\uFF0C\u5728\u63D2\u5165\u503C\u7684\u65F6\u5019\u5982\u679C\u4E3A null \u5219\u62A5\u9519\u3002 null\uFF1A\u5982\u679C\u4E0D\u586B\u5199\u503C\uFF0CMySQL \u4F1A\u4E3A null\u3002</p><blockquote><p><code>default</code></p></blockquote><p>\u8BBE\u7F6E\u9ED8\u8BA4\u503C \u5982\u679C\u63D2\u5165\u6570\u636E\u65F6\uFF0C\u5982\u679C\u4E0D\u6307\u5B9A\u8BE5\u5217\u7684\u503C\uFF0C\u5C31\u4F1A\u4F7F\u7528 default \u9ED8\u8BA4\u503C</p><ol><li>\u7EC3\u4E60 <ul><li>\u521B\u5EFA\u4E00\u4E2A school \u5E93</li><li>\u521B\u5EFA\u5B66\u751F\u8868</li><li>\u5B66\u53F7 int</li><li>\u767B\u9646\u5BC6\u7801 varchar(20)</li><li>\u59D3\u540D</li><li>\u6027\u522B</li><li>\u51FA\u751F\u65E5\u671F</li><li>\u5BB6\u5EAD\u5730\u5740</li><li>Email</li></ul></li></ol><p>\u6CE8\u610F\uFF1A\u4F7F\u7528\u82F1\u6587\u7B26\u53F7\uFF0C\u8868\u548C\u5B57\u6BB5\u540D\u79F0\u5C3D\u91CF\u4F7F\u7528\u53CD\u5F15\u53F7\u5305\u88F9\u3002\u552F\u4E00\u503C\u8BBE\u7F6E\u81EA\u589E,\u4E00\u822C\u4F7F\u7528\u5355\u5F15\u53F7\uFF0C\u8BED\u53E5\u9017\u53F7\u9694\u5F00\uFF0C\u6700\u540E\u4E00\u4E2A\u4E0D\u7528</p><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token keyword">show</span> <span class="token keyword">create</span> <span class="token keyword">database</span> school<span class="token punctuation">;</span> <span class="token comment">--\u67E5\u770B\u521B\u5EFA\u6570\u636E\u5E93\u7684\u8BED\u53E5</span>
+<span class="token keyword">show</span> <span class="token keyword">create</span> <span class="token keyword">table</span> student<span class="token punctuation">;</span> <span class="token comment">--\u67E5\u770B\u8868\u5B9A\u4E49\u7684\u8BED\u53E5</span>
+<span class="token keyword">desc</span> student <span class="token comment">--\u67E5\u770B\u8868\u7ED3\u6784</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token keyword">create</span> <span class="token keyword">table</span> <span class="token keyword">if</span> <span class="token operator">not</span> <span class="token keyword">exists</span> <span class="token punctuation">\`</span>student<span class="token punctuation">\`</span> <span class="token punctuation">(</span>
+   <span class="token punctuation">\`</span>id<span class="token punctuation">\`</span> <span class="token keyword">int</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">)</span> <span class="token operator">not</span> <span class="token boolean">null</span> auto_increamennt <span class="token keyword">comment</span> <span class="token string">&#39;\u5B66\u53F7&#39;</span><span class="token punctuation">,</span>
+   <span class="token punctuation">\`</span>name<span class="token punctuation">\`</span> <span class="token keyword">varchar</span><span class="token punctuation">(</span><span class="token number">30</span><span class="token punctuation">)</span> <span class="token operator">not</span> <span class="token boolean">null</span> <span class="token keyword">default</span> <span class="token string">&#39;\u533F\u540D&#39;</span> <span class="token keyword">comment</span> <span class="token string">&#39;\u59D3\u540D&#39;</span><span class="token punctuation">,</span>
+   <span class="token punctuation">\`</span>password<span class="token punctuation">\`</span> <span class="token keyword">varchar</span><span class="token punctuation">(</span><span class="token number">20</span><span class="token punctuation">)</span> <span class="token operator">not</span> <span class="token boolean">null</span> <span class="token keyword">default</span> <span class="token string">&#39;123456&#39;</span> <span class="token keyword">comment</span> <span class="token string">&#39;\u5BC6\u7801&#39;</span><span class="token punctuation">,</span>
+   <span class="token punctuation">\`</span>sex<span class="token punctuation">\`</span> <span class="token keyword">varchar</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span> <span class="token operator">not</span> <span class="token boolean">null</span> <span class="token keyword">default</span> <span class="token string">&#39;\u5973&#39;</span> <span class="token keyword">comment</span> <span class="token string">&#39;\u6027\u522B&#39;</span><span class="token punctuation">,</span>
+   <span class="token punctuation">\`</span>birthday<span class="token punctuation">\`</span> <span class="token keyword">datetime</span> <span class="token keyword">default</span> <span class="token boolean">null</span> <span class="token keyword">comment</span> <span class="token string">&#39;\u51FA\u751F\u65E5\u671F&#39;</span><span class="token punctuation">,</span>
+   <span class="token punctuation">\`</span>address<span class="token punctuation">\`</span> <span class="token keyword">varchar</span><span class="token punctuation">(</span><span class="token number">100</span><span class="token punctuation">)</span> <span class="token keyword">default</span> <span class="token boolean">null</span> <span class="token keyword">comment</span> <span class="token string">&#39;\u5BB6\u5EAD\u5730\u5740&#39;</span><span class="token punctuation">,</span>
+   <span class="token punctuation">\`</span>email<span class="token punctuation">\`</span> <span class="token keyword">varchar</span><span class="token punctuation">(</span><span class="token number">50</span><span class="token punctuation">)</span> <span class="token keyword">default</span> <span class="token boolean">null</span> <span class="token keyword">comment</span> <span class="token string">&#39;&#39;</span>\u90AE\u7BB1<span class="token punctuation">,</span>
+   <span class="token keyword">primary</span> <span class="token keyword">key</span><span class="token punctuation">(</span><span class="token punctuation">\`</span>id<span class="token punctuation">\`</span><span class="token punctuation">)</span>
+<span class="token punctuation">)</span><span class="token keyword">engine</span><span class="token operator">=</span><span class="token keyword">innodb</span> <span class="token keyword">default</span> <span class="token keyword">charset</span><span class="token operator">=</span>utf8
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token keyword">create</span> <span class="token keyword">table</span> <span class="token punctuation">[</span><span class="token keyword">if</span> <span class="token operator">not</span> <span class="token keyword">exists</span><span class="token punctuation">]</span> <span class="token punctuation">\`</span>\u8868\u540D<span class="token punctuation">\`</span> <span class="token punctuation">(</span>
+   <span class="token punctuation">\`</span>\u5B57\u6BB5\u540D<span class="token punctuation">\`</span> \u5217\u7C7B\u578B <span class="token punctuation">[</span>\u5C5E\u6027<span class="token punctuation">]</span> <span class="token punctuation">[</span>\u7D22\u5F15<span class="token punctuation">]</span> <span class="token punctuation">[</span>\u6CE8\u91CA<span class="token punctuation">]</span>
+   <span class="token comment">--......</span>
+<span class="token punctuation">)</span><span class="token punctuation">[</span>\u8868\u7C7B\u578B<span class="token punctuation">]</span><span class="token punctuation">[</span>\u5B57\u7B26\u96C6\u8BBE\u7F6E<span class="token punctuation">]</span><span class="token punctuation">[</span>\u6CE8\u91CA<span class="token punctuation">]</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h3 id="_3-\u6570\u636E\u5E93\u5F15\u64CE\u548C\u7F16\u7801" tabindex="-1"><a class="header-anchor" href="#_3-\u6570\u636E\u5E93\u5F15\u64CE\u548C\u7F16\u7801" aria-hidden="true">#</a> 3.\u6570\u636E\u5E93\u5F15\u64CE\u548C\u7F16\u7801</h3><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">MyIsam</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">InnoDB</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4E8B\u52A1\u652F\u6301</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4E0D\u652F\u6301</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u652F\u6301</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6570\u636E\u884C\u9501\u5B9A</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4E0D\u652F\u6301</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u652F\u6301</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5916\u952E</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4E0D\u652F\u6301</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u652F\u6301</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5168\u6587\u7D22\u5F15</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u652F\u6301</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6682\u4E0D\u652F\u6301</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u7A7A\u95F4\u5927\u5C0F</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8F83\u5C0F</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8F83\u5927\uFF0C\u7EA6\u524D\u8005 2 \u500D</td></tr></tbody></table><blockquote><p>\u7269\u7406\u5B58\u50A8\u7684\u533A\u522B</p></blockquote><ol><li>InnoDB\uFF1A(\u6CE8\u610F 5.x \u548C 8.x \u7248\u672C\u6709\u4E0D\u540C)</li></ol><p><code>.frm</code>\uFF1A\u5B58\u50A8\u8868\u5B9A\u4E49\uFF0C\u5728 5.x \u4EE5\u4E0B\u5E94\u8BE5\u5B58\u5728</p><p><code>.idb</code>\uFF1A\u5B58\u50A8\u6570\u636E\u548C\u7D22\u5F15\uFF0C\u5728\u540C\u4E00\u4E2A\u6587\u4EF6\u4E2D\uFF0C8.x \u5E94\u8BE5\u53EF\u89C1</p><ol start="2"><li>MyIsam:</li></ol><p><code>.frm</code>: \u5B58\u50A8\u8868\u5B9A\u4E49</p><p><code>.myd(MYData)</code>: \u5B58\u50A8\u6570\u636E</p><p><code>.MYI(MYindex)</code>: \u5B58\u50A8\u5F15\u64CE,\u5373\u7D22\u5F15\u6587\u4EF6</p><blockquote><p>\u8BBE\u7F6E\u6570\u636E\u5E93\u8868\u7F16\u7801\u95EE\u9898</p></blockquote><p><code>charset=utf8mb64</code></p><p>\u53EF\u4EE5\u4E86\u89E3\u4E00\u4E0B<code>COLLATE = utf8mb4_general_ci;</code></p><p>\u6392\u5E8F\u89C4\u5219\uFF1A\u662F\u6307\u5BF9\u6307\u5B9A\u5B57\u7B26\u96C6\u4E0B\u4E0D\u540C\u5B57\u7B26\u7684\u6BD4\u8F83\u89C4\u5219\u3002</p><p>\u5176\u7279\u5F81\u6709\u4EE5\u4E0B\u51E0\u70B9\uFF1A</p><ol><li><p>\u4E24\u4E2A\u4E0D\u540C\u7684\u5B57\u7B26\u96C6\u4E0D\u80FD\u6709\u76F8\u540C\u7684\u6392\u5E8F\u89C4\u5219</p></li><li><p>\u4E24\u4E2A\u5B57\u7B26\u96C6\u6709\u4E00\u4E2A\u9ED8\u8BA4\u7684\u6392\u5E8F\u89C4\u5219</p></li><li><p>\u6709\u4E00\u4E9B\u5E38\u7528\u7684\u547D\u540D\u89C4\u5219\u3002\u5982_ci\u7ED3\u5C3E\u8868\u793A\u5927\u5C0F\u5199\u4E0D\u654F\u611F\uFF08caseinsensitive\uFF09,_cs\u8868\u793A\u5927\u5C0F\u5199\u654F\u611F\uFF08case sensitive\uFF09,_bin\u8868\u793A\u4E8C\u8FDB\u5236\u7684\u6BD4\u8F83\uFF08binary\uFF09.</p></li></ol><p>\u9996\u5148 MySQL \u9ED8\u8BA4\u5B57\u7B26\u96C6\u7F16\u7801\u4E0D\u652F\u6301\u4E2D\u6587\uFF0C\u6240\u4EE5\u5C3D\u91CF\u90FD\u8BBE\u7F6E\uFF0C\u4E0D\u7136\u5728\u4E0D\u540C\u73AF\u5883\u4E0B\u4F1A\u51FA\u73B0\u95EE\u9898\u3002</p><h3 id="_4-\u5B57\u6BB5\u5220\u9664\u548C\u4FEE\u6539" tabindex="-1"><a class="header-anchor" href="#_4-\u5B57\u6BB5\u5220\u9664\u548C\u4FEE\u6539" aria-hidden="true">#</a> 4.\u5B57\u6BB5\u5220\u9664\u548C\u4FEE\u6539</h3><blockquote><p>\u4FEE\u6539\u8868<code>alter</code></p></blockquote><div class="language-SQL ext-SQL line-numbers-mode"><pre class="language-SQL"><code>-- \u4FEE\u6539\u8868\u540D
+alter table teacher rename as teacher_new
+
+-- \u589E\u52A0\u5B57\u6BB5\u540D  alter table \u8868\u540D add \u5B57\u6BB5\u540D \u5217\u5C6C\u6027 \u7D22\u5F15;
+alter table teacher_new add age int(11);
+
+-- \u66F4\u6539\u5217\u5C5E\u6027 modify: alter table \u8868\u540D \u5217\u540D \u7C7B\u578B
+alter table teacher_new modify age varchar(11); --\u4FEE\u6539\u7D04\u675F
+
+
+-- \u66F4\u6539\u5217\u540D change: alter table \u8868\u540D change \u65E7\u5217\u540D \u65B0\u5217\u540D \u7C7B\u578B;
+-- \u53EA\u66F4\u6539\u5217\u5C5E\u6027 change: alter table \u8868\u540D \u5217\u540D \u5217\u540D \u7C7B\u578B;        \u76F8\u540C\u7684\u5217\u540D\u8981\u5199\u4E24\u6B21.
+alter table teacher_new change age age1 int(1); -- \u4FEE\u6539\u5B57\u6BB5\u540D
+-- \u7D50\u8F2A\uFF1A
+--change\u7528\u4F86\u4FEE\u6539\u5B57\u6BB5\u91CD\u547D\u540D
+--modify\u53EA\u80FD\u4FEE\u6539\u5B57\u6BB5\u7684\u985E\u578B\u548C\u7D04\u675F
+
+-- \u522A\u9664\u8868\u5B57\u6BB5
+alter table teacher_new drop age1
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br></div></div><blockquote><p>drop</p></blockquote><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">-- \u522A\u9664\u8868</span>
+<span class="token keyword">drop</span> <span class="token keyword">table</span> <span class="token keyword">if</span> <span class="token keyword">exists</span> teacher_new
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><!--]-->`);
 }
-const _sfc_setup$L = _sfc_main$L.setup;
-_sfc_main$L.setup = (props, ctx) => {
+const _sfc_setup$N = _sfc_main$N.setup;
+_sfc_main$N.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/git/01.git\u7248\u672C\u63A7\u5236.html.vue");
-  return _sfc_setup$L ? _sfc_setup$L(props, ctx) : void 0;
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/mysql/01.mysql.html.vue");
+  return _sfc_setup$N ? _sfc_setup$N(props, ctx) : void 0;
 };
-var _01_git_____html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$L, [["ssrRender", _sfc_ssrRender$x]]);
-var _01_git_____html$2 = /* @__PURE__ */ Object.freeze({
+var _01_mysql_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$N, [["ssrRender", _sfc_ssrRender$z]]);
+var _01_mysql_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  "default": _01_git_____html$1
+  "default": _01_mysql_html$1
 });
-const _sfc_main$K = {};
-function _sfc_ssrRender$w(_ctx, _push, _parent, _attrs) {
-  _push(`<!--[--><h1 id="springboot\u5148\u5165\u95E8" tabindex="-1"><a class="header-anchor" href="#springboot\u5148\u5165\u95E8" aria-hidden="true">#</a> springboot\u5148\u5165\u95E8</h1><p>\u6211\u521A\u6BD5\u4E1A\u4F5C\u4E3A\u4E00\u4E2A\u524D\u7AEF\u65F6\u88AB\u53EB\u5617\u8A66\u540E\u7AEF\u5F00\u53D1\uFF0C\u6846\u67B6\u5C31\u662Fspringboot\u3002</p><p>\u6211\u8FD8\u662F\u60F3\u5E9F\u8BDD\u5410\u69FD\u4E00\u4E0B\uFF0C\u6B63\u5E38\u7684\u5927\u5B66\u751F\u5B66\u4E60\u8DEF\u7EBF\uFF082018\uFF09\uFF1A</p><ol><li>java:\u8FD9\u662F\u5FC5\u987B\u7684\uFF0C\u4E0D\u4F1A\u5C31\u5230\u8FD9\u91CC\u4E86</li><li>MySql:\u6570\u636E\u5E93</li><li>Servlet:\u65E9\u671F\u7684\u5F00\u53D1\u65B9\u5F0F</li><li>Mybatis:\u6570\u636E\u5E93\u6846\u67B6</li><li>Sprong mvc:\u7ECF\u5178mvc\u4E09\u5C42\u67B6\u6784</li><li>Spring</li><li>Spring boot</li></ol><p>\u6211\u76F4\u63A5<code>1</code>\u2014\u2014&gt;<code>7</code>\u3002\u5B66\u5B8C\u540E\u7ED3\u8BBA\u662F\uFF0C\u5F53\u7136\u53EF\u4EE5\u76F4\u63A5\u4E0A\u624B<code>spring boot</code>\u3002\u5F53\u7136\u8FD9\u662F\u4ECE\u6211\u7684\u9700\u6C42\u51FA\u53D1\uFF1A</p><ol><li>\u5E95\u5C42\u6E90\u7801\u8FD9\u4E9B\u4E0D\u8981\u53BB\u641E\u61C2\uFF0C\u6CA1\u5FC5\u8981\uFF0C\u6211\u8981\u7684\u662F\u5148\u5B66\u4F1A\u5982\u4F55\u4F7F\u7528\u3002</li><li>\u8981\u8BB0\u5F88\u591A\uFF0C\u65F6\u5E38\u4F1A\u95EE\u4E3A\u4EC0\u4E48\u662F\u8FD9\u6837\u7528\u7684\uFF0C\u4F46\u5B83\u5C31\u662F\u8FD9\u6837\u7528\u7684\uFF08\u4E0D\u89E3\u91CA\u5E95\u5C42\uFF09</li></ol><p>\u5B66\u4E60\u524D\u63D0\uFF1A</p><ol><li>\u57FA\u672Cjava\u8BED\u6CD5</li><li>\u57FA\u672Cmysql\u8BED\u6CD5</li><li>\u57FA\u672Cmvc\u601D\u60F3</li></ol><h2 id="idea-2021-3\u4EE5\u4E0A\u7248\u672C\u5B89\u88DD" tabindex="-1"><a class="header-anchor" href="#idea-2021-3\u4EE5\u4E0A\u7248\u672C\u5B89\u88DD" aria-hidden="true">#</a> IDEA\uFF082021.3\u4EE5\u4E0A\u7248\u672C\u5B89\u88DD\uFF09</h2><p>\u958B\u767C\u5DE5\u5177\u7528\u81EA\u5DF1\u7FD2\u6163\u7684\u5C31\u597D\u3002</p><p>\u76EE\u524D\u5E02\u573A\u5E94\u8BE5\u90FD\u662F\u8FD9\u4E2A\u5F00\u53D1\u5DE5\u5177\u591A\u5427\uFF0C\u76F4\u63A5\u5F00\u59CB</p><h2 id="\u521D\u59CB\u5316\u9805\u76EE" tabindex="-1"><a class="header-anchor" href="#\u521D\u59CB\u5316\u9805\u76EE" aria-hidden="true">#</a> \u521D\u59CB\u5316\u9805\u76EE</h2><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token annotation punctuation">@SpringBootApplication</span>
+const _sfc_main$M = {};
+function _sfc_ssrRender$y(_ctx, _push, _parent, _attrs) {
+  _push(`<!--[--><h2 id="\u5916\u9375" tabindex="-1"><a class="header-anchor" href="#\u5916\u9375" aria-hidden="true">#</a> \u5916\u9375</h2><p>\u4E0B\u9762\u662F\u7269\u7406\u5916\u9375\uFF1A</p><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">-- \u5B9A\u7FA9\u5916\u9375 key</span>
+<span class="token comment">-- \u5916\u9375\u985E\u4F3C\u65BC\u7D04\u675F\uFF0C\u57F7\u884C\u5F15\u7528\u5176\u5B83\u8868\u7684\u6578\u64DA\uFF0Creferences \u5F15\u7528</span>
+<span class="token keyword">key</span> <span class="token punctuation">\`</span>FK_gradeid<span class="token punctuation">\`</span> <span class="token punctuation">(</span><span class="token punctuation">\`</span>gradeid<span class="token punctuation">\`</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+<span class="token keyword">constraint</span> <span class="token punctuation">\`</span>FK_gradeid<span class="token punctuation">\`</span> <span class="token keyword">foreign</span> <span class="token keyword">key</span> <span class="token punctuation">(</span><span class="token punctuation">\`</span>gradeid<span class="token punctuation">\`</span><span class="token punctuation">)</span> <span class="token keyword">references</span> <span class="token punctuation">\`</span>gradeid<span class="token punctuation">\`</span> <span class="token punctuation">(</span><span class="token punctuation">\`</span>gradeid<span class="token punctuation">\`</span><span class="token punctuation">)</span>
+<span class="token comment">-- 1.\u5916\u9375\u4E0D\u80FD\u662F\u4E3B\u9375</span>
+<span class="token comment">-- 2.\u5169\u500B\u5B57\u6BB5\u6578\u64DA\u985E\u578B\u548C\u7D04\u675F\u5FC5\u9808\u76F8\u540C</span>
+
+<span class="token comment">-- \u6216\u8005</span>
+
+<span class="token keyword">alter</span> <span class="token keyword">table</span> <span class="token punctuation">\`</span>\u8868\u540D<span class="token punctuation">\`</span>
+<span class="token keyword">add</span> <span class="token keyword">constraint</span> <span class="token punctuation">\`</span>FK_gradeid<span class="token punctuation">\`</span> <span class="token keyword">foreign</span> <span class="token keyword">key</span> <span class="token punctuation">(</span><span class="token punctuation">\`</span>gradeid<span class="token punctuation">\`</span><span class="token punctuation">)</span> <span class="token keyword">references</span> <span class="token punctuation">\`</span>grade<span class="token punctuation">\`</span> <span class="token punctuation">(</span><span class="token punctuation">\`</span>gradeid<span class="token punctuation">\`</span><span class="token punctuation">)</span>
+
+<span class="token comment">-- alter table \u8868 add constraint [\u7D04\u675F\u540D] foreign key (\u4F5C\u70BA\u5916\u9375\u7684\u5217) references \u90A3\u500B\u8868\uFF08\u90A3\u500B\u5B57\u6BB5\uFF09</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div><p>\u522A\u9664\u5916\u9375\u7684\u6642\u5019\uFF0C\u5FC5\u9808\u5148\u522A\u9664\u5B57\u8868\uFF0C\u518D\u522A\u9664\u7236\u8868</p><h4 id="\u4E0D\u5F97\u4F7F\u7528\u5916\u9375\u65BC\u7D1A\u806F" tabindex="-1"><a class="header-anchor" href="#\u4E0D\u5F97\u4F7F\u7528\u5916\u9375\u65BC\u7D1A\u806F" aria-hidden="true">#</a> \u4E0D\u5F97\u4F7F\u7528\u5916\u9375\u65BC\u7D1A\u806F</h4><h2 id="dml-\u8A9E\u8A00" tabindex="-1"><a class="header-anchor" href="#dml-\u8A9E\u8A00" aria-hidden="true">#</a> DML \u8A9E\u8A00</h2><h3 id="\u63D2\u5165" tabindex="-1"><a class="header-anchor" href="#\u63D2\u5165" aria-hidden="true">#</a> \u63D2\u5165</h3><blockquote><p>insert</p></blockquote><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">-- insert into \u8868\u540D (\`\u5B57\u6BB5\u540D\`,\`\u5B57\u6BB5\u540D2\`) values \uFF08\`\u503C1\`,\`\u503C2\`\uFF09</span>
+<span class="token comment">-- insert into \u8868\u540D (\`\u5B57\u6BB5\u540D\`) values \uFF08\`\u503C1\`),(\`\u503C2\`\uFF09; \u4E00\u500B\u5B57\u6BB5\u591A\u500B\u503C</span>
+<span class="token keyword">insert</span> <span class="token keyword">into</span> <span class="token punctuation">\`</span>student<span class="token punctuation">\`</span> <span class="token punctuation">(</span><span class="token punctuation">\`</span>name<span class="token punctuation">\`</span><span class="token punctuation">)</span> <span class="token keyword">values</span> <span class="token punctuation">(</span><span class="token string">&#39;\u9673\u67D2&#39;</span><span class="token punctuation">)</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>\u6CE8\u610F\uFF1A\u5B57\u6BB5\u548C\u503C\u5F97\u4F4D\u7F6E\u662F\u4E00\u4E00\u5C0D\u61C9\u7684</p><h3 id="\u4FEE\u6539" tabindex="-1"><a class="header-anchor" href="#\u4FEE\u6539" aria-hidden="true">#</a> \u4FEE\u6539</h3><blockquote><p>update</p></blockquote><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">-- \u8A9E\u6CD5\uFF1Aupdate \u8868\u540D set column_name = value where [\u689D\u4EF6]</span>
+<span class="token keyword">update</span> <span class="token punctuation">\`</span>student<span class="token punctuation">\`</span> <span class="token keyword">set</span> <span class="token punctuation">\`</span>name<span class="token punctuation">\`</span><span class="token operator">=</span><span class="token string">&#39;\u9673\u67D2&#39;</span> <span class="token keyword">where</span> id <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+
+<span class="token comment">-- \u4FEE\u6539\u591A\u500B\u5C6C\u6027</span>
+<span class="token keyword">update</span> <span class="token punctuation">\`</span>student<span class="token punctuation">\`</span> <span class="token keyword">set</span> <span class="token punctuation">\`</span>name<span class="token punctuation">\`</span><span class="token operator">=</span><span class="token string">&#39;\u9673\u67D2&#39;</span><span class="token punctuation">,</span><span class="token punctuation">\`</span>age<span class="token punctuation">\`</span><span class="token operator">=</span><span class="token string">&#39;22&#39;</span><span class="token punctuation">,</span><span class="token punctuation">\`</span>email<span class="token punctuation">\`</span><span class="token operator">=</span><span class="token string">&#39;3062995371@qq.com&#39;</span> <span class="token keyword">where</span> id <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p>\u8A9E\u6CD5\uFF1A<code>update \u8868\u540D set column_name = value,[column_name = value,......] where [\u689D\u4EF6]</code></p><p>\u6CE8\u610F\uFF1A</p><ol><li>\u4E0D\u5BEB\u689D\u4EF6\u6703\u5F71\u97FF\u6574\u5F35\u8868</li><li><code>column_name</code>\u662F\u6578\u64DA\u5EAB\u7684\u5217\uFF0C\u76E1\u91CF\u5E36\u4E0A\u82F1\u6587\u5192\u865F\`\`</li><li><code>value</code>\u662F\u4E00\u500B\u5177\u9AD4\u7684\u503C\uFF0C\u4E5F\u53EF\u4EE5\u662F\u4E00\u500B\u8B8A\u91CF</li></ol><p>\u91CD\u9EDE\u5728\u4E8E<code>where</code>\u689D\u4EF6\uFF0C\u5176\u4F5C\u7528\u4E8E\u6BCF\u689D\u6578\u64DA\uFF0C\u8A08\u7B97\u7D50\u679C\u5FC5\u9808\u662F<code>Boolean</code>\u503C\uFF1A</p><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u64CD\u4F5C\u7B26</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u542B\u7FA9</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4F8B\u5B50</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>=</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u7B49\u65BC</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>&lt;&gt;</code>\u6216<code>!=</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4E0D\u7B49\u65BC</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>&gt;</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5927\u65BC</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>&lt;</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5C0F\u65BC</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>between...and...</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6307\u5B9A\u7BC4\u570D\u4E4B\u5167\uFF0C\u5982:<code>[2,5]</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>and</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u548C\uFF0C\u985E\u4F3C\u65BC&amp;&amp;\uFF0C\u5DE6\u53F3\u5FC5\u9808\u540C\u6642\u6EFF\u8DB3</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>or</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6216\uFF0C\u5DE6\u53F3\u6EFF\u8DB3\u4E00\u9805\u5373\u53EF</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td></tr></tbody></table><h3 id="\u522A\u9664" tabindex="-1"><a class="header-anchor" href="#\u522A\u9664" aria-hidden="true">#</a> \u522A\u9664</h3><blockquote><p>delete</p></blockquote><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">--\u522A\u9664\u6307\u5B9A\u6578\u64DA</span>
+<span class="token keyword">delete</span> <span class="token keyword">from</span> <span class="token punctuation">\`</span>student<span class="token punctuation">\`</span> <span class="token keyword">where</span> id <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+
+
+<span class="token comment">-- \u6E05\u7A7A\u8868</span>
+<span class="token keyword">truncate</span> <span class="token punctuation">\`</span>student<span class="token punctuation">\`</span><span class="token punctuation">;</span>
+<span class="token keyword">delete</span> <span class="token keyword">from</span> <span class="token punctuation">\`</span>studeng<span class="token punctuation">\`</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><p>\u6E05\u7A7A\u8868\u7684\u5340\u5225\uFF1A</p><ol><li><p><code>delete</code>:</p><ul><li>\u4E0D\u6703\u5F71\u97FF\u81EA\u589E</li></ul></li><li><p><code>truncate</code>:</p><ul><li>\u81EA\u589E\u6703\u6B78\u96F6</li></ul></li></ol><h2 id="dql-\u67E5\u8A62\u6578\u64DA" tabindex="-1"><a class="header-anchor" href="#dql-\u67E5\u8A62\u6578\u64DA" aria-hidden="true">#</a> DQL \u67E5\u8A62\u6578\u64DA</h2><h3 id="\u67E5\u8A62" tabindex="-1"><a class="header-anchor" href="#\u67E5\u8A62" aria-hidden="true">#</a> \u67E5\u8A62</h3><blockquote><p>\u6307\u5B9A\u5B57\u6BB5\u67E5\u8A62</p></blockquote><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">-- \u67E5\u8A62\u6240\u6709\u5B78\u751F</span>
+<span class="token keyword">select</span> <span class="token operator">*</span> form student
+
+<span class="token comment">--\u67E5\u8A62\u6307\u5B9A\u5B57\u6BB5</span>
+<span class="token keyword">select</span> <span class="token punctuation">\`</span>student_no<span class="token punctuation">\`</span><span class="token punctuation">,</span><span class="token punctuation">\`</span>studeng_name<span class="token punctuation">\`</span> <span class="token keyword">from</span> student<span class="token punctuation">;</span>
+
+<span class="token comment">--\u67E5\u8A62\u6307\u5B9A\u5B57\u6BB5\u6DFB\u52A0\u5225\u540D\uFF08\u7D66\u5B57\u6BB5\u8D77\u5225\u540D\uFF0C\u8868\u4E5F\u53EF\u4EE5\uFF09</span>
+<span class="token keyword">select</span> <span class="token punctuation">\`</span>student_no<span class="token punctuation">\`</span> <span class="token keyword">as</span> \u5B78\u865F<span class="token punctuation">,</span><span class="token punctuation">\`</span>studeng_name<span class="token punctuation">\`</span> <span class="token keyword">as</span> \u59D3\u540D <span class="token keyword">from</span> student<span class="token punctuation">;</span>
+
+<span class="token comment">-- \u51FD\u6578:Concat(a,b)\uFF0C\u62FC\u63A5\u5B57\u7B26\u4E32</span>
+<span class="token keyword">select</span> concat<span class="token punctuation">(</span><span class="token string">&#39;\u59D3\u540D\uFF1A&#39;</span><span class="token punctuation">,</span>student_name<span class="token punctuation">)</span> <span class="token keyword">as</span> \u540D\u5B57 <span class="token keyword">from</span> studeng<span class="token punctuation">;</span>
+
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><h3 id="\u53BB\u91CD" tabindex="-1"><a class="header-anchor" href="#\u53BB\u91CD" aria-hidden="true">#</a> \u53BB\u91CD</h3><blockquote><p>distinct</p></blockquote><div class="language-SQL ext-SQL line-numbers-mode"><pre class="language-SQL"><code>-- \u5254\u9664\u91CD\u8907\u6578\u64DA\uFF0C\u91CD\u8907\u53EA\u986F\u793A\u4E00\u689D\uFF0C\u67E5\u8A62result\u4E2Dstudent_no\uFF0C\u4E26\u53BB\u91CD
+select distinct \`student_no\` from result;
+
+select 100*3-1; --\u904B\u7B97\u8868\u9054\u5F0F
+select version(); --\u67E5\u770Bmysql\u7248\u672C
+select @@auto_increment_increment;--\u67E5\u770B\u81EA\u589E\u6B65\u9577
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><p>\u6578\u64DA\u5EAB\u4E2D\u7684<code>select</code>\u8868\u9054\u5F0F\uFF1A\u6587\u672C\u503C\uFF0C\u5217\uFF0Cnull\uFF0C\u51FD\u6578\uFF0C\u8A08\u7B97\u8868\u9054\u5F0F\uFF0C\u7CFB\u7D71\u8B8A\u91CF</p><h3 id="where-\u689D\u4EF6\u5B57\u53E5" tabindex="-1"><a class="header-anchor" href="#where-\u689D\u4EF6\u5B57\u53E5" aria-hidden="true">#</a> where \u689D\u4EF6\u5B57\u53E5</h3><p>\u4F5C\u7528\uFF1A\u5C31\u662F\u6AA2\u7D22\u6578\u64DA\u4E2D<code>\u7B26\u5408\u689D\u4EF6</code>\u7684\u503C</p><blockquote><p>\u908F\u8F2F\u904B\u7B97\u7B26</p></blockquote><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u904B\u7B97\u7B26</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8A9E\u6CD5</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u63CF\u8FF0</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>and</code>,<code>&amp;&amp;</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">a and b \u6216\u8005 a &amp;&amp; b</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u908F\u8F2F\u8207\uFF0C\u5169\u500B\u70BA\u771F\u624D\u70BA\u771F</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>or</code>, ||</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">a or b \u6216\u8005 a || b</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u908F\u8F2F\u6216\uFF0C\u4E00\u500B\u70BA\u771F\u624D\u70BA\u771F</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>not</code>,<code>!</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>not</code> a \u6216\u8005 !a</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u908F\u8F2F\u975E\uFF0C\u771F\u70BA\u5047\uFF0C\u5047\u70BA\u771F</td></tr></tbody></table><p>\u6CE8\u610F\uFF1A\u76E1\u91CF\u4F7F\u7528\u82F1\u6587\u8868\u9054\u5F0F</p><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">-- \u689D\u4EF6\u67E5\u8A62,\u67E5\u8A62\u6210\u7E3E95\u2014\u2014100\u7684\u5B78\u751F</span>
+<span class="token keyword">select</span> student_no <span class="token keyword">from</span> student <span class="token keyword">where</span> student_result<span class="token operator">&gt;=</span><span class="token number">95</span> <span class="token operator">and</span> student_result<span class="token operator">&lt;=</span><span class="token number">100</span><span class="token punctuation">;</span>
+
+<span class="token comment">-- \u5340\u9593\u67E5\u8A62(\u67E5\u8A6295\u2014\u2014100\u5206\u7684\u540C\u5B78)</span>
+<span class="token keyword">select</span> student_no <span class="token keyword">from</span> student <span class="token keyword">where</span> student_result <span class="token operator">between</span> <span class="token number">95</span> <span class="token operator">and</span> <span class="token number">100</span><span class="token punctuation">;</span>
+
+<span class="token comment">--\u67E5\u8A62\u5B78\u865F\u4E0D\u70BA1000\u7684\u540C\u5B78\u7684\u6210\u7E3E</span>
+<span class="token keyword">select</span> student_no <span class="token keyword">from</span> result <span class="token keyword">where</span> <span class="token operator">not</span> student_no<span class="token operator">=</span><span class="token number">1000</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><h3 id="\u6A21\u7CCA\u67E5\u8A62" tabindex="-1"><a class="header-anchor" href="#\u6A21\u7CCA\u67E5\u8A62" aria-hidden="true">#</a> \u6A21\u7CCA\u67E5\u8A62</h3><!--]-->`);
+}
+const _sfc_setup$M = _sfc_main$M.setup;
+_sfc_main$M.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/mysql/02.mysql\u6578\u64DA\u7BA1\u7406.html.vue");
+  return _sfc_setup$M ? _sfc_setup$M(props, ctx) : void 0;
+};
+var _02_mysql_____html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$M, [["ssrRender", _sfc_ssrRender$y]]);
+var _02_mysql_____html$2 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": _02_mysql_____html$1
+});
+const _sfc_main$L = {};
+function _sfc_ssrRender$x(_ctx, _push, _parent, _attrs) {
+  _push(`<!--[--><h1 id="springboot\u5148\u5165\u95E8" tabindex="-1"><a class="header-anchor" href="#springboot\u5148\u5165\u95E8" aria-hidden="true">#</a> springboot\u5148\u5165\u95E8</h1><p>\u6211\u8FD8\u662F\u60F3\u5E9F\u8BDD\u5410\u69FD\u4E00\u4E0B\uFF0C\u6B63\u5E38\u7684\u5927\u5B66\u751F\u5B66\u4E60\u8DEF\u7EBF\uFF082018\uFF09\uFF1A</p><ol><li>java:\u8FD9\u662F\u5FC5\u987B\u7684\uFF0C\u4E0D\u4F1A\u5C31\u5230\u8FD9\u91CC\u4E86</li><li>MySql:\u6570\u636E\u5E93</li><li>Servlet:\u65E9\u671F\u7684\u5F00\u53D1\u65B9\u5F0F</li><li>Mybatis:\u6570\u636E\u5E93\u6846\u67B6</li><li>Sprong mvc:\u7ECF\u5178mvc\u4E09\u5C42\u67B6\u6784</li><li>Spring</li><li>Spring boot</li></ol><p>\u6709\u57FA\u790E\uFF08<code>1</code>\uFF0C<code>7</code>\uFF09\u53EF\u4EE5\u76F4\u63A5\u4E0A\u624B<code>spring boot</code>\u3002\u5F53\u7136\u8FD9\u662F\u4ECE\u9700\u6C42\u51FA\u53D1\uFF1A</p><ol><li>\u5E95\u5C42\u6E90\u7801\u8FD9\u4E9B\u4E0D\u8981\u53BB\u641E\u61C2\uFF0C\u6CA1\u5FC5\u8981\uFF0C\u6211\u8981\u7684\u662F\u5148\u5B66\u4F1A\u5982\u4F55\u4F7F\u7528\u3002</li><li>\u8981\u8BB0\u5F88\u591A\uFF0C\u65F6\u5E38\u4F1A\u95EE\u4E3A\u4EC0\u4E48\u662F\u8FD9\u6837\u7528\u7684\uFF0C\u4F46\u5B83\u5C31\u662F\u8FD9\u6837\u7528\u7684\uFF08\u4E0D\u89E3\u91CA\u5E95\u5C42\uFF09</li></ol><p>\u5B66\u4E60\u524D\u63D0\uFF1A</p><ol><li>\u57FA\u672Cjava\u8BED\u6CD5</li><li>\u57FA\u672Cmysql\u8BED\u6CD5</li><li>\u57FA\u672Cmvc\u601D\u60F3</li></ol><h2 id="idea-2021-3\u4EE5\u4E0A\u7248\u672C\u5B89\u88DD" tabindex="-1"><a class="header-anchor" href="#idea-2021-3\u4EE5\u4E0A\u7248\u672C\u5B89\u88DD" aria-hidden="true">#</a> IDEA\uFF082021.3\u4EE5\u4E0A\u7248\u672C\u5B89\u88DD\uFF09</h2><p>\u958B\u767C\u5DE5\u5177\u7528\u81EA\u5DF1\u7FD2\u6163\u7684\u5C31\u597D\u3002</p><p>\u76EE\u524D\u5E02\u573A\u5E94\u8BE5\u90FD\u662F\u8FD9\u4E2A\u5F00\u53D1\u5DE5\u5177\u591A\u5427\uFF0C\u76F4\u63A5\u5F00\u59CB</p><h2 id="\u521D\u59CB\u5316\u9805\u76EE" tabindex="-1"><a class="header-anchor" href="#\u521D\u59CB\u5316\u9805\u76EE" aria-hidden="true">#</a> \u521D\u59CB\u5316\u9805\u76EE</h2><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token annotation punctuation">@SpringBootApplication</span>
 <span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">SpringBootTestApplication</span> <span class="token punctuation">{</span>
 
     <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
@@ -5552,20 +5677,20 @@ function _sfc_ssrRender$w(_ctx, _push, _parent, _attrs) {
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>project</span><span class="token punctuation">&gt;</span></span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br></div></div><h2 id="\u5FEB\u901F\u4E0A\u624B" tabindex="-1"><a class="header-anchor" href="#\u5FEB\u901F\u4E0A\u624B" aria-hidden="true">#</a> \u5FEB\u901F\u4E0A\u624B</h2><p>\u5982\u679C\u4F60\u4E0D\u662F\u4E13\u804C\u540E\u7AEF\u800C\u53EA\u662F\u60F3\u5199\u4E2A\u63A5\u53E3\uFF0C\u90A3\u770B\u5B8C\u8FD9\u4E00\u7AE0\u5C31\u53EF\u4EE5\u4E86\u3002</p><!--]-->`);
 }
-const _sfc_setup$K = _sfc_main$K.setup;
-_sfc_main$K.setup = (props, ctx) => {
+const _sfc_setup$L = _sfc_main$L.setup;
+_sfc_main$L.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/springboot/01.springboot.html.vue");
-  return _sfc_setup$K ? _sfc_setup$K(props, ctx) : void 0;
+  return _sfc_setup$L ? _sfc_setup$L(props, ctx) : void 0;
 };
-var _01_springboot_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$K, [["ssrRender", _sfc_ssrRender$w]]);
+var _01_springboot_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$L, [["ssrRender", _sfc_ssrRender$x]]);
 var _01_springboot_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _01_springboot_html$1
 });
-const _sfc_main$J = {};
-function _sfc_ssrRender$v(_ctx, _push, _parent, _attrs) {
+const _sfc_main$K = {};
+function _sfc_ssrRender$w(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h1 id="\u542F\u52A8\u8FC7\u7A0B\u5F00\u59CB" tabindex="-1"><a class="header-anchor" href="#\u542F\u52A8\u8FC7\u7A0B\u5F00\u59CB" aria-hidden="true">#</a> \u542F\u52A8\u8FC7\u7A0B\u5F00\u59CB</h1><ul><li>\u4E00\u4E2A\u5B8C\u5168\u7A7A\u7684\u65B0\u9879\u76EE\uFF0Cpom.xml\u6211\u4EEC\u662F\u4E0D\u662F\u53EA\u770B\u5230\u4E00\u4E2A\u5F88\u660E\u663E\u7684\u4F9D\u8D56</li></ul><div class="language-xml ext-xml line-numbers-mode"><pre class="language-xml"><code> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">&gt;</span></span>
             <span class="token comment">&lt;!--\u57FA\u672C\u4F9D\u8CF4--&gt;</span>
             <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">&gt;</span></span>org.springframework.boot<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">&gt;</span></span>
@@ -5790,20 +5915,20 @@ org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApp
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br></div></div><h2 id="\u81EA\u52A8\u914D\u7F6E\u539F\u7406" tabindex="-1"><a class="header-anchor" href="#\u81EA\u52A8\u914D\u7F6E\u539F\u7406" aria-hidden="true">#</a> \u81EA\u52A8\u914D\u7F6E\u539F\u7406</h2><!--]-->`);
 }
-const _sfc_setup$J = _sfc_main$J.setup;
-_sfc_main$J.setup = (props, ctx) => {
+const _sfc_setup$K = _sfc_main$K.setup;
+_sfc_main$K.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/springboot/02.springboot\u542F\u52A8\u539F\u7406.html.vue");
-  return _sfc_setup$J ? _sfc_setup$J(props, ctx) : void 0;
+  return _sfc_setup$K ? _sfc_setup$K(props, ctx) : void 0;
 };
-var _02_springboot_____html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$J, [["ssrRender", _sfc_ssrRender$v]]);
+var _02_springboot_____html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$K, [["ssrRender", _sfc_ssrRender$w]]);
 var _02_springboot_____html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _02_springboot_____html$1
 });
-const _sfc_main$I = {};
-function _sfc_ssrRender$u(_ctx, _push, _parent, _attrs) {
+const _sfc_main$J = {};
+function _sfc_ssrRender$v(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h1 id="\u81EA\u52A8\u914D\u7F6E" tabindex="-1"><a class="header-anchor" href="#\u81EA\u52A8\u914D\u7F6E" aria-hidden="true">#</a> \u81EA\u52A8\u914D\u7F6E</h1><ul><li>\u65E2\u7136\u4E3B\u7C7B\u5DF2\u7ECF\u5728\u521D\u59CB\u9636\u6BB5\u6CE8\u518C\u4E3ABean\uFF0C\u90A3\u4E48\u5728\u52A0\u8F7D\u65F6\uFF0C\u5C31\u4F1A\u6839\u636E\u6CE8\u89E3\u5B9A\u4E49\uFF0C\u8FDB\u884C\u66F4\u591A\u7684\u989D\u5916\u64CD\u4F5C\u3002\u6240\u4EE5\u6211\u4EEC\u6765\u770B\u770B\u4E3B\u7C7B\u4E0A\u7684@SpringBootApplication\u6CE8\u89E3\u505A\u4E86\u4EC0\u4E48\u4E8B\u60C5\u3002</li></ul><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token annotation punctuation">@Target</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token class-name">ElementType</span><span class="token punctuation">.</span>TYPE<span class="token punctuation">}</span><span class="token punctuation">)</span>
 <span class="token annotation punctuation">@Retention</span><span class="token punctuation">(</span><span class="token class-name">RetentionPolicy</span><span class="token punctuation">.</span>RUNTIME<span class="token punctuation">)</span>
 <span class="token annotation punctuation">@Documented</span>
@@ -6052,20 +6177,20 @@ function _sfc_ssrRender$u(_ctx, _push, _parent, _attrs) {
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><p>\u6CE8\u610F\u8FD9\u91CC\u5E76\u4E0D\u662Fspring.factories\u6587\u4EF6\u4E2D\u6240\u6709\u7684\u81EA\u52A8\u914D\u7F6E\u7C7B\u90FD\u4F1A\u88AB\u52A0\u8F7D\uFF0C\u5B83\u4F1A\u6839\u636E@Condition\u6CE8\u89E3\u7684\u6761\u4EF6\u8FDB\u884C\u52A0\u8F7D\u3002\u8FD9\u6837\u5C31\u80FD\u5B9E\u73B0\u6211\u4EEC\u9700\u8981\u4EC0\u4E48\u6A21\u5757\u6DFB\u52A0\u5BF9\u5E94\u4F9D\u8D56\u5C31\u53EF\u4EE5\u5B9E\u73B0\u81EA\u52A8\u914D\u7F6E\u4E86\u3002</p><p>\u6240\u6709\u7684\u6E90\u7801\u770B\u4E0D\u61C2\uFF0C\u90FD\u6E90\u81EA\u4E8E\u4F60\u7684\u5FC3\u4E2D\u6CA1\u6709\u5F62\u6210\u4E00\u4E2A\u5B8C\u6574\u7684\u95ED\u73AF\uFF01\u4E00\u65E6\u4E00\u6761\u7EBF\u63A8\u5230\u5934\uFF0C\u95ED\u73AF\u5F62\u6210\uFF0C\u6240\u6709\u7591\u60D1\u8FCE\u5203\u800C\u89E3\u3002</p><!--]-->`);
 }
-const _sfc_setup$I = _sfc_main$I.setup;
-_sfc_main$I.setup = (props, ctx) => {
+const _sfc_setup$J = _sfc_main$J.setup;
+_sfc_main$J.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/springboot/03.springboot\u81EA\u52A8\u914D\u7F6E.html.vue");
-  return _sfc_setup$I ? _sfc_setup$I(props, ctx) : void 0;
+  return _sfc_setup$J ? _sfc_setup$J(props, ctx) : void 0;
 };
-var _03_springboot_____html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$I, [["ssrRender", _sfc_ssrRender$u]]);
+var _03_springboot_____html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$J, [["ssrRender", _sfc_ssrRender$v]]);
 var _03_springboot_____html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _03_springboot_____html$1
 });
-const _sfc_main$H = {};
-function _sfc_ssrRender$t(_ctx, _push, _parent, _attrs) {
+const _sfc_main$I = {};
+function _sfc_ssrRender$u(_ctx, _push, _parent, _attrs) {
   const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
   _push(`<!--[--><h1 id="javase" tabindex="-1"><a class="header-anchor" href="#javase" aria-hidden="true">#</a> JavaSE</h1><h2 id="\u524D\u671F" tabindex="-1"><a class="header-anchor" href="#\u524D\u671F" aria-hidden="true">#</a> \u524D\u671F</h2><p>\u770B\u4F86<a href="https://www.kuangstudy.com/course" target="_blank" rel="noopener noreferrer">kuangstudy`);
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
@@ -6643,33 +6768,84 @@ s<span class="token punctuation">.</span><span class="token function">sya</span>
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><p>\u603B\u7ED3\uFF1A</p><ol><li>\u5C3D\u91CF\u6DFB\u52A0finally\u8BED\u53E5\u5757\u53BB\u91CA\u653E\u8D44\u6E90</li></ol><h2 id="javase\u603B\u7ED3" tabindex="-1"><a class="header-anchor" href="#javase\u603B\u7ED3" aria-hidden="true">#</a> JavaSE\u603B\u7ED3</h2><ol><li></li></ol><!--]-->`);
 }
-const _sfc_setup$H = _sfc_main$H.setup;
-_sfc_main$H.setup = (props, ctx) => {
+const _sfc_setup$I = _sfc_main$I.setup;
+_sfc_main$I.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/\u300Ajava\u5165\u95E8\u300B/01.\u57FA\u7840\u4ECB\u7ECD.html.vue");
-  return _sfc_setup$H ? _sfc_setup$H(props, ctx) : void 0;
+  return _sfc_setup$I ? _sfc_setup$I(props, ctx) : void 0;
 };
-var _01______html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$H, [["ssrRender", _sfc_ssrRender$t]]);
+var _01______html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$I, [["ssrRender", _sfc_ssrRender$u]]);
 var _01______html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _01______html$1
 });
-const _sfc_main$G = {};
-function _sfc_ssrRender$s(_ctx, _push, _parent, _attrs) {
+const _sfc_main$H = {};
+function _sfc_ssrRender$t(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h1 id="java\u6578\u64DA\u985E\u578B" tabindex="-1"><a class="header-anchor" href="#java\u6578\u64DA\u985E\u578B" aria-hidden="true">#</a> java\u6578\u64DA\u985E\u578B</h1><p>\u53D8\u91CF3\u4E2A\u57FA\u672C\u7279\u5F81\uFF1A\u7C7B\u578B\uFF0C\u540D\u79F0\uFF0C\u503C \u6BCF\u4E2A\u53D8\u91CF\u90FD\u5360\u4E00\u4E2A\u5B58\u50A8\u7A7A\u95F4 \u7A0B\u5E8F\u4E2D<code>+ - * %</code>\u7684\u4F7F\u7528</p><h2 id="\u57FA\u672C\u6570\u636E\u7C7B\u578B" tabindex="-1"><a class="header-anchor" href="#\u57FA\u672C\u6570\u636E\u7C7B\u578B" aria-hidden="true">#</a> \u57FA\u672C\u6570\u636E\u7C7B\u578B</h2><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6570\u636E\u7C7B\u578B</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6570\u503C\u578B</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6574\u6570\u7C7B\u578B\uFF0C\u5B58\u653E\u6574\u6570\uFF08byte[1],short[2],int[4],long[8]\uFF1B\u6D6E\u70B9\uFF08\u5C0F\u6570\u7C7B\u578B\uFF09\uFF08float[4]\u5355\u7CBE\u5EA6,double[8]\u53CC\u7CBE\u5EA6\uFF09\uFF09</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5B57\u7B26\u578B</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">char[2]</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5E03\u5C14\u578B</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">boolean[1],\u5B58\u653Etrue,false</td></tr></tbody></table><h2 id="\u5F15\u7528\u6570\u636E\u7C7B\u578B" tabindex="-1"><a class="header-anchor" href="#\u5F15\u7528\u6570\u636E\u7C7B\u578B" aria-hidden="true">#</a> \u5F15\u7528\u6570\u636E\u7C7B\u578B</h2><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6570\u636E\u7C7B\u578B</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u7C7B</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">class</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u63A5\u53E3</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">interface</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6570\u7EC4</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">[]</td></tr></tbody></table><h2 id="\u6574\u6570\u7C7B\u578B" tabindex="-1"><a class="header-anchor" href="#\u6574\u6570\u7C7B\u578B" aria-hidden="true">#</a> \u6574\u6570\u7C7B\u578B</h2><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u7C7B\u578B</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5360\u7528\u7A7A\u95F4</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8303\u56F4</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>byte</code>\u5B57\u8282</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">1\u5B57\u8282</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>short</code>\u77ED\u6574\u578B</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">2\u5B57\u8282</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>int</code>\u6574\u578B</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">4\u5B57\u8282</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>long</code>\u957F\u6574\u578B</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">8\u5B57\u8282</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td></tr></tbody></table><!--]-->`);
 }
-const _sfc_setup$G = _sfc_main$G.setup;
-_sfc_main$G.setup = (props, ctx) => {
+const _sfc_setup$H = _sfc_main$H.setup;
+_sfc_main$H.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/\u300Ajava\u5165\u95E8\u300B/02.\u6578\u64DA\u985E\u578B.html.vue");
-  return _sfc_setup$G ? _sfc_setup$G(props, ctx) : void 0;
+  return _sfc_setup$H ? _sfc_setup$H(props, ctx) : void 0;
 };
-var _02______html$4 = /* @__PURE__ */ _export_sfc(_sfc_main$G, [["ssrRender", _sfc_ssrRender$s]]);
+var _02______html$4 = /* @__PURE__ */ _export_sfc(_sfc_main$H, [["ssrRender", _sfc_ssrRender$t]]);
 var _02______html$5 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _02______html$4
+});
+const _sfc_main$G = {};
+function _sfc_ssrRender$s(_ctx, _push, _parent, _attrs) {
+  _push(`<!--[--><h1 id="\u5E8F\u8A00" tabindex="-1"><a class="header-anchor" href="#\u5E8F\u8A00" aria-hidden="true">#</a> \u5E8F\u8A00</h1><h2 id="\u9002\u5408\u4EBA\u7FA4" tabindex="-1"><a class="header-anchor" href="#\u9002\u5408\u4EBA\u7FA4" aria-hidden="true">#</a> \u9002\u5408\u4EBA\u7FA4</h2><ul><li>\u5DF2\u6709Flutter\u57FA\u7840\u7684\u5C0F\u4F19\u4F34</li><li>\u7F3A\u4E4FFlutter\u9879\u76EE\u7ECF\u9A8C\u7684\u5F00\u53D1\u4EBA\u5458</li><li>\u72EC\u7ACB\u5B8C\u6210\u9879\u76EE\u6216\u6BD5\u8BBE\u7684\u5927\u5B66\u751F</li></ul><h2 id="_1-\u9879\u76EE\u7ED3\u6784" tabindex="-1"><a class="header-anchor" href="#_1-\u9879\u76EE\u7ED3\u6784" aria-hidden="true">#</a> 1.\u9879\u76EE\u7ED3\u6784</h2><div class="language-file ext-file line-numbers-mode"><pre class="language-file"><code>|---flutter_locyin
+|     |---android  
+|     |---assets  
+|     |     |---fonts // \u5B57\u4F53\u8D44\u6E90  
+|     |     |---icon // \u56FE\u6807\u8D44\u6E90  
+|     |     |---images // \u56FE\u7247\u8D44\u6E90  
+|     |     |---json // \u672C\u5730\u6A21\u62DFJSON  
+|     |---ios  
+|     |---lib  
+|     |     |---data  
+|     |     |     |---api // http \u63A5\u53E3\u548C\u670D\u52A1\u7C7B  
+|     |     |     |---model // \u6570\u636E\u6A21\u578B  
+|     |     |---common
+|     |     |     |---lang  // \u8BED\u8A00\u76EE\u5F55
+|     |     |          \u2514\u2500\u2500en_US // \u82F1\u6587\u8BED\u8A00\u5305
+|     |     |          \u2514\u2500\u2500zh_Hans // \u4E2D\u6587\u8BED\u8A00\u5305
+|     |     |          \u2514\u2500\u2500translation_service // \u7FFB\u8BD1\u670D\u52A1\u7C7B
+|     |     |---init // \u542F\u52A8\u76EE\u5F55
+|     |     |     \u2514\u2500\u2500 app_init.dart // \u6355\u83B7\u5F02\u5E38 
+|     |     |     \u2514\u2500\u2500 default_app.dart // \u9ED8\u8BA4 App \u542F\u52A8
+|     |     |---page  
+|     |     |     \u2514\u2500\u2500 index.dart // \u4E3B\u8981\u7528\u4E8E\u5E95\u90E8\u5BFC\u822A\u3001\u72B6\u6001\u4FDD\u6301  
+|     |     |     \u2514\u2500\u2500 xxx.dart // \u6240\u6709\u9875\u9762\u5E03\u5C40\uFF0C\u4E0D\u518D\u4E00\u4E00\u5217\u51FA  
+|     |     |---route // \u8DEF\u7531\u76EE\u5F55
+|     |     |     \u2514\u2500\u2500 route_map.dart  // Getx \u8DEF\u7531\u8868  
+|     |     |     \u2514\u2500\u2500 route.dart // \u4E8C\u6B21\u5C01\u88C5 Getx
+|     |     |---utils // \u4E8C\u6B21\u5C01\u88C5\u7B2C\u4E09\u65B9\u5E93\u76EE\u5F55  
+|     |     |     \u2514\u2500\u2500 provider.dart // APP \u72B6\u6001\u7BA1\u7406  
+|     |     |     \u2514\u2500\u2500 sputils.dart // \u6570\u636E\u6301\u4E45\u5316\u5B58\u50A8  
+|     |     |     \u2514\u2500\u2500 dio_manager.dart // \u4E8C\u6B21\u5C01\u88C5 Dio\uFF0C\u914D\u7F6E\u4FE1\u606F\u3001\u8BF7\u6C42\u65E5\u5FD7\u3001\u81EA\u52A8\u5904\u7406\u9519\u8BEF\u7B49  
+|     |     |---widgets // \u5C01\u88C5\u7684\u5C0F\u90E8\u4EF6\u76EE\u5F55  
+|     |     \u2514\u2500\u2500 main.dart // APP \u5165\u53E3\u6587\u4EF6  
+|     |---test
+|     |---web
+|     \u2514\u2500\u2500 pubspec.yaml //\u4F9D\u8D56\u914D\u7F6E\u7BA1\u7406  
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br></div></div><h2 id="_2-\u8D77\u6B65" tabindex="-1"><a class="header-anchor" href="#_2-\u8D77\u6B65" aria-hidden="true">#</a> 2.\u8D77\u6B65</h2><h2 id="_3-\u9519\u8BEF\u6355\u83B7\u548C\u4E0A\u62A5" tabindex="-1"><a class="header-anchor" href="#_3-\u9519\u8BEF\u6355\u83B7\u548C\u4E0A\u62A5" aria-hidden="true">#</a> 3.\u9519\u8BEF\u6355\u83B7\u548C\u4E0A\u62A5</h2><h2 id="_4-\u62BD\u5C49\u9875" tabindex="-1"><a class="header-anchor" href="#_4-\u62BD\u5C49\u9875" aria-hidden="true">#</a> 4.\u62BD\u5C49\u9875</h2><h2 id="_5-\u8DEF\u7531\u7BA1\u7406-getx" tabindex="-1"><a class="header-anchor" href="#_5-\u8DEF\u7531\u7BA1\u7406-getx" aria-hidden="true">#</a> 5.\u8DEF\u7531\u7BA1\u7406\uFF08getX\uFF09</h2><h2 id="_6-\u56FD\u9645\u5316-getx" tabindex="-1"><a class="header-anchor" href="#_6-\u56FD\u9645\u5316-getx" aria-hidden="true">#</a> 6.\u56FD\u9645\u5316\uFF08getX\uFF09</h2><!--]-->`);
+}
+const _sfc_setup$G = _sfc_main$G.setup;
+_sfc_main$G.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/actualCombat/Flutter\u5DE5\u7A0B\u5B9E\u6218/01.\u8D77\u6B65.html.vue");
+  return _sfc_setup$G ? _sfc_setup$G(props, ctx) : void 0;
+};
+var _01____html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$G, [["ssrRender", _sfc_ssrRender$s]]);
+var _01____html$2 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": _01____html$1
 });
 const _sfc_main$F = {};
 function _sfc_ssrRender$r(_ctx, _push, _parent, _attrs) {
@@ -12205,7 +12381,7 @@ var _404_html$2 = /* @__PURE__ */ Object.freeze({
   [Symbol.toStringTag]: "Module",
   "default": _404_html$1
 });
-const data$H = {
+const data$I = {
   "key": "v-8daa1a0e",
   "path": "/",
   "title": "",
@@ -12248,36 +12424,9 @@ const data$H = {
 var index_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$H
+  data: data$I
 });
-const data$G = {
-  "key": "v-67b7fbf4",
-  "path": "/actualCombat/",
-  "title": "",
-  "lang": "zh-CN",
-  "frontmatter": {
-    "home": true
-  },
-  "excerpt": "",
-  "headers": [],
-  "git": {
-    "updatedTime": 1651677928e3,
-    "contributors": [
-      {
-        "name": "\u9648\u67D2",
-        "email": "3062995371@qq.com",
-        "commits": 1
-      }
-    ]
-  },
-  "filePathRelative": "actualCombat/README.md"
-};
-var index_html$1 = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  data: data$G
-});
-const data$F = {
+const data$H = {
   "key": "v-6886cbbd",
   "path": "/course/elementui%E5%9C%A8%E8%A1%A8%E6%A0%BC%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87.html",
   "title": "elementui\u5728\u8868\u683C\u4E2D\u63D2\u5165\u56FE\u7247",
@@ -12323,9 +12472,9 @@ const data$F = {
 var elementui_________html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$F
+  data: data$H
 });
-const data$E = {
+const data$G = {
   "key": "v-b9c2d34a",
   "path": "/course/",
   "title": "\u65E5\u5E38\u8BB0\u5F55",
@@ -12356,12 +12505,12 @@ const data$E = {
   },
   "filePathRelative": "course/README.md"
 };
-var index_html = /* @__PURE__ */ Object.freeze({
+var index_html$1 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$E
+  data: data$G
 });
-const data$D = {
+const data$F = {
   "key": "v-4b48928e",
   "path": "/course/spring%E6%B3%A8%E8%A7%A3.html",
   "title": "spring",
@@ -12419,9 +12568,9 @@ const data$D = {
 var spring___html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$D
+  data: data$F
 });
-const data$C = {
+const data$E = {
   "key": "v-9148d7c4",
   "path": "/course/stripe%E6%94%AF%E4%BB%98.html",
   "title": "stripe\u652F\u4ED8",
@@ -12461,9 +12610,9 @@ const data$C = {
 var stripe___html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$C
+  data: data$E
 });
-const data$B = {
+const data$D = {
   "key": "v-4bac9763",
   "path": "/course/utils.html",
   "title": "\u8D44\u6E90\u5DE5\u5177",
@@ -12503,9 +12652,9 @@ const data$B = {
 var utils_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$B
+  data: data$D
 });
-const data$A = {
+const data$C = {
   "key": "v-66ff7ae2",
   "path": "/course/vscode%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.html",
   "title": "vscode\u5E38\u7528\u63D2\u4EF6",
@@ -12539,166 +12688,126 @@ const data$A = {
 var vscode_____html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$A
+  data: data$C
 });
-const data$z = {
-  "key": "v-c8744e90",
-  "path": "/actualCombat/Flutter%E5%B7%A5%E7%A8%8B%E5%AE%9E%E6%88%98/01.%E8%B5%B7%E6%AD%A5.html",
-  "title": "Flutter\u5B9E\u6218",
+const data$B = {
+  "key": "v-67b7fbf4",
+  "path": "/actualCombat/",
+  "title": "",
   "lang": "zh-CN",
   "frontmatter": {
-    "lang": "zh-CN",
-    "title": "Flutter\u5B9E\u6218",
-    "description": "Flutter\u5B9E\u6218"
+    "home": true
   },
   "excerpt": "",
-  "headers": [
-    {
-      "level": 2,
-      "title": "\u9002\u5408\u4EBA\u7FA4",
-      "slug": "\u9002\u5408\u4EBA\u7FA4",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "1.\u9879\u76EE\u7ED3\u6784",
-      "slug": "_1-\u9879\u76EE\u7ED3\u6784",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "2.\u8D77\u6B65",
-      "slug": "_2-\u8D77\u6B65",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "3.\u9519\u8BEF\u6355\u83B7\u548C\u4E0A\u62A5",
-      "slug": "_3-\u9519\u8BEF\u6355\u83B7\u548C\u4E0A\u62A5",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "4.\u62BD\u5C49\u9875",
-      "slug": "_4-\u62BD\u5C49\u9875",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "5.\u8DEF\u7531\u7BA1\u7406\uFF08getX\uFF09",
-      "slug": "_5-\u8DEF\u7531\u7BA1\u7406-getx",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "6.\u56FD\u9645\u5316\uFF08getX\uFF09",
-      "slug": "_6-\u56FD\u9645\u5316-getx",
-      "children": []
-    }
-  ],
+  "headers": [],
   "git": {
-    "updatedTime": 1653563712e3,
-    "contributors": [
-      {
-        "name": "TRANBIOT-PZ004\\Yiren",
-        "email": "yiren@tranbiot.com",
-        "commits": 1
-      }
-    ]
-  },
-  "filePathRelative": "actualCombat/Flutter\u5DE5\u7A0B\u5B9E\u6218/01.\u8D77\u6B65.md"
-};
-var _01____html = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  data: data$z
-});
-const data$y = {
-  "key": "v-6785e53a",
-  "path": "/java/mysql/01.mysql.html",
-  "title": "mysql",
-  "lang": "zh-CN",
-  "frontmatter": {
-    "lang": "zh-CN",
-    "title": "mysql",
-    "description": "mysql"
-  },
-  "excerpt": "",
-  "headers": [
-    {
-      "level": 2,
-      "title": "\u5B89\u88C5",
-      "slug": "\u5B89\u88C5",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u5B89\u88C5 navicat",
-      "slug": "\u5B89\u88C5-navicat",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u57FA\u672C\u547D\u4EE4\u884C",
-      "slug": "\u57FA\u672C\u547D\u4EE4\u884C",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u64CD\u4F5C\u6570\u636E\u5E93",
-      "slug": "\u64CD\u4F5C\u6570\u636E\u5E93",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u64CD\u4F5C\u8868",
-      "slug": "\u64CD\u4F5C\u8868",
-      "children": [
-        {
-          "level": 3,
-          "title": "1.\u6570\u636E\u7C7B\u578B",
-          "slug": "_1-\u6570\u636E\u7C7B\u578B",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "2.\u5B57\u6BB5\u5C5E\u6027\uFF08\u91CD\u8981\uFF09",
-          "slug": "_2-\u5B57\u6BB5\u5C5E\u6027-\u91CD\u8981",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "3.\u6570\u636E\u5E93\u5F15\u64CE\u548C\u7F16\u7801",
-          "slug": "_3-\u6570\u636E\u5E93\u5F15\u64CE\u548C\u7F16\u7801",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "4.\u5B57\u6BB5\u5220\u9664\u548C\u4FEE\u6539",
-          "slug": "_4-\u5B57\u6BB5\u5220\u9664\u548C\u4FEE\u6539",
-          "children": []
-        }
-      ]
-    }
-  ],
-  "git": {
-    "updatedTime": 1662372985e3,
+    "updatedTime": 1651677928e3,
     "contributors": [
       {
         "name": "\u9648\u67D2",
         "email": "3062995371@qq.com",
-        "commits": 2
+        "commits": 1
       }
     ]
   },
-  "filePathRelative": "java/mysql/01.mysql.md"
+  "filePathRelative": "actualCombat/README.md"
 };
-var _01_mysql_html = /* @__PURE__ */ Object.freeze({
+var index_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$y
+  data: data$B
 });
-const data$x = {
+const data$A = {
+  "key": "v-88893a3e",
+  "path": "/java/git/01.git%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6.html",
+  "title": "git\u7248\u672C\u63A7\u5236",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "lang": "zh-CN",
+    "title": "git\u7248\u672C\u63A7\u5236",
+    "description": "git"
+  },
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 2,
+      "title": "\u8BA4\u8BC6git",
+      "slug": "\u8BA4\u8BC6git",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u5B89\u88C5Git",
+      "slug": "\u5B89\u88C5git",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u57FA\u672C\u547D\u4EE4\u4ECB\u7ECD",
+      "slug": "\u57FA\u672C\u547D\u4EE4\u4ECB\u7ECD",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u6DFB\u52A0\u548C\u63D0\u4EA4",
+      "slug": "\u6DFB\u52A0\u548C\u63D0\u4EA4",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u5206\u652F",
+      "slug": "\u5206\u652F",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u5408\u5E76\u5206\u652F",
+      "slug": "\u5408\u5E76\u5206\u652F",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u53D8\u57FA\u5206\u652F",
+      "slug": "\u53D8\u57FA\u5206\u652F",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u4F18\u9009",
+      "slug": "\u4F18\u9009",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u4F7F\u7528IDEA\u7248\u672C\u63A7\u5236",
+      "slug": "\u4F7F\u7528idea\u7248\u672C\u63A7\u5236",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u8FDC\u7A0B\u4ED3\u5E93",
+      "slug": "\u8FDC\u7A0B\u4ED3\u5E93",
+      "children": []
+    }
+  ],
+  "git": {
+    "updatedTime": 1660646703e3,
+    "contributors": [
+      {
+        "name": "IU_UI",
+        "email": "3458269236@qq.com",
+        "commits": 1
+      }
+    ]
+  },
+  "filePathRelative": "java/git/01.git\u7248\u672C\u63A7\u5236.md"
+};
+var _01_git_____html = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  data: data$A
+});
+const data$z = {
   "key": "v-061c80c6",
   "path": "/java/Linux/01.Linux%E5%85%A5%E9%97%A8.html",
   "title": "Linux\u5165\u95E8",
@@ -13039,99 +13148,180 @@ const data$x = {
 var _01_Linux___html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$x
+  data: data$z
 });
-const data$w = {
-  "key": "v-88893a3e",
-  "path": "/java/git/01.git%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6.html",
-  "title": "git\u7248\u672C\u63A7\u5236",
+const data$y = {
+  "key": "v-6785e53a",
+  "path": "/java/mysql/01.mysql.html",
+  "title": "MySql\u57FA\u790E",
   "lang": "zh-CN",
   "frontmatter": {
     "lang": "zh-CN",
-    "title": "git\u7248\u672C\u63A7\u5236",
-    "description": "git"
+    "title": "MySql\u57FA\u790E",
+    "description": "mysql"
   },
   "excerpt": "",
   "headers": [
     {
       "level": 2,
-      "title": "\u8BA4\u8BC6git",
-      "slug": "\u8BA4\u8BC6git",
+      "title": "MySql\u5B89\u88C5",
+      "slug": "mysql\u5B89\u88C5",
       "children": []
     },
     {
       "level": 2,
-      "title": "\u5B89\u88C5Git",
-      "slug": "\u5B89\u88C5git",
+      "title": "\u5B89\u88C5 navicat",
+      "slug": "\u5B89\u88C5-navicat",
       "children": []
     },
     {
       "level": 2,
-      "title": "\u57FA\u672C\u547D\u4EE4\u4ECB\u7ECD",
-      "slug": "\u57FA\u672C\u547D\u4EE4\u4ECB\u7ECD",
+      "title": "\u57FA\u672C\u547D\u4EE4\u884C",
+      "slug": "\u57FA\u672C\u547D\u4EE4\u884C",
       "children": []
     },
     {
       "level": 2,
-      "title": "\u6DFB\u52A0\u548C\u63D0\u4EA4",
-      "slug": "\u6DFB\u52A0\u548C\u63D0\u4EA4",
+      "title": "\u64CD\u4F5C\u6570\u636E\u5E93",
+      "slug": "\u64CD\u4F5C\u6570\u636E\u5E93",
       "children": []
     },
     {
       "level": 2,
-      "title": "\u5206\u652F",
-      "slug": "\u5206\u652F",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u5408\u5E76\u5206\u652F",
-      "slug": "\u5408\u5E76\u5206\u652F",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u53D8\u57FA\u5206\u652F",
-      "slug": "\u53D8\u57FA\u5206\u652F",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u4F18\u9009",
-      "slug": "\u4F18\u9009",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u4F7F\u7528IDEA\u7248\u672C\u63A7\u5236",
-      "slug": "\u4F7F\u7528idea\u7248\u672C\u63A7\u5236",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u8FDC\u7A0B\u4ED3\u5E93",
-      "slug": "\u8FDC\u7A0B\u4ED3\u5E93",
-      "children": []
+      "title": "\u64CD\u4F5C\u8868",
+      "slug": "\u64CD\u4F5C\u8868",
+      "children": [
+        {
+          "level": 3,
+          "title": "1.\u6570\u636E\u7C7B\u578B",
+          "slug": "_1-\u6570\u636E\u7C7B\u578B",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "2.\u5B57\u6BB5\u5C5E\u6027\uFF08\u91CD\u8981\uFF09",
+          "slug": "_2-\u5B57\u6BB5\u5C5E\u6027-\u91CD\u8981",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "3.\u6570\u636E\u5E93\u5F15\u64CE\u548C\u7F16\u7801",
+          "slug": "_3-\u6570\u636E\u5E93\u5F15\u64CE\u548C\u7F16\u7801",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "4.\u5B57\u6BB5\u5220\u9664\u548C\u4FEE\u6539",
+          "slug": "_4-\u5B57\u6BB5\u5220\u9664\u548C\u4FEE\u6539",
+          "children": []
+        }
+      ]
     }
   ],
   "git": {
-    "updatedTime": 1660646703e3,
+    "updatedTime": 1662717232e3,
     "contributors": [
       {
-        "name": "IU_UI",
-        "email": "3458269236@qq.com",
-        "commits": 1
+        "name": "\u9648\u67D2",
+        "email": "3062995371@qq.com",
+        "commits": 3
       }
     ]
   },
-  "filePathRelative": "java/git/01.git\u7248\u672C\u63A7\u5236.md"
+  "filePathRelative": "java/mysql/01.mysql.md"
 };
-var _01_git_____html = /* @__PURE__ */ Object.freeze({
+var _01_mysql_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$w
+  data: data$y
 });
-const data$v = {
+const data$x = {
+  "key": "v-4f12841a",
+  "path": "/java/mysql/02.mysql%E6%95%B8%E6%93%9A%E7%AE%A1%E7%90%86.html",
+  "title": "\u6578\u64DA\u7BA1\u7406",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "lang": "zh-CN",
+    "title": "\u6578\u64DA\u7BA1\u7406",
+    "description": "mysql"
+  },
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 2,
+      "title": "\u5916\u9375",
+      "slug": "\u5916\u9375",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "DML \u8A9E\u8A00",
+      "slug": "dml-\u8A9E\u8A00",
+      "children": [
+        {
+          "level": 3,
+          "title": "\u63D2\u5165",
+          "slug": "\u63D2\u5165",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u4FEE\u6539",
+          "slug": "\u4FEE\u6539",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u522A\u9664",
+          "slug": "\u522A\u9664",
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "DQL \u67E5\u8A62\u6578\u64DA",
+      "slug": "dql-\u67E5\u8A62\u6578\u64DA",
+      "children": [
+        {
+          "level": 3,
+          "title": "\u67E5\u8A62",
+          "slug": "\u67E5\u8A62",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u53BB\u91CD",
+          "slug": "\u53BB\u91CD",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "where \u689D\u4EF6\u5B57\u53E5",
+          "slug": "where-\u689D\u4EF6\u5B57\u53E5",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u6A21\u7CCA\u67E5\u8A62",
+          "slug": "\u6A21\u7CCA\u67E5\u8A62",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "git": {
+    "updatedTime": null,
+    "contributors": []
+  },
+  "filePathRelative": "java/mysql/02.mysql\u6578\u64DA\u7BA1\u7406.md"
+};
+var _02_mysql_____html = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  data: data$x
+});
+const data$w = {
   "key": "v-23b022e9",
   "path": "/java/springboot/01.springboot.html",
   "title": "springboot",
@@ -13182,9 +13372,9 @@ const data$v = {
 var _01_springboot_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$v
+  data: data$w
 });
-const data$u = {
+const data$v = {
   "key": "v-1f229241",
   "path": "/java/springboot/02.springboot%E5%90%AF%E5%8A%A8%E5%8E%9F%E7%90%86.html",
   "title": "springboot\u542F\u52A8\u539F\u7406",
@@ -13242,9 +13432,9 @@ const data$u = {
 var _02_springboot_____html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$u
+  data: data$v
 });
-const data$t = {
+const data$u = {
   "key": "v-21d7a310",
   "path": "/java/springboot/03.springboot%E8%87%AA%E5%8A%A8%E9%85%8D%E7%BD%AE.html",
   "title": "springboot\u81EA\u52A8\u914D\u7F6E",
@@ -13278,9 +13468,9 @@ const data$t = {
 var _03_springboot_____html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$t
+  data: data$u
 });
-const data$s = {
+const data$t = {
   "key": "v-64dc3831",
   "path": "/java/%E3%80%8Ajava%E5%85%A5%E9%97%A8%E3%80%8B/01.%E5%9F%BA%E7%A1%80%E4%BB%8B%E7%BB%8D.html",
   "title": "java",
@@ -13648,9 +13838,9 @@ const data$s = {
 var _01______html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$s
+  data: data$t
 });
-const data$r = {
+const data$s = {
   "key": "v-ff7fbc46",
   "path": "/java/%E3%80%8Ajava%E5%85%A5%E9%97%A8%E3%80%8B/02.%E6%95%B8%E6%93%9A%E9%A1%9E%E5%9E%8B.html",
   "title": "java\u6578\u64DA\u985E\u578B",
@@ -13694,6 +13884,78 @@ const data$r = {
   "filePathRelative": "java/\u300Ajava\u5165\u95E8\u300B/02.\u6578\u64DA\u985E\u578B.md"
 };
 var _02______html$1 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  data: data$s
+});
+const data$r = {
+  "key": "v-c8744e90",
+  "path": "/actualCombat/Flutter%E5%B7%A5%E7%A8%8B%E5%AE%9E%E6%88%98/01.%E8%B5%B7%E6%AD%A5.html",
+  "title": "Flutter\u5B9E\u6218",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "lang": "zh-CN",
+    "title": "Flutter\u5B9E\u6218",
+    "description": "Flutter\u5B9E\u6218"
+  },
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 2,
+      "title": "\u9002\u5408\u4EBA\u7FA4",
+      "slug": "\u9002\u5408\u4EBA\u7FA4",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "1.\u9879\u76EE\u7ED3\u6784",
+      "slug": "_1-\u9879\u76EE\u7ED3\u6784",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "2.\u8D77\u6B65",
+      "slug": "_2-\u8D77\u6B65",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "3.\u9519\u8BEF\u6355\u83B7\u548C\u4E0A\u62A5",
+      "slug": "_3-\u9519\u8BEF\u6355\u83B7\u548C\u4E0A\u62A5",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "4.\u62BD\u5C49\u9875",
+      "slug": "_4-\u62BD\u5C49\u9875",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "5.\u8DEF\u7531\u7BA1\u7406\uFF08getX\uFF09",
+      "slug": "_5-\u8DEF\u7531\u7BA1\u7406-getx",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "6.\u56FD\u9645\u5316\uFF08getX\uFF09",
+      "slug": "_6-\u56FD\u9645\u5316-getx",
+      "children": []
+    }
+  ],
+  "git": {
+    "updatedTime": 1653563712e3,
+    "contributors": [
+      {
+        "name": "TRANBIOT-PZ004\\Yiren",
+        "email": "yiren@tranbiot.com",
+        "commits": 1
+      }
+    ]
+  },
+  "filePathRelative": "actualCombat/Flutter\u5DE5\u7A0B\u5B9E\u6218/01.\u8D77\u6B65.md"
+};
+var _01____html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   data: data$r

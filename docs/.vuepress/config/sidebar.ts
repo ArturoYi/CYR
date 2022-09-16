@@ -5,6 +5,12 @@ export const sidebar = {
       children: ["01.git版本控制.md"],
     },
   ],
+  "/java/mysql/": [
+    {
+      text: "MySql",
+      children: ["01.mysql.md","02.mysql數據管理.md"],
+    },
+  ],
   "/java/springboot/": [
     {
       text: "springboot",
