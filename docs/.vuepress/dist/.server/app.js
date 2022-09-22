@@ -13693,12 +13693,12 @@ const data$x = {
     }
   ],
   "git": {
-    "updatedTime": 1642922234e3,
+    "updatedTime": 1663839e6,
     "contributors": [
       {
         "name": "\u9648\u67D2",
         "email": "3062995371@qq.com",
-        "commits": 1
+        "commits": 2
       }
     ]
   },
@@ -14339,12 +14339,12 @@ const data$t = {
     }
   ],
   "git": {
-    "updatedTime": 1663323325e3,
+    "updatedTime": 1663839e6,
     "contributors": [
       {
         "name": "\u9648\u67D2",
         "email": "3062995371@qq.com",
-        "commits": 1
+        "commits": 2
       }
     ]
   },
@@ -14399,8 +14399,14 @@ const data$s = {
     }
   ],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1663839e6,
+    "contributors": [
+      {
+        "name": "\u9648\u67D2",
+        "email": "3062995371@qq.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "java/mysql/03.mysql\u4E8B\u52D9.md"
 };
@@ -14422,8 +14428,14 @@ const data$r = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1663839e6,
+    "contributors": [
+      {
+        "name": "\u9648\u67D2",
+        "email": "3062995371@qq.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "java/mysql/04.JDBC.md"
 };
@@ -15019,8 +15031,14 @@ const data$l = {
     }
   ],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1663839e6,
+    "contributors": [
+      {
+        "name": "\u9648\u67D2",
+        "email": "3062995371@qq.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "java/\u300Ajava\u591A\u7EBF\u7A0B\u300B/01.\u6982\u8FF0.md"
 };
@@ -15307,12 +15325,12 @@ const data$i = {
     }
   ],
   "git": {
-    "updatedTime": 1653226294e3,
+    "updatedTime": 1663839e6,
     "contributors": [
       {
         "name": "\u9648\u67D2",
         "email": "3062995371@qq.com",
-        "commits": 3
+        "commits": 4
       }
     ]
   },
@@ -15497,12 +15515,17 @@ const data$g = {
     }
   ],
   "git": {
-    "updatedTime": 1653648856e3,
+    "updatedTime": 1663839e6,
     "contributors": [
       {
         "name": "TRANBIOT-PZ004\\Yiren",
         "email": "yiren@tranbiot.com",
         "commits": 5
+      },
+      {
+        "name": "\u9648\u67D2",
+        "email": "3062995371@qq.com",
+        "commits": 1
       }
     ]
   },
