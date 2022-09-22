@@ -8,7 +8,7 @@ export const sidebar = {
   "/java/mysql/": [
     {
       text: "MySql",
-      children: ["01.mysql.md","02.mysql數據管理.md"],
+      children: ["01.mysql.md","02.mysql數據管理.md","03.mysql事務.md","04.JDBC.md"],
     },
   ],
   "/java/springboot/": [
