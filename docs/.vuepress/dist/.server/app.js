@@ -87,6 +87,24 @@ const pagesComponents = {
   "v-c8744e90": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return _01____html$5;
   })),
+  "v-3509cb32": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return interview_html$2;
+  })),
+  "v-5d3f7a3b": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return JSinterview_html$2;
+  })),
+  "v-2d570564": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return VUEinterview_html$2;
+  })),
+  "v-71958ec2": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return story_html$2;
+  })),
+  "v-3803ce0e": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return text_html$2;
+  })),
+  "v-6c145c9c": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return reflection_html$2;
+  })),
   "v-88893a3e": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return _01_git_____html$2;
   })),
@@ -122,24 +140,6 @@ const pagesComponents = {
   })),
   "v-f1c2e4d6": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return _01____html$3;
-  })),
-  "v-3509cb32": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return interview_html$2;
-  })),
-  "v-5d3f7a3b": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return JSinterview_html$2;
-  })),
-  "v-2d570564": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return VUEinterview_html$2;
-  })),
-  "v-71958ec2": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return story_html$2;
-  })),
-  "v-3803ce0e": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return text_html$2;
-  })),
-  "v-6c145c9c": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return reflection_html$2;
   })),
   "v-72cc4ebc": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return _01Css_html$2;
@@ -233,6 +233,24 @@ const pagesData$1 = {
   "v-c8744e90": () => Promise.resolve().then(function() {
     return _01____html$1;
   }).then(({ data: data2 }) => data2),
+  "v-3509cb32": () => Promise.resolve().then(function() {
+    return interview_html;
+  }).then(({ data: data2 }) => data2),
+  "v-5d3f7a3b": () => Promise.resolve().then(function() {
+    return JSinterview_html;
+  }).then(({ data: data2 }) => data2),
+  "v-2d570564": () => Promise.resolve().then(function() {
+    return VUEinterview_html;
+  }).then(({ data: data2 }) => data2),
+  "v-71958ec2": () => Promise.resolve().then(function() {
+    return story_html;
+  }).then(({ data: data2 }) => data2),
+  "v-3803ce0e": () => Promise.resolve().then(function() {
+    return text_html;
+  }).then(({ data: data2 }) => data2),
+  "v-6c145c9c": () => Promise.resolve().then(function() {
+    return reflection_html;
+  }).then(({ data: data2 }) => data2),
   "v-88893a3e": () => Promise.resolve().then(function() {
     return _01_git_____html;
   }).then(({ data: data2 }) => data2),
@@ -268,24 +286,6 @@ const pagesData$1 = {
   }).then(({ data: data2 }) => data2),
   "v-f1c2e4d6": () => Promise.resolve().then(function() {
     return _01____html;
-  }).then(({ data: data2 }) => data2),
-  "v-3509cb32": () => Promise.resolve().then(function() {
-    return interview_html;
-  }).then(({ data: data2 }) => data2),
-  "v-5d3f7a3b": () => Promise.resolve().then(function() {
-    return JSinterview_html;
-  }).then(({ data: data2 }) => data2),
-  "v-2d570564": () => Promise.resolve().then(function() {
-    return VUEinterview_html;
-  }).then(({ data: data2 }) => data2),
-  "v-71958ec2": () => Promise.resolve().then(function() {
-    return story_html;
-  }).then(({ data: data2 }) => data2),
-  "v-3803ce0e": () => Promise.resolve().then(function() {
-    return text_html;
-  }).then(({ data: data2 }) => data2),
-  "v-6c145c9c": () => Promise.resolve().then(function() {
-    return reflection_html;
   }).then(({ data: data2 }) => data2),
   "v-72cc4ebc": () => Promise.resolve().then(function() {
     return _01Css_html;
@@ -1442,6 +1442,408 @@ const searchIndex$1 = [
     "extraFields": []
   },
   {
+    "title": "\u95EE\u9898\u96C6\u9526",
+    "headers": [
+      {
+        "level": 2,
+        "title": "\u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD",
+        "slug": "\u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48\uFF1F",
+        "slug": "\u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9\uFF1F",
+        "slug": "\u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5\uFF1F",
+        "slug": "\u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\uFF1F",
+        "slug": "\u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u5728\u4E94\u5E74\u5185\uFF0C\u4F60\u7684\u804C\u4E1A\u89C4\u5212\uFF1F",
+        "slug": "\u5728\u4E94\u5E74\u5185-\u4F60\u7684\u804C\u4E1A\u89C4\u5212",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417?",
+        "slug": "\u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5?",
+        "slug": "\u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11?",
+        "slug": "\u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11",
+        "children": []
+      }
+    ],
+    "path": "/guide/interview/interview.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "JS\u9762\u8BD5",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.\u5EF6\u8FDF\u52A0\u8F7DJS\u7684\u65B9\u5F0F\u6709\u54EA\u4E9B",
+        "slug": "_1-\u5EF6\u8FDF\u52A0\u8F7Djs\u7684\u65B9\u5F0F\u6709\u54EA\u4E9B",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.js\u7684\u6570\u636E\u7C7B\u578B\u548CNaN",
+        "slug": "_2-js\u7684\u6570\u636E\u7C7B\u578B\u548Cnan",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.null \u548C undefined",
+        "slug": "_3-null-\u548C-undefined",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.==\u548C===\u6709\u4EC0\u4E48\u4E0D\u540C\uFF1F",
+        "slug": "_4-\u548C-\u6709\u4EC0\u4E48\u4E0D\u540C",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5.\u5B8F\u4EFB\u52A1\u548C\u5FAE\u4EFB\u52A1\uFF08Event Loop/\u4E8B\u4EF6\u5FAA\u73AF \uFF09",
+        "slug": "_5-\u5B8F\u4EFB\u52A1\u548C\u5FAE\u4EFB\u52A1-event-loop-\u4E8B\u4EF6\u5FAA\u73AF",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6.\u4F5C\u7528\u57DF",
+        "slug": "_6-\u4F5C\u7528\u57DF",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "7.JS\u5BF9\u8C61\uFF08new\u53D1\u751F\u4E86\u4E0A\u9762\uFF1F\uFF09",
+        "slug": "_7-js\u5BF9\u8C61-new\u53D1\u751F\u4E86\u4E0A\u9762",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "8.\u7ED9\u5B9A\u4E00\u4E2A\u6570\u7EC4\uFF0C\u53BB\u9664\u91CD\u590D\u5143\u7D20",
+        "slug": "_8-\u7ED9\u5B9A\u4E00\u4E2A\u6570\u7EC4-\u53BB\u9664\u91CD\u590D\u5143\u7D20",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "9.\u4E8B\u4EF6\u5192\u6CE1\u548C\u4E8B\u4EF6\u59D4\u6258",
+        "slug": "_9-\u4E8B\u4EF6\u5192\u6CE1\u548C\u4E8B\u4EF6\u59D4\u6258",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "10.\u624B\u5199Promise",
+        "slug": "_10-\u624B\u5199promise",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "11.this\u6307\u5411",
+        "slug": "_11-this\u6307\u5411",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "12.call,apply,bind",
+        "slug": "_12-call-apply-bind",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "13. \u95ED\u5305",
+        "slug": "_13-\u95ED\u5305",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "14.\u5BF9\u8C61\u62F7\u8D1D\uFF08\u6DF1\u6D45\u62F7\u8D1D\uFF09",
+        "slug": "_14-\u5BF9\u8C61\u62F7\u8D1D-\u6DF1\u6D45\u62F7\u8D1D",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "15. \u9632\u6296\u548C\u8282\u6D41",
+        "slug": "_15-\u9632\u6296\u548C\u8282\u6D41",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "16. \u539F\u578B",
+        "slug": "_16-\u539F\u578B",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "17.\u7C7B\u4E0E\u7EE7\u627F",
+        "slug": "_17-\u7C7B\u4E0E\u7EE7\u627F",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "18. \u72B6\u6001\u7801\uFF08200\u3001400\u7B49\uFF09",
+        "slug": "_18-\u72B6\u6001\u7801-200\u3001400\u7B49",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "19. \u8F93\u5165URL\u5230\u9875\u9762\u663E\u793A\u7684\u8FC7\u7A0B\uFF1F",
+        "slug": "_19-\u8F93\u5165url\u5230\u9875\u9762\u663E\u793A\u7684\u8FC7\u7A0B",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "20. ES6\u65B0\u7279\u6027",
+        "slug": "_20-es6\u65B0\u7279\u6027",
+        "children": []
+      }
+    ],
+    "path": "/guide/interview/JSinterview.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "VUE\u9762\u8BD5",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.vue\u7684\u751F\u547D\u5468\u671F",
+        "slug": "_1-vue\u7684\u751F\u547D\u5468\u671F",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.v-if\u548Cv-show\u7684\u533A\u522B",
+        "slug": "_2-v-if\u548Cv-show\u7684\u533A\u522B",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.v-if\u548Cv-for\u7684\u4F18\u5148\u7EA7",
+        "slug": "_2-v-if\u548Cv-for\u7684\u4F18\u5148\u7EA7",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.ref\u662F\u4EC0\u4E48\uFF1F",
+        "slug": "_3-ref\u662F\u4EC0\u4E48",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "4.nextTick\u662F\u4EC0\u4E48\uFF1F",
+        "slug": "_4-nexttick\u662F\u4EC0\u4E48",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "5.scoped\u539F\u7406",
+        "slug": "_5-scoped\u539F\u7406",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "6.Vue\u4E2D\u5982\u4F55\u505A\u6837\u5F0F\u7A7F\u900F",
+        "slug": "_6-vue\u4E2D\u5982\u4F55\u505A\u6837\u5F0F\u7A7F\u900F",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "7.\u7EC4\u4EF6\u4E4B\u95F4\u7684\u901A\u4FE1",
+        "slug": "_7-\u7EC4\u4EF6\u4E4B\u95F4\u7684\u901A\u4FE1",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "8.computed\u3001methods\u3001watch",
+        "slug": "_8-computed\u3001methods\u3001watch",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "9.props\u548Cdata\u4F18\u5148\u7EA7\u8C01\u9AD8",
+        "slug": "_9-props\u548Cdata\u4F18\u5148\u7EA7\u8C01\u9AD8",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "10.VueX",
+        "slug": "_10-vuex",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "11. Vue\u8BBE\u7F6E\u4EE3\u7406\uFF08vue.config.js\uFF09",
+        "slug": "_11-vue\u8BBE\u7F6E\u4EE3\u7406-vue-config-js",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "12. Vue\u8DEF\u7531",
+        "slug": "_12-vue\u8DEF\u7531",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "13. \u4ECB\u7ECD\u4E00\u4E0BSPA\u4EE5\u53CA\u5176\u4F18\u7F3A\u70B9\u3002",
+        "slug": "_13-\u4ECB\u7ECD\u4E00\u4E0Bspa\u4EE5\u53CA\u5176\u4F18\u7F3A\u70B9\u3002",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "14. v-model\u539F\u7406",
+        "slug": "_14-v-model\u539F\u7406",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "15. data\u52AB\u6301",
+        "slug": "_15-data\u52AB\u6301",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "16. diff\u7B97\u6CD5",
+        "slug": "_16-diff\u7B97\u6CD5",
+        "children": []
+      }
+    ],
+    "path": "/guide/interview/VUEinterview.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "\u65E5\u5E38\u6545\u4E8B",
+    "headers": [
+      {
+        "level": 2,
+        "title": "\u5154\u5B50\u4E0E\u661F\u661F",
+        "slug": "\u5154\u5B50\u4E0E\u661F\u661F",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u5929\u4E0A\u7684\u661F\u661F",
+        "slug": "\u5929\u4E0A\u7684\u661F\u661F",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u82F9\u679C=\u667A\u6167\u679C",
+        "slug": "\u82F9\u679C-\u667A\u6167\u679C",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u7B28\u7B28\u718A",
+        "slug": "\u7B28\u7B28\u718A",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u5C0F\u80A5\u732A",
+        "slug": "\u5C0F\u80A5\u732A",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u68A6\u91CC\u6709\u4F60\uFF0C\u5341\u5206\u751C",
+        "slug": "\u68A6\u91CC\u6709\u4F60-\u5341\u5206\u751C",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u665A\u5B89\uFF01",
+        "slug": "\u665A\u5B89",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u7231\uFF08\u957F\u7BC7\uFF09",
+        "slug": "\u7231-\u957F\u7BC7",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u5154\u5B50\u548C\u72D0\u72F8",
+        "slug": "\u5154\u5B50\u548C\u72D0\u72F8",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u62B1\u62B1",
+        "slug": "\u62B1\u62B1",
+        "children": []
+      }
+    ],
+    "path": "/guide/%E6%95%85%E4%BA%8B/story.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "\u6559\u7A0B",
+    "headers": [
+      {
+        "level": 2,
+        "title": "\u6559\u7A0B",
+        "slug": "\u6559\u7A0B",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u6559\u7A0B",
+        "slug": "\u6559\u7A0B-1",
+        "children": []
+      }
+    ],
+    "path": "/guide/%E6%95%99%E7%A8%8B/text.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "\u67D2",
+    "headers": [
+      {
+        "level": 2,
+        "title": "007",
+        "slug": "_007",
+        "children": []
+      }
+    ],
+    "path": "/guide/%E9%9A%8F%E7%AC%94/reflection.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "git\u7248\u672C\u63A7\u5236",
     "headers": [
       {
@@ -2502,408 +2904,6 @@ const searchIndex$1 = [
       }
     ],
     "path": "/java/%E3%80%8Ajava%E5%A4%9A%E7%BA%BF%E7%A8%8B%E3%80%8B/01.%E6%A6%82%E8%BF%B0.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "\u95EE\u9898\u96C6\u9526",
-    "headers": [
-      {
-        "level": 2,
-        "title": "\u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD",
-        "slug": "\u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48\uFF1F",
-        "slug": "\u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9\uFF1F",
-        "slug": "\u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5\uFF1F",
-        "slug": "\u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\uFF1F",
-        "slug": "\u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u5728\u4E94\u5E74\u5185\uFF0C\u4F60\u7684\u804C\u4E1A\u89C4\u5212\uFF1F",
-        "slug": "\u5728\u4E94\u5E74\u5185-\u4F60\u7684\u804C\u4E1A\u89C4\u5212",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417?",
-        "slug": "\u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5?",
-        "slug": "\u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11?",
-        "slug": "\u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11",
-        "children": []
-      }
-    ],
-    "path": "/guide/interview/interview.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "JS\u9762\u8BD5",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.\u5EF6\u8FDF\u52A0\u8F7DJS\u7684\u65B9\u5F0F\u6709\u54EA\u4E9B",
-        "slug": "_1-\u5EF6\u8FDF\u52A0\u8F7Djs\u7684\u65B9\u5F0F\u6709\u54EA\u4E9B",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.js\u7684\u6570\u636E\u7C7B\u578B\u548CNaN",
-        "slug": "_2-js\u7684\u6570\u636E\u7C7B\u578B\u548Cnan",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.null \u548C undefined",
-        "slug": "_3-null-\u548C-undefined",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.==\u548C===\u6709\u4EC0\u4E48\u4E0D\u540C\uFF1F",
-        "slug": "_4-\u548C-\u6709\u4EC0\u4E48\u4E0D\u540C",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5.\u5B8F\u4EFB\u52A1\u548C\u5FAE\u4EFB\u52A1\uFF08Event Loop/\u4E8B\u4EF6\u5FAA\u73AF \uFF09",
-        "slug": "_5-\u5B8F\u4EFB\u52A1\u548C\u5FAE\u4EFB\u52A1-event-loop-\u4E8B\u4EF6\u5FAA\u73AF",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6.\u4F5C\u7528\u57DF",
-        "slug": "_6-\u4F5C\u7528\u57DF",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "7.JS\u5BF9\u8C61\uFF08new\u53D1\u751F\u4E86\u4E0A\u9762\uFF1F\uFF09",
-        "slug": "_7-js\u5BF9\u8C61-new\u53D1\u751F\u4E86\u4E0A\u9762",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "8.\u7ED9\u5B9A\u4E00\u4E2A\u6570\u7EC4\uFF0C\u53BB\u9664\u91CD\u590D\u5143\u7D20",
-        "slug": "_8-\u7ED9\u5B9A\u4E00\u4E2A\u6570\u7EC4-\u53BB\u9664\u91CD\u590D\u5143\u7D20",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "9.\u4E8B\u4EF6\u5192\u6CE1\u548C\u4E8B\u4EF6\u59D4\u6258",
-        "slug": "_9-\u4E8B\u4EF6\u5192\u6CE1\u548C\u4E8B\u4EF6\u59D4\u6258",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "10.\u624B\u5199Promise",
-        "slug": "_10-\u624B\u5199promise",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "11.this\u6307\u5411",
-        "slug": "_11-this\u6307\u5411",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "12.call,apply,bind",
-        "slug": "_12-call-apply-bind",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "13. \u95ED\u5305",
-        "slug": "_13-\u95ED\u5305",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "14.\u5BF9\u8C61\u62F7\u8D1D\uFF08\u6DF1\u6D45\u62F7\u8D1D\uFF09",
-        "slug": "_14-\u5BF9\u8C61\u62F7\u8D1D-\u6DF1\u6D45\u62F7\u8D1D",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "15. \u9632\u6296\u548C\u8282\u6D41",
-        "slug": "_15-\u9632\u6296\u548C\u8282\u6D41",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "16. \u539F\u578B",
-        "slug": "_16-\u539F\u578B",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "17.\u7C7B\u4E0E\u7EE7\u627F",
-        "slug": "_17-\u7C7B\u4E0E\u7EE7\u627F",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "18. \u72B6\u6001\u7801\uFF08200\u3001400\u7B49\uFF09",
-        "slug": "_18-\u72B6\u6001\u7801-200\u3001400\u7B49",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "19. \u8F93\u5165URL\u5230\u9875\u9762\u663E\u793A\u7684\u8FC7\u7A0B\uFF1F",
-        "slug": "_19-\u8F93\u5165url\u5230\u9875\u9762\u663E\u793A\u7684\u8FC7\u7A0B",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "20. ES6\u65B0\u7279\u6027",
-        "slug": "_20-es6\u65B0\u7279\u6027",
-        "children": []
-      }
-    ],
-    "path": "/guide/interview/JSinterview.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "VUE\u9762\u8BD5",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.vue\u7684\u751F\u547D\u5468\u671F",
-        "slug": "_1-vue\u7684\u751F\u547D\u5468\u671F",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.v-if\u548Cv-show\u7684\u533A\u522B",
-        "slug": "_2-v-if\u548Cv-show\u7684\u533A\u522B",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.v-if\u548Cv-for\u7684\u4F18\u5148\u7EA7",
-        "slug": "_2-v-if\u548Cv-for\u7684\u4F18\u5148\u7EA7",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.ref\u662F\u4EC0\u4E48\uFF1F",
-        "slug": "_3-ref\u662F\u4EC0\u4E48",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "4.nextTick\u662F\u4EC0\u4E48\uFF1F",
-        "slug": "_4-nexttick\u662F\u4EC0\u4E48",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "5.scoped\u539F\u7406",
-        "slug": "_5-scoped\u539F\u7406",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "6.Vue\u4E2D\u5982\u4F55\u505A\u6837\u5F0F\u7A7F\u900F",
-        "slug": "_6-vue\u4E2D\u5982\u4F55\u505A\u6837\u5F0F\u7A7F\u900F",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "7.\u7EC4\u4EF6\u4E4B\u95F4\u7684\u901A\u4FE1",
-        "slug": "_7-\u7EC4\u4EF6\u4E4B\u95F4\u7684\u901A\u4FE1",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "8.computed\u3001methods\u3001watch",
-        "slug": "_8-computed\u3001methods\u3001watch",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "9.props\u548Cdata\u4F18\u5148\u7EA7\u8C01\u9AD8",
-        "slug": "_9-props\u548Cdata\u4F18\u5148\u7EA7\u8C01\u9AD8",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "10.VueX",
-        "slug": "_10-vuex",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "11. Vue\u8BBE\u7F6E\u4EE3\u7406\uFF08vue.config.js\uFF09",
-        "slug": "_11-vue\u8BBE\u7F6E\u4EE3\u7406-vue-config-js",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "12. Vue\u8DEF\u7531",
-        "slug": "_12-vue\u8DEF\u7531",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "13. \u4ECB\u7ECD\u4E00\u4E0BSPA\u4EE5\u53CA\u5176\u4F18\u7F3A\u70B9\u3002",
-        "slug": "_13-\u4ECB\u7ECD\u4E00\u4E0Bspa\u4EE5\u53CA\u5176\u4F18\u7F3A\u70B9\u3002",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "14. v-model\u539F\u7406",
-        "slug": "_14-v-model\u539F\u7406",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "15. data\u52AB\u6301",
-        "slug": "_15-data\u52AB\u6301",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "16. diff\u7B97\u6CD5",
-        "slug": "_16-diff\u7B97\u6CD5",
-        "children": []
-      }
-    ],
-    "path": "/guide/interview/VUEinterview.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "\u65E5\u5E38\u6545\u4E8B",
-    "headers": [
-      {
-        "level": 2,
-        "title": "\u5154\u5B50\u4E0E\u661F\u661F",
-        "slug": "\u5154\u5B50\u4E0E\u661F\u661F",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u5929\u4E0A\u7684\u661F\u661F",
-        "slug": "\u5929\u4E0A\u7684\u661F\u661F",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u82F9\u679C=\u667A\u6167\u679C",
-        "slug": "\u82F9\u679C-\u667A\u6167\u679C",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u7B28\u7B28\u718A",
-        "slug": "\u7B28\u7B28\u718A",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u5C0F\u80A5\u732A",
-        "slug": "\u5C0F\u80A5\u732A",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u68A6\u91CC\u6709\u4F60\uFF0C\u5341\u5206\u751C",
-        "slug": "\u68A6\u91CC\u6709\u4F60-\u5341\u5206\u751C",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u665A\u5B89\uFF01",
-        "slug": "\u665A\u5B89",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u7231\uFF08\u957F\u7BC7\uFF09",
-        "slug": "\u7231-\u957F\u7BC7",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u5154\u5B50\u548C\u72D0\u72F8",
-        "slug": "\u5154\u5B50\u548C\u72D0\u72F8",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u62B1\u62B1",
-        "slug": "\u62B1\u62B1",
-        "children": []
-      }
-    ],
-    "path": "/guide/%E6%95%85%E4%BA%8B/story.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "\u6559\u7A0B",
-    "headers": [
-      {
-        "level": 2,
-        "title": "\u6559\u7A0B",
-        "slug": "\u6559\u7A0B",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u6559\u7A0B",
-        "slug": "\u6559\u7A0B-1",
-        "children": []
-      }
-    ],
-    "path": "/guide/%E6%95%99%E7%A8%8B/text.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "\u67D2",
-    "headers": [
-      {
-        "level": 2,
-        "title": "007",
-        "slug": "_007",
-        "children": []
-      }
-    ],
-    "path": "/guide/%E9%9A%8F%E7%AC%94/reflection.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -4477,6 +4477,12 @@ const routeItems = [
   ["v-4bac9763", "/course/utils.html", { "title": "\u8D44\u6E90\u5DE5\u5177" }, ["/course/utils", "/course/utils.md"]],
   ["v-66ff7ae2", "/course/vscode%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.html", { "title": "vscode\u5E38\u7528\u63D2\u4EF6" }, ["/course/vscode\u5E38\u7528\u63D2\u4EF6.html", "/course/vscode%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6", "/course/vscode\u5E38\u7528\u63D2\u4EF6.md", "/course/vscode%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.md"]],
   ["v-c8744e90", "/actualCombat/Flutter%E5%B7%A5%E7%A8%8B%E5%AE%9E%E6%88%98/01.%E8%B5%B7%E6%AD%A5.html", { "title": "Flutter\u5B9E\u6218" }, ["/actualCombat/Flutter\u5DE5\u7A0B\u5B9E\u6218/01.\u8D77\u6B65.html", "/actualCombat/Flutter%E5%B7%A5%E7%A8%8B%E5%AE%9E%E6%88%98/01.%E8%B5%B7%E6%AD%A5", "/actualCombat/Flutter\u5DE5\u7A0B\u5B9E\u6218/01.\u8D77\u6B65.md", "/actualCombat/Flutter%E5%B7%A5%E7%A8%8B%E5%AE%9E%E6%88%98/01.%E8%B5%B7%E6%AD%A5.md"]],
+  ["v-3509cb32", "/guide/interview/interview.html", { "title": "\u95EE\u9898\u96C6\u9526" }, ["/guide/interview/interview", "/guide/interview/interview.md"]],
+  ["v-5d3f7a3b", "/guide/interview/JSinterview.html", { "title": "JS\u9762\u8BD5" }, ["/guide/interview/JSinterview", "/guide/interview/JSinterview.md"]],
+  ["v-2d570564", "/guide/interview/VUEinterview.html", { "title": "VUE\u9762\u8BD5" }, ["/guide/interview/VUEinterview", "/guide/interview/VUEinterview.md"]],
+  ["v-71958ec2", "/guide/%E6%95%85%E4%BA%8B/story.html", { "title": "\u65E5\u5E38\u6545\u4E8B" }, ["/guide/\u6545\u4E8B/story.html", "/guide/%E6%95%85%E4%BA%8B/story", "/guide/\u6545\u4E8B/story.md", "/guide/%E6%95%85%E4%BA%8B/story.md"]],
+  ["v-3803ce0e", "/guide/%E6%95%99%E7%A8%8B/text.html", { "title": "\u6559\u7A0B" }, ["/guide/\u6559\u7A0B/text.html", "/guide/%E6%95%99%E7%A8%8B/text", "/guide/\u6559\u7A0B/text.md", "/guide/%E6%95%99%E7%A8%8B/text.md"]],
+  ["v-6c145c9c", "/guide/%E9%9A%8F%E7%AC%94/reflection.html", { "title": "\u67D2" }, ["/guide/\u968F\u7B14/reflection.html", "/guide/%E9%9A%8F%E7%AC%94/reflection", "/guide/\u968F\u7B14/reflection.md", "/guide/%E9%9A%8F%E7%AC%94/reflection.md"]],
   ["v-88893a3e", "/java/git/01.git%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6.html", { "title": "git\u7248\u672C\u63A7\u5236" }, ["/java/git/01.git\u7248\u672C\u63A7\u5236.html", "/java/git/01.git%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6", "/java/git/01.git\u7248\u672C\u63A7\u5236.md", "/java/git/01.git%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6.md"]],
   ["v-061c80c6", "/java/Linux/01.Linux%E5%85%A5%E9%97%A8.html", { "title": "Linux\u5165\u95E8" }, ["/java/Linux/01.Linux\u5165\u95E8.html", "/java/Linux/01.Linux%E5%85%A5%E9%97%A8", "/java/Linux/01.Linux\u5165\u95E8.md", "/java/Linux/01.Linux%E5%85%A5%E9%97%A8.md"]],
   ["v-6785e53a", "/java/mysql/01.mysql.html", { "title": "MySql\u57FA\u790E" }, ["/java/mysql/01.mysql", "/java/mysql/01.mysql.md"]],
@@ -4489,12 +4495,6 @@ const routeItems = [
   ["v-64dc3831", "/java/%E3%80%8Ajava%E5%85%A5%E9%97%A8%E3%80%8B/01.%E5%9F%BA%E7%A1%80%E4%BB%8B%E7%BB%8D.html", { "title": "java" }, ["/java/\u300Ajava\u5165\u95E8\u300B/01.\u57FA\u7840\u4ECB\u7ECD.html", "/java/%E3%80%8Ajava%E5%85%A5%E9%97%A8%E3%80%8B/01.%E5%9F%BA%E7%A1%80%E4%BB%8B%E7%BB%8D", "/java/\u300Ajava\u5165\u95E8\u300B/01.\u57FA\u7840\u4ECB\u7ECD.md", "/java/%E3%80%8Ajava%E5%85%A5%E9%97%A8%E3%80%8B/01.%E5%9F%BA%E7%A1%80%E4%BB%8B%E7%BB%8D.md"]],
   ["v-ff7fbc46", "/java/%E3%80%8Ajava%E5%85%A5%E9%97%A8%E3%80%8B/02.%E6%95%B8%E6%93%9A%E9%A1%9E%E5%9E%8B.html", { "title": "java\u6578\u64DA\u985E\u578B" }, ["/java/\u300Ajava\u5165\u95E8\u300B/02.\u6578\u64DA\u985E\u578B.html", "/java/%E3%80%8Ajava%E5%85%A5%E9%97%A8%E3%80%8B/02.%E6%95%B8%E6%93%9A%E9%A1%9E%E5%9E%8B", "/java/\u300Ajava\u5165\u95E8\u300B/02.\u6578\u64DA\u985E\u578B.md", "/java/%E3%80%8Ajava%E5%85%A5%E9%97%A8%E3%80%8B/02.%E6%95%B8%E6%93%9A%E9%A1%9E%E5%9E%8B.md"]],
   ["v-f1c2e4d6", "/java/%E3%80%8Ajava%E5%A4%9A%E7%BA%BF%E7%A8%8B%E3%80%8B/01.%E6%A6%82%E8%BF%B0.html", { "title": "\u591A\u7EBF\u7A0B" }, ["/java/\u300Ajava\u591A\u7EBF\u7A0B\u300B/01.\u6982\u8FF0.html", "/java/%E3%80%8Ajava%E5%A4%9A%E7%BA%BF%E7%A8%8B%E3%80%8B/01.%E6%A6%82%E8%BF%B0", "/java/\u300Ajava\u591A\u7EBF\u7A0B\u300B/01.\u6982\u8FF0.md", "/java/%E3%80%8Ajava%E5%A4%9A%E7%BA%BF%E7%A8%8B%E3%80%8B/01.%E6%A6%82%E8%BF%B0.md"]],
-  ["v-3509cb32", "/guide/interview/interview.html", { "title": "\u95EE\u9898\u96C6\u9526" }, ["/guide/interview/interview", "/guide/interview/interview.md"]],
-  ["v-5d3f7a3b", "/guide/interview/JSinterview.html", { "title": "JS\u9762\u8BD5" }, ["/guide/interview/JSinterview", "/guide/interview/JSinterview.md"]],
-  ["v-2d570564", "/guide/interview/VUEinterview.html", { "title": "VUE\u9762\u8BD5" }, ["/guide/interview/VUEinterview", "/guide/interview/VUEinterview.md"]],
-  ["v-71958ec2", "/guide/%E6%95%85%E4%BA%8B/story.html", { "title": "\u65E5\u5E38\u6545\u4E8B" }, ["/guide/\u6545\u4E8B/story.html", "/guide/%E6%95%85%E4%BA%8B/story", "/guide/\u6545\u4E8B/story.md", "/guide/%E6%95%85%E4%BA%8B/story.md"]],
-  ["v-3803ce0e", "/guide/%E6%95%99%E7%A8%8B/text.html", { "title": "\u6559\u7A0B" }, ["/guide/\u6559\u7A0B/text.html", "/guide/%E6%95%99%E7%A8%8B/text", "/guide/\u6559\u7A0B/text.md", "/guide/%E6%95%99%E7%A8%8B/text.md"]],
-  ["v-6c145c9c", "/guide/%E9%9A%8F%E7%AC%94/reflection.html", { "title": "\u67D2" }, ["/guide/\u968F\u7B14/reflection.html", "/guide/%E9%9A%8F%E7%AC%94/reflection", "/guide/\u968F\u7B14/reflection.md", "/guide/%E9%9A%8F%E7%AC%94/reflection.md"]],
   ["v-72cc4ebc", "/web/css/01-css.html", { "title": "CSS" }, ["/web/css/01-css", "/web/css/01-css.md"]],
   ["v-1b13d411", "/web/Flutter/01.html", { "title": "Flutter" }, ["/web/Flutter/01", "/web/Flutter/01.md"]],
   ["v-4d4398ea", "/web/Flutter/02.Dart%E8%AF%AD%E6%B3%95.html", { "title": "Dart\u8BED\u6CD5" }, ["/web/Flutter/02.Dart\u8BED\u6CD5.html", "/web/Flutter/02.Dart%E8%AF%AD%E6%B3%95", "/web/Flutter/02.Dart\u8BED\u6CD5.md", "/web/Flutter/02.Dart%E8%AF%AD%E6%B3%95.md"]],
@@ -5202,6 +5202,502 @@ var _01____html$5 = /* @__PURE__ */ Object.freeze({
 });
 const _sfc_main$R = {};
 function _sfc_ssrRender$D(_ctx, _push, _parent, _attrs) {
+  _push(`<!--[--><h1 id="\u95EE\u9898\u96C6\u9526" tabindex="-1"><a class="header-anchor" href="#\u95EE\u9898\u96C6\u9526" aria-hidden="true">#</a> \u95EE\u9898\u96C6\u9526</h1><div class="custom-container tip"><p class="custom-container-title">\u9762\u8BD5</p><p>\u5E38\u89C1\u9762\u8BD5\u96C6\u9526</p></div><h2 id="\u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD" tabindex="-1"><a class="header-anchor" href="#\u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD" aria-hidden="true">#</a> \u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD</h2><p><strong>\u63D0\u793A</strong>\uFF1A\u4E00\u822C\u4EBA\u56DE\u7B54\u8FD9\u4E2A\u95EE\u9898\u8FC7\u4E8E\u5E73\u5E38\uFF0C\u59D3\u540D\u3001\u5E74\u9F84\u3001\u7231\u597D\u3001\u5DE5\u4F5C\u7ECF\u9A8C\uFF0C\u8FD9\u4E9B\u7B80\u5386\u4E0A\u90FD\u6709\u3002\u4F01\u4E1A\uFF08\u9762\u8BD5\u5B98\uFF09\u6700\u5E0C\u671B\u77E5\u9053\u7684\u662F\u6C42\u804C\u8005\u80FD\u5426\u80DC\u4EFB\u5DE5\u4F5C\uFF0C\u5305\u62EC\uFF1A\u6700\u5F3A\u7684\u6280\u80FD\u3001\u6700\u6DF1\u5165\u7814\u7A76\u7684\u9886\u57DF\u3001\u4E2A\u6027\u4E2D\u6700\u79EF\u6781\u7684\u90E8\u5206\u3001\u505A\u8FC7\u6700\u6210\u529F\u7684\u4E8B\uFF0C\u4E3B\u8981\u6210\u5C31\u7B49\uFF0C\u8981\u7A81\u51FA\u79EF\u6781\u7684\u4E2A\u6027\u548C\u505A\u4E8B\u7684\u80FD\u529B\uFF0C\u8BF4\u7684\u5408\u60C5\u5408\u7406\u4F01\u4E1A\uFF08\u9762\u8BD5\u5B98\uFF09\u624D\u4F1A\u76F8\u4FE1\u3002</p><h2 id="\u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48" tabindex="-1"><a class="header-anchor" href="#\u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48" aria-hidden="true">#</a> \u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48\uFF1F</h2><p><strong>\u56DE\u7B54\u63D0\u793A</strong>\uFF1A \u6C89\u7740\u51B7\u9759\u3001\u6761\u7406\u6E05\u695A\u3001\u7ACB\u573A\u575A\u5B9A\u3001\u4E50\u4E8E\u52A9\u4EBA\u7B49\uFF0C\u52A0\u4E0A\u4F8B\u5B50\u5982\uFF1A\u6211\u5728XX\u7ECF\u8FC7\u4E00\u5230\u4E24\u5E74\u7684\u57F9\u8BAD\u53CA\u9879\u76EE\u5B9E\u6218\uFF0C\u52A0\u4E0A\u5B9E\u4E60\u5DE5\u4F5C\uFF0C\u6211\u60F3\u6211\u9002\u5408\u8FD9\u4EFD\u5DE5\u4F5C\u3002</p><h2 id="\u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9" tabindex="-1"><a class="header-anchor" href="#\u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9" aria-hidden="true">#</a> \u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u8FD9\u4E2A\u95EE\u9898\u4F01\u4E1A\u95EE\u7684\u6982\u7387\u5F88\u5927\uFF0C\u901A\u5E38\u4E0D\u5E0C\u671B\u542C\u5230\u76F4\u63A5\u56DE\u7B54\u7684\u7F3A\u70B9\u662F\u4EC0\u4E48\u7B49\uFF0C\u5982\u679C\u6C42\u804C\u8005\u8BF4\u81EA\u5DF1\u5C0F\u5FC3\u773C\u3001\u975E\u5E38\u61D2\u3001\u5DE5\u4F5C\u6548\u7387\u4F4E\uFF0C\u4F01\u4E1A\u80AF\u5B9A\u4E0D\u4F1A\u5F55\u7528\u4F60\u3002\u8981\u4ECE\u81EA\u5DF1\u7684\u4F18\u70B9\u8BF4\u8D77\uFF0C\u4E2D\u95F4\u52A0\u4E00\u4E9B\u5C0F\u7F3A\u70B9\uFF0C\u6700\u540E\u518D\u628A\u95EE\u7B54\u8F6C\u56DE\u5230\u4F18\u70B9\u4E0A\uFF0C\u7A81\u51FA\u4F18\u70B9\u7684\u90E8\u5206\u3002</p><h2 id="\u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5" tabindex="-1"><a class="header-anchor" href="#\u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5" aria-hidden="true">#</a> \u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A\u5B9E\u9645\u4E0A\u597D\u591A\u516C\u53F8\u95EE\u8FD9\u4E2A\u95EE\u9898\uFF0C\u5E76\u4E0D\u8BC1\u660E\u4E00\u5B9A\u8981\u52A0\u73ED\uFF0C\u53EA\u662F\u60F3\u6D4B\u8BD5\u4F60\u662F\u5426\u613F\u610F\u4E3A\u516C\u53F8\u5949\u732E\u3002</p><p><strong>\u6837\u672C</strong>\uFF1A\u5982\u679C\u662F\u5DE5\u4F5C\u9700\u8981\u6211\u4F1A\u4E49\u4E0D\u5BB9\u8F9E\u52A0\u73ED\uFF0C\u4F46\u540C\u65F6\uFF0C\u6211\u4E5F\u4F1A\u63D0\u9AD8\u5DE5\u4F5C\u6548\u7387\uFF0C\u51CF\u5C11\u4E0D\u5FC5\u8981\u7684\u52A0\u73ED\u3002</p><h2 id="\u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42" tabindex="-1"><a class="header-anchor" href="#\u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42" aria-hidden="true">#</a> \u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u5982\u679C\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\u592A\u4F4E\uFF0C\u90A3\u663E\u7136\u8D2C\u4F4E\u81EA\u5DF1\u7684\u80FD\u529B\uFF1B\u5982\u679C\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\u592A\u9AD8\uFF0C\u90A3\u53C8\u4F1A\u663E\u5F97\u4F60\u5206\u91CF\u8FC7\u91CD\uFF0C\u516C\u53F8\u53D7\u7528\u4E0D\u8D77\u3002\u4E00\u4E9B\u96C7\u4E3B\u901A\u5E38\u90FD\u4E8B\u5148\u5BF9\u6C42\u8058\u7684\u804C\u4F4D\u5B9A\u4E0B\u5F00\u652F\u9884\u7B97\uFF0C\u56E0\u800C\u4ED6\u4EEC\u7B2C\u4E00\u6B21\u63D0\u51FA\u7684\u4EF7\u94B1\u5F80\u5F80\u662F\u4ED6\u4EEC\u6240\u80FD\u7ED9\u4E88\u7684\u6700\u9AD8\u4EF7\u94B1\uFF0C\u4ED6\u4EEC\u95EE\u4F60\u53EA\u4E0D\u8FC7\u60F3\u8BC1\u5B9E\u4E00\u4E0B\u8FD9\u7B14\u94B1\u662F\u5426\u8DB3\u4EE5\u5F15\u8D77\u4F60\u5BF9\u8BE5\u5DE5\u4F5C\u7684\u5174\u8DA3\u3002</p><p><strong>\u56DE\u7B54</strong>\uFF1A</p><ol><li><p>\u6211\u5BF9\u5DE5\u8D44\u6CA1\u6709\u786C\u6027\u8981\u6C42\uFF0C\u6211\u76F8\u4FE1\u8D35\u516C\u53F8\u4F1A\u53CB\u5584\u5408\u7406\u3002\u6211\u6CE8\u91CD\u7684\u662F\u627E\u5230\u5DE5\u4F5C\u673A\u4F1A\uFF0C\u6240\u4EE5\u53EA\u8981\u6761\u4EF6\u516C\u5E73\uFF0C\u6211\u5219\u4E0D\u4F1A\u8BA1\u8F83\u592A\u591A\u3002</p></li><li><p>\u6211\u53D7\u8FC7\u7CFB\u7EDF\u7684\u8F6F\u4EF6\u7F16\u7A0B\u7684\u8BAD\u7EC3\uFF0C\u4E0D\u9700\u8981\u8FDB\u884C\u5927\u91CF\u7684\u57F9\u8BAD\uFF0C\u800C\u4E14\u6211\u672C\u4EBA\u4E5F\u5BF9\u7F16\u7A0B\u7279\u522B\u611F\u5174\u8DA3\u3002\u56E0\u6B64\uFF0C\u6211\u5E0C\u671B\u516C\u53F8\u80FD\u6839\u636E\u6211\u7684\u60C5\u51B5\u548C\u5E02\u573A\u6807\u51C6\u7684\u6C34\u5E73\uFF0C\u7ED9\u6211\u5408\u7406\u7684\u85AA\u6C34\u3002</p></li><li><p>\u5982\u679C\u4F60\u5FC5\u987B\u81EA\u5DF1\u8BF4\u51FA\u5177\u4F53\u6570\u76EE\uFF0C\u8BF7\u4E0D\u8981\u8BF4\u4E00\u4E2A\u5BBD\u6CDB\u7684\u8303\u56F4\uFF0C\u90A3\u6837\u4F60\u5C06\u53EA\u80FD\u5F97\u5230\u6700\u4F4E\u9650\u5EA6\u7684\u6570\u5B57\u3002\u6700\u597D\u7ED9\u51FA\u4E00\u4E2A\u5177\u4F53\u7684\u6570\u5B57\uFF0C\u8FD9\u6837\u8868\u660E\u4F60\u5DF2\u7ECF\u5BF9\u5F53\u4ECA\u7684\u4EBA\u624D\u5E02\u573A\u505A\u4E86\u8C03\u67E5\uFF0C\u77E5\u9053\u50CF\u81EA\u5DF1\u8FD9\u6837\u5B66\u5386\u7684\u96C7\u5458\u6709\u4EC0\u4E48\u6837\u7684\u4EF7\u503C\u3002</p></li></ol><h2 id="\u5728\u4E94\u5E74\u5185-\u4F60\u7684\u804C\u4E1A\u89C4\u5212" tabindex="-1"><a class="header-anchor" href="#\u5728\u4E94\u5E74\u5185-\u4F60\u7684\u804C\u4E1A\u89C4\u5212" aria-hidden="true">#</a> \u5728\u4E94\u5E74\u5185\uFF0C\u4F60\u7684\u804C\u4E1A\u89C4\u5212\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u8FD9\u662F\u6BCF\u4E00\u4E2A\u5E94\u8058\u8005\u90FD\u4E0D\u5E0C\u671B\u88AB\u95EE\u5230\u7684\u95EE\u9898\uFF0C\u4F46\u662F\uFF08\u5927\u516C\u53F8\uFF09\u51E0\u4E4E\u6BCF\u4E2A\u4EBA\u90FD\u4F1A\u88AB\u95EE\u5230\uFF0C\u6BD4\u8F83\u591A\u7684\u7B54\u6848\u662F\u201C\u7BA1\u7406\u8005\u201D\u3002\u5F53\u7136\uFF0C\u8BF4\u51FA\u5176\u4ED6\u4E00\u4E9B\u4F60\u611F\u5174\u8DA3\u7684\u804C\u4F4D\u4E5F\u662F\u53EF\u4EE5\u7684\u3002\u8981\u77E5\u9053\uFF0C\u8003\u5B98\u603B\u662F\u559C\u6B22\u6709\u8FDB\u53D6\u5FC3\u7684\u5E94\u8058\u8005\uFF0C\u6B64\u65F6\u5982\u679C\u8BF4\u201C\u4E0D\u77E5\u9053\u201D\uFF0C\u6216\u8BB8\u5C31\u4F1A\u4F7F\u4F60\u4E27\u5931\u4E00\u4E2A\u597D\u673A\u4F1A\u3002\u6700\u666E\u901A\u7684\u56DE\u7B54\u5E94\u8BE5\u662F\u201C\u6211\u51C6\u5907\u5728\u6280\u672F\u9886\u57DF\u6709\u6240\u4F5C\u4E3A\u201D\u6216\u201C\u6211\u5E0C\u671B\u80FD\u6309\u7167\u516C\u53F8\u7684\u7BA1\u7406\u601D\u8DEF\u53D1\u5C55\u201D\u3002</p><h2 id="\u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417" tabindex="-1"><a class="header-anchor" href="#\u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417" aria-hidden="true">#</a> \u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417?</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u4F01\u4E1A\u7684\u8FD9\u4E2A\u95EE\u9898\u770B\u4E0A\u53BB\u53EF\u6709\u53EF\u65E0\uFF0C\u5176\u5B9E\u5F88\u5173\u952E\uFF0C\u4F01\u4E1A\u4E0D\u559C\u6B22\u8BF4\u201C\u6CA1\u95EE\u9898\u201D\u7684\u4EBA\uFF0C\u56E0\u4E3A\u5176\u5F88\u6CE8\u91CD\u5458\u5DE5\u7684\u4E2A\u6027\u548C\u521B\u65B0\u80FD\u529B\u3002\u4F01\u4E1A\u4E0D\u559C\u6B22\u6C42\u804C\u8005\u95EE\u4E2A\u4EBA\u798F\u5229\u4E4B\u7C7B\u7684\u95EE\u9898\uFF0C\u5982\u679C\u6709\u4EBA\u8FD9\u6837\u95EE\uFF1A\u8D35\u516C\u53F8\u5BF9\u65B0\u5165\u516C\u53F8\u7684\u5458\u5DE5\u6709\u6CA1\u6709\u4EC0\u4E48\u57F9\u8BAD\u9879\u76EE\uFF0C\u6211\u53EF\u4EE5\u53C2\u52A0\u5417\uFF1F\u6216\u8005\u8BF4\u8D35\u516C\u53F8\u7684\u664B\u5347\u673A\u5236\u662F\u4EC0\u4E48\u6837\u7684\uFF1F\u4F01\u4E1A\u5C06\u5F88\u6B22\u8FCE\uFF0C\u56E0\u4E3A\u4F53\u73B0\u51FA\u4F60\u5BF9\u5B66\u4E60\u7684\u70ED\u60C5\u548C\u5BF9\u516C\u53F8\u7684\u5FE0\u8BDA\u5EA6\u4EE5\u53CA\u4F60\u7684\u4E0A\u8FDB\u5FC3\u3002</p><h2 id="\u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5" tabindex="-1"><a class="header-anchor" href="#\u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5" aria-hidden="true">#</a> \u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5?</h2><p><strong>\u56DE\u7B54</strong>\uFF1A \u2460\u6B63\u5E38\u7684\u201C\u8DF3\u69FD\u201D\u80FD\u591F\u4FC3\u8FDB\u4EBA\u624D\u5408\u7406\u6D41\u52A8\uFF0C\u5E94\u8BE5\u652F\u6301\u3002\u2461\u9891\u7E41\u7684\u8DF3\u69FD\u5BF9\u5355\u4F4D\u548C\u4E2A\u4EBA\u53CC\u65B9\u90FD\u4E0D\u5229\uFF0C\u5E94\u8BE5\u53CD\u5BF9\u3002</p><h2 id="\u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11" tabindex="-1"><a class="header-anchor" href="#\u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11" aria-hidden="true">#</a> \u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11?</h2><p><strong>\u56DE\u7B54</strong>\uFF1A\u5728\u53BB\u516C\u53F8\u9762\u8BD5\u524D\u4E0A\u7F51\u67E5\u4E00\u4E0B\u8BE5\u516C\u53F8\u4E3B\u8425\u4E1A\u52A1\u3002\u53EF\u7C7B\u4F3C\u56DE\u7B54\uFF1A\u8D35\u516C\u53F8\u6709\u610F\u6539\u53D8\u7B56\u7565\uFF0C\u52A0\u5F3A\u4E0E\u56FD\u5916\u5927\u5382\u7684OEM\u5408\u4F5C\uFF0C\u81EA\u6709\u54C1\u724C\u7684\u90E8\u5206\u5219\u900F\u8FC7\u6D77\u5916\u7ECF\u9500\u5546\u3002</p><!--]-->`);
+}
+const _sfc_setup$R = _sfc_main$R.setup;
+_sfc_main$R.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/interview/interview.html.vue");
+  return _sfc_setup$R ? _sfc_setup$R(props, ctx) : void 0;
+};
+var interview_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$R, [["ssrRender", _sfc_ssrRender$D]]);
+var interview_html$2 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": interview_html$1
+});
+const _sfc_main$Q = {};
+function _sfc_ssrRender$C(_ctx, _push, _parent, _attrs) {
+  const _component_CodeGroup = vue.resolveComponent("CodeGroup");
+  const _component_CodeGroupItem = vue.resolveComponent("CodeGroupItem");
+  _push(`<!--[--><h1 id="js\u9762\u8BD5" tabindex="-1"><a class="header-anchor" href="#js\u9762\u8BD5" aria-hidden="true">#</a> JS\u9762\u8BD5</h1><blockquote><p><strong>\u4E0D\u5206\u987A\u5E8F\uFF0C\u5FE0\u544A\uFF1AJS\u7684\u9762\u8BD5\u9898\u5F88\u591A\uFF0C\u73B0\u5728\u6BCF\u4E2A\u9762\u8BD5\u5B98\u90FD\u8BD5\u56FE\u95EE\u51FA\u4E0D\u4E00\u6837\u7684\u95EE\u9898\uFF0C\u4F46\u77E5\u8BC6\u70B9\u90FD\u662F\u63A5\u8FD1\u7684\uFF0C\u6240\u4EE5\u5E94\u8BE5\u82B1\u66F4\u591A\u65F6\u95F4\u5728\u5B66\u4E60\u4E0A\uFF0C\u795D\u597D\u8FD0</strong>\u3002</p></blockquote><h2 id="_1-\u5EF6\u8FDF\u52A0\u8F7Djs\u7684\u65B9\u5F0F\u6709\u54EA\u4E9B" tabindex="-1"><a class="header-anchor" href="#_1-\u5EF6\u8FDF\u52A0\u8F7Djs\u7684\u65B9\u5F0F\u6709\u54EA\u4E9B" aria-hidden="true">#</a> 1.\u5EF6\u8FDF\u52A0\u8F7DJS\u7684\u65B9\u5F0F\u6709\u54EA\u4E9B</h2><p>\u91CD\u70B9\uFF1A<code>async</code>\u3001<code>defer</code></p><p>\u56FE\u89E3\u8BF4\u660E\uFF1A</p><p><img src="https://s6.jpg.cm/2022/01/24/LpwDYt.jpg" alt="LpwDYt.jpg"></p><ol><li>\u6B63\u5E38\u60C5\u51B5\u4E0B\u7684<code>script</code>\u811A\u672C\u6267\u884C\uFF1A</li></ol><p>\u6B63\u5E38\u60C5\u51B5\u4E0B\uFF0C\u6D4F\u89C8\u5668\u4F1A\u987A\u5E8F\u6267\u884C\u4EE3\u7801\uFF0C\u9047\u5230<code>script</code>\u811A\u672C\u65F6\uFF0CHTML\u4F1A\u505C\u6B62\u89E3\u6790\uFF0C\u5148\u4E0B\u8F7D<code>script</code>\u811A\u672C\uFF0C\u7136\u540E\u6267\u884C\u5B83\uFF08\u4E00\u822C\u662F\u6211\u4EEC\u5916\u90E8\u5F15\u5165\u7684\u811A\u672C\uFF09,\u7136\u540E\u518D\u7EE7\u7EED\u89E3\u6790HTML\u3002\u4E0B\u9762\u4EE3\u7801\uFF1A</p><div class="language-html ext-html line-numbers-mode"><pre class="language-html"><code><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>en<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+  <span class="token comment">&lt;!-- \u6A21\u62DF\u6587\u4EF6 --&gt;</span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>./11.js<span class="token punctuation">&quot;</span></span> <span class="token attr-name">defer</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>defer<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><p><img src="https://s6.jpg.cm/2022/01/24/LpoRAX.jpg" alt="LpoRAX.jpg"></p><ol start="2"><li>defaer\u5C5E\u6027</li></ol><p><code>defaer</code>\u5728\u89E3\u6790\u9875\u9762\u65F6\u4F1A\u540C\u65F6\u4E0B\u8F7D\u811A\u672C\uFF0C\u52A0\u8F7D\u5B8C\u9875\u9762\u540E\u518D\u6267\u884C\u811A\u672C\u3002</p><p>\u91CD\u70B9\uFF1A\u5728HTML\u89E3\u6790\u5B8C\u540E\uFF0C<code>defaer</code>\u5F15\u5165\u7684\u811A\u672C(JS)\u4E4B\u95F4\u4E5F\u662F\u987A\u5E8F\u6267\u884C\u7684\u3002</p><p><img src="https://s6.jpg.cm/2022/01/24/Lpo6fS.jpg" alt="Lpo6fS.jpg"></p><ol start="3"><li>async\u5C5E\u6027</li></ol><p><code>asyns</code>\u5728\u89E3\u6790\u9875\u9762\u7684\u65F6\u5019\u4F1A\u540C\u6B65\u4E0B\u8F7D\u811A\u672C\uFF0C\u4F46\u6267\u884C\u65F6\u4F1A\u6682\u505C\u89E3\u6790HTML\u3002</p><p>\u91CD\u70B9\uFF1A<code>async</code>\u548CHTML\u540C\u6B65\u89E3\u6790\uFF0C\u4F46\u4E0D\u662F\u987A\u5E8F\u6267\u884C\u811A\u672C\uFF08JS\uFF09,\u8C01\u5148\u52A0\u8F7D\u5B8C\u8C01\u5148\u6267\u884C\u3002</p><p><img src="https://s6.jpg.cm/2022/01/24/LpoVZW.jpg" alt="LpoVZW.jpg"></p><ol start="4"><li>\u5176\u5B83\u65B9\u6CD5</li></ol><ul><li>\u4F7F\u7528jQuery\u7684getScript()\u65B9\u6CD5</li><li>\u52A8\u6001\u521B\u5EFADOM\u65B9\u5F0F</li><li>\u4F7F\u7528setTimeout\u5EF6\u8FDF\u65B9\u6CD5</li><li>\u8BA9JS\u6700\u540E\u52A0\u8F7D\uFF08JS\u653E\u5728\u6587\u4EF6\u9875\u9762\u5E95\u90E8\uFF09</li></ul><h2 id="_2-js\u7684\u6570\u636E\u7C7B\u578B\u548Cnan" tabindex="-1"><a class="header-anchor" href="#_2-js\u7684\u6570\u636E\u7C7B\u578B\u548Cnan" aria-hidden="true">#</a> 2.js\u7684\u6570\u636E\u7C7B\u578B\u548CNaN</h2><ol><li>\u57FA\u672C\u7C7B\u578B</li></ol><p><code>string</code>,<code>number</code>,<code>boolean</code>,<code>undefined</code>,<code>null</code>,<code>symbol</code></p><ol start="2"><li>\u5F15\u7528\u7C7B\u578B</li></ol><p><code>object</code></p><ol start="3"><li>NaN</li></ol><p><code>NaN</code>\u662F\u4E00\u4E2A\u6570\u503C\u7C7B\u578B\uFF0C\u4F46\u4E0D\u662F\u4E00\u4E2A\u5177\u4F53\u7684\u6570\u636E</p><h2 id="_3-null-\u548C-undefined" tabindex="-1"><a class="header-anchor" href="#_3-null-\u548C-undefined" aria-hidden="true">#</a> 3.null \u548C undefined</h2><p>\u6211\u7684\u7406\u89E3\uFF1A\u4E24\u8005\u90FD\u8868\u793A<code>\u65E0</code>\u4F46\uFF1A</p><ul><li><code>undefined</code>\u8868\u793A\u672A\u5B9A\u4E49\uFF08\u65E0\u7684\u521D\u59CB\u503C\uFF09,\u8F6C\u6362\u4E3A\u6570\u503C\u65F6\u4E3ANaN\u3002</li><li><code>null</code>\u8868\u793A\u7A7A\uFF08\u65E0\u7684\u5BF9\u8C61\u6216\u7A7A\u5BF9\u8C61\u6307\u9488\uFF09\uFF0C\u8F6C\u5316\u4E3A\u6570\u503C\u65F6\u4E3A<code>0</code>(\u95EE\u9898\u6240\u5728)\u3002</li></ul><p>\u4E0A\u9762\u5DEE\u4E0D\u591A\u4E86\uFF0C\u66F4\u591A\uFF1A</p><ul><li><code>null</code> \u548C <code>undefined</code> \u7684\u503C\u76F8\u7B49\uFF0C\u4F46\u7C7B\u578B\u4E0D\u7B49\uFF1A<code>undefined</code>\u7684\u7C7B\u578B(<code>typeof</code>)\u662F<code>undefined</code>\uFF1B<code>null</code>\u7684\u7C7B\u578B(<code>typeof</code>)\u662F<code>object</code>\u3002</li><li>\u5148\u6709<code>null</code>\u540E\u6709<code>undefined</code>,\u4E3A\u4E86\u5F25\u8865null\u6709\u65F6\u4F1A\u88AB\u9690\u5F0F\u8F6C\u6362\u4E3A0\u7684\u5751\u3002</li></ul><h2 id="_4-\u548C-\u6709\u4EC0\u4E48\u4E0D\u540C" tabindex="-1"><a class="header-anchor" href="#_4-\u548C-\u6709\u4EC0\u4E48\u4E0D\u540C" aria-hidden="true">#</a> 4.==\u548C===\u6709\u4EC0\u4E48\u4E0D\u540C\uFF1F</h2><p><code>==</code>\uFF1A\u6BD4\u8F83\u4E24\u4E2A\u503C\u662F\u5426\u76F8\u7B49\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code>string <span class="token operator">==</span> number <span class="token operator">||</span> boolean <span class="token operator">||</span> number <span class="token operator">...</span><span class="token punctuation">.</span>\u90FD\u4F1A\u9690\u5F0F\u8F6C\u6362\u3002
+<span class="token comment">// \u901A\u8FC7ValueOf()\u65B9\u6CD5\u9690\u5F0F\uFF08\u9ED8\u8BA4\u81EA\u52A8\u6267\u884C\uFF0C\u4E0D\u4F1A\u663E\u793A\uFF09\u8F6C\u6362\uFF0C\u6240\u4EE5\u4E0D\u63A8\u8350\u4F7F\u7528\u3002</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p><code>===</code>\uFF1A\u6BD4\u8F83\u503C\u548C\u6570\u636E\u7C7B\u578B\u662F\u5426\u76F8\u7B49\u3002</p><h2 id="_5-\u5B8F\u4EFB\u52A1\u548C\u5FAE\u4EFB\u52A1-event-loop-\u4E8B\u4EF6\u5FAA\u73AF" tabindex="-1"><a class="header-anchor" href="#_5-\u5B8F\u4EFB\u52A1\u548C\u5FAE\u4EFB\u52A1-event-loop-\u4E8B\u4EF6\u5FAA\u73AF" aria-hidden="true">#</a> 5.\u5B8F\u4EFB\u52A1\u548C\u5FAE\u4EFB\u52A1\uFF08Event Loop/\u4E8B\u4EF6\u5FAA\u73AF \uFF09</h2><ol><li><p>js\u662F\u5355\u7EBF\u7A0B\u8BED\u8A00\u3002</p></li><li><p>\u540C\u4E00\u4E2A\u65F6\u95F4\u53EA\u80FD\u505A\u4E00\u4EF6\u4E8B\uFF0Cjs\u6267\u884C\u987A\u5E8F\uFF1A\u540C\u6B65\u6267\u884C--&gt;\u4E8B\u4EF6\u5FAA\u73AF\u3002</p></li><li><p>\u4E8B\u4EF6\u5FAA\u73AF\u5305\u62EC\uFF1A\u5B8F\u4EFB\u52A1\u3001\u5FAE\u4EFB\u52A1</p></li><li><p>\u5B8F\u4EFB\u52A1\uFF1AsetTimeout...</p></li><li><p>\u5FAE\u4EFB\u52A1\uFF1Apromise.then...</p></li><li><p>\u91CD\u8981\uFF1A\u8981\u6267\u884C\u5B8F\u4EFB\u52A1\u524D\u63D0\u662F\u6E05\u7A7A<code>\u5F53\u524D</code>\u6240\u6709\u5FAE\u4EFB\u52A1\u3002</p></li></ol><h2 id="_6-\u4F5C\u7528\u57DF" tabindex="-1"><a class="header-anchor" href="#_6-\u4F5C\u7528\u57DF" aria-hidden="true">#</a> 6.\u4F5C\u7528\u57DF</h2><p>\u62D3\u5C55\u5230ES6\uFF1A</p><ol><li>ES5\u53EA\u6709\u51FD\u6570\u6709\u4F5C\u7528\u57DF\uFF0Cvar\u4E3A\u5168\u5C40\u53D8\u91CF\uFF0CES6\u4E2D\u6709\u4E86let\u53D8\u91CF\uFF08\u53EA\u5728\u5F53\u524D\u4F5C\u7528\u57DF\u6709\u6548\uFF09\u548Cconst\u5E38\u91CF\uFF08\u4E00\u65E6\u58F0\u660E\uFF0C\u5E38\u91CF\u7684\u503C\u5C31\u4E0D\u80FD\u6539\u53D8\uFF09\u3002</li><li>\u4F5C\u7528\u57DF\u94FE\uFF08\u4F5C\u7528\u57DF\u7684\u96C6\u5408\uFF09\uFF1A\u5185\u90E8\u53EF\u4EE5\u8BBF\u95EE\u5916\u90E8\uFF0C\u4F46\u662F\u5916\u90E8\u4E0D\u80FD\u8BBF\u95EE\u5185\u90E8\u7684\u53D8\u91CF\u3002</li></ol><ul><li>\u6CE8\u610F\uFF1A\u5982\u679C\u5185\u90E8\u6709\uFF0C\u4F18\u5148\u4F7F\u7528\u5185\u90E8\uFF0C\u5185\u90E8\u6CA1\u6709\u5219\u67E5\u627E\u5916\u90E8\u3002</li></ul><ol start="3"><li>\u6CE8\u610F\u58F0\u660E\u53D8\u91CF\u662F\u7528var\u8FD8\u662F\u6CA1\u6709\u5199\uFF08window.\uFF09</li><li>\u6CE8\u610F\uFF1AJS\u6709\u53D8\u91CF\u63D0\u5347\u673A\u5236\uFF08\u53D8\u91CF\u60AC\u6302\u58F0\u660E\uFF09</li><li>\u4F18\u5148\u7EA7\uFF1A\u58F0\u660E\u53D8\u91CF\uFF08\u6709\u503C\uFF09 &gt; \u58F0\u660E\u51FD\u6570 &gt; \u53C2\u6570 &gt; \u53D8\u91CF\u63D0\u5347</li><li>\u6CE8\u610F\uFF1A\u6211\u53D1\u73B0\uFF0C\u53C2\u6570 &gt; \u58F0\u660E\u53D8\u91CF\uFF08\u5373\u4F7F\u6709\u503C\uFF09\uFF0C\u6240\u4EE5\u4E0A\u9762\u5E94\u8BE5\u662F\u4E92\u76F8\u4E0D\u540C\u7684\uFF0C\u4E0D\u662F\u7B80\u5355\u7684\u4E0A\u4E0B\u7EA7\u5173\u7CFB\u3002\u5373\uFF1A</li></ol><ul><li>\u58F0\u660E\u53D8\u91CF\uFF08\u6709\u503C\uFF09 &gt; \u58F0\u660E\u51FD\u6570</li><li>\u58F0\u660E\u51FD\u6570 &gt; \u53C2\u6570</li><li>\u53C2\u6570 &gt; \u58F0\u660E\u53D8\u91CF\uFF08\u6709\u503C\uFF09</li><li>\u4E09\u8005 &gt; \u53D8\u91CF\u63D0\u5347</li></ul><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code>   <span class="token keyword">function</span> <span class="token function">a</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+     <span class="token keyword">var</span> b <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+     <span class="token keyword">function</span> <span class="token function">c</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+       console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>b<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//undefined</span>
+      <span class="token comment">//  \u7531\u4E8E\u4E0B\u9762\u6709var b\uFF0C\u5BFC\u81F4\u53D8\u91CF\u63D0\u5347\u3002</span>
+      <span class="token comment">//  \u7C7B\u4F3C\u4E8E\uFF1A</span>
+      <span class="token comment">//  var b;</span>
+      <span class="token comment">//  b = 2;</span>
+      <span class="token comment">//  \u5982\u679C\u53BB\u6389\u4E0B\u9762var b = 2;\u4E0A\u9762\u4F1A\u8F93\u51FA\u7236\u7EA7var b = 1;</span>
+       <span class="token keyword">var</span> b <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span>
+       console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>b<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//2</span>
+     <span class="token punctuation">}</span>
+     <span class="token function">c</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+     console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>b<span class="token punctuation">)</span><span class="token comment">//1</span>
+   <span class="token punctuation">}</span>
+   <span class="token function">a</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+   <span class="token comment">//  \u601D\u8003\uFF0C\u5982\u679C\u7ED9a\u4F20\u53C2\u6570\u4F18\u5148\u7EA7\u600E\u4E48\u6837</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br></div></div><h2 id="_7-js\u5BF9\u8C61-new\u53D1\u751F\u4E86\u4E0A\u9762" tabindex="-1"><a class="header-anchor" href="#_7-js\u5BF9\u8C61-new\u53D1\u751F\u4E86\u4E0A\u9762" aria-hidden="true">#</a> 7.JS\u5BF9\u8C61\uFF08new\u53D1\u751F\u4E86\u4E0A\u9762\uFF1F\uFF09</h2><p>\u5BF9\u8C61\u6CE8\u610F\u70B9\uFF1A</p><ol><li>\u5BF9\u8C61\u901A\u8FC7new\u64CD\u4F5C\u7B26\u6784\u5EFA\u51FA\u6765\uFF0C\u6240\u4EE5\u5BF9\u8C61\u4E4B\u95F4\u4E0D\u76F8\u7B49\uFF08\u9664\u4E86\u5F15\u7528\u5916\uFF09\uFF1B</li><li>\u6CE8\u610F\uFF1A\u5BF9\u8C61\u5F15\u7528\u7C7B\u578B\uFF08\u5171\u540C\u4E00\u4E2A\u5730\u5740\uFF09\uFF1B</li><li>\u5BF9\u8C61\u7684key\u90FD\u662F\u5B57\u7B26\u4E32\u7C7B\u578B\uFF1B</li><li>\u5BF9\u8C61\u627E\u5C5E\u6027\u6216\u65B9\u6CD5</li></ol><p>\u5148\u5728\u5BF9\u8C61\u672C\u8EAB\u627E \u2014\u2014\u2014\u2014&gt; \u6784\u9020\u51FD\u6570\u4E2D\u627E \u2014\u2014\u2014\u2014&gt; \u5BF9\u8C61\u539F\u578B\u4E2D\u627E \u2014\u2014\u2014\u2014&gt; \u6784\u9020\u51FD\u6570\u539F\u578B\u4E2D\u627E</p><p>\u6211\u4EEC\u5B66\u4E60\u4E00\u4E0B\uFF1A</p><ol><li>\u4EC0\u4E48\u662Fprototype\u3001__proto__\u4E0Econstructor\uFF1F</li></ol><p>\u4F8B\u5B50\u5F00\u59CB\uFF1A</p>`);
+  _push(serverRenderer.ssrRenderComponent(_component_CodeGroup, null, {
+    default: vue.withCtx((_, _push2, _parent2, _scopeId) => {
+      if (_push2) {
+        _push2(serverRenderer.ssrRenderComponent(_component_CodeGroupItem, {
+          title: "ES5",
+          active: ""
+        }, {
+          default: vue.withCtx((_2, _push3, _parent3, _scopeId2) => {
+            if (_push3) {
+              _push3(`<div class="language-javascript ext-js"${_scopeId2}><pre class="language-javascript"${_scopeId2}><code${_scopeId2}><span class="token keyword"${_scopeId2}>function</span> <span class="token function"${_scopeId2}>Foo</span><span class="token punctuation"${_scopeId2}>(</span><span class="token punctuation"${_scopeId2}>)</span> <span class="token punctuation"${_scopeId2}>{</span><span class="token operator"${_scopeId2}>...</span><span class="token punctuation"${_scopeId2}>}</span><span class="token punctuation"${_scopeId2}>;</span>
+<span class="token keyword"${_scopeId2}>let</span> f1 <span class="token operator"${_scopeId2}>=</span> <span class="token keyword"${_scopeId2}>new</span> <span class="token class-name"${_scopeId2}>Foo</span><span class="token punctuation"${_scopeId2}>(</span><span class="token punctuation"${_scopeId2}>)</span><span class="token punctuation"${_scopeId2}>;</span>
+</code></pre></div>`);
+            } else {
+              return [
+                vue.createVNode("div", { class: "language-javascript ext-js" }, [
+                  vue.createVNode("pre", { class: "language-javascript" }, [
+                    vue.createVNode("code", null, [
+                      vue.createVNode("span", { class: "token keyword" }, "function"),
+                      vue.createTextVNode(),
+                      vue.createVNode("span", { class: "token function" }, "Foo"),
+                      vue.createVNode("span", { class: "token punctuation" }, "("),
+                      vue.createVNode("span", { class: "token punctuation" }, ")"),
+                      vue.createTextVNode(),
+                      vue.createVNode("span", { class: "token punctuation" }, "{"),
+                      vue.createVNode("span", { class: "token operator" }, "..."),
+                      vue.createVNode("span", { class: "token punctuation" }, "}"),
+                      vue.createVNode("span", { class: "token punctuation" }, ";"),
+                      vue.createTextVNode("\n"),
+                      vue.createVNode("span", { class: "token keyword" }, "let"),
+                      vue.createTextVNode(" f1 "),
+                      vue.createVNode("span", { class: "token operator" }, "="),
+                      vue.createTextVNode(),
+                      vue.createVNode("span", { class: "token keyword" }, "new"),
+                      vue.createTextVNode(),
+                      vue.createVNode("span", { class: "token class-name" }, "Foo"),
+                      vue.createVNode("span", { class: "token punctuation" }, "("),
+                      vue.createVNode("span", { class: "token punctuation" }, ")"),
+                      vue.createVNode("span", { class: "token punctuation" }, ";"),
+                      vue.createTextVNode("\n")
+                    ])
+                  ])
+                ])
+              ];
+            }
+          }),
+          _: 1
+        }, _parent2, _scopeId));
+        _push2(serverRenderer.ssrRenderComponent(_component_CodeGroupItem, { title: "ES6" }, {
+          default: vue.withCtx((_2, _push3, _parent3, _scopeId2) => {
+            if (_push3) {
+              _push3(`<div class="language-javascript ext-js"${_scopeId2}><pre class="language-javascript"${_scopeId2}><code${_scopeId2}><span class="token keyword"${_scopeId2}>class</span> <span class="token class-name"${_scopeId2}>Foo</span><span class="token punctuation"${_scopeId2}>(</span><span class="token punctuation"${_scopeId2}>)</span><span class="token punctuation"${_scopeId2}>{</span><span class="token operator"${_scopeId2}>...</span><span class="token punctuation"${_scopeId2}>}</span><span class="token punctuation"${_scopeId2}>;</span>
+<span class="token keyword"${_scopeId2}>let</span> f1 <span class="token operator"${_scopeId2}>=</span> <span class="token keyword"${_scopeId2}>new</span> <span class="token class-name"${_scopeId2}>Foo</span><span class="token punctuation"${_scopeId2}>(</span><span class="token punctuation"${_scopeId2}>)</span><span class="token punctuation"${_scopeId2}>;</span>
+</code></pre></div>`);
+            } else {
+              return [
+                vue.createVNode("div", { class: "language-javascript ext-js" }, [
+                  vue.createVNode("pre", { class: "language-javascript" }, [
+                    vue.createVNode("code", null, [
+                      vue.createVNode("span", { class: "token keyword" }, "class"),
+                      vue.createTextVNode(),
+                      vue.createVNode("span", { class: "token class-name" }, "Foo"),
+                      vue.createVNode("span", { class: "token punctuation" }, "("),
+                      vue.createVNode("span", { class: "token punctuation" }, ")"),
+                      vue.createVNode("span", { class: "token punctuation" }, "{"),
+                      vue.createVNode("span", { class: "token operator" }, "..."),
+                      vue.createVNode("span", { class: "token punctuation" }, "}"),
+                      vue.createVNode("span", { class: "token punctuation" }, ";"),
+                      vue.createTextVNode("\n"),
+                      vue.createVNode("span", { class: "token keyword" }, "let"),
+                      vue.createTextVNode(" f1 "),
+                      vue.createVNode("span", { class: "token operator" }, "="),
+                      vue.createTextVNode(),
+                      vue.createVNode("span", { class: "token keyword" }, "new"),
+                      vue.createTextVNode(),
+                      vue.createVNode("span", { class: "token class-name" }, "Foo"),
+                      vue.createVNode("span", { class: "token punctuation" }, "("),
+                      vue.createVNode("span", { class: "token punctuation" }, ")"),
+                      vue.createVNode("span", { class: "token punctuation" }, ";"),
+                      vue.createTextVNode("\n")
+                    ])
+                  ])
+                ])
+              ];
+            }
+          }),
+          _: 1
+        }, _parent2, _scopeId));
+      } else {
+        return [
+          vue.createVNode(_component_CodeGroupItem, {
+            title: "ES5",
+            active: ""
+          }, {
+            default: vue.withCtx(() => [
+              vue.createVNode("div", { class: "language-javascript ext-js" }, [
+                vue.createVNode("pre", { class: "language-javascript" }, [
+                  vue.createVNode("code", null, [
+                    vue.createVNode("span", { class: "token keyword" }, "function"),
+                    vue.createTextVNode(),
+                    vue.createVNode("span", { class: "token function" }, "Foo"),
+                    vue.createVNode("span", { class: "token punctuation" }, "("),
+                    vue.createVNode("span", { class: "token punctuation" }, ")"),
+                    vue.createTextVNode(),
+                    vue.createVNode("span", { class: "token punctuation" }, "{"),
+                    vue.createVNode("span", { class: "token operator" }, "..."),
+                    vue.createVNode("span", { class: "token punctuation" }, "}"),
+                    vue.createVNode("span", { class: "token punctuation" }, ";"),
+                    vue.createTextVNode("\n"),
+                    vue.createVNode("span", { class: "token keyword" }, "let"),
+                    vue.createTextVNode(" f1 "),
+                    vue.createVNode("span", { class: "token operator" }, "="),
+                    vue.createTextVNode(),
+                    vue.createVNode("span", { class: "token keyword" }, "new"),
+                    vue.createTextVNode(),
+                    vue.createVNode("span", { class: "token class-name" }, "Foo"),
+                    vue.createVNode("span", { class: "token punctuation" }, "("),
+                    vue.createVNode("span", { class: "token punctuation" }, ")"),
+                    vue.createVNode("span", { class: "token punctuation" }, ";"),
+                    vue.createTextVNode("\n")
+                  ])
+                ])
+              ])
+            ]),
+            _: 1
+          }),
+          vue.createVNode(_component_CodeGroupItem, { title: "ES6" }, {
+            default: vue.withCtx(() => [
+              vue.createVNode("div", { class: "language-javascript ext-js" }, [
+                vue.createVNode("pre", { class: "language-javascript" }, [
+                  vue.createVNode("code", null, [
+                    vue.createVNode("span", { class: "token keyword" }, "class"),
+                    vue.createTextVNode(),
+                    vue.createVNode("span", { class: "token class-name" }, "Foo"),
+                    vue.createVNode("span", { class: "token punctuation" }, "("),
+                    vue.createVNode("span", { class: "token punctuation" }, ")"),
+                    vue.createVNode("span", { class: "token punctuation" }, "{"),
+                    vue.createVNode("span", { class: "token operator" }, "..."),
+                    vue.createVNode("span", { class: "token punctuation" }, "}"),
+                    vue.createVNode("span", { class: "token punctuation" }, ";"),
+                    vue.createTextVNode("\n"),
+                    vue.createVNode("span", { class: "token keyword" }, "let"),
+                    vue.createTextVNode(" f1 "),
+                    vue.createVNode("span", { class: "token operator" }, "="),
+                    vue.createTextVNode(),
+                    vue.createVNode("span", { class: "token keyword" }, "new"),
+                    vue.createTextVNode(),
+                    vue.createVNode("span", { class: "token class-name" }, "Foo"),
+                    vue.createVNode("span", { class: "token punctuation" }, "("),
+                    vue.createVNode("span", { class: "token punctuation" }, ")"),
+                    vue.createVNode("span", { class: "token punctuation" }, ";"),
+                    vue.createTextVNode("\n")
+                  ])
+                ])
+              ])
+            ]),
+            _: 1
+          })
+        ];
+      }
+    }),
+    _: 1
+  }, _parent));
+  _push(`<p>\u4EE5\u4E0A\u4EE3\u7801\u8868\u793A\u521B\u5EFA\u4E00\u4E2A\u6784\u9020\u51FD\u6570Foo()\uFF0C\u5E76\u7528new\u5173\u952E\u5B57\u5B9E\u4F8B\u5316\u8BE5\u6784\u9020\u51FD\u6570\u5F97\u5230\u4E00\u4E2A\u5B9E\u4F8B\u5316\u5BF9\u8C61f1\u3002\u8FD9\u91CC\u7A0D\u5FAE\u8865\u5145\u4E00\u4E0Bnew\u64CD\u4F5C\u7B26\u5C06\u51FD\u6570\u4F5C\u4E3A\u6784\u9020\u5668\u8FDB\u884C\u8C03\u7528\u65F6\u7684\u8FC7\u7A0B\uFF1A\u51FD\u6570\u88AB\u8C03\u7528\uFF0C\u7136\u540E\u65B0\u521B\u5EFA\u4E00\u4E2A\u5BF9\u8C61\uFF0C\u5E76\u4E14\u5F62\u6210\u4E86\u51FD\u6570\u7684\u4E0A\u4E0B\u6587\uFF08\u4E5F\u5C31\u662F\u6B64\u65F6\u51FD\u6570\u5185\u90E8\u7684this\u662F\u6307\u5411\u8BE5\u65B0\u521B\u5EFA\u7684\u5BF9\u8C61\uFF0C\u8FD9\u610F\u5473\u7740\u6211\u4EEC\u53EF\u4EE5\u5728\u6784\u9020\u5668\u51FD\u6570\u5185\u90E8\u901A\u8FC7this\u53C2\u6570\u521D\u59CB\u5316\u503C\uFF09\uFF0C\u6700\u540E\u8FD4\u56DE\u8BE5\u65B0\u5BF9\u8C61\u7684\u5F15\u7528</p><p>\u4E0B\u56FE\u522B\u7EA0\u7ED3\u989D\uFF0C\u7B80\u5355\u770B\u770B\uFF0C\u540E\u9762\u4E00\u6B65\u6B65\u5256\u6790\uFF1A</p><p><img src="https://s2.loli.net/2022/01/25/wrAWi8gkNh3Havd.png" alt=""></p><p>\u8BF4\u660E\uFF1A</p><p>\u53F3\u4E0B\u89D2\u4E3A\u56FE\u4F8B\uFF0C\u7EA2\u8272\u7BAD\u5934\u8868\u793A__proto__\u5C5E\u6027\u6307\u5411\u3001\u7EFF\u8272\u7BAD\u5934\u8868\u793Aprototype\u5C5E\u6027\u7684\u6307\u5411\u3001\u68D5\u8272\u5B9E\u7EBF\u7BAD\u5934\u8868\u793A\u672C\u8EAB\u5177\u6709\u7684constructor\u5C5E\u6027\u7684\u6307\u5411\uFF0C\u68D5\u8272\u865A\u7EBF\u7BAD\u5934\u8868\u793A\u7EE7\u627F\u800C\u6765\u7684constructor\u5C5E\u6027\u7684\u6307\u5411\uFF1B\u84DD\u8272\u65B9\u5757\u8868\u793A\u5BF9\u8C61\uFF0C\u6D45\u7EFF\u8272\u65B9\u5757\u8868\u793A\u51FD\u6570\uFF08\u8FD9\u91CC\u4E3A\u4E86\u66F4\u597D\u770B\u6E05\uFF0CFoo()\u4EC5\u4EE3\u8868\u662F\u51FD\u6570\uFF0C\u5E76\u4E0D\u662F\u6307\u6267\u884C\u51FD\u6570Foo\u540E\u5F97\u5230\u7684\u7ED3\u679C\uFF0C\u56FE\u4E2D\u7684\u5176\u4ED6\u51FD\u6570\u540C\u7406\uFF09\u3002\u56FE\u7684\u4E2D\u95F4\u90E8\u5206\u5373\u4E3A\u5B83\u4EEC\u4E4B\u95F4\u7684\u8054\u7CFB\uFF0C\u56FE\u7684\u6700\u5DE6\u8FB9\u5373\u4E3A\u4F8B\u5B50\u4EE3\u7801\u3002</p><ol><li>__ proto __ \u5C5E\u6027\uFF08\u539F\u578B\uFF09</li></ol><p>\u6211\u4EEC\u7262\u7262\u8BB0\u4F4F\u4E24\u70B9\uFF1A</p><ol><li>\u2460__proto__\u548Cconstructor\u5C5E\u6027\u662F\u5BF9\u8C61\u6240\u72EC\u6709\u7684\uFF1B</li><li>prototype\u5C5E\u6027\u662F\u51FD\u6570\u6240\u72EC\u6709\u7684\u3002\u4F46\u662F\u7531\u4E8EJS\u4E2D\u51FD\u6570\u4E5F\u662F\u4E00\u79CD\u5BF9\u8C61\uFF0C\u6240\u4EE5\u51FD\u6570\u4E5F\u62E5\u6709__proto__\u548Cconstructor\u5C5E\u6027,\u8FD9\u70B9\u662F\u81F4\u4F7F\u6211\u4EEC\u4EA7\u751F\u56F0\u60D1\u7684\u5F88\u5927\u539F\u56E0\u4E4B\u4E00\u3002</li></ol><p><img src="https://s2.loli.net/2022/01/25/vVsFScDaEryJlgM.png" alt=""></p><p>\u6839\u636E\u4E0A\u56FE\u603B\u7ED3\uFF1A</p><ol><li>\u5B83\u662F<code>\u5BF9\u8C61\u6240\u72EC\u6709</code>\u7684\uFF0C\u53EF\u4EE5\u770B\u5230__proto__\u5C5E\u6027\u90FD\u662F\u7531\u4E00\u4E2A\u5BF9\u8C61\u6307\u5411\u4E00\u4E2A\u5BF9\u8C61\uFF0C\u5373\u6307\u5411\u5B83\u4EEC\u7684\u539F\u578B\u5BF9\u8C61\uFF08\u4E5F\u53EF\u4EE5\u7406\u89E3\u4E3A\u7236\u5BF9\u8C61\uFF09\uFF0C\uFF0C\u90A3\u4E48\u8FD9\u4E2A\u5C5E\u6027\u7684\u4F5C\u7528\u662F\u4EC0\u4E48\u5462\uFF1F\u5B83\u7684\u4F5C\u7528\u5C31\u662F\u5F53\u8BBF\u95EE\u4E00\u4E2A\u5BF9\u8C61\u7684\u5C5E\u6027\u65F6\uFF0C\u5982\u679C\u8BE5\u5BF9\u8C61\u5185\u90E8\u4E0D\u5B58\u5728\u8FD9\u4E2A\u5C5E\u6027\uFF0C\u90A3\u4E48\u5C31\u4F1A\u53BB\u5B83\u7684__proto__\u5C5E\u6027\u6240\u6307\u5411\u7684\u90A3\u4E2A\u5BF9\u8C61\uFF08\u53EF\u4EE5\u7406\u89E3\u4E3A\u7236\u5BF9\u8C61\uFF09\u91CC\u627E\uFF0C\u5982\u679C\u7236\u5BF9\u8C61\u4E5F\u4E0D\u5B58\u5728\u8FD9\u4E2A\u5C5E\u6027\uFF0C\u5219\u7EE7\u7EED\u5F80\u7236\u5BF9\u8C61\u7684__proto__\u5C5E\u6027\u6240\u6307\u5411\u7684\u90A3\u4E2A\u5BF9\u8C61\uFF08\u53EF\u4EE5\u7406\u89E3\u4E3A\u7237\u7237\u5BF9\u8C61\uFF09\u91CC\u627E\uFF0C\u5982\u679C\u8FD8\u6CA1\u627E\u5230\uFF0C\u5219\u7EE7\u7EED\u5F80\u4E0A\u627E\u2026\u76F4\u5230\u539F\u578B\u94FE\u9876\u7AEFnull\uFF08\u53EF\u4EE5\u7406\u89E3\u4E3A\u539F\u59CB\u4EBA\u3002\u3002\u3002\uFF09\uFF0C\u518D\u5F80\u4E0A\u627E\u5C31\u76F8\u5F53\u4E8E\u5728null\u4E0A\u53D6\u503C\uFF0C\u4F1A\u62A5\u9519\uFF08\u53EF\u4EE5\u7406\u89E3\u4E3A\uFF0C\u518D\u5F80\u4E0A\u5C31\u5DF2\u7ECF\u4E0D\u662F\u201C\u4EBA\u201D\u7684\u8303\u7574\u4E86\uFF0C\u627E\u4E0D\u5230\u4E86\uFF0C\u5230\u6B64\u7ED3\u675F\uFF0Cnull\u4E3A\u539F\u578B\u94FE\u7684\u7EC8\u70B9\uFF09\uFF0C\u7531\u4EE5\u4E0A\u8FD9\u79CD\u901A\u8FC7__proto__\u5C5E\u6027\u6765\u8FDE\u63A5\u5BF9\u8C61\u76F4\u5230null\u7684\u4E00\u6761\u94FE\u5373\u4E3A\u6211\u4EEC\u6240\u8C13\u7684\u539F\u578B\u94FE\u3002</li></ol><p>\u6211\u4EEC\u5E73\u65F6\u8C03\u7528\u7684\u5B57\u7B26\u4E32\u65B9\u6CD5\u3001\u6570\u7EC4\u65B9\u6CD5\u3001\u5BF9\u8C61\u65B9\u6CD5\u3001\u51FD\u6570\u65B9\u6CD5\u7B49\u90FD\u662F\u9760__proto__\u7EE7\u627F\u800C\u6765\u7684\u3002</p><ol start="2"><li>prototype\u5C5E\u6027\uFF08\u539F\u578B\uFF09</li></ol><p><img src="https://s2.loli.net/2022/01/25/niXe41DhUfdWk8g.png" alt=""></p><p>prototype\u5C5E\u6027\uFF0C\u522B\u5FD8\u4E86\u4E00\u70B9\uFF0C\u5C31\u662F\u6211\u4EEC\u524D\u9762\u63D0\u5230\u8981\u7262\u8BB0\u7684\u4E24\u70B9\u4E2D\u7684\u7B2C\u4E8C\u70B9\uFF0C\u5B83\u662F\u51FD\u6570\u6240\u72EC\u6709\u7684\uFF0C\u5B83\u662F\u4ECE\u4E00\u4E2A\u51FD\u6570\u6307\u5411\u4E00\u4E2A\u5BF9\u8C61\u3002\u5B83\u7684\u542B\u4E49\u662F\u51FD\u6570\u7684\u539F\u578B\u5BF9\u8C61\uFF0C\u4E5F\u5C31\u662F\u8FD9\u4E2A\u51FD\u6570\uFF08\u5176\u5B9E\u6240\u6709\u51FD\u6570\u90FD\u53EF\u4EE5\u4F5C\u4E3A\u6784\u9020\u51FD\u6570\uFF09\u6240\u521B\u5EFA\u7684\u5B9E\u4F8B\u7684\u539F\u578B\u5BF9\u8C61\uFF0C\u7531\u6B64\u53EF\u77E5\uFF1Af1.<strong>proto</strong> === Foo.prototype\uFF0C\u5B83\u4EEC\u4E24\u4E2A\u5B8C\u5168\u4E00\u6837\u3002\u90A3prototype\u5C5E\u6027\u7684\u4F5C\u7528\u53C8\u662F\u4EC0\u4E48\u5462\uFF1F\u5B83\u7684\u4F5C\u7528\u5C31\u662F\u5305\u542B\u53EF\u4EE5\u7531\u7279\u5B9A\u7C7B\u578B\u7684\u6240\u6709\u5B9E\u4F8B\u5171\u4EAB\u7684\u5C5E\u6027\u548C\u65B9\u6CD5\uFF0C\u4E5F\u5C31\u662F\u8BA9\u8BE5\u51FD\u6570\u6240\u5B9E\u4F8B\u5316\u7684\u5BF9\u8C61\u4EEC\u90FD\u53EF\u4EE5\u627E\u5230\u516C\u7528\u7684\u5C5E\u6027\u548C\u65B9\u6CD5\u3002\u4EFB\u4F55\u51FD\u6570\u5728\u521B\u5EFA\u7684\u65F6\u5019\uFF0C\u5176\u5B9E\u4F1A\u9ED8\u8BA4\u540C\u65F6\u521B\u5EFA\u8BE5\u51FD\u6570\u7684prototype\u5BF9\u8C61\u3002</p><ol start="3"><li>constructor\u5C5E\u6027\uFF08\u6784\u9020\u5668\uFF09</li></ol><p><img src="https://s2.loli.net/2022/01/25/q8LbzI2VapCKUSw.png" alt=""></p><p>constructor\u5C5E\u6027\u4E5F\u662F\u5BF9\u8C61\u624D\u62E5\u6709\u7684\uFF0C\u5B83\u662F\u4ECE\u4E00\u4E2A\u5BF9\u8C61\u6307\u5411\u4E00\u4E2A\u51FD\u6570\uFF0C\u542B\u4E49\u5C31\u662F\u6307\u5411\u8BE5\u5BF9\u8C61\u7684\u6784\u9020\u51FD\u6570\uFF0C\u6BCF\u4E2A\u5BF9\u8C61\u90FD\u6709\u6784\u9020\u51FD\u6570\uFF08\u672C\u8EAB\u62E5\u6709\u6216\u7EE7\u627F\u800C\u6765\uFF0C\u7EE7\u627F\u800C\u6765\u7684\u8981\u7ED3\u5408__proto__\u5C5E\u6027\u67E5\u770B\u4F1A\u66F4\u6E05\u695A\u70B9\uFF0C\u5982\u4E0B\u56FE\u6240\u793A\uFF09\uFF0C\u4ECE\u4E0A\u56FE\u4E2D\u53EF\u4EE5\u770B\u51FAFunction\u8FD9\u4E2A\u5BF9\u8C61\u6BD4\u8F83\u7279\u6B8A\uFF0C\u5B83\u7684\u6784\u9020\u51FD\u6570\u5C31\u662F\u5B83\u81EA\u5DF1\uFF08\u56E0\u4E3AFunction\u53EF\u4EE5\u770B\u6210\u662F\u4E00\u4E2A\u51FD\u6570\uFF0C\u4E5F\u53EF\u4EE5\u662F\u4E00\u4E2A\u5BF9\u8C61\uFF09\uFF0C\u6240\u6709\u51FD\u6570\u548C\u5BF9\u8C61\u6700\u7EC8\u90FD\u662F\u7531Function\u6784\u9020\u51FD\u6570\u5F97\u6765\uFF0C\u6240\u4EE5constructor\u5C5E\u6027\u7684\u7EC8\u70B9\u5C31\u662FFunction\u8FD9\u4E2A\u51FD\u6570\u3002</p><p>\u201C\u6BCF\u4E2A\u5BF9\u8C61\u90FD\u6709\u6784\u9020\u51FD\u6570\u201D\u8FD9\u53E5\u8BDD\u3002\u8FD9\u91CC\u7684\u610F\u601D\u662F\u6BCF\u4E2A\u5BF9\u8C61\u90FD\u53EF\u4EE5\u627E\u5230\u5176\u5BF9\u5E94\u7684constructor\uFF0C\u56E0\u4E3A\u521B\u5EFA\u5BF9\u8C61\u7684\u524D\u63D0\u662F\u9700\u8981\u6709constructor\uFF0C\u800C\u8FD9\u4E2Aconstructor\u53EF\u80FD\u662F\u5BF9\u8C61\u81EA\u5DF1\u672C\u8EAB\u663E\u5F0F\u5B9A\u4E49\u7684\u6216\u8005\u901A\u8FC7__proto__\u5728\u539F\u578B\u94FE\u4E2D\u627E\u5230\u7684\u3002\u800C\u5355\u4ECEconstructor\u8FD9\u4E2A\u5C5E\u6027\u6765\u8BB2\uFF0C\u53EA\u6709prototype\u5BF9\u8C61\u624D\u6709\u3002\u6BCF\u4E2A\u51FD\u6570\u5728\u521B\u5EFA\u7684\u65F6\u5019\uFF0CJS\u4F1A\u540C\u65F6\u521B\u5EFA\u4E00\u4E2A\u8BE5\u51FD\u6570\u5BF9\u5E94\u7684prototype\u5BF9\u8C61\uFF0C\u800C\u51FD\u6570\u521B\u5EFA\u7684\u5BF9\u8C61.<strong>proto</strong> === \u8BE5\u51FD\u6570.prototype\uFF0C\u8BE5\u51FD\u6570.prototype.constructor===\u8BE5\u51FD\u6570\u672C\u8EAB\uFF0C\u6545\u901A\u8FC7\u51FD\u6570\u521B\u5EFA\u7684\u5BF9\u8C61\u5373\u4F7F\u81EA\u5DF1\u6CA1\u6709constructor\u5C5E\u6027\uFF0C\u5B83\u4E5F\u80FD\u901A\u8FC7__proto__\u627E\u5230\u5BF9\u5E94\u7684constructor\uFF0C\u6240\u4EE5\u4EFB\u4F55\u5BF9\u8C61\u6700\u7EC8\u90FD\u53EF\u4EE5\u627E\u5230\u5176\u6784\u9020\u51FD\u6570\uFF08null\u5982\u679C\u5F53\u6210\u5BF9\u8C61\u7684\u8BDD\uFF0C\u5C06null\u9664\u5916\uFF09\u3002\u5982\u4E0B\uFF1A</p><p><img src="https://s2.loli.net/2022/01/25/q8LbzI2VapCKUSw.png" alt=""></p><p>\u603B\u7ED3\uFF1A</p><ol><li>\u6211\u4EEC\u9700\u8981\u7262\u8BB0\u4E24\u70B9\uFF1A\u2460__proto__\u548Cconstructor\u5C5E\u6027\u662F\u5BF9\u8C61\u6240\u72EC\u6709\u7684\uFF1B\u2461 prototype\u5C5E\u6027\u662F\u51FD\u6570\u6240\u72EC\u6709\u7684\uFF0C\u56E0\u4E3A\u51FD\u6570\u4E5F\u662F\u4E00\u79CD\u5BF9\u8C61\uFF0C\u6240\u4EE5\u51FD\u6570\u4E5F\u62E5\u6709__proto__\u548Cconstructor\u5C5E\u6027\u3002</li><li>__proto__\u5C5E\u6027\u7684\u4F5C\u7528\u5C31\u662F\u5F53\u8BBF\u95EE\u4E00\u4E2A\u5BF9\u8C61\u7684\u5C5E\u6027\u65F6\uFF0C\u5982\u679C\u8BE5\u5BF9\u8C61\u5185\u90E8\u4E0D\u5B58\u5728\u8FD9\u4E2A\u5C5E\u6027\uFF0C\u90A3\u4E48\u5C31\u4F1A\u53BB\u5B83\u7684__proto__\u5C5E\u6027\u6240\u6307\u5411\u7684\u90A3\u4E2A\u5BF9\u8C61\uFF08\u7236\u5BF9\u8C61\uFF09\u91CC\u627E\uFF0C\u4E00\u76F4\u627E\uFF0C\u76F4\u5230__proto__\u5C5E\u6027\u7684\u7EC8\u70B9null\uFF0C\u518D\u5F80\u4E0A\u627E\u5C31\u76F8\u5F53\u4E8E\u5728null\u4E0A\u53D6\u503C\uFF0C\u4F1A\u62A5\u9519\u3002\u901A\u8FC7__proto__\u5C5E\u6027\u5C06\u5BF9\u8C61\u8FDE\u63A5\u8D77\u6765\u7684\u8FD9\u6761\u94FE\u8DEF\u5373\u6211\u4EEC\u6240\u8C13\u7684\u539F\u578B\u94FE\u3002</li><li>prototype\u5C5E\u6027\u7684\u4F5C\u7528\u5C31\u662F\u8BA9\u8BE5\u51FD\u6570\u6240\u5B9E\u4F8B\u5316\u7684\u5BF9\u8C61\u4EEC\u90FD\u53EF\u4EE5\u627E\u5230\u516C\u7528\u7684\u5C5E\u6027\u548C\u65B9\u6CD5\uFF0C\u5373f1.<strong>proto</strong> === Foo.prototype\u3002</li><li>constructor\u5C5E\u6027\u7684\u542B\u4E49\u5C31\u662F\u6307\u5411\u8BE5\u5BF9\u8C61\u7684\u6784\u9020\u51FD\u6570\uFF0C\u6240\u6709\u51FD\u6570\uFF08\u6B64\u65F6\u770B\u6210\u5BF9\u8C61\u4E86\uFF09\u6700\u7EC8\u7684\u6784\u9020\u51FD\u6570\u90FD\u6307\u5411Function\u3002</li></ol><p>\u5B9E\u73B0\u7EE7\u627F\u7684\u4F8B\u5B50\uFF1A</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">// 1</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><h2 id="_8-\u7ED9\u5B9A\u4E00\u4E2A\u6570\u7EC4-\u53BB\u9664\u91CD\u590D\u5143\u7D20" tabindex="-1"><a class="header-anchor" href="#_8-\u7ED9\u5B9A\u4E00\u4E2A\u6570\u7EC4-\u53BB\u9664\u91CD\u590D\u5143\u7D20" aria-hidden="true">#</a> 8.\u7ED9\u5B9A\u4E00\u4E2A\u6570\u7EC4\uFF0C\u53BB\u9664\u91CD\u590D\u5143\u7D20</h2><p>\u7ED9\u5B9A\u4E0B\u9762\u6570\u7EC4\uFF1A</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">let</span> arr <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span><span class="token number">6</span><span class="token punctuation">,</span><span class="token number">7</span><span class="token punctuation">,</span><span class="token number">8</span><span class="token punctuation">,</span><span class="token number">7</span><span class="token punctuation">,</span><span class="token number">6</span><span class="token punctuation">]</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><ul><li>\u65B9\u6CD5\u4E00\u3001Array.from\u4E0Eset\uFF08ES6\uFF09\u53BB\u91CD</li></ul><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">function</span> <span class="token function">unique</span><span class="token punctuation">(</span><span class="token parameter">arr</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+  <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token operator">!</span>Array<span class="token punctuation">.</span><span class="token function">isArray</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword">return</span>
+  <span class="token punctuation">}</span>
+  <span class="token keyword">return</span> Array<span class="token punctuation">.</span><span class="token function">from</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Set</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+ <span class="token comment">//new \u4E00\u4E2A Set \u5BF9\u8C61\uFF0C\u5C06\u6570\u7EC4\u4F5C\u4E3A\u53C2\u6570\u4F20\u9012\u8FDB\u53BB</span>
+  <span class="token comment">//Set\u5BF9\u8C61\u7684\u6570\u636E\u4E0D\u4F1A\u91CD\u590D</span>
+  <span class="token comment">//\u81EA\u52A8\u5B9E\u73B0\u53BB\u91CD\uFF0CArray.from() \u5C06\u5176\u8F6C\u5316\u4E3A\u6570\u7EC4</span>
+  <span class="token comment">// \u6CE8\u610F\u8FD9\u4E2A\u65B9\u6CD5\u4E0D\u80FD\u53BB\u9664\u7A7A\u5BF9\u8C61\uFF08&#39;&#39;\uFF09</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><ul><li>\u65B9\u6CD5\u4E8C\u3001\u53CC\u91CDfor\u5FAA\u73AF\u53BB\u91CD</li></ul><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token class-name">Array</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function-variable function">unique</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+  <span class="token keyword">let</span> newArray <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>  <span class="token comment">//\u8981\u8FD4\u56DE\u7684\u65B0\u6570\u7EC4</span>
+  <span class="token keyword">let</span> isRepeat<span class="token punctuation">;</span> <span class="token comment">//\u5F53\u524D\u5143\u7D20\u662F\u5426\u91CD\u590D</span>
+  <span class="token keyword">let</span> oldArrayLength <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>length<span class="token punctuation">;</span>
+  <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">let</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">&lt;</span>oldArrayLength<span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    isRepeat <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">let</span> j <span class="token operator">=</span> i<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">;</span>j<span class="token operator">&lt;</span>oldArrayLength<span class="token punctuation">;</span>j<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+      <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token operator">==</span><span class="token keyword">this</span><span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        isRepeat <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+        <span class="token keyword">break</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token operator">!</span>isRepeat<span class="token punctuation">)</span><span class="token punctuation">{</span>
+      newArray<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+  <span class="token keyword">return</span> newArray<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br></div></div><ul><li>\u65B9\u6CD5\u4E09\u3001indexOf\u68C0\u6D4B\u5143\u7D20</li></ul><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token class-name">Array</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function-variable function">unique</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">filter</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">item<span class="token punctuation">,</span>index</span><span class="token punctuation">)</span><span class="token operator">=&gt;</span><span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">indexOf</span><span class="token punctuation">(</span>item<span class="token punctuation">)</span> <span class="token operator">===</span> index<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+<span class="token comment">//filter() \u65B9\u6CD5\u521B\u5EFA\u4E00\u4E2A\u65B0\u7684\u6570\u7EC4\uFF0C\u65B0\u6570\u7EC4\u4E2D\u7684\u5143\u7D20\u662F\u901A\u8FC7\u68C0\u67E5\u6307\u5B9A\u6570\u7EC4\u4E2D\u7B26\u5408\u6761\u4EF6\u7684\u6240\u6709\u5143\u7D20\u3002</span>
+<span class="token comment">//\u6570\u7EC4\u4E2D\u6BCF\u4E2A\u5143\u7D20\u7684\u4F4D\u7F6E(index)\u548C\u5176\u7B2C\u4E00\u6B21\u51FA\u73B0\u7684\u4E0B\u6807(indexof)\u5BF9\u5E94,\u5982\u679C\u4E0D\u5BF9\u5E94\uFF0C\u8BF4\u660E\u662F\u91CD\u590D\u5143\u7D20</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><h2 id="_9-\u4E8B\u4EF6\u5192\u6CE1\u548C\u4E8B\u4EF6\u59D4\u6258" tabindex="-1"><a class="header-anchor" href="#_9-\u4E8B\u4EF6\u5192\u6CE1\u548C\u4E8B\u4EF6\u59D4\u6258" aria-hidden="true">#</a> 9.\u4E8B\u4EF6\u5192\u6CE1\u548C\u4E8B\u4EF6\u59D4\u6258</h2><ol><li>\u4E8B\u4EF6\u5192\u6CE1\u548C\u4E8B\u4EF6\u6355\u83B7</li></ol><ul><li>\u4E8B\u4EF6\u5192\u6CE1\uFF1A\u5F53\u524D\u5143\u7D20\u89E6\u53D1\u7684\u4E8B\u4EF6\u76EE\u6807\u4E00\u7EA7\u4E00\u7EA7\u5B8C\u4E0A\u4F20\u9012\uFF0C\u4F9D\u6B21\u89E6\u53D1\uFF0C\u77E5\u9053document\u4E3A\u6B62\u3002\uFF08\u5B50\u7EA7\u4E8B\u4EF6\u4F1A\u4F20\u9012\u7ED9\u7236\u7EA7\uFF09</li><li>\u4E8B\u4EF6\u6355\u83B7\uFF1A\u4ECEdocument\u5F00\u59CB\u89E6\u53D1\u4E8B\u4EF6\uFF0C\u4E00\u7EA7\u4E00\u7EA7\u5F80\u4E0B\u4F20\u9012\uFF0C\u76F4\u5230\u771F\u6B63\u4E8B\u4EF6\u76EE\u6807\u4E3A\u6B62\u3002\uFF08\u5728\u7236\u7EA7\u6355\u83B7\u5B50\u7EA7\u7684\u4E8B\u4EF6\uFF09</li><li>\u4E8B\u4EF6\u59D4\u6258\uFF1A\u901A\u8FC7\u76D1\u542C\u7236\u5143\u7D20\uFF0C\u6765\u7ED9\u4E0D\u540C\u5B50\u5143\u7D20\u7ED1\u5B9A\u4E8B\u4EF6\uFF0C\u51CF\u5C11\u76D1\u542C\u6B21\u6570\uFF0C\u4ECE\u800C\u63D0\u5347\u901F\u5EA6\u3002</li></ul><ol start="2"><li>\u963B\u6B62\u4E8B\u4EF6\u5192\u6CE1</li></ol><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">// \u963B\u6B62\u5192\u6CE1</span>
+   event<span class="token punctuation">.</span><span class="token function">stopPropagation</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><ol start="3"><li>\u4F8B\u5B50</li></ol><div class="language-html ext-html line-numbers-mode"><pre class="language-html"><code><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>UTF-8<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>text/css<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token style"><span class="token language-css">
+        <span class="token selector">#box1</span> <span class="token punctuation">{</span> <span class="token property">width</span><span class="token punctuation">:</span> 300px<span class="token punctuation">;</span> <span class="token property">height</span><span class="token punctuation">:</span> 300px<span class="token punctuation">;</span> <span class="token property">background</span><span class="token punctuation">:</span> blueviolet<span class="token punctuation">;</span> <span class="token punctuation">}</span>
+        <span class="token selector">#box2</span> <span class="token punctuation">{</span> <span class="token property">width</span><span class="token punctuation">:</span> 200px<span class="token punctuation">;</span> <span class="token property">height</span><span class="token punctuation">:</span> 200px<span class="token punctuation">;</span> <span class="token property">background</span><span class="token punctuation">:</span> aquamarine<span class="token punctuation">;</span> <span class="token punctuation">}</span>
+        <span class="token selector">#box3</span> <span class="token punctuation">{</span> <span class="token property">width</span><span class="token punctuation">:</span> 100px<span class="token punctuation">;</span> <span class="token property">height</span><span class="token punctuation">:</span> 100px<span class="token punctuation">;</span> <span class="token property">background</span><span class="token punctuation">:</span> tomato<span class="token punctuation">;</span> <span class="token punctuation">}</span>
+        <span class="token selector">div</span> <span class="token punctuation">{</span> <span class="token property">overflow</span><span class="token punctuation">:</span> hidden<span class="token punctuation">;</span> <span class="token property">margin</span><span class="token punctuation">:</span> 50px auto<span class="token punctuation">;</span> <span class="token punctuation">}</span>
+    </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>box1<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>box2<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>box3<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+            <span class="token keyword">function</span> <span class="token function">sayBox3</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&#39;\u4F60\u70B9\u4E86\u6700\u91CC\u9762\u7684box&#39;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+            <span class="token keyword">function</span> <span class="token function">sayBox2</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&#39;\u4F60\u70B9\u4E86\u6700\u4E2D\u95F4\u7684box&#39;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+            <span class="token keyword">function</span> <span class="token function">sayBox1</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&#39;\u4F60\u70B9\u4E86\u6700\u5916\u9762\u7684box&#39;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+            <span class="token comment">// \u4E8B\u4EF6\u76D1\u542C\uFF0C\u7B2C\u4E09\u4E2A\u53C2\u6570\u662F\u5E03\u5C14\u503C\uFF0C\u9ED8\u8BA4false\uFF0Cfalse\u662F\u4E8B\u4EF6\u5192\u6CE1\uFF0Ctrue\u662F\u4E8B\u4EF6\u6355\u83B7</span>
+            document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">&#39;box3&#39;</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">&#39;click&#39;</span><span class="token punctuation">,</span> sayBox3<span class="token punctuation">,</span> <span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">&#39;box2&#39;</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">&#39;click&#39;</span><span class="token punctuation">,</span> sayBox2<span class="token punctuation">,</span> <span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">&#39;box1&#39;</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">&#39;click&#39;</span><span class="token punctuation">,</span> sayBox1<span class="token punctuation">,</span> <span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br></div></div><h2 id="_10-\u624B\u5199promise" tabindex="-1"><a class="header-anchor" href="#_10-\u624B\u5199promise" aria-hidden="true">#</a> 10.\u624B\u5199Promise</h2><ol><li>Promise:\u7528\u6765\u64CD\u4F5C\u5F02\u6B65\u4FE1\u606F\u3002</li><li>Promise\u5BF9\u8C61\u4E0D\u53D7\u5916\u754C\u5F71\u54CD\uFF0C\u6709\u4E09\u79CD\u72B6\u6001\uFF1A</li></ol><ul><li>pending:\u521D\u59CB\u72B6\u6001\uFF0C\u4E0D\u662F\u6210\u529F\u6216\u5931\u8D25\uFF0C\u901A\u5E38\u662F\u4F60\u4E0D\u505A\u4EFB\u4F55\u5904\u7406\u7684\u65F6\u5019\u3002</li><li>fulfilled:\u64CD\u4F5C\u6210\u529F\u5B8C\u6210\u3002</li><li>rejected:\u64CD\u4F5C\u5931\u8D25\u3002</li></ul><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">//\u521B\u5EFA\u4E00\u4E2APromise\u5B9E\u4F8B</span>
+<span class="token keyword">let</span> promise <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Promise</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">resolve<span class="token punctuation">,</span>reject</span><span class="token punctuation">)</span><span class="token operator">=&gt;</span><span class="token punctuation">{</span>
+  <span class="token comment">//\u5F02\u6B65\u5904\u7406</span>
+ <span class="token comment">// \u5904\u7406\u7ED3\u675F\u540E\u3001\u8C03\u7528resolve\uFF08\u89E3\u6790\uFF09 \u6216 reject\uFF08\u62D2\u7EDD\uFF09</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><ol start="3"><li>Promise.all</li></ol><p>Promise.all\u63A5\u53D7\u591A\u4E2A Promise \u4EFB\u52A1\u540C\u65F6\u6267\u884C\uFF0C\u5982\u679C\u5168\u90E8\u6210\u529F\u6267\u884C\uFF0C\u5219\u4EE5\u6570\u7EC4\u7684\u65B9\u5F0F\u8FD4\u56DE\u6240\u6709 Promise \u4EFB\u52A1\u7684\u6267\u884C\u7ED3\u679C\u3002 <code>\u5982\u679C\u6709\u4E00\u4E2A Promise \u4EFB\u52A1 rejected\uFF0C\u5219\u53EA\u8FD4\u56DE rejected \u4EFB\u52A1\u7684\u7ED3\u679C</code>\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">const</span> p <span class="token operator">=</span> Promise<span class="token punctuation">.</span><span class="token function">all</span><span class="token punctuation">(</span><span class="token punctuation">[</span>p1<span class="token punctuation">,</span> p2<span class="token punctuation">,</span> p3<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">//p1,p2,p3\u90FD\u662FPromise\u5B9E\u4F8B</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><ul><li>\uFF081\uFF09\u53EA\u6709p1\u3001p2\u3001p3\u7684\u72B6\u6001\u90FD\u53D8\u6210fulfilled\uFF0Cp\u7684\u72B6\u6001\u624D\u4F1A\u53D8\u6210fulfilled\uFF0C\u6B64\u65F6p1\u3001p2\u3001p3\u7684\u8FD4\u56DE\u503C\u7EC4\u6210\u4E00\u4E2A\u6570\u7EC4\uFF0C\u4F20\u9012\u7ED9p\u7684\u56DE\u8C03\u51FD\u6570\u3002</li><li>\uFF082\uFF09\u53EA\u8981p1\u3001p2\u3001p3\u4E4B\u4E2D\u6709\u4E00\u4E2A\u88ABrejected\uFF0Cp\u7684\u72B6\u6001\u5C31\u53D8\u6210rejected\uFF0C\u6B64\u65F6\u7B2C\u4E00\u4E2A\u88ABreject\u7684\u5B9E\u4F8B\u7684\u8FD4\u56DE\u503C\uFF0C\u4F1A\u4F20\u9012\u7ED9p\u7684\u56DE\u8C03\u51FD\u6570\u3002</li><li>\uFF083\uFF09\u5982\u679C\u4F5C\u4E3A\u53C2\u6570\u7684 Promise \u5B9E\u4F8B\uFF0C\u81EA\u5DF1\u5B9A\u4E49\u4E86catch\u65B9\u6CD5\uFF0C\u90A3\u4E48\u5B83\u4E00\u65E6\u88ABrejected\uFF0C\u5E76\u4E0D\u4F1A\u89E6\u53D1Promise.all()\u7684catch\u65B9\u6CD5\uFF08\u8FD4\u56DE\u4E00\u4E2A\u65B0\u7684Promise\uFF09\u3002\u5982\u679C\u5176\u6CA1\u6709\u81EA\u5DF1\u7684catch\u65B9\u6CD5\uFF0C\u5C31\u4F1A\u8C03\u7528Promise.all()\u7684catch\u65B9\u6CD5\u3002</li></ul><ol start="4"><li>\u624B\u5199Promise.all</li></ol><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code>Promise<span class="token punctuation">.</span><span class="token function-variable function">_all</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">arr</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token keyword">new</span> <span class="token class-name">Promise</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">resolve<span class="token punctuation">,</span>reject</span><span class="token punctuation">)</span><span class="token operator">=&gt;</span><span class="token punctuation">{</span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token operator">!</span>Array<span class="token punctuation">.</span><span class="token function">isArray</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+      <span class="token keyword">return</span> <span class="token function">reject</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Error</span><span class="token punctuation">(</span><span class="token string">&#39;\u975E\u6570\u7EC4&#39;</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">const</span> result <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+    <span class="token keyword">let</span> counter <span class="token operator">=</span> <span class="token number">0</span>  <span class="token comment">//\u8BBE\u7F6E\u4E00\u4E2A\u8BA1\u6570\u5668</span>
+    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">let</span> i<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">&lt;</span>arr<span class="token punctuation">.</span>length<span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+      arr<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">data</span><span class="token punctuation">)</span><span class="token operator">=&gt;</span><span class="token punctuation">{</span>
+        result<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> data
+        counter<span class="token operator">++</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span>counter <span class="token operator">===</span> arr<span class="token punctuation">.</span>length<span class="token punctuation">)</span><span class="token punctuation">{</span>
+          <span class="token function">resolve</span><span class="token punctuation">(</span>result<span class="token punctuation">)</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>reject<span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+Promise<span class="token punctuation">.</span><span class="token function">all</span><span class="token punctuation">(</span><span class="token punctuation">[</span>p1<span class="token punctuation">,</span>p2<span class="token punctuation">,</span>p3<span class="token punctuation">]</span><span class="token punctuation">)</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br></div></div><h2 id="_11-this\u6307\u5411" tabindex="-1"><a class="header-anchor" href="#_11-this\u6307\u5411" aria-hidden="true">#</a> 11.this\u6307\u5411</h2><ol><li><p>\u5168\u5C40\u73AF\u5883\u8F93\u51FAthis\uFF0C\u6307\u5411\u5168\u5C40\u5BF9\u8C61\uFF08Windows\uFF09\u3002</p></li><li><p>\u5168\u5C40\u51FD\u6570\u4E2D\u7684this\uFF0C\u6307\u5411\u5168\u5C40\u5BF9\u8C61\u3002</p></li><li><p>\u5185\u90E8\u51FD\u6570\u4E2D\u7684this\uFF0C\u6307\u5411\u5168\u5C40\u5BF9\u8C61\u3002</p></li><li><p>\u65B9\u6CD5\u4E2D\u7684this\uFF0C\u6307\u5411\u8C03\u7528\u65B9\u6CD5\u7684\u5BF9\u8C61\u3002</p></li><li><p>\u4E8B\u4EF6\u4E2D\u7684this\uFF0C\u6307\u5411\u89E6\u53D1\u4E8B\u4EF6\u7684DOM\u5BF9\u8C61\u3002</p></li><li><p>\u6784\u9020\u51FD\u6570\u4E2D\u7684this\uFF0C\u6307\u5411new\u521B\u5EFA\u7684\u5BF9\u8C61\u3002</p></li><li><p>\u7BAD\u5934\u51FD\u6570\u4E2D\u7684this\uFF0C\u6307\u5411\u51FD\u6570\u4E0A\u4E0B\u6587\u7684this\u3002</p></li></ol><ul><li>\u7BAD\u5934\u51FD\u6570\u4E25\u683C\u6765\u8BF4\u6CA1\u6709this</li><li>\u666E\u901A\u51FD\u6570\u8C01\u8C03\u7528\u5C31\u6307\u5411\u8C01</li></ul><ol start="8"><li>\u4F7F\u7528\u95ED\u5305\uFF0Cvar\u83B7\u53D6dom\u7684\u7D22\u5F15\u3002</li></ol><h2 id="_12-call-apply-bind" tabindex="-1"><a class="header-anchor" href="#_12-call-apply-bind" aria-hidden="true">#</a> 12.call,apply,bind</h2><p>\u5148\u8BF4\u7ED3\u8BBA\uFF1A</p><p>\u4F5C\u7528\u90FD\u662F\u6539\u53D8\u51FD\u6570\u6267\u884C\u4E0A\u4E0B\u6587\u7684this\u6307\u5411\u3002 call \u3001bind \u3001 apply \u8FD9\u4E09\u4E2A\u51FD\u6570\u7684\u7B2C\u4E00\u4E2A\u53C2\u6570\u90FD\u662F this \u7684\u6307\u5411\u5BF9\u8C61\uFF0C\u4E3B\u8981\u533A\u522B\u5728\u7B2C\u4E8C\u53C2\u6570\uFF1B</p><ul><li>\u8BF4\u660E\uFF1A\u4E0B\u9762<code>xxx</code>\u4E3A\u7B2C\u4E00\u4E2A\u53C2\u6570\uFF0C\u5373<code>this.xxx</code>\u7684\u5BF9\u8C61\u3002</li></ul><table><thead><tr><th>\u65B9\u6CD5</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u53C2\u6570</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "right" })}">\u8FD4\u56DE\u503C</th></tr></thead><tbody><tr><td>call()</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">call(xxx,&#39;1&#39;,&#39;1&#39;),\u53C2\u6570\u9010\u4E2A\u4F20\u9012</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "right" })}">\u7ACB\u5373\u6267\u884C\uFF0C\u8FD4\u56DE\u7ED3\u679C</td></tr><tr><td>apply()</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">apply(xxx,[&#39;1&#39;,&#39;1&#39;]),\u53C2\u6570\u4F20\u9012\u4E00\u4E2A\u6570\u7EC4</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "right" })}">\u7ACB\u5373\u6267\u884C\uFF0C\u8FD4\u56DE\u7ED3\u679C</td></tr><tr><td>bind()</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">bind(xxx,&#39;1&#39;,&#39;1&#39;)(),\u53C2\u6570\u9010\u4E2A\u4F20\u9012</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "right" })}">bind \u8FD4\u56DE\u7684\u662F\u4E00\u4E2A\u65B0\u7684\u51FD\u6570\uFF0C\u4F60\u5FC5\u987B\u8C03\u7528\u5B83\u624D\u4F1A\u88AB\u6267\u884C</td></tr></tbody></table><h2 id="_13-\u95ED\u5305" tabindex="-1"><a class="header-anchor" href="#_13-\u95ED\u5305" aria-hidden="true">#</a> 13. \u95ED\u5305</h2><p>\u6982\u5FF5\uFF1A\u51FD\u6570\u5D4C\u5957\u51FD\u6570\uFF0C\u5185\u90E8\u51FD\u6570\u5C31\u662F\u95ED\u5305</p><ul><li>\u6CE8\uFF1A\u8981\u7406\u89E3\u95ED\u5305\u8981\u5148\u7406\u89E3\u4F5C\u7528\u57DF</li><li>\u6B63\u5E38\u60C5\u51B5\u4E0B\uFF1A\u51FD\u6570\u6267\u884C\u5B8C\u4F1A\u88AB\u9500\u6BC1</li><li>\u95ED\u5305\u7279\u70B9\uFF1A\u5185\u90E8\u51FD\u6570\u6CA1\u6709\u6267\u884C\u5B8C\u6210\uFF0C\u53D8\u91CF\u4E0D\u4F1A\u9500\u6BC1\u3002</li></ul><h2 id="_14-\u5BF9\u8C61\u62F7\u8D1D-\u6DF1\u6D45\u62F7\u8D1D" tabindex="-1"><a class="header-anchor" href="#_14-\u5BF9\u8C61\u62F7\u8D1D-\u6DF1\u6D45\u62F7\u8D1D" aria-hidden="true">#</a> 14.\u5BF9\u8C61\u62F7\u8D1D\uFF08\u6DF1\u6D45\u62F7\u8D1D\uFF09</h2><ul><li><p>\u539F\u59CB\u7C7B\u578B\uFF1A\u6570\u503C\u3001\u5B57\u7B26\u4E32\u3001\u5E03\u5C14\u3001null\u3001undefined</p></li><li><p>\u5F15\u7528\u7C7B\u578B\uFF1A\u5BF9\u8C61\uFF08Object\uFF09</p></li><li><p>\u6808\u5185\u5B58\uFF1A\u5B58\u50A8\u539F\u59CB\u7C7B\u578B</p></li><li><p>\u5806\u5185\u5B58\uFF1A\u5B58\u50A8\u5F15\u7528\u7C7B\u578B</p></li></ul><p>\u6DF1\u62F7\u8D1D\u548C\u6D45\u62F7\u8D1D\u662F\u53EA\u9488\u5BF9Object\u548CArray\u8FD9\u6837\u7684\u5F15\u7528\u6570\u636E\u7C7B\u578B\u7684\u3002</p><hr><p>\u6D45\u62F7\u8D1D\uFF1A</p><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u65B9\u6CD5</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8FD4\u56DE\u503C</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">Object.assign()</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8FD4\u56DE\u76EE\u6807\u5BF9\u8C61</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u62F7\u8D1D\u7684\u662F\u5BF9\u8C61\u7684\u5C5E\u6027\u7684\u5F15\u7528\uFF0C\u800C\u4E0D\u662F\u5BF9\u8C61\u672C\u8EAB</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">Array.prototype.concat()</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4E0D\u4FEE\u6539\u539F\u6570\u7EC4\uFF0C\u53EA\u4F1A\u8FD4\u56DE\u4E00\u4E2A\u6D45\u590D\u5236\u4E86\u539F\u6570\u7EC4\u4E2D\u7684\u5143\u7D20\u7684\u4E00\u4E2A\u65B0\u6570\u7EC4</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4FEE\u6539\u65B0\u5BF9\u8C61\u4F1A\u6539\u5230\u539F\u5BF9\u8C61</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">Array.prototype.slice()</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4E0D\u4FEE\u6539\u539F\u6570\u7EC4\uFF0C\u53EA\u4F1A\u8FD4\u56DE\u4E00\u4E2A\u6D45\u590D\u5236\u4E86\u539F\u6570\u7EC4\u4E2D\u7684\u5143\u7D20\u7684\u4E00\u4E2A\u65B0\u6570\u7EC4</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4FEE\u6539\u65B0\u5BF9\u8C61\u4F1A\u6539\u5230\u539F\u5BF9\u8C61</td></tr></tbody></table><p>\u6DF1\u62F7\u8D1D\uFF1A</p><table><thead><tr><th>\u65B9\u6CD5</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8FD4\u56DE\u503C</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "right" })}">\u8BF4\u660E</th></tr></thead><tbody><tr><td>JSON.parse(JSON.stringify())</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8FD4\u56DE\u65B0\u5BF9\u8C61</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "right" })}">,\u4F46\u4E0D\u80FD\u5904\u7406\u51FD\u6570</td></tr><tr><td>\u624B\u5199\u9012\u5F52\u65B9\u6CD5</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "right" })}">\u904D\u5386\u5BF9\u8C61\u3001\u6570\u7EC4\u76F4\u5230\u91CC\u8FB9\u90FD\u662F\u57FA\u672C\u6570\u636E\u7C7B\u578B\uFF0C\u7136\u540E\u518D\u53BB\u590D\u5236\uFF0C\u5C31\u662F\u6DF1\u5EA6\u62F7\u8D1D</td></tr><tr><td>\u4E00\u4E9B\u51FD\u6570\u5E93</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "right" })}">\u4F7F\u7528\u522B\u4EBA\u5199\u597D\u7684</td></tr></tbody></table><h2 id="_15-\u9632\u6296\u548C\u8282\u6D41" tabindex="-1"><a class="header-anchor" href="#_15-\u9632\u6296\u548C\u8282\u6D41" aria-hidden="true">#</a> 15. \u9632\u6296\u548C\u8282\u6D41</h2><ol><li>\u9632\u6296\uFF1A\u5BF9\u4E8E\u9891\u7E41\u89E6\u53D1\uFF0C\u53EA\u8981\u6700\u540E\u4E00\u6B21\u89E6\u53D1</li></ol><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">let</span> t <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
+<span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+  <span class="token keyword">if</span><span class="token punctuation">(</span>t <span class="token operator">!==</span> bull<span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token comment">//\u9891\u7E41\u89E6\u53D1\u65F6\u53BB\u6389\u4E0A\u4E00\u6B21\u89E6\u53D1\uFF0C\u91CD\u65B0\u8BA1\u65F6</span>
+    <span class="token function">clearTimeout</span><span class="token punctuation">(</span>t<span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+  t <span class="token operator">=</span> <span class="token function">setTimeout</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">=&gt;</span><span class="token punctuation">{</span>
+    <span class="token comment">//\u8981\u5B9E\u73B0\u9632\u6296\u7684\u64CD\u4F5C</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token number">500</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><ol start="2"><li>\u8282\u6D41\uFF1A\u63A7\u5236\u6267\u884C\u6B21\u6570,\u9891\u7E41\u64CD\u4F5C\u65F6\u51CF\u5C11\u6B21\u6570</li></ol><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">let</span> flag <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+<span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+  <span class="token keyword">if</span><span class="token punctuation">(</span>flag<span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token function">setTimeout</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">=&gt;</span><span class="token punctuation">{</span>
+      <span class="token comment">//\u6267\u884C</span>
+      flag <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token number">500</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><h2 id="_16-\u539F\u578B" tabindex="-1"><a class="header-anchor" href="#_16-\u539F\u578B" aria-hidden="true">#</a> 16. \u539F\u578B</h2><ol><li><p>\u6BCF\u4E00\u4E2A\u5BF9\u8C61\u90FD\u6709\u5B83\u7684\u539F\u578B\u5BF9\u8C61\uFF0C\u5B83\u53EF\u4EE5\u4F7F\u7528\u81EA\u5DF1\u539F\u578B\u5BF9\u8C61\u4E0A\u7684\u6240\u6709\u5C5E\u6027\u548C\u65B9\u6CD5</p></li><li><p>\u83B7\u53D6\u539F\u578B\u7684\u65B9\u6CD5</p></li></ol><ul><li><ol><li>\u901A\u8FC7\u5BF9\u8C61\u7684_proto_\u83B7\u53D6</li></ol></li><li><ol start="2"><li>\u901A\u8FC7\u6784\u9020\u51FD\u6570\u7684prototype\u5C5E\u6027\u62FF\u5230\u539F\u578B</li></ol></li></ul><ol start="3"><li>\u539F\u578B\u5BF9\u8C61\u7684\u4F5C\u7528\uFF1A\u6BD4\u5982\u7EDF\u4E00\u65F6\u95F4\u683C\u5F0F\uFF0C\u53EF\u4EE5\u5728Date.prototype\u5728\u539F\u578B\u4E0A\u5B9A\u4E49\u539F\u578B\u65B9\u6CD5\u3002</li></ol><h2 id="_17-\u7C7B\u4E0E\u7EE7\u627F" tabindex="-1"><a class="header-anchor" href="#_17-\u7C7B\u4E0E\u7EE7\u627F" aria-hidden="true">#</a> 17.\u7C7B\u4E0E\u7EE7\u627F</h2><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">// ES6</span>
+<span class="token keyword">class</span> <span class="token class-name">Cat</span><span class="token punctuation">(</span>name<span class="token punctuation">,</span>age<span class="token punctuation">)</span><span class="token punctuation">{</span>
+
+<span class="token punctuation">}</span>
+
+<span class="token keyword">let</span> cat <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Cat</span><span class="token punctuation">(</span><span class="token string">&#39;\u55B5\u55B5&#39;</span><span class="token punctuation">,</span><span class="token string">&#39;\u5403\u9C7C&#39;</span><span class="token punctuation">)</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><ul><li>\u4F7F\u7528\u573A\u666F\uFF1A\u7BA1\u7406\u5458\u548C\u666E\u901A\u7528\u6237\u90FD\u7EE7\u627F\u81EA\u7528\u6237\u7C7B\uFF0C\u4F46\u4E24\u8005\u8FD8\u6709\u81EA\u5DF1\u7684\u6743\u9650</li></ul><h4 id="_17-2-\u539F\u578B\u94FE\u7EE7\u627F\u548C\u539F\u578B\u94FE" tabindex="-1"><a class="header-anchor" href="#_17-2-\u539F\u578B\u94FE\u7EE7\u627F\u548C\u539F\u578B\u94FE" aria-hidden="true">#</a> 17.2. \u539F\u578B\u94FE\u7EE7\u627F\u548C\u539F\u578B\u94FE</h4><h4 id="_17-3-\u6784\u9020\u7EE7\u627F" tabindex="-1"><a class="header-anchor" href="#_17-3-\u6784\u9020\u7EE7\u627F" aria-hidden="true">#</a> 17.3 \u6784\u9020\u7EE7\u627F</h4><h4 id="_17-4-\u501F\u7528\u6784\u9020\u51FD\u6570\u7EE7\u627F" tabindex="-1"><a class="header-anchor" href="#_17-4-\u501F\u7528\u6784\u9020\u51FD\u6570\u7EE7\u627F" aria-hidden="true">#</a> 17.4 \u501F\u7528\u6784\u9020\u51FD\u6570\u7EE7\u627F</h4><h4 id="_17-5-\u7EC4\u5408\u7EE7\u627F" tabindex="-1"><a class="header-anchor" href="#_17-5-\u7EC4\u5408\u7EE7\u627F" aria-hidden="true">#</a> 17.5 \u7EC4\u5408\u7EE7\u627F</h4><h2 id="_18-\u72B6\u6001\u7801-200\u3001400\u7B49" tabindex="-1"><a class="header-anchor" href="#_18-\u72B6\u6001\u7801-200\u3001400\u7B49" aria-hidden="true">#</a> 18. \u72B6\u6001\u7801\uFF08200\u3001400\u7B49\uFF09</h2><ol><li>100\uFF1A\u4FE1\u606F\u6027\u72B6\u6001\u7801\uFF0C\u539F\u56E0\uFF1A\u63A5\u6536\u7684\u8BF7\u6C42\u6B63\u5728\u5904\u7406</li></ol><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u72B6\u6001\u7801</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">100</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u660E\u76EE\u524D\u4E3A\u6B62\uFF0C\u6240\u6709\u7684\u8BF7\u6C42\u5185\u5BB9\u90FD\u662F\u53EF\u884C\u7684\uFF0C\u5BA2\u6237\u7AEF\u5E94\u8BE5\u7EE7\u7EED\u8BF7\u6C42\uFF0C\u5982\u679C\u5B8C\u6210\uFF0C\u5219\u5FFD\u7565\u5B83\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">101</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BE5\u72B6\u6001\u7801\u662F\u54CD\u5E94\u5BA2\u6237\u7AEFUpgrade\u6807\u5934\u53D1\u9001\u7684\uFF0C\u5E76\u4E14\u6307\u793A\u670D\u52A1\u5668\u4E5F\u6B63\u5728\u5207\u6362\u534F\u8BAE\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">103</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4E3B\u8981\u7528\u4E8E\u4E0ELink\u94FE\u63A5\u5934\u4E00\u8D77\u4F7F\u7528\uFF0C\u4EE5\u5141\u8BB8\u7528\u6237\u4EE3\u7406\u5728\u670D\u52A1\u5668\u4ECD\u5728\u51C6\u5907\u54CD\u5E94\u65F6\u5F00\u59CB\u9884\u52A0\u8F7D\u8D44\u6E90\u3002</td></tr></tbody></table><ol start="2"><li>200\uFF1A\u8BF7\u6C42\u6210\u529F\u72B6\u6001\u7801\uFF0C\u8BF7\u6C42\u6B63\u5E38\u5904\u7406\u5B8C\u6BD5</li></ol><ul><li>GET\uFF1A\u8D44\u6E90\u5DF2\u88AB\u63D0\u53D6\u5E76\u5728\u6D88\u606F\u6B63\u6587\u4E2D\u4F20\u8F93</li><li>HEAD\uFF1A\u5B9E\u4F53\u6807\u5934\u4F4D\u4E8E\u6D88\u606F\u6B63\u6587\u4E2D</li><li>POST\uFF1A\u63CF\u8FF0\u52A8\u4F5C\u7ED3\u679C\u7684\u8D44\u6E90\u5728\u6D88\u606F\u4F53\u4E2D\u4F20\u8F93 TRACE\uFF1A\u6D88\u606F\u6B63\u6587\u5305\u542B\u670D\u52A1\u5668\u6536\u5230\u7684\u8BF7\u6C42\u4FE1\u606F\u3002\uFF08\u65B9\u6CD5\u4E0D\u5B89\u5168\uFF0C\u4E00\u822C\u4E0D\u7528)</li></ul><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u72B6\u6001\u7801</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">201</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF7\u6C42\u5DF2\u7ECF\u6210\u529F\uFF0C\u5E76\u56E0\u6B64\u521B\u5EFA\u4E86\u4E00\u4E2A\u65B0\u7684\u8D44\u6E90\u3002\u8FD9\u901A\u5E38\u662F\u5728PUT\u6216POST\u8BF7\u6C42\u4E4B\u540E\u53D1\u9001\u7684\u54CD\u5E94\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">202</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF7\u6C42\u5DF2\u7ECF\u63A5\u6536\u5230\uFF0C\u4F46\u662F\u6CA1\u6709\u54CD\u5E94\uFF0C\u6CA1\u6709\u7ED3\u679C\u3002\u610F\u5473\u7740\u4E0D\u4F1A\u6709\u4E00\u4E2A\u5F02\u6B65\u7684\u54CD\u5E94\u53BB\u8868\u660E\u5F53\u524D\u8BF7\u6C42\u7684\u7ED3\u679C\uFF0C\u9884\u671F\u53E6\u5916\u7684\u8FDB\u7A0B\u548C\u670D\u52A1\u53BB\u5904\u7406\u8BF7\u6C42\uFF0C\u6216\u8005\u6279\u5904\u7406\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">204</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u670D\u52A1\u5668\u6210\u529F\u5904\u7406\u4E86\u8BF7\u6C42\uFF0C\u4F46\u4E0D\u9700\u8981\u8FD4\u56DE\u4EFB\u4F55\u5B9E\u4F53\u5185\u5BB9\uFF0C\u5E76\u4E14\u5E0C\u671B\u8FD4\u56DE\u66F4\u65B0\u4E86\u7684\u5143\u4FE1\u606F\u3002\u9047\u5230\u590D\u6742\u8BF7\u6C42\u65F6\u5019\uFF0C\u6D4F\u89C8\u5668\u4F1A\u53D1\u9001\u4E00\u4E2AOPTION\u65B9\u6CD5\u8FDB\u884C\u9884\u5904\u7406\u8FD4\u56DE\u54CD\u5E94\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">205</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u670D\u52A1\u5668\u5DF2\u7ECF\u6210\u529F\u5904\u7406\u4E86\u8BF7\u6C42\uFF0C\u4F46\u662F\u6CA1\u6709\u8FD4\u56DE\u4EFB\u4F55\u5185\u5BB9\u3002\u4E0E204\u54CD\u5E94\u4E0D\u540C\uFF0C\u8FD4\u56DE\u6B64\u72B6\u6001\u7801\u7684\u54CD\u5E94\u8981\u6C42\u8BF7\u6C42\u8005\u91CD\u7F6E\u6587\u6863\u89C6\u56FE\u3002</td></tr></tbody></table><ol start="3"><li>300\uFF1A\u91CD\u5B9A\u5411\u72B6\u6001\u7801\uFF0C\u9700\u8981\u8FDB\u884C\u9644\u52A0\u64CD\u4F5C\u4EE5\u5B8C\u6210\u8BF7\u6C42</li></ol><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u72B6\u6001\u7801</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">301</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u88AB\u8BF7\u6C42\u7684\u8D44\u6E90\u5DF2\u6C38\u4E45\u79FB\u52A8\u5230\u65B0\u4F4D\u7F6E\uFF0C\u5E76\u4E14\u5C06\u6765\u4EFB\u4F55\u5BF9\u6B64\u8D44\u6E90\u7684\u5F15\u7528\u90FD\u5E94\u8BE5\u4F7F\u7528\u54CD\u5E94\u8FD4\u56DE\u7684\u82E5\u5E72\u4E2AURI\u4E4B\u4E00\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">302</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF7\u6C42\u7684\u8D44\u6E90\u73B0\u5728\u4E34\u65F6\u4ECE\u4E0D\u540C\u7684URI\u54CD\u5E94\u8BF7\u6C42\u3002\u7531\u4E8E\u8FD9\u6837\u7684\u91CD\u5B9A\u5411\u662F\u4E34\u65F6\u7684\uFF0C\u5BA2\u6237\u7AEF\u5E94\u5F53\u7EE7\u7EED\u5411\u539F\u6709\u5730\u5740\u53D1\u9001\u4EE5\u540E\u7684\u8BF7\u6C42\u3002\u53EA\u6709\u5728Cache-Control\u6216Expires\u4E2D\u8FDB\u884C\u4E86\u6307\u5B9A\u7684\u60C5\u51B5\u4E0B\uFF0C\u8FD9\u4E2A\u54CD\u5E94\u624D\u662F\u53EF\u7F13\u5B58\u7684\u3002\u8BF7\u6C42\u7684\u8D44\u6E90\u73B0\u5728\u4E34\u65F6\u4ECE\u4E0D\u540C\u7684URI\u54CD\u5E94\u8BF7\u6C42\u3002\u7531\u4E8E\u8FD9\u6837\u7684\u91CD\u5B9A\u5411\u662F\u4E34\u65F6\u7684\uFF0C\u5BA2\u6237\u7AEF\u5E94\u5F53\u7EE7\u7EED\u5411\u539F\u6709\u5730\u5740\u53D1\u9001\u4EE5\u540E\u7684\u8BF7\u6C42\u3002\u53EA\u6709\u5728Cache-Control\u6216Expires\u4E2D\u8FDB\u884C\u4E86\u6307\u5B9A\u7684\u60C5\u51B5\u4E0B\uFF0C\u8FD9\u4E2A\u54CD\u5E94\u624D\u662F\u53EF\u7F13\u5B58\u7684\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">303</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5BF9\u5F53\u524D\u7684\u8BF7\u6C42\u7684\u54CD\u5E94\u53EF\u4EE5\u5728\u53E6\u4E00\u4E2AURI\u4E0A\u88AB\u627E\u5230\uFF0C\u800C\u4E14\u5BA2\u6237\u7AEF\u5E94\u8BE5\u91C7\u7528GET\u7684\u65B9\u5F0F\u8BBF\u95EE\u90A3\u4E2A\u94FE\u63A5\u3002\u8FD9\u4E2A\u65B9\u6CD5\u7684\u5B58\u5728\u4E3B\u8981\u662F\u4E3A\u4E86\u5141\u8BB8\u7531\u811A\u672C\u6FC0\u6D3B\u7684POST\u8BF7\u6C42\u8F93\u51FA\u91CD\u5B9A\u5411\u5230\u4E00\u4E2A\u65B0\u7684\u8D44\u6E90\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">304</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5982\u679C\u5BA2\u6237\u7AEF\u53D1\u9001\u4E86\u4E00\u4E2A\u5E26\u6761\u4EF6\u7684 GET \u8BF7\u6C42\u4E14\u8BE5\u8BF7\u6C42\u5DF2\u88AB\u5141\u8BB8\uFF0C\u800C\u6587\u6863\u7684\u5185\u5BB9\uFF08\u81EA\u4E0A\u6B21\u8BBF\u95EE\u4EE5\u6765\u6216\u8005\u6839\u636E\u8BF7\u6C42\u7684\u6761\u4EF6\uFF09\u5E76\u6CA1\u6709\u6539\u53D8\uFF0C\u5219\u670D\u52A1\u5668\u5E94\u5F53\u8FD4\u56DE\u8FD9\u4E2A\u72B6\u6001\u7801\u3002304 \u54CD\u5E94\u7981\u6B62\u5305\u542B\u6D88\u606F\u4F53\uFF0C\u56E0\u6B64\u59CB\u7EC8\u4EE5\u6D88\u606F\u5934\u540E\u7684\u7B2C\u4E00\u4E2A\u7A7A\u884C\u7ED3\u5C3E\u3002\u8BF7\u6C42\u7684\u65F6\u5019\u4E00\u822C\u7ED3\u5408If-Modified-Since\u5934\u90E8\u4F7F\u7528\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">307</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">307\u7684\u610F\u4E49\u5982\u4E0A302\u3002\u4E0E\u5386\u53F2\u4E0A302\u4E0D\u540C\u7684\u662F\u5728\u91CD\u65B0\u53D1\u51FA\u539F\u59CB\u8BF7\u6C42\u65F6\u4E0D\u5141\u8BB8\u66F4\u6539\u8BF7\u6C42\u65B9\u6CD5\u3002\u6BD4\u5982\uFF0C\u4F7F\u7528POST\u8BF7\u6C42\u59CB\u7EC8\u5C31\u8BE5\u7528POST\u8BF7\u6C42\u3002</td></tr></tbody></table><ol start="4"><li>400\uFF1A\u5BA2\u6237\u7AEF\u9519\u8BEF\uFF0C\u670D\u52A1\u5668\u65E0\u6CD5\u5904\u7406\u8BF7\u6C42</li></ol><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u72B6\u6001\u7801</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">401</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8FD9\u610F\u5473\u7740\u4F60\u7684\u767B\u5F55\u51ED\u8BC1\u65E0\u6548\u3002\u670D\u52A1\u5668\u4E0D\u77E5\u9053\u4F60\u662F\u8C01\uFF0C\u8FD9\u65F6\uFF0C\u4F60\u9700\u8981\u5C1D\u8BD5\u91CD\u65B0\u767B\u5F55\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">403</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u670D\u52A1\u5668\u5DF2\u7ECF\u7406\u89E3\u8BF7\u6C42\uFF0C\u4F46\u662F\u62D2\u7EDD\u6267\u884C\u5B83\u3002\u4E0E401\u4E0D\u540C\uFF0C403\u77E5\u9053\u662F\u4F60\u767B\u5F55\u4E86\uFF0C\u4F46\u662F\u8FD8\u662F\u62D2\u7EDD\u4E86\u4F60\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">404</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E\u670D\u52A1\u5668\u7AEF\u65E0\u6CD5\u627E\u5230\u6240\u8BF7\u6C42\u7684\u8D44\u6E90\u3002\u8FD4\u56DE\u8BE5\u54CD\u5E94\u7684\u94FE\u63A5\u901A\u5E38\u79F0\u4E3A\u574F\u94FE\uFF08broken link\uFF09\u6216\u6B7B\u94FE\uFF08dead link\uFF09\uFF0C\u5B83\u4EEC\u4F1A\u5BFC\u5411\u94FE\u63A5\u51FA\u9519\u5904\u7406</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">405</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u660E\u670D\u52A1\u5668\u7981\u6B62\u4E86\u4F7F\u7528\u5F53\u524D HTTP \u65B9\u6CD5\u7684\u8BF7\u6C42\u3002\u9700\u8981\u6CE8\u610F\u7684\u662F\uFF0CGET \u4E0E HEAD \u4E24\u4E2A\u65B9\u6CD5\u4E0D\u5F97\u88AB\u7981\u6B62\uFF0C\u5F53\u7136\u4E5F\u4E0D\u5F97\u8FD4\u56DE\u72B6\u6001\u7801 405\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">406</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u793A\u670D\u52A1\u5668\u7AEF\u4E0D\u652F\u6301 Accept\u3001Accept-Charset\u3001Accept-Encoding\u3001 Accept-Language header \u6240\u8981\u6C42\u7684\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">409</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u793A\u8BF7\u6C42\u4E0E\u670D\u52A1\u5668\u7AEF\u76EE\u6807\u8D44\u6E90\u7684\u5F53\u524D\u72B6\u6001\u76F8\u51B2\u7A81\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">410</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u88AB\u8BF7\u6C42\u7684\u8D44\u6E90\u5728\u670D\u52A1\u5668\u4E0A\u5DF2\u7ECF\u4E0D\u518D\u53EF\u7528\uFF0C\u800C\u4E14\u6CA1\u6709\u4EFB\u4F55\u5DF2\u77E5\u7684\u8F6C\u53D1\u5730\u5740\u3002</td></tr></tbody></table><ol start="5"><li>500\uFF1A\u670D\u52A1\u5668\u9519\u8BEF\uFF0C\u670D\u52A1\u5668\u5904\u7406\u8BF7\u6C42\u51FA\u9519</li></ol><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u72B6\u6001\u7801</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">500</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u793A\u6240\u8BF7\u6C42\u7684\u670D\u52A1\u5668\u9047\u5230\u610F\u5916\u7684\u60C5\u51B5\u5E76\u963B\u6B62\u5176\u6267\u884C\u8BF7\u6C42\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">501</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u793Arequest header \u91CC\u7684 method \u6216 Content-* \u65F6\u4E0D\u88AB\u670D\u52A1\u5668\u652F\u6301\uFF0C\u65E0\u6CD5\u88AB\u5904\u7406\u3002\u53E6\uFF0C\u670D\u52A1\u5668\u5FC5\u987B\u652F\u6301\u7684\u65B9\u6CD5\uFF08\u5373\u4E0D\u4F1A\u8FD4\u56DE\u8FD9\u4E2A\u72B6\u6001\u7801\u7684\u65B9\u6CD5\uFF09\u53EA\u6709 GET \u548C HEAD\u3002501 \u54CD\u5E94\u9ED8\u8BA4\u662F\u53EF\u7F13\u5B58\u7684\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">502</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u793A\u4F5C\u4E3A\u7F51\u5173\u6216\u4EE3\u7406\u89D2\u8272\u7684\u670D\u52A1\u5668\uFF0C\u4ECE\u4E0A\u6E38\u670D\u52A1\u5668\uFF08\u5982tomcat\u3001php-fpm\uFF09\u4E2D\u63A5\u6536\u5230\u7684\u54CD\u5E94\u662F\u65E0\u6548\u7684\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">503</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u793A\u670D\u52A1\u5668\u5C1A\u672A\u5904\u4E8E\u53EF\u4EE5\u63A5\u53D7\u8BF7\u6C42\u7684\u72B6\u6001\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">504</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u7F51\u5173\u8D85\u65F6\uFF0C\u670D\u52A1\u5668\u672A\u80FD\u5FEB\u901F\u7684\u505A\u51FA\u53CD\u5E94\u3002</td></tr></tbody></table><h2 id="_19-\u8F93\u5165url\u5230\u9875\u9762\u663E\u793A\u7684\u8FC7\u7A0B" tabindex="-1"><a class="header-anchor" href="#_19-\u8F93\u5165url\u5230\u9875\u9762\u663E\u793A\u7684\u8FC7\u7A0B" aria-hidden="true">#</a> 19. \u8F93\u5165URL\u5230\u9875\u9762\u663E\u793A\u7684\u8FC7\u7A0B\uFF1F</h2><p>\u5148\u7B80\u5355\u6765\u8BF4\u6709\u4E0B\u9762\u8FC7\u7A0B\uFF1A</p><ol><li>DNS\u89E3\u6790\uFF1A\u5C06\u57DF\u540D\u89E3\u6790\u6210IP\u5730\u5740</li><li>TCP\u8FDE\u63A5\uFF1ATCP\u4E09\u6B21\u63E1\u624B</li><li>\u53D1\u9001HTTP\u8BF7\u6C42</li><li>\u670D\u52A1\u5668\u5904\u7406\u8BF7\u6C42\u5E76\u8FD4\u56DEHTTP\u62A5\u6587</li><li>\u6D4F\u89C8\u5668\u89E3\u6790\u6E32\u67D3\u9875\u9762</li><li>\u65AD\u5F00\u8FDE\u63A5\uFF1ATCP\u56DB\u6B21\u63E1\u624B</li></ol><p>\u5C55\u5F00\uFF1A</p><h2 id="_20-es6\u65B0\u7279\u6027" tabindex="-1"><a class="header-anchor" href="#_20-es6\u65B0\u7279\u6027" aria-hidden="true">#</a> 20. ES6\u65B0\u7279\u6027</h2><ol><li>let\u548Cconst</li></ol><p>let\u548Cconst\u90FD\u662F\u7528\u4E8E\u547D\u540D\u5C40\u90E8\u53D8\u91CF\uFF0C\u90FD\u662F\u5757\u7EA7\u4F5C\u7528\u57DF\uFF1B</p><ul><li>let:let \u5173\u952E\u8BCD\u58F0\u660E\u7684\u53D8\u91CF\u4E0D\u5177\u5907\u53D8\u91CF\u63D0\u5347</li><li>const:const \u5728\u58F0\u660E\u65F6\u5FC5\u987B\u88AB\u8D4B\u503C\uFF0C\u5426\u5219\u4F1A\u62A5\u9519,\u4E00\u65E6\u58F0\u660E\u5C31\u4E0D\u53EF\u518D\u8FDB\u884C\u4FEE\u6539\u3002(\u5BF9\u8C61\u7684\u503C\u53EF\u4EE5\u4FEE\u6539)</li></ul><ol start="2"><li>\u6A21\u677F\u5B57\u7B26\u4E32</li></ol><ul><li>\${}\u6765\u5199\u5165\u9700\u8981\u5F15\u7528\u5230\u7684JS\uFF0C\u4ED6\u4F1A\u88AB\u7F16\u8BD1</li></ul><ol start="3"><li>\u7BAD\u5934\u51FD\u6570</li></ol><p>\u9700\u8981\u6CE8\u610F\u7684\u70B9\uFF1A</p><ul><li>\u4E0D\u9700\u8981\u7528\u5173\u952E\u5B57function\u6765\u5B9A\u4E49\u51FD\u6570\uFF1B</li><li>\u4E00\u822C\u60C5\u51B5\u4E0B\u53EF\u4EE5\u7701\u7565return\uFF1B</li><li>\u5728\u7BAD\u5934\u51FD\u6570\u5185\u90E8\uFF0Cthis\u5E76\u4E0D\u4F1A\u8DDF\u5176\u4ED6\u51FD\u6570\u4E00\u6837\u6307\u5411\u8C03\u7528\u5B83\u7684\u5BF9\u8C61\uFF0C\u800C\u662F\u7EE7\u627F\u4E0A\u4E0B\u6587\u7684this\u6307\u5411\u7684\u5BF9\u8C61\u3002</li></ul><ol start="4"><li>Spreas/Reat\u64CD\u4F5C\u7B26</li></ol><ul><li>Rest\u8FD0\u7B97\u7B26\u7528\u4E8E\u83B7\u53D6\u51FD\u6570\u8C03\u7528\u65F6\u4F20\u5165\u7684\u53C2\u6570</li><li>Spread\u8FD0\u7B97\u7B26\u7528\u4E8E\u6570\u7EC4\u7684\u6784\u9020\uFF0C\u6790\u6784\uFF0C\u4EE5\u53CA\u5728\u51FD\u6570\u8C03\u7528\u65F6\u4F7F\u7528\u6570\u7EC4\u586B\u5145\u53C2\u6570\u5217\u8868</li></ul><ol start="5"><li>\u4E8C\u8FDB\u5236\u548C\u516B\u8FDB\u5236\u5B57\u9762\u91CF</li></ol><ul><li>ES6\u652F\u6301\u4E8C\u8FDB\u5236\u548C\u516B\u8FDB\u5236\u7684\u5B57\u9762\u91CF\uFF0C\u901A\u8FC7\u5728\u6570\u5B57\u524D\u9762\u589E\u52A00o\u6216\u80050O\u53EF\u4EE5\u5C06\u6570\u5B57\u8F6C\u6362\u4E3A\u516B\u8FDB\u5236\u3002</li></ul><ol start="6"><li>\u5141\u8BB8\u5728\u5BF9\u8C61\u4E2D\u4F7F\u7528super\u65B9\u6CD5</li></ol><p>super\u65B9\u6CD5\u5E94\u8BE5\u90FD\u4E0D\u964C\u751F\uFF0C\u5728java\u4E2D\u7528\u6765\u4EE3\u8868\u8C03\u7528\u7236\u7C7B\u7684\u6784\u9020\u51FD\u6570\u3002\u7531\u4E8Ejs\u4E0D\u662F\u9762\u5411\u5BF9\u8C61\u8BED\u8A00\uFF0C\u6240\u4EE5\u4E5F\u6CA1\u6709\u7EE7\u627F\u8FD9\u4EE5\u8BF4\u6CD5\u3002\u4F46\u662F\u5728ES6\u4E2D\uFF0C\u53EF\u4EE5\u901A\u8FC7\u8C03\u7528setPrototypeOf()\u65B9\u6CD5\u6765\u8BBE\u7F6E\u4E00\u4E2A\u5BF9\u8C61\u7684prototype\u5BF9\u8C61\uFF0C\u4E0E\u9762\u5411\u5BF9\u8C61\u8BED\u8A00\u4E2D\u7684\u7EE7\u627F\u6709\u76F8\u4F3C\u4E4B\u5904\uFF0C\u6240\u4EE5\u4E5F\u53EF\u4EE5\u7406\u89E3\u6210\u8FD9\u662Fjs\u4E2D\u7528\u6765\u5B9E\u73B0\u7EE7\u627F\u7684\u65B9\u6CD5\u3002</p><ol start="7"><li>\u8FED\u4EE3\u5668iterator\u3001for...of\u548Cfor...in</li></ol><p>\u5EFA\u8BAE\u5148\u53BB\u4E86\u89E3\u4E00\u4E0Biterator\uFF0C\u4F5C\u7528\u5982\u4E0B\uFF1A</p><ul><li><p>\u4E3A\u5404\u79CD\u6570\u636E\u63D0\u4F9B\u7EDF\u4E00\u7684\uFF0C\u7B80\u4FBF\u7684\u8BBF\u95EE\u63A5\u53E3</p></li><li><p>\u4F7F\u6570\u636E\u7ED3\u6784\u7684\u6210\u5458\u80FD\u6309\u67D0\u79CD\u6B21\u5E8F\u6392\u5217</p></li><li><p>\u4E3B\u8981\u4F9Bfor...of\u7528</p></li><li><p>for\u2026in \u8BED\u53E5\u4EE5\u539F\u59CB\u63D2\u5165\u987A\u5E8F\u8FED\u4EE3\u5BF9\u8C61\u7684\u53EF\u679A\u4E3E\u5C5E\u6027\uFF0C\u7B80\u5355\u7406\u89E3\u5C31\u662Ffor...in\u662F\u7528\u6765\u5FAA\u73AF\u904D\u5386\u5C5E\u6027\uFF0C\u904D\u5386\u51FA\u7684\u662F\u81EA\u8EAB\u548C\u539F\u578B\u4E0A\u7684\u53EF\u679A\u4E3E\u975Esymbol\u5C5E\u6027\uFF0C\u4F46\u662F\u904D\u5386\u4E0D\u4E00\u5B9A\u6309\u7167\u987A\u5E8F\uFF08tips\uFF1Afor...in\u5728ES5\u4E2D\u5C31\u5DF2\u7ECF\u51FA\u73B0\u4E86\uFF09</p></li><li><p>for\u2026of \u8BED\u53E5\u904D\u5386\u53EF\u8FED\u4EE3\u5BF9\u8C61\u5B9A\u4E49\u8981\u8FED\u4EE3\u7684\u6570\u636E\uFF0C\u4E5F\u5C31\u662F\u8BF4\uFF0Cfor...of\u53EA\u53EF\u4EE5\u5FAA\u73AF\u53EF\u8FED\u4EE3\u5BF9\u8C61\u7684\u53EF\u8FED\u4EE3\u5C5E\u6027\uFF0C\u4E0D\u53EF\u8FED\u4EE3\u5C5E\u6027\u5728\u5FAA\u73AF\u4E2D\u88AB\u5FFD\u7565\u4E86\u3002\uFF08tips\uFF1Afor...of\u662FES6\u624D\u63D0\u51FA\u6765\u7684\uFF09</p></li></ul><ol start="8"><li>Module</li></ol><p>\u5728ES6\u7684module\u4E4B\u524D\uFF0C\u6BD4\u8F83\u6D41\u884C\u7684\u6A21\u5757\u52A0\u8F7D\u65B9\u6848\u6709:CommonJS\u548CAMD\uFF0C\u524D\u8005\u7528\u4E8E\u670D\u52A1\u5668\uFF08node)\uFF0C\u540E\u8005\u7528\u4E8E\u6D4F\u89C8\u5668\u3002</p><p>\u533A\u522B\uFF1A</p><ul><li>CommondJS\u548CAMD\u662F\u8FD0\u884C\u65F6\u52A0\u8F7D\u7684\u3002</li><li>module\u662F\u7F16\u8BD1\u65F6\u52A0\u8F7D\u7684\u3002</li><li>CommondJS\u8F93\u51FA\u7684\u662F\u503C\u7684\u590D\u5236\uFF0C\u800CES6\u8F93\u51FA\u7684\u662F\u503C\u7684\u5F15\u7528</li></ul><p>\u5176\u4E2D\u547D\u4EE4\u6709\uFF1Aexport\u3001import \u3001export default</p><ul><li>export\u7528\u4E8E\u5BF9\u5916\u8F93\u51FA\u672C\u6A21\u5757\uFF08\u4E00\u4E2A\u6587\u4EF6\u53EF\u4EE5\u7406\u89E3\u4E3A\u4E00\u4E2A\u6A21\u5757\uFF09\u53D8\u91CF\u7684\u63A5\u53E3\uFF0C\u901A\u8FC7export\u65B9\u5F0F\u5BFC\u51FA\uFF0C\u5728\u5BFC\u5165\u65F6\u8981\u52A0{ }\uFF0Cexport default\u5219\u4E0D\u9700\u8981</li><li>import\u7528\u4E8E\u5728\u4E00\u4E2A\u6A21\u5757\u4E2D\u52A0\u8F7D\u53E6\u4E00\u4E2A\u542B\u6709export\u63A5\u53E3\u7684\u6A21\u5757\u3002</li><li>\u4F7F\u7528export default\u547D\u4EE4\uFF0C\u4E3A\u6A21\u5757\u6307\u5B9A\u9ED8\u8BA4\u8F93\u51FA\uFF0C\u8FD9\u6837\u5C31\u4E0D\u9700\u8981\u77E5\u9053\u6240\u8981\u52A0\u8F7D\u6A21\u5757\u7684\u53D8\u91CF\u540D\uFF08\u53EF\u81EA\u5B9A\u4E49\u5F15\u7528\uFF09\u3002</li></ul><!--]-->`);
+}
+const _sfc_setup$Q = _sfc_main$Q.setup;
+_sfc_main$Q.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/interview/JSinterview.html.vue");
+  return _sfc_setup$Q ? _sfc_setup$Q(props, ctx) : void 0;
+};
+var JSinterview_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$Q, [["ssrRender", _sfc_ssrRender$C]]);
+var JSinterview_html$2 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": JSinterview_html$1
+});
+const _sfc_main$P = {};
+function _sfc_ssrRender$B(_ctx, _push, _parent, _attrs) {
+  _push(`<!--[--><h1 id="vue\u9762\u8BD5" tabindex="-1"><a class="header-anchor" href="#vue\u9762\u8BD5" aria-hidden="true">#</a> VUE\u9762\u8BD5</h1><h2 id="_1-vue\u7684\u751F\u547D\u5468\u671F" tabindex="-1"><a class="header-anchor" href="#_1-vue\u7684\u751F\u547D\u5468\u671F" aria-hidden="true">#</a> 1.vue\u7684\u751F\u547D\u5468\u671F</h2><h4 id="_1-1\u5404\u4E2A\u751F\u547D\u5468\u671F" tabindex="-1"><a class="header-anchor" href="#_1-1\u5404\u4E2A\u751F\u547D\u5468\u671F" aria-hidden="true">#</a> 1.1\u5404\u4E2A\u751F\u547D\u5468\u671F</h4><ol><li>beforeCreate\uFF08\u521B\u5EFA\u524D\uFF09:\u7EC4\u4EF6\u5B9E\u4F8B\u88AB\u521B\u5EFA\u4E4B\u521D\uFF0C\u7EC4\u4EF6\u7684\u5C5E\u6027\u751F\u6548\u4E4B\u524D\u3002</li><li>created\uFF08\u521B\u5EFA\u540E\uFF09:\u7EC4\u4EF6\u5B9E\u4F8B\u5DF2\u7ECF\u5B8C\u5168\u521B\u5EFA\uFF0C\u5C5E\u6027\u4E5F\u7ED1\u5B9A\uFF0C\u4F46\u771F\u5B9Edom\u8FD8\u6CA1\u6E32\u67D3\u3002$el\u4E0D\u53EF\u7528\u3002</li><li>beforeMount\uFF08\u6302\u8F7D\u524D\uFF09:\u5728\u6302\u8F7D\u5F00\u59CB\u4E4B\u524D\u88AB\u8C03\u7528\uFF1A\u76F8\u5173\u7684render\u51FD\u6570\u9996\u6B21\u88AB\u8C03\u7528\u3002</li><li>mounted\uFF08\u6302\u8F7D\u540E\uFF09:\u5728el\u88AB\u65B0\u521B\u5EFA\u7684vm.$el\u66FF\u6362\uFF0C\u5E76\u6302\u8F7D\u5230\u5B9E\u4F8B\u4E0A\u53BB\u4E4B\u540E\u8C03\u7528\u8BE5\u94A9\u5B50\u3002</li><li>beforeUpdate\uFF08\u66F4\u65B0\u524D\uFF09:\u7EC4\u4EF6\u6570\u636E\u66F4\u65B0\u4E4B\u524D\u8C03\u7528\uFF0C\u771F\u5B9Edom\u8FD8\u6CA1\u88AB\u66F4\u65B0\u6E32\u67D3\u3002</li><li>update\uFF08\u66F4\u65B0\u540E\uFF09:\u7EC4\u4EF6\u6570\u636E\u66F4\u65B0\u540E\u3002</li><li>activated\uFF08\u6FC0\u6D3B\u524D\uFF09:keey-alive\u4E13\u5C5E\uFF0C\u7EC4\u4EF6\u88AB\u6FC0\u6D3B\u65F6\u8C03\u7528\u3002</li><li>deactivated\uFF08\u6FC0\u6D3B\u540E\uFF09:keey-alive\u4E13\u5C5E\uFF0C\u7EC4\u4EF6\u88AB\u9500\u6BC1\u65F6\u8C03\u7528\u3002</li><li>beforeDestory\uFF08\u9500\u6BC1\u524D\uFF09:\u7EC4\u4EF6\u9500\u6BC1\u65F6\u8C03\u7528\u3002</li><li>destoryed\uFF08\u9500\u6BC1\u540E\uFF09:\u7EC4\u4EF6\u9500\u6BC1\u524D\u8C03\u7528\u3002</li></ol><h4 id="_1-2\u7EC4\u4EF6\u6267\u884C\u987A\u5E8F" tabindex="-1"><a class="header-anchor" href="#_1-2\u7EC4\u4EF6\u6267\u884C\u987A\u5E8F" aria-hidden="true">#</a> 1.2\u7EC4\u4EF6\u6267\u884C\u987A\u5E8F</h4><p>\u4F60\u770B\u5B8C\u4E0A\u9762\u5E94\u8BE5\u77E5\u9053\u751F\u547D\u5468\u671F\u51FD\u6570\u5927\u6982\u6267\u884C\u987A\u5E8F\u4E86\u5427\u3002\u8FD9\u91CC\u53EA\u8BF4\u7236\u5B50\u7EC4\u4EF6\u5173\u7CFB\u5176\u751F\u547D\u5468\u671F\u7684\u6267\u884C\u987A\u5E8F\u3002</p><ul><li><code>\u52A0\u8F7D\u6E32\u67D3\u8FC7\u7A0B</code>\uFF1AbeforeCreate(\u7236) \u2014&gt; created(\u7236)\u2014&gt;beforeMount(\u7236)\u2014&gt;beforeCreate(\u5B50)\u2014&gt;created(\u5B50)\u2014&gt;beforeMount(\u5B50)\u2014&gt;mounted(\u5B50)\u2014&gt;mounted(\u7236)</li><li>beforeCreate(\u7236) \u2014&gt; created(\u7236)\u2014&gt;beforeMount(\u7236)\u2014&gt;beforeCreate(\u5B50)\u2014&gt;created(\u5B50)\u2014&gt;beforeMount(\u5B50)\u2014&gt;mounted(\u5B50)\u2014&gt;mounted(\u7236)</li><li>\u9500\u6BC1\u8FC7\u7A0B\uFF1AbeforeDestory(\u7236) \u2014&gt; beforeDestory(\u5B50) \u2014&gt; destoryed(\u5B50) \u2014&gt; destoryed(\u7236)</li></ul><h4 id="_1-3\u6BCF\u4E2A\u751F\u547D\u5468\u671F\u8BE6\u89E3" tabindex="-1"><a class="header-anchor" href="#_1-3\u6BCF\u4E2A\u751F\u547D\u5468\u671F\u8BE6\u89E3" aria-hidden="true">#</a> 1.3\u6BCF\u4E2A\u751F\u547D\u5468\u671F\u8BE6\u89E3</h4><p>\u4E0B\u9762\u662F\u6781\u7B80\u5199\u6CD5\uFF0C\u751A\u81F3\u5FFD\u7565\u4E00\u4E9B\u4E1C\u897F\uFF1A</p><ol><li>beforeCreate\uFF1Anew\u4E00\u4E2Avue\u5B9E\u4F8B\uFF0C\u5565\u90FD\u6CA1\u6709\u3002</li><li>created\uFF1Adata\u548Cmethods\u521D\u59CB\u5316\u5B8C\u6210\uFF0C\u4F46\u662F\u6CA1\u6709el\u3002</li><li>beforeMount:\u865A\u62DFdom\u5DF2\u7ECF\u7F16\u8BD1\u597D\uFF0C\u4F46\u8FD8\u6CA1\u6302\u8F7D\u5230\u9875\u9762\u4E0A\u3002</li><li>mouted\uFF1A\u9875\u9762\u521D\u59CB\u5316\u5B8C\u6210\u3002</li></ol><p>\u4E0A\u9762\u4E3A\u91CD\u70B9</p><ol start="5"><li>beforeUpdate\uFF1A\u6B64\u65F6data\u662F\u66F4\u65B0\u540E\u7684\u6570\u636E\uFF0C\u4F46\u9875\u9762\u8FD8\u662F\u65E7\u7684\uFF0C\u8FD8\u6CA1\u6709\u540C\u6B65\u3002</li><li>update\uFF1A\u66F4\u65B0\u9875\u9762\u548Cdata\u6570\u636E\u4FDD\u5B58\u540C\u6B65\u3002</li><li>beforeDestory\uFF1A\u9500\u6BC1\u9636\u6BB5\uFF0C\u6B64\u65F6data\u548Cmethods\u4F9D\u7136\u53EF\u7528\u3002</li><li>destory\uFF1A\u7EC4\u4EF6\u9500\u6BC1\uFF0C\u4E0D\u53EF\u7528\u3002</li></ol><h4 id="_1-4-keey-alive\u7684activated\u548Cdeactivated" tabindex="-1"><a class="header-anchor" href="#_1-4-keey-alive\u7684activated\u548Cdeactivated" aria-hidden="true">#</a> 1.4 keey-alive\u7684activated\u548Cdeactivated</h4><ul><li>\u5982\u679C\u52A0\u5165keey-alive: \u7B2C\u4E00\u6B21\u52A0\u8F7D\u65F6\uFF0C\u4F1A\u989D\u5916\u6267\u884Cactivated\u3002 \u540E\u7EED\u518D\u8FDB\u5165\uFF1A\u53EA\u6267\u884Cactivated</li></ul><h4 id="_1-5-\u8C08\u8C08\u4F60\u5BF9keey-alive\u7684\u7406\u89E3" tabindex="-1"><a class="header-anchor" href="#_1-5-\u8C08\u8C08\u4F60\u5BF9keey-alive\u7684\u7406\u89E3" aria-hidden="true">#</a> 1.5 \u8C08\u8C08\u4F60\u5BF9keey-alive\u7684\u7406\u89E3</h4><p>\u4F5C\u7528\uFF1A\u7F13\u5B58\u7EC4\u4EF6\u8FBE\u5230\u63D0\u9AD8\u6027\u80FD\uFF0C\u4F46\u4F60\u91CD\u65B0\u6253\u5F00\u7EC4\u4EF6\u65F6\uFF0C\u5B83\u4F1A\u7F13\u5B58\u4E0A\u4E00\u6B21\u6253\u5F00\u65F6\u7684\u72B6\u6001\u3002</p><p>\u4F8B\u5982\uFF1A\u5217\u8868\u83DC\u5355\u70B9\u51FB\u4F1A\u8DF3\u8F6C\u8BE6\u60C5\u9875\uFF0C\u5F53\u4F60\u7F13\u5B58\u65F6\u5B83\u53EF\u4EE5\u51CF\u5C11\u91CD\u590D\u8BF7\u6C42\u4FE1\u606F\u3002</p><h2 id="_2-v-if\u548Cv-show\u7684\u533A\u522B" tabindex="-1"><a class="header-anchor" href="#_2-v-if\u548Cv-show\u7684\u533A\u522B" aria-hidden="true">#</a> 2.v-if\u548Cv-show\u7684\u533A\u522B</h2><p>v-if\uFF1A\u63A7\u5236dom\u662F\u5426\u521B\u5EFA\uFF0C\u9891\u7E41\u5207\u6362\u65F6\u4E0D\u63A8\u8350\u9891\u7E41\u66F4\u65B0dom\u3002 v-show\uFF1Adom\u5143\u7D20\u4F1A\u521B\u5EFA\uFF0C\u53EA\u662F\u63A7\u5236display:none(\u4E0D\u53EF\u89C1),blok(\u663E\u793A)\u3002</p><h2 id="_2-v-if\u548Cv-for\u7684\u4F18\u5148\u7EA7" tabindex="-1"><a class="header-anchor" href="#_2-v-if\u548Cv-for\u7684\u4F18\u5148\u7EA7" aria-hidden="true">#</a> 2.v-if\u548Cv-for\u7684\u4F18\u5148\u7EA7</h2><p>v-for\u4F18\u5148\u7EA7\u6BD4v-if\u9AD8</p><h2 id="_3-ref\u662F\u4EC0\u4E48" tabindex="-1"><a class="header-anchor" href="#_3-ref\u662F\u4EC0\u4E48" aria-hidden="true">#</a> 3.ref\u662F\u4EC0\u4E48\uFF1F</h2><p>ref\u7C7B\u4F3C\u4E8E\u4E00\u4E2A\u5173\u952E\u5B57\uFF0C\u7528\u6765\u83B7\u53D6dom\u3002\uFF08\u901A\u8FC7<code>this.refs.\u5173\u952E\u5B57</code>\u6765\u83B7\u53D6dom\u5143\u7D20\uFF09</p><h2 id="_4-nexttick\u662F\u4EC0\u4E48" tabindex="-1"><a class="header-anchor" href="#_4-nexttick\u662F\u4EC0\u4E48" aria-hidden="true">#</a> 4.nextTick\u662F\u4EC0\u4E48\uFF1F</h2><p>dom\u66F4\u65B0\u540E\u7684\u56DE\u8C03\u51FD\u6570\u3002\u4E3B\u8981\u4F5C\u7528\u4E8E\u83B7\u53D6\u66F4\u65B0\u540E\u7684\u6570\u636E\uFF08\u5F02\u6B65\uFF09\u3002</p><h2 id="_5-scoped\u539F\u7406" tabindex="-1"><a class="header-anchor" href="#_5-scoped\u539F\u7406" aria-hidden="true">#</a> 5.scoped\u539F\u7406</h2><p>\u4F5C\u7528\uFF1A\u4F7F\u7528scoped\u8BA9CSS\u53EA\u4F5C\u7528\u4E8E\u5F53\u524D\u7EC4\u4EF6\u5143\u7D20\u3002</p><ul><li>\u539F\u7406\uFF1A\u7ED9HTML\u7684DOM\u8282\u70B9\u52A0\u4E00\u4E2A\u4E0D\u91CD\u590Ddata\u5C5E\u6027(\u5F62\u5982\uFF1Adata-v-2311c06a)\u6765\u8868\u793A\u4ED6\u7684\u552F\u4E00\u6027\u3002</li><li>\u5728\u6BCF\u53E5css\u9009\u62E9\u5668\u7684\u672B\u5C3E\uFF08\u7F16\u8BD1\u540E\u7684\u751F\u6210\u7684css\u8BED\u53E5\uFF09\u52A0\u4E00\u4E2A\u5F53\u524D\u7EC4\u4EF6\u7684data\u5C5E\u6027\u9009\u62E9\u5668\u7684\u54C8\u5E0C\u7279\u5F81\u503C\uFF08\u5982[data-v-2311c06a]\uFF09\u6765\u79C1\u6709\u5316\u6837\u5F0F\u3002</li></ul><h2 id="_6-vue\u4E2D\u5982\u4F55\u505A\u6837\u5F0F\u7A7F\u900F" tabindex="-1"><a class="header-anchor" href="#_6-vue\u4E2D\u5982\u4F55\u505A\u6837\u5F0F\u7A7F\u900F" aria-hidden="true">#</a> 6.Vue\u4E2D\u5982\u4F55\u505A\u6837\u5F0F\u7A7F\u900F</h2><p>\u5F15\u5165\u5916\u90E8\u7EC4\u4EF6\u800C\u4E14\u4F7F\u7528\u4E86scoped\u65F6\u9700\u8981\u66F4\u6539\u6837\u5F0F\u65F6\u4F7F\u7528\u3002</p><p>1.scss\u6837\u5F0F\u7A7F\u900F</p><div class="language-css ext-css line-numbers-mode"><pre class="language-css"><code>\u7236\u5143\u7D20 /deep/\u5B50\u5143\u7D20
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>2.stylus\u6837\u5F0F\u7A7F\u900F</p><div class="language-css ext-css line-numbers-mode"><pre class="language-css"><code>\u7236\u5143\u7D20 /deep/\u5B50\u5143\u7D20
+<span class="token comment">/* stylus\u4E00\u822C\u7528\u4E0B\u9762 */</span>
+\u7236\u5143\u7D20 &gt;&gt;&gt; \u5B50\u5143\u7D20
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h2 id="_7-\u7EC4\u4EF6\u4E4B\u95F4\u7684\u901A\u4FE1" tabindex="-1"><a class="header-anchor" href="#_7-\u7EC4\u4EF6\u4E4B\u95F4\u7684\u901A\u4FE1" aria-hidden="true">#</a> 7.\u7EC4\u4EF6\u4E4B\u95F4\u7684\u901A\u4FE1</h2><h4 id="_7-1\u7236\u4F20\u5B50" tabindex="-1"><a class="header-anchor" href="#_7-1\u7236\u4F20\u5B50" aria-hidden="true">#</a> 7.1\u7236\u4F20\u5B50</h4><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code>
+<span class="token comment">// \u7236\u7EC4\u4EF6</span>
+<span class="token operator">&lt;</span>template<span class="token operator">&gt;</span>
+<span class="token operator">&lt;</span>\u5B50\u7EC4\u4EF6 <span class="token operator">:</span>msg<span class="token operator">=</span><span class="token string">&#39;msg&#39;</span><span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>\u5B50\u7EC4\u4EF6<span class="token operator">&gt;</span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>template<span class="token operator">&gt;</span>
+
+<span class="token comment">//\u5B50\u7EC4\u4EF6</span>
+props<span class="token operator">:</span><span class="token punctuation">[</span><span class="token string">&#39;msg&#39;</span><span class="token punctuation">]</span>
+<span class="token comment">//\u6216\u8005</span>
+props<span class="token operator">:</span><span class="token punctuation">{</span>
+  msg<span class="token operator">:</span><span class="token function">\u6570\u636E\u7C7B\u578B</span><span class="token punctuation">(</span>\u5982\uFF1AString<span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><h4 id="_7-2\u5B50\u4F20\u7236" tabindex="-1"><a class="header-anchor" href="#_7-2\u5B50\u4F20\u7236" aria-hidden="true">#</a> 7.2\u5B50\u4F20\u7236</h4><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">// \u5B50\u7EC4\u4EF6</span>
+<span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">$emit</span><span class="token punctuation">(</span><span class="token string">&#39;\u5728\u7236\u7EC4\u4EF6\u7684\u4E8B\u4EF6\u540D\u79F0&#39;</span><span class="token punctuation">,</span><span class="token string">&#39;\u8981\u4F20\u7ED9\u7236\u7EC4\u4EF6\u7684\u6570\u636E&#39;</span><span class="token punctuation">)</span>
+
+<span class="token comment">// \u7236\u7EC4\u4EF6</span>
+  <span class="token operator">&lt;</span>\u5B50\u7EC4\u4EF6 @\u5728\u7236\u7EC4\u4EF6\u7684\u4E8B\u4EF6\u540D\u79F0<span class="token operator">=</span><span class="token string">&#39;getVal&#39;</span><span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>\u5B50\u7EC4\u4EF6<span class="token operator">&gt;</span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>template<span class="token operator">&gt;</span>
+<span class="token operator">...</span><span class="token operator">...</span>
+<span class="token function">metnods</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token function">getVal</span><span class="token punctuation">(</span><span class="token parameter">msg</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+      cosolo<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&#39;\u4F20\u8FC7\u6765\u7684\u503C:&#39;</span><span class="token operator">+</span>msg<span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><h4 id="_7-2\u5144\u5F1F\u7EC4\u4EF6\u4F20\u503C" tabindex="-1"><a class="header-anchor" href="#_7-2\u5144\u5F1F\u7EC4\u4EF6\u4F20\u503C" aria-hidden="true">#</a> 7.2\u5144\u5F1F\u7EC4\u4EF6\u4F20\u503C</h4><ol><li>\u4E2D\u8F6C\u7AD9bus.js \u6A21\u5757</li></ol><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">// bus.js\u5BFC\u5165Vue\u6A21\u5757\uFF0C\u5E76\u5BFC\u51FA\u4E00\u4E2AVue\u5B9E\u4F8B\u5BF9\u8C61</span>
+<span class="token keyword">import</span> Vue <span class="token keyword">from</span> <span class="token string">&#39;vue&#39;</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">new</span> <span class="token class-name">Vue</span><span class="token punctuation">(</span><span class="token punctuation">)</span> 
+
+<span class="token comment">// \u5728\u5404\u4E2A\u5144\u5F1F\u7EC4\u4EF6\u4E2D\uFF0C\u5BFC\u5165 bus.js \u6A21\u5757</span>
+<span class="token keyword">import</span> bus <span class="token keyword">from</span> <span class="token string">&#39;@/bus.js&#39;</span>
+
+
+<span class="token comment">// \u4F7F\u7528 bus.$emit(\u2018\u4E8B\u4EF6\u540D\u79F0\u2019, \u8981\u53D1\u9001\u7684\u6570\u636E) \u6765\u5411\u5916\u53D1\u9001\u53C2\u6570</span>
+      bus<span class="token punctuation">.</span><span class="token function">$emit</span><span class="token punctuation">(</span><span class="token string">&#39;xxx&#39;</span><span class="token punctuation">,</span> <span class="token string">&#39;\u4FDD\u62A4\u8D39&#39;</span><span class="token punctuation">)</span>
+
+<span class="token comment">// \u63A5\u53D7\u4E8B\u4EF6</span>
+ bus<span class="token punctuation">.</span><span class="token function">$on</span><span class="token punctuation">(</span><span class="token string">&#39;xxx&#39;</span><span class="token punctuation">,</span> <span class="token parameter">msg</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+      <span class="token comment">// console.log(msg) //\u4FDD\u62A4\u8D39</span>
+      <span class="token comment">// \u628A\u6570\u636E\u7ED9dt\u63A5\u6536</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span>dt <span class="token operator">=</span> msg
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br></div></div><h2 id="_8-computed\u3001methods\u3001watch" tabindex="-1"><a class="header-anchor" href="#_8-computed\u3001methods\u3001watch" aria-hidden="true">#</a> 8.computed\u3001methods\u3001watch</h2><ol><li><p>computed:\u6027\u80FD\u6BD4methods\u597D\uFF0C\u636E\u4F9D\u8D56\u5173\u7CFB\u8FDB\u884C\u7F13\u5B58\u7684\u8BA1\u7B97\uFF0C\u5E76\u4E14\u53EA\u5728\u9700\u8981\u7684\u65F6\u5019\u8FDB\u884C\u66F4\u65B0,\u4E00\u4E2A\u6570\u636E\u53D7\u591A\u4E2A\u6570\u636E\u5F71\u54CD ---- \u8D2D\u7269\u8F66\u7ED3\u7B97 \u53D7\u5230\u5355\u4EF7 \u6570\u91CF \u8FD8\u6709\u662F\u5426\u88AB\u9009\u4E2D\u7684\u5F71\u54CD\u3002</p></li><li><p>methods:\u6CA1\u6709\u7F13\u5B58\uFF0Cmethods \u91CC\u9762\u662F\u7528\u6765\u5B9A\u4E49\u51FD\u6570\u7684\uFF0C\u5B83\u9700\u8981\u624B\u52A8\u8C03\u7528\u624D\u80FD\u6267\u884C\u3002</p></li><li><p>watch:watch\u4E2D\u7684\u51FD\u6570\u6709\u4E24\u4E2A\u53C2\u6570\uFF0C\u524D\u8005\u662FnewVal\uFF0C\u540E\u8005\u662FoldVal\u3002watch\u4E2D\u7684\u51FD\u6570\u662F\u4E0D\u9700\u8981\u8C03\u7528\u7684\u3002watch\u53EA\u4F1A\u76D1\u542C\u6570\u636E\u7684\u503C\u662F\u5426\u53D1\u751F\u6539\u53D8\uFF0C\u800C\u4E0D\u4F1A\u53BB\u76D1\u542C\u6570\u636E\u7684\u5730\u5740\u662F\u5426\u53D1\u751F\u6539\u53D8\u3002\u4E5F\u5C31\u662F\u8BF4\uFF0Cwatch\u60F3\u8981\u76D1\u542C\u5F15\u7528\u7C7B\u578B\u6570\u636E\u7684\u53D8\u5316\uFF0C\u9700\u8981\u8FDB\u884C\u6DF1\u5EA6\u76D1\u542C,\u4E00\u4E2A\u6570\u636E\u5F71\u54CD\u591A\u4E2A\u6570\u636E --- \u5E94\u7528\u573A\u666F\uFF1A\u641C\u7D22\u6846\u3001\u8868\u5355\u8F93\u5165\u3001\u5F02\u6B65\u66F4\u65B0\u3001\u52A8\u753B\u3002</p></li></ol><p>\u66F4\u591A\uFF1Acomputed\u80FD\u505A\u7684\uFF0Cwatch\u90FD\u80FD\u5B8C\u6210\uFF0C\u53CD\u4E4B\u4E0D\u6210\u7ACB\uFF0Cwatch\u53EF\u5904\u7406\u5F02\u6B65\u3002</p><h2 id="_9-props\u548Cdata\u4F18\u5148\u7EA7\u8C01\u9AD8" tabindex="-1"><a class="header-anchor" href="#_9-props\u548Cdata\u4F18\u5148\u7EA7\u8C01\u9AD8" aria-hidden="true">#</a> 9.props\u548Cdata\u4F18\u5148\u7EA7\u8C01\u9AD8</h2><p>\u9ED8\u8BA4\u4F18\u5148\u7EA7\uFF1A</p><p>props &gt; methods &gt; data &gt; computed &gt; watch</p><h2 id="_10-vuex" tabindex="-1"><a class="header-anchor" href="#_10-vuex" aria-hidden="true">#</a> 10.VueX</h2><h4 id="_10-1-vuex\u662F\u4EC0\u4E48-\u6709\u54EA\u4E9B\u5C5E\u6027" tabindex="-1"><a class="header-anchor" href="#_10-1-vuex\u662F\u4EC0\u4E48-\u6709\u54EA\u4E9B\u5C5E\u6027" aria-hidden="true">#</a> 10.1 VueX\u662F\u4EC0\u4E48\uFF0C\u6709\u54EA\u4E9B\u5C5E\u6027\uFF1F</h4><p>\u5168\u5C40\u72B6\u6001\u7BA1\u7406\u6A21\u5F0F\uFF1B</p><ol><li>state\uFF1A\u7C7B\u4F3C\u4E8E\u7EC4\u4EF6\u7684data\uFF0C\u5B58\u653E\u6570\u636E</li><li>getters\uFF1A\u7C7B\u4F3C\u4E8E\u7EC4\u4EF6\u7684computer\u8BA1\u7B97\u5C5E\u6027\uFF0C\u6709\u7F13\u5B58</li><li>mutations\uFF1A\u7C7B\u4F3C\u4E8E\u7EC4\u4EF6\u4E2D\u7684methods\uFF0C\u5176\u662F\u540C\u6B65\u4E8B\u52A1\u3002</li><li>actions\uFF1A\u63D0\u4EA4\u66F4\u6539\u7ED9mutations\uFF0C\u4E00\u822C\u7528\u4E8E\u5F02\u6B65\u4E8B\u52A1\u3002</li><li>modules\uFF1A\u6A21\u5757\u5316\u62C6\u5206\uFF0C\u53EF\u4EE5\u5B9E\u73B0\u81EA\u5B9A\u4E49\u522B\u540D\u5BFC\u51FA\u6A21\u5757\uFF0C\u66F4\u597D\u7BA1\u7406\u3002</li></ol><h4 id="_10-2-vuex\u662F\u5355\u5411\u6570\u636E\u6D41" tabindex="-1"><a class="header-anchor" href="#_10-2-vuex\u662F\u5355\u5411\u6570\u636E\u6D41" aria-hidden="true">#</a> 10.2 VueX\u662F\u5355\u5411\u6570\u636E\u6D41</h4><p>\u4E0D\u80FD\u4E4B\u95F4\u4FEE\u6539VueX\u7684\u503C</p><h4 id="_10-3-vuex\u4E0D\u662F\u6301\u4E45\u5316\u5B58\u50A8" tabindex="-1"><a class="header-anchor" href="#_10-3-vuex\u4E0D\u662F\u6301\u4E45\u5316\u5B58\u50A8" aria-hidden="true">#</a> 10.3 VueX\u4E0D\u662F\u6301\u4E45\u5316\u5B58\u50A8</h4><p>\u5237\u65B0\u6570\u636E\u4E22\u5931\uFF0C\u91CD\u8981\u6570\u636E\u53EF\u4EE5\u5B58\u5728localStorage\u4FDD\u5B58</p><h2 id="_11-vue\u8BBE\u7F6E\u4EE3\u7406-vue-config-js" tabindex="-1"><a class="header-anchor" href="#_11-vue\u8BBE\u7F6E\u4EE3\u7406-vue-config-js" aria-hidden="true">#</a> 11. Vue\u8BBE\u7F6E\u4EE3\u7406\uFF08vue.config.js\uFF09</h2><h2 id="_12-vue\u8DEF\u7531" tabindex="-1"><a class="header-anchor" href="#_12-vue\u8DEF\u7531" aria-hidden="true">#</a> 12. Vue\u8DEF\u7531</h2><h4 id="_12-1-\u8DEF\u7531\u6A21\u5F0F" tabindex="-1"><a class="header-anchor" href="#_12-1-\u8DEF\u7531\u6A21\u5F0F" aria-hidden="true">#</a> 12.1. \u8DEF\u7531\u6A21\u5F0F</h4><ul><li>history:\u4E0D\u660E\u5730\u5740\u4F1A\u53D1\u9001\u8BF7\u6C42\uFF0C\u4F7F\u7528\u5176\u4F1A\u6709\u7A7A\u767D\u9875</li><li>hash\uFF08\u9ED8\u8BA4\uFF09:\u4E0D\u660E\u5730\u5740\u4E0D\u4F1A\u53D1\u9001\u8BF7\u6C42</li></ul><h4 id="_12-2-\u8DEF\u7531\u4F20\u503C" tabindex="-1"><a class="header-anchor" href="#_12-2-\u8DEF\u7531\u4F20\u503C" aria-hidden="true">#</a> 12.2. \u8DEF\u7531\u4F20\u503C</h4><h4 id="_12-3-\u8DEF\u7531\u5B88\u536B" tabindex="-1"><a class="header-anchor" href="#_12-3-\u8DEF\u7531\u5B88\u536B" aria-hidden="true">#</a> 12.3. \u8DEF\u7531\u5B88\u536B</h4><ol><li>\u5168\u5C40\u8DEF\u7531\u5B88\u536B\uFF1A</li></ol><ul><li>\u524D\u7F6E\u5B88\u536B\uFF1AbeforeEach((to, from, next))</li><li>beforeResolve</li><li>\u540E\u7F6E\u94A9\u5B50\uFF1AafterEach((to, from, next))</li></ul><ol start="2"><li>\u5BFC\u822A\u8DEF\u7531\u5B88\u536B\uFF1A</li><li>\u7EC4\u4EF6\u5185\u8DEF\u7531\u5B88\u536B\uFF1A</li></ol><h2 id="_13-\u4ECB\u7ECD\u4E00\u4E0Bspa\u4EE5\u53CA\u5176\u4F18\u7F3A\u70B9\u3002" tabindex="-1"><a class="header-anchor" href="#_13-\u4ECB\u7ECD\u4E00\u4E0Bspa\u4EE5\u53CA\u5176\u4F18\u7F3A\u70B9\u3002" aria-hidden="true">#</a> 13. \u4ECB\u7ECD\u4E00\u4E0BSPA\u4EE5\u53CA\u5176\u4F18\u7F3A\u70B9\u3002</h2><p>SPA\u662F\u7684\u9875\u9762\u5E94\u7528\uFF1B \u7F3A\u70B9\uFF1A</p><ol><li>SEO\uFF08\u591A\u9875\u9762\uFF09\u4F18\u5316\u4E0D\u597D</li><li>\u6027\u80FD\u4E0D\u662F\u7279\u522B\u597D</li></ol><h2 id="_14-v-model\u539F\u7406" tabindex="-1"><a class="header-anchor" href="#_14-v-model\u539F\u7406" aria-hidden="true">#</a> 14. v-model\u539F\u7406</h2><p>\u901A\u8FC7Object.defineProperty\u52AB\u6301\u6570\u636E\u53D1\u751F\u7684\u6539\u53D8\uFF0C\u5728set\u4E2D\u8D4B\u503C\u7684\uFF0C\u89E6\u53D1update\u65B9\u6CD5\u8FDB\u884C\u66F4\u65B0\u8282\u70B9\u5185\u5BB9\uFF0C\u4ECE\u800C\u5B9E\u73B0\u53CC\u5411\u7ED1\u5B9A\u3002</p><p>\u8FD9\u91CC\u5B66\u4E00\u4E0B<code>Object.defineProperty()</code></p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">let</span> person <span class="token operator">=</span> <span class="token punctuation">{</span>
+  name<span class="token operator">:</span><span class="token string">&#39;\u5F20\u4E09&#39;</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
+
+Object<span class="token punctuation">.</span><span class="token function">defineProperty</span><span class="token punctuation">(</span>person<span class="token punctuation">,</span><span class="token string">&#39;age&#39;</span><span class="token punctuation">,</span><span class="token punctuation">{</span>
+  value<span class="token operator">:</span><span class="token number">18</span><span class="token punctuation">;</span>
+  <span class="token comment">// \u8FD9\u5C31\u662F\u4F7F\u7528\u8FD9\u4E2A\u65B9\u6CD5\u7684\u539F\u56E0\uFF0C\u65B9\u4FBF\u63A7\u5236\u5143\u7D20</span>
+  enumerable<span class="token operator">:</span><span class="token boolean">true</span><span class="token punctuation">,</span><span class="token comment">//\u63A7\u5236\u5C5E\u6027\u662F\u5426\u53EF\u4EE5\u679A\u4E3E</span>
+  writable<span class="token operator">:</span><span class="token boolean">true</span><span class="token punctuation">,</span><span class="token comment">//\u63A7\u5236\u5C5E\u6027\u662F\u5426\u53EF\u4EE5\u88AB\u4FEE\u6539</span>
+  configurable<span class="token operator">:</span><span class="token boolean">true</span><span class="token punctuation">;</span><span class="token comment">//\u63A7\u5236\u5C5E\u6027\u662F\u5426\u53EF\u4EE5\u88AB\u5220\u9664</span>
+
+  <span class="token comment">// \u8FD9\u4E2A\u5C31\u662F\u539F\u7406\uFF0C\u503C\u7ED1\u5B9A,\u8BBF\u95EE\u5668,\u7B80\u79F0\uFF08getter\uFF09</span>
+  <span class="token function">get</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword">return</span> number
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+  <span class="token comment">// \u5F53\u6709\u4EBA\u4FEE\u6539\u503C\uFF0C\u503C\u4FEE\u6539\u7ED1\u5B9A.</span>
+  <span class="token function">set</span><span class="token punctuation">(</span>value<span class="token punctuation">)</span><span class="token punctuation">{</span>
+    number <span class="token operator">=</span> value<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br></div></div><p>\u8FD9\u91CC\u5B66\u4E60\u4E00\u4E0B\u6570\u636E\u4EE3\u7406</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">// \u901A\u8FC7new Vue\u7684\u5B9E\u4F8B\u4EE3\u7406data\u4E2D\u5C5E\u6027\u7684\u64CD\u4F5C</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><h2 id="_15-data\u52AB\u6301" tabindex="-1"><a class="header-anchor" href="#_15-data\u52AB\u6301" aria-hidden="true">#</a> 15. data\u52AB\u6301</h2><ol><li>\u7ED9vue\u5B9E\u4F8B\u5BF9\u8C61\u8D4B\u503C\uFF0C\u6765\u81EAdata</li><li>data\u4E2D\u7684\u5C5E\u6027\u503C\u4E0E\u5B9E\u4F8B\u5BF9\u8C61\u4FDD\u6301\u53CC\u5411\uFF08\u6570\u636E\u52AB\u6301\uFF09</li></ol><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token function">proxyData</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+  <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">let</span> key <span class="token keyword">in</span> <span class="token keyword">this</span><span class="token punctuation">.</span>$data<span class="token punctuation">)</span><span class="token punctuation">{</span>
+    Object<span class="token punctuation">.</span><span class="token function">defineProperty</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">,</span>key<span class="token punctuation">,</span><span class="token punctuation">{</span>
+      <span class="token function">get</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span>$data<span class="token punctuation">[</span>key<span class="token punctuation">]</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token function">set</span><span class="token punctuation">(</span>val<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>$data<span class="token punctuation">[</span>key<span class="token punctuation">]</span> <span class="token operator">=</span> val<span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><h2 id="_16-diff\u7B97\u6CD5" tabindex="-1"><a class="header-anchor" href="#_16-diff\u7B97\u6CD5" aria-hidden="true">#</a> 16. diff\u7B97\u6CD5</h2><p>\u865A\u62DFdom\uFF08\u628Adom\u6570\u636E\u5316\uFF0C\u4FBF\u4E8E\u64CD\u4F5C\uFF09</p><p>diff\u7B97\u6CD5\u7684\u672C\u8D28\u662F\u627E\u51FA\u4E24\u4E2A\u5BF9\u8C61\u4E4B\u95F4\u7684\u5DEE\u5F02\uFF0C\u76EE\u7684\u662F\u5C3D\u53EF\u80FD\u590D\u7528\u8282\u70B9\u3002\u6B64\u5904\u8BF4\u5230\u7684\u5BF9\u8C61\u5176\u5B9E\u5C31\u5BF9\u5E94 vue\u4E2D\u7684 virtual dom,\u5373\u4F7F\u7528 js \u5BF9\u8C61\u6765\u8868\u793A\u9875\u9762\u4E2D\u7684 dom \u7ED3\u6784\u3002</p><p>\u7279\u70B9:</p><ul><li>\u6BD4\u8F83\u53EA\u4F1A\u5728\u540C\u5C42\u7EA7\u8FDB\u884C, \u4E0D\u4F1A\u8DE8\u5C42\u7EA7\u6BD4\u8F83</li><li>\u5728diff\u6BD4\u8F83\u7684\u8FC7\u7A0B\u4E2D\uFF0C\u5FAA\u73AF\u4ECE\u4E24\u8FB9\u5411\u4E2D\u95F4\u6BD4\u8F83</li></ul><p>\u6BD4\u8F83\u65B9\u5F0F:</p><ul><li>diff\u6574\u4F53\u7B56\u7565\u4E3A\uFF1A\u6DF1\u5EA6\u4F18\u5148\uFF0C\u540C\u5C42\u6BD4\u8F83</li></ul><!--]-->`);
+}
+const _sfc_setup$P = _sfc_main$P.setup;
+_sfc_main$P.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/interview/VUEinterview.html.vue");
+  return _sfc_setup$P ? _sfc_setup$P(props, ctx) : void 0;
+};
+var VUEinterview_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$P, [["ssrRender", _sfc_ssrRender$B]]);
+var VUEinterview_html$2 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": VUEinterview_html$1
+});
+const _sfc_main$O = {};
+function _sfc_ssrRender$A(_ctx, _push, _parent, _attrs) {
+  _push(`<!--[--><h2 id="\u5154\u5B50\u4E0E\u661F\u661F" tabindex="-1"><a class="header-anchor" href="#\u5154\u5B50\u4E0E\u661F\u661F" aria-hidden="true">#</a> \u5154\u5B50\u4E0E\u661F\u661F</h2><p>\u5927\u5154\u5B50\u7279\u522B\u559C\u6B22\u591C\u665A\uFF0C\u56E0\u4E3A\u53EF\u4EE5\u4E00\u4E2A\u4EBA\u770B\u661F\u661F\uFF0C\u8FD8\u6CA1\u6709\u4EBA\u6253\u6270\u4ED6\u3002\u4ED6\u6BCF\u5929\u665A\u4E0A\u90FD\u5BF9\u7740\u661F\u661F\u8BF4\u5FC3\u91CC\u8BDD\uFF0C\u5C0F\u661F\u661F\u4E5F\u4F1A\u548C\u4ED6\u8BF4\u6084\u6084\u8BDD\u3002</p><p>\u6709\u4E00\u5929\u5C0F\u661F\u661F\u544A\u8BC9\u5927\u5154\u5B50\uFF1A\u7B49\u4F1A\u4F1A\u6709\u6D41\u661F\u96E8\u54E6\uFF0C\u4F60\u53EF\u4EE5\u5BF9\u7740\u5B83\u4EEC\u8BB8\u4E2A\u613F\uFF0C\u68A6\u60F3\u4E00\u5B9A\u4F1A\u5B9E\u73B0\u7684\uFF01\u5927\u5154\u5B50\u5F00\u5FC3\u7684\u50CF\u4E2A\u5B9D\u5B9D\uFF0C\u4ED6\u6709\u65E0\u6570\u4E2A\u613F\u671B\u60F3\u8981\u5B9E\u73B0\uFF0C\u4E8E\u662F\u5462\uFF0C\u4ED6\u5C31\u5F00\u59CB\u4E00\u6761\u6761\u5217\u51FA\u4ED6\u7684\u613F\u671B\u7B49\u5F85\u6D41\u661F\u96E8\u7684\u5230\u6765.....</p><p>\u5927\u5154\u5B50\u5C31\u5750\u5728\u90A3\u91CC\u7B49\u554A\u7B49\uFF0C\u6708\u4EAE\u90FD\u5FEB\u5230\u5934\u9876\u4E86\uFF0C\u5927\u767D\u5154\u4E5F\u5F00\u59CB\u72AF\u8FF7\u7CCA\u3002\u549A \u5927\u767D\u5154\u56F0\u7684\u4E00\u5934\u624E\u5230\u4E86\u8349\u5730\u91CC\u3002\u661F\u661F\u5728\u4E00\u65C1\u5077\u5077\u7684\u7B11\uFF0C\u5C31\u8FD9\u8FD9\u4E2A\u65F6\u5019\u6D41\u661F\u96E8\u6765\u4E86\uFF0C\u5C0F\u661F\u661F\u8D76\u5FEB\u53EB\u5927\u5154\u5B50\u9192\u6765\uFF0C\u600E\u4E48\u53EB\u5C31\u662F\u53EB\u4E0D\u9192\uFF0C\u8FD9\u6025\u6B7B\u5C0F\u661F\u661F\u4E86\uFF0C\u4F46\u662F\u4E5F\u6CA1\u6709\u529E\u6CD5\uFF0C\u5982\u679C\u5C0F\u661F\u661F\u6254\u4E00\u5C0F\u5757\u77F3\u5934\u7838\u5979\u7684\u8BDD\u4ED6\u5C31\u53D8\u6210\u5154\u5B50\u997C\u4E86.....</p><p>\u5C0F\u661F\u661F\u5C31\u4E00\u76F4\u53EB\u5927\u5154\u5B50\uFF0C\u4E00\u76F4\u53EB\u554A\u53EB\uFF0C\u5927\u5154\u5B50\u54D7\u7684\u4E00\u4E0B\u9192\u6765\u4E86\uFF0C\u4ED6\u4EE5\u4E3A\u81EA\u5DF1\u521A\u7761\u7740\uFF0C\u5176\u5B9E\u6D41\u661F\u96E8\u5DF2\u7ECF\u8FC7\u53BB\u4E00\u5927\u534A\u4E86\uFF01</p><p>\u5927\u767D\u5154\u614C\u91CC\u614C\u5F20\u7684\u95ED\u4E0A\u773C\u775B\u8BF4\u51FA\u4ED6\u7684\u613F\u671B\uFF0C\u6211\u60F3\u5B66\u4F1A\u5F39\u94A2\u7434\uFF0C\u6211\u60F3\u5B66\u4F1A\u505A\u597D\u5403\u7684\uFF0C\u6211\u60F3\u62E5\u6709\u6700\u597D\u5403\u7684\u80E1\u841D\u535C\uFF0C\u6211\u60F3\u53D8\u6210\u5154\u5B50\u754C\u7B2C\u4E00\u9996\u5BCC\uFF0C\u6211\u60F3\u62E5\u6709\u4E00\u4E2A\u5927\u679C\u56ED\u81EA\u5DF1\u53EF\u4EE5\u968F\u65F6\u5403\u5230\u7684\u90A3\u79CD\uFF01\u6211\u60F3.......</p><p>\u5C31\u8FD9\u6837\uFF0C\u5927\u5154\u5B50\u5C31\u50CF\u673A\u5173\u67AA\u4E00\u6837\uFF0C\u6709\u8BF4\u4E0D\u5B8C\u7684\u613F\u671B\u3002\u6709\u4E00\u9897\u5C0F\u6D41\u661F\u98DE\u8FC7\uFF0C\u544A\u8BC9\u5927\u5154\u5B50\uFF0C\u4F60\u8BF4\u7684\u90A3\u4E9B\u592A\u7269\u8D28\u4E86\uFF0C\u90A3\u4E9B\u8981\u9760\u4F60\u81EA\u5DF1\u53BB\u52AA\u529B\u624D\u53EF\u5F97\u5230\uFF0C\u4F60\u8981\u81EA\u5DF1\u5F88\u8BA4\u771F\u7684\u60F3\u4E00\u4E2A\u5FC3\u613F\uFF0C\u6211\u4F1A\u5C3D\u529B\u5E2E\u4F60\u5B9E\u73B0\u7684\uFF01\u5927\u5154\u5B50\u95ED\u4E0A\u773C\u775B\uFF0C\u53CC\u624B\u5408\u5341\u3002\u201C\u90A3\u5C31\u8BF7\u4F60\u544A\u8BC9\u5979\uFF0C\u6211\u60F3\u5979\u4E86\u201D\u5C0F\u6D41\u661F\u7B11\u4E86\u7B11\u4FDD\u8BC1\u5B8C\u6210\u4EFB\u52A1\u54E6\uFF5E</p><p>\u90A3\u5929\u7684\u665A\u4E0A\uFF0C\u8FDC\u5728\u4ED6\u4E61\u7684\u5C0F\u767D\u5154\u5728\u68A6\u4E61\u91CC\u89C1\u5230\u4E86\u5979\u7231\u7684\u5927\u5154\u5B50\uFF5E</p><h2 id="\u5929\u4E0A\u7684\u661F\u661F" tabindex="-1"><a class="header-anchor" href="#\u5929\u4E0A\u7684\u661F\u661F" aria-hidden="true">#</a> \u5929\u4E0A\u7684\u661F\u661F</h2><p>\u5154\u5154\u8981\u51FA\u4E00\u8D9F\u5F88\u4E45\u5F88\u4E45\u7684\u8FDC\u95E8\u4E86\u3002</p><p>\u732A\u732A\u81EA\u4ECE\u542C\u5230\u8FD9\u4E2A\u6D88\u606F\u5C31\u975E\u5E38\u96BE\u8FC7\uFF0C\u4ED6\u820D\u4E0D\u5F97\u5154\u5154\u79BB\u5F00\u3002\u54EA\u6015\u5C31\u4E00\u5929\u4E24\u5929\u90FD\u820D\u4E0D\u5F97\uFF0C\u66F4\u4F55\u51B5\uFF0C\u8FD9\u6B21\u7684\u5206\u5F00\u8FDC\u8FDC\u8D85\u8FC7\u8FD9\u4E2A\u6570\u76EE\u3002</p><p>\u4ED6\u867D\u7136\u8FD8\u662F\u6BCF\u5929\u90FD\u5728\u7ED9\u5154\u5154\u505A\u559C\u6B22\u5403\u7684\u4E1C\u897F\uFF0C\u8FD8\u662F\u5728\u54C4\u5154\u5154\u5F00\u5FC3\u3002\u53EF\u4ED6\u7684\u5FE7\u6101\u5199\u5728\u4E86\u5C0F\u5C0F\u7684\u773C\u775B\u91CC\uFF0C\u4ED6\u820D\u4E0D\u5F97\u5154\u5154\u8D70\u3002</p><p>\u53EF\u662F\u5154\u5154\u5DF2\u7ECF\u51B3\u5B9A\u4E86\u8981\u51FA\u53BB\uFF0C\u5C0F\u732A\u732A\u652F\u6301\u5154\u5154\u7684\u4E00\u5207\u505A\u6CD5\u3002\u732A\u732A\u6BCF\u5929\u90FD\u76D8\u7B97\u7740\u65E5\u5B50\uFF0C\u4ED6\u544A\u8BC9\u81EA\u5DF1\uFF0C\u53EA\u8981\u6709\u7231\u5728\uFF0C\u9694\u5C71\u8DDD\u6D77\uFF0C\u65E5\u5B50\u4E5F\u90FD\u4E0D\u4F1A\u592A\u96BE\u8FC7\u7684\u3002</p><p>\u54EA\u6015\u5C0F\u732A\u732A\u65E0\u6BD4\u73CD\u60DC\u6D41\u901D\u7684\u6BCF\u5206\u949F\uFF0C\u8DDD\u79BB\u5C0F\u5154\u5154\u8D70\u7684\u65F6\u95F4\u4E5F\u8D8A\u6765\u8D8A\u8FD1\u4E86\u3002\u5C0F\u732A\u732A\u5F00\u59CB\u7761\u4E0D\u7740\u89C9\uFF0C\u5403\u4E0D\u4E0B\u996D\u3002\u4ED6\u53EA\u60F3\u65E0\u65F6\u65E0\u523B\u7684\u76EF\u7740\u5154\u5154\u3002\u54EA\u6015\u8EBA\u5728\u5E8A\u4E0A\uFF0C\u4ED6\u4E5F\u4F1A\u6402\u7740\u5154\u5B50\uFF0C\u501F\u7740\u6708\u5149\uFF0C\u770B\u7740\u5154\u5154\u4FA7\u8EBA\u5728\u5E8A\u4E0A\u7684\u5A07\u4FCF\u6A21\u6837\u3002\u732A\u732A\u600E\u4E48\u53EF\u80FD\u820D\u5F97\u5154\u5154\u79BB\u5F00\u5462\u3002</p><p>\u5154\u5154\u4E5F\u53D1\u73B0\u4E86\u732A\u732A\u7684\u4E0D\u5BF9\u52B2\u3002\u4ED6\u867D\u7136\u6BCF\u5929\u90FD\u8FD8\u5728\u5C06\u989C\u6B22\u7B11\uFF0C\u53EF\u662F\u5154\u5154\u5374\u770B\u4E0D\u89C1\u4ED6\u5403\u996D\uFF0C\u53EA\u80FD\u770B\u89C1\u4ED6\u8D8A\u6765\u8D8A\u6DF1\u9083\u7684\u9ED1\u773C\u5708\uFF0C\u5154\u5154\u5F88\u5FC3\u75BC\u3002</p><p>\u201C\u732A\uFF0C\u4F60\u522B\u6015\u554A\uFF0C\u6211\u4F1A\u4E00\u76F4\u559C\u6B22\u4F60\u7684\u3002\u201D\u5C0F\u5154\u5154\u770B\u7740\u7ED9\u81EA\u5DF1\u7AEF\u83DC\u7684\u5C0F\u732A\uFF0C\u8BF4\u3002</p><p>\u201C\u50BB\u74DC\uFF0C\u6211\u4E0D\u662F\u6015\u4F60\u4E0D\u559C\u6B22\u6211\u4E86\u3002\u6211\u5BB3\u6015\u6211\u4E0D\u80FD\u4FDD\u62A4\u4F60\uFF0C\u5BB3\u6015\u4E0D\u80FD\u966A\u7740\u4F60\u3002\u6211\u5BB3\u6015\u6211\u60F3\u62B1\u4F60\u7684\u65F6\u5019\uFF0C\u8EAB\u8FB9\u6CA1\u6709\u4F60\uFF1B\u6211\u66F4\u5BB3\u6015\uFF0C\u4F60\u8EAB\u8FB9\u6709\u5F88\u591A\u4E2A\u6211\u3002\u201D\u732A\u732A\u62B1\u7740\u5C0F\u5154\u5B50\uFF0C\u7528\u529B\u628A\u5979\u6402\u5728\u6000\u91CC\u3002</p><p>\u201C\u522B\u778E\u8BF4\uFF01\u50BB\u732A\uFF0C\u4F60\u62AC\u5934\u770B\u661F\u661F\uFF0C\u5C31\u5934\u4E0A\u7684\u6700\u4EAE\u7684\u90A3\u4E00\u9897\u3002\u65E0\u8BBA\u6211\u4EEC\u76F8\u8DDD\u591A\u8FDC\uFF0C\u53EF\u662F\uFF0C\u5728\u5B83\u7684\u773C\u91CC\uFF0C\u6211\u4EEC\u90FD\u662F\u5728\u4E00\u8D77\u7684\u3002\u201D</p><p>\u201C\u732A\u732A\uFF0C\u6CA1\u6709\u51E0\u5929\u6211\u5C31\u8981\u8D70\u5566\uFF0C\u6211\u4E0D\u5E0C\u671B\u4F60\u6BCF\u5929\u90FD\u96BE\u8FC7\u3002\u65E2\u7136\u90FD\u662F\u65E2\u5B9A\u7684\u4E8B\u5B9E\uFF0C\u90A3\u4E3A\u4EC0\u4E48\uFF0C\u6211\u4EEC\u4E0D\u628A\u73B0\u5728\u4E24\u4E2A\u4EBA\u5F85\u5728\u4E00\u8D77\u7684\u65F6\u95F4\u8FC7\u7684\u66F4\u52A0\u5145\u5B9E\u7F8E\u6EE1\u5462\uFF1F\u201D\u5C0F\u5154\u5154\u5728\u732A\u732A\u7684\u6000\u91CC\uFF0C\u628A\u5934\u9760\u5728\u4E86\u4ED6\u7684\u5DF2\u7ECF\u7565\u5FAE\u6709\u4E9B\u6D88\u7626\u7684\u80A9\u8180\u4E0A\u3002</p><p>\u5C0F\u732A\u732A\u628A\u773C\u6CEA\u64E6\u5E72\uFF1A\u201C\u597D\u3002\u6211\u77E5\u9053\u8BE5\u600E\u4E48\u505A\u5566\u3002\u201D</p><p>\u201C\u65E0\u8BBA\u524D\u8DEF\u591A\u4E48\u6A21\u7CCA\uFF0C\u65E0\u8BBA\u76F8\u805A\u591A\u4E48\u9065\u8FDC\u3002\u6211\u90FD\u4F1A\u4E00\u76F4\u5728\u3002\u201D</p><p>\u201C\u6240\u7231\u9694\u5C71\u6D77\uFF0C\u5C71\u6D77\u7686\u53EF\u5E73\u3002\u201D</p><h2 id="\u82F9\u679C-\u667A\u6167\u679C" tabindex="-1"><a class="header-anchor" href="#\u82F9\u679C-\u667A\u6167\u679C" aria-hidden="true">#</a> \u82F9\u679C=\u667A\u6167\u679C</h2><p>\u5723\u7ECF\u4E0A\u8BF4\uFF0C\u4E0A\u5E1D\u521B\u9020\u4E86\u4E9A\u5F53\u548C\u590F\u5A03\u540E\uFF0C\u5B89\u6392\u4ED6\u4EEC\u5728\u4F0A\u7538\u56ED\u91CC\u751F\u6D3B\u3002\u4F0A\u7538\u56ED\u91CC\u6811\u6728\u5E38\u9752\uFF0C\u82B1\u8349\u5E38\u7EFF\uFF0C\u6709\u5404\u79CD\u5947\u73CD\u5F02\u679C\u548C\u98DE\u79BD\u8D70\u517D\u3002\u8FDB\u5165\u4F0A\u7538\u56ED\u7684\u7B2C\u4E00\u5929\uFF0C\u4E0A\u5E1D\u5C31\u8B66\u544A\u4E9A\u5F53\u548C\u590F\u5A03\u6240\u6709\u7684\u679C\u5B9E\u90FD\u53EF\u4EE5\u5403\uFF0C\u53EA\u6709\u667A\u6167\u6811\u7684\u8FC7\u662F\u4E0D\u53EF\u4EE5\u5403.</p><p>\u4E9A\u5F53\u548C\u590F\u5A03\u5F00\u59CB\u5F88\u542C\u8BDD\uFF0C\u4F46\u662F\u6CA1\u8FC7\u591A\u4E45\uFF0C\u5C31\u6709\u4E00\u6761\u9634\u9669\u7684\u6BD2\u86C7\u82B1\u8A00\u5DE7\u8BED\u5F15\u8BF1\u72EC\u81EA\u73A9\u800D\u7684\u590F\u5A03\u5077\u5403\u4E86\u667A\u6167\u6811\u7684\u679C\u5B50\uFF0C\u5929\u771F\u7684\u590F\u5A03\u53C8\u628A\u5403\u5269\u4E0B\u7684\u679C\u5B50\u7ED9\u4E86\u4E9A\u5F53\u3002\u4E8E\u662F\uFF0C\u4E9A\u5F53\u548C\u590F\u5A03\u5C31\u6709\u4E86\u667A\u6167\uFF0C\u4EBA\u7C7B\u5F00\u59CB\u6709\u4E86\u5584\u4E0E\u6076\u3002</p><p>\u82F9\u679C\u5728\u897F\u65B9\u8C61\u5F81\u7740\u7231\uFF0C\u4E9A\u5F53\u548C\u590F\u5A03\u5403\u7684\u201C\u7981\u679C\u201D\uFF0C\u5B9E\u9645\u4E0A\u5C31\u662F\u9752\u82F9\u679C\uFF0C\u5728\u4E0D\u8BE5\u5403\u7684\u65F6\u5019\u5403\u4E86\u5B83\uFF0C\u53D7\u5230\u4E0A\u5E1D\u7684\u60E9\u7F5A\u3002\u6CA1\u6709\u6210\u719F\u7684\u82F9\u679C\u7684\u5473\u9053\uFF0C\u53C8\u9178\u53C8\u6DA9\uFF0C\u6B63\u5982\u9752\u6DA9\u7684\u9752\u6625\u5982\u540C\u662F\u6CA1\u6709\u6210\u719F\u7684\u65F6\u5019\uFF0C\u4F60\u4E0D\u8981\u53BB\u5543\u5B83\u3002</p><p>\u82F9\u679C\u5C31\u6210\u4E86\u667A\u6167\u679C\u7684\u4EE3\u540D\u8BCD\uFF0C\u82F9\u679C\u4E5F\u6210\u4E86\u667A\u6167\u7684\u8C61\u5F81\u3002</p><h2 id="\u7B28\u7B28\u718A" tabindex="-1"><a class="header-anchor" href="#\u7B28\u7B28\u718A" aria-hidden="true">#</a> \u7B28\u7B28\u718A</h2><p>\u7B28\u7B28\u718A\u6765\u5230\u6CB3\u8FB9\uFF0C\u770B\u7740\u6CB3\u6C34\u91CC\u7684\u9C7C\uFF0C\u7B28\u7B28\u718A\u89C9\u5F97\u9C7C\u513F\u4EEC\u592A\u5E78\u798F\u4E86\uFF0C\u4E0D\u7528\u6355\u98DF\uFF0C\u5728\u6CB3\u6C34\u91CC\u81EA\u7531\u81EA\u5728\uFF0C\u771F\u5E78\u798F\u3002\u7B28\u7B28\u718A\u771F\u60F3\u53D8\u6210\u4E00\u6761\u9C7C\uFF0C\u4E00\u6761\u81EA\u7531\u81EA\u5728\u7684\u9C7C\u3002</p><p>\u7B28\u7B28\u718A\u8D70\u5728\u56DE\u5BB6\u7684\u8DEF\u4E0A\uFF0C\u4E0D\u5C0F\u5FC3\u649E\u5230\u4E86\u683C\u683C\u5DEB\uFF0C\u683C\u683C\u5DEB\u662F\u68EE\u6797\u91CC\u7684\u5DEB\u5A46\uFF0C\u683C\u683C\u5DEB\u65B0\u7814\u5236\u7684\u53D8\u8EAB\u836F\u6C34\u6D12\u5728\u4E86\u7B28\u7B28\u718A\u7684\u8EAB\u4E0A\uFF0C\u7B28\u7B28\u718A\u7ACB\u523B\u53D8\u6210\u4E86\u4E00\u6761\u9C7C\uFF0C\u53D8\u6210\u9C7C\u7684\u7B28\u7B28\u718A\u79BB\u5F00\u4E86\u6C34\u662F\u65E0\u6CD5\u6D3B\u4E0B\u53BB\u7684\uFF0C\u683C\u683C\u5DEB\u53EA\u597D\u628A\u7B28\u7B28\u718A\u653E\u5728\u6C34\u91CC\u3002</p><p>\u683C\u683C\u5DEB\u5BF9\u7B28\u7B28\u718A\u8BF4\uFF1A\u201C\u771F\u662F\u5BF9\u4E0D\u8D77\u7B28\u7B28\u718A\uFF0C\u4F60\u5148\u5728\u6CB3\u6C34\u91CC\u751F\u6D3B\uFF0C\u6211\u9A6C\u4E0A\u5C31\u56DE\u53BB\u7814\u5236\u89E3\u836F\uFF0C\u6211\u4F1A\u628A\u4F60\u53D8\u56DE\u6765\u7684\u3002\u201D</p><p>\u7B28\u7B28\u718A\u8BF4\uFF1A\u201C\u6CA1\u5173\u7CFB\uFF0C\u6211\u6B63\u597D\u53EF\u4EE5\u4EAB\u53D7\u4E00\u4E0B\u53D8\u6210\u9C7C\u7684\u751F\u6D3B\uFF0C\u4F60\u4E0D\u7528\u6025\u7740\u628A\u6211\u53D8\u56DE\u6765\u3002\u201D</p><p>\u683C\u683C\u5DEB\u628A\u53D8\u6210\u9C7C\u7684\u7B28\u7B28\u718A\u653E\u8FDB\u6CB3\u6C34\u91CC\u4E4B\u540E\uFF0C\u9A91\u7740\u626B\u628A\u6025\u5FD9\u56DE\u5BB6\u7814\u5236\u89E3\u836F\u53BB\u4E86\uFF0C\u7B28\u7B28\u718A\u9AD8\u5174\u7684\u5728\u6CB3\u6C34\u91CC\u6E38\u6765\u6E38\u53BB\uFF0C\u5F53\u4E00\u6761\u9C7C\u8FD9\u53EF\u662F\u7B28\u7B28\u718A\u7684\u68A6\u60F3\uFF0C\u73B0\u5728\u7EC8\u4E8E\u5B9E\u73B0\u4E86\u3002</p><p>\u7B28\u7B28\u718A\u6CA1\u6709\u6CE8\u610F\u5230\u5B83\u5DF2\u7ECF\u88AB\u4E00\u6761\u5927\u9C7C\u76EF\u4E0A\u4E86\uFF0C\u7B28\u7B28\u718A\u7A81\u7136\u611F\u5230\u773C\u524D\u4E00\u7247\u6F06\u9ED1\uFF0C\u539F\u6765\u81EA\u5DF1\u5DF2\u7ECF\u5728\u5927\u9C7C\u7684\u53E3\u91CC\u4E86\uFF0C\u7B28\u7B28\u718A\u8D81\u7740\u5927\u9C7C\u8FD8\u6CA1\u6709\u628A\u5634\u5408\u4E0A\u9003\u4E86\u51FA\u53BB\uFF0C\u7B28\u7B28\u718A\u4E0D\u65AD\u7684\u6E38\uFF0C\u51F6\u6076\u7684\u5927\u9C7C\u5728\u540E\u9762\u7D27\u8FFD\u4E0D\u820D\u3002</p><p>\u4E00\u4E2A\u5C0F\u6D77\u9A6C\u628A\u7B28\u7B28\u718A\u62FD\u8FDB\u4E86\u6D77\u85FB\u91CC\uFF0C\u5927\u9C7C\u600E\u4E48\u627E\u90FD\u627E\u4E0D\u5230\uFF0C\u53EA\u597D\u79BB\u5F00\uFF0C\u5C0F\u6D77\u9A6C\u544A\u8BC9\u7B28\u7B28\u718A\u8BF4\uFF1A\u201C\u5927\u9C7C\u5403\u5C0F\u9C7C\u8FD9\u662F\u89C4\u5F8B\uFF0C\u4E00\u5B9A\u8981\u5C0F\u5FC3\u90A3\u4E9B\u5927\u9C7C\uFF0C\u4E0D\u7136\u81EA\u5DF1\u4F1A\u88AB\u5403\u6389\u3002\u201D</p><p>\u7B28\u7B28\u718A\u5230\u5904\u4E1C\u8EB2\u897F\u85CF\uFF0C\u8FD9\u5B8C\u5168\u8DDF\u7B28\u7B28\u718A\u60F3\u8C61\u7684\u751F\u6D3B\u4E0D\u4E00\u6837\uFF0C\u5403\u7684\u98DF\u7269\u4E5F\u53D8\u6210\u4E86\u96BE\u5403\u7684\u6D77\u8349\u3002</p><p>\u8981\u77E5\u9053\u718A\u53EF\u662F\u4E00\u4E2A\u4E0D\u5403\u8349\u7684\u52A8\u7269\uFF0C\u73B0\u5728\u5374\u5929\u5929\u5403\u7740\u6D77\u8349\uFF0C\u7B28\u7B28\u718A\u6000\u5FF5\u8D77\u81EA\u5DF1\u4EE5\u524D\u505A\u5C0F\u718A\u7684\u65E5\u5B50\uFF0C\u53EF\u4EE5\u5403\u5230\u5F88\u591A\u7684\u7F8E\u98DF\uFF0C\u9999\u751C\u7684\u7CD5\u70B9\uFF0C\u60F3\u60F3\u5C31\u8BA9\u4EBA\u76F4\u6D41\u53E3\u6C34\u3002</p><p>\u7B28\u7B28\u718A\u60F3\u53D8\u56DE\u4E00\u53EA\u718A\uFF0C\u53EF\u662F\u683C\u683C\u5DEB\u7684\u89E3\u836F\u8FD8\u6CA1\u6709\u7814\u5236\u51FA\u6765\uFF0C\u7B28\u7B28\u718A\u4E0D\u613F\u610F\u518D\u5403\u90A3\u96BE\u5403\u7684\u6D77\u8349\uFF0C\u53EA\u597D\u997F\u7740\u809A\u5B50\uFF0C\u6B63\u5728\u7B28\u7B28\u718A\u997F\u7740\u809A\u5B50\u7684\u65F6\u5019\uFF0C\u4E00\u5757\u9762\u5305\u51FA\u73B0\u5728\u7B28\u7B28\u718A\u7684\u89C6\u7EBF\u91CC\uFF0C\u9762\u5305\u5728\u4E00\u4E2A\u74F6\u5B50\u91CC\uFF0C\u7B28\u7B28\u718A\u94BB\u8FDB\u74F6\u5B50\u91CC\uFF0C\u5F00\u5FC3\u7684\u5403\u8D77\u4E86\u9762\u5305\u3002</p><p>\u7B28\u7B28\u718A\u79BB\u5F00\u4E86\u6C34\u9762\uFF0C\u539F\u6765\u662F\u683C\u683C\u5DEB\u62FF\u9762\u5305\u8BF1\u60D1\u7B28\u7B28\u718A\u7684\uFF0C\u683C\u683C\u5DEB\u628A\u9B54\u6CD5\u836F\u6C34\u7684\u89E3\u836F\u6EF4\u5728\u4E86\u53D8\u6210\u9C7C\u7684\u7B28\u7B28\u718A\u8EAB\u4E0A\uFF0C\u7B28\u7B28\u718A\u53D8\u56DE\u4E86\u4E00\u53EA\u718A\uFF0C\u53EF\u662F\u7B28\u7B28\u718A\u5374\u5927\u54ED\u8D77\u6765\uFF0C\u683C\u683C\u5DEB\u5230\u73B0\u5728\u4E5F\u6CA1\u5F04\u6E05\u695A\u7B28\u7B28\u718A\u4E3A\u4EC0\u4E48\u4F1A\u54ED\u3002</p><h2 id="\u5C0F\u80A5\u732A" tabindex="-1"><a class="header-anchor" href="#\u5C0F\u80A5\u732A" aria-hidden="true">#</a> \u5C0F\u80A5\u732A</h2><p>\u4E00\u53EA\u9965\u997F\u7684\u72D0\u72F8\u6B63\u51C6\u5907\u51FA\u95E8\u627E\u5348\u9910\uFF0C\u7A81\u7136\uFF0C\u5916\u9762\u4F20\u6765\u4E00\u9635\u6572\u95E8\u58F0\u3002\u72D0\u72F8\u6253\u5F00\u95E8\uFF0C\u95E8\u53E3\u7ADF\u7AD9\u7740\u4E00\u53EA\u5C0F\u80A5\u732A\u3002</p><p>\u201C\u54CE\u5440\uFF0C\u6211\u627E\u9519\u95E8\u4E86\uFF0C\u6211\u4EE5\u4E3A\u662F\u5154\u5B50\u7684\u5BB6\u5462\uFF01\u201D</p><p>\u201C\u6CA1\u9519\uFF0C\u4F60\u6765\u5F97\u6B63\u662F\u65F6\u5019\uFF01\u201D</p><p>\u72D0\u72F8\u628A\u5C0F\u732A\u72E0\u72E0\u5730\u62D6\u8FDB\u5C4B\u91CC\uFF0C\u5927\u58F0\u53EB\u9053\uFF1A\u201C\u8FD9\u771F\u662F\u6211\u5E78\u8FD0\u7684\u4E00\u5929\uFF01\u6211\u8981\u5403\u4E00\u987F\u9999\u55B7\u55B7\u7684\u70E4\u732A\u8089\uFF0C\u73B0\u5728\uFF0C\u4F60\u4E56\u4E56\u5730\u8EBA\u5230\u70E4\u9505\u91CC\u53BB\u5427\uFF01\u201D</p><p>\u6323\u624E\u662F\u6CA1\u6709\u7528\u7684\uFF0C\u4E8E\u662F\uFF0C\u5C0F\u732A\u8BF4\uFF1A\u201C\u542C\u4F60\u7684\u5B89\u6392\u5427\u3002\u4E0D\u8FC7\uFF0C\u6211\u5F88\u810F\u54E6\uFF0C\u5728\u4F60\u5403\u6389\u6211\u4E4B\u524D\uFF0C\u5C31\u4E0D\u60F3\u628A\u6211\u6D17\u5F97\u5E72\u51C0\u4E00\u70B9\u5417\uFF1F\u201D\u4E8E\u662F\uFF0C\u72D0\u72F8\u5FD9\u8D77\u6765\u4E86\u3002\u4ED6\u62FE\u6765\u4E86\u6811\u679D\u3001\u751F\u8D77\u4E86\u706B\uFF0C\u518D\u5230\u6CB3\u8FB9\u53BB\u63D0\u6C34\uFF0C\u7136\u540E\uFF0C\u7ED9\u5C0F\u732A\u6D17\u4E86\u4E00\u4E2A\u75DB\u75DB\u5FEB\u5FEB\u7684\u70ED\u6C34\u6FA1\u3002</p><p>\u72D0\u72F8\u8BF4\uFF1A\u201C\u597D\u5566\uFF0C\u73B0\u5728\u4F60\u662F\u5168\u6751\u6700\u5E72\u51C0\u7684\u5C0F\u732A\u4E86\uFF0C\u5FEB\u7ED9\u6211\u8EBA\u5230\u70E4\u9505\u91CC\u53BB\u5427\uFF01\u201D</p><p>\u6323\u624E\u662F\u6CA1\u6709\u7528\u7684\uFF0C\u4E8E\u662F\uFF0C\u5C0F\u732A\u8BF4\uFF1A\u201C\u542C\u4F60\u7684\u5B89\u6392\u5427\u3002\u4E0D\u8FC7\uFF0C\u6211\u592A\u5C0F\u4E86\uFF0C\u5728\u4F60\u5403\u6389\u6211\u4E4B\u524D\uFF0C\u5C31\u4E0D\u60F3\u5582\u9971\u6211\uFF0C\u8BA9\u6211\u957F\u5F97\u80D6\u4E00\u70B9\u5417\uFF1F\u201D\u4E8E\u662F\uFF0C\u72D0\u72F8\u5FD9\u8D77\u6765\u4E86\u3002\u4ED6\u6458\u6765\u897F\u7EA2\u67FF\uFF0C\u505A\u4E86\u901A\u5FC3\u7C89\uFF0C\u8FD8\u70E4\u4E86\u4E00\u7089\u91D1\u9EC4\u8272\u7684\u5C0F\u751C\u997C\u3002\u5C0F\u732A\u5927\u5927\u54A7\u54A7\u5730\u5403\u4E86\u4E00\u987F\u4E30\u76DB\u7684\u5348\u9910\u3002</p><p>\u72D0\u72F8\u8BF4\uFF1A\u201C\u597D\u5566\uFF0C\u73B0\u5728\u4F60\u662F\u5168\u6751\u6700\u80A5\u7684\u5C0F\u732A\u4E86\uFF0C\u5FEB\u7ED9\u6211\u8EBA\u5230\u70E4\u9505\u91CC\u53BB\u5427\uFF01\u201D</p><p>\u6323\u624E\u662F\u6CA1\u6709\u7528\u7684\uFF0C\u4E8E\u662F\uFF0C\u5C0F\u732A\u8BF4\uFF1A\u201C\u542C\u4F60\u7684\u5B89\u6392\u5427\u3002\u4E0D\u8FC7\uFF0C\u6211\u662F\u4E00\u53EA\u52E4\u52B3\u7684\u5C0F\u732A\uFF0C\u6211\u7684\u8089\u4E00\u5B9A\u7279\u522B\u786C\u3002\u5728\u4F60\u5403\u6389\u6211\u4E4B\u524D\uFF0C\u5C31\u4E0D\u60F3\u5148\u7ED9\u6211\u6309\u6469\u4E00\u4E0B\uFF0C\u8BA9\u81EA\u5DF1\u5403\u4E0A\u66F4\u5AE9\u4E00\u70B9\u7684\u70E4\u8089\u5417\uFF1F\u201D</p><p>\u4E8E\u662F\uFF0C\u72D0\u72F8\u5FD9\u8D77\u6765\u4E86\u3002\u4ED6\u8BA9\u5C0F\u732A\u5750\u5728\u6728\u6905\u5B50\u4E0A\uFF0C\u4E3A\u5C0F\u732A\u634F\u634F\u5934\u3001\u677E\u677E\u80A9\u3001\u62C9\u62C9\u817F\uFF0C\u5C0F\u732A\u8212\u670D\u5F97\u76F4\u54FC\u54FC\u3002\u72D0\u72F8\u8BF4\uFF1A\u201C\u597D\u5566\uFF0C\u73B0\u5728\u4F60\u662F\u5168\u6751\u6700\u80A5\u7684\u5C0F\u732A\u4E86\uFF0C\u5FEB\u7ED9\u6211\u8EBA\u5230\u70E4\u9505\u91CC\u53BB\u5427\uFF01\u201D</p><p>\u201C\u90A3\u597D\u5427\uFF0C\u4E0D\u8FC7\uFF0C\u8FD9\u4E9B\u65E5\u5B50\u6211\u7684\u786E\u592A\u7D2F\u4E86\u3002\u4F60\u770B\uFF0C\u6211\u7684\u80CC\u8FD8\u6709\u70B9\u50F5\u786C\uFF0C\u4F60\u80FD\u518D\u7528\u529B\u66FF\u6211\u6309\u6469\u4E00\u4E0B\u5417\uFF1F\u5BF9\uFF0C\u5C31\u8FD9\u6837\uFF0C\u518D\u7528\u70B9\u529B\u6C14\uFF01\u201D\u8FC7\u4E86\u4E00\u4F1A\uFF0C\u8EAB\u540E\u4F20\u6765\u72D0\u72F8\u7684\u547C\u565C\u58F0\uFF0C\u5C0F\u732A\u8F7B\u58F0\u95EE\uFF1A\u201C\u72D0\u72F8\u5148\u751F\uFF0C\u4F60\u5728\u54EA\u513F\u554A\uFF1F\u201D</p><p>\u72D0\u72F8\u6CA1\u6709\u542C\u89C1\u5C0F\u732A\u7684\u558A\u58F0\uFF0C\u4ED6\u7D2F\u6781\u4E86\uFF0C\u6C89\u6C89\u5730\u7761\u53BB\u4E86\u3002</p><p>\u6751\u5B50\u91CC\u6700\u5E72\u51C0\u3001\u6700\u80A5\u3001\u6700\u67D4\u8F6F\u7684\u5C0F\u732A\uFF0C\u62FF\u7740\u5269\u4E0B\u7684\u751C\u997C\uFF0C\u98DE\u5FEB\u5730\u8DD1\u56DE\u5BB6\u53BB\u4E86\u3002</p><h2 id="\u68A6\u91CC\u6709\u4F60-\u5341\u5206\u751C" tabindex="-1"><a class="header-anchor" href="#\u68A6\u91CC\u6709\u4F60-\u5341\u5206\u751C" aria-hidden="true">#</a> \u68A6\u91CC\u6709\u4F60\uFF0C\u5341\u5206\u751C</h2><p>\u4F4F\u5728\u5C71\u5934\u7684\u5C0F\u5154\u5B50\uFF0C\u6700\u8FD1\u5FC3\u91CC\u85CF\u4E86-\u4E2A\u5C0F\u79D8\u5BC6\u3002\u90A3\u4E2A\u5C0F\u79D8\u5BC6\uFF0C\u662F\u6709\u5173\u5BF9\u9762\u5C71\u4E0A\u7684\u7EA2\u5C3E\u5DF4\u5C0F\u72D0\u72F8\u7684\u3002</p><p>\u8FD9\u5929\uFF0C\u5C0F\u5154\u5B50\u7167\u5E38\u53BB\u627E\u5C0F\u72D0\u72F8\u73A9\uFF0C\u534A\u8DEF\u9047\u5230\u4E86\u5C0F\u7CBE\u7075,\u542C\u8BF4\u8FD9\u4E2A\u5C0F\u7CBE\u7075\u7CBE\u901A\u4E07\u4E8B\uFF0C\u5C0F\u5154\u5B50\u541E\u541E\u5410\u5410\u5730\u95EE:\u201C\u5C0F\u7CBE\u7075\uFF0C. \u6211\u4E3A\u4EC0\u4E48\u89C1\u5230\u90A3\u4E2A\u4EBA\uFF0C\u5C31.. \u5C31\u4F1A\u5FC3\u8DF3\u52A0\u901F\uFF0C\u5C31.. \u50CF\u6211\u6BCF\u5929\u5728\u8349\u4E1B\u4E0A\u6253\u5B8C\u6EDA\u4E00\u6837?\u5C0F\u7CBE \u7075\u717D\u52A8\u7740\u5C0F\u7FC5\u8180\uFF0C\u7B11\u563B\u563B\u5730\u5BF9\u5C0F\u5154\u5B50\u8BF4:\u201C\u4F60\u8FD9\u662F\u559C\u6B22\u4E0A\u4EBA\u5BB6\u5566\u3002\u201D\u5C0F\u5154\u5B50\u53C8\u95EE:\u201C\u90A3\u4EC0\u4E48\u662F\u559C\u6B22\u5440?</p><p>\u5C0F\u7CBE\u7075\u60F3\u4E86\u60F3\u8BF4: &quot;\u559C\u6B22\u5C31\u662F\uFF0C\u4F60\u5728\u89C1\u4ED6\u4E4B\u524D\uFF0C\u5E0C\u671B\u65F6\u95F4\u8FC7\u5F97\u5FEB\u4E00-\u70B9, \u8FD9\u6837\u4F60\u5C31\u53EF\u4EE5\u5FEB\u70B9\u89C1\u5230\u4ED6\u3002\u89C1\u5230\u4ED6\u4E4B\u540E\uFF0C\u4F60\u4F1A\u5F88\u5F00\u5FC3\uFF0C\u4F1A\u5E0C\u671B\u65F6\u95F4\u8FC7\u5F97\u6162\u4E00-\u70B9,\u8FD9\u6837\u4F60\u5C31\u53EF\u4EE5\u6709\u66F4\u591A\u7684\u65F6\u95F4\u548C\u4ED6\u5728\u4E00\u8D77\u3002</p><p>\u201C\u53EF\u662F\uFF0C\u6211\u4E0D\u77E5\u9053\u4ED6\u559C\u4E0D\u559C\u6B22\u6211\uFF0C\u600E\u4E48\u529E?\u201D \u5C0F\u5154\u5B50\u5931\u843D\u5730\u8BF4\u3002</p><p>&quot;\u4F20\u8BF4\u5728\u7761\u524D\u53EA\u8981\u60F3\u7740\u4F60\u559C\u6B22\u7684\u90A3\u4E2A\u4EBA\uFF0C\u5982\u679C\u4ED6\u68A6\u5230\u4E86\u4F60\uFF0C\u4F60\u5C31\u53EF\u4EE5\u8FDB\u5165\u4ED6\u7684\u68A6\u91CC\uFF0C\u8FD9\u6837\uFF0C\u4F60\u4FBF\u53EF\u4EE5\u77E5\u9053\u4ED6\u5BF9\u4F60\u7684\u5FC3\u610F\u5566!\u201D\u5C0F\u7CBE\u7075\u8BF4\u5B8C\u5C31\u6D88\u5931\u4E86\u3002</p><p>\u5C0F\u5154\u5B50\u9ED8\u9ED8\u8BB0\u4F4F\u4E86\u5C0F\u7CBE\u7075\u7684\u8BDD\uFF0C\u7EC8\u4E8E\uFF0C\u661F\u661F\u51FA\u6765\u4E86\uFF0C\u5C0F\u5154\u5B50\u8EBA\u5728\u67D4\u8F6F\u7684\u5C0F\u5E8A.\u4E0A,\u60F3\u7740\u548C\u5C0F\u72D0\u72F8\u7684\u6B22\u4E50\u65F6\u5149\uFF0C\u4E0D\u77E5\u4E0D\u89C9,\u7761\u7740\u4E86..</p><p>\u679C\u7136\uFF0C\u5C0F\u5154\u5B50\u6765\u5230\u4E86\u4E00\u4E2A\u53EB\u68A6\u4E4B\u56FD\u7684\u5730\u65B9\uFF0C\u5728\u8FD9\u4E2A\u5730\u65B9\uFF0C\u5979\u770B\u5230\u4E86\u4E00\u95F4\u5C0F\u6728\u5C4B,\u6302\u7740\u7EA2\u5C3E\u5DF4\u5C0F\u72D0\u72F8\u7684\u724C\u5B50\uFF0C\u5C0F\u5154\u5B50\u6DF1\u5438\u4E00\u53E3\u6C14,\u63A8\u5F00\u4E86\u5C0F\u6728\u95E8\uFF0C\u901A\u5F80\u5C0F\u72D0\u72F8\u68A6\u91CC\u7684\u8DEF\u5F00\u6EE1\u4E86\u82B1\u82B1\u8349\u8349\uFF0C\u8774\u8776\u5728\u7A7A\u4E2D\u98DE\u821E,\u5C0F\u5154\u5B50\u8D70\u4E86\u597D\u4E45\uFF0C\u5728\u4E00\u7247\u8349\u5730\u4E0A\u770B\u5230\u4E86\u5C0F\u72D0\u72F8\uFF0C\u5C0F\u72D0\u72F8\u7B11\u563B\u563B\u5730\u5BF9\u5C0F\u5154\u5B50\u8BF4:\u201C\u4F60\u7EC8\u4E8E\u6765\u4E86\uFF0C \u6211\u4E00\u76F4\u5728\u7B49\u4F60\uFF0C\u6211\u5FC3\u7231\u7684\u5C0F\u5154\u5B50\u3002</p><p>\u68A6\u91CC\uFF0C\u5C0F\u72D0\u72F8\u5E26\u7740\u5C0F\u5154\u5B50\u5728\u8349\u4E1B\u4E0A\u6253\u6EDA\u513F\uFF0C\u5C0F\u72D0\u72F8\u8FD8\u4E3A\u5C0F\u5154\u5B50\u7F16\u7EC7\u4E86\u4E00\u4E2A\u5C0F\u82B1\u73AF\uFF0C\u4EB2\u624B\u7ED9\u5C0F\u5154\u5B50\u6234\u5728\u5934\u4E0A\uFF0C\u5750\u5728\u6E56\u8FB9\uFF0C\u770B\u7740\u5728\u6E56\u4E0A\u98D8\u7740\u7684\u5C0F\u8239\uFF0C\u5403\u7740\u751C\u751C\u7684\u7CD6\u679C\uFF0C \u73A9\u7D2F\u4E86\u5C0F\u72D0\u72F8\u5C31\u8BA9\u5C0F\u5154\u5B50\u8EBA\u5728\u4ED6\u67D4\u8F6F\u7684\u7EA2\u5C3E\u5DF4\u4E0A\uFF0C\u5BA0\u6EBA\u5730\u629A\u6478\u7740\u5C0F\u5154\u5B50\u5934\uFF0C\u8033\u8FB9\u62C2\u8FC7\u7684\u53EA\u6709\u6E29\u548C\u7684\u98CE\u548C\u5F7C\u6B64\u7684\u547C\u5438\u3002</p><p>\u4E0D\u77E5\u8FC7\u4E86\u591A\u4E45,\u5C0F\u5154\u5B50\u773C\u524D\u95EA\u8FC7\u4E00\u9053\u767D\u5149\uFF0C\u68A6\u7ED3\u675F\u4E86...</p><p>\u5C0F\u5154\u5B50\u7EC6\u7EC6\u56DE\u60F3\u7740\u521A\u624D\u7684\u68A6\uFF0C\u6025\u5FD9\u671D\u5C0F\u72D0\u72F8\u5BB6\u8DD1\u53BB\uFF0C\u72B9\u8C6B\u4E86\u4E00\u4E0B\uFF0C\u7EC8\u4E8E\u6572\u54CD\u4E86\u5C0F\u72D0\u72F8\u5BB6\u7684\u95E8,\u4E0D\u4E00\u4F1A\u513F\uFF0C\u95E8\u5F00\u4E86\uFF0C\u9732\u51FA\u4E86\u5C0F\u72D0\u72F8\u542B\u7740\u7B11\u610F\u7684\u5927\u773C\u775B\u3002\u5C0F\u5154\u5B50\u8BF4:\u201D\u4F60\u597D\u5440\uFF0C\u5C0F\u72D0\u72F8\uFF0C\u4ECA\u5929\u6211\u4EEC\u53BB\u6458\u8611\u83C7\u5427!&quot;\u5C0F\u72D0\u72F8\u70B9\u4E86\u70B9\u5934:\u201C\u597D\u554A\u597D\u554A\uFF0C\u5FEB\u8FDB\u6765\u5427\uFF0C\u7B49\u6211\u6536\u62FE\u4E00\u4E0B\u6211\u4EEC\u5C31\u51FA\u53D1\u3002</p><p>\u8DEF\u4E0A\uFF0C\u5C0F\u5154\u5B50\u652F\u652F\u543E\u543E\u5730\u95EE: &quot;\u5C0F\u72D0\u72F8\uFF0C..\u4F60\u6628\u5929\u505A\u4E86\u4EC0\u4E48\u68A6\u5440?\u201D</p><p>\u5C0F\u72D0\u72F8\u5237\u5730\u4E00\u4E0B\u8138\u7EA2\u4E86\uFF0C\u6320\u4E86\u6320\u5934\uFF0C\u4E0D\u597D\u610F\u601D\u8BF4:\u201C\u4E3A..\u4E3A\u4EC0\u4E48\u8981\u95EE\u8FD9\u4E2A?\u201D</p><p>\u201C\u56E0\u4E3A\u6211\u68A6\u5230\u4E86 ..\u5C0F\u5154\u5B50\u4E0D\u5C0F\u5FC3\u8BF4\u6F0F\u4E86\u5634\uFF0C\u8D76\u5FD9\u8BF4&quot;\u54CE\u5440\uFF0C\u4F60\u5FEB\u70B9\u8BF4\u8BF4\u561B!&quot;</p><p>&quot;\u55EF..\u6211\u68A6\u5230\u4E86.\u5176\u5B9E\u662F\u4E00\u4E2A\u5341\u4E8C\u5206\u751C\u7684\u68A6\u3002\u201D</p><p>\u201D\u4E3A\u4EC0\u4E48\u662F\u5341\u4E8C\u5206\u751C?\u201D\u5C0F\u5154\u5B50\u4E0D\u89E3\u7684\u95EE\u3002</p><p>\u201C\u4E00\u5206\u662F\u5B81\u9759\uFF0C\u4E00\u5206\u662F\u60EC\u610F\u3002\u201D</p><p>\u5C0F\u72D0\u72F8\u62C9\u8D77\u5C0F\u5154\u5B50\u7684\u624B\u7EE7\u7EED\u8BF4\u201C\u7136\u540E\u68A6\u91CC\u6709\u4F60\uFF0C\u4F60\u5341\u5206\u751C\u3002</p><h2 id="\u665A\u5B89" tabindex="-1"><a class="header-anchor" href="#\u665A\u5B89" aria-hidden="true">#</a> \u665A\u5B89\uFF01</h2><p>\u65F6\u95F4\u5728\u68EE\u6797\u91CC\uFF0C\u6162\u6162\u7684\u6D41\u901D\u7740\uFF0C\u4E0D\u4E45\u79CB\u5929\u4FBF\u6765\u4E86\uFF0C\u4E5F\u5230\u4E86\u52A8\u7269\u4EEC\u6700\u5FD9\u788C\u7684\u5B63\u8282\uFF0C\u56E0\u4E3A\u79CB\u5929\u7684\u91D1\u9EC4\uFF0C\u50CF\u6781\u4E86\u5927\u81EA\u7136\u7ED9\u4E88\u52A8\u7269\u4EEC\u6700\u73CD\u8D35\u7684\u5B9D\u85CF\uFF0C\u4E5F\u6807\u5FD7\u7740\u5C0F\u52A8\u7269\u4EEC\u8981\u5F00\u59CB\u50A8\u5B58\u51AC\u5929\u7684\u7CAE\u98DF\u4E86\u3002</p><p>\u9AD8\u8038\u5165\u4E91\u7684\u677E\u6811\u4E0A\uFF0C\u5C0F\u677E\u9F20\u4E0A\u7A9C\u4E0B\u8DF3\u7684\u8EAB\u5F71\u7740\u5B9E\u8BA9\u4EBA\u4E0D\u5F97\u4E0D\u6CE8\u610F\u3002\u90A3\u5C0F\u677E\u9F20\u5728\u5FD9\u4EC0\u4E48\u5462\uFF1F\u548B\u4E00\u770B\uFF0C\u539F\u6765\u5C0F\u677E\u9F20\u5728\u5FD9\u7740\u6361\u5730\u4E0A\u7684\u677E\u679C\uFF0C\u4E0D\u505C\u7684\u5F80\u81EA\u5DF1\u7684\u5C0F\u7A9D\u91CC\u9001\u5462\uFF01\u5728\u5C0F\u677E\u9F20\u5FD9\u788C\u7684\u8FC7\u7A0B\u4E2D\uFF0C\u5544\u6728\u9E1F\u533B\u751F\uFF0C\u4E5F\u5728\u65C1\u8FB9\u7684\u6811\u4E0A\u4E0D\u505C\u7684\u7ED9\u5927\u53D4\u4F2F\u4F2F\u9A71\u866B\u2026\u2026</p><p>\u6240\u4EE5\u53EA\u8981\u4F60\u4ED4\u7EC6\u4E00\u770B\uFF0C\u6574\u4E2A\u68EE\u6797\u90FD\u5728\u79CB\u5929\u7684\u6C14\u6C1B\u4E2D\u5FD9\u788C\u7740\u3002\u5728\u68EE\u6797\u7684\u53E6\u4E00\u8FB9\uFF0C\u5C0F\u732A\u5728\u5C4B\u5916\u4E0D\u505C\u7684\u5228\u5751\uFF0C\u8DEF\u8FC7\u7684\u5C0F\u767D\u5154\u770B\u89C1\u4E86\uFF0C\u95EE\u5C0F\u732A\uFF1A\u201C\u5C0F\u732A\uFF0C\u5C0F\u732A\u4F60\u5728\u5E72\u561B\u5462\uFF1F\u201D</p><p>\u201C\u6211\u5728\u5228\u4E2A\u5927\u70B9\u7684\u5751\uFF0C\u7136\u540E\u628A\u51AC\u5929\u8981\u5403\u7684\u7CAE\u98DF\u57CB\u91CC\u9762\u201D\u3002\u5C0F\u732A\u8FB9\u5E72\u6D3B\u8FB9\u56DE\u7B54\u8BF4\u3002</p><p>\u201C\u5E72\u561B\u8981\u57CB\u5728\u5751\u91CC\u554A\uFF01\u201D</p><p>\u201C\u56E0\u4E3A\u57CB\u5728\u5751\u91CC\uFF0C\u6E29\u5EA6\u4F4E\u53EF\u4EE5\u4FDD\u6301\u98DF\u7269\u4E0D\u574F\u554A\uFF01\u201D</p><p>\u5C0F\u767D\u5154\u542C\u4E86\uFF0C\u597D\u50CF\u5F88\u6709\u9053\u7406\uFF0C\u4FBF\u544A\u522B\u5C0F\u732A\uFF0C\u5F80\u5BB6\u91CC\u8D76\u53BB\u3002</p><p>\u56DE\u5230\u5BB6\u91CC\uFF0C\u5C0F\u767D\u5154\u8BA9\u5C0F\u72D0\u72F8\u628A\u81EA\u5DF1\u6700\u559C\u6B22\u5403\u7684\u841D\u535C\u57CB\u5728\u5730\u91CC\uFF0C\u5C0F\u72D0\u72F8\u542C\u4E86\u4E00\u9635\u60CA\u8BB6\uFF0C\u95EE\u5C0F\u767D\u5154\u4E3A\u4EC0\u4E48\u8981\u57CB\u5728\u5730\u91CC\uFF0C\u5C0F\u767D\u5154\u628A\u548C\u5C0F\u732A\u7684\u8C08\u8BDD\u544A\u8BC9\u4E86\u5C0F\u72D0\u72F8\u3002</p><p>\u5C0F\u72D0\u72F8\u542C\u540E\uFF0C\u5FCD\u4E0D\u4F4F\u5927\u7B11\u8D77\u6765\uFF0C\u8FD9\u53EF\u628A\u5C0F\u767D\u5154\u6C14\u7740\u4E86\uFF0C\u8FDE\u5FD9\u95EE\u539F\u56E0\uFF0C\u4F11\u606F\u4E86\u597D\u4E00\u4F1A\uFF0C\u5C0F\u72D0\u72F8\u8BF4\uFF1A\u201C\u5C0F\u732A\u50A8\u5B58\u7684\u662F\u90A3\u79CD\u57CB\u5728\u5730\u91CC\u4E0D\u4F1A\u574F\u7684\u98DF\u7269\uFF0C\u800C\u4E14\u4E5F\u4F1A\u628A\u98DF\u7269\u5305\u88C5\u4FDD\u62A4\u4E00\u4E0B\u554A\uFF0C\u4F46\u662F\u4F60\u559C\u6B22\u5403\u7684\u80E1\u841D\u535C\uFF0C\u4E00\u65E6\u57CB\u5728\u5730\u4E0B\uFF0C\u4F1A\u8150\u70C2\uFF0C\u5C31\u7B97\u4E0D\u8150\u70C2\u4E5F\u4F1A\u53D8\u6210\u80E1\u841D\u535C\u5E72\u201D\u3002\u5C0F\u767D\u5154\u542C\u540E\uFF0C\u4E5F\u89C9\u5F97\u597D\u50CF\u6709\u4E9B\u9053\u7406\uFF0C\u4E8E\u662F\u53C8\u95EE\uFF1A\u201C\u90A3\u4F60\u4E3A\u4EC0\u4E48\u7B11\u6211\uFF1F\u201D\uFF0C\u5C0F\u72D0\u72F8\u770B\u7740\u561F\u7740\u5634\u7684\u5C0F\u767D\u5154\uFF0C\u53C8\u597D\u7B11\u53C8\u53EF\u7231\u3002</p><p>\u201C\u56E0\u4E3A\u4F60\u8FD9\u4E48\u4E45\uFF0C\u8FD8\u662F\u6211\u7684\u50BB\u5B9D\u8D1D\uFF0C\u4E00\u70B9\u90FD\u6CA1\u53D8\u5462\uFF01\u201D\u5C0F\u767D\u5154\u542C\u540E\uFF0C\u611F\u89C9\u597D\u50CF\u88AB\u8868\u626C\u4E86\uFF0C\u4E0D\u89C9\u5F97\u5634\u89D2\u4E0A\u626C\u3002\u4F46\u4ED4\u7EC6\u4E00\u60F3\uFF0C\u597D\u50CF\u53C8\u4E0D\u662F\uFF0C\u4E8E\u662F\u8FDE\u5FD9\u8981\u627E\u5C0F\u72D0\u72F8\u7B97\u8D26\uFF0C\u8F6C\u5934\u4E00\u770B\u5C0F\u72D0\u72F8\u65E9\u5C31\u8DD1\u51FA\u95E8\uFF0C\u5BF9\u7740\u5C0F\u767D\u5154\u505A\u9B3C\u8138\u3002</p><p>\u201C\u4F60\u7B49\u7740\uFF0C\u4F60\u4E2A\u81ED\u5B9D\u8D1D\uFF01\u201D\u5C0F\u767D\u5154\u8FDE\u5FD9\u8FFD\u51FA\u53BB\u3002</p><p>\u5C31\u8FD9\u6837\uFF0C\u5728\u5FD9\u788C\u7684\u79CB\u5929\uFF0C\u4E5F\u4F1A\u6709\u521D\u6625\u7231\u60C5\u7684\u751C\u871C\uFF0C\u50CF\u5C0F\u767D\u5154\u548C\u5C0F\u72D0\u72F8\uFF0C\u5728\u5FD9\u788C\u5F53\u4E2D\u5B09\u620F\u6253\u95F9\uFF0C\u8BA9\u4E00\u4E9B\u8FD8\u5355\u8EAB\u7684\u5C0F\u52A8\u7269\uFF0C\u597D\u751F\u7FA1\u6155\u2026\u2026</p><p>\u5F53\u7136\uFF0C\u68EE\u6797\u91CC\u7684\u52A8\u7269\u4EEC\u90FD\u975E\u5E38\u7684\u5584\u826F\uFF0C\u6240\u4EE5\u554A\u6708\u8001\u4E5F\u4E00\u5B9A\u4E0D\u4F1A\u541D\u556C\u59FB\u7F18\u7684\u7EA2\u7EBF\uFF0C\u76F8\u4FE1\u4E0D\u4E45\u53C8\u4F1A\u6709\u65B0\u7684\u751C\u871C\u98D8\u6563\u5728\u8FD9\u68EE\u6797\u7684\u5927\u5BB6\u5EAD\u4E2D\u3002</p><p>\u6BCF\u4E00\u4E2A\u591C\u5E55\u964D\u4E34\uFF0C\u6211\u4EEC\u4E5F\u4F1A\u5BF9\u5F7C\u6B64\u8BF4\u4E0A\u4E00\u53E5\uFF1A\u665A\u5B89\uFF01\u597D\u68A6\uFF01</p><h2 id="\u7231-\u957F\u7BC7" tabindex="-1"><a class="header-anchor" href="#\u7231-\u957F\u7BC7" aria-hidden="true">#</a> \u7231\uFF08\u957F\u7BC7\uFF09</h2><p>\u6E05\u6668\uFF0C\u6DF1\u5C71\u4E4B\u5904\u7684\u5BFA\u5E99\u5BE5\u5BE5\u708A\u70DF\uFF0C\u53A8\u623F\u91CC\uFF0C\u725B\u6653\u70E7\u7740\u706B\uFF0C\u5C0F\u548C\u5C1A\u6405\u52A8\u7740\u9505\u91CC\u7684\u658B\u996D\uFF0C\u4E00\u4E2A\u6708\u7684\u76F8\u5904\u4E0B\u6765\uFF0C\u8BA9\u4E24\u4EBA\u914D\u5408\u76F8\u5F53\u9ED8\u5951\uFF0C\u8FD9\u4E5F\u8BA9\u5C0F\u548C\u5C1A\u7684\u5DE5\u4F5C\u8F7B\u677E\u4E86\u8BB8\u591A\u3002</p><p>\u201C\u4F60\u559C\u6B22\u8FC7\u522B\u4EBA\u5417\uFF1F\u201D\u725B\u6653\u7A81\u7136\u95EE</p><p>\u201C\u5565\uFF1F\u201D\u5C0F\u548C\u5C1A\u88AB\u8FD9\u7A81\u5982\u5176\u6765\u95EE\u9898\u60CA\u4E86\u4E00\u4E0B\uFF0C\u7136\u540E\u53C8\u8BF4\uFF1A\u201C\u6211\u559C\u6B22\u5E08\u5085\uFF0C\u5E08\u5085\u662F\u6211\u7684\u5BB6\u4EBA\uFF0C\u5982\u679C\u4F60\u5F85\u4E45\u4E86\u6211\u4E5F\u4F1A\u559C\u6B22\u4F60\u7684\u3002\u201D\u725B\u6653\u770B\u7740\u5C0F\u548C\u5C1A\u8BA4\u8BA4\u771F\u771F\u7684\u56DE\u7B54\u7740\u3002\u7A81\u7136\u5657\u55E4\u4E00\u58F0\u7B11\u4E86\u8D77\u6765\u3002</p><p>\u201C\u4F60\u662F\u4E0D\u662F\u50BB\uFF1F\u6211\u8BF4\u7684\u662F\u7537\u5973\u4E4B\u95F4\u7684\u559C\u6B22\uFF1F\u201D\u725B\u6653\u8BF4\u3002</p><p>\u201C\u90A3\u662F\u4EC0\u4E48\u559C\u6B22\uFF1F\u4E0D\u61C2\u4E0D\u61C2\uFF01\u201D\u5C0F\u548C\u5C1A\u8FB9\u76DB\u7740\u7CA5\uFF0C\u8FB9\u6447\u7740\u5934\u3002</p><p>\u996D\u684C\u4E0A\uFF0C\u5E08\u5F92\u4E09\u4EBA\u5403\u7740\u658B\u996D\uFF0C\u5C0F\u548C\u5C1A\u7A81\u7136\u95EE\u5E08\u5085\uFF1A\u201C\u5E08\u5085\uFF0C\u4F60\u559C\u6B22\u8FC7\u5973\u4EBA\u5417\uFF1F\u201D\u3002\u8FD9\u4E00\u95EE\u5B8C\uFF0C\u5E08\u5085\u5DEE\u70B9\u545B\u4E86\u4E00\u53E3\u996D\uFF0C\u8F6C\u5934\u770B\u7740\u725B\u6653\uFF0C\u725B\u6653\u4E00\u8138\u65E0\u8F9C\u7684\u8BF4\u5230\uFF1A\u201C\u5E08\u5085\uFF0C\u8DDF\u6211\u65E0\u5173\uFF0C\u6211\u53EF\u5565\u90FD\u6CA1\u8BF4\u201D\u3002\u8BF4\u5B8C\uFF0C\u4FBF\u57CB\u5934\u5403\u996D\u3002</p><p>\u201C\u4F60\u4EEC\u4FE9\uFF0C\u4E00\u5929\u4E0D\u8BA4\u771F\u5FF5\u4F5B\u5B88\u5FC3\uFF0C\u8BA8\u8BBA\u90A3\u4E9B\u65E0\u5173\u7D27\u8981\u7684\u5E72\u561B\uFF1F\u201D\u5E08\u5085\u767D\u4E86\u4E00\u773C\u725B\u6653\uFF0C\u7EE7\u7EED\u8BF4\u5230\uFF1A\u201C\u7537\u6B22\u5973\u7231\uFF0C\u7686\u4E3A\u4E16\u4FD7\u60C5\u4E8B\uFF0C\u4E16\u4EBA\u628A\u8FD9\u79CD\u611F\u60C5\u6BD4\u4E3A\u7231\u60C5\uFF0C\u53C8\u4EE5\u73AB\u7470\u4E3A\u8C61\u5F81\uFF0C\u65E0\u8BBA\u5403\u658B\u5FF5\u4F5B\u4E5F\u597D\uFF0C\u7537\u6B22\u5973\u7231\u4E5F\u7F62\uFF0C\u90FD\u662F\u4EBA\u751F\u5F53\u4E2D\u7684\u4FEE\u884C\uFF0C\u4EBA\u4EBA\u90FD\u60F3\u4FEE\u5F97\u6B63\u679C\uFF0C\u5176\u4E2D\u56F0\u96BE\u574E\u5777\uFF0C\u5927\u540C\u5C0F\u5F02\u2026\u2026\u201D\u5E08\u5085\u8BF4\u7740\uFF0C\u4EFF\u4F5B\u9677\u5165\u4E86\u56DE\u5FC6\uFF0C\u800C\u540E\u7B11\u7740\u5BF9\u9762\u524D\uFF0C\u8FD9\u4E24\u4E2A\u7741\u7740\u773C\u775B\u542C\u7740\u7684\u5F92\u5F1F\u7EE7\u7EED\u8BF4\uFF1A\u201C\u8BB0\u5F97\u5E08\u508517\u5C81\u90A3\u5E74\uFF0C\u5E76\u672A\u50CF\u73B0\u5728\u5982\u6B64\u5F00\u59CB\u5403\u658B\u5FF5\u4F5B\uFF0C\u8FD8\u5728\u4E61\u91CC\u63D2\u79E7\u79CD\u7530\uFF0C\u4E00\u5BB6\u4E09\u53E3\u6625\u8015\u79CB\u6536\uFF0C\u5176\u4E50\u878D\u878D\uFF0C\u751F\u6D3B\u4E5F\u522B\u6709\u4E00\u756A\u7CBE\u5F69\u3002\u8BB0\u5F97\u90A3\u662F\u4E00\u4E2A\u9EC4\u660F\u508D\u665A\uFF0C\u6211\u548C\u6BCD\u4EB2\u5728\u5BB6\u4E2D\u70E7\u706B\u505A\u996D\uFF0C\u7236\u4EB2\u5E26\u56DE\u4E00\u9A91\u9A6C\u7537\u5B50\u3002\u7537\u5B50\u6EE1\u8EAB\u5C18\u571F\uFF0C\u4E00\u8138\u75B2\u60EB\uFF0C\u4E0D\u8FC7\u8BF4\u4E5F\u5947\u602A\uFF0C\u8FD9\u7537\u5B50\u957F\u7684\u597D\u751F\u79C0\u6C14\u3002\u7ECF\u7236\u4EB2\u4E00\u756A\u89E3\u91CA\uFF0C\u539F\u6765\u662F\u4E00\u4E2A\u8DEF\u8FC7\uFF0C\u51C6\u5907\u53BB\u53C2\u519B\u7684\u9752\u5E74\uFF0C\u8DEF\u4E0A\u56E0\u4E3A\u9A91\u9A6C\u98A0\u7C38\uFF0C\u6454\u4F24\u4E86\u5DE6\u817F\uFF0C\u7236\u4EB2\u89C1\u5176\u5728\u6751\u53E3\u5750\u7740\uFF0C\u4E0A\u524D\u8BE2\u95EE\u540E\uFF0C\u9080\u5176\u5728\u5BB6\u4F11\u517B\u4E24\u65E5\uFF0C\u5948\u4F55\u7537\u5B50\u6709\u4F24\u5728\u8EAB\uFF0C\u76DB\u60C5\u96BE\u5374\uFF0C\u4FBF\u548C\u7236\u4EB2\u6765\u5230\u5BB6\u4E2D\u505A\u5BA2\u4F11\u517B\u201D\u3002</p><p>\u8BF4\u5230\u7740\uFF0C\u5E08\u5085\u4E00\u8138\u56DE\u5FC6\u4E4B\u8272\uFF0C\u5C0F\u548C\u5C1A\u9ED8\u9ED8\u4E3A\u5E08\u5085\u7AEF\u6765\u4E00\u676F\u8336\u6C34\uFF0C\u548C\u725B\u6653\u5E76\u6392\u5750\u5728\u5E08\u5085\u5BF9\u9762\uFF0C\u6EE1\u773C\u671F\u5F85\u5E08\u5085\u7EE7\u7EED\u8BB2\u6545\u4E8B\u3002</p><p>\u5E08\u5085\u770B\u4E86\u8FD9\u4E24\u597D\u5947\u5F92\u5F1F\u4E00\u773C\uFF0C\u7EE7\u7EED\u8BF4\uFF1A\u201C\u7537\u5B50\u6765\u5230\u5BB6\u4E2D\u4F4F\u5728\u504F\u623F\uFF0C\u524D\u4E24\u5929\u56E0\u4E3A\u817F\u811A\u4E0D\u4FBF\uFF0C\u9664\u4E86\u5403\u996D\u4FBF\u4E00\u76F4\u5F85\u5728\u623F\u95F4\u4E0D\u51FA\u95E8\u3002\u7B2C\u4E09\u5929\u508D\u665A\u548C\u7236\u4EB2\u52A1\u519C\u7ED3\u675F\uFF0C\u56DE\u5230\u5BB6\u4E2D\uFF0C\u53D1\u73B0\u90A3\u7537\u5B50\u5DF2\u7ECF\u4E0D\u89C1\uFF0C\u53CD\u800C\u6709\u4E00\u540D\u7A7F\u7740\u7D20\u8863\uFF0C\u957F\u76F8\u6E05\u79C0\u7684\u59D1\u5A18\u5728\u548C\u6BCD\u4EB2\u6709\u8BF4\u6709\u7B11\u3002\u7ECF\u8FC7\u4E00\u756A\u8BE2\u95EE\uFF0C\u90A3\u7537\u5B50\u5C45\u7136\u662F\u5973\u513F\u8EAB\uFF0C\u8FD9\u53EF\u628A\u6211\u548C\u7236\u4EB2\u60CA\u4E86\u4E00\u4E0B\u3002\u90A3\u65F6\u7236\u4EB2\u867D\u6CA1\u8BFB\u8FC7\u4E66\uFF0C\u4F46\u4E5F\u4E0D\u662F\u591A\u5634\u4E4B\u4EBA\uFF0C\u6240\u4EE5\u5F53\u65F6\u5728\u8868\u73B0\u51FA\u4E00\u5239\u60CA\u8BB6\u4E4B\u540E\uFF0C\u4FBF\u6062\u590D\u5982\u521D\uFF0C\u6CA1\u6709\u591A\u95EE\u4EC0\u4E48\uFF0C\u4F46\u6211\u60F3\u540E\u9762\u6BCD\u4EB2\u5E94\u8BE5\u7ED9\u7236\u4EB2\u89E3\u91CA\u4E86\u7F18\u7531\u3002\u5F80\u540E\u51E0\u5929\uFF0C\u8FD9\u5973\u5B50\u5F00\u59CB\u5E2E\u5BB6\u91CC\u5206\u62C5\u8D77\u4E86\u519C\u6D3B\uFF0C\u6D17\u8863\u505A\u996D\uFF0C\u987A\u4FBF\u4E5F\u5F00\u59CB\u7ED9\u6211\u8F85\u5BFC\u529F\u8BFE\uFF0C\u6559\u6211\u8BC6\u5B57\u3002</p><p>\u8FD9\u6837\u7684\u65E5\u5B50\u6301\u7EED\u4E86\u5927\u6982\u5927\u534A\u4E2A\u6708\uFF0C\u8FD9\u671F\u95F4\u6BCD\u4EB2\u548C\u7236\u4EB2\u8FD8\u62C5\u5F53\u8D77\u4E86\u5A92\u4EBA\u4F3C\u7684\uFF0C\u5C3D\u529B\u5728\u64AE\u5408\u6211\u548C\u8FD9\u59D1\u5A18\uFF0C\u7279\u522B\u662F\u6BCD\u4EB2\uFF0C\u8868\u73B0\u7684\u5341\u5206\u559C\u6B22\u3002\u90A3\u65F6\u7684\u6211\uFF0C\u56E0\u4E3A\u60C5\u7AA6\u521D\u5F00\uFF0C\u5916\u52A0\u671D\u5915\u76F8\u5904\uFF0C\u771F\u7684\u5BF9\u5979\u4EA7\u751F\u4E86\u4E00\u79CD\u83AB\u540D\u7684\u60C5\u612B\u201D\u3002\u5E08\u5085\u8BF4\u5230\u8FD9\uFF0C\u505C\u4E86\u4E0B\u6765\uFF0C\u7AEF\u8D77\u8336\u6C34\u559D\u4E86\u4E00\u53E3\u3002</p><p>\u725B\u6653\u548C\u5C0F\u548C\u5C1A\u53EF\u6025\u574F\u4E86\uFF0C\u8FDE\u5FD9\u95EE\u9053\uFF1A\u201C\u5E08\u5085\uFF0C\u90A3\u662F\u4EC0\u4E48\u611F\u89C9\u554A\uFF1F\u201D</p><p>\u5E08\u5085\u653E\u4E0B\u8336\u676F\uFF0C\u62AC\u5934\u671B\u7740\u623F\u6881\uFF0C\u6C89\u601D\u4E86\u4E00\u4F1A\u8BF4\uFF1A\u201C\u671D\u5915\u6240\u60F3\uFF0C\u591C\u4E0D\u80FD\u5BD0\uFF0C\u4E00\u65E5\u4E0D\u89C1\uFF0C\u5982\u9694\u4E09\u79CB\u3002\u73B0\u5728\u60F3\u60F3\uFF0C\u53EF\u80FD\u90A3\u5C31\u662F\u5C18\u4E16\u5411\u5F80\u7684\u559C\u6B22\u548C\u7231\u60C5\u3002\u4F46\u597D\u666F\u4E0D\u957F\uFF0C\u67D0\u5929\u6E05\u6668\u4E00\u65E9\uFF0C\u5979\u4FBF\u6084\u6084\u9A91\u9A6C\u79BB\u5F00\uFF0C\u79BB\u5F00\u65F6\u7559\u4E0B\u4E00\u5C01\u4E66\u4FE1\uFF0C\u548C\u4E00\u5757\u7389\u624B\u956F\u201D\u3002\u5E08\u5085\u8BF4\u7740\uFF0C\u4ECE\u6000\u91CC\u62FF\u51FA\u4E00\u5757\u7EA2\u5E03\uFF0C\u6253\u5F00\u4EE5\u540E\u91CC\u9762\u662F\u4E00\u5757\u54C1\u76F8\u4E0D\u9519\u7684\u7389\u624B\u956F\uFF0C\u770B\u7740\u8FD9\u5757\u624B\u956F\uFF0C\u5E08\u5085\u5F00\u59CB\u6C89\u9ED8\u4E0D\u8BED\u3002</p><p>\u5F92\u5F1F\u4EEC\u53EF\u4E0D\u7136\uFF0C\u5341\u5206\u7740\u6025\uFF0C\u8BE2\u95EE\u5E08\u5085\uFF1A\u201C\u5E08\u5085\u5E08\u5085\uFF0C\u4FE1\u4E0A\u5199\u7684\u5565\uFF1F\u540E\u9762\u53C8\u600E\u4E48\u4E86\uFF1F\u201D</p><p>\u5E08\u5085\u53F9\u606F\u4E86\u4E00\u58F0\uFF0C\u8BF4\uFF1A\u201C\u90A3\u65F6\u5B57\u8FD8\u8BA4\u4E0D\u4E86\u51E0\u4E2A\uFF0C\u53EA\u8BB0\u5F97\u6700\u540E\u51E0\u884C\uFF0C\u548C\u5979\u7684\u540D\u5B57\u201D\u3002</p><p>\u201C\u662F\u4EC0\u4E48\uFF1F\u201D\u725B\u6653\u95EE</p><p>\u201C\u66FF\u7236\u4ECE\u519B\uFF0C\u6709\u7F18\u518D\u4F1A\uFF01\u6728\u5170\u7559\u2026\u2026\u201D</p><h2 id="\u5154\u5B50\u548C\u72D0\u72F8" tabindex="-1"><a class="header-anchor" href="#\u5154\u5B50\u548C\u72D0\u72F8" aria-hidden="true">#</a> \u5154\u5B50\u548C\u72D0\u72F8</h2><p>\u4ECA\u5929\u7684\u5C0F\u5154\u5B50\u5FC3\u60C5\u5341\u5206\u7684\u5F00\u5FC3\uFF0C\u56E0\u4E3A\u5979\u83B7\u5F97\u4E86\u68EE\u6797\u91CC\u7814\u7A76\u6BD4\u8D5B\u7B2C\u4E00\u540D\u5728\u56DE\u5BB6\u7684\u8DEF\u4E0A\uFF0C\u4E5F\u628A\u60C5\u7EEA\u8868\u73B0\u5728\u81EA\u5DF1\u7684\u52A8\u4F5C\u5F53\u4E2D\uFF0C\u8E66\u8E66\u8DF3\u8DF3\uFF0C\u5341\u5206\u597D\u770B\u3002</p><p>\u56DE\u5BB6\u7684\u8DEF\u4E0A\uFF0C\u8DEF\u8FC7\u5C0F\u72D0\u72F8\u5BB6\uFF0C\u5C0F\u767D\u5154\u7279\u5730\u8DD1\u53BB\u60F3\u628A\u8FD9\u4E2A\u597D\u6D88\u606F\u5206\u4EAB\u7ED9\u5C0F\u72D0\u72F8\u3002</p><p>\u6572\u4E86\u534A\u5929\u7684\u95E8\uFF0C\u5C0F\u767D\u5154\u53D1\u73B0\u5C0F\u72D0\u72F8\u4E0D\u5728\u5BB6\uFF0C\u8DEF\u8FC7\u7684\u5927\u8C61\u4F2F\u4F2F\u770B\u89C1\u5C0F\u767D\u5154\u5728\u6572\u95E8\uFF0C\u544A\u8BC9\u5C0F\u767D\u5154\u8BF4\uFF0C\u5C0F\u72D0\u72F8\u53BB\u68EE\u6797\u91CC\u6458\u6843\u5B50\u53BB\u4E86\uFF0C\u665A\u4E0A\u624D\u4F1A\u56DE\u6765\uFF0C\u5C0F\u767D\u5154\u6709\u4E9B\u5931\u671B\uFF0C\u8C22\u8FC7\u5927\u8C61\u4F2F\u4F2F\u540E\u4FBF\u56DE\u5BB6\u4E86\u3002</p><p>\u5C0F\u767D\u5154\u53EF\u559C\u6B22\u5C0F\u72D0\u72F8\u4E86\uFF0C\u800C\u4E14\u559C\u6B22\u4E86\u597D\u4E45\uFF0C\u53EF\u662F\u5C0F\u767D\u5154\u662F\u4E00\u53EA\u5BB3\u7F9E\u7684\u5154\u5B50\uFF0C\u6240\u4EE5\u4E00\u76F4\u4E0D\u6562\u8868\u8FBE\u81EA\u5DF1\u7684\u5FC3\u58F0\u3002\u53EF\u4ECA\u5929\uFF0C\u662F\u81EA\u5DF1\u5F97\u5956\u7684\u597D\u65E5\u5B50\uFF0C\u5C0F\u767D\u5154\u89C9\u5F97\u5E94\u8BE5\u544A\u8BC9\u5C0F\u72D0\u72F8\uFF0C\u4E5F\u8BA9\u81EA\u5DF1\u559C\u6B22\u7684\u4EBA\u9AD8\u5174\u9AD8\u5174\u3002</p><p>\u65F6\u95F4\u6765\u5230\u4E86\u665A\u996D\u540E\uFF0C\u7830\u7830\u7830\uFF01\u4E00\u9635\u6572\u95E8\u58F0\u4F20\u6765\uFF0C\u5C0F\u767D\u5154\u8D76\u7D27\u53BB\u5F00\u95E8\uFF0C\u4E00\u5F00\u95E8\u53D1\u73B0\u5C45\u7136\u662F\u5C0F\u72D0\u72F8\uFF0C\u53EF\u628A\u5C0F\u767D\u5154\u60CA\u559C\u574F\u4E86\uFF0C\u4EE5\u81F3\u4E8E\u4E00\u65F6\u95F4\u8BF4\u4E0D\u51FA\u8BDD\u6765\u3002</p><p>\u201C\u542C\u5927\u8C61\u4F2F\u4F2F\u8BF4\uFF0C\u4F60\u4E0B\u5348\u627E\u6211\u4E86\uFF1F\u68EE\u6797\u91CC\u7684\u6843\u5B50\u719F\u4E86\uFF0C\u6211\u548C\u5C0F\u4F19\u4F34\u4EEC\u53BB\u68EE\u6797\u91CC\u6458\u6843\u5B50\u53BB\u4E86\uFF0C\u6211\u5C1D\u4E86\u4E0B\uFF0C\u53EF\u597D\u5403\u4E86\uFF0C\u7ED9\u4F60\u4E5F\u62FF\u4E86\u4E00\u70B9\u3002\u201D\u5C0F\u72D0\u72F8\u770B\u7740\u5C0F\u767D\u5154\u4E0D\u8BF4\u8BDD\uFF0C\u4E8E\u662F\u63D0\u524D\u5F00\u53E3\u8BF4\uFF0C\u5C0F\u767D\u5154\u4ED4\u7EC6\u4E00\u770B\uFF0C\u624D\u53D1\u89C9\u5C0F\u72D0\u72F8\u62B1\u4E86\u4E00\u5806\u6843\u5B50\u5462\uFF0C\u4E8E\u662F\u8FDE\u5FD9\u62DB\u547C\u5C0F\u72D0\u72F8\u8FDB\u5C4B\u91CC\u3002</p><p>\u5C0F\u72D0\u72F8\u6765\u5230\u5C4B\u91CC\u505A\u597D\u540E\uFF0C\u5C0F\u767D\u5154\u7ED9\u5C0F\u72D0\u72F8\u8BF4\u4E86\u597D\u591A\u597D\u591A\u8BDD\uFF0C\u6709\u81EA\u5DF1\u6BD4\u8D5B\u7684\u7CBE\u5F69\u7247\u6BB5\uFF0C\u4E5F\u6709\u81EA\u5DF1\u5F97\u5956\u7684\u60CA\u559C\u5FC3\u60C5\u2026\u2026</p><p>\u5C31\u8FD9\u6837\u4E0D\u77E5\u4E0D\u89C9\uFF0C\u5DF2\u7ECF\u5230\u4E86\u6DF1\u591C\uFF0C\u86D0\u86D0\u7684\u58F0\u97F3\u6C89\u6D78\u4E86\u6574\u4E2A\u68EE\u6797\uFF0C\u4E5F\u5305\u62EC\u5C0F\u5154\u5B50\u7684\u5BB6\u3002\u8FD9\u4E2A\u65F6\u5019\uFF0C\u5C0F\u767D\u5154\u624D\u53D1\u73B0\u81EA\u5DF1\u7ED9\u5C0F\u72D0\u72F8\u5C45\u7136\u8BB2\u4E86\u8FD9\u4E48\u4E45\uFF0C\u7ADF\u6CA1\u6709\u53D1\u73B0\u65F6\u95F4\u8FC7\u5F97\u8FD9\u4E48\u5FEB\uFF0C\u800C\u4E14\u5C0F\u72D0\u72F8\u4E5F\u8BA4\u8BA4\u771F\u771F\u7684\u5145\u5F53\u7740\u4E00\u4E2A\u8046\u542C\u8005\u3002</p><p>\u5C0F\u767D\u5154\u7A81\u7136\u89C9\u5F97\u4E0D\u597D\u610F\u601D\u4E86\uFF0C\u56E0\u4E3A\u4E00\u76F4\u662F\u81EA\u5DF1\u5728\u8BB2\uFF0C\u4E8E\u662F\u8138\u77AC\u95F4\u5C31\u7EA2\u4E86\u8D77\u6765\u3002</p><p>\u5C0F\u72D0\u72F8\u770B\u5230\u597D\u5947\u7684\u95EE\uFF1A\u201C\u600E\u4E48\u4E86\u5C0F\u767D\u5154\uFF1F\u600E\u4E48\u8138\u7EA2\u4E86\uFF1F\u201D</p><p>\u201C\u6211\u90FD\u4E0D\u77E5\u9053\u8BB2\u4E86\u8FD9\u4E48\u4E45\u4E86\uFF0C\u5BF9\u4E0D\u8D77\u5C0F\u72D0\u72F8\uFF0C\u90FD\u6CA1\u6709\u5728\u610F\u4F60\u7684\u611F\u53D7\u3002\u201D\u5C0F\u767D\u5154\u7F9E\u7EA2\u7740\u8138\u8BF4\u7740\u3002</p><p>\u5C0F\u72D0\u72F8\u8FDE\u5FD9\u9053\uFF1A\u201C\u600E\u4E48\u4F1A\u5462\uFF01\u4F60\u8BB2\u7684\u592A\u6709\u610F\u601D\u4E86\uFF0C\u771F\u53EF\u60DC\u6CA1\u53BB\u73B0\u573A\u770B\uFF0C\u4E0D\u7136\u66F4\u7CBE\u5F69\uFF01\u800C\u4E14\u2026\u2026\u800C\u4E14\u2026\u2026\u201D\u5C0F\u72D0\u72F8\u7A81\u7136\u8BF4\u8BDD\u72B9\u8C6B\u4E86\u8D77\u6765\u3002</p><p>\u201C\u800C\u4E14\u4EC0\u4E48\uFF1F\u201D\u5C0F\u767D\u5154\u76EF\u7740\u5C0F\u72D0\u72F8\u597D\u5947\u7684\u95EE\u3002</p><p>\u201C\u800C\u4E14\u542C\u81EA\u5DF1\u559C\u6B22\u7684\u4EBA\u8BB2\uFF0C\u4F1A\u66F4\u52A0\u6709\u610F\u601D\uFF01\u201D\u5C0F\u72D0\u72F8\u6EE1\u773C\u6DF1\u60C5\u7684\u76EF\u7740\u5C0F\u767D\u5154\u56DE\u7B54\u8BF4\u3002</p><p>\u201C\u554A\uFF01\u201D\u5C0F\u767D\u5154\u60CA\u8BB6\u7684\u8BF4\u4E86\u4E00\u53E5\uFF0C\u201C\u4F60\u8BF4\u4EC0\u4E48\uFF1F\u201D</p><p>\u201C\u6211\u559C\u6B22\u4F60\u5440\uFF0C\u5C0F\u767D\u5154\uFF0C\u800C\u4E14\u559C\u6B22\u597D\u4E45\u4E86\uFF01\u563B\u563B\uFF01\u201D\u5C0F\u72D0\u72F8\u4E0D\u597D\u610F\u601D\u7684\u770B\u7740\u5C0F\u767D\u5154\u2026\u2026</p><h2 id="\u62B1\u62B1" tabindex="-1"><a class="header-anchor" href="#\u62B1\u62B1" aria-hidden="true">#</a> \u62B1\u62B1</h2><p>\u5C0F\u72D0\u72F8\u4ECA\u5929\u548C\u5C0F\u5154\u5B50\u5435\u67B6\u4E86\uFF0C\u539F\u56E0\u662F\u56E0\u4E3A\uFF0C\u660E\u660E\u4ECA\u5929\u5C31\u662F\u4E00\u5E74\u4E00\u6B21\u7684\u60C5\u4EBA\u8282\uFF0C\u53EF\u662F\u5C0F\u72D0\u72F8\u53EA\u7ED9\u5C0F\u767D\u5154\u53D1\u4E86\u4E2A\u7EA2\u5305\uFF0C\u8FD9\u8BA9\u5C0F\u5154\u5B50\u89C9\u5F97\u5C0F\u72D0\u72F8\u4E00\u70B9\u90FD\u4E0D\u4E0A\u5FC3\u3002</p><p>\u521A\u5F00\u59CB\uFF0C\u5176\u5B9E\u90FD\u6CA1\u6709\u5435\u67B6\uFF0C\u53EA\u662F\u5C0F\u5154\u5B50\u7ED9\u5C0F\u72D0\u72F8\u62B1\u6028\u4E86\u4E00\u4E0B\u3002\u4F46\u5C0F\u72D0\u72F8\u4E5F\u89C9\u5F97\u59D4\u5C48\u554A\uFF0C\u56E0\u4E3A\u81EA\u5DF1\u6709\u8BB0\u5F97\u8FD9\u662F\u4E2A\u7279\u522B\u7684\u65E5\u5B50\uFF0C\u4E5F\u53D1\u4E86\u60C5\u4EBA\u8282\u7EA2\u5305\u554A\u3002</p><p>\u4E8E\u662F\uFF0C\u5C31\u548C\u5C0F\u5154\u5B50\u8BB2\u8D77\u4E86\u9053\u7406\u3002\u8C08\u604B\u7231\u7684\u5C0F\u52A8\u7269\u4EEC\u90FD\u77E5\u9053\uFF0C\u5973\u751F\u662F\u7528\u6765\u54C4\u5F97\uFF0C\u600E\u4E48\u53EF\u4EE5\u7528\u6765\u8BB2\u9053\u7406\u5462?</p><p>\u4E8E\u662F\u8BF4\u7740\u8BF4\u7740\uFF0C\u5C0F\u72D0\u72F8\u5C31\u548C\u5C0F\u5154\u5B50\u5435\u4E86\u8D77\u6765\uFF0C\u5435\u4E86\u4E00\u4F1A\uFF0C\u5C0F\u72D0\u72F8\u5C31\u51FA\u4E86\u5BB6\u95E8\uFF0C\u72EC\u81EA\u51B7\u9759\u53BB\u4E86\u3002</p><p>\u5C31\u8FD9\u6837\uFF0C\u8FC7\u4E86\u4E00\u4E2A\u5C0F\u65F6\uFF0C\u5C0F\u72D0\u72F8\u7684\u6C14\u4E5F\u6D88\u4E86\uFF0C\u4E5F\u60F3\u4E86\u60F3\u81EA\u5DF1\u4E0D\u5E94\u8BE5\u548C\u5C0F\u5154\u5B50\u5435\u67B6\uFF0C\u5C31\u60F3\u7740\u8981\u53BB\u627E\u5C0F\u5154\u5B50\u9053\u6B49\u3002</p><p>\u4F46\u5C0F\u72D0\u72F8\u4E00\u60F3\uFF0C\u8FD9\u6837\u597D\u50CF\u5F88\u6CA1\u7528\u9762\u5B50\uFF0C\u4E8E\u662F\u53C8\u5FCD\u4F4F\u4E86\u3002</p><p>\u53C8\u8FC7\u4E86\u4E00\u4E2A\u5C0F\u65F6\uFF0C\u5C0F\u72D0\u72F8\u5B9E\u5728\u5FCD\u4E0D\u4F4F\u4E86\uFF0C\u4E8E\u662F\u6765\u5230\u5BB6\u95E8\u53E3\uFF0C\u558A\u7740\u5C0F\u5154\u5B50\uFF1A\u201C\u5C0F\u5154\u5B50\uFF0C\u4F60\u51FA\u6765\uFF0C\u6211\u6709\u8BDD\u7ED9\u4F60\u8BF4\u3002\u201D</p><p>\u4E0D\u4E00\u4F1A\uFF0C\u5C0F\u5154\u5B50\u6253\u5F00\u623F\u95E8\uFF0C\u770B\u5230\u662F\u5C0F\u72D0\u72F8\uFF0C\u4FBF\u95EE\uFF1A\u201C\u51FA\u6765\u5E72\u4EC0\u4E48\uFF1F\u5BB6\u91CC\u8BF4\u3002\u201D</p><p>\u201D\u4E0D\u884C\uFF0C\u8981\u51FA\u6765\u8BF4\uFF01\u201C\u5C0F\u72D0\u72F8\u6267\u62D7\u7684\u8BF4\u3002</p><p>\u770B\u7740\u6267\u7740\u7684\u5C0F\u72D0\u72F8\uFF0C\u5C0F\u767D\u5154\u8FD8\u662F\u5FCD\u4E0D\u4F4F\u51FA\u4E86\u95E8\uFF0C\u6765\u5230\u5C0F\u72D0\u72F8\u9762\u524D\u3002</p><p>\u5C0F\u72D0\u72F8\u770B\u7740\u5C0F\u5154\u5B50\u8BF4\uFF1A\u201D\u56E0\u4E3A\uFF0C\u6211\u4EEC\u5728\u5BB6\u91CC\u95F9\u63B0\u4E86\uFF0C\u6240\u6709\u4E0D\u80FD\u5728\u5BB6\u91CC\u8BF4\uFF0C\u8981\u51FA\u6765\u8BF4\u3002\u201C</p><p>\u4E8E\u662F\u5C0F\u72D0\u72F8\u8BA4\u8BA4\u771F\u771F\u7684\u7ED9\u5C0F\u5154\u5B50\u9053\u4E86\u6B49\uFF0C\u5C0F\u5154\u5B50\u770B\u7740\u81EA\u8D23\u7684\u5C0F\u72D0\u72F8\uFF0C\u4E5F\u8BF4\u4E86\u81EA\u5DF1\u4E0D\u8BE5\u4EFB\u6027\u3002</p><p>\u901A\u8FC7\u4ECA\u5929\u7684\u4E89\u5435\uFF0C\u5C0F\u72D0\u72F8\u548C\u5C0F\u5154\u5B50\u660E\u767D\u4E86\uFF0C\u5BB6\u4E0D\u662F\u7528\u6765\u5435\u67B6\u7684\u5730\u65B9\uFF0C\u800C\u662F\u5206\u4EAB\u548C\u751F\u6D3B\u7684\u5C0F\u7A9D\u3002</p><p>\u4ED6\u4EEC\u7EA6\u5B9A\uFF0C\u4EE5\u540E\u9047\u5230\u95EE\u9898\u8981\u5C3D\u91CF\u597D\u597D\u5546\u91CF\uFF0C\u51CF\u5C11\u4E89\u5435\u3002</p><p>\u5C0F\u72D0\u72F8\u548C\u5C0F\u5154\u5B50\u4E92\u76F8\u9053\u5B8C\u6B49\u540E\uFF0C\u5C0F\u72D0\u72F8\u7ED9\u4E86\u5C0F\u5154\u5B50\u4E00\u4E2A\u5927\u5927\u7684\u5145\u6EE1\u7231\u7684\u62B1\u62B1\u3002</p><p>\u56E0\u4E3A\u5C0F\u72D0\u72F8\u77E5\u9053\uFF0C\u7231\u4EBA\u4E4B\u95F4\u6CA1\u6709\u4EC0\u4E48\u95EE\u9898\u662F\u4E0D\u80FD\u7528\u4E00\u4E2A\u62B1\u62B1\u89E3\u51B3\u7684\u3002</p><p>\u5982\u679C\u6709\uFF0C\u90A3\u5C31\u4E24\u4E2A......</p><!--]-->`);
+}
+const _sfc_setup$O = _sfc_main$O.setup;
+_sfc_main$O.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/\u6545\u4E8B/story.html.vue");
+  return _sfc_setup$O ? _sfc_setup$O(props, ctx) : void 0;
+};
+var story_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$O, [["ssrRender", _sfc_ssrRender$A]]);
+var story_html$2 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": story_html$1
+});
+const _sfc_main$N = {};
+function _sfc_ssrRender$z(_ctx, _push, _parent, _attrs) {
+  _push(`<!--[--><h2 id="\u6559\u7A0B" tabindex="-1"><a class="header-anchor" href="#\u6559\u7A0B" aria-hidden="true">#</a> \u6559\u7A0B</h2><h2 id="\u6559\u7A0B-1" tabindex="-1"><a class="header-anchor" href="#\u6559\u7A0B-1" aria-hidden="true">#</a> \u6559\u7A0B</h2><!--]-->`);
+}
+const _sfc_setup$N = _sfc_main$N.setup;
+_sfc_main$N.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/\u6559\u7A0B/text.html.vue");
+  return _sfc_setup$N ? _sfc_setup$N(props, ctx) : void 0;
+};
+var text_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$N, [["ssrRender", _sfc_ssrRender$z]]);
+var text_html$2 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": text_html$1
+});
+const _sfc_main$M = {};
+function _sfc_ssrRender$y(_ctx, _push, _parent, _attrs) {
+  _push(`<!--[--><h2 id="_007" tabindex="-1"><a class="header-anchor" href="#_007" aria-hidden="true">#</a> 007</h2><p>\u70BA\u4E86\u6B7B\u800C\u6D3B</p><!--]-->`);
+}
+const _sfc_setup$M = _sfc_main$M.setup;
+_sfc_main$M.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/\u968F\u7B14/reflection.html.vue");
+  return _sfc_setup$M ? _sfc_setup$M(props, ctx) : void 0;
+};
+var reflection_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$M, [["ssrRender", _sfc_ssrRender$y]]);
+var reflection_html$2 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": reflection_html$1
+});
+const _sfc_main$L = {};
+function _sfc_ssrRender$x(_ctx, _push, _parent, _attrs) {
   const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
   _push(`<!--[--><h2 id="\u8BA4\u8BC6git" tabindex="-1"><a class="header-anchor" href="#\u8BA4\u8BC6git" aria-hidden="true">#</a> \u8BA4\u8BC6git</h2><p>\u9996\u5148\u6211\u4EEC\u6765\u4E86\u89E3\u4E00\u4E0BGit\u662F\u5982\u4F55\u5DE5\u4F5C\u7684\uFF1A</p><p>\u53EF\u4EE5\u770B\u5230\uFF0C\u5B83\u5927\u81F4\u5206\u4E3A4\u4E2A\u677F\u5757\uFF1A</p><ul><li>\u5DE5\u4F5C\u76EE\u5F55\uFF1A\u5B58\u653E\u6211\u4EEC\u6B63\u5728\u5199\u7684\u4EE3\u7801\uFF08\u5F53\u6211\u4EEC\u65B0\u7248\u672C\u5F00\u53D1\u5B8C\u6210\u4E4B\u540E\uFF0C\u5C31\u53EF\u4EE5\u8FDB\u884C\u65B0\u7248\u672C\u7684\u63D0\u4EA4\uFF09</li><li>\u6682\u5B58\u533A\uFF1A\u6682\u65F6\u4FDD\u5B58\u5F85\u63D0\u4EA4\u7684\u5185\u5BB9\uFF08\u65B0\u7248\u672C\u63D0\u4EA4\u540E\u4F1A\u5B58\u653E\u5230\u672C\u5730\u4ED3\u5E93\uFF09</li><li>\u672C\u5730\u4ED3\u5E93\uFF1A\u4F4D\u4E8E\u6211\u4EEC\u7535\u8111\u4E0A\u7684\u4E00\u4E2A\u7248\u672C\u63A7\u5236\u4ED3\u5E93\uFF08\u5B58\u653E\u7684\u5C31\u662F\u5F53\u524D\u9879\u76EE\u5404\u4E2A\u7248\u672C\u4EE3\u7801\u7684\u589E\u5220\u4FE1\u606F\uFF09</li><li>\u8FDC\u7A0B\u4ED3\u5E93\uFF1A\u4F4D\u4E8E\u670D\u52A1\u5668\u4E0A\u7684\u7248\u672C\u63A7\u5236\u4ED3\u5E93\uFF08\u670D\u52A1\u5668\u4E0A\u7684\u7248\u672C\u4FE1\u606F\u53EF\u4EE5\u7531\u672C\u5730\u4ED3\u5E93\u63A8\u9001\u4E0A\u53BB\uFF0C\u4E5F\u53EF\u4EE5\u4ECE\u670D\u52A1\u5668\u6293\u53D6\u5230\u672C\u5730\u4ED3\u5E93\uFF09</li></ul><p>\u5B83\u662F\u4E00\u4E2A\u5206\u5E03\u5F0F\u7684\u63A7\u5236\u7CFB\u7EDF\uFF0C\u56E0\u6B64\u4E00\u822C\u60C5\u51B5\u4E0B\u6211\u4EEC\u6BCF\u4E2A\u4EBA\u7684\u7535\u8111\u4E0A\u90FD\u6709\u4E00\u4E2A\u672C\u5730\u4ED3\u5E93\uFF0C\u7531\u5927\u5BB6\u5171\u540C\u5411\u8FDC\u7A0B\u4ED3\u5E93\u53BB\u63A8\u9001\u7248\u672C\u8FED\u4EE3\u4FE1\u606F\u3002</p><h2 id="\u5B89\u88C5git" tabindex="-1"><a class="header-anchor" href="#\u5B89\u88C5git" aria-hidden="true">#</a> \u5B89\u88C5Git</h2><p>\u9996\u5148\u8BF7\u524D\u5F80Git\u5B98\u7F51\u53BB\u4E0B\u8F7D\u6700\u65B0\u7684\u5B89\u88C5\u5305\uFF1A<a href="https://git-scm.com/download/win" target="_blank" rel="noopener noreferrer">https://git-scm.com/download/win`);
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
@@ -5285,20 +5781,20 @@ hint: See the <span class="token string">&#39;Note about fast-forwards&#39;</spa
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><p>\u4E00\u65E6\u4E00\u4E2A\u672C\u5730\u4ED3\u5E93\u63A8\u9001\u4E86\u4EE3\u7801\uFF0C\u90A3\u4E48\u53E6\u4E00\u4E2A\u672C\u5730\u4ED3\u5E93\u7684\u63A8\u9001\u4F1A\u88AB\u62D2\u7EDD\uFF0C\u539F\u56E0\u662F\u5F53\u524D\u6587\u4EF6\u5DF2\u7ECF\u88AB\u5176\u4ED6\u7684\u63A8\u9001\u7ED9\u4FEE\u6539\u4E86\uFF0C\u6211\u4EEC\u8FD9\u8FB9\u76F8\u5F53\u4E8E\u662F\u53E6\u4E00\u4E2A\u7248\u672C\uFF0C\u548C\u4E4B\u524D\u4E24\u4E2A\u5206\u652F\u5408\u5E76\u4E00\u6837\uFF0C\u4EA7\u751F\u4E86\u51B2\u7A81\uFF0C\u56E0\u6B64\u6211\u4EEC\u53EA\u80FD\u53BB\u89E3\u51B3\u51B2\u7A81\u95EE\u9898\u3002</p><p>\u5982\u679C\u8FDC\u7A0B\u4ED3\u5E93\u4E2D\u7684\u63D0\u4EA4\u548C\u672C\u5730\u4ED3\u5E93\u4E2D\u7684\u63D0\u4EA4\u6CA1\u6709\u53BB\u7F16\u5199\u540C\u4E00\u4E2A\u6587\u4EF6\uFF0C\u90A3\u4E48\u5C31\u53EF\u4EE5\u76F4\u63A5\u62C9\u53D6\uFF1A</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">git</span> pull \u8FDC\u7A0B\u4ED3\u5E93
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>\u62C9\u53D6\u540E\u4F1A\u81EA\u52A8\u8FDB\u884C\u5408\u5E76\uFF0C\u5408\u5E76\u5B8C\u6210\u4E4B\u540E\u6211\u4EEC\u518D\u63D0\u4EA4\u5373\u53EF\u3002</p><p>\u4F46\u662F\u5982\u679C\u4E24\u6B21\u63D0\u4EA4\u90FD\u4FEE\u6539\u4E86\u540C\u4E00\u4E2A\u6587\u4EF6\uFF0C\u90A3\u4E48\u5C31\u4F1A\u9047\u5230\u548C\u591A\u5206\u652F\u5408\u5E76\u4E00\u6837\u7684\u60C5\u51B5\uFF0C\u5728\u5408\u5E76\u65F6\u4F1A\u4EA7\u751F\u51B2\u7A81\uFF0C\u8FD9\u65F6\u5C31\u9700\u8981\u6211\u4EEC\u81EA\u5DF1\u53BB\u89E3\u51B3\u51B2\u7A81\u4E86\u3002</p><p>\u6211\u4EEC\u53EF\u4EE5\u5728IDEA\u4E2D\u6F14\u793A\u4E00\u4E0B\uFF0C\u5B9E\u9645\u5F00\u53D1\u573A\u666F\u4E0B\u53EF\u80FD\u4F1A\u9047\u5230\u7684\u95EE\u9898\u3002</p><p>\u7ED3\u675F\uFF01</p><!--]-->`);
 }
-const _sfc_setup$R = _sfc_main$R.setup;
-_sfc_main$R.setup = (props, ctx) => {
+const _sfc_setup$L = _sfc_main$L.setup;
+_sfc_main$L.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/git/01.git\u7248\u672C\u63A7\u5236.html.vue");
-  return _sfc_setup$R ? _sfc_setup$R(props, ctx) : void 0;
+  return _sfc_setup$L ? _sfc_setup$L(props, ctx) : void 0;
 };
-var _01_git_____html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$R, [["ssrRender", _sfc_ssrRender$D]]);
+var _01_git_____html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$L, [["ssrRender", _sfc_ssrRender$x]]);
 var _01_git_____html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _01_git_____html$1
 });
-const _sfc_main$Q = {};
-function _sfc_ssrRender$C(_ctx, _push, _parent, _attrs) {
+const _sfc_main$K = {};
+function _sfc_ssrRender$w(_ctx, _push, _parent, _attrs) {
   const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
   _push(`<!--[--><h1 id="linux" tabindex="-1"><a class="header-anchor" href="#linux" aria-hidden="true">#</a> Linux</h1><p>\u5B66\u4E60\u76EE\u6807</p><ol><li>\u6587\u4EF6\u64CD\u4F5C</li><li>\u76EE\u5F55\u7BA1\u7406</li><li>\u6587\u4EF6\u5C5E\u6027</li><li>Vim \u7F16\u8F91\u5668</li><li>\u8D26\u53F7\u7BA1\u7406</li><li>\u78C1\u76D8\u7BA1\u7406</li><li>\u6743\u9650\u7BA1\u7406</li></ol><h2 id="\u5B66\u524D\u5FC5\u770B" tabindex="-1"><a class="header-anchor" href="#\u5B66\u524D\u5FC5\u770B" aria-hidden="true">#</a> \u5B66\u524D\u5FC5\u770B</h2><p>\u76EE\u524D\u5E02\u9762\u4E0A\u8F83\u77E5\u540D\u7684\u53D1\u884C\u7248\u6709\uFF1AUbuntu\u3001RedHat\u3001CentOS\u3001Debian\u3001Fedora\u3001SuSE\u3001OpenSUSE\u3001Arch Linux\u3001SolusOS \u7B49\u3002</p><p>\u8FD9\u4E9B\u64CD\u4F5C\u7CFB\u7EDF\u90FD\u662F\u57FA\u4E8E Linux \u7684\u53D1\u884C\u7248\uFF0C\u6240\u4EE5 Linux \u662F\u5FC5\u987B\u5B66\u4E60\u7684\uFF0C\u4E0D\u7528\u7EA0\u7ED3\u662F Ubuntu \u6216\u8005 RedHat \u8FD8\u662F CentOS \u7B49\u3002</p><h2 id="\u5165\u95E8\u6982\u8FF0" tabindex="-1"><a class="header-anchor" href="#\u5165\u95E8\u6982\u8FF0" aria-hidden="true">#</a> \u5165\u95E8\u6982\u8FF0</h2><p>Linux \u5185\u6838\u6700\u521D\u53EA\u662F\u7531\u82AC\u5170\u4EBA\u6797\u7EB3\u65AF\xB7\u6258\u74E6\u5179\uFF08Linus Torvalds\uFF09\u5728\u8D6B\u5C14\u8F9B\u57FA\u5927\u5B66\u4E0A\u5B66\u65F6\u51FA\u4E8E\u4E2A\u4EBA\u7231\u597D\u800C\u7F16\u5199\u7684\u3002</p><p>Linux \u662F\u4E00\u5957\u514D\u8D39\u4F7F\u7528\u548C\u81EA\u7531\u4F20\u64AD\u7684\u7C7B Unix \u64CD\u4F5C\u7CFB\u7EDF\uFF0C\u662F\u4E00\u4E2A\u57FA\u4E8E POSIX\uFF08\u53EF\u79FB\u690D\u64CD\u4F5C\u7CFB\u7EDF\u63A5\u53E3\uFF09 \u548C UNIX \u7684\u591A\u7528\u6237\u3001\u591A\u4EFB\u52A1\u3001\u652F\u6301\u591A\u7EBF\u7A0B\u548C\u591A CPU \u7684\u64CD\u4F5C\u7CFB\u7EDF\u3002</p><p>Linux \u80FD\u8FD0\u884C\u4E3B\u8981\u7684 UNIX \u5DE5\u5177\u8F6F\u4EF6\u3001\u5E94\u7528\u7A0B\u5E8F\u548C\u7F51\u7EDC\u534F\u8BAE\u3002\u5B83\u652F\u6301 32 \u4F4D\u548C 64 \u4F4D\u786C\u4EF6\u3002Linux \u7EE7\u627F\u4E86 Unix \u4EE5\u7F51\u7EDC\u4E3A\u6838\u5FC3\u7684\u8BBE\u8BA1\u601D\u60F3\uFF0C\u662F\u4E00\u4E2A\u6027\u80FD\u7A33\u5B9A\u7684\u591A\u7528\u6237\u7F51\u7EDC\u64CD\u4F5C\u7CFB\u7EDF\u3002</p><ul><li>Linux \u53D1\u884C\u7248</li></ul><p><img src="https://mmbiz.qpic.cn/mmbiz_png/uJDAUKrGC7LDkhrDl4H9TqZhwyeNSeaNIyC5tbowflHyRITPKvgAySf3AZJibEUTrSo3fzRm85VDfInZ2olkIgg/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="alt \u56FE\u7247\u6765\u81EA\u72C2\u795E\u6559\u7A0B\uFF0C\u53EF\u81EA\u884C\u53BB\u67E5\u770B"></p><p>\u4ECA\u5929\u5404\u79CD\u573A\u5408\u90FD\u6709\u4F7F\u7528\u5404\u79CD Linux \u53D1\u884C\u7248\uFF0C\u4ECE\u5D4C\u5165\u5F0F\u8BBE\u5907\u5230\u8D85\u7EA7\u8BA1\u7B97\u673A\uFF0C\u5E76\u4E14\u5728\u670D\u52A1\u5668\u9886\u57DF\u786E\u5B9A\u4E86\u5730\u4F4D\uFF0C\u901A\u5E38\u670D\u52A1\u5668\u4F7F\u7528 LAMP\uFF08Linux + Apache + MySQL + PHP\uFF09\u6216 LNMP\uFF08Linux + Nginx+ MySQL + PHP\uFF09\u7EC4\u5408\u3002</p><h2 id="\u73AF\u5883\u642D\u5EFA-vmware-\u865A\u62DF\u673A\u5B89\u88C5" tabindex="-1"><a class="header-anchor" href="#\u73AF\u5883\u642D\u5EFA-vmware-\u865A\u62DF\u673A\u5B89\u88C5" aria-hidden="true">#</a> \u73AF\u5883\u642D\u5EFA\uFF08VMware \u865A\u62DF\u673A\u5B89\u88C5\uFF09</h2><p>Linux \u672C\u8EAB\u662F\u4E00\u4E2A\u64CD\u4F5C\u7CFB\uFF0C\u6240\u4EE5\u5B89\u88C5\u6BD4\u8F83\u9EBB\u70E6\u3002</p><p>\u4E24\u79CD\u65B9\u6CD5</p><ol><li>\u5B89\u88C5 CentOS\uFF08\u865A\u62DF\u673A\u5B89\u88C5\uFF0C\u8017\u8D44\u6E90\uFF09</li></ol><ul><li>\u5B89\u88C5 VMware \u865A\u62DF\u673A\u8F6F\u4EF6\uFF0C\u7136\u540E\u6253\u5F00\u6211\u4EEC\u7684\u955C\u50CF\u5373\u53EF\u4F7F\u7528\uFF01</li></ul><ol start="2"><li>\u8D2D\u4E70\u4E91\u670D\u52A1\u5668\uFF08\u6709\u94B1\u7684\u53EF\u4EE5\uFF0C\u63A5\u8FD1\u4F01\u4E1A\u73AF\u5883\uFF09</li></ol><ul><li><p>\u963F\u91CC\u4E91\u8D2D\u4E70\u670D\u52A1\u5668\uFF1Ahttps://www.aliyun.com/minisite/goods?userCode=0phtycgr</p></li><li><p>\u8D2D\u4E70\u5B8C\u6BD5\u540E\uFF0C\u83B7\u53D6\u670D\u52A1\u5668\u7684 ip \u5730\u5740\uFF0C\u91CD\u7F6E\u670D\u52A1\u5668\u5BC6\u7801\uFF0C\u5C31\u53EF\u4EE5\u8FDC\u7A0B\u767B\u5F55\u4E86</p></li></ul><blockquote><p>\u8FD9\u91CC\u901A\u8FC7 VMware \u865A\u62DF\u673A\u5B89\u88C5,\u8FD9\u662F\u5B66\u751F\u5E38\u7528\u7684\u65B9\u5F0F\uFF0C\u5948\u4F55\u6211\u6CA1\u94B1</p></blockquote><p>VMware \u5B98\u7F51\u94FE\u63A5<a href="https://www.vmware.com/cn.html" target="_blank" rel="noopener noreferrer">https://www.vmware.com/cn.html`);
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
@@ -5630,20 +6126,20 @@ pstree
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><h3 id="kill-9" tabindex="-1"><a class="header-anchor" href="#kill-9" aria-hidden="true">#</a> kill-9</h3><p>\u7ED3\u675F\u8FDB\u7A0B</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>kill-9 \u8FDB\u7A0Bid
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><h2 id="\u5B89\u88C5jdk" tabindex="-1"><a class="header-anchor" href="#\u5B89\u88C5jdk" aria-hidden="true">#</a> \u5B89\u88C5JDK</h2><p>\u6CE8\u610F\uFF1ACentOS\u7B49\u7CFB\u7EDF\u53EF\u80FD\u4F1A\u81EA\u5E26Openjdk\u73AF\u5883\uFF0C\u8F93\u5165\u547D\u4EE4<code>java -version</code>\u67E5\u770B\u662F\u5426\u5DF2\u7ECF\u6709\u5B89\u88C5\u6216\u81EA\u5E26</p><!--]-->`);
 }
-const _sfc_setup$Q = _sfc_main$Q.setup;
-_sfc_main$Q.setup = (props, ctx) => {
+const _sfc_setup$K = _sfc_main$K.setup;
+_sfc_main$K.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/Linux/01.Linux\u5165\u95E8.html.vue");
-  return _sfc_setup$Q ? _sfc_setup$Q(props, ctx) : void 0;
+  return _sfc_setup$K ? _sfc_setup$K(props, ctx) : void 0;
 };
-var _01_Linux___html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$Q, [["ssrRender", _sfc_ssrRender$C]]);
+var _01_Linux___html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$K, [["ssrRender", _sfc_ssrRender$w]]);
 var _01_Linux___html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _01_Linux___html$1
 });
-const _sfc_main$P = {};
-function _sfc_ssrRender$B(_ctx, _push, _parent, _attrs) {
+const _sfc_main$J = {};
+function _sfc_ssrRender$v(_ctx, _push, _parent, _attrs) {
   const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
   _push(`<!--[--><p>\u6570\u636E\u7B80\u5355\u6765\u8BF4\u5C31\u662F\u5B58\u50A8\u6570\u636E\u7684\u5E93</p><ul><li>\u5173\u7CFB\u578B\u6570\u636E\u5E93\uFF1AMySQL,oracle</li><li>\u975E\u5173\u7CFB\u578B\u6570\u636E\u5E93\uFF1Aredis,mongodb</li></ul><h2 id="mysql\u5B89\u88C5" tabindex="-1"><a class="header-anchor" href="#mysql\u5B89\u88C5" aria-hidden="true">#</a> MySql\u5B89\u88C5</h2><p><a href="https://dev.mysql.com/downloads/mysql/" target="_blank" rel="noopener noreferrer">https://dev.mysql.com/downloads/mysql/`);
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
@@ -5736,20 +6232,20 @@ alter table teacher_new drop age1
 <span class="token keyword">drop</span> <span class="token keyword">table</span> <span class="token keyword">if</span> <span class="token keyword">exists</span> teacher_new
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><!--]-->`);
 }
-const _sfc_setup$P = _sfc_main$P.setup;
-_sfc_main$P.setup = (props, ctx) => {
+const _sfc_setup$J = _sfc_main$J.setup;
+_sfc_main$J.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/mysql/01.mysql.html.vue");
-  return _sfc_setup$P ? _sfc_setup$P(props, ctx) : void 0;
+  return _sfc_setup$J ? _sfc_setup$J(props, ctx) : void 0;
 };
-var _01_mysql_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$P, [["ssrRender", _sfc_ssrRender$B]]);
+var _01_mysql_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$J, [["ssrRender", _sfc_ssrRender$v]]);
 var _01_mysql_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _01_mysql_html$1
 });
-const _sfc_main$O = {};
-function _sfc_ssrRender$A(_ctx, _push, _parent, _attrs) {
+const _sfc_main$I = {};
+function _sfc_ssrRender$u(_ctx, _push, _parent, _attrs) {
   const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
   _push(`<!--[--><h1 id="\u6578\u64DA\u7BA1\u7406" tabindex="-1"><a class="header-anchor" href="#\u6578\u64DA\u7BA1\u7406" aria-hidden="true">#</a> \u6578\u64DA\u7BA1\u7406</h1><h2 id="\u5916\u9375" tabindex="-1"><a class="header-anchor" href="#\u5916\u9375" aria-hidden="true">#</a> \u5916\u9375</h2><p>\u4E0B\u9762\u662F\u7269\u7406\u5916\u9375\uFF1A</p><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">-- \u5B9A\u7FA9\u5916\u9375 key</span>
 <span class="token comment">-- \u5916\u9375\u985E\u4F3C\u65BC\u7D04\u675F\uFF0C\u57F7\u884C\u5F15\u7528\u5176\u5B83\u8868\u7684\u6578\u64DA\uFF0Creferences \u5F15\u7528</span>
@@ -5884,20 +6380,20 @@ select count(1) from student; -- \u75281\u4EE3\u8868\u884C\uFF0C\u6C42\u51FA\u4E
 select count(*) from student; --\u76F8\u7576\u65BC\u884C\u6578\uFF0C\u4E0D\u6703\u5FFD\u7565null\u503C
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h4 id="\u6578\u64DA\u5EABmd5\u52A0\u5BC6" tabindex="-1"><a class="header-anchor" href="#\u6578\u64DA\u5EABmd5\u52A0\u5BC6" aria-hidden="true">#</a> \u6578\u64DA\u5EABMD5\u52A0\u5BC6</h4><p>MD5\u662F\u4E0D\u53EF\u9006\u7684\uFF0C\u4F46\u76F8\u540C\u503C\u5F97MD5\u52A0\u5BC6\u7684\u503C\u4E5F\u76F8\u540C</p><p><code>MD(&#39;password&#39;)</code></p><!--]-->`);
 }
-const _sfc_setup$O = _sfc_main$O.setup;
-_sfc_main$O.setup = (props, ctx) => {
+const _sfc_setup$I = _sfc_main$I.setup;
+_sfc_main$I.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/mysql/02.mysql\u6578\u64DA\u7BA1\u7406.html.vue");
-  return _sfc_setup$O ? _sfc_setup$O(props, ctx) : void 0;
+  return _sfc_setup$I ? _sfc_setup$I(props, ctx) : void 0;
 };
-var _02_mysql_____html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$O, [["ssrRender", _sfc_ssrRender$A]]);
+var _02_mysql_____html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$I, [["ssrRender", _sfc_ssrRender$u]]);
 var _02_mysql_____html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _02_mysql_____html$1
 });
-const _sfc_main$N = {};
-function _sfc_ssrRender$z(_ctx, _push, _parent, _attrs) {
+const _sfc_main$H = {};
+function _sfc_ssrRender$t(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h2 id="\u4E8B\u52D9-acid-\u539F\u5247" tabindex="-1"><a class="header-anchor" href="#\u4E8B\u52D9-acid-\u539F\u5247" aria-hidden="true">#</a> \u4E8B\u52D9\uFF08ACID\uFF09\u539F\u5247</h2><p>\u4E8B\u52D9\u9700\u8981\u8A18\u4F4F\uFF1A\u8981\u9EBC\u90FD\u6210\u529F\uFF0C\u8981\u9EBC\u90FD\u5931\u6557</p><p>\u4EE5\u4F60\u7D66\u6211\u8F49 100 \u584A\u70BA\u4F8B</p><ol><li>\u539F\u5B50\u6027</li></ol><p>\u8981\u9EBC\u8F49\u8CEC\u6210\u529F\uFF0C\u8981\u9EBC\u8F49\u8CEC\u5931\u6557</p><ol start="2"><li>\u4E00\u81F4\u6027</li></ol><p>\u6700\u7D42\u4E00\u81F4\u6027\uFF1A\u521D\u59CB\u72C0\u614B\u548C\u6700\u7D42\u72C0\u614B\u4E00\u81F4\uFF08\u5B8C\u6574\u6027\uFF09 100 \u584A\u8981\u9EBC\u6C92\u6263\uFF0C\u8981\u9EBC\u4E00\u5B9A\u5230\u6211\u8CEC\u6236\u4F8B\u3002</p><ol start="3"><li>\u6301\u4E45\u6027</li></ol><p>\u4E8B\u52D9\u7D50\u675F\u540E\u4E0D\u96A8\u5916\u754C\u539F\u56E0\u6539\u8B8A\u3002\u5982\u679C\u6210\u529F\u4E86\u4E0D\u80FD\u53D6\u6D88\uFF0C\u9000\u9084\uFF0C\u53EA\u80FD\u6211\u518D\u767C\u8D77\u65B0\u4E8B\u52D9\u9000\u9084\u7D66\u4F60\u3002</p><ol start="4"><li>\u9694\u96E2\u6027</li></ol><p>\u4E8B\u52D9\u4E4B\u9593\u5FC5\u9808\u76F8\u4E92\u9694\u96E2\uFF0C\u4E0D\u7136\u53EF\u80FD\u5C0E\u81F4\u8B80\uFF08\u6578\u64DA\u4E0D\u5C0D\u7A31\uFF09\uFF0C\u53E6\u5916\u7684\u4EA4\u6613\u4E0D\u80FD\u5F71\u97FF\u9019\u6B21\u4EA4\u6613\u3002</p><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">-- mysql\u9ED8\u8A8D\u958B\u555F\u4E8B\u52D9</span>
 <span class="token keyword">set</span> autocommit <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> <span class="token comment">-- \u95DC\u9589\u81EA\u52D5\u63D0\u4EA4</span>
 <span class="token keyword">set</span> autocommit <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> <span class="token comment">-- \u958B\u555F\u81EA\u52D5\u63D0\u4EA4</span>
@@ -5980,36 +6476,36 @@ mysqldump <span class="token operator">-</span>hlocalhost <span class="token ope
 source D:<span class="token operator">/</span>a<span class="token punctuation">.</span><span class="token keyword">sql</span><span class="token punctuation">;</span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><blockquote><p>\u6570\u636E\u5E93\u8BBE\u8BA1\u539F\u5219</p></blockquote><ol><li>\u8282\u7701\u5185\u5B58\u7A7A\u95F4</li><li>\u4FDD\u8BC1\u6570\u636E\u5E93\u5B8C\u6574\u6027</li><li>\u65B9\u4FBF\u5F00\u53D1</li></ol><ul><li>\u5206\u6790\u9700\u6C42</li><li>\u6982\u8981\u8BBE\u8BA1\uFF0CER\u56FE</li></ul><h2 id="\u6570\u636E\u5E93\u4E09\u5927\u8303\u5F0F" tabindex="-1"><a class="header-anchor" href="#\u6570\u636E\u5E93\u4E09\u5927\u8303\u5F0F" aria-hidden="true">#</a> \u6570\u636E\u5E93\u4E09\u5927\u8303\u5F0F</h2><blockquote><p>\u7B2C\u4E00\u8303\u5F0F\uFF081NF\uFF09</p></blockquote><p>\u539F\u5B50\u6027\uFF1A\u8981\u6C42\u6570\u636E\u5E93\u8868\u4E2D\u7684\u6BCF\u4E00\u5217\u90FD\u662F\u4E0D\u53EF\u518D\u52061\u7684\u539F\u5B50\u6570\u636E\u9879</p><blockquote><p>\u7B2C\u4E8C\u8303\u5F0F\uFF082NF\uFF09</p></blockquote><p>\u524D\u63D0\uFF1A\u6EE1\u8DB3\u7B2C\u4E00\u8303\u5F0F \u786E\u4FDD\u6570\u636E\u5E93\u8868\u4E2D\u7684\u6BCF\u4E00\u5217\u90FD\u548C\u4E3B\u952E\u76F8\u5173</p><blockquote><p>\u7B2C\u4E09\u8303\u5F0F\uFF083NF\uFF09</p></blockquote><p>\u524D\u63D0\uFF1A\u6EE1\u8DB3\u7B2C\u4E00\u8303\u5F0F\u548C\u7B2C\u4E8C\u8303\u5F0F \u6BCF\u4E00\u5217\u6570\u636E\u90FD\u548C\u4E3B\u952E\u76F4\u63A5\u76F8\u5173\u800C\u4E0D\u80FD\u95F4\u63A5\u76F8\u5173</p><p>\u5173\u8054\u67E5\u8BE2\u4E0D\u80FD\u8D85\u8FC73\u5F20\u8868</p><!--]-->`);
 }
-const _sfc_setup$N = _sfc_main$N.setup;
-_sfc_main$N.setup = (props, ctx) => {
+const _sfc_setup$H = _sfc_main$H.setup;
+_sfc_main$H.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/mysql/03.mysql\u4E8B\u52D9.html.vue");
-  return _sfc_setup$N ? _sfc_setup$N(props, ctx) : void 0;
+  return _sfc_setup$H ? _sfc_setup$H(props, ctx) : void 0;
 };
-var _03_mysql___html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$N, [["ssrRender", _sfc_ssrRender$z]]);
+var _03_mysql___html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$H, [["ssrRender", _sfc_ssrRender$t]]);
 var _03_mysql___html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _03_mysql___html$1
 });
-const _sfc_main$M = {};
-function _sfc_ssrRender$y(_ctx, _push, _parent, _attrs) {
+const _sfc_main$G = {};
+function _sfc_ssrRender$s(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h1 id="\u6570\u636E\u5E93\u9A71\u52A8\u548Cjdbc" tabindex="-1"><a class="header-anchor" href="#\u6570\u636E\u5E93\u9A71\u52A8\u548Cjdbc" aria-hidden="true">#</a> \u6570\u636E\u5E93\u9A71\u52A8\u548CJDBC</h1><p>\u6682\u65E0</p><!--]-->`);
 }
-const _sfc_setup$M = _sfc_main$M.setup;
-_sfc_main$M.setup = (props, ctx) => {
+const _sfc_setup$G = _sfc_main$G.setup;
+_sfc_main$G.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/mysql/04.JDBC.html.vue");
-  return _sfc_setup$M ? _sfc_setup$M(props, ctx) : void 0;
+  return _sfc_setup$G ? _sfc_setup$G(props, ctx) : void 0;
 };
-var _04_JDBC_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$M, [["ssrRender", _sfc_ssrRender$y]]);
+var _04_JDBC_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$G, [["ssrRender", _sfc_ssrRender$s]]);
 var _04_JDBC_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _04_JDBC_html$1
 });
-const _sfc_main$L = {};
-function _sfc_ssrRender$x(_ctx, _push, _parent, _attrs) {
+const _sfc_main$F = {};
+function _sfc_ssrRender$r(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h1 id="springboot\u5148\u5165\u95E8" tabindex="-1"><a class="header-anchor" href="#springboot\u5148\u5165\u95E8" aria-hidden="true">#</a> springboot\u5148\u5165\u95E8</h1><p>\u6211\u8FD8\u662F\u60F3\u5E9F\u8BDD\u5410\u69FD\u4E00\u4E0B\uFF0C\u6B63\u5E38\u7684\u5927\u5B66\u751F\u5B66\u4E60\u8DEF\u7EBF\uFF082018\uFF09\uFF1A</p><ol><li>java:\u8FD9\u662F\u5FC5\u987B\u7684\uFF0C\u4E0D\u4F1A\u5C31\u5230\u8FD9\u91CC\u4E86</li><li>MySql:\u6570\u636E\u5E93</li><li>Servlet:\u65E9\u671F\u7684\u5F00\u53D1\u65B9\u5F0F</li><li>Mybatis:\u6570\u636E\u5E93\u6846\u67B6</li><li>Sprong mvc:\u7ECF\u5178mvc\u4E09\u5C42\u67B6\u6784</li><li>Spring</li><li>Spring boot</li></ol><p>\u6709\u57FA\u790E\uFF08<code>1</code>\uFF0C<code>7</code>\uFF09\u53EF\u4EE5\u76F4\u63A5\u4E0A\u624B<code>spring boot</code>\u3002\u5F53\u7136\u8FD9\u662F\u4ECE\u9700\u6C42\u51FA\u53D1\uFF1A</p><ol><li>\u5E95\u5C42\u6E90\u7801\u8FD9\u4E9B\u4E0D\u8981\u53BB\u641E\u61C2\uFF0C\u6CA1\u5FC5\u8981\uFF0C\u6211\u8981\u7684\u662F\u5148\u5B66\u4F1A\u5982\u4F55\u4F7F\u7528\u3002</li><li>\u8981\u8BB0\u5F88\u591A\uFF0C\u65F6\u5E38\u4F1A\u95EE\u4E3A\u4EC0\u4E48\u662F\u8FD9\u6837\u7528\u7684\uFF0C\u4F46\u5B83\u5C31\u662F\u8FD9\u6837\u7528\u7684\uFF08\u4E0D\u89E3\u91CA\u5E95\u5C42\uFF09</li></ol><p>\u5B66\u4E60\u524D\u63D0\uFF1A</p><ol><li>\u57FA\u672Cjava\u8BED\u6CD5</li><li>\u57FA\u672Cmysql\u8BED\u6CD5</li><li>\u57FA\u672Cmvc\u601D\u60F3</li></ol><h2 id="idea-2021-3\u4EE5\u4E0A\u7248\u672C\u5B89\u88DD" tabindex="-1"><a class="header-anchor" href="#idea-2021-3\u4EE5\u4E0A\u7248\u672C\u5B89\u88DD" aria-hidden="true">#</a> IDEA\uFF082021.3\u4EE5\u4E0A\u7248\u672C\u5B89\u88DD\uFF09</h2><p>\u958B\u767C\u5DE5\u5177\u7528\u81EA\u5DF1\u7FD2\u6163\u7684\u5C31\u597D\u3002</p><p>\u76EE\u524D\u5E02\u573A\u5E94\u8BE5\u90FD\u662F\u8FD9\u4E2A\u5F00\u53D1\u5DE5\u5177\u591A\u5427\uFF0C\u76F4\u63A5\u5F00\u59CB</p><h2 id="\u521D\u59CB\u5316\u9805\u76EE" tabindex="-1"><a class="header-anchor" href="#\u521D\u59CB\u5316\u9805\u76EE" aria-hidden="true">#</a> \u521D\u59CB\u5316\u9805\u76EE</h2><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token annotation punctuation">@SpringBootApplication</span>
 <span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">SpringBootTestApplication</span> <span class="token punctuation">{</span>
 
@@ -6061,20 +6557,20 @@ function _sfc_ssrRender$x(_ctx, _push, _parent, _attrs) {
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>project</span><span class="token punctuation">&gt;</span></span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br></div></div><h2 id="\u5FEB\u901F\u4E0A\u624B" tabindex="-1"><a class="header-anchor" href="#\u5FEB\u901F\u4E0A\u624B" aria-hidden="true">#</a> \u5FEB\u901F\u4E0A\u624B</h2><p>\u5982\u679C\u4F60\u4E0D\u662F\u4E13\u804C\u540E\u7AEF\u800C\u53EA\u662F\u60F3\u5199\u4E2A\u63A5\u53E3\uFF0C\u90A3\u770B\u5B8C\u8FD9\u4E00\u7AE0\u5C31\u53EF\u4EE5\u4E86\u3002</p><!--]-->`);
 }
-const _sfc_setup$L = _sfc_main$L.setup;
-_sfc_main$L.setup = (props, ctx) => {
+const _sfc_setup$F = _sfc_main$F.setup;
+_sfc_main$F.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/springboot/01.springboot.html.vue");
-  return _sfc_setup$L ? _sfc_setup$L(props, ctx) : void 0;
+  return _sfc_setup$F ? _sfc_setup$F(props, ctx) : void 0;
 };
-var _01_springboot_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$L, [["ssrRender", _sfc_ssrRender$x]]);
+var _01_springboot_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$F, [["ssrRender", _sfc_ssrRender$r]]);
 var _01_springboot_html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _01_springboot_html$1
 });
-const _sfc_main$K = {};
-function _sfc_ssrRender$w(_ctx, _push, _parent, _attrs) {
+const _sfc_main$E = {};
+function _sfc_ssrRender$q(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h1 id="\u542F\u52A8\u8FC7\u7A0B\u5F00\u59CB" tabindex="-1"><a class="header-anchor" href="#\u542F\u52A8\u8FC7\u7A0B\u5F00\u59CB" aria-hidden="true">#</a> \u542F\u52A8\u8FC7\u7A0B\u5F00\u59CB</h1><ul><li>\u4E00\u4E2A\u5B8C\u5168\u7A7A\u7684\u65B0\u9879\u76EE\uFF0Cpom.xml\u6211\u4EEC\u662F\u4E0D\u662F\u53EA\u770B\u5230\u4E00\u4E2A\u5F88\u660E\u663E\u7684\u4F9D\u8D56</li></ul><div class="language-xml ext-xml line-numbers-mode"><pre class="language-xml"><code> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">&gt;</span></span>
             <span class="token comment">&lt;!--\u57FA\u672C\u4F9D\u8CF4--&gt;</span>
             <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">&gt;</span></span>org.springframework.boot<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">&gt;</span></span>
@@ -6299,20 +6795,20 @@ org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApp
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br></div></div><h2 id="\u81EA\u52A8\u914D\u7F6E\u539F\u7406" tabindex="-1"><a class="header-anchor" href="#\u81EA\u52A8\u914D\u7F6E\u539F\u7406" aria-hidden="true">#</a> \u81EA\u52A8\u914D\u7F6E\u539F\u7406</h2><!--]-->`);
 }
-const _sfc_setup$K = _sfc_main$K.setup;
-_sfc_main$K.setup = (props, ctx) => {
+const _sfc_setup$E = _sfc_main$E.setup;
+_sfc_main$E.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/springboot/02.springboot\u542F\u52A8\u539F\u7406.html.vue");
-  return _sfc_setup$K ? _sfc_setup$K(props, ctx) : void 0;
+  return _sfc_setup$E ? _sfc_setup$E(props, ctx) : void 0;
 };
-var _02_springboot_____html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$K, [["ssrRender", _sfc_ssrRender$w]]);
+var _02_springboot_____html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$E, [["ssrRender", _sfc_ssrRender$q]]);
 var _02_springboot_____html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _02_springboot_____html$1
 });
-const _sfc_main$J = {};
-function _sfc_ssrRender$v(_ctx, _push, _parent, _attrs) {
+const _sfc_main$D = {};
+function _sfc_ssrRender$p(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h1 id="\u81EA\u52A8\u914D\u7F6E" tabindex="-1"><a class="header-anchor" href="#\u81EA\u52A8\u914D\u7F6E" aria-hidden="true">#</a> \u81EA\u52A8\u914D\u7F6E</h1><ul><li>\u65E2\u7136\u4E3B\u7C7B\u5DF2\u7ECF\u5728\u521D\u59CB\u9636\u6BB5\u6CE8\u518C\u4E3ABean\uFF0C\u90A3\u4E48\u5728\u52A0\u8F7D\u65F6\uFF0C\u5C31\u4F1A\u6839\u636E\u6CE8\u89E3\u5B9A\u4E49\uFF0C\u8FDB\u884C\u66F4\u591A\u7684\u989D\u5916\u64CD\u4F5C\u3002\u6240\u4EE5\u6211\u4EEC\u6765\u770B\u770B\u4E3B\u7C7B\u4E0A\u7684@SpringBootApplication\u6CE8\u89E3\u505A\u4E86\u4EC0\u4E48\u4E8B\u60C5\u3002</li></ul><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token annotation punctuation">@Target</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token class-name">ElementType</span><span class="token punctuation">.</span>TYPE<span class="token punctuation">}</span><span class="token punctuation">)</span>
 <span class="token annotation punctuation">@Retention</span><span class="token punctuation">(</span><span class="token class-name">RetentionPolicy</span><span class="token punctuation">.</span>RUNTIME<span class="token punctuation">)</span>
 <span class="token annotation punctuation">@Documented</span>
@@ -6561,20 +7057,20 @@ function _sfc_ssrRender$v(_ctx, _push, _parent, _attrs) {
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><p>\u6CE8\u610F\u8FD9\u91CC\u5E76\u4E0D\u662Fspring.factories\u6587\u4EF6\u4E2D\u6240\u6709\u7684\u81EA\u52A8\u914D\u7F6E\u7C7B\u90FD\u4F1A\u88AB\u52A0\u8F7D\uFF0C\u5B83\u4F1A\u6839\u636E@Condition\u6CE8\u89E3\u7684\u6761\u4EF6\u8FDB\u884C\u52A0\u8F7D\u3002\u8FD9\u6837\u5C31\u80FD\u5B9E\u73B0\u6211\u4EEC\u9700\u8981\u4EC0\u4E48\u6A21\u5757\u6DFB\u52A0\u5BF9\u5E94\u4F9D\u8D56\u5C31\u53EF\u4EE5\u5B9E\u73B0\u81EA\u52A8\u914D\u7F6E\u4E86\u3002</p><p>\u6240\u6709\u7684\u6E90\u7801\u770B\u4E0D\u61C2\uFF0C\u90FD\u6E90\u81EA\u4E8E\u4F60\u7684\u5FC3\u4E2D\u6CA1\u6709\u5F62\u6210\u4E00\u4E2A\u5B8C\u6574\u7684\u95ED\u73AF\uFF01\u4E00\u65E6\u4E00\u6761\u7EBF\u63A8\u5230\u5934\uFF0C\u95ED\u73AF\u5F62\u6210\uFF0C\u6240\u6709\u7591\u60D1\u8FCE\u5203\u800C\u89E3\u3002</p><!--]-->`);
 }
-const _sfc_setup$J = _sfc_main$J.setup;
-_sfc_main$J.setup = (props, ctx) => {
+const _sfc_setup$D = _sfc_main$D.setup;
+_sfc_main$D.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/springboot/03.springboot\u81EA\u52A8\u914D\u7F6E.html.vue");
-  return _sfc_setup$J ? _sfc_setup$J(props, ctx) : void 0;
+  return _sfc_setup$D ? _sfc_setup$D(props, ctx) : void 0;
 };
-var _03_springboot_____html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$J, [["ssrRender", _sfc_ssrRender$v]]);
+var _03_springboot_____html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$D, [["ssrRender", _sfc_ssrRender$p]]);
 var _03_springboot_____html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _03_springboot_____html$1
 });
-const _sfc_main$I = {};
-function _sfc_ssrRender$u(_ctx, _push, _parent, _attrs) {
+const _sfc_main$C = {};
+function _sfc_ssrRender$o(_ctx, _push, _parent, _attrs) {
   const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
   _push(`<!--[--><h1 id="javase" tabindex="-1"><a class="header-anchor" href="#javase" aria-hidden="true">#</a> JavaSE</h1><h2 id="\u524D\u671F" tabindex="-1"><a class="header-anchor" href="#\u524D\u671F" aria-hidden="true">#</a> \u524D\u671F</h2><p>\u770B\u4F86<a href="https://www.kuangstudy.com/course" target="_blank" rel="noopener noreferrer">kuangstudy`);
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
@@ -7152,545 +7648,49 @@ s<span class="token punctuation">.</span><span class="token function">sya</span>
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><p>\u603B\u7ED3\uFF1A</p><ol><li>\u5C3D\u91CF\u6DFB\u52A0finally\u8BED\u53E5\u5757\u53BB\u91CA\u653E\u8D44\u6E90</li></ol><h2 id="javase\u603B\u7ED3" tabindex="-1"><a class="header-anchor" href="#javase\u603B\u7ED3" aria-hidden="true">#</a> JavaSE\u603B\u7ED3</h2><ol><li></li></ol><!--]-->`);
 }
-const _sfc_setup$I = _sfc_main$I.setup;
-_sfc_main$I.setup = (props, ctx) => {
+const _sfc_setup$C = _sfc_main$C.setup;
+_sfc_main$C.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/\u300Ajava\u5165\u95E8\u300B/01.\u57FA\u7840\u4ECB\u7ECD.html.vue");
-  return _sfc_setup$I ? _sfc_setup$I(props, ctx) : void 0;
+  return _sfc_setup$C ? _sfc_setup$C(props, ctx) : void 0;
 };
-var _01______html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$I, [["ssrRender", _sfc_ssrRender$u]]);
+var _01______html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$C, [["ssrRender", _sfc_ssrRender$o]]);
 var _01______html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _01______html$1
 });
-const _sfc_main$H = {};
-function _sfc_ssrRender$t(_ctx, _push, _parent, _attrs) {
+const _sfc_main$B = {};
+function _sfc_ssrRender$n(_ctx, _push, _parent, _attrs) {
   _push(`<!--[--><h1 id="java\u6578\u64DA\u985E\u578B" tabindex="-1"><a class="header-anchor" href="#java\u6578\u64DA\u985E\u578B" aria-hidden="true">#</a> java\u6578\u64DA\u985E\u578B</h1><p>\u53D8\u91CF3\u4E2A\u57FA\u672C\u7279\u5F81\uFF1A\u7C7B\u578B\uFF0C\u540D\u79F0\uFF0C\u503C \u6BCF\u4E2A\u53D8\u91CF\u90FD\u5360\u4E00\u4E2A\u5B58\u50A8\u7A7A\u95F4 \u7A0B\u5E8F\u4E2D<code>+ - * %</code>\u7684\u4F7F\u7528</p><h2 id="\u57FA\u672C\u6570\u636E\u7C7B\u578B" tabindex="-1"><a class="header-anchor" href="#\u57FA\u672C\u6570\u636E\u7C7B\u578B" aria-hidden="true">#</a> \u57FA\u672C\u6570\u636E\u7C7B\u578B</h2><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6570\u636E\u7C7B\u578B</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6570\u503C\u578B</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6574\u6570\u7C7B\u578B\uFF0C\u5B58\u653E\u6574\u6570\uFF08byte[1],short[2],int[4],long[8]\uFF1B\u6D6E\u70B9\uFF08\u5C0F\u6570\u7C7B\u578B\uFF09\uFF08float[4]\u5355\u7CBE\u5EA6,double[8]\u53CC\u7CBE\u5EA6\uFF09\uFF09</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5B57\u7B26\u578B</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">char[2]</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5E03\u5C14\u578B</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">boolean[1],\u5B58\u653Etrue,false</td></tr></tbody></table><h2 id="\u5F15\u7528\u6570\u636E\u7C7B\u578B" tabindex="-1"><a class="header-anchor" href="#\u5F15\u7528\u6570\u636E\u7C7B\u578B" aria-hidden="true">#</a> \u5F15\u7528\u6570\u636E\u7C7B\u578B</h2><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6570\u636E\u7C7B\u578B</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u7C7B</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">class</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u63A5\u53E3</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">interface</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6570\u7EC4</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">[]</td></tr></tbody></table><h2 id="\u6574\u6570\u7C7B\u578B" tabindex="-1"><a class="header-anchor" href="#\u6574\u6570\u7C7B\u578B" aria-hidden="true">#</a> \u6574\u6570\u7C7B\u578B</h2><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u7C7B\u578B</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5360\u7528\u7A7A\u95F4</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8303\u56F4</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>byte</code>\u5B57\u8282</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">1\u5B57\u8282</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>short</code>\u77ED\u6574\u578B</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">2\u5B57\u8282</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>int</code>\u6574\u578B</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">4\u5B57\u8282</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>long</code>\u957F\u6574\u578B</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">8\u5B57\u8282</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td></tr></tbody></table><!--]-->`);
 }
-const _sfc_setup$H = _sfc_main$H.setup;
-_sfc_main$H.setup = (props, ctx) => {
+const _sfc_setup$B = _sfc_main$B.setup;
+_sfc_main$B.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/\u300Ajava\u5165\u95E8\u300B/02.\u6578\u64DA\u985E\u578B.html.vue");
-  return _sfc_setup$H ? _sfc_setup$H(props, ctx) : void 0;
+  return _sfc_setup$B ? _sfc_setup$B(props, ctx) : void 0;
 };
-var _02______html$4 = /* @__PURE__ */ _export_sfc(_sfc_main$H, [["ssrRender", _sfc_ssrRender$t]]);
+var _02______html$4 = /* @__PURE__ */ _export_sfc(_sfc_main$B, [["ssrRender", _sfc_ssrRender$n]]);
 var _02______html$5 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _02______html$4
 });
-const _sfc_main$G = {};
-function _sfc_ssrRender$s(_ctx, _push, _parent, _attrs) {
-  _push(`<!--[--><h2 id="\u7EBF\u7A0B-\u8FDB\u7A0B-\u591A\u7EBF\u7A0B" tabindex="-1"><a class="header-anchor" href="#\u7EBF\u7A0B-\u8FDB\u7A0B-\u591A\u7EBF\u7A0B" aria-hidden="true">#</a> \u7EBF\u7A0B\uFF0C\u8FDB\u7A0B\uFF0C\u591A\u7EBF\u7A0B</h2><ol><li>\u7EBF\u7A0B\u5B9E\u73B0\uFF08\u91CD\u70B9\uFF09</li><li>\u7EBF\u7A0B\u72B6\u6001</li><li>\u7EBF\u7A0B\u5B9E\u73B0\uFF08\u91CD\u70B9\uFF09</li><li>\u7EBF\u7A0B\u901A\u4FE1</li><li>\u9AD8\u7EA7\u4E3B\u9898</li></ol><p>\u7B80\u4ECB\uFF1A\u5E76\u884C\u6267\u884C\u5C31\u662F\u591A\u7EBF\u7A0B\u3002</p><ol><li>\u8FDB\u7A0B\u548C\u7EBF\u7A0B</li></ol><ul><li>\u6BCF\u4E00\u4E2A\u8FD0\u884C\u7A0B\u5E8F\u5C31\u662F\u4E00\u4E2A\u8FDB\u7A0B\u3002</li><li>\u7A0B\u5E8F\u53EF\u4EE5\u64AD\u653E\u89C6\u9891\u548C\u58F0\u97F3\uFF0C\u8BF4\u660E\u4E00\u4E2A\u8FDB\u7A0B\u53EF\u4EE5\u6709\u591A</li></ul><!--]-->`);
-}
-const _sfc_setup$G = _sfc_main$G.setup;
-_sfc_main$G.setup = (props, ctx) => {
-  const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/\u300Ajava\u591A\u7EBF\u7A0B\u300B/01.\u6982\u8FF0.html.vue");
-  return _sfc_setup$G ? _sfc_setup$G(props, ctx) : void 0;
-};
-var _01____html$2 = /* @__PURE__ */ _export_sfc(_sfc_main$G, [["ssrRender", _sfc_ssrRender$s]]);
-var _01____html$3 = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  "default": _01____html$2
-});
-const _sfc_main$F = {};
-function _sfc_ssrRender$r(_ctx, _push, _parent, _attrs) {
-  _push(`<!--[--><h1 id="\u95EE\u9898\u96C6\u9526" tabindex="-1"><a class="header-anchor" href="#\u95EE\u9898\u96C6\u9526" aria-hidden="true">#</a> \u95EE\u9898\u96C6\u9526</h1><div class="custom-container tip"><p class="custom-container-title">\u9762\u8BD5</p><p>\u5E38\u89C1\u9762\u8BD5\u96C6\u9526</p></div><h2 id="\u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD" tabindex="-1"><a class="header-anchor" href="#\u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD" aria-hidden="true">#</a> \u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD</h2><p><strong>\u63D0\u793A</strong>\uFF1A\u4E00\u822C\u4EBA\u56DE\u7B54\u8FD9\u4E2A\u95EE\u9898\u8FC7\u4E8E\u5E73\u5E38\uFF0C\u59D3\u540D\u3001\u5E74\u9F84\u3001\u7231\u597D\u3001\u5DE5\u4F5C\u7ECF\u9A8C\uFF0C\u8FD9\u4E9B\u7B80\u5386\u4E0A\u90FD\u6709\u3002\u4F01\u4E1A\uFF08\u9762\u8BD5\u5B98\uFF09\u6700\u5E0C\u671B\u77E5\u9053\u7684\u662F\u6C42\u804C\u8005\u80FD\u5426\u80DC\u4EFB\u5DE5\u4F5C\uFF0C\u5305\u62EC\uFF1A\u6700\u5F3A\u7684\u6280\u80FD\u3001\u6700\u6DF1\u5165\u7814\u7A76\u7684\u9886\u57DF\u3001\u4E2A\u6027\u4E2D\u6700\u79EF\u6781\u7684\u90E8\u5206\u3001\u505A\u8FC7\u6700\u6210\u529F\u7684\u4E8B\uFF0C\u4E3B\u8981\u6210\u5C31\u7B49\uFF0C\u8981\u7A81\u51FA\u79EF\u6781\u7684\u4E2A\u6027\u548C\u505A\u4E8B\u7684\u80FD\u529B\uFF0C\u8BF4\u7684\u5408\u60C5\u5408\u7406\u4F01\u4E1A\uFF08\u9762\u8BD5\u5B98\uFF09\u624D\u4F1A\u76F8\u4FE1\u3002</p><h2 id="\u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48" tabindex="-1"><a class="header-anchor" href="#\u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48" aria-hidden="true">#</a> \u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48\uFF1F</h2><p><strong>\u56DE\u7B54\u63D0\u793A</strong>\uFF1A \u6C89\u7740\u51B7\u9759\u3001\u6761\u7406\u6E05\u695A\u3001\u7ACB\u573A\u575A\u5B9A\u3001\u4E50\u4E8E\u52A9\u4EBA\u7B49\uFF0C\u52A0\u4E0A\u4F8B\u5B50\u5982\uFF1A\u6211\u5728XX\u7ECF\u8FC7\u4E00\u5230\u4E24\u5E74\u7684\u57F9\u8BAD\u53CA\u9879\u76EE\u5B9E\u6218\uFF0C\u52A0\u4E0A\u5B9E\u4E60\u5DE5\u4F5C\uFF0C\u6211\u60F3\u6211\u9002\u5408\u8FD9\u4EFD\u5DE5\u4F5C\u3002</p><h2 id="\u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9" tabindex="-1"><a class="header-anchor" href="#\u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9" aria-hidden="true">#</a> \u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u8FD9\u4E2A\u95EE\u9898\u4F01\u4E1A\u95EE\u7684\u6982\u7387\u5F88\u5927\uFF0C\u901A\u5E38\u4E0D\u5E0C\u671B\u542C\u5230\u76F4\u63A5\u56DE\u7B54\u7684\u7F3A\u70B9\u662F\u4EC0\u4E48\u7B49\uFF0C\u5982\u679C\u6C42\u804C\u8005\u8BF4\u81EA\u5DF1\u5C0F\u5FC3\u773C\u3001\u975E\u5E38\u61D2\u3001\u5DE5\u4F5C\u6548\u7387\u4F4E\uFF0C\u4F01\u4E1A\u80AF\u5B9A\u4E0D\u4F1A\u5F55\u7528\u4F60\u3002\u8981\u4ECE\u81EA\u5DF1\u7684\u4F18\u70B9\u8BF4\u8D77\uFF0C\u4E2D\u95F4\u52A0\u4E00\u4E9B\u5C0F\u7F3A\u70B9\uFF0C\u6700\u540E\u518D\u628A\u95EE\u7B54\u8F6C\u56DE\u5230\u4F18\u70B9\u4E0A\uFF0C\u7A81\u51FA\u4F18\u70B9\u7684\u90E8\u5206\u3002</p><h2 id="\u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5" tabindex="-1"><a class="header-anchor" href="#\u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5" aria-hidden="true">#</a> \u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A\u5B9E\u9645\u4E0A\u597D\u591A\u516C\u53F8\u95EE\u8FD9\u4E2A\u95EE\u9898\uFF0C\u5E76\u4E0D\u8BC1\u660E\u4E00\u5B9A\u8981\u52A0\u73ED\uFF0C\u53EA\u662F\u60F3\u6D4B\u8BD5\u4F60\u662F\u5426\u613F\u610F\u4E3A\u516C\u53F8\u5949\u732E\u3002</p><p><strong>\u6837\u672C</strong>\uFF1A\u5982\u679C\u662F\u5DE5\u4F5C\u9700\u8981\u6211\u4F1A\u4E49\u4E0D\u5BB9\u8F9E\u52A0\u73ED\uFF0C\u4F46\u540C\u65F6\uFF0C\u6211\u4E5F\u4F1A\u63D0\u9AD8\u5DE5\u4F5C\u6548\u7387\uFF0C\u51CF\u5C11\u4E0D\u5FC5\u8981\u7684\u52A0\u73ED\u3002</p><h2 id="\u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42" tabindex="-1"><a class="header-anchor" href="#\u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42" aria-hidden="true">#</a> \u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u5982\u679C\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\u592A\u4F4E\uFF0C\u90A3\u663E\u7136\u8D2C\u4F4E\u81EA\u5DF1\u7684\u80FD\u529B\uFF1B\u5982\u679C\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\u592A\u9AD8\uFF0C\u90A3\u53C8\u4F1A\u663E\u5F97\u4F60\u5206\u91CF\u8FC7\u91CD\uFF0C\u516C\u53F8\u53D7\u7528\u4E0D\u8D77\u3002\u4E00\u4E9B\u96C7\u4E3B\u901A\u5E38\u90FD\u4E8B\u5148\u5BF9\u6C42\u8058\u7684\u804C\u4F4D\u5B9A\u4E0B\u5F00\u652F\u9884\u7B97\uFF0C\u56E0\u800C\u4ED6\u4EEC\u7B2C\u4E00\u6B21\u63D0\u51FA\u7684\u4EF7\u94B1\u5F80\u5F80\u662F\u4ED6\u4EEC\u6240\u80FD\u7ED9\u4E88\u7684\u6700\u9AD8\u4EF7\u94B1\uFF0C\u4ED6\u4EEC\u95EE\u4F60\u53EA\u4E0D\u8FC7\u60F3\u8BC1\u5B9E\u4E00\u4E0B\u8FD9\u7B14\u94B1\u662F\u5426\u8DB3\u4EE5\u5F15\u8D77\u4F60\u5BF9\u8BE5\u5DE5\u4F5C\u7684\u5174\u8DA3\u3002</p><p><strong>\u56DE\u7B54</strong>\uFF1A</p><ol><li><p>\u6211\u5BF9\u5DE5\u8D44\u6CA1\u6709\u786C\u6027\u8981\u6C42\uFF0C\u6211\u76F8\u4FE1\u8D35\u516C\u53F8\u4F1A\u53CB\u5584\u5408\u7406\u3002\u6211\u6CE8\u91CD\u7684\u662F\u627E\u5230\u5DE5\u4F5C\u673A\u4F1A\uFF0C\u6240\u4EE5\u53EA\u8981\u6761\u4EF6\u516C\u5E73\uFF0C\u6211\u5219\u4E0D\u4F1A\u8BA1\u8F83\u592A\u591A\u3002</p></li><li><p>\u6211\u53D7\u8FC7\u7CFB\u7EDF\u7684\u8F6F\u4EF6\u7F16\u7A0B\u7684\u8BAD\u7EC3\uFF0C\u4E0D\u9700\u8981\u8FDB\u884C\u5927\u91CF\u7684\u57F9\u8BAD\uFF0C\u800C\u4E14\u6211\u672C\u4EBA\u4E5F\u5BF9\u7F16\u7A0B\u7279\u522B\u611F\u5174\u8DA3\u3002\u56E0\u6B64\uFF0C\u6211\u5E0C\u671B\u516C\u53F8\u80FD\u6839\u636E\u6211\u7684\u60C5\u51B5\u548C\u5E02\u573A\u6807\u51C6\u7684\u6C34\u5E73\uFF0C\u7ED9\u6211\u5408\u7406\u7684\u85AA\u6C34\u3002</p></li><li><p>\u5982\u679C\u4F60\u5FC5\u987B\u81EA\u5DF1\u8BF4\u51FA\u5177\u4F53\u6570\u76EE\uFF0C\u8BF7\u4E0D\u8981\u8BF4\u4E00\u4E2A\u5BBD\u6CDB\u7684\u8303\u56F4\uFF0C\u90A3\u6837\u4F60\u5C06\u53EA\u80FD\u5F97\u5230\u6700\u4F4E\u9650\u5EA6\u7684\u6570\u5B57\u3002\u6700\u597D\u7ED9\u51FA\u4E00\u4E2A\u5177\u4F53\u7684\u6570\u5B57\uFF0C\u8FD9\u6837\u8868\u660E\u4F60\u5DF2\u7ECF\u5BF9\u5F53\u4ECA\u7684\u4EBA\u624D\u5E02\u573A\u505A\u4E86\u8C03\u67E5\uFF0C\u77E5\u9053\u50CF\u81EA\u5DF1\u8FD9\u6837\u5B66\u5386\u7684\u96C7\u5458\u6709\u4EC0\u4E48\u6837\u7684\u4EF7\u503C\u3002</p></li></ol><h2 id="\u5728\u4E94\u5E74\u5185-\u4F60\u7684\u804C\u4E1A\u89C4\u5212" tabindex="-1"><a class="header-anchor" href="#\u5728\u4E94\u5E74\u5185-\u4F60\u7684\u804C\u4E1A\u89C4\u5212" aria-hidden="true">#</a> \u5728\u4E94\u5E74\u5185\uFF0C\u4F60\u7684\u804C\u4E1A\u89C4\u5212\uFF1F</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u8FD9\u662F\u6BCF\u4E00\u4E2A\u5E94\u8058\u8005\u90FD\u4E0D\u5E0C\u671B\u88AB\u95EE\u5230\u7684\u95EE\u9898\uFF0C\u4F46\u662F\uFF08\u5927\u516C\u53F8\uFF09\u51E0\u4E4E\u6BCF\u4E2A\u4EBA\u90FD\u4F1A\u88AB\u95EE\u5230\uFF0C\u6BD4\u8F83\u591A\u7684\u7B54\u6848\u662F\u201C\u7BA1\u7406\u8005\u201D\u3002\u5F53\u7136\uFF0C\u8BF4\u51FA\u5176\u4ED6\u4E00\u4E9B\u4F60\u611F\u5174\u8DA3\u7684\u804C\u4F4D\u4E5F\u662F\u53EF\u4EE5\u7684\u3002\u8981\u77E5\u9053\uFF0C\u8003\u5B98\u603B\u662F\u559C\u6B22\u6709\u8FDB\u53D6\u5FC3\u7684\u5E94\u8058\u8005\uFF0C\u6B64\u65F6\u5982\u679C\u8BF4\u201C\u4E0D\u77E5\u9053\u201D\uFF0C\u6216\u8BB8\u5C31\u4F1A\u4F7F\u4F60\u4E27\u5931\u4E00\u4E2A\u597D\u673A\u4F1A\u3002\u6700\u666E\u901A\u7684\u56DE\u7B54\u5E94\u8BE5\u662F\u201C\u6211\u51C6\u5907\u5728\u6280\u672F\u9886\u57DF\u6709\u6240\u4F5C\u4E3A\u201D\u6216\u201C\u6211\u5E0C\u671B\u80FD\u6309\u7167\u516C\u53F8\u7684\u7BA1\u7406\u601D\u8DEF\u53D1\u5C55\u201D\u3002</p><h2 id="\u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417" tabindex="-1"><a class="header-anchor" href="#\u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417" aria-hidden="true">#</a> \u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417?</h2><p><strong>\u63D0\u793A</strong>\uFF1A \u4F01\u4E1A\u7684\u8FD9\u4E2A\u95EE\u9898\u770B\u4E0A\u53BB\u53EF\u6709\u53EF\u65E0\uFF0C\u5176\u5B9E\u5F88\u5173\u952E\uFF0C\u4F01\u4E1A\u4E0D\u559C\u6B22\u8BF4\u201C\u6CA1\u95EE\u9898\u201D\u7684\u4EBA\uFF0C\u56E0\u4E3A\u5176\u5F88\u6CE8\u91CD\u5458\u5DE5\u7684\u4E2A\u6027\u548C\u521B\u65B0\u80FD\u529B\u3002\u4F01\u4E1A\u4E0D\u559C\u6B22\u6C42\u804C\u8005\u95EE\u4E2A\u4EBA\u798F\u5229\u4E4B\u7C7B\u7684\u95EE\u9898\uFF0C\u5982\u679C\u6709\u4EBA\u8FD9\u6837\u95EE\uFF1A\u8D35\u516C\u53F8\u5BF9\u65B0\u5165\u516C\u53F8\u7684\u5458\u5DE5\u6709\u6CA1\u6709\u4EC0\u4E48\u57F9\u8BAD\u9879\u76EE\uFF0C\u6211\u53EF\u4EE5\u53C2\u52A0\u5417\uFF1F\u6216\u8005\u8BF4\u8D35\u516C\u53F8\u7684\u664B\u5347\u673A\u5236\u662F\u4EC0\u4E48\u6837\u7684\uFF1F\u4F01\u4E1A\u5C06\u5F88\u6B22\u8FCE\uFF0C\u56E0\u4E3A\u4F53\u73B0\u51FA\u4F60\u5BF9\u5B66\u4E60\u7684\u70ED\u60C5\u548C\u5BF9\u516C\u53F8\u7684\u5FE0\u8BDA\u5EA6\u4EE5\u53CA\u4F60\u7684\u4E0A\u8FDB\u5FC3\u3002</p><h2 id="\u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5" tabindex="-1"><a class="header-anchor" href="#\u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5" aria-hidden="true">#</a> \u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5?</h2><p><strong>\u56DE\u7B54</strong>\uFF1A \u2460\u6B63\u5E38\u7684\u201C\u8DF3\u69FD\u201D\u80FD\u591F\u4FC3\u8FDB\u4EBA\u624D\u5408\u7406\u6D41\u52A8\uFF0C\u5E94\u8BE5\u652F\u6301\u3002\u2461\u9891\u7E41\u7684\u8DF3\u69FD\u5BF9\u5355\u4F4D\u548C\u4E2A\u4EBA\u53CC\u65B9\u90FD\u4E0D\u5229\uFF0C\u5E94\u8BE5\u53CD\u5BF9\u3002</p><h2 id="\u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11" tabindex="-1"><a class="header-anchor" href="#\u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11" aria-hidden="true">#</a> \u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11?</h2><p><strong>\u56DE\u7B54</strong>\uFF1A\u5728\u53BB\u516C\u53F8\u9762\u8BD5\u524D\u4E0A\u7F51\u67E5\u4E00\u4E0B\u8BE5\u516C\u53F8\u4E3B\u8425\u4E1A\u52A1\u3002\u53EF\u7C7B\u4F3C\u56DE\u7B54\uFF1A\u8D35\u516C\u53F8\u6709\u610F\u6539\u53D8\u7B56\u7565\uFF0C\u52A0\u5F3A\u4E0E\u56FD\u5916\u5927\u5382\u7684OEM\u5408\u4F5C\uFF0C\u81EA\u6709\u54C1\u724C\u7684\u90E8\u5206\u5219\u900F\u8FC7\u6D77\u5916\u7ECF\u9500\u5546\u3002</p><!--]-->`);
-}
-const _sfc_setup$F = _sfc_main$F.setup;
-_sfc_main$F.setup = (props, ctx) => {
-  const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/interview/interview.html.vue");
-  return _sfc_setup$F ? _sfc_setup$F(props, ctx) : void 0;
-};
-var interview_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$F, [["ssrRender", _sfc_ssrRender$r]]);
-var interview_html$2 = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  "default": interview_html$1
-});
-const _sfc_main$E = {};
-function _sfc_ssrRender$q(_ctx, _push, _parent, _attrs) {
-  const _component_CodeGroup = vue.resolveComponent("CodeGroup");
-  const _component_CodeGroupItem = vue.resolveComponent("CodeGroupItem");
-  _push(`<!--[--><h1 id="js\u9762\u8BD5" tabindex="-1"><a class="header-anchor" href="#js\u9762\u8BD5" aria-hidden="true">#</a> JS\u9762\u8BD5</h1><blockquote><p><strong>\u4E0D\u5206\u987A\u5E8F\uFF0C\u5FE0\u544A\uFF1AJS\u7684\u9762\u8BD5\u9898\u5F88\u591A\uFF0C\u73B0\u5728\u6BCF\u4E2A\u9762\u8BD5\u5B98\u90FD\u8BD5\u56FE\u95EE\u51FA\u4E0D\u4E00\u6837\u7684\u95EE\u9898\uFF0C\u4F46\u77E5\u8BC6\u70B9\u90FD\u662F\u63A5\u8FD1\u7684\uFF0C\u6240\u4EE5\u5E94\u8BE5\u82B1\u66F4\u591A\u65F6\u95F4\u5728\u5B66\u4E60\u4E0A\uFF0C\u795D\u597D\u8FD0</strong>\u3002</p></blockquote><h2 id="_1-\u5EF6\u8FDF\u52A0\u8F7Djs\u7684\u65B9\u5F0F\u6709\u54EA\u4E9B" tabindex="-1"><a class="header-anchor" href="#_1-\u5EF6\u8FDF\u52A0\u8F7Djs\u7684\u65B9\u5F0F\u6709\u54EA\u4E9B" aria-hidden="true">#</a> 1.\u5EF6\u8FDF\u52A0\u8F7DJS\u7684\u65B9\u5F0F\u6709\u54EA\u4E9B</h2><p>\u91CD\u70B9\uFF1A<code>async</code>\u3001<code>defer</code></p><p>\u56FE\u89E3\u8BF4\u660E\uFF1A</p><p><img src="https://s6.jpg.cm/2022/01/24/LpwDYt.jpg" alt="LpwDYt.jpg"></p><ol><li>\u6B63\u5E38\u60C5\u51B5\u4E0B\u7684<code>script</code>\u811A\u672C\u6267\u884C\uFF1A</li></ol><p>\u6B63\u5E38\u60C5\u51B5\u4E0B\uFF0C\u6D4F\u89C8\u5668\u4F1A\u987A\u5E8F\u6267\u884C\u4EE3\u7801\uFF0C\u9047\u5230<code>script</code>\u811A\u672C\u65F6\uFF0CHTML\u4F1A\u505C\u6B62\u89E3\u6790\uFF0C\u5148\u4E0B\u8F7D<code>script</code>\u811A\u672C\uFF0C\u7136\u540E\u6267\u884C\u5B83\uFF08\u4E00\u822C\u662F\u6211\u4EEC\u5916\u90E8\u5F15\u5165\u7684\u811A\u672C\uFF09,\u7136\u540E\u518D\u7EE7\u7EED\u89E3\u6790HTML\u3002\u4E0B\u9762\u4EE3\u7801\uFF1A</p><div class="language-html ext-html line-numbers-mode"><pre class="language-html"><code><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>en<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
-  <span class="token comment">&lt;!-- \u6A21\u62DF\u6587\u4EF6 --&gt;</span>
-  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>./11.js<span class="token punctuation">&quot;</span></span> <span class="token attr-name">defer</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>defer<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
-  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><p><img src="https://s6.jpg.cm/2022/01/24/LpoRAX.jpg" alt="LpoRAX.jpg"></p><ol start="2"><li>defaer\u5C5E\u6027</li></ol><p><code>defaer</code>\u5728\u89E3\u6790\u9875\u9762\u65F6\u4F1A\u540C\u65F6\u4E0B\u8F7D\u811A\u672C\uFF0C\u52A0\u8F7D\u5B8C\u9875\u9762\u540E\u518D\u6267\u884C\u811A\u672C\u3002</p><p>\u91CD\u70B9\uFF1A\u5728HTML\u89E3\u6790\u5B8C\u540E\uFF0C<code>defaer</code>\u5F15\u5165\u7684\u811A\u672C(JS)\u4E4B\u95F4\u4E5F\u662F\u987A\u5E8F\u6267\u884C\u7684\u3002</p><p><img src="https://s6.jpg.cm/2022/01/24/Lpo6fS.jpg" alt="Lpo6fS.jpg"></p><ol start="3"><li>async\u5C5E\u6027</li></ol><p><code>asyns</code>\u5728\u89E3\u6790\u9875\u9762\u7684\u65F6\u5019\u4F1A\u540C\u6B65\u4E0B\u8F7D\u811A\u672C\uFF0C\u4F46\u6267\u884C\u65F6\u4F1A\u6682\u505C\u89E3\u6790HTML\u3002</p><p>\u91CD\u70B9\uFF1A<code>async</code>\u548CHTML\u540C\u6B65\u89E3\u6790\uFF0C\u4F46\u4E0D\u662F\u987A\u5E8F\u6267\u884C\u811A\u672C\uFF08JS\uFF09,\u8C01\u5148\u52A0\u8F7D\u5B8C\u8C01\u5148\u6267\u884C\u3002</p><p><img src="https://s6.jpg.cm/2022/01/24/LpoVZW.jpg" alt="LpoVZW.jpg"></p><ol start="4"><li>\u5176\u5B83\u65B9\u6CD5</li></ol><ul><li>\u4F7F\u7528jQuery\u7684getScript()\u65B9\u6CD5</li><li>\u52A8\u6001\u521B\u5EFADOM\u65B9\u5F0F</li><li>\u4F7F\u7528setTimeout\u5EF6\u8FDF\u65B9\u6CD5</li><li>\u8BA9JS\u6700\u540E\u52A0\u8F7D\uFF08JS\u653E\u5728\u6587\u4EF6\u9875\u9762\u5E95\u90E8\uFF09</li></ul><h2 id="_2-js\u7684\u6570\u636E\u7C7B\u578B\u548Cnan" tabindex="-1"><a class="header-anchor" href="#_2-js\u7684\u6570\u636E\u7C7B\u578B\u548Cnan" aria-hidden="true">#</a> 2.js\u7684\u6570\u636E\u7C7B\u578B\u548CNaN</h2><ol><li>\u57FA\u672C\u7C7B\u578B</li></ol><p><code>string</code>,<code>number</code>,<code>boolean</code>,<code>undefined</code>,<code>null</code>,<code>symbol</code></p><ol start="2"><li>\u5F15\u7528\u7C7B\u578B</li></ol><p><code>object</code></p><ol start="3"><li>NaN</li></ol><p><code>NaN</code>\u662F\u4E00\u4E2A\u6570\u503C\u7C7B\u578B\uFF0C\u4F46\u4E0D\u662F\u4E00\u4E2A\u5177\u4F53\u7684\u6570\u636E</p><h2 id="_3-null-\u548C-undefined" tabindex="-1"><a class="header-anchor" href="#_3-null-\u548C-undefined" aria-hidden="true">#</a> 3.null \u548C undefined</h2><p>\u6211\u7684\u7406\u89E3\uFF1A\u4E24\u8005\u90FD\u8868\u793A<code>\u65E0</code>\u4F46\uFF1A</p><ul><li><code>undefined</code>\u8868\u793A\u672A\u5B9A\u4E49\uFF08\u65E0\u7684\u521D\u59CB\u503C\uFF09,\u8F6C\u6362\u4E3A\u6570\u503C\u65F6\u4E3ANaN\u3002</li><li><code>null</code>\u8868\u793A\u7A7A\uFF08\u65E0\u7684\u5BF9\u8C61\u6216\u7A7A\u5BF9\u8C61\u6307\u9488\uFF09\uFF0C\u8F6C\u5316\u4E3A\u6570\u503C\u65F6\u4E3A<code>0</code>(\u95EE\u9898\u6240\u5728)\u3002</li></ul><p>\u4E0A\u9762\u5DEE\u4E0D\u591A\u4E86\uFF0C\u66F4\u591A\uFF1A</p><ul><li><code>null</code> \u548C <code>undefined</code> \u7684\u503C\u76F8\u7B49\uFF0C\u4F46\u7C7B\u578B\u4E0D\u7B49\uFF1A<code>undefined</code>\u7684\u7C7B\u578B(<code>typeof</code>)\u662F<code>undefined</code>\uFF1B<code>null</code>\u7684\u7C7B\u578B(<code>typeof</code>)\u662F<code>object</code>\u3002</li><li>\u5148\u6709<code>null</code>\u540E\u6709<code>undefined</code>,\u4E3A\u4E86\u5F25\u8865null\u6709\u65F6\u4F1A\u88AB\u9690\u5F0F\u8F6C\u6362\u4E3A0\u7684\u5751\u3002</li></ul><h2 id="_4-\u548C-\u6709\u4EC0\u4E48\u4E0D\u540C" tabindex="-1"><a class="header-anchor" href="#_4-\u548C-\u6709\u4EC0\u4E48\u4E0D\u540C" aria-hidden="true">#</a> 4.==\u548C===\u6709\u4EC0\u4E48\u4E0D\u540C\uFF1F</h2><p><code>==</code>\uFF1A\u6BD4\u8F83\u4E24\u4E2A\u503C\u662F\u5426\u76F8\u7B49\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code>string <span class="token operator">==</span> number <span class="token operator">||</span> boolean <span class="token operator">||</span> number <span class="token operator">...</span><span class="token punctuation">.</span>\u90FD\u4F1A\u9690\u5F0F\u8F6C\u6362\u3002
-<span class="token comment">// \u901A\u8FC7ValueOf()\u65B9\u6CD5\u9690\u5F0F\uFF08\u9ED8\u8BA4\u81EA\u52A8\u6267\u884C\uFF0C\u4E0D\u4F1A\u663E\u793A\uFF09\u8F6C\u6362\uFF0C\u6240\u4EE5\u4E0D\u63A8\u8350\u4F7F\u7528\u3002</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p><code>===</code>\uFF1A\u6BD4\u8F83\u503C\u548C\u6570\u636E\u7C7B\u578B\u662F\u5426\u76F8\u7B49\u3002</p><h2 id="_5-\u5B8F\u4EFB\u52A1\u548C\u5FAE\u4EFB\u52A1-event-loop-\u4E8B\u4EF6\u5FAA\u73AF" tabindex="-1"><a class="header-anchor" href="#_5-\u5B8F\u4EFB\u52A1\u548C\u5FAE\u4EFB\u52A1-event-loop-\u4E8B\u4EF6\u5FAA\u73AF" aria-hidden="true">#</a> 5.\u5B8F\u4EFB\u52A1\u548C\u5FAE\u4EFB\u52A1\uFF08Event Loop/\u4E8B\u4EF6\u5FAA\u73AF \uFF09</h2><ol><li><p>js\u662F\u5355\u7EBF\u7A0B\u8BED\u8A00\u3002</p></li><li><p>\u540C\u4E00\u4E2A\u65F6\u95F4\u53EA\u80FD\u505A\u4E00\u4EF6\u4E8B\uFF0Cjs\u6267\u884C\u987A\u5E8F\uFF1A\u540C\u6B65\u6267\u884C--&gt;\u4E8B\u4EF6\u5FAA\u73AF\u3002</p></li><li><p>\u4E8B\u4EF6\u5FAA\u73AF\u5305\u62EC\uFF1A\u5B8F\u4EFB\u52A1\u3001\u5FAE\u4EFB\u52A1</p></li><li><p>\u5B8F\u4EFB\u52A1\uFF1AsetTimeout...</p></li><li><p>\u5FAE\u4EFB\u52A1\uFF1Apromise.then...</p></li><li><p>\u91CD\u8981\uFF1A\u8981\u6267\u884C\u5B8F\u4EFB\u52A1\u524D\u63D0\u662F\u6E05\u7A7A<code>\u5F53\u524D</code>\u6240\u6709\u5FAE\u4EFB\u52A1\u3002</p></li></ol><h2 id="_6-\u4F5C\u7528\u57DF" tabindex="-1"><a class="header-anchor" href="#_6-\u4F5C\u7528\u57DF" aria-hidden="true">#</a> 6.\u4F5C\u7528\u57DF</h2><p>\u62D3\u5C55\u5230ES6\uFF1A</p><ol><li>ES5\u53EA\u6709\u51FD\u6570\u6709\u4F5C\u7528\u57DF\uFF0Cvar\u4E3A\u5168\u5C40\u53D8\u91CF\uFF0CES6\u4E2D\u6709\u4E86let\u53D8\u91CF\uFF08\u53EA\u5728\u5F53\u524D\u4F5C\u7528\u57DF\u6709\u6548\uFF09\u548Cconst\u5E38\u91CF\uFF08\u4E00\u65E6\u58F0\u660E\uFF0C\u5E38\u91CF\u7684\u503C\u5C31\u4E0D\u80FD\u6539\u53D8\uFF09\u3002</li><li>\u4F5C\u7528\u57DF\u94FE\uFF08\u4F5C\u7528\u57DF\u7684\u96C6\u5408\uFF09\uFF1A\u5185\u90E8\u53EF\u4EE5\u8BBF\u95EE\u5916\u90E8\uFF0C\u4F46\u662F\u5916\u90E8\u4E0D\u80FD\u8BBF\u95EE\u5185\u90E8\u7684\u53D8\u91CF\u3002</li></ol><ul><li>\u6CE8\u610F\uFF1A\u5982\u679C\u5185\u90E8\u6709\uFF0C\u4F18\u5148\u4F7F\u7528\u5185\u90E8\uFF0C\u5185\u90E8\u6CA1\u6709\u5219\u67E5\u627E\u5916\u90E8\u3002</li></ul><ol start="3"><li>\u6CE8\u610F\u58F0\u660E\u53D8\u91CF\u662F\u7528var\u8FD8\u662F\u6CA1\u6709\u5199\uFF08window.\uFF09</li><li>\u6CE8\u610F\uFF1AJS\u6709\u53D8\u91CF\u63D0\u5347\u673A\u5236\uFF08\u53D8\u91CF\u60AC\u6302\u58F0\u660E\uFF09</li><li>\u4F18\u5148\u7EA7\uFF1A\u58F0\u660E\u53D8\u91CF\uFF08\u6709\u503C\uFF09 &gt; \u58F0\u660E\u51FD\u6570 &gt; \u53C2\u6570 &gt; \u53D8\u91CF\u63D0\u5347</li><li>\u6CE8\u610F\uFF1A\u6211\u53D1\u73B0\uFF0C\u53C2\u6570 &gt; \u58F0\u660E\u53D8\u91CF\uFF08\u5373\u4F7F\u6709\u503C\uFF09\uFF0C\u6240\u4EE5\u4E0A\u9762\u5E94\u8BE5\u662F\u4E92\u76F8\u4E0D\u540C\u7684\uFF0C\u4E0D\u662F\u7B80\u5355\u7684\u4E0A\u4E0B\u7EA7\u5173\u7CFB\u3002\u5373\uFF1A</li></ol><ul><li>\u58F0\u660E\u53D8\u91CF\uFF08\u6709\u503C\uFF09 &gt; \u58F0\u660E\u51FD\u6570</li><li>\u58F0\u660E\u51FD\u6570 &gt; \u53C2\u6570</li><li>\u53C2\u6570 &gt; \u58F0\u660E\u53D8\u91CF\uFF08\u6709\u503C\uFF09</li><li>\u4E09\u8005 &gt; \u53D8\u91CF\u63D0\u5347</li></ul><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code>   <span class="token keyword">function</span> <span class="token function">a</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-     <span class="token keyword">var</span> b <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
-     <span class="token keyword">function</span> <span class="token function">c</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-       console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>b<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//undefined</span>
-      <span class="token comment">//  \u7531\u4E8E\u4E0B\u9762\u6709var b\uFF0C\u5BFC\u81F4\u53D8\u91CF\u63D0\u5347\u3002</span>
-      <span class="token comment">//  \u7C7B\u4F3C\u4E8E\uFF1A</span>
-      <span class="token comment">//  var b;</span>
-      <span class="token comment">//  b = 2;</span>
-      <span class="token comment">//  \u5982\u679C\u53BB\u6389\u4E0B\u9762var b = 2;\u4E0A\u9762\u4F1A\u8F93\u51FA\u7236\u7EA7var b = 1;</span>
-       <span class="token keyword">var</span> b <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span>
-       console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>b<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//2</span>
-     <span class="token punctuation">}</span>
-     <span class="token function">c</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
-     console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>b<span class="token punctuation">)</span><span class="token comment">//1</span>
-   <span class="token punctuation">}</span>
-   <span class="token function">a</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-   <span class="token comment">//  \u601D\u8003\uFF0C\u5982\u679C\u7ED9a\u4F20\u53C2\u6570\u4F18\u5148\u7EA7\u600E\u4E48\u6837</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br></div></div><h2 id="_7-js\u5BF9\u8C61-new\u53D1\u751F\u4E86\u4E0A\u9762" tabindex="-1"><a class="header-anchor" href="#_7-js\u5BF9\u8C61-new\u53D1\u751F\u4E86\u4E0A\u9762" aria-hidden="true">#</a> 7.JS\u5BF9\u8C61\uFF08new\u53D1\u751F\u4E86\u4E0A\u9762\uFF1F\uFF09</h2><p>\u5BF9\u8C61\u6CE8\u610F\u70B9\uFF1A</p><ol><li>\u5BF9\u8C61\u901A\u8FC7new\u64CD\u4F5C\u7B26\u6784\u5EFA\u51FA\u6765\uFF0C\u6240\u4EE5\u5BF9\u8C61\u4E4B\u95F4\u4E0D\u76F8\u7B49\uFF08\u9664\u4E86\u5F15\u7528\u5916\uFF09\uFF1B</li><li>\u6CE8\u610F\uFF1A\u5BF9\u8C61\u5F15\u7528\u7C7B\u578B\uFF08\u5171\u540C\u4E00\u4E2A\u5730\u5740\uFF09\uFF1B</li><li>\u5BF9\u8C61\u7684key\u90FD\u662F\u5B57\u7B26\u4E32\u7C7B\u578B\uFF1B</li><li>\u5BF9\u8C61\u627E\u5C5E\u6027\u6216\u65B9\u6CD5</li></ol><p>\u5148\u5728\u5BF9\u8C61\u672C\u8EAB\u627E \u2014\u2014\u2014\u2014&gt; \u6784\u9020\u51FD\u6570\u4E2D\u627E \u2014\u2014\u2014\u2014&gt; \u5BF9\u8C61\u539F\u578B\u4E2D\u627E \u2014\u2014\u2014\u2014&gt; \u6784\u9020\u51FD\u6570\u539F\u578B\u4E2D\u627E</p><p>\u6211\u4EEC\u5B66\u4E60\u4E00\u4E0B\uFF1A</p><ol><li>\u4EC0\u4E48\u662Fprototype\u3001__proto__\u4E0Econstructor\uFF1F</li></ol><p>\u4F8B\u5B50\u5F00\u59CB\uFF1A</p>`);
-  _push(serverRenderer.ssrRenderComponent(_component_CodeGroup, null, {
-    default: vue.withCtx((_, _push2, _parent2, _scopeId) => {
-      if (_push2) {
-        _push2(serverRenderer.ssrRenderComponent(_component_CodeGroupItem, {
-          title: "ES5",
-          active: ""
-        }, {
-          default: vue.withCtx((_2, _push3, _parent3, _scopeId2) => {
-            if (_push3) {
-              _push3(`<div class="language-javascript ext-js"${_scopeId2}><pre class="language-javascript"${_scopeId2}><code${_scopeId2}><span class="token keyword"${_scopeId2}>function</span> <span class="token function"${_scopeId2}>Foo</span><span class="token punctuation"${_scopeId2}>(</span><span class="token punctuation"${_scopeId2}>)</span> <span class="token punctuation"${_scopeId2}>{</span><span class="token operator"${_scopeId2}>...</span><span class="token punctuation"${_scopeId2}>}</span><span class="token punctuation"${_scopeId2}>;</span>
-<span class="token keyword"${_scopeId2}>let</span> f1 <span class="token operator"${_scopeId2}>=</span> <span class="token keyword"${_scopeId2}>new</span> <span class="token class-name"${_scopeId2}>Foo</span><span class="token punctuation"${_scopeId2}>(</span><span class="token punctuation"${_scopeId2}>)</span><span class="token punctuation"${_scopeId2}>;</span>
-</code></pre></div>`);
-            } else {
-              return [
-                vue.createVNode("div", { class: "language-javascript ext-js" }, [
-                  vue.createVNode("pre", { class: "language-javascript" }, [
-                    vue.createVNode("code", null, [
-                      vue.createVNode("span", { class: "token keyword" }, "function"),
-                      vue.createTextVNode(),
-                      vue.createVNode("span", { class: "token function" }, "Foo"),
-                      vue.createVNode("span", { class: "token punctuation" }, "("),
-                      vue.createVNode("span", { class: "token punctuation" }, ")"),
-                      vue.createTextVNode(),
-                      vue.createVNode("span", { class: "token punctuation" }, "{"),
-                      vue.createVNode("span", { class: "token operator" }, "..."),
-                      vue.createVNode("span", { class: "token punctuation" }, "}"),
-                      vue.createVNode("span", { class: "token punctuation" }, ";"),
-                      vue.createTextVNode("\n"),
-                      vue.createVNode("span", { class: "token keyword" }, "let"),
-                      vue.createTextVNode(" f1 "),
-                      vue.createVNode("span", { class: "token operator" }, "="),
-                      vue.createTextVNode(),
-                      vue.createVNode("span", { class: "token keyword" }, "new"),
-                      vue.createTextVNode(),
-                      vue.createVNode("span", { class: "token class-name" }, "Foo"),
-                      vue.createVNode("span", { class: "token punctuation" }, "("),
-                      vue.createVNode("span", { class: "token punctuation" }, ")"),
-                      vue.createVNode("span", { class: "token punctuation" }, ";"),
-                      vue.createTextVNode("\n")
-                    ])
-                  ])
-                ])
-              ];
-            }
-          }),
-          _: 1
-        }, _parent2, _scopeId));
-        _push2(serverRenderer.ssrRenderComponent(_component_CodeGroupItem, { title: "ES6" }, {
-          default: vue.withCtx((_2, _push3, _parent3, _scopeId2) => {
-            if (_push3) {
-              _push3(`<div class="language-javascript ext-js"${_scopeId2}><pre class="language-javascript"${_scopeId2}><code${_scopeId2}><span class="token keyword"${_scopeId2}>class</span> <span class="token class-name"${_scopeId2}>Foo</span><span class="token punctuation"${_scopeId2}>(</span><span class="token punctuation"${_scopeId2}>)</span><span class="token punctuation"${_scopeId2}>{</span><span class="token operator"${_scopeId2}>...</span><span class="token punctuation"${_scopeId2}>}</span><span class="token punctuation"${_scopeId2}>;</span>
-<span class="token keyword"${_scopeId2}>let</span> f1 <span class="token operator"${_scopeId2}>=</span> <span class="token keyword"${_scopeId2}>new</span> <span class="token class-name"${_scopeId2}>Foo</span><span class="token punctuation"${_scopeId2}>(</span><span class="token punctuation"${_scopeId2}>)</span><span class="token punctuation"${_scopeId2}>;</span>
-</code></pre></div>`);
-            } else {
-              return [
-                vue.createVNode("div", { class: "language-javascript ext-js" }, [
-                  vue.createVNode("pre", { class: "language-javascript" }, [
-                    vue.createVNode("code", null, [
-                      vue.createVNode("span", { class: "token keyword" }, "class"),
-                      vue.createTextVNode(),
-                      vue.createVNode("span", { class: "token class-name" }, "Foo"),
-                      vue.createVNode("span", { class: "token punctuation" }, "("),
-                      vue.createVNode("span", { class: "token punctuation" }, ")"),
-                      vue.createVNode("span", { class: "token punctuation" }, "{"),
-                      vue.createVNode("span", { class: "token operator" }, "..."),
-                      vue.createVNode("span", { class: "token punctuation" }, "}"),
-                      vue.createVNode("span", { class: "token punctuation" }, ";"),
-                      vue.createTextVNode("\n"),
-                      vue.createVNode("span", { class: "token keyword" }, "let"),
-                      vue.createTextVNode(" f1 "),
-                      vue.createVNode("span", { class: "token operator" }, "="),
-                      vue.createTextVNode(),
-                      vue.createVNode("span", { class: "token keyword" }, "new"),
-                      vue.createTextVNode(),
-                      vue.createVNode("span", { class: "token class-name" }, "Foo"),
-                      vue.createVNode("span", { class: "token punctuation" }, "("),
-                      vue.createVNode("span", { class: "token punctuation" }, ")"),
-                      vue.createVNode("span", { class: "token punctuation" }, ";"),
-                      vue.createTextVNode("\n")
-                    ])
-                  ])
-                ])
-              ];
-            }
-          }),
-          _: 1
-        }, _parent2, _scopeId));
-      } else {
-        return [
-          vue.createVNode(_component_CodeGroupItem, {
-            title: "ES5",
-            active: ""
-          }, {
-            default: vue.withCtx(() => [
-              vue.createVNode("div", { class: "language-javascript ext-js" }, [
-                vue.createVNode("pre", { class: "language-javascript" }, [
-                  vue.createVNode("code", null, [
-                    vue.createVNode("span", { class: "token keyword" }, "function"),
-                    vue.createTextVNode(),
-                    vue.createVNode("span", { class: "token function" }, "Foo"),
-                    vue.createVNode("span", { class: "token punctuation" }, "("),
-                    vue.createVNode("span", { class: "token punctuation" }, ")"),
-                    vue.createTextVNode(),
-                    vue.createVNode("span", { class: "token punctuation" }, "{"),
-                    vue.createVNode("span", { class: "token operator" }, "..."),
-                    vue.createVNode("span", { class: "token punctuation" }, "}"),
-                    vue.createVNode("span", { class: "token punctuation" }, ";"),
-                    vue.createTextVNode("\n"),
-                    vue.createVNode("span", { class: "token keyword" }, "let"),
-                    vue.createTextVNode(" f1 "),
-                    vue.createVNode("span", { class: "token operator" }, "="),
-                    vue.createTextVNode(),
-                    vue.createVNode("span", { class: "token keyword" }, "new"),
-                    vue.createTextVNode(),
-                    vue.createVNode("span", { class: "token class-name" }, "Foo"),
-                    vue.createVNode("span", { class: "token punctuation" }, "("),
-                    vue.createVNode("span", { class: "token punctuation" }, ")"),
-                    vue.createVNode("span", { class: "token punctuation" }, ";"),
-                    vue.createTextVNode("\n")
-                  ])
-                ])
-              ])
-            ]),
-            _: 1
-          }),
-          vue.createVNode(_component_CodeGroupItem, { title: "ES6" }, {
-            default: vue.withCtx(() => [
-              vue.createVNode("div", { class: "language-javascript ext-js" }, [
-                vue.createVNode("pre", { class: "language-javascript" }, [
-                  vue.createVNode("code", null, [
-                    vue.createVNode("span", { class: "token keyword" }, "class"),
-                    vue.createTextVNode(),
-                    vue.createVNode("span", { class: "token class-name" }, "Foo"),
-                    vue.createVNode("span", { class: "token punctuation" }, "("),
-                    vue.createVNode("span", { class: "token punctuation" }, ")"),
-                    vue.createVNode("span", { class: "token punctuation" }, "{"),
-                    vue.createVNode("span", { class: "token operator" }, "..."),
-                    vue.createVNode("span", { class: "token punctuation" }, "}"),
-                    vue.createVNode("span", { class: "token punctuation" }, ";"),
-                    vue.createTextVNode("\n"),
-                    vue.createVNode("span", { class: "token keyword" }, "let"),
-                    vue.createTextVNode(" f1 "),
-                    vue.createVNode("span", { class: "token operator" }, "="),
-                    vue.createTextVNode(),
-                    vue.createVNode("span", { class: "token keyword" }, "new"),
-                    vue.createTextVNode(),
-                    vue.createVNode("span", { class: "token class-name" }, "Foo"),
-                    vue.createVNode("span", { class: "token punctuation" }, "("),
-                    vue.createVNode("span", { class: "token punctuation" }, ")"),
-                    vue.createVNode("span", { class: "token punctuation" }, ";"),
-                    vue.createTextVNode("\n")
-                  ])
-                ])
-              ])
-            ]),
-            _: 1
-          })
-        ];
-      }
-    }),
-    _: 1
-  }, _parent));
-  _push(`<p>\u4EE5\u4E0A\u4EE3\u7801\u8868\u793A\u521B\u5EFA\u4E00\u4E2A\u6784\u9020\u51FD\u6570Foo()\uFF0C\u5E76\u7528new\u5173\u952E\u5B57\u5B9E\u4F8B\u5316\u8BE5\u6784\u9020\u51FD\u6570\u5F97\u5230\u4E00\u4E2A\u5B9E\u4F8B\u5316\u5BF9\u8C61f1\u3002\u8FD9\u91CC\u7A0D\u5FAE\u8865\u5145\u4E00\u4E0Bnew\u64CD\u4F5C\u7B26\u5C06\u51FD\u6570\u4F5C\u4E3A\u6784\u9020\u5668\u8FDB\u884C\u8C03\u7528\u65F6\u7684\u8FC7\u7A0B\uFF1A\u51FD\u6570\u88AB\u8C03\u7528\uFF0C\u7136\u540E\u65B0\u521B\u5EFA\u4E00\u4E2A\u5BF9\u8C61\uFF0C\u5E76\u4E14\u5F62\u6210\u4E86\u51FD\u6570\u7684\u4E0A\u4E0B\u6587\uFF08\u4E5F\u5C31\u662F\u6B64\u65F6\u51FD\u6570\u5185\u90E8\u7684this\u662F\u6307\u5411\u8BE5\u65B0\u521B\u5EFA\u7684\u5BF9\u8C61\uFF0C\u8FD9\u610F\u5473\u7740\u6211\u4EEC\u53EF\u4EE5\u5728\u6784\u9020\u5668\u51FD\u6570\u5185\u90E8\u901A\u8FC7this\u53C2\u6570\u521D\u59CB\u5316\u503C\uFF09\uFF0C\u6700\u540E\u8FD4\u56DE\u8BE5\u65B0\u5BF9\u8C61\u7684\u5F15\u7528</p><p>\u4E0B\u56FE\u522B\u7EA0\u7ED3\u989D\uFF0C\u7B80\u5355\u770B\u770B\uFF0C\u540E\u9762\u4E00\u6B65\u6B65\u5256\u6790\uFF1A</p><p><img src="https://s2.loli.net/2022/01/25/wrAWi8gkNh3Havd.png" alt=""></p><p>\u8BF4\u660E\uFF1A</p><p>\u53F3\u4E0B\u89D2\u4E3A\u56FE\u4F8B\uFF0C\u7EA2\u8272\u7BAD\u5934\u8868\u793A__proto__\u5C5E\u6027\u6307\u5411\u3001\u7EFF\u8272\u7BAD\u5934\u8868\u793Aprototype\u5C5E\u6027\u7684\u6307\u5411\u3001\u68D5\u8272\u5B9E\u7EBF\u7BAD\u5934\u8868\u793A\u672C\u8EAB\u5177\u6709\u7684constructor\u5C5E\u6027\u7684\u6307\u5411\uFF0C\u68D5\u8272\u865A\u7EBF\u7BAD\u5934\u8868\u793A\u7EE7\u627F\u800C\u6765\u7684constructor\u5C5E\u6027\u7684\u6307\u5411\uFF1B\u84DD\u8272\u65B9\u5757\u8868\u793A\u5BF9\u8C61\uFF0C\u6D45\u7EFF\u8272\u65B9\u5757\u8868\u793A\u51FD\u6570\uFF08\u8FD9\u91CC\u4E3A\u4E86\u66F4\u597D\u770B\u6E05\uFF0CFoo()\u4EC5\u4EE3\u8868\u662F\u51FD\u6570\uFF0C\u5E76\u4E0D\u662F\u6307\u6267\u884C\u51FD\u6570Foo\u540E\u5F97\u5230\u7684\u7ED3\u679C\uFF0C\u56FE\u4E2D\u7684\u5176\u4ED6\u51FD\u6570\u540C\u7406\uFF09\u3002\u56FE\u7684\u4E2D\u95F4\u90E8\u5206\u5373\u4E3A\u5B83\u4EEC\u4E4B\u95F4\u7684\u8054\u7CFB\uFF0C\u56FE\u7684\u6700\u5DE6\u8FB9\u5373\u4E3A\u4F8B\u5B50\u4EE3\u7801\u3002</p><ol><li>__ proto __ \u5C5E\u6027\uFF08\u539F\u578B\uFF09</li></ol><p>\u6211\u4EEC\u7262\u7262\u8BB0\u4F4F\u4E24\u70B9\uFF1A</p><ol><li>\u2460__proto__\u548Cconstructor\u5C5E\u6027\u662F\u5BF9\u8C61\u6240\u72EC\u6709\u7684\uFF1B</li><li>prototype\u5C5E\u6027\u662F\u51FD\u6570\u6240\u72EC\u6709\u7684\u3002\u4F46\u662F\u7531\u4E8EJS\u4E2D\u51FD\u6570\u4E5F\u662F\u4E00\u79CD\u5BF9\u8C61\uFF0C\u6240\u4EE5\u51FD\u6570\u4E5F\u62E5\u6709__proto__\u548Cconstructor\u5C5E\u6027,\u8FD9\u70B9\u662F\u81F4\u4F7F\u6211\u4EEC\u4EA7\u751F\u56F0\u60D1\u7684\u5F88\u5927\u539F\u56E0\u4E4B\u4E00\u3002</li></ol><p><img src="https://s2.loli.net/2022/01/25/vVsFScDaEryJlgM.png" alt=""></p><p>\u6839\u636E\u4E0A\u56FE\u603B\u7ED3\uFF1A</p><ol><li>\u5B83\u662F<code>\u5BF9\u8C61\u6240\u72EC\u6709</code>\u7684\uFF0C\u53EF\u4EE5\u770B\u5230__proto__\u5C5E\u6027\u90FD\u662F\u7531\u4E00\u4E2A\u5BF9\u8C61\u6307\u5411\u4E00\u4E2A\u5BF9\u8C61\uFF0C\u5373\u6307\u5411\u5B83\u4EEC\u7684\u539F\u578B\u5BF9\u8C61\uFF08\u4E5F\u53EF\u4EE5\u7406\u89E3\u4E3A\u7236\u5BF9\u8C61\uFF09\uFF0C\uFF0C\u90A3\u4E48\u8FD9\u4E2A\u5C5E\u6027\u7684\u4F5C\u7528\u662F\u4EC0\u4E48\u5462\uFF1F\u5B83\u7684\u4F5C\u7528\u5C31\u662F\u5F53\u8BBF\u95EE\u4E00\u4E2A\u5BF9\u8C61\u7684\u5C5E\u6027\u65F6\uFF0C\u5982\u679C\u8BE5\u5BF9\u8C61\u5185\u90E8\u4E0D\u5B58\u5728\u8FD9\u4E2A\u5C5E\u6027\uFF0C\u90A3\u4E48\u5C31\u4F1A\u53BB\u5B83\u7684__proto__\u5C5E\u6027\u6240\u6307\u5411\u7684\u90A3\u4E2A\u5BF9\u8C61\uFF08\u53EF\u4EE5\u7406\u89E3\u4E3A\u7236\u5BF9\u8C61\uFF09\u91CC\u627E\uFF0C\u5982\u679C\u7236\u5BF9\u8C61\u4E5F\u4E0D\u5B58\u5728\u8FD9\u4E2A\u5C5E\u6027\uFF0C\u5219\u7EE7\u7EED\u5F80\u7236\u5BF9\u8C61\u7684__proto__\u5C5E\u6027\u6240\u6307\u5411\u7684\u90A3\u4E2A\u5BF9\u8C61\uFF08\u53EF\u4EE5\u7406\u89E3\u4E3A\u7237\u7237\u5BF9\u8C61\uFF09\u91CC\u627E\uFF0C\u5982\u679C\u8FD8\u6CA1\u627E\u5230\uFF0C\u5219\u7EE7\u7EED\u5F80\u4E0A\u627E\u2026\u76F4\u5230\u539F\u578B\u94FE\u9876\u7AEFnull\uFF08\u53EF\u4EE5\u7406\u89E3\u4E3A\u539F\u59CB\u4EBA\u3002\u3002\u3002\uFF09\uFF0C\u518D\u5F80\u4E0A\u627E\u5C31\u76F8\u5F53\u4E8E\u5728null\u4E0A\u53D6\u503C\uFF0C\u4F1A\u62A5\u9519\uFF08\u53EF\u4EE5\u7406\u89E3\u4E3A\uFF0C\u518D\u5F80\u4E0A\u5C31\u5DF2\u7ECF\u4E0D\u662F\u201C\u4EBA\u201D\u7684\u8303\u7574\u4E86\uFF0C\u627E\u4E0D\u5230\u4E86\uFF0C\u5230\u6B64\u7ED3\u675F\uFF0Cnull\u4E3A\u539F\u578B\u94FE\u7684\u7EC8\u70B9\uFF09\uFF0C\u7531\u4EE5\u4E0A\u8FD9\u79CD\u901A\u8FC7__proto__\u5C5E\u6027\u6765\u8FDE\u63A5\u5BF9\u8C61\u76F4\u5230null\u7684\u4E00\u6761\u94FE\u5373\u4E3A\u6211\u4EEC\u6240\u8C13\u7684\u539F\u578B\u94FE\u3002</li></ol><p>\u6211\u4EEC\u5E73\u65F6\u8C03\u7528\u7684\u5B57\u7B26\u4E32\u65B9\u6CD5\u3001\u6570\u7EC4\u65B9\u6CD5\u3001\u5BF9\u8C61\u65B9\u6CD5\u3001\u51FD\u6570\u65B9\u6CD5\u7B49\u90FD\u662F\u9760__proto__\u7EE7\u627F\u800C\u6765\u7684\u3002</p><ol start="2"><li>prototype\u5C5E\u6027\uFF08\u539F\u578B\uFF09</li></ol><p><img src="https://s2.loli.net/2022/01/25/niXe41DhUfdWk8g.png" alt=""></p><p>prototype\u5C5E\u6027\uFF0C\u522B\u5FD8\u4E86\u4E00\u70B9\uFF0C\u5C31\u662F\u6211\u4EEC\u524D\u9762\u63D0\u5230\u8981\u7262\u8BB0\u7684\u4E24\u70B9\u4E2D\u7684\u7B2C\u4E8C\u70B9\uFF0C\u5B83\u662F\u51FD\u6570\u6240\u72EC\u6709\u7684\uFF0C\u5B83\u662F\u4ECE\u4E00\u4E2A\u51FD\u6570\u6307\u5411\u4E00\u4E2A\u5BF9\u8C61\u3002\u5B83\u7684\u542B\u4E49\u662F\u51FD\u6570\u7684\u539F\u578B\u5BF9\u8C61\uFF0C\u4E5F\u5C31\u662F\u8FD9\u4E2A\u51FD\u6570\uFF08\u5176\u5B9E\u6240\u6709\u51FD\u6570\u90FD\u53EF\u4EE5\u4F5C\u4E3A\u6784\u9020\u51FD\u6570\uFF09\u6240\u521B\u5EFA\u7684\u5B9E\u4F8B\u7684\u539F\u578B\u5BF9\u8C61\uFF0C\u7531\u6B64\u53EF\u77E5\uFF1Af1.<strong>proto</strong> === Foo.prototype\uFF0C\u5B83\u4EEC\u4E24\u4E2A\u5B8C\u5168\u4E00\u6837\u3002\u90A3prototype\u5C5E\u6027\u7684\u4F5C\u7528\u53C8\u662F\u4EC0\u4E48\u5462\uFF1F\u5B83\u7684\u4F5C\u7528\u5C31\u662F\u5305\u542B\u53EF\u4EE5\u7531\u7279\u5B9A\u7C7B\u578B\u7684\u6240\u6709\u5B9E\u4F8B\u5171\u4EAB\u7684\u5C5E\u6027\u548C\u65B9\u6CD5\uFF0C\u4E5F\u5C31\u662F\u8BA9\u8BE5\u51FD\u6570\u6240\u5B9E\u4F8B\u5316\u7684\u5BF9\u8C61\u4EEC\u90FD\u53EF\u4EE5\u627E\u5230\u516C\u7528\u7684\u5C5E\u6027\u548C\u65B9\u6CD5\u3002\u4EFB\u4F55\u51FD\u6570\u5728\u521B\u5EFA\u7684\u65F6\u5019\uFF0C\u5176\u5B9E\u4F1A\u9ED8\u8BA4\u540C\u65F6\u521B\u5EFA\u8BE5\u51FD\u6570\u7684prototype\u5BF9\u8C61\u3002</p><ol start="3"><li>constructor\u5C5E\u6027\uFF08\u6784\u9020\u5668\uFF09</li></ol><p><img src="https://s2.loli.net/2022/01/25/q8LbzI2VapCKUSw.png" alt=""></p><p>constructor\u5C5E\u6027\u4E5F\u662F\u5BF9\u8C61\u624D\u62E5\u6709\u7684\uFF0C\u5B83\u662F\u4ECE\u4E00\u4E2A\u5BF9\u8C61\u6307\u5411\u4E00\u4E2A\u51FD\u6570\uFF0C\u542B\u4E49\u5C31\u662F\u6307\u5411\u8BE5\u5BF9\u8C61\u7684\u6784\u9020\u51FD\u6570\uFF0C\u6BCF\u4E2A\u5BF9\u8C61\u90FD\u6709\u6784\u9020\u51FD\u6570\uFF08\u672C\u8EAB\u62E5\u6709\u6216\u7EE7\u627F\u800C\u6765\uFF0C\u7EE7\u627F\u800C\u6765\u7684\u8981\u7ED3\u5408__proto__\u5C5E\u6027\u67E5\u770B\u4F1A\u66F4\u6E05\u695A\u70B9\uFF0C\u5982\u4E0B\u56FE\u6240\u793A\uFF09\uFF0C\u4ECE\u4E0A\u56FE\u4E2D\u53EF\u4EE5\u770B\u51FAFunction\u8FD9\u4E2A\u5BF9\u8C61\u6BD4\u8F83\u7279\u6B8A\uFF0C\u5B83\u7684\u6784\u9020\u51FD\u6570\u5C31\u662F\u5B83\u81EA\u5DF1\uFF08\u56E0\u4E3AFunction\u53EF\u4EE5\u770B\u6210\u662F\u4E00\u4E2A\u51FD\u6570\uFF0C\u4E5F\u53EF\u4EE5\u662F\u4E00\u4E2A\u5BF9\u8C61\uFF09\uFF0C\u6240\u6709\u51FD\u6570\u548C\u5BF9\u8C61\u6700\u7EC8\u90FD\u662F\u7531Function\u6784\u9020\u51FD\u6570\u5F97\u6765\uFF0C\u6240\u4EE5constructor\u5C5E\u6027\u7684\u7EC8\u70B9\u5C31\u662FFunction\u8FD9\u4E2A\u51FD\u6570\u3002</p><p>\u201C\u6BCF\u4E2A\u5BF9\u8C61\u90FD\u6709\u6784\u9020\u51FD\u6570\u201D\u8FD9\u53E5\u8BDD\u3002\u8FD9\u91CC\u7684\u610F\u601D\u662F\u6BCF\u4E2A\u5BF9\u8C61\u90FD\u53EF\u4EE5\u627E\u5230\u5176\u5BF9\u5E94\u7684constructor\uFF0C\u56E0\u4E3A\u521B\u5EFA\u5BF9\u8C61\u7684\u524D\u63D0\u662F\u9700\u8981\u6709constructor\uFF0C\u800C\u8FD9\u4E2Aconstructor\u53EF\u80FD\u662F\u5BF9\u8C61\u81EA\u5DF1\u672C\u8EAB\u663E\u5F0F\u5B9A\u4E49\u7684\u6216\u8005\u901A\u8FC7__proto__\u5728\u539F\u578B\u94FE\u4E2D\u627E\u5230\u7684\u3002\u800C\u5355\u4ECEconstructor\u8FD9\u4E2A\u5C5E\u6027\u6765\u8BB2\uFF0C\u53EA\u6709prototype\u5BF9\u8C61\u624D\u6709\u3002\u6BCF\u4E2A\u51FD\u6570\u5728\u521B\u5EFA\u7684\u65F6\u5019\uFF0CJS\u4F1A\u540C\u65F6\u521B\u5EFA\u4E00\u4E2A\u8BE5\u51FD\u6570\u5BF9\u5E94\u7684prototype\u5BF9\u8C61\uFF0C\u800C\u51FD\u6570\u521B\u5EFA\u7684\u5BF9\u8C61.<strong>proto</strong> === \u8BE5\u51FD\u6570.prototype\uFF0C\u8BE5\u51FD\u6570.prototype.constructor===\u8BE5\u51FD\u6570\u672C\u8EAB\uFF0C\u6545\u901A\u8FC7\u51FD\u6570\u521B\u5EFA\u7684\u5BF9\u8C61\u5373\u4F7F\u81EA\u5DF1\u6CA1\u6709constructor\u5C5E\u6027\uFF0C\u5B83\u4E5F\u80FD\u901A\u8FC7__proto__\u627E\u5230\u5BF9\u5E94\u7684constructor\uFF0C\u6240\u4EE5\u4EFB\u4F55\u5BF9\u8C61\u6700\u7EC8\u90FD\u53EF\u4EE5\u627E\u5230\u5176\u6784\u9020\u51FD\u6570\uFF08null\u5982\u679C\u5F53\u6210\u5BF9\u8C61\u7684\u8BDD\uFF0C\u5C06null\u9664\u5916\uFF09\u3002\u5982\u4E0B\uFF1A</p><p><img src="https://s2.loli.net/2022/01/25/q8LbzI2VapCKUSw.png" alt=""></p><p>\u603B\u7ED3\uFF1A</p><ol><li>\u6211\u4EEC\u9700\u8981\u7262\u8BB0\u4E24\u70B9\uFF1A\u2460__proto__\u548Cconstructor\u5C5E\u6027\u662F\u5BF9\u8C61\u6240\u72EC\u6709\u7684\uFF1B\u2461 prototype\u5C5E\u6027\u662F\u51FD\u6570\u6240\u72EC\u6709\u7684\uFF0C\u56E0\u4E3A\u51FD\u6570\u4E5F\u662F\u4E00\u79CD\u5BF9\u8C61\uFF0C\u6240\u4EE5\u51FD\u6570\u4E5F\u62E5\u6709__proto__\u548Cconstructor\u5C5E\u6027\u3002</li><li>__proto__\u5C5E\u6027\u7684\u4F5C\u7528\u5C31\u662F\u5F53\u8BBF\u95EE\u4E00\u4E2A\u5BF9\u8C61\u7684\u5C5E\u6027\u65F6\uFF0C\u5982\u679C\u8BE5\u5BF9\u8C61\u5185\u90E8\u4E0D\u5B58\u5728\u8FD9\u4E2A\u5C5E\u6027\uFF0C\u90A3\u4E48\u5C31\u4F1A\u53BB\u5B83\u7684__proto__\u5C5E\u6027\u6240\u6307\u5411\u7684\u90A3\u4E2A\u5BF9\u8C61\uFF08\u7236\u5BF9\u8C61\uFF09\u91CC\u627E\uFF0C\u4E00\u76F4\u627E\uFF0C\u76F4\u5230__proto__\u5C5E\u6027\u7684\u7EC8\u70B9null\uFF0C\u518D\u5F80\u4E0A\u627E\u5C31\u76F8\u5F53\u4E8E\u5728null\u4E0A\u53D6\u503C\uFF0C\u4F1A\u62A5\u9519\u3002\u901A\u8FC7__proto__\u5C5E\u6027\u5C06\u5BF9\u8C61\u8FDE\u63A5\u8D77\u6765\u7684\u8FD9\u6761\u94FE\u8DEF\u5373\u6211\u4EEC\u6240\u8C13\u7684\u539F\u578B\u94FE\u3002</li><li>prototype\u5C5E\u6027\u7684\u4F5C\u7528\u5C31\u662F\u8BA9\u8BE5\u51FD\u6570\u6240\u5B9E\u4F8B\u5316\u7684\u5BF9\u8C61\u4EEC\u90FD\u53EF\u4EE5\u627E\u5230\u516C\u7528\u7684\u5C5E\u6027\u548C\u65B9\u6CD5\uFF0C\u5373f1.<strong>proto</strong> === Foo.prototype\u3002</li><li>constructor\u5C5E\u6027\u7684\u542B\u4E49\u5C31\u662F\u6307\u5411\u8BE5\u5BF9\u8C61\u7684\u6784\u9020\u51FD\u6570\uFF0C\u6240\u6709\u51FD\u6570\uFF08\u6B64\u65F6\u770B\u6210\u5BF9\u8C61\u4E86\uFF09\u6700\u7EC8\u7684\u6784\u9020\u51FD\u6570\u90FD\u6307\u5411Function\u3002</li></ol><p>\u5B9E\u73B0\u7EE7\u627F\u7684\u4F8B\u5B50\uFF1A</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">// 1</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><h2 id="_8-\u7ED9\u5B9A\u4E00\u4E2A\u6570\u7EC4-\u53BB\u9664\u91CD\u590D\u5143\u7D20" tabindex="-1"><a class="header-anchor" href="#_8-\u7ED9\u5B9A\u4E00\u4E2A\u6570\u7EC4-\u53BB\u9664\u91CD\u590D\u5143\u7D20" aria-hidden="true">#</a> 8.\u7ED9\u5B9A\u4E00\u4E2A\u6570\u7EC4\uFF0C\u53BB\u9664\u91CD\u590D\u5143\u7D20</h2><p>\u7ED9\u5B9A\u4E0B\u9762\u6570\u7EC4\uFF1A</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">let</span> arr <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span><span class="token number">6</span><span class="token punctuation">,</span><span class="token number">7</span><span class="token punctuation">,</span><span class="token number">8</span><span class="token punctuation">,</span><span class="token number">7</span><span class="token punctuation">,</span><span class="token number">6</span><span class="token punctuation">]</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><ul><li>\u65B9\u6CD5\u4E00\u3001Array.from\u4E0Eset\uFF08ES6\uFF09\u53BB\u91CD</li></ul><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">function</span> <span class="token function">unique</span><span class="token punctuation">(</span><span class="token parameter">arr</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-  <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token operator">!</span>Array<span class="token punctuation">.</span><span class="token function">isArray</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-    <span class="token keyword">return</span>
-  <span class="token punctuation">}</span>
-  <span class="token keyword">return</span> Array<span class="token punctuation">.</span><span class="token function">from</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Set</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span><span class="token punctuation">)</span>
-<span class="token punctuation">}</span>
- <span class="token comment">//new \u4E00\u4E2A Set \u5BF9\u8C61\uFF0C\u5C06\u6570\u7EC4\u4F5C\u4E3A\u53C2\u6570\u4F20\u9012\u8FDB\u53BB</span>
-  <span class="token comment">//Set\u5BF9\u8C61\u7684\u6570\u636E\u4E0D\u4F1A\u91CD\u590D</span>
-  <span class="token comment">//\u81EA\u52A8\u5B9E\u73B0\u53BB\u91CD\uFF0CArray.from() \u5C06\u5176\u8F6C\u5316\u4E3A\u6570\u7EC4</span>
-  <span class="token comment">// \u6CE8\u610F\u8FD9\u4E2A\u65B9\u6CD5\u4E0D\u80FD\u53BB\u9664\u7A7A\u5BF9\u8C61\uFF08&#39;&#39;\uFF09</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><ul><li>\u65B9\u6CD5\u4E8C\u3001\u53CC\u91CDfor\u5FAA\u73AF\u53BB\u91CD</li></ul><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token class-name">Array</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function-variable function">unique</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-  <span class="token keyword">let</span> newArray <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>  <span class="token comment">//\u8981\u8FD4\u56DE\u7684\u65B0\u6570\u7EC4</span>
-  <span class="token keyword">let</span> isRepeat<span class="token punctuation">;</span> <span class="token comment">//\u5F53\u524D\u5143\u7D20\u662F\u5426\u91CD\u590D</span>
-  <span class="token keyword">let</span> oldArrayLength <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>length<span class="token punctuation">;</span>
-  <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">let</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">&lt;</span>oldArrayLength<span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-    isRepeat <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
-    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">let</span> j <span class="token operator">=</span> i<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">;</span>j<span class="token operator">&lt;</span>oldArrayLength<span class="token punctuation">;</span>j<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-      <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token operator">==</span><span class="token keyword">this</span><span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-        isRepeat <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
-        <span class="token keyword">break</span><span class="token punctuation">;</span>
-      <span class="token punctuation">}</span>
-    <span class="token punctuation">}</span>
-    <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token operator">!</span>isRepeat<span class="token punctuation">)</span><span class="token punctuation">{</span>
-      newArray<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-  <span class="token punctuation">}</span>
-  <span class="token keyword">return</span> newArray<span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br></div></div><ul><li>\u65B9\u6CD5\u4E09\u3001indexOf\u68C0\u6D4B\u5143\u7D20</li></ul><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token class-name">Array</span><span class="token punctuation">.</span>prototype<span class="token punctuation">.</span><span class="token function-variable function">unique</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-  <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">filter</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">item<span class="token punctuation">,</span>index</span><span class="token punctuation">)</span><span class="token operator">=&gt;</span><span class="token punctuation">{</span>
-    <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">indexOf</span><span class="token punctuation">(</span>item<span class="token punctuation">)</span> <span class="token operator">===</span> index<span class="token punctuation">;</span>
-  <span class="token punctuation">}</span><span class="token punctuation">)</span>
-<span class="token punctuation">}</span>
-<span class="token comment">//filter() \u65B9\u6CD5\u521B\u5EFA\u4E00\u4E2A\u65B0\u7684\u6570\u7EC4\uFF0C\u65B0\u6570\u7EC4\u4E2D\u7684\u5143\u7D20\u662F\u901A\u8FC7\u68C0\u67E5\u6307\u5B9A\u6570\u7EC4\u4E2D\u7B26\u5408\u6761\u4EF6\u7684\u6240\u6709\u5143\u7D20\u3002</span>
-<span class="token comment">//\u6570\u7EC4\u4E2D\u6BCF\u4E2A\u5143\u7D20\u7684\u4F4D\u7F6E(index)\u548C\u5176\u7B2C\u4E00\u6B21\u51FA\u73B0\u7684\u4E0B\u6807(indexof)\u5BF9\u5E94,\u5982\u679C\u4E0D\u5BF9\u5E94\uFF0C\u8BF4\u660E\u662F\u91CD\u590D\u5143\u7D20</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><h2 id="_9-\u4E8B\u4EF6\u5192\u6CE1\u548C\u4E8B\u4EF6\u59D4\u6258" tabindex="-1"><a class="header-anchor" href="#_9-\u4E8B\u4EF6\u5192\u6CE1\u548C\u4E8B\u4EF6\u59D4\u6258" aria-hidden="true">#</a> 9.\u4E8B\u4EF6\u5192\u6CE1\u548C\u4E8B\u4EF6\u59D4\u6258</h2><ol><li>\u4E8B\u4EF6\u5192\u6CE1\u548C\u4E8B\u4EF6\u6355\u83B7</li></ol><ul><li>\u4E8B\u4EF6\u5192\u6CE1\uFF1A\u5F53\u524D\u5143\u7D20\u89E6\u53D1\u7684\u4E8B\u4EF6\u76EE\u6807\u4E00\u7EA7\u4E00\u7EA7\u5B8C\u4E0A\u4F20\u9012\uFF0C\u4F9D\u6B21\u89E6\u53D1\uFF0C\u77E5\u9053document\u4E3A\u6B62\u3002\uFF08\u5B50\u7EA7\u4E8B\u4EF6\u4F1A\u4F20\u9012\u7ED9\u7236\u7EA7\uFF09</li><li>\u4E8B\u4EF6\u6355\u83B7\uFF1A\u4ECEdocument\u5F00\u59CB\u89E6\u53D1\u4E8B\u4EF6\uFF0C\u4E00\u7EA7\u4E00\u7EA7\u5F80\u4E0B\u4F20\u9012\uFF0C\u76F4\u5230\u771F\u6B63\u4E8B\u4EF6\u76EE\u6807\u4E3A\u6B62\u3002\uFF08\u5728\u7236\u7EA7\u6355\u83B7\u5B50\u7EA7\u7684\u4E8B\u4EF6\uFF09</li><li>\u4E8B\u4EF6\u59D4\u6258\uFF1A\u901A\u8FC7\u76D1\u542C\u7236\u5143\u7D20\uFF0C\u6765\u7ED9\u4E0D\u540C\u5B50\u5143\u7D20\u7ED1\u5B9A\u4E8B\u4EF6\uFF0C\u51CF\u5C11\u76D1\u542C\u6B21\u6570\uFF0C\u4ECE\u800C\u63D0\u5347\u901F\u5EA6\u3002</li></ul><ol start="2"><li>\u963B\u6B62\u4E8B\u4EF6\u5192\u6CE1</li></ol><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">// \u963B\u6B62\u5192\u6CE1</span>
-   event<span class="token punctuation">.</span><span class="token function">stopPropagation</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><ol start="3"><li>\u4F8B\u5B50</li></ol><div class="language-html ext-html line-numbers-mode"><pre class="language-html"><code><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">&gt;</span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
-        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>UTF-8<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
-        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>text/css<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token style"><span class="token language-css">
-        <span class="token selector">#box1</span> <span class="token punctuation">{</span> <span class="token property">width</span><span class="token punctuation">:</span> 300px<span class="token punctuation">;</span> <span class="token property">height</span><span class="token punctuation">:</span> 300px<span class="token punctuation">;</span> <span class="token property">background</span><span class="token punctuation">:</span> blueviolet<span class="token punctuation">;</span> <span class="token punctuation">}</span>
-        <span class="token selector">#box2</span> <span class="token punctuation">{</span> <span class="token property">width</span><span class="token punctuation">:</span> 200px<span class="token punctuation">;</span> <span class="token property">height</span><span class="token punctuation">:</span> 200px<span class="token punctuation">;</span> <span class="token property">background</span><span class="token punctuation">:</span> aquamarine<span class="token punctuation">;</span> <span class="token punctuation">}</span>
-        <span class="token selector">#box3</span> <span class="token punctuation">{</span> <span class="token property">width</span><span class="token punctuation">:</span> 100px<span class="token punctuation">;</span> <span class="token property">height</span><span class="token punctuation">:</span> 100px<span class="token punctuation">;</span> <span class="token property">background</span><span class="token punctuation">:</span> tomato<span class="token punctuation">;</span> <span class="token punctuation">}</span>
-        <span class="token selector">div</span> <span class="token punctuation">{</span> <span class="token property">overflow</span><span class="token punctuation">:</span> hidden<span class="token punctuation">;</span> <span class="token property">margin</span><span class="token punctuation">:</span> 50px auto<span class="token punctuation">;</span> <span class="token punctuation">}</span>
-    </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
-        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>box1<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
-            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>box2<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
-                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>box3<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
-            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
-        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
-        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
-            <span class="token keyword">function</span> <span class="token function">sayBox3</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-                console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&#39;\u4F60\u70B9\u4E86\u6700\u91CC\u9762\u7684box&#39;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token punctuation">}</span>
-            <span class="token keyword">function</span> <span class="token function">sayBox2</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-                console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&#39;\u4F60\u70B9\u4E86\u6700\u4E2D\u95F4\u7684box&#39;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token punctuation">}</span>
-            <span class="token keyword">function</span> <span class="token function">sayBox1</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-                console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&#39;\u4F60\u70B9\u4E86\u6700\u5916\u9762\u7684box&#39;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token punctuation">}</span>
-            <span class="token comment">// \u4E8B\u4EF6\u76D1\u542C\uFF0C\u7B2C\u4E09\u4E2A\u53C2\u6570\u662F\u5E03\u5C14\u503C\uFF0C\u9ED8\u8BA4false\uFF0Cfalse\u662F\u4E8B\u4EF6\u5192\u6CE1\uFF0Ctrue\u662F\u4E8B\u4EF6\u6355\u83B7</span>
-            document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">&#39;box3&#39;</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">&#39;click&#39;</span><span class="token punctuation">,</span> sayBox3<span class="token punctuation">,</span> <span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-            document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">&#39;box2&#39;</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">&#39;click&#39;</span><span class="token punctuation">,</span> sayBox2<span class="token punctuation">,</span> <span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-            document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">&#39;box1&#39;</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">&#39;click&#39;</span><span class="token punctuation">,</span> sayBox1<span class="token punctuation">,</span> <span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-        </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br></div></div><h2 id="_10-\u624B\u5199promise" tabindex="-1"><a class="header-anchor" href="#_10-\u624B\u5199promise" aria-hidden="true">#</a> 10.\u624B\u5199Promise</h2><ol><li>Promise:\u7528\u6765\u64CD\u4F5C\u5F02\u6B65\u4FE1\u606F\u3002</li><li>Promise\u5BF9\u8C61\u4E0D\u53D7\u5916\u754C\u5F71\u54CD\uFF0C\u6709\u4E09\u79CD\u72B6\u6001\uFF1A</li></ol><ul><li>pending:\u521D\u59CB\u72B6\u6001\uFF0C\u4E0D\u662F\u6210\u529F\u6216\u5931\u8D25\uFF0C\u901A\u5E38\u662F\u4F60\u4E0D\u505A\u4EFB\u4F55\u5904\u7406\u7684\u65F6\u5019\u3002</li><li>fulfilled:\u64CD\u4F5C\u6210\u529F\u5B8C\u6210\u3002</li><li>rejected:\u64CD\u4F5C\u5931\u8D25\u3002</li></ul><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">//\u521B\u5EFA\u4E00\u4E2APromise\u5B9E\u4F8B</span>
-<span class="token keyword">let</span> promise <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Promise</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">resolve<span class="token punctuation">,</span>reject</span><span class="token punctuation">)</span><span class="token operator">=&gt;</span><span class="token punctuation">{</span>
-  <span class="token comment">//\u5F02\u6B65\u5904\u7406</span>
- <span class="token comment">// \u5904\u7406\u7ED3\u675F\u540E\u3001\u8C03\u7528resolve\uFF08\u89E3\u6790\uFF09 \u6216 reject\uFF08\u62D2\u7EDD\uFF09</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><ol start="3"><li>Promise.all</li></ol><p>Promise.all\u63A5\u53D7\u591A\u4E2A Promise \u4EFB\u52A1\u540C\u65F6\u6267\u884C\uFF0C\u5982\u679C\u5168\u90E8\u6210\u529F\u6267\u884C\uFF0C\u5219\u4EE5\u6570\u7EC4\u7684\u65B9\u5F0F\u8FD4\u56DE\u6240\u6709 Promise \u4EFB\u52A1\u7684\u6267\u884C\u7ED3\u679C\u3002 <code>\u5982\u679C\u6709\u4E00\u4E2A Promise \u4EFB\u52A1 rejected\uFF0C\u5219\u53EA\u8FD4\u56DE rejected \u4EFB\u52A1\u7684\u7ED3\u679C</code>\u3002</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">const</span> p <span class="token operator">=</span> Promise<span class="token punctuation">.</span><span class="token function">all</span><span class="token punctuation">(</span><span class="token punctuation">[</span>p1<span class="token punctuation">,</span> p2<span class="token punctuation">,</span> p3<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token comment">//p1,p2,p3\u90FD\u662FPromise\u5B9E\u4F8B</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><ul><li>\uFF081\uFF09\u53EA\u6709p1\u3001p2\u3001p3\u7684\u72B6\u6001\u90FD\u53D8\u6210fulfilled\uFF0Cp\u7684\u72B6\u6001\u624D\u4F1A\u53D8\u6210fulfilled\uFF0C\u6B64\u65F6p1\u3001p2\u3001p3\u7684\u8FD4\u56DE\u503C\u7EC4\u6210\u4E00\u4E2A\u6570\u7EC4\uFF0C\u4F20\u9012\u7ED9p\u7684\u56DE\u8C03\u51FD\u6570\u3002</li><li>\uFF082\uFF09\u53EA\u8981p1\u3001p2\u3001p3\u4E4B\u4E2D\u6709\u4E00\u4E2A\u88ABrejected\uFF0Cp\u7684\u72B6\u6001\u5C31\u53D8\u6210rejected\uFF0C\u6B64\u65F6\u7B2C\u4E00\u4E2A\u88ABreject\u7684\u5B9E\u4F8B\u7684\u8FD4\u56DE\u503C\uFF0C\u4F1A\u4F20\u9012\u7ED9p\u7684\u56DE\u8C03\u51FD\u6570\u3002</li><li>\uFF083\uFF09\u5982\u679C\u4F5C\u4E3A\u53C2\u6570\u7684 Promise \u5B9E\u4F8B\uFF0C\u81EA\u5DF1\u5B9A\u4E49\u4E86catch\u65B9\u6CD5\uFF0C\u90A3\u4E48\u5B83\u4E00\u65E6\u88ABrejected\uFF0C\u5E76\u4E0D\u4F1A\u89E6\u53D1Promise.all()\u7684catch\u65B9\u6CD5\uFF08\u8FD4\u56DE\u4E00\u4E2A\u65B0\u7684Promise\uFF09\u3002\u5982\u679C\u5176\u6CA1\u6709\u81EA\u5DF1\u7684catch\u65B9\u6CD5\uFF0C\u5C31\u4F1A\u8C03\u7528Promise.all()\u7684catch\u65B9\u6CD5\u3002</li></ul><ol start="4"><li>\u624B\u5199Promise.all</li></ol><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code>Promise<span class="token punctuation">.</span><span class="token function-variable function">_all</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">arr</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-  <span class="token keyword">return</span> <span class="token keyword">new</span> <span class="token class-name">Promise</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">resolve<span class="token punctuation">,</span>reject</span><span class="token punctuation">)</span><span class="token operator">=&gt;</span><span class="token punctuation">{</span>
-    <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token operator">!</span>Array<span class="token punctuation">.</span><span class="token function">isArray</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-      <span class="token keyword">return</span> <span class="token function">reject</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Error</span><span class="token punctuation">(</span><span class="token string">&#39;\u975E\u6570\u7EC4&#39;</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
-    <span class="token punctuation">}</span>
-    <span class="token keyword">const</span> result <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
-    <span class="token keyword">let</span> counter <span class="token operator">=</span> <span class="token number">0</span>  <span class="token comment">//\u8BBE\u7F6E\u4E00\u4E2A\u8BA1\u6570\u5668</span>
-    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">let</span> i<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">&lt;</span>arr<span class="token punctuation">.</span>length<span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-      arr<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">data</span><span class="token punctuation">)</span><span class="token operator">=&gt;</span><span class="token punctuation">{</span>
-        result<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> data
-        counter<span class="token operator">++</span>
-        <span class="token keyword">if</span><span class="token punctuation">(</span>counter <span class="token operator">===</span> arr<span class="token punctuation">.</span>length<span class="token punctuation">)</span><span class="token punctuation">{</span>
-          <span class="token function">resolve</span><span class="token punctuation">(</span>result<span class="token punctuation">)</span>
-        <span class="token punctuation">}</span>
-      <span class="token punctuation">}</span><span class="token punctuation">,</span>reject<span class="token punctuation">)</span>
-    <span class="token punctuation">}</span>
-  <span class="token punctuation">}</span><span class="token punctuation">)</span>
-<span class="token punctuation">}</span>
-
-Promise<span class="token punctuation">.</span><span class="token function">all</span><span class="token punctuation">(</span><span class="token punctuation">[</span>p1<span class="token punctuation">,</span>p2<span class="token punctuation">,</span>p3<span class="token punctuation">]</span><span class="token punctuation">)</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br></div></div><h2 id="_11-this\u6307\u5411" tabindex="-1"><a class="header-anchor" href="#_11-this\u6307\u5411" aria-hidden="true">#</a> 11.this\u6307\u5411</h2><ol><li><p>\u5168\u5C40\u73AF\u5883\u8F93\u51FAthis\uFF0C\u6307\u5411\u5168\u5C40\u5BF9\u8C61\uFF08Windows\uFF09\u3002</p></li><li><p>\u5168\u5C40\u51FD\u6570\u4E2D\u7684this\uFF0C\u6307\u5411\u5168\u5C40\u5BF9\u8C61\u3002</p></li><li><p>\u5185\u90E8\u51FD\u6570\u4E2D\u7684this\uFF0C\u6307\u5411\u5168\u5C40\u5BF9\u8C61\u3002</p></li><li><p>\u65B9\u6CD5\u4E2D\u7684this\uFF0C\u6307\u5411\u8C03\u7528\u65B9\u6CD5\u7684\u5BF9\u8C61\u3002</p></li><li><p>\u4E8B\u4EF6\u4E2D\u7684this\uFF0C\u6307\u5411\u89E6\u53D1\u4E8B\u4EF6\u7684DOM\u5BF9\u8C61\u3002</p></li><li><p>\u6784\u9020\u51FD\u6570\u4E2D\u7684this\uFF0C\u6307\u5411new\u521B\u5EFA\u7684\u5BF9\u8C61\u3002</p></li><li><p>\u7BAD\u5934\u51FD\u6570\u4E2D\u7684this\uFF0C\u6307\u5411\u51FD\u6570\u4E0A\u4E0B\u6587\u7684this\u3002</p></li></ol><ul><li>\u7BAD\u5934\u51FD\u6570\u4E25\u683C\u6765\u8BF4\u6CA1\u6709this</li><li>\u666E\u901A\u51FD\u6570\u8C01\u8C03\u7528\u5C31\u6307\u5411\u8C01</li></ul><ol start="8"><li>\u4F7F\u7528\u95ED\u5305\uFF0Cvar\u83B7\u53D6dom\u7684\u7D22\u5F15\u3002</li></ol><h2 id="_12-call-apply-bind" tabindex="-1"><a class="header-anchor" href="#_12-call-apply-bind" aria-hidden="true">#</a> 12.call,apply,bind</h2><p>\u5148\u8BF4\u7ED3\u8BBA\uFF1A</p><p>\u4F5C\u7528\u90FD\u662F\u6539\u53D8\u51FD\u6570\u6267\u884C\u4E0A\u4E0B\u6587\u7684this\u6307\u5411\u3002 call \u3001bind \u3001 apply \u8FD9\u4E09\u4E2A\u51FD\u6570\u7684\u7B2C\u4E00\u4E2A\u53C2\u6570\u90FD\u662F this \u7684\u6307\u5411\u5BF9\u8C61\uFF0C\u4E3B\u8981\u533A\u522B\u5728\u7B2C\u4E8C\u53C2\u6570\uFF1B</p><ul><li>\u8BF4\u660E\uFF1A\u4E0B\u9762<code>xxx</code>\u4E3A\u7B2C\u4E00\u4E2A\u53C2\u6570\uFF0C\u5373<code>this.xxx</code>\u7684\u5BF9\u8C61\u3002</li></ul><table><thead><tr><th>\u65B9\u6CD5</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u53C2\u6570</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "right" })}">\u8FD4\u56DE\u503C</th></tr></thead><tbody><tr><td>call()</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">call(xxx,&#39;1&#39;,&#39;1&#39;),\u53C2\u6570\u9010\u4E2A\u4F20\u9012</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "right" })}">\u7ACB\u5373\u6267\u884C\uFF0C\u8FD4\u56DE\u7ED3\u679C</td></tr><tr><td>apply()</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">apply(xxx,[&#39;1&#39;,&#39;1&#39;]),\u53C2\u6570\u4F20\u9012\u4E00\u4E2A\u6570\u7EC4</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "right" })}">\u7ACB\u5373\u6267\u884C\uFF0C\u8FD4\u56DE\u7ED3\u679C</td></tr><tr><td>bind()</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">bind(xxx,&#39;1&#39;,&#39;1&#39;)(),\u53C2\u6570\u9010\u4E2A\u4F20\u9012</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "right" })}">bind \u8FD4\u56DE\u7684\u662F\u4E00\u4E2A\u65B0\u7684\u51FD\u6570\uFF0C\u4F60\u5FC5\u987B\u8C03\u7528\u5B83\u624D\u4F1A\u88AB\u6267\u884C</td></tr></tbody></table><h2 id="_13-\u95ED\u5305" tabindex="-1"><a class="header-anchor" href="#_13-\u95ED\u5305" aria-hidden="true">#</a> 13. \u95ED\u5305</h2><p>\u6982\u5FF5\uFF1A\u51FD\u6570\u5D4C\u5957\u51FD\u6570\uFF0C\u5185\u90E8\u51FD\u6570\u5C31\u662F\u95ED\u5305</p><ul><li>\u6CE8\uFF1A\u8981\u7406\u89E3\u95ED\u5305\u8981\u5148\u7406\u89E3\u4F5C\u7528\u57DF</li><li>\u6B63\u5E38\u60C5\u51B5\u4E0B\uFF1A\u51FD\u6570\u6267\u884C\u5B8C\u4F1A\u88AB\u9500\u6BC1</li><li>\u95ED\u5305\u7279\u70B9\uFF1A\u5185\u90E8\u51FD\u6570\u6CA1\u6709\u6267\u884C\u5B8C\u6210\uFF0C\u53D8\u91CF\u4E0D\u4F1A\u9500\u6BC1\u3002</li></ul><h2 id="_14-\u5BF9\u8C61\u62F7\u8D1D-\u6DF1\u6D45\u62F7\u8D1D" tabindex="-1"><a class="header-anchor" href="#_14-\u5BF9\u8C61\u62F7\u8D1D-\u6DF1\u6D45\u62F7\u8D1D" aria-hidden="true">#</a> 14.\u5BF9\u8C61\u62F7\u8D1D\uFF08\u6DF1\u6D45\u62F7\u8D1D\uFF09</h2><ul><li><p>\u539F\u59CB\u7C7B\u578B\uFF1A\u6570\u503C\u3001\u5B57\u7B26\u4E32\u3001\u5E03\u5C14\u3001null\u3001undefined</p></li><li><p>\u5F15\u7528\u7C7B\u578B\uFF1A\u5BF9\u8C61\uFF08Object\uFF09</p></li><li><p>\u6808\u5185\u5B58\uFF1A\u5B58\u50A8\u539F\u59CB\u7C7B\u578B</p></li><li><p>\u5806\u5185\u5B58\uFF1A\u5B58\u50A8\u5F15\u7528\u7C7B\u578B</p></li></ul><p>\u6DF1\u62F7\u8D1D\u548C\u6D45\u62F7\u8D1D\u662F\u53EA\u9488\u5BF9Object\u548CArray\u8FD9\u6837\u7684\u5F15\u7528\u6570\u636E\u7C7B\u578B\u7684\u3002</p><hr><p>\u6D45\u62F7\u8D1D\uFF1A</p><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u65B9\u6CD5</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8FD4\u56DE\u503C</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">Object.assign()</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8FD4\u56DE\u76EE\u6807\u5BF9\u8C61</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u62F7\u8D1D\u7684\u662F\u5BF9\u8C61\u7684\u5C5E\u6027\u7684\u5F15\u7528\uFF0C\u800C\u4E0D\u662F\u5BF9\u8C61\u672C\u8EAB</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">Array.prototype.concat()</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4E0D\u4FEE\u6539\u539F\u6570\u7EC4\uFF0C\u53EA\u4F1A\u8FD4\u56DE\u4E00\u4E2A\u6D45\u590D\u5236\u4E86\u539F\u6570\u7EC4\u4E2D\u7684\u5143\u7D20\u7684\u4E00\u4E2A\u65B0\u6570\u7EC4</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4FEE\u6539\u65B0\u5BF9\u8C61\u4F1A\u6539\u5230\u539F\u5BF9\u8C61</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">Array.prototype.slice()</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4E0D\u4FEE\u6539\u539F\u6570\u7EC4\uFF0C\u53EA\u4F1A\u8FD4\u56DE\u4E00\u4E2A\u6D45\u590D\u5236\u4E86\u539F\u6570\u7EC4\u4E2D\u7684\u5143\u7D20\u7684\u4E00\u4E2A\u65B0\u6570\u7EC4</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4FEE\u6539\u65B0\u5BF9\u8C61\u4F1A\u6539\u5230\u539F\u5BF9\u8C61</td></tr></tbody></table><p>\u6DF1\u62F7\u8D1D\uFF1A</p><table><thead><tr><th>\u65B9\u6CD5</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8FD4\u56DE\u503C</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "right" })}">\u8BF4\u660E</th></tr></thead><tbody><tr><td>JSON.parse(JSON.stringify())</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8FD4\u56DE\u65B0\u5BF9\u8C61</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "right" })}">,\u4F46\u4E0D\u80FD\u5904\u7406\u51FD\u6570</td></tr><tr><td>\u624B\u5199\u9012\u5F52\u65B9\u6CD5</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "right" })}">\u904D\u5386\u5BF9\u8C61\u3001\u6570\u7EC4\u76F4\u5230\u91CC\u8FB9\u90FD\u662F\u57FA\u672C\u6570\u636E\u7C7B\u578B\uFF0C\u7136\u540E\u518D\u53BB\u590D\u5236\uFF0C\u5C31\u662F\u6DF1\u5EA6\u62F7\u8D1D</td></tr><tr><td>\u4E00\u4E9B\u51FD\u6570\u5E93</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "right" })}">\u4F7F\u7528\u522B\u4EBA\u5199\u597D\u7684</td></tr></tbody></table><h2 id="_15-\u9632\u6296\u548C\u8282\u6D41" tabindex="-1"><a class="header-anchor" href="#_15-\u9632\u6296\u548C\u8282\u6D41" aria-hidden="true">#</a> 15. \u9632\u6296\u548C\u8282\u6D41</h2><ol><li>\u9632\u6296\uFF1A\u5BF9\u4E8E\u9891\u7E41\u89E6\u53D1\uFF0C\u53EA\u8981\u6700\u540E\u4E00\u6B21\u89E6\u53D1</li></ol><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">let</span> t <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
-<span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-  <span class="token keyword">if</span><span class="token punctuation">(</span>t <span class="token operator">!==</span> bull<span class="token punctuation">)</span><span class="token punctuation">{</span>
-    <span class="token comment">//\u9891\u7E41\u89E6\u53D1\u65F6\u53BB\u6389\u4E0A\u4E00\u6B21\u89E6\u53D1\uFF0C\u91CD\u65B0\u8BA1\u65F6</span>
-    <span class="token function">clearTimeout</span><span class="token punctuation">(</span>t<span class="token punctuation">)</span>
-  <span class="token punctuation">}</span>
-  t <span class="token operator">=</span> <span class="token function">setTimeout</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">=&gt;</span><span class="token punctuation">{</span>
-    <span class="token comment">//\u8981\u5B9E\u73B0\u9632\u6296\u7684\u64CD\u4F5C</span>
-  <span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token number">500</span><span class="token punctuation">)</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><ol start="2"><li>\u8282\u6D41\uFF1A\u63A7\u5236\u6267\u884C\u6B21\u6570,\u9891\u7E41\u64CD\u4F5C\u65F6\u51CF\u5C11\u6B21\u6570</li></ol><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">let</span> flag <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
-<span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-  <span class="token keyword">if</span><span class="token punctuation">(</span>flag<span class="token punctuation">)</span><span class="token punctuation">{</span>
-    <span class="token function">setTimeout</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">=&gt;</span><span class="token punctuation">{</span>
-      <span class="token comment">//\u6267\u884C</span>
-      flag <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token number">500</span><span class="token punctuation">)</span>
-  <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><h2 id="_16-\u539F\u578B" tabindex="-1"><a class="header-anchor" href="#_16-\u539F\u578B" aria-hidden="true">#</a> 16. \u539F\u578B</h2><ol><li><p>\u6BCF\u4E00\u4E2A\u5BF9\u8C61\u90FD\u6709\u5B83\u7684\u539F\u578B\u5BF9\u8C61\uFF0C\u5B83\u53EF\u4EE5\u4F7F\u7528\u81EA\u5DF1\u539F\u578B\u5BF9\u8C61\u4E0A\u7684\u6240\u6709\u5C5E\u6027\u548C\u65B9\u6CD5</p></li><li><p>\u83B7\u53D6\u539F\u578B\u7684\u65B9\u6CD5</p></li></ol><ul><li><ol><li>\u901A\u8FC7\u5BF9\u8C61\u7684_proto_\u83B7\u53D6</li></ol></li><li><ol start="2"><li>\u901A\u8FC7\u6784\u9020\u51FD\u6570\u7684prototype\u5C5E\u6027\u62FF\u5230\u539F\u578B</li></ol></li></ul><ol start="3"><li>\u539F\u578B\u5BF9\u8C61\u7684\u4F5C\u7528\uFF1A\u6BD4\u5982\u7EDF\u4E00\u65F6\u95F4\u683C\u5F0F\uFF0C\u53EF\u4EE5\u5728Date.prototype\u5728\u539F\u578B\u4E0A\u5B9A\u4E49\u539F\u578B\u65B9\u6CD5\u3002</li></ol><h2 id="_17-\u7C7B\u4E0E\u7EE7\u627F" tabindex="-1"><a class="header-anchor" href="#_17-\u7C7B\u4E0E\u7EE7\u627F" aria-hidden="true">#</a> 17.\u7C7B\u4E0E\u7EE7\u627F</h2><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">// ES6</span>
-<span class="token keyword">class</span> <span class="token class-name">Cat</span><span class="token punctuation">(</span>name<span class="token punctuation">,</span>age<span class="token punctuation">)</span><span class="token punctuation">{</span>
-
-<span class="token punctuation">}</span>
-
-<span class="token keyword">let</span> cat <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Cat</span><span class="token punctuation">(</span><span class="token string">&#39;\u55B5\u55B5&#39;</span><span class="token punctuation">,</span><span class="token string">&#39;\u5403\u9C7C&#39;</span><span class="token punctuation">)</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><ul><li>\u4F7F\u7528\u573A\u666F\uFF1A\u7BA1\u7406\u5458\u548C\u666E\u901A\u7528\u6237\u90FD\u7EE7\u627F\u81EA\u7528\u6237\u7C7B\uFF0C\u4F46\u4E24\u8005\u8FD8\u6709\u81EA\u5DF1\u7684\u6743\u9650</li></ul><h4 id="_17-2-\u539F\u578B\u94FE\u7EE7\u627F\u548C\u539F\u578B\u94FE" tabindex="-1"><a class="header-anchor" href="#_17-2-\u539F\u578B\u94FE\u7EE7\u627F\u548C\u539F\u578B\u94FE" aria-hidden="true">#</a> 17.2. \u539F\u578B\u94FE\u7EE7\u627F\u548C\u539F\u578B\u94FE</h4><h4 id="_17-3-\u6784\u9020\u7EE7\u627F" tabindex="-1"><a class="header-anchor" href="#_17-3-\u6784\u9020\u7EE7\u627F" aria-hidden="true">#</a> 17.3 \u6784\u9020\u7EE7\u627F</h4><h4 id="_17-4-\u501F\u7528\u6784\u9020\u51FD\u6570\u7EE7\u627F" tabindex="-1"><a class="header-anchor" href="#_17-4-\u501F\u7528\u6784\u9020\u51FD\u6570\u7EE7\u627F" aria-hidden="true">#</a> 17.4 \u501F\u7528\u6784\u9020\u51FD\u6570\u7EE7\u627F</h4><h4 id="_17-5-\u7EC4\u5408\u7EE7\u627F" tabindex="-1"><a class="header-anchor" href="#_17-5-\u7EC4\u5408\u7EE7\u627F" aria-hidden="true">#</a> 17.5 \u7EC4\u5408\u7EE7\u627F</h4><h2 id="_18-\u72B6\u6001\u7801-200\u3001400\u7B49" tabindex="-1"><a class="header-anchor" href="#_18-\u72B6\u6001\u7801-200\u3001400\u7B49" aria-hidden="true">#</a> 18. \u72B6\u6001\u7801\uFF08200\u3001400\u7B49\uFF09</h2><ol><li>100\uFF1A\u4FE1\u606F\u6027\u72B6\u6001\u7801\uFF0C\u539F\u56E0\uFF1A\u63A5\u6536\u7684\u8BF7\u6C42\u6B63\u5728\u5904\u7406</li></ol><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u72B6\u6001\u7801</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">100</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u660E\u76EE\u524D\u4E3A\u6B62\uFF0C\u6240\u6709\u7684\u8BF7\u6C42\u5185\u5BB9\u90FD\u662F\u53EF\u884C\u7684\uFF0C\u5BA2\u6237\u7AEF\u5E94\u8BE5\u7EE7\u7EED\u8BF7\u6C42\uFF0C\u5982\u679C\u5B8C\u6210\uFF0C\u5219\u5FFD\u7565\u5B83\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">101</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BE5\u72B6\u6001\u7801\u662F\u54CD\u5E94\u5BA2\u6237\u7AEFUpgrade\u6807\u5934\u53D1\u9001\u7684\uFF0C\u5E76\u4E14\u6307\u793A\u670D\u52A1\u5668\u4E5F\u6B63\u5728\u5207\u6362\u534F\u8BAE\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">103</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4E3B\u8981\u7528\u4E8E\u4E0ELink\u94FE\u63A5\u5934\u4E00\u8D77\u4F7F\u7528\uFF0C\u4EE5\u5141\u8BB8\u7528\u6237\u4EE3\u7406\u5728\u670D\u52A1\u5668\u4ECD\u5728\u51C6\u5907\u54CD\u5E94\u65F6\u5F00\u59CB\u9884\u52A0\u8F7D\u8D44\u6E90\u3002</td></tr></tbody></table><ol start="2"><li>200\uFF1A\u8BF7\u6C42\u6210\u529F\u72B6\u6001\u7801\uFF0C\u8BF7\u6C42\u6B63\u5E38\u5904\u7406\u5B8C\u6BD5</li></ol><ul><li>GET\uFF1A\u8D44\u6E90\u5DF2\u88AB\u63D0\u53D6\u5E76\u5728\u6D88\u606F\u6B63\u6587\u4E2D\u4F20\u8F93</li><li>HEAD\uFF1A\u5B9E\u4F53\u6807\u5934\u4F4D\u4E8E\u6D88\u606F\u6B63\u6587\u4E2D</li><li>POST\uFF1A\u63CF\u8FF0\u52A8\u4F5C\u7ED3\u679C\u7684\u8D44\u6E90\u5728\u6D88\u606F\u4F53\u4E2D\u4F20\u8F93 TRACE\uFF1A\u6D88\u606F\u6B63\u6587\u5305\u542B\u670D\u52A1\u5668\u6536\u5230\u7684\u8BF7\u6C42\u4FE1\u606F\u3002\uFF08\u65B9\u6CD5\u4E0D\u5B89\u5168\uFF0C\u4E00\u822C\u4E0D\u7528)</li></ul><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u72B6\u6001\u7801</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">201</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF7\u6C42\u5DF2\u7ECF\u6210\u529F\uFF0C\u5E76\u56E0\u6B64\u521B\u5EFA\u4E86\u4E00\u4E2A\u65B0\u7684\u8D44\u6E90\u3002\u8FD9\u901A\u5E38\u662F\u5728PUT\u6216POST\u8BF7\u6C42\u4E4B\u540E\u53D1\u9001\u7684\u54CD\u5E94\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">202</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF7\u6C42\u5DF2\u7ECF\u63A5\u6536\u5230\uFF0C\u4F46\u662F\u6CA1\u6709\u54CD\u5E94\uFF0C\u6CA1\u6709\u7ED3\u679C\u3002\u610F\u5473\u7740\u4E0D\u4F1A\u6709\u4E00\u4E2A\u5F02\u6B65\u7684\u54CD\u5E94\u53BB\u8868\u660E\u5F53\u524D\u8BF7\u6C42\u7684\u7ED3\u679C\uFF0C\u9884\u671F\u53E6\u5916\u7684\u8FDB\u7A0B\u548C\u670D\u52A1\u53BB\u5904\u7406\u8BF7\u6C42\uFF0C\u6216\u8005\u6279\u5904\u7406\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">204</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u670D\u52A1\u5668\u6210\u529F\u5904\u7406\u4E86\u8BF7\u6C42\uFF0C\u4F46\u4E0D\u9700\u8981\u8FD4\u56DE\u4EFB\u4F55\u5B9E\u4F53\u5185\u5BB9\uFF0C\u5E76\u4E14\u5E0C\u671B\u8FD4\u56DE\u66F4\u65B0\u4E86\u7684\u5143\u4FE1\u606F\u3002\u9047\u5230\u590D\u6742\u8BF7\u6C42\u65F6\u5019\uFF0C\u6D4F\u89C8\u5668\u4F1A\u53D1\u9001\u4E00\u4E2AOPTION\u65B9\u6CD5\u8FDB\u884C\u9884\u5904\u7406\u8FD4\u56DE\u54CD\u5E94\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">205</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u670D\u52A1\u5668\u5DF2\u7ECF\u6210\u529F\u5904\u7406\u4E86\u8BF7\u6C42\uFF0C\u4F46\u662F\u6CA1\u6709\u8FD4\u56DE\u4EFB\u4F55\u5185\u5BB9\u3002\u4E0E204\u54CD\u5E94\u4E0D\u540C\uFF0C\u8FD4\u56DE\u6B64\u72B6\u6001\u7801\u7684\u54CD\u5E94\u8981\u6C42\u8BF7\u6C42\u8005\u91CD\u7F6E\u6587\u6863\u89C6\u56FE\u3002</td></tr></tbody></table><ol start="3"><li>300\uFF1A\u91CD\u5B9A\u5411\u72B6\u6001\u7801\uFF0C\u9700\u8981\u8FDB\u884C\u9644\u52A0\u64CD\u4F5C\u4EE5\u5B8C\u6210\u8BF7\u6C42</li></ol><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u72B6\u6001\u7801</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">301</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u88AB\u8BF7\u6C42\u7684\u8D44\u6E90\u5DF2\u6C38\u4E45\u79FB\u52A8\u5230\u65B0\u4F4D\u7F6E\uFF0C\u5E76\u4E14\u5C06\u6765\u4EFB\u4F55\u5BF9\u6B64\u8D44\u6E90\u7684\u5F15\u7528\u90FD\u5E94\u8BE5\u4F7F\u7528\u54CD\u5E94\u8FD4\u56DE\u7684\u82E5\u5E72\u4E2AURI\u4E4B\u4E00\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">302</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF7\u6C42\u7684\u8D44\u6E90\u73B0\u5728\u4E34\u65F6\u4ECE\u4E0D\u540C\u7684URI\u54CD\u5E94\u8BF7\u6C42\u3002\u7531\u4E8E\u8FD9\u6837\u7684\u91CD\u5B9A\u5411\u662F\u4E34\u65F6\u7684\uFF0C\u5BA2\u6237\u7AEF\u5E94\u5F53\u7EE7\u7EED\u5411\u539F\u6709\u5730\u5740\u53D1\u9001\u4EE5\u540E\u7684\u8BF7\u6C42\u3002\u53EA\u6709\u5728Cache-Control\u6216Expires\u4E2D\u8FDB\u884C\u4E86\u6307\u5B9A\u7684\u60C5\u51B5\u4E0B\uFF0C\u8FD9\u4E2A\u54CD\u5E94\u624D\u662F\u53EF\u7F13\u5B58\u7684\u3002\u8BF7\u6C42\u7684\u8D44\u6E90\u73B0\u5728\u4E34\u65F6\u4ECE\u4E0D\u540C\u7684URI\u54CD\u5E94\u8BF7\u6C42\u3002\u7531\u4E8E\u8FD9\u6837\u7684\u91CD\u5B9A\u5411\u662F\u4E34\u65F6\u7684\uFF0C\u5BA2\u6237\u7AEF\u5E94\u5F53\u7EE7\u7EED\u5411\u539F\u6709\u5730\u5740\u53D1\u9001\u4EE5\u540E\u7684\u8BF7\u6C42\u3002\u53EA\u6709\u5728Cache-Control\u6216Expires\u4E2D\u8FDB\u884C\u4E86\u6307\u5B9A\u7684\u60C5\u51B5\u4E0B\uFF0C\u8FD9\u4E2A\u54CD\u5E94\u624D\u662F\u53EF\u7F13\u5B58\u7684\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">303</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5BF9\u5F53\u524D\u7684\u8BF7\u6C42\u7684\u54CD\u5E94\u53EF\u4EE5\u5728\u53E6\u4E00\u4E2AURI\u4E0A\u88AB\u627E\u5230\uFF0C\u800C\u4E14\u5BA2\u6237\u7AEF\u5E94\u8BE5\u91C7\u7528GET\u7684\u65B9\u5F0F\u8BBF\u95EE\u90A3\u4E2A\u94FE\u63A5\u3002\u8FD9\u4E2A\u65B9\u6CD5\u7684\u5B58\u5728\u4E3B\u8981\u662F\u4E3A\u4E86\u5141\u8BB8\u7531\u811A\u672C\u6FC0\u6D3B\u7684POST\u8BF7\u6C42\u8F93\u51FA\u91CD\u5B9A\u5411\u5230\u4E00\u4E2A\u65B0\u7684\u8D44\u6E90\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">304</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5982\u679C\u5BA2\u6237\u7AEF\u53D1\u9001\u4E86\u4E00\u4E2A\u5E26\u6761\u4EF6\u7684 GET \u8BF7\u6C42\u4E14\u8BE5\u8BF7\u6C42\u5DF2\u88AB\u5141\u8BB8\uFF0C\u800C\u6587\u6863\u7684\u5185\u5BB9\uFF08\u81EA\u4E0A\u6B21\u8BBF\u95EE\u4EE5\u6765\u6216\u8005\u6839\u636E\u8BF7\u6C42\u7684\u6761\u4EF6\uFF09\u5E76\u6CA1\u6709\u6539\u53D8\uFF0C\u5219\u670D\u52A1\u5668\u5E94\u5F53\u8FD4\u56DE\u8FD9\u4E2A\u72B6\u6001\u7801\u3002304 \u54CD\u5E94\u7981\u6B62\u5305\u542B\u6D88\u606F\u4F53\uFF0C\u56E0\u6B64\u59CB\u7EC8\u4EE5\u6D88\u606F\u5934\u540E\u7684\u7B2C\u4E00\u4E2A\u7A7A\u884C\u7ED3\u5C3E\u3002\u8BF7\u6C42\u7684\u65F6\u5019\u4E00\u822C\u7ED3\u5408If-Modified-Since\u5934\u90E8\u4F7F\u7528\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">307</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">307\u7684\u610F\u4E49\u5982\u4E0A302\u3002\u4E0E\u5386\u53F2\u4E0A302\u4E0D\u540C\u7684\u662F\u5728\u91CD\u65B0\u53D1\u51FA\u539F\u59CB\u8BF7\u6C42\u65F6\u4E0D\u5141\u8BB8\u66F4\u6539\u8BF7\u6C42\u65B9\u6CD5\u3002\u6BD4\u5982\uFF0C\u4F7F\u7528POST\u8BF7\u6C42\u59CB\u7EC8\u5C31\u8BE5\u7528POST\u8BF7\u6C42\u3002</td></tr></tbody></table><ol start="4"><li>400\uFF1A\u5BA2\u6237\u7AEF\u9519\u8BEF\uFF0C\u670D\u52A1\u5668\u65E0\u6CD5\u5904\u7406\u8BF7\u6C42</li></ol><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u72B6\u6001\u7801</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">401</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8FD9\u610F\u5473\u7740\u4F60\u7684\u767B\u5F55\u51ED\u8BC1\u65E0\u6548\u3002\u670D\u52A1\u5668\u4E0D\u77E5\u9053\u4F60\u662F\u8C01\uFF0C\u8FD9\u65F6\uFF0C\u4F60\u9700\u8981\u5C1D\u8BD5\u91CD\u65B0\u767B\u5F55\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">403</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u670D\u52A1\u5668\u5DF2\u7ECF\u7406\u89E3\u8BF7\u6C42\uFF0C\u4F46\u662F\u62D2\u7EDD\u6267\u884C\u5B83\u3002\u4E0E401\u4E0D\u540C\uFF0C403\u77E5\u9053\u662F\u4F60\u767B\u5F55\u4E86\uFF0C\u4F46\u662F\u8FD8\u662F\u62D2\u7EDD\u4E86\u4F60\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">404</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E\u670D\u52A1\u5668\u7AEF\u65E0\u6CD5\u627E\u5230\u6240\u8BF7\u6C42\u7684\u8D44\u6E90\u3002\u8FD4\u56DE\u8BE5\u54CD\u5E94\u7684\u94FE\u63A5\u901A\u5E38\u79F0\u4E3A\u574F\u94FE\uFF08broken link\uFF09\u6216\u6B7B\u94FE\uFF08dead link\uFF09\uFF0C\u5B83\u4EEC\u4F1A\u5BFC\u5411\u94FE\u63A5\u51FA\u9519\u5904\u7406</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">405</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u660E\u670D\u52A1\u5668\u7981\u6B62\u4E86\u4F7F\u7528\u5F53\u524D HTTP \u65B9\u6CD5\u7684\u8BF7\u6C42\u3002\u9700\u8981\u6CE8\u610F\u7684\u662F\uFF0CGET \u4E0E HEAD \u4E24\u4E2A\u65B9\u6CD5\u4E0D\u5F97\u88AB\u7981\u6B62\uFF0C\u5F53\u7136\u4E5F\u4E0D\u5F97\u8FD4\u56DE\u72B6\u6001\u7801 405\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">406</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u793A\u670D\u52A1\u5668\u7AEF\u4E0D\u652F\u6301 Accept\u3001Accept-Charset\u3001Accept-Encoding\u3001 Accept-Language header \u6240\u8981\u6C42\u7684\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">409</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u793A\u8BF7\u6C42\u4E0E\u670D\u52A1\u5668\u7AEF\u76EE\u6807\u8D44\u6E90\u7684\u5F53\u524D\u72B6\u6001\u76F8\u51B2\u7A81\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">410</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u88AB\u8BF7\u6C42\u7684\u8D44\u6E90\u5728\u670D\u52A1\u5668\u4E0A\u5DF2\u7ECF\u4E0D\u518D\u53EF\u7528\uFF0C\u800C\u4E14\u6CA1\u6709\u4EFB\u4F55\u5DF2\u77E5\u7684\u8F6C\u53D1\u5730\u5740\u3002</td></tr></tbody></table><ol start="5"><li>500\uFF1A\u670D\u52A1\u5668\u9519\u8BEF\uFF0C\u670D\u52A1\u5668\u5904\u7406\u8BF7\u6C42\u51FA\u9519</li></ol><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u72B6\u6001\u7801</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8BF4\u660E</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">500</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u793A\u6240\u8BF7\u6C42\u7684\u670D\u52A1\u5668\u9047\u5230\u610F\u5916\u7684\u60C5\u51B5\u5E76\u963B\u6B62\u5176\u6267\u884C\u8BF7\u6C42\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">501</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u793Arequest header \u91CC\u7684 method \u6216 Content-* \u65F6\u4E0D\u88AB\u670D\u52A1\u5668\u652F\u6301\uFF0C\u65E0\u6CD5\u88AB\u5904\u7406\u3002\u53E6\uFF0C\u670D\u52A1\u5668\u5FC5\u987B\u652F\u6301\u7684\u65B9\u6CD5\uFF08\u5373\u4E0D\u4F1A\u8FD4\u56DE\u8FD9\u4E2A\u72B6\u6001\u7801\u7684\u65B9\u6CD5\uFF09\u53EA\u6709 GET \u548C HEAD\u3002501 \u54CD\u5E94\u9ED8\u8BA4\u662F\u53EF\u7F13\u5B58\u7684\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">502</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u793A\u4F5C\u4E3A\u7F51\u5173\u6216\u4EE3\u7406\u89D2\u8272\u7684\u670D\u52A1\u5668\uFF0C\u4ECE\u4E0A\u6E38\u670D\u52A1\u5668\uFF08\u5982tomcat\u3001php-fpm\uFF09\u4E2D\u63A5\u6536\u5230\u7684\u54CD\u5E94\u662F\u65E0\u6548\u7684\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">503</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u793A\u670D\u52A1\u5668\u5C1A\u672A\u5904\u4E8E\u53EF\u4EE5\u63A5\u53D7\u8BF7\u6C42\u7684\u72B6\u6001\u3002</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">504</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u7F51\u5173\u8D85\u65F6\uFF0C\u670D\u52A1\u5668\u672A\u80FD\u5FEB\u901F\u7684\u505A\u51FA\u53CD\u5E94\u3002</td></tr></tbody></table><h2 id="_19-\u8F93\u5165url\u5230\u9875\u9762\u663E\u793A\u7684\u8FC7\u7A0B" tabindex="-1"><a class="header-anchor" href="#_19-\u8F93\u5165url\u5230\u9875\u9762\u663E\u793A\u7684\u8FC7\u7A0B" aria-hidden="true">#</a> 19. \u8F93\u5165URL\u5230\u9875\u9762\u663E\u793A\u7684\u8FC7\u7A0B\uFF1F</h2><p>\u5148\u7B80\u5355\u6765\u8BF4\u6709\u4E0B\u9762\u8FC7\u7A0B\uFF1A</p><ol><li>DNS\u89E3\u6790\uFF1A\u5C06\u57DF\u540D\u89E3\u6790\u6210IP\u5730\u5740</li><li>TCP\u8FDE\u63A5\uFF1ATCP\u4E09\u6B21\u63E1\u624B</li><li>\u53D1\u9001HTTP\u8BF7\u6C42</li><li>\u670D\u52A1\u5668\u5904\u7406\u8BF7\u6C42\u5E76\u8FD4\u56DEHTTP\u62A5\u6587</li><li>\u6D4F\u89C8\u5668\u89E3\u6790\u6E32\u67D3\u9875\u9762</li><li>\u65AD\u5F00\u8FDE\u63A5\uFF1ATCP\u56DB\u6B21\u63E1\u624B</li></ol><p>\u5C55\u5F00\uFF1A</p><h2 id="_20-es6\u65B0\u7279\u6027" tabindex="-1"><a class="header-anchor" href="#_20-es6\u65B0\u7279\u6027" aria-hidden="true">#</a> 20. ES6\u65B0\u7279\u6027</h2><ol><li>let\u548Cconst</li></ol><p>let\u548Cconst\u90FD\u662F\u7528\u4E8E\u547D\u540D\u5C40\u90E8\u53D8\u91CF\uFF0C\u90FD\u662F\u5757\u7EA7\u4F5C\u7528\u57DF\uFF1B</p><ul><li>let:let \u5173\u952E\u8BCD\u58F0\u660E\u7684\u53D8\u91CF\u4E0D\u5177\u5907\u53D8\u91CF\u63D0\u5347</li><li>const:const \u5728\u58F0\u660E\u65F6\u5FC5\u987B\u88AB\u8D4B\u503C\uFF0C\u5426\u5219\u4F1A\u62A5\u9519,\u4E00\u65E6\u58F0\u660E\u5C31\u4E0D\u53EF\u518D\u8FDB\u884C\u4FEE\u6539\u3002(\u5BF9\u8C61\u7684\u503C\u53EF\u4EE5\u4FEE\u6539)</li></ul><ol start="2"><li>\u6A21\u677F\u5B57\u7B26\u4E32</li></ol><ul><li>\${}\u6765\u5199\u5165\u9700\u8981\u5F15\u7528\u5230\u7684JS\uFF0C\u4ED6\u4F1A\u88AB\u7F16\u8BD1</li></ul><ol start="3"><li>\u7BAD\u5934\u51FD\u6570</li></ol><p>\u9700\u8981\u6CE8\u610F\u7684\u70B9\uFF1A</p><ul><li>\u4E0D\u9700\u8981\u7528\u5173\u952E\u5B57function\u6765\u5B9A\u4E49\u51FD\u6570\uFF1B</li><li>\u4E00\u822C\u60C5\u51B5\u4E0B\u53EF\u4EE5\u7701\u7565return\uFF1B</li><li>\u5728\u7BAD\u5934\u51FD\u6570\u5185\u90E8\uFF0Cthis\u5E76\u4E0D\u4F1A\u8DDF\u5176\u4ED6\u51FD\u6570\u4E00\u6837\u6307\u5411\u8C03\u7528\u5B83\u7684\u5BF9\u8C61\uFF0C\u800C\u662F\u7EE7\u627F\u4E0A\u4E0B\u6587\u7684this\u6307\u5411\u7684\u5BF9\u8C61\u3002</li></ul><ol start="4"><li>Spreas/Reat\u64CD\u4F5C\u7B26</li></ol><ul><li>Rest\u8FD0\u7B97\u7B26\u7528\u4E8E\u83B7\u53D6\u51FD\u6570\u8C03\u7528\u65F6\u4F20\u5165\u7684\u53C2\u6570</li><li>Spread\u8FD0\u7B97\u7B26\u7528\u4E8E\u6570\u7EC4\u7684\u6784\u9020\uFF0C\u6790\u6784\uFF0C\u4EE5\u53CA\u5728\u51FD\u6570\u8C03\u7528\u65F6\u4F7F\u7528\u6570\u7EC4\u586B\u5145\u53C2\u6570\u5217\u8868</li></ul><ol start="5"><li>\u4E8C\u8FDB\u5236\u548C\u516B\u8FDB\u5236\u5B57\u9762\u91CF</li></ol><ul><li>ES6\u652F\u6301\u4E8C\u8FDB\u5236\u548C\u516B\u8FDB\u5236\u7684\u5B57\u9762\u91CF\uFF0C\u901A\u8FC7\u5728\u6570\u5B57\u524D\u9762\u589E\u52A00o\u6216\u80050O\u53EF\u4EE5\u5C06\u6570\u5B57\u8F6C\u6362\u4E3A\u516B\u8FDB\u5236\u3002</li></ul><ol start="6"><li>\u5141\u8BB8\u5728\u5BF9\u8C61\u4E2D\u4F7F\u7528super\u65B9\u6CD5</li></ol><p>super\u65B9\u6CD5\u5E94\u8BE5\u90FD\u4E0D\u964C\u751F\uFF0C\u5728java\u4E2D\u7528\u6765\u4EE3\u8868\u8C03\u7528\u7236\u7C7B\u7684\u6784\u9020\u51FD\u6570\u3002\u7531\u4E8Ejs\u4E0D\u662F\u9762\u5411\u5BF9\u8C61\u8BED\u8A00\uFF0C\u6240\u4EE5\u4E5F\u6CA1\u6709\u7EE7\u627F\u8FD9\u4EE5\u8BF4\u6CD5\u3002\u4F46\u662F\u5728ES6\u4E2D\uFF0C\u53EF\u4EE5\u901A\u8FC7\u8C03\u7528setPrototypeOf()\u65B9\u6CD5\u6765\u8BBE\u7F6E\u4E00\u4E2A\u5BF9\u8C61\u7684prototype\u5BF9\u8C61\uFF0C\u4E0E\u9762\u5411\u5BF9\u8C61\u8BED\u8A00\u4E2D\u7684\u7EE7\u627F\u6709\u76F8\u4F3C\u4E4B\u5904\uFF0C\u6240\u4EE5\u4E5F\u53EF\u4EE5\u7406\u89E3\u6210\u8FD9\u662Fjs\u4E2D\u7528\u6765\u5B9E\u73B0\u7EE7\u627F\u7684\u65B9\u6CD5\u3002</p><ol start="7"><li>\u8FED\u4EE3\u5668iterator\u3001for...of\u548Cfor...in</li></ol><p>\u5EFA\u8BAE\u5148\u53BB\u4E86\u89E3\u4E00\u4E0Biterator\uFF0C\u4F5C\u7528\u5982\u4E0B\uFF1A</p><ul><li><p>\u4E3A\u5404\u79CD\u6570\u636E\u63D0\u4F9B\u7EDF\u4E00\u7684\uFF0C\u7B80\u4FBF\u7684\u8BBF\u95EE\u63A5\u53E3</p></li><li><p>\u4F7F\u6570\u636E\u7ED3\u6784\u7684\u6210\u5458\u80FD\u6309\u67D0\u79CD\u6B21\u5E8F\u6392\u5217</p></li><li><p>\u4E3B\u8981\u4F9Bfor...of\u7528</p></li><li><p>for\u2026in \u8BED\u53E5\u4EE5\u539F\u59CB\u63D2\u5165\u987A\u5E8F\u8FED\u4EE3\u5BF9\u8C61\u7684\u53EF\u679A\u4E3E\u5C5E\u6027\uFF0C\u7B80\u5355\u7406\u89E3\u5C31\u662Ffor...in\u662F\u7528\u6765\u5FAA\u73AF\u904D\u5386\u5C5E\u6027\uFF0C\u904D\u5386\u51FA\u7684\u662F\u81EA\u8EAB\u548C\u539F\u578B\u4E0A\u7684\u53EF\u679A\u4E3E\u975Esymbol\u5C5E\u6027\uFF0C\u4F46\u662F\u904D\u5386\u4E0D\u4E00\u5B9A\u6309\u7167\u987A\u5E8F\uFF08tips\uFF1Afor...in\u5728ES5\u4E2D\u5C31\u5DF2\u7ECF\u51FA\u73B0\u4E86\uFF09</p></li><li><p>for\u2026of \u8BED\u53E5\u904D\u5386\u53EF\u8FED\u4EE3\u5BF9\u8C61\u5B9A\u4E49\u8981\u8FED\u4EE3\u7684\u6570\u636E\uFF0C\u4E5F\u5C31\u662F\u8BF4\uFF0Cfor...of\u53EA\u53EF\u4EE5\u5FAA\u73AF\u53EF\u8FED\u4EE3\u5BF9\u8C61\u7684\u53EF\u8FED\u4EE3\u5C5E\u6027\uFF0C\u4E0D\u53EF\u8FED\u4EE3\u5C5E\u6027\u5728\u5FAA\u73AF\u4E2D\u88AB\u5FFD\u7565\u4E86\u3002\uFF08tips\uFF1Afor...of\u662FES6\u624D\u63D0\u51FA\u6765\u7684\uFF09</p></li></ul><ol start="8"><li>Module</li></ol><p>\u5728ES6\u7684module\u4E4B\u524D\uFF0C\u6BD4\u8F83\u6D41\u884C\u7684\u6A21\u5757\u52A0\u8F7D\u65B9\u6848\u6709:CommonJS\u548CAMD\uFF0C\u524D\u8005\u7528\u4E8E\u670D\u52A1\u5668\uFF08node)\uFF0C\u540E\u8005\u7528\u4E8E\u6D4F\u89C8\u5668\u3002</p><p>\u533A\u522B\uFF1A</p><ul><li>CommondJS\u548CAMD\u662F\u8FD0\u884C\u65F6\u52A0\u8F7D\u7684\u3002</li><li>module\u662F\u7F16\u8BD1\u65F6\u52A0\u8F7D\u7684\u3002</li><li>CommondJS\u8F93\u51FA\u7684\u662F\u503C\u7684\u590D\u5236\uFF0C\u800CES6\u8F93\u51FA\u7684\u662F\u503C\u7684\u5F15\u7528</li></ul><p>\u5176\u4E2D\u547D\u4EE4\u6709\uFF1Aexport\u3001import \u3001export default</p><ul><li>export\u7528\u4E8E\u5BF9\u5916\u8F93\u51FA\u672C\u6A21\u5757\uFF08\u4E00\u4E2A\u6587\u4EF6\u53EF\u4EE5\u7406\u89E3\u4E3A\u4E00\u4E2A\u6A21\u5757\uFF09\u53D8\u91CF\u7684\u63A5\u53E3\uFF0C\u901A\u8FC7export\u65B9\u5F0F\u5BFC\u51FA\uFF0C\u5728\u5BFC\u5165\u65F6\u8981\u52A0{ }\uFF0Cexport default\u5219\u4E0D\u9700\u8981</li><li>import\u7528\u4E8E\u5728\u4E00\u4E2A\u6A21\u5757\u4E2D\u52A0\u8F7D\u53E6\u4E00\u4E2A\u542B\u6709export\u63A5\u53E3\u7684\u6A21\u5757\u3002</li><li>\u4F7F\u7528export default\u547D\u4EE4\uFF0C\u4E3A\u6A21\u5757\u6307\u5B9A\u9ED8\u8BA4\u8F93\u51FA\uFF0C\u8FD9\u6837\u5C31\u4E0D\u9700\u8981\u77E5\u9053\u6240\u8981\u52A0\u8F7D\u6A21\u5757\u7684\u53D8\u91CF\u540D\uFF08\u53EF\u81EA\u5B9A\u4E49\u5F15\u7528\uFF09\u3002</li></ul><!--]-->`);
-}
-const _sfc_setup$E = _sfc_main$E.setup;
-_sfc_main$E.setup = (props, ctx) => {
-  const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/interview/JSinterview.html.vue");
-  return _sfc_setup$E ? _sfc_setup$E(props, ctx) : void 0;
-};
-var JSinterview_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$E, [["ssrRender", _sfc_ssrRender$q]]);
-var JSinterview_html$2 = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  "default": JSinterview_html$1
-});
-const _sfc_main$D = {};
-function _sfc_ssrRender$p(_ctx, _push, _parent, _attrs) {
-  _push(`<!--[--><h1 id="vue\u9762\u8BD5" tabindex="-1"><a class="header-anchor" href="#vue\u9762\u8BD5" aria-hidden="true">#</a> VUE\u9762\u8BD5</h1><h2 id="_1-vue\u7684\u751F\u547D\u5468\u671F" tabindex="-1"><a class="header-anchor" href="#_1-vue\u7684\u751F\u547D\u5468\u671F" aria-hidden="true">#</a> 1.vue\u7684\u751F\u547D\u5468\u671F</h2><h4 id="_1-1\u5404\u4E2A\u751F\u547D\u5468\u671F" tabindex="-1"><a class="header-anchor" href="#_1-1\u5404\u4E2A\u751F\u547D\u5468\u671F" aria-hidden="true">#</a> 1.1\u5404\u4E2A\u751F\u547D\u5468\u671F</h4><ol><li>beforeCreate\uFF08\u521B\u5EFA\u524D\uFF09:\u7EC4\u4EF6\u5B9E\u4F8B\u88AB\u521B\u5EFA\u4E4B\u521D\uFF0C\u7EC4\u4EF6\u7684\u5C5E\u6027\u751F\u6548\u4E4B\u524D\u3002</li><li>created\uFF08\u521B\u5EFA\u540E\uFF09:\u7EC4\u4EF6\u5B9E\u4F8B\u5DF2\u7ECF\u5B8C\u5168\u521B\u5EFA\uFF0C\u5C5E\u6027\u4E5F\u7ED1\u5B9A\uFF0C\u4F46\u771F\u5B9Edom\u8FD8\u6CA1\u6E32\u67D3\u3002$el\u4E0D\u53EF\u7528\u3002</li><li>beforeMount\uFF08\u6302\u8F7D\u524D\uFF09:\u5728\u6302\u8F7D\u5F00\u59CB\u4E4B\u524D\u88AB\u8C03\u7528\uFF1A\u76F8\u5173\u7684render\u51FD\u6570\u9996\u6B21\u88AB\u8C03\u7528\u3002</li><li>mounted\uFF08\u6302\u8F7D\u540E\uFF09:\u5728el\u88AB\u65B0\u521B\u5EFA\u7684vm.$el\u66FF\u6362\uFF0C\u5E76\u6302\u8F7D\u5230\u5B9E\u4F8B\u4E0A\u53BB\u4E4B\u540E\u8C03\u7528\u8BE5\u94A9\u5B50\u3002</li><li>beforeUpdate\uFF08\u66F4\u65B0\u524D\uFF09:\u7EC4\u4EF6\u6570\u636E\u66F4\u65B0\u4E4B\u524D\u8C03\u7528\uFF0C\u771F\u5B9Edom\u8FD8\u6CA1\u88AB\u66F4\u65B0\u6E32\u67D3\u3002</li><li>update\uFF08\u66F4\u65B0\u540E\uFF09:\u7EC4\u4EF6\u6570\u636E\u66F4\u65B0\u540E\u3002</li><li>activated\uFF08\u6FC0\u6D3B\u524D\uFF09:keey-alive\u4E13\u5C5E\uFF0C\u7EC4\u4EF6\u88AB\u6FC0\u6D3B\u65F6\u8C03\u7528\u3002</li><li>deactivated\uFF08\u6FC0\u6D3B\u540E\uFF09:keey-alive\u4E13\u5C5E\uFF0C\u7EC4\u4EF6\u88AB\u9500\u6BC1\u65F6\u8C03\u7528\u3002</li><li>beforeDestory\uFF08\u9500\u6BC1\u524D\uFF09:\u7EC4\u4EF6\u9500\u6BC1\u65F6\u8C03\u7528\u3002</li><li>destoryed\uFF08\u9500\u6BC1\u540E\uFF09:\u7EC4\u4EF6\u9500\u6BC1\u524D\u8C03\u7528\u3002</li></ol><h4 id="_1-2\u7EC4\u4EF6\u6267\u884C\u987A\u5E8F" tabindex="-1"><a class="header-anchor" href="#_1-2\u7EC4\u4EF6\u6267\u884C\u987A\u5E8F" aria-hidden="true">#</a> 1.2\u7EC4\u4EF6\u6267\u884C\u987A\u5E8F</h4><p>\u4F60\u770B\u5B8C\u4E0A\u9762\u5E94\u8BE5\u77E5\u9053\u751F\u547D\u5468\u671F\u51FD\u6570\u5927\u6982\u6267\u884C\u987A\u5E8F\u4E86\u5427\u3002\u8FD9\u91CC\u53EA\u8BF4\u7236\u5B50\u7EC4\u4EF6\u5173\u7CFB\u5176\u751F\u547D\u5468\u671F\u7684\u6267\u884C\u987A\u5E8F\u3002</p><ul><li><code>\u52A0\u8F7D\u6E32\u67D3\u8FC7\u7A0B</code>\uFF1AbeforeCreate(\u7236) \u2014&gt; created(\u7236)\u2014&gt;beforeMount(\u7236)\u2014&gt;beforeCreate(\u5B50)\u2014&gt;created(\u5B50)\u2014&gt;beforeMount(\u5B50)\u2014&gt;mounted(\u5B50)\u2014&gt;mounted(\u7236)</li><li>beforeCreate(\u7236) \u2014&gt; created(\u7236)\u2014&gt;beforeMount(\u7236)\u2014&gt;beforeCreate(\u5B50)\u2014&gt;created(\u5B50)\u2014&gt;beforeMount(\u5B50)\u2014&gt;mounted(\u5B50)\u2014&gt;mounted(\u7236)</li><li>\u9500\u6BC1\u8FC7\u7A0B\uFF1AbeforeDestory(\u7236) \u2014&gt; beforeDestory(\u5B50) \u2014&gt; destoryed(\u5B50) \u2014&gt; destoryed(\u7236)</li></ul><h4 id="_1-3\u6BCF\u4E2A\u751F\u547D\u5468\u671F\u8BE6\u89E3" tabindex="-1"><a class="header-anchor" href="#_1-3\u6BCF\u4E2A\u751F\u547D\u5468\u671F\u8BE6\u89E3" aria-hidden="true">#</a> 1.3\u6BCF\u4E2A\u751F\u547D\u5468\u671F\u8BE6\u89E3</h4><p>\u4E0B\u9762\u662F\u6781\u7B80\u5199\u6CD5\uFF0C\u751A\u81F3\u5FFD\u7565\u4E00\u4E9B\u4E1C\u897F\uFF1A</p><ol><li>beforeCreate\uFF1Anew\u4E00\u4E2Avue\u5B9E\u4F8B\uFF0C\u5565\u90FD\u6CA1\u6709\u3002</li><li>created\uFF1Adata\u548Cmethods\u521D\u59CB\u5316\u5B8C\u6210\uFF0C\u4F46\u662F\u6CA1\u6709el\u3002</li><li>beforeMount:\u865A\u62DFdom\u5DF2\u7ECF\u7F16\u8BD1\u597D\uFF0C\u4F46\u8FD8\u6CA1\u6302\u8F7D\u5230\u9875\u9762\u4E0A\u3002</li><li>mouted\uFF1A\u9875\u9762\u521D\u59CB\u5316\u5B8C\u6210\u3002</li></ol><p>\u4E0A\u9762\u4E3A\u91CD\u70B9</p><ol start="5"><li>beforeUpdate\uFF1A\u6B64\u65F6data\u662F\u66F4\u65B0\u540E\u7684\u6570\u636E\uFF0C\u4F46\u9875\u9762\u8FD8\u662F\u65E7\u7684\uFF0C\u8FD8\u6CA1\u6709\u540C\u6B65\u3002</li><li>update\uFF1A\u66F4\u65B0\u9875\u9762\u548Cdata\u6570\u636E\u4FDD\u5B58\u540C\u6B65\u3002</li><li>beforeDestory\uFF1A\u9500\u6BC1\u9636\u6BB5\uFF0C\u6B64\u65F6data\u548Cmethods\u4F9D\u7136\u53EF\u7528\u3002</li><li>destory\uFF1A\u7EC4\u4EF6\u9500\u6BC1\uFF0C\u4E0D\u53EF\u7528\u3002</li></ol><h4 id="_1-4-keey-alive\u7684activated\u548Cdeactivated" tabindex="-1"><a class="header-anchor" href="#_1-4-keey-alive\u7684activated\u548Cdeactivated" aria-hidden="true">#</a> 1.4 keey-alive\u7684activated\u548Cdeactivated</h4><ul><li>\u5982\u679C\u52A0\u5165keey-alive: \u7B2C\u4E00\u6B21\u52A0\u8F7D\u65F6\uFF0C\u4F1A\u989D\u5916\u6267\u884Cactivated\u3002 \u540E\u7EED\u518D\u8FDB\u5165\uFF1A\u53EA\u6267\u884Cactivated</li></ul><h4 id="_1-5-\u8C08\u8C08\u4F60\u5BF9keey-alive\u7684\u7406\u89E3" tabindex="-1"><a class="header-anchor" href="#_1-5-\u8C08\u8C08\u4F60\u5BF9keey-alive\u7684\u7406\u89E3" aria-hidden="true">#</a> 1.5 \u8C08\u8C08\u4F60\u5BF9keey-alive\u7684\u7406\u89E3</h4><p>\u4F5C\u7528\uFF1A\u7F13\u5B58\u7EC4\u4EF6\u8FBE\u5230\u63D0\u9AD8\u6027\u80FD\uFF0C\u4F46\u4F60\u91CD\u65B0\u6253\u5F00\u7EC4\u4EF6\u65F6\uFF0C\u5B83\u4F1A\u7F13\u5B58\u4E0A\u4E00\u6B21\u6253\u5F00\u65F6\u7684\u72B6\u6001\u3002</p><p>\u4F8B\u5982\uFF1A\u5217\u8868\u83DC\u5355\u70B9\u51FB\u4F1A\u8DF3\u8F6C\u8BE6\u60C5\u9875\uFF0C\u5F53\u4F60\u7F13\u5B58\u65F6\u5B83\u53EF\u4EE5\u51CF\u5C11\u91CD\u590D\u8BF7\u6C42\u4FE1\u606F\u3002</p><h2 id="_2-v-if\u548Cv-show\u7684\u533A\u522B" tabindex="-1"><a class="header-anchor" href="#_2-v-if\u548Cv-show\u7684\u533A\u522B" aria-hidden="true">#</a> 2.v-if\u548Cv-show\u7684\u533A\u522B</h2><p>v-if\uFF1A\u63A7\u5236dom\u662F\u5426\u521B\u5EFA\uFF0C\u9891\u7E41\u5207\u6362\u65F6\u4E0D\u63A8\u8350\u9891\u7E41\u66F4\u65B0dom\u3002 v-show\uFF1Adom\u5143\u7D20\u4F1A\u521B\u5EFA\uFF0C\u53EA\u662F\u63A7\u5236display:none(\u4E0D\u53EF\u89C1),blok(\u663E\u793A)\u3002</p><h2 id="_2-v-if\u548Cv-for\u7684\u4F18\u5148\u7EA7" tabindex="-1"><a class="header-anchor" href="#_2-v-if\u548Cv-for\u7684\u4F18\u5148\u7EA7" aria-hidden="true">#</a> 2.v-if\u548Cv-for\u7684\u4F18\u5148\u7EA7</h2><p>v-for\u4F18\u5148\u7EA7\u6BD4v-if\u9AD8</p><h2 id="_3-ref\u662F\u4EC0\u4E48" tabindex="-1"><a class="header-anchor" href="#_3-ref\u662F\u4EC0\u4E48" aria-hidden="true">#</a> 3.ref\u662F\u4EC0\u4E48\uFF1F</h2><p>ref\u7C7B\u4F3C\u4E8E\u4E00\u4E2A\u5173\u952E\u5B57\uFF0C\u7528\u6765\u83B7\u53D6dom\u3002\uFF08\u901A\u8FC7<code>this.refs.\u5173\u952E\u5B57</code>\u6765\u83B7\u53D6dom\u5143\u7D20\uFF09</p><h2 id="_4-nexttick\u662F\u4EC0\u4E48" tabindex="-1"><a class="header-anchor" href="#_4-nexttick\u662F\u4EC0\u4E48" aria-hidden="true">#</a> 4.nextTick\u662F\u4EC0\u4E48\uFF1F</h2><p>dom\u66F4\u65B0\u540E\u7684\u56DE\u8C03\u51FD\u6570\u3002\u4E3B\u8981\u4F5C\u7528\u4E8E\u83B7\u53D6\u66F4\u65B0\u540E\u7684\u6570\u636E\uFF08\u5F02\u6B65\uFF09\u3002</p><h2 id="_5-scoped\u539F\u7406" tabindex="-1"><a class="header-anchor" href="#_5-scoped\u539F\u7406" aria-hidden="true">#</a> 5.scoped\u539F\u7406</h2><p>\u4F5C\u7528\uFF1A\u4F7F\u7528scoped\u8BA9CSS\u53EA\u4F5C\u7528\u4E8E\u5F53\u524D\u7EC4\u4EF6\u5143\u7D20\u3002</p><ul><li>\u539F\u7406\uFF1A\u7ED9HTML\u7684DOM\u8282\u70B9\u52A0\u4E00\u4E2A\u4E0D\u91CD\u590Ddata\u5C5E\u6027(\u5F62\u5982\uFF1Adata-v-2311c06a)\u6765\u8868\u793A\u4ED6\u7684\u552F\u4E00\u6027\u3002</li><li>\u5728\u6BCF\u53E5css\u9009\u62E9\u5668\u7684\u672B\u5C3E\uFF08\u7F16\u8BD1\u540E\u7684\u751F\u6210\u7684css\u8BED\u53E5\uFF09\u52A0\u4E00\u4E2A\u5F53\u524D\u7EC4\u4EF6\u7684data\u5C5E\u6027\u9009\u62E9\u5668\u7684\u54C8\u5E0C\u7279\u5F81\u503C\uFF08\u5982[data-v-2311c06a]\uFF09\u6765\u79C1\u6709\u5316\u6837\u5F0F\u3002</li></ul><h2 id="_6-vue\u4E2D\u5982\u4F55\u505A\u6837\u5F0F\u7A7F\u900F" tabindex="-1"><a class="header-anchor" href="#_6-vue\u4E2D\u5982\u4F55\u505A\u6837\u5F0F\u7A7F\u900F" aria-hidden="true">#</a> 6.Vue\u4E2D\u5982\u4F55\u505A\u6837\u5F0F\u7A7F\u900F</h2><p>\u5F15\u5165\u5916\u90E8\u7EC4\u4EF6\u800C\u4E14\u4F7F\u7528\u4E86scoped\u65F6\u9700\u8981\u66F4\u6539\u6837\u5F0F\u65F6\u4F7F\u7528\u3002</p><p>1.scss\u6837\u5F0F\u7A7F\u900F</p><div class="language-css ext-css line-numbers-mode"><pre class="language-css"><code>\u7236\u5143\u7D20 /deep/\u5B50\u5143\u7D20
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>2.stylus\u6837\u5F0F\u7A7F\u900F</p><div class="language-css ext-css line-numbers-mode"><pre class="language-css"><code>\u7236\u5143\u7D20 /deep/\u5B50\u5143\u7D20
-<span class="token comment">/* stylus\u4E00\u822C\u7528\u4E0B\u9762 */</span>
-\u7236\u5143\u7D20 &gt;&gt;&gt; \u5B50\u5143\u7D20
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h2 id="_7-\u7EC4\u4EF6\u4E4B\u95F4\u7684\u901A\u4FE1" tabindex="-1"><a class="header-anchor" href="#_7-\u7EC4\u4EF6\u4E4B\u95F4\u7684\u901A\u4FE1" aria-hidden="true">#</a> 7.\u7EC4\u4EF6\u4E4B\u95F4\u7684\u901A\u4FE1</h2><h4 id="_7-1\u7236\u4F20\u5B50" tabindex="-1"><a class="header-anchor" href="#_7-1\u7236\u4F20\u5B50" aria-hidden="true">#</a> 7.1\u7236\u4F20\u5B50</h4><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code>
-<span class="token comment">// \u7236\u7EC4\u4EF6</span>
-<span class="token operator">&lt;</span>template<span class="token operator">&gt;</span>
-<span class="token operator">&lt;</span>\u5B50\u7EC4\u4EF6 <span class="token operator">:</span>msg<span class="token operator">=</span><span class="token string">&#39;msg&#39;</span><span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>\u5B50\u7EC4\u4EF6<span class="token operator">&gt;</span>
-<span class="token operator">&lt;</span><span class="token operator">/</span>template<span class="token operator">&gt;</span>
-
-<span class="token comment">//\u5B50\u7EC4\u4EF6</span>
-props<span class="token operator">:</span><span class="token punctuation">[</span><span class="token string">&#39;msg&#39;</span><span class="token punctuation">]</span>
-<span class="token comment">//\u6216\u8005</span>
-props<span class="token operator">:</span><span class="token punctuation">{</span>
-  msg<span class="token operator">:</span><span class="token function">\u6570\u636E\u7C7B\u578B</span><span class="token punctuation">(</span>\u5982\uFF1AString<span class="token punctuation">)</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><h4 id="_7-2\u5B50\u4F20\u7236" tabindex="-1"><a class="header-anchor" href="#_7-2\u5B50\u4F20\u7236" aria-hidden="true">#</a> 7.2\u5B50\u4F20\u7236</h4><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">// \u5B50\u7EC4\u4EF6</span>
-<span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">$emit</span><span class="token punctuation">(</span><span class="token string">&#39;\u5728\u7236\u7EC4\u4EF6\u7684\u4E8B\u4EF6\u540D\u79F0&#39;</span><span class="token punctuation">,</span><span class="token string">&#39;\u8981\u4F20\u7ED9\u7236\u7EC4\u4EF6\u7684\u6570\u636E&#39;</span><span class="token punctuation">)</span>
-
-<span class="token comment">// \u7236\u7EC4\u4EF6</span>
-  <span class="token operator">&lt;</span>\u5B50\u7EC4\u4EF6 @\u5728\u7236\u7EC4\u4EF6\u7684\u4E8B\u4EF6\u540D\u79F0<span class="token operator">=</span><span class="token string">&#39;getVal&#39;</span><span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>\u5B50\u7EC4\u4EF6<span class="token operator">&gt;</span>
-<span class="token operator">&lt;</span><span class="token operator">/</span>template<span class="token operator">&gt;</span>
-<span class="token operator">...</span><span class="token operator">...</span>
-<span class="token function">metnods</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-    <span class="token function">getVal</span><span class="token punctuation">(</span><span class="token parameter">msg</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-      cosolo<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&#39;\u4F20\u8FC7\u6765\u7684\u503C:&#39;</span><span class="token operator">+</span>msg<span class="token punctuation">)</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><h4 id="_7-2\u5144\u5F1F\u7EC4\u4EF6\u4F20\u503C" tabindex="-1"><a class="header-anchor" href="#_7-2\u5144\u5F1F\u7EC4\u4EF6\u4F20\u503C" aria-hidden="true">#</a> 7.2\u5144\u5F1F\u7EC4\u4EF6\u4F20\u503C</h4><ol><li>\u4E2D\u8F6C\u7AD9bus.js \u6A21\u5757</li></ol><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">// bus.js\u5BFC\u5165Vue\u6A21\u5757\uFF0C\u5E76\u5BFC\u51FA\u4E00\u4E2AVue\u5B9E\u4F8B\u5BF9\u8C61</span>
-<span class="token keyword">import</span> Vue <span class="token keyword">from</span> <span class="token string">&#39;vue&#39;</span>
-<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">new</span> <span class="token class-name">Vue</span><span class="token punctuation">(</span><span class="token punctuation">)</span> 
-
-<span class="token comment">// \u5728\u5404\u4E2A\u5144\u5F1F\u7EC4\u4EF6\u4E2D\uFF0C\u5BFC\u5165 bus.js \u6A21\u5757</span>
-<span class="token keyword">import</span> bus <span class="token keyword">from</span> <span class="token string">&#39;@/bus.js&#39;</span>
-
-
-<span class="token comment">// \u4F7F\u7528 bus.$emit(\u2018\u4E8B\u4EF6\u540D\u79F0\u2019, \u8981\u53D1\u9001\u7684\u6570\u636E) \u6765\u5411\u5916\u53D1\u9001\u53C2\u6570</span>
-      bus<span class="token punctuation">.</span><span class="token function">$emit</span><span class="token punctuation">(</span><span class="token string">&#39;xxx&#39;</span><span class="token punctuation">,</span> <span class="token string">&#39;\u4FDD\u62A4\u8D39&#39;</span><span class="token punctuation">)</span>
-
-<span class="token comment">// \u63A5\u53D7\u4E8B\u4EF6</span>
- bus<span class="token punctuation">.</span><span class="token function">$on</span><span class="token punctuation">(</span><span class="token string">&#39;xxx&#39;</span><span class="token punctuation">,</span> <span class="token parameter">msg</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
-      <span class="token comment">// console.log(msg) //\u4FDD\u62A4\u8D39</span>
-      <span class="token comment">// \u628A\u6570\u636E\u7ED9dt\u63A5\u6536</span>
-      <span class="token keyword">this</span><span class="token punctuation">.</span>dt <span class="token operator">=</span> msg
-    <span class="token punctuation">}</span><span class="token punctuation">)</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br></div></div><h2 id="_8-computed\u3001methods\u3001watch" tabindex="-1"><a class="header-anchor" href="#_8-computed\u3001methods\u3001watch" aria-hidden="true">#</a> 8.computed\u3001methods\u3001watch</h2><ol><li><p>computed:\u6027\u80FD\u6BD4methods\u597D\uFF0C\u636E\u4F9D\u8D56\u5173\u7CFB\u8FDB\u884C\u7F13\u5B58\u7684\u8BA1\u7B97\uFF0C\u5E76\u4E14\u53EA\u5728\u9700\u8981\u7684\u65F6\u5019\u8FDB\u884C\u66F4\u65B0,\u4E00\u4E2A\u6570\u636E\u53D7\u591A\u4E2A\u6570\u636E\u5F71\u54CD ---- \u8D2D\u7269\u8F66\u7ED3\u7B97 \u53D7\u5230\u5355\u4EF7 \u6570\u91CF \u8FD8\u6709\u662F\u5426\u88AB\u9009\u4E2D\u7684\u5F71\u54CD\u3002</p></li><li><p>methods:\u6CA1\u6709\u7F13\u5B58\uFF0Cmethods \u91CC\u9762\u662F\u7528\u6765\u5B9A\u4E49\u51FD\u6570\u7684\uFF0C\u5B83\u9700\u8981\u624B\u52A8\u8C03\u7528\u624D\u80FD\u6267\u884C\u3002</p></li><li><p>watch:watch\u4E2D\u7684\u51FD\u6570\u6709\u4E24\u4E2A\u53C2\u6570\uFF0C\u524D\u8005\u662FnewVal\uFF0C\u540E\u8005\u662FoldVal\u3002watch\u4E2D\u7684\u51FD\u6570\u662F\u4E0D\u9700\u8981\u8C03\u7528\u7684\u3002watch\u53EA\u4F1A\u76D1\u542C\u6570\u636E\u7684\u503C\u662F\u5426\u53D1\u751F\u6539\u53D8\uFF0C\u800C\u4E0D\u4F1A\u53BB\u76D1\u542C\u6570\u636E\u7684\u5730\u5740\u662F\u5426\u53D1\u751F\u6539\u53D8\u3002\u4E5F\u5C31\u662F\u8BF4\uFF0Cwatch\u60F3\u8981\u76D1\u542C\u5F15\u7528\u7C7B\u578B\u6570\u636E\u7684\u53D8\u5316\uFF0C\u9700\u8981\u8FDB\u884C\u6DF1\u5EA6\u76D1\u542C,\u4E00\u4E2A\u6570\u636E\u5F71\u54CD\u591A\u4E2A\u6570\u636E --- \u5E94\u7528\u573A\u666F\uFF1A\u641C\u7D22\u6846\u3001\u8868\u5355\u8F93\u5165\u3001\u5F02\u6B65\u66F4\u65B0\u3001\u52A8\u753B\u3002</p></li></ol><p>\u66F4\u591A\uFF1Acomputed\u80FD\u505A\u7684\uFF0Cwatch\u90FD\u80FD\u5B8C\u6210\uFF0C\u53CD\u4E4B\u4E0D\u6210\u7ACB\uFF0Cwatch\u53EF\u5904\u7406\u5F02\u6B65\u3002</p><h2 id="_9-props\u548Cdata\u4F18\u5148\u7EA7\u8C01\u9AD8" tabindex="-1"><a class="header-anchor" href="#_9-props\u548Cdata\u4F18\u5148\u7EA7\u8C01\u9AD8" aria-hidden="true">#</a> 9.props\u548Cdata\u4F18\u5148\u7EA7\u8C01\u9AD8</h2><p>\u9ED8\u8BA4\u4F18\u5148\u7EA7\uFF1A</p><p>props &gt; methods &gt; data &gt; computed &gt; watch</p><h2 id="_10-vuex" tabindex="-1"><a class="header-anchor" href="#_10-vuex" aria-hidden="true">#</a> 10.VueX</h2><h4 id="_10-1-vuex\u662F\u4EC0\u4E48-\u6709\u54EA\u4E9B\u5C5E\u6027" tabindex="-1"><a class="header-anchor" href="#_10-1-vuex\u662F\u4EC0\u4E48-\u6709\u54EA\u4E9B\u5C5E\u6027" aria-hidden="true">#</a> 10.1 VueX\u662F\u4EC0\u4E48\uFF0C\u6709\u54EA\u4E9B\u5C5E\u6027\uFF1F</h4><p>\u5168\u5C40\u72B6\u6001\u7BA1\u7406\u6A21\u5F0F\uFF1B</p><ol><li>state\uFF1A\u7C7B\u4F3C\u4E8E\u7EC4\u4EF6\u7684data\uFF0C\u5B58\u653E\u6570\u636E</li><li>getters\uFF1A\u7C7B\u4F3C\u4E8E\u7EC4\u4EF6\u7684computer\u8BA1\u7B97\u5C5E\u6027\uFF0C\u6709\u7F13\u5B58</li><li>mutations\uFF1A\u7C7B\u4F3C\u4E8E\u7EC4\u4EF6\u4E2D\u7684methods\uFF0C\u5176\u662F\u540C\u6B65\u4E8B\u52A1\u3002</li><li>actions\uFF1A\u63D0\u4EA4\u66F4\u6539\u7ED9mutations\uFF0C\u4E00\u822C\u7528\u4E8E\u5F02\u6B65\u4E8B\u52A1\u3002</li><li>modules\uFF1A\u6A21\u5757\u5316\u62C6\u5206\uFF0C\u53EF\u4EE5\u5B9E\u73B0\u81EA\u5B9A\u4E49\u522B\u540D\u5BFC\u51FA\u6A21\u5757\uFF0C\u66F4\u597D\u7BA1\u7406\u3002</li></ol><h4 id="_10-2-vuex\u662F\u5355\u5411\u6570\u636E\u6D41" tabindex="-1"><a class="header-anchor" href="#_10-2-vuex\u662F\u5355\u5411\u6570\u636E\u6D41" aria-hidden="true">#</a> 10.2 VueX\u662F\u5355\u5411\u6570\u636E\u6D41</h4><p>\u4E0D\u80FD\u4E4B\u95F4\u4FEE\u6539VueX\u7684\u503C</p><h4 id="_10-3-vuex\u4E0D\u662F\u6301\u4E45\u5316\u5B58\u50A8" tabindex="-1"><a class="header-anchor" href="#_10-3-vuex\u4E0D\u662F\u6301\u4E45\u5316\u5B58\u50A8" aria-hidden="true">#</a> 10.3 VueX\u4E0D\u662F\u6301\u4E45\u5316\u5B58\u50A8</h4><p>\u5237\u65B0\u6570\u636E\u4E22\u5931\uFF0C\u91CD\u8981\u6570\u636E\u53EF\u4EE5\u5B58\u5728localStorage\u4FDD\u5B58</p><h2 id="_11-vue\u8BBE\u7F6E\u4EE3\u7406-vue-config-js" tabindex="-1"><a class="header-anchor" href="#_11-vue\u8BBE\u7F6E\u4EE3\u7406-vue-config-js" aria-hidden="true">#</a> 11. Vue\u8BBE\u7F6E\u4EE3\u7406\uFF08vue.config.js\uFF09</h2><h2 id="_12-vue\u8DEF\u7531" tabindex="-1"><a class="header-anchor" href="#_12-vue\u8DEF\u7531" aria-hidden="true">#</a> 12. Vue\u8DEF\u7531</h2><h4 id="_12-1-\u8DEF\u7531\u6A21\u5F0F" tabindex="-1"><a class="header-anchor" href="#_12-1-\u8DEF\u7531\u6A21\u5F0F" aria-hidden="true">#</a> 12.1. \u8DEF\u7531\u6A21\u5F0F</h4><ul><li>history:\u4E0D\u660E\u5730\u5740\u4F1A\u53D1\u9001\u8BF7\u6C42\uFF0C\u4F7F\u7528\u5176\u4F1A\u6709\u7A7A\u767D\u9875</li><li>hash\uFF08\u9ED8\u8BA4\uFF09:\u4E0D\u660E\u5730\u5740\u4E0D\u4F1A\u53D1\u9001\u8BF7\u6C42</li></ul><h4 id="_12-2-\u8DEF\u7531\u4F20\u503C" tabindex="-1"><a class="header-anchor" href="#_12-2-\u8DEF\u7531\u4F20\u503C" aria-hidden="true">#</a> 12.2. \u8DEF\u7531\u4F20\u503C</h4><h4 id="_12-3-\u8DEF\u7531\u5B88\u536B" tabindex="-1"><a class="header-anchor" href="#_12-3-\u8DEF\u7531\u5B88\u536B" aria-hidden="true">#</a> 12.3. \u8DEF\u7531\u5B88\u536B</h4><ol><li>\u5168\u5C40\u8DEF\u7531\u5B88\u536B\uFF1A</li></ol><ul><li>\u524D\u7F6E\u5B88\u536B\uFF1AbeforeEach((to, from, next))</li><li>beforeResolve</li><li>\u540E\u7F6E\u94A9\u5B50\uFF1AafterEach((to, from, next))</li></ul><ol start="2"><li>\u5BFC\u822A\u8DEF\u7531\u5B88\u536B\uFF1A</li><li>\u7EC4\u4EF6\u5185\u8DEF\u7531\u5B88\u536B\uFF1A</li></ol><h2 id="_13-\u4ECB\u7ECD\u4E00\u4E0Bspa\u4EE5\u53CA\u5176\u4F18\u7F3A\u70B9\u3002" tabindex="-1"><a class="header-anchor" href="#_13-\u4ECB\u7ECD\u4E00\u4E0Bspa\u4EE5\u53CA\u5176\u4F18\u7F3A\u70B9\u3002" aria-hidden="true">#</a> 13. \u4ECB\u7ECD\u4E00\u4E0BSPA\u4EE5\u53CA\u5176\u4F18\u7F3A\u70B9\u3002</h2><p>SPA\u662F\u7684\u9875\u9762\u5E94\u7528\uFF1B \u7F3A\u70B9\uFF1A</p><ol><li>SEO\uFF08\u591A\u9875\u9762\uFF09\u4F18\u5316\u4E0D\u597D</li><li>\u6027\u80FD\u4E0D\u662F\u7279\u522B\u597D</li></ol><h2 id="_14-v-model\u539F\u7406" tabindex="-1"><a class="header-anchor" href="#_14-v-model\u539F\u7406" aria-hidden="true">#</a> 14. v-model\u539F\u7406</h2><p>\u901A\u8FC7Object.defineProperty\u52AB\u6301\u6570\u636E\u53D1\u751F\u7684\u6539\u53D8\uFF0C\u5728set\u4E2D\u8D4B\u503C\u7684\uFF0C\u89E6\u53D1update\u65B9\u6CD5\u8FDB\u884C\u66F4\u65B0\u8282\u70B9\u5185\u5BB9\uFF0C\u4ECE\u800C\u5B9E\u73B0\u53CC\u5411\u7ED1\u5B9A\u3002</p><p>\u8FD9\u91CC\u5B66\u4E00\u4E0B<code>Object.defineProperty()</code></p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token keyword">let</span> person <span class="token operator">=</span> <span class="token punctuation">{</span>
-  name<span class="token operator">:</span><span class="token string">&#39;\u5F20\u4E09&#39;</span><span class="token punctuation">,</span>
-<span class="token punctuation">}</span>
-
-Object<span class="token punctuation">.</span><span class="token function">defineProperty</span><span class="token punctuation">(</span>person<span class="token punctuation">,</span><span class="token string">&#39;age&#39;</span><span class="token punctuation">,</span><span class="token punctuation">{</span>
-  value<span class="token operator">:</span><span class="token number">18</span><span class="token punctuation">;</span>
-  <span class="token comment">// \u8FD9\u5C31\u662F\u4F7F\u7528\u8FD9\u4E2A\u65B9\u6CD5\u7684\u539F\u56E0\uFF0C\u65B9\u4FBF\u63A7\u5236\u5143\u7D20</span>
-  enumerable<span class="token operator">:</span><span class="token boolean">true</span><span class="token punctuation">,</span><span class="token comment">//\u63A7\u5236\u5C5E\u6027\u662F\u5426\u53EF\u4EE5\u679A\u4E3E</span>
-  writable<span class="token operator">:</span><span class="token boolean">true</span><span class="token punctuation">,</span><span class="token comment">//\u63A7\u5236\u5C5E\u6027\u662F\u5426\u53EF\u4EE5\u88AB\u4FEE\u6539</span>
-  configurable<span class="token operator">:</span><span class="token boolean">true</span><span class="token punctuation">;</span><span class="token comment">//\u63A7\u5236\u5C5E\u6027\u662F\u5426\u53EF\u4EE5\u88AB\u5220\u9664</span>
-
-  <span class="token comment">// \u8FD9\u4E2A\u5C31\u662F\u539F\u7406\uFF0C\u503C\u7ED1\u5B9A,\u8BBF\u95EE\u5668,\u7B80\u79F0\uFF08getter\uFF09</span>
-  <span class="token function">get</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-    <span class="token keyword">return</span> number
-  <span class="token punctuation">}</span><span class="token punctuation">,</span>
-
-  <span class="token comment">// \u5F53\u6709\u4EBA\u4FEE\u6539\u503C\uFF0C\u503C\u4FEE\u6539\u7ED1\u5B9A.</span>
-  <span class="token function">set</span><span class="token punctuation">(</span>value<span class="token punctuation">)</span><span class="token punctuation">{</span>
-    number <span class="token operator">=</span> value<span class="token punctuation">;</span>
-  <span class="token punctuation">}</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br></div></div><p>\u8FD9\u91CC\u5B66\u4E60\u4E00\u4E0B\u6570\u636E\u4EE3\u7406</p><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token comment">// \u901A\u8FC7new Vue\u7684\u5B9E\u4F8B\u4EE3\u7406data\u4E2D\u5C5E\u6027\u7684\u64CD\u4F5C</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><h2 id="_15-data\u52AB\u6301" tabindex="-1"><a class="header-anchor" href="#_15-data\u52AB\u6301" aria-hidden="true">#</a> 15. data\u52AB\u6301</h2><ol><li>\u7ED9vue\u5B9E\u4F8B\u5BF9\u8C61\u8D4B\u503C\uFF0C\u6765\u81EAdata</li><li>data\u4E2D\u7684\u5C5E\u6027\u503C\u4E0E\u5B9E\u4F8B\u5BF9\u8C61\u4FDD\u6301\u53CC\u5411\uFF08\u6570\u636E\u52AB\u6301\uFF09</li></ol><div class="language-javascript ext-js line-numbers-mode"><pre class="language-javascript"><code><span class="token function">proxyData</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-  <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">let</span> key <span class="token keyword">in</span> <span class="token keyword">this</span><span class="token punctuation">.</span>$data<span class="token punctuation">)</span><span class="token punctuation">{</span>
-    Object<span class="token punctuation">.</span><span class="token function">defineProperty</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">,</span>key<span class="token punctuation">,</span><span class="token punctuation">{</span>
-      <span class="token function">get</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-        <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span>$data<span class="token punctuation">[</span>key<span class="token punctuation">]</span><span class="token punctuation">;</span>
-      <span class="token punctuation">}</span><span class="token punctuation">,</span>
-      <span class="token function">set</span><span class="token punctuation">(</span>val<span class="token punctuation">)</span><span class="token punctuation">{</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span>$data<span class="token punctuation">[</span>key<span class="token punctuation">]</span> <span class="token operator">=</span> val<span class="token punctuation">;</span>
-      <span class="token punctuation">}</span>
-    <span class="token punctuation">}</span><span class="token punctuation">)</span>
-  <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><h2 id="_16-diff\u7B97\u6CD5" tabindex="-1"><a class="header-anchor" href="#_16-diff\u7B97\u6CD5" aria-hidden="true">#</a> 16. diff\u7B97\u6CD5</h2><p>\u865A\u62DFdom\uFF08\u628Adom\u6570\u636E\u5316\uFF0C\u4FBF\u4E8E\u64CD\u4F5C\uFF09</p><p>diff\u7B97\u6CD5\u7684\u672C\u8D28\u662F\u627E\u51FA\u4E24\u4E2A\u5BF9\u8C61\u4E4B\u95F4\u7684\u5DEE\u5F02\uFF0C\u76EE\u7684\u662F\u5C3D\u53EF\u80FD\u590D\u7528\u8282\u70B9\u3002\u6B64\u5904\u8BF4\u5230\u7684\u5BF9\u8C61\u5176\u5B9E\u5C31\u5BF9\u5E94 vue\u4E2D\u7684 virtual dom,\u5373\u4F7F\u7528 js \u5BF9\u8C61\u6765\u8868\u793A\u9875\u9762\u4E2D\u7684 dom \u7ED3\u6784\u3002</p><p>\u7279\u70B9:</p><ul><li>\u6BD4\u8F83\u53EA\u4F1A\u5728\u540C\u5C42\u7EA7\u8FDB\u884C, \u4E0D\u4F1A\u8DE8\u5C42\u7EA7\u6BD4\u8F83</li><li>\u5728diff\u6BD4\u8F83\u7684\u8FC7\u7A0B\u4E2D\uFF0C\u5FAA\u73AF\u4ECE\u4E24\u8FB9\u5411\u4E2D\u95F4\u6BD4\u8F83</li></ul><p>\u6BD4\u8F83\u65B9\u5F0F:</p><ul><li>diff\u6574\u4F53\u7B56\u7565\u4E3A\uFF1A\u6DF1\u5EA6\u4F18\u5148\uFF0C\u540C\u5C42\u6BD4\u8F83</li></ul><!--]-->`);
-}
-const _sfc_setup$D = _sfc_main$D.setup;
-_sfc_main$D.setup = (props, ctx) => {
-  const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/interview/VUEinterview.html.vue");
-  return _sfc_setup$D ? _sfc_setup$D(props, ctx) : void 0;
-};
-var VUEinterview_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$D, [["ssrRender", _sfc_ssrRender$p]]);
-var VUEinterview_html$2 = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  "default": VUEinterview_html$1
-});
-const _sfc_main$C = {};
-function _sfc_ssrRender$o(_ctx, _push, _parent, _attrs) {
-  _push(`<!--[--><h2 id="\u5154\u5B50\u4E0E\u661F\u661F" tabindex="-1"><a class="header-anchor" href="#\u5154\u5B50\u4E0E\u661F\u661F" aria-hidden="true">#</a> \u5154\u5B50\u4E0E\u661F\u661F</h2><p>\u5927\u5154\u5B50\u7279\u522B\u559C\u6B22\u591C\u665A\uFF0C\u56E0\u4E3A\u53EF\u4EE5\u4E00\u4E2A\u4EBA\u770B\u661F\u661F\uFF0C\u8FD8\u6CA1\u6709\u4EBA\u6253\u6270\u4ED6\u3002\u4ED6\u6BCF\u5929\u665A\u4E0A\u90FD\u5BF9\u7740\u661F\u661F\u8BF4\u5FC3\u91CC\u8BDD\uFF0C\u5C0F\u661F\u661F\u4E5F\u4F1A\u548C\u4ED6\u8BF4\u6084\u6084\u8BDD\u3002</p><p>\u6709\u4E00\u5929\u5C0F\u661F\u661F\u544A\u8BC9\u5927\u5154\u5B50\uFF1A\u7B49\u4F1A\u4F1A\u6709\u6D41\u661F\u96E8\u54E6\uFF0C\u4F60\u53EF\u4EE5\u5BF9\u7740\u5B83\u4EEC\u8BB8\u4E2A\u613F\uFF0C\u68A6\u60F3\u4E00\u5B9A\u4F1A\u5B9E\u73B0\u7684\uFF01\u5927\u5154\u5B50\u5F00\u5FC3\u7684\u50CF\u4E2A\u5B9D\u5B9D\uFF0C\u4ED6\u6709\u65E0\u6570\u4E2A\u613F\u671B\u60F3\u8981\u5B9E\u73B0\uFF0C\u4E8E\u662F\u5462\uFF0C\u4ED6\u5C31\u5F00\u59CB\u4E00\u6761\u6761\u5217\u51FA\u4ED6\u7684\u613F\u671B\u7B49\u5F85\u6D41\u661F\u96E8\u7684\u5230\u6765.....</p><p>\u5927\u5154\u5B50\u5C31\u5750\u5728\u90A3\u91CC\u7B49\u554A\u7B49\uFF0C\u6708\u4EAE\u90FD\u5FEB\u5230\u5934\u9876\u4E86\uFF0C\u5927\u767D\u5154\u4E5F\u5F00\u59CB\u72AF\u8FF7\u7CCA\u3002\u549A \u5927\u767D\u5154\u56F0\u7684\u4E00\u5934\u624E\u5230\u4E86\u8349\u5730\u91CC\u3002\u661F\u661F\u5728\u4E00\u65C1\u5077\u5077\u7684\u7B11\uFF0C\u5C31\u8FD9\u8FD9\u4E2A\u65F6\u5019\u6D41\u661F\u96E8\u6765\u4E86\uFF0C\u5C0F\u661F\u661F\u8D76\u5FEB\u53EB\u5927\u5154\u5B50\u9192\u6765\uFF0C\u600E\u4E48\u53EB\u5C31\u662F\u53EB\u4E0D\u9192\uFF0C\u8FD9\u6025\u6B7B\u5C0F\u661F\u661F\u4E86\uFF0C\u4F46\u662F\u4E5F\u6CA1\u6709\u529E\u6CD5\uFF0C\u5982\u679C\u5C0F\u661F\u661F\u6254\u4E00\u5C0F\u5757\u77F3\u5934\u7838\u5979\u7684\u8BDD\u4ED6\u5C31\u53D8\u6210\u5154\u5B50\u997C\u4E86.....</p><p>\u5C0F\u661F\u661F\u5C31\u4E00\u76F4\u53EB\u5927\u5154\u5B50\uFF0C\u4E00\u76F4\u53EB\u554A\u53EB\uFF0C\u5927\u5154\u5B50\u54D7\u7684\u4E00\u4E0B\u9192\u6765\u4E86\uFF0C\u4ED6\u4EE5\u4E3A\u81EA\u5DF1\u521A\u7761\u7740\uFF0C\u5176\u5B9E\u6D41\u661F\u96E8\u5DF2\u7ECF\u8FC7\u53BB\u4E00\u5927\u534A\u4E86\uFF01</p><p>\u5927\u767D\u5154\u614C\u91CC\u614C\u5F20\u7684\u95ED\u4E0A\u773C\u775B\u8BF4\u51FA\u4ED6\u7684\u613F\u671B\uFF0C\u6211\u60F3\u5B66\u4F1A\u5F39\u94A2\u7434\uFF0C\u6211\u60F3\u5B66\u4F1A\u505A\u597D\u5403\u7684\uFF0C\u6211\u60F3\u62E5\u6709\u6700\u597D\u5403\u7684\u80E1\u841D\u535C\uFF0C\u6211\u60F3\u53D8\u6210\u5154\u5B50\u754C\u7B2C\u4E00\u9996\u5BCC\uFF0C\u6211\u60F3\u62E5\u6709\u4E00\u4E2A\u5927\u679C\u56ED\u81EA\u5DF1\u53EF\u4EE5\u968F\u65F6\u5403\u5230\u7684\u90A3\u79CD\uFF01\u6211\u60F3.......</p><p>\u5C31\u8FD9\u6837\uFF0C\u5927\u5154\u5B50\u5C31\u50CF\u673A\u5173\u67AA\u4E00\u6837\uFF0C\u6709\u8BF4\u4E0D\u5B8C\u7684\u613F\u671B\u3002\u6709\u4E00\u9897\u5C0F\u6D41\u661F\u98DE\u8FC7\uFF0C\u544A\u8BC9\u5927\u5154\u5B50\uFF0C\u4F60\u8BF4\u7684\u90A3\u4E9B\u592A\u7269\u8D28\u4E86\uFF0C\u90A3\u4E9B\u8981\u9760\u4F60\u81EA\u5DF1\u53BB\u52AA\u529B\u624D\u53EF\u5F97\u5230\uFF0C\u4F60\u8981\u81EA\u5DF1\u5F88\u8BA4\u771F\u7684\u60F3\u4E00\u4E2A\u5FC3\u613F\uFF0C\u6211\u4F1A\u5C3D\u529B\u5E2E\u4F60\u5B9E\u73B0\u7684\uFF01\u5927\u5154\u5B50\u95ED\u4E0A\u773C\u775B\uFF0C\u53CC\u624B\u5408\u5341\u3002\u201C\u90A3\u5C31\u8BF7\u4F60\u544A\u8BC9\u5979\uFF0C\u6211\u60F3\u5979\u4E86\u201D\u5C0F\u6D41\u661F\u7B11\u4E86\u7B11\u4FDD\u8BC1\u5B8C\u6210\u4EFB\u52A1\u54E6\uFF5E</p><p>\u90A3\u5929\u7684\u665A\u4E0A\uFF0C\u8FDC\u5728\u4ED6\u4E61\u7684\u5C0F\u767D\u5154\u5728\u68A6\u4E61\u91CC\u89C1\u5230\u4E86\u5979\u7231\u7684\u5927\u5154\u5B50\uFF5E</p><h2 id="\u5929\u4E0A\u7684\u661F\u661F" tabindex="-1"><a class="header-anchor" href="#\u5929\u4E0A\u7684\u661F\u661F" aria-hidden="true">#</a> \u5929\u4E0A\u7684\u661F\u661F</h2><p>\u5154\u5154\u8981\u51FA\u4E00\u8D9F\u5F88\u4E45\u5F88\u4E45\u7684\u8FDC\u95E8\u4E86\u3002</p><p>\u732A\u732A\u81EA\u4ECE\u542C\u5230\u8FD9\u4E2A\u6D88\u606F\u5C31\u975E\u5E38\u96BE\u8FC7\uFF0C\u4ED6\u820D\u4E0D\u5F97\u5154\u5154\u79BB\u5F00\u3002\u54EA\u6015\u5C31\u4E00\u5929\u4E24\u5929\u90FD\u820D\u4E0D\u5F97\uFF0C\u66F4\u4F55\u51B5\uFF0C\u8FD9\u6B21\u7684\u5206\u5F00\u8FDC\u8FDC\u8D85\u8FC7\u8FD9\u4E2A\u6570\u76EE\u3002</p><p>\u4ED6\u867D\u7136\u8FD8\u662F\u6BCF\u5929\u90FD\u5728\u7ED9\u5154\u5154\u505A\u559C\u6B22\u5403\u7684\u4E1C\u897F\uFF0C\u8FD8\u662F\u5728\u54C4\u5154\u5154\u5F00\u5FC3\u3002\u53EF\u4ED6\u7684\u5FE7\u6101\u5199\u5728\u4E86\u5C0F\u5C0F\u7684\u773C\u775B\u91CC\uFF0C\u4ED6\u820D\u4E0D\u5F97\u5154\u5154\u8D70\u3002</p><p>\u53EF\u662F\u5154\u5154\u5DF2\u7ECF\u51B3\u5B9A\u4E86\u8981\u51FA\u53BB\uFF0C\u5C0F\u732A\u732A\u652F\u6301\u5154\u5154\u7684\u4E00\u5207\u505A\u6CD5\u3002\u732A\u732A\u6BCF\u5929\u90FD\u76D8\u7B97\u7740\u65E5\u5B50\uFF0C\u4ED6\u544A\u8BC9\u81EA\u5DF1\uFF0C\u53EA\u8981\u6709\u7231\u5728\uFF0C\u9694\u5C71\u8DDD\u6D77\uFF0C\u65E5\u5B50\u4E5F\u90FD\u4E0D\u4F1A\u592A\u96BE\u8FC7\u7684\u3002</p><p>\u54EA\u6015\u5C0F\u732A\u732A\u65E0\u6BD4\u73CD\u60DC\u6D41\u901D\u7684\u6BCF\u5206\u949F\uFF0C\u8DDD\u79BB\u5C0F\u5154\u5154\u8D70\u7684\u65F6\u95F4\u4E5F\u8D8A\u6765\u8D8A\u8FD1\u4E86\u3002\u5C0F\u732A\u732A\u5F00\u59CB\u7761\u4E0D\u7740\u89C9\uFF0C\u5403\u4E0D\u4E0B\u996D\u3002\u4ED6\u53EA\u60F3\u65E0\u65F6\u65E0\u523B\u7684\u76EF\u7740\u5154\u5154\u3002\u54EA\u6015\u8EBA\u5728\u5E8A\u4E0A\uFF0C\u4ED6\u4E5F\u4F1A\u6402\u7740\u5154\u5B50\uFF0C\u501F\u7740\u6708\u5149\uFF0C\u770B\u7740\u5154\u5154\u4FA7\u8EBA\u5728\u5E8A\u4E0A\u7684\u5A07\u4FCF\u6A21\u6837\u3002\u732A\u732A\u600E\u4E48\u53EF\u80FD\u820D\u5F97\u5154\u5154\u79BB\u5F00\u5462\u3002</p><p>\u5154\u5154\u4E5F\u53D1\u73B0\u4E86\u732A\u732A\u7684\u4E0D\u5BF9\u52B2\u3002\u4ED6\u867D\u7136\u6BCF\u5929\u90FD\u8FD8\u5728\u5C06\u989C\u6B22\u7B11\uFF0C\u53EF\u662F\u5154\u5154\u5374\u770B\u4E0D\u89C1\u4ED6\u5403\u996D\uFF0C\u53EA\u80FD\u770B\u89C1\u4ED6\u8D8A\u6765\u8D8A\u6DF1\u9083\u7684\u9ED1\u773C\u5708\uFF0C\u5154\u5154\u5F88\u5FC3\u75BC\u3002</p><p>\u201C\u732A\uFF0C\u4F60\u522B\u6015\u554A\uFF0C\u6211\u4F1A\u4E00\u76F4\u559C\u6B22\u4F60\u7684\u3002\u201D\u5C0F\u5154\u5154\u770B\u7740\u7ED9\u81EA\u5DF1\u7AEF\u83DC\u7684\u5C0F\u732A\uFF0C\u8BF4\u3002</p><p>\u201C\u50BB\u74DC\uFF0C\u6211\u4E0D\u662F\u6015\u4F60\u4E0D\u559C\u6B22\u6211\u4E86\u3002\u6211\u5BB3\u6015\u6211\u4E0D\u80FD\u4FDD\u62A4\u4F60\uFF0C\u5BB3\u6015\u4E0D\u80FD\u966A\u7740\u4F60\u3002\u6211\u5BB3\u6015\u6211\u60F3\u62B1\u4F60\u7684\u65F6\u5019\uFF0C\u8EAB\u8FB9\u6CA1\u6709\u4F60\uFF1B\u6211\u66F4\u5BB3\u6015\uFF0C\u4F60\u8EAB\u8FB9\u6709\u5F88\u591A\u4E2A\u6211\u3002\u201D\u732A\u732A\u62B1\u7740\u5C0F\u5154\u5B50\uFF0C\u7528\u529B\u628A\u5979\u6402\u5728\u6000\u91CC\u3002</p><p>\u201C\u522B\u778E\u8BF4\uFF01\u50BB\u732A\uFF0C\u4F60\u62AC\u5934\u770B\u661F\u661F\uFF0C\u5C31\u5934\u4E0A\u7684\u6700\u4EAE\u7684\u90A3\u4E00\u9897\u3002\u65E0\u8BBA\u6211\u4EEC\u76F8\u8DDD\u591A\u8FDC\uFF0C\u53EF\u662F\uFF0C\u5728\u5B83\u7684\u773C\u91CC\uFF0C\u6211\u4EEC\u90FD\u662F\u5728\u4E00\u8D77\u7684\u3002\u201D</p><p>\u201C\u732A\u732A\uFF0C\u6CA1\u6709\u51E0\u5929\u6211\u5C31\u8981\u8D70\u5566\uFF0C\u6211\u4E0D\u5E0C\u671B\u4F60\u6BCF\u5929\u90FD\u96BE\u8FC7\u3002\u65E2\u7136\u90FD\u662F\u65E2\u5B9A\u7684\u4E8B\u5B9E\uFF0C\u90A3\u4E3A\u4EC0\u4E48\uFF0C\u6211\u4EEC\u4E0D\u628A\u73B0\u5728\u4E24\u4E2A\u4EBA\u5F85\u5728\u4E00\u8D77\u7684\u65F6\u95F4\u8FC7\u7684\u66F4\u52A0\u5145\u5B9E\u7F8E\u6EE1\u5462\uFF1F\u201D\u5C0F\u5154\u5154\u5728\u732A\u732A\u7684\u6000\u91CC\uFF0C\u628A\u5934\u9760\u5728\u4E86\u4ED6\u7684\u5DF2\u7ECF\u7565\u5FAE\u6709\u4E9B\u6D88\u7626\u7684\u80A9\u8180\u4E0A\u3002</p><p>\u5C0F\u732A\u732A\u628A\u773C\u6CEA\u64E6\u5E72\uFF1A\u201C\u597D\u3002\u6211\u77E5\u9053\u8BE5\u600E\u4E48\u505A\u5566\u3002\u201D</p><p>\u201C\u65E0\u8BBA\u524D\u8DEF\u591A\u4E48\u6A21\u7CCA\uFF0C\u65E0\u8BBA\u76F8\u805A\u591A\u4E48\u9065\u8FDC\u3002\u6211\u90FD\u4F1A\u4E00\u76F4\u5728\u3002\u201D</p><p>\u201C\u6240\u7231\u9694\u5C71\u6D77\uFF0C\u5C71\u6D77\u7686\u53EF\u5E73\u3002\u201D</p><h2 id="\u82F9\u679C-\u667A\u6167\u679C" tabindex="-1"><a class="header-anchor" href="#\u82F9\u679C-\u667A\u6167\u679C" aria-hidden="true">#</a> \u82F9\u679C=\u667A\u6167\u679C</h2><p>\u5723\u7ECF\u4E0A\u8BF4\uFF0C\u4E0A\u5E1D\u521B\u9020\u4E86\u4E9A\u5F53\u548C\u590F\u5A03\u540E\uFF0C\u5B89\u6392\u4ED6\u4EEC\u5728\u4F0A\u7538\u56ED\u91CC\u751F\u6D3B\u3002\u4F0A\u7538\u56ED\u91CC\u6811\u6728\u5E38\u9752\uFF0C\u82B1\u8349\u5E38\u7EFF\uFF0C\u6709\u5404\u79CD\u5947\u73CD\u5F02\u679C\u548C\u98DE\u79BD\u8D70\u517D\u3002\u8FDB\u5165\u4F0A\u7538\u56ED\u7684\u7B2C\u4E00\u5929\uFF0C\u4E0A\u5E1D\u5C31\u8B66\u544A\u4E9A\u5F53\u548C\u590F\u5A03\u6240\u6709\u7684\u679C\u5B9E\u90FD\u53EF\u4EE5\u5403\uFF0C\u53EA\u6709\u667A\u6167\u6811\u7684\u8FC7\u662F\u4E0D\u53EF\u4EE5\u5403.</p><p>\u4E9A\u5F53\u548C\u590F\u5A03\u5F00\u59CB\u5F88\u542C\u8BDD\uFF0C\u4F46\u662F\u6CA1\u8FC7\u591A\u4E45\uFF0C\u5C31\u6709\u4E00\u6761\u9634\u9669\u7684\u6BD2\u86C7\u82B1\u8A00\u5DE7\u8BED\u5F15\u8BF1\u72EC\u81EA\u73A9\u800D\u7684\u590F\u5A03\u5077\u5403\u4E86\u667A\u6167\u6811\u7684\u679C\u5B50\uFF0C\u5929\u771F\u7684\u590F\u5A03\u53C8\u628A\u5403\u5269\u4E0B\u7684\u679C\u5B50\u7ED9\u4E86\u4E9A\u5F53\u3002\u4E8E\u662F\uFF0C\u4E9A\u5F53\u548C\u590F\u5A03\u5C31\u6709\u4E86\u667A\u6167\uFF0C\u4EBA\u7C7B\u5F00\u59CB\u6709\u4E86\u5584\u4E0E\u6076\u3002</p><p>\u82F9\u679C\u5728\u897F\u65B9\u8C61\u5F81\u7740\u7231\uFF0C\u4E9A\u5F53\u548C\u590F\u5A03\u5403\u7684\u201C\u7981\u679C\u201D\uFF0C\u5B9E\u9645\u4E0A\u5C31\u662F\u9752\u82F9\u679C\uFF0C\u5728\u4E0D\u8BE5\u5403\u7684\u65F6\u5019\u5403\u4E86\u5B83\uFF0C\u53D7\u5230\u4E0A\u5E1D\u7684\u60E9\u7F5A\u3002\u6CA1\u6709\u6210\u719F\u7684\u82F9\u679C\u7684\u5473\u9053\uFF0C\u53C8\u9178\u53C8\u6DA9\uFF0C\u6B63\u5982\u9752\u6DA9\u7684\u9752\u6625\u5982\u540C\u662F\u6CA1\u6709\u6210\u719F\u7684\u65F6\u5019\uFF0C\u4F60\u4E0D\u8981\u53BB\u5543\u5B83\u3002</p><p>\u82F9\u679C\u5C31\u6210\u4E86\u667A\u6167\u679C\u7684\u4EE3\u540D\u8BCD\uFF0C\u82F9\u679C\u4E5F\u6210\u4E86\u667A\u6167\u7684\u8C61\u5F81\u3002</p><h2 id="\u7B28\u7B28\u718A" tabindex="-1"><a class="header-anchor" href="#\u7B28\u7B28\u718A" aria-hidden="true">#</a> \u7B28\u7B28\u718A</h2><p>\u7B28\u7B28\u718A\u6765\u5230\u6CB3\u8FB9\uFF0C\u770B\u7740\u6CB3\u6C34\u91CC\u7684\u9C7C\uFF0C\u7B28\u7B28\u718A\u89C9\u5F97\u9C7C\u513F\u4EEC\u592A\u5E78\u798F\u4E86\uFF0C\u4E0D\u7528\u6355\u98DF\uFF0C\u5728\u6CB3\u6C34\u91CC\u81EA\u7531\u81EA\u5728\uFF0C\u771F\u5E78\u798F\u3002\u7B28\u7B28\u718A\u771F\u60F3\u53D8\u6210\u4E00\u6761\u9C7C\uFF0C\u4E00\u6761\u81EA\u7531\u81EA\u5728\u7684\u9C7C\u3002</p><p>\u7B28\u7B28\u718A\u8D70\u5728\u56DE\u5BB6\u7684\u8DEF\u4E0A\uFF0C\u4E0D\u5C0F\u5FC3\u649E\u5230\u4E86\u683C\u683C\u5DEB\uFF0C\u683C\u683C\u5DEB\u662F\u68EE\u6797\u91CC\u7684\u5DEB\u5A46\uFF0C\u683C\u683C\u5DEB\u65B0\u7814\u5236\u7684\u53D8\u8EAB\u836F\u6C34\u6D12\u5728\u4E86\u7B28\u7B28\u718A\u7684\u8EAB\u4E0A\uFF0C\u7B28\u7B28\u718A\u7ACB\u523B\u53D8\u6210\u4E86\u4E00\u6761\u9C7C\uFF0C\u53D8\u6210\u9C7C\u7684\u7B28\u7B28\u718A\u79BB\u5F00\u4E86\u6C34\u662F\u65E0\u6CD5\u6D3B\u4E0B\u53BB\u7684\uFF0C\u683C\u683C\u5DEB\u53EA\u597D\u628A\u7B28\u7B28\u718A\u653E\u5728\u6C34\u91CC\u3002</p><p>\u683C\u683C\u5DEB\u5BF9\u7B28\u7B28\u718A\u8BF4\uFF1A\u201C\u771F\u662F\u5BF9\u4E0D\u8D77\u7B28\u7B28\u718A\uFF0C\u4F60\u5148\u5728\u6CB3\u6C34\u91CC\u751F\u6D3B\uFF0C\u6211\u9A6C\u4E0A\u5C31\u56DE\u53BB\u7814\u5236\u89E3\u836F\uFF0C\u6211\u4F1A\u628A\u4F60\u53D8\u56DE\u6765\u7684\u3002\u201D</p><p>\u7B28\u7B28\u718A\u8BF4\uFF1A\u201C\u6CA1\u5173\u7CFB\uFF0C\u6211\u6B63\u597D\u53EF\u4EE5\u4EAB\u53D7\u4E00\u4E0B\u53D8\u6210\u9C7C\u7684\u751F\u6D3B\uFF0C\u4F60\u4E0D\u7528\u6025\u7740\u628A\u6211\u53D8\u56DE\u6765\u3002\u201D</p><p>\u683C\u683C\u5DEB\u628A\u53D8\u6210\u9C7C\u7684\u7B28\u7B28\u718A\u653E\u8FDB\u6CB3\u6C34\u91CC\u4E4B\u540E\uFF0C\u9A91\u7740\u626B\u628A\u6025\u5FD9\u56DE\u5BB6\u7814\u5236\u89E3\u836F\u53BB\u4E86\uFF0C\u7B28\u7B28\u718A\u9AD8\u5174\u7684\u5728\u6CB3\u6C34\u91CC\u6E38\u6765\u6E38\u53BB\uFF0C\u5F53\u4E00\u6761\u9C7C\u8FD9\u53EF\u662F\u7B28\u7B28\u718A\u7684\u68A6\u60F3\uFF0C\u73B0\u5728\u7EC8\u4E8E\u5B9E\u73B0\u4E86\u3002</p><p>\u7B28\u7B28\u718A\u6CA1\u6709\u6CE8\u610F\u5230\u5B83\u5DF2\u7ECF\u88AB\u4E00\u6761\u5927\u9C7C\u76EF\u4E0A\u4E86\uFF0C\u7B28\u7B28\u718A\u7A81\u7136\u611F\u5230\u773C\u524D\u4E00\u7247\u6F06\u9ED1\uFF0C\u539F\u6765\u81EA\u5DF1\u5DF2\u7ECF\u5728\u5927\u9C7C\u7684\u53E3\u91CC\u4E86\uFF0C\u7B28\u7B28\u718A\u8D81\u7740\u5927\u9C7C\u8FD8\u6CA1\u6709\u628A\u5634\u5408\u4E0A\u9003\u4E86\u51FA\u53BB\uFF0C\u7B28\u7B28\u718A\u4E0D\u65AD\u7684\u6E38\uFF0C\u51F6\u6076\u7684\u5927\u9C7C\u5728\u540E\u9762\u7D27\u8FFD\u4E0D\u820D\u3002</p><p>\u4E00\u4E2A\u5C0F\u6D77\u9A6C\u628A\u7B28\u7B28\u718A\u62FD\u8FDB\u4E86\u6D77\u85FB\u91CC\uFF0C\u5927\u9C7C\u600E\u4E48\u627E\u90FD\u627E\u4E0D\u5230\uFF0C\u53EA\u597D\u79BB\u5F00\uFF0C\u5C0F\u6D77\u9A6C\u544A\u8BC9\u7B28\u7B28\u718A\u8BF4\uFF1A\u201C\u5927\u9C7C\u5403\u5C0F\u9C7C\u8FD9\u662F\u89C4\u5F8B\uFF0C\u4E00\u5B9A\u8981\u5C0F\u5FC3\u90A3\u4E9B\u5927\u9C7C\uFF0C\u4E0D\u7136\u81EA\u5DF1\u4F1A\u88AB\u5403\u6389\u3002\u201D</p><p>\u7B28\u7B28\u718A\u5230\u5904\u4E1C\u8EB2\u897F\u85CF\uFF0C\u8FD9\u5B8C\u5168\u8DDF\u7B28\u7B28\u718A\u60F3\u8C61\u7684\u751F\u6D3B\u4E0D\u4E00\u6837\uFF0C\u5403\u7684\u98DF\u7269\u4E5F\u53D8\u6210\u4E86\u96BE\u5403\u7684\u6D77\u8349\u3002</p><p>\u8981\u77E5\u9053\u718A\u53EF\u662F\u4E00\u4E2A\u4E0D\u5403\u8349\u7684\u52A8\u7269\uFF0C\u73B0\u5728\u5374\u5929\u5929\u5403\u7740\u6D77\u8349\uFF0C\u7B28\u7B28\u718A\u6000\u5FF5\u8D77\u81EA\u5DF1\u4EE5\u524D\u505A\u5C0F\u718A\u7684\u65E5\u5B50\uFF0C\u53EF\u4EE5\u5403\u5230\u5F88\u591A\u7684\u7F8E\u98DF\uFF0C\u9999\u751C\u7684\u7CD5\u70B9\uFF0C\u60F3\u60F3\u5C31\u8BA9\u4EBA\u76F4\u6D41\u53E3\u6C34\u3002</p><p>\u7B28\u7B28\u718A\u60F3\u53D8\u56DE\u4E00\u53EA\u718A\uFF0C\u53EF\u662F\u683C\u683C\u5DEB\u7684\u89E3\u836F\u8FD8\u6CA1\u6709\u7814\u5236\u51FA\u6765\uFF0C\u7B28\u7B28\u718A\u4E0D\u613F\u610F\u518D\u5403\u90A3\u96BE\u5403\u7684\u6D77\u8349\uFF0C\u53EA\u597D\u997F\u7740\u809A\u5B50\uFF0C\u6B63\u5728\u7B28\u7B28\u718A\u997F\u7740\u809A\u5B50\u7684\u65F6\u5019\uFF0C\u4E00\u5757\u9762\u5305\u51FA\u73B0\u5728\u7B28\u7B28\u718A\u7684\u89C6\u7EBF\u91CC\uFF0C\u9762\u5305\u5728\u4E00\u4E2A\u74F6\u5B50\u91CC\uFF0C\u7B28\u7B28\u718A\u94BB\u8FDB\u74F6\u5B50\u91CC\uFF0C\u5F00\u5FC3\u7684\u5403\u8D77\u4E86\u9762\u5305\u3002</p><p>\u7B28\u7B28\u718A\u79BB\u5F00\u4E86\u6C34\u9762\uFF0C\u539F\u6765\u662F\u683C\u683C\u5DEB\u62FF\u9762\u5305\u8BF1\u60D1\u7B28\u7B28\u718A\u7684\uFF0C\u683C\u683C\u5DEB\u628A\u9B54\u6CD5\u836F\u6C34\u7684\u89E3\u836F\u6EF4\u5728\u4E86\u53D8\u6210\u9C7C\u7684\u7B28\u7B28\u718A\u8EAB\u4E0A\uFF0C\u7B28\u7B28\u718A\u53D8\u56DE\u4E86\u4E00\u53EA\u718A\uFF0C\u53EF\u662F\u7B28\u7B28\u718A\u5374\u5927\u54ED\u8D77\u6765\uFF0C\u683C\u683C\u5DEB\u5230\u73B0\u5728\u4E5F\u6CA1\u5F04\u6E05\u695A\u7B28\u7B28\u718A\u4E3A\u4EC0\u4E48\u4F1A\u54ED\u3002</p><h2 id="\u5C0F\u80A5\u732A" tabindex="-1"><a class="header-anchor" href="#\u5C0F\u80A5\u732A" aria-hidden="true">#</a> \u5C0F\u80A5\u732A</h2><p>\u4E00\u53EA\u9965\u997F\u7684\u72D0\u72F8\u6B63\u51C6\u5907\u51FA\u95E8\u627E\u5348\u9910\uFF0C\u7A81\u7136\uFF0C\u5916\u9762\u4F20\u6765\u4E00\u9635\u6572\u95E8\u58F0\u3002\u72D0\u72F8\u6253\u5F00\u95E8\uFF0C\u95E8\u53E3\u7ADF\u7AD9\u7740\u4E00\u53EA\u5C0F\u80A5\u732A\u3002</p><p>\u201C\u54CE\u5440\uFF0C\u6211\u627E\u9519\u95E8\u4E86\uFF0C\u6211\u4EE5\u4E3A\u662F\u5154\u5B50\u7684\u5BB6\u5462\uFF01\u201D</p><p>\u201C\u6CA1\u9519\uFF0C\u4F60\u6765\u5F97\u6B63\u662F\u65F6\u5019\uFF01\u201D</p><p>\u72D0\u72F8\u628A\u5C0F\u732A\u72E0\u72E0\u5730\u62D6\u8FDB\u5C4B\u91CC\uFF0C\u5927\u58F0\u53EB\u9053\uFF1A\u201C\u8FD9\u771F\u662F\u6211\u5E78\u8FD0\u7684\u4E00\u5929\uFF01\u6211\u8981\u5403\u4E00\u987F\u9999\u55B7\u55B7\u7684\u70E4\u732A\u8089\uFF0C\u73B0\u5728\uFF0C\u4F60\u4E56\u4E56\u5730\u8EBA\u5230\u70E4\u9505\u91CC\u53BB\u5427\uFF01\u201D</p><p>\u6323\u624E\u662F\u6CA1\u6709\u7528\u7684\uFF0C\u4E8E\u662F\uFF0C\u5C0F\u732A\u8BF4\uFF1A\u201C\u542C\u4F60\u7684\u5B89\u6392\u5427\u3002\u4E0D\u8FC7\uFF0C\u6211\u5F88\u810F\u54E6\uFF0C\u5728\u4F60\u5403\u6389\u6211\u4E4B\u524D\uFF0C\u5C31\u4E0D\u60F3\u628A\u6211\u6D17\u5F97\u5E72\u51C0\u4E00\u70B9\u5417\uFF1F\u201D\u4E8E\u662F\uFF0C\u72D0\u72F8\u5FD9\u8D77\u6765\u4E86\u3002\u4ED6\u62FE\u6765\u4E86\u6811\u679D\u3001\u751F\u8D77\u4E86\u706B\uFF0C\u518D\u5230\u6CB3\u8FB9\u53BB\u63D0\u6C34\uFF0C\u7136\u540E\uFF0C\u7ED9\u5C0F\u732A\u6D17\u4E86\u4E00\u4E2A\u75DB\u75DB\u5FEB\u5FEB\u7684\u70ED\u6C34\u6FA1\u3002</p><p>\u72D0\u72F8\u8BF4\uFF1A\u201C\u597D\u5566\uFF0C\u73B0\u5728\u4F60\u662F\u5168\u6751\u6700\u5E72\u51C0\u7684\u5C0F\u732A\u4E86\uFF0C\u5FEB\u7ED9\u6211\u8EBA\u5230\u70E4\u9505\u91CC\u53BB\u5427\uFF01\u201D</p><p>\u6323\u624E\u662F\u6CA1\u6709\u7528\u7684\uFF0C\u4E8E\u662F\uFF0C\u5C0F\u732A\u8BF4\uFF1A\u201C\u542C\u4F60\u7684\u5B89\u6392\u5427\u3002\u4E0D\u8FC7\uFF0C\u6211\u592A\u5C0F\u4E86\uFF0C\u5728\u4F60\u5403\u6389\u6211\u4E4B\u524D\uFF0C\u5C31\u4E0D\u60F3\u5582\u9971\u6211\uFF0C\u8BA9\u6211\u957F\u5F97\u80D6\u4E00\u70B9\u5417\uFF1F\u201D\u4E8E\u662F\uFF0C\u72D0\u72F8\u5FD9\u8D77\u6765\u4E86\u3002\u4ED6\u6458\u6765\u897F\u7EA2\u67FF\uFF0C\u505A\u4E86\u901A\u5FC3\u7C89\uFF0C\u8FD8\u70E4\u4E86\u4E00\u7089\u91D1\u9EC4\u8272\u7684\u5C0F\u751C\u997C\u3002\u5C0F\u732A\u5927\u5927\u54A7\u54A7\u5730\u5403\u4E86\u4E00\u987F\u4E30\u76DB\u7684\u5348\u9910\u3002</p><p>\u72D0\u72F8\u8BF4\uFF1A\u201C\u597D\u5566\uFF0C\u73B0\u5728\u4F60\u662F\u5168\u6751\u6700\u80A5\u7684\u5C0F\u732A\u4E86\uFF0C\u5FEB\u7ED9\u6211\u8EBA\u5230\u70E4\u9505\u91CC\u53BB\u5427\uFF01\u201D</p><p>\u6323\u624E\u662F\u6CA1\u6709\u7528\u7684\uFF0C\u4E8E\u662F\uFF0C\u5C0F\u732A\u8BF4\uFF1A\u201C\u542C\u4F60\u7684\u5B89\u6392\u5427\u3002\u4E0D\u8FC7\uFF0C\u6211\u662F\u4E00\u53EA\u52E4\u52B3\u7684\u5C0F\u732A\uFF0C\u6211\u7684\u8089\u4E00\u5B9A\u7279\u522B\u786C\u3002\u5728\u4F60\u5403\u6389\u6211\u4E4B\u524D\uFF0C\u5C31\u4E0D\u60F3\u5148\u7ED9\u6211\u6309\u6469\u4E00\u4E0B\uFF0C\u8BA9\u81EA\u5DF1\u5403\u4E0A\u66F4\u5AE9\u4E00\u70B9\u7684\u70E4\u8089\u5417\uFF1F\u201D</p><p>\u4E8E\u662F\uFF0C\u72D0\u72F8\u5FD9\u8D77\u6765\u4E86\u3002\u4ED6\u8BA9\u5C0F\u732A\u5750\u5728\u6728\u6905\u5B50\u4E0A\uFF0C\u4E3A\u5C0F\u732A\u634F\u634F\u5934\u3001\u677E\u677E\u80A9\u3001\u62C9\u62C9\u817F\uFF0C\u5C0F\u732A\u8212\u670D\u5F97\u76F4\u54FC\u54FC\u3002\u72D0\u72F8\u8BF4\uFF1A\u201C\u597D\u5566\uFF0C\u73B0\u5728\u4F60\u662F\u5168\u6751\u6700\u80A5\u7684\u5C0F\u732A\u4E86\uFF0C\u5FEB\u7ED9\u6211\u8EBA\u5230\u70E4\u9505\u91CC\u53BB\u5427\uFF01\u201D</p><p>\u201C\u90A3\u597D\u5427\uFF0C\u4E0D\u8FC7\uFF0C\u8FD9\u4E9B\u65E5\u5B50\u6211\u7684\u786E\u592A\u7D2F\u4E86\u3002\u4F60\u770B\uFF0C\u6211\u7684\u80CC\u8FD8\u6709\u70B9\u50F5\u786C\uFF0C\u4F60\u80FD\u518D\u7528\u529B\u66FF\u6211\u6309\u6469\u4E00\u4E0B\u5417\uFF1F\u5BF9\uFF0C\u5C31\u8FD9\u6837\uFF0C\u518D\u7528\u70B9\u529B\u6C14\uFF01\u201D\u8FC7\u4E86\u4E00\u4F1A\uFF0C\u8EAB\u540E\u4F20\u6765\u72D0\u72F8\u7684\u547C\u565C\u58F0\uFF0C\u5C0F\u732A\u8F7B\u58F0\u95EE\uFF1A\u201C\u72D0\u72F8\u5148\u751F\uFF0C\u4F60\u5728\u54EA\u513F\u554A\uFF1F\u201D</p><p>\u72D0\u72F8\u6CA1\u6709\u542C\u89C1\u5C0F\u732A\u7684\u558A\u58F0\uFF0C\u4ED6\u7D2F\u6781\u4E86\uFF0C\u6C89\u6C89\u5730\u7761\u53BB\u4E86\u3002</p><p>\u6751\u5B50\u91CC\u6700\u5E72\u51C0\u3001\u6700\u80A5\u3001\u6700\u67D4\u8F6F\u7684\u5C0F\u732A\uFF0C\u62FF\u7740\u5269\u4E0B\u7684\u751C\u997C\uFF0C\u98DE\u5FEB\u5730\u8DD1\u56DE\u5BB6\u53BB\u4E86\u3002</p><h2 id="\u68A6\u91CC\u6709\u4F60-\u5341\u5206\u751C" tabindex="-1"><a class="header-anchor" href="#\u68A6\u91CC\u6709\u4F60-\u5341\u5206\u751C" aria-hidden="true">#</a> \u68A6\u91CC\u6709\u4F60\uFF0C\u5341\u5206\u751C</h2><p>\u4F4F\u5728\u5C71\u5934\u7684\u5C0F\u5154\u5B50\uFF0C\u6700\u8FD1\u5FC3\u91CC\u85CF\u4E86-\u4E2A\u5C0F\u79D8\u5BC6\u3002\u90A3\u4E2A\u5C0F\u79D8\u5BC6\uFF0C\u662F\u6709\u5173\u5BF9\u9762\u5C71\u4E0A\u7684\u7EA2\u5C3E\u5DF4\u5C0F\u72D0\u72F8\u7684\u3002</p><p>\u8FD9\u5929\uFF0C\u5C0F\u5154\u5B50\u7167\u5E38\u53BB\u627E\u5C0F\u72D0\u72F8\u73A9\uFF0C\u534A\u8DEF\u9047\u5230\u4E86\u5C0F\u7CBE\u7075,\u542C\u8BF4\u8FD9\u4E2A\u5C0F\u7CBE\u7075\u7CBE\u901A\u4E07\u4E8B\uFF0C\u5C0F\u5154\u5B50\u541E\u541E\u5410\u5410\u5730\u95EE:\u201C\u5C0F\u7CBE\u7075\uFF0C. \u6211\u4E3A\u4EC0\u4E48\u89C1\u5230\u90A3\u4E2A\u4EBA\uFF0C\u5C31.. \u5C31\u4F1A\u5FC3\u8DF3\u52A0\u901F\uFF0C\u5C31.. \u50CF\u6211\u6BCF\u5929\u5728\u8349\u4E1B\u4E0A\u6253\u5B8C\u6EDA\u4E00\u6837?\u5C0F\u7CBE \u7075\u717D\u52A8\u7740\u5C0F\u7FC5\u8180\uFF0C\u7B11\u563B\u563B\u5730\u5BF9\u5C0F\u5154\u5B50\u8BF4:\u201C\u4F60\u8FD9\u662F\u559C\u6B22\u4E0A\u4EBA\u5BB6\u5566\u3002\u201D\u5C0F\u5154\u5B50\u53C8\u95EE:\u201C\u90A3\u4EC0\u4E48\u662F\u559C\u6B22\u5440?</p><p>\u5C0F\u7CBE\u7075\u60F3\u4E86\u60F3\u8BF4: &quot;\u559C\u6B22\u5C31\u662F\uFF0C\u4F60\u5728\u89C1\u4ED6\u4E4B\u524D\uFF0C\u5E0C\u671B\u65F6\u95F4\u8FC7\u5F97\u5FEB\u4E00-\u70B9, \u8FD9\u6837\u4F60\u5C31\u53EF\u4EE5\u5FEB\u70B9\u89C1\u5230\u4ED6\u3002\u89C1\u5230\u4ED6\u4E4B\u540E\uFF0C\u4F60\u4F1A\u5F88\u5F00\u5FC3\uFF0C\u4F1A\u5E0C\u671B\u65F6\u95F4\u8FC7\u5F97\u6162\u4E00-\u70B9,\u8FD9\u6837\u4F60\u5C31\u53EF\u4EE5\u6709\u66F4\u591A\u7684\u65F6\u95F4\u548C\u4ED6\u5728\u4E00\u8D77\u3002</p><p>\u201C\u53EF\u662F\uFF0C\u6211\u4E0D\u77E5\u9053\u4ED6\u559C\u4E0D\u559C\u6B22\u6211\uFF0C\u600E\u4E48\u529E?\u201D \u5C0F\u5154\u5B50\u5931\u843D\u5730\u8BF4\u3002</p><p>&quot;\u4F20\u8BF4\u5728\u7761\u524D\u53EA\u8981\u60F3\u7740\u4F60\u559C\u6B22\u7684\u90A3\u4E2A\u4EBA\uFF0C\u5982\u679C\u4ED6\u68A6\u5230\u4E86\u4F60\uFF0C\u4F60\u5C31\u53EF\u4EE5\u8FDB\u5165\u4ED6\u7684\u68A6\u91CC\uFF0C\u8FD9\u6837\uFF0C\u4F60\u4FBF\u53EF\u4EE5\u77E5\u9053\u4ED6\u5BF9\u4F60\u7684\u5FC3\u610F\u5566!\u201D\u5C0F\u7CBE\u7075\u8BF4\u5B8C\u5C31\u6D88\u5931\u4E86\u3002</p><p>\u5C0F\u5154\u5B50\u9ED8\u9ED8\u8BB0\u4F4F\u4E86\u5C0F\u7CBE\u7075\u7684\u8BDD\uFF0C\u7EC8\u4E8E\uFF0C\u661F\u661F\u51FA\u6765\u4E86\uFF0C\u5C0F\u5154\u5B50\u8EBA\u5728\u67D4\u8F6F\u7684\u5C0F\u5E8A.\u4E0A,\u60F3\u7740\u548C\u5C0F\u72D0\u72F8\u7684\u6B22\u4E50\u65F6\u5149\uFF0C\u4E0D\u77E5\u4E0D\u89C9,\u7761\u7740\u4E86..</p><p>\u679C\u7136\uFF0C\u5C0F\u5154\u5B50\u6765\u5230\u4E86\u4E00\u4E2A\u53EB\u68A6\u4E4B\u56FD\u7684\u5730\u65B9\uFF0C\u5728\u8FD9\u4E2A\u5730\u65B9\uFF0C\u5979\u770B\u5230\u4E86\u4E00\u95F4\u5C0F\u6728\u5C4B,\u6302\u7740\u7EA2\u5C3E\u5DF4\u5C0F\u72D0\u72F8\u7684\u724C\u5B50\uFF0C\u5C0F\u5154\u5B50\u6DF1\u5438\u4E00\u53E3\u6C14,\u63A8\u5F00\u4E86\u5C0F\u6728\u95E8\uFF0C\u901A\u5F80\u5C0F\u72D0\u72F8\u68A6\u91CC\u7684\u8DEF\u5F00\u6EE1\u4E86\u82B1\u82B1\u8349\u8349\uFF0C\u8774\u8776\u5728\u7A7A\u4E2D\u98DE\u821E,\u5C0F\u5154\u5B50\u8D70\u4E86\u597D\u4E45\uFF0C\u5728\u4E00\u7247\u8349\u5730\u4E0A\u770B\u5230\u4E86\u5C0F\u72D0\u72F8\uFF0C\u5C0F\u72D0\u72F8\u7B11\u563B\u563B\u5730\u5BF9\u5C0F\u5154\u5B50\u8BF4:\u201C\u4F60\u7EC8\u4E8E\u6765\u4E86\uFF0C \u6211\u4E00\u76F4\u5728\u7B49\u4F60\uFF0C\u6211\u5FC3\u7231\u7684\u5C0F\u5154\u5B50\u3002</p><p>\u68A6\u91CC\uFF0C\u5C0F\u72D0\u72F8\u5E26\u7740\u5C0F\u5154\u5B50\u5728\u8349\u4E1B\u4E0A\u6253\u6EDA\u513F\uFF0C\u5C0F\u72D0\u72F8\u8FD8\u4E3A\u5C0F\u5154\u5B50\u7F16\u7EC7\u4E86\u4E00\u4E2A\u5C0F\u82B1\u73AF\uFF0C\u4EB2\u624B\u7ED9\u5C0F\u5154\u5B50\u6234\u5728\u5934\u4E0A\uFF0C\u5750\u5728\u6E56\u8FB9\uFF0C\u770B\u7740\u5728\u6E56\u4E0A\u98D8\u7740\u7684\u5C0F\u8239\uFF0C\u5403\u7740\u751C\u751C\u7684\u7CD6\u679C\uFF0C \u73A9\u7D2F\u4E86\u5C0F\u72D0\u72F8\u5C31\u8BA9\u5C0F\u5154\u5B50\u8EBA\u5728\u4ED6\u67D4\u8F6F\u7684\u7EA2\u5C3E\u5DF4\u4E0A\uFF0C\u5BA0\u6EBA\u5730\u629A\u6478\u7740\u5C0F\u5154\u5B50\u5934\uFF0C\u8033\u8FB9\u62C2\u8FC7\u7684\u53EA\u6709\u6E29\u548C\u7684\u98CE\u548C\u5F7C\u6B64\u7684\u547C\u5438\u3002</p><p>\u4E0D\u77E5\u8FC7\u4E86\u591A\u4E45,\u5C0F\u5154\u5B50\u773C\u524D\u95EA\u8FC7\u4E00\u9053\u767D\u5149\uFF0C\u68A6\u7ED3\u675F\u4E86...</p><p>\u5C0F\u5154\u5B50\u7EC6\u7EC6\u56DE\u60F3\u7740\u521A\u624D\u7684\u68A6\uFF0C\u6025\u5FD9\u671D\u5C0F\u72D0\u72F8\u5BB6\u8DD1\u53BB\uFF0C\u72B9\u8C6B\u4E86\u4E00\u4E0B\uFF0C\u7EC8\u4E8E\u6572\u54CD\u4E86\u5C0F\u72D0\u72F8\u5BB6\u7684\u95E8,\u4E0D\u4E00\u4F1A\u513F\uFF0C\u95E8\u5F00\u4E86\uFF0C\u9732\u51FA\u4E86\u5C0F\u72D0\u72F8\u542B\u7740\u7B11\u610F\u7684\u5927\u773C\u775B\u3002\u5C0F\u5154\u5B50\u8BF4:\u201D\u4F60\u597D\u5440\uFF0C\u5C0F\u72D0\u72F8\uFF0C\u4ECA\u5929\u6211\u4EEC\u53BB\u6458\u8611\u83C7\u5427!&quot;\u5C0F\u72D0\u72F8\u70B9\u4E86\u70B9\u5934:\u201C\u597D\u554A\u597D\u554A\uFF0C\u5FEB\u8FDB\u6765\u5427\uFF0C\u7B49\u6211\u6536\u62FE\u4E00\u4E0B\u6211\u4EEC\u5C31\u51FA\u53D1\u3002</p><p>\u8DEF\u4E0A\uFF0C\u5C0F\u5154\u5B50\u652F\u652F\u543E\u543E\u5730\u95EE: &quot;\u5C0F\u72D0\u72F8\uFF0C..\u4F60\u6628\u5929\u505A\u4E86\u4EC0\u4E48\u68A6\u5440?\u201D</p><p>\u5C0F\u72D0\u72F8\u5237\u5730\u4E00\u4E0B\u8138\u7EA2\u4E86\uFF0C\u6320\u4E86\u6320\u5934\uFF0C\u4E0D\u597D\u610F\u601D\u8BF4:\u201C\u4E3A..\u4E3A\u4EC0\u4E48\u8981\u95EE\u8FD9\u4E2A?\u201D</p><p>\u201C\u56E0\u4E3A\u6211\u68A6\u5230\u4E86 ..\u5C0F\u5154\u5B50\u4E0D\u5C0F\u5FC3\u8BF4\u6F0F\u4E86\u5634\uFF0C\u8D76\u5FD9\u8BF4&quot;\u54CE\u5440\uFF0C\u4F60\u5FEB\u70B9\u8BF4\u8BF4\u561B!&quot;</p><p>&quot;\u55EF..\u6211\u68A6\u5230\u4E86.\u5176\u5B9E\u662F\u4E00\u4E2A\u5341\u4E8C\u5206\u751C\u7684\u68A6\u3002\u201D</p><p>\u201D\u4E3A\u4EC0\u4E48\u662F\u5341\u4E8C\u5206\u751C?\u201D\u5C0F\u5154\u5B50\u4E0D\u89E3\u7684\u95EE\u3002</p><p>\u201C\u4E00\u5206\u662F\u5B81\u9759\uFF0C\u4E00\u5206\u662F\u60EC\u610F\u3002\u201D</p><p>\u5C0F\u72D0\u72F8\u62C9\u8D77\u5C0F\u5154\u5B50\u7684\u624B\u7EE7\u7EED\u8BF4\u201C\u7136\u540E\u68A6\u91CC\u6709\u4F60\uFF0C\u4F60\u5341\u5206\u751C\u3002</p><h2 id="\u665A\u5B89" tabindex="-1"><a class="header-anchor" href="#\u665A\u5B89" aria-hidden="true">#</a> \u665A\u5B89\uFF01</h2><p>\u65F6\u95F4\u5728\u68EE\u6797\u91CC\uFF0C\u6162\u6162\u7684\u6D41\u901D\u7740\uFF0C\u4E0D\u4E45\u79CB\u5929\u4FBF\u6765\u4E86\uFF0C\u4E5F\u5230\u4E86\u52A8\u7269\u4EEC\u6700\u5FD9\u788C\u7684\u5B63\u8282\uFF0C\u56E0\u4E3A\u79CB\u5929\u7684\u91D1\u9EC4\uFF0C\u50CF\u6781\u4E86\u5927\u81EA\u7136\u7ED9\u4E88\u52A8\u7269\u4EEC\u6700\u73CD\u8D35\u7684\u5B9D\u85CF\uFF0C\u4E5F\u6807\u5FD7\u7740\u5C0F\u52A8\u7269\u4EEC\u8981\u5F00\u59CB\u50A8\u5B58\u51AC\u5929\u7684\u7CAE\u98DF\u4E86\u3002</p><p>\u9AD8\u8038\u5165\u4E91\u7684\u677E\u6811\u4E0A\uFF0C\u5C0F\u677E\u9F20\u4E0A\u7A9C\u4E0B\u8DF3\u7684\u8EAB\u5F71\u7740\u5B9E\u8BA9\u4EBA\u4E0D\u5F97\u4E0D\u6CE8\u610F\u3002\u90A3\u5C0F\u677E\u9F20\u5728\u5FD9\u4EC0\u4E48\u5462\uFF1F\u548B\u4E00\u770B\uFF0C\u539F\u6765\u5C0F\u677E\u9F20\u5728\u5FD9\u7740\u6361\u5730\u4E0A\u7684\u677E\u679C\uFF0C\u4E0D\u505C\u7684\u5F80\u81EA\u5DF1\u7684\u5C0F\u7A9D\u91CC\u9001\u5462\uFF01\u5728\u5C0F\u677E\u9F20\u5FD9\u788C\u7684\u8FC7\u7A0B\u4E2D\uFF0C\u5544\u6728\u9E1F\u533B\u751F\uFF0C\u4E5F\u5728\u65C1\u8FB9\u7684\u6811\u4E0A\u4E0D\u505C\u7684\u7ED9\u5927\u53D4\u4F2F\u4F2F\u9A71\u866B\u2026\u2026</p><p>\u6240\u4EE5\u53EA\u8981\u4F60\u4ED4\u7EC6\u4E00\u770B\uFF0C\u6574\u4E2A\u68EE\u6797\u90FD\u5728\u79CB\u5929\u7684\u6C14\u6C1B\u4E2D\u5FD9\u788C\u7740\u3002\u5728\u68EE\u6797\u7684\u53E6\u4E00\u8FB9\uFF0C\u5C0F\u732A\u5728\u5C4B\u5916\u4E0D\u505C\u7684\u5228\u5751\uFF0C\u8DEF\u8FC7\u7684\u5C0F\u767D\u5154\u770B\u89C1\u4E86\uFF0C\u95EE\u5C0F\u732A\uFF1A\u201C\u5C0F\u732A\uFF0C\u5C0F\u732A\u4F60\u5728\u5E72\u561B\u5462\uFF1F\u201D</p><p>\u201C\u6211\u5728\u5228\u4E2A\u5927\u70B9\u7684\u5751\uFF0C\u7136\u540E\u628A\u51AC\u5929\u8981\u5403\u7684\u7CAE\u98DF\u57CB\u91CC\u9762\u201D\u3002\u5C0F\u732A\u8FB9\u5E72\u6D3B\u8FB9\u56DE\u7B54\u8BF4\u3002</p><p>\u201C\u5E72\u561B\u8981\u57CB\u5728\u5751\u91CC\u554A\uFF01\u201D</p><p>\u201C\u56E0\u4E3A\u57CB\u5728\u5751\u91CC\uFF0C\u6E29\u5EA6\u4F4E\u53EF\u4EE5\u4FDD\u6301\u98DF\u7269\u4E0D\u574F\u554A\uFF01\u201D</p><p>\u5C0F\u767D\u5154\u542C\u4E86\uFF0C\u597D\u50CF\u5F88\u6709\u9053\u7406\uFF0C\u4FBF\u544A\u522B\u5C0F\u732A\uFF0C\u5F80\u5BB6\u91CC\u8D76\u53BB\u3002</p><p>\u56DE\u5230\u5BB6\u91CC\uFF0C\u5C0F\u767D\u5154\u8BA9\u5C0F\u72D0\u72F8\u628A\u81EA\u5DF1\u6700\u559C\u6B22\u5403\u7684\u841D\u535C\u57CB\u5728\u5730\u91CC\uFF0C\u5C0F\u72D0\u72F8\u542C\u4E86\u4E00\u9635\u60CA\u8BB6\uFF0C\u95EE\u5C0F\u767D\u5154\u4E3A\u4EC0\u4E48\u8981\u57CB\u5728\u5730\u91CC\uFF0C\u5C0F\u767D\u5154\u628A\u548C\u5C0F\u732A\u7684\u8C08\u8BDD\u544A\u8BC9\u4E86\u5C0F\u72D0\u72F8\u3002</p><p>\u5C0F\u72D0\u72F8\u542C\u540E\uFF0C\u5FCD\u4E0D\u4F4F\u5927\u7B11\u8D77\u6765\uFF0C\u8FD9\u53EF\u628A\u5C0F\u767D\u5154\u6C14\u7740\u4E86\uFF0C\u8FDE\u5FD9\u95EE\u539F\u56E0\uFF0C\u4F11\u606F\u4E86\u597D\u4E00\u4F1A\uFF0C\u5C0F\u72D0\u72F8\u8BF4\uFF1A\u201C\u5C0F\u732A\u50A8\u5B58\u7684\u662F\u90A3\u79CD\u57CB\u5728\u5730\u91CC\u4E0D\u4F1A\u574F\u7684\u98DF\u7269\uFF0C\u800C\u4E14\u4E5F\u4F1A\u628A\u98DF\u7269\u5305\u88C5\u4FDD\u62A4\u4E00\u4E0B\u554A\uFF0C\u4F46\u662F\u4F60\u559C\u6B22\u5403\u7684\u80E1\u841D\u535C\uFF0C\u4E00\u65E6\u57CB\u5728\u5730\u4E0B\uFF0C\u4F1A\u8150\u70C2\uFF0C\u5C31\u7B97\u4E0D\u8150\u70C2\u4E5F\u4F1A\u53D8\u6210\u80E1\u841D\u535C\u5E72\u201D\u3002\u5C0F\u767D\u5154\u542C\u540E\uFF0C\u4E5F\u89C9\u5F97\u597D\u50CF\u6709\u4E9B\u9053\u7406\uFF0C\u4E8E\u662F\u53C8\u95EE\uFF1A\u201C\u90A3\u4F60\u4E3A\u4EC0\u4E48\u7B11\u6211\uFF1F\u201D\uFF0C\u5C0F\u72D0\u72F8\u770B\u7740\u561F\u7740\u5634\u7684\u5C0F\u767D\u5154\uFF0C\u53C8\u597D\u7B11\u53C8\u53EF\u7231\u3002</p><p>\u201C\u56E0\u4E3A\u4F60\u8FD9\u4E48\u4E45\uFF0C\u8FD8\u662F\u6211\u7684\u50BB\u5B9D\u8D1D\uFF0C\u4E00\u70B9\u90FD\u6CA1\u53D8\u5462\uFF01\u201D\u5C0F\u767D\u5154\u542C\u540E\uFF0C\u611F\u89C9\u597D\u50CF\u88AB\u8868\u626C\u4E86\uFF0C\u4E0D\u89C9\u5F97\u5634\u89D2\u4E0A\u626C\u3002\u4F46\u4ED4\u7EC6\u4E00\u60F3\uFF0C\u597D\u50CF\u53C8\u4E0D\u662F\uFF0C\u4E8E\u662F\u8FDE\u5FD9\u8981\u627E\u5C0F\u72D0\u72F8\u7B97\u8D26\uFF0C\u8F6C\u5934\u4E00\u770B\u5C0F\u72D0\u72F8\u65E9\u5C31\u8DD1\u51FA\u95E8\uFF0C\u5BF9\u7740\u5C0F\u767D\u5154\u505A\u9B3C\u8138\u3002</p><p>\u201C\u4F60\u7B49\u7740\uFF0C\u4F60\u4E2A\u81ED\u5B9D\u8D1D\uFF01\u201D\u5C0F\u767D\u5154\u8FDE\u5FD9\u8FFD\u51FA\u53BB\u3002</p><p>\u5C31\u8FD9\u6837\uFF0C\u5728\u5FD9\u788C\u7684\u79CB\u5929\uFF0C\u4E5F\u4F1A\u6709\u521D\u6625\u7231\u60C5\u7684\u751C\u871C\uFF0C\u50CF\u5C0F\u767D\u5154\u548C\u5C0F\u72D0\u72F8\uFF0C\u5728\u5FD9\u788C\u5F53\u4E2D\u5B09\u620F\u6253\u95F9\uFF0C\u8BA9\u4E00\u4E9B\u8FD8\u5355\u8EAB\u7684\u5C0F\u52A8\u7269\uFF0C\u597D\u751F\u7FA1\u6155\u2026\u2026</p><p>\u5F53\u7136\uFF0C\u68EE\u6797\u91CC\u7684\u52A8\u7269\u4EEC\u90FD\u975E\u5E38\u7684\u5584\u826F\uFF0C\u6240\u4EE5\u554A\u6708\u8001\u4E5F\u4E00\u5B9A\u4E0D\u4F1A\u541D\u556C\u59FB\u7F18\u7684\u7EA2\u7EBF\uFF0C\u76F8\u4FE1\u4E0D\u4E45\u53C8\u4F1A\u6709\u65B0\u7684\u751C\u871C\u98D8\u6563\u5728\u8FD9\u68EE\u6797\u7684\u5927\u5BB6\u5EAD\u4E2D\u3002</p><p>\u6BCF\u4E00\u4E2A\u591C\u5E55\u964D\u4E34\uFF0C\u6211\u4EEC\u4E5F\u4F1A\u5BF9\u5F7C\u6B64\u8BF4\u4E0A\u4E00\u53E5\uFF1A\u665A\u5B89\uFF01\u597D\u68A6\uFF01</p><h2 id="\u7231-\u957F\u7BC7" tabindex="-1"><a class="header-anchor" href="#\u7231-\u957F\u7BC7" aria-hidden="true">#</a> \u7231\uFF08\u957F\u7BC7\uFF09</h2><p>\u6E05\u6668\uFF0C\u6DF1\u5C71\u4E4B\u5904\u7684\u5BFA\u5E99\u5BE5\u5BE5\u708A\u70DF\uFF0C\u53A8\u623F\u91CC\uFF0C\u725B\u6653\u70E7\u7740\u706B\uFF0C\u5C0F\u548C\u5C1A\u6405\u52A8\u7740\u9505\u91CC\u7684\u658B\u996D\uFF0C\u4E00\u4E2A\u6708\u7684\u76F8\u5904\u4E0B\u6765\uFF0C\u8BA9\u4E24\u4EBA\u914D\u5408\u76F8\u5F53\u9ED8\u5951\uFF0C\u8FD9\u4E5F\u8BA9\u5C0F\u548C\u5C1A\u7684\u5DE5\u4F5C\u8F7B\u677E\u4E86\u8BB8\u591A\u3002</p><p>\u201C\u4F60\u559C\u6B22\u8FC7\u522B\u4EBA\u5417\uFF1F\u201D\u725B\u6653\u7A81\u7136\u95EE</p><p>\u201C\u5565\uFF1F\u201D\u5C0F\u548C\u5C1A\u88AB\u8FD9\u7A81\u5982\u5176\u6765\u95EE\u9898\u60CA\u4E86\u4E00\u4E0B\uFF0C\u7136\u540E\u53C8\u8BF4\uFF1A\u201C\u6211\u559C\u6B22\u5E08\u5085\uFF0C\u5E08\u5085\u662F\u6211\u7684\u5BB6\u4EBA\uFF0C\u5982\u679C\u4F60\u5F85\u4E45\u4E86\u6211\u4E5F\u4F1A\u559C\u6B22\u4F60\u7684\u3002\u201D\u725B\u6653\u770B\u7740\u5C0F\u548C\u5C1A\u8BA4\u8BA4\u771F\u771F\u7684\u56DE\u7B54\u7740\u3002\u7A81\u7136\u5657\u55E4\u4E00\u58F0\u7B11\u4E86\u8D77\u6765\u3002</p><p>\u201C\u4F60\u662F\u4E0D\u662F\u50BB\uFF1F\u6211\u8BF4\u7684\u662F\u7537\u5973\u4E4B\u95F4\u7684\u559C\u6B22\uFF1F\u201D\u725B\u6653\u8BF4\u3002</p><p>\u201C\u90A3\u662F\u4EC0\u4E48\u559C\u6B22\uFF1F\u4E0D\u61C2\u4E0D\u61C2\uFF01\u201D\u5C0F\u548C\u5C1A\u8FB9\u76DB\u7740\u7CA5\uFF0C\u8FB9\u6447\u7740\u5934\u3002</p><p>\u996D\u684C\u4E0A\uFF0C\u5E08\u5F92\u4E09\u4EBA\u5403\u7740\u658B\u996D\uFF0C\u5C0F\u548C\u5C1A\u7A81\u7136\u95EE\u5E08\u5085\uFF1A\u201C\u5E08\u5085\uFF0C\u4F60\u559C\u6B22\u8FC7\u5973\u4EBA\u5417\uFF1F\u201D\u3002\u8FD9\u4E00\u95EE\u5B8C\uFF0C\u5E08\u5085\u5DEE\u70B9\u545B\u4E86\u4E00\u53E3\u996D\uFF0C\u8F6C\u5934\u770B\u7740\u725B\u6653\uFF0C\u725B\u6653\u4E00\u8138\u65E0\u8F9C\u7684\u8BF4\u5230\uFF1A\u201C\u5E08\u5085\uFF0C\u8DDF\u6211\u65E0\u5173\uFF0C\u6211\u53EF\u5565\u90FD\u6CA1\u8BF4\u201D\u3002\u8BF4\u5B8C\uFF0C\u4FBF\u57CB\u5934\u5403\u996D\u3002</p><p>\u201C\u4F60\u4EEC\u4FE9\uFF0C\u4E00\u5929\u4E0D\u8BA4\u771F\u5FF5\u4F5B\u5B88\u5FC3\uFF0C\u8BA8\u8BBA\u90A3\u4E9B\u65E0\u5173\u7D27\u8981\u7684\u5E72\u561B\uFF1F\u201D\u5E08\u5085\u767D\u4E86\u4E00\u773C\u725B\u6653\uFF0C\u7EE7\u7EED\u8BF4\u5230\uFF1A\u201C\u7537\u6B22\u5973\u7231\uFF0C\u7686\u4E3A\u4E16\u4FD7\u60C5\u4E8B\uFF0C\u4E16\u4EBA\u628A\u8FD9\u79CD\u611F\u60C5\u6BD4\u4E3A\u7231\u60C5\uFF0C\u53C8\u4EE5\u73AB\u7470\u4E3A\u8C61\u5F81\uFF0C\u65E0\u8BBA\u5403\u658B\u5FF5\u4F5B\u4E5F\u597D\uFF0C\u7537\u6B22\u5973\u7231\u4E5F\u7F62\uFF0C\u90FD\u662F\u4EBA\u751F\u5F53\u4E2D\u7684\u4FEE\u884C\uFF0C\u4EBA\u4EBA\u90FD\u60F3\u4FEE\u5F97\u6B63\u679C\uFF0C\u5176\u4E2D\u56F0\u96BE\u574E\u5777\uFF0C\u5927\u540C\u5C0F\u5F02\u2026\u2026\u201D\u5E08\u5085\u8BF4\u7740\uFF0C\u4EFF\u4F5B\u9677\u5165\u4E86\u56DE\u5FC6\uFF0C\u800C\u540E\u7B11\u7740\u5BF9\u9762\u524D\uFF0C\u8FD9\u4E24\u4E2A\u7741\u7740\u773C\u775B\u542C\u7740\u7684\u5F92\u5F1F\u7EE7\u7EED\u8BF4\uFF1A\u201C\u8BB0\u5F97\u5E08\u508517\u5C81\u90A3\u5E74\uFF0C\u5E76\u672A\u50CF\u73B0\u5728\u5982\u6B64\u5F00\u59CB\u5403\u658B\u5FF5\u4F5B\uFF0C\u8FD8\u5728\u4E61\u91CC\u63D2\u79E7\u79CD\u7530\uFF0C\u4E00\u5BB6\u4E09\u53E3\u6625\u8015\u79CB\u6536\uFF0C\u5176\u4E50\u878D\u878D\uFF0C\u751F\u6D3B\u4E5F\u522B\u6709\u4E00\u756A\u7CBE\u5F69\u3002\u8BB0\u5F97\u90A3\u662F\u4E00\u4E2A\u9EC4\u660F\u508D\u665A\uFF0C\u6211\u548C\u6BCD\u4EB2\u5728\u5BB6\u4E2D\u70E7\u706B\u505A\u996D\uFF0C\u7236\u4EB2\u5E26\u56DE\u4E00\u9A91\u9A6C\u7537\u5B50\u3002\u7537\u5B50\u6EE1\u8EAB\u5C18\u571F\uFF0C\u4E00\u8138\u75B2\u60EB\uFF0C\u4E0D\u8FC7\u8BF4\u4E5F\u5947\u602A\uFF0C\u8FD9\u7537\u5B50\u957F\u7684\u597D\u751F\u79C0\u6C14\u3002\u7ECF\u7236\u4EB2\u4E00\u756A\u89E3\u91CA\uFF0C\u539F\u6765\u662F\u4E00\u4E2A\u8DEF\u8FC7\uFF0C\u51C6\u5907\u53BB\u53C2\u519B\u7684\u9752\u5E74\uFF0C\u8DEF\u4E0A\u56E0\u4E3A\u9A91\u9A6C\u98A0\u7C38\uFF0C\u6454\u4F24\u4E86\u5DE6\u817F\uFF0C\u7236\u4EB2\u89C1\u5176\u5728\u6751\u53E3\u5750\u7740\uFF0C\u4E0A\u524D\u8BE2\u95EE\u540E\uFF0C\u9080\u5176\u5728\u5BB6\u4F11\u517B\u4E24\u65E5\uFF0C\u5948\u4F55\u7537\u5B50\u6709\u4F24\u5728\u8EAB\uFF0C\u76DB\u60C5\u96BE\u5374\uFF0C\u4FBF\u548C\u7236\u4EB2\u6765\u5230\u5BB6\u4E2D\u505A\u5BA2\u4F11\u517B\u201D\u3002</p><p>\u8BF4\u5230\u7740\uFF0C\u5E08\u5085\u4E00\u8138\u56DE\u5FC6\u4E4B\u8272\uFF0C\u5C0F\u548C\u5C1A\u9ED8\u9ED8\u4E3A\u5E08\u5085\u7AEF\u6765\u4E00\u676F\u8336\u6C34\uFF0C\u548C\u725B\u6653\u5E76\u6392\u5750\u5728\u5E08\u5085\u5BF9\u9762\uFF0C\u6EE1\u773C\u671F\u5F85\u5E08\u5085\u7EE7\u7EED\u8BB2\u6545\u4E8B\u3002</p><p>\u5E08\u5085\u770B\u4E86\u8FD9\u4E24\u597D\u5947\u5F92\u5F1F\u4E00\u773C\uFF0C\u7EE7\u7EED\u8BF4\uFF1A\u201C\u7537\u5B50\u6765\u5230\u5BB6\u4E2D\u4F4F\u5728\u504F\u623F\uFF0C\u524D\u4E24\u5929\u56E0\u4E3A\u817F\u811A\u4E0D\u4FBF\uFF0C\u9664\u4E86\u5403\u996D\u4FBF\u4E00\u76F4\u5F85\u5728\u623F\u95F4\u4E0D\u51FA\u95E8\u3002\u7B2C\u4E09\u5929\u508D\u665A\u548C\u7236\u4EB2\u52A1\u519C\u7ED3\u675F\uFF0C\u56DE\u5230\u5BB6\u4E2D\uFF0C\u53D1\u73B0\u90A3\u7537\u5B50\u5DF2\u7ECF\u4E0D\u89C1\uFF0C\u53CD\u800C\u6709\u4E00\u540D\u7A7F\u7740\u7D20\u8863\uFF0C\u957F\u76F8\u6E05\u79C0\u7684\u59D1\u5A18\u5728\u548C\u6BCD\u4EB2\u6709\u8BF4\u6709\u7B11\u3002\u7ECF\u8FC7\u4E00\u756A\u8BE2\u95EE\uFF0C\u90A3\u7537\u5B50\u5C45\u7136\u662F\u5973\u513F\u8EAB\uFF0C\u8FD9\u53EF\u628A\u6211\u548C\u7236\u4EB2\u60CA\u4E86\u4E00\u4E0B\u3002\u90A3\u65F6\u7236\u4EB2\u867D\u6CA1\u8BFB\u8FC7\u4E66\uFF0C\u4F46\u4E5F\u4E0D\u662F\u591A\u5634\u4E4B\u4EBA\uFF0C\u6240\u4EE5\u5F53\u65F6\u5728\u8868\u73B0\u51FA\u4E00\u5239\u60CA\u8BB6\u4E4B\u540E\uFF0C\u4FBF\u6062\u590D\u5982\u521D\uFF0C\u6CA1\u6709\u591A\u95EE\u4EC0\u4E48\uFF0C\u4F46\u6211\u60F3\u540E\u9762\u6BCD\u4EB2\u5E94\u8BE5\u7ED9\u7236\u4EB2\u89E3\u91CA\u4E86\u7F18\u7531\u3002\u5F80\u540E\u51E0\u5929\uFF0C\u8FD9\u5973\u5B50\u5F00\u59CB\u5E2E\u5BB6\u91CC\u5206\u62C5\u8D77\u4E86\u519C\u6D3B\uFF0C\u6D17\u8863\u505A\u996D\uFF0C\u987A\u4FBF\u4E5F\u5F00\u59CB\u7ED9\u6211\u8F85\u5BFC\u529F\u8BFE\uFF0C\u6559\u6211\u8BC6\u5B57\u3002</p><p>\u8FD9\u6837\u7684\u65E5\u5B50\u6301\u7EED\u4E86\u5927\u6982\u5927\u534A\u4E2A\u6708\uFF0C\u8FD9\u671F\u95F4\u6BCD\u4EB2\u548C\u7236\u4EB2\u8FD8\u62C5\u5F53\u8D77\u4E86\u5A92\u4EBA\u4F3C\u7684\uFF0C\u5C3D\u529B\u5728\u64AE\u5408\u6211\u548C\u8FD9\u59D1\u5A18\uFF0C\u7279\u522B\u662F\u6BCD\u4EB2\uFF0C\u8868\u73B0\u7684\u5341\u5206\u559C\u6B22\u3002\u90A3\u65F6\u7684\u6211\uFF0C\u56E0\u4E3A\u60C5\u7AA6\u521D\u5F00\uFF0C\u5916\u52A0\u671D\u5915\u76F8\u5904\uFF0C\u771F\u7684\u5BF9\u5979\u4EA7\u751F\u4E86\u4E00\u79CD\u83AB\u540D\u7684\u60C5\u612B\u201D\u3002\u5E08\u5085\u8BF4\u5230\u8FD9\uFF0C\u505C\u4E86\u4E0B\u6765\uFF0C\u7AEF\u8D77\u8336\u6C34\u559D\u4E86\u4E00\u53E3\u3002</p><p>\u725B\u6653\u548C\u5C0F\u548C\u5C1A\u53EF\u6025\u574F\u4E86\uFF0C\u8FDE\u5FD9\u95EE\u9053\uFF1A\u201C\u5E08\u5085\uFF0C\u90A3\u662F\u4EC0\u4E48\u611F\u89C9\u554A\uFF1F\u201D</p><p>\u5E08\u5085\u653E\u4E0B\u8336\u676F\uFF0C\u62AC\u5934\u671B\u7740\u623F\u6881\uFF0C\u6C89\u601D\u4E86\u4E00\u4F1A\u8BF4\uFF1A\u201C\u671D\u5915\u6240\u60F3\uFF0C\u591C\u4E0D\u80FD\u5BD0\uFF0C\u4E00\u65E5\u4E0D\u89C1\uFF0C\u5982\u9694\u4E09\u79CB\u3002\u73B0\u5728\u60F3\u60F3\uFF0C\u53EF\u80FD\u90A3\u5C31\u662F\u5C18\u4E16\u5411\u5F80\u7684\u559C\u6B22\u548C\u7231\u60C5\u3002\u4F46\u597D\u666F\u4E0D\u957F\uFF0C\u67D0\u5929\u6E05\u6668\u4E00\u65E9\uFF0C\u5979\u4FBF\u6084\u6084\u9A91\u9A6C\u79BB\u5F00\uFF0C\u79BB\u5F00\u65F6\u7559\u4E0B\u4E00\u5C01\u4E66\u4FE1\uFF0C\u548C\u4E00\u5757\u7389\u624B\u956F\u201D\u3002\u5E08\u5085\u8BF4\u7740\uFF0C\u4ECE\u6000\u91CC\u62FF\u51FA\u4E00\u5757\u7EA2\u5E03\uFF0C\u6253\u5F00\u4EE5\u540E\u91CC\u9762\u662F\u4E00\u5757\u54C1\u76F8\u4E0D\u9519\u7684\u7389\u624B\u956F\uFF0C\u770B\u7740\u8FD9\u5757\u624B\u956F\uFF0C\u5E08\u5085\u5F00\u59CB\u6C89\u9ED8\u4E0D\u8BED\u3002</p><p>\u5F92\u5F1F\u4EEC\u53EF\u4E0D\u7136\uFF0C\u5341\u5206\u7740\u6025\uFF0C\u8BE2\u95EE\u5E08\u5085\uFF1A\u201C\u5E08\u5085\u5E08\u5085\uFF0C\u4FE1\u4E0A\u5199\u7684\u5565\uFF1F\u540E\u9762\u53C8\u600E\u4E48\u4E86\uFF1F\u201D</p><p>\u5E08\u5085\u53F9\u606F\u4E86\u4E00\u58F0\uFF0C\u8BF4\uFF1A\u201C\u90A3\u65F6\u5B57\u8FD8\u8BA4\u4E0D\u4E86\u51E0\u4E2A\uFF0C\u53EA\u8BB0\u5F97\u6700\u540E\u51E0\u884C\uFF0C\u548C\u5979\u7684\u540D\u5B57\u201D\u3002</p><p>\u201C\u662F\u4EC0\u4E48\uFF1F\u201D\u725B\u6653\u95EE</p><p>\u201C\u66FF\u7236\u4ECE\u519B\uFF0C\u6709\u7F18\u518D\u4F1A\uFF01\u6728\u5170\u7559\u2026\u2026\u201D</p><h2 id="\u5154\u5B50\u548C\u72D0\u72F8" tabindex="-1"><a class="header-anchor" href="#\u5154\u5B50\u548C\u72D0\u72F8" aria-hidden="true">#</a> \u5154\u5B50\u548C\u72D0\u72F8</h2><p>\u4ECA\u5929\u7684\u5C0F\u5154\u5B50\u5FC3\u60C5\u5341\u5206\u7684\u5F00\u5FC3\uFF0C\u56E0\u4E3A\u5979\u83B7\u5F97\u4E86\u68EE\u6797\u91CC\u7814\u7A76\u6BD4\u8D5B\u7B2C\u4E00\u540D\u5728\u56DE\u5BB6\u7684\u8DEF\u4E0A\uFF0C\u4E5F\u628A\u60C5\u7EEA\u8868\u73B0\u5728\u81EA\u5DF1\u7684\u52A8\u4F5C\u5F53\u4E2D\uFF0C\u8E66\u8E66\u8DF3\u8DF3\uFF0C\u5341\u5206\u597D\u770B\u3002</p><p>\u56DE\u5BB6\u7684\u8DEF\u4E0A\uFF0C\u8DEF\u8FC7\u5C0F\u72D0\u72F8\u5BB6\uFF0C\u5C0F\u767D\u5154\u7279\u5730\u8DD1\u53BB\u60F3\u628A\u8FD9\u4E2A\u597D\u6D88\u606F\u5206\u4EAB\u7ED9\u5C0F\u72D0\u72F8\u3002</p><p>\u6572\u4E86\u534A\u5929\u7684\u95E8\uFF0C\u5C0F\u767D\u5154\u53D1\u73B0\u5C0F\u72D0\u72F8\u4E0D\u5728\u5BB6\uFF0C\u8DEF\u8FC7\u7684\u5927\u8C61\u4F2F\u4F2F\u770B\u89C1\u5C0F\u767D\u5154\u5728\u6572\u95E8\uFF0C\u544A\u8BC9\u5C0F\u767D\u5154\u8BF4\uFF0C\u5C0F\u72D0\u72F8\u53BB\u68EE\u6797\u91CC\u6458\u6843\u5B50\u53BB\u4E86\uFF0C\u665A\u4E0A\u624D\u4F1A\u56DE\u6765\uFF0C\u5C0F\u767D\u5154\u6709\u4E9B\u5931\u671B\uFF0C\u8C22\u8FC7\u5927\u8C61\u4F2F\u4F2F\u540E\u4FBF\u56DE\u5BB6\u4E86\u3002</p><p>\u5C0F\u767D\u5154\u53EF\u559C\u6B22\u5C0F\u72D0\u72F8\u4E86\uFF0C\u800C\u4E14\u559C\u6B22\u4E86\u597D\u4E45\uFF0C\u53EF\u662F\u5C0F\u767D\u5154\u662F\u4E00\u53EA\u5BB3\u7F9E\u7684\u5154\u5B50\uFF0C\u6240\u4EE5\u4E00\u76F4\u4E0D\u6562\u8868\u8FBE\u81EA\u5DF1\u7684\u5FC3\u58F0\u3002\u53EF\u4ECA\u5929\uFF0C\u662F\u81EA\u5DF1\u5F97\u5956\u7684\u597D\u65E5\u5B50\uFF0C\u5C0F\u767D\u5154\u89C9\u5F97\u5E94\u8BE5\u544A\u8BC9\u5C0F\u72D0\u72F8\uFF0C\u4E5F\u8BA9\u81EA\u5DF1\u559C\u6B22\u7684\u4EBA\u9AD8\u5174\u9AD8\u5174\u3002</p><p>\u65F6\u95F4\u6765\u5230\u4E86\u665A\u996D\u540E\uFF0C\u7830\u7830\u7830\uFF01\u4E00\u9635\u6572\u95E8\u58F0\u4F20\u6765\uFF0C\u5C0F\u767D\u5154\u8D76\u7D27\u53BB\u5F00\u95E8\uFF0C\u4E00\u5F00\u95E8\u53D1\u73B0\u5C45\u7136\u662F\u5C0F\u72D0\u72F8\uFF0C\u53EF\u628A\u5C0F\u767D\u5154\u60CA\u559C\u574F\u4E86\uFF0C\u4EE5\u81F3\u4E8E\u4E00\u65F6\u95F4\u8BF4\u4E0D\u51FA\u8BDD\u6765\u3002</p><p>\u201C\u542C\u5927\u8C61\u4F2F\u4F2F\u8BF4\uFF0C\u4F60\u4E0B\u5348\u627E\u6211\u4E86\uFF1F\u68EE\u6797\u91CC\u7684\u6843\u5B50\u719F\u4E86\uFF0C\u6211\u548C\u5C0F\u4F19\u4F34\u4EEC\u53BB\u68EE\u6797\u91CC\u6458\u6843\u5B50\u53BB\u4E86\uFF0C\u6211\u5C1D\u4E86\u4E0B\uFF0C\u53EF\u597D\u5403\u4E86\uFF0C\u7ED9\u4F60\u4E5F\u62FF\u4E86\u4E00\u70B9\u3002\u201D\u5C0F\u72D0\u72F8\u770B\u7740\u5C0F\u767D\u5154\u4E0D\u8BF4\u8BDD\uFF0C\u4E8E\u662F\u63D0\u524D\u5F00\u53E3\u8BF4\uFF0C\u5C0F\u767D\u5154\u4ED4\u7EC6\u4E00\u770B\uFF0C\u624D\u53D1\u89C9\u5C0F\u72D0\u72F8\u62B1\u4E86\u4E00\u5806\u6843\u5B50\u5462\uFF0C\u4E8E\u662F\u8FDE\u5FD9\u62DB\u547C\u5C0F\u72D0\u72F8\u8FDB\u5C4B\u91CC\u3002</p><p>\u5C0F\u72D0\u72F8\u6765\u5230\u5C4B\u91CC\u505A\u597D\u540E\uFF0C\u5C0F\u767D\u5154\u7ED9\u5C0F\u72D0\u72F8\u8BF4\u4E86\u597D\u591A\u597D\u591A\u8BDD\uFF0C\u6709\u81EA\u5DF1\u6BD4\u8D5B\u7684\u7CBE\u5F69\u7247\u6BB5\uFF0C\u4E5F\u6709\u81EA\u5DF1\u5F97\u5956\u7684\u60CA\u559C\u5FC3\u60C5\u2026\u2026</p><p>\u5C31\u8FD9\u6837\u4E0D\u77E5\u4E0D\u89C9\uFF0C\u5DF2\u7ECF\u5230\u4E86\u6DF1\u591C\uFF0C\u86D0\u86D0\u7684\u58F0\u97F3\u6C89\u6D78\u4E86\u6574\u4E2A\u68EE\u6797\uFF0C\u4E5F\u5305\u62EC\u5C0F\u5154\u5B50\u7684\u5BB6\u3002\u8FD9\u4E2A\u65F6\u5019\uFF0C\u5C0F\u767D\u5154\u624D\u53D1\u73B0\u81EA\u5DF1\u7ED9\u5C0F\u72D0\u72F8\u5C45\u7136\u8BB2\u4E86\u8FD9\u4E48\u4E45\uFF0C\u7ADF\u6CA1\u6709\u53D1\u73B0\u65F6\u95F4\u8FC7\u5F97\u8FD9\u4E48\u5FEB\uFF0C\u800C\u4E14\u5C0F\u72D0\u72F8\u4E5F\u8BA4\u8BA4\u771F\u771F\u7684\u5145\u5F53\u7740\u4E00\u4E2A\u8046\u542C\u8005\u3002</p><p>\u5C0F\u767D\u5154\u7A81\u7136\u89C9\u5F97\u4E0D\u597D\u610F\u601D\u4E86\uFF0C\u56E0\u4E3A\u4E00\u76F4\u662F\u81EA\u5DF1\u5728\u8BB2\uFF0C\u4E8E\u662F\u8138\u77AC\u95F4\u5C31\u7EA2\u4E86\u8D77\u6765\u3002</p><p>\u5C0F\u72D0\u72F8\u770B\u5230\u597D\u5947\u7684\u95EE\uFF1A\u201C\u600E\u4E48\u4E86\u5C0F\u767D\u5154\uFF1F\u600E\u4E48\u8138\u7EA2\u4E86\uFF1F\u201D</p><p>\u201C\u6211\u90FD\u4E0D\u77E5\u9053\u8BB2\u4E86\u8FD9\u4E48\u4E45\u4E86\uFF0C\u5BF9\u4E0D\u8D77\u5C0F\u72D0\u72F8\uFF0C\u90FD\u6CA1\u6709\u5728\u610F\u4F60\u7684\u611F\u53D7\u3002\u201D\u5C0F\u767D\u5154\u7F9E\u7EA2\u7740\u8138\u8BF4\u7740\u3002</p><p>\u5C0F\u72D0\u72F8\u8FDE\u5FD9\u9053\uFF1A\u201C\u600E\u4E48\u4F1A\u5462\uFF01\u4F60\u8BB2\u7684\u592A\u6709\u610F\u601D\u4E86\uFF0C\u771F\u53EF\u60DC\u6CA1\u53BB\u73B0\u573A\u770B\uFF0C\u4E0D\u7136\u66F4\u7CBE\u5F69\uFF01\u800C\u4E14\u2026\u2026\u800C\u4E14\u2026\u2026\u201D\u5C0F\u72D0\u72F8\u7A81\u7136\u8BF4\u8BDD\u72B9\u8C6B\u4E86\u8D77\u6765\u3002</p><p>\u201C\u800C\u4E14\u4EC0\u4E48\uFF1F\u201D\u5C0F\u767D\u5154\u76EF\u7740\u5C0F\u72D0\u72F8\u597D\u5947\u7684\u95EE\u3002</p><p>\u201C\u800C\u4E14\u542C\u81EA\u5DF1\u559C\u6B22\u7684\u4EBA\u8BB2\uFF0C\u4F1A\u66F4\u52A0\u6709\u610F\u601D\uFF01\u201D\u5C0F\u72D0\u72F8\u6EE1\u773C\u6DF1\u60C5\u7684\u76EF\u7740\u5C0F\u767D\u5154\u56DE\u7B54\u8BF4\u3002</p><p>\u201C\u554A\uFF01\u201D\u5C0F\u767D\u5154\u60CA\u8BB6\u7684\u8BF4\u4E86\u4E00\u53E5\uFF0C\u201C\u4F60\u8BF4\u4EC0\u4E48\uFF1F\u201D</p><p>\u201C\u6211\u559C\u6B22\u4F60\u5440\uFF0C\u5C0F\u767D\u5154\uFF0C\u800C\u4E14\u559C\u6B22\u597D\u4E45\u4E86\uFF01\u563B\u563B\uFF01\u201D\u5C0F\u72D0\u72F8\u4E0D\u597D\u610F\u601D\u7684\u770B\u7740\u5C0F\u767D\u5154\u2026\u2026</p><h2 id="\u62B1\u62B1" tabindex="-1"><a class="header-anchor" href="#\u62B1\u62B1" aria-hidden="true">#</a> \u62B1\u62B1</h2><p>\u5C0F\u72D0\u72F8\u4ECA\u5929\u548C\u5C0F\u5154\u5B50\u5435\u67B6\u4E86\uFF0C\u539F\u56E0\u662F\u56E0\u4E3A\uFF0C\u660E\u660E\u4ECA\u5929\u5C31\u662F\u4E00\u5E74\u4E00\u6B21\u7684\u60C5\u4EBA\u8282\uFF0C\u53EF\u662F\u5C0F\u72D0\u72F8\u53EA\u7ED9\u5C0F\u767D\u5154\u53D1\u4E86\u4E2A\u7EA2\u5305\uFF0C\u8FD9\u8BA9\u5C0F\u5154\u5B50\u89C9\u5F97\u5C0F\u72D0\u72F8\u4E00\u70B9\u90FD\u4E0D\u4E0A\u5FC3\u3002</p><p>\u521A\u5F00\u59CB\uFF0C\u5176\u5B9E\u90FD\u6CA1\u6709\u5435\u67B6\uFF0C\u53EA\u662F\u5C0F\u5154\u5B50\u7ED9\u5C0F\u72D0\u72F8\u62B1\u6028\u4E86\u4E00\u4E0B\u3002\u4F46\u5C0F\u72D0\u72F8\u4E5F\u89C9\u5F97\u59D4\u5C48\u554A\uFF0C\u56E0\u4E3A\u81EA\u5DF1\u6709\u8BB0\u5F97\u8FD9\u662F\u4E2A\u7279\u522B\u7684\u65E5\u5B50\uFF0C\u4E5F\u53D1\u4E86\u60C5\u4EBA\u8282\u7EA2\u5305\u554A\u3002</p><p>\u4E8E\u662F\uFF0C\u5C31\u548C\u5C0F\u5154\u5B50\u8BB2\u8D77\u4E86\u9053\u7406\u3002\u8C08\u604B\u7231\u7684\u5C0F\u52A8\u7269\u4EEC\u90FD\u77E5\u9053\uFF0C\u5973\u751F\u662F\u7528\u6765\u54C4\u5F97\uFF0C\u600E\u4E48\u53EF\u4EE5\u7528\u6765\u8BB2\u9053\u7406\u5462?</p><p>\u4E8E\u662F\u8BF4\u7740\u8BF4\u7740\uFF0C\u5C0F\u72D0\u72F8\u5C31\u548C\u5C0F\u5154\u5B50\u5435\u4E86\u8D77\u6765\uFF0C\u5435\u4E86\u4E00\u4F1A\uFF0C\u5C0F\u72D0\u72F8\u5C31\u51FA\u4E86\u5BB6\u95E8\uFF0C\u72EC\u81EA\u51B7\u9759\u53BB\u4E86\u3002</p><p>\u5C31\u8FD9\u6837\uFF0C\u8FC7\u4E86\u4E00\u4E2A\u5C0F\u65F6\uFF0C\u5C0F\u72D0\u72F8\u7684\u6C14\u4E5F\u6D88\u4E86\uFF0C\u4E5F\u60F3\u4E86\u60F3\u81EA\u5DF1\u4E0D\u5E94\u8BE5\u548C\u5C0F\u5154\u5B50\u5435\u67B6\uFF0C\u5C31\u60F3\u7740\u8981\u53BB\u627E\u5C0F\u5154\u5B50\u9053\u6B49\u3002</p><p>\u4F46\u5C0F\u72D0\u72F8\u4E00\u60F3\uFF0C\u8FD9\u6837\u597D\u50CF\u5F88\u6CA1\u7528\u9762\u5B50\uFF0C\u4E8E\u662F\u53C8\u5FCD\u4F4F\u4E86\u3002</p><p>\u53C8\u8FC7\u4E86\u4E00\u4E2A\u5C0F\u65F6\uFF0C\u5C0F\u72D0\u72F8\u5B9E\u5728\u5FCD\u4E0D\u4F4F\u4E86\uFF0C\u4E8E\u662F\u6765\u5230\u5BB6\u95E8\u53E3\uFF0C\u558A\u7740\u5C0F\u5154\u5B50\uFF1A\u201C\u5C0F\u5154\u5B50\uFF0C\u4F60\u51FA\u6765\uFF0C\u6211\u6709\u8BDD\u7ED9\u4F60\u8BF4\u3002\u201D</p><p>\u4E0D\u4E00\u4F1A\uFF0C\u5C0F\u5154\u5B50\u6253\u5F00\u623F\u95E8\uFF0C\u770B\u5230\u662F\u5C0F\u72D0\u72F8\uFF0C\u4FBF\u95EE\uFF1A\u201C\u51FA\u6765\u5E72\u4EC0\u4E48\uFF1F\u5BB6\u91CC\u8BF4\u3002\u201D</p><p>\u201D\u4E0D\u884C\uFF0C\u8981\u51FA\u6765\u8BF4\uFF01\u201C\u5C0F\u72D0\u72F8\u6267\u62D7\u7684\u8BF4\u3002</p><p>\u770B\u7740\u6267\u7740\u7684\u5C0F\u72D0\u72F8\uFF0C\u5C0F\u767D\u5154\u8FD8\u662F\u5FCD\u4E0D\u4F4F\u51FA\u4E86\u95E8\uFF0C\u6765\u5230\u5C0F\u72D0\u72F8\u9762\u524D\u3002</p><p>\u5C0F\u72D0\u72F8\u770B\u7740\u5C0F\u5154\u5B50\u8BF4\uFF1A\u201D\u56E0\u4E3A\uFF0C\u6211\u4EEC\u5728\u5BB6\u91CC\u95F9\u63B0\u4E86\uFF0C\u6240\u6709\u4E0D\u80FD\u5728\u5BB6\u91CC\u8BF4\uFF0C\u8981\u51FA\u6765\u8BF4\u3002\u201C</p><p>\u4E8E\u662F\u5C0F\u72D0\u72F8\u8BA4\u8BA4\u771F\u771F\u7684\u7ED9\u5C0F\u5154\u5B50\u9053\u4E86\u6B49\uFF0C\u5C0F\u5154\u5B50\u770B\u7740\u81EA\u8D23\u7684\u5C0F\u72D0\u72F8\uFF0C\u4E5F\u8BF4\u4E86\u81EA\u5DF1\u4E0D\u8BE5\u4EFB\u6027\u3002</p><p>\u901A\u8FC7\u4ECA\u5929\u7684\u4E89\u5435\uFF0C\u5C0F\u72D0\u72F8\u548C\u5C0F\u5154\u5B50\u660E\u767D\u4E86\uFF0C\u5BB6\u4E0D\u662F\u7528\u6765\u5435\u67B6\u7684\u5730\u65B9\uFF0C\u800C\u662F\u5206\u4EAB\u548C\u751F\u6D3B\u7684\u5C0F\u7A9D\u3002</p><p>\u4ED6\u4EEC\u7EA6\u5B9A\uFF0C\u4EE5\u540E\u9047\u5230\u95EE\u9898\u8981\u5C3D\u91CF\u597D\u597D\u5546\u91CF\uFF0C\u51CF\u5C11\u4E89\u5435\u3002</p><p>\u5C0F\u72D0\u72F8\u548C\u5C0F\u5154\u5B50\u4E92\u76F8\u9053\u5B8C\u6B49\u540E\uFF0C\u5C0F\u72D0\u72F8\u7ED9\u4E86\u5C0F\u5154\u5B50\u4E00\u4E2A\u5927\u5927\u7684\u5145\u6EE1\u7231\u7684\u62B1\u62B1\u3002</p><p>\u56E0\u4E3A\u5C0F\u72D0\u72F8\u77E5\u9053\uFF0C\u7231\u4EBA\u4E4B\u95F4\u6CA1\u6709\u4EC0\u4E48\u95EE\u9898\u662F\u4E0D\u80FD\u7528\u4E00\u4E2A\u62B1\u62B1\u89E3\u51B3\u7684\u3002</p><p>\u5982\u679C\u6709\uFF0C\u90A3\u5C31\u4E24\u4E2A......</p><!--]-->`);
-}
-const _sfc_setup$C = _sfc_main$C.setup;
-_sfc_main$C.setup = (props, ctx) => {
-  const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/\u6545\u4E8B/story.html.vue");
-  return _sfc_setup$C ? _sfc_setup$C(props, ctx) : void 0;
-};
-var story_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$C, [["ssrRender", _sfc_ssrRender$o]]);
-var story_html$2 = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  "default": story_html$1
-});
-const _sfc_main$B = {};
-function _sfc_ssrRender$n(_ctx, _push, _parent, _attrs) {
-  _push(`<!--[--><h2 id="\u6559\u7A0B" tabindex="-1"><a class="header-anchor" href="#\u6559\u7A0B" aria-hidden="true">#</a> \u6559\u7A0B</h2><h2 id="\u6559\u7A0B-1" tabindex="-1"><a class="header-anchor" href="#\u6559\u7A0B-1" aria-hidden="true">#</a> \u6559\u7A0B</h2><!--]-->`);
-}
-const _sfc_setup$B = _sfc_main$B.setup;
-_sfc_main$B.setup = (props, ctx) => {
-  const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/\u6559\u7A0B/text.html.vue");
-  return _sfc_setup$B ? _sfc_setup$B(props, ctx) : void 0;
-};
-var text_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$B, [["ssrRender", _sfc_ssrRender$n]]);
-var text_html$2 = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  "default": text_html$1
-});
 const _sfc_main$A = {};
 function _sfc_ssrRender$m(_ctx, _push, _parent, _attrs) {
-  _push(`<!--[--><h2 id="_007" tabindex="-1"><a class="header-anchor" href="#_007" aria-hidden="true">#</a> 007</h2><p>\u70BA\u4E86\u6B7B\u800C\u6D3B</p><!--]-->`);
+  _push(`<!--[--><h2 id="\u7EBF\u7A0B-\u8FDB\u7A0B-\u591A\u7EBF\u7A0B" tabindex="-1"><a class="header-anchor" href="#\u7EBF\u7A0B-\u8FDB\u7A0B-\u591A\u7EBF\u7A0B" aria-hidden="true">#</a> \u7EBF\u7A0B\uFF0C\u8FDB\u7A0B\uFF0C\u591A\u7EBF\u7A0B</h2><ol><li>\u7EBF\u7A0B\u5B9E\u73B0\uFF08\u91CD\u70B9\uFF09</li><li>\u7EBF\u7A0B\u72B6\u6001</li><li>\u7EBF\u7A0B\u5B9E\u73B0\uFF08\u91CD\u70B9\uFF09</li><li>\u7EBF\u7A0B\u901A\u4FE1</li><li>\u9AD8\u7EA7\u4E3B\u9898</li></ol><p>\u7B80\u4ECB\uFF1A\u5E76\u884C\u6267\u884C\u5C31\u662F\u591A\u7EBF\u7A0B\u3002</p><ol><li>\u8FDB\u7A0B\u548C\u7EBF\u7A0B</li></ol><ul><li>\u6BCF\u4E00\u4E2A\u8FD0\u884C\u7A0B\u5E8F\u5C31\u662F\u4E00\u4E2A\u8FDB\u7A0B\u3002</li><li>\u7A0B\u5E8F\u53EF\u4EE5\u64AD\u653E\u89C6\u9891\u548C\u58F0\u97F3\uFF0C\u8BF4\u660E\u4E00\u4E2A\u8FDB\u7A0B\u53EF\u4EE5\u6709\u591A</li></ul><!--]-->`);
 }
 const _sfc_setup$A = _sfc_main$A.setup;
 _sfc_main$A.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/guide/\u968F\u7B14/reflection.html.vue");
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/\u300Ajava\u591A\u7EBF\u7A0B\u300B/01.\u6982\u8FF0.html.vue");
   return _sfc_setup$A ? _sfc_setup$A(props, ctx) : void 0;
 };
-var reflection_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$A, [["ssrRender", _sfc_ssrRender$m]]);
-var reflection_html$2 = /* @__PURE__ */ Object.freeze({
+var _01____html$2 = /* @__PURE__ */ _export_sfc(_sfc_main$A, [["ssrRender", _sfc_ssrRender$m]]);
+var _01____html$3 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  "default": reflection_html$1
+  "default": _01____html$2
 });
 const _sfc_main$z = {};
 function _sfc_ssrRender$l(_ctx, _push, _parent, _attrs) {
@@ -13154,6 +13154,562 @@ var _01____html$1 = /* @__PURE__ */ Object.freeze({
   data: data$D
 });
 const data$C = {
+  "key": "v-3509cb32",
+  "path": "/guide/interview/interview.html",
+  "title": "\u95EE\u9898\u96C6\u9526",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "title": "\u95EE\u9898\u96C6\u9526",
+    "lastUpdated": true,
+    "prev": true,
+    "next": true,
+    "date": "2022-01-02T00:00:00.000Z",
+    "tags": [
+      "\u9762\u8BD5",
+      "\u5176\u4ED6"
+    ]
+  },
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 2,
+      "title": "\u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD",
+      "slug": "\u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48\uFF1F",
+      "slug": "\u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9\uFF1F",
+      "slug": "\u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5\uFF1F",
+      "slug": "\u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\uFF1F",
+      "slug": "\u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u5728\u4E94\u5E74\u5185\uFF0C\u4F60\u7684\u804C\u4E1A\u89C4\u5212\uFF1F",
+      "slug": "\u5728\u4E94\u5E74\u5185-\u4F60\u7684\u804C\u4E1A\u89C4\u5212",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417?",
+      "slug": "\u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5?",
+      "slug": "\u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11?",
+      "slug": "\u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11",
+      "children": []
+    }
+  ],
+  "git": {
+    "updatedTime": 1642922234e3,
+    "contributors": [
+      {
+        "name": "\u9648\u67D2",
+        "email": "3062995371@qq.com",
+        "commits": 1
+      }
+    ]
+  },
+  "filePathRelative": "guide/interview/interview.md"
+};
+var interview_html = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  data: data$C
+});
+const data$B = {
+  "key": "v-5d3f7a3b",
+  "path": "/guide/interview/JSinterview.html",
+  "title": "JS\u9762\u8BD5",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "title": "JS\u9762\u8BD5",
+    "lastUpdated": true,
+    "prev": true,
+    "next": true,
+    "date": "2022-01-02T00:00:00.000Z",
+    "tags": [
+      "\u9762\u8BD5",
+      "\u5176\u4ED6"
+    ]
+  },
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 2,
+      "title": "1.\u5EF6\u8FDF\u52A0\u8F7DJS\u7684\u65B9\u5F0F\u6709\u54EA\u4E9B",
+      "slug": "_1-\u5EF6\u8FDF\u52A0\u8F7Djs\u7684\u65B9\u5F0F\u6709\u54EA\u4E9B",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "2.js\u7684\u6570\u636E\u7C7B\u578B\u548CNaN",
+      "slug": "_2-js\u7684\u6570\u636E\u7C7B\u578B\u548Cnan",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "3.null \u548C undefined",
+      "slug": "_3-null-\u548C-undefined",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "4.==\u548C===\u6709\u4EC0\u4E48\u4E0D\u540C\uFF1F",
+      "slug": "_4-\u548C-\u6709\u4EC0\u4E48\u4E0D\u540C",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "5.\u5B8F\u4EFB\u52A1\u548C\u5FAE\u4EFB\u52A1\uFF08Event Loop/\u4E8B\u4EF6\u5FAA\u73AF \uFF09",
+      "slug": "_5-\u5B8F\u4EFB\u52A1\u548C\u5FAE\u4EFB\u52A1-event-loop-\u4E8B\u4EF6\u5FAA\u73AF",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "6.\u4F5C\u7528\u57DF",
+      "slug": "_6-\u4F5C\u7528\u57DF",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "7.JS\u5BF9\u8C61\uFF08new\u53D1\u751F\u4E86\u4E0A\u9762\uFF1F\uFF09",
+      "slug": "_7-js\u5BF9\u8C61-new\u53D1\u751F\u4E86\u4E0A\u9762",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "8.\u7ED9\u5B9A\u4E00\u4E2A\u6570\u7EC4\uFF0C\u53BB\u9664\u91CD\u590D\u5143\u7D20",
+      "slug": "_8-\u7ED9\u5B9A\u4E00\u4E2A\u6570\u7EC4-\u53BB\u9664\u91CD\u590D\u5143\u7D20",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "9.\u4E8B\u4EF6\u5192\u6CE1\u548C\u4E8B\u4EF6\u59D4\u6258",
+      "slug": "_9-\u4E8B\u4EF6\u5192\u6CE1\u548C\u4E8B\u4EF6\u59D4\u6258",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "10.\u624B\u5199Promise",
+      "slug": "_10-\u624B\u5199promise",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "11.this\u6307\u5411",
+      "slug": "_11-this\u6307\u5411",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "12.call,apply,bind",
+      "slug": "_12-call-apply-bind",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "13. \u95ED\u5305",
+      "slug": "_13-\u95ED\u5305",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "14.\u5BF9\u8C61\u62F7\u8D1D\uFF08\u6DF1\u6D45\u62F7\u8D1D\uFF09",
+      "slug": "_14-\u5BF9\u8C61\u62F7\u8D1D-\u6DF1\u6D45\u62F7\u8D1D",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "15. \u9632\u6296\u548C\u8282\u6D41",
+      "slug": "_15-\u9632\u6296\u548C\u8282\u6D41",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "16. \u539F\u578B",
+      "slug": "_16-\u539F\u578B",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "17.\u7C7B\u4E0E\u7EE7\u627F",
+      "slug": "_17-\u7C7B\u4E0E\u7EE7\u627F",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "18. \u72B6\u6001\u7801\uFF08200\u3001400\u7B49\uFF09",
+      "slug": "_18-\u72B6\u6001\u7801-200\u3001400\u7B49",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "19. \u8F93\u5165URL\u5230\u9875\u9762\u663E\u793A\u7684\u8FC7\u7A0B\uFF1F",
+      "slug": "_19-\u8F93\u5165url\u5230\u9875\u9762\u663E\u793A\u7684\u8FC7\u7A0B",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "20. ES6\u65B0\u7279\u6027",
+      "slug": "_20-es6\u65B0\u7279\u6027",
+      "children": []
+    }
+  ],
+  "git": {
+    "updatedTime": 165416531e4,
+    "contributors": [
+      {
+        "name": "\u9648\u67D2",
+        "email": "3062995371@qq.com",
+        "commits": 8
+      },
+      {
+        "name": "TRANBIOT-PZ004\\Yiren",
+        "email": "yiren@tranbiot.com",
+        "commits": 1
+      }
+    ]
+  },
+  "filePathRelative": "guide/interview/JSinterview.md"
+};
+var JSinterview_html = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  data: data$B
+});
+const data$A = {
+  "key": "v-2d570564",
+  "path": "/guide/interview/VUEinterview.html",
+  "title": "VUE\u9762\u8BD5",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "title": "VUE\u9762\u8BD5",
+    "lastUpdated": true,
+    "prev": true,
+    "next": true,
+    "date": "2022-01-02T00:00:00.000Z",
+    "tags": [
+      "\u9762\u8BD5",
+      "\u5176\u4ED6"
+    ]
+  },
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 2,
+      "title": "1.vue\u7684\u751F\u547D\u5468\u671F",
+      "slug": "_1-vue\u7684\u751F\u547D\u5468\u671F",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "2.v-if\u548Cv-show\u7684\u533A\u522B",
+      "slug": "_2-v-if\u548Cv-show\u7684\u533A\u522B",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "2.v-if\u548Cv-for\u7684\u4F18\u5148\u7EA7",
+      "slug": "_2-v-if\u548Cv-for\u7684\u4F18\u5148\u7EA7",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "3.ref\u662F\u4EC0\u4E48\uFF1F",
+      "slug": "_3-ref\u662F\u4EC0\u4E48",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "4.nextTick\u662F\u4EC0\u4E48\uFF1F",
+      "slug": "_4-nexttick\u662F\u4EC0\u4E48",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "5.scoped\u539F\u7406",
+      "slug": "_5-scoped\u539F\u7406",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "6.Vue\u4E2D\u5982\u4F55\u505A\u6837\u5F0F\u7A7F\u900F",
+      "slug": "_6-vue\u4E2D\u5982\u4F55\u505A\u6837\u5F0F\u7A7F\u900F",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "7.\u7EC4\u4EF6\u4E4B\u95F4\u7684\u901A\u4FE1",
+      "slug": "_7-\u7EC4\u4EF6\u4E4B\u95F4\u7684\u901A\u4FE1",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "8.computed\u3001methods\u3001watch",
+      "slug": "_8-computed\u3001methods\u3001watch",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "9.props\u548Cdata\u4F18\u5148\u7EA7\u8C01\u9AD8",
+      "slug": "_9-props\u548Cdata\u4F18\u5148\u7EA7\u8C01\u9AD8",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "10.VueX",
+      "slug": "_10-vuex",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "11. Vue\u8BBE\u7F6E\u4EE3\u7406\uFF08vue.config.js\uFF09",
+      "slug": "_11-vue\u8BBE\u7F6E\u4EE3\u7406-vue-config-js",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "12. Vue\u8DEF\u7531",
+      "slug": "_12-vue\u8DEF\u7531",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "13. \u4ECB\u7ECD\u4E00\u4E0BSPA\u4EE5\u53CA\u5176\u4F18\u7F3A\u70B9\u3002",
+      "slug": "_13-\u4ECB\u7ECD\u4E00\u4E0Bspa\u4EE5\u53CA\u5176\u4F18\u7F3A\u70B9\u3002",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "14. v-model\u539F\u7406",
+      "slug": "_14-v-model\u539F\u7406",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "15. data\u52AB\u6301",
+      "slug": "_15-data\u52AB\u6301",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "16. diff\u7B97\u6CD5",
+      "slug": "_16-diff\u7B97\u6CD5",
+      "children": []
+    }
+  ],
+  "git": {
+    "updatedTime": 1646661851e3,
+    "contributors": [
+      {
+        "name": "\u9648\u67D2",
+        "email": "3062995371@qq.com",
+        "commits": 5
+      }
+    ]
+  },
+  "filePathRelative": "guide/interview/VUEinterview.md"
+};
+var VUEinterview_html = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  data: data$A
+});
+const data$z = {
+  "key": "v-71958ec2",
+  "path": "/guide/%E6%95%85%E4%BA%8B/story.html",
+  "title": "\u65E5\u5E38\u6545\u4E8B",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "title": "\u65E5\u5E38\u6545\u4E8B",
+    "description": "\u65E5\u5E38\u6545\u4E8B"
+  },
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 2,
+      "title": "\u5154\u5B50\u4E0E\u661F\u661F",
+      "slug": "\u5154\u5B50\u4E0E\u661F\u661F",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u5929\u4E0A\u7684\u661F\u661F",
+      "slug": "\u5929\u4E0A\u7684\u661F\u661F",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u82F9\u679C=\u667A\u6167\u679C",
+      "slug": "\u82F9\u679C-\u667A\u6167\u679C",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u7B28\u7B28\u718A",
+      "slug": "\u7B28\u7B28\u718A",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u5C0F\u80A5\u732A",
+      "slug": "\u5C0F\u80A5\u732A",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u68A6\u91CC\u6709\u4F60\uFF0C\u5341\u5206\u751C",
+      "slug": "\u68A6\u91CC\u6709\u4F60-\u5341\u5206\u751C",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u665A\u5B89\uFF01",
+      "slug": "\u665A\u5B89",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u7231\uFF08\u957F\u7BC7\uFF09",
+      "slug": "\u7231-\u957F\u7BC7",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u5154\u5B50\u548C\u72D0\u72F8",
+      "slug": "\u5154\u5B50\u548C\u72D0\u72F8",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u62B1\u62B1",
+      "slug": "\u62B1\u62B1",
+      "children": []
+    }
+  ],
+  "git": {
+    "updatedTime": 1642922234e3,
+    "contributors": [
+      {
+        "name": "\u9648\u67D2",
+        "email": "3062995371@qq.com",
+        "commits": 1
+      }
+    ]
+  },
+  "filePathRelative": "guide/\u6545\u4E8B/story.md"
+};
+var story_html = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  data: data$z
+});
+const data$y = {
+  "key": "v-3803ce0e",
+  "path": "/guide/%E6%95%99%E7%A8%8B/text.html",
+  "title": "\u6559\u7A0B",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "lang": "zh-CN",
+    "title": "\u6559\u7A0B",
+    "description": "12a"
+  },
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 2,
+      "title": "\u6559\u7A0B",
+      "slug": "\u6559\u7A0B",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u6559\u7A0B",
+      "slug": "\u6559\u7A0B-1",
+      "children": []
+    }
+  ],
+  "git": {
+    "updatedTime": 1660907761e3,
+    "contributors": [
+      {
+        "name": "\u9648\u67D2",
+        "email": "3062995371@qq.com",
+        "commits": 2
+      }
+    ]
+  },
+  "filePathRelative": "guide/\u6559\u7A0B/text.md"
+};
+var text_html = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  data: data$y
+});
+const data$x = {
+  "key": "v-6c145c9c",
+  "path": "/guide/%E9%9A%8F%E7%AC%94/reflection.html",
+  "title": "\u67D2",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "lang": "zh-CN",
+    "title": "\u67D2",
+    "description": "12a"
+  },
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 2,
+      "title": "007",
+      "slug": "_007",
+      "children": []
+    }
+  ],
+  "git": {
+    "updatedTime": 1663839e6,
+    "contributors": [
+      {
+        "name": "\u9648\u67D2",
+        "email": "3062995371@qq.com",
+        "commits": 2
+      }
+    ]
+  },
+  "filePathRelative": "guide/\u968F\u7B14/reflection.md"
+};
+var reflection_html = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  data: data$x
+});
+const data$w = {
   "key": "v-88893a3e",
   "path": "/java/git/01.git%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6.html",
   "title": "git\u7248\u672C\u63A7\u5236",
@@ -13241,9 +13797,9 @@ const data$C = {
 var _01_git_____html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$C
+  data: data$w
 });
-const data$B = {
+const data$v = {
   "key": "v-061c80c6",
   "path": "/java/Linux/01.Linux%E5%85%A5%E9%97%A8.html",
   "title": "Linux\u5165\u95E8",
@@ -13584,9 +14140,9 @@ const data$B = {
 var _01_Linux___html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$B
+  data: data$v
 });
-const data$A = {
+const data$u = {
   "key": "v-6785e53a",
   "path": "/java/mysql/01.mysql.html",
   "title": "MySql\u57FA\u790E",
@@ -13669,9 +14225,9 @@ const data$A = {
 var _01_mysql_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$A
+  data: data$u
 });
-const data$z = {
+const data$t = {
   "key": "v-4f12841a",
   "path": "/java/mysql/02.mysql%E6%95%B8%E6%93%9A%E7%AE%A1%E7%90%86.html",
   "title": "\u6578\u64DA\u7BA1\u7406",
@@ -13797,9 +14353,9 @@ const data$z = {
 var _02_mysql_____html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$z
+  data: data$t
 });
-const data$y = {
+const data$s = {
   "key": "v-363b4215",
   "path": "/java/mysql/03.mysql%E4%BA%8B%E5%8B%99.html",
   "title": "MySql\u4E8B\u52D9",
@@ -13857,9 +14413,9 @@ const data$y = {
 var _03_mysql___html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$y
+  data: data$s
 });
-const data$x = {
+const data$r = {
   "key": "v-39d72d95",
   "path": "/java/mysql/04.JDBC.html",
   "title": "JDBC",
@@ -13886,9 +14442,9 @@ const data$x = {
 var _04_JDBC_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$x
+  data: data$r
 });
-const data$w = {
+const data$q = {
   "key": "v-23b022e9",
   "path": "/java/springboot/01.springboot.html",
   "title": "springboot",
@@ -13939,9 +14495,9 @@ const data$w = {
 var _01_springboot_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$w
+  data: data$q
 });
-const data$v = {
+const data$p = {
   "key": "v-1f229241",
   "path": "/java/springboot/02.springboot%E5%90%AF%E5%8A%A8%E5%8E%9F%E7%90%86.html",
   "title": "springboot\u542F\u52A8\u539F\u7406",
@@ -13999,9 +14555,9 @@ const data$v = {
 var _02_springboot_____html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$v
+  data: data$p
 });
-const data$u = {
+const data$o = {
   "key": "v-21d7a310",
   "path": "/java/springboot/03.springboot%E8%87%AA%E5%8A%A8%E9%85%8D%E7%BD%AE.html",
   "title": "springboot\u81EA\u52A8\u914D\u7F6E",
@@ -14035,9 +14591,9 @@ const data$u = {
 var _03_springboot_____html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$u
+  data: data$o
 });
-const data$t = {
+const data$n = {
   "key": "v-64dc3831",
   "path": "/java/%E3%80%8Ajava%E5%85%A5%E9%97%A8%E3%80%8B/01.%E5%9F%BA%E7%A1%80%E4%BB%8B%E7%BB%8D.html",
   "title": "java",
@@ -14405,9 +14961,9 @@ const data$t = {
 var _01______html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$t
+  data: data$n
 });
-const data$s = {
+const data$m = {
   "key": "v-ff7fbc46",
   "path": "/java/%E3%80%8Ajava%E5%85%A5%E9%97%A8%E3%80%8B/02.%E6%95%B8%E6%93%9A%E9%A1%9E%E5%9E%8B.html",
   "title": "java\u6578\u64DA\u985E\u578B",
@@ -14453,9 +15009,9 @@ const data$s = {
 var _02______html$1 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
-  data: data$s
+  data: data$m
 });
-const data$r = {
+const data$l = {
   "key": "v-f1c2e4d6",
   "path": "/java/%E3%80%8Ajava%E5%A4%9A%E7%BA%BF%E7%A8%8B%E3%80%8B/01.%E6%A6%82%E8%BF%B0.html",
   "title": "\u591A\u7EBF\u7A0B",
@@ -14487,562 +15043,6 @@ const data$r = {
   "filePathRelative": "java/\u300Ajava\u591A\u7EBF\u7A0B\u300B/01.\u6982\u8FF0.md"
 };
 var _01____html = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  data: data$r
-});
-const data$q = {
-  "key": "v-3509cb32",
-  "path": "/guide/interview/interview.html",
-  "title": "\u95EE\u9898\u96C6\u9526",
-  "lang": "zh-CN",
-  "frontmatter": {
-    "title": "\u95EE\u9898\u96C6\u9526",
-    "lastUpdated": true,
-    "prev": true,
-    "next": true,
-    "date": "2022-01-02T00:00:00.000Z",
-    "tags": [
-      "\u9762\u8BD5",
-      "\u5176\u4ED6"
-    ]
-  },
-  "excerpt": "",
-  "headers": [
-    {
-      "level": 2,
-      "title": "\u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD",
-      "slug": "\u8BF7\u505A\u4E00\u4E0B\u81EA\u6211\u4ECB\u7ECD",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48\uFF1F",
-      "slug": "\u4F60\u6700\u5927\u7684\u4F18\u70B9\u662F\u4EC0\u4E48",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9\uFF1F",
-      "slug": "\u8BF4\u8BF4\u4F60\u6700\u5927\u7684\u7F3A\u70B9",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5\uFF1F",
-      "slug": "\u4F60\u5BF9\u52A0\u73ED\u6709\u4EC0\u4E48\u770B\u6CD5",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42\uFF1F",
-      "slug": "\u8BF4\u8BF4\u4F60\u5BF9\u85AA\u8D44\u7684\u8981\u6C42",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u5728\u4E94\u5E74\u5185\uFF0C\u4F60\u7684\u804C\u4E1A\u89C4\u5212\uFF1F",
-      "slug": "\u5728\u4E94\u5E74\u5185-\u4F60\u7684\u804C\u4E1A\u89C4\u5212",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417?",
-      "slug": "\u4F60\u8FD8\u6709\u4EC0\u4E48\u95EE\u9898\u8981\u95EE\u5417",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5?",
-      "slug": "\u8C08\u8C08\u4F60\u5BF9\u8DF3\u69FD\u7684\u770B\u6CD5",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11?",
-      "slug": "\u4F60\u5BF9\u4E8E\u6211\u4EEC\u516C\u53F8\u4E86\u89E3\u591A\u5C11",
-      "children": []
-    }
-  ],
-  "git": {
-    "updatedTime": 1642922234e3,
-    "contributors": [
-      {
-        "name": "\u9648\u67D2",
-        "email": "3062995371@qq.com",
-        "commits": 1
-      }
-    ]
-  },
-  "filePathRelative": "guide/interview/interview.md"
-};
-var interview_html = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  data: data$q
-});
-const data$p = {
-  "key": "v-5d3f7a3b",
-  "path": "/guide/interview/JSinterview.html",
-  "title": "JS\u9762\u8BD5",
-  "lang": "zh-CN",
-  "frontmatter": {
-    "title": "JS\u9762\u8BD5",
-    "lastUpdated": true,
-    "prev": true,
-    "next": true,
-    "date": "2022-01-02T00:00:00.000Z",
-    "tags": [
-      "\u9762\u8BD5",
-      "\u5176\u4ED6"
-    ]
-  },
-  "excerpt": "",
-  "headers": [
-    {
-      "level": 2,
-      "title": "1.\u5EF6\u8FDF\u52A0\u8F7DJS\u7684\u65B9\u5F0F\u6709\u54EA\u4E9B",
-      "slug": "_1-\u5EF6\u8FDF\u52A0\u8F7Djs\u7684\u65B9\u5F0F\u6709\u54EA\u4E9B",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "2.js\u7684\u6570\u636E\u7C7B\u578B\u548CNaN",
-      "slug": "_2-js\u7684\u6570\u636E\u7C7B\u578B\u548Cnan",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "3.null \u548C undefined",
-      "slug": "_3-null-\u548C-undefined",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "4.==\u548C===\u6709\u4EC0\u4E48\u4E0D\u540C\uFF1F",
-      "slug": "_4-\u548C-\u6709\u4EC0\u4E48\u4E0D\u540C",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "5.\u5B8F\u4EFB\u52A1\u548C\u5FAE\u4EFB\u52A1\uFF08Event Loop/\u4E8B\u4EF6\u5FAA\u73AF \uFF09",
-      "slug": "_5-\u5B8F\u4EFB\u52A1\u548C\u5FAE\u4EFB\u52A1-event-loop-\u4E8B\u4EF6\u5FAA\u73AF",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "6.\u4F5C\u7528\u57DF",
-      "slug": "_6-\u4F5C\u7528\u57DF",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "7.JS\u5BF9\u8C61\uFF08new\u53D1\u751F\u4E86\u4E0A\u9762\uFF1F\uFF09",
-      "slug": "_7-js\u5BF9\u8C61-new\u53D1\u751F\u4E86\u4E0A\u9762",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "8.\u7ED9\u5B9A\u4E00\u4E2A\u6570\u7EC4\uFF0C\u53BB\u9664\u91CD\u590D\u5143\u7D20",
-      "slug": "_8-\u7ED9\u5B9A\u4E00\u4E2A\u6570\u7EC4-\u53BB\u9664\u91CD\u590D\u5143\u7D20",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "9.\u4E8B\u4EF6\u5192\u6CE1\u548C\u4E8B\u4EF6\u59D4\u6258",
-      "slug": "_9-\u4E8B\u4EF6\u5192\u6CE1\u548C\u4E8B\u4EF6\u59D4\u6258",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "10.\u624B\u5199Promise",
-      "slug": "_10-\u624B\u5199promise",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "11.this\u6307\u5411",
-      "slug": "_11-this\u6307\u5411",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "12.call,apply,bind",
-      "slug": "_12-call-apply-bind",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "13. \u95ED\u5305",
-      "slug": "_13-\u95ED\u5305",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "14.\u5BF9\u8C61\u62F7\u8D1D\uFF08\u6DF1\u6D45\u62F7\u8D1D\uFF09",
-      "slug": "_14-\u5BF9\u8C61\u62F7\u8D1D-\u6DF1\u6D45\u62F7\u8D1D",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "15. \u9632\u6296\u548C\u8282\u6D41",
-      "slug": "_15-\u9632\u6296\u548C\u8282\u6D41",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "16. \u539F\u578B",
-      "slug": "_16-\u539F\u578B",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "17.\u7C7B\u4E0E\u7EE7\u627F",
-      "slug": "_17-\u7C7B\u4E0E\u7EE7\u627F",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "18. \u72B6\u6001\u7801\uFF08200\u3001400\u7B49\uFF09",
-      "slug": "_18-\u72B6\u6001\u7801-200\u3001400\u7B49",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "19. \u8F93\u5165URL\u5230\u9875\u9762\u663E\u793A\u7684\u8FC7\u7A0B\uFF1F",
-      "slug": "_19-\u8F93\u5165url\u5230\u9875\u9762\u663E\u793A\u7684\u8FC7\u7A0B",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "20. ES6\u65B0\u7279\u6027",
-      "slug": "_20-es6\u65B0\u7279\u6027",
-      "children": []
-    }
-  ],
-  "git": {
-    "updatedTime": 165416531e4,
-    "contributors": [
-      {
-        "name": "\u9648\u67D2",
-        "email": "3062995371@qq.com",
-        "commits": 8
-      },
-      {
-        "name": "TRANBIOT-PZ004\\Yiren",
-        "email": "yiren@tranbiot.com",
-        "commits": 1
-      }
-    ]
-  },
-  "filePathRelative": "guide/interview/JSinterview.md"
-};
-var JSinterview_html = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  data: data$p
-});
-const data$o = {
-  "key": "v-2d570564",
-  "path": "/guide/interview/VUEinterview.html",
-  "title": "VUE\u9762\u8BD5",
-  "lang": "zh-CN",
-  "frontmatter": {
-    "title": "VUE\u9762\u8BD5",
-    "lastUpdated": true,
-    "prev": true,
-    "next": true,
-    "date": "2022-01-02T00:00:00.000Z",
-    "tags": [
-      "\u9762\u8BD5",
-      "\u5176\u4ED6"
-    ]
-  },
-  "excerpt": "",
-  "headers": [
-    {
-      "level": 2,
-      "title": "1.vue\u7684\u751F\u547D\u5468\u671F",
-      "slug": "_1-vue\u7684\u751F\u547D\u5468\u671F",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "2.v-if\u548Cv-show\u7684\u533A\u522B",
-      "slug": "_2-v-if\u548Cv-show\u7684\u533A\u522B",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "2.v-if\u548Cv-for\u7684\u4F18\u5148\u7EA7",
-      "slug": "_2-v-if\u548Cv-for\u7684\u4F18\u5148\u7EA7",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "3.ref\u662F\u4EC0\u4E48\uFF1F",
-      "slug": "_3-ref\u662F\u4EC0\u4E48",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "4.nextTick\u662F\u4EC0\u4E48\uFF1F",
-      "slug": "_4-nexttick\u662F\u4EC0\u4E48",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "5.scoped\u539F\u7406",
-      "slug": "_5-scoped\u539F\u7406",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "6.Vue\u4E2D\u5982\u4F55\u505A\u6837\u5F0F\u7A7F\u900F",
-      "slug": "_6-vue\u4E2D\u5982\u4F55\u505A\u6837\u5F0F\u7A7F\u900F",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "7.\u7EC4\u4EF6\u4E4B\u95F4\u7684\u901A\u4FE1",
-      "slug": "_7-\u7EC4\u4EF6\u4E4B\u95F4\u7684\u901A\u4FE1",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "8.computed\u3001methods\u3001watch",
-      "slug": "_8-computed\u3001methods\u3001watch",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "9.props\u548Cdata\u4F18\u5148\u7EA7\u8C01\u9AD8",
-      "slug": "_9-props\u548Cdata\u4F18\u5148\u7EA7\u8C01\u9AD8",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "10.VueX",
-      "slug": "_10-vuex",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "11. Vue\u8BBE\u7F6E\u4EE3\u7406\uFF08vue.config.js\uFF09",
-      "slug": "_11-vue\u8BBE\u7F6E\u4EE3\u7406-vue-config-js",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "12. Vue\u8DEF\u7531",
-      "slug": "_12-vue\u8DEF\u7531",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "13. \u4ECB\u7ECD\u4E00\u4E0BSPA\u4EE5\u53CA\u5176\u4F18\u7F3A\u70B9\u3002",
-      "slug": "_13-\u4ECB\u7ECD\u4E00\u4E0Bspa\u4EE5\u53CA\u5176\u4F18\u7F3A\u70B9\u3002",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "14. v-model\u539F\u7406",
-      "slug": "_14-v-model\u539F\u7406",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "15. data\u52AB\u6301",
-      "slug": "_15-data\u52AB\u6301",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "16. diff\u7B97\u6CD5",
-      "slug": "_16-diff\u7B97\u6CD5",
-      "children": []
-    }
-  ],
-  "git": {
-    "updatedTime": 1646661851e3,
-    "contributors": [
-      {
-        "name": "\u9648\u67D2",
-        "email": "3062995371@qq.com",
-        "commits": 5
-      }
-    ]
-  },
-  "filePathRelative": "guide/interview/VUEinterview.md"
-};
-var VUEinterview_html = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  data: data$o
-});
-const data$n = {
-  "key": "v-71958ec2",
-  "path": "/guide/%E6%95%85%E4%BA%8B/story.html",
-  "title": "\u65E5\u5E38\u6545\u4E8B",
-  "lang": "zh-CN",
-  "frontmatter": {
-    "title": "\u65E5\u5E38\u6545\u4E8B",
-    "description": "\u65E5\u5E38\u6545\u4E8B"
-  },
-  "excerpt": "",
-  "headers": [
-    {
-      "level": 2,
-      "title": "\u5154\u5B50\u4E0E\u661F\u661F",
-      "slug": "\u5154\u5B50\u4E0E\u661F\u661F",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u5929\u4E0A\u7684\u661F\u661F",
-      "slug": "\u5929\u4E0A\u7684\u661F\u661F",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u82F9\u679C=\u667A\u6167\u679C",
-      "slug": "\u82F9\u679C-\u667A\u6167\u679C",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u7B28\u7B28\u718A",
-      "slug": "\u7B28\u7B28\u718A",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u5C0F\u80A5\u732A",
-      "slug": "\u5C0F\u80A5\u732A",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u68A6\u91CC\u6709\u4F60\uFF0C\u5341\u5206\u751C",
-      "slug": "\u68A6\u91CC\u6709\u4F60-\u5341\u5206\u751C",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u665A\u5B89\uFF01",
-      "slug": "\u665A\u5B89",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u7231\uFF08\u957F\u7BC7\uFF09",
-      "slug": "\u7231-\u957F\u7BC7",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u5154\u5B50\u548C\u72D0\u72F8",
-      "slug": "\u5154\u5B50\u548C\u72D0\u72F8",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u62B1\u62B1",
-      "slug": "\u62B1\u62B1",
-      "children": []
-    }
-  ],
-  "git": {
-    "updatedTime": 1642922234e3,
-    "contributors": [
-      {
-        "name": "\u9648\u67D2",
-        "email": "3062995371@qq.com",
-        "commits": 1
-      }
-    ]
-  },
-  "filePathRelative": "guide/\u6545\u4E8B/story.md"
-};
-var story_html = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  data: data$n
-});
-const data$m = {
-  "key": "v-3803ce0e",
-  "path": "/guide/%E6%95%99%E7%A8%8B/text.html",
-  "title": "\u6559\u7A0B",
-  "lang": "zh-CN",
-  "frontmatter": {
-    "lang": "zh-CN",
-    "title": "\u6559\u7A0B",
-    "description": "12a"
-  },
-  "excerpt": "",
-  "headers": [
-    {
-      "level": 2,
-      "title": "\u6559\u7A0B",
-      "slug": "\u6559\u7A0B",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u6559\u7A0B",
-      "slug": "\u6559\u7A0B-1",
-      "children": []
-    }
-  ],
-  "git": {
-    "updatedTime": 1660907761e3,
-    "contributors": [
-      {
-        "name": "\u9648\u67D2",
-        "email": "3062995371@qq.com",
-        "commits": 2
-      }
-    ]
-  },
-  "filePathRelative": "guide/\u6559\u7A0B/text.md"
-};
-var text_html = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  data: data$m
-});
-const data$l = {
-  "key": "v-6c145c9c",
-  "path": "/guide/%E9%9A%8F%E7%AC%94/reflection.html",
-  "title": "\u67D2",
-  "lang": "zh-CN",
-  "frontmatter": {
-    "lang": "zh-CN",
-    "title": "\u67D2",
-    "description": "12a"
-  },
-  "excerpt": "",
-  "headers": [
-    {
-      "level": 2,
-      "title": "007",
-      "slug": "_007",
-      "children": []
-    }
-  ],
-  "git": {
-    "updatedTime": 1663839e6,
-    "contributors": [
-      {
-        "name": "\u9648\u67D2",
-        "email": "3062995371@qq.com",
-        "commits": 2
-      }
-    ]
-  },
-  "filePathRelative": "guide/\u968F\u7B14/reflection.md"
-};
-var reflection_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   data: data$l
