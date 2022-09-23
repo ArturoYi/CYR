@@ -8,7 +8,7 @@ export const navbar = [
     text: "后端",
     children: [
       { text: "《JavaSE》", link: "/java/《java入门》/01.基础介绍.md" },
-      // { text: "《数据结构与算法》", link: "/" },
+      { text: "《Java多線程》", link: "/java/《java多线程》/01.概述.md" },
       // { text: "《计算机导论》", link: "/" },
       // { text: "《计算机网络》", link: "/" },
       // { text: "《MySQL 数据库》", link: "/" },

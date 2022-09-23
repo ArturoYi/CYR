@@ -8,7 +8,12 @@ export const sidebar = {
   "/java/mysql/": [
     {
       text: "MySql",
-      children: ["01.mysql.md","02.mysql數據管理.md","03.mysql事務.md","04.JDBC.md"],
+      children: [
+        "01.mysql.md",
+        "02.mysql數據管理.md",
+        "03.mysql事務.md",
+        "04.JDBC.md",
+      ],
     },
   ],
   "/java/springboot/": [
@@ -30,7 +35,13 @@ export const sidebar = {
   "/web/Flutter/": [
     {
       text: "Flutter",
-      children: ["01.md", "02.Dart语法.md", "03.widget.md", "04.基础组件.md"],
+      children: [
+        "01.md",
+        "02.Dart语法.md",
+        "03.widget.md",
+        "04.路由管理.md",
+        "05.基础组件.md",
+      ],
     },
   ],
   "/web/html/": [
