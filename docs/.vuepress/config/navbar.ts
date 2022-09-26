@@ -84,7 +84,7 @@ export const navbar = [
     children: [
       {
         text: "教程",
-        link: "/guide/教程/text.md",
+        link: "/guide/教程/01.後端相關教程.md",
       },
       {
         text: "面试",
