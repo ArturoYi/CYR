@@ -5,6 +5,12 @@ export const sidebar = {
       children: ["01.git版本控制.md"],
     },
   ],
+  "/java/Docker/": [
+    {
+      text: "Docker",
+      children: ["01.簡介和安裝.md", "02.基本命令.md","03.Docker练习.md"],
+    },
+  ],
   "/java/mysql/": [
     {
       text: "MySql",

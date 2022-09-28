@@ -75,6 +75,10 @@ export const navbar = [
             text: "Linux",
             link: "/java/Linux/01.Linux入门.md",
           },
+          {
+            text: "Docker",
+            link: "/java/Docker/01.簡介和安裝.md",
+          },
         ],
       },
     ],
@@ -100,8 +104,8 @@ export const navbar = [
       },
     ],
   },
-  {
-    text: "项目实战",
-    link: "/actualCombat/README.md",
-  },
+  // {
+  //   text: "项目实战",
+  //   link: "/actualCombat/README.md",
+  // },
 ];
