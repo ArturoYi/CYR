@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="generator" content="VuePress 2.0.0-beta.29">
     <link rel="icon" href="/images/favicon.ico"><title>多线程 | IUUI</title><meta name="description" content="java 多线程">
-    <link rel="modulepreload" href="/assets/app.2eeef89e.js"><link rel="modulepreload" href="/assets/01.概述.html.0db951e2.js"><link rel="modulepreload" href="/assets/plugin-vue_export-helper.21dcd24c.js"><link rel="modulepreload" href="/assets/01.概述.html.a9445167.js">
+    <link rel="modulepreload" href="/assets/app.fc730a4c.js"><link rel="modulepreload" href="/assets/01.概述.html.e66ac837.js"><link rel="modulepreload" href="/assets/plugin-vue_export-helper.21dcd24c.js"><link rel="modulepreload" href="/assets/01.概述.html.a9445167.js">
     <link rel="stylesheet" href="/assets/style.4178b8eb.css">
   </head>
   <body>
@@ -144,6 +144,6 @@
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br></div></div><p>會出現搶票超出10張的情況</p><h2 id="實現callable接口" tabindex="-1"><a class="header-anchor" href="#實現callable接口" aria-hidden="true">#</a> 實現Callable接口</h2><ol><li>實現Callable接口，需要返回值類型</li><li>重寫call方法，需要拋出異常</li><li>創建目標對象</li><li>創建執行服務：<code>ExecutorService ser = Executors.newFixedThreadPool(1);</code></li><li>提交服務：<code>Future&lt;Boolean&gt; result1 = ser.submit(t1);</code></li><li>獲取結果：<code>Boolean r1 = result1.get();</code></li><li>關閉服務：<code>ser.shutdownNow();</code></li></ol><!--]--></div><footer class="page-meta"><!----><div class="meta-item last-updated"><span class="meta-item-label">Last Updated: </span><!----></div><div class="meta-item contributors"><span class="meta-item-label">Contributors: </span><span class="meta-item-info"><!--[--><!--[--><span class="contributor" title="email: 3062995371@qq.com">陈柒</span><!----><!--]--><!--]--></span></div></footer><!----><!--[--><!--]--></main><!--]--></div><!----><!--]--></div>
-    <script type="module" src="/assets/app.2eeef89e.js" defer></script>
+    <script type="module" src="/assets/app.fc730a4c.js" defer></script>
   </body>
 </html>
