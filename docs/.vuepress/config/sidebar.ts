@@ -38,6 +38,12 @@ export const sidebar = {
       children: ["01.md", "02vue指令.md", "03全局API.md"],
     },
   ],
+  "/web/vue3/": [
+    {
+      text: "VUE3.x",
+      children: ["01.md", "02.组件编写.md"],
+    },
+  ],
   "/web/Flutter/": [
     {
       text: "Flutter",
