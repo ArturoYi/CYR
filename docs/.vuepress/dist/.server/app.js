@@ -120,6 +120,9 @@ const pagesComponents = {
   "v-88893a3e": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return _01_git_____html$2;
   })),
+  "v-061c80c6": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
+    return _01_Linux___html$2;
+  })),
   "v-6785e53a": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return _01_mysql_html$2;
   })),
@@ -131,9 +134,6 @@ const pagesComponents = {
   })),
   "v-39d72d95": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return _04_JDBC_html$2;
-  })),
-  "v-061c80c6": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
-    return _01_Linux___html$2;
   })),
   "v-23b022e9": vue.defineAsyncComponent(() => Promise.resolve().then(function() {
     return _01_springboot_html$2;
@@ -320,6 +320,9 @@ const pagesData$1 = {
   "v-88893a3e": () => Promise.resolve().then(function() {
     return _01_git_____html;
   }).then(({ data: data2 }) => data2),
+  "v-061c80c6": () => Promise.resolve().then(function() {
+    return _01_Linux___html;
+  }).then(({ data: data2 }) => data2),
   "v-6785e53a": () => Promise.resolve().then(function() {
     return _01_mysql_html;
   }).then(({ data: data2 }) => data2),
@@ -331,9 +334,6 @@ const pagesData$1 = {
   }).then(({ data: data2 }) => data2),
   "v-39d72d95": () => Promise.resolve().then(function() {
     return _04_JDBC_html;
-  }).then(({ data: data2 }) => data2),
-  "v-061c80c6": () => Promise.resolve().then(function() {
-    return _01_Linux___html;
   }).then(({ data: data2 }) => data2),
   "v-23b022e9": () => Promise.resolve().then(function() {
     return _01_springboot_html;
@@ -2221,239 +2221,6 @@ const searchIndex$1 = [
     "extraFields": []
   },
   {
-    "title": "MySql\u57FA\u790E",
-    "headers": [
-      {
-        "level": 2,
-        "title": "MySql\u5B89\u88C5",
-        "slug": "mysql\u5B89\u88C5",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u5B89\u88C5 navicat",
-        "slug": "\u5B89\u88C5-navicat",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u57FA\u672C\u547D\u4EE4\u884C",
-        "slug": "\u57FA\u672C\u547D\u4EE4\u884C",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u64CD\u4F5C\u6570\u636E\u5E93",
-        "slug": "\u64CD\u4F5C\u6570\u636E\u5E93",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u64CD\u4F5C\u8868",
-        "slug": "\u64CD\u4F5C\u8868",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.\u6570\u636E\u7C7B\u578B",
-            "slug": "_1-\u6570\u636E\u7C7B\u578B",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.\u5B57\u6BB5\u5C5E\u6027\uFF08\u91CD\u8981\uFF09",
-            "slug": "_2-\u5B57\u6BB5\u5C5E\u6027-\u91CD\u8981",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.\u6570\u636E\u5E93\u5F15\u64CE\u548C\u7F16\u7801",
-            "slug": "_3-\u6570\u636E\u5E93\u5F15\u64CE\u548C\u7F16\u7801",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.\u5B57\u6BB5\u5220\u9664\u548C\u4FEE\u6539",
-            "slug": "_4-\u5B57\u6BB5\u5220\u9664\u548C\u4FEE\u6539",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/java/mysql/01.mysql.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "\u6578\u64DA\u7BA1\u7406",
-    "headers": [
-      {
-        "level": 2,
-        "title": "\u5916\u9375",
-        "slug": "\u5916\u9375",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "DML \u8A9E\u8A00",
-        "slug": "dml-\u8A9E\u8A00",
-        "children": [
-          {
-            "level": 3,
-            "title": "\u63D2\u5165",
-            "slug": "\u63D2\u5165",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "\u4FEE\u6539",
-            "slug": "\u4FEE\u6539",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "\u522A\u9664",
-            "slug": "\u522A\u9664",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "DQL \u67E5\u8A62\u6578\u64DA",
-        "slug": "dql-\u67E5\u8A62\u6578\u64DA",
-        "children": [
-          {
-            "level": 3,
-            "title": "\u67E5\u8A62",
-            "slug": "\u67E5\u8A62",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "\u53BB\u91CD",
-            "slug": "\u53BB\u91CD",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "where \u689D\u4EF6\u5B57\u53E5",
-            "slug": "where-\u689D\u4EF6\u5B57\u53E5",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "\u6A21\u7CCA\u67E5\u8A62",
-            "slug": "\u6A21\u7CCA\u67E5\u8A62",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "\u806F\u8868\u67E5\u8A62",
-            "slug": "\u806F\u8868\u67E5\u8A62",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "\u81EA\u9023\u63A5\u53CA\u9023\u8868\u67E5\u8A62",
-            "slug": "\u81EA\u9023\u63A5\u53CA\u9023\u8868\u67E5\u8A62",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "\u5206\u9801\uFF08limit\uFF09\u548C\u6392\u5E8F\uFF08order by\uFF09",
-            "slug": "\u5206\u9801-limit-\u548C\u6392\u5E8F-order-by",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "\u81EA\u67E5\u8A62\u548C\u5D4C\u5957\u67E5\u8A62",
-            "slug": "\u81EA\u67E5\u8A62\u548C\u5D4C\u5957\u67E5\u8A62",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "MySQL \u51FD\u6578",
-            "slug": "mysql-\u51FD\u6578",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "\u805A\u5408\u51FD\u6578",
-            "slug": "\u805A\u5408\u51FD\u6578",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/java/mysql/02.mysql%E6%95%B8%E6%93%9A%E7%AE%A1%E7%90%86.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "MySql\u4E8B\u52D9",
-    "headers": [
-      {
-        "level": 2,
-        "title": "\u4E8B\u52D9\uFF08ACID\uFF09\u539F\u5247",
-        "slug": "\u4E8B\u52D9-acid-\u539F\u5247",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u4E8B\u52D9\u7DF4\u7FD2",
-        "slug": "\u4E8B\u52D9\u7DF4\u7FD2",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u6743\u9650\u7BA1\u7406\u548C\u7528\u6237\u7BA1\u7406",
-        "slug": "\u6743\u9650\u7BA1\u7406\u548C\u7528\u6237\u7BA1\u7406",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "mysql\u5907\u4EFD",
-        "slug": "mysql\u5907\u4EFD",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u6570\u636E\u5E93\u4E09\u5927\u8303\u5F0F",
-        "slug": "\u6570\u636E\u5E93\u4E09\u5927\u8303\u5F0F",
-        "children": []
-      }
-    ],
-    "path": "/java/mysql/03.mysql%E4%BA%8B%E5%8B%99.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "JDBC",
-    "headers": [
-      {
-        "level": 2,
-        "title": "\u7B2C\u4E00\u500B JDBC \u7A0B\u5E8F",
-        "slug": "\u7B2C\u4E00\u500B-jdbc-\u7A0B\u5E8F",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Statement \u5C0D\u8C61",
-        "slug": "statement-\u5C0D\u8C61",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "\u5C01\u88DD\u6578\u64DA\u5EAB util",
-        "slug": "\u5C01\u88DD\u6578\u64DA\u5EAB-util",
-        "children": []
-      }
-    ],
-    "path": "/java/mysql/04.JDBC.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Linux\u5165\u95E8",
     "headers": [
       {
@@ -2771,6 +2538,239 @@ const searchIndex$1 = [
       }
     ],
     "path": "/java/Linux/01.Linux%E5%85%A5%E9%97%A8.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "MySql\u57FA\u790E",
+    "headers": [
+      {
+        "level": 2,
+        "title": "MySql\u5B89\u88C5",
+        "slug": "mysql\u5B89\u88C5",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u5B89\u88C5 navicat",
+        "slug": "\u5B89\u88C5-navicat",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u57FA\u672C\u547D\u4EE4\u884C",
+        "slug": "\u57FA\u672C\u547D\u4EE4\u884C",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u64CD\u4F5C\u6570\u636E\u5E93",
+        "slug": "\u64CD\u4F5C\u6570\u636E\u5E93",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u64CD\u4F5C\u8868",
+        "slug": "\u64CD\u4F5C\u8868",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.\u6570\u636E\u7C7B\u578B",
+            "slug": "_1-\u6570\u636E\u7C7B\u578B",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.\u5B57\u6BB5\u5C5E\u6027\uFF08\u91CD\u8981\uFF09",
+            "slug": "_2-\u5B57\u6BB5\u5C5E\u6027-\u91CD\u8981",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.\u6570\u636E\u5E93\u5F15\u64CE\u548C\u7F16\u7801",
+            "slug": "_3-\u6570\u636E\u5E93\u5F15\u64CE\u548C\u7F16\u7801",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.\u5B57\u6BB5\u5220\u9664\u548C\u4FEE\u6539",
+            "slug": "_4-\u5B57\u6BB5\u5220\u9664\u548C\u4FEE\u6539",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/java/mysql/01.mysql.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "\u6578\u64DA\u7BA1\u7406",
+    "headers": [
+      {
+        "level": 2,
+        "title": "\u5916\u9375",
+        "slug": "\u5916\u9375",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "DML \u8A9E\u8A00",
+        "slug": "dml-\u8A9E\u8A00",
+        "children": [
+          {
+            "level": 3,
+            "title": "\u63D2\u5165",
+            "slug": "\u63D2\u5165",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u4FEE\u6539",
+            "slug": "\u4FEE\u6539",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u522A\u9664",
+            "slug": "\u522A\u9664",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "DQL \u67E5\u8A62\u6578\u64DA",
+        "slug": "dql-\u67E5\u8A62\u6578\u64DA",
+        "children": [
+          {
+            "level": 3,
+            "title": "\u67E5\u8A62",
+            "slug": "\u67E5\u8A62",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u53BB\u91CD",
+            "slug": "\u53BB\u91CD",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "where \u689D\u4EF6\u5B57\u53E5",
+            "slug": "where-\u689D\u4EF6\u5B57\u53E5",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u6A21\u7CCA\u67E5\u8A62",
+            "slug": "\u6A21\u7CCA\u67E5\u8A62",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u806F\u8868\u67E5\u8A62",
+            "slug": "\u806F\u8868\u67E5\u8A62",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u81EA\u9023\u63A5\u53CA\u9023\u8868\u67E5\u8A62",
+            "slug": "\u81EA\u9023\u63A5\u53CA\u9023\u8868\u67E5\u8A62",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u5206\u9801\uFF08limit\uFF09\u548C\u6392\u5E8F\uFF08order by\uFF09",
+            "slug": "\u5206\u9801-limit-\u548C\u6392\u5E8F-order-by",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u81EA\u67E5\u8A62\u548C\u5D4C\u5957\u67E5\u8A62",
+            "slug": "\u81EA\u67E5\u8A62\u548C\u5D4C\u5957\u67E5\u8A62",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "MySQL \u51FD\u6578",
+            "slug": "mysql-\u51FD\u6578",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "\u805A\u5408\u51FD\u6578",
+            "slug": "\u805A\u5408\u51FD\u6578",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/java/mysql/02.mysql%E6%95%B8%E6%93%9A%E7%AE%A1%E7%90%86.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "MySql\u4E8B\u52D9",
+    "headers": [
+      {
+        "level": 2,
+        "title": "\u4E8B\u52D9\uFF08ACID\uFF09\u539F\u5247",
+        "slug": "\u4E8B\u52D9-acid-\u539F\u5247",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u4E8B\u52D9\u7DF4\u7FD2",
+        "slug": "\u4E8B\u52D9\u7DF4\u7FD2",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u6743\u9650\u7BA1\u7406\u548C\u7528\u6237\u7BA1\u7406",
+        "slug": "\u6743\u9650\u7BA1\u7406\u548C\u7528\u6237\u7BA1\u7406",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "mysql\u5907\u4EFD",
+        "slug": "mysql\u5907\u4EFD",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u6570\u636E\u5E93\u4E09\u5927\u8303\u5F0F",
+        "slug": "\u6570\u636E\u5E93\u4E09\u5927\u8303\u5F0F",
+        "children": []
+      }
+    ],
+    "path": "/java/mysql/03.mysql%E4%BA%8B%E5%8B%99.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "JDBC",
+    "headers": [
+      {
+        "level": 2,
+        "title": "\u7B2C\u4E00\u500B JDBC \u7A0B\u5E8F",
+        "slug": "\u7B2C\u4E00\u500B-jdbc-\u7A0B\u5E8F",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Statement \u5C0D\u8C61",
+        "slug": "statement-\u5C0D\u8C61",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "\u5C01\u88DD\u6578\u64DA\u5EAB util",
+        "slug": "\u5C01\u88DD\u6578\u64DA\u5EAB-util",
+        "children": []
+      }
+    ],
+    "path": "/java/mysql/04.JDBC.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -5069,11 +5069,11 @@ const routeItems = [
   ["v-8136544e", "/java/Docker/02.%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4.html", { "title": "Docker\u57FA\u672C\u547D\u4EE4" }, ["/java/Docker/02.\u57FA\u672C\u547D\u4EE4.html", "/java/Docker/02.%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4", "/java/Docker/02.\u57FA\u672C\u547D\u4EE4.md", "/java/Docker/02.%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4.md"]],
   ["v-f561df22", "/java/Docker/03.Docker%E7%BB%83%E4%B9%A0.html", { "title": "Docker\u7EC3\u4E60" }, ["/java/Docker/03.Docker\u7EC3\u4E60.html", "/java/Docker/03.Docker%E7%BB%83%E4%B9%A0", "/java/Docker/03.Docker\u7EC3\u4E60.md", "/java/Docker/03.Docker%E7%BB%83%E4%B9%A0.md"]],
   ["v-88893a3e", "/java/git/01.git%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6.html", { "title": "git\u7248\u672C\u63A7\u5236" }, ["/java/git/01.git\u7248\u672C\u63A7\u5236.html", "/java/git/01.git%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6", "/java/git/01.git\u7248\u672C\u63A7\u5236.md", "/java/git/01.git%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6.md"]],
+  ["v-061c80c6", "/java/Linux/01.Linux%E5%85%A5%E9%97%A8.html", { "title": "Linux\u5165\u95E8" }, ["/java/Linux/01.Linux\u5165\u95E8.html", "/java/Linux/01.Linux%E5%85%A5%E9%97%A8", "/java/Linux/01.Linux\u5165\u95E8.md", "/java/Linux/01.Linux%E5%85%A5%E9%97%A8.md"]],
   ["v-6785e53a", "/java/mysql/01.mysql.html", { "title": "MySql\u57FA\u790E" }, ["/java/mysql/01.mysql", "/java/mysql/01.mysql.md"]],
   ["v-4f12841a", "/java/mysql/02.mysql%E6%95%B8%E6%93%9A%E7%AE%A1%E7%90%86.html", { "title": "\u6578\u64DA\u7BA1\u7406" }, ["/java/mysql/02.mysql\u6578\u64DA\u7BA1\u7406.html", "/java/mysql/02.mysql%E6%95%B8%E6%93%9A%E7%AE%A1%E7%90%86", "/java/mysql/02.mysql\u6578\u64DA\u7BA1\u7406.md", "/java/mysql/02.mysql%E6%95%B8%E6%93%9A%E7%AE%A1%E7%90%86.md"]],
   ["v-363b4215", "/java/mysql/03.mysql%E4%BA%8B%E5%8B%99.html", { "title": "MySql\u4E8B\u52D9" }, ["/java/mysql/03.mysql\u4E8B\u52D9.html", "/java/mysql/03.mysql%E4%BA%8B%E5%8B%99", "/java/mysql/03.mysql\u4E8B\u52D9.md", "/java/mysql/03.mysql%E4%BA%8B%E5%8B%99.md"]],
   ["v-39d72d95", "/java/mysql/04.JDBC.html", { "title": "JDBC" }, ["/java/mysql/04.JDBC", "/java/mysql/04.JDBC.md"]],
-  ["v-061c80c6", "/java/Linux/01.Linux%E5%85%A5%E9%97%A8.html", { "title": "Linux\u5165\u95E8" }, ["/java/Linux/01.Linux\u5165\u95E8.html", "/java/Linux/01.Linux%E5%85%A5%E9%97%A8", "/java/Linux/01.Linux\u5165\u95E8.md", "/java/Linux/01.Linux%E5%85%A5%E9%97%A8.md"]],
   ["v-23b022e9", "/java/springboot/01.springboot.html", { "title": "springboot" }, ["/java/springboot/01.springboot", "/java/springboot/01.springboot.md"]],
   ["v-1f229241", "/java/springboot/02.springboot%E5%90%AF%E5%8A%A8%E5%8E%9F%E7%90%86.html", { "title": "springboot\u542F\u52A8\u539F\u7406" }, ["/java/springboot/02.springboot\u542F\u52A8\u539F\u7406.html", "/java/springboot/02.springboot%E5%90%AF%E5%8A%A8%E5%8E%9F%E7%90%86", "/java/springboot/02.springboot\u542F\u52A8\u539F\u7406.md", "/java/springboot/02.springboot%E5%90%AF%E5%8A%A8%E5%8E%9F%E7%90%86.md"]],
   ["v-21d7a310", "/java/springboot/03.springboot%E8%87%AA%E5%8A%A8%E9%85%8D%E7%BD%AE.html", { "title": "springboot\u81EA\u52A8\u914D\u7F6E" }, ["/java/springboot/03.springboot\u81EA\u52A8\u914D\u7F6E.html", "/java/springboot/03.springboot%E8%87%AA%E5%8A%A8%E9%85%8D%E7%BD%AE", "/java/springboot/03.springboot\u81EA\u52A8\u914D\u7F6E.md", "/java/springboot/03.springboot%E8%87%AA%E5%8A%A8%E9%85%8D%E7%BD%AE.md"]],
@@ -6785,489 +6785,6 @@ var _01_git_____html$2 = /* @__PURE__ */ Object.freeze({
 const _sfc_main$Y = {};
 function _sfc_ssrRender$K(_ctx, _push, _parent, _attrs) {
   const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
-  _push(`<!--[--><p>\u6570\u636E\u7B80\u5355\u6765\u8BF4\u5C31\u662F\u5B58\u50A8\u6570\u636E\u7684\u5E93</p><ul><li>\u5173\u7CFB\u578B\u6570\u636E\u5E93\uFF1AMySQL,oracle</li><li>\u975E\u5173\u7CFB\u578B\u6570\u636E\u5E93\uFF1Aredis,mongodb</li></ul><h2 id="mysql\u5B89\u88C5" tabindex="-1"><a class="header-anchor" href="#mysql\u5B89\u88C5" aria-hidden="true">#</a> MySql\u5B89\u88C5</h2><p><a href="https://dev.mysql.com/downloads/mysql/" target="_blank" rel="noopener noreferrer">https://dev.mysql.com/downloads/mysql/`);
-  _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
-  _push(`</a></p><ol><li><p>\u5EFA\u8BAE\u4E0D\u8981\u4F7F\u7528 exe\uFF0C\u4F1A\u81EA\u52A8\u6DFB\u52A0\u5230\u6CE8\u518C\u8868\uFF0C\u5220\u9664\u65F6\u4F1A\u5BFC\u81F4\u4E00\u4E9B\u5947\u602A\u60C5\u51B5</p></li><li><p>\u538B\u7F29\u5305\u5B89\u88C5\u65B9\u4FBF\u5378\u8F7D\u548C\u7BA1\u7406</p><p>\u5B89\u88C5\u6559\u7A0B\u8FD9\u91CC\u4E0D\u518D\u8D58\u8FF0</p></li></ol><h2 id="\u5B89\u88C5-navicat" tabindex="-1"><a class="header-anchor" href="#\u5B89\u88C5-navicat" aria-hidden="true">#</a> \u5B89\u88C5 navicat</h2><p>\u7DB2\u4E0A\u6709\u5F88\u591A\u7834X\u7248\u3002</p><h2 id="\u57FA\u672C\u547D\u4EE4\u884C" tabindex="-1"><a class="header-anchor" href="#\u57FA\u672C\u547D\u4EE4\u884C" aria-hidden="true">#</a> \u57FA\u672C\u547D\u4EE4\u884C</h2><p>\u76EE\u524D\u4E3A\u6B62\uFF0CMySQL \u8BED\u53E5\u5FC5\u987B\u5206\u53F7\u7ED3\u5C3E\uFF0C\u5173\u952E\u5B57\u6CE8\u610F\u4E0D\u533A\u5206\u5927\u5C0F\u5199\u3002</p><ol><li>\u94FE\u63A5 MySQL</li><li>\u4FEE\u6539\u5BC6\u7801</li><li>\u5237\u65B0\u6743\u9650</li><li>\u6253\u5370\u5168\u90E8\u6570\u636E\u5E93</li><li>\u5207\u6362\u6570\u636E\u5E93</li><li>\u6253\u5370\u6240\u6709\u8868</li><li>\u663E\u793A\u8868\u4FE1\u606F</li><li>\u521B\u5EFA\u6570\u636E\u5E93</li><li>\u5173\u95ED\u6570\u636E\u5E93</li><li>\u6CE8\u91CA</li></ol><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">-- \u767B\u5F55MySQL\u94FE\u63A5\u6570\u636E\u5E93</span>
-mysql <span class="token operator">-</span>u root <span class="token operator">-</span>p <span class="token number">123456</span>
-
-<span class="token comment">-- MySQL5.7\u4FEE\u6539\u5BC6\u7801(\u4E0B\u9762\u662F\u628Aroot\u5BC6\u7801\u6539\u4E3A123456)</span>
-<span class="token keyword">update</span> mysql<span class="token punctuation">.</span><span class="token keyword">user</span> <span class="token keyword">set</span> authentication_string<span class="token operator">=</span>password<span class="token punctuation">(</span><span class="token string">&#39;123456&#39;</span><span class="token punctuation">)</span> <span class="token keyword">where</span> <span class="token keyword">user</span> <span class="token operator">=</span> <span class="token string">&quot;root&quot;</span><span class="token punctuation">;</span>
-
-<span class="token comment">-- MySQL8\u4FEE\u6539\u5BC6\u7801(\u8981\u5148\u767B\u5F55root)</span>
-<span class="token keyword">show</span> <span class="token keyword">databases</span><span class="token punctuation">;</span>
-<span class="token keyword">use</span> mysql<span class="token punctuation">;</span>
-<span class="token keyword">alter</span> <span class="token keyword">user</span> <span class="token string">&quot;root&quot;</span><span class="token variable">@&quot;localhost&quot;</span> identified <span class="token keyword">with</span> mysql_native_password <span class="token keyword">by</span> <span class="token string">&#39;123456&#39;</span><span class="token punctuation">;</span>
-
-<span class="token comment">-- \u5237\u65B0MySQL\u7CFB\u7EDF\u6743\u9650\u76F8\u5173</span>
-flush <span class="token keyword">privileges</span><span class="token punctuation">;</span>
-
-<span class="token comment">-- \u6253\u5370\u5168\u90E8\u6570\u636E\u5E93</span>
-<span class="token keyword">show</span> <span class="token keyword">databases</span><span class="token punctuation">;</span>
-
-<span class="token comment">-- \u5207\u6362\u6570\u636E\u5E93(\u5207\u6362\u5230school\u6570\u636E\u5E93)</span>
-<span class="token keyword">use</span> school<span class="token punctuation">;</span>
-
-<span class="token comment">-- \u6253\u5370\u6240\u6709\u8868</span>
-<span class="token keyword">show</span> <span class="token keyword">tables</span><span class="token punctuation">;</span>
-
-<span class="token comment">-- \u663E\u793A\u8868\u4FE1\u606F(\u663E\u793Astudent\u8868\u4FE1\u606F)</span>
-<span class="token keyword">describe</span> student<span class="token punctuation">;</span>
-
-<span class="token comment">-- \u521B\u5EFA\u6570\u636E\u5E93(\u521B\u5EFAschool\u6570\u636E\u5E93)</span>
-<span class="token keyword">create</span> <span class="token keyword">database</span> school<span class="token punctuation">;</span>
-
-<span class="token comment">-- \u5173\u95ED\u6570\u636E\u5E93</span>
-<span class="token keyword">exit</span><span class="token punctuation">;</span>
-
-<span class="token comment">-- \u5355\u884C\u6CE8\u91CA</span>
-
-<span class="token comment">/*
-\u591A\u884C\u6CE8\u91CA
-*/</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br></div></div><p>\u4E00\u4E9B\u540D\u79F0\u91CA\u4E49\uFF1A</p><p><code>DDL</code>\uFF1A\u6570\u636E\u5E93\u5B9A\u4E49\u8BED\u8A00</p><p><code>DML</code>\uFF1A\u6570\u636E\u5E93\u64CD\u4F5C\u8BED\u8A00</p><p><code>DQL</code>\uFF1A\u6570\u636E\u5E93\u67E5\u8BE2\u8BED\u8A00</p><p><code>DCL</code>\uFF1A\u6570\u636E\u5E93\u63A7\u5236\u8BED\u8A00</p><h2 id="\u64CD\u4F5C\u6570\u636E\u5E93" tabindex="-1"><a class="header-anchor" href="#\u64CD\u4F5C\u6570\u636E\u5E93" aria-hidden="true">#</a> \u64CD\u4F5C\u6570\u636E\u5E93</h2><p><code>\u64CD\u4F5C\u6570\u636E\u5E93</code>\u2014\u2014&gt;<code>\u64CD\u4F5C\u6570\u636E\u5E93\u8868</code>\u2014\u2014&gt;<code>\u64CD\u4F5C\u6570\u636E\u5E93\u8868\u6570\u636E</code></p><p>\u57FA\u672C<code>CRUD</code>\u589E\u5220\u67E5\u6539\u3002</p><p><code>\u91CA\u4E49\uFF1A\u4E0B\u9762\u7B26\u53F7</code> [ ] <code>\u662F\u53EF\u9009\u7684\u9009\u9879\u4F46\u4E0D\u5305\u62EC</code> [ ] <code>\u7B26\u53F7\uFF0C\u5982\uFF1A</code> <code>[if not exists]</code> <code>\u7B49\u4E8E</code> <code>if not exists</code> <code>;</code></p><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">-- \u521B\u5EFAschool\u6570\u636E\u5E93\uFF1B\u5982\u679C\u4E0D\u5B58\u5728\u7684\u8BDD\uFF0C[if not exists]\u4F5C\u7528\u662F\u5982\u679C\u5DF2\u7ECF\u5B58\u5728\u5219\u8DF3\u8FC7\uFF0C\u4E0D\u4F1A\u518D\u62A5\u9519\u3002</span>
-<span class="token keyword">create</span> <span class="token keyword">database</span> <span class="token punctuation">[</span><span class="token keyword">if</span> <span class="token operator">not</span> <span class="token keyword">exists</span><span class="token punctuation">]</span> school<span class="token punctuation">;</span>
-
-<span class="token comment">-- \u5220\u9664\u6570\u636E\u5E93\uFF0C\u5982\u679C\u5B58\u5728\uFF0C\u4E0D\u5B58\u5728\u5219\u8DF3\u8FC7\u8FD9\u53E5\u3002</span>
-<span class="token keyword">drop</span> databser <span class="token punctuation">[</span><span class="token keyword">if</span> <span class="token keyword">exists</span><span class="token punctuation">]</span> school<span class="token punctuation">;</span>
-
-<span class="token comment">-- \u5207\u6362\u6570\u636E\u5E93(\u6CE8\u610F\u4E0B\u9762\u5E93\u540D\u6709\u53CD\u5F15\u53F7\uFF0C\u5982\u679C\u4F60\u7684\u5B57\u6BB5\u548CMySQL\u91CD\u540D\u4E86\u5C31\u9700\u8981\u7528\u53CD\u5F15\u53F7\u5305\u88F9)</span>
-<span class="token keyword">use</span> <span class="token punctuation">\`</span>school<span class="token punctuation">\`</span><span class="token punctuation">;</span>
-
-<span class="token comment">-- \u67E5\u770B\u6240\u6709\u6570\u636E\u5E93</span>
-<span class="token keyword">show</span> <span class="token keyword">databases</span><span class="token punctuation">;</span>
-
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><h2 id="\u64CD\u4F5C\u8868" tabindex="-1"><a class="header-anchor" href="#\u64CD\u4F5C\u8868" aria-hidden="true">#</a> \u64CD\u4F5C\u8868</h2><h3 id="_1-\u6570\u636E\u7C7B\u578B" tabindex="-1"><a class="header-anchor" href="#_1-\u6570\u636E\u7C7B\u578B" aria-hidden="true">#</a> 1.\u6570\u636E\u7C7B\u578B</h3><blockquote><p><code>\u6570\u503C</code></p></blockquote><ul><li><code>tinyint</code>\uFF1A\u5341\u5206\u5C0F\u7684\u6570\u636E\uFF0C1 \u4E2A\u5B57\u8282</li><li><code>smallint</code>\uFF1A\u8F83\u5C0F\u7684\u6570\u636E\uFF0C2 \u4E2A\u5B57\u8282</li><li><code>mediumint</code>\uFF1A\u4E2D\u7B49\u5927\u5C0F\u7684\u6570\u636E\uFF0C3 \u4E2A\u5B57\u8282</li><li><code>int</code>\uFF1A\u6807\u51C6\u6574\u6570\uFF0C4 \u4E2A\u5B57\u8282\uFF0C\u5E38\u7528</li><li><code>bigint</code>\uFF1A\u8F83\u5927\u7684\u6570\u636E\uFF0C8 \u4E2A\u5B57\u8282</li><li><code>float</code>\uFF1A\u6D6E\u70B9\u6570\uFF0C4 \u4E2A\u5B57\u8282</li><li><code>double</code>\uFF1A\u6D6E\u70B9\u6570\uFF0C8 \u4E2A\u5B57\u8282</li><li><code>decimal</code>\uFF1A\u5B57\u7B26\u4E32\u6D6E\u70B9\u6570\uFF0C\u91D1\u878D\u8BA1\u7B97\u5E38\u7528\uFF08\u4E0D\u4F1A\u7CBE\u5EA6\u7F3A\u5C11\uFF09\u5E38\u7528</li></ul><blockquote><p><code>\u5B57\u7B26\u4E32</code></p></blockquote><ul><li><code>char</code>\uFF1A\u56FA\u5B9A\u5927\u5C0F\u5B57\u7B26\u4E32\uFF0C0-255</li><li><code>varchar</code>\uFF1A\u53EF\u53D8\u5B57\u7B26\u4E32\uFF0C0-65535\uFF0C\u5E38\u7528\uFF0C\u5BF9\u5E94 Java \u4E2D\u7684 string</li><li><code>tinytext</code>\uFF1A\u5FAE\u578B\u6587\u672C\uFF0C2<sup>8</sup>-1</li><li><code>text</code>\uFF1A\u6587\u672C\u4E32\uFF0C2<sup>16</sup>-1</li></ul><blockquote><p><code>\u65F6\u95F4\u65E5\u671F</code></p></blockquote><ul><li><code>date</code>\uFF1Ayyyy-mm-dd\uFF0C\u65E5\u671F</li><li><code>time</code>\uFF1Ahh:mm:ss \u65F6\u95F4\u683C\u5F0F</li><li><code>datetime</code>\uFF1Ayyyy-mm-dd hh:mm:ss \u5E38\u7528\u7684\u65F6\u95F4\u683C\u5F0F</li><li><code>timestamp</code>\uFF1A\u65F6\u95F4\u6233\uFF0C1970.1.1 \u5230\u73B0\u5728\u7684\u65F6\u95F4\u6233\uFF0C\u5E38\u7528\u7684\u65F6\u95F4\u683C\u5F0F</li><li><code>year</code>\uFF1A\u5E74\u4EFD\u8868\u793A</li></ul><blockquote><p><code>null</code></p></blockquote><ul><li>\u6CA1\u6709\u503C\uFF0C\u672A\u77E5</li><li>\u6CE8\u610F\uFF0C\u5C3D\u91CF\u4E0D\u8981\u4F7F\u7528 null \u6765\u8FD0\u7B97\uFF0C\u5BB9\u6613\u62A5\u9519</li><li>\u5982\u679C\u8A72\u5217\u6CA1\u503C\uFF0C\u53EF\u4EE5\u7528\u5176\u7C7B\u578B\u7684\u9ED8\u8BA4\u503C\uFF0C\u4E0D\u8981 null</li></ul><h3 id="_2-\u5B57\u6BB5\u5C5E\u6027-\u91CD\u8981" tabindex="-1"><a class="header-anchor" href="#_2-\u5B57\u6BB5\u5C5E\u6027-\u91CD\u8981" aria-hidden="true">#</a> 2.\u5B57\u6BB5\u5C5E\u6027\uFF08\u91CD\u8981\uFF09</h3><blockquote><p><code>Unsigned</code></p></blockquote><p>\u6570\u503C\u7C7B\u578B\u4F7F\u7528\uFF0C\u6807\u6CE8\u503C\u4E3A\u65E0\u7B26\u53F7\u7684\u6574\u6570\uFF0C\u4E0D\u80FD\u4E3A\u8D1F\u6570\uFF0C\u5426\u5219\u62A5\u9519\u3002</p><blockquote><p><code>zerofill</code></p></blockquote><p>0 \u586B\u5145\u7684 \u4E0D\u8DB3\u7684\u4F4D\u6570\uFF0C\u4F7F\u7528 0 \u6765\u586B\u5145 \u6BD4\u5982\uFF1Aint(5 \u4E2A\u5B57\u8282)\uFF0C\u5982\u679C\u4F20\u5165<code>5</code>\uFF0C\u90A3\u4FDD\u5B58\u7684\u662F<code>0005</code></p><blockquote><p><code>auto_increamennt</code></p></blockquote><p>\u7B80\u5355\u7406\u89E3\u5C31\u662F\u81EA\u589E\uFF0C\u81EA\u52A8\u5728\u4E0A\u4E00\u6761\u8BB0\u5F55\u57FA\u7840\u4E0A\u52A0\u4E00\uFF08\u9ED8\u8BA4\uFF09 \u5E38\u7528\u4E8E\u8BBE\u8BA1\u552F\u4E00\u4E3B\u952E\u81EA\u589E\uFF0C\u5FC5\u987B\u662F\u6574\u6570\u7C7B\u578B \u53EF\u4EE5\u8BBE\u7F6E\u8D77\u59CB\u503C\u548C\u589E\u91CF\uFF0C\u4E00\u822C\u4E0D\u6539</p><blockquote><p><code>not null</code></p></blockquote><p>\u975E\u7A7A \u5982\u679C\u8BBE\u7F6E\u4E86\uFF0C\u5728\u63D2\u5165\u503C\u7684\u65F6\u5019\u5982\u679C\u4E3A null \u5219\u62A5\u9519\u3002 null\uFF1A\u5982\u679C\u4E0D\u586B\u5199\u503C\uFF0CMySQL \u4F1A\u4E3A null\u3002</p><blockquote><p><code>default</code></p></blockquote><p>\u8BBE\u7F6E\u9ED8\u8BA4\u503C \u5982\u679C\u63D2\u5165\u6570\u636E\u65F6\uFF0C\u5982\u679C\u4E0D\u6307\u5B9A\u8BE5\u5217\u7684\u503C\uFF0C\u5C31\u4F1A\u4F7F\u7528 default \u9ED8\u8BA4\u503C</p><ol><li>\u7EC3\u4E60 <ul><li>\u521B\u5EFA\u4E00\u4E2A school \u5E93</li><li>\u521B\u5EFA\u5B66\u751F\u8868</li><li>\u5B66\u53F7 int</li><li>\u767B\u9646\u5BC6\u7801 varchar(20)</li><li>\u59D3\u540D</li><li>\u6027\u522B</li><li>\u51FA\u751F\u65E5\u671F</li><li>\u5BB6\u5EAD\u5730\u5740</li><li>Email</li></ul></li></ol><p>\u6CE8\u610F\uFF1A\u4F7F\u7528\u82F1\u6587\u7B26\u53F7\uFF0C\u8868\u548C\u5B57\u6BB5\u540D\u79F0\u5C3D\u91CF\u4F7F\u7528\u53CD\u5F15\u53F7\u5305\u88F9\u3002\u552F\u4E00\u503C\u8BBE\u7F6E\u81EA\u589E,\u4E00\u822C\u4F7F\u7528\u5355\u5F15\u53F7\uFF0C\u8BED\u53E5\u9017\u53F7\u9694\u5F00\uFF0C\u6700\u540E\u4E00\u4E2A\u4E0D\u7528</p><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token keyword">show</span> <span class="token keyword">create</span> <span class="token keyword">database</span> school<span class="token punctuation">;</span> <span class="token comment">--\u67E5\u770B\u521B\u5EFA\u6570\u636E\u5E93\u7684\u8BED\u53E5</span>
-<span class="token keyword">show</span> <span class="token keyword">create</span> <span class="token keyword">table</span> student<span class="token punctuation">;</span> <span class="token comment">--\u67E5\u770B\u8868\u5B9A\u4E49\u7684\u8BED\u53E5</span>
-<span class="token keyword">desc</span> student <span class="token comment">--\u67E5\u770B\u8868\u7ED3\u6784</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token keyword">create</span> <span class="token keyword">table</span> <span class="token keyword">if</span> <span class="token operator">not</span> <span class="token keyword">exists</span> <span class="token punctuation">\`</span>student<span class="token punctuation">\`</span> <span class="token punctuation">(</span>
-   <span class="token punctuation">\`</span>id<span class="token punctuation">\`</span> <span class="token keyword">int</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">)</span> <span class="token operator">not</span> <span class="token boolean">null</span> auto_increamennt <span class="token keyword">comment</span> <span class="token string">&#39;\u5B66\u53F7&#39;</span><span class="token punctuation">,</span>
-   <span class="token punctuation">\`</span>name<span class="token punctuation">\`</span> <span class="token keyword">varchar</span><span class="token punctuation">(</span><span class="token number">30</span><span class="token punctuation">)</span> <span class="token operator">not</span> <span class="token boolean">null</span> <span class="token keyword">default</span> <span class="token string">&#39;\u533F\u540D&#39;</span> <span class="token keyword">comment</span> <span class="token string">&#39;\u59D3\u540D&#39;</span><span class="token punctuation">,</span>
-   <span class="token punctuation">\`</span>password<span class="token punctuation">\`</span> <span class="token keyword">varchar</span><span class="token punctuation">(</span><span class="token number">20</span><span class="token punctuation">)</span> <span class="token operator">not</span> <span class="token boolean">null</span> <span class="token keyword">default</span> <span class="token string">&#39;123456&#39;</span> <span class="token keyword">comment</span> <span class="token string">&#39;\u5BC6\u7801&#39;</span><span class="token punctuation">,</span>
-   <span class="token punctuation">\`</span>sex<span class="token punctuation">\`</span> <span class="token keyword">varchar</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span> <span class="token operator">not</span> <span class="token boolean">null</span> <span class="token keyword">default</span> <span class="token string">&#39;\u5973&#39;</span> <span class="token keyword">comment</span> <span class="token string">&#39;\u6027\u522B&#39;</span><span class="token punctuation">,</span>
-   <span class="token punctuation">\`</span>birthday<span class="token punctuation">\`</span> <span class="token keyword">datetime</span> <span class="token keyword">default</span> <span class="token boolean">null</span> <span class="token keyword">comment</span> <span class="token string">&#39;\u51FA\u751F\u65E5\u671F&#39;</span><span class="token punctuation">,</span>
-   <span class="token punctuation">\`</span>address<span class="token punctuation">\`</span> <span class="token keyword">varchar</span><span class="token punctuation">(</span><span class="token number">100</span><span class="token punctuation">)</span> <span class="token keyword">default</span> <span class="token boolean">null</span> <span class="token keyword">comment</span> <span class="token string">&#39;\u5BB6\u5EAD\u5730\u5740&#39;</span><span class="token punctuation">,</span>
-   <span class="token punctuation">\`</span>email<span class="token punctuation">\`</span> <span class="token keyword">varchar</span><span class="token punctuation">(</span><span class="token number">50</span><span class="token punctuation">)</span> <span class="token keyword">default</span> <span class="token boolean">null</span> <span class="token keyword">comment</span> <span class="token string">&#39;&#39;</span>\u90AE\u7BB1<span class="token punctuation">,</span>
-   <span class="token keyword">primary</span> <span class="token keyword">key</span><span class="token punctuation">(</span><span class="token punctuation">\`</span>id<span class="token punctuation">\`</span><span class="token punctuation">)</span>
-<span class="token punctuation">)</span><span class="token keyword">engine</span><span class="token operator">=</span><span class="token keyword">innodb</span> <span class="token keyword">default</span> <span class="token keyword">charset</span><span class="token operator">=</span>utf8
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token keyword">create</span> <span class="token keyword">table</span> <span class="token punctuation">[</span><span class="token keyword">if</span> <span class="token operator">not</span> <span class="token keyword">exists</span><span class="token punctuation">]</span> <span class="token punctuation">\`</span>\u8868\u540D<span class="token punctuation">\`</span> <span class="token punctuation">(</span>
-   <span class="token punctuation">\`</span>\u5B57\u6BB5\u540D<span class="token punctuation">\`</span> \u5217\u7C7B\u578B <span class="token punctuation">[</span>\u5C5E\u6027<span class="token punctuation">]</span> <span class="token punctuation">[</span>\u7D22\u5F15<span class="token punctuation">]</span> <span class="token punctuation">[</span>\u6CE8\u91CA<span class="token punctuation">]</span>
-   <span class="token comment">--......</span>
-<span class="token punctuation">)</span><span class="token punctuation">[</span>\u8868\u7C7B\u578B<span class="token punctuation">]</span><span class="token punctuation">[</span>\u5B57\u7B26\u96C6\u8BBE\u7F6E<span class="token punctuation">]</span><span class="token punctuation">[</span>\u6CE8\u91CA<span class="token punctuation">]</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h3 id="_3-\u6570\u636E\u5E93\u5F15\u64CE\u548C\u7F16\u7801" tabindex="-1"><a class="header-anchor" href="#_3-\u6570\u636E\u5E93\u5F15\u64CE\u548C\u7F16\u7801" aria-hidden="true">#</a> 3.\u6570\u636E\u5E93\u5F15\u64CE\u548C\u7F16\u7801</h3><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">MyIsam</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">InnoDB</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4E8B\u52A1\u652F\u6301</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4E0D\u652F\u6301</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u652F\u6301</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6570\u636E\u884C\u9501\u5B9A</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4E0D\u652F\u6301</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u652F\u6301</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5916\u952E</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4E0D\u652F\u6301</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u652F\u6301</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5168\u6587\u7D22\u5F15</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u652F\u6301</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6682\u4E0D\u652F\u6301</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u7A7A\u95F4\u5927\u5C0F</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8F83\u5C0F</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8F83\u5927\uFF0C\u7EA6\u524D\u8005 2 \u500D</td></tr></tbody></table><blockquote><p>\u7269\u7406\u5B58\u50A8\u7684\u533A\u522B</p></blockquote><ol><li>InnoDB\uFF1A(\u6CE8\u610F 5.x \u548C 8.x \u7248\u672C\u6709\u4E0D\u540C)</li></ol><p><code>.frm</code>\uFF1A\u5B58\u50A8\u8868\u5B9A\u4E49\uFF0C\u5728 5.x \u4EE5\u4E0B\u5E94\u8BE5\u5B58\u5728</p><p><code>.idb</code>\uFF1A\u5B58\u50A8\u6570\u636E\u548C\u7D22\u5F15\uFF0C\u5728\u540C\u4E00\u4E2A\u6587\u4EF6\u4E2D\uFF0C8.x \u5E94\u8BE5\u53EF\u89C1</p><ol start="2"><li>MyIsam:</li></ol><p><code>.frm</code>: \u5B58\u50A8\u8868\u5B9A\u4E49</p><p><code>.myd(MYData)</code>: \u5B58\u50A8\u6570\u636E</p><p><code>.MYI(MYindex)</code>: \u5B58\u50A8\u5F15\u64CE,\u5373\u7D22\u5F15\u6587\u4EF6</p><blockquote><p>\u8BBE\u7F6E\u6570\u636E\u5E93\u8868\u7F16\u7801\u95EE\u9898</p></blockquote><p><code>charset=utf8mb64</code></p><p>\u53EF\u4EE5\u4E86\u89E3\u4E00\u4E0B<code>COLLATE = utf8mb4_general_ci;</code></p><p>\u6392\u5E8F\u89C4\u5219\uFF1A\u662F\u6307\u5BF9\u6307\u5B9A\u5B57\u7B26\u96C6\u4E0B\u4E0D\u540C\u5B57\u7B26\u7684\u6BD4\u8F83\u89C4\u5219\u3002</p><p>\u5176\u7279\u5F81\u6709\u4EE5\u4E0B\u51E0\u70B9\uFF1A</p><ol><li><p>\u4E24\u4E2A\u4E0D\u540C\u7684\u5B57\u7B26\u96C6\u4E0D\u80FD\u6709\u76F8\u540C\u7684\u6392\u5E8F\u89C4\u5219</p></li><li><p>\u4E24\u4E2A\u5B57\u7B26\u96C6\u6709\u4E00\u4E2A\u9ED8\u8BA4\u7684\u6392\u5E8F\u89C4\u5219</p></li><li><p>\u6709\u4E00\u4E9B\u5E38\u7528\u7684\u547D\u540D\u89C4\u5219\u3002\u5982_ci\u7ED3\u5C3E\u8868\u793A\u5927\u5C0F\u5199\u4E0D\u654F\u611F\uFF08caseinsensitive\uFF09,_cs\u8868\u793A\u5927\u5C0F\u5199\u654F\u611F\uFF08case sensitive\uFF09,_bin\u8868\u793A\u4E8C\u8FDB\u5236\u7684\u6BD4\u8F83\uFF08binary\uFF09.</p></li></ol><p>\u9996\u5148 MySQL \u9ED8\u8BA4\u5B57\u7B26\u96C6\u7F16\u7801\u4E0D\u652F\u6301\u4E2D\u6587\uFF0C\u6240\u4EE5\u5C3D\u91CF\u90FD\u8BBE\u7F6E\uFF0C\u4E0D\u7136\u5728\u4E0D\u540C\u73AF\u5883\u4E0B\u4F1A\u51FA\u73B0\u95EE\u9898\u3002</p><h3 id="_4-\u5B57\u6BB5\u5220\u9664\u548C\u4FEE\u6539" tabindex="-1"><a class="header-anchor" href="#_4-\u5B57\u6BB5\u5220\u9664\u548C\u4FEE\u6539" aria-hidden="true">#</a> 4.\u5B57\u6BB5\u5220\u9664\u548C\u4FEE\u6539</h3><blockquote><p>\u4FEE\u6539\u8868<code>alter</code></p></blockquote><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">-- \u4FEE\u6539\u8868\u540D</span>
-<span class="token keyword">alter</span> <span class="token keyword">table</span> teacher <span class="token keyword">rename</span> <span class="token keyword">as</span> teacher_new
-
-<span class="token comment">-- \u589E\u52A0\u5B57\u6BB5\u540D  alter table \u8868\u540D add \u5B57\u6BB5\u540D \u5217\u5C6C\u6027 \u7D22\u5F15;</span>
-<span class="token keyword">alter</span> <span class="token keyword">table</span> teacher_new <span class="token keyword">add</span> age <span class="token keyword">int</span><span class="token punctuation">(</span><span class="token number">11</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-<span class="token comment">-- \u66F4\u6539\u5217\u5C5E\u6027 modify: alter table \u8868\u540D \u5217\u540D \u7C7B\u578B</span>
-<span class="token keyword">alter</span> <span class="token keyword">table</span> teacher_new <span class="token keyword">modify</span> age <span class="token keyword">varchar</span><span class="token punctuation">(</span><span class="token number">11</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">--\u4FEE\u6539\u7D04\u675F</span>
-
-
-<span class="token comment">-- \u66F4\u6539\u5217\u540D change: alter table \u8868\u540D change \u65E7\u5217\u540D \u65B0\u5217\u540D \u7C7B\u578B;</span>
-<span class="token comment">-- \u53EA\u66F4\u6539\u5217\u5C5E\u6027 change: alter table \u8868\u540D \u5217\u540D \u5217\u540D \u7C7B\u578B;        \u76F8\u540C\u7684\u5217\u540D\u8981\u5199\u4E24\u6B21.</span>
-<span class="token keyword">alter</span> <span class="token keyword">table</span> teacher_new change age age1 <span class="token keyword">int</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">-- \u4FEE\u6539\u5B57\u6BB5\u540D</span>
-<span class="token comment">-- \u7D50\u8F2A\uFF1A</span>
-<span class="token comment">--change\u7528\u4F86\u4FEE\u6539\u5B57\u6BB5\u91CD\u547D\u540D</span>
-<span class="token comment">--modify\u53EA\u80FD\u4FEE\u6539\u5B57\u6BB5\u7684\u985E\u578B\u548C\u7D04\u675F</span>
-
-<span class="token comment">-- \u522A\u9664\u8868\u5B57\u6BB5</span>
-<span class="token keyword">alter</span> <span class="token keyword">table</span> teacher_new <span class="token keyword">drop</span> age1
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br></div></div><blockquote><p>drop</p></blockquote><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">-- \u522A\u9664\u8868</span>
-<span class="token keyword">drop</span> <span class="token keyword">table</span> <span class="token keyword">if</span> <span class="token keyword">exists</span> teacher_new
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><!--]-->`);
-}
-const _sfc_setup$Y = _sfc_main$Y.setup;
-_sfc_main$Y.setup = (props, ctx) => {
-  const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/mysql/01.mysql.html.vue");
-  return _sfc_setup$Y ? _sfc_setup$Y(props, ctx) : void 0;
-};
-var _01_mysql_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$Y, [["ssrRender", _sfc_ssrRender$K]]);
-var _01_mysql_html$2 = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  "default": _01_mysql_html$1
-});
-const _sfc_main$X = {};
-function _sfc_ssrRender$J(_ctx, _push, _parent, _attrs) {
-  const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
-  _push(`<!--[--><h1 id="\u6578\u64DA\u7BA1\u7406" tabindex="-1"><a class="header-anchor" href="#\u6578\u64DA\u7BA1\u7406" aria-hidden="true">#</a> \u6578\u64DA\u7BA1\u7406</h1><h2 id="\u5916\u9375" tabindex="-1"><a class="header-anchor" href="#\u5916\u9375" aria-hidden="true">#</a> \u5916\u9375</h2><p>\u4E0B\u9762\u662F\u7269\u7406\u5916\u9375\uFF1A</p><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">-- \u5B9A\u7FA9\u5916\u9375 key</span>
-<span class="token comment">-- \u5916\u9375\u985E\u4F3C\u65BC\u7D04\u675F\uFF0C\u57F7\u884C\u5F15\u7528\u5176\u5B83\u8868\u7684\u6578\u64DA\uFF0Creferences \u5F15\u7528</span>
-<span class="token keyword">key</span> <span class="token punctuation">\`</span>FK_gradeid<span class="token punctuation">\`</span> <span class="token punctuation">(</span><span class="token punctuation">\`</span>gradeid<span class="token punctuation">\`</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-<span class="token keyword">constraint</span> <span class="token punctuation">\`</span>FK_gradeid<span class="token punctuation">\`</span> <span class="token keyword">foreign</span> <span class="token keyword">key</span> <span class="token punctuation">(</span><span class="token punctuation">\`</span>gradeid<span class="token punctuation">\`</span><span class="token punctuation">)</span> <span class="token keyword">references</span> <span class="token punctuation">\`</span>gradeid<span class="token punctuation">\`</span> <span class="token punctuation">(</span><span class="token punctuation">\`</span>gradeid<span class="token punctuation">\`</span><span class="token punctuation">)</span>
-<span class="token comment">-- 1.\u5916\u9375\u4E0D\u80FD\u662F\u4E3B\u9375</span>
-<span class="token comment">-- 2.\u5169\u500B\u5B57\u6BB5\u6578\u64DA\u985E\u578B\u548C\u7D04\u675F\u5FC5\u9808\u76F8\u540C</span>
-
-<span class="token comment">-- \u6216\u8005</span>
-
-<span class="token keyword">alter</span> <span class="token keyword">table</span> <span class="token punctuation">\`</span>\u8868\u540D<span class="token punctuation">\`</span>
-<span class="token keyword">add</span> <span class="token keyword">constraint</span> <span class="token punctuation">\`</span>FK_gradeid<span class="token punctuation">\`</span> <span class="token keyword">foreign</span> <span class="token keyword">key</span> <span class="token punctuation">(</span><span class="token punctuation">\`</span>gradeid<span class="token punctuation">\`</span><span class="token punctuation">)</span> <span class="token keyword">references</span> <span class="token punctuation">\`</span>grade<span class="token punctuation">\`</span> <span class="token punctuation">(</span><span class="token punctuation">\`</span>gradeid<span class="token punctuation">\`</span><span class="token punctuation">)</span>
-
-<span class="token comment">-- alter table \u8868 add constraint [\u7D04\u675F\u540D] foreign key (\u4F5C\u70BA\u5916\u9375\u7684\u5217) references \u90A3\u500B\u8868\uFF08\u90A3\u500B\u5B57\u6BB5\uFF09</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div><p>\u522A\u9664\u5916\u9375\u7684\u6642\u5019\uFF0C\u5FC5\u9808\u5148\u522A\u9664\u5B57\u8868\uFF0C\u518D\u522A\u9664\u7236\u8868</p><h4 id="\u4E0D\u5F97\u4F7F\u7528\u5916\u9375\u65BC\u7D1A\u806F" tabindex="-1"><a class="header-anchor" href="#\u4E0D\u5F97\u4F7F\u7528\u5916\u9375\u65BC\u7D1A\u806F" aria-hidden="true">#</a> \u4E0D\u5F97\u4F7F\u7528\u5916\u9375\u65BC\u7D1A\u806F</h4><h2 id="dml-\u8A9E\u8A00" tabindex="-1"><a class="header-anchor" href="#dml-\u8A9E\u8A00" aria-hidden="true">#</a> DML \u8A9E\u8A00</h2><h3 id="\u63D2\u5165" tabindex="-1"><a class="header-anchor" href="#\u63D2\u5165" aria-hidden="true">#</a> \u63D2\u5165</h3><blockquote><p>insert</p></blockquote><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">-- insert into \u8868\u540D (\`\u5B57\u6BB5\u540D\`,\`\u5B57\u6BB5\u540D2\`) values \uFF08\`\u503C1\`,\`\u503C2\`\uFF09</span>
-<span class="token comment">-- insert into \u8868\u540D (\`\u5B57\u6BB5\u540D\`) values \uFF08\`\u503C1\`),(\`\u503C2\`\uFF09; \u4E00\u500B\u5B57\u6BB5\u591A\u500B\u503C</span>
-<span class="token keyword">insert</span> <span class="token keyword">into</span> <span class="token punctuation">\`</span>student<span class="token punctuation">\`</span> <span class="token punctuation">(</span><span class="token punctuation">\`</span>name<span class="token punctuation">\`</span><span class="token punctuation">)</span> <span class="token keyword">values</span> <span class="token punctuation">(</span><span class="token string">&#39;\u9673\u67D2&#39;</span><span class="token punctuation">)</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>\u6CE8\u610F\uFF1A\u5B57\u6BB5\u548C\u503C\u5F97\u4F4D\u7F6E\u662F\u4E00\u4E00\u5C0D\u61C9\u7684</p><h3 id="\u4FEE\u6539" tabindex="-1"><a class="header-anchor" href="#\u4FEE\u6539" aria-hidden="true">#</a> \u4FEE\u6539</h3><blockquote><p>update</p></blockquote><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">-- \u8A9E\u6CD5\uFF1Aupdate \u8868\u540D set column_name = value where [\u689D\u4EF6]</span>
-<span class="token keyword">update</span> <span class="token punctuation">\`</span>student<span class="token punctuation">\`</span> <span class="token keyword">set</span> <span class="token punctuation">\`</span>name<span class="token punctuation">\`</span><span class="token operator">=</span><span class="token string">&#39;\u9673\u67D2&#39;</span> <span class="token keyword">where</span> id <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
-
-<span class="token comment">-- \u4FEE\u6539\u591A\u500B\u5C6C\u6027</span>
-<span class="token keyword">update</span> <span class="token punctuation">\`</span>student<span class="token punctuation">\`</span> <span class="token keyword">set</span> <span class="token punctuation">\`</span>name<span class="token punctuation">\`</span><span class="token operator">=</span><span class="token string">&#39;\u9673\u67D2&#39;</span><span class="token punctuation">,</span><span class="token punctuation">\`</span>age<span class="token punctuation">\`</span><span class="token operator">=</span><span class="token string">&#39;22&#39;</span><span class="token punctuation">,</span><span class="token punctuation">\`</span>email<span class="token punctuation">\`</span><span class="token operator">=</span><span class="token string">&#39;3062995371@qq.com&#39;</span> <span class="token keyword">where</span> id <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p>\u8A9E\u6CD5\uFF1A<code>update \u8868\u540D set column_name = value,[column_name = value,......] where [\u689D\u4EF6]</code></p><p>\u6CE8\u610F\uFF1A</p><ol><li>\u4E0D\u5BEB\u689D\u4EF6\u6703\u5F71\u97FF\u6574\u5F35\u8868</li><li><code>column_name</code>\u662F\u6578\u64DA\u5EAB\u7684\u5217\uFF0C\u76E1\u91CF\u5E36\u4E0A\u82F1\u6587\u5192\u865F\`\`</li><li><code>value</code>\u662F\u4E00\u500B\u5177\u9AD4\u7684\u503C\uFF0C\u4E5F\u53EF\u4EE5\u662F\u4E00\u500B\u8B8A\u91CF</li></ol><p>\u91CD\u9EDE\u5728\u4E8E<code>where</code>\u689D\u4EF6\uFF0C\u5176\u4F5C\u7528\u4E8E\u6BCF\u689D\u6578\u64DA\uFF0C\u8A08\u7B97\u7D50\u679C\u5FC5\u9808\u662F<code>Boolean</code>\u503C\uFF1A</p><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u64CD\u4F5C\u7B26</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u542B\u7FA9</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4F8B\u5B50</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>=</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u7B49\u65BC</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>&lt;&gt;</code>\u6216<code>!=</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4E0D\u7B49\u65BC</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>&gt;</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5927\u65BC</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>&lt;</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5C0F\u65BC</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>between...and...</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6307\u5B9A\u7BC4\u570D\u4E4B\u5167\uFF0C\u5982:<code>[2,5]</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>and</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u548C\uFF0C\u985E\u4F3C\u65BC&amp;&amp;\uFF0C\u5DE6\u53F3\u5FC5\u9808\u540C\u6642\u6EFF\u8DB3</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>or</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6216\uFF0C\u5DE6\u53F3\u6EFF\u8DB3\u4E00\u9805\u5373\u53EF</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td></tr></tbody></table><h3 id="\u522A\u9664" tabindex="-1"><a class="header-anchor" href="#\u522A\u9664" aria-hidden="true">#</a> \u522A\u9664</h3><blockquote><p>delete</p></blockquote><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">--\u522A\u9664\u6307\u5B9A\u6578\u64DA</span>
-<span class="token keyword">delete</span> <span class="token keyword">from</span> <span class="token punctuation">\`</span>student<span class="token punctuation">\`</span> <span class="token keyword">where</span> id <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
-
-
-<span class="token comment">-- \u6E05\u7A7A\u8868</span>
-<span class="token keyword">truncate</span> <span class="token punctuation">\`</span>student<span class="token punctuation">\`</span><span class="token punctuation">;</span>
-<span class="token keyword">delete</span> <span class="token keyword">from</span> <span class="token punctuation">\`</span>student<span class="token punctuation">\`</span><span class="token punctuation">;</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><p>\u6E05\u7A7A\u8868\u7684\u5340\u5225\uFF1A</p><ol><li><p><code>delete</code>:</p><ul><li>\u4E0D\u6703\u5F71\u97FF\u81EA\u589E</li></ul></li><li><p><code>truncate</code>:</p><ul><li>\u81EA\u589E\u6703\u6B78\u96F6</li></ul></li></ol><h2 id="dql-\u67E5\u8A62\u6578\u64DA" tabindex="-1"><a class="header-anchor" href="#dql-\u67E5\u8A62\u6578\u64DA" aria-hidden="true">#</a> DQL \u67E5\u8A62\u6578\u64DA</h2><h3 id="\u67E5\u8A62" tabindex="-1"><a class="header-anchor" href="#\u67E5\u8A62" aria-hidden="true">#</a> \u67E5\u8A62</h3><blockquote><p>\u6307\u5B9A\u5B57\u6BB5\u67E5\u8A62</p></blockquote><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">-- \u67E5\u8A62\u6240\u6709\u5B78\u751F</span>
-<span class="token keyword">select</span> <span class="token operator">*</span> form student
-
-<span class="token comment">--\u67E5\u8A62\u6307\u5B9A\u5B57\u6BB5</span>
-<span class="token keyword">select</span> <span class="token punctuation">\`</span>student_no<span class="token punctuation">\`</span><span class="token punctuation">,</span><span class="token punctuation">\`</span>student_name<span class="token punctuation">\`</span> <span class="token keyword">from</span> student<span class="token punctuation">;</span>
-
-<span class="token comment">--\u67E5\u8A62\u6307\u5B9A\u5B57\u6BB5\u6DFB\u52A0\u5225\u540D\uFF08\u7D66\u5B57\u6BB5\u8D77\u5225\u540D\uFF0C\u8868\u4E5F\u53EF\u4EE5\uFF09</span>
-<span class="token keyword">select</span> <span class="token punctuation">\`</span>student_no<span class="token punctuation">\`</span> <span class="token keyword">as</span> \u5B78\u865F<span class="token punctuation">,</span><span class="token punctuation">\`</span>student_name<span class="token punctuation">\`</span> <span class="token keyword">as</span> \u59D3\u540D <span class="token keyword">from</span> student<span class="token punctuation">;</span>
-
-<span class="token comment">-- \u51FD\u6578:Concat(a,b)\uFF0C\u62FC\u63A5\u5B57\u7B26\u4E32</span>
-<span class="token keyword">select</span> concat<span class="token punctuation">(</span><span class="token string">&#39;\u59D3\u540D\uFF1A&#39;</span><span class="token punctuation">,</span>student_name<span class="token punctuation">)</span> <span class="token keyword">as</span> \u540D\u5B57 <span class="token keyword">from</span> student<span class="token punctuation">;</span>
-
-<span class="token comment">-- \u8A9E\u6CD5</span>
-<span class="token keyword">select</span> <span class="token punctuation">[</span><span class="token keyword">all</span><span class="token operator">|</span><span class="token keyword">distinct</span><span class="token punctuation">]</span>
-{<span class="token operator">*</span> <span class="token operator">|</span> <span class="token keyword">table</span><span class="token punctuation">.</span><span class="token operator">*</span> <span class="token operator">|</span> <span class="token punctuation">[</span><span class="token keyword">table</span><span class="token punctuation">.</span>field1<span class="token punctuation">[</span><span class="token keyword">as</span> alias1<span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token punctuation">,</span><span class="token keyword">table</span><span class="token punctuation">.</span>field2<span class="token punctuation">[</span><span class="token keyword">as</span> alias2<span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token punctuation">,</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">]</span><span class="token punctuation">]</span>}
-<span class="token keyword">from</span> table_name <span class="token punctuation">[</span><span class="token keyword">as</span> table_alias<span class="token punctuation">]</span>
-     <span class="token punctuation">[</span><span class="token keyword">left</span> <span class="token operator">|</span> <span class="token keyword">right</span> <span class="token operator">|</span> <span class="token keyword">inner</span>  <span class="token keyword">join</span> table_name2<span class="token punctuation">]</span> <span class="token comment">--\u806F\u5408\u67E5\u8A62</span>
-     <span class="token punctuation">[</span><span class="token keyword">where</span> <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">]</span> <span class="token comment">-- \u6307\u5B9A\u67E5\u8A62\u689D\u4EF6</span>
-     <span class="token punctuation">[</span><span class="token keyword">group</span> <span class="token keyword">by</span> <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">]</span> <span class="token comment">-- \u6307\u5B9A\u7D50\u679C\u6309\u7167\u90A3\u5E7E\u500B\u5B57\u6BB5\u4F86\u5206\u7D44</span>
-     <span class="token punctuation">[</span><span class="token keyword">having</span> <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">]</span> <span class="token comment">--\u904E\u6FFE\u5206\u7D44\u7684\u8A18\u9304\u5FC5\u9808\u6EFF\u8DB3\u7684\u6B21\u8981\u689D\u4EF6</span>
-     <span class="token punctuation">[</span><span class="token keyword">order</span> <span class="token keyword">by</span> <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">]</span> <span class="token comment">--\u6307\u5B9A\u67E5\u8A62\u6309\u7167\u4E00\u500B\u6216\u591A\u500B\u9032\u884C\u6392\u5E8F</span>
-     <span class="token punctuation">[</span>limt {<span class="token punctuation">[</span><span class="token keyword">offset</span><span class="token punctuation">,</span><span class="token punctuation">]</span>row_count <span class="token operator">|</span> row_countoffset <span class="token keyword">offset</span>}<span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token comment">-- \u6307\u5B9A\u67E5\u8A62\u8A18\u9304\u5F9E\u90A3\u689D\u5230\u90A3\u689D</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br></div></div><h3 id="\u53BB\u91CD" tabindex="-1"><a class="header-anchor" href="#\u53BB\u91CD" aria-hidden="true">#</a> \u53BB\u91CD</h3><blockquote><p>distinct</p></blockquote><div class="language-SQL ext-SQL line-numbers-mode"><pre class="language-SQL"><code>-- \u5254\u9664\u91CD\u8907\u6578\u64DA\uFF0C\u91CD\u8907\u53EA\u986F\u793A\u4E00\u689D\uFF0C\u67E5\u8A62result\u4E2Dstudent_no\uFF0C\u4E26\u53BB\u91CD
-select distinct \`student_no\` from result;
-
-select 100*3-1; --\u904B\u7B97\u8868\u9054\u5F0F
-select version(); --\u67E5\u770Bmysql\u7248\u672C
-select @@auto_increment_increment;--\u67E5\u770B\u81EA\u589E\u6B65\u9577
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><p>\u6578\u64DA\u5EAB\u4E2D\u7684<code>select</code>\u8868\u9054\u5F0F\uFF1A\u6587\u672C\u503C\uFF0C\u5217\uFF0Cnull\uFF0C\u51FD\u6578\uFF0C\u8A08\u7B97\u8868\u9054\u5F0F\uFF0C\u7CFB\u7D71\u8B8A\u91CF</p><h3 id="where-\u689D\u4EF6\u5B57\u53E5" tabindex="-1"><a class="header-anchor" href="#where-\u689D\u4EF6\u5B57\u53E5" aria-hidden="true">#</a> where \u689D\u4EF6\u5B57\u53E5</h3><p>\u4F5C\u7528\uFF1A\u5C31\u662F\u6AA2\u7D22\u6578\u64DA\u4E2D<code>\u7B26\u5408\u689D\u4EF6</code>\u7684\u503C</p><blockquote><p>\u908F\u8F2F\u904B\u7B97\u7B26</p></blockquote><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u904B\u7B97\u7B26</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8A9E\u6CD5</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u63CF\u8FF0</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>and</code>,<code>&amp;&amp;</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">a and b \u6216\u8005 a &amp;&amp; b</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u908F\u8F2F\u8207\uFF0C\u5169\u500B\u70BA\u771F\u624D\u70BA\u771F</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>or</code>, ||</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">a or b \u6216\u8005 a || b</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u908F\u8F2F\u6216\uFF0C\u4E00\u500B\u70BA\u771F\u624D\u70BA\u771F</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>not</code>,<code>!</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>not</code> a \u6216\u8005 !a</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u908F\u8F2F\u975E\uFF0C\u771F\u70BA\u5047\uFF0C\u5047\u70BA\u771F</td></tr></tbody></table><p>\u6CE8\u610F\uFF1A\u76E1\u91CF\u4F7F\u7528\u82F1\u6587\u8868\u9054\u5F0F</p><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">-- \u689D\u4EF6\u67E5\u8A62,\u67E5\u8A62\u6210\u7E3E95\u2014\u2014100\u7684\u5B78\u751F</span>
-<span class="token keyword">select</span> student_no <span class="token keyword">from</span> student <span class="token keyword">where</span> student_result<span class="token operator">&gt;=</span><span class="token number">95</span> <span class="token operator">and</span> student_result<span class="token operator">&lt;=</span><span class="token number">100</span><span class="token punctuation">;</span>
-
-<span class="token comment">-- \u5340\u9593\u67E5\u8A62(\u67E5\u8A6295\u2014\u2014100\u5206\u7684\u540C\u5B78)</span>
-<span class="token keyword">select</span> student_no <span class="token keyword">from</span> student <span class="token keyword">where</span> student_result <span class="token operator">between</span> <span class="token number">95</span> <span class="token operator">and</span> <span class="token number">100</span><span class="token punctuation">;</span>
-
-<span class="token comment">--\u67E5\u8A62\u5B78\u865F\u4E0D\u70BA1000\u7684\u540C\u5B78\u7684\u6210\u7E3E</span>
-<span class="token keyword">select</span> student_no <span class="token keyword">from</span> result <span class="token keyword">where</span> <span class="token operator">not</span> student_no<span class="token operator">=</span><span class="token number">1000</span><span class="token punctuation">;</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><h3 id="\u6A21\u7CCA\u67E5\u8A62" tabindex="-1"><a class="header-anchor" href="#\u6A21\u7CCA\u67E5\u8A62" aria-hidden="true">#</a> \u6A21\u7CCA\u67E5\u8A62</h3><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u904B\u7B97\u7B26</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8A9E\u6CD5</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u63CF\u8FF0</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>is null</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">a is null</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5982\u679C a \u70BA null\uFF0C\u7D50\u679C\u70BA\u771F</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>is not null</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">a not null</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5982\u679C a \u4E0D\u70BA null\uFF0C\u7D50\u679C\u70BA\u771F</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>between</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">a bettween b and c</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5982\u679C a \u5728 b \u548C c \u4E4B\u9593\uFF0C\u7D50\u679C\u70BA\u771F</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>like</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">a like b</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">sql \u5339\u914D\u8A9E\u53E5,\u5982\u679C a \u5339\u914D\u5230 b\uFF0C\u8FD4\u56DE\u771F</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>in</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">a in (a1,a2,a3...)</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5982\u679C a \u5728 a1,a2...\u4E2D\u7684\u67D0\u4E00\u500B\u503C\uFF0C\u7D50\u679C\u70BA\u771F</td></tr></tbody></table><blockquote><p>like</p></blockquote><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">--\u67E5\u8A62\u540D\u5B57\u59D3\u5289\u7684\uFF0C\u6A21\u7CCA\u67E5\u8A62\u59D3\u5289\u7684</span>
-<span class="token keyword">select</span> <span class="token punctuation">\`</span>student_name<span class="token punctuation">\`</span> <span class="token keyword">from</span> <span class="token punctuation">\`</span>student<span class="token punctuation">\`</span> <span class="token keyword">where</span> student_name <span class="token operator">like</span> <span class="token string">&#39;\u5289%&#39;</span>
-<span class="token comment">--\u67E5\u8A62\u540D\u5B57\u662F\u4E09\u500B\u5B57\u4E26\u4E14\u59D3\u5289\u7684</span>
-<span class="token keyword">select</span> <span class="token punctuation">\`</span>student_name<span class="token punctuation">\`</span> <span class="token keyword">from</span> <span class="token punctuation">\`</span>student<span class="token punctuation">\`</span> <span class="token keyword">where</span> student_name <span class="token operator">like</span> <span class="token string">&#39;\u5289\u2014__&#39;</span>
-<span class="token comment">--\u67E5\u8A62\u540D\u5B57\u662F\u5169\u500B\u5B57\u4E26\u4E14\u59D3\u5289\u7684</span>
-<span class="token keyword">select</span> <span class="token punctuation">\`</span>student_name<span class="token punctuation">\`</span> <span class="token keyword">from</span> <span class="token punctuation">\`</span>student<span class="token punctuation">\`</span> <span class="token keyword">where</span> student_name <span class="token operator">like</span> <span class="token string">&#39;\u5289_&#39;</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><blockquote><p>in</p></blockquote><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">--\u67E5\u8A62\u5B78\u865F\u70BA\uFF0C1001\uFF0C1002\uFF0C,1003\u7684\u5B78\u54E1</span>
-<span class="token keyword">select</span> student_name <span class="token keyword">from</span> student <span class="token keyword">where</span> student_no <span class="token operator">in</span> <span class="token punctuation">(</span><span class="token number">1001</span><span class="token punctuation">,</span><span class="token number">1002</span><span class="token punctuation">,</span><span class="token number">1003</span><span class="token punctuation">)</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h3 id="\u806F\u8868\u67E5\u8A62" tabindex="-1"><a class="header-anchor" href="#\u806F\u8868\u67E5\u8A62" aria-hidden="true">#</a> \u806F\u8868\u67E5\u8A62</h3><p>\u67D2\u79CD\u67E5\u8A62\u60C5\u6CC1</p><p><img src="https://pic1.zhimg.com/v2-734a8d3ea25f5e22239086fce23b203a_1440w.jpg?source=172ae18b" alt=""></p><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">-- \u62FC\u63A5\u5B78\u865F\u76F8\u540C\u7684\u5169\u500B\u8868\u7684\u5B50\u6BB5</span>
-<span class="token keyword">select</span> a<span class="token punctuation">.</span>student_no<span class="token punctuation">,</span>student_name<span class="token punctuation">,</span>student_result
-<span class="token keyword">from</span> student <span class="token keyword">as</span> s
-<span class="token keyword">inner</span> <span class="token keyword">join</span> result <span class="token keyword">as</span> r
-<span class="token keyword">where</span> s<span class="token punctuation">.</span>student_no <span class="token operator">=</span> r<span class="token punctuation">.</span>student_no
-
-
-<span class="token comment">-- \u5DE6\u67E5\u8A62</span>
-<span class="token keyword">select</span> a<span class="token punctuation">.</span>student_no<span class="token punctuation">,</span>student_name<span class="token punctuation">,</span>student_result
-<span class="token keyword">from</span> student <span class="token keyword">as</span> s
-<span class="token keyword">left</span> <span class="token keyword">join</span> result <span class="token keyword">as</span> r
-<span class="token keyword">on</span> s<span class="token punctuation">.</span>student_no <span class="token operator">=</span> r<span class="token punctuation">.</span>student_no
-
-<span class="token comment">-- \u53F3\u67E5\u8A62</span>
-<span class="token keyword">select</span> a<span class="token punctuation">.</span>student_no<span class="token punctuation">,</span>student_name<span class="token punctuation">,</span>student_result
-<span class="token keyword">from</span> student <span class="token keyword">as</span> s
-<span class="token keyword">right</span> <span class="token keyword">join</span> result <span class="token keyword">as</span> r
-<span class="token keyword">on</span> s<span class="token punctuation">.</span>student_no <span class="token operator">=</span> r<span class="token punctuation">.</span>student_no
-
-<span class="token comment">-- \u4E09\u8868\u67E5\u8A62</span>
-<span class="token comment">-- student(\u5B78\u751F\u8868) result(\u6210\u7E3E\u8868) subject(\u79D1\u76EE\u8868)</span>
-<span class="token keyword">select</span> s<span class="token punctuation">.</span>student_no<span class="token punctuation">,</span>student_name<span class="token punctuation">,</span>subject_name<span class="token punctuation">,</span>student_result
-<span class="token keyword">from</span> student s
-<span class="token keyword">right</span> <span class="token keyword">join</span> result r
-<span class="token keyword">on</span> r<span class="token punctuation">.</span>student_no <span class="token operator">=</span> s<span class="token punctuation">.</span>student_no
-<span class="token keyword">inner</span> <span class="token keyword">join</span> subject sub
-<span class="token keyword">on</span> r<span class="token punctuation">.</span>subject_name <span class="token operator">=</span> sub<span class="token punctuation">.</span>subject_name
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br></div></div><ol><li><code>on</code>\uFF1A\u93C8\u63A5\u67E5\u8A62\uFF0C\u689D\u4EF6\u5224\u65B7</li><li><code>where</code>\uFF1A\u7B49\u50F9\u67E5\u8A62</li></ol><h3 id="\u81EA\u9023\u63A5\u53CA\u9023\u8868\u67E5\u8A62" tabindex="-1"><a class="header-anchor" href="#\u81EA\u9023\u63A5\u53CA\u9023\u8868\u67E5\u8A62" aria-hidden="true">#</a> \u81EA\u9023\u63A5\u53CA\u9023\u8868\u67E5\u8A62</h3><p>\u7C21\u55AE\u7406\u89E3\u5C31\u662F\u628A\u4E00\u5F35\u8868\u62C6\u6210\u5169\u5F35\u8868\u9032\u884C\u81EA\u67E5\u8A62</p><p>\u4E0B\u9762\u662F\u4E00\u5F35\u6578\u64DA\u5EAB\u8868</p><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">cid</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">pid</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">name</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">3</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">1</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8EDF\u4EF6\u958B\u767C</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">5</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">1</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u7F8E\u8853\u6280\u8853</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">4</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">3</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6578\u64DA\u5EAB</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">8</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">2</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8FA6\u516C\u6280\u8853</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">2</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">1</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4FE1\u606F\u6280\u8853</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">6</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">3</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">web \u958B\u767C</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">7</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">5</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">ps \u6280\u8853</td></tr></tbody></table><p><code>cid</code>\uFF1A\u7406\u89E3\u70BA\u5B50 id\uFF08\u7406\u89E3\u70BA\u81EA\u5DF1\u672C\u8EAB id \u66F4\u5408\u9069\uFF09\uFF0C\u552F\u4E00\u6027</p><p><code>pid</code>\uFF1A\u7406\u89E3\u70BA\u7236 id</p><p><code>\u5982\uFF1A\u6578\u64DA\u5EAB\u81EA\u5DF1\u7684id\u662F4\uFF0C\u7236id\u662F3\uFF0C\u767C\u73FE\u8EDF\u4EF6\u958B\u767C\u81EA\u5DF1\u7684id\u662F3\uFF0C\u610F\u5473\u8457\u6578\u64DA\u5EAB\u7684\u7236\u7D1A\u662F\u8EDF\u4EF6\u958B\u767C\u3002</code></p><p>\u9019\u6A23\u7406\u89E3\uFF0C\u5B50\u53EF\u90FD\u6709\u552F\u4E00\u7684\u7236\u985E\uFF0C\u7236\u985E\u53EF\u4EE5\u6709\u591A\u500B\u5B50\u985E\u3002\u662F\u4E0D\u662F\u985E\u4F3C\u4E8E\u6A39\u5F62\u7D50\u69CB\u3002</p><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">-- \u67E5\u8A62\u7236\u5B50\u4FE1\u606F</span>
-<span class="token keyword">select</span> a<span class="token punctuation">.</span><span class="token punctuation">\`</span>name<span class="token punctuation">\`</span> <span class="token keyword">as</span> <span class="token string">&#39;\u7236\u6B04\u76EE&#39;</span><span class="token punctuation">,</span>b<span class="token punctuation">.</span><span class="token punctuation">\`</span>name<span class="token punctuation">\`</span> <span class="token keyword">as</span> <span class="token string">&#39;\u5B50\u6B04\u76EE&#39;</span>
-<span class="token keyword">from</span> <span class="token punctuation">\`</span>category<span class="token punctuation">\`</span> <span class="token keyword">as</span> a<span class="token punctuation">,</span><span class="token punctuation">\`</span>category<span class="token punctuation">\`</span> <span class="token keyword">as</span> b
-<span class="token keyword">where</span> a<span class="token punctuation">.</span><span class="token punctuation">\`</span>cid<span class="token punctuation">\`</span> <span class="token operator">=</span> b<span class="token punctuation">.</span><span class="token punctuation">\`</span>pid<span class="token punctuation">\`</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u7236\u6B04\u76EE</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5B50\u6B04\u76EE</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8EDF\u4EF6\u958B\u767C</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6578\u64DA\u5EAB</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8EDF\u4EF6\u958B\u767C</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">web \u958B\u767C</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u7F8E\u8853\u8A2D\u8A08</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">ps \u6280\u8853</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4FE1\u606F\u6280\u8853</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8FA6\u516C\u4FE1\u606F</td></tr></tbody></table><h3 id="\u5206\u9801-limit-\u548C\u6392\u5E8F-order-by" tabindex="-1"><a class="header-anchor" href="#\u5206\u9801-limit-\u548C\u6392\u5E8F-order-by" aria-hidden="true">#</a> \u5206\u9801\uFF08limit\uFF09\u548C\u6392\u5E8F\uFF08order by\uFF09</h3><blockquote><p>\u6392\u5E8F</p></blockquote><p>\u6392\u5E8F\u6709<code>\u5347\u5E8F\uFF08ASC\uFF09</code>\u548C<code>\u964D\u5E8F\uFF08DESC\uFF09</code></p><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token keyword">select</span> <span class="token punctuation">\`</span>subject<span class="token punctuation">\`</span><span class="token punctuation">,</span>s<span class="token punctuation">.</span><span class="token punctuation">\`</span>student_name<span class="token punctuation">\`</span><span class="token punctuation">,</span>s<span class="token punctuation">.</span><span class="token punctuation">\`</span>student_result<span class="token punctuation">\`</span>
-<span class="token keyword">from</span> student s
-<span class="token keyword">inner</span> <span class="token keyword">join</span>  result r
-<span class="token keyword">on</span> s<span class="token punctuation">.</span>student_no <span class="token operator">=</span> r<span class="token punctuation">.</span>student_no
-<span class="token keyword">where</span> subject_name <span class="token operator">=</span> <span class="token string">&#39;\u6578\u64DA\u5EAB&#39;</span>
-<span class="token keyword">order</span> <span class="token keyword">by</span> student_result <span class="token keyword">asc</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><blockquote><p>\u5206\u9801</p></blockquote><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token keyword">select</span> <span class="token punctuation">\`</span>subject<span class="token punctuation">\`</span><span class="token punctuation">,</span>s<span class="token punctuation">.</span><span class="token punctuation">\`</span>student_name<span class="token punctuation">\`</span><span class="token punctuation">,</span>s<span class="token punctuation">.</span><span class="token punctuation">\`</span>student_result<span class="token punctuation">\`</span>
-<span class="token keyword">from</span> student s
-<span class="token keyword">inner</span> <span class="token keyword">join</span>  result r
-<span class="token keyword">on</span> s<span class="token punctuation">.</span>student_no <span class="token operator">=</span> r<span class="token punctuation">.</span>student_no
-<span class="token keyword">where</span> subject_name <span class="token operator">=</span> <span class="token string">&#39;\u6578\u64DA\u5EAB&#39;</span>
-<span class="token keyword">order</span> <span class="token keyword">by</span> student_result <span class="token keyword">asc</span>
-<span class="token keyword">limit</span> <span class="token number">0</span><span class="token punctuation">,</span><span class="token number">5</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><p>\u5206\u9801\u7684\u7684\u8A08\u7B97\u516C\u5F0F</p><p><code>limit (n-1)*pageSize,pageSize</code>\uFF1A\u7B2C\u4E00\u9801\u70BA\u3010\uFF081-1\uFF09*5,5 \u3011\u4EE3\u8868\u7B2C\u4E00\u9801\uFF0C\u6BCF\u9801 5 \u689D<code>\uFF080\uFF0C5\uFF09</code>\uFF1B</p><h3 id="\u81EA\u67E5\u8A62\u548C\u5D4C\u5957\u67E5\u8A62" tabindex="-1"><a class="header-anchor" href="#\u81EA\u67E5\u8A62\u548C\u5D4C\u5957\u67E5\u8A62" aria-hidden="true">#</a> \u81EA\u67E5\u8A62\u548C\u5D4C\u5957\u67E5\u8A62</h3><blockquote><p>\u5B50\u67E5\u8A62</p></blockquote><p>\u5728 where \u4E2D\u5D4C\u5957\u4E00\u500B\u67E5\u8A62\u8A9E\u53E5</p><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">-- SQL\u6703\u5148\u57F7\u884C\u5B50\u67E5\u8A62\uFF0C\u7136\u5F8C\u518D\u9032\u884C\u5916\u5C64\u67E5\u8A62\uFF0C\u5176\u5BE6\u529F\u80FD\u8DDF\u9023\u8868\u67E5\u8A62\u5F88\u8C61</span>
-<span class="token keyword">select</span> student_no<span class="token punctuation">,</span>subject<span class="token punctuation">,</span>student_result
-<span class="token keyword">from</span> result
-<span class="token keyword">where</span> subject <span class="token operator">=</span> <span class="token punctuation">(</span>
-   <span class="token keyword">select</span> subject <span class="token keyword">from</span> subject
-   <span class="token keyword">where</span> subject_name <span class="token operator">=</span> <span class="token string">&#39;\u6578\u64DA\u5EAB&#39;</span>
-<span class="token punctuation">)</span>
-
-<span class="token comment">-- \u67E5\u8A62\u9AD8\u7B49\u6578\u5B78 \u4E14\u5206\u6578\u4E0D\u5C0F\u65BC80 \u7684\u540C\u5B78\u7684\u5B78\u865F\u548C\u59D3\u540D</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><h3 id="mysql-\u51FD\u6578" tabindex="-1"><a class="header-anchor" href="#mysql-\u51FD\u6578" aria-hidden="true">#</a> MySQL \u51FD\u6578</h3><p>\u5B98\u7DB2\uFF1A<a href="https://dev.mysql.com/doc/refman/8.0/en/built-in-function-reference.html" target="_blank" rel="noopener noreferrer">https://dev.mysql.com/doc/refman/8.0/en/built-in-function-reference.html`);
-  _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
-  _push(`</a></p><p>\u53EA\u5B78\u90E8\u5206</p><ol><li>\u6578\u5B78\u904B\u7B97</li></ol><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u9054\u5F0F</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u7D50\u679C</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u63CF\u8FF0</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">select abs(-8)</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">8</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u7D55\u5C0D\u503C</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">select ceiling(9.4)</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">10</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5411\u4E0A\u53D6\u6574</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">select floor(9.4)</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">9</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5411\u4E0B\u53D6\u6574</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">select rand()</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">0~1 \u4E4B\u9593\u96A8\u6A5F\u6578</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8FD4\u56DE\u4E00\u500B 0~1 \u4E4B\u9593\u7684\u96A8\u6A5F\u6578</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">select sign(-10)</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">-1</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5224\u65B7\u4E00\u500B\u5B57\u7684\u7B26\u865F\uFF0C0 \u8FD4\u56DE 0\uFF0C\u8CA0\u6578\u8FD4\u56DE-1\uFF0C\u6B63\u6578\u8FD4\u56DE 1</td></tr></tbody></table><ol start="2"><li><p>\u5B57\u7B26\u4E32\u51FD\u6578</p></li><li><p>\u6642\u9593\u548C\u65E5\u671F\u51FD\u6578</p></li></ol><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u9054\u5F0F</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u7D50\u679C</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u63CF\u8FF0</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">select current_date()</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u7576\u524D\u6642\u9593</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">select curdate()</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u7576\u524D\u6642\u9593</td></tr></tbody></table><ol start="4"><li>\u5176\u5B83</li></ol><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u9054\u5F0F</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u7D50\u679C</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u63CF\u8FF0</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">select user()</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u7576\u524D\u7528\u6236</td></tr></tbody></table><h3 id="\u805A\u5408\u51FD\u6578" tabindex="-1"><a class="header-anchor" href="#\u805A\u5408\u51FD\u6578" aria-hidden="true">#</a> \u805A\u5408\u51FD\u6578</h3><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u51FD\u6578</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u63CF\u8FF0</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">count()</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6C42\u548C</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">sun()</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u7E3D\u548C</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">avg()</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5E73\u5747\u5206</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">max()</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6700\u9AD8\u5206</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">min()</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6700\u4F4E\u5206</td></tr></tbody></table><div class="language-SQL ext-SQL line-numbers-mode"><pre class="language-SQL"><code>-- \u591A\u7A2E\u7D71\u8A08\u60C5\u6CC1
-select count(\`date\`) from student; --\u6839\u64DA\u5B57\u6BB5\u67E5\u8A62\uFF0C\u5FFD\u7565null\u503C
-select count(1) from student; -- \u75281\u4EE3\u8868\u884C\uFF0C\u6C42\u51FA\u4E00\u5171\u591A\u5C11\u884C
-select count(*) from student; --\u76F8\u7576\u65BC\u884C\u6578\uFF0C\u4E0D\u6703\u5FFD\u7565null\u503C
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h4 id="\u6578\u64DA\u5EABmd5\u52A0\u5BC6" tabindex="-1"><a class="header-anchor" href="#\u6578\u64DA\u5EABmd5\u52A0\u5BC6" aria-hidden="true">#</a> \u6578\u64DA\u5EABMD5\u52A0\u5BC6</h4><p>MD5\u662F\u4E0D\u53EF\u9006\u7684\uFF0C\u4F46\u76F8\u540C\u503C\u5F97MD5\u52A0\u5BC6\u7684\u503C\u4E5F\u76F8\u540C</p><p><code>MD(&#39;password&#39;)</code></p><!--]-->`);
-}
-const _sfc_setup$X = _sfc_main$X.setup;
-_sfc_main$X.setup = (props, ctx) => {
-  const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/mysql/02.mysql\u6578\u64DA\u7BA1\u7406.html.vue");
-  return _sfc_setup$X ? _sfc_setup$X(props, ctx) : void 0;
-};
-var _02_mysql_____html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$X, [["ssrRender", _sfc_ssrRender$J]]);
-var _02_mysql_____html$2 = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  "default": _02_mysql_____html$1
-});
-const _sfc_main$W = {};
-function _sfc_ssrRender$I(_ctx, _push, _parent, _attrs) {
-  _push(`<!--[--><h2 id="\u4E8B\u52D9-acid-\u539F\u5247" tabindex="-1"><a class="header-anchor" href="#\u4E8B\u52D9-acid-\u539F\u5247" aria-hidden="true">#</a> \u4E8B\u52D9\uFF08ACID\uFF09\u539F\u5247</h2><p>\u4E8B\u52D9\u9700\u8981\u8A18\u4F4F\uFF1A\u8981\u9EBC\u90FD\u6210\u529F\uFF0C\u8981\u9EBC\u90FD\u5931\u6557</p><p>\u4EE5\u4F60\u7D66\u6211\u8F49 100 \u584A\u70BA\u4F8B</p><ol><li>\u539F\u5B50\u6027</li></ol><p>\u8981\u9EBC\u8F49\u8CEC\u6210\u529F\uFF0C\u8981\u9EBC\u8F49\u8CEC\u5931\u6557</p><ol start="2"><li>\u4E00\u81F4\u6027</li></ol><p>\u6700\u7D42\u4E00\u81F4\u6027\uFF1A\u521D\u59CB\u72C0\u614B\u548C\u6700\u7D42\u72C0\u614B\u4E00\u81F4\uFF08\u5B8C\u6574\u6027\uFF09 100 \u584A\u8981\u9EBC\u6C92\u6263\uFF0C\u8981\u9EBC\u4E00\u5B9A\u5230\u6211\u8CEC\u6236\u4F8B\u3002</p><ol start="3"><li>\u6301\u4E45\u6027</li></ol><p>\u4E8B\u52D9\u7D50\u675F\u540E\u4E0D\u96A8\u5916\u754C\u539F\u56E0\u6539\u8B8A\u3002\u5982\u679C\u6210\u529F\u4E86\u4E0D\u80FD\u53D6\u6D88\uFF0C\u9000\u9084\uFF0C\u53EA\u80FD\u6211\u518D\u767C\u8D77\u65B0\u4E8B\u52D9\u9000\u9084\u7D66\u4F60\u3002</p><ol start="4"><li>\u9694\u96E2\u6027</li></ol><p>\u4E8B\u52D9\u4E4B\u9593\u5FC5\u9808\u76F8\u4E92\u9694\u96E2\uFF0C\u4E0D\u7136\u53EF\u80FD\u5C0E\u81F4\u8B80\uFF08\u6578\u64DA\u4E0D\u5C0D\u7A31\uFF09\uFF0C\u53E6\u5916\u7684\u4EA4\u6613\u4E0D\u80FD\u5F71\u97FF\u9019\u6B21\u4EA4\u6613\u3002</p><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">-- mysql\u9ED8\u8A8D\u958B\u555F\u4E8B\u52D9</span>
-<span class="token keyword">set</span> autocommit <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> <span class="token comment">-- \u95DC\u9589\u81EA\u52D5\u63D0\u4EA4</span>
-<span class="token keyword">set</span> autocommit <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> <span class="token comment">-- \u958B\u555F\u81EA\u52D5\u63D0\u4EA4</span>
-
-<span class="token comment">-- \u624B\u52D5\u8655\u7406\u4E8B\u52D9</span>
-<span class="token comment">-- \u958B\u555F\u4E8B\u52D9</span>
-<span class="token keyword">start</span> transsction <span class="token comment">-- \u6A19\u8A18\u6B64\u523B\u958B\u59CB\u4E00\u500B\u65B0\u4E8B\u52D9</span>
-
-
-<span class="token comment">-- \u4E8B\u52D9\u63D0\u4EA4 --\u6210\u529F\u5247\u6301\u4E45\u5316\u5B58\u5132</span>
-<span class="token keyword">commit</span>
-
-<span class="token comment">-- \u4E8B\u52D9\u56DE\u6EFE --\u5931\u6557\u56DE\u6EFE\u5230\u521D\u59CB\u72C0\u614B</span>
-<span class="token keyword">rollback</span>
-
-<span class="token comment">-- \u4E86\u89E3</span>
-
-<span class="token comment">--\u95DC\u9589\u4E8B\u52D9</span>
-<span class="token keyword">set</span> autocommit <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> <span class="token comment">-- \u958B\u555F\u81EA\u52D5\u63D0\u4EA4\uFF0C\u958B\u555F\u6642\u6703\u81EA\u52D5\u63D0\u4EA4\u4E8B\u52D9</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br></div></div><h2 id="\u4E8B\u52D9\u7DF4\u7FD2" tabindex="-1"><a class="header-anchor" href="#\u4E8B\u52D9\u7DF4\u7FD2" aria-hidden="true">#</a> \u4E8B\u52D9\u7DF4\u7FD2</h2><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token keyword">create</span> <span class="token keyword">database</span> shop <span class="token keyword">character</span> <span class="token keyword">set</span> utf8 <span class="token keyword">collate</span> utf8_general_ci<span class="token punctuation">;</span>
-
-<span class="token keyword">use</span> shop<span class="token punctuation">;</span>
-
-<span class="token keyword">create</span> <span class="token keyword">table</span> <span class="token punctuation">\`</span>account<span class="token punctuation">\`</span><span class="token punctuation">(</span>
-    <span class="token punctuation">\`</span>id<span class="token punctuation">\`</span> <span class="token keyword">int</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span> <span class="token operator">not</span> <span class="token boolean">null</span> <span class="token keyword">auto_increment</span><span class="token punctuation">,</span>
-    <span class="token punctuation">\`</span>name<span class="token punctuation">\`</span> <span class="token keyword">varchar</span><span class="token punctuation">(</span><span class="token number">30</span><span class="token punctuation">)</span> <span class="token operator">not</span> <span class="token boolean">null</span><span class="token punctuation">,</span>
-    <span class="token punctuation">\`</span>money<span class="token punctuation">\`</span> <span class="token keyword">decimal</span><span class="token punctuation">(</span><span class="token number">9</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span> <span class="token operator">not</span> <span class="token boolean">null</span><span class="token punctuation">,</span>
-    <span class="token keyword">primary</span> <span class="token keyword">key</span> <span class="token punctuation">(</span><span class="token punctuation">\`</span>id<span class="token punctuation">\`</span><span class="token punctuation">)</span>
-<span class="token punctuation">)</span><span class="token keyword">engine</span><span class="token operator">=</span><span class="token keyword">innodb</span> <span class="token keyword">default</span> <span class="token keyword">charset</span><span class="token operator">=</span>utf8<span class="token punctuation">;</span>
-
-<span class="token keyword">insert</span> <span class="token keyword">into</span> account<span class="token punctuation">(</span><span class="token punctuation">\`</span>name<span class="token punctuation">\`</span><span class="token punctuation">,</span><span class="token punctuation">\`</span>money<span class="token punctuation">\`</span><span class="token punctuation">)</span>
-<span class="token keyword">values</span> <span class="token punctuation">(</span><span class="token string">&#39;A&#39;</span><span class="token punctuation">,</span><span class="token number">2000.00</span><span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token punctuation">(</span><span class="token string">&#39;B&#39;</span><span class="token punctuation">,</span><span class="token number">1000.00</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-
-<span class="token comment">-- \u6A21\u64EC\u8F49\u8CEC</span>
-<span class="token keyword">set</span> autocommit <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span><span class="token comment">--\u95DC\u9589\u4E8B\u52D9</span>
-<span class="token keyword">start</span> transsction <span class="token comment">-- \u958B\u555F\u4E00\u500B\u4E8B\u52D9</span>
-
-<span class="token keyword">update</span> account <span class="token keyword">set</span> money<span class="token operator">=</span>money<span class="token operator">+</span><span class="token number">500</span> <span class="token keyword">where</span> <span class="token punctuation">\`</span>name<span class="token punctuation">\`</span> <span class="token operator">=</span> <span class="token string">&#39;A&#39;</span>
-<span class="token keyword">update</span> account <span class="token keyword">set</span> money<span class="token operator">=</span>money<span class="token operator">-</span><span class="token number">500</span> <span class="token keyword">where</span> <span class="token punctuation">\`</span>name<span class="token punctuation">\`</span> <span class="token operator">=</span> <span class="token string">&#39;B&#39;</span>
-
-<span class="token keyword">commit</span><span class="token punctuation">;</span> <span class="token comment">--\u63D0\u4EA4</span>
-<span class="token keyword">rollback</span><span class="token punctuation">;</span> <span class="token comment">--\u56DE\u6EFE</span>
-
-<span class="token keyword">set</span> <span class="token keyword">auto_increment</span> <span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span> <span class="token comment">--\u6062\u5FA9\u9ED8\u8A8D\u63D0\u4EA4\uFF0C\u5426\u5247\u4E0A\u9762\u4E8B\u52D9\u9664\u975E\u624B\u52D5\u63D0\u4EA4\uFF0C\u4E0D\u7136\u4E0D\u6703\u63D0\u4EA4</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br></div></div><h4 id="\u7D22\u5F15" tabindex="-1"><a class="header-anchor" href="#\u7D22\u5F15" aria-hidden="true">#</a> \u7D22\u5F15</h4><blockquote><p>\u7D22\u5F15\u5C31\u662F\u5E6B\u52A9MySQL\u9AD8\u6548\u7372\u53D6\u6578\u64DA\u7684\u6578\u64DA\u7D50\u69CB\uFF0C\u7D22\u5F15\u672C\u8CEA\u5C31\u662F\u6578\u64DA\u7D50\u69CB\u3002</p></blockquote><p>\u7D22\u5F15\u7236\u985E\uFF1A</p><ol><li>\u4E3B\u9375\u7D22\u5F15\uFF08\uFF09\uFF1A\u552F\u4E00\u6A19\u8B58\uFF0C\u4E0D\u53EF\u91CD\u8907\u3002</li><li>\u552F\u4E00\u7D22\u5F15\uFF08unique key\uFF09\uFF1A\u8A72\u5217\u7684\u503C\u4E0D\u80FD\u91CD\u8907\u3002</li><li>\u5E38\u898F\u7D22\u5F15\uFF08\uFF09\uFF1A\u9ED8\u8A8D\u3002</li><li>\u5168\u6587\u7D22\u5F15\uFF08fulltext\uFF09\uFF1A\u5FEB\u901F\u5B9A\u4F4D\u6578\u64DA\u3002</li></ol><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">--\u663E\u793A\u6240\u6709\u7D22\u5F15\u4FE1\u606F</span>
-<span class="token keyword">select</span> <span class="token keyword">index</span> <span class="token keyword">from</span> student<span class="token punctuation">;</span>
-
-<span class="token comment">-- \u589E\u52A0\u4E00\u4E2A\u5168\u6587\u7D22\u5F15</span>
-<span class="token keyword">alter</span> <span class="token keyword">table</span> school<span class="token punctuation">.</span>student <span class="token keyword">add</span> fulltext <span class="token keyword">index</span> <span class="token punctuation">\`</span>studentName<span class="token punctuation">\`</span><span class="token punctuation">(</span><span class="token punctuation">\`</span>studentName<span class="token punctuation">\`</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-<span class="token comment">-- explain \u5206\u6790SQL\u6267\u884C\u72B6\u51B5</span>
-
-<span class="token keyword">explain</span> <span class="token keyword">select</span> <span class="token operator">*</span> <span class="token keyword">from</span> student<span class="token punctuation">;</span>  <span class="token comment">--\u5168\u6587\u7D22\u5F15</span>
-
-<span class="token keyword">select</span> <span class="token operator">*</span> <span class="token keyword">from</span> student <span class="token keyword">where</span> <span class="token keyword">match</span><span class="token punctuation">(</span>studentName<span class="token punctuation">)</span> against<span class="token punctuation">(</span><span class="token string">&#39;\u5218&#39;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><h2 id="\u6743\u9650\u7BA1\u7406\u548C\u7528\u6237\u7BA1\u7406" tabindex="-1"><a class="header-anchor" href="#\u6743\u9650\u7BA1\u7406\u548C\u7528\u6237\u7BA1\u7406" aria-hidden="true">#</a> \u6743\u9650\u7BA1\u7406\u548C\u7528\u6237\u7BA1\u7406</h2><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">-- \u521B\u5EFA\u7528\u6237</span>
-<span class="token keyword">create</span> <span class="token keyword">user</span> chenqi identified <span class="token keyword">by</span> <span class="token string">&#39;123456&#39;</span><span class="token punctuation">;</span>
-
-<span class="token comment">--\u4FEE\u6539\u5BC6\u7801\uFF08\u5F53\u524D\u7528\u6237\uFF09</span>
-<span class="token keyword">set</span> password <span class="token operator">=</span> password<span class="token punctuation">(</span><span class="token string">&#39;1123456&#39;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-<span class="token comment">-- \u4FEE\u6539\u67D0\u4E2A\u7528\u6237\u5BC6\u7801</span>
-<span class="token keyword">set</span> password <span class="token keyword">for</span> chenqi <span class="token operator">=</span> password<span class="token punctuation">(</span><span class="token string">&#39;123456&#39;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-<span class="token comment">-- \u91CD\u547D\u540D</span>
-<span class="token keyword">rename</span> <span class="token keyword">user</span> chenqi <span class="token keyword">to</span> yiren<span class="token punctuation">;</span>
-
-<span class="token comment">--\u6388\u4E88\u6700\u9AD8\u6743\u9650</span>
-<span class="token keyword">grant</span> <span class="token keyword">all</span> <span class="token keyword">privileges</span> <span class="token keyword">on</span> <span class="token operator">*</span><span class="token punctuation">.</span><span class="token operator">*</span> <span class="token keyword">to</span> yiren<span class="token punctuation">;</span>
-
-<span class="token comment">--\u67E5\u770B\u6743\u9650</span>
-<span class="token keyword">show</span> grants <span class="token keyword">for</span> chenqi<span class="token punctuation">;</span>  <span class="token comment">--\u67E5\u770B\u6307\u5B9A\u7528\u6237\u7684\u6743\u9650</span>
-
-<span class="token keyword">revoke</span> <span class="token keyword">all</span> <span class="token keyword">privileges</span> <span class="token keyword">on</span> <span class="token operator">*</span><span class="token punctuation">.</span><span class="token operator">*</span> chenqi<span class="token punctuation">;</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br></div></div><h2 id="mysql\u5907\u4EFD" tabindex="-1"><a class="header-anchor" href="#mysql\u5907\u4EFD" aria-hidden="true">#</a> mysql\u5907\u4EFD</h2><ol><li>\u53EF\u89C6\u5316\u5DE5\u5177\u5BFC\u51FA</li><li>\u547D\u4EE4\u884C\u5BFC\u51FA</li><li>\u62F7\u8D1D\u7269\u7406\u6587\u4EF6</li></ol><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">-- mysqldump -h \u4E3B\u673A -u \u7528\u6237\u540D -p \u5BC6\u7801 \u5E93 \u8868 &gt;D:/a.sql</span>
-mysqldump <span class="token operator">-</span>hlocalhost <span class="token operator">-</span>uroot <span class="token operator">-</span>p123456 school student <span class="token operator">&gt;</span>D:<span class="token operator">/</span>a<span class="token punctuation">.</span><span class="token keyword">sql</span>
-
-<span class="token comment">-- \u5BFC\u5165\u6587\u4EF6</span>
-source D:<span class="token operator">/</span>a<span class="token punctuation">.</span><span class="token keyword">sql</span><span class="token punctuation">;</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><blockquote><p>\u6570\u636E\u5E93\u8BBE\u8BA1\u539F\u5219</p></blockquote><ol><li>\u8282\u7701\u5185\u5B58\u7A7A\u95F4</li><li>\u4FDD\u8BC1\u6570\u636E\u5E93\u5B8C\u6574\u6027</li><li>\u65B9\u4FBF\u5F00\u53D1</li></ol><ul><li>\u5206\u6790\u9700\u6C42</li><li>\u6982\u8981\u8BBE\u8BA1\uFF0CER\u56FE</li></ul><h2 id="\u6570\u636E\u5E93\u4E09\u5927\u8303\u5F0F" tabindex="-1"><a class="header-anchor" href="#\u6570\u636E\u5E93\u4E09\u5927\u8303\u5F0F" aria-hidden="true">#</a> \u6570\u636E\u5E93\u4E09\u5927\u8303\u5F0F</h2><blockquote><p>\u7B2C\u4E00\u8303\u5F0F\uFF081NF\uFF09</p></blockquote><p>\u539F\u5B50\u6027\uFF1A\u8981\u6C42\u6570\u636E\u5E93\u8868\u4E2D\u7684\u6BCF\u4E00\u5217\u90FD\u662F\u4E0D\u53EF\u518D\u52061\u7684\u539F\u5B50\u6570\u636E\u9879</p><blockquote><p>\u7B2C\u4E8C\u8303\u5F0F\uFF082NF\uFF09</p></blockquote><p>\u524D\u63D0\uFF1A\u6EE1\u8DB3\u7B2C\u4E00\u8303\u5F0F \u786E\u4FDD\u6570\u636E\u5E93\u8868\u4E2D\u7684\u6BCF\u4E00\u5217\u90FD\u548C\u4E3B\u952E\u76F8\u5173</p><blockquote><p>\u7B2C\u4E09\u8303\u5F0F\uFF083NF\uFF09</p></blockquote><p>\u524D\u63D0\uFF1A\u6EE1\u8DB3\u7B2C\u4E00\u8303\u5F0F\u548C\u7B2C\u4E8C\u8303\u5F0F \u6BCF\u4E00\u5217\u6570\u636E\u90FD\u548C\u4E3B\u952E\u76F4\u63A5\u76F8\u5173\u800C\u4E0D\u80FD\u95F4\u63A5\u76F8\u5173</p><p>\u5173\u8054\u67E5\u8BE2\u4E0D\u80FD\u8D85\u8FC73\u5F20\u8868</p><!--]-->`);
-}
-const _sfc_setup$W = _sfc_main$W.setup;
-_sfc_main$W.setup = (props, ctx) => {
-  const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/mysql/03.mysql\u4E8B\u52D9.html.vue");
-  return _sfc_setup$W ? _sfc_setup$W(props, ctx) : void 0;
-};
-var _03_mysql___html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$W, [["ssrRender", _sfc_ssrRender$I]]);
-var _03_mysql___html$2 = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  "default": _03_mysql___html$1
-});
-const _sfc_main$V = {};
-function _sfc_ssrRender$H(_ctx, _push, _parent, _attrs) {
-  _push(`<!--[--><h1 id="\u6570\u636E\u5E93\u9A71\u52A8\u548C-jdbc" tabindex="-1"><a class="header-anchor" href="#\u6570\u636E\u5E93\u9A71\u52A8\u548C-jdbc" aria-hidden="true">#</a> \u6570\u636E\u5E93\u9A71\u52A8\u548C JDBC</h1><h2 id="\u7B2C\u4E00\u500B-jdbc-\u7A0B\u5E8F" tabindex="-1"><a class="header-anchor" href="#\u7B2C\u4E00\u500B-jdbc-\u7A0B\u5E8F" aria-hidden="true">#</a> \u7B2C\u4E00\u500B JDBC \u7A0B\u5E8F</h2><ol><li>\u5275\u5EFA java\uFF08\u6216 javaEE\uFF09\u9805\u76EE</li></ol><p>\u4E00\u76F4 next \u5275\u5EFA\u4E00\u500B\u7A7A\u9805\u76EE</p><ol start="2"><li>\u5C0E\u5165 jar \u5305</li></ol><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">--\u67E5\u770B\u672C\u5730mysql\u7248\u672C</span>
-<span class="token keyword">select</span> version<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>&lt;\u8FDB\u5165\u5B98\u7F51\u4E0B\u8F7D\u5C0D\u61C9\u7248\u672C\u7684jar\u5305:https://dev.mysql.com/downloads/connector/j/&gt;</p><p>\u5728\u9805\u76EE\u6839\u76EE\u9304\u4E0B\u65B0\u5EFA<code>lib</code>\u76EE\u9304\uFF0C\u9EDE\u64CA<code>Project Structure</code>\uFF0C\u9EDE\u64CA OK</p><ol start="3"><li>\u93C8\u63A5\u6578\u64DA\u5EAB</li></ol><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token comment">//\u507D\u4EE3\u78BC</span>
-<span class="token comment">//package\u7701\u7565</span>
-<span class="token keyword">import</span> <span class="token namespace">java<span class="token punctuation">.</span>sql<span class="token punctuation">.</span></span><span class="token operator">*</span><span class="token punctuation">;</span>
-
-<span class="token keyword">import</span> <span class="token namespace">java<span class="token punctuation">.</span>sql<span class="token punctuation">.</span></span><span class="token operator">*</span><span class="token punctuation">;</span>
-
-<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Demo01</span> <span class="token punctuation">{</span>
-    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token keyword">throws</span> <span class="token class-name">ClassNotFoundException</span><span class="token punctuation">,</span> <span class="token class-name">SQLException</span> <span class="token punctuation">{</span>
-        <span class="token class-name">Class</span><span class="token punctuation">.</span><span class="token function">forName</span><span class="token punctuation">(</span><span class="token string">&quot;com.mysql.cj.jdbc.Driver&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-        <span class="token comment">//cms_database\u70BA\u4F60\u7684\u6578\u64DA\u5EAB\u540D\u7A31</span>
-        <span class="token class-name">String</span> url <span class="token operator">=</span> <span class="token string">&quot;jdbc:mysql://localhost:3306/cms_database?serverTimezone=UTC&amp;characterEncoding=utf8&amp;useUnicode=true&amp;useSSL=false&quot;</span><span class="token punctuation">;</span>
-        <span class="token class-name">String</span> username <span class="token operator">=</span> <span class="token string">&quot;root&quot;</span><span class="token punctuation">;</span>
-        <span class="token class-name">String</span> password <span class="token operator">=</span> <span class="token string">&quot;123456&quot;</span><span class="token punctuation">;</span>
-
-        <span class="token class-name">Connection</span> connection <span class="token operator">=</span> <span class="token class-name">DriverManager</span><span class="token punctuation">.</span><span class="token function">getConnection</span><span class="token punctuation">(</span>url<span class="token punctuation">,</span>username<span class="token punctuation">,</span>password<span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-        <span class="token class-name">Statement</span> statement <span class="token operator">=</span> connection<span class="token punctuation">.</span><span class="token function">createStatement</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-        <span class="token class-name">String</span> sql <span class="token operator">=</span> <span class="token string">&quot;select * from student&quot;</span><span class="token punctuation">;</span>
-
-        <span class="token class-name">ResultSet</span> resultSet <span class="token operator">=</span> statement<span class="token punctuation">.</span><span class="token function">executeQuery</span><span class="token punctuation">(</span>sql<span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-        <span class="token keyword">while</span> <span class="token punctuation">(</span>resultSet<span class="token punctuation">.</span><span class="token function">next</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>resultSet<span class="token punctuation">.</span><span class="token function">getObject</span><span class="token punctuation">(</span><span class="token string">&quot;studentname&quot;</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token punctuation">}</span>
-
-        resultSet<span class="token punctuation">.</span><span class="token function">close</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        statement<span class="token punctuation">.</span><span class="token function">close</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        connection<span class="token punctuation">.</span><span class="token function">close</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
-
-<span class="token comment">// String url = &quot;jdbc:mysql://{\u4E3B\u6A5F\u5730\u5740}:3306/{\u6578\u64DA\u5EAB\u540D\u7A31}?serverTimezone=UTC&amp;characterEncoding=utf8&amp;useUnicode=true&amp;useSSL=false&quot;;</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br></div></div><ul><li><p>connection\uFF1Asql \u5C0D\u8C61\uFF0C\u53EF\u57F7\u884C\u76F8\u95DC\u64CD\u4F5C\uFF0C\u5982\u6DFB\u52A0\u4E8B\u52D9\uFF0C\u7372\u53D6\u6578\u64DA\u5EAB\u4FE1\u606F</p></li><li><p>statement: \u57F7\u884C\u6578\u64DA\u5EAB\u5C0D\u8C61\uFF0C\u57F7\u884C\u589E\u522A\u67E5\u6539\u8A9E\u53E5\uFF0C\u8FD4\u56DE\u7D50\u679C\u662F\u5F71\u97FF\u7684\u884C\u6578</p></li><li><p>close()\uFF1A\u91CB\u653E\u8CC7\u6E90</p></li></ul><h2 id="statement-\u5C0D\u8C61" tabindex="-1"><a class="header-anchor" href="#statement-\u5C0D\u8C61" aria-hidden="true">#</a> Statement \u5C0D\u8C61</h2><p>Statement \u5C0D\u8C61\u7528\u65BC\u5411\u6578\u64DA\u5EAB\u767C\u9001 sql \u8A9E\u53E5\uFF0C\u5B8C\u6210\u5C0D\u6578\u64DA\u5EAB\u7684\u589E\u522A\u67E5\u6539\u3002</p><ul><li>executeQuery\uFF08\u57F7\u884C\u67E5\u8A62\u8A9E\u53E5\uFF09\uFF1A\u8FD4\u56DE\u67E5\u8A62\u7D50\u679C</li><li>executeUpdate\uFF08\u57F7\u884C\u4FEE\u6539\u8A9E\u53E5\uFF09\uFF1A\u8FD4\u56DE\u53D7\u5F71\u97FF\u7684\u6578\u64DA\uFF0C\u5373\u4F60\u4FEE\u6539\u7684\u6578\u64DA\uFF0C\u5305\u62EC 1 \u522A\u9664\u548C\u4FEE\u6539</li></ul><blockquote><p>create</p></blockquote><p>\u5B8C\u6210\u6578\u64DA\u6DFB\u52A0\u64CD\u4F5C</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token class-name">Statement</span> st <span class="token operator">=</span> connection<span class="token punctuation">.</span><span class="token function">createStatement</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token class-name">String</span> sql <span class="token operator">=</span> <span class="token string">&quot;insert into user(...) value(...)&quot;</span><span class="token punctuation">;</span>
-<span class="token keyword">int</span> num <span class="token operator">=</span> st<span class="token punctuation">.</span><span class="token function">executeUpdate</span><span class="token punctuation">(</span>sql<span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token keyword">if</span><span class="token punctuation">(</span>num<span class="token operator">&gt;</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-    <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u589E\u52A0\u6210\u529F&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><blockquote><p>delete</p></blockquote><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token class-name">Statement</span> st <span class="token operator">=</span> connection<span class="token punctuation">.</span><span class="token function">createStatement</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token class-name">String</span> sql <span class="token operator">=</span> <span class="token string">&quot;delete from user where id = 1&quot;</span><span class="token punctuation">;</span>
-<span class="token keyword">int</span> num <span class="token operator">=</span> st<span class="token punctuation">.</span><span class="token function">executeUpdate</span><span class="token punctuation">(</span>sql<span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token keyword">if</span><span class="token punctuation">(</span>num<span class="token operator">&gt;</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-    <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u522A\u9664\u6210\u529F&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><blockquote><p>update</p></blockquote><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token class-name">Statement</span> st <span class="token operator">=</span> connection<span class="token punctuation">.</span><span class="token function">createStatement</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token class-name">String</span> sql <span class="token operator">=</span> <span class="token string">&quot;update user set name =&#39;&#39; where name=&#39;&#39;&quot;</span><span class="token punctuation">;</span>
-<span class="token keyword">int</span> num <span class="token operator">=</span> st<span class="token punctuation">.</span><span class="token function">executeUpdate</span><span class="token punctuation">(</span>sql<span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token keyword">if</span><span class="token punctuation">(</span>num<span class="token operator">&gt;</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-    <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u4FEE\u6539\u6210\u529F&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><blockquote><p>read</p></blockquote><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token class-name">Statement</span> st <span class="token operator">=</span> connection<span class="token punctuation">.</span><span class="token function">createStatement</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token class-name">String</span> sql <span class="token operator">=</span> <span class="token string">&quot;select * from user&quot;</span><span class="token punctuation">;</span>
-<span class="token class-name">ResultSet</span> set <span class="token operator">=</span> st<span class="token punctuation">.</span><span class="token function">executeQuery</span><span class="token punctuation">(</span>sql<span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token function">where</span><span class="token punctuation">(</span>set<span class="token punctuation">.</span><span class="token function">next</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-    <span class="token comment">//...</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><h2 id="\u5C01\u88DD\u6578\u64DA\u5EAB-util" tabindex="-1"><a class="header-anchor" href="#\u5C01\u88DD\u6578\u64DA\u5EAB-util" aria-hidden="true">#</a> \u5C01\u88DD\u6578\u64DA\u5EAB util</h2><p>\u914D\u7F6E properties \u6587\u4EF6</p><div class="language-xml ext-xml line-numbers-mode"><pre class="language-xml"><code>driver=com.mysql.cj.jdbc.Driver
-url=&quot;jdbc:mysql://localhost:3306/cms_database?serverTimezone=UTC&amp;characterEncoding=utf8&amp;useUnicode=true&amp;useSSL=false&quot;
-username=root
-password=123456
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code>
-<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">JdbcUtil</span><span class="token punctuation">{</span>
-    <span class="token keyword">static</span> <span class="token punctuation">{</span>
-        <span class="token keyword">try</span> <span class="token punctuation">{</span>
-            <span class="token class-name">InputStream</span> in <span class="token operator">=</span> <span class="token class-name">JdbcUtil</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">.</span><span class="token function">getClassLoader</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">getResourceAsStream</span><span class="token punctuation">(</span><span class="token string">&quot;db.properties&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token class-name">Properties</span> properties <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Properties</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-            properties<span class="token punctuation">.</span><span class="token function">load</span><span class="token punctuation">(</span>in<span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-            driver <span class="token operator">=</span> properties<span class="token punctuation">.</span><span class="token function">getProperty</span><span class="token punctuation">(</span><span class="token string">&quot;driver&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-            url <span class="token operator">=</span> properties<span class="token punctuation">.</span><span class="token function">getProperty</span><span class="token punctuation">(</span><span class="token string">&quot;url&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-            username <span class="token operator">=</span> properties<span class="token punctuation">.</span><span class="token function">getProperty</span><span class="token punctuation">(</span><span class="token string">&quot;username&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-            password <span class="token operator">=</span> properties<span class="token punctuation">.</span><span class="token function">getProperty</span><span class="token punctuation">(</span><span class="token string">&quot;password&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token class-name">Class</span><span class="token punctuation">.</span><span class="token function">forName</span><span class="token punctuation">(</span>time<span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span><span class="token class-name">Exception</span> e<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            <span class="token comment">// TODO: handle exception</span>
-        <span class="token punctuation">}</span>
-    <span class="token punctuation">}</span>
-
-    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token class-name">Connection</span> <span class="token function">getConnection</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">throws</span> <span class="token class-name">SQLException</span> <span class="token punctuation">{</span>
-        <span class="token keyword">return</span> <span class="token class-name">DriverManager</span><span class="token punctuation">.</span><span class="token function">getConnection</span><span class="token punctuation">(</span>url<span class="token punctuation">,</span>username<span class="token punctuation">,</span>password<span class="token punctuation">)</span><span class="token string">&#39;&#39;</span>
-    <span class="token punctuation">}</span>
-
-    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">release</span><span class="token punctuation">(</span><span class="token class-name">Connection</span> <span class="token class-name"><span class="token namespace">conn<span class="token punctuation">.</span></span>Statement</span> st<span class="token punctuation">,</span><span class="token class-name">ResultSet</span> rs<span class="token punctuation">)</span><span class="token punctuation">{</span>
-        <span class="token keyword">if</span><span class="token punctuation">(</span>re<span class="token operator">!=</span><span class="token keyword">null</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-            <span class="token keyword">try</span> <span class="token punctuation">{</span>
-                rs<span class="token punctuation">.</span><span class="token function">close</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
-                st<span class="token punctuation">.</span><span class="token function">close</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
-                conn<span class="token punctuation">.</span><span class="token function">close</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
-            <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span><span class="token class-name">Exception</span> e<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-                <span class="token comment">// TODO: handle exception</span>
-            <span class="token punctuation">}</span>
-        <span class="token punctuation">}</span>
-        <span class="token keyword">if</span><span class="token punctuation">(</span>re<span class="token operator">!=</span><span class="token keyword">null</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-            <span class="token keyword">try</span> <span class="token punctuation">{</span>
-                rs<span class="token punctuation">.</span><span class="token function">close</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
-                st<span class="token punctuation">.</span><span class="token function">close</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
-                conn<span class="token punctuation">.</span><span class="token function">close</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
-            <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span><span class="token class-name">Exception</span> e<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-                <span class="token comment">// TODO: handle exception</span>
-            <span class="token punctuation">}</span>
-        <span class="token punctuation">}</span>
-        <span class="token keyword">if</span><span class="token punctuation">(</span>re<span class="token operator">!=</span><span class="token keyword">null</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-            <span class="token keyword">try</span> <span class="token punctuation">{</span>
-                rs<span class="token punctuation">.</span><span class="token function">close</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
-                st<span class="token punctuation">.</span><span class="token function">close</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
-                conn<span class="token punctuation">.</span><span class="token function">close</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
-            <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span><span class="token class-name">Exception</span> e<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-                <span class="token comment">// TODO: handle exception</span>
-            <span class="token punctuation">}</span>
-        <span class="token punctuation">}</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
-
-</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br></div></div><!--]-->`);
-}
-const _sfc_setup$V = _sfc_main$V.setup;
-_sfc_main$V.setup = (props, ctx) => {
-  const ssrContext = vue.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/mysql/04.JDBC.html.vue");
-  return _sfc_setup$V ? _sfc_setup$V(props, ctx) : void 0;
-};
-var _04_JDBC_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$V, [["ssrRender", _sfc_ssrRender$H]]);
-var _04_JDBC_html$2 = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  "default": _04_JDBC_html$1
-});
-const _sfc_main$U = {};
-function _sfc_ssrRender$G(_ctx, _push, _parent, _attrs) {
-  const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
   _push(`<!--[--><h1 id="linux" tabindex="-1"><a class="header-anchor" href="#linux" aria-hidden="true">#</a> Linux</h1><p>\u5B66\u4E60\u76EE\u6807</p><ol><li>\u6587\u4EF6\u64CD\u4F5C</li><li>\u76EE\u5F55\u7BA1\u7406</li><li>\u6587\u4EF6\u5C5E\u6027</li><li>Vim \u7F16\u8F91\u5668</li><li>\u8D26\u53F7\u7BA1\u7406</li><li>\u78C1\u76D8\u7BA1\u7406</li><li>\u6743\u9650\u7BA1\u7406</li></ol><h2 id="\u5B66\u524D\u5FC5\u770B" tabindex="-1"><a class="header-anchor" href="#\u5B66\u524D\u5FC5\u770B" aria-hidden="true">#</a> \u5B66\u524D\u5FC5\u770B</h2><p>\u76EE\u524D\u5E02\u9762\u4E0A\u8F83\u77E5\u540D\u7684\u53D1\u884C\u7248\u6709\uFF1AUbuntu\u3001RedHat\u3001CentOS\u3001Debian\u3001Fedora\u3001SuSE\u3001OpenSUSE\u3001Arch Linux\u3001SolusOS \u7B49\u3002</p><p>\u8FD9\u4E9B\u64CD\u4F5C\u7CFB\u7EDF\u90FD\u662F\u57FA\u4E8E Linux \u7684\u53D1\u884C\u7248\uFF0C\u6240\u4EE5 Linux \u662F\u5FC5\u987B\u5B66\u4E60\u7684\uFF0C\u4E0D\u7528\u7EA0\u7ED3\u662F Ubuntu \u6216\u8005 RedHat \u8FD8\u662F CentOS \u7B49\u3002</p><h2 id="\u5165\u95E8\u6982\u8FF0" tabindex="-1"><a class="header-anchor" href="#\u5165\u95E8\u6982\u8FF0" aria-hidden="true">#</a> \u5165\u95E8\u6982\u8FF0</h2><p>Linux \u5185\u6838\u6700\u521D\u53EA\u662F\u7531\u82AC\u5170\u4EBA\u6797\u7EB3\u65AF\xB7\u6258\u74E6\u5179\uFF08Linus Torvalds\uFF09\u5728\u8D6B\u5C14\u8F9B\u57FA\u5927\u5B66\u4E0A\u5B66\u65F6\u51FA\u4E8E\u4E2A\u4EBA\u7231\u597D\u800C\u7F16\u5199\u7684\u3002</p><p>Linux \u662F\u4E00\u5957\u514D\u8D39\u4F7F\u7528\u548C\u81EA\u7531\u4F20\u64AD\u7684\u7C7B Unix \u64CD\u4F5C\u7CFB\u7EDF\uFF0C\u662F\u4E00\u4E2A\u57FA\u4E8E POSIX\uFF08\u53EF\u79FB\u690D\u64CD\u4F5C\u7CFB\u7EDF\u63A5\u53E3\uFF09 \u548C UNIX \u7684\u591A\u7528\u6237\u3001\u591A\u4EFB\u52A1\u3001\u652F\u6301\u591A\u7EBF\u7A0B\u548C\u591A CPU \u7684\u64CD\u4F5C\u7CFB\u7EDF\u3002</p><p>Linux \u80FD\u8FD0\u884C\u4E3B\u8981\u7684 UNIX \u5DE5\u5177\u8F6F\u4EF6\u3001\u5E94\u7528\u7A0B\u5E8F\u548C\u7F51\u7EDC\u534F\u8BAE\u3002\u5B83\u652F\u6301 32 \u4F4D\u548C 64 \u4F4D\u786C\u4EF6\u3002Linux \u7EE7\u627F\u4E86 Unix \u4EE5\u7F51\u7EDC\u4E3A\u6838\u5FC3\u7684\u8BBE\u8BA1\u601D\u60F3\uFF0C\u662F\u4E00\u4E2A\u6027\u80FD\u7A33\u5B9A\u7684\u591A\u7528\u6237\u7F51\u7EDC\u64CD\u4F5C\u7CFB\u7EDF\u3002</p><ul><li>Linux \u53D1\u884C\u7248</li></ul><p><img src="https://mmbiz.qpic.cn/mmbiz_png/uJDAUKrGC7LDkhrDl4H9TqZhwyeNSeaNIyC5tbowflHyRITPKvgAySf3AZJibEUTrSo3fzRm85VDfInZ2olkIgg/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1" alt="alt \u56FE\u7247\u6765\u81EA\u72C2\u795E\u6559\u7A0B\uFF0C\u53EF\u81EA\u884C\u53BB\u67E5\u770B"></p><p>\u4ECA\u5929\u5404\u79CD\u573A\u5408\u90FD\u6709\u4F7F\u7528\u5404\u79CD Linux \u53D1\u884C\u7248\uFF0C\u4ECE\u5D4C\u5165\u5F0F\u8BBE\u5907\u5230\u8D85\u7EA7\u8BA1\u7B97\u673A\uFF0C\u5E76\u4E14\u5728\u670D\u52A1\u5668\u9886\u57DF\u786E\u5B9A\u4E86\u5730\u4F4D\uFF0C\u901A\u5E38\u670D\u52A1\u5668\u4F7F\u7528 LAMP\uFF08Linux + Apache + MySQL + PHP\uFF09\u6216 LNMP\uFF08Linux + Nginx+ MySQL + PHP\uFF09\u7EC4\u5408\u3002</p><h2 id="\u73AF\u5883\u642D\u5EFA-vmware-\u865A\u62DF\u673A\u5B89\u88C5" tabindex="-1"><a class="header-anchor" href="#\u73AF\u5883\u642D\u5EFA-vmware-\u865A\u62DF\u673A\u5B89\u88C5" aria-hidden="true">#</a> \u73AF\u5883\u642D\u5EFA\uFF08VMware \u865A\u62DF\u673A\u5B89\u88C5\uFF09</h2><p>Linux \u672C\u8EAB\u662F\u4E00\u4E2A\u64CD\u4F5C\u7CFB\uFF0C\u6240\u4EE5\u5B89\u88C5\u6BD4\u8F83\u9EBB\u70E6\u3002</p><p>\u4E24\u79CD\u65B9\u6CD5</p><ol><li>\u5B89\u88C5 CentOS\uFF08\u865A\u62DF\u673A\u5B89\u88C5\uFF0C\u8017\u8D44\u6E90\uFF09</li></ol><ul><li>\u5B89\u88C5 VMware \u865A\u62DF\u673A\u8F6F\u4EF6\uFF0C\u7136\u540E\u6253\u5F00\u6211\u4EEC\u7684\u955C\u50CF\u5373\u53EF\u4F7F\u7528\uFF01</li></ul><ol start="2"><li>\u8D2D\u4E70\u4E91\u670D\u52A1\u5668\uFF08\u6709\u94B1\u7684\u53EF\u4EE5\uFF0C\u63A5\u8FD1\u4F01\u4E1A\u73AF\u5883\uFF09</li></ol><ul><li><p>\u963F\u91CC\u4E91\u8D2D\u4E70\u670D\u52A1\u5668\uFF1Ahttps://www.aliyun.com/minisite/goods?userCode=0phtycgr</p></li><li><p>\u8D2D\u4E70\u5B8C\u6BD5\u540E\uFF0C\u83B7\u53D6\u670D\u52A1\u5668\u7684 ip \u5730\u5740\uFF0C\u91CD\u7F6E\u670D\u52A1\u5668\u5BC6\u7801\uFF0C\u5C31\u53EF\u4EE5\u8FDC\u7A0B\u767B\u5F55\u4E86</p></li></ul><blockquote><p>\u8FD9\u91CC\u901A\u8FC7 VMware \u865A\u62DF\u673A\u5B89\u88C5,\u8FD9\u662F\u5B66\u751F\u5E38\u7528\u7684\u65B9\u5F0F\uFF0C\u5948\u4F55\u6211\u6CA1\u94B1</p></blockquote><p>VMware \u5B98\u7F51\u94FE\u63A5<a href="https://www.vmware.com/cn.html" target="_blank" rel="noopener noreferrer">https://www.vmware.com/cn.html`);
   _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
   _push(`</a>\uFF0C\u627E\u5230<code>VMware workstation Pro</code>,\u70B9\u51FB\u4E0B\u8F7D\u4EA7\u54C1\u3002</p><p><a href="https://download3.vmware.com/software/WKST-1624-WIN/VMware-workstation-full-16.2.4-20089737.exe" target="_blank" rel="noopener noreferrer">\u65E0\u9700\u767B\u5F55\u4E0B\u8F7D VMware-workstation-full-16.2.4-20089737.exe`);
@@ -7598,17 +7115,500 @@ pstree
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><h3 id="kill-9" tabindex="-1"><a class="header-anchor" href="#kill-9" aria-hidden="true">#</a> kill-9</h3><p>\u7ED3\u675F\u8FDB\u7A0B</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>kill-9 \u8FDB\u7A0Bid
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><h2 id="\u5B89\u88C5jdk" tabindex="-1"><a class="header-anchor" href="#\u5B89\u88C5jdk" aria-hidden="true">#</a> \u5B89\u88C5JDK</h2><p>\u6CE8\u610F\uFF1ACentOS\u7B49\u7CFB\u7EDF\u53EF\u80FD\u4F1A\u81EA\u5E26Openjdk\u73AF\u5883\uFF0C\u8F93\u5165\u547D\u4EE4<code>java -version</code>\u67E5\u770B\u662F\u5426\u5DF2\u7ECF\u6709\u5B89\u88C5\u6216\u81EA\u5E26</p><!--]-->`);
 }
-const _sfc_setup$U = _sfc_main$U.setup;
-_sfc_main$U.setup = (props, ctx) => {
+const _sfc_setup$Y = _sfc_main$Y.setup;
+_sfc_main$Y.setup = (props, ctx) => {
   const ssrContext = vue.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/Linux/01.Linux\u5165\u95E8.html.vue");
-  return _sfc_setup$U ? _sfc_setup$U(props, ctx) : void 0;
+  return _sfc_setup$Y ? _sfc_setup$Y(props, ctx) : void 0;
 };
-var _01_Linux___html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$U, [["ssrRender", _sfc_ssrRender$G]]);
+var _01_Linux___html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$Y, [["ssrRender", _sfc_ssrRender$K]]);
 var _01_Linux___html$2 = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   "default": _01_Linux___html$1
+});
+const _sfc_main$X = {};
+function _sfc_ssrRender$J(_ctx, _push, _parent, _attrs) {
+  const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
+  _push(`<!--[--><p>\u6570\u636E\u7B80\u5355\u6765\u8BF4\u5C31\u662F\u5B58\u50A8\u6570\u636E\u7684\u5E93</p><ul><li>\u5173\u7CFB\u578B\u6570\u636E\u5E93\uFF1AMySQL,oracle</li><li>\u975E\u5173\u7CFB\u578B\u6570\u636E\u5E93\uFF1Aredis,mongodb</li></ul><h2 id="mysql\u5B89\u88C5" tabindex="-1"><a class="header-anchor" href="#mysql\u5B89\u88C5" aria-hidden="true">#</a> MySql\u5B89\u88C5</h2><p><a href="https://dev.mysql.com/downloads/mysql/" target="_blank" rel="noopener noreferrer">https://dev.mysql.com/downloads/mysql/`);
+  _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
+  _push(`</a></p><ol><li><p>\u5EFA\u8BAE\u4E0D\u8981\u4F7F\u7528 exe\uFF0C\u4F1A\u81EA\u52A8\u6DFB\u52A0\u5230\u6CE8\u518C\u8868\uFF0C\u5220\u9664\u65F6\u4F1A\u5BFC\u81F4\u4E00\u4E9B\u5947\u602A\u60C5\u51B5</p></li><li><p>\u538B\u7F29\u5305\u5B89\u88C5\u65B9\u4FBF\u5378\u8F7D\u548C\u7BA1\u7406</p><p>\u5B89\u88C5\u6559\u7A0B\u8FD9\u91CC\u4E0D\u518D\u8D58\u8FF0</p></li></ol><h2 id="\u5B89\u88C5-navicat" tabindex="-1"><a class="header-anchor" href="#\u5B89\u88C5-navicat" aria-hidden="true">#</a> \u5B89\u88C5 navicat</h2><p>\u7DB2\u4E0A\u6709\u5F88\u591A\u7834X\u7248\u3002</p><h2 id="\u57FA\u672C\u547D\u4EE4\u884C" tabindex="-1"><a class="header-anchor" href="#\u57FA\u672C\u547D\u4EE4\u884C" aria-hidden="true">#</a> \u57FA\u672C\u547D\u4EE4\u884C</h2><p>\u76EE\u524D\u4E3A\u6B62\uFF0CMySQL \u8BED\u53E5\u5FC5\u987B\u5206\u53F7\u7ED3\u5C3E\uFF0C\u5173\u952E\u5B57\u6CE8\u610F\u4E0D\u533A\u5206\u5927\u5C0F\u5199\u3002</p><ol><li>\u94FE\u63A5 MySQL</li><li>\u4FEE\u6539\u5BC6\u7801</li><li>\u5237\u65B0\u6743\u9650</li><li>\u6253\u5370\u5168\u90E8\u6570\u636E\u5E93</li><li>\u5207\u6362\u6570\u636E\u5E93</li><li>\u6253\u5370\u6240\u6709\u8868</li><li>\u663E\u793A\u8868\u4FE1\u606F</li><li>\u521B\u5EFA\u6570\u636E\u5E93</li><li>\u5173\u95ED\u6570\u636E\u5E93</li><li>\u6CE8\u91CA</li></ol><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">-- \u767B\u5F55MySQL\u94FE\u63A5\u6570\u636E\u5E93</span>
+mysql <span class="token operator">-</span>u root <span class="token operator">-</span>p <span class="token number">123456</span>
+
+<span class="token comment">-- MySQL5.7\u4FEE\u6539\u5BC6\u7801(\u4E0B\u9762\u662F\u628Aroot\u5BC6\u7801\u6539\u4E3A123456)</span>
+<span class="token keyword">update</span> mysql<span class="token punctuation">.</span><span class="token keyword">user</span> <span class="token keyword">set</span> authentication_string<span class="token operator">=</span>password<span class="token punctuation">(</span><span class="token string">&#39;123456&#39;</span><span class="token punctuation">)</span> <span class="token keyword">where</span> <span class="token keyword">user</span> <span class="token operator">=</span> <span class="token string">&quot;root&quot;</span><span class="token punctuation">;</span>
+
+<span class="token comment">-- MySQL8\u4FEE\u6539\u5BC6\u7801(\u8981\u5148\u767B\u5F55root)</span>
+<span class="token keyword">show</span> <span class="token keyword">databases</span><span class="token punctuation">;</span>
+<span class="token keyword">use</span> mysql<span class="token punctuation">;</span>
+<span class="token keyword">alter</span> <span class="token keyword">user</span> <span class="token string">&quot;root&quot;</span><span class="token variable">@&quot;localhost&quot;</span> identified <span class="token keyword">with</span> mysql_native_password <span class="token keyword">by</span> <span class="token string">&#39;123456&#39;</span><span class="token punctuation">;</span>
+
+<span class="token comment">-- \u5237\u65B0MySQL\u7CFB\u7EDF\u6743\u9650\u76F8\u5173</span>
+flush <span class="token keyword">privileges</span><span class="token punctuation">;</span>
+
+<span class="token comment">-- \u6253\u5370\u5168\u90E8\u6570\u636E\u5E93</span>
+<span class="token keyword">show</span> <span class="token keyword">databases</span><span class="token punctuation">;</span>
+
+<span class="token comment">-- \u5207\u6362\u6570\u636E\u5E93(\u5207\u6362\u5230school\u6570\u636E\u5E93)</span>
+<span class="token keyword">use</span> school<span class="token punctuation">;</span>
+
+<span class="token comment">-- \u6253\u5370\u6240\u6709\u8868</span>
+<span class="token keyword">show</span> <span class="token keyword">tables</span><span class="token punctuation">;</span>
+
+<span class="token comment">-- \u663E\u793A\u8868\u4FE1\u606F(\u663E\u793Astudent\u8868\u4FE1\u606F)</span>
+<span class="token keyword">describe</span> student<span class="token punctuation">;</span>
+
+<span class="token comment">-- \u521B\u5EFA\u6570\u636E\u5E93(\u521B\u5EFAschool\u6570\u636E\u5E93)</span>
+<span class="token keyword">create</span> <span class="token keyword">database</span> school<span class="token punctuation">;</span>
+
+<span class="token comment">-- \u5173\u95ED\u6570\u636E\u5E93</span>
+<span class="token keyword">exit</span><span class="token punctuation">;</span>
+
+<span class="token comment">-- \u5355\u884C\u6CE8\u91CA</span>
+
+<span class="token comment">/*
+\u591A\u884C\u6CE8\u91CA
+*/</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br></div></div><p>\u4E00\u4E9B\u540D\u79F0\u91CA\u4E49\uFF1A</p><p><code>DDL</code>\uFF1A\u6570\u636E\u5E93\u5B9A\u4E49\u8BED\u8A00</p><p><code>DML</code>\uFF1A\u6570\u636E\u5E93\u64CD\u4F5C\u8BED\u8A00</p><p><code>DQL</code>\uFF1A\u6570\u636E\u5E93\u67E5\u8BE2\u8BED\u8A00</p><p><code>DCL</code>\uFF1A\u6570\u636E\u5E93\u63A7\u5236\u8BED\u8A00</p><h2 id="\u64CD\u4F5C\u6570\u636E\u5E93" tabindex="-1"><a class="header-anchor" href="#\u64CD\u4F5C\u6570\u636E\u5E93" aria-hidden="true">#</a> \u64CD\u4F5C\u6570\u636E\u5E93</h2><p><code>\u64CD\u4F5C\u6570\u636E\u5E93</code>\u2014\u2014&gt;<code>\u64CD\u4F5C\u6570\u636E\u5E93\u8868</code>\u2014\u2014&gt;<code>\u64CD\u4F5C\u6570\u636E\u5E93\u8868\u6570\u636E</code></p><p>\u57FA\u672C<code>CRUD</code>\u589E\u5220\u67E5\u6539\u3002</p><p><code>\u91CA\u4E49\uFF1A\u4E0B\u9762\u7B26\u53F7</code> [ ] <code>\u662F\u53EF\u9009\u7684\u9009\u9879\u4F46\u4E0D\u5305\u62EC</code> [ ] <code>\u7B26\u53F7\uFF0C\u5982\uFF1A</code> <code>[if not exists]</code> <code>\u7B49\u4E8E</code> <code>if not exists</code> <code>;</code></p><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">-- \u521B\u5EFAschool\u6570\u636E\u5E93\uFF1B\u5982\u679C\u4E0D\u5B58\u5728\u7684\u8BDD\uFF0C[if not exists]\u4F5C\u7528\u662F\u5982\u679C\u5DF2\u7ECF\u5B58\u5728\u5219\u8DF3\u8FC7\uFF0C\u4E0D\u4F1A\u518D\u62A5\u9519\u3002</span>
+<span class="token keyword">create</span> <span class="token keyword">database</span> <span class="token punctuation">[</span><span class="token keyword">if</span> <span class="token operator">not</span> <span class="token keyword">exists</span><span class="token punctuation">]</span> school<span class="token punctuation">;</span>
+
+<span class="token comment">-- \u5220\u9664\u6570\u636E\u5E93\uFF0C\u5982\u679C\u5B58\u5728\uFF0C\u4E0D\u5B58\u5728\u5219\u8DF3\u8FC7\u8FD9\u53E5\u3002</span>
+<span class="token keyword">drop</span> databser <span class="token punctuation">[</span><span class="token keyword">if</span> <span class="token keyword">exists</span><span class="token punctuation">]</span> school<span class="token punctuation">;</span>
+
+<span class="token comment">-- \u5207\u6362\u6570\u636E\u5E93(\u6CE8\u610F\u4E0B\u9762\u5E93\u540D\u6709\u53CD\u5F15\u53F7\uFF0C\u5982\u679C\u4F60\u7684\u5B57\u6BB5\u548CMySQL\u91CD\u540D\u4E86\u5C31\u9700\u8981\u7528\u53CD\u5F15\u53F7\u5305\u88F9)</span>
+<span class="token keyword">use</span> <span class="token punctuation">\`</span>school<span class="token punctuation">\`</span><span class="token punctuation">;</span>
+
+<span class="token comment">-- \u67E5\u770B\u6240\u6709\u6570\u636E\u5E93</span>
+<span class="token keyword">show</span> <span class="token keyword">databases</span><span class="token punctuation">;</span>
+
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><h2 id="\u64CD\u4F5C\u8868" tabindex="-1"><a class="header-anchor" href="#\u64CD\u4F5C\u8868" aria-hidden="true">#</a> \u64CD\u4F5C\u8868</h2><h3 id="_1-\u6570\u636E\u7C7B\u578B" tabindex="-1"><a class="header-anchor" href="#_1-\u6570\u636E\u7C7B\u578B" aria-hidden="true">#</a> 1.\u6570\u636E\u7C7B\u578B</h3><blockquote><p><code>\u6570\u503C</code></p></blockquote><ul><li><code>tinyint</code>\uFF1A\u5341\u5206\u5C0F\u7684\u6570\u636E\uFF0C1 \u4E2A\u5B57\u8282</li><li><code>smallint</code>\uFF1A\u8F83\u5C0F\u7684\u6570\u636E\uFF0C2 \u4E2A\u5B57\u8282</li><li><code>mediumint</code>\uFF1A\u4E2D\u7B49\u5927\u5C0F\u7684\u6570\u636E\uFF0C3 \u4E2A\u5B57\u8282</li><li><code>int</code>\uFF1A\u6807\u51C6\u6574\u6570\uFF0C4 \u4E2A\u5B57\u8282\uFF0C\u5E38\u7528</li><li><code>bigint</code>\uFF1A\u8F83\u5927\u7684\u6570\u636E\uFF0C8 \u4E2A\u5B57\u8282</li><li><code>float</code>\uFF1A\u6D6E\u70B9\u6570\uFF0C4 \u4E2A\u5B57\u8282</li><li><code>double</code>\uFF1A\u6D6E\u70B9\u6570\uFF0C8 \u4E2A\u5B57\u8282</li><li><code>decimal</code>\uFF1A\u5B57\u7B26\u4E32\u6D6E\u70B9\u6570\uFF0C\u91D1\u878D\u8BA1\u7B97\u5E38\u7528\uFF08\u4E0D\u4F1A\u7CBE\u5EA6\u7F3A\u5C11\uFF09\u5E38\u7528</li></ul><blockquote><p><code>\u5B57\u7B26\u4E32</code></p></blockquote><ul><li><code>char</code>\uFF1A\u56FA\u5B9A\u5927\u5C0F\u5B57\u7B26\u4E32\uFF0C0-255</li><li><code>varchar</code>\uFF1A\u53EF\u53D8\u5B57\u7B26\u4E32\uFF0C0-65535\uFF0C\u5E38\u7528\uFF0C\u5BF9\u5E94 Java \u4E2D\u7684 string</li><li><code>tinytext</code>\uFF1A\u5FAE\u578B\u6587\u672C\uFF0C2<sup>8</sup>-1</li><li><code>text</code>\uFF1A\u6587\u672C\u4E32\uFF0C2<sup>16</sup>-1</li></ul><blockquote><p><code>\u65F6\u95F4\u65E5\u671F</code></p></blockquote><ul><li><code>date</code>\uFF1Ayyyy-mm-dd\uFF0C\u65E5\u671F</li><li><code>time</code>\uFF1Ahh:mm:ss \u65F6\u95F4\u683C\u5F0F</li><li><code>datetime</code>\uFF1Ayyyy-mm-dd hh:mm:ss \u5E38\u7528\u7684\u65F6\u95F4\u683C\u5F0F</li><li><code>timestamp</code>\uFF1A\u65F6\u95F4\u6233\uFF0C1970.1.1 \u5230\u73B0\u5728\u7684\u65F6\u95F4\u6233\uFF0C\u5E38\u7528\u7684\u65F6\u95F4\u683C\u5F0F</li><li><code>year</code>\uFF1A\u5E74\u4EFD\u8868\u793A</li></ul><blockquote><p><code>null</code></p></blockquote><ul><li>\u6CA1\u6709\u503C\uFF0C\u672A\u77E5</li><li>\u6CE8\u610F\uFF0C\u5C3D\u91CF\u4E0D\u8981\u4F7F\u7528 null \u6765\u8FD0\u7B97\uFF0C\u5BB9\u6613\u62A5\u9519</li><li>\u5982\u679C\u8A72\u5217\u6CA1\u503C\uFF0C\u53EF\u4EE5\u7528\u5176\u7C7B\u578B\u7684\u9ED8\u8BA4\u503C\uFF0C\u4E0D\u8981 null</li></ul><h3 id="_2-\u5B57\u6BB5\u5C5E\u6027-\u91CD\u8981" tabindex="-1"><a class="header-anchor" href="#_2-\u5B57\u6BB5\u5C5E\u6027-\u91CD\u8981" aria-hidden="true">#</a> 2.\u5B57\u6BB5\u5C5E\u6027\uFF08\u91CD\u8981\uFF09</h3><blockquote><p><code>Unsigned</code></p></blockquote><p>\u6570\u503C\u7C7B\u578B\u4F7F\u7528\uFF0C\u6807\u6CE8\u503C\u4E3A\u65E0\u7B26\u53F7\u7684\u6574\u6570\uFF0C\u4E0D\u80FD\u4E3A\u8D1F\u6570\uFF0C\u5426\u5219\u62A5\u9519\u3002</p><blockquote><p><code>zerofill</code></p></blockquote><p>0 \u586B\u5145\u7684 \u4E0D\u8DB3\u7684\u4F4D\u6570\uFF0C\u4F7F\u7528 0 \u6765\u586B\u5145 \u6BD4\u5982\uFF1Aint(5 \u4E2A\u5B57\u8282)\uFF0C\u5982\u679C\u4F20\u5165<code>5</code>\uFF0C\u90A3\u4FDD\u5B58\u7684\u662F<code>0005</code></p><blockquote><p><code>auto_increamennt</code></p></blockquote><p>\u7B80\u5355\u7406\u89E3\u5C31\u662F\u81EA\u589E\uFF0C\u81EA\u52A8\u5728\u4E0A\u4E00\u6761\u8BB0\u5F55\u57FA\u7840\u4E0A\u52A0\u4E00\uFF08\u9ED8\u8BA4\uFF09 \u5E38\u7528\u4E8E\u8BBE\u8BA1\u552F\u4E00\u4E3B\u952E\u81EA\u589E\uFF0C\u5FC5\u987B\u662F\u6574\u6570\u7C7B\u578B \u53EF\u4EE5\u8BBE\u7F6E\u8D77\u59CB\u503C\u548C\u589E\u91CF\uFF0C\u4E00\u822C\u4E0D\u6539</p><blockquote><p><code>not null</code></p></blockquote><p>\u975E\u7A7A \u5982\u679C\u8BBE\u7F6E\u4E86\uFF0C\u5728\u63D2\u5165\u503C\u7684\u65F6\u5019\u5982\u679C\u4E3A null \u5219\u62A5\u9519\u3002 null\uFF1A\u5982\u679C\u4E0D\u586B\u5199\u503C\uFF0CMySQL \u4F1A\u4E3A null\u3002</p><blockquote><p><code>default</code></p></blockquote><p>\u8BBE\u7F6E\u9ED8\u8BA4\u503C \u5982\u679C\u63D2\u5165\u6570\u636E\u65F6\uFF0C\u5982\u679C\u4E0D\u6307\u5B9A\u8BE5\u5217\u7684\u503C\uFF0C\u5C31\u4F1A\u4F7F\u7528 default \u9ED8\u8BA4\u503C</p><ol><li>\u7EC3\u4E60 <ul><li>\u521B\u5EFA\u4E00\u4E2A school \u5E93</li><li>\u521B\u5EFA\u5B66\u751F\u8868</li><li>\u5B66\u53F7 int</li><li>\u767B\u9646\u5BC6\u7801 varchar(20)</li><li>\u59D3\u540D</li><li>\u6027\u522B</li><li>\u51FA\u751F\u65E5\u671F</li><li>\u5BB6\u5EAD\u5730\u5740</li><li>Email</li></ul></li></ol><p>\u6CE8\u610F\uFF1A\u4F7F\u7528\u82F1\u6587\u7B26\u53F7\uFF0C\u8868\u548C\u5B57\u6BB5\u540D\u79F0\u5C3D\u91CF\u4F7F\u7528\u53CD\u5F15\u53F7\u5305\u88F9\u3002\u552F\u4E00\u503C\u8BBE\u7F6E\u81EA\u589E,\u4E00\u822C\u4F7F\u7528\u5355\u5F15\u53F7\uFF0C\u8BED\u53E5\u9017\u53F7\u9694\u5F00\uFF0C\u6700\u540E\u4E00\u4E2A\u4E0D\u7528</p><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token keyword">show</span> <span class="token keyword">create</span> <span class="token keyword">database</span> school<span class="token punctuation">;</span> <span class="token comment">--\u67E5\u770B\u521B\u5EFA\u6570\u636E\u5E93\u7684\u8BED\u53E5</span>
+<span class="token keyword">show</span> <span class="token keyword">create</span> <span class="token keyword">table</span> student<span class="token punctuation">;</span> <span class="token comment">--\u67E5\u770B\u8868\u5B9A\u4E49\u7684\u8BED\u53E5</span>
+<span class="token keyword">desc</span> student <span class="token comment">--\u67E5\u770B\u8868\u7ED3\u6784</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token keyword">create</span> <span class="token keyword">table</span> <span class="token keyword">if</span> <span class="token operator">not</span> <span class="token keyword">exists</span> <span class="token punctuation">\`</span>student<span class="token punctuation">\`</span> <span class="token punctuation">(</span>
+   <span class="token punctuation">\`</span>id<span class="token punctuation">\`</span> <span class="token keyword">int</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">)</span> <span class="token operator">not</span> <span class="token boolean">null</span> auto_increamennt <span class="token keyword">comment</span> <span class="token string">&#39;\u5B66\u53F7&#39;</span><span class="token punctuation">,</span>
+   <span class="token punctuation">\`</span>name<span class="token punctuation">\`</span> <span class="token keyword">varchar</span><span class="token punctuation">(</span><span class="token number">30</span><span class="token punctuation">)</span> <span class="token operator">not</span> <span class="token boolean">null</span> <span class="token keyword">default</span> <span class="token string">&#39;\u533F\u540D&#39;</span> <span class="token keyword">comment</span> <span class="token string">&#39;\u59D3\u540D&#39;</span><span class="token punctuation">,</span>
+   <span class="token punctuation">\`</span>password<span class="token punctuation">\`</span> <span class="token keyword">varchar</span><span class="token punctuation">(</span><span class="token number">20</span><span class="token punctuation">)</span> <span class="token operator">not</span> <span class="token boolean">null</span> <span class="token keyword">default</span> <span class="token string">&#39;123456&#39;</span> <span class="token keyword">comment</span> <span class="token string">&#39;\u5BC6\u7801&#39;</span><span class="token punctuation">,</span>
+   <span class="token punctuation">\`</span>sex<span class="token punctuation">\`</span> <span class="token keyword">varchar</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span> <span class="token operator">not</span> <span class="token boolean">null</span> <span class="token keyword">default</span> <span class="token string">&#39;\u5973&#39;</span> <span class="token keyword">comment</span> <span class="token string">&#39;\u6027\u522B&#39;</span><span class="token punctuation">,</span>
+   <span class="token punctuation">\`</span>birthday<span class="token punctuation">\`</span> <span class="token keyword">datetime</span> <span class="token keyword">default</span> <span class="token boolean">null</span> <span class="token keyword">comment</span> <span class="token string">&#39;\u51FA\u751F\u65E5\u671F&#39;</span><span class="token punctuation">,</span>
+   <span class="token punctuation">\`</span>address<span class="token punctuation">\`</span> <span class="token keyword">varchar</span><span class="token punctuation">(</span><span class="token number">100</span><span class="token punctuation">)</span> <span class="token keyword">default</span> <span class="token boolean">null</span> <span class="token keyword">comment</span> <span class="token string">&#39;\u5BB6\u5EAD\u5730\u5740&#39;</span><span class="token punctuation">,</span>
+   <span class="token punctuation">\`</span>email<span class="token punctuation">\`</span> <span class="token keyword">varchar</span><span class="token punctuation">(</span><span class="token number">50</span><span class="token punctuation">)</span> <span class="token keyword">default</span> <span class="token boolean">null</span> <span class="token keyword">comment</span> <span class="token string">&#39;&#39;</span>\u90AE\u7BB1<span class="token punctuation">,</span>
+   <span class="token keyword">primary</span> <span class="token keyword">key</span><span class="token punctuation">(</span><span class="token punctuation">\`</span>id<span class="token punctuation">\`</span><span class="token punctuation">)</span>
+<span class="token punctuation">)</span><span class="token keyword">engine</span><span class="token operator">=</span><span class="token keyword">innodb</span> <span class="token keyword">default</span> <span class="token keyword">charset</span><span class="token operator">=</span>utf8
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token keyword">create</span> <span class="token keyword">table</span> <span class="token punctuation">[</span><span class="token keyword">if</span> <span class="token operator">not</span> <span class="token keyword">exists</span><span class="token punctuation">]</span> <span class="token punctuation">\`</span>\u8868\u540D<span class="token punctuation">\`</span> <span class="token punctuation">(</span>
+   <span class="token punctuation">\`</span>\u5B57\u6BB5\u540D<span class="token punctuation">\`</span> \u5217\u7C7B\u578B <span class="token punctuation">[</span>\u5C5E\u6027<span class="token punctuation">]</span> <span class="token punctuation">[</span>\u7D22\u5F15<span class="token punctuation">]</span> <span class="token punctuation">[</span>\u6CE8\u91CA<span class="token punctuation">]</span>
+   <span class="token comment">--......</span>
+<span class="token punctuation">)</span><span class="token punctuation">[</span>\u8868\u7C7B\u578B<span class="token punctuation">]</span><span class="token punctuation">[</span>\u5B57\u7B26\u96C6\u8BBE\u7F6E<span class="token punctuation">]</span><span class="token punctuation">[</span>\u6CE8\u91CA<span class="token punctuation">]</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h3 id="_3-\u6570\u636E\u5E93\u5F15\u64CE\u548C\u7F16\u7801" tabindex="-1"><a class="header-anchor" href="#_3-\u6570\u636E\u5E93\u5F15\u64CE\u548C\u7F16\u7801" aria-hidden="true">#</a> 3.\u6570\u636E\u5E93\u5F15\u64CE\u548C\u7F16\u7801</h3><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">MyIsam</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">InnoDB</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4E8B\u52A1\u652F\u6301</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4E0D\u652F\u6301</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u652F\u6301</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6570\u636E\u884C\u9501\u5B9A</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4E0D\u652F\u6301</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u652F\u6301</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5916\u952E</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4E0D\u652F\u6301</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u652F\u6301</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5168\u6587\u7D22\u5F15</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u652F\u6301</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6682\u4E0D\u652F\u6301</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u7A7A\u95F4\u5927\u5C0F</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8F83\u5C0F</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8F83\u5927\uFF0C\u7EA6\u524D\u8005 2 \u500D</td></tr></tbody></table><blockquote><p>\u7269\u7406\u5B58\u50A8\u7684\u533A\u522B</p></blockquote><ol><li>InnoDB\uFF1A(\u6CE8\u610F 5.x \u548C 8.x \u7248\u672C\u6709\u4E0D\u540C)</li></ol><p><code>.frm</code>\uFF1A\u5B58\u50A8\u8868\u5B9A\u4E49\uFF0C\u5728 5.x \u4EE5\u4E0B\u5E94\u8BE5\u5B58\u5728</p><p><code>.idb</code>\uFF1A\u5B58\u50A8\u6570\u636E\u548C\u7D22\u5F15\uFF0C\u5728\u540C\u4E00\u4E2A\u6587\u4EF6\u4E2D\uFF0C8.x \u5E94\u8BE5\u53EF\u89C1</p><ol start="2"><li>MyIsam:</li></ol><p><code>.frm</code>: \u5B58\u50A8\u8868\u5B9A\u4E49</p><p><code>.myd(MYData)</code>: \u5B58\u50A8\u6570\u636E</p><p><code>.MYI(MYindex)</code>: \u5B58\u50A8\u5F15\u64CE,\u5373\u7D22\u5F15\u6587\u4EF6</p><blockquote><p>\u8BBE\u7F6E\u6570\u636E\u5E93\u8868\u7F16\u7801\u95EE\u9898</p></blockquote><p><code>charset=utf8mb64</code></p><p>\u53EF\u4EE5\u4E86\u89E3\u4E00\u4E0B<code>COLLATE = utf8mb4_general_ci;</code></p><p>\u6392\u5E8F\u89C4\u5219\uFF1A\u662F\u6307\u5BF9\u6307\u5B9A\u5B57\u7B26\u96C6\u4E0B\u4E0D\u540C\u5B57\u7B26\u7684\u6BD4\u8F83\u89C4\u5219\u3002</p><p>\u5176\u7279\u5F81\u6709\u4EE5\u4E0B\u51E0\u70B9\uFF1A</p><ol><li><p>\u4E24\u4E2A\u4E0D\u540C\u7684\u5B57\u7B26\u96C6\u4E0D\u80FD\u6709\u76F8\u540C\u7684\u6392\u5E8F\u89C4\u5219</p></li><li><p>\u4E24\u4E2A\u5B57\u7B26\u96C6\u6709\u4E00\u4E2A\u9ED8\u8BA4\u7684\u6392\u5E8F\u89C4\u5219</p></li><li><p>\u6709\u4E00\u4E9B\u5E38\u7528\u7684\u547D\u540D\u89C4\u5219\u3002\u5982_ci\u7ED3\u5C3E\u8868\u793A\u5927\u5C0F\u5199\u4E0D\u654F\u611F\uFF08caseinsensitive\uFF09,_cs\u8868\u793A\u5927\u5C0F\u5199\u654F\u611F\uFF08case sensitive\uFF09,_bin\u8868\u793A\u4E8C\u8FDB\u5236\u7684\u6BD4\u8F83\uFF08binary\uFF09.</p></li></ol><p>\u9996\u5148 MySQL \u9ED8\u8BA4\u5B57\u7B26\u96C6\u7F16\u7801\u4E0D\u652F\u6301\u4E2D\u6587\uFF0C\u6240\u4EE5\u5C3D\u91CF\u90FD\u8BBE\u7F6E\uFF0C\u4E0D\u7136\u5728\u4E0D\u540C\u73AF\u5883\u4E0B\u4F1A\u51FA\u73B0\u95EE\u9898\u3002</p><h3 id="_4-\u5B57\u6BB5\u5220\u9664\u548C\u4FEE\u6539" tabindex="-1"><a class="header-anchor" href="#_4-\u5B57\u6BB5\u5220\u9664\u548C\u4FEE\u6539" aria-hidden="true">#</a> 4.\u5B57\u6BB5\u5220\u9664\u548C\u4FEE\u6539</h3><blockquote><p>\u4FEE\u6539\u8868<code>alter</code></p></blockquote><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">-- \u4FEE\u6539\u8868\u540D</span>
+<span class="token keyword">alter</span> <span class="token keyword">table</span> teacher <span class="token keyword">rename</span> <span class="token keyword">as</span> teacher_new
+
+<span class="token comment">-- \u589E\u52A0\u5B57\u6BB5\u540D  alter table \u8868\u540D add \u5B57\u6BB5\u540D \u5217\u5C6C\u6027 \u7D22\u5F15;</span>
+<span class="token keyword">alter</span> <span class="token keyword">table</span> teacher_new <span class="token keyword">add</span> age <span class="token keyword">int</span><span class="token punctuation">(</span><span class="token number">11</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">-- \u66F4\u6539\u5217\u5C5E\u6027 modify: alter table \u8868\u540D \u5217\u540D \u7C7B\u578B</span>
+<span class="token keyword">alter</span> <span class="token keyword">table</span> teacher_new <span class="token keyword">modify</span> age <span class="token keyword">varchar</span><span class="token punctuation">(</span><span class="token number">11</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">--\u4FEE\u6539\u7D04\u675F</span>
+
+
+<span class="token comment">-- \u66F4\u6539\u5217\u540D change: alter table \u8868\u540D change \u65E7\u5217\u540D \u65B0\u5217\u540D \u7C7B\u578B;</span>
+<span class="token comment">-- \u53EA\u66F4\u6539\u5217\u5C5E\u6027 change: alter table \u8868\u540D \u5217\u540D \u5217\u540D \u7C7B\u578B;        \u76F8\u540C\u7684\u5217\u540D\u8981\u5199\u4E24\u6B21.</span>
+<span class="token keyword">alter</span> <span class="token keyword">table</span> teacher_new change age age1 <span class="token keyword">int</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">-- \u4FEE\u6539\u5B57\u6BB5\u540D</span>
+<span class="token comment">-- \u7D50\u8F2A\uFF1A</span>
+<span class="token comment">--change\u7528\u4F86\u4FEE\u6539\u5B57\u6BB5\u91CD\u547D\u540D</span>
+<span class="token comment">--modify\u53EA\u80FD\u4FEE\u6539\u5B57\u6BB5\u7684\u985E\u578B\u548C\u7D04\u675F</span>
+
+<span class="token comment">-- \u522A\u9664\u8868\u5B57\u6BB5</span>
+<span class="token keyword">alter</span> <span class="token keyword">table</span> teacher_new <span class="token keyword">drop</span> age1
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br></div></div><blockquote><p>drop</p></blockquote><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">-- \u522A\u9664\u8868</span>
+<span class="token keyword">drop</span> <span class="token keyword">table</span> <span class="token keyword">if</span> <span class="token keyword">exists</span> teacher_new
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><!--]-->`);
+}
+const _sfc_setup$X = _sfc_main$X.setup;
+_sfc_main$X.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/mysql/01.mysql.html.vue");
+  return _sfc_setup$X ? _sfc_setup$X(props, ctx) : void 0;
+};
+var _01_mysql_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$X, [["ssrRender", _sfc_ssrRender$J]]);
+var _01_mysql_html$2 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": _01_mysql_html$1
+});
+const _sfc_main$W = {};
+function _sfc_ssrRender$I(_ctx, _push, _parent, _attrs) {
+  const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
+  _push(`<!--[--><h1 id="\u6578\u64DA\u7BA1\u7406" tabindex="-1"><a class="header-anchor" href="#\u6578\u64DA\u7BA1\u7406" aria-hidden="true">#</a> \u6578\u64DA\u7BA1\u7406</h1><h2 id="\u5916\u9375" tabindex="-1"><a class="header-anchor" href="#\u5916\u9375" aria-hidden="true">#</a> \u5916\u9375</h2><p>\u4E0B\u9762\u662F\u7269\u7406\u5916\u9375\uFF1A</p><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">-- \u5B9A\u7FA9\u5916\u9375 key</span>
+<span class="token comment">-- \u5916\u9375\u985E\u4F3C\u65BC\u7D04\u675F\uFF0C\u57F7\u884C\u5F15\u7528\u5176\u5B83\u8868\u7684\u6578\u64DA\uFF0Creferences \u5F15\u7528</span>
+<span class="token keyword">key</span> <span class="token punctuation">\`</span>FK_gradeid<span class="token punctuation">\`</span> <span class="token punctuation">(</span><span class="token punctuation">\`</span>gradeid<span class="token punctuation">\`</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+<span class="token keyword">constraint</span> <span class="token punctuation">\`</span>FK_gradeid<span class="token punctuation">\`</span> <span class="token keyword">foreign</span> <span class="token keyword">key</span> <span class="token punctuation">(</span><span class="token punctuation">\`</span>gradeid<span class="token punctuation">\`</span><span class="token punctuation">)</span> <span class="token keyword">references</span> <span class="token punctuation">\`</span>gradeid<span class="token punctuation">\`</span> <span class="token punctuation">(</span><span class="token punctuation">\`</span>gradeid<span class="token punctuation">\`</span><span class="token punctuation">)</span>
+<span class="token comment">-- 1.\u5916\u9375\u4E0D\u80FD\u662F\u4E3B\u9375</span>
+<span class="token comment">-- 2.\u5169\u500B\u5B57\u6BB5\u6578\u64DA\u985E\u578B\u548C\u7D04\u675F\u5FC5\u9808\u76F8\u540C</span>
+
+<span class="token comment">-- \u6216\u8005</span>
+
+<span class="token keyword">alter</span> <span class="token keyword">table</span> <span class="token punctuation">\`</span>\u8868\u540D<span class="token punctuation">\`</span>
+<span class="token keyword">add</span> <span class="token keyword">constraint</span> <span class="token punctuation">\`</span>FK_gradeid<span class="token punctuation">\`</span> <span class="token keyword">foreign</span> <span class="token keyword">key</span> <span class="token punctuation">(</span><span class="token punctuation">\`</span>gradeid<span class="token punctuation">\`</span><span class="token punctuation">)</span> <span class="token keyword">references</span> <span class="token punctuation">\`</span>grade<span class="token punctuation">\`</span> <span class="token punctuation">(</span><span class="token punctuation">\`</span>gradeid<span class="token punctuation">\`</span><span class="token punctuation">)</span>
+
+<span class="token comment">-- alter table \u8868 add constraint [\u7D04\u675F\u540D] foreign key (\u4F5C\u70BA\u5916\u9375\u7684\u5217) references \u90A3\u500B\u8868\uFF08\u90A3\u500B\u5B57\u6BB5\uFF09</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div><p>\u522A\u9664\u5916\u9375\u7684\u6642\u5019\uFF0C\u5FC5\u9808\u5148\u522A\u9664\u5B57\u8868\uFF0C\u518D\u522A\u9664\u7236\u8868</p><h4 id="\u4E0D\u5F97\u4F7F\u7528\u5916\u9375\u65BC\u7D1A\u806F" tabindex="-1"><a class="header-anchor" href="#\u4E0D\u5F97\u4F7F\u7528\u5916\u9375\u65BC\u7D1A\u806F" aria-hidden="true">#</a> \u4E0D\u5F97\u4F7F\u7528\u5916\u9375\u65BC\u7D1A\u806F</h4><h2 id="dml-\u8A9E\u8A00" tabindex="-1"><a class="header-anchor" href="#dml-\u8A9E\u8A00" aria-hidden="true">#</a> DML \u8A9E\u8A00</h2><h3 id="\u63D2\u5165" tabindex="-1"><a class="header-anchor" href="#\u63D2\u5165" aria-hidden="true">#</a> \u63D2\u5165</h3><blockquote><p>insert</p></blockquote><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">-- insert into \u8868\u540D (\`\u5B57\u6BB5\u540D\`,\`\u5B57\u6BB5\u540D2\`) values \uFF08\`\u503C1\`,\`\u503C2\`\uFF09</span>
+<span class="token comment">-- insert into \u8868\u540D (\`\u5B57\u6BB5\u540D\`) values \uFF08\`\u503C1\`),(\`\u503C2\`\uFF09; \u4E00\u500B\u5B57\u6BB5\u591A\u500B\u503C</span>
+<span class="token keyword">insert</span> <span class="token keyword">into</span> <span class="token punctuation">\`</span>student<span class="token punctuation">\`</span> <span class="token punctuation">(</span><span class="token punctuation">\`</span>name<span class="token punctuation">\`</span><span class="token punctuation">)</span> <span class="token keyword">values</span> <span class="token punctuation">(</span><span class="token string">&#39;\u9673\u67D2&#39;</span><span class="token punctuation">)</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>\u6CE8\u610F\uFF1A\u5B57\u6BB5\u548C\u503C\u5F97\u4F4D\u7F6E\u662F\u4E00\u4E00\u5C0D\u61C9\u7684</p><h3 id="\u4FEE\u6539" tabindex="-1"><a class="header-anchor" href="#\u4FEE\u6539" aria-hidden="true">#</a> \u4FEE\u6539</h3><blockquote><p>update</p></blockquote><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">-- \u8A9E\u6CD5\uFF1Aupdate \u8868\u540D set column_name = value where [\u689D\u4EF6]</span>
+<span class="token keyword">update</span> <span class="token punctuation">\`</span>student<span class="token punctuation">\`</span> <span class="token keyword">set</span> <span class="token punctuation">\`</span>name<span class="token punctuation">\`</span><span class="token operator">=</span><span class="token string">&#39;\u9673\u67D2&#39;</span> <span class="token keyword">where</span> id <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+
+<span class="token comment">-- \u4FEE\u6539\u591A\u500B\u5C6C\u6027</span>
+<span class="token keyword">update</span> <span class="token punctuation">\`</span>student<span class="token punctuation">\`</span> <span class="token keyword">set</span> <span class="token punctuation">\`</span>name<span class="token punctuation">\`</span><span class="token operator">=</span><span class="token string">&#39;\u9673\u67D2&#39;</span><span class="token punctuation">,</span><span class="token punctuation">\`</span>age<span class="token punctuation">\`</span><span class="token operator">=</span><span class="token string">&#39;22&#39;</span><span class="token punctuation">,</span><span class="token punctuation">\`</span>email<span class="token punctuation">\`</span><span class="token operator">=</span><span class="token string">&#39;3062995371@qq.com&#39;</span> <span class="token keyword">where</span> id <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p>\u8A9E\u6CD5\uFF1A<code>update \u8868\u540D set column_name = value,[column_name = value,......] where [\u689D\u4EF6]</code></p><p>\u6CE8\u610F\uFF1A</p><ol><li>\u4E0D\u5BEB\u689D\u4EF6\u6703\u5F71\u97FF\u6574\u5F35\u8868</li><li><code>column_name</code>\u662F\u6578\u64DA\u5EAB\u7684\u5217\uFF0C\u76E1\u91CF\u5E36\u4E0A\u82F1\u6587\u5192\u865F\`\`</li><li><code>value</code>\u662F\u4E00\u500B\u5177\u9AD4\u7684\u503C\uFF0C\u4E5F\u53EF\u4EE5\u662F\u4E00\u500B\u8B8A\u91CF</li></ol><p>\u91CD\u9EDE\u5728\u4E8E<code>where</code>\u689D\u4EF6\uFF0C\u5176\u4F5C\u7528\u4E8E\u6BCF\u689D\u6578\u64DA\uFF0C\u8A08\u7B97\u7D50\u679C\u5FC5\u9808\u662F<code>Boolean</code>\u503C\uFF1A</p><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u64CD\u4F5C\u7B26</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u542B\u7FA9</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4F8B\u5B50</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>=</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u7B49\u65BC</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>&lt;&gt;</code>\u6216<code>!=</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4E0D\u7B49\u65BC</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>&gt;</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5927\u65BC</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>&lt;</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5C0F\u65BC</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>between...and...</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6307\u5B9A\u7BC4\u570D\u4E4B\u5167\uFF0C\u5982:<code>[2,5]</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>and</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u548C\uFF0C\u985E\u4F3C\u65BC&amp;&amp;\uFF0C\u5DE6\u53F3\u5FC5\u9808\u540C\u6642\u6EFF\u8DB3</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>or</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6216\uFF0C\u5DE6\u53F3\u6EFF\u8DB3\u4E00\u9805\u5373\u53EF</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td></tr></tbody></table><h3 id="\u522A\u9664" tabindex="-1"><a class="header-anchor" href="#\u522A\u9664" aria-hidden="true">#</a> \u522A\u9664</h3><blockquote><p>delete</p></blockquote><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">--\u522A\u9664\u6307\u5B9A\u6578\u64DA</span>
+<span class="token keyword">delete</span> <span class="token keyword">from</span> <span class="token punctuation">\`</span>student<span class="token punctuation">\`</span> <span class="token keyword">where</span> id <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+
+
+<span class="token comment">-- \u6E05\u7A7A\u8868</span>
+<span class="token keyword">truncate</span> <span class="token punctuation">\`</span>student<span class="token punctuation">\`</span><span class="token punctuation">;</span>
+<span class="token keyword">delete</span> <span class="token keyword">from</span> <span class="token punctuation">\`</span>student<span class="token punctuation">\`</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><p>\u6E05\u7A7A\u8868\u7684\u5340\u5225\uFF1A</p><ol><li><p><code>delete</code>:</p><ul><li>\u4E0D\u6703\u5F71\u97FF\u81EA\u589E</li></ul></li><li><p><code>truncate</code>:</p><ul><li>\u81EA\u589E\u6703\u6B78\u96F6</li></ul></li></ol><h2 id="dql-\u67E5\u8A62\u6578\u64DA" tabindex="-1"><a class="header-anchor" href="#dql-\u67E5\u8A62\u6578\u64DA" aria-hidden="true">#</a> DQL \u67E5\u8A62\u6578\u64DA</h2><h3 id="\u67E5\u8A62" tabindex="-1"><a class="header-anchor" href="#\u67E5\u8A62" aria-hidden="true">#</a> \u67E5\u8A62</h3><blockquote><p>\u6307\u5B9A\u5B57\u6BB5\u67E5\u8A62</p></blockquote><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">-- \u67E5\u8A62\u6240\u6709\u5B78\u751F</span>
+<span class="token keyword">select</span> <span class="token operator">*</span> form student
+
+<span class="token comment">--\u67E5\u8A62\u6307\u5B9A\u5B57\u6BB5</span>
+<span class="token keyword">select</span> <span class="token punctuation">\`</span>student_no<span class="token punctuation">\`</span><span class="token punctuation">,</span><span class="token punctuation">\`</span>student_name<span class="token punctuation">\`</span> <span class="token keyword">from</span> student<span class="token punctuation">;</span>
+
+<span class="token comment">--\u67E5\u8A62\u6307\u5B9A\u5B57\u6BB5\u6DFB\u52A0\u5225\u540D\uFF08\u7D66\u5B57\u6BB5\u8D77\u5225\u540D\uFF0C\u8868\u4E5F\u53EF\u4EE5\uFF09</span>
+<span class="token keyword">select</span> <span class="token punctuation">\`</span>student_no<span class="token punctuation">\`</span> <span class="token keyword">as</span> \u5B78\u865F<span class="token punctuation">,</span><span class="token punctuation">\`</span>student_name<span class="token punctuation">\`</span> <span class="token keyword">as</span> \u59D3\u540D <span class="token keyword">from</span> student<span class="token punctuation">;</span>
+
+<span class="token comment">-- \u51FD\u6578:Concat(a,b)\uFF0C\u62FC\u63A5\u5B57\u7B26\u4E32</span>
+<span class="token keyword">select</span> concat<span class="token punctuation">(</span><span class="token string">&#39;\u59D3\u540D\uFF1A&#39;</span><span class="token punctuation">,</span>student_name<span class="token punctuation">)</span> <span class="token keyword">as</span> \u540D\u5B57 <span class="token keyword">from</span> student<span class="token punctuation">;</span>
+
+<span class="token comment">-- \u8A9E\u6CD5</span>
+<span class="token keyword">select</span> <span class="token punctuation">[</span><span class="token keyword">all</span><span class="token operator">|</span><span class="token keyword">distinct</span><span class="token punctuation">]</span>
+{<span class="token operator">*</span> <span class="token operator">|</span> <span class="token keyword">table</span><span class="token punctuation">.</span><span class="token operator">*</span> <span class="token operator">|</span> <span class="token punctuation">[</span><span class="token keyword">table</span><span class="token punctuation">.</span>field1<span class="token punctuation">[</span><span class="token keyword">as</span> alias1<span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token punctuation">,</span><span class="token keyword">table</span><span class="token punctuation">.</span>field2<span class="token punctuation">[</span><span class="token keyword">as</span> alias2<span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token punctuation">,</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">]</span><span class="token punctuation">]</span>}
+<span class="token keyword">from</span> table_name <span class="token punctuation">[</span><span class="token keyword">as</span> table_alias<span class="token punctuation">]</span>
+     <span class="token punctuation">[</span><span class="token keyword">left</span> <span class="token operator">|</span> <span class="token keyword">right</span> <span class="token operator">|</span> <span class="token keyword">inner</span>  <span class="token keyword">join</span> table_name2<span class="token punctuation">]</span> <span class="token comment">--\u806F\u5408\u67E5\u8A62</span>
+     <span class="token punctuation">[</span><span class="token keyword">where</span> <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">]</span> <span class="token comment">-- \u6307\u5B9A\u67E5\u8A62\u689D\u4EF6</span>
+     <span class="token punctuation">[</span><span class="token keyword">group</span> <span class="token keyword">by</span> <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">]</span> <span class="token comment">-- \u6307\u5B9A\u7D50\u679C\u6309\u7167\u90A3\u5E7E\u500B\u5B57\u6BB5\u4F86\u5206\u7D44</span>
+     <span class="token punctuation">[</span><span class="token keyword">having</span> <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">]</span> <span class="token comment">--\u904E\u6FFE\u5206\u7D44\u7684\u8A18\u9304\u5FC5\u9808\u6EFF\u8DB3\u7684\u6B21\u8981\u689D\u4EF6</span>
+     <span class="token punctuation">[</span><span class="token keyword">order</span> <span class="token keyword">by</span> <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">]</span> <span class="token comment">--\u6307\u5B9A\u67E5\u8A62\u6309\u7167\u4E00\u500B\u6216\u591A\u500B\u9032\u884C\u6392\u5E8F</span>
+     <span class="token punctuation">[</span>limt {<span class="token punctuation">[</span><span class="token keyword">offset</span><span class="token punctuation">,</span><span class="token punctuation">]</span>row_count <span class="token operator">|</span> row_countoffset <span class="token keyword">offset</span>}<span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token comment">-- \u6307\u5B9A\u67E5\u8A62\u8A18\u9304\u5F9E\u90A3\u689D\u5230\u90A3\u689D</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br></div></div><h3 id="\u53BB\u91CD" tabindex="-1"><a class="header-anchor" href="#\u53BB\u91CD" aria-hidden="true">#</a> \u53BB\u91CD</h3><blockquote><p>distinct</p></blockquote><div class="language-SQL ext-SQL line-numbers-mode"><pre class="language-SQL"><code>-- \u5254\u9664\u91CD\u8907\u6578\u64DA\uFF0C\u91CD\u8907\u53EA\u986F\u793A\u4E00\u689D\uFF0C\u67E5\u8A62result\u4E2Dstudent_no\uFF0C\u4E26\u53BB\u91CD
+select distinct \`student_no\` from result;
+
+select 100*3-1; --\u904B\u7B97\u8868\u9054\u5F0F
+select version(); --\u67E5\u770Bmysql\u7248\u672C
+select @@auto_increment_increment;--\u67E5\u770B\u81EA\u589E\u6B65\u9577
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><p>\u6578\u64DA\u5EAB\u4E2D\u7684<code>select</code>\u8868\u9054\u5F0F\uFF1A\u6587\u672C\u503C\uFF0C\u5217\uFF0Cnull\uFF0C\u51FD\u6578\uFF0C\u8A08\u7B97\u8868\u9054\u5F0F\uFF0C\u7CFB\u7D71\u8B8A\u91CF</p><h3 id="where-\u689D\u4EF6\u5B57\u53E5" tabindex="-1"><a class="header-anchor" href="#where-\u689D\u4EF6\u5B57\u53E5" aria-hidden="true">#</a> where \u689D\u4EF6\u5B57\u53E5</h3><p>\u4F5C\u7528\uFF1A\u5C31\u662F\u6AA2\u7D22\u6578\u64DA\u4E2D<code>\u7B26\u5408\u689D\u4EF6</code>\u7684\u503C</p><blockquote><p>\u908F\u8F2F\u904B\u7B97\u7B26</p></blockquote><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u904B\u7B97\u7B26</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8A9E\u6CD5</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u63CF\u8FF0</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>and</code>,<code>&amp;&amp;</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">a and b \u6216\u8005 a &amp;&amp; b</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u908F\u8F2F\u8207\uFF0C\u5169\u500B\u70BA\u771F\u624D\u70BA\u771F</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>or</code>, ||</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">a or b \u6216\u8005 a || b</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u908F\u8F2F\u6216\uFF0C\u4E00\u500B\u70BA\u771F\u624D\u70BA\u771F</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>not</code>,<code>!</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>not</code> a \u6216\u8005 !a</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u908F\u8F2F\u975E\uFF0C\u771F\u70BA\u5047\uFF0C\u5047\u70BA\u771F</td></tr></tbody></table><p>\u6CE8\u610F\uFF1A\u76E1\u91CF\u4F7F\u7528\u82F1\u6587\u8868\u9054\u5F0F</p><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">-- \u689D\u4EF6\u67E5\u8A62,\u67E5\u8A62\u6210\u7E3E95\u2014\u2014100\u7684\u5B78\u751F</span>
+<span class="token keyword">select</span> student_no <span class="token keyword">from</span> student <span class="token keyword">where</span> student_result<span class="token operator">&gt;=</span><span class="token number">95</span> <span class="token operator">and</span> student_result<span class="token operator">&lt;=</span><span class="token number">100</span><span class="token punctuation">;</span>
+
+<span class="token comment">-- \u5340\u9593\u67E5\u8A62(\u67E5\u8A6295\u2014\u2014100\u5206\u7684\u540C\u5B78)</span>
+<span class="token keyword">select</span> student_no <span class="token keyword">from</span> student <span class="token keyword">where</span> student_result <span class="token operator">between</span> <span class="token number">95</span> <span class="token operator">and</span> <span class="token number">100</span><span class="token punctuation">;</span>
+
+<span class="token comment">--\u67E5\u8A62\u5B78\u865F\u4E0D\u70BA1000\u7684\u540C\u5B78\u7684\u6210\u7E3E</span>
+<span class="token keyword">select</span> student_no <span class="token keyword">from</span> result <span class="token keyword">where</span> <span class="token operator">not</span> student_no<span class="token operator">=</span><span class="token number">1000</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div><h3 id="\u6A21\u7CCA\u67E5\u8A62" tabindex="-1"><a class="header-anchor" href="#\u6A21\u7CCA\u67E5\u8A62" aria-hidden="true">#</a> \u6A21\u7CCA\u67E5\u8A62</h3><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u904B\u7B97\u7B26</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8A9E\u6CD5</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u63CF\u8FF0</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>is null</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">a is null</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5982\u679C a \u70BA null\uFF0C\u7D50\u679C\u70BA\u771F</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>is not null</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">a not null</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5982\u679C a \u4E0D\u70BA null\uFF0C\u7D50\u679C\u70BA\u771F</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>between</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">a bettween b and c</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5982\u679C a \u5728 b \u548C c \u4E4B\u9593\uFF0C\u7D50\u679C\u70BA\u771F</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>like</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">a like b</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">sql \u5339\u914D\u8A9E\u53E5,\u5982\u679C a \u5339\u914D\u5230 b\uFF0C\u8FD4\u56DE\u771F</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"><code>in</code></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">a in (a1,a2,a3...)</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5982\u679C a \u5728 a1,a2...\u4E2D\u7684\u67D0\u4E00\u500B\u503C\uFF0C\u7D50\u679C\u70BA\u771F</td></tr></tbody></table><blockquote><p>like</p></blockquote><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">--\u67E5\u8A62\u540D\u5B57\u59D3\u5289\u7684\uFF0C\u6A21\u7CCA\u67E5\u8A62\u59D3\u5289\u7684</span>
+<span class="token keyword">select</span> <span class="token punctuation">\`</span>student_name<span class="token punctuation">\`</span> <span class="token keyword">from</span> <span class="token punctuation">\`</span>student<span class="token punctuation">\`</span> <span class="token keyword">where</span> student_name <span class="token operator">like</span> <span class="token string">&#39;\u5289%&#39;</span>
+<span class="token comment">--\u67E5\u8A62\u540D\u5B57\u662F\u4E09\u500B\u5B57\u4E26\u4E14\u59D3\u5289\u7684</span>
+<span class="token keyword">select</span> <span class="token punctuation">\`</span>student_name<span class="token punctuation">\`</span> <span class="token keyword">from</span> <span class="token punctuation">\`</span>student<span class="token punctuation">\`</span> <span class="token keyword">where</span> student_name <span class="token operator">like</span> <span class="token string">&#39;\u5289\u2014__&#39;</span>
+<span class="token comment">--\u67E5\u8A62\u540D\u5B57\u662F\u5169\u500B\u5B57\u4E26\u4E14\u59D3\u5289\u7684</span>
+<span class="token keyword">select</span> <span class="token punctuation">\`</span>student_name<span class="token punctuation">\`</span> <span class="token keyword">from</span> <span class="token punctuation">\`</span>student<span class="token punctuation">\`</span> <span class="token keyword">where</span> student_name <span class="token operator">like</span> <span class="token string">&#39;\u5289_&#39;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><blockquote><p>in</p></blockquote><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">--\u67E5\u8A62\u5B78\u865F\u70BA\uFF0C1001\uFF0C1002\uFF0C,1003\u7684\u5B78\u54E1</span>
+<span class="token keyword">select</span> student_name <span class="token keyword">from</span> student <span class="token keyword">where</span> student_no <span class="token operator">in</span> <span class="token punctuation">(</span><span class="token number">1001</span><span class="token punctuation">,</span><span class="token number">1002</span><span class="token punctuation">,</span><span class="token number">1003</span><span class="token punctuation">)</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h3 id="\u806F\u8868\u67E5\u8A62" tabindex="-1"><a class="header-anchor" href="#\u806F\u8868\u67E5\u8A62" aria-hidden="true">#</a> \u806F\u8868\u67E5\u8A62</h3><p>\u67D2\u79CD\u67E5\u8A62\u60C5\u6CC1</p><p><img src="https://pic1.zhimg.com/v2-734a8d3ea25f5e22239086fce23b203a_1440w.jpg?source=172ae18b" alt=""></p><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">-- \u62FC\u63A5\u5B78\u865F\u76F8\u540C\u7684\u5169\u500B\u8868\u7684\u5B50\u6BB5</span>
+<span class="token keyword">select</span> a<span class="token punctuation">.</span>student_no<span class="token punctuation">,</span>student_name<span class="token punctuation">,</span>student_result
+<span class="token keyword">from</span> student <span class="token keyword">as</span> s
+<span class="token keyword">inner</span> <span class="token keyword">join</span> result <span class="token keyword">as</span> r
+<span class="token keyword">where</span> s<span class="token punctuation">.</span>student_no <span class="token operator">=</span> r<span class="token punctuation">.</span>student_no
+
+
+<span class="token comment">-- \u5DE6\u67E5\u8A62</span>
+<span class="token keyword">select</span> a<span class="token punctuation">.</span>student_no<span class="token punctuation">,</span>student_name<span class="token punctuation">,</span>student_result
+<span class="token keyword">from</span> student <span class="token keyword">as</span> s
+<span class="token keyword">left</span> <span class="token keyword">join</span> result <span class="token keyword">as</span> r
+<span class="token keyword">on</span> s<span class="token punctuation">.</span>student_no <span class="token operator">=</span> r<span class="token punctuation">.</span>student_no
+
+<span class="token comment">-- \u53F3\u67E5\u8A62</span>
+<span class="token keyword">select</span> a<span class="token punctuation">.</span>student_no<span class="token punctuation">,</span>student_name<span class="token punctuation">,</span>student_result
+<span class="token keyword">from</span> student <span class="token keyword">as</span> s
+<span class="token keyword">right</span> <span class="token keyword">join</span> result <span class="token keyword">as</span> r
+<span class="token keyword">on</span> s<span class="token punctuation">.</span>student_no <span class="token operator">=</span> r<span class="token punctuation">.</span>student_no
+
+<span class="token comment">-- \u4E09\u8868\u67E5\u8A62</span>
+<span class="token comment">-- student(\u5B78\u751F\u8868) result(\u6210\u7E3E\u8868) subject(\u79D1\u76EE\u8868)</span>
+<span class="token keyword">select</span> s<span class="token punctuation">.</span>student_no<span class="token punctuation">,</span>student_name<span class="token punctuation">,</span>subject_name<span class="token punctuation">,</span>student_result
+<span class="token keyword">from</span> student s
+<span class="token keyword">right</span> <span class="token keyword">join</span> result r
+<span class="token keyword">on</span> r<span class="token punctuation">.</span>student_no <span class="token operator">=</span> s<span class="token punctuation">.</span>student_no
+<span class="token keyword">inner</span> <span class="token keyword">join</span> subject sub
+<span class="token keyword">on</span> r<span class="token punctuation">.</span>subject_name <span class="token operator">=</span> sub<span class="token punctuation">.</span>subject_name
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br></div></div><ol><li><code>on</code>\uFF1A\u93C8\u63A5\u67E5\u8A62\uFF0C\u689D\u4EF6\u5224\u65B7</li><li><code>where</code>\uFF1A\u7B49\u50F9\u67E5\u8A62</li></ol><h3 id="\u81EA\u9023\u63A5\u53CA\u9023\u8868\u67E5\u8A62" tabindex="-1"><a class="header-anchor" href="#\u81EA\u9023\u63A5\u53CA\u9023\u8868\u67E5\u8A62" aria-hidden="true">#</a> \u81EA\u9023\u63A5\u53CA\u9023\u8868\u67E5\u8A62</h3><p>\u7C21\u55AE\u7406\u89E3\u5C31\u662F\u628A\u4E00\u5F35\u8868\u62C6\u6210\u5169\u5F35\u8868\u9032\u884C\u81EA\u67E5\u8A62</p><p>\u4E0B\u9762\u662F\u4E00\u5F35\u6578\u64DA\u5EAB\u8868</p><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">cid</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">pid</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">name</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">3</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">1</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8EDF\u4EF6\u958B\u767C</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">5</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">1</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u7F8E\u8853\u6280\u8853</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">4</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">3</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6578\u64DA\u5EAB</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">8</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">2</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8FA6\u516C\u6280\u8853</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">2</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">1</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4FE1\u606F\u6280\u8853</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">6</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">3</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">web \u958B\u767C</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">7</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">5</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">ps \u6280\u8853</td></tr></tbody></table><p><code>cid</code>\uFF1A\u7406\u89E3\u70BA\u5B50 id\uFF08\u7406\u89E3\u70BA\u81EA\u5DF1\u672C\u8EAB id \u66F4\u5408\u9069\uFF09\uFF0C\u552F\u4E00\u6027</p><p><code>pid</code>\uFF1A\u7406\u89E3\u70BA\u7236 id</p><p><code>\u5982\uFF1A\u6578\u64DA\u5EAB\u81EA\u5DF1\u7684id\u662F4\uFF0C\u7236id\u662F3\uFF0C\u767C\u73FE\u8EDF\u4EF6\u958B\u767C\u81EA\u5DF1\u7684id\u662F3\uFF0C\u610F\u5473\u8457\u6578\u64DA\u5EAB\u7684\u7236\u7D1A\u662F\u8EDF\u4EF6\u958B\u767C\u3002</code></p><p>\u9019\u6A23\u7406\u89E3\uFF0C\u5B50\u53EF\u90FD\u6709\u552F\u4E00\u7684\u7236\u985E\uFF0C\u7236\u985E\u53EF\u4EE5\u6709\u591A\u500B\u5B50\u985E\u3002\u662F\u4E0D\u662F\u985E\u4F3C\u4E8E\u6A39\u5F62\u7D50\u69CB\u3002</p><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">-- \u67E5\u8A62\u7236\u5B50\u4FE1\u606F</span>
+<span class="token keyword">select</span> a<span class="token punctuation">.</span><span class="token punctuation">\`</span>name<span class="token punctuation">\`</span> <span class="token keyword">as</span> <span class="token string">&#39;\u7236\u6B04\u76EE&#39;</span><span class="token punctuation">,</span>b<span class="token punctuation">.</span><span class="token punctuation">\`</span>name<span class="token punctuation">\`</span> <span class="token keyword">as</span> <span class="token string">&#39;\u5B50\u6B04\u76EE&#39;</span>
+<span class="token keyword">from</span> <span class="token punctuation">\`</span>category<span class="token punctuation">\`</span> <span class="token keyword">as</span> a<span class="token punctuation">,</span><span class="token punctuation">\`</span>category<span class="token punctuation">\`</span> <span class="token keyword">as</span> b
+<span class="token keyword">where</span> a<span class="token punctuation">.</span><span class="token punctuation">\`</span>cid<span class="token punctuation">\`</span> <span class="token operator">=</span> b<span class="token punctuation">.</span><span class="token punctuation">\`</span>pid<span class="token punctuation">\`</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u7236\u6B04\u76EE</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5B50\u6B04\u76EE</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8EDF\u4EF6\u958B\u767C</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6578\u64DA\u5EAB</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8EDF\u4EF6\u958B\u767C</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">web \u958B\u767C</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u7F8E\u8853\u8A2D\u8A08</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">ps \u6280\u8853</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u4FE1\u606F\u6280\u8853</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8FA6\u516C\u4FE1\u606F</td></tr></tbody></table><h3 id="\u5206\u9801-limit-\u548C\u6392\u5E8F-order-by" tabindex="-1"><a class="header-anchor" href="#\u5206\u9801-limit-\u548C\u6392\u5E8F-order-by" aria-hidden="true">#</a> \u5206\u9801\uFF08limit\uFF09\u548C\u6392\u5E8F\uFF08order by\uFF09</h3><blockquote><p>\u6392\u5E8F</p></blockquote><p>\u6392\u5E8F\u6709<code>\u5347\u5E8F\uFF08ASC\uFF09</code>\u548C<code>\u964D\u5E8F\uFF08DESC\uFF09</code></p><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token keyword">select</span> <span class="token punctuation">\`</span>subject<span class="token punctuation">\`</span><span class="token punctuation">,</span>s<span class="token punctuation">.</span><span class="token punctuation">\`</span>student_name<span class="token punctuation">\`</span><span class="token punctuation">,</span>s<span class="token punctuation">.</span><span class="token punctuation">\`</span>student_result<span class="token punctuation">\`</span>
+<span class="token keyword">from</span> student s
+<span class="token keyword">inner</span> <span class="token keyword">join</span>  result r
+<span class="token keyword">on</span> s<span class="token punctuation">.</span>student_no <span class="token operator">=</span> r<span class="token punctuation">.</span>student_no
+<span class="token keyword">where</span> subject_name <span class="token operator">=</span> <span class="token string">&#39;\u6578\u64DA\u5EAB&#39;</span>
+<span class="token keyword">order</span> <span class="token keyword">by</span> student_result <span class="token keyword">asc</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><blockquote><p>\u5206\u9801</p></blockquote><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token keyword">select</span> <span class="token punctuation">\`</span>subject<span class="token punctuation">\`</span><span class="token punctuation">,</span>s<span class="token punctuation">.</span><span class="token punctuation">\`</span>student_name<span class="token punctuation">\`</span><span class="token punctuation">,</span>s<span class="token punctuation">.</span><span class="token punctuation">\`</span>student_result<span class="token punctuation">\`</span>
+<span class="token keyword">from</span> student s
+<span class="token keyword">inner</span> <span class="token keyword">join</span>  result r
+<span class="token keyword">on</span> s<span class="token punctuation">.</span>student_no <span class="token operator">=</span> r<span class="token punctuation">.</span>student_no
+<span class="token keyword">where</span> subject_name <span class="token operator">=</span> <span class="token string">&#39;\u6578\u64DA\u5EAB&#39;</span>
+<span class="token keyword">order</span> <span class="token keyword">by</span> student_result <span class="token keyword">asc</span>
+<span class="token keyword">limit</span> <span class="token number">0</span><span class="token punctuation">,</span><span class="token number">5</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><p>\u5206\u9801\u7684\u7684\u8A08\u7B97\u516C\u5F0F</p><p><code>limit (n-1)*pageSize,pageSize</code>\uFF1A\u7B2C\u4E00\u9801\u70BA\u3010\uFF081-1\uFF09*5,5 \u3011\u4EE3\u8868\u7B2C\u4E00\u9801\uFF0C\u6BCF\u9801 5 \u689D<code>\uFF080\uFF0C5\uFF09</code>\uFF1B</p><h3 id="\u81EA\u67E5\u8A62\u548C\u5D4C\u5957\u67E5\u8A62" tabindex="-1"><a class="header-anchor" href="#\u81EA\u67E5\u8A62\u548C\u5D4C\u5957\u67E5\u8A62" aria-hidden="true">#</a> \u81EA\u67E5\u8A62\u548C\u5D4C\u5957\u67E5\u8A62</h3><blockquote><p>\u5B50\u67E5\u8A62</p></blockquote><p>\u5728 where \u4E2D\u5D4C\u5957\u4E00\u500B\u67E5\u8A62\u8A9E\u53E5</p><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">-- SQL\u6703\u5148\u57F7\u884C\u5B50\u67E5\u8A62\uFF0C\u7136\u5F8C\u518D\u9032\u884C\u5916\u5C64\u67E5\u8A62\uFF0C\u5176\u5BE6\u529F\u80FD\u8DDF\u9023\u8868\u67E5\u8A62\u5F88\u8C61</span>
+<span class="token keyword">select</span> student_no<span class="token punctuation">,</span>subject<span class="token punctuation">,</span>student_result
+<span class="token keyword">from</span> result
+<span class="token keyword">where</span> subject <span class="token operator">=</span> <span class="token punctuation">(</span>
+   <span class="token keyword">select</span> subject <span class="token keyword">from</span> subject
+   <span class="token keyword">where</span> subject_name <span class="token operator">=</span> <span class="token string">&#39;\u6578\u64DA\u5EAB&#39;</span>
+<span class="token punctuation">)</span>
+
+<span class="token comment">-- \u67E5\u8A62\u9AD8\u7B49\u6578\u5B78 \u4E14\u5206\u6578\u4E0D\u5C0F\u65BC80 \u7684\u540C\u5B78\u7684\u5B78\u865F\u548C\u59D3\u540D</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><h3 id="mysql-\u51FD\u6578" tabindex="-1"><a class="header-anchor" href="#mysql-\u51FD\u6578" aria-hidden="true">#</a> MySQL \u51FD\u6578</h3><p>\u5B98\u7DB2\uFF1A<a href="https://dev.mysql.com/doc/refman/8.0/en/built-in-function-reference.html" target="_blank" rel="noopener noreferrer">https://dev.mysql.com/doc/refman/8.0/en/built-in-function-reference.html`);
+  _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
+  _push(`</a></p><p>\u53EA\u5B78\u90E8\u5206</p><ol><li>\u6578\u5B78\u904B\u7B97</li></ol><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u9054\u5F0F</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u7D50\u679C</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u63CF\u8FF0</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">select abs(-8)</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">8</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u7D55\u5C0D\u503C</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">select ceiling(9.4)</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">10</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5411\u4E0A\u53D6\u6574</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">select floor(9.4)</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">9</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5411\u4E0B\u53D6\u6574</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">select rand()</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">0~1 \u4E4B\u9593\u96A8\u6A5F\u6578</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8FD4\u56DE\u4E00\u500B 0~1 \u4E4B\u9593\u7684\u96A8\u6A5F\u6578</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">select sign(-10)</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">-1</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5224\u65B7\u4E00\u500B\u5B57\u7684\u7B26\u865F\uFF0C0 \u8FD4\u56DE 0\uFF0C\u8CA0\u6578\u8FD4\u56DE-1\uFF0C\u6B63\u6578\u8FD4\u56DE 1</td></tr></tbody></table><ol start="2"><li><p>\u5B57\u7B26\u4E32\u51FD\u6578</p></li><li><p>\u6642\u9593\u548C\u65E5\u671F\u51FD\u6578</p></li></ol><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u9054\u5F0F</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u7D50\u679C</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u63CF\u8FF0</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">select current_date()</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u7576\u524D\u6642\u9593</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">select curdate()</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u7576\u524D\u6642\u9593</td></tr></tbody></table><ol start="4"><li>\u5176\u5B83</li></ol><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u8868\u9054\u5F0F</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u7D50\u679C</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u63CF\u8FF0</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">select user()</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}"></td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u7576\u524D\u7528\u6236</td></tr></tbody></table><h3 id="\u805A\u5408\u51FD\u6578" tabindex="-1"><a class="header-anchor" href="#\u805A\u5408\u51FD\u6578" aria-hidden="true">#</a> \u805A\u5408\u51FD\u6578</h3><table><thead><tr><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u51FD\u6578</th><th style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u63CF\u8FF0</th></tr></thead><tbody><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">count()</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6C42\u548C</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">sun()</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u7E3D\u548C</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">avg()</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u5E73\u5747\u5206</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">max()</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6700\u9AD8\u5206</td></tr><tr><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">min()</td><td style="${serverRenderer.ssrRenderStyle({ "text-align": "center" })}">\u6700\u4F4E\u5206</td></tr></tbody></table><div class="language-SQL ext-SQL line-numbers-mode"><pre class="language-SQL"><code>-- \u591A\u7A2E\u7D71\u8A08\u60C5\u6CC1
+select count(\`date\`) from student; --\u6839\u64DA\u5B57\u6BB5\u67E5\u8A62\uFF0C\u5FFD\u7565null\u503C
+select count(1) from student; -- \u75281\u4EE3\u8868\u884C\uFF0C\u6C42\u51FA\u4E00\u5171\u591A\u5C11\u884C
+select count(*) from student; --\u76F8\u7576\u65BC\u884C\u6578\uFF0C\u4E0D\u6703\u5FFD\u7565null\u503C
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h4 id="\u6578\u64DA\u5EABmd5\u52A0\u5BC6" tabindex="-1"><a class="header-anchor" href="#\u6578\u64DA\u5EABmd5\u52A0\u5BC6" aria-hidden="true">#</a> \u6578\u64DA\u5EABMD5\u52A0\u5BC6</h4><p>MD5\u662F\u4E0D\u53EF\u9006\u7684\uFF0C\u4F46\u76F8\u540C\u503C\u5F97MD5\u52A0\u5BC6\u7684\u503C\u4E5F\u76F8\u540C</p><p><code>MD(&#39;password&#39;)</code></p><!--]-->`);
+}
+const _sfc_setup$W = _sfc_main$W.setup;
+_sfc_main$W.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/mysql/02.mysql\u6578\u64DA\u7BA1\u7406.html.vue");
+  return _sfc_setup$W ? _sfc_setup$W(props, ctx) : void 0;
+};
+var _02_mysql_____html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$W, [["ssrRender", _sfc_ssrRender$I]]);
+var _02_mysql_____html$2 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": _02_mysql_____html$1
+});
+const _sfc_main$V = {};
+function _sfc_ssrRender$H(_ctx, _push, _parent, _attrs) {
+  _push(`<!--[--><h2 id="\u4E8B\u52D9-acid-\u539F\u5247" tabindex="-1"><a class="header-anchor" href="#\u4E8B\u52D9-acid-\u539F\u5247" aria-hidden="true">#</a> \u4E8B\u52D9\uFF08ACID\uFF09\u539F\u5247</h2><p>\u4E8B\u52D9\u9700\u8981\u8A18\u4F4F\uFF1A\u8981\u9EBC\u90FD\u6210\u529F\uFF0C\u8981\u9EBC\u90FD\u5931\u6557</p><p>\u4EE5\u4F60\u7D66\u6211\u8F49 100 \u584A\u70BA\u4F8B</p><ol><li>\u539F\u5B50\u6027</li></ol><p>\u8981\u9EBC\u8F49\u8CEC\u6210\u529F\uFF0C\u8981\u9EBC\u8F49\u8CEC\u5931\u6557</p><ol start="2"><li>\u4E00\u81F4\u6027</li></ol><p>\u6700\u7D42\u4E00\u81F4\u6027\uFF1A\u521D\u59CB\u72C0\u614B\u548C\u6700\u7D42\u72C0\u614B\u4E00\u81F4\uFF08\u5B8C\u6574\u6027\uFF09 100 \u584A\u8981\u9EBC\u6C92\u6263\uFF0C\u8981\u9EBC\u4E00\u5B9A\u5230\u6211\u8CEC\u6236\u4F8B\u3002</p><ol start="3"><li>\u6301\u4E45\u6027</li></ol><p>\u4E8B\u52D9\u7D50\u675F\u540E\u4E0D\u96A8\u5916\u754C\u539F\u56E0\u6539\u8B8A\u3002\u5982\u679C\u6210\u529F\u4E86\u4E0D\u80FD\u53D6\u6D88\uFF0C\u9000\u9084\uFF0C\u53EA\u80FD\u6211\u518D\u767C\u8D77\u65B0\u4E8B\u52D9\u9000\u9084\u7D66\u4F60\u3002</p><ol start="4"><li>\u9694\u96E2\u6027</li></ol><p>\u4E8B\u52D9\u4E4B\u9593\u5FC5\u9808\u76F8\u4E92\u9694\u96E2\uFF0C\u4E0D\u7136\u53EF\u80FD\u5C0E\u81F4\u8B80\uFF08\u6578\u64DA\u4E0D\u5C0D\u7A31\uFF09\uFF0C\u53E6\u5916\u7684\u4EA4\u6613\u4E0D\u80FD\u5F71\u97FF\u9019\u6B21\u4EA4\u6613\u3002</p><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">-- mysql\u9ED8\u8A8D\u958B\u555F\u4E8B\u52D9</span>
+<span class="token keyword">set</span> autocommit <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> <span class="token comment">-- \u95DC\u9589\u81EA\u52D5\u63D0\u4EA4</span>
+<span class="token keyword">set</span> autocommit <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> <span class="token comment">-- \u958B\u555F\u81EA\u52D5\u63D0\u4EA4</span>
+
+<span class="token comment">-- \u624B\u52D5\u8655\u7406\u4E8B\u52D9</span>
+<span class="token comment">-- \u958B\u555F\u4E8B\u52D9</span>
+<span class="token keyword">start</span> transsction <span class="token comment">-- \u6A19\u8A18\u6B64\u523B\u958B\u59CB\u4E00\u500B\u65B0\u4E8B\u52D9</span>
+
+
+<span class="token comment">-- \u4E8B\u52D9\u63D0\u4EA4 --\u6210\u529F\u5247\u6301\u4E45\u5316\u5B58\u5132</span>
+<span class="token keyword">commit</span>
+
+<span class="token comment">-- \u4E8B\u52D9\u56DE\u6EFE --\u5931\u6557\u56DE\u6EFE\u5230\u521D\u59CB\u72C0\u614B</span>
+<span class="token keyword">rollback</span>
+
+<span class="token comment">-- \u4E86\u89E3</span>
+
+<span class="token comment">--\u95DC\u9589\u4E8B\u52D9</span>
+<span class="token keyword">set</span> autocommit <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> <span class="token comment">-- \u958B\u555F\u81EA\u52D5\u63D0\u4EA4\uFF0C\u958B\u555F\u6642\u6703\u81EA\u52D5\u63D0\u4EA4\u4E8B\u52D9</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br></div></div><h2 id="\u4E8B\u52D9\u7DF4\u7FD2" tabindex="-1"><a class="header-anchor" href="#\u4E8B\u52D9\u7DF4\u7FD2" aria-hidden="true">#</a> \u4E8B\u52D9\u7DF4\u7FD2</h2><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token keyword">create</span> <span class="token keyword">database</span> shop <span class="token keyword">character</span> <span class="token keyword">set</span> utf8 <span class="token keyword">collate</span> utf8_general_ci<span class="token punctuation">;</span>
+
+<span class="token keyword">use</span> shop<span class="token punctuation">;</span>
+
+<span class="token keyword">create</span> <span class="token keyword">table</span> <span class="token punctuation">\`</span>account<span class="token punctuation">\`</span><span class="token punctuation">(</span>
+    <span class="token punctuation">\`</span>id<span class="token punctuation">\`</span> <span class="token keyword">int</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span> <span class="token operator">not</span> <span class="token boolean">null</span> <span class="token keyword">auto_increment</span><span class="token punctuation">,</span>
+    <span class="token punctuation">\`</span>name<span class="token punctuation">\`</span> <span class="token keyword">varchar</span><span class="token punctuation">(</span><span class="token number">30</span><span class="token punctuation">)</span> <span class="token operator">not</span> <span class="token boolean">null</span><span class="token punctuation">,</span>
+    <span class="token punctuation">\`</span>money<span class="token punctuation">\`</span> <span class="token keyword">decimal</span><span class="token punctuation">(</span><span class="token number">9</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span> <span class="token operator">not</span> <span class="token boolean">null</span><span class="token punctuation">,</span>
+    <span class="token keyword">primary</span> <span class="token keyword">key</span> <span class="token punctuation">(</span><span class="token punctuation">\`</span>id<span class="token punctuation">\`</span><span class="token punctuation">)</span>
+<span class="token punctuation">)</span><span class="token keyword">engine</span><span class="token operator">=</span><span class="token keyword">innodb</span> <span class="token keyword">default</span> <span class="token keyword">charset</span><span class="token operator">=</span>utf8<span class="token punctuation">;</span>
+
+<span class="token keyword">insert</span> <span class="token keyword">into</span> account<span class="token punctuation">(</span><span class="token punctuation">\`</span>name<span class="token punctuation">\`</span><span class="token punctuation">,</span><span class="token punctuation">\`</span>money<span class="token punctuation">\`</span><span class="token punctuation">)</span>
+<span class="token keyword">values</span> <span class="token punctuation">(</span><span class="token string">&#39;A&#39;</span><span class="token punctuation">,</span><span class="token number">2000.00</span><span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token punctuation">(</span><span class="token string">&#39;B&#39;</span><span class="token punctuation">,</span><span class="token number">1000.00</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+
+<span class="token comment">-- \u6A21\u64EC\u8F49\u8CEC</span>
+<span class="token keyword">set</span> autocommit <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span><span class="token comment">--\u95DC\u9589\u4E8B\u52D9</span>
+<span class="token keyword">start</span> transsction <span class="token comment">-- \u958B\u555F\u4E00\u500B\u4E8B\u52D9</span>
+
+<span class="token keyword">update</span> account <span class="token keyword">set</span> money<span class="token operator">=</span>money<span class="token operator">+</span><span class="token number">500</span> <span class="token keyword">where</span> <span class="token punctuation">\`</span>name<span class="token punctuation">\`</span> <span class="token operator">=</span> <span class="token string">&#39;A&#39;</span>
+<span class="token keyword">update</span> account <span class="token keyword">set</span> money<span class="token operator">=</span>money<span class="token operator">-</span><span class="token number">500</span> <span class="token keyword">where</span> <span class="token punctuation">\`</span>name<span class="token punctuation">\`</span> <span class="token operator">=</span> <span class="token string">&#39;B&#39;</span>
+
+<span class="token keyword">commit</span><span class="token punctuation">;</span> <span class="token comment">--\u63D0\u4EA4</span>
+<span class="token keyword">rollback</span><span class="token punctuation">;</span> <span class="token comment">--\u56DE\u6EFE</span>
+
+<span class="token keyword">set</span> <span class="token keyword">auto_increment</span> <span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span> <span class="token comment">--\u6062\u5FA9\u9ED8\u8A8D\u63D0\u4EA4\uFF0C\u5426\u5247\u4E0A\u9762\u4E8B\u52D9\u9664\u975E\u624B\u52D5\u63D0\u4EA4\uFF0C\u4E0D\u7136\u4E0D\u6703\u63D0\u4EA4</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br></div></div><h4 id="\u7D22\u5F15" tabindex="-1"><a class="header-anchor" href="#\u7D22\u5F15" aria-hidden="true">#</a> \u7D22\u5F15</h4><blockquote><p>\u7D22\u5F15\u5C31\u662F\u5E6B\u52A9MySQL\u9AD8\u6548\u7372\u53D6\u6578\u64DA\u7684\u6578\u64DA\u7D50\u69CB\uFF0C\u7D22\u5F15\u672C\u8CEA\u5C31\u662F\u6578\u64DA\u7D50\u69CB\u3002</p></blockquote><p>\u7D22\u5F15\u7236\u985E\uFF1A</p><ol><li>\u4E3B\u9375\u7D22\u5F15\uFF08\uFF09\uFF1A\u552F\u4E00\u6A19\u8B58\uFF0C\u4E0D\u53EF\u91CD\u8907\u3002</li><li>\u552F\u4E00\u7D22\u5F15\uFF08unique key\uFF09\uFF1A\u8A72\u5217\u7684\u503C\u4E0D\u80FD\u91CD\u8907\u3002</li><li>\u5E38\u898F\u7D22\u5F15\uFF08\uFF09\uFF1A\u9ED8\u8A8D\u3002</li><li>\u5168\u6587\u7D22\u5F15\uFF08fulltext\uFF09\uFF1A\u5FEB\u901F\u5B9A\u4F4D\u6578\u64DA\u3002</li></ol><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">--\u663E\u793A\u6240\u6709\u7D22\u5F15\u4FE1\u606F</span>
+<span class="token keyword">select</span> <span class="token keyword">index</span> <span class="token keyword">from</span> student<span class="token punctuation">;</span>
+
+<span class="token comment">-- \u589E\u52A0\u4E00\u4E2A\u5168\u6587\u7D22\u5F15</span>
+<span class="token keyword">alter</span> <span class="token keyword">table</span> school<span class="token punctuation">.</span>student <span class="token keyword">add</span> fulltext <span class="token keyword">index</span> <span class="token punctuation">\`</span>studentName<span class="token punctuation">\`</span><span class="token punctuation">(</span><span class="token punctuation">\`</span>studentName<span class="token punctuation">\`</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">-- explain \u5206\u6790SQL\u6267\u884C\u72B6\u51B5</span>
+
+<span class="token keyword">explain</span> <span class="token keyword">select</span> <span class="token operator">*</span> <span class="token keyword">from</span> student<span class="token punctuation">;</span>  <span class="token comment">--\u5168\u6587\u7D22\u5F15</span>
+
+<span class="token keyword">select</span> <span class="token operator">*</span> <span class="token keyword">from</span> student <span class="token keyword">where</span> <span class="token keyword">match</span><span class="token punctuation">(</span>studentName<span class="token punctuation">)</span> against<span class="token punctuation">(</span><span class="token string">&#39;\u5218&#39;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><h2 id="\u6743\u9650\u7BA1\u7406\u548C\u7528\u6237\u7BA1\u7406" tabindex="-1"><a class="header-anchor" href="#\u6743\u9650\u7BA1\u7406\u548C\u7528\u6237\u7BA1\u7406" aria-hidden="true">#</a> \u6743\u9650\u7BA1\u7406\u548C\u7528\u6237\u7BA1\u7406</h2><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">-- \u521B\u5EFA\u7528\u6237</span>
+<span class="token keyword">create</span> <span class="token keyword">user</span> chenqi identified <span class="token keyword">by</span> <span class="token string">&#39;123456&#39;</span><span class="token punctuation">;</span>
+
+<span class="token comment">--\u4FEE\u6539\u5BC6\u7801\uFF08\u5F53\u524D\u7528\u6237\uFF09</span>
+<span class="token keyword">set</span> password <span class="token operator">=</span> password<span class="token punctuation">(</span><span class="token string">&#39;1123456&#39;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">-- \u4FEE\u6539\u67D0\u4E2A\u7528\u6237\u5BC6\u7801</span>
+<span class="token keyword">set</span> password <span class="token keyword">for</span> chenqi <span class="token operator">=</span> password<span class="token punctuation">(</span><span class="token string">&#39;123456&#39;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">-- \u91CD\u547D\u540D</span>
+<span class="token keyword">rename</span> <span class="token keyword">user</span> chenqi <span class="token keyword">to</span> yiren<span class="token punctuation">;</span>
+
+<span class="token comment">--\u6388\u4E88\u6700\u9AD8\u6743\u9650</span>
+<span class="token keyword">grant</span> <span class="token keyword">all</span> <span class="token keyword">privileges</span> <span class="token keyword">on</span> <span class="token operator">*</span><span class="token punctuation">.</span><span class="token operator">*</span> <span class="token keyword">to</span> yiren<span class="token punctuation">;</span>
+
+<span class="token comment">--\u67E5\u770B\u6743\u9650</span>
+<span class="token keyword">show</span> grants <span class="token keyword">for</span> chenqi<span class="token punctuation">;</span>  <span class="token comment">--\u67E5\u770B\u6307\u5B9A\u7528\u6237\u7684\u6743\u9650</span>
+
+<span class="token keyword">revoke</span> <span class="token keyword">all</span> <span class="token keyword">privileges</span> <span class="token keyword">on</span> <span class="token operator">*</span><span class="token punctuation">.</span><span class="token operator">*</span> chenqi<span class="token punctuation">;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br></div></div><h2 id="mysql\u5907\u4EFD" tabindex="-1"><a class="header-anchor" href="#mysql\u5907\u4EFD" aria-hidden="true">#</a> mysql\u5907\u4EFD</h2><ol><li>\u53EF\u89C6\u5316\u5DE5\u5177\u5BFC\u51FA</li><li>\u547D\u4EE4\u884C\u5BFC\u51FA</li><li>\u62F7\u8D1D\u7269\u7406\u6587\u4EF6</li></ol><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">-- mysqldump -h \u4E3B\u673A -u \u7528\u6237\u540D -p \u5BC6\u7801 \u5E93 \u8868 &gt;D:/a.sql</span>
+mysqldump <span class="token operator">-</span>hlocalhost <span class="token operator">-</span>uroot <span class="token operator">-</span>p123456 school student <span class="token operator">&gt;</span>D:<span class="token operator">/</span>a<span class="token punctuation">.</span><span class="token keyword">sql</span>
+
+<span class="token comment">-- \u5BFC\u5165\u6587\u4EF6</span>
+source D:<span class="token operator">/</span>a<span class="token punctuation">.</span><span class="token keyword">sql</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><blockquote><p>\u6570\u636E\u5E93\u8BBE\u8BA1\u539F\u5219</p></blockquote><ol><li>\u8282\u7701\u5185\u5B58\u7A7A\u95F4</li><li>\u4FDD\u8BC1\u6570\u636E\u5E93\u5B8C\u6574\u6027</li><li>\u65B9\u4FBF\u5F00\u53D1</li></ol><ul><li>\u5206\u6790\u9700\u6C42</li><li>\u6982\u8981\u8BBE\u8BA1\uFF0CER\u56FE</li></ul><h2 id="\u6570\u636E\u5E93\u4E09\u5927\u8303\u5F0F" tabindex="-1"><a class="header-anchor" href="#\u6570\u636E\u5E93\u4E09\u5927\u8303\u5F0F" aria-hidden="true">#</a> \u6570\u636E\u5E93\u4E09\u5927\u8303\u5F0F</h2><blockquote><p>\u7B2C\u4E00\u8303\u5F0F\uFF081NF\uFF09</p></blockquote><p>\u539F\u5B50\u6027\uFF1A\u8981\u6C42\u6570\u636E\u5E93\u8868\u4E2D\u7684\u6BCF\u4E00\u5217\u90FD\u662F\u4E0D\u53EF\u518D\u52061\u7684\u539F\u5B50\u6570\u636E\u9879</p><blockquote><p>\u7B2C\u4E8C\u8303\u5F0F\uFF082NF\uFF09</p></blockquote><p>\u524D\u63D0\uFF1A\u6EE1\u8DB3\u7B2C\u4E00\u8303\u5F0F \u786E\u4FDD\u6570\u636E\u5E93\u8868\u4E2D\u7684\u6BCF\u4E00\u5217\u90FD\u548C\u4E3B\u952E\u76F8\u5173</p><blockquote><p>\u7B2C\u4E09\u8303\u5F0F\uFF083NF\uFF09</p></blockquote><p>\u524D\u63D0\uFF1A\u6EE1\u8DB3\u7B2C\u4E00\u8303\u5F0F\u548C\u7B2C\u4E8C\u8303\u5F0F \u6BCF\u4E00\u5217\u6570\u636E\u90FD\u548C\u4E3B\u952E\u76F4\u63A5\u76F8\u5173\u800C\u4E0D\u80FD\u95F4\u63A5\u76F8\u5173</p><p>\u5173\u8054\u67E5\u8BE2\u4E0D\u80FD\u8D85\u8FC73\u5F20\u8868</p><!--]-->`);
+}
+const _sfc_setup$V = _sfc_main$V.setup;
+_sfc_main$V.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/mysql/03.mysql\u4E8B\u52D9.html.vue");
+  return _sfc_setup$V ? _sfc_setup$V(props, ctx) : void 0;
+};
+var _03_mysql___html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$V, [["ssrRender", _sfc_ssrRender$H]]);
+var _03_mysql___html$2 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": _03_mysql___html$1
+});
+const _sfc_main$U = {};
+function _sfc_ssrRender$G(_ctx, _push, _parent, _attrs) {
+  _push(`<!--[--><h1 id="\u6570\u636E\u5E93\u9A71\u52A8\u548C-jdbc" tabindex="-1"><a class="header-anchor" href="#\u6570\u636E\u5E93\u9A71\u52A8\u548C-jdbc" aria-hidden="true">#</a> \u6570\u636E\u5E93\u9A71\u52A8\u548C JDBC</h1><h2 id="\u7B2C\u4E00\u500B-jdbc-\u7A0B\u5E8F" tabindex="-1"><a class="header-anchor" href="#\u7B2C\u4E00\u500B-jdbc-\u7A0B\u5E8F" aria-hidden="true">#</a> \u7B2C\u4E00\u500B JDBC \u7A0B\u5E8F</h2><ol><li>\u5275\u5EFA java\uFF08\u6216 javaEE\uFF09\u9805\u76EE</li></ol><p>\u4E00\u76F4 next \u5275\u5EFA\u4E00\u500B\u7A7A\u9805\u76EE</p><ol start="2"><li>\u5C0E\u5165 jar \u5305</li></ol><div class="language-sql ext-sql line-numbers-mode"><pre class="language-sql"><code><span class="token comment">--\u67E5\u770B\u672C\u5730mysql\u7248\u672C</span>
+<span class="token keyword">select</span> version<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>&lt;\u8FDB\u5165\u5B98\u7F51\u4E0B\u8F7D\u5C0D\u61C9\u7248\u672C\u7684jar\u5305:https://dev.mysql.com/downloads/connector/j/&gt;</p><p>\u5728\u9805\u76EE\u6839\u76EE\u9304\u4E0B\u65B0\u5EFA<code>lib</code>\u76EE\u9304\uFF0C\u9EDE\u64CA<code>Project Structure</code>\uFF0C\u9EDE\u64CA OK</p><ol start="3"><li>\u93C8\u63A5\u6578\u64DA\u5EAB</li></ol><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token comment">//\u507D\u4EE3\u78BC</span>
+<span class="token comment">//package\u7701\u7565</span>
+<span class="token keyword">import</span> <span class="token namespace">java<span class="token punctuation">.</span>sql<span class="token punctuation">.</span></span><span class="token operator">*</span><span class="token punctuation">;</span>
+
+<span class="token keyword">import</span> <span class="token namespace">java<span class="token punctuation">.</span>sql<span class="token punctuation">.</span></span><span class="token operator">*</span><span class="token punctuation">;</span>
+
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Demo01</span> <span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token keyword">throws</span> <span class="token class-name">ClassNotFoundException</span><span class="token punctuation">,</span> <span class="token class-name">SQLException</span> <span class="token punctuation">{</span>
+        <span class="token class-name">Class</span><span class="token punctuation">.</span><span class="token function">forName</span><span class="token punctuation">(</span><span class="token string">&quot;com.mysql.cj.jdbc.Driver&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token comment">//cms_database\u70BA\u4F60\u7684\u6578\u64DA\u5EAB\u540D\u7A31</span>
+        <span class="token class-name">String</span> url <span class="token operator">=</span> <span class="token string">&quot;jdbc:mysql://localhost:3306/cms_database?serverTimezone=UTC&amp;characterEncoding=utf8&amp;useUnicode=true&amp;useSSL=false&quot;</span><span class="token punctuation">;</span>
+        <span class="token class-name">String</span> username <span class="token operator">=</span> <span class="token string">&quot;root&quot;</span><span class="token punctuation">;</span>
+        <span class="token class-name">String</span> password <span class="token operator">=</span> <span class="token string">&quot;123456&quot;</span><span class="token punctuation">;</span>
+
+        <span class="token class-name">Connection</span> connection <span class="token operator">=</span> <span class="token class-name">DriverManager</span><span class="token punctuation">.</span><span class="token function">getConnection</span><span class="token punctuation">(</span>url<span class="token punctuation">,</span>username<span class="token punctuation">,</span>password<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token class-name">Statement</span> statement <span class="token operator">=</span> connection<span class="token punctuation">.</span><span class="token function">createStatement</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token class-name">String</span> sql <span class="token operator">=</span> <span class="token string">&quot;select * from student&quot;</span><span class="token punctuation">;</span>
+
+        <span class="token class-name">ResultSet</span> resultSet <span class="token operator">=</span> statement<span class="token punctuation">.</span><span class="token function">executeQuery</span><span class="token punctuation">(</span>sql<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">while</span> <span class="token punctuation">(</span>resultSet<span class="token punctuation">.</span><span class="token function">next</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>resultSet<span class="token punctuation">.</span><span class="token function">getObject</span><span class="token punctuation">(</span><span class="token string">&quot;studentname&quot;</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+
+        resultSet<span class="token punctuation">.</span><span class="token function">close</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        statement<span class="token punctuation">.</span><span class="token function">close</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        connection<span class="token punctuation">.</span><span class="token function">close</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// String url = &quot;jdbc:mysql://{\u4E3B\u6A5F\u5730\u5740}:3306/{\u6578\u64DA\u5EAB\u540D\u7A31}?serverTimezone=UTC&amp;characterEncoding=utf8&amp;useUnicode=true&amp;useSSL=false&quot;;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br></div></div><ul><li><p>connection\uFF1Asql \u5C0D\u8C61\uFF0C\u53EF\u57F7\u884C\u76F8\u95DC\u64CD\u4F5C\uFF0C\u5982\u6DFB\u52A0\u4E8B\u52D9\uFF0C\u7372\u53D6\u6578\u64DA\u5EAB\u4FE1\u606F</p></li><li><p>statement: \u57F7\u884C\u6578\u64DA\u5EAB\u5C0D\u8C61\uFF0C\u57F7\u884C\u589E\u522A\u67E5\u6539\u8A9E\u53E5\uFF0C\u8FD4\u56DE\u7D50\u679C\u662F\u5F71\u97FF\u7684\u884C\u6578</p></li><li><p>close()\uFF1A\u91CB\u653E\u8CC7\u6E90</p></li></ul><h2 id="statement-\u5C0D\u8C61" tabindex="-1"><a class="header-anchor" href="#statement-\u5C0D\u8C61" aria-hidden="true">#</a> Statement \u5C0D\u8C61</h2><p>Statement \u5C0D\u8C61\u7528\u65BC\u5411\u6578\u64DA\u5EAB\u767C\u9001 sql \u8A9E\u53E5\uFF0C\u5B8C\u6210\u5C0D\u6578\u64DA\u5EAB\u7684\u589E\u522A\u67E5\u6539\u3002</p><ul><li>executeQuery\uFF08\u57F7\u884C\u67E5\u8A62\u8A9E\u53E5\uFF09\uFF1A\u8FD4\u56DE\u67E5\u8A62\u7D50\u679C</li><li>executeUpdate\uFF08\u57F7\u884C\u4FEE\u6539\u8A9E\u53E5\uFF09\uFF1A\u8FD4\u56DE\u53D7\u5F71\u97FF\u7684\u6578\u64DA\uFF0C\u5373\u4F60\u4FEE\u6539\u7684\u6578\u64DA\uFF0C\u5305\u62EC 1 \u522A\u9664\u548C\u4FEE\u6539</li></ul><blockquote><p>create</p></blockquote><p>\u5B8C\u6210\u6578\u64DA\u6DFB\u52A0\u64CD\u4F5C</p><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token class-name">Statement</span> st <span class="token operator">=</span> connection<span class="token punctuation">.</span><span class="token function">createStatement</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token class-name">String</span> sql <span class="token operator">=</span> <span class="token string">&quot;insert into user(...) value(...)&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> num <span class="token operator">=</span> st<span class="token punctuation">.</span><span class="token function">executeUpdate</span><span class="token punctuation">(</span>sql<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">if</span><span class="token punctuation">(</span>num<span class="token operator">&gt;</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u589E\u52A0\u6210\u529F&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><blockquote><p>delete</p></blockquote><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token class-name">Statement</span> st <span class="token operator">=</span> connection<span class="token punctuation">.</span><span class="token function">createStatement</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token class-name">String</span> sql <span class="token operator">=</span> <span class="token string">&quot;delete from user where id = 1&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> num <span class="token operator">=</span> st<span class="token punctuation">.</span><span class="token function">executeUpdate</span><span class="token punctuation">(</span>sql<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">if</span><span class="token punctuation">(</span>num<span class="token operator">&gt;</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u522A\u9664\u6210\u529F&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><blockquote><p>update</p></blockquote><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token class-name">Statement</span> st <span class="token operator">=</span> connection<span class="token punctuation">.</span><span class="token function">createStatement</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token class-name">String</span> sql <span class="token operator">=</span> <span class="token string">&quot;update user set name =&#39;&#39; where name=&#39;&#39;&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> num <span class="token operator">=</span> st<span class="token punctuation">.</span><span class="token function">executeUpdate</span><span class="token punctuation">(</span>sql<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">if</span><span class="token punctuation">(</span>num<span class="token operator">&gt;</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">&quot;\u4FEE\u6539\u6210\u529F&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><blockquote><p>read</p></blockquote><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code><span class="token class-name">Statement</span> st <span class="token operator">=</span> connection<span class="token punctuation">.</span><span class="token function">createStatement</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token class-name">String</span> sql <span class="token operator">=</span> <span class="token string">&quot;select * from user&quot;</span><span class="token punctuation">;</span>
+<span class="token class-name">ResultSet</span> set <span class="token operator">=</span> st<span class="token punctuation">.</span><span class="token function">executeQuery</span><span class="token punctuation">(</span>sql<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">where</span><span class="token punctuation">(</span>set<span class="token punctuation">.</span><span class="token function">next</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token comment">//...</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><h2 id="\u5C01\u88DD\u6578\u64DA\u5EAB-util" tabindex="-1"><a class="header-anchor" href="#\u5C01\u88DD\u6578\u64DA\u5EAB-util" aria-hidden="true">#</a> \u5C01\u88DD\u6578\u64DA\u5EAB util</h2><p>\u914D\u7F6E properties \u6587\u4EF6</p><div class="language-xml ext-xml line-numbers-mode"><pre class="language-xml"><code>driver=com.mysql.cj.jdbc.Driver
+url=&quot;jdbc:mysql://localhost:3306/cms_database?serverTimezone=UTC&amp;characterEncoding=utf8&amp;useUnicode=true&amp;useSSL=false&quot;
+username=root
+password=123456
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><div class="language-java ext-java line-numbers-mode"><pre class="language-java"><code>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">JdbcUtil</span><span class="token punctuation">{</span>
+    <span class="token keyword">static</span> <span class="token punctuation">{</span>
+        <span class="token keyword">try</span> <span class="token punctuation">{</span>
+            <span class="token class-name">InputStream</span> in <span class="token operator">=</span> <span class="token class-name">JdbcUtil</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">.</span><span class="token function">getClassLoader</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">getResourceAsStream</span><span class="token punctuation">(</span><span class="token string">&quot;db.properties&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token class-name">Properties</span> properties <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Properties</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            properties<span class="token punctuation">.</span><span class="token function">load</span><span class="token punctuation">(</span>in<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+            driver <span class="token operator">=</span> properties<span class="token punctuation">.</span><span class="token function">getProperty</span><span class="token punctuation">(</span><span class="token string">&quot;driver&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            url <span class="token operator">=</span> properties<span class="token punctuation">.</span><span class="token function">getProperty</span><span class="token punctuation">(</span><span class="token string">&quot;url&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            username <span class="token operator">=</span> properties<span class="token punctuation">.</span><span class="token function">getProperty</span><span class="token punctuation">(</span><span class="token string">&quot;username&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            password <span class="token operator">=</span> properties<span class="token punctuation">.</span><span class="token function">getProperty</span><span class="token punctuation">(</span><span class="token string">&quot;password&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token class-name">Class</span><span class="token punctuation">.</span><span class="token function">forName</span><span class="token punctuation">(</span>time<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span><span class="token class-name">Exception</span> e<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token comment">// TODO: handle exception</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token class-name">Connection</span> <span class="token function">getConnection</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">throws</span> <span class="token class-name">SQLException</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token class-name">DriverManager</span><span class="token punctuation">.</span><span class="token function">getConnection</span><span class="token punctuation">(</span>url<span class="token punctuation">,</span>username<span class="token punctuation">,</span>password<span class="token punctuation">)</span><span class="token string">&#39;&#39;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">release</span><span class="token punctuation">(</span><span class="token class-name">Connection</span> <span class="token class-name"><span class="token namespace">conn<span class="token punctuation">.</span></span>Statement</span> st<span class="token punctuation">,</span><span class="token class-name">ResultSet</span> rs<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span>re<span class="token operator">!=</span><span class="token keyword">null</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token keyword">try</span> <span class="token punctuation">{</span>
+                rs<span class="token punctuation">.</span><span class="token function">close</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+                st<span class="token punctuation">.</span><span class="token function">close</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+                conn<span class="token punctuation">.</span><span class="token function">close</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+            <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span><span class="token class-name">Exception</span> e<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                <span class="token comment">// TODO: handle exception</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span>re<span class="token operator">!=</span><span class="token keyword">null</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token keyword">try</span> <span class="token punctuation">{</span>
+                rs<span class="token punctuation">.</span><span class="token function">close</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+                st<span class="token punctuation">.</span><span class="token function">close</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+                conn<span class="token punctuation">.</span><span class="token function">close</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+            <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span><span class="token class-name">Exception</span> e<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                <span class="token comment">// TODO: handle exception</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span>re<span class="token operator">!=</span><span class="token keyword">null</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token keyword">try</span> <span class="token punctuation">{</span>
+                rs<span class="token punctuation">.</span><span class="token function">close</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+                st<span class="token punctuation">.</span><span class="token function">close</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+                conn<span class="token punctuation">.</span><span class="token function">close</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+            <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span><span class="token class-name">Exception</span> e<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                <span class="token comment">// TODO: handle exception</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br></div></div><!--]-->`);
+}
+const _sfc_setup$U = _sfc_main$U.setup;
+_sfc_main$U.setup = (props, ctx) => {
+  const ssrContext = vue.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = new Set())).add("../pages/java/mysql/04.JDBC.html.vue");
+  return _sfc_setup$U ? _sfc_setup$U(props, ctx) : void 0;
+};
+var _04_JDBC_html$1 = /* @__PURE__ */ _export_sfc(_sfc_main$U, [["ssrRender", _sfc_ssrRender$G]]);
+var _04_JDBC_html$2 = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  "default": _04_JDBC_html$1
 });
 const _sfc_main$T = {};
 function _sfc_ssrRender$F(_ctx, _push, _parent, _attrs) {
@@ -17969,12 +17969,12 @@ const data$10 = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": 1651677928e3,
+    "updatedTime": 16660901e5,
     "contributors": [
       {
         "name": "\u9648\u67D2",
         "email": "3062995371@qq.com",
-        "commits": 1
+        "commits": 2
       }
     ]
   },
@@ -18341,8 +18341,14 @@ const data$U = {
     }
   ],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 16660901e5,
+    "contributors": [
+      {
+        "name": "\u9648\u67D2",
+        "email": "3062995371@qq.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "actualCombat/web\u524D\u7AEF\u5DE5\u7A0B\u5316/01.\u4ECB\u7D39.md"
 };
@@ -19215,327 +19221,6 @@ var _01_git_____html = /* @__PURE__ */ Object.freeze({
   data: data$K
 });
 const data$J = {
-  "key": "v-6785e53a",
-  "path": "/java/mysql/01.mysql.html",
-  "title": "MySql\u57FA\u790E",
-  "lang": "zh-CN",
-  "frontmatter": {
-    "lang": "zh-CN",
-    "title": "MySql\u57FA\u790E",
-    "description": "mysql"
-  },
-  "excerpt": "",
-  "headers": [
-    {
-      "level": 2,
-      "title": "MySql\u5B89\u88C5",
-      "slug": "mysql\u5B89\u88C5",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u5B89\u88C5 navicat",
-      "slug": "\u5B89\u88C5-navicat",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u57FA\u672C\u547D\u4EE4\u884C",
-      "slug": "\u57FA\u672C\u547D\u4EE4\u884C",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u64CD\u4F5C\u6570\u636E\u5E93",
-      "slug": "\u64CD\u4F5C\u6570\u636E\u5E93",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u64CD\u4F5C\u8868",
-      "slug": "\u64CD\u4F5C\u8868",
-      "children": [
-        {
-          "level": 3,
-          "title": "1.\u6570\u636E\u7C7B\u578B",
-          "slug": "_1-\u6570\u636E\u7C7B\u578B",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "2.\u5B57\u6BB5\u5C5E\u6027\uFF08\u91CD\u8981\uFF09",
-          "slug": "_2-\u5B57\u6BB5\u5C5E\u6027-\u91CD\u8981",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "3.\u6570\u636E\u5E93\u5F15\u64CE\u548C\u7F16\u7801",
-          "slug": "_3-\u6570\u636E\u5E93\u5F15\u64CE\u548C\u7F16\u7801",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "4.\u5B57\u6BB5\u5220\u9664\u548C\u4FEE\u6539",
-          "slug": "_4-\u5B57\u6BB5\u5220\u9664\u548C\u4FEE\u6539",
-          "children": []
-        }
-      ]
-    }
-  ],
-  "git": {
-    "updatedTime": 166393068e4,
-    "contributors": [
-      {
-        "name": "\u9648\u67D2",
-        "email": "3062995371@qq.com",
-        "commits": 5
-      }
-    ]
-  },
-  "filePathRelative": "java/mysql/01.mysql.md"
-};
-var _01_mysql_html = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  data: data$J
-});
-const data$I = {
-  "key": "v-4f12841a",
-  "path": "/java/mysql/02.mysql%E6%95%B8%E6%93%9A%E7%AE%A1%E7%90%86.html",
-  "title": "\u6578\u64DA\u7BA1\u7406",
-  "lang": "zh-CN",
-  "frontmatter": {
-    "lang": "zh-CN",
-    "title": "\u6578\u64DA\u7BA1\u7406",
-    "description": "mysql"
-  },
-  "excerpt": "",
-  "headers": [
-    {
-      "level": 2,
-      "title": "\u5916\u9375",
-      "slug": "\u5916\u9375",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "DML \u8A9E\u8A00",
-      "slug": "dml-\u8A9E\u8A00",
-      "children": [
-        {
-          "level": 3,
-          "title": "\u63D2\u5165",
-          "slug": "\u63D2\u5165",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u4FEE\u6539",
-          "slug": "\u4FEE\u6539",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u522A\u9664",
-          "slug": "\u522A\u9664",
-          "children": []
-        }
-      ]
-    },
-    {
-      "level": 2,
-      "title": "DQL \u67E5\u8A62\u6578\u64DA",
-      "slug": "dql-\u67E5\u8A62\u6578\u64DA",
-      "children": [
-        {
-          "level": 3,
-          "title": "\u67E5\u8A62",
-          "slug": "\u67E5\u8A62",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u53BB\u91CD",
-          "slug": "\u53BB\u91CD",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "where \u689D\u4EF6\u5B57\u53E5",
-          "slug": "where-\u689D\u4EF6\u5B57\u53E5",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u6A21\u7CCA\u67E5\u8A62",
-          "slug": "\u6A21\u7CCA\u67E5\u8A62",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u806F\u8868\u67E5\u8A62",
-          "slug": "\u806F\u8868\u67E5\u8A62",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u81EA\u9023\u63A5\u53CA\u9023\u8868\u67E5\u8A62",
-          "slug": "\u81EA\u9023\u63A5\u53CA\u9023\u8868\u67E5\u8A62",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u5206\u9801\uFF08limit\uFF09\u548C\u6392\u5E8F\uFF08order by\uFF09",
-          "slug": "\u5206\u9801-limit-\u548C\u6392\u5E8F-order-by",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u81EA\u67E5\u8A62\u548C\u5D4C\u5957\u67E5\u8A62",
-          "slug": "\u81EA\u67E5\u8A62\u548C\u5D4C\u5957\u67E5\u8A62",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "MySQL \u51FD\u6578",
-          "slug": "mysql-\u51FD\u6578",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "\u805A\u5408\u51FD\u6578",
-          "slug": "\u805A\u5408\u51FD\u6578",
-          "children": []
-        }
-      ]
-    }
-  ],
-  "git": {
-    "updatedTime": 1663839e6,
-    "contributors": [
-      {
-        "name": "\u9648\u67D2",
-        "email": "3062995371@qq.com",
-        "commits": 2
-      }
-    ]
-  },
-  "filePathRelative": "java/mysql/02.mysql\u6578\u64DA\u7BA1\u7406.md"
-};
-var _02_mysql_____html = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  data: data$I
-});
-const data$H = {
-  "key": "v-363b4215",
-  "path": "/java/mysql/03.mysql%E4%BA%8B%E5%8B%99.html",
-  "title": "MySql\u4E8B\u52D9",
-  "lang": "zh-CN",
-  "frontmatter": {
-    "lang": "zh-CN",
-    "title": "MySql\u4E8B\u52D9",
-    "description": "mysql"
-  },
-  "excerpt": "",
-  "headers": [
-    {
-      "level": 2,
-      "title": "\u4E8B\u52D9\uFF08ACID\uFF09\u539F\u5247",
-      "slug": "\u4E8B\u52D9-acid-\u539F\u5247",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u4E8B\u52D9\u7DF4\u7FD2",
-      "slug": "\u4E8B\u52D9\u7DF4\u7FD2",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u6743\u9650\u7BA1\u7406\u548C\u7528\u6237\u7BA1\u7406",
-      "slug": "\u6743\u9650\u7BA1\u7406\u548C\u7528\u6237\u7BA1\u7406",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "mysql\u5907\u4EFD",
-      "slug": "mysql\u5907\u4EFD",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u6570\u636E\u5E93\u4E09\u5927\u8303\u5F0F",
-      "slug": "\u6570\u636E\u5E93\u4E09\u5927\u8303\u5F0F",
-      "children": []
-    }
-  ],
-  "git": {
-    "updatedTime": 1663839e6,
-    "contributors": [
-      {
-        "name": "\u9648\u67D2",
-        "email": "3062995371@qq.com",
-        "commits": 1
-      }
-    ]
-  },
-  "filePathRelative": "java/mysql/03.mysql\u4E8B\u52D9.md"
-};
-var _03_mysql___html = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  data: data$H
-});
-const data$G = {
-  "key": "v-39d72d95",
-  "path": "/java/mysql/04.JDBC.html",
-  "title": "JDBC",
-  "lang": "zh-CN",
-  "frontmatter": {
-    "lang": "zh-CN",
-    "title": "JDBC",
-    "description": "mysql"
-  },
-  "excerpt": "",
-  "headers": [
-    {
-      "level": 2,
-      "title": "\u7B2C\u4E00\u500B JDBC \u7A0B\u5E8F",
-      "slug": "\u7B2C\u4E00\u500B-jdbc-\u7A0B\u5E8F",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "Statement \u5C0D\u8C61",
-      "slug": "statement-\u5C0D\u8C61",
-      "children": []
-    },
-    {
-      "level": 2,
-      "title": "\u5C01\u88DD\u6578\u64DA\u5EAB util",
-      "slug": "\u5C01\u88DD\u6578\u64DA\u5EAB-util",
-      "children": []
-    }
-  ],
-  "git": {
-    "updatedTime": 166393068e4,
-    "contributors": [
-      {
-        "name": "\u9648\u67D2",
-        "email": "3062995371@qq.com",
-        "commits": 2
-      }
-    ]
-  },
-  "filePathRelative": "java/mysql/04.JDBC.md"
-};
-var _04_JDBC_html = /* @__PURE__ */ Object.freeze({
-  __proto__: null,
-  [Symbol.toStringTag]: "Module",
-  data: data$G
-});
-const data$F = {
   "key": "v-061c80c6",
   "path": "/java/Linux/01.Linux%E5%85%A5%E9%97%A8.html",
   "title": "Linux\u5165\u95E8",
@@ -19874,6 +19559,327 @@ const data$F = {
   "filePathRelative": "java/Linux/01.Linux\u5165\u95E8.md"
 };
 var _01_Linux___html = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  data: data$J
+});
+const data$I = {
+  "key": "v-6785e53a",
+  "path": "/java/mysql/01.mysql.html",
+  "title": "MySql\u57FA\u790E",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "lang": "zh-CN",
+    "title": "MySql\u57FA\u790E",
+    "description": "mysql"
+  },
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 2,
+      "title": "MySql\u5B89\u88C5",
+      "slug": "mysql\u5B89\u88C5",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u5B89\u88C5 navicat",
+      "slug": "\u5B89\u88C5-navicat",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u57FA\u672C\u547D\u4EE4\u884C",
+      "slug": "\u57FA\u672C\u547D\u4EE4\u884C",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u64CD\u4F5C\u6570\u636E\u5E93",
+      "slug": "\u64CD\u4F5C\u6570\u636E\u5E93",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u64CD\u4F5C\u8868",
+      "slug": "\u64CD\u4F5C\u8868",
+      "children": [
+        {
+          "level": 3,
+          "title": "1.\u6570\u636E\u7C7B\u578B",
+          "slug": "_1-\u6570\u636E\u7C7B\u578B",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "2.\u5B57\u6BB5\u5C5E\u6027\uFF08\u91CD\u8981\uFF09",
+          "slug": "_2-\u5B57\u6BB5\u5C5E\u6027-\u91CD\u8981",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "3.\u6570\u636E\u5E93\u5F15\u64CE\u548C\u7F16\u7801",
+          "slug": "_3-\u6570\u636E\u5E93\u5F15\u64CE\u548C\u7F16\u7801",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "4.\u5B57\u6BB5\u5220\u9664\u548C\u4FEE\u6539",
+          "slug": "_4-\u5B57\u6BB5\u5220\u9664\u548C\u4FEE\u6539",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "git": {
+    "updatedTime": 166393068e4,
+    "contributors": [
+      {
+        "name": "\u9648\u67D2",
+        "email": "3062995371@qq.com",
+        "commits": 5
+      }
+    ]
+  },
+  "filePathRelative": "java/mysql/01.mysql.md"
+};
+var _01_mysql_html = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  data: data$I
+});
+const data$H = {
+  "key": "v-4f12841a",
+  "path": "/java/mysql/02.mysql%E6%95%B8%E6%93%9A%E7%AE%A1%E7%90%86.html",
+  "title": "\u6578\u64DA\u7BA1\u7406",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "lang": "zh-CN",
+    "title": "\u6578\u64DA\u7BA1\u7406",
+    "description": "mysql"
+  },
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 2,
+      "title": "\u5916\u9375",
+      "slug": "\u5916\u9375",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "DML \u8A9E\u8A00",
+      "slug": "dml-\u8A9E\u8A00",
+      "children": [
+        {
+          "level": 3,
+          "title": "\u63D2\u5165",
+          "slug": "\u63D2\u5165",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u4FEE\u6539",
+          "slug": "\u4FEE\u6539",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u522A\u9664",
+          "slug": "\u522A\u9664",
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "DQL \u67E5\u8A62\u6578\u64DA",
+      "slug": "dql-\u67E5\u8A62\u6578\u64DA",
+      "children": [
+        {
+          "level": 3,
+          "title": "\u67E5\u8A62",
+          "slug": "\u67E5\u8A62",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u53BB\u91CD",
+          "slug": "\u53BB\u91CD",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "where \u689D\u4EF6\u5B57\u53E5",
+          "slug": "where-\u689D\u4EF6\u5B57\u53E5",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u6A21\u7CCA\u67E5\u8A62",
+          "slug": "\u6A21\u7CCA\u67E5\u8A62",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u806F\u8868\u67E5\u8A62",
+          "slug": "\u806F\u8868\u67E5\u8A62",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u81EA\u9023\u63A5\u53CA\u9023\u8868\u67E5\u8A62",
+          "slug": "\u81EA\u9023\u63A5\u53CA\u9023\u8868\u67E5\u8A62",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u5206\u9801\uFF08limit\uFF09\u548C\u6392\u5E8F\uFF08order by\uFF09",
+          "slug": "\u5206\u9801-limit-\u548C\u6392\u5E8F-order-by",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u81EA\u67E5\u8A62\u548C\u5D4C\u5957\u67E5\u8A62",
+          "slug": "\u81EA\u67E5\u8A62\u548C\u5D4C\u5957\u67E5\u8A62",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "MySQL \u51FD\u6578",
+          "slug": "mysql-\u51FD\u6578",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "\u805A\u5408\u51FD\u6578",
+          "slug": "\u805A\u5408\u51FD\u6578",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "git": {
+    "updatedTime": 1663839e6,
+    "contributors": [
+      {
+        "name": "\u9648\u67D2",
+        "email": "3062995371@qq.com",
+        "commits": 2
+      }
+    ]
+  },
+  "filePathRelative": "java/mysql/02.mysql\u6578\u64DA\u7BA1\u7406.md"
+};
+var _02_mysql_____html = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  data: data$H
+});
+const data$G = {
+  "key": "v-363b4215",
+  "path": "/java/mysql/03.mysql%E4%BA%8B%E5%8B%99.html",
+  "title": "MySql\u4E8B\u52D9",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "lang": "zh-CN",
+    "title": "MySql\u4E8B\u52D9",
+    "description": "mysql"
+  },
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 2,
+      "title": "\u4E8B\u52D9\uFF08ACID\uFF09\u539F\u5247",
+      "slug": "\u4E8B\u52D9-acid-\u539F\u5247",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u4E8B\u52D9\u7DF4\u7FD2",
+      "slug": "\u4E8B\u52D9\u7DF4\u7FD2",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u6743\u9650\u7BA1\u7406\u548C\u7528\u6237\u7BA1\u7406",
+      "slug": "\u6743\u9650\u7BA1\u7406\u548C\u7528\u6237\u7BA1\u7406",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "mysql\u5907\u4EFD",
+      "slug": "mysql\u5907\u4EFD",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u6570\u636E\u5E93\u4E09\u5927\u8303\u5F0F",
+      "slug": "\u6570\u636E\u5E93\u4E09\u5927\u8303\u5F0F",
+      "children": []
+    }
+  ],
+  "git": {
+    "updatedTime": 1663839e6,
+    "contributors": [
+      {
+        "name": "\u9648\u67D2",
+        "email": "3062995371@qq.com",
+        "commits": 1
+      }
+    ]
+  },
+  "filePathRelative": "java/mysql/03.mysql\u4E8B\u52D9.md"
+};
+var _03_mysql___html = /* @__PURE__ */ Object.freeze({
+  __proto__: null,
+  [Symbol.toStringTag]: "Module",
+  data: data$G
+});
+const data$F = {
+  "key": "v-39d72d95",
+  "path": "/java/mysql/04.JDBC.html",
+  "title": "JDBC",
+  "lang": "zh-CN",
+  "frontmatter": {
+    "lang": "zh-CN",
+    "title": "JDBC",
+    "description": "mysql"
+  },
+  "excerpt": "",
+  "headers": [
+    {
+      "level": 2,
+      "title": "\u7B2C\u4E00\u500B JDBC \u7A0B\u5E8F",
+      "slug": "\u7B2C\u4E00\u500B-jdbc-\u7A0B\u5E8F",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "Statement \u5C0D\u8C61",
+      "slug": "statement-\u5C0D\u8C61",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "\u5C01\u88DD\u6578\u64DA\u5EAB util",
+      "slug": "\u5C01\u88DD\u6578\u64DA\u5EAB-util",
+      "children": []
+    }
+  ],
+  "git": {
+    "updatedTime": 166393068e4,
+    "contributors": [
+      {
+        "name": "\u9648\u67D2",
+        "email": "3062995371@qq.com",
+        "commits": 2
+      }
+    ]
+  },
+  "filePathRelative": "java/mysql/04.JDBC.md"
+};
+var _04_JDBC_html = /* @__PURE__ */ Object.freeze({
   __proto__: null,
   [Symbol.toStringTag]: "Module",
   data: data$F
