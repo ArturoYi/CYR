@@ -104,8 +104,8 @@ export const navbar = [
       },
     ],
   },
-  // {
-  //   text: "项目实战",
-  //   link: "/actualCombat/README.md",
-  // },
+  {
+    text: "项目实战",
+    link: "/actualCombat/README.md",
+  },
 ];

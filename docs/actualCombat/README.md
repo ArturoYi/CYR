@@ -2,7 +2,4 @@
 home: true
 ---
 
-
-
-
 <MyTemplate></MyTemplate>
