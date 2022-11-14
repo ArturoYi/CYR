@@ -103,6 +103,12 @@ export const sidebar = {
       children: ["01.起步.md"],
     },
   ],
+  "/actualCombat/web前端工程化/01.介紹.md/": [
+    {
+      text: "《web前端工程化》",
+      children: ["01.起步.md"],
+    },
+  ],
   // fallback 侧边栏被最后定义
   "/": [""], //不能放在数组第一个，否则会导致右侧栏无法使用
 };

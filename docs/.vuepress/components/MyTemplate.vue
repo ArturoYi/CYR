@@ -21,10 +21,13 @@ export default {
           about: "",
           link: "/actualCombat/Flutter工程实战/01.起步.md/",
         },
-        { name: "2", about: "", link: "" },
+        { name: "web前端工程化", about: "", link: "/actualCombat/web前端工程化/01.介紹.md/" },
         { name: "3", about: "", link: "" },
       ],
     };
+  },
+  created(){
+    console.log('1')
   },
   methods: {
     test(e) {
@@ -35,6 +38,9 @@ export default {
   },
 };
 </script><style>
+.anchor-down {
+  display: none;
+}
 .test {
   height: 100%;
   margin-top: 50px;
