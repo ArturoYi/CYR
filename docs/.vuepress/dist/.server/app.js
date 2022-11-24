@@ -5801,7 +5801,12 @@ var _01____html$8 = /* @__PURE__ */ Object.freeze({
 });
 const _sfc_main$17 = {};
 function _sfc_ssrRender$V(_ctx, _push, _parent, _attrs) {
-  _push(`<!--[--><h1 id="web\u524D\u7AEF\u5DE5\u7A0B\u5316" tabindex="-1"><a class="header-anchor" href="#web\u524D\u7AEF\u5DE5\u7A0B\u5316" aria-hidden="true">#</a> web\u524D\u7AEF\u5DE5\u7A0B\u5316</h1><h2 id="\u6982\u8FF0" tabindex="-1"><a class="header-anchor" href="#\u6982\u8FF0" aria-hidden="true">#</a> \u6982\u8FF0</h2><p>\u7C21\u55AE\u6982\u62EC\u524D\u7AEF\u5DE5\u7A0B\u5316\u5C31\u662F\uFF1A</p><ul><li>\u6A19\u6E96\u5316\uFF1A\u5B9A\u7FA9\u5718\u968A\u7DE8\u78BC\uFF0C\u9805\u76EE\u7D50\u69CB\u7B49\u898F\u7BC4\u3002</li><li>\u7D44\u4EF6\u5316\uFF1A\u62C6\u5206\u7368\u7ACB\u548C\u53EF\u8907\u7528\u7684\u6A21\u584A\uFF0C\u57FA\u65BCHTML,CSS,JS\u3002</li><li>\u6A21\u584A\u5316\uFF1A\u985E\u4F3C\u65BC\u529F\u80FD\u5C01\u88DD\u4EE5\u53CA\u4E00\u4E9B\u5EAB\u7684\u7D71\u4E00\u4F7F\u7528\u3002</li><li>\u81EA\u52D5\u5316\uFF1A\u6301\u7E8C\u96C6\u6210\u548C\u7A0B\u5E8F\u90E8\u7F72\u3002</li></ul><p>\u5F80\u5F80\u63D0\u9AD8\u6548\u7387\u548C\u8CEA\u91CF\u7684\u540C\u6642\u964D\u4F4E\u6210\u672C\uFF0C\u6B64\u6559\u7A0B\u57FA\u65BC<code>vue3</code>,<code>vite</code>,<code>ts</code>\u7B49\u4E3B\u6D41\u6846\u67B6\u69CB\u5EFA\uFF0C\u5305\u542B\u4E00\u4E9B\u4F01\u696D\u4E2D\u7684\u5B8C\u6574\u958B\u767C\u6D41\u7A0B\u3002</p><p>\u5927\u7DB1\uFF08\u90E8\u5206\uFF09\uFF1A</p><ol><li>\u9805\u76EE\u521D\u59CB\u5316</li><li>\u7DE8\u78BC\u898F\u7BC4\u548C\u63D0\u4EA4\u898F\u7BC4</li><li>\u696D\u52D9\u5EAB\u7684\u9078\u64C7\u548C\u8003\u616E</li><li>\u696D\u52D9\u7684\u8A2D\u8A08\u548C\u958B\u767C</li><li>\u6301\u7E8C\u96C6\u6210\u548C\u7A0B\u5E8F\u90E8\u7F72</li></ol><!--]-->`);
+  const _component_ExternalLinkIcon = vue.resolveComponent("ExternalLinkIcon");
+  _push(`<!--[--><h1 id="web\u524D\u7AEF\u5DE5\u7A0B\u5316" tabindex="-1"><a class="header-anchor" href="#web\u524D\u7AEF\u5DE5\u7A0B\u5316" aria-hidden="true">#</a> web\u524D\u7AEF\u5DE5\u7A0B\u5316</h1><p>\u5730\u5740\uFF1A<a href="https://github.com/540765/cms-template" target="_blank" rel="noopener noreferrer">https://github.com/540765/cms-template`);
+  _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
+  _push(`</a></p><p>\u9884\u89C8\u5730\u5740\uFF1A<a href="https://iuui.netlify.app" target="_blank" rel="noopener noreferrer">https://iuui.netlify.app`);
+  _push(serverRenderer.ssrRenderComponent(_component_ExternalLinkIcon, null, null, _parent));
+  _push(`</a></p><h2 id="\u6982\u8FF0" tabindex="-1"><a class="header-anchor" href="#\u6982\u8FF0" aria-hidden="true">#</a> \u6982\u8FF0</h2><p>\u7C21\u55AE\u6982\u62EC\u524D\u7AEF\u5DE5\u7A0B\u5316\u5C31\u662F\uFF1A</p><ul><li>\u6A19\u6E96\u5316\uFF1A\u5B9A\u7FA9\u5718\u968A\u7DE8\u78BC\uFF0C\u9805\u76EE\u7D50\u69CB\u7B49\u898F\u7BC4\u3002</li><li>\u7D44\u4EF6\u5316\uFF1A\u62C6\u5206\u7368\u7ACB\u548C\u53EF\u8907\u7528\u7684\u6A21\u584A\uFF0C\u57FA\u65BCHTML,CSS,JS\u3002</li><li>\u6A21\u584A\u5316\uFF1A\u985E\u4F3C\u65BC\u529F\u80FD\u5C01\u88DD\u4EE5\u53CA\u4E00\u4E9B\u5EAB\u7684\u7D71\u4E00\u4F7F\u7528\u3002</li><li>\u81EA\u52D5\u5316\uFF1A\u6301\u7E8C\u96C6\u6210\u548C\u7A0B\u5E8F\u90E8\u7F72\u3002</li></ul><p>\u5F80\u5F80\u63D0\u9AD8\u6548\u7387\u548C\u8CEA\u91CF\u7684\u540C\u6642\u964D\u4F4E\u6210\u672C\uFF0C\u6B64\u6559\u7A0B\u57FA\u65BC<code>vue3</code>,<code>vite</code>,<code>ts</code>\u7B49\u4E3B\u6D41\u6846\u67B6\u69CB\u5EFA\uFF0C\u5305\u542B\u4E00\u4E9B\u4F01\u696D\u4E2D\u7684\u5B8C\u6574\u958B\u767C\u6D41\u7A0B\u3002</p><p>\u5927\u7DB1\uFF08\u90E8\u5206\uFF09\uFF1A</p><ol><li>\u9805\u76EE\u521D\u59CB\u5316</li><li>\u7DE8\u78BC\u898F\u7BC4\u548C\u63D0\u4EA4\u898F\u7BC4</li><li>\u696D\u52D9\u5EAB\u7684\u9078\u64C7\u548C\u8003\u616E</li><li>\u696D\u52D9\u7684\u8A2D\u8A08\u548C\u958B\u767C</li><li>\u6301\u7E8C\u96C6\u6210\u548C\u7A0B\u5E8F\u90E8\u7F72</li></ol><!--]-->`);
 }
 const _sfc_setup$17 = _sfc_main$17.setup;
 _sfc_main$17.setup = (props, ctx) => {
@@ -17969,12 +17974,12 @@ const data$10 = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": 1651677928e3,
+    "updatedTime": 16660901e5,
     "contributors": [
       {
         "name": "\u9648\u67D2",
         "email": "3062995371@qq.com",
-        "commits": 1
+        "commits": 2
       }
     ]
   },
@@ -18341,8 +18346,14 @@ const data$U = {
     }
   ],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 16660901e5,
+    "contributors": [
+      {
+        "name": "\u9648\u67D2",
+        "email": "3062995371@qq.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "actualCombat/web\u524D\u7AEF\u5DE5\u7A0B\u5316/01.\u4ECB\u7D39.md"
 };

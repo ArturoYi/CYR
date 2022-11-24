@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="generator" content="VuePress 2.0.0-beta.29">
     <link rel="icon" href="/images/favicon.ico"><title>路由管理 | IUUI</title><meta name="description" content="Flutter">
-    <link rel="modulepreload" href="/assets/app.f2065093.js"><link rel="modulepreload" href="/assets/04.路由管理.html.7047b1e0.js"><link rel="modulepreload" href="/assets/plugin-vue_export-helper.21dcd24c.js"><link rel="modulepreload" href="/assets/04.路由管理.html.15c09399.js">
+    <link rel="modulepreload" href="/assets/app.b80048b0.js"><link rel="modulepreload" href="/assets/04.路由管理.html.15048649.js"><link rel="modulepreload" href="/assets/plugin-vue_export-helper.21dcd24c.js"><link rel="modulepreload" href="/assets/04.路由管理.html.15c09399.js">
     <link rel="stylesheet" href="/assets/style.13617c07.css">
   </head>
   <body>
@@ -49,6 +49,6 @@
   <span class="token punctuation">}</span><span class="token punctuation">)</span>
 
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><ul><li>builder 是一个WidgetBuilder类型的回调函数，它的作用是构建路由页面的具体内容，返回值是一个widget。我们通常要实现此回调，返回新路由的实例。</li><li>settings 包含路由的配置信息，如路由名称、是否初始路由（首页）。</li><li>maintainState：默认情况下，当入栈一个新路由时，原来的路由仍然会被保存在内存中，如果想在路由没用的时候释放其所占用的所有资源，可以设置maintainState为 false。</li><li>fullscreenDialog表示新的路由页面是否是一个全屏的模态对话框，在 iOS 中，如果fullscreenDialog为true，新页面将会从屏幕底部滑入（而不是水平方向）。</li></ul><h2 id="navigator" tabindex="-1"><a class="header-anchor" href="#navigator" aria-hidden="true">#</a> Navigator</h2><p>Navigator是一个路由管理的组件，它提供了打开和退出路由页方法。Navigator通过一个栈来管理活动路由集合。通常当前屏幕显示的页面就是栈顶的路由。Navigator提供了一系列方法来管理路由栈，在此我们只介绍其最常用的两个方法：</p><blockquote><p>Future push(BuildContext context, Route route)</p></blockquote><p>将给定的路由入栈（即打开新的页面），返回值是一个Future对象，用以接收新路由出栈（即當前路由关闭）时的返回数据。</p><blockquote><p>bool pop(BuildContext context, [ result ])</p></blockquote><p>Navigator类中第一个参数为context的静态方法都对应一个Navigator的实例方法， 比如Navigator.push(BuildContext context, Route route)等价于Navigator.of(context).push(Route route) ，下面命名路由相关的方法也是一样的。</p><h2 id="路由傳值" tabindex="-1"><a class="header-anchor" href="#路由傳值" aria-hidden="true">#</a> 路由傳值</h2><!--]--></div><footer class="page-meta"><!----><div class="meta-item last-updated"><span class="meta-item-label">Last Updated: </span><!----></div><div class="meta-item contributors"><span class="meta-item-label">Contributors: </span><span class="meta-item-info"><!--[--><!--[--><span class="contributor" title="email: 3062995371@qq.com">陈柒</span><!----><!--]--><!--]--></span></div></footer><nav class="page-nav"><p class="inner"><span class="prev"><a href="/web/Flutter/03.widget.html" class="nav-link" aria-label="widget"><!--[--><!--]--> widget <!--[--><!--]--></a></span><span class="next"><a href="/web/Flutter/05.基础组件.md" class="nav-link" aria-label="05.基础组件.md"><!--[--><!--]--> 05.基础组件.md <!--[--><!--]--></a></span></p></nav><!--[--><!--]--></main><!--]--></div><!----><!--]--></div>
-    <script type="module" src="/assets/app.f2065093.js" defer></script>
+    <script type="module" src="/assets/app.b80048b0.js" defer></script>
   </body>
 </html>
