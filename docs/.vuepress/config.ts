@@ -9,7 +9,7 @@ export default defineUserConfig<DefaultThemeOptions>({
   // module.exports = {
   // host: 'localhost', // ip
   lang: 'zh-CN',
-  port: 9779, //端口号
+  port: 8999, //端口号
   title: 'IUUI', // 设置网站标题
   description: 'IUUI',
   base: '/', //默认路径
